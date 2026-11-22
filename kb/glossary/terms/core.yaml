@@ -1,0 +1,16 @@
+version: 1
+native_review: {kn: pending, hi: pending}
+terms:
+  lagna: {en: Ascendant, kn: ಲಗ್ನ, hi: लग्न}
+  rashi: {en: Zodiac sign, kn: ರಾಶಿ, hi: राशि}
+  nakshatra: {en: Lunar mansion, kn: ನಕ್ಷತ್ರ, hi: नक्षत्र}
+  pada: {en: Nakshatra quarter, kn: ನಕ್ಷತ್ರ ಪಾದ, hi: नक्षत्र चरण}
+  varga: {en: Divisional chart, kn: ವರ್ಗ ಕುಂಡಲಿ, hi: वर्ग कुंडली}
+  dasha: {en: Dasha period, kn: ದಶಾ ಅವಧಿ, hi: दशा अवधि}
+  gochara: {en: Transit, kn: ಗೋಚಾರ, hi: गोचर}
+  panchang: {en: Panchang, kn: ಪಂಚಾಂಗ, hi: पंचांग}
+  muhurta: {en: Muhurta, kn: ಮುಹೂರ್ತ, hi: मुहूर्त}
+  prashna: {en: Horary chart, kn: ಪ್ರಶ್ನ ಕುಂಡಲಿ, hi: प्रश्न कुंडली}
+  shadbala: {en: Sixfold planetary strength, kn: ಷಡ್ಬಲ, hi: षड्बल}
+  ashtakavarga: {en: Ashtakavarga, kn: ಅಷ್ಟಕವರ್ಗ, hi: अष्टकवर्ग}
+  koota: {en: Traditional matching factor, kn: ಕೂಟ, hi: कूट}

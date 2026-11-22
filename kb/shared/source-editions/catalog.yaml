@@ -1,0 +1,15 @@
+version: 1
+# A work is a lookup target. Only a verified edition with a checked passage can support approval.
+works:
+  bphs: Brihat Parashara Hora Shastra
+  phaladeepika: Phaladeepika
+  saravali: Saravali
+  jataka-parijata: Jataka Parijata
+  kp-readers: KP Readers
+  jaimini-sutras: Jaimini Sutras
+editions: {}
+edition_contract:
+  required: [work_id, edition_id, title_as_printed, language, publication_details, verified_by]
+  publication_details: Identify the specific imprint or manuscript, year or edition statement, translator or editor where credited, and volume for a multi-volume work.
+  locator: Record chapter and verse where numbered, otherwise a precise page, section or stable object ID. Cite the actual edition consulted.
+  draft_handling: An unresolved edition is null. Mark verification pending and record the missing evidence.

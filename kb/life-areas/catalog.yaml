@@ -1,0 +1,17 @@
+version: 1
+# Keys are stable. English display names follow PRD 8.10 and can be revised independently.
+areas:
+  career: {en: Career & work, release: MVP}
+  love-marriage: {en: Love & marriage, release: MVP}
+  money: {en: Money & wealth, release: MVP}
+  health: {en: Health & energy, release: MVP}
+  family-home: {en: Family & home, release: MVP}
+  learning: {en: Learning & growth, release: MVP}
+  travel-relocation: {en: Travel & abroad, release: R2}
+  property-vehicles: {en: Property & vehicles, release: R2}
+  children: {en: Children, release: R2}
+  business: {en: Business, release: R2}
+  spirituality: {en: Spirituality, release: R2}
+detail_slots: [present-situation, upcoming-periods, concerns-to-watch, what-you-can-do]
+checker_ids: [business-name, mobile-number, personal-baby-name, house-relocation, vehicle-number, big-decision-muhurta]
+tag_availability: All keys are available for tagging independently of the area screen release.

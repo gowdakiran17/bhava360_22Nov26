@@ -1,0 +1,24 @@
+version: 1
+value_types: [integer, decimal, boolean, enum, instant, interval]
+instant_format: ISO 8601 with explicit UTC offset
+interval_bounds: start-inclusive-end-exclusive
+operators: {eq: same-type literal, in: membership in a nonempty list of same-type literals}
+groups: {all: every child, any: at least one child, not: single child}
+unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
+facts:
+  d1.jupiter.house_from_lagna:
+    producer: vedic.d1
+    type: integer
+    range: [1, 12]
+    unit: whole-sign house
+    origin: natal ascendant sign counted as one
+    dependencies: [birth-instant, birth-place, reliable-lagna, vedic-lahiri-v1]
+    unknown_if: Ascendant is unavailable or changes sign across the time uncertainty interval.
+  d1.jupiter.sign_distance_from_moon_inclusive:
+    producer: vedic.d1
+    type: integer
+    range: [1, 12]
+    unit: sign count
+    origin: natal Moon sign counted as one
+    dependencies: [birth-date, supported-time-interval, moon-sign, jupiter-sign, vedic-lahiri-v1]
+    unknown_if: The inclusive distance cannot be established throughout the supported interval.

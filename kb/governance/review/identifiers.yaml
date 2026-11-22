@@ -1,0 +1,12 @@
+version: 1
+rule_id:
+  format: system.topic-key.slug
+  pattern: '^[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*$'
+  allocation: Reserve once. For a nested topic, join path segments with a hyphen and check the resulting ID for uniqueness.
+  revision: Keep the ID for copy, source-locator and translation corrections. Issue a new ID for a different formation, school or reference point. Retain a superseded record for historical readings.
+  systems: [vedic, jaimini, kp, western, numerology, vastu, tarot, palmistry, lal-kitab, face-reading]
+  uniqueness_scope: all production rule files
+locales: [en, kn, hi]
+approval_path: [draft, validated, approved]
+confidence_values: [high, medium, disputed]
+public_gate: Require approved rule, verified citations, approved convention, native-reviewed copy and matched evidence.
