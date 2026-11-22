@@ -1,0 +1,91 @@
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+edition: brihat-jataka-iyer-brihatjataka00varaiala
+locator: I.6
+signs:
+- id: aries
+  number: 1
+  labels:
+    en: Aries
+    kn: ಮೇಷ
+    hi: मेष
+  lord: mars
+- id: taurus
+  number: 2
+  labels:
+    en: Taurus
+    kn: ವೃಷಭ
+    hi: वृषभ
+  lord: venus
+- id: gemini
+  number: 3
+  labels:
+    en: Gemini
+    kn: ಮಿಥುನ
+    hi: मिथुन
+  lord: mercury
+- id: cancer
+  number: 4
+  labels:
+    en: Cancer
+    kn: ಕರ್ಕಾಟಕ
+    hi: कर्क
+  lord: moon
+- id: leo
+  number: 5
+  labels:
+    en: Leo
+    kn: ಸಿಂಹ
+    hi: सिंह
+  lord: sun
+- id: virgo
+  number: 6
+  labels:
+    en: Virgo
+    kn: ಕನ್ಯಾ
+    hi: कन्या
+  lord: mercury
+- id: libra
+  number: 7
+  labels:
+    en: Libra
+    kn: ತುಲಾ
+    hi: तुला
+  lord: venus
+- id: scorpio
+  number: 8
+  labels:
+    en: Scorpio
+    kn: ವೃಶ್ಚಿಕ
+    hi: वृश्चिक
+  lord: mars
+- id: sagittarius
+  number: 9
+  labels:
+    en: Sagittarius
+    kn: ಧನು
+    hi: धनु
+  lord: jupiter
+- id: capricorn
+  number: 10
+  labels:
+    en: Capricorn
+    kn: ಮಕರ
+    hi: मकर
+  lord: saturn
+- id: aquarius
+  number: 11
+  labels:
+    en: Aquarius
+    kn: ಕುಂಭ
+    hi: कुंभ
+  lord: saturn
+- id: pisces
+  number: 12
+  labels:
+    en: Pisces
+    kn: ಮೀನ
+    hi: मीन
+  lord: jupiter

@@ -22,3 +22,11 @@ facts:
     origin: natal Moon sign counted as one
     dependencies: [birth-date, supported-time-interval, moon-sign, jupiter-sign, vedic-lahiri-v1]
     unknown_if: The inclusive distance cannot be established throughout the supported interval.
+  d1.lagna.sign:
+    producer: vedic.d1
+    type: enum
+    values: [aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces]
+    unit: sidereal sign
+    origin: natal ascendant
+    dependencies: [birth-instant, birth-place, reliable-lagna, vedic-lahiri-v1]
+    unknown_if: Time is unknown or the ascendant sign varies within the supported interval.

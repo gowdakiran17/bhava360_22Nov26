@@ -8,7 +8,20 @@ works:
   kp-readers: KP Readers
   jaimini-sutras: Jaimini Sutras
   sepharial-astrology: "Astrology: How to Make and Read Your Own Horoscope"
+  brihat-jataka: Brihat Jataka
 editions:
+  brihat-jataka-iyer-brihatjataka00varaiala:
+    work_id: brihat-jataka
+    edition_id: brihat-jataka-iyer-brihatjataka00varaiala
+    title_as_printed: The Brihat Jataka
+    language: en
+    publication_details: N. Chidambaram Iyer translation, scan identifier brihatjataka00varaiala.
+    verified_by: Passages inspected in digitized scan
+    text: https://www.wilbourhall.org/pdfs/brihatjataka00varaiala.pdf
+    locators:
+    - I.6 and notes
+    - I.13–16
+    - II.13
   sepharial-1920-pg46963:
     work_id: sepharial-astrology
     edition_id: sepharial-1920-pg46963

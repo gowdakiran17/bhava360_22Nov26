@@ -95,3 +95,5 @@ Use a shared activity catalogue for everyday travel, starting work, purchase, si
 8. Add R2 deep vargas, Yogini, Jaimini/Chara, Prashna, KP, Dashakoota and full house Vastu form. Extend the five additional life areas, reports and notifications.
 9. Fill Western natal/transit/synastry, full numerology schools and tarot's 78 cards, orientations, spreads and journal.
 10. Fill R3 palmistry, Western progressions/solar arc/composite, custom tarot and lessons. Stage Lal Kitab, full Vastu, face reflection, annual charts, rectification, festivals and family Together under their release flags. On-hold subjects require a new product decision.
+
+The [Parashari D1 guide](vedic/D1.md) explains how to combine the registers, identify house lords and handle uncertain birth times.

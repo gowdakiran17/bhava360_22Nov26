@@ -1,0 +1,43 @@
+approval: draft
+edition: brihat-jataka-iyer-brihatjataka00varaiala
+locator: I.6, I.13–14
+own_sign: Match the sign lord to the graha.
+scope: Independent sign memberships. Keep overlapping flags, including Mercury in Virgo. Peak degree is a separate
+  point. Moolatrikona sign alone does not establish degree-specific dignity.
+node_dignity: unassigned
+grahas:
+  sun:
+    exaltation: aries
+    debilitation: libra
+    peak_degree_within_sign: 10
+    moolatrikona_sign: leo
+  moon:
+    exaltation: taurus
+    debilitation: scorpio
+    peak_degree_within_sign: 3
+    moolatrikona_sign: taurus
+  mars:
+    exaltation: capricorn
+    debilitation: cancer
+    peak_degree_within_sign: 28
+    moolatrikona_sign: aries
+  mercury:
+    exaltation: virgo
+    debilitation: pisces
+    peak_degree_within_sign: 15
+    moolatrikona_sign: virgo
+  jupiter:
+    exaltation: cancer
+    debilitation: capricorn
+    peak_degree_within_sign: 5
+    moolatrikona_sign: sagittarius
+  venus:
+    exaltation: pisces
+    debilitation: virgo
+    peak_degree_within_sign: 27
+    moolatrikona_sign: libra
+  saturn:
+    exaltation: libra
+    debilitation: aries
+    peak_degree_within_sign: 20
+    moolatrikona_sign: aquarius

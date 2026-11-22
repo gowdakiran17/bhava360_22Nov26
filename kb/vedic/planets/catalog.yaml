@@ -1,0 +1,44 @@
+version: 1
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+grahas:
+  sun:
+    en: Sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+  moon:
+    en: Moon
+    kn: ಚಂದ್ರ
+    hi: चंद्र
+  mars:
+    en: Mars
+    kn: ಮಂಗಳ
+    hi: मंगल
+  mercury:
+    en: Mercury
+    kn: ಬುಧ
+    hi: बुध
+  jupiter:
+    en: Jupiter
+    kn: ಗುರು
+    hi: गुरु
+  venus:
+    en: Venus
+    kn: ಶುಕ್ರ
+    hi: शुक्र
+  saturn:
+    en: Saturn
+    kn: ಶನಿ
+    hi: शनि
+  rahu:
+    en: Rahu
+    kn: ರಾಹು
+    hi: राहु
+  ketu:
+    en: Ketu
+    kn: ಕೇತು
+    hi: केतु
+node_definition: Rahu is the selected ascending lunar node. Ketu is its antipode. Record mean or true node in the
+  calculation result.

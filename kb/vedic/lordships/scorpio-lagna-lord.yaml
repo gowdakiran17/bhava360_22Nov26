@@ -1,0 +1,37 @@
+id: vedic.lordships.scorpio-lagna-lord
+system: vedic
+topic: lordships
+title: Scorpio rising and its sign lord
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: When the natal ascendant occupies Scorpio, select Mars as lord of the first whole-sign house.
+conditions:
+  all:
+  - fact: d1.lagna.sign
+    op: eq
+    value: scorpio
+meaning: Identifies the graha whose placement contributes to the explanation of the first house.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 6
+  other_locator: Sign rulers and accompanying notes
+  supports: sign lord
+  verification: verified
+confidence: high
+review_notes: Sign rulership is categorical. Personal effects require separate evidence. Native review pending.
+user_text:
+  en: Your rising sign is Scorpio. You can look at Mars when exploring your first house.
+  kn: ನಿಮ್ಮ ಲಗ್ನ ವೃಶ್ಚಿಕ. ಮೊದಲ ಭಾವವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಅದರ ಅಧಿಪತಿಯ ಸ್ಥಾನವನ್ನು ನೋಡಬಹುದು. ಈ ಲಗ್ನದ ಅಧಿಪತಿ ಮಂಗಳ.
+  hi: आपका लग्न वृश्चिक है। पहले भाव को समझने के लिए आप उसके स्वामी की स्थिति देख सकते हैं। इस लग्न के स्वामी मंगल
+    हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

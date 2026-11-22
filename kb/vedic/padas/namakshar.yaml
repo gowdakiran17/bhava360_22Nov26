@@ -1,0 +1,145 @@
+approval: draft
+profile: nitya-deepam-roman-v1
+source: https://www.nityadeepam.com/en/tools/baby-names/
+locator: Name syllables for each pada of the twenty-seven nakshatras, columns Pada 1 through Pada 4
+width_arcseconds: 12000
+scope: Lookup by stable birth Moon nakshatra ID and one-based pada. Roman tokens preserve this source’s spelling.
+  Local-script pronunciation needs native review, especially where Roman tokens coincide.
+traditions_differ: Regional lists vary, including Purva Ashadha and Uttara Bhadrapada. Keep each list under its
+  own profile.
+syllables:
+  ashwini:
+  - Chu
+  - Che
+  - Cho
+  - La
+  bharani:
+  - Li
+  - Lu
+  - Le
+  - Lo
+  krittika:
+  - A
+  - I
+  - U
+  - E
+  rohini:
+  - O
+  - Va
+  - Vi
+  - Vu
+  mrigashira:
+  - Ve
+  - Vo
+  - Ka
+  - Ki
+  ardra:
+  - Ku
+  - Gha
+  - Nga
+  - Chha
+  punarvasu:
+  - Ke
+  - Ko
+  - Ha
+  - Hi
+  pushya:
+  - Hu
+  - He
+  - Ho
+  - Da
+  ashlesha:
+  - Di
+  - Du
+  - De
+  - Do
+  magha:
+  - Ma
+  - Mi
+  - Mu
+  - Me
+  purva-phalguni:
+  - Mo
+  - Ta
+  - Ti
+  - Tu
+  uttara-phalguni:
+  - Te
+  - To
+  - Pa
+  - Pi
+  hasta:
+  - Pu
+  - Sha
+  - Na
+  - Tha
+  chitra:
+  - Pe
+  - Po
+  - Ra
+  - Ri
+  swati:
+  - Ru
+  - Re
+  - Ro
+  - Ta
+  vishakha:
+  - Ti
+  - Tu
+  - Te
+  - To
+  anuradha:
+  - Na
+  - Ni
+  - Nu
+  - Ne
+  jyeshtha:
+  - 'No'
+  - Ya
+  - Yi
+  - Yu
+  mula:
+  - Ye
+  - Yo
+  - Bha
+  - Bhi
+  purva-ashadha:
+  - Bhu
+  - Dha
+  - Pha
+  - Dha
+  uttara-ashadha:
+  - Bhe
+  - Bho
+  - Ja
+  - Ji
+  shravana:
+  - Ju
+  - Je
+  - Jo
+  - Gha
+  dhanishta:
+  - Ga
+  - Gi
+  - Gu
+  - Ge
+  shatabhisha:
+  - Go
+  - Sa
+  - Si
+  - Su
+  purva-bhadrapada:
+  - Se
+  - So
+  - Da
+  - Di
+  uttara-bhadrapada:
+  - Du
+  - Tha
+  - Jha
+  - Tra
+  revati:
+  - De
+  - Do
+  - Cha
+  - Chi
