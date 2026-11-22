@@ -7,7 +7,32 @@ works:
   jataka-parijata: Jataka Parijata
   kp-readers: KP Readers
   jaimini-sutras: Jaimini Sutras
-editions: {}
+  sepharial-astrology: "Astrology: How to Make and Read Your Own Horoscope"
+editions:
+  sepharial-1920-pg46963:
+    work_id: sepharial-astrology
+    edition_id: sepharial-1920-pg46963
+    title_as_printed: "Astrology: How to Make and Read Your Own Horoscope"
+    author: Sepharial
+    language: en
+    system: western
+    publication_details: Revised and enlarged edition, Advanced Thought Pub. Co., Chicago, 1920. Project Gutenberg transcription 46963, released 2014-09-25.
+    verified_by: Codex, against the transcription note, title page and repository metadata
+    text: https://github.com/GITenberg/Astrology-How-to-Make-and-Read-Your-Own-Horoscope_46963/blob/e8bb13f5fdcf8c0d6e89ca900fab54be7391195d/46963-8.txt
+    rights_evidence: https://github.com/GITenberg/Astrology-How-to-Make-and-Read-Your-Own-Horoscope_46963/blob/e8bb13f5fdcf8c0d6e89ca900fab54be7391195d/metadata.yaml
+    rights_scope: Repository metadata identifies US public-domain status. The transcription includes Project Gutenberg terms and a jurisdiction notice.
+    use: Western natal research. For each proposed reading, record its chapter and specific passage and paraphrase in the app's voice.
+implementation_references:
+  vedastro-library:
+    system: vedic
+    repository: https://github.com/VedAstro/VedAstro
+    revision: 4d14da8ae07560d5a4d8ba95ea6f5f5cf997e298
+    calculation_directory: Library/Logic/Calculate
+    scope_evidence: https://github.com/VedAstro/VedAstro/blob/4d14da8ae07560d5a4d8ba95ea6f5f5cf997e298/README.md
+    rights_evidence: https://github.com/VedAstro/VedAstro/blob/4d14da8ae07560d5a4d8ba95ea6f5f5cf997e298/LICENSE.md
+    repository_license: MIT
+    license_scope: The software notice requires retaining copyright and permission notices with copies or substantial portions. Linked books, third-party assets and dependencies require their own rights records.
+    use: Cross-check implementations for charts, divisional charts, matching and Panchang. Record the exact function, revision, inputs and convention before comparing a result. Interpretive claims still require an edition and passage.
 edition_contract:
   required: [work_id, edition_id, title_as_printed, language, publication_details, verified_by]
   publication_details: Identify the specific imprint or manuscript, year or edition statement, translator or editor where credited, and volume for a multi-volume work.
