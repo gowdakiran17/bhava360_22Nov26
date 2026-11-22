@@ -1,0 +1,35 @@
+id: kp.ruling-planets.repeated-lord
+system: kp
+topic: ruling-planets
+title: Repeated Lord
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: One identified ruling planet fills more than one recorded role at question time.
+conditions:
+  fact: kp.ruling.repeated_lord
+  op: eq
+  value: true
+meaning: You can explore why the same planet appears twice in this question.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: KP Readers
+  work_id: kp-readers
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Ruling planets
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore why the same planet appears twice in this question.
+  kn: ಈ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಒಂದೇ ಗ್ರಹ ಎರಡು ಬಾರಿ ಕಾಣಿಸುವ ಕಾರಣ ನೋಡಬಹುದು.
+  hi: इस प्रश्न में एक ही ग्रह दो बार क्यों आया है, यह देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

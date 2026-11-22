@@ -1,0 +1,35 @@
+id: numerology.chaldean.compound-33
+system: numerology
+topic: chaldean
+title: Compound 33
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The unreduced Chaldean sum is 33.
+conditions:
+  fact: number.chaldean.compound
+  op: eq
+  value: 33
+meaning: accepting support
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Cheiro’s Book of Numbers
+  work_id: cheiro-s-book-of-numbers
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Compound number 33, edition check pending.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might consider accepting support when comparing this name.
+  kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಬೆಂಬಲ ಸ್ವೀಕಾರ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस नाम की तुलना करते समय “सहयोग स्वीकारना” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

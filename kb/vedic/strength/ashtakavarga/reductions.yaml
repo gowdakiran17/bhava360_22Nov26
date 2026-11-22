@@ -1,0 +1,56 @@
+version: 1
+approval: draft
+reference: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/chart/ashtakavarga.py
+order:
+- raw BAV
+- trine minimum subtraction
+- same-owner pair reduction
+- weighted pinda
+same_owner_pairs:
+- Aries/Scorpio
+- Taurus/Libra
+- Gemini/Virgo
+- Sagittarius/Pisces
+- Capricorn/Aquarius
+occupancy: Pin whether nodes or Lagna count as occupants. Never mix occupancy definitions between worked examples.
+cases:
+  either_zero_or_both_occupied: Preserve both values.
+  both_empty_equal: Set both to zero.
+  both_empty_unequal: Set both to the smaller value.
+  one_occupied: Retain occupied value. Empty value becomes zero if less than or equal to occupied, otherwise reduce it to
+    the occupied value.
+rashi_weights:
+  pvr:
+  - 7
+  - 10
+  - 8
+  - 4
+  - 10
+  - 6
+  - 7
+  - 8
+  - 9
+  - 5
+  - 11
+  - 12
+  alternative:
+  - 7
+  - 10
+  - 8
+  - 4
+  - 10
+  - 5
+  - 7
+  - 8
+  - 9
+  - 5
+  - 11
+  - 12
+graha_weights_sun_through_saturn:
+- 5
+- 5
+- 8
+- 5
+- 10
+- 7
+- 5

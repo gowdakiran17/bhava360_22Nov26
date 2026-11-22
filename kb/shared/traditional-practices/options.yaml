@@ -1,0 +1,20 @@
+version: 1
+approval: draft
+label:
+  en: Traditional practice
+  kn: ಸಾಂಪ್ರದಾಯಿಕ ಅಭ್ಯಾಸ
+  hi: पारंपरिक अभ्यास
+conduct:
+  en: If you like, you can listen without interrupting today.
+  kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+  hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।
+charity:
+  en: If you wish, you can offer time or help within your means.
+  kn: ಬಯಸಿದರೆ ನಿಮ್ಮ ಅನುಕೂಲಕ್ಕೆ ತಕ್ಕಂತೆ ಸಮಯ ಅಥವಾ ಸಹಾಯ ನೀಡಬಹುದು.
+  hi: चाहें तो अपनी सुविधा के अनुसार समय या सहायता दे सकते हैं।
+mantra:
+  en: If it is part of your practice, you may repeat a familiar mantra quietly.
+  kn: ನಿಮ್ಮ ಅಭ್ಯಾಸವಾಗಿದ್ದರೆ ಪರಿಚಿತ ಮಂತ್ರವನ್ನು ಶಾಂತವಾಗಿ ಜಪಿಸಬಹುದು.
+  hi: यदि यह आपकी परंपरा है तो परिचित मंत्र का शांत जप कर सकते हैं।
+optional: true
+free: true

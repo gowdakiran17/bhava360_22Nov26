@@ -1,5 +1,4 @@
 version: 1
-# A work is a lookup target. Only a verified edition with a checked passage can support approval.
 works:
   bphs: Brihat Parashara Hora Shastra
   phaladeepika: Phaladeepika
@@ -7,8 +6,27 @@ works:
   jataka-parijata: Jataka Parijata
   kp-readers: KP Readers
   jaimini-sutras: Jaimini Sutras
-  sepharial-astrology: "Astrology: How to Make and Read Your Own Horoscope"
+  sepharial-astrology: 'Astrology: How to Make and Read Your Own Horoscope'
   brihat-jataka: Brihat Jataka
+  bhava360-original-tarot-reflections: Bhava360 original tarot reflections
+  bhava360-number-themes: Bhava360 number themes
+  bhava360-western-conventions: Bhava360 Western conventions
+  bhava360-palm-reflection-prompts: Bhava360 palm reflection prompts
+  bhava360-dwelling-observations: Bhava360 dwelling observations
+  bhava360-transit-conventions: Bhava360 transit conventions
+  bhava360-relocation-conventions: Bhava360 relocation conventions
+  bhava360-annual-conventions: Bhava360 annual conventions
+  lal-kitab: Lal Kitab
+  bhava360-reflection-policy: Bhava360 reflection policy
+  bhava360-chart-reflection-synthesis: Bhava360 chart reflection synthesis
+  bhava360-western-reflection-prompts: Bhava360 Western reflection prompts
+  bhava360-engine-and-reading-conventions: Bhava360 engine and reading conventions
+  bhava360-checker-conventions: Bhava360 checker conventions
+  cheiro-s-book-of-numbers: Cheiro’s Book of Numbers
+  bhava360-fixed-house-prompts: Bhava360 fixed-house prompts
+  waite-pictorial-key: The Pictorial Key to the Tarot
+  cheiro-palmistry: Palmistry for All
+  bhava360-area-composition: Bhava360 area composition
 editions:
   brihat-jataka-iyer-brihatjataka00varaiala:
     work_id: brihat-jataka
@@ -25,16 +43,145 @@ editions:
   sepharial-1920-pg46963:
     work_id: sepharial-astrology
     edition_id: sepharial-1920-pg46963
-    title_as_printed: "Astrology: How to Make and Read Your Own Horoscope"
+    title_as_printed: 'Astrology: How to Make and Read Your Own Horoscope'
     author: Sepharial
     language: en
     system: western
-    publication_details: Revised and enlarged edition, Advanced Thought Pub. Co., Chicago, 1920. Project Gutenberg transcription 46963, released 2014-09-25.
+    publication_details: Revised and enlarged edition, Advanced Thought Pub. Co., Chicago, 1920. Project Gutenberg transcription
+      46963, released 2014-09-25.
     verified_by: Codex, against the transcription note, title page and repository metadata
     text: https://github.com/GITenberg/Astrology-How-to-Make-and-Read-Your-Own-Horoscope_46963/blob/e8bb13f5fdcf8c0d6e89ca900fab54be7391195d/46963-8.txt
     rights_evidence: https://github.com/GITenberg/Astrology-How-to-Make-and-Read-Your-Own-Horoscope_46963/blob/e8bb13f5fdcf8c0d6e89ca900fab54be7391195d/metadata.yaml
-    rights_scope: Repository metadata identifies US public-domain status. The transcription includes Project Gutenberg terms and a jurisdiction notice.
-    use: Western natal research. For each proposed reading, record its chapter and specific passage and paraphrase in the app's voice.
+    rights_scope: Repository metadata identifies US public-domain status. The transcription includes Project Gutenberg terms
+      and a jurisdiction notice.
+    use: Western natal research. For each proposed reading, record its chapter and specific passage and paraphrase in the
+      app's voice.
+  phaladeepika-sastri-1950:
+    work_id: phaladeepika
+    edition_id: phaladeepika-sastri-1950
+    title_as_printed: Phaladeepika
+    language: en
+    publication_details: Mantreswara, V. Subrahmanya Sastri translation, second edition, 1950.
+    verified_by: Passage and index review in digitized second edition.
+    text: https://www.wisdomlib.org/uploads/ocr/essays/phaladeepika/phaladeepika-2nd-ed-1950-by-v-subrahmanya-sastri-text.pdf
+    verified_locators:
+    - VI.1 five angular grahas in own/exaltation signs
+    - VI.14,16 Kesari index
+    - VIII.16 Jupiter in tenth
+  waite-1910:
+    work_id: waite-pictorial-key
+    edition_id: waite-1910
+    title_as_printed: The Pictorial Key to the Tarot
+    language: en
+    publication_details: Arthur Edward Waite, William Rider & Son, 1910. Wikisource scan and transcription.
+    verified_by: Title and part structure checked against Wikisource.
+    text: https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot
+  cheiro-pg20480:
+    work_id: cheiro-palmistry
+    edition_id: cheiro-pg20480
+    title_as_printed: Palmistry for All
+    language: en
+    publication_details: Cheiro, Project Gutenberg eBook 20480, English electronic edition.
+    verified_by: Gutenberg catalogue and electronic text checked.
+    text: https://www.gutenberg.org/files/20480/20480-h/20480-h.htm
+  bhava360-engine-and-reading-conventions-v1:
+    work_id: bhava360-engine-and-reading-conventions
+    edition_id: bhava360-engine-and-reading-conventions-v1
+    title_as_printed: Bhava360 engine and reading conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-fixed-house-prompts-v1:
+    work_id: bhava360-fixed-house-prompts
+    edition_id: bhava360-fixed-house-prompts-v1
+    title_as_printed: Bhava360 fixed-house prompts
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-reflection-policy-v1:
+    work_id: bhava360-reflection-policy
+    edition_id: bhava360-reflection-policy-v1
+    title_as_printed: Bhava360 reflection policy
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-dwelling-observations-v1:
+    work_id: bhava360-dwelling-observations
+    edition_id: bhava360-dwelling-observations-v1
+    title_as_printed: Bhava360 dwelling observations
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-checker-conventions-v1:
+    work_id: bhava360-checker-conventions
+    edition_id: bhava360-checker-conventions-v1
+    title_as_printed: Bhava360 checker conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-palm-reflection-prompts-v1:
+    work_id: bhava360-palm-reflection-prompts
+    edition_id: bhava360-palm-reflection-prompts-v1
+    title_as_printed: Bhava360 palm reflection prompts
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-number-themes-v1:
+    work_id: bhava360-number-themes
+    edition_id: bhava360-number-themes-v1
+    title_as_printed: Bhava360 number themes
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-western-conventions-v1:
+    work_id: bhava360-western-conventions
+    edition_id: bhava360-western-conventions-v1
+    title_as_printed: Bhava360 Western conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-western-reflection-prompts-v1:
+    work_id: bhava360-western-reflection-prompts
+    edition_id: bhava360-western-reflection-prompts-v1
+    title_as_printed: Bhava360 Western reflection prompts
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-annual-conventions-v1:
+    work_id: bhava360-annual-conventions
+    edition_id: bhava360-annual-conventions-v1
+    title_as_printed: Bhava360 annual conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-chart-reflection-synthesis-v1:
+    work_id: bhava360-chart-reflection-synthesis
+    edition_id: bhava360-chart-reflection-synthesis-v1
+    title_as_printed: Bhava360 chart reflection synthesis
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-transit-conventions-v1:
+    work_id: bhava360-transit-conventions
+    edition_id: bhava360-transit-conventions-v1
+    title_as_printed: Bhava360 transit conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-relocation-conventions-v1:
+    work_id: bhava360-relocation-conventions
+    edition_id: bhava360-relocation-conventions-v1
+    title_as_printed: Bhava360 relocation conventions
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
+  bhava360-original-tarot-reflections-v1:
+    work_id: bhava360-original-tarot-reflections
+    edition_id: bhava360-original-tarot-reflections-v1
+    title_as_printed: Bhava360 original tarot reflections
+    language: en/kn/hi
+    publication_details: Bhava360 editorial KB v1, original working text, Git-versioned.
+    verified_by: Internal record identified by stable rule ID. Independent doctrine and language review remain pending.
 implementation_references:
   vedastro-library:
     system: vedic
@@ -44,10 +191,29 @@ implementation_references:
     scope_evidence: https://github.com/VedAstro/VedAstro/blob/4d14da8ae07560d5a4d8ba95ea6f5f5cf997e298/README.md
     rights_evidence: https://github.com/VedAstro/VedAstro/blob/4d14da8ae07560d5a4d8ba95ea6f5f5cf997e298/LICENSE.md
     repository_license: MIT
-    license_scope: The software notice requires retaining copyright and permission notices with copies or substantial portions. Linked books, third-party assets and dependencies require their own rights records.
-    use: Cross-check implementations for charts, divisional charts, matching and Panchang. Record the exact function, revision, inputs and convention before comparing a result. Interpretive claims still require an edition and passage.
+    license_scope: The software notice requires retaining copyright and permission notices with copies or substantial portions.
+      Linked books, third-party assets and dependencies require their own rights records.
+    use: Cross-check implementations for charts, divisional charts, matching and Panchang. Record the exact function, revision,
+      inputs and convention before comparing a result. Interpretive claims still require an edition and passage.
+  pyjhora:
+    repository: https://github.com/naturalstupid/PyJHora
+    revision: f8c6de2f54338752bdb667384a8b0ca5791c5bdf
+    paths:
+    - src/jhora/const.py
+    - src/jhora/horoscope/chart/charts.py
+    - src/jhora/horoscope/chart/ashtakavarga.py
+    - src/jhora/horoscope/match/compatibility.py
+    use: Comparison of selected algorithms and traditional numerical tables. Pin variant for independent worked examples.
 edition_contract:
-  required: [work_id, edition_id, title_as_printed, language, publication_details, verified_by]
-  publication_details: Identify the specific imprint or manuscript, year or edition statement, translator or editor where credited, and volume for a multi-volume work.
-  locator: Record chapter and verse where numbered, otherwise a precise page, section or stable object ID. Cite the actual edition consulted.
+  required:
+  - work_id
+  - edition_id
+  - title_as_printed
+  - language
+  - publication_details
+  - verified_by
+  publication_details: Identify the specific imprint or manuscript, year or edition statement, translator or editor where
+    credited, and volume for a multi-volume work.
+  locator: Record chapter and verse where numbered, otherwise a precise page, section or stable object ID. Cite the actual
+    edition consulted.
   draft_handling: An unresolved edition is null. Mark verification pending and record the missing evidence.

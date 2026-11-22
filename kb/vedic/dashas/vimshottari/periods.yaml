@@ -1,0 +1,18 @@
+version: 1
+approval: draft
+sequence:
+  ketu: 7
+  venus: 20
+  sun: 6
+  moon: 10
+  mars: 7
+  rahu: 18
+  jupiter: 16
+  saturn: 19
+  mercury: 17
+cycle_years: 120
+start: Find the lord of the birth Moon nakshatra. Remaining years = lord years × remaining arc / 13°20′. Back-project elapsed
+  balance to the true start of the first major period.
+subperiod: Start each period with its own lord then cycle in order. Duration = parent duration × child lord years / 120. Generate
+  children from the full period start, then clip to display range.
+clock: Use one pinned year length throughout. Preserve instants, render half-open intervals in the selected zone.

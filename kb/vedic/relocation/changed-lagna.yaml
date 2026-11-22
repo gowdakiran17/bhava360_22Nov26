@@ -1,0 +1,35 @@
+id: vedic.relocation.changed-lagna
+system: vedic
+topic: relocation
+title: Changed Lagna
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the natal UTC instant the destination city yields a different ascendant sign.
+conditions:
+  fact: relocation.ascendant_changed
+  op: eq
+  value: true
+meaning: You can compare which houses change in the destination chart.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 relocation conventions
+  work_id: bhava360-relocation-conventions
+  edition: bhava360-relocation-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.relocation.changed-lagna
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can compare which houses change in the destination chart.
+  kn: ಹೊಸ ನಗರದ ಚಕ್ರದಲ್ಲಿ ಯಾವ ಭಾವಗಳು ಬದಲಾಗುತ್ತವೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: नए शहर की कुंडली में बदलते भावों की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

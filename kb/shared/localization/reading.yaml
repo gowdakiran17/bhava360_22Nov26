@@ -1,0 +1,27 @@
+version: 1
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+tones:
+- en: Supportive
+  kn: ಬೆಂಬಲದಾಯಕ
+  hi: सहायक
+- en: Steady
+  kn: ಸ್ಥಿರ
+  hi: स्थिर
+- en: Take care
+  kn: ಗಮನವಿರಲಿ
+  hi: ध्यान रखें
+footer:
+  en: Guidance for reflection, not a guarantee. Not medical, financial or legal advice.
+  kn: ಚಿಂತನೆಗಾಗಿ ಮಾರ್ಗದರ್ಶನ. ಇದು ಖಾತರಿಯಲ್ಲ. ವೈದ್ಯಕೀಯ, ಹಣಕಾಸು ಅಥವಾ ಕಾನೂನು ಸಲಹೆಯಲ್ಲ.
+  hi: चिंतन के लिए मार्गदर्शन। यह गारंटी नहीं है। चिकित्सा, वित्तीय या कानूनी सलाह नहीं है।
+reflection:
+  en: For reflection. You choose what to do.
+  kn: ಚಿಂತನೆಗಾಗಿ. ಏನು ಮಾಡಬೇಕೆಂದು ನೀವೇ ಆಯ್ಕೆ ಮಾಡುತ್ತೀರಿ.
+  hi: चिंतन के लिए। क्या करना है, यह आप चुनते हैं।
+unknown:
+  en: This detail depends on a more precise birth time.
+  kn: ಈ ವಿವರಕ್ಕೆ ಇನ್ನಷ್ಟು ನಿಖರವಾದ ಜನ್ಮಸಮಯ ಬೇಕಾಗುತ್ತದೆ.
+  hi: इस जानकारी के लिए अधिक सटीक जन्म समय चाहिए।

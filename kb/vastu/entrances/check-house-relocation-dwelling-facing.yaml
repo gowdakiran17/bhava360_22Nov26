@@ -1,0 +1,35 @@
+id: vastu.entrances.check-house-relocation-dwelling-facing
+system: vastu
+topic: entrances
+title: house-relocation · dwelling-facing
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: A confirmed entrance direction resolves to an entry in the selected Vastu layout profile.
+conditions:
+  fact: checker.house-relocation.dwelling-facing
+  op: eq
+  value: true
+meaning: You can explore the entrance direction in the layout notes.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.entrances.check-house-relocation-dwelling-facing
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore the entrance direction in the layout notes.
+  kn: ವಿನ್ಯಾಸದ ವಿವರದಲ್ಲಿ ಪ್ರವೇಶದ ದಿಕ್ಕನ್ನು ನೋಡಬಹುದು.
+  hi: आप विन्यास में प्रवेश की दिशा देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

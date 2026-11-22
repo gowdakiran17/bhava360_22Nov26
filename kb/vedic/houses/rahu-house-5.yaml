@@ -1,0 +1,46 @@
+id: vedic.houses.rahu-house-5
+system: vedic
+topic: houses
+title: Rahu in house 5
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The natal D1 whole-sign house of rahu counted from Lagna is 5.
+conditions:
+  fact: d1.rahu.house_from_lagna
+  op: eq
+  value: 5
+meaning: Use the graha theme of examining an unfamiliar possibility to frame a reflection on learning and creativity.
+life_areas:
+- learning
+- children
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 chart reflection synthesis
+  work_id: bhava360-chart-reflection-synthesis
+  edition: bhava360-chart-reflection-synthesis-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.houses.rahu-house-5
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 15–16
+  other_locator: House significations with translator notes
+  supports: Classical house vocabulary only. The graha/house reflection is a modern prompt, including neutral reframing of
+    sensitive house topics.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: When considering learning and creativity, you might try examining an unfamiliar possibility.
+  kn: “ಕಲಿಕೆ ಮತ್ತು ಸೃಜನಶೀಲತೆ” ಬಗ್ಗೆ ಯೋಚಿಸುವಾಗ “ಹೊಸ ಸಾಧ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸುವುದು” ಎಂಬುದನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: “अध्ययन और रचनात्मकता” पर विचार करते समय “नई संभावना को परखना” एक उपयोगी अभ्यास हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

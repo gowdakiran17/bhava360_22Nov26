@@ -1,0 +1,35 @@
+id: vedic.muhurta.check-big-decision-muhurta-window
+system: vedic
+topic: muhurta
+title: big-decision-muhurta · window
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: No excluded interval overlaps the candidate window and every required participant is included.
+conditions:
+  fact: checker.window.all_pass
+  op: eq
+  value: true
+meaning: This window can be considered for your chosen activity.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.check-big-decision-muhurta-window
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This window can be considered for your chosen activity.
+  kn: ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ಈ ಅವಧಿಯನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: चुने हुए कार्य के लिए इस समय पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

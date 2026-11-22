@@ -1,0 +1,44 @@
+id: vedic.yogas.malavya
+system: vedic
+topic: yogas
+title: Malavya
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Venus occupies a whole-sign angle from Lagna and its own or exaltation sign.
+conditions:
+  all:
+  - fact: d1.venus.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  - fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+meaning: You may notice what helps people feel welcome.
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 1
+  other_locator: Five angular planetary combinations
+  supports: Formation only. Reflection prompt is editorial.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may notice what helps people feel welcome.
+  kn: ಜನರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಿಸುವ ವಿಷಯಗಳನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि लोगों को अपनापन किससे मिलता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

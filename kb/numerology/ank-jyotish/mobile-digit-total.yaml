@@ -1,0 +1,35 @@
+id: numerology.ank-jyotish.mobile-digit-total
+system: numerology
+topic: ank-jyotish
+title: Mobile digit total
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The candidate has ten digits and its original digit sum has been computed in memory.
+conditions:
+  fact: checker.mobile.digit_sum_known
+  op: eq
+  value: true
+meaning: Show the compound total within this view.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.ank-jyotish.mobile-digit-total
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can see the total before it was reduced to one digit.
+  kn: ಒಂದು ಅಂಕೆಗೆ ಇಳಿಸುವ ಮುನ್ನದ ಮೊತ್ತವನ್ನು ನೋಡಬಹುದು.
+  hi: एक अंक में घटाने से पहले का योग देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

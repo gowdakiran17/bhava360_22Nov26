@@ -1,0 +1,11 @@
+version: 1
+approval: draft
+method: Bhava360 KP method
+per_planet: Track the house occupied by the star lord, the planet’s own occupied house, the houses owned by the star lord
+  and then by the planet. Retain levels and distinct evidence.
+cusp: Use the cusp sub lord and its significations for the question’s house group. Require dasha and transit dates for a time
+  window.
+ruling_planets: At the actual local question instant list weekday lord, Moon sign/star lords and ascendant sign/star lords.
+  Retain overlaps with the question significators.
+number_horary: Accept an integer 1–249, select its zodiac interval and apply the stated number-horary cusp method at the question
+  place.

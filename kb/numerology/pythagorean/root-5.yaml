@@ -1,0 +1,35 @@
+id: numerology.pythagorean.root-5
+system: numerology
+topic: pythagorean
+title: pythagorean · 5
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The selected metric has a single-digit result of 5.
+conditions:
+  fact: number.pythagorean.root
+  op: eq
+  value: 5
+meaning: Use adaptability as a reflection topic within this system.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.root-5
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can reflect on adaptability in this choice.
+  kn: ಈ ಆಯ್ಕೆಯಲ್ಲಿ “ಹೊಂದಾಣಿಕೆ” ಕುರಿತು ಯೋಚಿಸಬಹುದು.
+  hi: इस चुनाव में “अनुकूलन” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

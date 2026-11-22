@@ -1,0 +1,7 @@
+version: 1
+approval: draft
+method: Each 800 arcminute nakshatra is divided in Vimshottari order beginning with its star lord. Each sub spans 800 × dasha
+  years / 120 arcminutes. Sub-sub spans scale the same way beginning at the sub lord.
+horary: Split the 243 star-sub arcs at the six additional sign boundaries to form 249 ordered intervals. Preserve half-open
+  intersections.
+cusps: Compute all twelve Placidus cusps with a pinned KP ayanamsa. An unavailable cusp gives unknown for its dependent result.

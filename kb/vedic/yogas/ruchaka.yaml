@@ -1,0 +1,44 @@
+id: vedic.yogas.ruchaka
+system: vedic
+topic: yogas
+title: Ruchaka
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Mars occupies a whole-sign angle from Lagna and its own or exaltation sign.
+conditions:
+  all:
+  - fact: d1.mars.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  - fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+meaning: You may enjoy taking the initiative when a task needs action.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 1
+  other_locator: Five angular planetary combinations
+  supports: Formation only. Reflection prompt is editorial.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may enjoy taking the initiative when a task needs action.
+  kn: ಕೆಲಸಕ್ಕೆ ಚಾಲನೆ ನೀಡಲು ನೀವು ಆಸಕ್ತಿ ತೋರಬಹುದು.
+  hi: काम शुरू करने में आप पहल कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

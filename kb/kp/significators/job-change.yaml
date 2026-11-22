@@ -1,0 +1,36 @@
+id: kp.significators.job-change
+system: kp
+topic: significators
+title: Job Change
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: The selected cusp sub lord signifies a work house (6, 10 or 11), with its level recorded.
+conditions:
+  fact: kp.work_chain
+  op: eq
+  value: true
+meaning: This factor may help you explore your work question.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: kp.significators.job-change
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This factor may help you explore your work question.
+  kn: ಕೆಲಸದ ಪ್ರಶ್ನೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಈ ಅಂಶ ಸಹಾಯ ಮಾಡಬಹುದು.
+  hi: यह कारक काम से जुड़े प्रश्न को समझने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

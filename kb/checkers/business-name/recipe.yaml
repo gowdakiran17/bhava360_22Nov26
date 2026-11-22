@@ -1,0 +1,39 @@
+version: 1
+approval: draft
+inputs:
+- latin-spelling
+- owner-profile
+reason_channels:
+- name-number per selected school
+- opening syllable and birth Moon pada
+- Moon or Lagna lord association
+- 7th/10th/11th house activation
+next_actions:
+- business-start
+- launch-date
+method: Compare the exact spellings and show each system in its own column. India filter defaults on.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: vedic.padas.check-business-name-syllable-match
+  direction: support
+  evidence: checker.brand.initial_sound_matches_pada
+- rule_id: numerology.chaldean.check-business-name-brand-root
+  direction: support
+  evidence: checker.business-name.brand-root
+- rule_id: vedic.dashas-vimshottari.check-business-name-trade-period
+  direction: context
+  evidence: checker.business-name.trade-period
+- rule_id: vedic.muhurta.check-business-name-launch-exclusion
+  direction: caution
+  evidence: checker.business-name.launch-exclusion
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

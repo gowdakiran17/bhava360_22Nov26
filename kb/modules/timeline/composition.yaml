@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+inputs: Load full nested dasha intervals and personal transit windows.
+output: Sort past, present and upcoming chapters by actual start time; handle boundary instant once.

@@ -1,0 +1,35 @@
+id: vedic.padas.check-personal-baby-name-dictionary-hit
+system: vedic
+topic: padas
+title: personal-baby-name · dictionary-hit
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The chosen name resolves to a reviewed meaning for its exact spelling and language.
+conditions:
+  fact: checker.personal-baby-name.dictionary-hit
+  op: eq
+  value: true
+meaning: You can read the recorded meaning for this spelling.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.padas.check-personal-baby-name-dictionary-hit
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can read the recorded meaning for this spelling.
+  kn: ಈ ಕಾಗುಣಿತದ ದಾಖಲಿತ ಅರ್ಥವನ್ನು ನೋಡಬಹುದು.
+  hi: आप इस वर्तनी का दर्ज अर्थ देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

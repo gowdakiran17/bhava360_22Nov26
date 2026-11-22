@@ -1,0 +1,35 @@
+id: vedic.panchang.local-sunrise
+system: vedic
+topic: panchang
+title: Local Sunrise
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A valid local sunrise anchors the displayed vara at the selected city.
+conditions:
+  fact: panchang.vara.local
+  op: eq
+  value: true
+meaning: You can see where the local Panchang day begins.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.panchang.local-sunrise
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can see where the local Panchang day begins.
+  kn: ಸ್ಥಳೀಯ ಪಂಚಾಂಗದ ದಿನ ಯಾವಾಗ ಆರಂಭವಾಗುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: स्थानीय पंचांग का दिन कब शुरू होता है, यह देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

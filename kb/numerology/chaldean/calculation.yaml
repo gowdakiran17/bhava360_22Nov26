@@ -1,0 +1,17 @@
+version: 1
+approval: draft
+mapping:
+  1: AIJQY
+  2: BKR
+  3: CGLS
+  4: DMT
+  5: EHNX
+  6: UVW
+  7: OZ
+  8: FP
+fields:
+- name-root
+algorithm: Total the mapped values of the supplied Latin spelling. Preserve the original total and repeatedly sum decimal
+  digits for its root. Digit 9 has no letter.
+privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the intended
+  Latin spelling.

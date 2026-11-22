@@ -1,0 +1,42 @@
+version: 1
+approval: draft
+inputs:
+- ten-digits
+- profile
+reason_channels:
+- compound total
+- digit root and Moolank/Bhagyank comparison
+- most repeated and absent digits
+next_actions: []
+method: Compute locally in memory. Never log or send the raw number to AI.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: numerology.ank-jyotish.check-mobile-number-birth-root
+  direction: support
+  evidence: checker.mobile.root_matches_birth
+- rule_id: numerology.ank-jyotish.check-mobile-number-repeats
+  direction: context
+  evidence: checker.mobile.repeated_digit
+- rule_id: numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+  direction: support
+  evidence: checker.mobile-number.distinct-destiny-match
+- rule_id: numerology.chaldean.check-mobile-number-compound-known
+  direction: context
+  evidence: checker.mobile-number.compound-known
+- rule_id: numerology.ank-jyotish.check-mobile-number-missing-digits
+  direction: context
+  evidence: checker.mobile-number.missing-digits
+- rule_id: numerology.ank-jyotish.mobile-digit-total
+  direction: context
+  evidence: checker.mobile.digit_sum_known
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+frame: Use the age-year placement table from the chosen Lal Kitab edition. Preserve year index and natal house as inputs.
+  Keep this annual chart distinct from the Tajika solar return.

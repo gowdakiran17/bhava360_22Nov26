@@ -1,0 +1,35 @@
+id: vedic.vargas.d16-placement
+system: vedic
+topic: vargas
+title: D16 · Shodasamsa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use a stable D16 placement alongside its D1 context.
+conditions:
+  fact: varga.d16.verified_placement
+  op: eq
+  value: true
+meaning: This chart supplies a supplementary lens on comfort and transport.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Shodashavarga chapter, division Shodasamsa
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore comfort and transport alongside this placement.
+  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಸೌಕರ್ಯ ಮತ್ತು ಸಂಚಾರ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस स्थिति के साथ “सुविधा और आवागमन” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

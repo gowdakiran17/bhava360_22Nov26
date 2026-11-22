@@ -1,0 +1,15 @@
+version: 1
+approval: draft
+sequence:
+  Mangala: 1
+  Pingala: 2
+  Dhanya: 3
+  Bhramari: 4
+  Bhadrika: 5
+  Ulka: 6
+  Siddha: 7
+  Sankata: 8
+cycle_years: 36
+start: 'Candidate convention: add three to the one-based birth nakshatra number and take modulo eight, treating zero as eight.
+  Remaining fraction comes from untraversed lunar arc.'
+subperiod: Rotate from the parent yogini and allocate duration in proportion to years / 36.

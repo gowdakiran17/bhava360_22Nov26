@@ -1,0 +1,35 @@
+id: vedic.dashas-yogini.lord-change
+system: vedic
+topic: dashas/yogini
+title: Lord Change
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Boundary instant between two computed Yogini major periods falls in the selected interval.
+conditions:
+  fact: yogini.period_changed
+  op: eq
+  value: true
+meaning: You can review your priorities at the start of this period.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.dashas-yogini.lord-change
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can review your priorities at the start of this period.
+  kn: ಈ ಅವಧಿಯ ಆರಂಭದಲ್ಲಿ ಆದ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस अवधि की शुरुआत में प्राथमिकताएँ देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

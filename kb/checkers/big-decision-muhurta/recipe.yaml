@@ -1,0 +1,40 @@
+version: 1
+approval: draft
+inputs:
+- activity
+- city
+- date-range
+- participants
+reason_channels:
+- activity-specific limb suitability
+- each participant’s Tara bala
+- each participant’s Chandra bala
+- hora or activity factor
+next_actions:
+- calendar
+method: Intersect hard exclusions first. Marriage requires both participants. Rank only surviving windows.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: vedic.muhurta.check-big-decision-muhurta-window
+  direction: support
+  evidence: checker.window.all_pass
+- rule_id: vedic.muhurta.check-big-decision-muhurta-tara-support
+  direction: support
+  evidence: checker.big-decision-muhurta.tara-support
+- rule_id: vedic.muhurta.check-big-decision-muhurta-moon-support
+  direction: support
+  evidence: checker.big-decision-muhurta.moon-support
+- rule_id: vedic.muhurta.check-big-decision-muhurta-activity-limb
+  direction: support
+  evidence: checker.big-decision-muhurta.activity-limb
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

@@ -1,0 +1,35 @@
+id: western.natal.ascendant-cancer
+system: western
+topic: natal
+title: Ascendant in Cancer
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The tropical natal ascendant is in cancer.
+conditions:
+  fact: western.natal.ascendant.sign
+  op: eq
+  value: cancer
+meaning: Consider first impressions through the theme of creating belonging.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.ascendant-cancer
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may explore first impressions through creating belonging.
+  kn: “ಮೊದಲ ಅನಿಸಿಕೆ” ಕುರಿತು “ಆತ್ಮೀಯತೆ ಬೆಳೆಸುವುದು” ಎಂಬ ದೃಷ್ಟಿಯಿಂದ ಯೋಚಿಸಬಹುದು.
+  hi: “पहली छाप” को “अपनापन बनाना” के संदर्भ में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

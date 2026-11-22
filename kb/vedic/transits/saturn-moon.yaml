@@ -1,0 +1,35 @@
+id: vedic.transits.saturn-moon
+system: vedic
+topic: transits
+title: Saturn Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Saturn occupies the natal Moon sign within a solved ingress-to-egress interval.
+conditions:
+  fact: transit.saturn.over_moon_sign
+  op: eq
+  value: true
+meaning: You may prefer a steady routine during this period.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.transits.saturn-moon
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may prefer a steady routine during this period.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಸ್ಥಿರ ದಿನಚರಿ ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.
+  hi: इस अवधि में स्थिर दिनचर्या आपको सहज लग सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

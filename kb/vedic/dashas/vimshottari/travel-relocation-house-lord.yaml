@@ -1,0 +1,36 @@
+id: vedic.dashas-vimshottari.travel-relocation-house-lord
+system: vedic
+topic: dashas/vimshottari
+title: travel-relocation and the active house lord
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Current major period lord owns natal house 4.
+conditions:
+  fact: dasha.active_lord.owns_house_4
+  op: eq
+  value: true
+meaning: The period connects the active lord to house 4; use the dated period as context for travel-relocation.
+life_areas:
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Vimshottari lord and house results; locate exact passage.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The current period lord rules house 4. You can explore this connection in the area reading.
+  kn: ಈಗಿನ ದಶಾಧಿಪತಿ 4ನೇ ಭಾವದ ಅಧಿಪತಿಯೂ ಆಗಿದೆ. ಈ ಸಂಬಂಧವನ್ನು ವಿವರದಲ್ಲಿ ನೋಡಬಹುದು.
+  hi: वर्तमान दशा के स्वामी भाव 4 के भी स्वामी हैं। इस संबंध को क्षेत्र के विवरण में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

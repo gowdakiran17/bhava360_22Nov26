@@ -1,0 +1,14 @@
+version: 1
+approval: draft
+order:
+- choose dominant hand
+- confirm shape
+- confirm relative finger length
+- confirm visible lines
+- optionally confirm mounts
+answers:
+- confirmed
+- absent
+- unsure
+privacy: Camera denied or poor image → illustrated questions. Unsure provides no matching fact. Reject frames with faces.
+  No fingerprint templates. No health, lifespan or wealth inference.

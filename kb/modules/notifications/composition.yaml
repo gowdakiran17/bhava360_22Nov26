@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+inputs: Read consent, quiet hours, current zone and reminder type.
+output: Send local Today, festival, optional tarot or timing items from active facts; respect the daily non-reminder cap.

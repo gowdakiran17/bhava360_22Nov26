@@ -1,0 +1,5 @@
+version: 1
+approval: draft
+inputs: Classify supported intent and active people; load the matching life-area recipe.
+output: Return deterministic summary, real dates if available, action, reasons and relevant checker. Use approved boundary
+  copy when required.

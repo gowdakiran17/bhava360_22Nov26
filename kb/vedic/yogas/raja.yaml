@@ -1,0 +1,36 @@
+id: vedic.yogas.raja
+system: vedic
+topic: yogas
+title: Kendra–trikona association
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A distinct angle lord and trine lord conjoin or exchange signs under this profile.
+conditions:
+  fact: d1.lords.kendra_trikona_link
+  op: eq
+  value: true
+meaning: You may wish to choose one practical next step at work.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapter; exact edition and qualifications pending
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may wish to choose one practical next step at work.
+  kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+  hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

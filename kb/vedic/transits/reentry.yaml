@@ -1,0 +1,35 @@
+id: vedic.transits.reentry
+system: vedic
+topic: transits
+title: Reentry
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Retrograde motion carries the named graha back across a sign boundary in the requested window.
+conditions:
+  fact: transit.ingress.reentry
+  op: eq
+  value: true
+meaning: You may wish to return to a topic from the earlier passage.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.transits.reentry
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may wish to return to a topic from the earlier passage.
+  kn: ಹಿಂದಿನ ಸಂಚಾರದ ವಿಷಯವನ್ನು ಮತ್ತೆ ನೋಡಬಹುದು.
+  hi: पहले गोचर के किसी विषय पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: jaimini.chara-karakas.darakaraka
+system: jaimini
+topic: chara-karakas
+title: Darakaraka
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Under the stated scheme, identify the last-ranked graha as Darakaraka.
+conditions:
+  fact: jaimini.dk.confirmed
+  op: eq
+  value: true
+meaning: You may reflect on the qualities you value in a partner.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chara karakas
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may reflect on the qualities you value in a partner.
+  kn: ಸಂಗಾತಿಯಲ್ಲಿ ನಿಮಗೆ ಮುಖ್ಯವಾಗುವ ಗುಣಗಳ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: साथी में जिन गुणों को महत्व देते हैं उन पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

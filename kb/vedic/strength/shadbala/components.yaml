@@ -1,0 +1,22 @@
+version: 1
+approval: draft
+reference: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/chart/strength.py
+unit: 60 virupas = 1 rupa
+components:
+  sthana: Sum exaltation-distance, divisional dignity, odd/even, angularity and drekkana contributions.
+  dig: Measure arc from the directionally weakest point toward the strongest.
+  kala: Combine time-of-day, lunar phase, weekday and other calendar terms for the selected method.
+  cheshta: Use motion state or computed cheshta kendra under the chosen method.
+  naisargika: Fixed seven-graha scale from Saturn (lowest) to Sun (highest).
+  drik: Net aspect contribution from supporting and challenging grahas.
+minimum_rupas:
+  sun: 6.5
+  moon: 6
+  mars: 5
+  mercury: 7
+  jupiter: 6.5
+  venus: 5.5
+  saturn: 5
+aggregate: Compare total to the planet-specific minimum. Withhold a qualitative label until reference arithmetic passes.
+ishta_kashta: For a verified 0–60 uccha bala U and cheshta bala C, Ishta = sqrt(U*C), Kashta = sqrt((60-U)*(60-C)). Use the
+  chosen luminary substitutions.

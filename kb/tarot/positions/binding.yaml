@@ -1,0 +1,9 @@
+version: 1
+approval: draft
+key:
+- draw_id
+- slot_index
+- card_id
+- orientation
+- position_id
+method: Interpret the card within this position’s question. For possible outcomes, offer reflection and preserve agency.

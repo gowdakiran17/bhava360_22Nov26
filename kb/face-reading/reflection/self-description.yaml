@@ -1,0 +1,35 @@
+id: face-reading.reflection.self-description
+system: face-reading
+topic: reflection
+title: Self Description
+doctrine_profile: face-reading-editorial-v1
+approval: draft
+rule: Adult user opts in to an on-device, self-described expression prompt.
+conditions:
+  fact: face.reflection.opted_in
+  op: eq
+  value: true
+meaning: You can describe how you felt in this moment.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 reflection policy
+  work_id: bhava360-reflection-policy
+  edition: bhava360-reflection-policy-v1
+  chapter: null
+  verse: null
+  other_locator: face-reading.reflection.self-description
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can describe how you felt in this moment.
+  kn: ಈ ಕ್ಷಣದಲ್ಲಿ ಹೇಗನಿಸಿತು ಎಂದು ವಿವರಿಸಬಹುದು.
+  hi: इस पल आपको कैसा लगा, यह बता सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

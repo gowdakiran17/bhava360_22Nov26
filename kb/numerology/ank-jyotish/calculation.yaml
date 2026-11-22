@@ -1,0 +1,22 @@
+version: 1
+approval: draft
+mapping:
+  1: sun
+  2: moon
+  3: jupiter
+  4: rahu
+  5: mercury
+  6: venus
+  7: ketu
+  8: saturn
+  9: mars
+fields:
+- moolank
+- bhagyank
+- personal-year
+- personal-month
+- personal-day
+algorithm: Reduce birth day for Moolank and the full birth-date digit sum for Bhagyank. For calendar personal year combine
+  birth day/month + target year; add target month for personal month and then calendar day for personal day.
+privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the intended
+  Latin spelling.

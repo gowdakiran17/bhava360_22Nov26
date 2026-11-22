@@ -1,0 +1,66 @@
+id: vedic.houses.venus-house-6
+system: vedic
+topic: houses
+title: Venus in house 6
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The natal D1 whole-sign house of venus counted from Lagna is 6.
+conditions:
+  fact: d1.venus.house_from_lagna
+  op: eq
+  value: 6
+meaning: Use the graha theme of finding common ground to frame a reflection on everyday responsibilities.
+life_areas:
+- career
+- health
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.venus.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 chart reflection synthesis
+  work_id: bhava360-chart-reflection-synthesis
+  edition: bhava360-chart-reflection-synthesis-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.houses.venus-house-6
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 15–16
+  other_locator: House significations with translator notes
+  supports: Classical house vocabulary only. The graha/house reflection is a modern prompt, including neutral reframing of
+    sensitive house topics.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 6, 13
+  other_locator: Rulers and exaltation/debilitation table
+  supports: Traditional sign-rulership and exaltation/debilitation classifications used by the modifiers.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: When considering everyday responsibilities, you might try finding common ground.
+  kn: “ದೈನಂದಿನ ಜವಾಬ್ದಾರಿಗಳು” ಬಗ್ಗೆ ಯೋಚಿಸುವಾಗ “ಒಮ್ಮತ ಹುಡುಕುವುದು” ಎಂಬುದನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: “रोज़ की ज़िम्मेदारियाँ” पर विचार करते समय “सहमति खोजना” एक उपयोगी अभ्यास हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

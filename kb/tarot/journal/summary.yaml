@@ -1,0 +1,3 @@
+version: 1
+approval: draft
+summary: Count only saved, consented draws. Return most frequent card and suit in words, report ties, support export and deletion.

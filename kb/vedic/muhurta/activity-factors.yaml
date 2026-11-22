@@ -1,0 +1,69 @@
+version: 1
+approval: draft
+scope: Draft daytime profile. These are soft star preferences for optional ordering after hard-exclusion filtering. Confirm
+  regional edition before enabling. No date is universally suitable.
+nakshatra_groups:
+  fixed:
+  - rohini
+  - uttara-phalguni
+  - uttara-ashadha
+  - uttara-bhadrapada
+  movable:
+  - punarvasu
+  - swati
+  - shravana
+  - dhanishta
+  - shatabhisha
+  gentle:
+  - mrigashira
+  - chitra
+  - anuradha
+  - revati
+  swift:
+  - ashwini
+  - pushya
+  - hasta
+activity_preferences:
+  travel:
+  - movable
+  - swift
+  starting-work:
+  - swift
+  - fixed
+  purchase:
+  - gentle
+  - swift
+  signing:
+  - fixed
+  - gentle
+  puja:
+  - gentle
+  - fixed
+  important-talk:
+  - gentle
+  family-visit:
+  - gentle
+  - movable
+  focused-work:
+  - fixed
+  marriage:
+  - fixed
+  - gentle
+  business-start:
+  - fixed
+  - swift
+  property-purchase:
+  - fixed
+  vehicle-delivery:
+  - movable
+  - gentle
+  griha-pravesh:
+  - fixed
+  joining-job:
+  - fixed
+  - swift
+  naming:
+  - gentle
+  - swift
+exceptions: Pushya preference excluded for marriage in this candidate profile. Apply activity-specific, participant, calendar
+  and local exclusions independently.

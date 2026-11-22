@@ -1,0 +1,14 @@
+version: 1
+approval: draft
+source: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/tests/pvr_tests.py
+locator: shadbala_BVRamanBook_tests, Sun component values
+reference_profile: Raman ayanamsa, reference numbers only
+sun_sthana_components:
+  uccha: 3.0
+  saptavargaja: 90
+  ojayugma: 30
+  kendra: 60
+  drekkana: 15
+expected_virupas: 198
+scope: This benchmark checks a position-strength subtotal. A production six-component implementation needs its own full reference
+  run.

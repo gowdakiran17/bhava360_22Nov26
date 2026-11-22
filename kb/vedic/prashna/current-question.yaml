@@ -1,0 +1,35 @@
+id: vedic.prashna.current-question
+system: vedic
+topic: prashna
+title: Current Question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Horary chart was calculated for the accepted question, local time and current city.
+conditions:
+  fact: prashna.current_chart_ready
+  op: eq
+  value: true
+meaning: You can explore the factors connected with this question now.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.prashna.current-question
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore the factors connected with this question now.
+  kn: ಈಗ ಈ ಪ್ರಶ್ನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+  hi: अभी इस प्रश्न से जुड़े कारकों पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

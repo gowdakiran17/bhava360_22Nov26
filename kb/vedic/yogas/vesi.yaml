@@ -1,0 +1,56 @@
+id: vedic.yogas.vesi
+system: vedic
+topic: yogas
+title: Vesi
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are excluded
+  as contributors.
+conditions:
+  all:
+  - any:
+    - fact: d1.mars.distance_from_sun
+      op: in
+      value:
+      - 2
+    - fact: d1.mercury.distance_from_sun
+      op: in
+      value:
+      - 2
+    - fact: d1.jupiter.distance_from_sun
+      op: in
+      value:
+      - 2
+    - fact: d1.venus.distance_from_sun
+      op: in
+      value:
+      - 2
+    - fact: d1.saturn.distance_from_sun
+      op: in
+      value:
+      - 2
+meaning: You may wish to choose one practical next step at work.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 8
+  other_locator: null
+  supports: Solar flank formation; source separates benefic and malefic variants.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may wish to choose one practical next step at work.
+  kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+  hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,43 @@
+version: 1
+approval: draft
+inputs:
+- city-or-house-details
+- profile
+- planned-month
+reason_channels:
+- relocated angles calculated at natal instant
+- 4th/9th/12th/10th house evidence
+- current dasha and transit window
+- house entrance/layout tradition
+- house number and fourth-house or Moon fit
+next_actions:
+- griha-pravesh
+method: City mode uses destination coordinates at birth instant. House mode uses observed layout, its number and natal factors.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: vedic.relocation.check-house-relocation-destination
+  direction: context
+  evidence: checker.city.changed_house
+- rule_id: vastu.entrances.check-house-relocation-dwelling-facing
+  direction: context
+  evidence: checker.house-relocation.dwelling-facing
+- rule_id: numerology.ank-jyotish.check-house-relocation-dwelling-root
+  direction: support
+  evidence: checker.house-relocation.dwelling-root
+- rule_id: vedic.relocation.check-house-relocation-destination-work
+  direction: context
+  evidence: checker.house-relocation.destination-work
+- rule_id: vedic.muhurta.check-house-relocation-moving-window
+  direction: support
+  evidence: checker.house-relocation.moving-window
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

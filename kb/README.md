@@ -1,5 +1,7 @@
 # Bhava360 knowledge base
 
+Open the [edition 1 coverage guide](COVERAGE.md) for authored content, validation results and release status.
+
 A rule lives once under its system and topic. Checkers, life areas and reports reference approved rule IDs. A business-start reading can therefore explain which facts came from the chart, name calculation and choice of date. Each reason keeps its system, convention and evidence.
 
 ## Foundation registers
@@ -83,7 +85,7 @@ Use a shared activity catalogue for everyday travel, starting work, purchase, si
 - Offer practical actions first. A remedy may be null. Allowed practices are optional, free mantra, charity or conduct, labelled “Traditional practice.” Exclude gems, crystals, lucky colours, paid rituals and sales.
 - Publish approved entries with verified sources, language review and compatible evidence only. Check positive, negative, missing-input and relevant cancellation cases. Examples stay outside ingestion. No synthetic person or placeholder dates in production output.
 
-## Authoring order after approval
+## Original authoring sequence
 
 1. Freeze IDs, life-area keys, edition register, convention profiles, fact types, glossary translations, privacy and copy boundaries.
 2. Build Parashari D1 vocabulary, nakshatra/pada and namakshar tables, house lords, aspects, dignity and birth-time limits.

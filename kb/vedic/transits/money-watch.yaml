@@ -1,0 +1,37 @@
+id: vedic.transits.money-watch
+system: vedic
+topic: transits
+title: money · watch
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
+  Bind graha, reference house, interval and qualifying rule ID.
+conditions:
+  fact: transit.money.qualified_challenge
+  op: eq
+  value: true
+meaning: You can separate recurring expenses from one-time commitments.
+life_areas:
+- money
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can separate recurring expenses from one-time commitments.
+  kn: ನಿತ್ಯದ ವೆಚ್ಚ ಮತ್ತು ಒಮ್ಮೆ ಮಾತ್ರದ ವೆಚ್ಚವನ್ನು ಬೇರ್ಪಡಿಸಬಹುದು.
+  hi: नियमित और एक बार के खर्च अलग देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

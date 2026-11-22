@@ -1,0 +1,37 @@
+id: vedic.yogas.budhaditya
+system: vedic
+topic: yogas
+title: Budhaditya
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Sun and Mercury occupy one sign.
+conditions:
+  fact: d1.mercury.distance_from_sun
+  op: in
+  value:
+  - 1
+meaning: You may find it helpful to talk through an idea before acting.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapter; exact edition and qualifications pending
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may find it helpful to talk through an idea before acting.
+  kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
+  hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

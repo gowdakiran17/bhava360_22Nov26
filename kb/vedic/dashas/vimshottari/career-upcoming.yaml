@@ -1,0 +1,36 @@
+id: vedic.dashas-vimshottari.career-upcoming
+system: vedic
+topic: dashas/vimshottari
+title: career · upcoming
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Next dated major or subperiod lord owns house 10 of the stable natal chart. Bind the exact child interval.
+conditions:
+  fact: dasha.next_lord.owns_house_10
+  op: eq
+  value: true
+meaning: The upcoming period can bring work responsibilities into focus.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The upcoming period can bring work responsibilities into focus.
+  kn: ಮುಂಬರುವ ಅವಧಿಯಲ್ಲಿ ಕೆಲಸದ ಹೊಣೆಗಾರಿಕೆಗಳ ಬಗ್ಗೆ ಗಮನ ಹರಿಸಬಹುದು.
+  hi: आने वाली अवधि में काम की ज़िम्मेदारियों पर ध्यान जा सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

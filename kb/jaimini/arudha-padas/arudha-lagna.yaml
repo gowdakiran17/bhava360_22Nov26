@@ -1,0 +1,36 @@
+id: jaimini.arudha-padas.arudha-lagna
+system: jaimini
+topic: arudha-padas
+title: Arudha Lagna
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: The Arudha Lagna sign has been derived with the selected exception profile and remains stable.
+conditions:
+  fact: jaimini.al.stable
+  op: eq
+  value: true
+meaning: You may reflect on the impression your work leaves with others.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: jaimini.arudha-padas.arudha-lagna
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may reflect on the impression your work leaves with others.
+  kn: ನಿಮ್ಮ ಕೆಲಸ ಇತರರಲ್ಲಿ ಮೂಡಿಸುವ ಅನಿಸಿಕೆ ಕುರಿತು ಯೋಚಿಸಬಹುದು.
+  hi: आपके काम की दूसरों पर पड़ने वाली छाप पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

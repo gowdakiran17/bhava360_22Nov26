@@ -1,0 +1,35 @@
+id: numerology.chaldean.compound-26
+system: numerology
+topic: chaldean
+title: Compound 26
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The unreduced Chaldean sum is 26.
+conditions:
+  fact: number.chaldean.compound
+  op: eq
+  value: 26
+meaning: clarifying shared obligations
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Cheiro’s Book of Numbers
+  work_id: cheiro-s-book-of-numbers
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Compound number 26, edition check pending.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might consider clarifying shared obligations when comparing this name.
+  kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಹಂಚಿದ ಹೊಣೆಯ ಸ್ಪಷ್ಟತೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस नाम की तुलना करते समय “साझा दायित्व स्पष्ट करना” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

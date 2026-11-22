@@ -1,0 +1,39 @@
+version: 1
+approval: draft
+scope_source: PRD sections 8 and 9
+stages:
+  MVP:
+  - vedic-core
+  - life-area-launch-six
+  - matching
+  - muhurta
+  - six-checkers-except-full-vastu-form
+  - ask
+  - first-reports
+  R2:
+  - jaimini
+  - kp
+  - prashna
+  - deep-vargas
+  - house-vastu-form
+  - western-natal
+  - numerology
+  - tarot
+  - five-more-areas
+  R3+:
+  - palmistry
+  - progressions
+  - solar-arc
+  - composite
+  - advanced-tarot
+  - lal-kitab
+  - guided-vastu
+  - face-reading
+  - rectification
+  - festivals-calendar
+  - together
+held:
+- on-hold/nakshatra-nadi
+- on-hold/gift-purchase
+- D60 public interpretation
+publication: Resolve release flag AND approval state AND verified evidence. Draft coverage is visible to reviewers only.

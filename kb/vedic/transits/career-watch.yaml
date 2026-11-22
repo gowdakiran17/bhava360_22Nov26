@@ -1,0 +1,37 @@
+id: vedic.transits.career-watch
+system: vedic
+topic: transits
+title: career · watch
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
+  Bind graha, reference house, interval and qualifying rule ID.
+conditions:
+  fact: transit.career.qualified_challenge
+  op: eq
+  value: true
+meaning: You might clarify who owns a task before accepting it.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might clarify who owns a task before accepting it.
+  kn: ಕೆಲಸ ಒಪ್ಪಿಕೊಳ್ಳುವ ಮುನ್ನ ಅದರ ಹೊಣೆ ಯಾರದ್ದು ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+  hi: काम स्वीकारने से पहले ज़िम्मेदारी स्पष्ट कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

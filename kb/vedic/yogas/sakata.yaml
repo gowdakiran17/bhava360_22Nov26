@@ -1,0 +1,49 @@
+id: vedic.yogas.sakata
+system: vedic
+topic: yogas
+title: Sakata
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Moon lies sixth, eighth or twelfth from Jupiter.
+conditions:
+  fact: d1.moon.distance_from_jupiter
+  op: in
+  value:
+  - 6
+  - 8
+  - 12
+meaning: You can make room for support from people you trust.
+life_areas:
+- family-home
+strength_notes: []
+exceptions:
+- when:
+    fact: d1.moon.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  effect: cancel
+  reason: Moon angular from Lagna in this cancellation profile.
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 14
+  other_locator: null
+  supports: Formation and angular-Moon cancellation.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can make room for support from people you trust.
+  kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+  hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

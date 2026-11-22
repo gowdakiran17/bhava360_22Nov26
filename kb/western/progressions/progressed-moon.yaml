@@ -1,0 +1,35 @@
+id: western.progressions.progressed-moon
+system: western
+topic: progressions
+title: Progressed Moon
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: A secondary progressed lunar phase change is dated from one ephemeris day per life year.
+conditions:
+  fact: western.progressed-moon-phase
+  op: eq
+  value: true
+meaning: This period may invite a review of what matters to you now.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.progressions.progressed-moon
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This period may invite a review of what matters to you now.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस अवधि में अपनी प्राथमिकताओं पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

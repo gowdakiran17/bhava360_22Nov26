@@ -1,0 +1,35 @@
+id: western.natal.moon-capricorn
+system: western
+topic: natal
+title: Moon in Capricorn
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The tropical natal moon is in capricorn.
+conditions:
+  fact: western.natal.moon.sign
+  op: eq
+  value: capricorn
+meaning: Consider emotional needs through the theme of building structure.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.moon-capricorn
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may explore emotional needs through building structure.
+  kn: “ಭಾವನಾತ್ಮಕ ಅಗತ್ಯಗಳು” ಕುರಿತು “ಕ್ರಮಬದ್ಧ ವ್ಯವಸ್ಥೆ” ಎಂಬ ದೃಷ್ಟಿಯಿಂದ ಯೋಚಿಸಬಹುದು.
+  hi: “भावनात्मक ज़रूरतें” को “व्यवस्था बनाना” के संदर्भ में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

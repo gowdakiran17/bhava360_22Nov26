@@ -1,0 +1,35 @@
+id: vedic.strength-shadbala.six-components
+system: vedic
+topic: strength/shadbala
+title: Six Components
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: All six components are available and the selected graha meets its reference minimum.
+conditions:
+  fact: strength.shadbala.meets_minimum
+  op: eq
+  value: true
+meaning: This planet may lend support to the topics it represents.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.strength-shadbala.six-components
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This planet may lend support to the topics it represents.
+  kn: ಈ ಗ್ರಹವು ಸೂಚಿಸುವ ವಿಷಯಗಳಿಗೆ ಬೆಂಬಲ ಸಿಗಬಹುದು.
+  hi: इस ग्रह से जुड़े विषयों को सहारा मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

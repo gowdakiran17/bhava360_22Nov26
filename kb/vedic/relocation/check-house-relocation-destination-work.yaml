@@ -1,0 +1,35 @@
+id: vedic.relocation.check-house-relocation-destination-work
+system: vedic
+topic: relocation
+title: house-relocation · destination-work
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the proposed destination the same graha moves into the relocated tenth house.
+conditions:
+  fact: checker.house-relocation.destination-work
+  op: eq
+  value: true
+meaning: The relocated chart gives this planet a work-related house placement.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.relocation.check-house-relocation-destination-work
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The relocated chart gives this planet a work-related house placement.
+  kn: ಹೊಸ ಸ್ಥಳದ ಚಕ್ರದಲ್ಲಿ ಈ ಗ್ರಹ ಕೆಲಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಭಾವದಲ್ಲಿದೆ.
+  hi: नए स्थान की कुंडली में यह ग्रह काम से जुड़े भाव में है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

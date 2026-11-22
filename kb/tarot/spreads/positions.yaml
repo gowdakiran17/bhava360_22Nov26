@@ -1,0 +1,37 @@
+version: 1
+approval: draft
+spreads:
+  daily:
+  - reflection
+  past-present-future:
+  - prior context
+  - current situation
+  - possible direction
+  situation-action-outcome:
+  - situation
+  - choice of action
+  - possible outcome
+  relationship:
+  - own perspective
+  - other perspective to explore
+  - shared question
+  career:
+  - current task
+  - skill to use
+  - next step
+  decision:
+  - common context
+  - path A
+  - path B
+  celtic-cross:
+  - present
+  - crossing influence
+  - foundation
+  - recent past
+  - conscious aim
+  - near direction
+  - own stance
+  - environment
+  - hopes or worries
+  - possible outcome
+custom: Persist user-defined ordered positions with the draw. Each meaning references its own card, orientation and position.

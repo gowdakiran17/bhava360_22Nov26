@@ -1,0 +1,35 @@
+id: vedic.padas.check-personal-baby-name-pada
+system: vedic
+topic: padas
+title: personal-baby-name · pada
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Chosen spelling has a reviewed initial sound matching the stable birth pada in the selected regional table.
+conditions:
+  fact: checker.name.sound_match
+  op: eq
+  value: true
+meaning: This name can be considered among your matching sounds.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.padas.check-personal-baby-name-pada
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This name can be considered among your matching sounds.
+  kn: ಹೊಂದುವ ಧ್ವನಿಯ ಹೆಸರುಗಳಲ್ಲಿ ಇದನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: मेल खाती ध्वनियों वाले नामों में इसे देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,38 @@
+version: 1
+approval: draft
+inputs:
+- latin-spelling
+- named-person-profile
+- number-system
+reason_channels:
+- profile-specific name number
+- birth-pada syllable match
+- curated meaning and provenance
+next_actions:
+- naming
+method: Use the baby profile for a newborn. An unlisted name has unknown meaning. No pressure to change a name.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: vedic.padas.check-personal-baby-name-pada
+  direction: support
+  evidence: checker.name.sound_match
+- rule_id: numerology.pythagorean.check-personal-baby-name-name-root
+  direction: support
+  evidence: checker.personal-baby-name.name-root
+- rule_id: vedic.padas.check-personal-baby-name-dictionary-hit
+  direction: context
+  evidence: checker.personal-baby-name.dictionary-hit
+- rule_id: vedic.padas.check-personal-baby-name-different-sound
+  direction: context
+  evidence: checker.personal-baby-name.different-sound
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

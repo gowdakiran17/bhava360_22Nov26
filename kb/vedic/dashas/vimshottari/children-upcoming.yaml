@@ -1,0 +1,36 @@
+id: vedic.dashas-vimshottari.children-upcoming
+system: vedic
+topic: dashas/vimshottari
+title: children · upcoming
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Next dated major or subperiod lord owns house 5 of the stable natal chart. Bind the exact child interval.
+conditions:
+  fact: dasha.next_lord.owns_house_5
+  op: eq
+  value: true
+meaning: This period may prompt a conversation about care and learning.
+life_areas:
+- children
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This period may prompt a conversation about care and learning.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಆರೈಕೆ ಮತ್ತು ಕಲಿಕೆ ಕುರಿತು ಮಾತುಕತೆಗೆ ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: इस अवधि में देखभाल और सीखने पर बातचीत कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

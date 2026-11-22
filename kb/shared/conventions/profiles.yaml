@@ -6,17 +6,77 @@ calculation_profiles:
     zodiac: sidereal
     ayanamsa: Lahiri
     houses: whole-sign
-    node: {proposed_default: mean, alternative: true-node, owner_confirmation: pending}
+    node:
+      proposed_default: mean
+      alternative: true-node
+      owner_confirmation: pending
     node_aspects: seventh-only
     sunrise: apparent-upper-limb-with-refraction
-    vimshottari_year_days: {proposed_default: 365.25, alternative: 360, owner_confirmation: pending}
+    vimshottari_year_days:
+      proposed_default: 365.25
+      alternative: 360
+      owner_confirmation: pending
     ashtakavarga_variant: bphs-seven-graha-337
-  kp-placidus-v1: {zodiac: sidereal, houses: placidus, ayanamsa_family: KP, exact_variant: pending}
-  western-tropical-v1: {zodiac: tropical, houses: placidus, polar_fallback: whole-sign, label_fallback: true}
+  kp-placidus-v1:
+    zodiac: sidereal
+    houses: placidus
+    ayanamsa_family: KP
+    exact_variant: pending
+  western-tropical-v1:
+    zodiac: tropical
+    houses: placidus
+    polar_fallback: whole-sign
+    label_fallback: true
 doctrine_profiles:
-  parashari-lahiri-whole-sign-draft-v1: {calculation: vedic-lahiri-v1, approval: draft}
-  parashari-moon-kendra-screen-draft-v1: {calculation: vedic-lahiri-v1, approval: draft}
-  bhava-chalit: {approval: draft, method: pending}
-  parashari-qualified-formation: {approval: draft, formation: pending}
-open_decisions: [jaimini-karaka-scheme, chara-dasha-variant, d60-method]
-runtime_record: Record engine version and resolved parameter values for each calculation. An alternative setting produces a distinct convention record.
+  parashari-lahiri-whole-sign-draft-v1:
+    calculation: vedic-lahiri-v1
+    approval: draft
+  parashari-moon-kendra-screen-draft-v1:
+    calculation: vedic-lahiri-v1
+    approval: draft
+  bhava-chalit:
+    approval: draft
+    method: pending
+  parashari-qualified-formation:
+    approval: draft
+    formation: pending
+  tarot-editorial-v1:
+    system: tarot
+    approval: draft
+  vedic-editorial-v1:
+    system: vedic
+    approval: draft
+    calculation: vedic-lahiri-v1
+  numerology-editorial-v1:
+    system: numerology
+    approval: draft
+  western-editorial-v1:
+    system: western
+    approval: draft
+    calculation: western-tropical-v1
+  palmistry-editorial-v1:
+    system: palmistry
+    approval: draft
+  vastu-editorial-v1:
+    system: vastu
+    approval: draft
+  jaimini-editorial-v1:
+    system: jaimini
+    approval: draft
+    calculation: vedic-lahiri-v1
+  kp-editorial-v1:
+    system: kp
+    approval: draft
+    calculation: kp-placidus-v1
+  lal-kitab-editorial-v1:
+    system: lal-kitab
+    approval: draft
+  face-reading-editorial-v1:
+    system: face-reading
+    approval: draft
+open_decisions:
+- jaimini-karaka-scheme
+- chara-dasha-variant
+- d60-method
+runtime_record: Record engine version and resolved parameter values for each calculation. An alternative setting produces
+  a distinct convention record.

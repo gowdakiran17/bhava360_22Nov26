@@ -1,0 +1,35 @@
+id: western.houses.polar-fallback
+system: western
+topic: houses
+title: Polar Fallback
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The chosen quadrant system could not produce cusps and the engine explicitly used Whole Sign.
+conditions:
+  fact: western.polar-fallback-used
+  op: eq
+  value: true
+meaning: You can view this chart with whole-sign houses for this latitude.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.houses.polar-fallback
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can view this chart with whole-sign houses for this latitude.
+  kn: ಈ ಅಕ್ಷಾಂಶಕ್ಕೆ ಪೂರ್ಣ ರಾಶಿ ಭಾವಗಳಲ್ಲಿ ಚಕ್ರವನ್ನು ನೋಡಬಹುದು.
+  hi: इस अक्षांश पर आप पूर्ण राशि भावों में कुंडली देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

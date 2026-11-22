@@ -1,0 +1,38 @@
+version: 1
+approval: draft
+inputs:
+- registration
+- profile
+reason_channels:
+- numeric digit sum
+- comparison with birth-number roots
+- fourth-house evidence
+- purchase or delivery windows
+next_actions:
+- vehicle-delivery
+method: Ignore registration letters for the digit-only profile. Preserve leading zeros in digit counts. Same privacy as mobile.
+compare_limit: 3
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
+  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  of the limit.
+tone_resolution:
+  only_supportive: Supportive
+  only_caution: Take care
+  mixed_or_neutral: Steady
+save: Only on explicit user request.
+explain_rules:
+- rule_id: numerology.ank-jyotish.check-vehicle-number-root
+  direction: support
+  evidence: checker.vehicle.root_matches_birth
+- rule_id: numerology.ank-jyotish.check-vehicle-number-vehicle-total
+  direction: context
+  evidence: checker.vehicle-number.vehicle-total
+- rule_id: vedic.dashas-vimshottari.check-vehicle-number-vehicle-period
+  direction: context
+  evidence: checker.vehicle-number.vehicle-period
+- rule_id: vedic.muhurta.check-vehicle-number-delivery-exclusion
+  direction: caution
+  evidence: checker.vehicle-number.delivery-exclusion
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
+  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
+  match, return limited evidence.

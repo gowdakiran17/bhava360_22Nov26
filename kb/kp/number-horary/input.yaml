@@ -1,0 +1,7 @@
+version: 1
+approval: draft
+range:
+- 1
+- 249
+binding: Bind chosen number to the corresponding ascendant arc and record the local question instant, city and KP ayanamsa.
+  Evaluate the relevant cusps using the same method. An invalid number produces no chart.

@@ -1,0 +1,38 @@
+version: 1
+approval: draft
+choghadiya_order:
+- udveg
+- char
+- labh
+- amrit
+- kaal
+- shubh
+- rog
+day_first_sun_through_sat:
+- udveg
+- amrit
+- rog
+- labh
+- shubh
+- char
+- kaal
+day_step: 1
+night_cycle:
+- shubh
+- amrit
+- char
+- rog
+- kaal
+- labh
+- udveg
+night_first_sun_through_sat:
+- shubh
+- char
+- kaal
+- udveg
+- amrit
+- rog
+- labh
+night_step: 1
+clock: Day = sunrise to sunset; night = sunset to next local sunrise. Divide each into eight equal elapsed-time intervals.
+  End boundary belongs to the following interval.

@@ -1,0 +1,38 @@
+version: 1
+approval: draft
+draft_natal_orbs:
+  conjunction:
+    angle: 0
+    orb: 8
+  sextile:
+    angle: 60
+    orb: 4
+  square:
+    angle: 90
+    orb: 6
+  trine:
+    angle: 120
+    orb: 6
+  opposition:
+    angle: 180
+    orb: 8
+  quincunx:
+    angle: 150
+    orb: 2
+  semi-sextile:
+    angle: 30
+    orb: 2
+  semi-square:
+    angle: 45
+    orb: 2
+  sesquiquadrate:
+    angle: 135
+    orb: 2
+method: Use shortest circular separation. Accept absolute deviation ≤ orb. Minor aspects opt-in. Proposed editorial orbs require
+  review; transits, directions and synastry each need separate orb profiles.
+houses:
+- Placidus
+- Whole Sign
+- Koch
+- Equal
+bodies: Sun through Pluto, optional Chiron, nodes and Part of Fortune, plus Ascendant and MC.

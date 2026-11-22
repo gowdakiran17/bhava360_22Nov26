@@ -1,0 +1,66 @@
+id: vedic.houses.sun-house-11
+system: vedic
+topic: houses
+title: Sun in house 11
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The natal D1 whole-sign house of sun counted from Lagna is 11.
+conditions:
+  fact: d1.sun.house_from_lagna
+  op: eq
+  value: 11
+meaning: Use the graha theme of taking responsibility to frame a reflection on networks and aims.
+life_areas:
+- business
+- money
+strength_notes:
+- when:
+    fact: d1.sun.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.sun.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 chart reflection synthesis
+  work_id: bhava360-chart-reflection-synthesis
+  edition: bhava360-chart-reflection-synthesis-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.houses.sun-house-11
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 15–16
+  other_locator: House significations with translator notes
+  supports: Classical house vocabulary only. The graha/house reflection is a modern prompt, including neutral reframing of
+    sensitive house topics.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 6, 13
+  other_locator: Rulers and exaltation/debilitation table
+  supports: Traditional sign-rulership and exaltation/debilitation classifications used by the modifiers.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: When considering networks and aims, you might try taking responsibility.
+  kn: “ಸಂಪರ್ಕಗಳು ಮತ್ತು ಗುರಿಗಳು” ಬಗ್ಗೆ ಯೋಚಿಸುವಾಗ “ಹೊಣೆ ಹೊರುವುದು” ಎಂಬುದನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: “संपर्क और लक्ष्य” पर विचार करते समय “ज़िम्मेदारी लेना” एक उपयोगी अभ्यास हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

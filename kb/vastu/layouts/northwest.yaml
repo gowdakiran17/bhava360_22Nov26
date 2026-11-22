@@ -1,0 +1,36 @@
+id: vastu.layouts.northwest
+system: vastu
+topic: layouts
+title: Northwest layout observation
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Use the recorded compass sector of the identified room.
+conditions:
+  fact: vastu.observed.sector
+  op: eq
+  value: northwest
+meaning: Optional household reflection about visitors and movement.
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.layouts.northwest
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: When looking at this part of your home, you can reflect on visitors and movement.
+  kn: ಮನೆಯ ಈ ಭಾಗವನ್ನು ನೋಡುವಾಗ “ಅತಿಥಿಗಳು ಮತ್ತು ಓಡಾಟ” ಕುರಿತು ಯೋಚಿಸಬಹುದು.
+  hi: घर के इस हिस्से में “मेहमान और आवाजाही” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

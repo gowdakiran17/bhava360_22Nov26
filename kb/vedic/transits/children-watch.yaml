@@ -1,0 +1,37 @@
+id: vedic.transits.children-watch
+system: vedic
+topic: transits
+title: children · watch
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
+  Bind graha, reference house, interval and qualifying rule ID.
+conditions:
+  fact: transit.children.qualified_challenge
+  op: eq
+  value: true
+meaning: You can check which activities the child actually enjoys.
+life_areas:
+- children
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can check which activities the child actually enjoys.
+  kn: ಮಗುವಿಗೆ ಯಾವ ಚಟುವಟಿಕೆ ಇಷ್ಟ ಎಂದು ಕೇಳಬಹುದು.
+  hi: बच्चे को कौन सी गतिविधि पसंद है, यह पूछ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

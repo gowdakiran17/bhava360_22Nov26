@@ -1,0 +1,35 @@
+id: vedic.muhurta.check-house-relocation-moving-window
+system: vedic
+topic: muhurta
+title: house-relocation · moving-window
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A computed moving window within the requested month passes the full griha-pravesh exclusion profile.
+conditions:
+  fact: checker.house-relocation.moving-window
+  op: eq
+  value: true
+meaning: You can compare the suggested moving window with your schedule.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.check-house-relocation-moving-window
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can compare the suggested moving window with your schedule.
+  kn: ಸೂಚಿಸಿದ ಸ್ಥಳಾಂತರ ಅವಧಿಯನ್ನು ನಿಮ್ಮ ವೇಳಾಪಟ್ಟಿಯೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+  hi: घर बदलने के सुझाए समय को अपनी सुविधा से मिला सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

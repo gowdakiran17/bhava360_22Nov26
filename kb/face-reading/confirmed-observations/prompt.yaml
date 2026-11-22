@@ -1,0 +1,3 @@
+version: 1
+approval: draft
+method: Only a user-selected description of their own expression can ground a reflection prompt. No model-estimated traits.

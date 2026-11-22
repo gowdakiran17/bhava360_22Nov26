@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+method: Compare candidate instants within a stated interval against volunteered dated events using the same timing profile.
+  Preserve competing candidates and their sensitivity. A candidate never silently replaces the recorded birth time.

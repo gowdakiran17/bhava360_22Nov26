@@ -1,0 +1,35 @@
+id: lal-kitab.varshphal.year-house
+system: lal-kitab
+topic: varshphal
+title: Year House
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: A year-specific placement is returned by the selected edition’s age-year table.
+conditions:
+  fact: lal_kitab.annual.house_known
+  op: eq
+  value: true
+meaning: You can compare this annual house with its natal reference.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.varshphal.year-house
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can compare this annual house with its natal reference.
+  kn: ವಾರ್ಷಿಕ ಭಾವವನ್ನು ಅದರ ಜನ್ಮದ ಭಾವದೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+  hi: इस वार्षिक भाव की तुलना जन्मस्थिति से कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

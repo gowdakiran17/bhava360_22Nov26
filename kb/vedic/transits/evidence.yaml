@@ -1,0 +1,28 @@
+version: 1
+approval: draft
+origins:
+- natal Moon sign
+- natal Lagna sign
+groups:
+  short:
+  - moon
+  - sun
+  - mercury
+  - venus
+  - mars
+  long:
+  - jupiter
+  - saturn
+  - rahu
+  - ketu
+phases:
+  sade-sati:
+  - 12
+  - 1
+  - 2
+  ashtama-shani:
+  - 8
+  kantaka-shani-fourth-house-profile:
+  - 4
+windows: Solve all sign crossings, including retrograde exits and returns; attach start/end instants to each continuous phase.
+modifiers: Evaluate Vedha obstruction under its own planet/house table and bindus from raw BAV on separate evidence chips.

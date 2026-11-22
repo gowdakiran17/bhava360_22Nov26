@@ -1,0 +1,7 @@
+version: 1
+approval: draft
+start: Use natal Lagna sign in the candidate profile. Store direction by sign group and count to its ruler with the specified
+  direct/reverse convention.
+duration: Subtract one from the inclusive sign count; use twelve years when ruler occupies the sign itself. Dual-lord, exaltation
+  and debility adjustments depend on selected school.
+hold: K.N. Rao or alternate variant and worked example must be explicitly pinned before dated output.

@@ -1,0 +1,35 @@
+id: vedic.muhurta.check-vehicle-number-delivery-exclusion
+system: vedic
+topic: muhurta
+title: vehicle-number · delivery-exclusion
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Requested vehicle delivery interval overlaps an applicable muhurta hard exclusion.
+conditions:
+  fact: checker.vehicle-number.delivery-exclusion
+  op: eq
+  value: true
+meaning: You may wish to compare a different delivery time.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.check-vehicle-number-delivery-exclusion
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may wish to compare a different delivery time.
+  kn: ಮತ್ತೊಂದು ವಿತರಣಾ ಸಮಯವನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: आप डिलीवरी का दूसरा समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

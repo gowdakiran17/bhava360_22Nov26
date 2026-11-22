@@ -1,0 +1,45 @@
+version: 1
+approval: draft
+origin: Local sunrise changes vara; angular limb changes occur at their exact ephemeris crossings.
+vara: Weekday of the most recent local sunrise.
+tithi: 1 + floor(((Moon − Sun) mod 360) / 12). First 15 waxing, next 15 waning.
+nakshatra: 1 + floor(sidereal Moon / (40/3)).
+yoga: 1 + floor(((sidereal Moon + sidereal Sun) mod 360) / (40/3)).
+karana: Index lunar elongation in 6° half-tithis from zero. Index 0 Kimstughna; 1..56 cycle Bava, Balava, Kaulava, Taitila,
+  Gara, Vanija, Vishti; 57..59 Shakuni, Chatushpada, Naga.
+sunrise_rules: Repeated tithi at successive sunrises and a tithi entirely between sunrises need separate festival rules. Keep
+  regional amanta/purnimanta profiles.
+day_eighths_sunday_first:
+  rahu:
+  - 8
+  - 2
+  - 7
+  - 5
+  - 6
+  - 4
+  - 3
+  yamaganda:
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  - 7
+  - 6
+  gulika:
+  - 7
+  - 6
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+other_intervals:
+  abhijit: Eighth of fifteen equal daylight muhurtas.
+  brahma: Traditional pre-sunrise interval under chosen night-length convention.
+  hora: Divide day and night separately into twelve. Start at weekday lord and repeat Saturn/Jupiter/Mars/Sun/Venus/Mercury/Moon
+    cyclically.
+  choghadiya: Eight intervals each by day and night; use the appropriate weekday sequence.
+  durmuhurta: Use weekday-specific muhurta indexes, including separate night rules.
+  varjyam-amrit: Use nakshatra-specific offsets scaled to the actual nakshatra interval.
+polar: No daylight-derived window when the required sunrise or sunset is unavailable.

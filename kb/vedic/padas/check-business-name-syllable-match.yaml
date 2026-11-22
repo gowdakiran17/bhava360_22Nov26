@@ -1,0 +1,35 @@
+id: vedic.padas.check-business-name-syllable-match
+system: vedic
+topic: padas
+title: business-name · syllable-match
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The proposed name begins with a reviewed sound assigned to the owner’s stable lunar pada.
+conditions:
+  fact: checker.brand.initial_sound_matches_pada
+  op: eq
+  value: true
+meaning: The opening sound may suit your chosen naming tradition.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.padas.check-business-name-syllable-match
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The opening sound may suit your chosen naming tradition.
+  kn: ಆರಂಭದ ಧ್ವನಿ ನೀವು ಆಯ್ದ ನಾಮಕರಣ ಪದ್ಧತಿಗೆ ಹೊಂದಬಹುದು.
+  hi: शुरुआती ध्वनि आपकी चुनी नामकरण परंपरा से मेल खा सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

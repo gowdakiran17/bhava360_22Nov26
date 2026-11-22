@@ -1,0 +1,35 @@
+id: jaimini.argala.intervention
+system: jaimini
+topic: argala
+title: Intervention
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: An intervening occupancy survives the corresponding obstruction check from the same reference sign.
+conditions:
+  fact: jaimini.argala_unobstructed
+  op: eq
+  value: true
+meaning: This factor may bring another house into the discussion.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: jaimini.argala.intervention
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This factor may bring another house into the discussion.
+  kn: ಈ ಅಂಶದಿಂದ ಮತ್ತೊಂದು ಭಾವದ ವಿಷಯ ಚರ್ಚೆಗೆ ಬರಬಹುದು.
+  hi: इस कारक से दूसरे भाव का विषय भी जुड़ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

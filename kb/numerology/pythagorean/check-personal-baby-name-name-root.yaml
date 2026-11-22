@@ -1,0 +1,36 @@
+id: numerology.pythagorean.check-personal-baby-name-name-root
+system: numerology
+topic: pythagorean
+title: personal-baby-name · name-root
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Under a selected Pythagorean profile the Expression number matches the named person’s Life Path. Preserve eligible master
+  numbers.
+conditions:
+  fact: checker.personal-baby-name.name-root
+  op: eq
+  value: true
+meaning: This spelling and the birth date share a number in the selected system.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.check-personal-baby-name-name-root
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This spelling and the birth date share a number in the selected system.
+  kn: ಆಯ್ಕೆಯ ಪದ್ಧತಿಯಲ್ಲಿ ಈ ಕಾಗುಣಿತ ಮತ್ತು ಜನ್ಮದಿನಾಂಕದ ಸಂಖ್ಯೆ ಹೊಂದುತ್ತವೆ.
+  hi: चुनी पद्धति में इस वर्तनी और जन्मतिथि का अंक मेल खाता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

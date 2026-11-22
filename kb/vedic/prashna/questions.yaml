@@ -1,0 +1,12 @@
+version: 1
+approval: draft
+inputs:
+- question instant
+- current place and zone
+- question category
+route:
+  job: 10th/6th houses
+  partnership: 7th house
+  journey: 3rd/9th houses
+output: Describe a current leaning from question-chart lords, their relationship and Moon. Attach timing only when available.
+  Exclude health; legal is admin-only.

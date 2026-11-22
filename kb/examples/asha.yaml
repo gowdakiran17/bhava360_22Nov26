@@ -1,80 +1,99 @@
-# Documentation only. Neither case asserts a placement in Asha's actual chart.
 fixture:
   name: Asha
-  date: "1992-03-12"
-  local_time: "05:40"
+  date: '1992-03-12'
+  local_time: 05:40
   place: Bengaluru
   zone: Asia/Kolkata
   ayanamsa: Lahiri
 cases:
-  - assumed_facts: {d1.jupiter.house_from_lagna: 10}
-    entry:
-      id: vedic.houses.jupiter-in-tenth
-      system: vedic
-      topic: houses
-      title: Jupiter in the tenth house
-      doctrine_profile: parashari-lahiri-whole-sign-draft-v1
-      approval: draft
-      rule: Inspect Jupiter's whole-sign house in D1, counting the ascendant sign as one.
-      conditions:
-        all:
-          - {fact: d1.jupiter.house_from_lagna, op: eq, value: 10}
-      meaning: Sharing knowledge may be one way to contribute at work.
-      life_areas: [career]
-      strength_notes: []
-      exceptions: []
-      traditions_differ:
-        - {profile: bhava-chalit, note: A bhava-based placement needs a separate house fact.}
-      sources:
-        - book: Phaladeepika
-          work_id: phaladeepika
-          edition: null
-          chapter: 8
-          verse: null
-          other_locator: Jupiter in the houses
-          supports: Traditional placement interpretation, pending comparison with the work-related wording.
-          verification: pending
-      confidence: medium
-      review_notes: Verify edition, verse, interpretive scope and strength qualifiers. The wording is illustrative.
-      user_text:
-        en: Asha, you may enjoy showing a colleague how to do something you know well.
-        kn: ಆಶಾ, ನಿಮಗೆ ಚೆನ್ನಾಗಿ ತಿಳಿದಿರುವ ಕೆಲಸವನ್ನು ಸಹೋದ್ಯೋಗಿಗೆ ಕಲಿಸುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
-        hi: आशा, जिस काम को आप अच्छी तरह जानती हैं, उसे किसी सहकर्मी को सिखाना आपको अच्छा लग सकता है।
-      native_review: {kn: pending, hi: pending}
-      remedy: null
-
-  - assumed_facts: {d1.jupiter.sign_distance_from_moon_inclusive: 4}
-    entry:
-      id: vedic.yogas.gaja-kesari-moon-angular
-      system: vedic
-      topic: yogas
-      title: Gaja Kesari yoga (Moon-based candidate)
-      doctrine_profile: parashari-moon-kendra-screen-draft-v1
-      approval: draft
-      rule: Count signs from the Moon with its sign as one. Flag Jupiter in the first, fourth, seventh or tenth sign for review under this Moon-based definition.
-      conditions:
-        all:
-          - {fact: d1.jupiter.sign_distance_from_moon_inclusive, op: in, value: [1, 4, 7, 10]}
-      meaning: A reflective reading may explore how a person draws on learning when offering advice.
-      life_areas: [learning]
-      strength_notes: []
-      exceptions: []
-      traditions_differ:
-        - {profile: parashari-qualified-formation, note: Some formulations also consider the ascendant or attach qualifications to Jupiter. Keep their full conditions in a separately sourced entry.}
-      sources:
-        - book: Phaladeepika
-          work_id: phaladeepika
-          edition: null
-          chapter: 6
-          verse: null
-          other_locator: Kesari yoga discussion
-          supports: Candidate Moon-based formation. Verify the name and distinguish it from other Gaja Kesari definitions.
-          verification: pending
-      confidence: disputed
-      review_notes: Candidate screen only. Verify the edition, naming, qualifications, cancellation rules and interpretive wording before approval.
-      user_text:
-        en: Asha, when someone asks for advice, you may find it helpful to think back to what you have learned.
-        kn: ಆಶಾ, ಯಾರಾದರೂ ಸಲಹೆ ಕೇಳಿದಾಗ ನೀವು ಕಲಿತದ್ದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಸಹಾಯವಾಗಬಹುದು.
-        hi: आशा, जब कोई आपसे सलाह माँगे, तो आपने जो सीखा है उसे याद करना आपके लिए मददगार हो सकता है।
-      native_review: {kn: pending, hi: pending}
-      remedy: null
+- assumed_facts:
+    d1.jupiter.house_from_lagna: 10
+  entry:
+    id: vedic.houses.jupiter-in-tenth
+    system: vedic
+    topic: houses
+    title: Jupiter in the tenth house
+    doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+    approval: draft
+    rule: Inspect Jupiter's whole-sign house in D1, counting the ascendant sign as one.
+    conditions:
+      all:
+      - fact: d1.jupiter.house_from_lagna
+        op: eq
+        value: 10
+    meaning: The placement offers a way to reflect on conduct at work.
+    life_areas:
+    - career
+    strength_notes: []
+    exceptions: []
+    traditions_differ:
+    - profile: bhava-chalit
+      note: A bhava-based placement needs a separate house fact.
+    sources:
+    - book: Phaladeepika
+      work_id: phaladeepika
+      edition: phaladeepika-sastri-1950
+      chapter: 8
+      verse: 16
+      other_locator: Jupiter in the houses
+      supports: Jupiter in the tenth and public conduct.
+      verification: verified
+    confidence: medium
+    review_notes: Editorial prompt about conduct; placement is hypothetical. Native review pending.
+    user_text:
+      en: Asha, you may want to consider which values guide your decisions at work.
+      kn: ಆಶಾ, ಕೆಲಸದಲ್ಲಿ ನಿಮ್ಮ ನಿರ್ಧಾರಗಳಿಗೆ ಯಾವ ಮೌಲ್ಯಗಳು ದಾರಿ ತೋರಿಸುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+      hi: आशा, आप सोच सकती हैं कि काम में कौन से मूल्य आपके निर्णयों को दिशा देते हैं।
+    native_review:
+      kn: pending
+      hi: pending
+    remedy: null
+- assumed_facts:
+    d1.jupiter.sign_distance_from_moon_inclusive: 4
+  entry:
+    id: vedic.yogas.gaja-kesari-moon-angular
+    system: vedic
+    topic: yogas
+    title: Gaja Kesari yoga (Moon-based candidate)
+    doctrine_profile: parashari-moon-kendra-screen-draft-v1
+    approval: draft
+    rule: Count signs from the Moon with its sign as one. Flag Jupiter in the first, fourth, seventh or tenth sign for review
+      under this Moon-based definition.
+    conditions:
+      all:
+      - fact: d1.jupiter.sign_distance_from_moon_inclusive
+        op: in
+        value:
+        - 1
+        - 4
+        - 7
+        - 10
+    meaning: A reflective reading may explore how a person draws on learning when offering advice.
+    life_areas:
+    - learning
+    strength_notes: []
+    exceptions: []
+    traditions_differ:
+    - profile: parashari-qualified-formation
+      note: Some formulations also consider the ascendant or attach qualifications to Jupiter. Keep their full conditions
+        in a separately sourced entry.
+    sources:
+    - book: Phaladeepika
+      work_id: phaladeepika
+      edition: phaladeepika-sastri-1950
+      chapter: 6
+      verse: 14
+      other_locator: Kesari yoga discussion
+      supports: Moon/Jupiter angularity called Kesari in this edition. Reflection prompt is an editorial adaptation.
+      verification: verified
+    confidence: disputed
+    review_notes: Verified angular formation in VI.14. Other Gaja Kesari formulations have additional requirements; name,
+      qualifiers and native copy require review.
+    user_text:
+      en: Asha, when someone asks for advice, you may find it helpful to think back to what you have learned.
+      kn: ಆಶಾ, ಯಾರಾದರೂ ಸಲಹೆ ಕೇಳಿದಾಗ ನೀವು ಕಲಿತದ್ದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಸಹಾಯವಾಗಬಹುದು.
+      hi: आशा, जब कोई आपसे सलाह माँगे, तो आपने जो सीखा है उसे याद करना आपके लिए मददगार हो सकता है।
+    native_review:
+      kn: pending
+      hi: pending
+    remedy: null

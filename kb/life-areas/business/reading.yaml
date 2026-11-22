@@ -1,0 +1,46 @@
+version: 1
+approval: draft
+houses:
+- 7
+- 10
+- 11
+varga: D10
+karakas:
+- mercury
+intent: business-start
+checker: business-name
+slots:
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
+    active period. Cite the actual graha and house.
+  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
+    when KP is enabled; display an honest absence when no supported date exists.
+  concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
+  what-you-can-do:
+    en: You can clarify the next decision with a partner.
+    kn: ಪಾಲುದಾರರೊಂದಿಗೆ ಮುಂದಿನ ನಿರ್ಧಾರವನ್ನು ಚರ್ಚಿಸಬಹುದು.
+    hi: साझेदार से अगले निर्णय पर बात कर सकते हैं।
+omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+slot_bindings:
+  present-situation:
+    rule_id: vedic.dashas-vimshottari.business-house-lord
+    evidence:
+    - current lord
+    - owned natal house
+    - period dates
+  upcoming-periods:
+    rule_id: vedic.dashas-vimshottari.business-upcoming
+    evidence:
+    - next period start and end
+    - period lord
+    - owned natal house
+  concerns-to-watch:
+    rule_id: vedic.transits.business-watch
+    evidence:
+    - actual transit
+    - reference origin
+    - qualifying rule
+    - date range
+  what-you-can-do:
+    localized_field: slots.what-you-can-do
+    requires: at least one matched area fact
+    checker: business-name

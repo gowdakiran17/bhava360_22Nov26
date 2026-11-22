@@ -1,0 +1,36 @@
+id: vastu.layouts.central-space
+system: vastu
+topic: layouts
+title: Central Space
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: User identifies an open central area.
+conditions:
+  fact: vastu.central-space
+  op: eq
+  value: true
+meaning: how people move through the home
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.layouts.central-space
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may use this traditional lens to reflect on how people move through the home.
+  kn: ಈ ಸಂಪ್ರದಾಯದ ನೋಟದಲ್ಲಿ “ಮನೆಯಲ್ಲಿ ಓಡಾಟ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस पारंपरिक दृष्टि से “घर में आवाजाही” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+inputs: Read consented birth details and up to three selected area IDs.
+output: Select three distinct supported facts and attach explanation chips; omit unsupported claims.

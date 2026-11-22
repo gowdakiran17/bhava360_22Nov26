@@ -1,0 +1,35 @@
+id: vedic.muhurta.eligible-window
+system: vedic
+topic: muhurta
+title: Eligible Window
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The entire window passes all hard exclusions and all required participant checks.
+conditions:
+  fact: muhurta.window.eligible
+  op: eq
+  value: true
+meaning: You can consider this time alongside your practical schedule.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.eligible-window
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can consider this time alongside your practical schedule.
+  kn: ನಿಮ್ಮ ವೇಳಾಪಟ್ಟಿಯ ಜೊತೆಗೆ ಈ ಸಮಯವನ್ನೂ ಪರಿಗಣಿಸಬಹುದು.
+  hi: अपनी सुविधा के साथ इस समय पर भी विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

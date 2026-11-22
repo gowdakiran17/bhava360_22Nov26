@@ -1,0 +1,35 @@
+id: western.natal.moon-gemini
+system: western
+topic: natal
+title: Moon in Gemini
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The tropical natal moon is in gemini.
+conditions:
+  fact: western.natal.moon.sign
+  op: eq
+  value: gemini
+meaning: Consider emotional needs through the theme of exchanging ideas.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.moon-gemini
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may explore emotional needs through exchanging ideas.
+  kn: “ಭಾವನಾತ್ಮಕ ಅಗತ್ಯಗಳು” ಕುರಿತು “ವಿಚಾರ ವಿನಿಮಯ” ಎಂಬ ದೃಷ್ಟಿಯಿಂದ ಯೋಚಿಸಬಹುದು.
+  hi: “भावनात्मक ज़रूरतें” को “विचारों का आदान-प्रदान” के संदर्भ में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

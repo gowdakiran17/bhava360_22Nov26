@@ -1,0 +1,37 @@
+id: vedic.yogas.chandra-mangala
+system: vedic
+topic: yogas
+title: Chandra Mangala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Moon and Mars occupy the same sign in this conjunction-only profile.
+conditions:
+  fact: d1.mars.distance_from_moon
+  op: in
+  value:
+  - 1
+meaning: You may want to review the resources available for your plan.
+life_areas:
+- business
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapter; exact edition and qualifications pending
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may want to review the resources available for your plan.
+  kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

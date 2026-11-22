@@ -1,0 +1,37 @@
+id: vedic.transits.business-watch
+system: vedic
+topic: transits
+title: business · watch
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
+  Bind graha, reference house, interval and qualifying rule ID.
+conditions:
+  fact: transit.business.qualified_challenge
+  op: eq
+  value: true
+meaning: You can confirm who handles each part of the plan.
+life_areas:
+- business
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can confirm who handles each part of the plan.
+  kn: ಯೋಜನೆಯ ಯಾವ ಭಾಗ ಯಾರ ಹೊಣೆ ಎಂದು ಖಚಿತಪಡಿಸಬಹುದು.
+  hi: योजना के किस हिस्से की ज़िम्मेदारी किसकी है, यह तय कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

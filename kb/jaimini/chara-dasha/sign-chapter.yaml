@@ -1,0 +1,35 @@
+id: jaimini.chara-dasha.sign-chapter
+system: jaimini
+topic: chara-dasha
+title: Sign Chapter
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: The active Chara sign period is derived under a pinned and validated variant.
+conditions:
+  fact: jaimini.chara.current_sign_known
+  op: eq
+  value: true
+meaning: You can explore the themes of this sign during the dated period.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: jaimini.chara-dasha.sign-chapter
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore the themes of this sign during the dated period.
+  kn: ಈ ದಿನಾಂಕಗಳ ಅವಧಿಯಲ್ಲಿ ಈ ರಾಶಿಯ ವಿಷಯಗಳನ್ನು ನೋಡಬಹುದು.
+  hi: इस अवधि में इस राशि से जुड़े विषयों को देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

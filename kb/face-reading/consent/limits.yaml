@@ -1,0 +1,14 @@
+version: 1
+approval: draft
+consent: Explicit image consent; local processing only, delete immediately.
+allowed:
+- self-selected expression for journaling
+excluded:
+- identity
+- health
+- ethnicity
+- caste
+- religion
+- age
+- attractiveness
+- personality inferred from face

@@ -1,0 +1,35 @@
+id: kp.number-horary.arc
+system: kp
+topic: number-horary
+title: Arc
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: An accepted integer 1–249 selects exactly one interval in the number-horary table.
+conditions:
+  fact: kp.question.arc_selected
+  op: eq
+  value: true
+meaning: You can view the chart factors linked to the number you selected.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: kp.number-horary.arc
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can view the chart factors linked to the number you selected.
+  kn: ನೀವು ಆಯ್ದ ಸಂಖ್ಯೆಗೆ ಸಂಬಂಧಿಸಿದ ಚಕ್ರದ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+  hi: चुनी संख्या से जुड़े कुंडली के कारक देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: vedic.muhurta.check-big-decision-muhurta-moon-support
+system: vedic
+topic: muhurta
+title: big-decision-muhurta · moon-support
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Specific participant has a supportive transit Moon distance during the candidate interval.
+conditions:
+  fact: checker.big-decision-muhurta.moon-support
+  op: eq
+  value: true
+meaning: The Moon’s position also supports this time in your chart.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.check-big-decision-muhurta-moon-support
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The Moon’s position also supports this time in your chart.
+  kn: ನಿಮ್ಮ ಚಕ್ರದಲ್ಲಿ ಚಂದ್ರನ ಸ್ಥಾನವೂ ಈ ಸಮಯಕ್ಕೆ ಬೆಂಬಲ ನೀಡುತ್ತದೆ.
+  hi: आपकी कुंडली में चंद्रमा की स्थिति भी इस समय का समर्थन करती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: western.solar-arc.directed-contact
+system: western
+topic: solar-arc
+title: Directed Contact
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Add the progressed Sun minus natal Sun arc to a natal point and test for a dated contact.
+conditions:
+  fact: western.solar-arc-contact
+  op: eq
+  value: true
+meaning: You may use this date as a prompt to reflect on a change.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.solar-arc.directed-contact
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may use this date as a prompt to reflect on a change.
+  kn: ಬದಲಾವಣೆಯನ್ನು ಕುರಿತು ಯೋಚಿಸಲು ಈ ದಿನಾಂಕ ಬಳಸಬಹುದು.
+  hi: बदलाव पर विचार के लिए इस तारीख का उपयोग कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

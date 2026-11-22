@@ -1,0 +1,9 @@
+version: 1
+approval: draft
+components:
+- strength of the house lord
+- directional strength of the bhava
+- aspects to the bhava
+aggregation: Convert components to the same units and add algebraically. Requires stable Lagna, consistent bhava middle and
+  validated aspect convention.
+visibility: Admin values; localized qualitative output after worked-example review.

@@ -1,0 +1,5 @@
+version: 1
+approval: draft
+upright: Use the drawn card’s upright entry.
+reversed: Use its distinct reversed entry only when reversals were enabled for this draw.
+fallback: Uncertain orientation yields no orientation-specific interpretation.

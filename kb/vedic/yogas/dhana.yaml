@@ -1,0 +1,36 @@
+id: vedic.yogas.dhana
+system: vedic
+topic: yogas
+title: Dhana lord association
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Second or eleventh lord is linked to fifth or ninth lord by conjunction or exchange.
+conditions:
+  fact: d1.lords.wealth_trine_link
+  op: eq
+  value: true
+meaning: You may want to review the resources available for your plan.
+life_areas:
+- money
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapter; exact edition and qualifications pending
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may want to review the resources available for your plan.
+  kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

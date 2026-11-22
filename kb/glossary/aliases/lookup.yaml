@@ -1,0 +1,18 @@
+version: 1
+approval: draft
+lookup:
+  Gajakesari: gaja-kesari
+  Kuja: mars
+  Mangala: mars
+  Guru: jupiter
+  Shukra: venus
+  Shani: saturn
+  Rasi: rashi
+  Gochara: gochara
+  Dasa: dasha
+  Navamsha: D9
+  Dasamsha: D10
+  Upapada: UL
+  Moolank: moolank
+  Bhagyank: bhagyank
+resolve: Resolve aliases within the selected system and locale.

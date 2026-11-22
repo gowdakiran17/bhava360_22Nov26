@@ -1,0 +1,9 @@
+version: 1
+approval: draft
+projection: Count from the house sign to its lord inclusively; project the same distance forward from that lord. If projected
+  pada falls in the source sign use its tenth; if in its seventh use the tenth from the projected sign under this variant.
+labels:
+  AL: 1
+  A7: 7
+  UL: 12
+uncertainty: Recalculate affected padas when Lagna or lord sign varies.

@@ -1,0 +1,35 @@
+id: vedic.strength-ashtakavarga.bindu-support
+system: vedic
+topic: strength/ashtakavarga
+title: Bindu Support
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Chosen transit sign is supported by the transiting graha’s unreduced BAV under the validated qualitative threshold.
+conditions:
+  fact: transit.bav.supportive
+  op: eq
+  value: true
+meaning: This sign may offer support during the indicated transit.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.strength-ashtakavarga.bindu-support
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This sign may offer support during the indicated transit.
+  kn: ಸೂಚಿಸಿದ ಸಂಚಾರದಲ್ಲಿ ಈ ರಾಶಿಯಿಂದ ಬೆಂಬಲ ಸಿಗಬಹುದು.
+  hi: दिखाए गए गोचर में इस राशि से सहारा मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

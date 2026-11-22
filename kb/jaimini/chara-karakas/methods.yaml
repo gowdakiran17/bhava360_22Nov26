@@ -1,0 +1,6 @@
+version: 1
+approval: draft
+seven: Rank Sun through Saturn by degrees traversed in their current signs, descending. AK, AmK, BK, MK, PK, GK, DK.
+eight: Add Rahu using 30° minus its intra-sign longitude; insert paternal karaka between MK and PK. Resolve ties with full
+  precision or hold the rank.
+karakamsa: Read the sign of the ranked Atmakaraka in D9. Keep D9 reference and any projection to D1 explicitly labelled.

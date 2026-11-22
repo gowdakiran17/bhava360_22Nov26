@@ -1,0 +1,14 @@
+version: 1
+approval: draft
+layout:
+- - 4
+  - 9
+  - 2
+- - 3
+  - 5
+  - 7
+- - 8
+  - 1
+  - 6
+fill: Count nonzero birth-date digits including duplicates. Keep positions fixed. Missing and repeated cells indicate questions
+  for reflection only.

@@ -1,0 +1,35 @@
+id: western.aspects.semi-sextile
+system: western
+topic: aspects
+title: Semi-Sextile
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The selected natal pair forms the named aspect within its configured orb.
+conditions:
+  fact: western.natal.aspect
+  op: eq
+  value: semi-sextile
+meaning: small differences
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: Aspect interpretation; exact passage pending.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may notice small differences between the two themes.
+  kn: ಈ ಎರಡು ವಿಷಯಗಳ ನಡುವೆ “ಸಣ್ಣ ವ್ಯತ್ಯಾಸಗಳು” ಗಮನಿಸಬಹುದು.
+  hi: दोनों विषयों के बीच “छोटे अंतर” पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

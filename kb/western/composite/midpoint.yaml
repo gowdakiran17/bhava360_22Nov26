@@ -1,0 +1,36 @@
+id: western.composite.midpoint
+system: western
+topic: composite
+title: Midpoint
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Use the circular midpoint for corresponding points in two consenting charts; ambiguous antipodes require a convention.
+conditions:
+  fact: western.composite-midpoint
+  op: eq
+  value: true
+meaning: You can explore a theme of the relationship together.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.composite.midpoint
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore a theme of the relationship together.
+  kn: ಸಂಬಂಧದ ವಿಷಯವನ್ನು ಇಬ್ಬರೂ ಒಟ್ಟಿಗೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: रिश्ते की इस बात को आप साथ मिलकर समझ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

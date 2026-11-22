@@ -1,0 +1,28 @@
+version: 1
+approval: draft
+mapping:
+  1: AJS
+  2: BKT
+  3: CLU
+  4: DMV
+  5: ENW
+  6: FOX
+  7: GPY
+  8: HQZ
+  9: IR
+fields:
+- life-path
+- expression
+- soul-urge
+- personality
+- birthday
+- maturity
+- personal-year
+- personal-month
+- personal-day
+algorithm: Use Latin A–Z. Expression uses all letters, Soul Urge vowels, Personality consonants. Use explicit vowel treatment
+  for Y. Life Path reduces month, day and year before adding. Birthday uses day; Maturity combines Life Path and Expression.
+  Calendar cycles combine birth month/day with target year, then target month/day. Keep 11,22,33 at reduction stages under
+  this profile.
+privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the intended
+  Latin spelling.

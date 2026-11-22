@@ -1,0 +1,52 @@
+version: 1
+approval: draft
+profile: moon-based-gochara-candidate-v1
+source: Phaladeepika, transit chapter; exact verse and planetary exceptions pending review.
+meaning: Pair each supportive relative house with a possible obstructing relative house measured from natal Moon. Inspect
+  other transiting occupants; preserve the named Vedha pair as evidence.
+support_to_obstruction:
+  sun:
+    3: 9
+    6: 12
+    10: 4
+    11: 5
+  moon:
+    1: 5
+    3: 9
+    6: 12
+    7: 2
+    10: 4
+    11: 8
+  mars:
+    3: 12
+    6: 9
+    11: 5
+  mercury:
+    2: 5
+    4: 3
+    6: 9
+    8: 1
+    10: 8
+    11: 12
+  jupiter:
+    2: 12
+    5: 4
+    7: 3
+    9: 10
+    11: 8
+  venus:
+    1: 8
+    2: 7
+    3: 1
+    4: 10
+    5: 9
+    8: 5
+    9: 11
+    11: 6
+    12: 3
+  saturn:
+    3: 12
+    6: 9
+    11: 5
+exception: Candidate Sun/Saturn and Moon/Mercury mutual exceptions require profile verification. Hold automatic obstruction
+  wording until reviewed.

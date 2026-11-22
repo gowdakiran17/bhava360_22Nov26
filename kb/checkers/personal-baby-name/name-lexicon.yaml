@@ -1,0 +1,29 @@
+version: 1
+approval: draft
+source: Monier-Williams Sanskrit-English Dictionary, headwords आशा, दीप, किरण, विद्या, तारा. Verify the intended name language
+  and spelling before release.
+entries:
+  Asha:
+    en: hope
+    kn: ಆಶೆ
+    hi: आशा
+  Deepa:
+    en: lamp
+    kn: ದೀಪ
+    hi: दीप
+  Kiran:
+    en: ray
+    kn: ಕಿರಣ
+    hi: किरण
+  Vidya:
+    en: knowledge
+    kn: ವಿದ್ಯೆ
+    hi: विद्या
+  Tara:
+    en: star
+    kn: ನಕ್ಷತ್ರ
+    hi: तारा
+native_review:
+  kn: pending
+  hi: pending
+unknown: Return meaning unavailable for a spelling absent from the curated register.

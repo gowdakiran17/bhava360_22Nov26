@@ -1,0 +1,35 @@
+id: numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+system: numerology
+topic: ank-jyotish
+title: mobile-number · distinct-destiny-match
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The derived root equals Bhagyank and Bhagyank differs from Moolank.
+conditions:
+  fact: checker.mobile-number.distinct-destiny-match
+  op: eq
+  value: true
+meaning: The root also connects this option with your full birth-date number.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The root also connects this option with your full birth-date number.
+  kn: ಈ ಆಯ್ಕೆಯ ಮೂಲ ಸಂಖ್ಯೆ ಪೂರ್ಣ ಜನ್ಮದಿನಾಂಕದ ಸಂಖ್ಯೆಗೆ ಹೊಂದುತ್ತದೆ.
+  hi: इस विकल्प का मूल अंक आपकी पूरी जन्मतिथि के अंक से मिलता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

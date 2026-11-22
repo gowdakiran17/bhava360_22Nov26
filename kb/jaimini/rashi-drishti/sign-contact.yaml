@@ -1,0 +1,35 @@
+id: jaimini.rashi-drishti.sign-contact
+system: jaimini
+topic: rashi-drishti
+title: Sign Contact
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Source and target signs form a rashi drishti under their modality rules.
+conditions:
+  fact: jaimini.sign_aspect
+  op: eq
+  value: true
+meaning: You can explore how the two sign themes connect.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: jaimini.rashi-drishti.sign-contact
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore how the two sign themes connect.
+  kn: ಎರಡು ರಾಶಿಗಳ ವಿಷಯಗಳು ಹೇಗೆ ಸಂಪರ್ಕಿಸುತ್ತವೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: दोनों राशियों के विषयों का संबंध देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

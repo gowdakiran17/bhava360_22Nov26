@@ -1,0 +1,35 @@
+id: vedic.festivals.observance
+system: vedic
+topic: festivals
+title: Observance
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A region-specific festival rule identifies the local date for the selected city.
+conditions:
+  fact: panchang.observance.local
+  op: eq
+  value: true
+meaning: You can check the local observance date and its calendar basis.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.festivals.observance
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can check the local observance date and its calendar basis.
+  kn: ಸ್ಥಳೀಯ ಆಚರಣೆಯ ದಿನಾಂಕ ಮತ್ತು ಪಂಚಾಂಗದ ಆಧಾರ ನೋಡಬಹುದು.
+  hi: स्थानीय पर्व की तिथि और उसका पंचांग आधार देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

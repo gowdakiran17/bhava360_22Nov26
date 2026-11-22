@@ -1,0 +1,47 @@
+id: tarot.minor-arcana.two-of-cups-reversed
+system: tarot
+topic: minor-arcana
+title: Two of Cups · reversed
+doctrine_profile: tarot-editorial-v1
+approval: draft
+rule: Match the card identity and orientation in the current spread slot.
+conditions:
+  all:
+  - fact: draw.card
+    op: eq
+    value: two-of-cups
+  - fact: draw.orientation
+    op: eq
+    value: reversed
+meaning: The card offers a reflection on uneven expectations.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 original tarot reflections
+  work_id: bhava360-original-tarot-reflections
+  edition: bhava360-original-tarot-reflections-v1
+  chapter: null
+  verse: null
+  other_locator: tarot.minor-arcana.two-of-cups-reversed
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+- book: The Pictorial Key to the Tarot
+  work_id: waite-pictorial-key
+  edition: waite-1910
+  chapter: Part III
+  verse: null
+  other_locator: Two of Cups
+  supports: Historical card identity. The trilingual reflection is original editorial text.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may wish to reflect on uneven expectations. What comes to mind in this position?
+  kn: “ಅಸಮಾನ ನಿರೀಕ್ಷೆಗಳು” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
+  hi: आप “असमान अपेक्षाएँ” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

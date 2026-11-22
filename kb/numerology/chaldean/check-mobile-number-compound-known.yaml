@@ -1,0 +1,35 @@
+id: numerology.chaldean.check-mobile-number-compound-known
+system: numerology
+topic: chaldean
+title: mobile-number · compound-known
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: A Chaldean compound reading is explicitly enabled and the digit sum is within 10–52.
+conditions:
+  fact: checker.mobile-number.compound-known
+  op: eq
+  value: true
+meaning: You can read the compound theme before reducing the total.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.chaldean.check-mobile-number-compound-known
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can read the compound theme before reducing the total.
+  kn: ಮೊತ್ತವನ್ನು ಇಳಿಸುವ ಮುನ್ನ ಸಂಯುಕ್ತ ಸಂಖ್ಯೆಯ ವಿಷಯವನ್ನು ನೋಡಬಹುದು.
+  hi: योग घटाने से पहले संयुक्त अंक का विषय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

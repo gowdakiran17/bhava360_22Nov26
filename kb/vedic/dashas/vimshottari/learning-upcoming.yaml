@@ -1,0 +1,36 @@
+id: vedic.dashas-vimshottari.learning-upcoming
+system: vedic
+topic: dashas/vimshottari
+title: learning · upcoming
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Next dated major or subperiod lord owns house 4 of the stable natal chart. Bind the exact child interval.
+conditions:
+  fact: dasha.next_lord.owns_house_4
+  op: eq
+  value: true
+meaning: You might return to a learning goal in this period.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 area composition
+  work_id: bhava360-area-composition
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might return to a learning goal in this period.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಕಲಿಕೆಯ ಗುರಿಯನ್ನು ಮತ್ತೆ ಕೈಗೆತ್ತಿಕೊಳ್ಳಬಹುದು.
+  hi: इस अवधि में पढ़ाई के किसी लक्ष्य की ओर लौट सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

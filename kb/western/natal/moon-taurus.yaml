@@ -1,0 +1,35 @@
+id: western.natal.moon-taurus
+system: western
+topic: natal
+title: Moon in Taurus
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The tropical natal moon is in taurus.
+conditions:
+  fact: western.natal.moon.sign
+  op: eq
+  value: taurus
+meaning: Consider emotional needs through the theme of building slowly.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.moon-taurus
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may explore emotional needs through building slowly.
+  kn: “ಭಾವನಾತ್ಮಕ ಅಗತ್ಯಗಳು” ಕುರಿತು “ನಿಧಾನವಾದ ಬೆಳವಣಿಗೆ” ಎಂಬ ದೃಷ್ಟಿಯಿಂದ ಯೋಚಿಸಬಹುದು.
+  hi: “भावनात्मक ज़रूरतें” को “धीरे निर्माण” के संदर्भ में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

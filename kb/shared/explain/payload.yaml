@@ -1,0 +1,25 @@
+version: 1
+approval: draft
+public:
+- term definition
+- personal meaning constrained to matched evidence
+- actual start and end instants when relevant
+- localized evidence chips
+- system and human-readable convention
+- precision caveat
+admin:
+- rule IDs
+- facts and provenance
+- source locators
+- raw strength
+- approval record
+- AI prompt and model
+key:
+- active profile
+- system
+- chart
+- fact reference
+- date
+- place
+- convention
+unavailable: Show the reason when precision or evidence is insufficient.

@@ -1,0 +1,5 @@
+version: 1
+approval: draft
+shuffle: Unbiased Fisher–Yates using a cryptographic uniform integer in [0,i] for each descending index. Optional cut rotates
+  the permutation. Choose unique positions without replacement.
+reversals: Independent fair orientation when enabled, otherwise upright. Preserve the stored draw on reopen.

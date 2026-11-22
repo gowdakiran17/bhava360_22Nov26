@@ -1,0 +1,40 @@
+id: vedic.yogas.amala
+system: vedic
+topic: yogas
+title: Amala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named reference.
+conditions:
+  any:
+  - fact: d1.moon.tenth_has_benefic
+    op: eq
+    value: true
+  - fact: d1.lagna.tenth_has_benefic
+    op: eq
+    value: true
+meaning: You may reflect on how you carry responsibility in public.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 19
+  other_locator: null
+  supports: Formation in the tenth from Lagna or Moon.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may reflect on how you carry responsibility in public.
+  kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: सार्वजनिक ज़िम्मेदारी निभाने के अपने तरीके पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

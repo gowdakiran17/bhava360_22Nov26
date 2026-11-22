@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+inputs: Select consenting profiles, common date and current city.
+output: Find intersections of permitted timing windows, show each person’s factors and missing evidence separately.

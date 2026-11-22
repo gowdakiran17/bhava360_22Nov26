@@ -1,0 +1,46 @@
+version: 1
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+terms:
+  karaka:
+    en: Significator
+    kn: ಕಾರಕ
+    hi: कारक
+  drishti:
+    en: Aspect
+    kn: ದೃಷ್ಟಿ
+    hi: दृष्टि
+  bhava:
+    en: House
+    kn: ಭಾವ
+    hi: भाव
+  gochara:
+    en: Transit
+    kn: ಗೋಚಾರ
+    hi: गोचर
+  antardasha:
+    en: Subperiod
+    kn: ಅಂತರ್ದಶೆ
+    hi: अंतर्दशा
+  tithi:
+    en: Lunar day
+    kn: ತಿಥಿ
+    hi: तिथि
+  tara-bala:
+    en: Birth-star support
+    kn: ತಾರಾಬಲ
+    hi: ताराबल
+  chandra-bala:
+    en: Lunar support
+    kn: ಚಂದ್ರಬಲ
+    hi: चंद्रबल
+  pada:
+    en: Quarter
+    kn: ಪಾದ
+    hi: चरण
+  bindu:
+    en: Contribution point
+    kn: ಬಿಂದು
+    hi: बिंदु

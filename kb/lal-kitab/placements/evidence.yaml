@@ -1,0 +1,5 @@
+version: 1
+approval: draft
+frame: Match a graha to its fixed house in the selected Lal Kitab method. Use source-specific traits only. Optional conduct
+  prompts stay free.
+edition: Lal Kitab has several historical editions. Bind the exact edition before activating a trait.

@@ -1,0 +1,36 @@
+id: vastu.directions.northeast
+system: vastu
+topic: directions
+title: Northeast
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: A user-selected quiet corner is in the northeast.
+conditions:
+  fact: vastu.northeast
+  op: eq
+  value: true
+meaning: time for reflection
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.directions.northeast
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may use this traditional lens to reflect on time for reflection.
+  kn: ಈ ಸಂಪ್ರದಾಯದ ನೋಟದಲ್ಲಿ “ಚಿಂತನೆಯ ಸಮಯ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस पारंपरिक दृष्टि से “चिंतन का समय” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

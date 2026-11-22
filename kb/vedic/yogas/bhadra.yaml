@@ -1,0 +1,44 @@
+id: vedic.yogas.bhadra
+system: vedic
+topic: yogas
+title: Bhadra
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Mercury occupies a whole-sign angle from Lagna and its own or exaltation sign.
+conditions:
+  all:
+  - fact: d1.mercury.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  - fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+meaning: You may enjoy explaining a difficult idea clearly.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 1
+  other_locator: Five angular planetary combinations
+  supports: Formation only. Reflection prompt is editorial.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may enjoy explaining a difficult idea clearly.
+  kn: ಕಷ್ಟದ ವಿಚಾರವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ವಿವರಿಸುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+  hi: आप कठिन विचार को स्पष्ट करना पसंद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: lal-kitab.placements.house-10
+system: lal-kitab
+topic: placements
+title: Fixed house 10
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: The selected graha occupies fixed house 10.
+conditions:
+  fact: lal_kitab.planet.fixed_house
+  op: eq
+  value: 10
+meaning: This original prompt opens the house detail for responsibilities at work.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 fixed-house prompts
+  work_id: bhava360-fixed-house-prompts
+  edition: bhava360-fixed-house-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.placements.house-10
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might reflect on responsibilities at work when exploring this house.
+  kn: ಈ ಭಾವವನ್ನು ನೋಡುವಾಗ “ಕೆಲಸದ ಜವಾಬ್ದಾರಿ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस भाव को देखते समय “काम की ज़िम्मेदारियाँ” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: vedic.muhurta.check-business-name-launch-exclusion
+system: vedic
+topic: muhurta
+title: business-name · launch-exclusion
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The proposed launch instant falls inside an activity-specific hard exclusion.
+conditions:
+  fact: checker.business-name.launch-exclusion
+  op: eq
+  value: true
+meaning: You can compare another time for the launch.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.muhurta.check-business-name-launch-exclusion
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can compare another time for the launch.
+  kn: ಉದ್ಘಾಟನೆಗೆ ಮತ್ತೊಂದು ಸಮಯವನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: शुरुआत के लिए कोई दूसरा समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

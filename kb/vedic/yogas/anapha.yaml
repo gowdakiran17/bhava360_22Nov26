@@ -1,0 +1,56 @@
+id: vedic.yogas.anapha
+system: vedic
+topic: yogas
+title: Anapha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are excluded
+  as contributors.
+conditions:
+  all:
+  - any:
+    - fact: d1.mars.distance_from_moon
+      op: in
+      value:
+      - 12
+    - fact: d1.mercury.distance_from_moon
+      op: in
+      value:
+      - 12
+    - fact: d1.jupiter.distance_from_moon
+      op: in
+      value:
+      - 12
+    - fact: d1.venus.distance_from_moon
+      op: in
+      value:
+      - 12
+    - fact: d1.saturn.distance_from_moon
+      op: in
+      value:
+      - 12
+meaning: You can make room for support from people you trust.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapter; exact edition and qualifications pending
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can make room for support from people you trust.
+  kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+  hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,4 @@
+version: 1
+approval: draft
+inputs: Read selected activity, city, range and participants.
+output: Present exclusion-free windows with factors, add-to-calendar and local reminders.

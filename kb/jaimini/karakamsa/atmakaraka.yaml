@@ -1,0 +1,35 @@
+id: jaimini.karakamsa.atmakaraka
+system: jaimini
+topic: karakamsa
+title: Atmakaraka
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Resolve the D9 sign occupied by the ranked Atmakaraka.
+conditions:
+  fact: jaimini.d9.ak_sign_stable
+  op: eq
+  value: true
+meaning: A recurring interest may be worth exploring.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Karakamsa section
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: A recurring interest may be worth exploring.
+  kn: ಮರುಕಳಿಸುವ ಆಸಕ್ತಿಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: बार-बार लौटने वाली रुचि पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

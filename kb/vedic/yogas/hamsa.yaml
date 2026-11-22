@@ -1,0 +1,45 @@
+id: vedic.yogas.hamsa
+system: vedic
+topic: yogas
+title: Hamsa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Jupiter occupies a whole-sign angle from Lagna and its own or exaltation sign.
+conditions:
+  all:
+  - fact: d1.jupiter.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  - fact: d1.jupiter.own_or_exalted
+    op: eq
+    value: true
+meaning: You may find meaning in sharing what you learn.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 1
+  other_locator: Five angular planetary combinations
+  supports: Formation only. Reflection prompt is editorial.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may find meaning in sharing what you learn.
+  kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.
+  hi: सीखी हुई बात बाँटना आपको सार्थक लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

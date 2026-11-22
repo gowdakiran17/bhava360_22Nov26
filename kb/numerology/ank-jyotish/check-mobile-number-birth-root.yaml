@@ -1,0 +1,35 @@
+id: numerology.ank-jyotish.check-mobile-number-birth-root
+system: numerology
+topic: ank-jyotish
+title: mobile-number · birth-root
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The ten-digit total reduces to the selected birth-number root.
+conditions:
+  fact: checker.mobile.root_matches_birth
+  op: eq
+  value: true
+meaning: The two totals share a root in this number system.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.ank-jyotish.check-mobile-number-birth-root
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The two totals share a root in this number system.
+  kn: ಈ ಸಂಖ್ಯಾ ಪದ್ಧತಿಯಲ್ಲಿ ಎರಡು ಮೊತ್ತಗಳ ಮೂಲ ಸಂಖ್ಯೆ ಒಂದೇ ಆಗಿದೆ.
+  hi: इस अंक पद्धति में दोनों योगों का मूल अंक एक है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

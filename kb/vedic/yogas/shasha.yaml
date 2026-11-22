@@ -1,0 +1,44 @@
+id: vedic.yogas.shasha
+system: vedic
+topic: yogas
+title: Shasha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Saturn occupies a whole-sign angle from Lagna and its own or exaltation sign.
+conditions:
+  all:
+  - fact: d1.saturn.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+  - fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+meaning: You may prefer responsibilities that reward patience.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 1
+  other_locator: Five angular planetary combinations
+  supports: Formation only. Reflection prompt is editorial.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may prefer responsibilities that reward patience.
+  kn: ತಾಳ್ಮೆ ಬೇಡುವ ಹೊಣೆಗಾರಿಕೆಗಳು ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.
+  hi: धैर्य माँगने वाली ज़िम्मेदारियाँ आपको पसंद आ सकती हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

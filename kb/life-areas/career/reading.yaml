@@ -1,0 +1,47 @@
+version: 1
+approval: draft
+houses:
+- 10
+- 6
+- 2
+varga: D10
+karakas:
+- sun
+- saturn
+intent: job-change
+checker: big-decision-muhurta
+slots:
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
+    active period. Cite the actual graha and house.
+  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
+    when KP is enabled; display an honest absence when no supported date exists.
+  concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
+  what-you-can-do:
+    en: Choose one work responsibility to discuss.
+    kn: ಕೆಲಸದ ಒಂದು ಜವಾಬ್ದಾರಿ ಕುರಿತು ಚರ್ಚಿಸಬಹುದು.
+    hi: काम की किसी एक ज़िम्मेदारी पर बात कर सकते हैं।
+omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+slot_bindings:
+  present-situation:
+    rule_id: vedic.dashas-vimshottari.career-house-lord
+    evidence:
+    - current lord
+    - owned natal house
+    - period dates
+  upcoming-periods:
+    rule_id: vedic.dashas-vimshottari.career-upcoming
+    evidence:
+    - next period start and end
+    - period lord
+    - owned natal house
+  concerns-to-watch:
+    rule_id: vedic.transits.career-watch
+    evidence:
+    - actual transit
+    - reference origin
+    - qualifying rule
+    - date range
+  what-you-can-do:
+    localized_field: slots.what-you-can-do
+    requires: at least one matched area fact
+    checker: big-decision-muhurta

@@ -1,0 +1,35 @@
+id: vedic.vargas.d12-placement
+system: vedic
+topic: vargas
+title: D12 · Dwadasamsa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use a stable D12 placement alongside its D1 context.
+conditions:
+  fact: varga.d12.verified_placement
+  op: eq
+  value: true
+meaning: This chart supplies a supplementary lens on family background.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Shodashavarga chapter, division Dwadasamsa
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore family background alongside this placement.
+  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಕುಟುಂಬದ ಹಿನ್ನೆಲೆ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस स्थिति के साथ “पारिवारिक पृष्ठभूमि” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

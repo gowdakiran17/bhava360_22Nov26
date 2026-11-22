@@ -1,0 +1,36 @@
+id: western.synastry.two-chart-contact
+system: western
+topic: synastry
+title: Two Chart Contact
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Two consented charts have a selected inter-aspect within its configured orb.
+conditions:
+  fact: western.synastry-contact
+  op: eq
+  value: true
+meaning: You can use this shared theme to start a conversation.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.synastry.two-chart-contact
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can use this shared theme to start a conversation.
+  kn: ಈ ವಿಷಯವನ್ನು ಸಂಭಾಷಣೆಗೆ ಬಳಸಬಹುದು.
+  hi: इस साझा विषय पर बातचीत शुरू कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

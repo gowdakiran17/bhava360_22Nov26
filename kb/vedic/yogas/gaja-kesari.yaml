@@ -1,0 +1,46 @@
+id: vedic.yogas.gaja-kesari
+system: vedic
+topic: yogas
+title: Gaja Kesari
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'Moon-based screen: Jupiter occupies an angle from the Moon.'
+conditions:
+  fact: d1.jupiter.distance_from_moon
+  op: in
+  value:
+  - 1
+  - 4
+  - 7
+  - 10
+meaning: You may find it helpful to talk through an idea before acting.
+life_areas:
+- learning
+strength_notes: []
+exceptions:
+- when:
+    fact: d1.jupiter.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Jupiter occupies its debilitation sign under the dignity register.
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 14
+  other_locator: null
+  supports: Moon/Jupiter angularity in the Kesari formulation; separate modern qualification requires review.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may find it helpful to talk through an idea before acting.
+  kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
+  hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

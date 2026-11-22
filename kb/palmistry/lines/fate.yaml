@@ -1,0 +1,43 @@
+id: palmistry.lines.fate
+system: palmistry
+topic: lines
+title: Fate observation
+doctrine_profile: palmistry-editorial-v1
+approval: draft
+rule: confirmed central vertical line
+conditions:
+  fact: palm.lines.fate
+  op: eq
+  value: true
+meaning: Use a chosen direction as an optional journal topic.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 palm reflection prompts
+  work_id: bhava360-palm-reflection-prompts
+  edition: bhava360-palm-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: palmistry.lines.fate
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+- book: Palmistry for All
+  work_id: cheiro-palmistry
+  edition: cheiro-pg20480
+  chapter: Part I
+  verse: null
+  other_locator: Fate observation
+  supports: Historical feature terminology only. Original prompts do not import predictions from the text.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can use this observation to reflect on a chosen direction.
+  kn: ಈ ಗಮನಿಕೆಯನ್ನು ಆಧರಿಸಿ “ಆಯ್ದ ದಿಕ್ಕು” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस अवलोकन से “चुनी हुई दिशा” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

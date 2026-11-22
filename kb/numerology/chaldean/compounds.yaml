@@ -1,0 +1,67 @@
+version: 1
+approval: draft
+source: Cheiro’s Book of Numbers, compound numbers 10–52
+url: https://www.lightforcenetwork.com/wp-content/uploads/2016/12/Book-of-Numbers-Cheiro.pdf
+original_editorial_themes:
+  10: responding to change
+  11: clarifying a disagreement
+  12: balancing generosity with your needs
+  13: rebuilding a routine
+  14: adapting to movement
+  15: using persuasion thoughtfully
+  16: checking a fragile assumption
+  17: long-term creative contribution
+  18: navigating conflicting interests
+  19: sharing confidence
+  20: answering a call to action
+  21: recognizing progress
+  22: seeking a second perspective
+  23: drawing on helpful contacts
+  24: accepting support
+  25: learning through experience
+  26: clarifying shared obligations
+  27: using judgement responsibly
+  28: making agreements explicit
+  29: building trust gradually
+  30: independent reflection
+  31: balancing solitude and company
+  32: maintaining an independent judgement
+  33: accepting support
+  34: learning through experience
+  35: clarifying shared obligations
+  36: using judgement responsibly
+  37: working with a trusted partner
+  38: building trust gradually
+  39: independent reflection
+  40: balancing solitude and company
+  41: maintaining an independent judgement
+  42: accepting support
+  43: preparing for a change of plan
+  44: clarifying shared obligations
+  45: using judgement responsibly
+  46: working with a trusted partner
+  47: building trust gradually
+  48: independent reflection
+  49: balancing solitude and company
+  50: maintaining an independent judgement
+  51: handling leadership responsibly
+  52: preparing for a change of plan
+source_equivalents:
+  33: 24
+  34: 25
+  35: 26
+  36: 27
+  38: 29
+  39: 30
+  40: 31
+  41: 32
+  42: 24
+  44: 26
+  45: 27
+  46: 37
+  47: 29
+  48: 30
+  49: 31
+  50: 32
+  52: 43
+eligibility: Only use the uncollapsed compound total in the selected system; outside range return ordinary root context only.

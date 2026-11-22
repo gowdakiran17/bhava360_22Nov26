@@ -1,0 +1,35 @@
+id: vedic.doshas.nodal-axis
+system: vedic
+topic: doshas
+title: Nodal Axis
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: All seven classical grahas lie within the same directed nodal semicircle under the selected boundary convention.
+conditions:
+  fact: dosha.axis.confined
+  op: eq
+  value: true
+meaning: This chart detail can be explored as a traditional nodal pattern.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.doshas.nodal-axis
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This chart detail can be explored as a traditional nodal pattern.
+  kn: ಈ ವಿವರವನ್ನು ಸಂಪ್ರದಾಯದ ನೆರಳುಗ್ರಹ ವಿನ್ಯಾಸವಾಗಿ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस विवरण को पारंपरिक राहु-केतु विन्यास के रूप में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

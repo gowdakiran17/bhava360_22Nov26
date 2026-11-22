@@ -1,0 +1,35 @@
+id: vedic.dashas-vimshottari.check-business-name-trade-period
+system: vedic
+topic: dashas/vimshottari
+title: business-name · trade-period
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The current stable period lord owns the seventh, tenth or eleventh house in the owner’s natal chart.
+conditions:
+  fact: checker.business-name.trade-period
+  op: eq
+  value: true
+meaning: The current chapter touches a house used for business questions.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.dashas-vimshottari.check-business-name-trade-period
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The current chapter touches a house used for business questions.
+  kn: ವ್ಯಾಪಾರದ ಪ್ರಶ್ನೆಗೆ ಸಂಬಂಧಿಸಿದ ಭಾವವು ಈಗಿನ ದಶೆಯೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಿದೆ.
+  hi: वर्तमान दशा का संबंध व्यवसाय से जुड़े भाव से है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

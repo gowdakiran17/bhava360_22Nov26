@@ -1,32 +1,1299 @@
 version: 1
-value_types: [integer, decimal, boolean, enum, instant, interval]
+value_types:
+- integer
+- decimal
+- boolean
+- enum
+- instant
+- interval
 instant_format: ISO 8601 with explicit UTC offset
 interval_bounds: start-inclusive-end-exclusive
-operators: {eq: same-type literal, in: membership in a nonempty list of same-type literals}
-groups: {all: every child, any: at least one child, not: single child}
+operators:
+  eq: same-type literal
+  in: membership in a nonempty list of same-type literals
+groups:
+  all: every child
+  any: at least one child
+  not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
   d1.jupiter.house_from_lagna:
     producer: vedic.d1
     type: integer
-    range: [1, 12]
+    range:
+    - 1
+    - 12
     unit: whole-sign house
     origin: natal ascendant sign counted as one
-    dependencies: [birth-instant, birth-place, reliable-lagna, vedic-lahiri-v1]
+    dependencies:
+    - birth-instant
+    - birth-place
+    - reliable-lagna
+    - vedic-lahiri-v1
     unknown_if: Ascendant is unavailable or changes sign across the time uncertainty interval.
   d1.jupiter.sign_distance_from_moon_inclusive:
     producer: vedic.d1
     type: integer
-    range: [1, 12]
+    range:
+    - 1
+    - 12
     unit: sign count
     origin: natal Moon sign counted as one
-    dependencies: [birth-date, supported-time-interval, moon-sign, jupiter-sign, vedic-lahiri-v1]
+    dependencies:
+    - birth-date
+    - supported-time-interval
+    - moon-sign
+    - jupiter-sign
+    - vedic-lahiri-v1
     unknown_if: The inclusive distance cannot be established throughout the supported interval.
   d1.lagna.sign:
     producer: vedic.d1
     type: enum
-    values: [aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces]
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
     unit: sidereal sign
     origin: natal ascendant
-    dependencies: [birth-instant, birth-place, reliable-lagna, vedic-lahiri-v1]
+    dependencies:
+    - birth-instant
+    - birth-place
+    - reliable-lagna
+    - vedic-lahiri-v1
     unknown_if: Time is unknown or the ascendant sign varies within the supported interval.
+  draw.card:
+    type: enum
+    producer: tarot.draw
+    origin: The same drawn card slot and spread position.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - the-fool
+    - the-magician
+    - the-high-priestess
+    - the-empress
+    - the-emperor
+    - the-hierophant
+    - the-lovers
+    - the-chariot
+    - strength
+    - the-hermit
+    - wheel-of-fortune
+    - justice
+    - the-hanged-man
+    - death
+    - temperance
+    - the-devil
+    - the-tower
+    - the-star
+    - the-moon
+    - the-sun
+    - judgement
+    - the-world
+    - ace-of-wands
+    - two-of-wands
+    - three-of-wands
+    - four-of-wands
+    - five-of-wands
+    - six-of-wands
+    - seven-of-wands
+    - eight-of-wands
+    - nine-of-wands
+    - ten-of-wands
+    - page-of-wands
+    - knight-of-wands
+    - queen-of-wands
+    - king-of-wands
+    - ace-of-cups
+    - two-of-cups
+    - three-of-cups
+    - four-of-cups
+    - five-of-cups
+    - six-of-cups
+    - seven-of-cups
+    - eight-of-cups
+    - nine-of-cups
+    - ten-of-cups
+    - page-of-cups
+    - knight-of-cups
+    - queen-of-cups
+    - king-of-cups
+    - ace-of-swords
+    - two-of-swords
+    - three-of-swords
+    - four-of-swords
+    - five-of-swords
+    - six-of-swords
+    - seven-of-swords
+    - eight-of-swords
+    - nine-of-swords
+    - ten-of-swords
+    - page-of-swords
+    - knight-of-swords
+    - queen-of-swords
+    - king-of-swords
+    - ace-of-pentacles
+    - two-of-pentacles
+    - three-of-pentacles
+    - four-of-pentacles
+    - five-of-pentacles
+    - six-of-pentacles
+    - seven-of-pentacles
+    - eight-of-pentacles
+    - nine-of-pentacles
+    - ten-of-pentacles
+    - page-of-pentacles
+    - knight-of-pentacles
+    - queen-of-pentacles
+    - king-of-pentacles
+  draw.orientation:
+    type: enum
+    producer: tarot.draw
+    origin: The same drawn card slot and spread position.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - upright
+    - reversed
+  varga.d1.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d2.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d3.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d4.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d7.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d9.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d10.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d12.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d16.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d20.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d24.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d27.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d30.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d40.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  varga.d45.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: At least one referenced placement is computed, stable and tied to the exact displayed cell.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.mars.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Planet occupies a sign it rules or its exaltation sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.mars.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to mars.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mercury.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Planet occupies a sign it rules or its exaltation sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.mercury.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to mercury.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.jupiter.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Planet occupies a sign it rules or its exaltation sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.jupiter.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to jupiter.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.venus.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Planet occupies a sign it rules or its exaltation sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.venus.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to venus.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.saturn.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Planet occupies a sign it rules or its exaltation sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.saturn.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to saturn.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.jupiter.distance_from_moon:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from moon to jupiter.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.jupiter.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Jupiter occupies its debilitation sign under the dignity register.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.mercury.distance_from_sun:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from sun to mercury.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mars.distance_from_moon:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from moon to mars.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mercury.distance_from_moon:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from moon to mercury.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.venus.distance_from_moon:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from moon to venus.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.moon.distance_from_jupiter:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from jupiter to moon.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.moon.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to moon.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.moon.eligible_flank_or_companion:
+    type: boolean
+    producer: vedic.d1
+    origin: Any of Mars, Mercury, Jupiter, Venus, Saturn occupies the first, second or twelfth sign from Moon.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lords.kendra_trikona_link:
+    type: boolean
+    producer: vedic.d1
+    origin: Two distinct lords, one owning an angle and the other house 5 or 9, conjoin or exchange signs.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lords.wealth_trine_link:
+    type: boolean
+    producer: vedic.d1
+    origin: Distinct qualifying lords form the stated conjunction or exchange.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.dignity.debility_lord_angular:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha is debilitated and its dispositor occupies an angle from Moon or Lagna.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.dignity.recovered_planet_angular:
+    type: boolean
+    producer: vedic.d1
+    origin: The same debilitated graha occupies an angle from Lagna.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lord_6.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to lord_6.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.lord_8.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to lord_8.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.lord_12.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from lagna to lord_12.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.saturn.distance_from_moon:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from moon to saturn.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mars.distance_from_sun:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from sun to mars.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.jupiter.distance_from_sun:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from sun to jupiter.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.venus.distance_from_sun:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from sun to venus.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.saturn.distance_from_sun:
+    type: integer
+    producer: vedic.d1
+    origin: One-based whole-sign count from sun to saturn.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  number.ank-jyotish.root:
+    type: integer
+    producer: numerology.ank-jyotish
+    origin: Named calculation result bound to the current metric and spelling.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 9
+  number.chaldean.root:
+    type: integer
+    producer: numerology.chaldean
+    origin: Named calculation result bound to the current metric and spelling.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 9
+  number.pythagorean.root:
+    type: integer
+    producer: numerology.pythagorean
+    origin: Named calculation result bound to the current metric and spelling.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 9
+  western.ascendant-sign:
+    type: boolean
+    producer: western.natal
+    origin: Present the tropical ascendant sign only with a reliable birth time.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.polar-fallback-used:
+    type: boolean
+    producer: western.houses
+    origin: The chosen quadrant system could not produce cusps and the engine explicitly used Whole Sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.exact-transit:
+    type: boolean
+    producer: western.transits
+    origin: A solved transit to a natal point falls in the requested date range.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.synastry-contact:
+    type: boolean
+    producer: western.synastry
+    origin: Two consented charts have a selected inter-aspect within its configured orb.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.progressed-moon-phase:
+    type: boolean
+    producer: western.progressions
+    origin: A secondary progressed lunar phase change is dated from one ephemeris day per life year.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.solar-arc-contact:
+    type: boolean
+    producer: western.solar-arc
+    origin: Add the progressed Sun minus natal Sun arc to a natal point and test for a dated contact.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.composite-midpoint:
+    type: boolean
+    producer: western.composite
+    origin: Use the circular midpoint for corresponding points in two consenting charts; ambiguous antipodes require a convention.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  western.natal.aspect:
+    type: enum
+    producer: western.natal
+    origin: One named aspect for the selected pair within the natal orb.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - conjunction
+    - sextile
+    - square
+    - trine
+    - opposition
+    - quincunx
+    - semi-sextile
+    - semi-square
+    - sesquiquadrate
+  dasha.active_lord.owns_house_10:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_7:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_2:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_1:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_4:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_5:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_9:
+    type: boolean
+    producer: vedic.dasha
+    origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
+      period.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.hands.earth:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: broad palm and short fingers
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.hands.air:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: square palm and long fingers
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.hands.fire:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: long palm and relatively short fingers
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.hands.water:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: long palm and long fingers
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.heart:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: clearly confirmed upper transverse line
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.head:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed middle transverse line
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.life:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed arc beside thumb
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.fate:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed central vertical line
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.sun:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed line below ring finger
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.lines.union:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed side line below little finger
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.fingers.long:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed long fingers relative to palm
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.fingers.short:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: confirmed short fingers relative to palm
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.jupiter:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of jupiter mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.saturn:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of saturn mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.apollo:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of apollo mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.mercury:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of mercury mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.venus:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of venus mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.luna:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of luna mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  palm.mounts.mars:
+    type: boolean
+    producer: palmistry.confirmed-observations
+    origin: user-confirmed prominence of mars mount
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.north:
+    type: boolean
+    producer: vastu.layout
+    origin: Observed main entrance faces north in the recorded compass convention.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.southeast-kitchen:
+    type: boolean
+    producer: vastu.layout
+    origin: User identifies the kitchen in the southeast sector.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.central-space:
+    type: boolean
+    producer: vastu.layout
+    origin: User identifies an open central area.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.northeast:
+    type: boolean
+    producer: vastu.layout
+    origin: A user-selected quiet corner is in the northeast.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.moon-fourth:
+    type: boolean
+    producer: vedic.d1
+    origin: A stable natal Moon occupies the fourth house in the selected profile.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.d9.ak_sign_stable:
+    type: boolean
+    producer: jaimini.karakamsa
+    origin: Resolve the D9 sign occupied by the ranked Atmakaraka.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.dk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: Under the stated scheme, identify the last-ranked graha as Darakaraka.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  kp.cusp7.links_2_7_11:
+    type: boolean
+    producer: kp.cusps
+    origin: The computed seventh cusp sub lord signifies one or more of houses 2, 7 and 11 under the stated KP method.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  kp.ruling.repeated_lord:
+    type: boolean
+    producer: kp.ruling-planets
+    origin: One identified ruling planet fills more than one recorded role at question time.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.saturn.over_moon_sign:
+    type: boolean
+    producer: vedic.transits
+    origin: Saturn occupies the natal Moon sign within a solved ingress-to-egress interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  relocation.ascendant_changed:
+    type: boolean
+    producer: vedic.relocation
+    origin: At the natal UTC instant the destination city yields a different ascendant sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  annual.return_exact:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: The Sun returns to its pinned natal longitude and a chart exists for the selected annual location and convention.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  lal-kitab.fixed_house_confirmed:
+    type: boolean
+    producer: lal-kitab.fixed-houses
+    origin: Engine supplied a fixed-house Lal Kitab chart with explicit house numbering.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  face.reflection.opted_in:
+    type: boolean
+    producer: face-reading.reflection
+    origin: Adult user opts in to an on-device, self-described expression prompt.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.brand.initial_sound_matches_pada:
+    type: boolean
+    producer: checker.business-name
+    origin: The proposed name begins with a reviewed sound assigned to the owner’s stable lunar pada.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile.root_matches_birth:
+    type: boolean
+    producer: checker.mobile-number
+    origin: The ten-digit total reduces to the selected birth-number root.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile.repeated_digit:
+    type: boolean
+    producer: checker.mobile-number
+    origin: At least one decimal digit occurs more than once in the candidate.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.name.sound_match:
+    type: boolean
+    producer: checker.personal-baby-name
+    origin: Chosen spelling has a reviewed initial sound matching the stable birth pada in the selected regional table.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.city.changed_house:
+    type: boolean
+    producer: checker.house-relocation
+    origin: At the original birth instant a referenced graha occupies a different house at the destination.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.vehicle.root_matches_birth:
+    type: boolean
+    producer: checker.vehicle-number
+    origin: Registration digit root matches the selected birth root.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.window.all_pass:
+    type: boolean
+    producer: checker.big-decision-muhurta
+    origin: No excluded interval overlaps the candidate window and every required participant is included.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.sun.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.moon.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mars.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.mercury.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.venus.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.saturn.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.rahu.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  d1.ketu.house_from_lagna:
+    type: integer
+    producer: vedic.d1
+    origin: Whole-sign house from stable natal ascendant. Return unknown if placement changes.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  western.natal.sun.sign:
+    type: enum
+    producer: western.natal
+    origin: Tropical sign for the specific natal body or angle. Ascendant requires stable time.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  western.natal.moon.sign:
+    type: enum
+    producer: western.natal
+    origin: Tropical sign for the specific natal body or angle. Ascendant requires stable time.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  western.natal.ascendant.sign:
+    type: enum
+    producer: western.natal
+    origin: Tropical sign for the specific natal body or angle. Ascendant requires stable time.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  yogini.period_changed:
+    type: boolean
+    producer: vedic.dashas/yogini
+    origin: Boundary instant between two computed Yogini major periods falls in the selected interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.chara.current_sign_known:
+    type: boolean
+    producer: jaimini.chara-dasha
+    origin: The active Chara sign period is derived under a pinned and validated variant.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  strength.shadbala.meets_minimum:
+    type: boolean
+    producer: vedic.strength/shadbala
+    origin: All six components are available and the selected graha meets its reference minimum.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  strength.bhava.qualitative_support:
+    type: boolean
+    producer: vedic.strength/bhava-bala
+    origin: A validated house-strength profile classifies this specific bhava as supported.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.bav.supportive:
+    type: boolean
+    producer: vedic.strength/ashtakavarga
+    origin: Chosen transit sign is supported by the transiting graha’s unreduced BAV under the validated qualitative threshold.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dosha.mars.natal_candidate:
+    type: boolean
+    producer: vedic.doshas
+    origin: Mars occupies one of the stated Lagna-based Manglik houses; evaluate recognized cancellations.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dosha.mars.dignity_exception:
+    type: boolean
+    producer: vedic.doshas
+    origin: Same Manglik Mars occupies its own or exaltation sign, in the selected mitigation profile.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  muhurta.window.eligible:
+    type: boolean
+    producer: vedic.muhurta
+    origin: The entire window passes all hard exclusions and all required participant checks.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  match.nadi.same:
+    type: boolean
+    producer: vedic.matching
+    origin: Both selected birth stars belong to the same Nadi class under the chosen table.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  name.lunar_pada_stable:
+    type: boolean
+    producer: vedic.padas
+    origin: The natal Moon stays within the same pada throughout the supported birth-time interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.al.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: The Arudha Lagna sign has been derived with the selected exception profile and remains stable.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  prashna.current_chart_ready:
+    type: boolean
+    producer: vedic.prashna
+    origin: Horary chart was calculated for the accepted question, local time and current city.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.business-name.brand-root:
+    type: boolean
+    producer: checker.business-name
+    origin: The Chaldean candidate root equals the comparison root explicitly selected by the owner.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.business-name.trade-period:
+    type: boolean
+    producer: checker.business-name
+    origin: The current stable period lord owns the seventh, tenth or eleventh house in the owner’s natal chart.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.business-name.launch-exclusion:
+    type: boolean
+    producer: checker.business-name
+    origin: The proposed launch instant falls inside an activity-specific hard exclusion.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile-number.distinct-destiny-match:
+    type: boolean
+    producer: checker.mobile-number
+    origin: The derived root equals Bhagyank and Bhagyank differs from Moolank.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile-number.compound-known:
+    type: boolean
+    producer: checker.mobile-number
+    origin: A Chaldean compound reading is explicitly enabled and the digit sum is within 10–52.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile-number.missing-digits:
+    type: boolean
+    producer: checker.mobile-number
+    origin: At least one of the digits 1–9 is absent in this candidate.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.personal-baby-name.name-root:
+    type: boolean
+    producer: checker.personal-baby-name
+    origin: Under a selected Pythagorean profile the Expression number matches the named person’s Life Path. Preserve eligible
+      master numbers.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.personal-baby-name.dictionary-hit:
+    type: boolean
+    producer: checker.personal-baby-name
+    origin: The chosen name resolves to a reviewed meaning for its exact spelling and language.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.personal-baby-name.different-sound:
+    type: boolean
+    producer: checker.personal-baby-name
+    origin: Reviewed initial sound and recommended pada sound are both known and differ.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.house-relocation.dwelling-facing:
+    type: boolean
+    producer: checker.house-relocation
+    origin: A confirmed entrance direction resolves to an entry in the selected Vastu layout profile.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.house-relocation.dwelling-root:
+    type: boolean
+    producer: checker.house-relocation
+    origin: Under the explicitly selected house-number convention the reduced house number equals Moolank.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.house-relocation.destination-work:
+    type: boolean
+    producer: checker.house-relocation
+    origin: At the proposed destination the same graha moves into the relocated tenth house.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.house-relocation.moving-window:
+    type: boolean
+    producer: checker.house-relocation
+    origin: A computed moving window within the requested month passes the full griha-pravesh exclusion profile.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.vehicle-number.vehicle-total:
+    type: boolean
+    producer: checker.vehicle-number
+    origin: The submitted registration has at least one decimal digit and the engine supplies the verified digit sum.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.vehicle-number.vehicle-period:
+    type: boolean
+    producer: checker.vehicle-number
+    origin: The active major or subperiod lord owns the fourth natal house.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.vehicle-number.delivery-exclusion:
+    type: boolean
+    producer: checker.vehicle-number
+    origin: Requested vehicle delivery interval overlaps an applicable muhurta hard exclusion.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.big-decision-muhurta.tara-support:
+    type: boolean
+    producer: checker.big-decision-muhurta
+    origin: Specific participant has a supportive birth-star distance in the candidate interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.big-decision-muhurta.moon-support:
+    type: boolean
+    producer: checker.big-decision-muhurta
+    origin: Specific participant has a supportive transit Moon distance during the candidate interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.big-decision-muhurta.activity-limb:
+    type: boolean
+    producer: checker.big-decision-muhurta
+    origin: The window’s tithi or nakshatra is listed as supportive in the selected activity profile.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  checker.mobile.digit_sum_known:
+    type: boolean
+    producer: checker.mobile-number
+    origin: The candidate has ten digits and its original digit sum has been computed in memory.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  number.chaldean.compound:
+    type: integer
+    producer: numerology.chaldean
+    origin: Name letter-value sum before reducing; use only supported range.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 1000000
+  kp.sub.known:
+    type: boolean
+    producer: kp.star-sub-lords
+    origin: A point lies within a uniquely identified star and sub interval under the pinned KP ayanamsa.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  kp.work_chain:
+    type: boolean
+    producer: kp.significators
+    origin: The selected cusp sub lord signifies a work house (6, 10 or 11), with its level recorded.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  kp.question.arc_selected:
+    type: boolean
+    producer: kp.number-horary
+    origin: An accepted integer 1–249 selects exactly one interval in the number-horary table.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.sign_aspect:
+    type: boolean
+    producer: jaimini.rashi-drishti
+    origin: Source and target signs form a rashi drishti under their modality rules.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  jaimini.argala_unobstructed:
+    type: boolean
+    producer: jaimini.argala
+    origin: An intervening occupancy survives the corresponding obstruction check from the same reference sign.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.ingress.reentry:
+    type: boolean
+    producer: vedic.transits
+    origin: Retrograde motion carries the named graha back across a sign boundary in the requested window.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  panchang.vara.local:
+    type: boolean
+    producer: vedic.panchang
+    origin: A valid local sunrise anchors the displayed vara at the selected city.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  panchang.karana.vishti:
+    type: boolean
+    producer: vedic.panchang
+    origin: The requested activity window overlaps the computed Vishti karana interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dosha.axis.confined:
+    type: boolean
+    producer: vedic.doshas
+    origin: All seven classical grahas lie within the same directed nodal semicircle under the selected boundary convention.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  lal_kitab.annual.house_known:
+    type: boolean
+    producer: lal-kitab.varshphal
+    origin: A year-specific placement is returned by the selected edition’s age-year table.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  panchang.observance.local:
+    type: boolean
+    producer: vedic.festivals
+    origin: A region-specific festival rule identifies the local date for the selected city.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  vastu.observed.sector:
+    type: enum
+    producer: vastu.form
+    origin: Compass sector of the user-selected room. No inference from birth details.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    values:
+    - north
+    - northeast
+    - east
+    - southeast
+    - south
+    - southwest
+    - west
+    - northwest
+  lal_kitab.planet.fixed_house:
+    type: integer
+    producer: lal-kitab.fixed-houses
+    origin: Selected graha’s fixed house under the chosen Lal Kitab chart.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    range:
+    - 1
+    - 12
+  dasha.next_lord.owns_house_10:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 10 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.career.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_7:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 7 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.love-marriage.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_2:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 2 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.money.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_1:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 1 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.health.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_4:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 4 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.family-home.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.learning.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.travel-relocation.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.property-vehicles.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_5:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 5 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.children.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.business.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.next_lord.owns_house_9:
+    type: boolean
+    producer: vedic.dasha
+    origin: Next dated major or subperiod lord owns house 9 of the stable natal chart. Bind the exact child interval.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  transit.spirituality.qualified_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
+      house. Bind graha, reference house, interval and qualifying rule ID.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.sun.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its own or exaltation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.sun.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.moon.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its own or exaltation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.moon.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.mars.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.mercury.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.venus.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.saturn.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: Same graha in its debilitation sign in D1.
+    unknown_if: Sign is unstable.
+  d1.moon.tenth_has_benefic:
+    type: boolean
+    producer: vedic.d1
+    origin: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named reference.
+      Reference = moon.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lagna.tenth_has_benefic:
+    type: boolean
+    producer: vedic.d1
+    origin: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named reference.
+      Reference = lagna.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.moon.benefics_all_in_upachaya:
+    type: boolean
+    producer: vedic.d1
+    origin: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible
+      set. Reference = moon.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lagna.benefics_all_in_upachaya:
+    type: boolean
+    producer: vedic.d1
+    origin: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible
+      set. Reference = lagna.
+    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.

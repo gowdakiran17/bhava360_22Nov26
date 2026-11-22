@@ -1,0 +1,6 @@
+version: 1
+approval: draft
+movable: Aspect every fixed sign except the adjacent one.
+fixed: Aspect every movable sign except the adjacent one.
+dual: Aspect the other three dual signs.
+propagation: Grahas in the aspecting sign participate. Keep separate from full graha drishti.

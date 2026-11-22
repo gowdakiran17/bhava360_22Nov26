@@ -1,0 +1,16 @@
+version: 1
+approval: draft
+manglik:
+  candidate_houses:
+  - 1
+  - 2
+  - 4
+  - 7
+  - 8
+  - 12
+  reference: Evaluate from Lagna first. Moon and Venus reference variants are separate.
+  exceptions: Flag own-sign or exalted Mars under the selected mitigation variant. Record each partner independently. Both
+    partners matching is a comparison fact, not a deletion of either natal placement.
+kaal_sarp: Check seven classical longitudes on one directed nodal semicircle; keep endpoint, direction and conjunction variants
+  explicit. Offer a detail-only traditional note.
+sade_sati: Use the three Moon-relative Saturn transit phases, including re-entries. Never present as a natal defect.

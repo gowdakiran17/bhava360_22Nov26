@@ -1,0 +1,36 @@
+id: vedic.matching.shared-star-class
+system: vedic
+topic: matching
+title: Shared Star Class
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Both selected birth stars belong to the same Nadi class under the chosen table.
+conditions:
+  fact: match.nadi.same
+  op: eq
+  value: true
+meaning: You can read how this traditional factor is counted and which exceptions apply.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.matching.shared-star-class
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can read how this traditional factor is counted and which exceptions apply.
+  kn: ಈ ಸಂಪ್ರದಾಯದ ಅಂಶದ ಲೆಕ್ಕ ಮತ್ತು ಅನ್ವಯಿಸುವ ವಿನಾಯಿತಿಗಳನ್ನು ನೋಡಬಹುದು.
+  hi: इस पारंपरिक कारक की गणना और लागू अपवाद देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

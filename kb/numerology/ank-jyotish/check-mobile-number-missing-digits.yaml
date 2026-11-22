@@ -1,0 +1,35 @@
+id: numerology.ank-jyotish.check-mobile-number-missing-digits
+system: numerology
+topic: ank-jyotish
+title: mobile-number · missing-digits
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: At least one of the digits 1–9 is absent in this candidate.
+conditions:
+  fact: checker.mobile-number.missing-digits
+  op: eq
+  value: true
+meaning: The detail shows which digits are absent from this option.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 checker conventions
+  work_id: bhava360-checker-conventions
+  edition: bhava360-checker-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.ank-jyotish.check-mobile-number-missing-digits
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The detail shows which digits are absent from this option.
+  kn: ಈ ಆಯ್ಕೆಯಲ್ಲಿ ಕಾಣದ ಅಂಕಗಳನ್ನು ವಿವರದಲ್ಲಿ ನೋಡಬಹುದು.
+  hi: इस विकल्प में अनुपस्थित अंक विवरण में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

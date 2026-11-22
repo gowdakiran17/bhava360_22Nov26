@@ -1,0 +1,24 @@
+version: 1
+approval: draft
+weights:
+  varna: 1
+  vashya: 2
+  tara: 3
+  yoni: 4
+  graha-maitri: 5
+  gana: 6
+  bhakoot: 7
+  nadi: 8
+dependencies:
+- 'varna: lunar sign groups'
+- 'vashya: sign or sign-half groups'
+- 'tara: inclusive birth-star distance in both directions'
+- 'yoni: birth-star animal pairs'
+- 'graha-maitri: relationships of Moon sign lords'
+- 'gana: nakshatra classifications'
+- 'bhakoot: Moon-sign distances'
+- 'nadi: nakshatra channel classes'
+exceptions: Keep Nadi and Bhakoot parihara reasons beside the raw points. Evaluate Manglik for each chart under the same profile;
+  never infer consent or a marriage decision.
+dashakoota: 'Separate southern profile: Dina, Gana, Mahendra, Stree Deergha, Yoni, Rashi, Rashi lord, Vashya, Rajju, Vedha.
+  Never convert to 36 points.'

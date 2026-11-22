@@ -1,0 +1,36 @@
+id: vastu.chart-fit.moon-fourth
+system: vastu
+topic: chart-fit
+title: Moon Fourth
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: A stable natal Moon occupies the fourth house in the selected profile.
+conditions:
+  fact: vastu.moon-fourth
+  op: eq
+  value: true
+meaning: what makes a place feel like home
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.chart-fit.moon-fourth
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may use this traditional lens to reflect on what makes a place feel like home.
+  kn: ಈ ಸಂಪ್ರದಾಯದ ನೋಟದಲ್ಲಿ “ಮನೆಯ ಆತ್ಮೀಯತೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस पारंपरिक दृष्टि से “घर में अपनापन” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,35 @@
+id: vedic.vargas.d9-placement
+system: vedic
+topic: vargas
+title: D9 · Navamsa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use a stable D9 placement alongside its D1 context.
+conditions:
+  fact: varga.d9.verified_placement
+  op: eq
+  value: true
+meaning: This chart supplies a supplementary lens on partnership.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Shodashavarga chapter, division Navamsa
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore partnership alongside this placement.
+  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಸಹಭಾಗಿತ್ವ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस स्थिति के साथ “साझेदारी” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

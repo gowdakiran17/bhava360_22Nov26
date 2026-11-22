@@ -1,0 +1,48 @@
+version: 1
+approval: draft
+source: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/tests/pvr_tests.py
+locator: Chapter 12.3, chart 6, exercises 18–20
+origin_indices_zero_based:
+- 2
+- 11
+- 2
+- 2
+- 4
+- 0
+- 4
+- 5
+contributor_order:
+- sun
+- moon
+- mars
+- mercury
+- jupiter
+- venus
+- saturn
+- lagna
+expected_sav:
+- 34
+- 25
+- 34
+- 25
+- 26
+- 25
+- 22
+- 29
+- 28
+- 30
+- 29
+- 30
+expected_mercury_bav:
+- 7
+- 4
+- 7
+- 4
+- 4
+- 3
+- 4
+- 4
+- 4
+- 3
+- 6
+- 4

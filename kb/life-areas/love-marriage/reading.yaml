@@ -1,0 +1,47 @@
+version: 1
+approval: draft
+houses:
+- 7
+- 2
+- 11
+varga: D9
+karakas:
+- venus
+- jupiter
+intent: marriage-timing
+checker: big-decision-muhurta
+slots:
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
+    active period. Cite the actual graha and house.
+  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
+    when KP is enabled; display an honest absence when no supported date exists.
+  concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
+  what-you-can-do:
+    en: You can talk about one shared expectation.
+    kn: ಒಂದು ಸಾಮಾನ್ಯ ನಿರೀಕ್ಷೆಯ ಬಗ್ಗೆ ಮಾತನಾಡಬಹುದು.
+    hi: एक साझा अपेक्षा पर बात कर सकते हैं।
+omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+slot_bindings:
+  present-situation:
+    rule_id: vedic.dashas-vimshottari.love-marriage-house-lord
+    evidence:
+    - current lord
+    - owned natal house
+    - period dates
+  upcoming-periods:
+    rule_id: vedic.dashas-vimshottari.love-marriage-upcoming
+    evidence:
+    - next period start and end
+    - period lord
+    - owned natal house
+  concerns-to-watch:
+    rule_id: vedic.transits.love-marriage-watch
+    evidence:
+    - actual transit
+    - reference origin
+    - qualifying rule
+    - date range
+  what-you-can-do:
+    localized_field: slots.what-you-can-do
+    requires: at least one matched area fact
+    checker: big-decision-muhurta

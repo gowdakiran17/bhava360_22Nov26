@@ -1,0 +1,35 @@
+id: vedic.annual-chart.solar-return
+system: vedic
+topic: annual-chart
+title: Solar Return
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The Sun returns to its pinned natal longitude and a chart exists for the selected annual location and convention.
+conditions:
+  fact: annual.return_exact
+  op: eq
+  value: true
+meaning: You can use this annual chart to reflect on the year ahead.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 annual conventions
+  work_id: bhava360-annual-conventions
+  edition: bhava360-annual-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic.annual-chart.solar-return
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can use this annual chart to reflect on the year ahead.
+  kn: ಮುಂದಿನ ವರ್ಷದ ಬಗ್ಗೆ ಚಿಂತಿಸಲು ಈ ವಾರ್ಷಿಕ ಚಕ್ರ ಬಳಸಬಹುದು.
+  hi: आने वाले वर्ष पर विचार के लिए यह वार्षिक कुंडली देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

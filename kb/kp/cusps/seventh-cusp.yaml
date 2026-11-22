@@ -1,0 +1,35 @@
+id: kp.cusps.seventh-cusp
+system: kp
+topic: cusps
+title: Seventh Cusp
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: The computed seventh cusp sub lord signifies one or more of houses 2, 7 and 11 under the stated KP method.
+conditions:
+  fact: kp.cusp7.links_2_7_11
+  op: eq
+  value: true
+meaning: This factor can add context to a partnership question.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: KP Readers
+  work_id: kp-readers
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Cusp sub-lord and significator rules
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: This factor can add context to a partnership question.
+  kn: ಸಹಭಾಗಿತ್ವದ ಪ್ರಶ್ನೆಗೆ ಈ ಅಂಶವು ಹಿನ್ನೆಲೆ ನೀಡಬಹುದು.
+  hi: यह संकेत साझेदारी के प्रश्न को संदर्भ दे सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

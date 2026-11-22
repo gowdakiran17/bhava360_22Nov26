@@ -1,0 +1,55 @@
+reference: PyJHora pvr_tests.py, chapter 12.3, chart 7; sp_e_book. Book values as
+  transcribed in upstream benchmark.
+origin_indices_zero_based:
+- 9
+- 0
+- 8
+- 8
+- 6
+- 10
+- 0
+- 7
+occupied_sign_indices:
+- 0
+- 6
+- 7
+- 8
+- 9
+- 10
+occupancy: Includes Lagna and nodes under this comparison profile.
+rashi_weight_profile: alternative
+reference_rashi:
+- 152
+- 85
+- 52
+- 95
+- 68
+- 154
+- 162
+reference_graha:
+- 81
+- 55
+- 43
+- 33
+- 56
+- 54
+- 63
+recomputed_rashi:
+- 152
+- 85
+- 52
+- 95
+- 68
+- 154
+- 162
+recomputed_graha:
+- 81
+- 55
+- 43
+- 33
+- 56
+- 54
+- 63
+unresolved: []
+release: Keep Pinda evidence internal until any differences are reconciled against
+  an approved edition.

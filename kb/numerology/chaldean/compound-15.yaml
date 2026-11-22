@@ -1,0 +1,35 @@
+id: numerology.chaldean.compound-15
+system: numerology
+topic: chaldean
+title: Compound 15
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The unreduced Chaldean sum is 15.
+conditions:
+  fact: number.chaldean.compound
+  op: eq
+  value: 15
+meaning: using persuasion thoughtfully
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Cheiro’s Book of Numbers
+  work_id: cheiro-s-book-of-numbers
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Compound number 15, edition check pending.
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You might consider using persuasion thoughtfully when comparing this name.
+  kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಪ್ರಭಾವದ ಜವಾಬ್ದಾರಿಯುತ ಬಳಕೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: इस नाम की तुलना करते समय “प्रभाव का सोचकर उपयोग” पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

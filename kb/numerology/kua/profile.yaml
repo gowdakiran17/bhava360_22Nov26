@@ -1,0 +1,7 @@
+version: 1
+approval: draft
+method: In the Gregorian-year simplification sum the final two year digits to a single digit. For 1900–1999 subtract from
+  10 (male convention) or add 5 and reduce (female). For 2000–2099 use 9 or 6 respectively; normalize zero to 9. Replace resulting
+  5 with 2 or 8 respectively.
+limits: Use only with volunteered calculation input. Li Chun year-boundary profile requires a solar-term instant; keep it
+  distinct from the Gregorian simplification. Outside supported centuries return unknown.

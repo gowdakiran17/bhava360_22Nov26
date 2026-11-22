@@ -1,0 +1,35 @@
+id: lal-kitab.fixed-houses.house-reference
+system: lal-kitab
+topic: fixed-houses
+title: House Reference
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: Engine supplied a fixed-house Lal Kitab chart with explicit house numbering.
+conditions:
+  fact: lal-kitab.fixed_house_confirmed
+  op: eq
+  value: true
+meaning: You can explore the planet through its recorded house.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Fixed-house method, edition unresolved
+  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can explore the planet through its recorded house.
+  kn: ದಾಖಲಾದ ಭಾವದ ಮೂಲಕ ಗ್ರಹವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: ग्रह को उसके दर्ज भाव के आधार पर देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
