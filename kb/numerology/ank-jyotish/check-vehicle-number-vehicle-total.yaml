@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The displayed total uses the digits in this registration.
-  kn: ತೋರಿಸಿದ ಮೊತ್ತವು ಈ ನೋಂದಣಿಯ ಅಂಕಗಳ ಮೊತ್ತವಾಗಿದೆ.
-  hi: दिखाया गया योग इस पंजीकरण के अंकों से बना है।
+  en: You can consider this detail alongside your practical preferences.
+  kn: ನಿಮ್ಮ ಪ್ರಾಯೋಗಿಕ ಆದ್ಯತೆಗಳೊಂದಿಗೆ ಈ ವಿವರವನ್ನೂ ಪರಿಗಣಿಸಬಹುದು.
+  hi: आप अपनी व्यावहारिक पसंद के साथ इस पहलू पर भी विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

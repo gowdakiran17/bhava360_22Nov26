@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You can see the total before it was reduced to one digit.
-  kn: ಒಂದು ಅಂಕೆಗೆ ಇಳಿಸುವ ಮುನ್ನದ ಮೊತ್ತವನ್ನು ನೋಡಬಹುದು.
-  hi: एक अंक में घटाने से पहले का योग देख सकते हैं।
+  en: You can use this pattern as a prompt for reflection.
+  kn: ಈ ವಿನ್ಯಾಸವನ್ನು ಚಿಂತನೆಗೆ ಬಳಸಬಹುದು.
+  hi: आप इस पैटर्न को विचार का आधार बना सकते हैं।
 native_review:
   kn: pending
   hi: pending

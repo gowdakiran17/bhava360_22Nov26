@@ -2643,3 +2643,41 @@ facts:
     values: [conjunction, sextile, square, trine, opposition, quincunx]
     origin: Aspect of the bound moving body to the fixed natal target under the selected timing method and orb.
     unknown_if: Contact or ephemeris input unresolved.
+  number.chaldean.computed-metric:
+    type: enum
+    values:
+    - expression
+    - soul-urge
+    - personality
+    - life-path
+    - birthday
+    - personal-year
+    - personal-month
+    - personal-day
+    producer: numerology.chaldean
+    origin: Bind a successfully computed metric under this selected school only.
+    unknown_if: Missing or unresolved required inputs.
+  number.pythagorean.computed-metric:
+    type: enum
+    values:
+    - expression
+    - soul-urge
+    - personality
+    - life-path
+    - birthday
+    - personal-year
+    - personal-month
+    - personal-day
+    - maturity
+    producer: numerology.pythagorean
+    origin: Bind a successfully computed metric under this selected school only.
+    unknown_if: Missing or unresolved required inputs.
+  number.pythagorean.master:
+    type: integer
+    values:
+    - 11
+    - 22
+    - 33
+    producer: numerology.pythagorean
+    origin: Retained result of the bound metric.
+    unknown_if: Unbound or non-master result.

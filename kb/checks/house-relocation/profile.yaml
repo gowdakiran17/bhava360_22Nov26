@@ -1,0 +1,28 @@
+check: house-relocation
+approval: draft
+adapter: dwelling
+normalization: Use the supplied unit or house identifier only. In this digit-only profile accept Latin unit letters,
+  decimal digits, whitespace, hyphen and slash; sum all digits, retaining zeros. Confirm a Latin identifier for
+  a non-Latin letter suffix. City-only input delegates to the relocation recipe without a number calculation.
+steps:
+- Canonicalize Unicode decimal digits to ASCII. Sum the digit values and repeatedly sum decimal digits to one digit.
+  Zero alone has no number meaning. Use the matching Ank Jyotish root as descriptive evidence.
+- Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
+  and use the parent recipe for a full-profile tone.
+numerology_ids:
+- numerology.ank-jyotish.check-house-relocation-dwelling-root
+parent_recipe: checkers/house-relocation/recipe.yaml
+public:
+  fields:
+  - localized_tone
+  - user_text
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  user_text:
+    en: If you are comparing homes, you can consider how each one fits your daily routine.
+    kn: ಮನೆಗಳನ್ನು ಹೋಲಿಸುತ್ತಿದ್ದರೆ ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ ದಿನಚರಿಗೆ ಹೇಗೆ ಹೊಂದುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+    hi: यदि आप घरों की तुलना कर रहे हैं, तो सोच सकते हैं कि कौन सा घर आपकी दिनचर्या के अनुकूल है।
+standalone: Display Steady as a neutral reflection for a valid identifier without enough independent evidence. The
+  full fit assessment remains unavailable. Invalid input requests correction and gets no tone.

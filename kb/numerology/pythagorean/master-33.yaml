@@ -1,0 +1,36 @@
+id: numerology.pythagorean.master-33
+system: numerology
+topic: pythagorean
+title: Master value · 33
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The bound Pythagorean metric stops at 33.
+conditions:
+  all:
+  - fact: number.pythagorean.master
+    op: eq
+    value: 33
+meaning: sharing what you know with care
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.master-33
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can ask how someone would like to learn before offering help.
+  kn: ನೆರವು ನೀಡುವ ಮೊದಲು ಹೇಗೆ ಕಲಿಯಲು ಬಯಸುತ್ತಾರೆ ಎಂದು ಕೇಳಬಹುದು.
+  hi: आप मदद देने से पहले पूछ सकते हैं कि सामने वाला कैसे सीखना चाहता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,29 @@
+approval: draft
+system_selection:
+  override: Explicit user choice
+  India: chaldean
+  other_default: pythagorean
+  basis: Use the selected market or region setting; language and script do not select a school.
+aliases:
+  destiny/expression: expression
+  name-root: expression
+date_input: Validated Gregorian local dates; no time-of-day calculation. Target date and selected school are explicit
+  inputs for reproducibility.
+role: Name-only calculations use the chosen spelling. A birth date is separately needed for date metrics, and maturity
+  needs both.
+name_input: Normalize NFC. Accept ASCII Latin letters, whitespace, hyphens, straight and curly apostrophes and periods.
+  Discard separators only. Spelled-out digits or unsupported characters require a confirmed alphabetic Latin spelling;
+  never drop digits or invent a pronunciation.
+public_fields:
+- localized_tone
+- user_text
+admin_only:
+- normalized spelling
+- selected units
+- letter weights
+- partition totals
+- compound
+- reduction chain
+- metric results
+projection: Treat number meanings as descriptive. For a scalar outside the documented compound range omit its compound
+  meaning. Keep zero or missing input outside the numbered meaning catalogue.

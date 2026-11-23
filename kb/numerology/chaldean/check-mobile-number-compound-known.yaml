@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You can read the compound theme before reducing the total.
-  kn: ಮೊತ್ತವನ್ನು ಇಳಿಸುವ ಮುನ್ನ ಸಂಯುಕ್ತ ಸಂಖ್ಯೆಯ ವಿಷಯವನ್ನು ನೋಡಬಹುದು.
-  hi: योग घटाने से पहले संयुक्त अंक का विषय देख सकते हैं।
+  en: You can explore a theme associated with this pattern.
+  kn: ಈ ವಿನ್ಯಾಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: आप इस पैटर्न से जुड़े विषय पर विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

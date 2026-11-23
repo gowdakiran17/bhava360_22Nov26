@@ -1,0 +1,29 @@
+check: business-name
+approval: draft
+adapter: letters
+normalization: Use the confirmed brand spelling, including any suffix actually supplied. Do not insert or remove
+  a legal suffix. A brand containing numerals needs the chosen spoken Latin spelling.
+steps:
+- Resolve the selected school. Apply the letter table to the confirmed Latin spelling, then the expression reduction;
+  resolve the compound, master or root meaning only in that school.
+- Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
+  and use the parent recipe for a full-profile tone.
+numerology_ids:
+- numerology.chaldean.expression
+- numerology.pythagorean.expression
+- numerology.chaldean.check-business-name-brand-root
+parent_recipe: checkers/business-name/recipe.yaml
+public:
+  fields:
+  - localized_tone
+  - user_text
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  user_text:
+    en: If you are choosing anyway, you can try saying the name aloud to someone hearing it for the first time.
+    kn: ಹೆಸರನ್ನು ಈಗಾಗಲೇ ಆಯ್ಕೆ ಮಾಡುತ್ತಿದ್ದರೆ, ಅದನ್ನು ಮೊದಲ ಬಾರಿ ಕೇಳುವವರಿಗೆ ಜೋರಾಗಿ ಹೇಳಿ ನೋಡಬಹುದು.
+    hi: यदि आप वैसे भी नाम चुन रहे हैं, तो उसे पहली बार सुनने वाले किसी व्यक्ति को बोलकर सुना सकते हैं।
+standalone: Display Steady as a neutral reflection for a valid identifier without enough independent evidence. The
+  full fit assessment remains unavailable. Invalid input requests correction and gets no tone.

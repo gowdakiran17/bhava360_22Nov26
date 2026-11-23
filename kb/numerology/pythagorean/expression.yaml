@@ -1,0 +1,40 @@
+id: numerology.pythagorean.expression
+system: numerology
+topic: pythagorean
+title: Pythagorean · expression
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Sum every letter of the confirmed full spelling once, then reduce the whole sum. Destiny is an alias of Expression
+  in this profile.
+conditions:
+  all:
+  - fact: number.pythagorean.computed-metric
+    op: eq
+    value: expression
+meaning: You can explore how you like to introduce yourself.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
+    Schools can differ on which stages preserve masters.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.expression
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can explore how you like to introduce yourself.
+  kn: ನಿಮ್ಮನ್ನು ಹೇಗೆ ಪರಿಚಯಿಸಿಕೊಳ್ಳಲು ಬಯಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि अपना परिचय कैसे देना पसंद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

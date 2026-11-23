@@ -1,0 +1,33 @@
+check: mobile-number
+approval: draft
+adapter: phone
+normalization: Accept exactly ten national decimal digits. Also accept an explicit +91 prefix before those ten digits.
+  Remove whitespace, hyphens and balanced formatting parentheses. Preserve leading zeros. Reject other prefixes,
+  extensions and letters.
+steps:
+- Canonicalize Unicode decimal digits to ASCII. Sum the digit values and repeatedly sum decimal digits to one digit.
+  Zero alone has no number meaning. Use the matching Ank Jyotish root as descriptive evidence.
+- Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
+  and use the parent recipe for a full-profile tone.
+numerology_ids:
+- numerology.ank-jyotish.check-mobile-number-birth-root
+- numerology.ank-jyotish.check-mobile-number-repeats
+- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+- numerology.chaldean.check-mobile-number-compound-known
+- numerology.ank-jyotish.check-mobile-number-missing-digits
+- numerology.ank-jyotish.mobile-digit-total
+parent_recipe: checkers/mobile-number/recipe.yaml
+public:
+  fields:
+  - localized_tone
+  - user_text
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  user_text:
+    en: You can treat this pattern as a reflection on the number you already use.
+    kn: ಈಗಾಗಲೇ ಬಳಸುವ ಸಂಖ್ಯೆಯ ವಿನ್ಯಾಸವನ್ನು ಚಿಂತನೆಗಾಗಿ ಗಮನಿಸಬಹುದು.
+    hi: आप अपने मौजूदा नंबर के पैटर्न को विचार का एक विषय मान सकते हैं।
+standalone: Display Steady as a neutral reflection for a valid identifier without enough independent evidence. The
+  full fit assessment remains unavailable. Invalid input requests correction and gets no tone.

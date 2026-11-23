@@ -1,0 +1,155 @@
+scheme: bhava360-orthographic-latin-v1
+rules:
+- Normalize NFC. Preview one Indic script per spelling. Unknown sequences or mixed scripts require an explicit Latin
+  spelling.
+- Each consonant supplies A unless a vowel sign replaces it or virama removes it. Conjuncts concatenate; permit joiners
+  only immediately after virama. Keep final inherent A; never infer spoken schwa deletion.
+- Use the listed letter digraphs. Collapse retroflex and dental stops to the same Latin letter; this scoring spelling
+  is intentionally non-reversible. Each Latin character counts separately.
+- The user confirms the preview or supplies their chosen Latin spelling before scoring. Confirmation takes precedence
+  for pronunciation and family spelling.
+scripts:
+  hi:
+    vowels:
+      अ: A
+      आ: AA
+      इ: I
+      ई: II
+      उ: U
+      ऊ: UU
+      ऋ: RI
+      ए: EE
+      ऐ: AI
+      ओ: OO
+      औ: AU
+    signs:
+      ा: AA
+      ि: I
+      ी: II
+      ु: U
+      ू: UU
+      ृ: RI
+      े: EE
+      ै: AI
+      ो: OO
+      ौ: AU
+    consonants:
+      क: K
+      ख: KH
+      ग: G
+      घ: GH
+      ङ: NG
+      च: CH
+      छ: CHH
+      ज: J
+      झ: JH
+      ञ: NY
+      ट: T
+      ठ: TH
+      ड: D
+      ढ: DH
+      ण: N
+      त: T
+      थ: TH
+      द: D
+      ध: DH
+      न: N
+      प: P
+      फ: PH
+      ब: B
+      भ: BH
+      म: M
+      य: Y
+      र: R
+      ल: L
+      व: V
+      श: SH
+      ष: SH
+      स: S
+      ह: H
+      ळ: L
+    marks:
+      ं: M
+      ँ: N
+      ः: H
+    virama: ्
+    nukta: ़
+    nukta_consonants:
+      क: Q
+      ख: KH
+      ग: GH
+      ज: Z
+      ड: R
+      ढ: RH
+      फ: F
+      य: Y
+  kn:
+    vowels:
+      ಅ: A
+      ಆ: AA
+      ಇ: I
+      ಈ: II
+      ಉ: U
+      ಊ: UU
+      ಋ: RI
+      ಏ: EE
+      ಐ: AI
+      ಓ: OO
+      ಔ: AU
+      ಎ: E
+      ಒ: O
+    signs:
+      ಾ: AA
+      ಿ: I
+      ೀ: II
+      ು: U
+      ೂ: UU
+      ೃ: RI
+      ೇ: EE
+      ೈ: AI
+      ೋ: OO
+      ೌ: AU
+      ೆ: E
+      ೊ: O
+    consonants:
+      ಕ: K
+      ಖ: KH
+      ಗ: G
+      ಘ: GH
+      ಙ: NG
+      ಚ: CH
+      ಛ: CHH
+      ಜ: J
+      ಝ: JH
+      ಞ: NY
+      ಟ: T
+      ಠ: TH
+      ಡ: D
+      ಢ: DH
+      ಣ: N
+      ತ: T
+      ಥ: TH
+      ದ: D
+      ಧ: DH
+      ನ: N
+      ಪ: P
+      ಫ: PH
+      ಬ: B
+      ಭ: BH
+      ಮ: M
+      ಯ: Y
+      ರ: R
+      ಲ: L
+      ವ: V
+      ಶ: SH
+      ಷ: SH
+      ಸ: S
+      ಹ: H
+      ಳ: L
+    marks:
+      ಂ: M
+      ಁ: N
+      ಃ: H
+    virama: ್
+    nukta: ಼
+    nukta_consonants: {}

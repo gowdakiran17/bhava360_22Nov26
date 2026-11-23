@@ -1,0 +1,39 @@
+id: numerology.pythagorean.maturity
+system: numerology
+topic: pythagorean
+title: Pythagorean · maturity
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Add the Life Path and Expression in the same profile and reduce.
+conditions:
+  all:
+  - fact: number.pythagorean.computed-metric
+    op: eq
+    value: maturity
+meaning: You can consider how your priorities have changed over time.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
+    Schools can differ on which stages preserve masters.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.maturity
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can consider how your priorities have changed over time.
+  kn: ಕಾಲಕ್ರಮದಲ್ಲಿ ನಿಮ್ಮ ಆದ್ಯತೆಗಳು ಹೇಗೆ ಬದಲಾಗಿವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि समय के साथ आपकी प्राथमिकताएँ कैसे बदली हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

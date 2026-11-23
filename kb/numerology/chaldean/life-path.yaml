@@ -1,0 +1,39 @@
+id: numerology.chaldean.life-path
+system: numerology
+topic: chaldean
+title: Chaldean · life-path
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Reduce the Gregorian birth month, day and year separately, add the three results and reduce again.
+conditions:
+  all:
+  - fact: number.chaldean.computed-metric
+    op: eq
+    value: life-path
+meaning: You can reflect on a recurring choice in your life.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Chaldean assigns 1–8 to letters; root 9 is possible. Date cycles and the vowel/consonant split are Bhava360
+    comparative extensions.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.chaldean.life-path
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can reflect on a recurring choice in your life.
+  kn: ಬದುಕಿನಲ್ಲಿ ಮತ್ತೆ ಎದುರಾಗುವ ಆಯ್ಕೆಯ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: आप जीवन में बार-बार सामने आने वाले किसी चुनाव पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,28 @@
+check: vehicle-number
+approval: draft
+adapter: registration
+normalization: Use the full registration as issued. Accept Latin letters, decimal digits, whitespace and hyphens.
+  Confirm a Latin identifier for other scripts. Ignore letters. Include every district digit and preserve leading zeros in the digit sequence.
+steps:
+- Canonicalize Unicode decimal digits to ASCII. Sum the digit values and repeatedly sum decimal digits to one digit.
+  Zero alone has no number meaning. Use the matching Ank Jyotish root as descriptive evidence.
+- Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
+  and use the parent recipe for a full-profile tone.
+numerology_ids:
+- numerology.ank-jyotish.check-vehicle-number-root
+- numerology.ank-jyotish.check-vehicle-number-vehicle-total
+parent_recipe: checkers/vehicle-number/recipe.yaml
+public:
+  fields:
+  - localized_tone
+  - user_text
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  user_text:
+    en: You can consider the number as one detail of the vehicle you are already considering.
+    kn: ನೀವು ಈಗಾಗಲೇ ಪರಿಗಣಿಸುತ್ತಿರುವ ವಾಹನದ ಒಂದು ವಿವರವಾಗಿ ಸಂಖ್ಯೆಯನ್ನು ಗಮನಿಸಬಹುದು.
+    hi: आप जिस वाहन पर पहले से विचार कर रहे हैं, उसके नंबर को एक साधारण विवरण की तरह देख सकते हैं।
+standalone: Display Steady as a neutral reflection for a valid identifier without enough independent evidence. The
+  full fit assessment remains unavailable. Invalid input requests correction and gets no tone.

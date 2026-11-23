@@ -1,0 +1,39 @@
+id: numerology.pythagorean.birthday
+system: numerology
+topic: pythagorean
+title: Pythagorean · birthday
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Reduce the day of the birth month. Keep the original calendar day for audit.
+conditions:
+  all:
+  - fact: number.pythagorean.computed-metric
+    op: eq
+    value: birthday
+meaning: You can notice a quality you value in yourself.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
+    Schools can differ on which stages preserve masters.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.birthday
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can notice a quality you value in yourself.
+  kn: ನಿಮ್ಮಲ್ಲಿ ನೀವು ಮೆಚ್ಚುವ ಗುಣವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप अपने किसी प्रिय गुण पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

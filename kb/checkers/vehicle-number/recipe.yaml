@@ -36,3 +36,4 @@ explain_rules:
 selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
   ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
   match, return limited evidence.
+numerology_profile: checks/vehicle-number/profile.yaml

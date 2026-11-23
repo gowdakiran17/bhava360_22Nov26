@@ -187,3 +187,10 @@ safe_remedies:
   legacy: Inline entries also retain the free boolean for existing callers.
   fasting: Offer only as an explicitly selected existing practice for adults who know it is safe for them. Omit from health readings. Quiet reflection is available in the same copy.
   display: Show the optional status and localized text. Use only free participation and freely available materials.
+numerology_checks:
+  systems: numerology/profiles.yaml
+  transliteration: numerology/transliteration.yaml
+  tools: checks/{checker-id}/profile.yaml
+  reductions: Use the selected system throughout a named metric. Bind raw compound meanings only to the unmodified Chaldean sum in the documented range. Bind a Pythagorean master meaning only to a retained metric result.
+  privacy: Compute identifiers locally in memory. Keep raw mobile and vehicle inputs out of logs, prompts and stored traces. Show arithmetic only in the admin/tester view; do not send it to the public renderer.
+  presentation: A standalone numeric reflection is Steady. The fit tone requires approved, matched independent evidence under the parent recipe. Missing evidence is limited. Display only the localized tone and localized reflection. Never propose a name or number change, a purchase, or a financial outcome.

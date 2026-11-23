@@ -20,9 +20,24 @@ fields:
 - personal-year
 - personal-month
 - personal-day
-algorithm: Use Latin A–Z. Expression uses all letters, Soul Urge vowels, Personality consonants. Use explicit vowel treatment
-  for Y. Life Path reduces month, day and year before adding. Birthday uses day; Maturity combines Life Path and Expression.
-  Calendar cycles combine birth month/day with target year, then target month/day. Keep 11,22,33 at reduction stages under
-  this profile.
-privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the intended
-  Latin spelling.
+algorithm: At each named reduction stage record the input, then repeatedly sum decimal digits until single-digit or
+  a retained master value. Preserve the raw letter sum separately. Follow the metric IDs below.
+privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the
+  intended Latin spelling.
+metrics:
+  expression: numerology.pythagorean.expression
+  soul-urge: numerology.pythagorean.soul-urge
+  personality: numerology.pythagorean.personality
+  life-path: numerology.pythagorean.life-path
+  birthday: numerology.pythagorean.birthday
+  personal-year: numerology.pythagorean.personal-year
+  personal-month: numerology.pythagorean.personal-month
+  personal-day: numerology.pythagorean.personal-day
+  maturity: numerology.pythagorean.maturity
+preserve_at_each_reduction:
+- 11
+- 22
+- 33
+convention: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
+  Schools can differ on which stages preserve masters.
+letter_reference: https://namietamodi.com/numerology-alphabet-chart/

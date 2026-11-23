@@ -1,0 +1,36 @@
+id: numerology.pythagorean.master-22
+system: numerology
+topic: pythagorean
+title: Master value · 22
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: The bound Pythagorean metric stops at 22.
+conditions:
+  all:
+  - fact: number.pythagorean.master
+    op: eq
+    value: 22
+meaning: organizing a larger project
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.master-22
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can break a larger project into manageable tasks.
+  kn: ದೊಡ್ಡ ಯೋಜನೆಯನ್ನು ಸಣ್ಣ ಕೆಲಸಗಳಾಗಿ ವಿಂಗಡಿಸಬಹುದು.
+  hi: आप बड़े काम को छोटे हिस्सों में बाँट सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -11,7 +11,28 @@ mapping:
   8: FP
 fields:
 - name-root
-algorithm: Total the mapped values of the supplied Latin spelling. Preserve the original total and repeatedly sum decimal
-  digits for its root. Digit 9 has no letter.
-privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the intended
-  Latin spelling.
+- expression
+- soul-urge
+- personality
+- life-path
+- birthday
+- personal-year
+- personal-month
+- personal-day
+algorithm: At each named reduction stage record the input, then repeatedly sum decimal digits until single-digit or
+  a retained master value. Preserve the raw letter sum separately. Follow the metric IDs below.
+privacy: Normalize case and remove accepted separators. Reject unsupported characters and empty input. Ask for the
+  intended Latin spelling.
+metrics:
+  expression: numerology.chaldean.expression
+  soul-urge: numerology.chaldean.soul-urge
+  personality: numerology.chaldean.personality
+  life-path: numerology.chaldean.life-path
+  birthday: numerology.chaldean.birthday
+  personal-year: numerology.chaldean.personal-year
+  personal-month: numerology.chaldean.personal-month
+  personal-day: numerology.chaldean.personal-day
+preserve_at_each_reduction: []
+convention: Chaldean assigns 1–8 to letters; root 9 is possible. Date cycles and the vowel/consonant split are Bhava360
+  comparative extensions.
+letter_reference: https://namietamodi.com/numerology-alphabet-chart/

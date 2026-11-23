@@ -1,0 +1,29 @@
+check: personal-baby-name
+approval: draft
+adapter: letters
+normalization: Use the spelling and name parts the person or caregiver provided. Include a surname only when supplied.
+  Changing between everyday and full names creates separate labelled candidates.
+steps:
+- Resolve the selected school. Apply the letter table to the confirmed Latin spelling, then the expression reduction;
+  resolve the compound, master or root meaning only in that school.
+- Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
+  and use the parent recipe for a full-profile tone.
+numerology_ids:
+- numerology.chaldean.expression
+- numerology.pythagorean.expression
+- numerology.pythagorean.check-personal-baby-name-name-root
+parent_recipe: checkers/personal-baby-name/recipe.yaml
+public:
+  fields:
+  - localized_tone
+  - user_text
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  user_text:
+    en: You can say the name as your family uses it and consider how it feels to you.
+    kn: ನಿಮ್ಮ ಕುಟುಂಬದಲ್ಲಿ ಬಳಸುವಂತೆ ಹೆಸರನ್ನು ಹೇಳಿ ಅದು ನಿಮಗೆ ಹೇಗೆ ಅನಿಸುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+    hi: आप नाम को परिवार में प्रचलित तरीके से बोलकर देख सकते हैं कि वह आपको कैसा लगता है।
+standalone: Display Steady as a neutral reflection for a valid identifier without enough independent evidence. The
+  full fit assessment remains unavailable. Invalid input requests correction and gets no tone.

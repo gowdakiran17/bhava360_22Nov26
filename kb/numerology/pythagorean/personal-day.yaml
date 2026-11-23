@@ -1,0 +1,39 @@
+id: numerology.pythagorean.personal-day
+system: numerology
+topic: pythagorean
+title: Pythagorean · personal-day
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Add the target calendar day to the personal month and reduce.
+conditions:
+  all:
+  - fact: number.pythagorean.computed-metric
+    op: eq
+    value: personal-day
+meaning: You can choose a small intention for today.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
+    Schools can differ on which stages preserve masters.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.pythagorean.personal-day
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can choose a small intention for today.
+  kn: ಇಂದಿಗಾಗಿ ಒಂದು ಸಣ್ಣ ಉದ್ದೇಶವನ್ನು ಆಯ್ದುಕೊಳ್ಳಬಹುದು.
+  hi: आप आज के लिए एक छोटा उद्देश्य चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,39 @@
+id: numerology.chaldean.personality
+system: numerology
+topic: chaldean
+title: Chaldean · personality
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Sum the remaining consonants, including Y, and reduce. An empty consonant partition is unavailable.
+conditions:
+  all:
+  - fact: number.chaldean.computed-metric
+    op: eq
+    value: personality
+meaning: You can ask which first impression feels true to you.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: numerology-editorial-v1
+  note: Chaldean assigns 1–8 to letters; root 9 is possible. Date cycles and the vowel/consonant split are Bhava360
+    comparative extensions.
+sources:
+- book: Bhava360 number themes
+  work_id: bhava360-number-themes
+  edition: bhava360-number-themes-v1
+  chapter: null
+  verse: null
+  other_locator: numerology.chaldean.personality
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can ask which first impression feels true to you.
+  kn: ಯಾವ ಮೊದಲ ಅನಿಸಿಕೆ ನಿಮಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि पहली मुलाकात की कौन सी छाप आपसे मेल खाती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

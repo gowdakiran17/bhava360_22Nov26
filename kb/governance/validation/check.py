@@ -485,6 +485,8 @@ def main():
     validate_life_areas(rules, read, require, ROOT)
     from western import validate_western
     validate_western(rules,read,evaluate,require)
+    from numerology import validate_numerology
+    validate_numerology(rules,read,evaluate,require,ROOT)
     for name in areas['checker_ids']:
         recipe=read(f'checkers/{name}/recipe.yaml')
         require(len(recipe['reason_channels'])>=3 and recipe['compare_limit']==3,name)
