@@ -1,0 +1,29 @@
+id: glossary.terms.pancha-mahapurusha
+term:
+  en: Pancha Mahapurusha
+  kn: ಪಞ್ಚಮಹಾಪುರುಷ
+  hi: पञ्चमहापुरुष
+sanskrit:
+  devanagari: पञ्चमहापुरुष
+  kannada: ಪಞ್ಚಮಹಾಪುರುಷ
+  usage: traditional term
+meaning:
+  en: Five named combinations, each involving one planet in a strong sign at a corner of the chart.
+  kn: ಐದು ಹೆಸರಿನ ಜೋಡಣೆಗಳು; ಪ್ರತಿ ಜೋಡಣೆಯಲ್ಲಿ ಒಂದು ಗ್ರಹ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯಲ್ಲಿರುತ್ತದೆ.
+  hi: पाँच मेल जिनमें एक ग्रह बल वाली राशि में पत्री के कोने पर होता है।
+admin_note: 'Application in vedic.yogas.bhadra: Mercury occupies a whole-sign angle from Lagna and its own or exaltation
+  sign.'
+aliases:
+- Mahapurusha
+reference_rules:
+- vedic.yogas.bhadra
+- vedic.yogas.hamsa
+- vedic.yogas.malavya
+- vedic.yogas.ruchaka
+- vedic.yogas.shasha
+used_by:
+- vedic.yogas.bhadra
+- vedic.yogas.hamsa
+- vedic.yogas.malavya
+- vedic.yogas.ruchaka
+- vedic.yogas.shasha

@@ -1,0 +1,49 @@
+id: glossary.terms.shadbala-minimum
+term:
+  en: Shadbala minimum
+  kn: ಷಡ್ಬಲನ್ಯೂನಮಾನ
+  hi: षड्बलन्यूनमान
+sanskrit:
+  devanagari: षड्बलन्यूनमान
+  kannada: ಷಡ್ಬಲನ್ಯೂನಮಾನ
+  usage: traditional term
+meaning:
+  en: The traditional comparison level for the six-part strength calculation of one planet.
+  kn: ಒಂದು ಗ್ರಹದ ಆರು ಬಲಗಳ ಮೊತ್ತವನ್ನು ಹೋಲಿಸುವ ಸಾಂಪ್ರದಾಯಿಕ ಮಿತಿ.
+  hi: एक ग्रह के छह बलों के कुल की तुलना का पारंपरिक स्तर।
+admin_note: 'Application in vedic.strength-shadbala.totals: Sum the six signed components in virupas and divide by sixty
+  for rupas. Compare the unrounded result with the graha minimum using greater-than-or-equal. Separately compute Ishta
+  = sqrt(U × C) and Kashta = sqrt((60 − U) × (60 − C)), where U is Uchcha and C is the selected undoubled Cheshta in
+  [0,60]. Neither phala enters the total. If any required input is unknown, withhold the dependent result.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.totals
+used_by:
+- vedic.strength-shadbala.totals
+- vedic.yogas.adhi
+- vedic.yogas.amala
+- vedic.yogas.anapha
+- vedic.yogas.bhadra
+- vedic.yogas.budhaditya
+- vedic.yogas.chandra-mangala
+- vedic.yogas.dhana
+- vedic.yogas.durudhara
+- vedic.yogas.gaja-kesari
+- vedic.yogas.hamsa
+- vedic.yogas.harsha
+- vedic.yogas.kemadruma
+- vedic.yogas.lakshmi
+- vedic.yogas.malavya
+- vedic.yogas.neecha-bhanga
+- vedic.yogas.neecha-bhanga-raja
+- vedic.yogas.parivartana
+- vedic.yogas.parivartana-dainya
+- vedic.yogas.parivartana-khala
+- vedic.yogas.parivartana-maha
+- vedic.yogas.raja
+- vedic.yogas.ruchaka
+- vedic.yogas.sarala
+- vedic.yogas.saraswati
+- vedic.yogas.shasha
+- vedic.yogas.sunapha
+- vedic.yogas.vimala

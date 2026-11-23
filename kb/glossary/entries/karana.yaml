@@ -1,0 +1,29 @@
+id: glossary.terms.karana
+term:
+  en: Karana
+  kn: ಕರಣ
+  hi: करण
+sanskrit:
+  devanagari: करण
+  kannada: ಕರಣ
+  usage: traditional term
+meaning:
+  en: Half of one of the thirty parts of the Moon’s monthly cycle.
+  kn: ಚಂದ್ರನ ಮಾಸಿಕ ಚಕ್ರದ ಮೂವತ್ತು ಭಾಗಗಳಲ್ಲಿ ಒಂದರ ಅರ್ಧ.
+  hi: चंद्रमा के मासिक चक्र के तीस हिस्सों में से एक का आधा।
+admin_note: 'Application in vedic.panchang.karana: Use floor(((Moon − Sun) modulo a turn) / 21600 arcseconds). Use the
+  fixed index map at 0 and 57–59; for 1–56 use movable[(index−1) modulo 7]. Solve the flanking 6° crossings.'
+aliases:
+- Karanas
+reference_rules: []
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.karana
+- vedic.panchang.vishti

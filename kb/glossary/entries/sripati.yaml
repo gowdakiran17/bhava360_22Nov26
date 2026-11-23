@@ -1,0 +1,31 @@
+id: glossary.terms.sripati
+term:
+  en: Sripati
+  kn: ಶ್ರೀಪತಿ
+  hi: श्रीपति
+sanskrit:
+  devanagari: श्रीपति
+  kannada: ಶ್ರೀಪತಿ
+  usage: traditional term
+meaning:
+  en: A way of spacing the centres of houses between four main chart directions.
+  kn: ನಾಲ್ಕು ಮುಖ್ಯ ದಿಕ್ಕುಗಳ ನಡುವೆ ಮನೆಗಳ ಕೇಂದ್ರಗಳನ್ನು ಇಡುವ ವಿಧಾನ.
+  hi: चार मुख्य दिशाओं के बीच घरों के केंद्र रखने की विधि।
+admin_note: Use this label for a way of spacing the centres of houses between four main chart directions. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-12
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-4
+- vedic.houses.house-5
+- vedic.houses.house-6
+- vedic.houses.house-7
+- vedic.houses.house-8
+- vedic.houses.house-9
+- vedic.vargas.d1-placement

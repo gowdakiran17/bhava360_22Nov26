@@ -1,0 +1,23 @@
+id: glossary.terms.purva-phalguni
+term:
+  en: Purva Phalguni
+  kn: ಪೂರ್ವಫಲ್ಗುನೀ
+  hi: पूर्वफल्गुनी
+sanskrit:
+  devanagari: पूर्वफल्गुनी
+  kannada: ಪೂರ್ವಫಲ್ಗುನೀ
+  usage: traditional term
+meaning:
+  en: Section 11 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 11ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 11।
+admin_note: 'Application in vedic.nakshatras.purva-phalguni: Match the stable natal Moon nakshatra when its sidereal
+  longitude falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.purva-phalguni
+used_by:
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.travel
+- vedic.nakshatras.purva-phalguni

@@ -1,0 +1,22 @@
+id: glossary.terms.chandra-mangala-yoga
+term:
+  en: Chandra Mangala yoga
+  kn: ಚನ್ದ್ರಮಙ್ಗಲಯೋಗ
+  hi: चन्द्रमङ्गलयोग
+sanskrit:
+  devanagari: चन्द्रमङ्गलयोग
+  kannada: ಚನ್ದ್ರಮಙ್ಗಲಯೋಗ
+  usage: traditional term
+meaning:
+  en: The Moon and Mars share a sign in this chart-reading method.
+  kn: ಈ ವಿಧಾನದಲ್ಲಿ ಚಂದ್ರ ಮತ್ತು ಮಂಗಳ ಒಂದೇ ರಾಶಿಯಲ್ಲಿರುವುದು.
+  hi: इस विधि में चंद्रमा और मंगल का एक राशि में होना।
+admin_note: Moon and Mars occupy the same sign in this conjunction-only profile.
+aliases:
+- chandra-mangala
+reference_rules:
+- vedic.yogas.chandra-mangala
+used_by:
+- vedic.yogas.chandra-mangala
+systems:
+- vedic

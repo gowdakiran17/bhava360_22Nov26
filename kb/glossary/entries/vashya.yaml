@@ -1,0 +1,20 @@
+id: glossary.terms.vashya
+term:
+  en: Vashya
+  kn: ವಶ್ಯ
+  hi: वश्य
+sanskrit:
+  devanagari: वश्य
+  kannada: ವಶ್ಯ
+  usage: traditional term
+meaning:
+  en: A matching factor comparing the groups assigned to two Moon signs.
+  kn: ಇಬ್ಬರ ಚಂದ್ರರಾಶಿಗಳ ಗುಂಪುಗಳನ್ನು ಹೋಲಿಸುವ ಅಂಶ.
+  hi: दो लोगों की चंद्र राशियों के समूहों की तुलना का पहलू।
+admin_note: 'Application in vedic.matching.vashya: Classify each exact lunar longitude by sign and sign half. At fifteen
+  degrees use the second half. Look up the ordered classes.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.porutham-vashya
+- vedic.matching.vashya

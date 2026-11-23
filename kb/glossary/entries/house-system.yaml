@@ -1,0 +1,140 @@
+id: glossary.terms.house-system
+term:
+  en: House system
+  kn: ಮನೆಯ ವಿಭಾಗ ವಿಧಾನ
+  hi: भाव विभाजन विधि
+sanskrit:
+  devanagari: भावविभाग
+  kannada: ಭಾವವಿಭಾಗ
+  usage: descriptive equivalent
+meaning:
+  en: The method used to divide a chart into twelve areas.
+  kn: ನಕ್ಷೆಯನ್ನು ಹನ್ನೆರಡು ಮನೆಗಳಾಗಿ ವಿಂಗಡಿಸುವ ವಿಧಾನ.
+  hi: पत्री को बारह घरों में बाँटने की विधि।
+admin_note: Use this label for the method used to divide a chart into twelve areas. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases:
+- house systems
+reference_rules: []
+used_by:
+- lal-kitab.varshphal.year-house
+- western.natal.jupiter-house-1
+- western.natal.jupiter-house-10
+- western.natal.jupiter-house-11
+- western.natal.jupiter-house-12
+- western.natal.jupiter-house-2
+- western.natal.jupiter-house-3
+- western.natal.jupiter-house-4
+- western.natal.jupiter-house-5
+- western.natal.jupiter-house-6
+- western.natal.jupiter-house-7
+- western.natal.jupiter-house-8
+- western.natal.jupiter-house-9
+- western.natal.mars-house-1
+- western.natal.mars-house-10
+- western.natal.mars-house-11
+- western.natal.mars-house-12
+- western.natal.mars-house-2
+- western.natal.mars-house-3
+- western.natal.mars-house-4
+- western.natal.mars-house-5
+- western.natal.mars-house-6
+- western.natal.mars-house-7
+- western.natal.mars-house-8
+- western.natal.mars-house-9
+- western.natal.mercury-house-1
+- western.natal.mercury-house-10
+- western.natal.mercury-house-11
+- western.natal.mercury-house-12
+- western.natal.mercury-house-2
+- western.natal.mercury-house-3
+- western.natal.mercury-house-4
+- western.natal.mercury-house-5
+- western.natal.mercury-house-6
+- western.natal.mercury-house-7
+- western.natal.mercury-house-8
+- western.natal.mercury-house-9
+- western.natal.moon-house-1
+- western.natal.moon-house-10
+- western.natal.moon-house-11
+- western.natal.moon-house-12
+- western.natal.moon-house-2
+- western.natal.moon-house-3
+- western.natal.moon-house-4
+- western.natal.moon-house-5
+- western.natal.moon-house-6
+- western.natal.moon-house-7
+- western.natal.moon-house-8
+- western.natal.moon-house-9
+- western.natal.neptune-house-1
+- western.natal.neptune-house-10
+- western.natal.neptune-house-11
+- western.natal.neptune-house-12
+- western.natal.neptune-house-2
+- western.natal.neptune-house-3
+- western.natal.neptune-house-4
+- western.natal.neptune-house-5
+- western.natal.neptune-house-6
+- western.natal.neptune-house-7
+- western.natal.neptune-house-8
+- western.natal.neptune-house-9
+- western.natal.pluto-house-1
+- western.natal.pluto-house-10
+- western.natal.pluto-house-11
+- western.natal.pluto-house-12
+- western.natal.pluto-house-2
+- western.natal.pluto-house-3
+- western.natal.pluto-house-4
+- western.natal.pluto-house-5
+- western.natal.pluto-house-6
+- western.natal.pluto-house-7
+- western.natal.pluto-house-8
+- western.natal.pluto-house-9
+- western.natal.saturn-house-1
+- western.natal.saturn-house-10
+- western.natal.saturn-house-11
+- western.natal.saturn-house-12
+- western.natal.saturn-house-2
+- western.natal.saturn-house-3
+- western.natal.saturn-house-4
+- western.natal.saturn-house-5
+- western.natal.saturn-house-6
+- western.natal.saturn-house-7
+- western.natal.saturn-house-8
+- western.natal.saturn-house-9
+- western.natal.sun-house-1
+- western.natal.sun-house-10
+- western.natal.sun-house-11
+- western.natal.sun-house-12
+- western.natal.sun-house-2
+- western.natal.sun-house-3
+- western.natal.sun-house-4
+- western.natal.sun-house-5
+- western.natal.sun-house-6
+- western.natal.sun-house-7
+- western.natal.sun-house-8
+- western.natal.sun-house-9
+- western.natal.uranus-house-1
+- western.natal.uranus-house-10
+- western.natal.uranus-house-11
+- western.natal.uranus-house-12
+- western.natal.uranus-house-2
+- western.natal.uranus-house-3
+- western.natal.uranus-house-4
+- western.natal.uranus-house-5
+- western.natal.uranus-house-6
+- western.natal.uranus-house-7
+- western.natal.uranus-house-8
+- western.natal.uranus-house-9
+- western.natal.venus-house-1
+- western.natal.venus-house-10
+- western.natal.venus-house-11
+- western.natal.venus-house-12
+- western.natal.venus-house-2
+- western.natal.venus-house-3
+- western.natal.venus-house-4
+- western.natal.venus-house-5
+- western.natal.venus-house-6
+- western.natal.venus-house-7
+- western.natal.venus-house-8
+- western.natal.venus-house-9

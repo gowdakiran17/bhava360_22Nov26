@@ -1,0 +1,24 @@
+id: glossary.terms.narayana-dasha
+term:
+  en: Narayana dasha
+  kn: ನಾರಾಯಣದಶಾ
+  hi: नारायणदशा
+sanskrit:
+  devanagari: नारायणदशा
+  kannada: ನಾರಾಯಣದಶಾ
+  usage: traditional term
+meaning:
+  en: A system that assigns years to signs and chooses the starting sign by comparing their strength.
+  kn: ರಾಶಿಗಳ ಬಲವನ್ನು ಹೋಲಿಸಿ ಆರಂಭದ ರಾಶಿಯನ್ನು ಆಯ್ದು ವರ್ಷಗಳನ್ನು ನೀಡುವ ವಿಧಾನ.
+  hi: राशियों का बल देखकर शुरुआत चुनने और वर्ष बाँटने की विधि।
+admin_note: Use this label for a system that assigns years to signs and chooses the starting sign by comparing their
+  strength. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Narayana
+reference_rules: []
+used_by:
+- jaimini.karakamsa.d1-projection
+- vedic.dashas-chara.home-topic
+- vedic.dashas-chara.sign-order
+- vedic.dashas-narayana.partnership-topic
+- vedic.dashas-narayana.progression

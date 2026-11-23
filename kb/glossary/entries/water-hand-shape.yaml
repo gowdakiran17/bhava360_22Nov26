@@ -1,0 +1,24 @@
+id: glossary.terms.water-hand-shape
+term:
+  en: Water hand shape
+  kn: ಉದ್ದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+  hi: लंबी हथेली, लंबी उँगलियाँ
+sanskrit:
+  devanagari: जल हस्ताकृति
+  kannada: ಜಲ ಹಸ್ತಾಕೃತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Long palm, longer fingers.
+  kn: ಉದ್ದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು.
+  hi: लंबी हथेली, लंबी उँगलियाँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.hands.water-left
+- palmistry.hands.water-right
+used_by:
+- palmistry.hands.water-left
+- palmistry.hands.water-right
+systems:
+- palmistry

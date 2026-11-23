@@ -1,0 +1,21 @@
+id: glossary.terms.dasha-sandhi
+term:
+  en: Dasha sandhi
+  kn: ದಶಾಸನ್ಧಿ
+  hi: दशासन्धि
+sanskrit:
+  devanagari: दशासन्धि
+  kannada: ದಶಾಸನ್ಧಿ
+  usage: traditional term
+meaning:
+  en: The transition from one time period to the next.
+  kn: ಒಂದು ಅವಧಿ ಮುಗಿದು ಇನ್ನೊಂದು ಆರಂಭವಾಗುವ ಸಮಯ.
+  hi: एक अवधि से दूसरी में जाने का समय।
+admin_note: Use this label for the transition from one time period to the next. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases:
+- Sandhi
+reference_rules: []
+used_by:
+- vedic.dashas-sandhi.junction
+- vedic.dashas-sandhi.work-handover

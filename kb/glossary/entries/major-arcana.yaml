@@ -1,0 +1,62 @@
+id: glossary.terms.major-arcana
+term:
+  en: Major Arcana
+  kn: ಪ್ರಧಾನಪತ್ರಾಣಿ
+  hi: प्रधानपत्राणि
+sanskrit:
+  devanagari: प्रधानपत्राणि
+  kannada: ಪ್ರಧಾನಪತ್ರಾಣಿ
+  usage: descriptive equivalent
+meaning:
+  en: The twenty-two named picture cards in the tarot deck.
+  kn: ಟ್ಯಾರೊದಲ್ಲಿನ ಹೆಸರಿರುವ ಇಪ್ಪತ್ತೆರಡು ಚಿತ್ರಪತ್ರಗಳು.
+  hi: टैरो के बाईस अलग नाम वाले चित्र पत्ते।
+admin_note: Use this label for the twenty-two named picture cards in the tarot deck. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.major-arcana.death-reversed
+- tarot.major-arcana.death-upright
+- tarot.major-arcana.judgement-reversed
+- tarot.major-arcana.judgement-upright
+- tarot.major-arcana.justice-reversed
+- tarot.major-arcana.justice-upright
+- tarot.major-arcana.strength-reversed
+- tarot.major-arcana.strength-upright
+- tarot.major-arcana.temperance-reversed
+- tarot.major-arcana.temperance-upright
+- tarot.major-arcana.the-chariot-reversed
+- tarot.major-arcana.the-chariot-upright
+- tarot.major-arcana.the-devil-reversed
+- tarot.major-arcana.the-devil-upright
+- tarot.major-arcana.the-emperor-reversed
+- tarot.major-arcana.the-emperor-upright
+- tarot.major-arcana.the-empress-reversed
+- tarot.major-arcana.the-empress-upright
+- tarot.major-arcana.the-fool-reversed
+- tarot.major-arcana.the-fool-upright
+- tarot.major-arcana.the-hanged-man-reversed
+- tarot.major-arcana.the-hanged-man-upright
+- tarot.major-arcana.the-hermit-reversed
+- tarot.major-arcana.the-hermit-upright
+- tarot.major-arcana.the-hierophant-reversed
+- tarot.major-arcana.the-hierophant-upright
+- tarot.major-arcana.the-high-priestess-reversed
+- tarot.major-arcana.the-high-priestess-upright
+- tarot.major-arcana.the-lovers-reversed
+- tarot.major-arcana.the-lovers-upright
+- tarot.major-arcana.the-magician-reversed
+- tarot.major-arcana.the-magician-upright
+- tarot.major-arcana.the-moon-reversed
+- tarot.major-arcana.the-moon-upright
+- tarot.major-arcana.the-star-reversed
+- tarot.major-arcana.the-star-upright
+- tarot.major-arcana.the-sun-reversed
+- tarot.major-arcana.the-sun-upright
+- tarot.major-arcana.the-tower-reversed
+- tarot.major-arcana.the-tower-upright
+- tarot.major-arcana.the-world-reversed
+- tarot.major-arcana.the-world-upright
+- tarot.major-arcana.wheel-of-fortune-reversed
+- tarot.major-arcana.wheel-of-fortune-upright

@@ -1,0 +1,25 @@
+id: glossary.terms.nine-of-swords-tarot
+term:
+  en: Nine Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಒಂಬತ್ತು
+  hi: तलवार · नौ
+sanskrit:
+  devanagari: खड्ग नव
+  kannada: ಖಡ್ಗ ನವ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank nine in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಒಂಬತ್ತು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · नौ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a persistent
+  worry. What comes to mind in this position?'
+aliases:
+- Nine Of Swords
+reference_rules:
+- tarot.minor-arcana.nine-of-swords-upright
+- tarot.minor-arcana.nine-of-swords-reversed
+used_by:
+- tarot.minor-arcana.nine-of-swords-reversed
+- tarot.minor-arcana.nine-of-swords-upright
+systems:
+- tarot

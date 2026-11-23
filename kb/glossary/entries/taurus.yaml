@@ -1,0 +1,85 @@
+id: glossary.terms.taurus
+term:
+  en: Taurus
+  kn: ವೃಷಭ
+  hi: वृषभ
+sanskrit:
+  devanagari: वृषभ
+  kannada: ವೃಷಭ
+  usage: traditional term
+meaning:
+  en: Sign number 2 in the twelve-part circle, covering degrees 30 to 60.
+  kn: ರಾಶಿಚಕ್ರದ 2ನೇ ಭಾಗ, 30ರಿಂದ 60 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 2, 30 से 60 अंश तक।
+admin_note: 'Application in western.signs.taurus: The selected tropical point falls in [30, 60) degrees from the March
+  equinox. Fixed earth; modern ruler venus, traditional ruler venus.'
+aliases:
+- Vrishabha
+reference_rules:
+- vedic.signs.taurus
+used_by:
+- tarot.major-arcana.the-hierophant-reversed
+- tarot.major-arcana.the-hierophant-upright
+- tarot.minor-arcana.five-of-pentacles-reversed
+- tarot.minor-arcana.five-of-pentacles-upright
+- tarot.minor-arcana.king-of-swords-reversed
+- tarot.minor-arcana.king-of-swords-upright
+- tarot.minor-arcana.knight-of-pentacles-reversed
+- tarot.minor-arcana.knight-of-pentacles-upright
+- tarot.minor-arcana.page-of-pentacles-reversed
+- tarot.minor-arcana.page-of-pentacles-upright
+- tarot.minor-arcana.seven-of-pentacles-reversed
+- tarot.minor-arcana.seven-of-pentacles-upright
+- tarot.minor-arcana.six-of-pentacles-reversed
+- tarot.minor-arcana.six-of-pentacles-upright
+- vedic.doshas.mars-partnership
+- vedic.lordships.taurus-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.hasta
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shravana
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-taurus
+- vedic.planets-in-signs.ketu-taurus
+- vedic.planets-in-signs.mars-taurus
+- vedic.planets-in-signs.mercury-taurus
+- vedic.planets-in-signs.moon-taurus
+- vedic.planets-in-signs.rahu-taurus
+- vedic.planets-in-signs.saturn-taurus
+- vedic.planets-in-signs.sun-taurus
+- vedic.planets-in-signs.venus-taurus
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.taurus
+- vedic.vargas.d30-placement
+- western.natal.ascendant-taurus
+- western.natal.jupiter-taurus
+- western.natal.mars-taurus
+- western.natal.mercury-taurus
+- western.natal.moon-taurus
+- western.natal.neptune-taurus
+- western.natal.pluto-taurus
+- western.natal.saturn-taurus
+- western.natal.sun-taurus
+- western.natal.uranus-taurus
+- western.natal.venus-taurus
+- western.signs.taurus

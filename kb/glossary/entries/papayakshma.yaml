@@ -1,0 +1,19 @@
+id: glossary.terms.papayakshma
+term:
+  en: Papayakshma
+  kn: ಪಾಪಯಕ್ಷ್ಮನ್
+  hi: पापयक्ष्मन्
+sanskrit:
+  devanagari: पापयक्ष्मन्
+  kannada: ಪಾಪಯಕ್ಷ್ಮನ್
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position W8 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ W8 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह W8 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at W8.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

@@ -1,0 +1,22 @@
+id: glossary.terms.past-present-future-spread
+term:
+  en: Past present future spread
+  kn: ಮೂರು ಕಾಲಗಳ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: तीन काल का पत्ता विन्यास
+sanskrit:
+  devanagari: कालत्रयपत्रविन्यास
+  kannada: ಕಾಲತ್ರಯಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards connect an earlier experience with the present and a direction to consider.
+  kn: ಹಿಂದಿನ ಅನುಭವ, ಇಂದಿನ ಸ್ಥಿತಿ ಮತ್ತು ಸಾಧ್ಯ ದಿಕ್ಕಿಗಾಗಿ ಮೂರು ಪತ್ರಗಳು.
+  hi: बीते अनुभव, वर्तमान और विचार की एक दिशा के लिए तीन पत्ते।
+admin_note: 'Read the positions in order: prior-context, current-situation, possible-direction. The final prompt invites
+  reflection or a chosen action.'
+aliases: []
+reference_rules:
+- past-present-future
+used_by:
+- past-present-future
+systems:
+- tarot

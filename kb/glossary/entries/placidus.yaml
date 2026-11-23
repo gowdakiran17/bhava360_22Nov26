@@ -1,0 +1,34 @@
+id: glossary.terms.placidus
+term:
+  en: Placidus
+  kn: ಪ್ಲಾಸಿಡಸ್
+  hi: प्लासिडस
+sanskrit:
+  devanagari: कालविभागपद्धति
+  kannada: ಕಾಲವಿಭಾಗಪದ್ಧತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A way to divide a chart that uses the time taken by points in the sky to rise or set.
+  kn: ಉದಯ ಮತ್ತು ಅಸ್ತಕ್ಕೆ ಬೇಕಾಗುವ ಸಮಯದ ಆಧಾರದಲ್ಲಿ ನಕ್ಷೆಯನ್ನು ಭಾಗಿಸುವ ವಿಧಾನ.
+  hi: उगने और डूबने में लगने वाले समय से पत्री बाँटने की विधि।
+admin_note: 'Application in kp.cusps.placidus: Use UT Julian day, geographical latitude and east-positive longitude.
+  Set sidereal mode 5 and call swe_houses_ex2 with SEFLG_SIDEREAL and P. Require success and twelve distinct, cyclically
+  ordered cusps. House n spans cusp n inclusive to cusp n+1 exclusive with zodiac wrap; a polar fallback is unknown.'
+aliases: []
+reference_rules: []
+used_by:
+- kp.cusps.cusp-1
+- kp.cusps.cusp-10
+- kp.cusps.cusp-11
+- kp.cusps.cusp-12
+- kp.cusps.cusp-2
+- kp.cusps.cusp-3
+- kp.cusps.cusp-4
+- kp.cusps.cusp-5
+- kp.cusps.cusp-6
+- kp.cusps.cusp-8
+- kp.cusps.cusp-9
+- kp.cusps.placidus
+- kp.cusps.seventh-cusp
+- kp.number-horary.arc
+- vedic.prashna.kp-horary

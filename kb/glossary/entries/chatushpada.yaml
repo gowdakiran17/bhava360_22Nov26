@@ -1,0 +1,28 @@
+id: glossary.terms.chatushpada
+term:
+  en: Chatushpada
+  kn: ಚತುಷ್ಪದ
+  hi: चतुष्पद
+sanskrit:
+  devanagari: चतुष्पद
+  kannada: ಚತುಷ್ಪದ
+  usage: traditional term
+meaning:
+  en: A half lunar day with a fixed place in the month.
+  kn: ಚಂದ್ರಮಾಸದಲ್ಲಿ ನಿಗದಿತ ಸ್ಥಾನವಿರುವ ಅರ್ಧ ತಿಥಿ.
+  hi: चंद्र मास में तय जगह वाला आधा चंद्र दिन।
+admin_note: 'Application in vedic.panchang.karana: Use floor(((Moon − Sun) modulo a turn) / 21600 arcseconds). Use the
+  fixed index map at 0 and 57–59; for 1–56 use movable[(index−1) modulo 7]. Solve the flanking 6° crossings.'
+aliases: []
+reference_rules:
+- vedic.panchang.karana
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.karana

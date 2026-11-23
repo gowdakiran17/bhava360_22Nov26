@@ -1,0 +1,24 @@
+id: glossary.terms.cross-palm-mark
+term:
+  en: Cross palm mark
+  kn: ಅಡ್ಡಹಾಯುವ ಎರಡು ಗೆರೆಗಳು
+  hi: एक दूसरे को काटती दो रेखाएँ
+sanskrit:
+  devanagari: स्वस्तिकाकारछेद करचिह्न
+  kannada: ಸ್ವಸ್ತಿಕಾಕಾರಛೇದ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: Two intersecting strokes.
+  kn: ಅಡ್ಡಹಾಯುವ ಎರಡು ಗೆರೆಗಳು.
+  hi: एक दूसरे को काटती दो रेखाएँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.cross-left
+- palmistry.marks.cross-right
+used_by:
+- palmistry.marks.cross-left
+- palmistry.marks.cross-right
+systems:
+- palmistry

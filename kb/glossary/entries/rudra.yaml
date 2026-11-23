@@ -1,0 +1,20 @@
+id: glossary.terms.rudra
+term:
+  en: Rudra
+  kn: ರುದ್ರ
+  hi: रुद्र
+sanskrit:
+  devanagari: रुद्र
+  kannada: ರುದ್ರ
+  usage: traditional term
+meaning:
+  en: Rudra is a traditional figure associated with Ardra.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಆರ್ದ್ರಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: आर्द्रा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.ardra
+used_by:
+- vedic.nakshatras.ardra

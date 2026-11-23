@@ -1,0 +1,21 @@
+id: glossary.terms.d10
+term:
+  en: D10
+  kn: D10 ದಶಾಂಶ
+  hi: D10 दशांश
+sanskrit:
+  devanagari: दशांश
+  kannada: ದಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore professional responsibilities.
+  kn: ವೃತ್ತಿಯ ಜವಾಬ್ದಾರಿಗಳು ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: काम की ज़िम्मेदारियाँ को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at the natal sign for odd signs and its ninth for even signs.
+aliases:
+- Dasamsa
+- Dasamsha
+reference_rules:
+- vedic.vargas.d10-placement
+used_by:
+- vedic.vargas.d10-placement

@@ -1,0 +1,39 @@
+id: glossary.terms.shashtiamsa
+term:
+  en: Shashtiamsa
+  kn: ಷಷ್ಟ್ಯಂಶಕಲಾ
+  hi: षष्ट्यंशकला
+sanskrit:
+  devanagari: षष्ट्यंशकला
+  kannada: ಷಷ್ಟ್ಯಂಶಕಲಾ
+  usage: traditional term
+meaning:
+  en: In strength tables, a sixtieth of a unit; in chart division, the word can refer to a sixtieth of a sign.
+  kn: ಬಲದ ಕೋಷ್ಟಕದಲ್ಲಿ ಘಟಕದ ಅರವತ್ತನೇ ಭಾಗ; ನಕ್ಷೆಯಲ್ಲಿ ರಾಶಿಯ ಅರವತ್ತನೇ ಭಾಗವೂ ಆಗಬಹುದು.
+  hi: बल तालिका में इकाई का साठवाँ भाग; पत्री में राशि का साठवाँ भाग भी हो सकता है।
+admin_note: Use this label for in strength tables, a sixtieth of a unit; in chart division, the word can refer to a sixtieth
+  of a sign. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.dig
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.kendradi
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.nathonnata
+- vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.sthana
+- vedic.strength-shadbala.totals
+- vedic.strength-shadbala.tribhaga
+- vedic.strength-shadbala.uchcha
+- vedic.strength-shadbala.vara
+- vedic.strength-shadbala.yuddha

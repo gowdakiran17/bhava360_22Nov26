@@ -1,0 +1,20 @@
+id: glossary.terms.part-of-fortune
+term:
+  en: Part of Fortune
+  kn: ಭಾಗ್ಯಬಿನ್ದು
+  hi: भाग्यबिन्दु
+sanskrit:
+  devanagari: भाग्यबिन्दु
+  kannada: ಭಾಗ್ಯಬಿನ್ದು
+  usage: descriptive equivalent
+meaning:
+  en: A calculated point combining the rising point, Sun and Moon.
+  kn: ಉದಯ ಬಿಂದು, ಸೂರ್ಯ ಮತ್ತು ಚಂದ್ರನಿಂದ ಲೆಕ್ಕಿಸುವ ಬಿಂದು.
+  hi: उदय बिंदु, सूर्य और चंद्रमा से निकाला गया बिंदु।
+admin_note: Use this label for a calculated point combining the rising point, Sun and Moon. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- western/aspects/orbs.yaml

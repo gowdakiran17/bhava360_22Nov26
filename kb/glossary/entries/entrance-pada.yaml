@@ -1,0 +1,21 @@
+id: glossary.terms.entrance-pada
+term:
+  en: Entrance pada
+  kn: ದ್ವಾರಪದ
+  hi: द्वारपद
+sanskrit:
+  devanagari: द्वारपद
+  kannada: ದ್ವಾರಪದ
+  usage: traditional term
+meaning:
+  en: One division of a building’s outside edge used to describe the location of an entrance.
+  kn: ಪ್ರವೇಶದ ಸ್ಥಾನ ಗುರುತಿಸಲು ಕಟ್ಟಡದ ಹೊರ ಅಂಚಿನ ಒಂದು ವಿಭಾಗ.
+  hi: प्रवेश की जगह बताने के लिए भवन की बाहरी सीमा का एक भाग।
+admin_note: 'Application in vastu.entrances.north: Observed main entrance faces north in the recorded compass convention.'
+aliases: []
+reference_rules:
+- vastu.entrances.north
+used_by:
+- vastu.entrances.north
+used_in_files:
+- vastu/entrances/padas.yaml

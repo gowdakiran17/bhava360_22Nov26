@@ -1,0 +1,24 @@
+id: glossary.terms.sarvashtakavarga
+term:
+  en: Sarvashtakavarga
+  kn: ಸರ್ವಾಷ್ಟಕವರ್ಗ
+  hi: सर्वाष्टकवर्ग
+sanskrit:
+  devanagari: सर्वाष्टकवर्ग
+  kannada: ಸರ್ವಾಷ್ಟಕವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A table that adds the contributions of seven individual planet tables for each sign.
+  kn: ಏಳು ಗ್ರಹಗಳ ಕೋಷ್ಟಕಗಳ ಕೊಡುಗೆಗಳನ್ನು ರಾಶಿವಾರು ಸೇರಿಸುವ ಕೋಷ್ಟಕ.
+  hi: हर राशि में सात ग्रह तालिकाओं के योगदान जोड़ने की तालिका।
+admin_note: 'Application in vedic.strength-ashtakavarga.sarvashtakavarga: Add the seven unreduced planetary BAV rows
+  column by column, Aries through Pisces. The twelve sign totals sum to 337. Lagna supplies marks in each row.'
+aliases:
+- SAV
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.bindu-steady
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.bindu-take-care
+- vedic.strength-ashtakavarga.sarvashtakavarga
+- vedic.transits.raw-bav-kakshya

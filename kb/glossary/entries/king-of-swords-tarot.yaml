@@ -1,0 +1,25 @@
+id: glossary.terms.king-of-swords-tarot
+term:
+  en: King Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ರಾಜ
+  hi: तलवार · राजा
+sanskrit:
+  devanagari: खड्ग राजा
+  kannada: ಖಡ್ಗ ರಾಜಾ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank king in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ರಾಜ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · राजा की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on reasoned judgement.
+  What comes to mind in this position?'
+aliases:
+- King Of Swords
+reference_rules:
+- tarot.minor-arcana.king-of-swords-upright
+- tarot.minor-arcana.king-of-swords-reversed
+used_by:
+- tarot.minor-arcana.king-of-swords-reversed
+- tarot.minor-arcana.king-of-swords-upright
+systems:
+- tarot

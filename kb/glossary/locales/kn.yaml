@@ -1,0 +1,664 @@
+locale: kn
+status: required
+terms:
+  abda-bala: ಅಬ್ದಬಲ
+  abhijit: ಅಭಿಜಿತ್
+  abhijit-muhurta: ಅಭಿಜಿನ್ಮುಹೂರ್ತ
+  ace-of-cups-tarot: ಪಾತ್ರೆ · ಒಂದು
+  ace-of-pentacles-tarot: ನಾಣ್ಯ · ಒಂದು
+  ace-of-swords-tarot: ಕತ್ತಿ · ಒಂದು
+  ace-of-wands-tarot: ಕೋಲು · ಒಂದು
+  adhi-yoga: ಅಧಿಯೋಗ
+  adhika-masa: ಅಧಿಕಮಾಸ
+  adi-nadi: ಆದಿ ನಾಡೀ
+  aditi: ಅದಿತಿ
+  agni-vastu-guardian: ಅಗ್ನಿ ದಿಕ್ಪಾಲ
+  ahi: ಅಹಿ
+  ahir-budhnya: ಅಹಿರ್ಬುಧ್ನ್ಯ
+  air-hand-shape: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+  aja-ekapada: ಅಜೈಕಪಾದ
+  amala-yoga: ಅಮಲಯೋಗ
+  amanta: ಅಮಾನ್ತ
+  amatyakaraka: ಅಮಾತ್ಯಕಾರಕ
+  amavasya: ಅಮಾವಾಸ್ಯಾ
+  amrit-choghadiya: ಅಮೃತ ಬೇಲಾ
+  anapha-yoga: ಅನಫಾಯೋಗ
+  antariksha: ಅನ್ತರಿಕ್ಷ
+  antya-nadi: ಅನ್ತ್ಯ ನಾಡೀ
+  anuradha: ಅನುರಾಧಾ
+  apas: ಆಪಃ
+  apollo-mount: ಉಂಗುರದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  aquarius: ಕುಂಭ
+  arcminute: ಕೋನ ನಿಮಿಷ
+  arcsecond: ಕೋನ ಸೆಕೆಂಡ್
+  ardra: ಆರ್ದ್ರಾ
+  argala: ಅರ್ಗಲಾ
+  aries: ಮೇಷ
+  arudha: ಆರೂಢ
+  arudha-lagna: ಆರೂಢಲಗ್ನ
+  aryaman: ಅರ್ಯಮನ್
+  ashlesha: ಆಶ್ಲೇಷಾ
+  ashtakavarga: ಅಷ್ಟಕವರ್ಗ
+  ashtakoota: ಅಷ್ಟಕೂಟ
+  ashtama-shani: ಅಷ್ಟಮಶನಿ
+  ashtamangala: ಅಷ್ಟಮಙ್ಗಲ
+  ashtami: ಅಷ್ಟಮೀ
+  ashtottari: ಅಷ್ಟೋತ್ತರೀ
+  ashvin-twins: ಅಶ್ವಿನೌ
+  ashvina: ಆಶ್ವಿನ
+  ashwini: ಅಶ್ವಿನೀ
+  aspect: ದೃಷ್ಟಿ
+  asterism: ತಾರಾಸಮೂಹ
+  astrology: ಜ್ಯೋತಿಷ ಅಧ್ಯಯನ
+  asura: ಅಸುರ
+  atiganda-calendar-yoga: ಅತಿಗಣ್ಡ
+  atmakaraka: ಆತ್ಮಕಾರಕ
+  avastha: ಅವಸ್ಥಾ
+  ayana-bala: ಅಯನಬಲ
+  ayanamsa: ಅಯನಾಂಶ
+  ayu: ಆಯುಸ್
+  ayushman-calendar-yoga: ಆಯುಷ್ಮಾನ್
+  bala-age-state: ಬಾಲ
+  baladi: ಬಾಲಾದಿ
+  balava: ಬಾಲವ
+  bava: ಬವ
+  benefic: ಶುಭಗ್ರಹ
+  bhadra-yoga: ಭದ್ರಯೋಗ
+  bhadrika-yogini: ಭದ್ರಿಕಾ ಯೋಗಿನೀ
+  bhaga: ಭಗ
+  bhakoot: ಭಕೂಟ
+  bhallata: ಭಲ್ಲಾಟ
+  bharani: ಭರಣೀ
+  bhava: ಭಾವ
+  bhava-bala: ಭಾವಬಲ
+  bhava-chalit: ಭಾವಚಲಿತ
+  bhavat-bhavam: ಭಾವಾದ್ಭಾವಮ್
+  bhinnashtakavarga: ಭಿನ್ನಾಷ್ಟಕವರ್ಗ
+  bhramari-yogini: ಭ್ರಾಮರೀ ಯೋಗಿನೀ
+  bhratrikaraka: ಭ್ರಾತೃಕಾರಕ
+  bhringaraja: ಭೃಙ್ಗರಾಜ
+  bhrisha: ಭೃಶ
+  bhujaga: ಭುಜಗ
+  bhukti: ಭುಕ್ತಿ
+  bindu: ಬಿನ್ದು
+  birth-balance: ಜನನದ ಅವಧಿ ಶೇಷ
+  birth-time: ಜನನ ಸಮಯ
+  birthday-number: ಜನ್ಮದಿನಾಙ್ಕ
+  brahma-calendar-yoga: ಬ್ರಹ್ಮ
+  brahma-muhurta: ಬ್ರಾಹ್ಮಮುಹೂರ್ತ
+  brahma-vastu-guardian: ಬ್ರಹ್ಮಾ ದಿಕ್ಪಾಲ
+  brahmasthan: ಬ್ರಹ್ಮಸ್ಥಾನ
+  brihatkshata: ಬೃಹತ್ಕ್ಷತ
+  budhaditya-yoga: ಬುಧಾದಿತ್ಯಯೋಗ
+  cancer: ಕರ್ಕಾಟಕ
+  capricorn: ಮಕರ
+  cardinal: ಚರರಾಶಿ
+  career-spread: ವೃತ್ತಿ ಪತ್ರ ವಿನ್ಯಾಸ
+  celtic-cross: ದಶಪತ್ರವಿನ್ಯಾಸ
+  chaitra: ಚೈತ್ರ
+  chaldean: ಕಾಲ್ಡಿಯನ್
+  chandra-bala: ಚನ್ದ್ರಬಲ
+  chandra-mangala-yoga: ಚನ್ದ್ರಮಙ್ಗಲಯೋಗ
+  char-choghadiya: ಚರ ಬೇಲಾ
+  chara-dasha: ಚರದಶಾ
+  chara-karaka: ಚರಕಾರಕ
+  chaturdashi: ಚತುರ್ದಶೀ
+  chaturthi: ಚತುರ್ಥೀ
+  chatushpada: ಚತುಷ್ಪದ
+  cheshta-bala: ಚೇಷ್ಟಾಬಲ
+  chiron: ಕಾಇರನ್
+  chitra: ಚಿತ್ರಾ
+  choghadiya: ಚೌಘಡಿಯಾ
+  combustion: ಅಸ್ತ
+  composite: ಮಧ್ಯಬಿನ್ದುಪತ್ರಿಕಾ
+  compound-number: ಸಂಯುಕ್ತಾಙ್ಕ
+  conjunction: ಯುತಿ
+  cross-palm-mark: ಅಡ್ಡಹಾಯುವ ಎರಡು ಗೆರೆಗಳು
+  cups: ಚಷಕಾಃ
+  cusp: ಭಾವಾರಮ್ಭ
+  d1: D1 ಜನ್ಮಪತ್ರಿಕಾ
+  d10: D10 ದಶಾಂಶ
+  d12: D12 ದ್ವಾದಶಾಂಶ
+  d16: D16 ಷೋಡಶಾಂಶ
+  d2: D2 ಹೋರಾವರ್ಗ
+  d20: D20 ವಿಂಶಾಂಶ
+  d24: D24 ಚತುರ್ವಿಂಶಾಂಶ
+  d27: D27 ನಕ್ಷತ್ರಾಂಶ
+  d3: D3 ದ್ರೇಷ್ಕಾಣ
+  d30: D30 ತ್ರಿಂಶಾಂಶ
+  d4: D4 ಚತುರ್ಥಾಂಶ
+  d40: D40 ಖವೇದಾಂಶ
+  d45: D45 ಅಕ್ಷವೇದಾಂಶ
+  d60: D60 ಷಷ್ಟ್ಯಂಶ
+  d7: D7 ಸಪ್ತಾಂಶ
+  d9: D9 ನವಾಂಶ
+  daily-spread: ದಿನದ ಪತ್ರ ವಿನ್ಯಾಸ
+  dainya-parivartana: ದೈನ್ಯಪರಿವರ್ತನ
+  darakaraka: ದಾರಕಾರಕ
+  dasha: ದಶಾ
+  dasha-sandhi: ದಶಾಸನ್ಧಿ
+  dashakoota: ದಶಕೂಟ
+  dashami: ದಶಮೀ
+  dashavarga: ದಶವರ್ಗ
+  dauvarika: ದೌವಾರಿಕ
+  death-tarot: ಮೃತ್ಯು (ಟ್ಯಾರೊ)
+  debilitation: ನೀಚ
+  decan: ಹತ್ತು ಅಂಶಗಳ ವಿಭಾಗ
+  decision-spread: ನಿರ್ಧಾರಕ್ಕೆ ಪತ್ರ ವಿನ್ಯಾಸ
+  deepavali: ದೀಪಾವಲೀ
+  degree: ಅಂಶ
+  descendant: ಅಸ್ತಲಗ್ನ
+  deva-gana: ದೇವ ಗಣ
+  dhana-yoga: ಧನಯೋಗ
+  dhanishta: ಧನಿಷ್ಠಾ
+  dhanya-yogini: ಧನ್ಯಾ ಯೋಗಿನೀ
+  dhriti-calendar-yoga: ಧೃತಿ
+  dhruva-calendar-yoga: ಧ್ರುವ
+  dig-bala: ದಿಗ್ಬಲ
+  dignity: ಗ್ರಹಸ್ಥಿತಿ
+  dispositor: ರಾಶ್ಯಧಿಪತಿ
+  diti: ದಿತಿ
+  dominant-hand: ಪ್ರಧಾನಹಸ್ತ
+  dosha: ದೋಷ
+  double-transit: ದ್ವಿಗೋಚರ
+  drik-bala: ದೃಗ್ಬಲ
+  durudhara-yoga: ದುರುಧರಾಯೋಗ
+  dusthana: ದುಃಸ್ಥಾನ
+  dvadashi: ದ್ವಾದಶೀ
+  dvitiya: ದ್ವಿತೀಯಾ
+  earth-hand-shape: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+  ecliptic: ಕ್ರಾಂತಿವೃತ್ತ
+  eight-of-cups-tarot: ಪಾತ್ರೆ · ಎಂಟು
+  eight-of-pentacles-tarot: ನಾಣ್ಯ · ಎಂಟು
+  eight-of-swords-tarot: ಕತ್ತಿ · ಎಂಟು
+  eight-of-wands-tarot: ಕೋಲು · ಎಂಟು
+  ekadashi: ಏಕಾದಶೀ
+  ekadhipatya: ಏಕಾಧಿಪತ್ಯ
+  electional-astrology: ಆರಂಭಕಾಲದ ಆಯ್ಕೆ
+  element: ತತ್ತ್ವ
+  entrance-pada: ದ್ವಾರಪದ
+  ephemeris: ಗ್ರಹಸಾರಣೀ
+  equal-house: ಸಮಭಾವ
+  exaltation: ಉಚ್ಚ
+  expression-number: ನಾಮಾಙ್ಕ
+  face-reading: ಮುಖಲಕ್ಷಣ ಓದು
+  fate-line: ಭಾಗ್ಯರೇಖಾ
+  fire-hand-shape: ಉದ್ದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+  five-card-career-spread: ವೃತ್ತಿಗೆ ಐದು ಪತ್ರಗಳು
+  five-card-relationship-spread: ಒಡನಾಟಕ್ಕೆ ಐದು ಪತ್ರಗಳು
+  five-of-cups-tarot: ಪಾತ್ರೆ · ಐದು
+  five-of-pentacles-tarot: ನಾಣ್ಯ · ಐದು
+  five-of-swords-tarot: ಕತ್ತಿ · ಐದು
+  five-of-wands-tarot: ಕೋಲು · ಐದು
+  fixed-sign: ಸ್ಥಿರರಾಶಿ
+  four-of-cups-tarot: ಪಾತ್ರೆ · ನಾಲ್ಕು
+  four-of-pentacles-tarot: ನಾಣ್ಯ · ನಾಲ್ಕು
+  four-of-swords-tarot: ಕತ್ತಿ · ನಾಲ್ಕು
+  four-of-wands-tarot: ಕೋಲು · ನಾಲ್ಕು
+  gaja-kesari-yoga: ಗಜಕೇಸರೀಯೋಗ
+  gana: ಗಣ
+  ganda-calendar-yoga: ಗಣ್ಡ
+  gandharva: ಗನ್ಧರ್ವ
+  gara: ಗರ
+  gemini: ಮಿಥುನ
+  geocentric: ಭೂಕೇಂದ್ರಿತ
+  gnatikaraka: ಜ್ಞಾತಿಕಾರಕ
+  gochara: ಗೋಚರ
+  golden-dawn: ಸ್ವರ್ಣೋದಯಪರಮ್ಪರಾ
+  graha: ಗ್ರಹ
+  graha-drishti: ಗ್ರಹದೃಷ್ಟಿ
+  graha-maitri: ಗ್ರಹಮೈತ್ರೀ
+  graha-yuddha: ಗ್ರಹಯುದ್ಧ
+  grahan: ಗ್ರಹಣ
+  grand-trine: ತ್ರಿಕೋಣತ್ರಯ
+  grid-palm-mark: ಅಡ್ಡಹಾಯುವ ಸಮಾಂತರ ಸಣ್ಣ ಗೆರೆಗಳ ಗುಂಪು
+  griha-pravesha: ಗೃಹಪ್ರವೇಶ
+  gulika-kalam: ಗುಲಿಕಕಾಲ
+  guru-chandal: ಗುರುಚಾಣ್ಡಾಲ
+  hamsa-yoga: ಹಂಸಯೋಗ
+  harsha-yoga: ಹರ್ಷಯೋಗ
+  harshana-calendar-yoga: ಹರ್ಷಣ
+  hasta: ಹಸ್ತ
+  head-line: ಮಸ್ತಕರೇಖಾ
+  heart-line: ಹೃದಯರೇಖಾ
+  hora: ಹೋರಾ
+  hora-bala: ಹೋರಾಬಲ
+  house-1: ತನುಭಾವ
+  house-10: ಕರ್ಮಭಾವ
+  house-11: ಲಾಭಭಾವ
+  house-12: ವ್ಯಯಭಾವ
+  house-2: ಧನಭಾವ
+  house-3: ಸಹಜಭಾವ
+  house-4: ಸುಖಭಾವ
+  house-5: ಪುತ್ರಭಾವ
+  house-6: ಅರಿಭಾವ
+  house-7: ಯುವತಿಭಾವ
+  house-8: ರನ್ಧ್ರಭಾವ
+  house-9: ಧರ್ಮಭಾವ
+  house-lord: ಭಾವೇಶ
+  house-system: ಮನೆಯ ವಿಭಾಗ ವಿಧಾನ
+  indra-calendar-yoga: ಇನ್ದ್ರ
+  indra-vastu-guardian: ಇನ್ದ್ರ ದಿಕ್ಪಾಲ
+  ishana-vastu-guardian: ಈಶಾನ ದಿಕ್ಪಾಲ
+  ishta-phala: ಇಷ್ಟಫಲ
+  island-palm-mark: ಕವಲಾಗಿ ಮತ್ತೆ ಸೇರುವ ಪುಟ್ಟ ಕುಣಿಕೆಯ ಗೆರೆ
+  ithasala: ಇತ್ಥಶಾಲ
+  jaimini: ಜೈಮಿನಿ
+  japa: ಜಪ
+  jayanta: ಜಯನ್ತ
+  judgement-tarot: ಮರುಪರಿಶೀಲನೆ (ಟ್ಯಾರೊ)
+  jupiter: ಗುರು
+  jupiter-mount: ತೋರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  justice-tarot: ನ್ಯಾಯ (ಟ್ಯಾರೊ)
+  jyeshtha: ಜ್ಯೇಷ್ಠಾ
+  jyotish: ಜ್ಯೋತಿಷ
+  kaal-choghadiya: ಕಾಲ ಬೇಲಾ
+  kaal-sarp: ಕಾಲಸರ್ಪ
+  kakshya: ಕಕ್ಷ್ಯಾ
+  kala-bala: ಕಾಲಬಲ
+  kalachakra: ಕಾಲಚಕ್ರ
+  kalapurusha: ಕಾಲಪುರುಷ
+  kantaka-shani: ಕಣ್ಟಕಶನಿ
+  karaka: ಕಾರಕ
+  karakamsa: ಕಾರಕಾಂಶ
+  karakatva: ಕಾರಕತ್ವ
+  karana: ಕರಣ
+  kartika: ಕಾರ್ತಿಕ
+  kashta-phala: ಕಷ್ಟಫಲ
+  kaulava: ಕೌಲವ
+  kemadruma-yoga: ಕೇಮದ್ರುಮಯೋಗ
+  kendra: ಕೇನ್ದ್ರ
+  kendradi: ಕೇನ್ದ್ರಾದಿ
+  ketu: ಕೇತು
+  khala-parivartana: ಖಲಪರಿವರ್ತನ
+  kimstughna: ಕಿಂಸ್ತುಘ್ನ
+  king-of-cups-tarot: ಪಾತ್ರೆ · ರಾಜ
+  king-of-pentacles-tarot: ನಾಣ್ಯ · ರಾಜ
+  king-of-swords-tarot: ಕತ್ತಿ · ರಾಜ
+  king-of-wands-tarot: ಕೋಲು · ರಾಜ
+  knight-of-cups-tarot: ಪಾತ್ರೆ · ಸವಾರ
+  knight-of-pentacles-tarot: ನಾಣ್ಯ · ಸವಾರ
+  knight-of-swords-tarot: ಕತ್ತಿ · ಸವಾರ
+  knight-of-wands-tarot: ಕೋಲು · ಸವಾರ
+  koch: ಕಾಲಭಾವಪದ್ಧತಿ
+  koota: ಕೂಟ
+  kp: ಕೃಷ್ಣಮೂರ್ತಿಪದ್ಧತಿ
+  kp-sublord: ಕೆಪಿ ಉಪಾಧಿಪತಿ
+  krishna-paksha: ಕೃಷ್ಣಪಕ್ಷ
+  krittika: ಕೃತ್ತಿಕಾ
+  krura: ಕ್ರೂರ
+  kshaya: ಕ್ಷಯ
+  kua: ಕುವಾ
+  kubera-vastu-guardian: ಕುಬೇರ ದಿಕ್ಪಾಲ
+  kumara-age-state: ಕುಮಾರ
+  kusumadanta: ಕುಸುಮದನ್ತ
+  labh-choghadiya: ಲಾಭ ಬೇಲಾ
+  lagna: ಲಗ್ನ
+  lahiri: ಲಾಹಿರೀ
+  lakshmi-yoga: ಲಕ್ಷ್ಮೀಯೋಗ
+  lal-kitab: ಲಾಲ್ ಕಿತಾಬ್
+  latitude: ಅಕ್ಷಾಂಶ
+  leo: ಸಿಂಹ
+  libra: ತುಲಾ
+  life-broken-line: ಹೆಬ್ಬೆರಳಿನ ಬದಿಯ ಬಾಗಿದ ಗೆರೆಯಲ್ಲಿ ಅಂತರ
+  life-line: ಜೀವನರೇಖಾ
+  life-path: ಜೀವನಪಥ ಸಂಖ್ಯೆ
+  life-short-line: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಸುತ್ತ ಅರ್ಧದಲ್ಲೇ ಕೊನೆಗೊಳ್ಳುವ ಗೆರೆ
+  lo-shu: ಲೋ ಶು
+  long-finger-proportion: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಉದ್ದದ ಬೆರಳುಗಳು
+  longitude: ರೇಖಾಂಶ
+  luminary: ಪ್ರಕಾಶಕ
+  luna-mount: ಮಣಿಕಟ್ಟಿನ ಬಳಿ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+  lunar-node: ಚನ್ದ್ರಪಾತ
+  madhya-nadi: ಮಧ್ಯ ನಾಡೀ
+  magha: ಮಘಾ
+  magnetic-declination: ಚುಮ್ಬಕೀಯದಿಗನ್ತರ
+  maha-dasha: ಮಹಾದಶಾ
+  maha-parivartana: ಮಹಾಪರಿವರ್ತನ
+  mahendra: ಮಹೇನ್ದ್ರ
+  major-arcana: ಪ್ರಧಾನಪತ್ರಾಣಿ
+  malavya-yoga: ಮಾಲವ್ಯಯೋಗ
+  malefic: ಪಾಪಗ್ರಹ
+  mangala-yogini: ಮಙ್ಗಲಾ ಯೋಗಿನೀ
+  manglik: ಮಾಙ್ಗಲಿಕ
+  mantra: ಮನ್ತ್ರ
+  mantra-japa: ಮಂತ್ರ ಜಪ
+  manushya-gana: ಮನುಷ್ಯ ಗಣ
+  maraka: ಮಾರಕ
+  mars: ಮಂಗಳ
+  mars-lower-mount: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಮೇಲೆ, ತೋರುಬೆರಳಿನ ಕಡೆಗಿನ ಉಬ್ಬು
+  mars-mount: ಮಂಗಳ ಭಾಗದಲ್ಲಿ ಉಬ್ಬು, ನಿಖರ ಸ್ಥಳ ತಿಳಿದಿಲ್ಲ
+  mars-upper-mount: ಕಿರುಬೆರಳಿನ ಕೆಳಗಿನ ಭಾಗ ಮತ್ತು ಚಂದ್ರ ಭಾಗದ ನಡುವಿನ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+  masa-bala: ಮಾಸಬಲ
+  master-number: ವಿಶೇಷಾಙ್ಕ
+  matrikaraka: ಮಾತೃಕಾರಕ
+  maturity-number: ಪಕ್ವತೆಯ ಸಂಖ್ಯೆ
+  mean-node: ಸರಾಸರಿ ಪಾತ
+  mercury: ಬುಧ
+  mercury-line: ಬುಧರೇಖಾ
+  mercury-mount: ಕಿರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  midheaven: ಮಧ್ಯಾಕಾಶ
+  minor-arcana: ಗೌಣಪತ್ರಾಣಿ
+  mitra: ಮಿತ್ರ
+  modality: ರಾಶಿಸ್ವಭಾವ
+  moolatrikona: ಮೂಲತ್ರಿಕೋಣ
+  moon: ಚಂದ್ರ
+  mount: ಅಂಗೈ ಉಬ್ಬು
+  mriga: ಮೃಗ
+  mrigashira: ಮೃಗಶಿರಸ್
+  mrita-age-state: ಮೃತ
+  muhurta: ಮುಹೂರ್ತ
+  mukhya: ಮುಖ್ಯ
+  mula: ಮೂಲ
+  mutable: ದ್ವಿಸ್ವಭಾವರಾಶಿ
+  nadi: ನಾಡೀ
+  naga: ನಾಗ
+  naisargika-bala: ನೈಸರ್ಗಿಕಬಲ
+  nakshatra: ನಕ್ಷತ್ರ
+  nakshatra-nadi: ನಕ್ಷತ್ರನಾಡೀ
+  nakshatra-syllable: ನಾಮಾಕ್ಷರ
+  narayana-dasha: ನಾರಾಯಣದಶಾ
+  nathonnata: ನತೋನ್ನತ
+  navagraha: ನವಗ್ರಹ
+  navami: ನವಮೀ
+  neecha-bhanga: ನೀಚಭಙ್ಗ
+  neecha-bhanga-raja-yoga: ನೀಚಭಙ್ಗರಾಜಯೋಗ
+  neptune: ನೆಪ್ಚೂನ್
+  nine-of-cups-tarot: ಪಾತ್ರೆ · ಒಂಬತ್ತು
+  nine-of-pentacles-tarot: ನಾಣ್ಯ · ಒಂಬತ್ತು
+  nine-of-swords-tarot: ಕತ್ತಿ · ಒಂಬತ್ತು
+  nine-of-wands-tarot: ಕೋಲು · ಒಂಬತ್ತು
+  nirriti-vastu-guardian: ನಿರ್ಋತಿ ದಿಕ್ಪಾಲ
+  non-dominant-hand: ಅಪ್ರಧಾನಹಸ್ತ
+  nukta: ಅಧೋಬಿನ್ದು
+  numerology: ಸಂಖ್ಯಾಶಾಸ್ತ್ರ
+  ojayugma: ಓಜಯುಗ್ಮ
+  opposition: ಪ್ರತಿಯೋಗ
+  orb: ಕೋನದ ಮಿತಿ
+  pada: ಪಾದ
+  page-of-cups-tarot: ಪಾತ್ರೆ · ದೂತ
+  page-of-pentacles-tarot: ನಾಣ್ಯ · ದೂತ
+  page-of-swords-tarot: ಕತ್ತಿ · ದೂತ
+  page-of-wands-tarot: ಕೋಲು · ದೂತ
+  paksha: ಪಕ್ಷ
+  paksha-bala: ಪಕ್ಷಬಲ
+  palmistry: ಹಸ್ತಸಾಮುದ್ರಿಕ
+  pancha-mahapurusha: ಪಞ್ಚಮಹಾಪುರುಷ
+  panchaka: ಪಞ್ಚಕ
+  panchami: ಪಞ್ಚಮೀ
+  panchang: ಪಞ್ಚಾಙ್ಗ
+  papayakshma: ಪಾಪಯಕ್ಷ್ಮನ್
+  parashari: ಪಾರಾಶರೀ
+  parigha-calendar-yoga: ಪರಿಘ
+  parivartana: ಪರಿವರ್ತನ
+  parjanya: ಪರ್ಜನ್ಯ
+  part-of-fortune: ಭಾಗ್ಯಬಿನ್ದು
+  past-present-future-spread: ಮೂರು ಕಾಲಗಳ ಪತ್ರ ವಿನ್ಯಾಸ
+  pentacles: ಮುದ್ರಾಃ
+  personal-day: ವ್ಯಕ್ತಿದಿನಾಙ್ಕ
+  personal-month: ವ್ಯಕ್ತಿಮಾಸಾಙ್ಕ
+  personal-year: ವ್ಯಕ್ತಿವರ್ಷಾಙ್ಕ
+  personality-number: ವ್ಯಞ್ಜನಾಙ್ಕ
+  pingala-yogini: ಪಿಙ್ಗಲಾ ಯೋಗಿನೀ
+  pisces: ಮೀನ
+  pitrikaraka: ಪಿತೃಕಾರಕ
+  pitris: ಪಿತರಃ
+  pitru-dosha: ಪಿತೃದೋಷ
+  placidus: ಪ್ಲಾಸಿಡಸ್
+  planet: ಖಗೋಳದ ಗ್ರಹ
+  pluto: ಪ್ಲುಟೊ
+  porutham: ಪೊರುತ್ತಂ
+  pradosh: ಪ್ರದೋಷ
+  prajapati: ಪ್ರಜಾಪತಿ
+  prashna: ಪ್ರಶ್ನ
+  prastara: ಪ್ರಸ್ತಾರ
+  pratipada: ಪ್ರತಿಪದಾ
+  pratyantar: ಪ್ರತ್ಯನ್ತರದಶಾ
+  priti-calendar-yoga: ಪ್ರೀತಿ
+  progression: ಪ್ರಗತಿ ವಿಧಾನ
+  puja: ಪೂಜಾ
+  punarvasu: ಪುನರ್ವಸು
+  purnima: ಪೂರ್ಣಿಮಾ
+  purnimanta: ಪೂರ್ಣಿಮಾನ್ತ
+  purva-ashadha: ಪೂರ್ವಾಷಾಢಾ
+  purva-bhadrapada: ಪೂರ್ವಭಾದ್ರಪದಾ
+  purva-phalguni: ಪೂರ್ವಫಲ್ಗುನೀ
+  pushan: ಪೂಷನ್
+  pushya: ಪುಷ್ಯ
+  putrakaraka: ಪುತ್ರಕಾರಕ
+  pythagorean: ಪೈಥಾಗೋರಿಯನ್
+  queen-of-cups-tarot: ಪಾತ್ರೆ · ರಾಣಿ
+  queen-of-pentacles-tarot: ನಾಣ್ಯ · ರಾಣಿ
+  queen-of-swords-tarot: ಕತ್ತಿ · ರಾಣಿ
+  queen-of-wands-tarot: ಕೋಲು · ರಾಣಿ
+  querent: ಪ್ರಷ್ಟೃ
+  quincunx: ಪಞ್ಚಭಾವಾನ್ತರಕೋಣ
+  rahu: ರಾಹು
+  rahu-kalam: ರಾಹುಕಾಲ
+  raja-yoga: ರಾಜಯೋಗ
+  rajju: ರಜ್ಜು
+  rakshasa-gana: ರಾಕ್ಷಸ ಗಣ
+  rasi: ರಾಶಿ
+  rasi-drishti: ರಾಶಿದೃಷ್ಟಿ
+  rectification: ಜನನಸಮಯ ಪರಿಶೀಲನೆ
+  reduction: ಅಂಕ ಸಂಕ್ಷೇಪ
+  rekha: ರೇಖಾ
+  relationship-spread: ಒಡನಾಟದ ಪತ್ರ ವಿನ್ಯಾಸ
+  relocation: ಸ್ಥಳಾಂತರ
+  retrogression: ವಕ್ರಗತಿ
+  revati: ರೇವತೀ
+  reversal: ವಿಪರೀತಪತ್ರ
+  rider-waite-smith: ಚಿತ್ರಪತ್ರಪರಮ್ಪರಾ
+  rog-choghadiya: ರೋಗ ಬೇಲಾ
+  roga: ರೋಗ
+  rohini: ರೋಹಿಣೀ
+  root-number: ಮೂಲಾಙ್ಕಫಲ
+  ruchaka-yoga: ರುಚಕಯೋಗ
+  rudra: ರುದ್ರ
+  rulership: ಅಧಿಪತ್ಯ
+  ruling-planets: ಅಧಿಪಗ್ರಹಾಃ
+  rupa: ರೂಪ
+  sade-sati: ಸಾರ್ಧಸಪ್ತವರ್ಷ
+  sadhya-calendar-yoga: ಸಾಧ್ಯ
+  sagittarius: ಧನು
+  sakata-yoga: ಶಕಟಯೋಗ
+  samudrika: ಸಾಮುದ್ರಿಕ
+  sankata-yogini: ಸಙ್ಕಟಾ ಯೋಗಿನೀ
+  sankranti: ಸಙ್ಕ್ರಾನ್ತಿ
+  saptami: ಸಪ್ತಮೀ
+  saptavargaja: ಸಪ್ತವರ್ಗಜ
+  sarala-yoga: ಸರಲಯೋಗ
+  saraswati-yoga: ಸರಸ್ವತೀಯೋಗ
+  sarpa: ಸರ್ಪ
+  sarvashtakavarga: ಸರ್ವಾಷ್ಟಕವರ್ಗ
+  saturn: ಶನಿ
+  saturn-mount: ಮಧ್ಯದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  satya: ಸತ್ಯ
+  saubhagya-calendar-yoga: ಸೌಭಾಗ್ಯ
+  saumya: ಸೌಮ್ಯ
+  savana: ಸಾವನ
+  savitar: ಸವಿತೃ
+  scorpio: ವೃಶ್ಚಿಕ
+  semi-sextile: ತ್ರಿಂಶದಂಶಕೋಣ
+  semi-square: ಅರ್ಧಸಮಕೋಣ
+  sesquiquadrate: ಸಾರ್ಧಸಮಕೋಣ
+  seven-of-cups-tarot: ಪಾತ್ರೆ · ಏಳು
+  seven-of-pentacles-tarot: ನಾಣ್ಯ · ಏಳು
+  seven-of-swords-tarot: ಕತ್ತಿ · ಏಳು
+  seven-of-wands-tarot: ಕೋಲು · ಏಳು
+  sextile: ಷಷ್ಟ್ಯಂಶಕೋಣ
+  shadbala: ಷಡ್ಬಲ
+  shadbala-minimum: ಷಡ್ಬಲನ್ಯೂನಮಾನ
+  shakuni: ಶಕುನಿ
+  shasha-yoga: ಶಶಯೋಗ
+  shashthi: ಷಷ್ಠೀ
+  shashtiamsa: ಷಷ್ಟ್ಯಂಶಕಲಾ
+  shatabhisha: ಶತಭಿಷಜ್
+  shesha: ಶೇಷ
+  shiva-calendar-yoga: ಶಿವ
+  shobhana-calendar-yoga: ಶೋಭನ
+  shodasavarga: ಷೋಡಶವರ್ಗ
+  shodhana: ಶೋಧನ
+  shodhya-pinda: ಶೋಧ್ಯಪಿಣ್ಡ
+  short-finger-proportion: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಚಿಕ್ಕ ಬೆರಳುಗಳು
+  shrapit: ಶ್ರಾಪಿತ
+  shravana: ಶ್ರವಣ
+  shubh-choghadiya: ಶುಭ ಬೇಲಾ
+  shubha-calendar-yoga: ಶುಭ
+  shukla-calendar-yoga: ಶುಕ್ಲ
+  shukla-paksha: ಶುಕ್ಲಪಕ್ಷ
+  shula-calendar-yoga: ಶೂಲ
+  siddha-calendar-yoga: ಸಿದ್ಧ
+  siddha-yogini: ಸಿದ್ಧಾ ಯೋಗಿನೀ
+  siddhi-calendar-yoga: ಸಿದ್ಧಿ
+  sidereal-zodiac: ನಿರಯಣರಾಶಿಚಕ್ರ
+  single-card-spread: ಒಂದು ಪತ್ರದ ವಿನ್ಯಾಸ
+  situation-action-outcome-spread: ಸ್ಥಿತಿ ಕ್ರಮ ಫಲದ ಪತ್ರ ವಿನ್ಯಾಸ
+  six-of-cups-tarot: ಪಾತ್ರೆ · ಆರು
+  six-of-pentacles-tarot: ನಾಣ್ಯ · ಆರು
+  six-of-swords-tarot: ಕತ್ತಿ · ಆರು
+  six-of-wands-tarot: ಕೋಲು · ಆರು
+  solar-arc: ಸೌರಚಾಪ
+  solar-return: ಸೂರ್ಯಪ್ರತ್ಯಾಗಮ
+  sookshma: ಸೂಕ್ಷ್ಮದಶಾ
+  soul-urge: ಸ್ವರಾಙ್ಕ
+  spread: ಕಾರ್ಡ್ ವಿನ್ಯಾಸ
+  square: ಸಮಕೋಣ
+  square-palm-mark: ಚತುರ್ಭುಜ ರೂಪಿಸುವ ನಾಲ್ಕು ಗೆರೆಗಳು
+  sripati: ಶ್ರೀಪತಿ
+  star-lord: ನಕ್ಷತ್ರಾಧಿಪತಿ
+  star-palm-mark: ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ ಸೇರುವ ಹಲವು ಗೆರೆಗಳು
+  station: ಗತಿಸ್ತಮ್ಭ
+  stellium: ಸ್ಟೆಲಿಯಮ್
+  sthana-bala: ಸ್ಥಾನಬಲ
+  stree-deergha: ಸ್ತ್ರೀದೀರ್ಘ
+  strength-tarot: ಬಲ (ಟ್ಯಾರೊ)
+  sugriva: ಸುಗ್ರೀವ
+  sukarma-calendar-yoga: ಸುಕರ್ಮಾ
+  sun: ಸೂರ್ಯ
+  sun-line: ಸೂರ್ಯರೇಖಾ
+  sunapha-yoga: ಸುನಫಾಯೋಗ
+  swamsa: ಸ್ವಾಂಶ
+  swati: ಸ್ವಾತೀ
+  swords: ಖಡ್ಗಾಃ
+  synastry: ಜನ್ಮಪತ್ರಿಕಾತುಲನಾ
+  synodic-month: ಚಾನ್ದ್ರಮಾಸ
+  t-square: ಟಿ ಚೌಕ
+  taitila: ತೈತಿಲ
+  tajika: ತಾಜಿಕ
+  tara: ತಾರಾ
+  tara-bala: ತಾರಾಬಲ
+  tarot: ಟ್ಯಾರೊ
+  taurus: ವೃಷಭ
+  temperance-tarot: ಸಂಯಮ (ಟ್ಯಾರೊ)
+  ten-of-cups-tarot: ಪಾತ್ರೆ · ಹತ್ತು
+  ten-of-pentacles-tarot: ನಾಣ್ಯ · ಹತ್ತು
+  ten-of-swords-tarot: ಕತ್ತಿ · ಹತ್ತು
+  ten-of-wands-tarot: ಕೋಲು · ಹತ್ತು
+  the-chariot-tarot: ರಥ (ಟ್ಯಾರೊ)
+  the-devil-tarot: ಪ್ರಲೋಭಕ (ಟ್ಯಾರೊ)
+  the-emperor-tarot: ಚಕ್ರವರ್ತಿ (ಟ್ಯಾರೊ)
+  the-empress-tarot: ಸಾಮ್ರಾಜ್ಞಿ (ಟ್ಯಾರೊ)
+  the-fool-tarot: ಪಯಣಿಗ (ಟ್ಯಾರೊ)
+  the-hanged-man-tarot: ತಲೆಕೆಳಗಾದ ವ್ಯಕ್ತಿ (ಟ್ಯಾರೊ)
+  the-hermit-tarot: ಏಕಾಂತವಾಸಿ (ಟ್ಯಾರೊ)
+  the-hierophant-tarot: ಧರ್ಮಗುರು (ಟ್ಯಾರೊ)
+  the-high-priestess-tarot: ಪ್ರಧಾನ ಅರ್ಚಕಿ (ಟ್ಯಾರೊ)
+  the-lovers-tarot: ಪ್ರೇಮಿಗಳು (ಟ್ಯಾರೊ)
+  the-magician-tarot: ಮಾಂತ್ರಿಕ (ಟ್ಯಾರೊ)
+  the-moon-tarot: ಚಂದ್ರನ ಪತ್ರ (ಟ್ಯಾರೊ)
+  the-star-tarot: ತಾರೆ (ಟ್ಯಾರೊ)
+  the-sun-tarot: ಸೂರ್ಯನ ಪತ್ರ (ಟ್ಯಾರೊ)
+  the-tower-tarot: ಗೋಪುರ (ಟ್ಯಾರೊ)
+  the-world-tarot: ವಿಶ್ವ (ಟ್ಯಾರೊ)
+  three-card-spread: ಮೂರು ಪತ್ರಗಳ ವಿನ್ಯಾಸ
+  three-of-cups-tarot: ಪಾತ್ರೆ · ಮೂರು
+  three-of-pentacles-tarot: ನಾಣ್ಯ · ಮೂರು
+  three-of-swords-tarot: ಕತ್ತಿ · ಮೂರು
+  three-of-wands-tarot: ಕೋಲು · ಮೂರು
+  thumb-long-finger-proportion: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಉದ್ದವಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು
+  thumb-short-finger-proportion: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಚಿಕ್ಕದಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು
+  tithi: ತಿಥಿ
+  transliteration: ಲಿಪ್ಯಂತರ
+  trayodashi: ತ್ರಯೋದಶೀ
+  triangle-palm-mark: ತ್ರಿಕೋನ ರೂಪಿಸುವ ಮೂರು ಗೆರೆಗಳು
+  tribhaga: ತ್ರಿಭಾಗ
+  trikona: ತ್ರಿಕೋಣ
+  trine: ತ್ರಿಕೋಣಸಮ್ಬನ್ಧ
+  triplicity: ತತ್ತ್ವದ ಮೂರು ರಾಶಿಗಳು
+  tritiya: ತೃತೀಯಾ
+  tropical-zodiac: ಋತು ಆಧಾರಿತ ರಾಶಿಚಕ್ರ
+  true-node: ಸ್ಪಷ್ಟ ಪಾತ
+  tvashtar: ತ್ವಷ್ಟೃ
+  two-of-cups-tarot: ಪಾತ್ರೆ · ಎರಡು
+  two-of-pentacles-tarot: ನಾಣ್ಯ · ಎರಡು
+  two-of-swords-tarot: ಕತ್ತಿ · ಎರಡು
+  two-of-wands-tarot: ಕೋಲು · ಎರಡು
+  ubhayachari-yoga: ಉಭಯಚಾರೀಯೋಗ
+  udveg-choghadiya: ಉದ್ವೇಗ ಬೇಲಾ
+  ugadi: ಯುಗಾದಿ
+  ulka-yogini: ಉಲ್ಕಾ ಯೋಗಿನೀ
+  union-line: ಅಂಗೈ ಹೊರ ಅಂಚಿನ ಪುಟ್ಟ ಅಡ್ಡ ಗೆರೆ
+  upachaya: ಉಪಚಯ
+  upapada: ಉಪಪದ
+  upright: ಋಜುಪತ್ರ
+  uranus: ಯುರೇನಸ್
+  uttara-ashadha: ಉತ್ತರಾಷಾಢಾ
+  uttara-bhadrapada: ಉತ್ತರಭಾದ್ರಪದಾ
+  uttara-phalguni: ಉತ್ತರಫಲ್ಗುನೀ
+  vaidhriti-calendar-yoga: ವೈಧೃತಿ
+  vajra-calendar-yoga: ವಜ್ರ
+  vanija: ವಣಿಜ
+  vara: ವಾರ
+  vara-bala: ವಾರಬಲ
+  varga: ವರ್ಗ
+  vargottama: ವರ್ಗೋತ್ತಮ
+  variyan-calendar-yoga: ವರೀಯಾನ್
+  varna: ವರ್ಣ
+  varshphal: ವರ್ಷಫಲ
+  varuna-vastu-guardian: ವರುಣ ದಿಕ್ಪಾಲ
+  vashya: ವಶ್ಯ
+  vastu: ವಾಸ್ತು
+  vastu-zone: ವಾಸ್ತು ವಲಯ
+  vasu: ವಸು
+  vasumati-yoga: ವಸುಮತೀಯೋಗ
+  vayu-vastu-guardian: ವಾಯು ದಿಕ್ಪಾಲ
+  vedha: ವೇಧ
+  venus: ಶುಕ್ರ
+  venus-mount: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ದುಂಡಾದ ಭಾಗ
+  vesi-yoga: ವೇಶಿಯೋಗ
+  vimala-yoga: ವಿಮಲಯೋಗ
+  vimshopaka: ವಿಂಶೋಪಕ
+  vimshottari: ವಿಂಶೋತ್ತರೀ
+  viparita: ವಿಪರೀತ
+  virama: ವಿರಾಮ
+  virgo: ಕನ್ಯಾ
+  virodhargala: ವಿರೋಧಾರ್ಗಲಾ
+  virupa: ವಿರೂಪ
+  vishakha: ವಿಶಾಖಾ
+  vishkambha-calendar-yoga: ವಿಷ್ಕಮ್ಭ
+  vishnu: ವಿಷ್ಣು
+  vishti: ವಿಷ್ಟಿ
+  vishvadevas: ವಿಶ್ವೇದೇವಾಃ
+  vitatha: ವಿತಥ
+  vosi-yoga: ವೋಶಿಯೋಗ
+  vrata: ವ್ರತ
+  vriddha-age-state: ವೃದ್ಧ
+  vriddhi-calendar-yoga: ವೃದ್ಧಿ
+  vyaghata-calendar-yoga: ವ್ಯಾಘಾತ
+  vyatipata-calendar-yoga: ವ್ಯತೀಪಾತ
+  wands: ದಣ್ಡಾಃ
+  water-hand-shape: ಉದ್ದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+  western-astrology: ಪಾಶ್ಚಾತ್ಯ ಜ್ಯೋತಿಷ
+  wheel-of-fortune-tarot: ಅದೃಷ್ಟಚಕ್ರ (ಟ್ಯಾರೊ)
+  whole-sign: ಪೂರ್ಣರಾಶಿಭಾವ
+  yama-vastu-guardian: ಯಮ ದಿಕ್ಪಾಲ
+  yamaganda: ಯಮಗಣ್ಡ
+  yod: ಯೋಡ್
+  yoga: ಯೋಗ
+  yogakaraka: ಯೋಗಕಾರಕ
+  yogini: ಯೋಗಿನೀ
+  yoni: ಯೋನಿ
+  yuddha-bala: ಯುದ್ಧಬಲ
+  yuva-age-state: ಯುವಾ
+  zodiac: ರಾಶಿಚಕ್ರ

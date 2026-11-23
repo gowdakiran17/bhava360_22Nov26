@@ -1,0 +1,31 @@
+id: glossary.terms.bhava-chalit
+term:
+  en: Bhava chalit
+  kn: ಭಾವಚಲಿತ
+  hi: भावचलित
+sanskrit:
+  devanagari: भावचलित
+  kannada: ಭಾವಚಲಿತ
+  usage: traditional term
+meaning:
+  en: A chart that places planets in houses according to calculated boundaries.
+  kn: ಲೆಕ್ಕಿಸಿದ ಗಡಿಗಳ ಪ್ರಕಾರ ಗ್ರಹಗಳನ್ನು ಮನೆಗಳಲ್ಲಿ ಇರಿಸುವ ನಕ್ಷೆ.
+  hi: गणना से तय सीमाओं के अनुसार घरों में ग्रह दिखाने वाली पत्री।
+admin_note: Use this label for a chart that places planets in houses according to calculated boundaries. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Chalit
+reference_rules: []
+used_by:
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-12
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-4
+- vedic.houses.house-5
+- vedic.houses.house-6
+- vedic.houses.house-7
+- vedic.houses.house-8
+- vedic.houses.house-9

@@ -1,0 +1,20 @@
+id: glossary.terms.tvashtar
+term:
+  en: Tvashtar
+  kn: ತ್ವಷ್ಟೃ
+  hi: त्वष्टृ
+sanskrit:
+  devanagari: त्वष्टृ
+  kannada: ತ್ವಷ್ಟೃ
+  usage: traditional term
+meaning:
+  en: Tvashtar is a traditional figure associated with Chitra.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಚಿತ್ರಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: चित्रा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.chitra
+used_by:
+- vedic.nakshatras.chitra

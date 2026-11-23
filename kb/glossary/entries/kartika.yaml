@@ -1,0 +1,20 @@
+id: glossary.terms.kartika
+term:
+  en: Kartika
+  kn: ಕಾರ್ತಿಕ
+  hi: कार्तिक
+sanskrit:
+  devanagari: कार्तिक
+  kannada: ಕಾರ್ತಿಕ
+  usage: traditional term
+meaning:
+  en: A lunar month associated with several regional festival observances.
+  kn: ಹಲವು ಪ್ರಾದೇಶಿಕ ಹಬ್ಬಗಳು ನಡೆಯುವ ಚಂದ್ರಮಾಸ.
+  hi: कई क्षेत्रीय त्योहारों से जुड़ा चंद्र मास।
+admin_note: 'Application in vedic.panchang.deepavali: Match the local date selected by the Deepavali evening rule in
+  calendar-profiles.yaml. Bind the ritual, regional month name, tithi interval and candidate evenings.'
+aliases: []
+reference_rules:
+- vedic.panchang.deepavali
+used_by:
+- vedic.panchang.deepavali

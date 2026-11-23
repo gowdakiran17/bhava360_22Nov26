@@ -1,0 +1,22 @@
+id: glossary.terms.krishna-paksha
+term:
+  en: Krishna paksha
+  kn: ಕೃಷ್ಣಪಕ್ಷ
+  hi: कृष्णपक्ष
+sanskrit:
+  devanagari: कृष्णपक्ष
+  kannada: ಕೃಷ್ಣಪಕ್ಷ
+  usage: traditional term
+meaning:
+  en: The half of the lunar month from full Moon to new Moon.
+  kn: ಹುಣ್ಣಿಮೆಯಿಂದ ಅಮಾವಾಸ್ಯೆಯವರೆಗಿನ ತಿಂಗಳ ಅರ್ಧ.
+  hi: पूर्णिमा से अमावस्या तक महीने का आधा हिस्सा।
+admin_note: Use this label for the half of the lunar month from full Moon to new Moon. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases:
+- waning fortnight
+reference_rules: []
+used_by:
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.dashas-ashtottari.learning-topic
+- vedic.panchang.amavasya

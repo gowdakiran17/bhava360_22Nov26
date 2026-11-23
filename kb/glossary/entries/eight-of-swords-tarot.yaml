@@ -1,0 +1,25 @@
+id: glossary.terms.eight-of-swords-tarot
+term:
+  en: Eight Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಎಂಟು
+  hi: तलवार · आठ
+sanskrit:
+  devanagari: खड्ग अष्ट
+  kannada: ಖಡ್ಗ ಅಷ್ಟ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank eight in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಎಂಟು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · आठ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on perceived limits.
+  What comes to mind in this position?'
+aliases:
+- Eight Of Swords
+reference_rules:
+- tarot.minor-arcana.eight-of-swords-upright
+- tarot.minor-arcana.eight-of-swords-reversed
+used_by:
+- tarot.minor-arcana.eight-of-swords-reversed
+- tarot.minor-arcana.eight-of-swords-upright
+systems:
+- tarot

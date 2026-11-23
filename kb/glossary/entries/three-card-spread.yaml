@@ -1,0 +1,21 @@
+id: glossary.terms.three-card-spread
+term:
+  en: Three-card spread
+  kn: ಮೂರು ಪತ್ರಗಳ ವಿನ್ಯಾಸ
+  hi: तीन पत्तों का विन्यास
+sanskrit:
+  devanagari: त्रिपत्रविन्यास
+  kannada: ತ್ರಿಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards invite a look at the past, the present and a possible next step.
+  kn: ಮೂರು ಪತ್ರಗಳು ಹಿಂದಿನ ವಿಷಯ, ಇಂದಿನ ಸ್ಥಿತಿ ಮತ್ತು ಮುಂದಿನ ಹೆಜ್ಜೆಯ ಕುರಿತು ಯೋಚಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: तीन पत्ते बीते संदर्भ, वर्तमान और एक संभव अगले कदम पर विचार में मदद कर सकते हैं।
+admin_note: 'Read the positions in order: past, present, next-step. The final prompt invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- three-card
+used_by:
+- three-card
+systems:
+- tarot

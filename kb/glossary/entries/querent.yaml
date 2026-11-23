@@ -1,0 +1,21 @@
+id: glossary.terms.querent
+term:
+  en: Querent
+  kn: ಪ್ರಷ್ಟೃ
+  hi: प्रष्टृ
+sanskrit:
+  devanagari: प्रष्टृ
+  kannada: ಪ್ರಷ್ಟೃ
+  usage: traditional term
+meaning:
+  en: The person who asks the question used for a reading.
+  kn: ಓದಿಗಾಗಿ ಪ್ರಶ್ನೆ ಕೇಳುವ ವ್ಯಕ್ತಿ.
+  hi: पढ़ाई के लिए सवाल पूछने वाला व्यक्ति।
+admin_note: Use this label for the person who asks the question used for a reading. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.prashna.current-question
+- vedic.prashna.litigation
+- vedic.prashna.litigation-study

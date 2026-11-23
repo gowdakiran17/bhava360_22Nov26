@@ -1,0 +1,22 @@
+id: glossary.terms.relationship-spread
+term:
+  en: Relationship spread
+  kn: ಒಡನಾಟದ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: रिश्ते का पत्ता विन्यास
+sanskrit:
+  devanagari: सम्बन्धपत्रविन्यास
+  kannada: ಸಮ್ಬನ್ಧಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards help explore two perspectives and a shared question.
+  kn: ಎರಡು ದೃಷ್ಟಿಕೋನ ಮತ್ತು ಒಂದು ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆಯನ್ನು ನೋಡಲು ಮೂರು ಪತ್ರಗಳು.
+  hi: दो नज़रिए और साझा सवाल देखने के लिए तीन पत्ते।
+admin_note: 'Read the positions in order: own-perspective, other-perspective-to-explore, shared-question. The final prompt
+  invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- relationship
+used_by:
+- relationship
+systems:
+- tarot

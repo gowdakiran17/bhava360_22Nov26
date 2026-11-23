@@ -1,0 +1,25 @@
+id: glossary.terms.two-of-cups-tarot
+term:
+  en: Two Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಎರಡು
+  hi: प्याला · दो
+sanskrit:
+  devanagari: चषक द्वि
+  kannada: ಚಷಕ ದ್ವಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank two in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಎರಡು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · दो की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on mutual care.
+  What comes to mind in this position?'
+aliases:
+- Two Of Cups
+reference_rules:
+- tarot.minor-arcana.two-of-cups-upright
+- tarot.minor-arcana.two-of-cups-reversed
+used_by:
+- tarot.minor-arcana.two-of-cups-reversed
+- tarot.minor-arcana.two-of-cups-upright
+systems:
+- tarot

@@ -1,0 +1,56 @@
+id: glossary.terms.mukhya
+term:
+  en: Mukhya
+  kn: ಮುಖ್ಯ
+  hi: मुख्य
+sanskrit:
+  devanagari: मुख्य
+  kannada: ಮುಖ್ಯ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position N3 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ N3 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह N3 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at N3.
+aliases: []
+reference_rules: []
+used_by:
+- palmistry.lines.union-left
+- palmistry.lines.union-right
+- vedic.dashas-vimshottari.venus-jupiter-antar
+- vedic.dashas-vimshottari.venus-ketu-antar
+- vedic.dashas-vimshottari.venus-maha
+- vedic.dashas-vimshottari.venus-mars-antar
+- vedic.dashas-vimshottari.venus-mercury-antar
+- vedic.dashas-vimshottari.venus-moon-antar
+- vedic.dashas-vimshottari.venus-rahu-antar
+- vedic.dashas-vimshottari.venus-saturn-antar
+- vedic.dashas-vimshottari.venus-sun-antar
+- vedic.dashas-vimshottari.venus-venus-antar
+- vedic.planets-in-houses.ketu-house-1
+- vedic.planets-in-houses.ketu-house-10
+- vedic.planets-in-houses.ketu-house-11
+- vedic.planets-in-houses.ketu-house-12
+- vedic.planets-in-houses.ketu-house-2
+- vedic.planets-in-houses.ketu-house-3
+- vedic.planets-in-houses.ketu-house-4
+- vedic.planets-in-houses.ketu-house-5
+- vedic.planets-in-houses.ketu-house-6
+- vedic.planets-in-houses.ketu-house-7
+- vedic.planets-in-houses.ketu-house-8
+- vedic.planets-in-houses.ketu-house-9
+- vedic.planets-in-houses.mercury-house-1
+- vedic.planets-in-houses.mercury-house-10
+- vedic.planets-in-houses.mercury-house-11
+- vedic.planets-in-houses.mercury-house-12
+- vedic.planets-in-houses.mercury-house-2
+- vedic.planets-in-houses.mercury-house-3
+- vedic.planets-in-houses.mercury-house-4
+- vedic.planets-in-houses.mercury-house-5
+- vedic.planets-in-houses.mercury-house-6
+- vedic.planets-in-houses.mercury-house-7
+- vedic.planets-in-houses.mercury-house-8
+- vedic.planets-in-houses.mercury-house-9
+- vedic.vargas.d9-placement
+used_in_files:
+- vastu/entrances/padas.yaml

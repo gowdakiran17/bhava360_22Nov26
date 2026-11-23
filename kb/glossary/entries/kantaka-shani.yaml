@@ -1,0 +1,19 @@
+id: glossary.terms.kantaka-shani
+term:
+  en: Kantaka Shani
+  kn: ಕಣ್ಟಕಶನಿ
+  hi: कण्टकशनि
+sanskrit:
+  devanagari: कण्टकशनि
+  kannada: ಕಣ್ಟಕಶನಿ
+  usage: traditional term
+meaning:
+  en: A traditional label for Saturn’s passage through specified places counted from the Moon.
+  kn: ಜನ್ಮದ ಚಂದ್ರನಿಂದ ಕೆಲವು ಸ್ಥಾನಗಳಲ್ಲಿ ಶನಿ ಸಾಗುವುದಕ್ಕೆ ನೀಡುವ ಹೆಸರು.
+  hi: जन्म के चंद्रमा से कुछ तय स्थानों में शनि के चलने का पारंपरिक नाम।
+admin_note: 'Application in vedic.transits.kantaka-shani: Within a solved Saturn sign window the inclusive distance from
+  the natal Moon is 4. End the phase at the exit; a return starts another window.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.transits.kantaka-shani

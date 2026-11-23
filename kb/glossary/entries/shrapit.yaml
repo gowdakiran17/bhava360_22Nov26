@@ -1,0 +1,18 @@
+id: glossary.terms.shrapit
+term:
+  en: Shrapit
+  kn: ಶ್ರಾಪಿತ
+  hi: श्रापित
+sanskrit:
+  devanagari: श्रापित
+  kannada: ಶ್ರಾಪಿತ
+  usage: traditional term
+meaning:
+  en: A later chart label for Saturn near a lunar crossing point, interpreted differently by schools.
+  kn: ಶನಿ ಮತ್ತು ಚಂದ್ರಪಥದ ಛೇದನದ ಸಾಮೀಪ್ಯಕ್ಕೆ ಕೆಲವು ಶಾಲೆಗಳು ನೀಡುವ ಹೆಸರು.
+  hi: कुछ परंपराओं में शनि और चंद्र पथ के कटान की निकटता का नाम।
+admin_note: 'Application in vedic.doshas.shrapit: Saturn and Rahu share a natal sidereal sign.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.shrapit

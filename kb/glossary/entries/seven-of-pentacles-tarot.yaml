@@ -1,0 +1,25 @@
+id: glossary.terms.seven-of-pentacles-tarot
+term:
+  en: Seven Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಏಳು
+  hi: मुद्रा · सात
+sanskrit:
+  devanagari: मुद्रा सप्त
+  kannada: ಮುದ್ರಾ ಸಪ್ತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank seven in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಏಳು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · सात की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on patient cultivation.
+  What comes to mind in this position?'
+aliases:
+- Seven Of Pentacles
+reference_rules:
+- tarot.minor-arcana.seven-of-pentacles-upright
+- tarot.minor-arcana.seven-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.seven-of-pentacles-reversed
+- tarot.minor-arcana.seven-of-pentacles-upright
+systems:
+- tarot

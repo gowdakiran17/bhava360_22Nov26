@@ -1,0 +1,26 @@
+id: glossary.terms.paksha
+term:
+  en: Paksha
+  kn: ಪಕ್ಷ
+  hi: पक्ष
+sanskrit:
+  devanagari: पक्ष
+  kannada: ಪಕ್ಷ
+  usage: traditional term
+meaning:
+  en: The half of the lunar month when the Moon is growing brighter or growing dimmer.
+  kn: ಚಂದ್ರನ ಬೆಳಕು ಹೆಚ್ಚುವ ಅಥವಾ ಕುಗ್ಗುವ ತಿಂಗಳ ಅರ್ಧ ಭಾಗ.
+  hi: महीने का वह आधा भाग जिसमें चंद्रमा की रोशनी बढ़ती या घटती है।
+admin_note: 'Application in vedic.strength-shadbala.paksha: Let L be the shorter Sun–Moon arc divided by three. Award
+  L to Moon, Mercury, Jupiter and Venus, and sixty minus L to Sun, Mars and Saturn. Use the undoubled Moon amount here
+  and in Cheshta.'
+aliases:
+- lunar fortnight
+reference_rules: []
+used_by:
+- vedic.panchang.amavasya
+- vedic.panchang.tithi
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.paksha
+- western.patterns.t-square

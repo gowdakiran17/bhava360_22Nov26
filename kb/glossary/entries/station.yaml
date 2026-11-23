@@ -1,0 +1,30 @@
+id: glossary.terms.station
+term:
+  en: Station
+  kn: ಗತಿಸ್ತಮ್ಭ
+  hi: गतिस्तम्भ
+sanskrit:
+  devanagari: गतिस्तम्भ
+  kannada: ಗತಿಸ್ತಮ್ಭ
+  usage: traditional term
+meaning:
+  en: The turning point when a planet appears to change between forward and backward motion.
+  kn: ಗ್ರಹದ ಚಲನೆ ಮುಂದೆ ಅಥವಾ ಹಿಂದಕ್ಕೆ ಬದಲಾಗುವಂತೆ ಕಾಣುವ ತಿರುವು.
+  hi: वह मोड़ जहाँ ग्रह की दिखाई देने वाली चाल आगे या पीछे बदलती है।
+admin_note: 'Application in vedic.transits.station: At a solved instant with zero longitudinal speed, the signs of the
+  neighboring nonzero speeds must differ. A small nonzero speed alone does not qualify.'
+aliases:
+- stationary
+reference_rules: []
+used_by:
+- vedic.states.combustion
+- vedic.states.vakri
+- vedic.transits.retrograde
+- vedic.transits.station
+- western.transits.natal-contact
+- western.transits.natal-contact-conjunction
+- western.transits.natal-contact-opposition
+- western.transits.natal-contact-quincunx
+- western.transits.natal-contact-sextile
+- western.transits.natal-contact-square
+- western.transits.natal-contact-trine

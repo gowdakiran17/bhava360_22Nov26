@@ -1,0 +1,22 @@
+id: glossary.terms.star-lord
+term:
+  en: Star lord
+  kn: ನಕ್ಷತ್ರಾಧಿಪತಿ
+  hi: नक्षत्राधिपति
+sanskrit:
+  devanagari: नक्षत्राधिपति
+  kannada: ನಕ್ಷತ್ರಾಧಿಪತಿ
+  usage: traditional term
+meaning:
+  en: The planet assigned to the star section where a point falls.
+  kn: ಬಿಂದು ಇರುವ ನಕ್ಷತ್ರ ವಿಭಾಗಕ್ಕೆ ನಿಗದಿಯಾದ ಗ್ರಹ.
+  hi: बिंदु जिस तारा खंड में है उससे जुड़ा ग्रह।
+admin_note: Use this label for the planet assigned to the star section where a point falls. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- nakshatra lord
+reference_rules: []
+used_by:
+- kp.ruling-planets.repeated-lord
+- kp.significators.ranked-levels
+- vedic.dashas-vimshottari.balance-calculation

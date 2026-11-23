@@ -1,0 +1,23 @@
+id: glossary.terms.swamsa
+term:
+  en: Swamsa
+  kn: ಸ್ವಾಂಶ
+  hi: स्वांश
+sanskrit:
+  devanagari: स्वांश
+  kannada: ಸ್ವಾಂಶ
+  usage: traditional term
+meaning:
+  en: A reference point in the nine-part chart whose exact use depends on the chosen school.
+  kn: ಒಂಬತ್ತು ಭಾಗಗಳ ನಕ್ಷೆಯಲ್ಲಿ ಪರಂಪರೆಯ ಪ್ರಕಾರ ಆಯ್ದ ಆರಂಭದ ಬಿಂದು.
+  hi: नौ भागों वाली पत्री में परंपरा के अनुसार चुना गया आरंभ बिंदु।
+admin_note: 'Application in jaimini.karakamsa.swamsa: Bind the requested swamsa convention. In the sutra-commentary reading
+  use the AK’s D9 sign; in the lagnamsa reading use the D9 sign of the birth ascendant. Use the KB-11 Navamsa lookup
+  and only D9 occupants. An unspecified convention yields unknown.'
+aliases:
+- Svamsa
+reference_rules: []
+used_by:
+- jaimini.karakamsa.atmakaraka
+- jaimini.karakamsa.d1-projection
+- jaimini.karakamsa.swamsa

@@ -1,0 +1,21 @@
+id: glossary.terms.shukla-paksha
+term:
+  en: Shukla paksha
+  kn: ಶುಕ್ಲಪಕ್ಷ
+  hi: शुक्लपक्ष
+sanskrit:
+  devanagari: शुक्लपक्ष
+  kannada: ಶುಕ್ಲಪಕ್ಷ
+  usage: traditional term
+meaning:
+  en: The half of the lunar month from new Moon to full Moon.
+  kn: ಅಮಾವಾಸ್ಯೆಯಿಂದ ಹುಣ್ಣಿಮೆಯವರೆಗಿನ ತಿಂಗಳ ಅರ್ಧ.
+  hi: अमावस्या से पूर्णिमा तक महीने का आधा हिस्सा।
+admin_note: Use this label for the half of the lunar month from new Moon to full Moon. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases:
+- waxing fortnight
+reference_rules: []
+used_by:
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.dashas-ashtottari.learning-topic

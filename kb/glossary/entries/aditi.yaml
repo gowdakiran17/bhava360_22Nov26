@@ -1,0 +1,22 @@
+id: glossary.terms.aditi
+term:
+  en: Aditi
+  kn: ಅದಿತಿ
+  hi: अदिति
+sanskrit:
+  devanagari: अदिति
+  kannada: ಅದಿತಿ
+  usage: traditional term
+meaning:
+  en: Aditi is a traditional figure associated with Punarvasu.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಪುನರ್ವಸು.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: पुनर्वसु।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. The entrance grid places it at N7.
+aliases: []
+reference_rules:
+- vedic.nakshatras.punarvasu
+used_by:
+- vedic.nakshatras.punarvasu
+used_in_files:
+- vastu/entrances/padas.yaml

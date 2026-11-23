@@ -1,0 +1,28 @@
+id: glossary.terms.brahmasthan
+term:
+  en: Brahmasthan
+  kn: ಬ್ರಹ್ಮಸ್ಥಾನ
+  hi: ब्रह्मस्थान
+sanskrit:
+  devanagari: ब्रह्मस्थान
+  kannada: ಬ್ರಹ್ಮಸ್ಥಾನ
+  usage: traditional term
+meaning:
+  en: The central space of a building or floor plan.
+  kn: ಮನೆಯ ಅಥವಾ ನಿವೇಶನದ ನಕ್ಷೆಯ ಮಧ್ಯಭಾಗ.
+  hi: घर या भूखंड के नक्शे का बीच का हिस्सा।
+admin_note: Use this label for the central space of a building or floor plan. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases:
+- Brahmasthana
+reference_rules: []
+used_by:
+- vastu.directions.centre
+- vastu.directions.east
+- vastu.directions.north
+- vastu.directions.northeast-rulership
+- vastu.directions.northwest
+- vastu.directions.south
+- vastu.directions.southeast
+- vastu.directions.southwest
+- vastu.directions.west

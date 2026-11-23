@@ -1,0 +1,20 @@
+id: glossary.terms.d20
+term:
+  en: D20
+  kn: D20 ವಿಂಶಾಂಶ
+  hi: D20 विंशांश
+sanskrit:
+  devanagari: विंशांश
+  kannada: ವಿಂಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore spiritual practice.
+  kn: ಆಧ್ಯಾತ್ಮಿಕ ಅಭ್ಯಾಸ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: आध्यात्मिक अभ्यास को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Aries, Sagittarius or Leo for movable, fixed or dual signs respectively.
+aliases:
+- Vimsamsa
+reference_rules:
+- vedic.vargas.d20-placement
+used_by:
+- vedic.vargas.d20-placement

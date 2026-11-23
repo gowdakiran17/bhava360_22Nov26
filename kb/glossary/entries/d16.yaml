@@ -1,0 +1,20 @@
+id: glossary.terms.d16
+term:
+  en: D16
+  kn: D16 ಷೋಡಶಾಂಶ
+  hi: D16 षोडशांश
+sanskrit:
+  devanagari: षोडशांश
+  kannada: ಷೋಡಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore comfort and transport.
+  kn: ಸೌಕರ್ಯ ಮತ್ತು ಸಂಚಾರ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: सुविधा और आवागमन को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Aries, Leo or Sagittarius for movable, fixed or dual signs respectively.
+aliases:
+- Shodasamsa
+reference_rules:
+- vedic.vargas.d16-placement
+used_by:
+- vedic.vargas.d16-placement

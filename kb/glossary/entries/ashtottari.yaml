@@ -1,0 +1,20 @@
+id: glossary.terms.ashtottari
+term:
+  en: Ashtottari
+  kn: ಅಷ್ಟೋತ್ತರೀ
+  hi: अष्टोत्तरी
+sanskrit:
+  devanagari: अष्टोत्तरी
+  kannada: ಅಷ್ಟೋತ್ತರೀ
+  usage: traditional term
+meaning:
+  en: A timing sequence of eight rulers lasting 108 years, used when its starting conditions apply.
+  kn: ಕೆಲವು ಷರತ್ತುಗಳು ಹೊಂದಿದಾಗ ಬಳಸುವ ಎಂಟು ಅಧಿಪತಿಗಳ ೧೦೮ ವರ್ಷದ ಕ್ರಮ.
+  hi: कुछ शर्तें पूरी होने पर इस्तेमाल होने वाला आठ स्वामियों का १०८ वर्ष का क्रम।
+admin_note: Use this label for a timing sequence of eight rulers lasting 108 years, used when its starting conditions
+  apply. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.dashas-ashtottari.learning-topic

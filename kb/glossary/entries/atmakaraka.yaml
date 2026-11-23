@@ -1,0 +1,21 @@
+id: glossary.terms.atmakaraka
+term:
+  en: Atmakaraka
+  kn: ಆತ್ಮಕಾರಕ
+  hi: आत्मकारक
+sanskrit:
+  devanagari: आत्मकारक
+  kannada: ಆತ್ಮಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent the self by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ಸ್ವಂತಿಕೆ ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से स्वयं का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds AK: rank 1 of seven or rank 1 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.atmakaraka
+used_by:
+- jaimini.chara-karakas.atmakaraka
+- jaimini.karakamsa.atmakaraka

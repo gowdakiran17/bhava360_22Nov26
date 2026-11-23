@@ -1,0 +1,20 @@
+id: glossary.terms.midheaven
+term:
+  en: Midheaven
+  kn: ಮಧ್ಯಾಕಾಶ
+  hi: मध्याकाश
+sanskrit:
+  devanagari: मध्याकाश
+  kannada: ಮಧ್ಯಾಕಾಶ
+  usage: traditional term
+meaning:
+  en: The point where the Sun’s apparent yearly path crosses the upper local meridian.
+  kn: ಸೂರ್ಯನ ವಾರ್ಷಿಕ ಪಥವು ಸ್ಥಳದ ಮೇಲಿನ ಮಧ್ಯರೇಖೆಯನ್ನು ಸೇರುವ ಬಿಂದು.
+  hi: सूर्य के वार्षिक मार्ग का स्थानीय ऊपरी मध्य रेखा से मिलन बिंदु।
+admin_note: Use this label for the point where the Sun’s apparent yearly path crosses the upper local meridian. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- MC
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.dig

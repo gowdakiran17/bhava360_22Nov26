@@ -1,0 +1,23 @@
+id: glossary.terms.vasumati-yoga
+term:
+  en: Vasumati yoga
+  kn: ವಸುಮತೀಯೋಗ
+  hi: वसुमतीयोग
+sanskrit:
+  devanagari: वसुमतीयोग
+  kannada: ವಸುಮತೀಯೋಗ
+  usage: traditional term
+meaning:
+  en: Traditionally supportive planets occupy selected places used to discuss growth.
+  kn: ಬೆಳವಣಿಗೆಯನ್ನು ನೋಡಲು ಆಯ್ದ ಸ್ಥಾನಗಳಲ್ಲಿ ಬೆಂಬಲದ ಗ್ರಹಗಳಿರುವುದು.
+  hi: बढ़त पर विचार के लिए चुनी जगहों में सहायक माने गए ग्रह होना।
+admin_note: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible
+  set.
+aliases:
+- vasumati
+reference_rules:
+- vedic.yogas.vasumati
+used_by:
+- vedic.yogas.vasumati
+systems:
+- vedic

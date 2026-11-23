@@ -1,0 +1,21 @@
+id: glossary.terms.d60
+term:
+  en: D60
+  kn: D60 ಷಷ್ಟ್ಯಂಶ
+  hi: D60 षष्ट्यंश
+sanskrit:
+  devanagari: षष्ट्यंश
+  kannada: ಷಷ್ಟ್ಯಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore subtle distinctions.
+  kn: ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸಗಳು ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: सूक्ष्म अंतर को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Candidate method starts from the natal sign, progressing forward in half-degree divisions. The selected D60
+  method requires owner approval.
+aliases:
+- Shashtyamsa
+reference_rules:
+- vedic.vargas.d60-placement
+used_by:
+- vedic.vargas.d60-placement

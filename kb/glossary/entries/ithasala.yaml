@@ -1,0 +1,24 @@
+id: glossary.terms.ithasala
+term:
+  en: Ithasala
+  kn: ಇತ್ಥಶಾಲ
+  hi: इत्थशाल
+sanskrit:
+  devanagari: इत्थशाल
+  kannada: ಇತ್ಥಶಾಲ
+  usage: traditional term
+meaning:
+  en: Two planets are moving towards a significant angle in a traditional question chart.
+  kn: ಪ್ರಶ್ನೆಯ ನಕ್ಷೆಯಲ್ಲಿ ಎರಡು ಗ್ರಹಗಳು ನಿರ್ದಿಷ್ಟ ಕೋನದತ್ತ ಸಾಗುವ ಸ್ಥಿತಿ.
+  hi: प्रश्न पत्री में दो ग्रहों का एक खास कोण की ओर बढ़ना।
+admin_note: Use this label for two planets are moving towards a significant angle in a traditional question chart. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.prashna.leans-against
+- vedic.prashna.leans-toward
+- vedic.prashna.mixed
+- vedic.prashna.moon
+- vedic.prashna.timing
+- vedic.prashna.unclear

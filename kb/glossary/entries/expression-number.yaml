@@ -1,0 +1,21 @@
+id: glossary.terms.expression-number
+term:
+  en: Expression number
+  kn: ನಾಮಾಙ್ಕ
+  hi: नामाङ्क
+sanskrit:
+  devanagari: नामाङ्क
+  kannada: ನಾಮಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number found by adding the values of all letters in a name.
+  kn: ಹೆಸರಿನ ಎಲ್ಲ ಅಕ್ಷರಗಳ ಮೌಲ್ಯಗಳನ್ನು ಕೂಡಿಸಿ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: नाम के सभी अक्षरों के मान जोड़कर निकली संख्या।
+admin_note: Use this label for a number found by adding the values of all letters in a name. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- destiny number
+- name number
+reference_rules: []
+used_by:
+- numerology.pythagorean.check-personal-baby-name-name-root

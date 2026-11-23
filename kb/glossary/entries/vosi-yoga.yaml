@@ -1,0 +1,23 @@
+id: glossary.terms.vosi-yoga
+term:
+  en: Vosi yoga
+  kn: ವೋಶಿಯೋಗ
+  hi: वोशियोग
+sanskrit:
+  devanagari: वोशियोग
+  kannada: ವೋಶಿಯೋಗ
+  usage: traditional term
+meaning:
+  en: An eligible planet occupies the sign before the Sun.
+  kn: ಸೂರ್ಯನ ಹಿಂದಿನ ರಾಶಿಯಲ್ಲಿ ಅರ್ಹ ಗ್ರಹ ಇರುವುದು.
+  hi: सूर्य से पिछली राशि में पात्र ग्रह होना।
+admin_note: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are
+  excluded as contributors.
+aliases:
+- vosi
+reference_rules:
+- vedic.yogas.vosi
+used_by:
+- vedic.yogas.vosi
+systems:
+- vedic

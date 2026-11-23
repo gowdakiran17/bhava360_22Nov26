@@ -1,0 +1,20 @@
+id: glossary.terms.kimstughna
+term:
+  en: Kimstughna
+  kn: ಕಿಂಸ್ತುಘ್ನ
+  hi: किंस्तुघ्न
+sanskrit:
+  devanagari: किंस्तुघ्न
+  kannada: ಕಿಂಸ್ತುಘ್ನ
+  usage: traditional term
+meaning:
+  en: A half lunar day with a fixed place in the month.
+  kn: ಚಂದ್ರಮಾಸದಲ್ಲಿ ನಿಗದಿತ ಸ್ಥಾನವಿರುವ ಅರ್ಧ ತಿಥಿ.
+  hi: चंद्र मास में तय जगह वाला आधा चंद्र दिन।
+admin_note: 'Application in vedic.panchang.karana: Use floor(((Moon − Sun) modulo a turn) / 21600 arcseconds). Use the
+  fixed index map at 0 and 57–59; for 1–56 use movable[(index−1) modulo 7]. Solve the flanking 6° crossings.'
+aliases: []
+reference_rules:
+- vedic.panchang.karana
+used_by:
+- vedic.panchang.karana

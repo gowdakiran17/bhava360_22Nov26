@@ -1,0 +1,25 @@
+id: glossary.terms.queen-of-cups-tarot
+term:
+  en: Queen Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ರಾಣಿ
+  hi: प्याला · रानी
+sanskrit:
+  devanagari: चषक राज्ञी
+  kannada: ಚಷಕ ರಾಜ್ಞೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank queen in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ರಾಣಿ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · रानी की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on empathetic
+  listening. What comes to mind in this position?'
+aliases:
+- Queen Of Cups
+reference_rules:
+- tarot.minor-arcana.queen-of-cups-upright
+- tarot.minor-arcana.queen-of-cups-reversed
+used_by:
+- tarot.minor-arcana.queen-of-cups-reversed
+- tarot.minor-arcana.queen-of-cups-upright
+systems:
+- tarot

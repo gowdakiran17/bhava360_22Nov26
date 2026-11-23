@@ -1,0 +1,31 @@
+id: glossary.terms.viparita
+term:
+  en: Viparita
+  kn: ವಿಪರೀತ
+  hi: विपरीत
+sanskrit:
+  devanagari: विपरीत
+  kannada: ವಿಪರೀತ
+  usage: traditional term
+meaning:
+  en: A reading in which links between challenging houses may change how their themes are understood.
+  kn: ಸವಾಲಿನ ಸ್ಥಾನಗಳ ಸಂಬಂಧವು ಅವುಗಳ ಓದನ್ನು ಬದಲಿಸಬಹುದೆಂಬ ವಿಧಾನ.
+  hi: कठिन माने गए घरों के आपसी संबंध से उनका अर्थ बदलने की धारणा।
+admin_note: Use this label for a reading in which links between challenging houses may change how their themes are understood.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- vipareeta
+reference_rules: []
+used_by:
+- vedic.house-lords.lord-12-in-house-12
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-12-in-house-8
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-6
+- vedic.house-lords.lord-6-in-house-8
+- vedic.house-lords.lord-8-in-house-12
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-8-in-house-8
+- vedic.yogas.harsha
+- vedic.yogas.sarala
+- vedic.yogas.vimala

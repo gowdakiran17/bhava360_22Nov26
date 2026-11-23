@@ -1,0 +1,23 @@
+id: glossary.terms.ayana-bala
+term:
+  en: Ayana bala
+  kn: ಅಯನಬಲ
+  hi: अयनबल
+sanskrit:
+  devanagari: अयनबल
+  kannada: ಅಯನಬಲ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on the planet’s distance north or south of the sky’s equator.
+  kn: ಆಕಾಶದ ಸಮಭಾಜಕದಿಂದ ಗ್ರಹದ ಉತ್ತರ ಅಥವಾ ದಕ್ಷಿಣದ ದೂರದ ಆಧಾರದ ಬಲ.
+  hi: आकाश की भूमध्य रेखा से ग्रह की उत्तर या दक्षिण दूरी पर आधारित बल।
+admin_note: 'Application in vedic.strength-shadbala.ayana: Use geocentric signed tropical declination in degrees. Keep
+  north positive for Sun, Mars, Jupiter and Venus, reverse it for Moon and Saturn, and use its absolute value for Mercury.
+  Bound the adjusted value to ±24. Return (24 + adjusted value) × 1.25.'
+aliases:
+- Ayana
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.kala

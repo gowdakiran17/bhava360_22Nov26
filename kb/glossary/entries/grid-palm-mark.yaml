@@ -1,0 +1,24 @@
+id: glossary.terms.grid-palm-mark
+term:
+  en: Grid palm mark
+  kn: ಅಡ್ಡಹಾಯುವ ಸಮಾಂತರ ಸಣ್ಣ ಗೆರೆಗಳ ಗುಂಪು
+  hi: एक दूसरे को काटते छोटी समानांतर रेखाओं के समूह
+sanskrit:
+  devanagari: जालाकार करचिह्न
+  kannada: ಜಾಲಾಕಾರ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: Crossing sets of short parallel strokes.
+  kn: ಅಡ್ಡಹಾಯುವ ಸಮಾಂತರ ಸಣ್ಣ ಗೆರೆಗಳ ಗುಂಪು.
+  hi: एक दूसरे को काटते छोटी समानांतर रेखाओं के समूह।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.grid-left
+- palmistry.marks.grid-right
+used_by:
+- palmistry.marks.grid-left
+- palmistry.marks.grid-right
+systems:
+- palmistry

@@ -1,0 +1,23 @@
+id: glossary.terms.manglik
+term:
+  en: Manglik
+  kn: ಮಾಙ್ಗಲಿಕ
+  hi: माङ्गलिक
+sanskrit:
+  devanagari: माङ्गलिक
+  kannada: ಮಾಙ್ಗಲಿಕ
+  usage: traditional term
+meaning:
+  en: A traditional matching check concerned with the house occupied by Mars.
+  kn: ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಮಂಗಳ ಇರುವ ಮನೆಯನ್ನು ನೋಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಪರಿಶೀಲನೆ.
+  hi: मिलान में मंगल का घर देखने की पारंपरिक जाँच।
+admin_note: Use this label for a traditional matching check concerned with the house occupied by Mars. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Mangalika
+- Kuja dosha
+reference_rules: []
+used_by:
+- vedic.doshas.mars-partnership
+- vedic.matching.chart-cross-check
+- vedic.matching.manglik-comparison

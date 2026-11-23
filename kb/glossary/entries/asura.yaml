@@ -1,0 +1,19 @@
+id: glossary.terms.asura
+term:
+  en: Asura
+  kn: ಅಸುರ
+  hi: असुर
+sanskrit:
+  devanagari: असुर
+  kannada: ಅಸುರ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position W6 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ W6 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह W6 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at W6.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

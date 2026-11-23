@@ -1,0 +1,21 @@
+id: glossary.terms.rectification
+term:
+  en: Rectification
+  kn: ಜನನಸಮಯ ಪರಿಶೀಲನೆ
+  hi: जन्म समय जाँच
+sanskrit:
+  devanagari: जन्मकालशोधन
+  kannada: ಜನ್ಮಕಾಲಶೋಧನ
+  usage: descriptive equivalent
+meaning:
+  en: A comparison of possible birth times to see which chart fits recorded details most closely.
+  kn: ದಾಖಲಿಸಿದ ವಿವರಗಳಿಗೆ ಯಾವ ಜನನಸಮಯ ಚೆನ್ನಾಗಿ ಹೊಂದುತ್ತದೆ ಎಂಬ ಹೋಲಿಕೆ.
+  hi: दर्ज विवरण से सबसे मेल खाते संभावित जन्म समय की तुलना।
+admin_note: Use this label for a comparison of possible birth times to see which chart fits recorded details most closely.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- birth time rectification
+reference_rules: []
+used_by: []
+used_in_files:
+- vedic/rectification/candidates.yaml

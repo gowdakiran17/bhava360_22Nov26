@@ -1,0 +1,127 @@
+id: glossary.terms.relocation
+term:
+  en: Relocation
+  kn: ಸ್ಥಳಾಂತರ
+  hi: स्थान परिवर्तन
+sanskrit:
+  devanagari: स्थानपरिवर्तन
+  kannada: ಸ್ಥಾನಪರಿವರ್ತನ
+  usage: descriptive equivalent
+meaning:
+  en: Recalculating the local chart directions for another place while keeping the same moment.
+  kn: ಒಂದೇ ಕ್ಷಣವನ್ನು ಉಳಿಸಿಕೊಂಡು ಇನ್ನೊಂದು ಸ್ಥಳಕ್ಕೆ ನಕ್ಷೆಯ ಸ್ಥಳೀಯ ದಿಕ್ಕುಗಳನ್ನು ಮರುಲೆಕ್ಕಿಸುವುದು.
+  hi: वही क्षण रखते हुए दूसरी जगह के लिए पत्री की स्थानीय दिशाएँ फिर निकालना।
+admin_note: Use this label for recalculating the local chart directions for another place while keeping the same moment.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- relocated chart
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.a9
+- kp.cusps.cusp-12
+- kp.cusps.cusp-3
+- numerology.ank-jyotish.check-house-relocation-dwelling-root
+- tarot.major-arcana.the-chariot-reversed
+- tarot.major-arcana.the-chariot-upright
+- tarot.major-arcana.the-world-reversed
+- tarot.major-arcana.the-world-upright
+- vastu.entrances.check-house-relocation-dwelling-facing
+- vedic.dashas-vimshottari.jupiter-rahu-antar
+- vedic.dashas-vimshottari.ketu-rahu-antar
+- vedic.dashas-vimshottari.mars-rahu-antar
+- vedic.dashas-vimshottari.mercury-rahu-antar
+- vedic.dashas-vimshottari.moon-rahu-antar
+- vedic.dashas-vimshottari.rahu-jupiter-antar
+- vedic.dashas-vimshottari.rahu-ketu-antar
+- vedic.dashas-vimshottari.rahu-maha
+- vedic.dashas-vimshottari.rahu-mars-antar
+- vedic.dashas-vimshottari.rahu-mercury-antar
+- vedic.dashas-vimshottari.rahu-moon-antar
+- vedic.dashas-vimshottari.rahu-rahu-antar
+- vedic.dashas-vimshottari.rahu-saturn-antar
+- vedic.dashas-vimshottari.rahu-sun-antar
+- vedic.dashas-vimshottari.rahu-venus-antar
+- vedic.dashas-vimshottari.saturn-rahu-antar
+- vedic.dashas-vimshottari.sun-rahu-antar
+- vedic.dashas-vimshottari.travel-relocation-house-lord
+- vedic.dashas-vimshottari.travel-relocation-upcoming
+- vedic.dashas-vimshottari.venus-rahu-antar
+- vedic.house-lords.lord-1-in-house-9
+- vedic.house-lords.lord-10-in-house-9
+- vedic.house-lords.lord-11-in-house-9
+- vedic.house-lords.lord-12-in-house-9
+- vedic.house-lords.lord-2-in-house-9
+- vedic.house-lords.lord-3-in-house-9
+- vedic.house-lords.lord-4-in-house-9
+- vedic.house-lords.lord-5-in-house-9
+- vedic.house-lords.lord-6-in-house-9
+- vedic.house-lords.lord-7-in-house-9
+- vedic.house-lords.lord-8-in-house-9
+- vedic.house-lords.lord-9-in-house-1
+- vedic.house-lords.lord-9-in-house-10
+- vedic.house-lords.lord-9-in-house-11
+- vedic.house-lords.lord-9-in-house-12
+- vedic.house-lords.lord-9-in-house-2
+- vedic.house-lords.lord-9-in-house-3
+- vedic.house-lords.lord-9-in-house-4
+- vedic.house-lords.lord-9-in-house-5
+- vedic.house-lords.lord-9-in-house-6
+- vedic.house-lords.lord-9-in-house-7
+- vedic.house-lords.lord-9-in-house-8
+- vedic.house-lords.lord-9-in-house-9
+- vedic.houses.house-9
+- vedic.houses.jupiter-house-12
+- vedic.houses.ketu-house-12
+- vedic.houses.mars-house-12
+- vedic.houses.mercury-house-12
+- vedic.houses.moon-house-12
+- vedic.houses.rahu-house-12
+- vedic.houses.saturn-house-12
+- vedic.houses.sun-house-12
+- vedic.houses.venus-house-12
+- vedic.muhurta.check-house-relocation-moving-window
+- vedic.muhurta.travel
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.revati
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.planets-in-houses.jupiter-house-9
+- vedic.planets-in-houses.ketu-house-9
+- vedic.planets-in-houses.mars-house-9
+- vedic.planets-in-houses.mercury-house-9
+- vedic.planets-in-houses.moon-house-9
+- vedic.planets-in-houses.rahu-house-9
+- vedic.planets-in-houses.saturn-house-9
+- vedic.planets-in-houses.sun-house-9
+- vedic.planets-in-houses.venus-house-9
+- vedic.planets-in-signs.rahu-aquarius
+- vedic.planets-in-signs.rahu-aries
+- vedic.planets-in-signs.rahu-cancer
+- vedic.planets-in-signs.rahu-capricorn
+- vedic.planets-in-signs.rahu-gemini
+- vedic.planets-in-signs.rahu-leo
+- vedic.planets-in-signs.rahu-libra
+- vedic.planets-in-signs.rahu-pisces
+- vedic.planets-in-signs.rahu-sagittarius
+- vedic.planets-in-signs.rahu-scorpio
+- vedic.planets-in-signs.rahu-taurus
+- vedic.planets-in-signs.rahu-virgo
+- vedic.planets.rahu
+- vedic.prashna.travel
+- vedic.relocation.changed-lagna
+- vedic.relocation.check-house-relocation-destination
+- vedic.relocation.check-house-relocation-destination-work
+- vedic.signs.sagittarius
+- vedic.transits.jupiter-moon-house-9
+- vedic.transits.ketu-moon-house-9
+- vedic.transits.mars-moon-house-9
+- vedic.transits.mercury-moon-house-9
+- vedic.transits.moon-moon-house-9
+- vedic.transits.rahu-moon-house-9
+- vedic.transits.saturn-moon-house-9
+- vedic.transits.sun-moon-house-9
+- vedic.transits.travel-relocation-watch
+- vedic.transits.venus-moon-house-9
+- vedic.vargas.d16-placement
+- vedic.vargas.d4-placement

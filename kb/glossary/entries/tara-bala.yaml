@@ -1,0 +1,22 @@
+id: glossary.terms.tara-bala
+term:
+  en: Tara bala
+  kn: ತಾರಾಬಲ
+  hi: ताराबल
+sanskrit:
+  devanagari: ताराबल
+  kannada: ತಾರಾಬಲ
+  usage: traditional term
+meaning:
+  en: A comparison between the Moon’s section at birth and its section on a chosen day.
+  kn: ಜನನದ ಚಂದ್ರನ ವಿಭಾಗ ಮತ್ತು ಆಯ್ದ ದಿನದ ಚಂದ್ರನ ವಿಭಾಗದ ಹೋಲಿಕೆ.
+  hi: जन्म और चुने हुए दिन में चंद्रमा किन खंडों में है, इसकी तुलना।
+admin_note: 'Application in vedic.muhurta.check-big-decision-muhurta-tara-support: Specific participant has a supportive
+  birth-star distance in the candidate interval.'
+aliases:
+- Tarabala
+- birth-star support
+reference_rules:
+- vedic.muhurta.check-big-decision-muhurta-tara-support
+used_by:
+- vedic.muhurta.check-big-decision-muhurta-tara-support

@@ -1,0 +1,22 @@
+id: glossary.terms.upapada
+term:
+  en: Upapada
+  kn: ಉಪಪದ
+  hi: उपपद
+sanskrit:
+  devanagari: उपपद
+  kannada: ಉಪಪದ
+  usage: traditional term
+meaning:
+  en: A point derived from the twelfth house and its ruler for a traditional partnership reading.
+  kn: ಒಡನಾಟದ ಓದಿಗೆ ಹನ್ನೆರಡನೇ ಮನೆ ಮತ್ತು ಅದರ ಅಧಿಪತಿಯಿಂದ ಪಡೆಯುವ ಸ್ಥಾನ.
+  hi: साझेदारी को समझने के लिए बारहवें घर और उसके स्वामी से निकला बिंदु।
+admin_note: 'Application in jaimini.arudha-padas.upapada: Bind the requested D1 house 12 and compute A12 with arudha-padas/methods.yaml.
+  Read its visible expression only if its final sign is stable.'
+aliases:
+- UL
+- A12
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada

@@ -1,0 +1,22 @@
+id: glossary.terms.brahma-vastu-guardian
+term:
+  en: Brahma (Vastu guardian)
+  kn: ಬ್ರಹ್ಮಾ ದಿಕ್ಪಾಲ
+  hi: ब्रह्मा दिक्पाल
+sanskrit:
+  devanagari: ब्रह्मा दिक्पाल
+  kannada: ಬ್ರಹ್ಮಾ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the centre part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಕೇಂದ್ರ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के केंद्र भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vastu.directions.centre: The centre is associated with Brahma and no single graha in this
+  profile.'
+aliases: []
+reference_rules:
+- vastu.directions.centre
+used_by:
+- vastu.directions.centre
+systems:
+- vastu

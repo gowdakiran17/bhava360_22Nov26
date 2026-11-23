@@ -1,0 +1,53 @@
+id: glossary.terms.shravana
+term:
+  en: Shravana
+  kn: ಶ್ರವಣ
+  hi: श्रवण
+sanskrit:
+  devanagari: श्रवण
+  kannada: ಶ್ರವಣ
+  usage: traditional term
+meaning:
+  en: Section 22 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 22ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 22।
+admin_note: 'Application in vedic.nakshatras.shravana: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.shravana
+used_by:
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha

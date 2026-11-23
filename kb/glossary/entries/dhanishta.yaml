@@ -1,0 +1,27 @@
+id: glossary.terms.dhanishta
+term:
+  en: Dhanishta
+  kn: ಧನಿಷ್ಠಾ
+  hi: धनिष्ठा
+sanskrit:
+  devanagari: धनिष्ठा
+  kannada: ಧನಿಷ್ಠಾ
+  usage: traditional term
+meaning:
+  en: Section 23 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 23ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 23।
+admin_note: 'Application in vedic.nakshatras.dhanishta: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.dhanishta
+used_by:
+- vedic.matching.porutham-vedha
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.dhanishta

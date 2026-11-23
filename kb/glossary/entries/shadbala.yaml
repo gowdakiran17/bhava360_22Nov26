@@ -1,0 +1,69 @@
+id: glossary.terms.shadbala
+term:
+  en: Shadbala
+  kn: ಷಡ್ಬಲ
+  hi: षड्बल
+sanskrit:
+  devanagari: षड्बल
+  kannada: ಷಡ್ಬಲ
+  usage: traditional term
+meaning:
+  en: A way of weighing six kinds of support for a planet in a chart.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಗ್ರಹಕ್ಕೆ ಸಿಗುವ ಆರು ಬಗೆಯ ಬಲವನ್ನು ಅಳೆಯುವ ವಿಧಾನ.
+  hi: जन्मपत्री में किसी ग्रह को मिलने वाले छह तरह के बल की गणना।
+admin_note: Use this label for a way of weighing six kinds of support for a planet in a chart. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Shad bala
+- sixfold planetary strength
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.dig
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.kendradi
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.nathonnata
+- vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.six-components
+- vedic.strength-shadbala.sthana
+- vedic.strength-shadbala.totals
+- vedic.strength-shadbala.tribhaga
+- vedic.strength-shadbala.uchcha
+- vedic.strength-shadbala.vara
+- vedic.strength-shadbala.yuddha
+- vedic.yogas.adhi
+- vedic.yogas.amala
+- vedic.yogas.anapha
+- vedic.yogas.bhadra
+- vedic.yogas.budhaditya
+- vedic.yogas.chandra-mangala
+- vedic.yogas.dhana
+- vedic.yogas.durudhara
+- vedic.yogas.gaja-kesari
+- vedic.yogas.hamsa
+- vedic.yogas.harsha
+- vedic.yogas.kemadruma
+- vedic.yogas.lakshmi
+- vedic.yogas.malavya
+- vedic.yogas.neecha-bhanga
+- vedic.yogas.neecha-bhanga-raja
+- vedic.yogas.parivartana
+- vedic.yogas.parivartana-dainya
+- vedic.yogas.parivartana-khala
+- vedic.yogas.parivartana-maha
+- vedic.yogas.raja
+- vedic.yogas.ruchaka
+- vedic.yogas.sarala
+- vedic.yogas.saraswati
+- vedic.yogas.shasha
+- vedic.yogas.sunapha
+- vedic.yogas.vimala

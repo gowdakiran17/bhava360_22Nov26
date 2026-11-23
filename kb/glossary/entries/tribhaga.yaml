@@ -1,0 +1,21 @@
+id: glossary.terms.tribhaga
+term:
+  en: Tribhaga
+  kn: ತ್ರಿಭಾಗ
+  hi: त्रिभाग
+sanskrit:
+  devanagari: त्रिभाग
+  kannada: ತ್ರಿಭಾಗ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on which third of the day or night contains the birth.
+  kn: ಹಗಲು ಅಥವಾ ರಾತ್ರಿಯ ಯಾವ ಮೂರನೇ ಭಾಗದಲ್ಲಿ ಜನನವಾಯಿತು ಎಂಬುದರ ಆಧಾರದ ಬಲ.
+  hi: दिन या रात के किस तिहाई में जन्म हुआ उससे जुड़ा बल।
+admin_note: 'Application in vedic.strength-shadbala.tribhaga: Select the current sunrise-to-sunset or sunset-to-next-sunrise
+  interval. Divide its actual duration into thirds, lower edge inclusive. Give sixty to the ruler of the active third
+  and sixty to Jupiter.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.tribhaga

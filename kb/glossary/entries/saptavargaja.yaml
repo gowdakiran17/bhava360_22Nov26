@@ -1,0 +1,23 @@
+id: glossary.terms.saptavargaja
+term:
+  en: Saptavargaja
+  kn: ಸಪ್ತವರ್ಗಜ
+  hi: सप्तवर्गज
+sanskrit:
+  devanagari: सप्तवर्गज
+  kannada: ಸಪ್ತವರ್ಗಜ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on positions in seven related charts.
+  kn: ಏಳು ಸಂಬಂಧಿತ ನಕ್ಷೆಗಳ ಸ್ಥಾನಗಳಿಂದ ಪಡೆಯುವ ಬಲ.
+  hi: सात संबंधित पत्रियों की स्थितियों से निकला बल।
+admin_note: 'Application in vedic.strength-shadbala.saptavargaja: Sum the seven unweighted dignity awards. In D1 first
+  test the KB-02 half-open moolatrikona interval. Next test sign ownership in each varga. Otherwise combine the target’s
+  natural relation to its sign lord (+1, 0, −1) with its temporary relation (+1 for the specified D1 sign distances from
+  target to lord, −1 otherwise). Index the relationship awards by the sum plus two. Use natural relationships from KB-02
+  and classical sign lords and divisions from KB-11.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.sthana

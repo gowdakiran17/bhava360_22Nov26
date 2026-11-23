@@ -1,0 +1,25 @@
+id: glossary.terms.luna-mount
+term:
+  en: Luna mount
+  kn: ಮಣಿಕಟ್ಟಿನ ಬಳಿ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+  hi: कलाई के पास बाहरी किनारे पर उभार
+sanskrit:
+  devanagari: चन्द्र करतलोन्नति
+  kannada: ಚನ್ದ್ರ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised outer pad near the wrist.
+  kn: ಮಣಿಕಟ್ಟಿನ ಬಳಿ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು.
+  hi: कलाई के पास बाहरी किनारे पर उभार।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.luna-left
+- palmistry.mounts.luna-right
+used_by:
+- palmistry.mounts.luna
+- palmistry.mounts.luna-left
+- palmistry.mounts.luna-right
+systems:
+- palmistry

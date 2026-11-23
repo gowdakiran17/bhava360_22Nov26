@@ -1,0 +1,22 @@
+id: glossary.terms.heart-line
+term:
+  en: Heart line
+  kn: ಹೃದಯರೇಖಾ
+  hi: हृदयरेखा
+sanskrit:
+  devanagari: हृदयरेखा
+  kannada: ಹೃದಯರೇಖಾ
+  usage: traditional term
+meaning:
+  en: The main crease running across the upper part of the palm.
+  kn: ಅಂಗೈಯ ಮೇಲ್ಭಾಗಕ್ಕೆ ಅಡ್ಡವಾಗಿ ಸಾಗುವ ಮುಖ್ಯ ಗೆರೆ.
+  hi: हथेली के ऊपरी हिस्से में आड़ी जाने वाली मुख्य रेखा।
+admin_note: 'Application in palmistry.lines.heart-right: The user confirmed the illustrated choice on the right hand:
+  Upper crease crossing the palm below the fingers.'
+aliases: []
+reference_rules:
+- palmistry.lines.heart-left
+- palmistry.lines.heart-right
+used_by:
+- palmistry.lines.heart-left
+- palmistry.lines.heart-right

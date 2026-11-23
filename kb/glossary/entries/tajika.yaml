@@ -1,0 +1,25 @@
+id: glossary.terms.tajika
+term:
+  en: Tajika
+  kn: ತಾಜಿಕ
+  hi: ताजिक
+sanskrit:
+  devanagari: ताजिक
+  kannada: ತಾಜಿಕ
+  usage: traditional term
+meaning:
+  en: An Indian tradition that reads yearly charts and questions using relationships between planets.
+  kn: ಗ್ರಹಗಳ ಸಂಬಂಧಗಳಿಂದ ವಾರ್ಷಿಕ ನಕ್ಷೆ ಮತ್ತು ಪ್ರಶ್ನೆಗಳನ್ನು ಓದುವ ಪರಂಪರೆ.
+  hi: ग्रहों के संबंध से वर्षपत्री और सवाल पढ़ने की परंपरा।
+admin_note: Use this label for an Indian tradition that reads yearly charts and questions using relationships between
+  planets. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Tajaka
+reference_rules: []
+used_by:
+- vedic.prashna.leans-against
+- vedic.prashna.leans-toward
+- vedic.prashna.mixed
+- vedic.prashna.moon
+- vedic.prashna.timing
+- vedic.prashna.unclear

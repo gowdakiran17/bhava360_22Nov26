@@ -1,0 +1,25 @@
+id: glossary.terms.temperance-tarot
+term:
+  en: Temperance (Tarot)
+  kn: ಸಂಯಮ (ಟ್ಯಾರೊ)
+  hi: संयम (टैरो)
+sanskrit:
+  devanagari: संयम
+  kannada: ಸಂಯಮ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 14, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 14 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 14 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a workable
+  balance. What comes to mind in this position?'
+aliases:
+- Temperance
+reference_rules:
+- tarot.major-arcana.temperance-upright
+- tarot.major-arcana.temperance-reversed
+used_by:
+- tarot.major-arcana.temperance-reversed
+- tarot.major-arcana.temperance-upright
+systems:
+- tarot

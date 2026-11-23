@@ -1,0 +1,20 @@
+id: glossary.terms.double-transit
+term:
+  en: Double transit
+  kn: ದ್ವಿಗೋಚರ
+  hi: द्विगोचर
+sanskrit:
+  devanagari: द्विगोचर
+  kannada: ದ್ವಿಗೋಚರ
+  usage: traditional term
+meaning:
+  en: A timing check in which Jupiter and Saturn both connect with the same chart topic.
+  kn: ಗುರು ಮತ್ತು ಶನಿ ಎರಡೂ ಒಂದೇ ವಿಷಯವನ್ನು ಸಂಪರ್ಕಿಸುವ ಕಾಲದ ಪರಿಶೀಲನೆ.
+  hi: समय की ऐसी जाँच जिसमें गुरु और शनि दोनों एक ही विषय से जुड़ते हैं।
+admin_note: 'Application in vedic.transits.double-transit: Bind a selected natal whole-sign house from Lagna. At one
+  instant both Jupiter and Saturn must each occupy its sign or cast a full graha aspect to it, using vedic/aspects/full-graha.yaml.
+  Intersect their windows.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.transits.double-transit

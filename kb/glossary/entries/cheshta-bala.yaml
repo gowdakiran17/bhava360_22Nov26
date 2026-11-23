@@ -1,0 +1,26 @@
+id: glossary.terms.cheshta-bala
+term:
+  en: Cheshta bala
+  kn: ಚೇಷ್ಟಾಬಲ
+  hi: चेष्टाबल
+sanskrit:
+  devanagari: चेष्टाबल
+  kannada: ಚೇಷ್ಟಾಬಲ
+  usage: traditional term
+meaning:
+  en: The part of a planet’s strength connected with its apparent movement.
+  kn: ಗ್ರಹದ ಗೋಚರ ಚಲನೆಯಿಂದ ಬರುವ ಬಲದ ಭಾಗ.
+  hi: ग्रह की दिखाई देने वाली चाल से जुड़ा बल।
+admin_note: 'Application in vedic.strength-shadbala.cheshta: Use solar Ayana for the Sun and lunar Paksha for the Moon.
+  For Mars, Jupiter and Saturn use the mean Sun as the fast point and the planet mean as the slow point. For Mercury
+  and Venus swap these roles. Move halfway from the slow point to the true planet along the shortest signed arc in [−180,180).
+  Divide the shorter arc from that midpoint to the fast point by three. Mean and true longitudes must share frame and
+  epoch.'
+aliases:
+- Cheshta
+reference_rules: []
+used_by:
+- vedic.states.vakri
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.totals

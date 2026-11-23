@@ -1,0 +1,22 @@
+id: glossary.terms.bhakoot
+term:
+  en: Bhakoot
+  kn: ಭಕೂಟ
+  hi: भकूट
+sanskrit:
+  devanagari: भकूट
+  kannada: ಭಕೂಟ
+  usage: traditional term
+meaning:
+  en: A matching factor based on the distance between two Moon signs.
+  kn: ಎರಡು ಚಂದ್ರರಾಶಿಗಳ ನಡುವಿನ ಅಂತರವನ್ನು ನೋಡುವ ಅಂಶ.
+  hi: दो चंद्र राशियों की दूरी देखने का पहलू।
+admin_note: 'Application in vedic.matching.bhakoot: Look up the two sidereal lunar signs in the sign-pair matrix. Record
+  raw points before applying the selected lord exception.'
+aliases:
+- Bhakuta
+reference_rules: []
+used_by:
+- vedic.doshas.bhakoot
+- vedic.matching.bhakoot
+- vedic.matching.porutham-rashi

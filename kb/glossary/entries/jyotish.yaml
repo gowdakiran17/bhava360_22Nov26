@@ -1,0 +1,36 @@
+id: glossary.terms.jyotish
+term:
+  en: Jyotish
+  kn: ಜ್ಯೋತಿಷ
+  hi: ज्योतिष
+sanskrit:
+  devanagari: ज्योतिष
+  kannada: ಜ್ಯೋತಿಷ
+  usage: traditional term
+meaning:
+  en: An Indian tradition of calendar calculation and interpretation of the sky.
+  kn: ಕಾಲಗಣನೆ ಮತ್ತು ಆಕಾಶದ ಸ್ಥಾನಗಳ ಅರ್ಥೈಸುವಿಕೆಯ ಭಾರತೀಯ ಪರಂಪರೆ.
+  hi: समय की गणना और आकाश की स्थिति पढ़ने की भारतीय परंपरा।
+admin_note: Use this label for an Indian tradition of calendar calculation and interpretation of the sky. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Jyotisha
+reference_rules: []
+used_by:
+- numerology.ank-jyotish.check-house-relocation-dwelling-root
+- numerology.ank-jyotish.check-mobile-number-birth-root
+- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+- numerology.ank-jyotish.check-mobile-number-missing-digits
+- numerology.ank-jyotish.check-mobile-number-repeats
+- numerology.ank-jyotish.check-vehicle-number-root
+- numerology.ank-jyotish.check-vehicle-number-vehicle-total
+- numerology.ank-jyotish.mobile-digit-total
+- numerology.ank-jyotish.root-1
+- numerology.ank-jyotish.root-2
+- numerology.ank-jyotish.root-3
+- numerology.ank-jyotish.root-4
+- numerology.ank-jyotish.root-5
+- numerology.ank-jyotish.root-6
+- numerology.ank-jyotish.root-7
+- numerology.ank-jyotish.root-8
+- numerology.ank-jyotish.root-9

@@ -1,0 +1,120 @@
+id: glossary.terms.numerology
+term:
+  en: Numerology
+  kn: ಸಂಖ್ಯಾಶಾಸ್ತ್ರ
+  hi: अंक विद्या
+sanskrit:
+  devanagari: अङ्कविद्या
+  kannada: ಅಙ್ಕವಿದ್ಯಾ
+  usage: descriptive equivalent
+meaning:
+  en: A tradition that gives symbolic meanings to numbers derived from names or dates.
+  kn: ಹೆಸರು ಅಥವಾ ದಿನಾಂಕದಿಂದ ಪಡೆದ ಸಂಖ್ಯೆಗಳಿಗೆ ಸಾಂಕೇತಿಕ ಅರ್ಥ ನೀಡುವ ಪರಂಪರೆ.
+  hi: नाम या तारीख से निकले अंकों को प्रतीकात्मक अर्थ देने की परंपरा।
+admin_note: Use this label for a tradition that gives symbolic meanings to numbers derived from names or dates. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Ank Jyotish
+reference_rules: []
+used_by:
+- numerology.ank-jyotish.check-house-relocation-dwelling-root
+- numerology.ank-jyotish.check-mobile-number-birth-root
+- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+- numerology.ank-jyotish.check-mobile-number-missing-digits
+- numerology.ank-jyotish.check-mobile-number-repeats
+- numerology.ank-jyotish.check-vehicle-number-root
+- numerology.ank-jyotish.check-vehicle-number-vehicle-total
+- numerology.ank-jyotish.mobile-digit-total
+- numerology.ank-jyotish.root-1
+- numerology.ank-jyotish.root-2
+- numerology.ank-jyotish.root-3
+- numerology.ank-jyotish.root-4
+- numerology.ank-jyotish.root-5
+- numerology.ank-jyotish.root-6
+- numerology.ank-jyotish.root-7
+- numerology.ank-jyotish.root-8
+- numerology.ank-jyotish.root-9
+- numerology.chaldean.birthday
+- numerology.chaldean.check-business-name-brand-root
+- numerology.chaldean.check-mobile-number-compound-known
+- numerology.chaldean.compound-10
+- numerology.chaldean.compound-11
+- numerology.chaldean.compound-12
+- numerology.chaldean.compound-13
+- numerology.chaldean.compound-14
+- numerology.chaldean.compound-15
+- numerology.chaldean.compound-16
+- numerology.chaldean.compound-17
+- numerology.chaldean.compound-18
+- numerology.chaldean.compound-19
+- numerology.chaldean.compound-20
+- numerology.chaldean.compound-21
+- numerology.chaldean.compound-22
+- numerology.chaldean.compound-23
+- numerology.chaldean.compound-24
+- numerology.chaldean.compound-25
+- numerology.chaldean.compound-26
+- numerology.chaldean.compound-27
+- numerology.chaldean.compound-28
+- numerology.chaldean.compound-29
+- numerology.chaldean.compound-30
+- numerology.chaldean.compound-31
+- numerology.chaldean.compound-32
+- numerology.chaldean.compound-33
+- numerology.chaldean.compound-34
+- numerology.chaldean.compound-35
+- numerology.chaldean.compound-36
+- numerology.chaldean.compound-37
+- numerology.chaldean.compound-38
+- numerology.chaldean.compound-39
+- numerology.chaldean.compound-40
+- numerology.chaldean.compound-41
+- numerology.chaldean.compound-42
+- numerology.chaldean.compound-43
+- numerology.chaldean.compound-44
+- numerology.chaldean.compound-45
+- numerology.chaldean.compound-46
+- numerology.chaldean.compound-47
+- numerology.chaldean.compound-48
+- numerology.chaldean.compound-49
+- numerology.chaldean.compound-50
+- numerology.chaldean.compound-51
+- numerology.chaldean.compound-52
+- numerology.chaldean.expression
+- numerology.chaldean.life-path
+- numerology.chaldean.personal-day
+- numerology.chaldean.personal-month
+- numerology.chaldean.personal-year
+- numerology.chaldean.personality
+- numerology.chaldean.root-1
+- numerology.chaldean.root-2
+- numerology.chaldean.root-3
+- numerology.chaldean.root-4
+- numerology.chaldean.root-5
+- numerology.chaldean.root-6
+- numerology.chaldean.root-7
+- numerology.chaldean.root-8
+- numerology.chaldean.root-9
+- numerology.chaldean.soul-urge
+- numerology.pythagorean.birthday
+- numerology.pythagorean.check-personal-baby-name-name-root
+- numerology.pythagorean.expression
+- numerology.pythagorean.life-path
+- numerology.pythagorean.master-11
+- numerology.pythagorean.master-22
+- numerology.pythagorean.master-33
+- numerology.pythagorean.maturity
+- numerology.pythagorean.personal-day
+- numerology.pythagorean.personal-month
+- numerology.pythagorean.personal-year
+- numerology.pythagorean.personality
+- numerology.pythagorean.root-1
+- numerology.pythagorean.root-2
+- numerology.pythagorean.root-3
+- numerology.pythagorean.root-4
+- numerology.pythagorean.root-5
+- numerology.pythagorean.root-6
+- numerology.pythagorean.root-7
+- numerology.pythagorean.root-8
+- numerology.pythagorean.root-9
+- numerology.pythagorean.soul-urge

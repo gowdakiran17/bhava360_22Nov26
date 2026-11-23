@@ -1,0 +1,25 @@
+id: glossary.terms.two-of-pentacles-tarot
+term:
+  en: Two Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಎರಡು
+  hi: मुद्रा · दो
+sanskrit:
+  devanagari: मुद्रा द्वि
+  kannada: ಮುದ್ರಾ ದ್ವಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank two in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಎರಡು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · दो की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on balancing tasks.
+  What comes to mind in this position?'
+aliases:
+- Two Of Pentacles
+reference_rules:
+- tarot.minor-arcana.two-of-pentacles-upright
+- tarot.minor-arcana.two-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.two-of-pentacles-reversed
+- tarot.minor-arcana.two-of-pentacles-upright
+systems:
+- tarot

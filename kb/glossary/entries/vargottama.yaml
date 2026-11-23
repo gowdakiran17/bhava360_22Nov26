@@ -1,0 +1,19 @@
+id: glossary.terms.vargottama
+term:
+  en: Vargottama
+  kn: ವರ್ಗೋತ್ತಮ
+  hi: वर्गोत्तम
+sanskrit:
+  devanagari: वर्गोत्तम
+  kannada: ವರ್ಗೋತ್ತಮ
+  usage: traditional term
+meaning:
+  en: A planet or rising point occupies the same sign in the birth chart and its nine-part companion chart.
+  kn: ಜನ್ಮನಕ್ಷೆ ಮತ್ತು ಒಂಬತ್ತು ಭಾಗಗಳ ನಕ್ಷೆಯಲ್ಲಿ ಒಂದೇ ರಾಶಿಯಲ್ಲಿರುವ ಸ್ಥಾನ.
+  hi: जन्मपत्री और नौ भागों की पत्री में एक ही राशि में होना।
+admin_note: 'Application in vedic.states.vargottama: Match the same graha when its D1 sign equals its D9 sign under the
+  selected Parashari navamsha method. Require both sign assignments to be stable.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.states.vargottama

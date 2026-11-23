@@ -1,0 +1,30 @@
+id: glossary.terms.manushya-gana
+term:
+  en: Manushya Gana
+  kn: ಮನುಷ್ಯ ಗಣ
+  hi: मनुष्य गण
+sanskrit:
+  devanagari: मनुष्य गण
+  kannada: ಮನುಷ್ಯ ಗಣ
+  usage: traditional term
+meaning:
+  en: One of the three traditional groups of birth stars, bearing the label Manushya.
+  kn: ಜನ್ಮನಕ್ಷತ್ರಗಳ ಮೂರು ಸಾಂಪ್ರದಾಯಿಕ ಗುಂಪುಗಳಲ್ಲಿ ಮನುಷ್ಯ ಎಂಬ ಗುಂಪು.
+  hi: जन्म तारों के तीन पारंपरिक समूहों में मनुष्य नाम का समूह।
+admin_note: 'Application in vedic.matching.gana: Read both natal star classes and look up their ordered temperamental
+  grouping. Labels belong to the table only.'
+aliases:
+- Manushya
+reference_rules:
+- vedic.matching.gana
+used_by:
+- vedic.matching.gana
+- vedic.nakshatras.ardra
+- vedic.nakshatras.bharani
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.rohini
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni

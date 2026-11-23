@@ -1,0 +1,22 @@
+id: glossary.terms.head-line
+term:
+  en: Head line
+  kn: ಮಸ್ತಕರೇಖಾ
+  hi: मस्तकरेखा
+sanskrit:
+  devanagari: मस्तकरेखा
+  kannada: ಮಸ್ತಕರೇಖಾ
+  usage: traditional term
+meaning:
+  en: A crease across the middle of the palm.
+  kn: ಅಂಗೈಯ ಮಧ್ಯಭಾಗಕ್ಕೆ ಅಡ್ಡವಾಗಿ ಸಾಗುವ ಗೆರೆ.
+  hi: हथेली के बीच से आड़ी जाने वाली रेखा।
+admin_note: 'Application in palmistry.lines.head-right: The user confirmed the illustrated choice on the right hand:
+  Middle crease crossing the palm.'
+aliases: []
+reference_rules:
+- palmistry.lines.head-left
+- palmistry.lines.head-right
+used_by:
+- palmistry.lines.head-left
+- palmistry.lines.head-right

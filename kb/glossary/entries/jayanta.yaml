@@ -1,0 +1,19 @@
+id: glossary.terms.jayanta
+term:
+  en: Jayanta
+  kn: ಜಯನ್ತ
+  hi: जयन्त
+sanskrit:
+  devanagari: जयन्त
+  kannada: ಜಯನ್ತ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position E3 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ E3 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह E3 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at E3.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

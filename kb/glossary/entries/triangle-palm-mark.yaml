@@ -1,0 +1,24 @@
+id: glossary.terms.triangle-palm-mark
+term:
+  en: Triangle palm mark
+  kn: ತ್ರಿಕೋನ ರೂಪಿಸುವ ಮೂರು ಗೆರೆಗಳು
+  hi: त्रिकोण बनाती तीन रेखाएँ
+sanskrit:
+  devanagari: त्रिकोण करचिह्न
+  kannada: ತ್ರಿಕೋಣ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: Three strokes closing a triangular space.
+  kn: ತ್ರಿಕೋನ ರೂಪಿಸುವ ಮೂರು ಗೆರೆಗಳು.
+  hi: त्रिकोण बनाती तीन रेखाएँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.triangle-left
+- palmistry.marks.triangle-right
+used_by:
+- palmistry.marks.triangle-left
+- palmistry.marks.triangle-right
+systems:
+- palmistry

@@ -1,0 +1,19 @@
+id: glossary.terms.bhava-bala
+term:
+  en: Bhava bala
+  kn: ಭಾವಬಲ
+  hi: भावबल
+sanskrit:
+  devanagari: भावबल
+  kannada: ಭಾವಬಲ
+  usage: traditional term
+meaning:
+  en: A traditional measure of the support a house receives in a chart.
+  kn: ನಕ್ಷೆಯ ಮನೆಗೆ ಇರುವ ಬೆಂಬಲವನ್ನು ಅಳೆಯುವ ಸಾಂಪ್ರದಾಯಿಕ ವಿಧಾನ.
+  hi: पत्री में किसी घर को मिलने वाले सहारे का पारंपरिक माप।
+admin_note: Use this label for a traditional measure of the support a house receives in a chart. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-bhava-bala.house-support

@@ -1,0 +1,19 @@
+id: glossary.terms.brahma-muhurta
+term:
+  en: Brahma muhurta
+  kn: ಬ್ರಾಹ್ಮಮುಹೂರ್ತ
+  hi: ब्राह्ममुहूर्त
+sanskrit:
+  devanagari: ब्राह्ममुहूर्त
+  kannada: ಬ್ರಾಹ್ಮಮುಹೂರ್ತ
+  usage: traditional term
+meaning:
+  en: A traditional interval before sunrise often used for quiet activity.
+  kn: ಸೂರ್ಯೋದಯದ ಮೊದಲು ಶಾಂತ ಚಟುವಟಿಕೆಗೆ ಬಳಸುವ ಸಾಂಪ್ರದಾಯಿಕ ಅವಧಿ.
+  hi: सूर्योदय के पहले शांत गतिविधियों के लिए चुना जाने वाला पारंपरिक समय।
+admin_note: 'Application in vedic.panchang.brahma-muhurta: Before the specified sunrise select slot 14 of 15 of the night
+  beginning at the previous sunset; endpoints are two and one seasonal night muhurtas before sunrise.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.brahma-muhurta

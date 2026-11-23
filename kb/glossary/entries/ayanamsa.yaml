@@ -1,0 +1,21 @@
+id: glossary.terms.ayanamsa
+term:
+  en: Ayanamsa
+  kn: ಅಯನಾಂಶ
+  hi: अयनांश
+sanskrit:
+  devanagari: अयनांश
+  kannada: ಅಯನಾಂಶ
+  usage: traditional term
+meaning:
+  en: The angle used to convert positions between a season-based zodiac and a star-based one.
+  kn: ಋತು ಆಧಾರಿತ ಮತ್ತು ನಕ್ಷತ್ರ ಆಧಾರಿತ ರಾಶಿಚಕ್ರಗಳ ನಡುವಿನ ಕೋನ.
+  hi: ऋतुओं और तारों पर आधारित राशि चक्रों के बीच का कोण।
+admin_note: Use this label for the angle used to convert positions between a season-based zodiac and a star-based one.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- ayanamsha
+reference_rules: []
+used_by:
+- vedic.prashna.kp-horary
+- vedic.vargas.d1-placement

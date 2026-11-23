@@ -1,0 +1,23 @@
+id: glossary.terms.ubhayachari-yoga
+term:
+  en: Ubhayachari yoga
+  kn: ಉಭಯಚಾರೀಯೋಗ
+  hi: उभयचारीयोग
+sanskrit:
+  devanagari: उभयचारीयोग
+  kannada: ಉಭಯಚಾರೀಯೋಗ
+  usage: traditional term
+meaning:
+  en: Eligible planets occupy the signs on both sides of the Sun.
+  kn: ಸೂರ್ಯನ ಎರಡೂ ಬದಿಯ ರಾಶಿಗಳಲ್ಲಿ ಅರ್ಹ ಗ್ರಹಗಳಿರುವುದು.
+  hi: सूर्य के दोनों ओर की राशियों में पात्र ग्रह होना।
+admin_note: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are
+  excluded as contributors.
+aliases:
+- ubhayachari
+reference_rules:
+- vedic.yogas.ubhayachari
+used_by:
+- vedic.yogas.ubhayachari
+systems:
+- vedic

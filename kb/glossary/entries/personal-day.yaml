@@ -1,0 +1,20 @@
+id: glossary.terms.personal-day
+term:
+  en: Personal day
+  kn: ವ್ಯಕ್ತಿದಿನಾಙ್ಕ
+  hi: व्यक्तिदिनाङ्क
+sanskrit:
+  devanagari: व्यक्तिदिनाङ्क
+  kannada: ವ್ಯಕ್ತಿದಿನಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A daily number based on the personal month and chosen day.
+  kn: ವೈಯಕ್ತಿಕ ತಿಂಗಳ ಸಂಖ್ಯೆ ಮತ್ತು ಆಯ್ದ ದಿನದಿಂದ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: व्यक्तिगत महीने और चुने दिन से निकली दिन की संख्या।
+admin_note: 'Application in numerology.pythagorean.personal-day: Add the target calendar day to the personal month and
+  reduce.'
+aliases: []
+reference_rules: []
+used_by:
+- numerology.chaldean.personal-day
+- numerology.pythagorean.personal-day

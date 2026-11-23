@@ -1,0 +1,20 @@
+id: glossary.terms.ashtamangala
+term:
+  en: Ashtamangala
+  kn: ಅಷ್ಟಮಙ್ಗಲ
+  hi: अष्टमङ्गल
+sanskrit:
+  devanagari: अष्टमङ्गल
+  kannada: ಅಷ್ಟಮಙ್ಗಲ
+  usage: traditional term
+meaning:
+  en: A Kerala tradition of consulting eight auspicious items when considering a question.
+  kn: ಪ್ರಶ್ನೆಯನ್ನು ನೋಡಲು ಎಂಟು ಮಂಗಳ ವಸ್ತುಗಳನ್ನು ಬಳಸುವ ಕೇರಳದ ಪರಂಪರೆ.
+  hi: सवाल समझने के लिए आठ शुभ वस्तुओं को देखने की केरल की परंपरा।
+admin_note: 'Application in vedic.prashna.ashtamangala: Advanced administrative study. Bind three positive integer cowrie
+  heap counts in the recorded reading order. For each take 1 + ((count − 1) modulo 8); retain the three digits separately
+  and preserve the recorded Arudha if available. Never simulate a ritual input or send this evidence to the public projection.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.prashna.ashtamangala

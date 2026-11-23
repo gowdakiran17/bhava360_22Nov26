@@ -1,0 +1,20 @@
+id: glossary.terms.d40
+term:
+  en: D40
+  kn: D40 ಖವೇದಾಂಶ
+  hi: D40 खवेदांश
+sanskrit:
+  devanagari: खवेदांश
+  kannada: ಖವೇದಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore family traditions.
+  kn: ಕುಟುಂಬದ ಸಂಪ್ರದಾಯಗಳು ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: पारिवारिक परंपराएँ को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Aries for odd signs and Libra for even signs.
+aliases:
+- Khavedamsa
+reference_rules:
+- vedic.vargas.d40-placement
+used_by:
+- vedic.vargas.d40-placement

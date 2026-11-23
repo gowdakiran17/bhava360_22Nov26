@@ -1,0 +1,46 @@
+id: glossary.terms.swords
+term:
+  en: Swords
+  kn: ಖಡ್ಗಾಃ
+  hi: खड्गाः
+sanskrit:
+  devanagari: खड्गाः
+  kannada: ಖಡ್ಗಾಃ
+  usage: descriptive equivalent
+meaning:
+  en: The tarot suit pictured with blades, often used to explore thought and communication.
+  kn: ವಿಚಾರ ಮತ್ತು ಸಂವಹನವನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಕತ್ತಿ ಗುರುತಿನ ಪತ್ರಗಳ ಗುಂಪು.
+  hi: सोच और बातचीत पर विचार करने वाला तलवार चिह्न का पत्ता समूह।
+admin_note: Use this label for the tarot suit pictured with blades, often used to explore thought and communication.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.minor-arcana.ace-of-swords-reversed
+- tarot.minor-arcana.ace-of-swords-upright
+- tarot.minor-arcana.eight-of-swords-reversed
+- tarot.minor-arcana.eight-of-swords-upright
+- tarot.minor-arcana.five-of-swords-reversed
+- tarot.minor-arcana.five-of-swords-upright
+- tarot.minor-arcana.four-of-swords-reversed
+- tarot.minor-arcana.four-of-swords-upright
+- tarot.minor-arcana.king-of-swords-reversed
+- tarot.minor-arcana.king-of-swords-upright
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.knight-of-swords-upright
+- tarot.minor-arcana.nine-of-swords-reversed
+- tarot.minor-arcana.nine-of-swords-upright
+- tarot.minor-arcana.page-of-swords-reversed
+- tarot.minor-arcana.page-of-swords-upright
+- tarot.minor-arcana.queen-of-swords-reversed
+- tarot.minor-arcana.queen-of-swords-upright
+- tarot.minor-arcana.seven-of-swords-reversed
+- tarot.minor-arcana.seven-of-swords-upright
+- tarot.minor-arcana.six-of-swords-reversed
+- tarot.minor-arcana.six-of-swords-upright
+- tarot.minor-arcana.ten-of-swords-reversed
+- tarot.minor-arcana.ten-of-swords-upright
+- tarot.minor-arcana.three-of-swords-reversed
+- tarot.minor-arcana.three-of-swords-upright
+- tarot.minor-arcana.two-of-swords-reversed
+- tarot.minor-arcana.two-of-swords-upright

@@ -1,0 +1,20 @@
+id: glossary.terms.d27
+term:
+  en: D27
+  kn: D27 ನಕ್ಷತ್ರಾಂಶ
+  hi: D27 नक्षत्रांश
+sanskrit:
+  devanagari: नक्षत्रांश
+  kannada: ನಕ್ಷತ್ರಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore personal capacities.
+  kn: ವೈಯಕ್ತಿಕ ಸಾಮರ್ಥ್ಯ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: व्यक्तिगत क्षमताएँ को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Aries, Cancer, Libra or Capricorn for fire, earth, air or water signs respectively.
+aliases:
+- Nakshatramsa
+reference_rules:
+- vedic.vargas.d27-placement
+used_by:
+- vedic.vargas.d27-placement

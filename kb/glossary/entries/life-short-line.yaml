@@ -1,0 +1,24 @@
+id: glossary.terms.life-short-line
+term:
+  en: Life Short line
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಸುತ್ತ ಅರ್ಧದಲ್ಲೇ ಕೊನೆಗೊಳ್ಳುವ ಗೆರೆ
+  hi: अँगूठे के उभार के चारों ओर कुछ दूर जाकर समाप्त होती रेखा
+sanskrit:
+  devanagari: ह्रस्वजीवन हस्तरेखा
+  kannada: ಹ್ರಸ್ವಜೀವನ ಹಸ್ತರೇಖಾ
+  usage: descriptive equivalent
+meaning:
+  en: Thumb-side arc ending partway around the pad.
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಸುತ್ತ ಅರ್ಧದಲ್ಲೇ ಕೊನೆಗೊಳ್ಳುವ ಗೆರೆ.
+  hi: अँगूठे के उभार के चारों ओर कुछ दूर जाकर समाप्त होती रेखा।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.lines.life-short-left
+- palmistry.lines.life-short-right
+used_by:
+- palmistry.lines.life-short-left
+- palmistry.lines.life-short-right
+systems:
+- palmistry

@@ -1,0 +1,53 @@
+id: glossary.terms.cusp
+term:
+  en: Cusp
+  kn: ಭಾವಾರಮ್ಭ
+  hi: भावारम्भ
+sanskrit:
+  devanagari: भावारम्भ
+  kannada: ಭಾವಾರಮ್ಭ
+  usage: traditional term
+meaning:
+  en: A calculated point that marks a house in the chosen way of drawing the chart.
+  kn: ಆಯ್ದ ವಿಧಾನದಲ್ಲಿ ಮನೆಯ ಸ್ಥಾನ ಸೂಚಿಸುವ ಲೆಕ್ಕಿಸಿದ ಬಿಂದು.
+  hi: चुनी हुई विधि में घर को दर्शाने वाला गणित से निकला बिंदु।
+admin_note: Use this label for a calculated point that marks a house in the chosen way of drawing the chart. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases:
+- cusps
+reference_rules: []
+used_by:
+- kp.cusps.cusp-1
+- kp.cusps.cusp-10
+- kp.cusps.cusp-11
+- kp.cusps.cusp-12
+- kp.cusps.cusp-2
+- kp.cusps.cusp-3
+- kp.cusps.cusp-4
+- kp.cusps.cusp-5
+- kp.cusps.cusp-6
+- kp.cusps.cusp-8
+- kp.cusps.cusp-9
+- kp.cusps.placidus
+- kp.cusps.seventh-cusp
+- kp.number-horary.arc
+- kp.ruling-planets.repeated-lord
+- kp.significators.four-step
+- kp.significators.job-change
+- kp.significators.ranked-levels
+- kp.star-sub-lords.subdivision
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-12
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-4
+- vedic.houses.house-5
+- vedic.houses.house-6
+- vedic.houses.house-7
+- vedic.houses.house-8
+- vedic.houses.house-9
+- vedic.prashna.kp-horary
+- vedic.strength-shadbala.kendradi
+- western.houses.polar-fallback

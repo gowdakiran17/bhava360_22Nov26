@@ -1,0 +1,30 @@
+id: glossary.terms.deva-gana
+term:
+  en: Deva Gana
+  kn: ದೇವ ಗಣ
+  hi: देव गण
+sanskrit:
+  devanagari: देव गण
+  kannada: ದೇವ ಗಣ
+  usage: traditional term
+meaning:
+  en: One of the three traditional groups of birth stars, bearing the label Deva.
+  kn: ಜನ್ಮನಕ್ಷತ್ರಗಳ ಮೂರು ಸಾಂಪ್ರದಾಯಿಕ ಗುಂಪುಗಳಲ್ಲಿ ದೇವ ಎಂಬ ಗುಂಪು.
+  hi: जन्म तारों के तीन पारंपरिक समूहों में देव नाम का समूह।
+admin_note: 'Application in vedic.matching.gana: Read both natal star classes and look up their ordered temperamental
+  grouping. Labels belong to the table only.'
+aliases:
+- Deva
+reference_rules:
+- vedic.matching.gana
+used_by:
+- vedic.matching.gana
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.hasta
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati

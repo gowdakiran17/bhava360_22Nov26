@@ -1,0 +1,21 @@
+id: glossary.terms.pradosh
+term:
+  en: Pradosh
+  kn: ಪ್ರದೋಷ
+  hi: प्रदोष
+sanskrit:
+  devanagari: प्रदोष
+  kannada: ಪ್ರದೋಷ
+  usage: traditional term
+meaning:
+  en: A traditional observance associated with evening twilight on the thirteenth lunar day.
+  kn: ಚಂದ್ರಚಕ್ರದ ಹದಿಮೂರನೇ ದಿನದ ಸಂಜೆಗೆ ಸಂಬಂಧಿಸಿದ ಆಚರಣೆ.
+  hi: चंद्र पक्ष के तेरहवें दिन की संध्या से जुड़ा एक अनुष्ठान।
+admin_note: 'Application in vedic.panchang.pradosh: Intersect the local evening window in calendar-profiles.yaml with
+  either Trayodashi interval (tithi 13 or 28). Show the positive-length intersection on its local evening date.'
+aliases:
+- Pradosha
+reference_rules: []
+used_by:
+- vedic.panchang.deepavali
+- vedic.panchang.pradosh

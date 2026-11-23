@@ -1,0 +1,20 @@
+id: glossary.terms.d45
+term:
+  en: D45
+  kn: D45 ಅಕ್ಷವೇದಾಂಶ
+  hi: D45 अक्षवेदांश
+sanskrit:
+  devanagari: अक्षवेदांश
+  kannada: ಅಕ್ಷವೇದಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore inherited patterns.
+  kn: ಕುಟುಂಬದಿಂದ ಬಂದ ಅಭ್ಯಾಸಗಳು ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: विरासत में मिले तौर-तरीके को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Aries, Leo or Sagittarius for movable, fixed or dual signs respectively.
+aliases:
+- Akshavedamsa
+reference_rules:
+- vedic.vargas.d45-placement
+used_by:
+- vedic.vargas.d45-placement

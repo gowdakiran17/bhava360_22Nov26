@@ -1,0 +1,21 @@
+id: glossary.terms.hora-bala
+term:
+  en: Hora bala
+  kn: ಹೋರಾಬಲ
+  hi: होराबल
+sanskrit:
+  devanagari: होराबल
+  kannada: ಹೋರಾಬಲ
+  usage: traditional term
+meaning:
+  en: The part of time-based strength credited to the ruler of the hour.
+  kn: ಆ ಹೊತ್ತಿನ ಅಧಿಪತಿಗೆ ನೀಡುವ ಕಾಲಬಲದ ಭಾಗ.
+  hi: घंटे के स्वामी को दिया समय बल का भाग।
+admin_note: 'Application in vedic.strength-shadbala.hora: Split daylight and night into twelve equal temporal hours each.
+  Start at sunrise with the vara lord in the recurring hora order. Advance by the zero-based hour index, adding twelve
+  for a night hour. Award sixty to that lord.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.hora
+used_by:
+- vedic.strength-shadbala.hora

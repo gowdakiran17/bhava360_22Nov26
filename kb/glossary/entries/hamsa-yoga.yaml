@@ -1,0 +1,22 @@
+id: glossary.terms.hamsa-yoga
+term:
+  en: Hamsa yoga
+  kn: ಹಂಸಯೋಗ
+  hi: हंसयोग
+sanskrit:
+  devanagari: हंसयोग
+  kannada: ಹಂಸಯೋಗ
+  usage: traditional term
+meaning:
+  en: Jupiter occupies a corner of the chart in a sign it rules or where it has special standing.
+  kn: ಗುರು ತಾನು ಆಳುವ ಅಥವಾ ಹೆಚ್ಚಿನ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯ ಸ್ಥಾನದಲ್ಲಿರುವುದು.
+  hi: गुरु का अपनी या विशेष बल की राशि में पत्री के कोने पर होना।
+admin_note: Jupiter occupies a whole-sign angle from Lagna and its own or exaltation sign.
+aliases:
+- hamsa
+reference_rules:
+- vedic.yogas.hamsa
+used_by:
+- vedic.yogas.hamsa
+systems:
+- vedic

@@ -1,0 +1,21 @@
+id: glossary.terms.vara-bala
+term:
+  en: Vara bala
+  kn: ವಾರಬಲ
+  hi: वारबल
+sanskrit:
+  devanagari: वारबल
+  kannada: ವಾರಬಲ
+  usage: traditional term
+meaning:
+  en: The part of time-based strength credited to the ruler of the weekday.
+  kn: ವಾರದ ದಿನದ ಅಧಿಪತಿಗೆ ನೀಡುವ ಕಾಲಬಲದ ಭಾಗ.
+  hi: वार के स्वामी को दिया समय बल का भाग।
+admin_note: 'Application in vedic.strength-shadbala.vara: Use the weekday lord of the first sunrise of the active sunrise
+  day. For completed sunrise days d from a bound cycle epoch, the zero-based weekday is (epoch weekday + span × floor(d/span))
+  modulo seven, Sunday first. Award points only to that lord.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.vara
+used_by:
+- vedic.strength-shadbala.vara

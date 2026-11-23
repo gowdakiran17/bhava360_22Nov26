@@ -1,0 +1,31 @@
+id: glossary.terms.triplicity
+term:
+  en: Triplicity
+  kn: ತತ್ತ್ವದ ಮೂರು ರಾಶಿಗಳು
+  hi: एक तत्त्व की तीन राशियाँ
+sanskrit:
+  devanagari: तत्त्वराशित्रय
+  kannada: ತತ್ತ್ವರಾಶಿತ್ರಯ
+  usage: descriptive equivalent
+meaning:
+  en: A set of three signs sharing the same symbolic element.
+  kn: ಒಂದೇ ತತ್ತ್ವಕ್ಕೆ ಸೇರಿದ ಮೂರು ರಾಶಿಗಳ ಗುಂಪು.
+  hi: एक ही तत्त्व से जुड़ी तीन राशियों का समूह।
+admin_note: Use this label for a set of three signs sharing the same symbolic element. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases:
+- triplicities
+reference_rules: []
+used_by:
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo

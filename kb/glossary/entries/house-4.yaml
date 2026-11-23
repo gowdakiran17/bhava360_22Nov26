@@ -1,0 +1,117 @@
+id: glossary.terms.house-4
+term:
+  en: House 4
+  kn: ಸುಖಭಾವ
+  hi: सुखभाव
+sanskrit:
+  devanagari: सुखभाव
+  kannada: ಸುಖಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore home and learning.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಮನೆ ಮತ್ತು ಕಲಿಕೆ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में घर और सीखना से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists home, caregiving, land and
+  vehicles among its subjects.
+aliases:
+- Sukha
+reference_rules:
+- vedic.houses.house-4
+used_by:
+- jaimini.arudha-padas.a4
+- lal-kitab.placements.house-4
+- vedic.dashas-vimshottari.family-home-house-lord
+- vedic.dashas-vimshottari.family-home-upcoming
+- vedic.dashas-vimshottari.learning-house-lord
+- vedic.dashas-vimshottari.learning-upcoming
+- vedic.dashas-vimshottari.property-vehicles-house-lord
+- vedic.dashas-vimshottari.property-vehicles-upcoming
+- vedic.dashas-vimshottari.travel-relocation-house-lord
+- vedic.dashas-vimshottari.travel-relocation-upcoming
+- vedic.house-lords.lord-1-in-house-4
+- vedic.house-lords.lord-10-in-house-4
+- vedic.house-lords.lord-11-in-house-4
+- vedic.house-lords.lord-12-in-house-4
+- vedic.house-lords.lord-2-in-house-4
+- vedic.house-lords.lord-3-in-house-4
+- vedic.house-lords.lord-4-in-house-1
+- vedic.house-lords.lord-4-in-house-10
+- vedic.house-lords.lord-4-in-house-11
+- vedic.house-lords.lord-4-in-house-12
+- vedic.house-lords.lord-4-in-house-2
+- vedic.house-lords.lord-4-in-house-3
+- vedic.house-lords.lord-4-in-house-4
+- vedic.house-lords.lord-4-in-house-5
+- vedic.house-lords.lord-4-in-house-6
+- vedic.house-lords.lord-4-in-house-7
+- vedic.house-lords.lord-4-in-house-8
+- vedic.house-lords.lord-4-in-house-9
+- vedic.house-lords.lord-5-in-house-4
+- vedic.house-lords.lord-6-in-house-4
+- vedic.house-lords.lord-7-in-house-4
+- vedic.house-lords.lord-8-in-house-4
+- vedic.house-lords.lord-9-in-house-4
+- vedic.houses.house-4
+- vedic.houses.jupiter-house-4
+- vedic.houses.ketu-house-4
+- vedic.houses.mars-house-4
+- vedic.houses.mercury-house-4
+- vedic.houses.moon-house-4
+- vedic.houses.rahu-house-4
+- vedic.houses.saturn-house-4
+- vedic.houses.sun-house-4
+- vedic.houses.venus-house-4
+- vedic.planets-in-houses.jupiter-house-4
+- vedic.planets-in-houses.ketu-house-4
+- vedic.planets-in-houses.mars-house-4
+- vedic.planets-in-houses.mercury-house-4
+- vedic.planets-in-houses.moon-house-1
+- vedic.planets-in-houses.moon-house-10
+- vedic.planets-in-houses.moon-house-11
+- vedic.planets-in-houses.moon-house-12
+- vedic.planets-in-houses.moon-house-2
+- vedic.planets-in-houses.moon-house-3
+- vedic.planets-in-houses.moon-house-4
+- vedic.planets-in-houses.moon-house-5
+- vedic.planets-in-houses.moon-house-6
+- vedic.planets-in-houses.moon-house-7
+- vedic.planets-in-houses.moon-house-8
+- vedic.planets-in-houses.moon-house-9
+- vedic.planets-in-houses.rahu-house-4
+- vedic.planets-in-houses.saturn-house-4
+- vedic.planets-in-houses.sun-house-4
+- vedic.planets-in-houses.venus-house-1
+- vedic.planets-in-houses.venus-house-10
+- vedic.planets-in-houses.venus-house-11
+- vedic.planets-in-houses.venus-house-12
+- vedic.planets-in-houses.venus-house-2
+- vedic.planets-in-houses.venus-house-3
+- vedic.planets-in-houses.venus-house-4
+- vedic.planets-in-houses.venus-house-5
+- vedic.planets-in-houses.venus-house-6
+- vedic.planets-in-houses.venus-house-7
+- vedic.planets-in-houses.venus-house-8
+- vedic.planets-in-houses.venus-house-9
+- vedic.planets.moon
+- vedic.planets.venus
+- vedic.prashna.lost-item
+- vedic.prashna.property
+- vedic.transits.jupiter-moon-house-4
+- vedic.transits.ketu-moon-house-4
+- vedic.transits.mars-moon-house-4
+- vedic.transits.mercury-moon-house-4
+- vedic.transits.moon-moon-house-4
+- vedic.transits.rahu-moon-house-4
+- vedic.transits.saturn-moon-house-4
+- vedic.transits.sun-moon-house-4
+- vedic.transits.venus-moon-house-4
+- western.natal.jupiter-house-4
+- western.natal.mars-house-4
+- western.natal.mercury-house-4
+- western.natal.moon-house-4
+- western.natal.neptune-house-4
+- western.natal.pluto-house-4
+- western.natal.saturn-house-4
+- western.natal.sun-house-4
+- western.natal.uranus-house-4
+- western.natal.venus-house-4

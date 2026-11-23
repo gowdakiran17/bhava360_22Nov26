@@ -1,0 +1,20 @@
+id: glossary.terms.semi-sextile
+term:
+  en: Semi-sextile
+  kn: ತ್ರಿಂಶದಂಶಕೋಣ
+  hi: त्रिंशदंशकोण
+sanskrit:
+  devanagari: त्रिंशदंशकोण
+  kannada: ತ್ರಿಂಶದಂಶಕೋಣ
+  usage: descriptive equivalent
+meaning:
+  en: Two chart positions about thirty degrees apart.
+  kn: ಸುಮಾರು ಮೂವತ್ತು ಅಂಶ ಅಂತರದ ಎರಡು ಸ್ಥಾನಗಳು.
+  hi: लगभग तीस अंश दूर दो स्थान।
+admin_note: 'Application in western.aspects.semi-sextile: The selected natal pair forms the named aspect within its configured
+  orb.'
+aliases:
+- semisextile
+reference_rules: []
+used_by:
+- western.aspects.semi-sextile

@@ -1,0 +1,19 @@
+id: glossary.terms.solar-arc
+term:
+  en: Solar arc
+  kn: ಸೌರಚಾಪ
+  hi: सौरचाप
+sanskrit:
+  devanagari: सौरचाप
+  kannada: ಸೌರಚಾಪ
+  usage: descriptive equivalent
+meaning:
+  en: A timing method that advances chart points by the same distance as the progressed Sun.
+  kn: ಮುನ್ನಡೆಸಿದ ಸೂರ್ಯನ ಅಂತರದಷ್ಟೇ ಇತರ ಸ್ಥಾನಗಳನ್ನೂ ಮುಂದೆ ಸರಿಸುವ ಕಾಲವಿಧಾನ.
+  hi: आगे बढ़ाए सूर्य जितनी दूरी से सभी स्थान आगे करने की समय विधि।
+admin_note: Use this label for a timing method that advances chart points by the same distance as the progressed Sun.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- western.solar-arc.directed-contact

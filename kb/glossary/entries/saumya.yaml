@@ -1,0 +1,32 @@
+id: glossary.terms.saumya
+term:
+  en: Saumya
+  kn: ಸೌಮ್ಯ
+  hi: सौम्य
+sanskrit:
+  devanagari: सौम्य
+  kannada: ಸೌಮ್ಯ
+  usage: traditional term
+meaning:
+  en: A traditional category for a sign or planet described as gentle.
+  kn: ರಾಶಿ ಅಥವಾ ಗ್ರಹಕ್ಕೆ ಸೌಮ್ಯತೆ ಸೂಚಿಸುವ ಸಾಂಪ್ರದಾಯಿಕ ವರ್ಗ.
+  hi: राशि या ग्रह में कोमलता बताने वाली पारंपरिक श्रेणी।
+admin_note: Use this label for a traditional category for a sign or planet described as gentle. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.minor-arcana.page-of-cups-upright
+- tarot.minor-arcana.three-of-swords-reversed
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo

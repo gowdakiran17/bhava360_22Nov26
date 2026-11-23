@@ -1,0 +1,23 @@
+id: glossary.terms.griha-pravesha
+term:
+  en: Griha pravesha
+  kn: ಗೃಹಪ್ರವೇಶ
+  hi: गृहप्रवेश
+sanskrit:
+  devanagari: गृहप्रवेश
+  kannada: ಗೃಹಪ್ರವೇಶ
+  usage: traditional term
+meaning:
+  en: A traditional occasion marking entry into a new home.
+  kn: ಹೊಸ ಮನೆಗೆ ಪ್ರವೇಶವನ್ನು ಆಚರಿಸುವ ಸಂದರ್ಭ.
+  hi: नए घर में प्रवेश का पारंपरिक अवसर।
+admin_note: 'Application in vedic.muhurta.griha-pravesha: For the selected activity compare a city-specific, boundary-stable
+  interval using this profile and the shared ranking policy. Require the listed participants. Bind all factors and each
+  exception to this same interval.'
+aliases:
+- griha pravesh
+- house warming
+reference_rules: []
+used_by:
+- vedic.muhurta.check-house-relocation-moving-window
+- vedic.muhurta.griha-pravesha

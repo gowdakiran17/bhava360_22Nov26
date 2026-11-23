@@ -1,0 +1,42 @@
+id: glossary.terms.kalapurusha
+term:
+  en: Kalapurusha
+  kn: ಕಾಲಪುರುಷ
+  hi: कालपुरुष
+sanskrit:
+  devanagari: कालपुरुष
+  kannada: ಕಾಲಪುರುಷ
+  usage: traditional term
+meaning:
+  en: A symbolic figure used to associate the twelve signs with parts of the body.
+  kn: ಹನ್ನೆರಡು ರಾಶಿಗಳಿಗೆ ದೇಹದ ಭಾಗಗಳನ್ನು ಸಾಂಕೇತಿಕವಾಗಿ ಜೋಡಿಸುವ ಆಕೃತಿ.
+  hi: बारह राशियों को शरीर के अंगों से जोड़ने वाला प्रतीकात्मक रूप।
+admin_note: Use this label for a symbolic figure used to associate the twelve signs with parts of the body. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-12
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-4
+- vedic.houses.house-5
+- vedic.houses.house-6
+- vedic.houses.house-7
+- vedic.houses.house-8
+- vedic.houses.house-9
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo

@@ -1,0 +1,25 @@
+id: glossary.terms.seven-of-cups-tarot
+term:
+  en: Seven Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಏಳು
+  hi: प्याला · सात
+sanskrit:
+  devanagari: चषक सप्त
+  kannada: ಚಷಕ ಸಪ್ತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank seven in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಏಳು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · सात की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on many possibilities.
+  What comes to mind in this position?'
+aliases:
+- Seven Of Cups
+reference_rules:
+- tarot.minor-arcana.seven-of-cups-upright
+- tarot.minor-arcana.seven-of-cups-reversed
+used_by:
+- tarot.minor-arcana.seven-of-cups-reversed
+- tarot.minor-arcana.seven-of-cups-upright
+systems:
+- tarot

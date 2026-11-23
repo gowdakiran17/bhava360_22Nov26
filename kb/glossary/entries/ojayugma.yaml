@@ -1,0 +1,20 @@
+id: glossary.terms.ojayugma
+term:
+  en: Ojayugma
+  kn: ಓಜಯುಗ್ಮ
+  hi: ओजयुग्म
+sanskrit:
+  devanagari: ओजयुग्म
+  kannada: ಓಜಯುಗ್ಮ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on odd and even signs in two charts.
+  kn: ಎರಡು ನಕ್ಷೆಗಳಲ್ಲಿ ಸಮ ಮತ್ತು ಬೆಸ ರಾಶಿಗಳಿಂದ ಪಡೆಯುವ ಬಲ.
+  hi: दो पत्रियों में सम और विषम राशियों से निकला बल।
+admin_note: 'Application in vedic.strength-shadbala.ojayugma: Independently award fifteen for qualifying sign parity
+  in D1 and D9. Moon and Venus use even signs and the other grahas use odd signs. Aries is sign one.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.sthana

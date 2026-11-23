@@ -1,0 +1,20 @@
+id: glossary.terms.raja-yoga
+term:
+  en: Raja yoga
+  kn: ರಾಜಯೋಗ
+  hi: राजयोग
+sanskrit:
+  devanagari: राजयोग
+  kannada: ರಾಜಯೋಗ
+  usage: traditional term
+meaning:
+  en: A named combination traditionally read when considering responsibility and positions of influence.
+  kn: ಜವಾಬ್ದಾರಿ ಮತ್ತು ಪ್ರಭಾವದ ಬಗ್ಗೆ ನೋಡಲು ಬಳಸುವ ಗ್ರಹ ಸಂಬಂಧ.
+  hi: जिम्मेदारी और प्रभाव पर विचार करने के लिए देखा जाने वाला मेल।
+admin_note: Use this label for a named combination traditionally read when considering responsibility and positions of
+  influence. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.raja-yogas.fifth-from-lord
+- jaimini.raja-yogas.lords-aspect-anchors

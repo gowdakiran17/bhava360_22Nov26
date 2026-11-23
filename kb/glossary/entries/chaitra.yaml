@@ -1,0 +1,19 @@
+id: glossary.terms.chaitra
+term:
+  en: Chaitra
+  kn: ಚೈತ್ರ
+  hi: चैत्र
+sanskrit:
+  devanagari: चैत्र
+  kannada: ಚೈತ್ರ
+  usage: traditional term
+meaning:
+  en: A traditional lunar month associated with the start of the year in several Indian calendars.
+  kn: ಕೆಲವು ಭಾರತೀಯ ಪಂಚಾಂಗಗಳಲ್ಲಿ ವರ್ಷ ಆರಂಭವಾಗುವ ಚಂದ್ರಮಾಸ.
+  hi: कई भारतीय पंचांगों में वर्ष शुरू करने वाला चंद्र मास।
+admin_note: Use this label for a traditional lunar month associated with the start of the year in several Indian calendars.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.ugadi

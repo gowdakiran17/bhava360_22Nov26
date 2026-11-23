@@ -1,0 +1,44 @@
+id: glossary.terms.varga
+term:
+  en: Varga
+  kn: ವರ್ಗ
+  hi: वर्ग
+sanskrit:
+  devanagari: वर्ग
+  kannada: ವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A chart made by dividing each sign into smaller sections to explore a particular subject.
+  kn: ನಿರ್ದಿಷ್ಟ ವಿಷಯವನ್ನು ನೋಡಲು ಪ್ರತಿ ರಾಶಿಯನ್ನು ಚಿಕ್ಕ ಭಾಗಗಳಾಗಿ ವಿಂಗಡಿಸಿ ಮಾಡುವ ನಕ್ಷೆ.
+  hi: किसी खास विषय को समझने के लिए हर राशि को छोटे हिस्सों में बाँटकर बना नक्शा।
+admin_note: Use this label for a chart made by dividing each sign into smaller sections to explore a particular subject.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- divisional chart
+- Vargas
+- ವರ್ಗ ಕುಂಡಲಿ
+- वर्ग कुंडली
+reference_rules: []
+used_by:
+- jaimini.karakamsa.atmakaraka
+- vedic.matching.chart-cross-check
+- vedic.states.vargottama
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.saptavargaja
+- vedic.vargas.d1-placement
+- vedic.vargas.d10-placement
+- vedic.vargas.d12-placement
+- vedic.vargas.d16-placement
+- vedic.vargas.d2-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d24-placement
+- vedic.vargas.d27-placement
+- vedic.vargas.d3-placement
+- vedic.vargas.d30-placement
+- vedic.vargas.d4-placement
+- vedic.vargas.d40-placement
+- vedic.vargas.d45-placement
+- vedic.vargas.d60-placement
+- vedic.vargas.d7-placement
+- vedic.vargas.d9-placement

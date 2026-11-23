@@ -1,0 +1,24 @@
+id: glossary.terms.fire-hand-shape
+term:
+  en: Fire hand shape
+  kn: ಉದ್ದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+  hi: लंबी हथेली, छोटी उँगलियाँ
+sanskrit:
+  devanagari: अग्नि हस्ताकृति
+  kannada: ಅಗ್ನಿ ಹಸ್ತಾಕೃತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Long palm, shorter fingers.
+  kn: ಉದ್ದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು.
+  hi: लंबी हथेली, छोटी उँगलियाँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.hands.fire-left
+- palmistry.hands.fire-right
+used_by:
+- palmistry.hands.fire-left
+- palmistry.hands.fire-right
+systems:
+- palmistry

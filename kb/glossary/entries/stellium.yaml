@@ -1,0 +1,19 @@
+id: glossary.terms.stellium
+term:
+  en: Stellium
+  kn: ಸ್ಟೆಲಿಯಮ್
+  hi: स्टेलियम
+sanskrit:
+  devanagari: ग्रहसमूह
+  kannada: ಗ್ರಹಸಮೂಹ
+  usage: descriptive equivalent
+meaning:
+  en: A cluster of several planets in one part of a chart.
+  kn: ನಕ್ಷೆಯ ಒಂದೇ ಭಾಗದಲ್ಲಿ ಹಲವು ಗ್ರಹಗಳ ಗುಂಪು.
+  hi: पत्री के एक हिस्से में कई ग्रहों का समूह।
+admin_note: 'Application in western.patterns.stellium: Group at least three distinct natal planets in one tropical sign,
+  returning one maximal group per sign. Schools also use four planets, house clusters or a chain of conjunctions.'
+aliases: []
+reference_rules: []
+used_by:
+- western.patterns.stellium

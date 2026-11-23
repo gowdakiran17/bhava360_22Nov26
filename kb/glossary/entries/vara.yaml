@@ -1,0 +1,44 @@
+id: glossary.terms.vara
+term:
+  en: Vara
+  kn: ವಾರ
+  hi: वार
+sanskrit:
+  devanagari: वार
+  kannada: ವಾರ
+  usage: traditional term
+meaning:
+  en: The weekday, often counted from local sunrise in an Indian calendar.
+  kn: ಭಾರತೀಯ ಪಂಚಾಂಗದಲ್ಲಿ ಸಾಮಾನ್ಯವಾಗಿ ಸೂರ್ಯೋದಯದಿಂದ ಎಣಿಸುವ ವಾರದ ದಿನ.
+  hi: सप्ताह का दिन जिसे भारतीय पंचांग में प्रायः सूर्योदय से गिनते हैं।
+admin_note: 'Application in vedic.strength-shadbala.vara: Use the weekday lord of the first sunrise of the active sunrise
+  day. For completed sunrise days d from a bound cycle epoch, the zero-based weekday is (epoch weekday + span × floor(d/span))
+  modulo seven, Sunday first. Award points only to that lord.'
+aliases:
+- weekday ruler
+reference_rules: []
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.hora
+- vedic.panchang.local-sunrise
+- vedic.panchang.vara
+- vedic.planets-in-signs.jupiter-capricorn
+- vedic.planets-in-signs.ketu-capricorn
+- vedic.planets-in-signs.mars-capricorn
+- vedic.planets-in-signs.mercury-capricorn
+- vedic.planets-in-signs.moon-capricorn
+- vedic.planets-in-signs.rahu-capricorn
+- vedic.planets-in-signs.saturn-capricorn
+- vedic.planets-in-signs.sun-capricorn
+- vedic.planets-in-signs.venus-capricorn
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.vara
+- vedic.vargas.d9-placement

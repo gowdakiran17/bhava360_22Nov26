@@ -1,0 +1,20 @@
+id: glossary.terms.gnatikaraka
+term:
+  en: Gnatikaraka
+  kn: ಜ್ಞಾತಿಕಾರಕ
+  hi: ज्ञातिकारक
+sanskrit:
+  devanagari: ज्ञातिकारक
+  kannada: ಜ್ಞಾತಿಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent kin and challenges by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ಬಂಧುಗಳು ಮತ್ತು ಸವಾಲುಗಳು ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से कुटुंब और चुनौतियाँ का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds GK: rank 6 of seven or rank 7 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.gnatikaraka
+used_by:
+- jaimini.chara-karakas.gnatikaraka

@@ -1,0 +1,102 @@
+id: glossary.terms.palmistry
+term:
+  en: Palmistry
+  kn: ಹಸ್ತಸಾಮುದ್ರಿಕ
+  hi: हस्तरेखा अध्ययन
+sanskrit:
+  devanagari: हस्तसामुद्रिक
+  kannada: ಹಸ್ತಸಾಮುದ್ರಿಕ
+  usage: descriptive equivalent
+meaning:
+  en: A tradition of using the shapes and creases of a hand as subjects for reflection.
+  kn: ಕೈಯ ಆಕಾರ ಮತ್ತು ಗೆರೆಗಳನ್ನು ಚಿಂತನೆಗೆ ಬಳಸುವ ಪರಂಪರೆ.
+  hi: हाथ की बनावट और रेखाओं पर विचार करने की परंपरा।
+admin_note: Use this label for a tradition of using the shapes and creases of a hand as subjects for reflection. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- palm reading
+reference_rules: []
+used_by:
+- palmistry.fingers.long
+- palmistry.fingers.long-left
+- palmistry.fingers.long-right
+- palmistry.fingers.short
+- palmistry.fingers.short-left
+- palmistry.fingers.short-right
+- palmistry.fingers.thumb-long-left
+- palmistry.fingers.thumb-long-right
+- palmistry.fingers.thumb-short-left
+- palmistry.fingers.thumb-short-right
+- palmistry.hands.air
+- palmistry.hands.air-left
+- palmistry.hands.air-right
+- palmistry.hands.earth
+- palmistry.hands.earth-left
+- palmistry.hands.earth-right
+- palmistry.hands.fire
+- palmistry.hands.fire-left
+- palmistry.hands.fire-right
+- palmistry.hands.water
+- palmistry.hands.water-left
+- palmistry.hands.water-right
+- palmistry.lines.fate
+- palmistry.lines.fate-left
+- palmistry.lines.fate-right
+- palmistry.lines.head
+- palmistry.lines.head-left
+- palmistry.lines.head-right
+- palmistry.lines.heart
+- palmistry.lines.heart-left
+- palmistry.lines.heart-right
+- palmistry.lines.life
+- palmistry.lines.life-broken-left
+- palmistry.lines.life-broken-right
+- palmistry.lines.life-left
+- palmistry.lines.life-right
+- palmistry.lines.life-short-left
+- palmistry.lines.life-short-right
+- palmistry.lines.mercury-left
+- palmistry.lines.mercury-right
+- palmistry.lines.sun
+- palmistry.lines.sun-left
+- palmistry.lines.sun-right
+- palmistry.lines.union
+- palmistry.lines.union-left
+- palmistry.lines.union-right
+- palmistry.marks.cross-left
+- palmistry.marks.cross-right
+- palmistry.marks.grid-left
+- palmistry.marks.grid-right
+- palmistry.marks.island-left
+- palmistry.marks.island-right
+- palmistry.marks.square-left
+- palmistry.marks.square-right
+- palmistry.marks.star-left
+- palmistry.marks.star-right
+- palmistry.marks.triangle-left
+- palmistry.marks.triangle-right
+- palmistry.mounts.apollo
+- palmistry.mounts.apollo-left
+- palmistry.mounts.apollo-right
+- palmistry.mounts.jupiter
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+- palmistry.mounts.luna
+- palmistry.mounts.luna-left
+- palmistry.mounts.luna-right
+- palmistry.mounts.mars
+- palmistry.mounts.mars-left
+- palmistry.mounts.mars-lower-left
+- palmistry.mounts.mars-lower-right
+- palmistry.mounts.mars-right
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+- palmistry.mounts.mercury
+- palmistry.mounts.mercury-left
+- palmistry.mounts.mercury-right
+- palmistry.mounts.saturn
+- palmistry.mounts.saturn-left
+- palmistry.mounts.saturn-right
+- palmistry.mounts.venus
+- palmistry.mounts.venus-left
+- palmistry.mounts.venus-right

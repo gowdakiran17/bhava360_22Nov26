@@ -1,0 +1,20 @@
+id: glossary.terms.ekadhipatya
+term:
+  en: Ekadhipatya
+  kn: ಏಕಾಧಿಪತ್ಯ
+  hi: एकाधिपत्य
+sanskrit:
+  devanagari: एकाधिपत्य
+  kannada: ಏಕಾಧಿಪತ್ಯ
+  usage: traditional term
+meaning:
+  en: A reduction comparing the two signs ruled by the same planet.
+  kn: ಒಂದೇ ಗ್ರಹ ಆಳುವ ಎರಡು ರಾಶಿಗಳನ್ನು ಹೋಲಿಸಿ ಮೊತ್ತ ಕಡಿಮೆ ಮಾಡುವುದು.
+  hi: एक ग्रह की दो राशियों की तुलना से गिनती घटाना।
+admin_note: Use this label for a reduction comparing the two signs ruled by the same planet. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.shodhana
+- vedic.strength-ashtakavarga.shodhya-pinda

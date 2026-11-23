@@ -1,0 +1,29 @@
+id: glossary.terms.combustion
+term:
+  en: Combustion
+  kn: ಅಸ್ತ
+  hi: अस्त
+sanskrit:
+  devanagari: अस्त
+  kannada: ಅಸ್ತ
+  usage: traditional term
+meaning:
+  en: A planet lies close enough to the Sun in the sky to meet a traditional distance threshold.
+  kn: ಸೂರ್ಯನ ಸಮೀಪಕ್ಕೆ ನಿಗದಿತ ಅಂತರದೊಳಗೆ ಗ್ರಹ ಬರುವ ಸ್ಥಿತಿ.
+  hi: सूर्य से तय दूरी के अंदर किसी ग्रह का आना।
+admin_note: 'Application in vedic.states.combustion: For an eligible graha, match when its shortest natal longitude separation
+  from the Sun is at or below its motion-specific threshold. Exclude the Sun and both nodes.'
+aliases:
+- Asta
+reference_rules: []
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.states.combustion
+- vedic.yogas.budhaditya

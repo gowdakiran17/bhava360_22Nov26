@@ -1,0 +1,19 @@
+id: glossary.terms.ugadi
+term:
+  en: Ugadi
+  kn: ಯುಗಾದಿ
+  hi: युगादि
+sanskrit:
+  devanagari: युगादि
+  kannada: ಯುಗಾದಿ
+  usage: traditional term
+meaning:
+  en: A regional new-year observance determined using the spring lunar calendar.
+  kn: ವಸಂತದ ಚಂದ್ರಪಂಚಾಂಗದಿಂದ ನಿರ್ಧರಿಸುವ ಪ್ರಾದೇಶಿಕ ಹೊಸ ವರ್ಷ.
+  hi: वसंत के चंद्र पंचांग से तय क्षेत्रीय नववर्ष।
+admin_note: 'Application in vedic.panchang.ugadi: Match the selected local date to the Ugadi selector in calendar-profiles.yaml
+  after resolving the amanta Chaitra month and both adjacent sunrises.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.ugadi

@@ -1,0 +1,20 @@
+id: glossary.terms.koch
+term:
+  en: Koch
+  kn: ಕಾಲಭಾವಪದ್ಧತಿ
+  hi: कालभावपद्धति
+sanskrit:
+  devanagari: कालभावपद्धति
+  kannada: ಕಾಲಭಾವಪದ್ಧತಿ
+  usage: traditional term
+meaning:
+  en: A time-based way of dividing a chart into twelve houses.
+  kn: ಸಮಯದ ಆಧಾರದಲ್ಲಿ ನಕ್ಷೆಯನ್ನು ಹನ್ನೆರಡು ಮನೆಗಳಾಗಿ ಭಾಗಿಸುವ ವಿಧಾನ.
+  hi: समय के आधार पर पत्री को बारह घरों में बाँटने की विधि।
+admin_note: Use this label for a time-based way of dividing a chart into twelve houses. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- shared/conventions/profiles.yaml

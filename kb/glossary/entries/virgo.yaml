@@ -1,0 +1,81 @@
+id: glossary.terms.virgo
+term:
+  en: Virgo
+  kn: ಕನ್ಯಾ
+  hi: कन्या
+sanskrit:
+  devanagari: कन्या
+  kannada: ಕನ್ಯಾ
+  usage: traditional term
+meaning:
+  en: Sign number 6 in the twelve-part circle, covering degrees 150 to 180.
+  kn: ರಾಶಿಚಕ್ರದ 6ನೇ ಭಾಗ, 150ರಿಂದ 180 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 6, 150 से 180 अंश तक।
+admin_note: 'Application in western.signs.virgo: The selected tropical point falls in [150, 180) degrees from the March
+  equinox. Mutable earth; modern ruler mercury, traditional ruler mercury.'
+aliases:
+- Kanya
+reference_rules:
+- vedic.signs.virgo
+used_by:
+- tarot.major-arcana.the-hermit-reversed
+- tarot.major-arcana.the-hermit-upright
+- tarot.minor-arcana.eight-of-pentacles-reversed
+- tarot.minor-arcana.eight-of-pentacles-upright
+- tarot.minor-arcana.king-of-pentacles-reversed
+- tarot.minor-arcana.king-of-pentacles-upright
+- tarot.minor-arcana.nine-of-pentacles-reversed
+- tarot.minor-arcana.nine-of-pentacles-upright
+- tarot.minor-arcana.queen-of-swords-reversed
+- tarot.minor-arcana.queen-of-swords-upright
+- tarot.minor-arcana.ten-of-pentacles-reversed
+- tarot.minor-arcana.ten-of-pentacles-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.virgo-lagna-lord
+- vedic.muhurta.education-start
+- vedic.muhurta.marriage
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-virgo
+- vedic.planets-in-signs.ketu-virgo
+- vedic.planets-in-signs.mars-virgo
+- vedic.planets-in-signs.mercury-virgo
+- vedic.planets-in-signs.moon-virgo
+- vedic.planets-in-signs.rahu-virgo
+- vedic.planets-in-signs.saturn-virgo
+- vedic.planets-in-signs.sun-virgo
+- vedic.planets-in-signs.venus-virgo
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.virgo
+- vedic.strength-ashtakavarga.shodhya-pinda
+- vedic.vargas.d30-placement
+- western.natal.ascendant-virgo
+- western.natal.jupiter-virgo
+- western.natal.mars-virgo
+- western.natal.mercury-virgo
+- western.natal.moon-virgo
+- western.natal.neptune-virgo
+- western.natal.pluto-virgo
+- western.natal.saturn-virgo
+- western.natal.sun-virgo
+- western.natal.uranus-virgo
+- western.natal.venus-virgo
+- western.signs.virgo

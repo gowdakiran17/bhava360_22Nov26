@@ -1,0 +1,22 @@
+id: glossary.terms.career-spread
+term:
+  en: Career spread
+  kn: ವೃತ್ತಿ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: काम का पत्ता विन्यास
+sanskrit:
+  devanagari: कर्मपत्रविन्यास
+  kannada: ಕರ್ಮಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards help explore a current task, a useful skill and a next step.
+  kn: ಕೆಲಸ, ಕೌಶಲ ಮತ್ತು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ನೋಡಲು ಮೂರು ಪತ್ರಗಳು.
+  hi: काम, उपयोगी कौशल और अगला कदम देखने के लिए तीन पत्ते।
+admin_note: 'Read the positions in order: current-task, skill-to-use, next-step. The final prompt invites reflection
+  or a chosen action.'
+aliases: []
+reference_rules:
+- career
+used_by:
+- career
+systems:
+- tarot

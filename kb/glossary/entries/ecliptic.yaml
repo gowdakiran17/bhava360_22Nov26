@@ -1,0 +1,22 @@
+id: glossary.terms.ecliptic
+term:
+  en: Ecliptic
+  kn: ಕ್ರಾಂತಿವೃತ್ತ
+  hi: क्रांतिवृत्त
+sanskrit:
+  devanagari: क्रान्तिवृत्त
+  kannada: ಕ್ರಾನ್ತಿವೃತ್ತ
+  usage: descriptive equivalent
+meaning:
+  en: The path the Sun appears to follow around the sky over a year.
+  kn: ವರ್ಷದಲ್ಲಿ ಸೂರ್ಯನು ಆಕಾಶದಲ್ಲಿ ಸಾಗಿದಂತೆ ಕಾಣುವ ಮಾರ್ಗ.
+  hi: साल भर में आकाश पर सूर्य की दिखाई देने वाली राह।
+admin_note: Use this label for the path the Sun appears to follow around the sky over a year. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.states.combustion
+- vedic.states.graha-yuddha
+- vedic.states.vakri
+- vedic.strength-shadbala.yuddha

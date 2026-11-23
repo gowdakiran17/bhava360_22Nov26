@@ -1,0 +1,22 @@
+id: glossary.terms.rasi-drishti
+term:
+  en: Rasi drishti
+  kn: ರಾಶಿದೃಷ್ಟಿ
+  hi: राशिदृष्टि
+sanskrit:
+  devanagari: राशिदृष्टि
+  kannada: ರಾಶಿದೃಷ್ಟಿ
+  usage: traditional term
+meaning:
+  en: Signs are read as connected according to which groups they belong to.
+  kn: ರಾಶಿಗಳು ಯಾವ ಗುಂಪಿಗೆ ಸೇರುತ್ತವೆ ಎಂಬುದರಿಂದ ಅವುಗಳ ನಡುವಿನ ಸಂಬಂಧ.
+  hi: राशियों के समूहों के आधार पर उनके बीच माना गया संबंध।
+admin_note: Use this label for signs are read as connected according to which groups they belong to. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Rashi drishti
+- sign aspect
+reference_rules: []
+used_by:
+- jaimini.raja-yogas.lords-aspect-anchors
+- jaimini.rashi-drishti.sign-contact

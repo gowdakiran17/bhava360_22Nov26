@@ -1,0 +1,25 @@
+id: glossary.terms.the-tower-tarot
+term:
+  en: The Tower (Tarot)
+  kn: ಗೋಪುರ (ಟ್ಯಾರೊ)
+  hi: मीनार (टैरो)
+sanskrit:
+  devanagari: मीनार
+  kannada: ಮೀನಾರ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 16, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 16 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 16 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: A plan may rest on an assumption you have
+  outgrown. You can name what still holds and reconsider one part of the plan.'
+aliases:
+- The Tower
+reference_rules:
+- tarot.major-arcana.the-tower-upright
+- tarot.major-arcana.the-tower-reversed
+used_by:
+- tarot.major-arcana.the-tower-reversed
+- tarot.major-arcana.the-tower-upright
+systems:
+- tarot

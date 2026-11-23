@@ -1,0 +1,27 @@
+id: glossary.terms.luminary
+term:
+  en: Luminary
+  kn: ಪ್ರಕಾಶಕ
+  hi: प्रकाशक पिंड
+sanskrit:
+  devanagari: ज्योतिःपिण्ड
+  kannada: ಜ್ಯೋತಿಃಪಿಣ್ಡ
+  usage: descriptive equivalent
+meaning:
+  en: Either the Sun or Moon when they are considered together as the two lights of a chart.
+  kn: ನಕ್ಷೆಯ ಎರಡು ಬೆಳಕುಗಳಾಗಿ ಪರಿಗಣಿಸಿದಾಗ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ.
+  hi: पत्री के दो प्रकाशक पिंडों में से सूर्य या चंद्रमा।
+admin_note: Use this label for either the Sun or Moon when they are considered together as the two lights of a chart.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- luminaries
+reference_rules: []
+used_by:
+- vedic.doshas.grahan
+- vedic.doshas.pitru
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.kala
+- vedic.yogas.kemadruma
+- vedic.yogas.ubhayachari
+- vedic.yogas.vesi
+- vedic.yogas.vosi

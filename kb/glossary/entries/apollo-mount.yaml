@@ -1,0 +1,25 @@
+id: glossary.terms.apollo-mount
+term:
+  en: Apollo mount
+  kn: ಉಂಗುರದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  hi: अनामिका के नीचे उभरा भाग
+sanskrit:
+  devanagari: सूर्य करतलोन्नति
+  kannada: ಸೂರ್ಯ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised pad beneath the ring finger.
+  kn: ಉಂಗುರದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ.
+  hi: अनामिका के नीचे उभरा भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.apollo-left
+- palmistry.mounts.apollo-right
+used_by:
+- palmistry.mounts.apollo
+- palmistry.mounts.apollo-left
+- palmistry.mounts.apollo-right
+systems:
+- palmistry

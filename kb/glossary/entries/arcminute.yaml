@@ -1,0 +1,48 @@
+id: glossary.terms.arcminute
+term:
+  en: Arcminute
+  kn: ಕೋನ ನಿಮಿಷ
+  hi: कोण मिनट
+sanskrit:
+  devanagari: कलामान
+  kannada: ಕಲಾಮಾನ
+  usage: descriptive equivalent
+meaning:
+  en: One sixtieth of a degree of angle.
+  kn: ಒಂದು ಅಂಶದ ಅರವತ್ತನೇ ಭಾಗ.
+  hi: कोण के एक अंश का साठवाँ भाग।
+admin_note: Use this label for one sixtieth of a degree of angle. Read the linked entries for the applicable conditions
+  and differences between methods.
+aliases:
+- arcminutes
+reference_rules: []
+used_by:
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.strength-ashtakavarga.kakshya

@@ -1,0 +1,25 @@
+id: glossary.terms.knight-of-cups-tarot
+term:
+  en: Knight Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಸವಾರ
+  hi: प्याला · सवार
+sanskrit:
+  devanagari: चषक अश्वारोही
+  kannada: ಚಷಕ ಅಶ್ವಾರೋಹೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank knight in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಸವಾರ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · सवार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a heartfelt
+  gesture. What comes to mind in this position?'
+aliases:
+- Knight Of Cups
+reference_rules:
+- tarot.minor-arcana.knight-of-cups-upright
+- tarot.minor-arcana.knight-of-cups-reversed
+used_by:
+- tarot.minor-arcana.knight-of-cups-reversed
+- tarot.minor-arcana.knight-of-cups-upright
+systems:
+- tarot

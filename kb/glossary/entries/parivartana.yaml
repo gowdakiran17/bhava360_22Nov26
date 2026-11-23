@@ -1,0 +1,156 @@
+id: glossary.terms.parivartana
+term:
+  en: Parivartana
+  kn: ಪರಿವರ್ತನ
+  hi: परिवर्तन
+sanskrit:
+  devanagari: परिवर्तन
+  kannada: ಪರಿವರ್ತನ
+  usage: traditional term
+meaning:
+  en: Two planets each occupy a sign ruled by the other.
+  kn: ಎರಡು ಗ್ರಹಗಳು ಪರಸ್ಪರರ ರಾಶಿಯಲ್ಲಿ ಇರುವುದು.
+  hi: दो ग्रहों का एक दूसरे की राशि में होना।
+admin_note: 'Application in vedic.yogas.parivartana: For the bound pair of distinct houses, their two distinct classical
+  sign rulers each occupy the other house in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.'
+aliases:
+- mutual exchange
+- exchange of signs
+reference_rules: []
+used_by:
+- vedic.house-lords.lord-1-in-house-10
+- vedic.house-lords.lord-1-in-house-11
+- vedic.house-lords.lord-1-in-house-12
+- vedic.house-lords.lord-1-in-house-2
+- vedic.house-lords.lord-1-in-house-3
+- vedic.house-lords.lord-1-in-house-4
+- vedic.house-lords.lord-1-in-house-5
+- vedic.house-lords.lord-1-in-house-6
+- vedic.house-lords.lord-1-in-house-7
+- vedic.house-lords.lord-1-in-house-8
+- vedic.house-lords.lord-1-in-house-9
+- vedic.house-lords.lord-10-in-house-1
+- vedic.house-lords.lord-10-in-house-11
+- vedic.house-lords.lord-10-in-house-12
+- vedic.house-lords.lord-10-in-house-2
+- vedic.house-lords.lord-10-in-house-3
+- vedic.house-lords.lord-10-in-house-4
+- vedic.house-lords.lord-10-in-house-5
+- vedic.house-lords.lord-10-in-house-6
+- vedic.house-lords.lord-10-in-house-7
+- vedic.house-lords.lord-10-in-house-8
+- vedic.house-lords.lord-10-in-house-9
+- vedic.house-lords.lord-11-in-house-1
+- vedic.house-lords.lord-11-in-house-10
+- vedic.house-lords.lord-11-in-house-12
+- vedic.house-lords.lord-11-in-house-2
+- vedic.house-lords.lord-11-in-house-3
+- vedic.house-lords.lord-11-in-house-4
+- vedic.house-lords.lord-11-in-house-5
+- vedic.house-lords.lord-11-in-house-6
+- vedic.house-lords.lord-11-in-house-7
+- vedic.house-lords.lord-11-in-house-8
+- vedic.house-lords.lord-11-in-house-9
+- vedic.house-lords.lord-12-in-house-1
+- vedic.house-lords.lord-12-in-house-10
+- vedic.house-lords.lord-12-in-house-11
+- vedic.house-lords.lord-12-in-house-2
+- vedic.house-lords.lord-12-in-house-3
+- vedic.house-lords.lord-12-in-house-4
+- vedic.house-lords.lord-12-in-house-5
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-12-in-house-7
+- vedic.house-lords.lord-12-in-house-8
+- vedic.house-lords.lord-12-in-house-9
+- vedic.house-lords.lord-2-in-house-1
+- vedic.house-lords.lord-2-in-house-10
+- vedic.house-lords.lord-2-in-house-11
+- vedic.house-lords.lord-2-in-house-12
+- vedic.house-lords.lord-2-in-house-3
+- vedic.house-lords.lord-2-in-house-4
+- vedic.house-lords.lord-2-in-house-5
+- vedic.house-lords.lord-2-in-house-6
+- vedic.house-lords.lord-2-in-house-7
+- vedic.house-lords.lord-2-in-house-8
+- vedic.house-lords.lord-2-in-house-9
+- vedic.house-lords.lord-3-in-house-1
+- vedic.house-lords.lord-3-in-house-10
+- vedic.house-lords.lord-3-in-house-11
+- vedic.house-lords.lord-3-in-house-12
+- vedic.house-lords.lord-3-in-house-2
+- vedic.house-lords.lord-3-in-house-4
+- vedic.house-lords.lord-3-in-house-5
+- vedic.house-lords.lord-3-in-house-6
+- vedic.house-lords.lord-3-in-house-7
+- vedic.house-lords.lord-3-in-house-8
+- vedic.house-lords.lord-3-in-house-9
+- vedic.house-lords.lord-4-in-house-1
+- vedic.house-lords.lord-4-in-house-10
+- vedic.house-lords.lord-4-in-house-11
+- vedic.house-lords.lord-4-in-house-12
+- vedic.house-lords.lord-4-in-house-2
+- vedic.house-lords.lord-4-in-house-3
+- vedic.house-lords.lord-4-in-house-5
+- vedic.house-lords.lord-4-in-house-6
+- vedic.house-lords.lord-4-in-house-7
+- vedic.house-lords.lord-4-in-house-8
+- vedic.house-lords.lord-4-in-house-9
+- vedic.house-lords.lord-5-in-house-1
+- vedic.house-lords.lord-5-in-house-10
+- vedic.house-lords.lord-5-in-house-11
+- vedic.house-lords.lord-5-in-house-12
+- vedic.house-lords.lord-5-in-house-2
+- vedic.house-lords.lord-5-in-house-3
+- vedic.house-lords.lord-5-in-house-4
+- vedic.house-lords.lord-5-in-house-6
+- vedic.house-lords.lord-5-in-house-7
+- vedic.house-lords.lord-5-in-house-8
+- vedic.house-lords.lord-5-in-house-9
+- vedic.house-lords.lord-6-in-house-1
+- vedic.house-lords.lord-6-in-house-10
+- vedic.house-lords.lord-6-in-house-11
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-2
+- vedic.house-lords.lord-6-in-house-3
+- vedic.house-lords.lord-6-in-house-4
+- vedic.house-lords.lord-6-in-house-5
+- vedic.house-lords.lord-6-in-house-7
+- vedic.house-lords.lord-6-in-house-8
+- vedic.house-lords.lord-6-in-house-9
+- vedic.house-lords.lord-7-in-house-1
+- vedic.house-lords.lord-7-in-house-10
+- vedic.house-lords.lord-7-in-house-11
+- vedic.house-lords.lord-7-in-house-12
+- vedic.house-lords.lord-7-in-house-2
+- vedic.house-lords.lord-7-in-house-3
+- vedic.house-lords.lord-7-in-house-4
+- vedic.house-lords.lord-7-in-house-5
+- vedic.house-lords.lord-7-in-house-6
+- vedic.house-lords.lord-7-in-house-8
+- vedic.house-lords.lord-7-in-house-9
+- vedic.house-lords.lord-8-in-house-1
+- vedic.house-lords.lord-8-in-house-10
+- vedic.house-lords.lord-8-in-house-11
+- vedic.house-lords.lord-8-in-house-12
+- vedic.house-lords.lord-8-in-house-2
+- vedic.house-lords.lord-8-in-house-3
+- vedic.house-lords.lord-8-in-house-4
+- vedic.house-lords.lord-8-in-house-5
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-8-in-house-7
+- vedic.house-lords.lord-8-in-house-9
+- vedic.house-lords.lord-9-in-house-1
+- vedic.house-lords.lord-9-in-house-10
+- vedic.house-lords.lord-9-in-house-11
+- vedic.house-lords.lord-9-in-house-12
+- vedic.house-lords.lord-9-in-house-2
+- vedic.house-lords.lord-9-in-house-3
+- vedic.house-lords.lord-9-in-house-4
+- vedic.house-lords.lord-9-in-house-5
+- vedic.house-lords.lord-9-in-house-6
+- vedic.house-lords.lord-9-in-house-7
+- vedic.house-lords.lord-9-in-house-8
+- vedic.yogas.parivartana
+- vedic.yogas.parivartana-dainya
+- vedic.yogas.parivartana-khala
+- vedic.yogas.parivartana-maha

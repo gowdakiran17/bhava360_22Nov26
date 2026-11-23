@@ -1,0 +1,38 @@
+id: glossary.terms.progression
+term:
+  en: Progression
+  kn: ಪ್ರಗತಿ ವಿಧಾನ
+  hi: प्रगति विधि
+sanskrit:
+  devanagari: दिनवर्षपद्धति
+  kannada: ದಿನವರ್ಷಪದ್ಧತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A timing method that lets one day after birth stand for one year of life in this library.
+  kn: ಇಲ್ಲಿ ಜನನದ ನಂತರದ ಒಂದು ದಿನವನ್ನು ಜೀವನದ ಒಂದು ವರ್ಷವಾಗಿ ನೋಡುವ ಕಾಲಗಣನೆ.
+  hi: यहाँ समय देखने की विधि जिसमें जन्म के बाद का एक दिन जीवन के एक वर्ष के बराबर लिया जाता है।
+admin_note: 'Application in vedic.dashas-narayana.progression: At birth begin with the stronger of Lagna and its seventh,
+  using the strength comparison in periods.yaml. Use the ninth from that seed to select direction as in Chara. Traverse
+  the seed-modality offsets in that direction. Saturn in the seed gives ordinary forward succession; otherwise Ketu in
+  the seed reverses the normal direction. Compute first-cycle lengths by directed lord distance and dignity as in Chara.
+  Cap a first-pass length at twelve for this complementary profile. In the second pass the same sign receives twelve
+  minus its first length. Skip zero spans. For Antar take the stronger of the parent sign and its seventh. Start in the
+  sign occupied by its lord. Count forward from an odd start, backward from an even start. Saturn in the stronger sign
+  forces forward; otherwise Ketu there reverses direction. Each child takes one twelfth.'
+aliases:
+- secondary progression
+- progressions
+reference_rules: []
+used_by:
+- vedic.dashas-chara.home-topic
+- vedic.dashas-chara.sign-order
+- vedic.dashas-narayana.partnership-topic
+- vedic.dashas-narayana.progression
+- western.progressions.progressed-moon
+- western.progressions.secondary-contact
+- western.progressions.secondary-contact-conjunction
+- western.progressions.secondary-contact-opposition
+- western.progressions.secondary-contact-quincunx
+- western.progressions.secondary-contact-sextile
+- western.progressions.secondary-contact-square
+- western.progressions.secondary-contact-trine

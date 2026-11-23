@@ -1,0 +1,25 @@
+id: glossary.terms.nine-of-wands-tarot
+term:
+  en: Nine Of Wands (Tarot)
+  kn: ಕೋಲು · ಒಂಬತ್ತು
+  hi: छड़ी · नौ
+sanskrit:
+  devanagari: दण्ड नव
+  kannada: ದಣ್ಡ ನವ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank nine in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಒಂಬತ್ತು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · नौ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on persistence.
+  What comes to mind in this position?'
+aliases:
+- Nine Of Wands
+reference_rules:
+- tarot.minor-arcana.nine-of-wands-upright
+- tarot.minor-arcana.nine-of-wands-reversed
+used_by:
+- tarot.minor-arcana.nine-of-wands-reversed
+- tarot.minor-arcana.nine-of-wands-upright
+systems:
+- tarot

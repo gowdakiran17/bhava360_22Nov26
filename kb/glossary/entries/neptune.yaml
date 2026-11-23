@@ -1,0 +1,45 @@
+id: glossary.terms.neptune
+term:
+  en: Neptune
+  kn: ನೆಪ್ಚೂನ್
+  hi: नेपच्यून
+sanskrit:
+  devanagari: नेपच्यून
+  kannada: ನೇಪಚ್ಯೂನ
+  usage: modern name in transliteration
+meaning:
+  en: The planet numbered 8 outward from the Sun.
+  kn: ಸೂರ್ಯನಿಂದ 8ನೇ ಗ್ರಹ.
+  hi: सूर्य से 8वाँ ग्रह।
+admin_note: 'Application in western.planets.neptune: Use the cohort meaning when the selected natal placement is Neptune.
+  Add the personal reading only with a chart-specific contact.'
+aliases: []
+reference_rules:
+- western.planets.neptune
+used_by:
+- western.natal.neptune-aquarius
+- western.natal.neptune-aries
+- western.natal.neptune-cancer
+- western.natal.neptune-capricorn
+- western.natal.neptune-gemini
+- western.natal.neptune-house-1
+- western.natal.neptune-house-10
+- western.natal.neptune-house-11
+- western.natal.neptune-house-12
+- western.natal.neptune-house-2
+- western.natal.neptune-house-3
+- western.natal.neptune-house-4
+- western.natal.neptune-house-5
+- western.natal.neptune-house-6
+- western.natal.neptune-house-7
+- western.natal.neptune-house-8
+- western.natal.neptune-house-9
+- western.natal.neptune-leo
+- western.natal.neptune-libra
+- western.natal.neptune-pisces
+- western.natal.neptune-sagittarius
+- western.natal.neptune-scorpio
+- western.natal.neptune-taurus
+- western.natal.neptune-virgo
+- western.planets.neptune
+- western.signs.pisces

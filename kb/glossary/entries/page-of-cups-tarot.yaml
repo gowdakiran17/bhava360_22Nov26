@@ -1,0 +1,25 @@
+id: glossary.terms.page-of-cups-tarot
+term:
+  en: Page Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ದೂತ
+  hi: प्याला · दूत
+sanskrit:
+  devanagari: चषक दूत
+  kannada: ಚಷಕ ದೂತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank page in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ದೂತ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · दूत की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a gentle invitation.
+  What comes to mind in this position?'
+aliases:
+- Page Of Cups
+reference_rules:
+- tarot.minor-arcana.page-of-cups-upright
+- tarot.minor-arcana.page-of-cups-reversed
+used_by:
+- tarot.minor-arcana.page-of-cups-reversed
+- tarot.minor-arcana.page-of-cups-upright
+systems:
+- tarot

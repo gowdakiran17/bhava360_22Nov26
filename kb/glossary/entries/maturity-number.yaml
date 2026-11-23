@@ -1,0 +1,20 @@
+id: glossary.terms.maturity-number
+term:
+  en: Maturity number
+  kn: ಪಕ್ವತೆಯ ಸಂಖ್ಯೆ
+  hi: परिपक्वता अंक
+sanskrit:
+  devanagari: परिपाकाङ्क
+  kannada: ಪರಿಪಾಕಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number formed by combining the number from the birth date with the number from the full name.
+  kn: ಜನ್ಮದಿನಾಂಕ ಮತ್ತು ಪೂರ್ಣಹೆಸರಿನ ಸಂಖ್ಯೆಗಳನ್ನು ಸೇರಿಸಿ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: जन्मतिथि और पूरे नाम के अंकों को मिलाकर निकली संख्या।
+admin_note: 'Application in numerology.pythagorean.maturity: Add the Life Path and Expression in the same profile and
+  reduce.'
+aliases: []
+reference_rules:
+- numerology.pythagorean.maturity
+used_by:
+- numerology.pythagorean.maturity

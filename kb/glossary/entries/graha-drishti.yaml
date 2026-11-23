@@ -1,0 +1,26 @@
+id: glossary.terms.graha-drishti
+term:
+  en: Graha drishti
+  kn: ಗ್ರಹದೃಷ್ಟಿ
+  hi: ग्रहदृष्टि
+sanskrit:
+  devanagari: ग्रहदृष्टि
+  kannada: ಗ್ರಹದೃಷ್ಟಿ
+  usage: traditional term
+meaning:
+  en: A planet is read in relation to places counted from its position.
+  kn: ಗ್ರಹದಿಂದ ಎಣಿಸಿದ ಕೆಲವು ಸ್ಥಾನಗಳೊಡನೆ ಅದರ ಸಂಬಂಧ.
+  hi: ग्रह से गिने गए कुछ स्थानों के साथ उसका संबंध।
+admin_note: 'Application in vedic.states.graha-drishti: Count forward from the source graha’s D1 sign as one. Match a
+  full aspect when the target sign falls at a listed distance for that source.'
+aliases:
+- planetary aspect
+reference_rules: []
+used_by:
+- vedic.states.graha-drishti
+- western.aspects.conjunction
+- western.aspects.opposition
+- western.aspects.quincunx
+- western.aspects.sextile
+- western.aspects.square
+- western.aspects.trine

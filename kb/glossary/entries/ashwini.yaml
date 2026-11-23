@@ -1,0 +1,31 @@
+id: glossary.terms.ashwini
+term:
+  en: Ashwini
+  kn: ಅಶ್ವಿನೀ
+  hi: अश्विनी
+sanskrit:
+  devanagari: अश्विनी
+  kannada: ಅಶ್ವಿನೀ
+  usage: traditional term
+meaning:
+  en: Section 1 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 1ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 1।
+admin_note: 'Application in vedic.nakshatras.ashwini: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.ashwini
+used_by:
+- vedic.dashas-vimshottari.balance-calculation
+- vedic.dashas-yogini.balance-calculation
+- vedic.matching.nadi
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.nakshatras.ashwini
+- vedic.panchang.nakshatra

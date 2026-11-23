@@ -1,0 +1,20 @@
+id: glossary.terms.deepavali
+term:
+  en: Deepavali
+  kn: ದೀಪಾವಲೀ
+  hi: दीपावली
+sanskrit:
+  devanagari: दीपावली
+  kannada: ದೀಪಾವಲೀ
+  usage: traditional term
+meaning:
+  en: A festival of lights whose observance date can differ with region and local calendar rules.
+  kn: ಪ್ರದೇಶ ಮತ್ತು ಸ್ಥಳೀಯ ಪಂಚಾಂಗಕ್ಕೆ ತಕ್ಕಂತೆ ದಿನ ಬದಲಾಗಬಹುದಾದ ದೀಪಗಳ ಹಬ್ಬ.
+  hi: दीपों का त्योहार जिसकी तिथि क्षेत्र और स्थानीय पंचांग के अनुसार बदल सकती है।
+admin_note: 'Application in vedic.panchang.deepavali: Match the local date selected by the Deepavali evening rule in
+  calendar-profiles.yaml. Bind the ritual, regional month name, tithi interval and candidate evenings.'
+aliases:
+- Dipavali
+reference_rules: []
+used_by:
+- vedic.panchang.deepavali

@@ -1,0 +1,24 @@
+id: glossary.terms.union-line
+term:
+  en: Union line
+  kn: ಅಂಗೈ ಹೊರ ಅಂಚಿನ ಪುಟ್ಟ ಅಡ್ಡ ಗೆರೆ
+  hi: हथेली के बाहरी किनारे की छोटी आड़ी रेखा
+sanskrit:
+  devanagari: सम्बन्ध हस्तरेखा
+  kannada: ಸಮ್ಬನ್ಧ ಹಸ್ತರೇಖಾ
+  usage: descriptive equivalent
+meaning:
+  en: Short horizontal crease at the outer palm edge.
+  kn: ಅಂಗೈ ಹೊರ ಅಂಚಿನ ಪುಟ್ಟ ಅಡ್ಡ ಗೆರೆ.
+  hi: हथेली के बाहरी किनारे की छोटी आड़ी रेखा।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.lines.union-left
+- palmistry.lines.union-right
+used_by:
+- palmistry.lines.union-left
+- palmistry.lines.union-right
+systems:
+- palmistry

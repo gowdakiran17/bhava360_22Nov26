@@ -1,0 +1,20 @@
+id: glossary.terms.descendant
+term:
+  en: Descendant
+  kn: ಅಸ್ತಲಗ್ನ
+  hi: अस्तलग्न
+sanskrit:
+  devanagari: अस्तलग्न
+  kannada: ಅಸ್ತಲಗ್ನ
+  usage: traditional term
+meaning:
+  en: The point on the zodiac setting in the west at the time of the chart.
+  kn: ಆ ಕ್ಷಣಕ್ಕೆ ಪಶ್ಚಿಮದಲ್ಲಿ ಅಸ್ತವಾಗುತ್ತಿರುವ ರಾಶಿಚಕ್ರದ ಬಿಂದು.
+  hi: उस समय पश्चिम में डूब रहा राशि चक्र का बिंदु।
+admin_note: Use this label for the point on the zodiac setting in the west at the time of the chart. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- DSC
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.dig

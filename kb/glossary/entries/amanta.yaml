@@ -1,0 +1,20 @@
+id: glossary.terms.amanta
+term:
+  en: Amanta
+  kn: ಅಮಾನ್ತ
+  hi: अमान्त
+sanskrit:
+  devanagari: अमान्त
+  kannada: ಅಮಾನ್ತ
+  usage: traditional term
+meaning:
+  en: A calendar convention in which the lunar month ends at the new Moon.
+  kn: ಅಮಾವಾಸ್ಯೆಯಲ್ಲಿ ಚಂದ್ರಮಾಸ ಮುಗಿಯುವ ಪದ್ಧತಿ.
+  hi: अमावस्या पर चंद्र मास समाप्त करने की रीति।
+admin_note: Use this label for a calendar convention in which the lunar month ends at the new Moon. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.adhika-masa
+- vedic.panchang.ugadi

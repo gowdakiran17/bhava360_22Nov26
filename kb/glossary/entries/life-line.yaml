@@ -1,0 +1,22 @@
+id: glossary.terms.life-line
+term:
+  en: Life line
+  kn: ಜೀವನರೇಖಾ
+  hi: जीवनरेखा
+sanskrit:
+  devanagari: जीवनरेखा
+  kannada: ಜೀವನರೇಖಾ
+  usage: traditional term
+meaning:
+  en: The crease around the base of the thumb, used here to reflect on daily pace and energy.
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಸುತ್ತಲಿನ ಗೆರೆ; ಇಲ್ಲಿ ದೈನಂದಿನ ಶಕ್ತಿ ಮತ್ತು ಜೀವನಕ್ರಮದ ಕುರಿತು ಯೋಚಿಸಲು ಬಳಸಲಾಗುತ್ತದೆ.
+  hi: अँगूठे की जड़ को घेरती रेखा जिससे यहाँ दिनचर्या और ऊर्जा पर विचार किया जाता है।
+admin_note: 'Application in palmistry.lines.life-right: The user confirmed the illustrated choice on the right hand:
+  Arc around the base of the thumb.'
+aliases: []
+reference_rules:
+- palmistry.lines.life-left
+- palmistry.lines.life-right
+used_by:
+- palmistry.lines.life-left
+- palmistry.lines.life-right

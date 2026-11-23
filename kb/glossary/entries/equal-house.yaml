@@ -1,0 +1,21 @@
+id: glossary.terms.equal-house
+term:
+  en: Equal house
+  kn: ಸಮಭಾವ
+  hi: समभाव
+sanskrit:
+  devanagari: समभाव
+  kannada: ಸಮಭಾವ
+  usage: traditional term
+meaning:
+  en: A chart layout with twelve houses of thirty degrees each, beginning at the rising point.
+  kn: ಉದಯ ಬಿಂದುವಿನಿಂದ ಆರಂಭಿಸಿ ತಲಾ ಮೂವತ್ತು ಅಂಶಗಳ ಹನ್ನೆರಡು ಮನೆಗಳ ನಕ್ಷೆ.
+  hi: उदय बिंदु से शुरू तीस-तीस अंश के बारह घरों की पत्री।
+admin_note: Use this label for a chart layout with twelve houses of thirty degrees each, beginning at the rising point.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- equal houses
+reference_rules: []
+used_by: []
+used_in_files:
+- shared/conventions/profiles.yaml

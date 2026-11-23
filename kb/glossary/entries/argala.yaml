@@ -1,0 +1,21 @@
+id: glossary.terms.argala
+term:
+  en: Argala
+  kn: ಅರ್ಗಲಾ
+  hi: अर्गला
+sanskrit:
+  devanagari: अर्गला
+  kannada: ಅರ್ಗಲಾ
+  usage: traditional term
+meaning:
+  en: Planets in certain places counted from a sign can add an influence to its reading.
+  kn: ರಾಶಿಯಿಂದ ಎಣಿಸಿದ ಕೆಲವು ಸ್ಥಾನಗಳ ಗ್ರಹಗಳು ಓದಿಗೆ ಸೇರಿಸುವ ಪ್ರಭಾವ.
+  hi: राशि से गिने गए कुछ स्थानों के ग्रहों का अतिरिक्त प्रभाव।
+admin_note: Use this label for planets in certain places counted from a sign can add an influence to its reading. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.argala.intervention
+- jaimini.argala.obstruction
+- jaimini.argala.special-third

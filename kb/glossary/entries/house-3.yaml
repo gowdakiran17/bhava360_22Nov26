@@ -1,0 +1,86 @@
+id: glossary.terms.house-3
+term:
+  en: House 3
+  kn: ಸಹಜಭಾವ
+  hi: सहजभाव
+sanskrit:
+  devanagari: सहजभाव
+  kannada: ಸಹಜಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore siblings and personal effort.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಒಡಹುಟ್ಟಿದವರು ಮತ್ತು ಪ್ರಯತ್ನ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में भाई-बहन और प्रयास से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists siblings, initiative, practised
+  skills among its subjects.
+aliases:
+- Sahaja
+reference_rules:
+- vedic.houses.house-3
+used_by:
+- jaimini.arudha-padas.a3
+- lal-kitab.placements.house-3
+- vedic.house-lords.lord-1-in-house-3
+- vedic.house-lords.lord-10-in-house-3
+- vedic.house-lords.lord-11-in-house-3
+- vedic.house-lords.lord-12-in-house-3
+- vedic.house-lords.lord-2-in-house-3
+- vedic.house-lords.lord-3-in-house-1
+- vedic.house-lords.lord-3-in-house-10
+- vedic.house-lords.lord-3-in-house-11
+- vedic.house-lords.lord-3-in-house-12
+- vedic.house-lords.lord-3-in-house-2
+- vedic.house-lords.lord-3-in-house-3
+- vedic.house-lords.lord-3-in-house-4
+- vedic.house-lords.lord-3-in-house-5
+- vedic.house-lords.lord-3-in-house-6
+- vedic.house-lords.lord-3-in-house-7
+- vedic.house-lords.lord-3-in-house-8
+- vedic.house-lords.lord-3-in-house-9
+- vedic.house-lords.lord-4-in-house-3
+- vedic.house-lords.lord-5-in-house-3
+- vedic.house-lords.lord-6-in-house-3
+- vedic.house-lords.lord-7-in-house-3
+- vedic.house-lords.lord-8-in-house-3
+- vedic.house-lords.lord-9-in-house-3
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-8
+- vedic.houses.jupiter-house-3
+- vedic.houses.ketu-house-3
+- vedic.houses.mars-house-3
+- vedic.houses.mercury-house-3
+- vedic.houses.moon-house-3
+- vedic.houses.rahu-house-3
+- vedic.houses.saturn-house-3
+- vedic.houses.sun-house-3
+- vedic.houses.venus-house-3
+- vedic.planets-in-houses.jupiter-house-3
+- vedic.planets-in-houses.ketu-house-3
+- vedic.planets-in-houses.mars-house-3
+- vedic.planets-in-houses.mercury-house-3
+- vedic.planets-in-houses.moon-house-3
+- vedic.planets-in-houses.rahu-house-3
+- vedic.planets-in-houses.saturn-house-3
+- vedic.planets-in-houses.sun-house-3
+- vedic.planets-in-houses.venus-house-3
+- vedic.transits.jupiter-moon-house-3
+- vedic.transits.ketu-moon-house-3
+- vedic.transits.mars-moon-house-3
+- vedic.transits.mercury-moon-house-3
+- vedic.transits.moon-moon-house-3
+- vedic.transits.rahu-moon-house-3
+- vedic.transits.saturn-moon-house-3
+- vedic.transits.sun-moon-house-3
+- vedic.transits.venus-moon-house-3
+- vedic.yogas.vasumati
+- western.natal.jupiter-house-3
+- western.natal.mars-house-3
+- western.natal.mercury-house-3
+- western.natal.moon-house-3
+- western.natal.neptune-house-3
+- western.natal.pluto-house-3
+- western.natal.saturn-house-3
+- western.natal.sun-house-3
+- western.natal.uranus-house-3
+- western.natal.venus-house-3

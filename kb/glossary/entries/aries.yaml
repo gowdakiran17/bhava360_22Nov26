@@ -1,0 +1,96 @@
+id: glossary.terms.aries
+term:
+  en: Aries
+  kn: ಮೇಷ
+  hi: मेष
+sanskrit:
+  devanagari: मेष
+  kannada: ಮೇಷ
+  usage: traditional term
+meaning:
+  en: Sign number 1 in the twelve-part circle, covering degrees 0 to 30.
+  kn: ರಾಶಿಚಕ್ರದ 1ನೇ ಭಾಗ, 0ರಿಂದ 30 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 1, 0 से 30 अंश तक।
+admin_note: 'Application in western.signs.aries: The selected tropical point falls in [0, 30) degrees from the March
+  equinox. Cardinal fire; modern ruler mars, traditional ruler mars.'
+aliases:
+- Mesha
+reference_rules:
+- vedic.signs.aries
+used_by:
+- tarot.major-arcana.the-emperor-reversed
+- tarot.major-arcana.the-emperor-upright
+- tarot.minor-arcana.four-of-wands-reversed
+- tarot.minor-arcana.four-of-wands-upright
+- tarot.minor-arcana.knight-of-pentacles-reversed
+- tarot.minor-arcana.knight-of-pentacles-upright
+- tarot.minor-arcana.queen-of-wands-reversed
+- tarot.minor-arcana.queen-of-wands-upright
+- tarot.minor-arcana.three-of-wands-reversed
+- tarot.minor-arcana.three-of-wands-upright
+- tarot.minor-arcana.two-of-wands-reversed
+- tarot.minor-arcana.two-of-wands-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.aries-lagna-lord
+- vedic.matching.porutham-vashya
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.hasta
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shravana
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-aries
+- vedic.planets-in-signs.ketu-aries
+- vedic.planets-in-signs.mars-aries
+- vedic.planets-in-signs.mercury-aries
+- vedic.planets-in-signs.moon-aries
+- vedic.planets-in-signs.rahu-aries
+- vedic.planets-in-signs.saturn-aries
+- vedic.planets-in-signs.sun-aries
+- vedic.planets-in-signs.venus-aries
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.aries
+- vedic.states.baladi
+- vedic.strength-ashtakavarga.sarvashtakavarga
+- vedic.strength-shadbala.ojayugma
+- vedic.vargas.d16-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d27-placement
+- vedic.vargas.d30-placement
+- vedic.vargas.d40-placement
+- vedic.vargas.d45-placement
+- vedic.vargas.d60-placement
+- western.natal.ascendant-aries
+- western.natal.jupiter-aries
+- western.natal.mars-aries
+- western.natal.mercury-aries
+- western.natal.moon-aries
+- western.natal.neptune-aries
+- western.natal.pluto-aries
+- western.natal.saturn-aries
+- western.natal.sun-aries
+- western.natal.uranus-aries
+- western.natal.venus-aries
+- western.signs.aries

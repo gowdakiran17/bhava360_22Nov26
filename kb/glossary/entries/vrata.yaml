@@ -1,0 +1,22 @@
+id: glossary.terms.vrata
+term:
+  en: Vrata
+  kn: ವ್ರತ
+  hi: व्रत
+sanskrit:
+  devanagari: व्रत
+  kannada: ವ್ರತ
+  usage: traditional term
+meaning:
+  en: A voluntary religious observance, sometimes involving a change in routine.
+  kn: ದಿನಚರಿಯಲ್ಲಿ ಬದಲಾವಣೆಯನ್ನು ಒಳಗೊಂಡಿರಬಹುದಾದ ಸ್ವಯಂಪ್ರೇರಿತ ಆಚರಣೆ.
+  hi: इच्छा से किया जाने वाला धार्मिक अभ्यास जिसमें दिनचर्या बदल सकती है।
+admin_note: Use this label for a voluntary religious observance, sometimes involving a change in routine. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- remedies.conduct.optional-fast
+- vedic.panchang.amavasya
+- vedic.panchang.ekadashi
+- vedic.panchang.purnima

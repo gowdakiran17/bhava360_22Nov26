@@ -1,0 +1,45 @@
+id: glossary.terms.lunar-node
+term:
+  en: Lunar node
+  kn: ಚನ್ದ್ರಪಾತ
+  hi: चन्द्रपात
+sanskrit:
+  devanagari: चन्द्रपात
+  kannada: ಚನ್ದ್ರಪಾತ
+  usage: traditional term
+meaning:
+  en: One of the two places where the Moon’s path crosses the Sun’s apparent path.
+  kn: ಚಂದ್ರನ ಪಥ ಸೂರ್ಯನ ಪಥವನ್ನು ದಾಟುವ ಎರಡು ಬಿಂದುಗಳಲ್ಲಿ ಒಂದು.
+  hi: चंद्रमा के पथ और सूर्य के दिखाई देने वाले मार्ग के दो कटान बिंदुओं में से एक।
+admin_note: Use this label for one of the two places where the Moon’s path crosses the Sun’s apparent path. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases:
+- lunar nodes
+reference_rules: []
+used_by:
+- vedic.planets-in-signs.ketu-aquarius
+- vedic.planets-in-signs.ketu-aries
+- vedic.planets-in-signs.ketu-cancer
+- vedic.planets-in-signs.ketu-capricorn
+- vedic.planets-in-signs.ketu-gemini
+- vedic.planets-in-signs.ketu-leo
+- vedic.planets-in-signs.ketu-libra
+- vedic.planets-in-signs.ketu-pisces
+- vedic.planets-in-signs.ketu-sagittarius
+- vedic.planets-in-signs.ketu-scorpio
+- vedic.planets-in-signs.ketu-taurus
+- vedic.planets-in-signs.ketu-virgo
+- vedic.planets-in-signs.rahu-aquarius
+- vedic.planets-in-signs.rahu-aries
+- vedic.planets-in-signs.rahu-cancer
+- vedic.planets-in-signs.rahu-capricorn
+- vedic.planets-in-signs.rahu-gemini
+- vedic.planets-in-signs.rahu-leo
+- vedic.planets-in-signs.rahu-libra
+- vedic.planets-in-signs.rahu-pisces
+- vedic.planets-in-signs.rahu-sagittarius
+- vedic.planets-in-signs.rahu-scorpio
+- vedic.planets-in-signs.rahu-taurus
+- vedic.planets-in-signs.rahu-virgo
+- vedic.planets.ketu
+- vedic.planets.rahu

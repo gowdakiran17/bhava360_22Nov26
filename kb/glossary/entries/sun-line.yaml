@@ -1,0 +1,23 @@
+id: glossary.terms.sun-line
+term:
+  en: Sun line
+  kn: ಸೂರ್ಯರೇಖಾ
+  hi: सूर्यरेखा
+sanskrit:
+  devanagari: सूर्यरेखा
+  kannada: ಸೂರ್ಯರೇಖಾ
+  usage: traditional term
+meaning:
+  en: A crease running towards the base of the ring finger.
+  kn: ಉಂಗುರದ ಬೆರಳಿನ ಬುಡದತ್ತ ಸಾಗುವ ಗೆರೆ.
+  hi: अनामिका की जड़ की ओर जाती रेखा।
+admin_note: 'Application in palmistry.lines.sun-right: The user confirmed the illustrated choice on the right hand: Upright
+  crease toward the ring finger.'
+aliases:
+- Apollo line
+reference_rules:
+- palmistry.lines.sun-left
+- palmistry.lines.sun-right
+used_by:
+- palmistry.lines.sun-left
+- palmistry.lines.sun-right

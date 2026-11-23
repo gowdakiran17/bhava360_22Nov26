@@ -1,0 +1,25 @@
+id: glossary.terms.saturn-mount
+term:
+  en: Saturn mount
+  kn: ಮಧ್ಯದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  hi: मध्यमा के नीचे उभरा भाग
+sanskrit:
+  devanagari: शनि करतलोन्नति
+  kannada: ಶನಿ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised pad beneath the middle finger.
+  kn: ಮಧ್ಯದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ.
+  hi: मध्यमा के नीचे उभरा भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.saturn-left
+- palmistry.mounts.saturn-right
+used_by:
+- palmistry.mounts.saturn
+- palmistry.mounts.saturn-left
+- palmistry.mounts.saturn-right
+systems:
+- palmistry

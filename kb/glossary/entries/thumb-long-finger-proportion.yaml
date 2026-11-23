@@ -1,0 +1,24 @@
+id: glossary.terms.thumb-long-finger-proportion
+term:
+  en: Thumb Long finger proportion
+  kn: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಉದ್ದವಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು
+  hi: हथेली के अनुपात में लंबा दिखता अँगूठा
+sanskrit:
+  devanagari: दीर्घाङ्गुष्ठ अङ्गुलिप्रमाण
+  kannada: ದೀರ್ಘಾಙ್ಗುಷ್ಠ ಅಙ್ಗುಲಿಪ್ರಮಾಣ
+  usage: descriptive equivalent
+meaning:
+  en: Thumb looks long alongside the palm.
+  kn: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಉದ್ದವಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು.
+  hi: हथेली के अनुपात में लंबा दिखता अँगूठा।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.fingers.thumb-long-left
+- palmistry.fingers.thumb-long-right
+used_by:
+- palmistry.fingers.thumb-long-left
+- palmistry.fingers.thumb-long-right
+systems:
+- palmistry

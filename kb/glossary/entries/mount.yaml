@@ -1,0 +1,57 @@
+id: glossary.terms.mount
+term:
+  en: Mount
+  kn: ಅಂಗೈ ಉಬ್ಬು
+  hi: हथेली का उभार
+sanskrit:
+  devanagari: करतलोन्नति
+  kannada: ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A raised pad of the palm that a person can identify on an illustration.
+  kn: ಚಿತ್ರದಲ್ಲಿ ಗುರುತಿಸಬಹುದಾದ ಅಂಗೈಯ ಎತ್ತರವಾದ ಮೃದುವಾದ ಭಾಗ.
+  hi: हथेली का उभरा हुआ हिस्सा जिसे चित्र में पहचाना जा सकता है।
+admin_note: Use this label for a raised pad of the palm that a person can identify on an illustration. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- palm mount
+- mounts
+reference_rules: []
+used_by:
+- palmistry.marks.cross-left
+- palmistry.marks.cross-right
+- palmistry.marks.grid-left
+- palmistry.marks.grid-right
+- palmistry.marks.island-left
+- palmistry.marks.island-right
+- palmistry.marks.square-left
+- palmistry.marks.square-right
+- palmistry.marks.star-left
+- palmistry.marks.star-right
+- palmistry.marks.triangle-left
+- palmistry.marks.triangle-right
+- palmistry.mounts.apollo
+- palmistry.mounts.apollo-left
+- palmistry.mounts.apollo-right
+- palmistry.mounts.jupiter
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+- palmistry.mounts.luna
+- palmistry.mounts.luna-left
+- palmistry.mounts.luna-right
+- palmistry.mounts.mars
+- palmistry.mounts.mars-left
+- palmistry.mounts.mars-lower-left
+- palmistry.mounts.mars-lower-right
+- palmistry.mounts.mars-right
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+- palmistry.mounts.mercury
+- palmistry.mounts.mercury-left
+- palmistry.mounts.mercury-right
+- palmistry.mounts.saturn
+- palmistry.mounts.saturn-left
+- palmistry.mounts.saturn-right
+- palmistry.mounts.venus
+- palmistry.mounts.venus-left
+- palmistry.mounts.venus-right

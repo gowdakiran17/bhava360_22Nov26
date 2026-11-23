@@ -1,0 +1,30 @@
+id: glossary.terms.krura
+term:
+  en: Krura
+  kn: ಕ್ರೂರ
+  hi: क्रूर
+sanskrit:
+  devanagari: क्रूर
+  kannada: ಕ್ರೂರ
+  usage: traditional term
+meaning:
+  en: A traditional category for a sign or planet described as forceful.
+  kn: ರಾಶಿ ಅಥವಾ ಗ್ರಹಕ್ಕೆ ತೀವ್ರತೆ ಸೂಚಿಸುವ ಸಾಂಪ್ರದಾಯಿಕ ವರ್ಗ.
+  hi: राशि या ग्रह में तीव्रता बताने वाली पारंपरिक श्रेणी।
+admin_note: Use this label for a traditional category for a sign or planet described as forceful. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo

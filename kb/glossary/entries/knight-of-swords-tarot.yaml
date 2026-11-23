@@ -1,0 +1,25 @@
+id: glossary.terms.knight-of-swords-tarot
+term:
+  en: Knight Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಸವಾರ
+  hi: तलवार · सवार
+sanskrit:
+  devanagari: खड्ग अश्वारोही
+  kannada: ಖಡ್ಗ ಅಶ್ವಾರೋಹೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank knight in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಸವಾರ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · सवार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on direct action.
+  What comes to mind in this position?'
+aliases:
+- Knight Of Swords
+reference_rules:
+- tarot.minor-arcana.knight-of-swords-upright
+- tarot.minor-arcana.knight-of-swords-reversed
+used_by:
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.knight-of-swords-upright
+systems:
+- tarot

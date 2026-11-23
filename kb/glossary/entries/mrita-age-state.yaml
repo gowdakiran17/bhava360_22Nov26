@@ -1,0 +1,24 @@
+id: glossary.terms.mrita-age-state
+term:
+  en: Mrita (age state)
+  kn: ಮೃತ
+  hi: मृत
+sanskrit:
+  devanagari: मृत
+  kannada: ಮೃತ
+  usage: traditional term
+meaning:
+  en: A symbolic stage described as quiescent when a planet falls in the corresponding part of a sign.
+  kn: 'ರಾಶಿಯಲ್ಲಿನ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಕೇತಿಕ ಹಂತ: ವಿಶ್ರಾಂತಿ.'
+  hi: 'राशि में जगह से तय प्रतीकात्मक अवस्था: विश्राम।'
+admin_note: 'Application in vedic.states.baladi: Divide the graha’s natal sign into five successive six-degree intervals.
+  Read the odd-sign order from Aries onward by sign parity and reverse the order in even signs. Normalize 30 degrees
+  to the next sign before lookup.'
+aliases:
+- Mrita
+reference_rules:
+- vedic.states.baladi
+used_by:
+- vedic.states.baladi
+systems:
+- vedic

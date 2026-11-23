@@ -1,0 +1,92 @@
+id: glossary.terms.muhurta
+term:
+  en: Muhurta
+  kn: ಮುಹೂರ್ತ
+  hi: मुहूर्त
+sanskrit:
+  devanagari: मुहूर्त
+  kannada: ಮುಹೂರ್ತ
+  usage: traditional term
+meaning:
+  en: A traditional time interval, also used to mean choosing a time to begin something.
+  kn: ಸಮಯದ ಸಾಂಪ್ರದಾಯಿಕ ಅಳತೆ ಮತ್ತು ಒಂದು ಕೆಲಸವನ್ನು ಆರಂಭಿಸುವ ಹೊತ್ತಿನ ಆಯ್ಕೆ.
+  hi: समय की एक पारंपरिक इकाई और काम शुरू करने का समय चुनने की विधि।
+admin_note: Use this label for a traditional time interval, also used to mean choosing a time to begin something. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Muhurtha
+- Muhurat
+- Muhurtas
+reference_rules: []
+used_by:
+- vedic.doshas.mars-partnership
+- vedic.matching.bhakoot
+- vedic.matching.chart-cross-check
+- vedic.matching.gana
+- vedic.matching.graha-maitri
+- vedic.matching.manglik-comparison
+- vedic.matching.nadi
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-gana
+- vedic.matching.porutham-mahendra
+- vedic.matching.porutham-rajju
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-rashi-lord
+- vedic.matching.porutham-stree-deergha
+- vedic.matching.porutham-vashya
+- vedic.matching.porutham-vedha
+- vedic.matching.porutham-yoni
+- vedic.matching.shared-star-class
+- vedic.matching.tara
+- vedic.matching.varna
+- vedic.matching.vashya
+- vedic.matching.yoni
+- vedic.muhurta.business-start
+- vedic.muhurta.check-big-decision-muhurta-activity-limb
+- vedic.muhurta.check-big-decision-muhurta-moon-support
+- vedic.muhurta.check-big-decision-muhurta-tara-support
+- vedic.muhurta.check-big-decision-muhurta-window
+- vedic.muhurta.check-business-name-launch-exclusion
+- vedic.muhurta.check-house-relocation-moving-window
+- vedic.muhurta.check-vehicle-number-delivery-exclusion
+- vedic.muhurta.education-start
+- vedic.muhurta.eligible-window
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.muhurta.window-steady
+- vedic.muhurta.window-supportive
+- vedic.muhurta.window-take-care
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.panchang.abhijit-muhurta
+- vedic.panchang.brahma-muhurta
+- vedic.panchang.choghadiya

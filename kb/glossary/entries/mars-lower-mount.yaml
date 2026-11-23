@@ -1,0 +1,24 @@
+id: glossary.terms.mars-lower-mount
+term:
+  en: Mars Lower mount
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಮೇಲೆ, ತೋರುಬೆರಳಿನ ಕಡೆಗಿನ ಉಬ್ಬು
+  hi: अँगूठे के उभार के ऊपर तर्जनी की ओर उभरा भाग
+sanskrit:
+  devanagari: अधोमङ्गल करतलोन्नति
+  kannada: ಅಧೋಮಙ್ಗಲ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised area inside the thumb–index web above the thumb pad.
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಮೇಲೆ, ತೋರುಬೆರಳಿನ ಕಡೆಗಿನ ಉಬ್ಬು.
+  hi: अँगूठे के उभार के ऊपर तर्जनी की ओर उभरा भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.mars-lower-left
+- palmistry.mounts.mars-lower-right
+used_by:
+- palmistry.mounts.mars-lower-left
+- palmistry.mounts.mars-lower-right
+systems:
+- palmistry

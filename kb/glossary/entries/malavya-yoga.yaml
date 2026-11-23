@@ -1,0 +1,22 @@
+id: glossary.terms.malavya-yoga
+term:
+  en: Malavya yoga
+  kn: ಮಾಲವ್ಯಯೋಗ
+  hi: मालव्ययोग
+sanskrit:
+  devanagari: मालव्ययोग
+  kannada: ಮಾಲವ್ಯಯೋಗ
+  usage: traditional term
+meaning:
+  en: Venus occupies a corner of the chart in a sign it rules or where it has special standing.
+  kn: ಶುಕ್ರ ತಾನು ಆಳುವ ಅಥವಾ ಹೆಚ್ಚಿನ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯ ಸ್ಥಾನದಲ್ಲಿರುವುದು.
+  hi: शुक्र का अपनी या विशेष बल की राशि में पत्री के कोने पर होना।
+admin_note: Venus occupies a whole-sign angle from Lagna and its own or exaltation sign.
+aliases:
+- malavya
+reference_rules:
+- vedic.yogas.malavya
+used_by:
+- vedic.yogas.malavya
+systems:
+- vedic

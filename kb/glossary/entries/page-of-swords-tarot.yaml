@@ -1,0 +1,25 @@
+id: glossary.terms.page-of-swords-tarot
+term:
+  en: Page Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ದೂತ
+  hi: तलवार · दूत
+sanskrit:
+  devanagari: खड्ग दूत
+  kannada: ಖಡ್ಗ ದೂತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank page in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ದೂತ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · दूत की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on careful inquiry.
+  What comes to mind in this position?'
+aliases:
+- Page Of Swords
+reference_rules:
+- tarot.minor-arcana.page-of-swords-upright
+- tarot.minor-arcana.page-of-swords-reversed
+used_by:
+- tarot.minor-arcana.page-of-swords-reversed
+- tarot.minor-arcana.page-of-swords-upright
+systems:
+- tarot

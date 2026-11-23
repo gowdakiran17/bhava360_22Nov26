@@ -1,0 +1,23 @@
+id: glossary.terms.kemadruma-yoga
+term:
+  en: Kemadruma yoga
+  kn: ಕೇಮದ್ರುಮಯೋಗ
+  hi: केमद्रुमयोग
+sanskrit:
+  devanagari: केमद्रुमयोग
+  kannada: ಕೇಮದ್ರುಮಯೋಗ
+  usage: traditional term
+meaning:
+  en: Neither sign beside the Moon contains one of the five planets used in this check.
+  kn: ಚಂದ್ರನ ಪಕ್ಕದ ಎರಡು ರಾಶಿಗಳಲ್ಲೂ ಪರಿಶೀಲನೆಗೆ ಬಳಸುವ ಐದು ಗ್ರಹಗಳಲ್ಲಿ ಯಾವುದೂ ಇಲ್ಲದ ಜೋಡಣೆ.
+  hi: चंद्रमा की दोनों पड़ोसी राशियों में जाँच के पाँच ग्रहों में से कोई न होना।
+admin_note: Neither adjacent sign to the Moon contains Mars, Mercury, Jupiter, Venus or Saturn. Apply the cancellations
+  before displaying the reading.
+aliases:
+- kemadruma
+reference_rules:
+- vedic.yogas.kemadruma
+used_by:
+- vedic.yogas.kemadruma
+systems:
+- vedic

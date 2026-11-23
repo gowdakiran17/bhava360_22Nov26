@@ -1,0 +1,20 @@
+id: glossary.terms.dhana-yoga
+term:
+  en: Dhana yoga
+  kn: ಧನಯೋಗ
+  hi: धनयोग
+sanskrit:
+  devanagari: धनयोग
+  kannada: ಧನಯೋಗ
+  usage: traditional term
+meaning:
+  en: A traditional grouping of chart positions used when discussing resources.
+  kn: ಸಂಪನ್ಮೂಲಗಳ ಕುರಿತು ಚರ್ಚಿಸುವಾಗ ನೋಡುವ ನಕ್ಷೆಯ ಜೋಡಣೆ.
+  hi: संसाधनों पर विचार करते समय देखा जाने वाला मेल।
+admin_note: 'Application in vedic.yogas.dhana: Second or eleventh lord is linked to fifth or ninth lord by conjunction
+  or exchange.'
+aliases: []
+reference_rules:
+- vedic.yogas.dhana
+used_by:
+- vedic.yogas.dhana

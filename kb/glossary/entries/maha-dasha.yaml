@@ -1,0 +1,28 @@
+id: glossary.terms.maha-dasha
+term:
+  en: Maha dasha
+  kn: ಮಹಾದಶಾ
+  hi: महादशा
+sanskrit:
+  devanagari: महादशा
+  kannada: ಮಹಾದಶಾ
+  usage: traditional term
+meaning:
+  en: The main period in a sequence of longer and shorter periods.
+  kn: ಸಮಯವನ್ನು ವಿಂಗಡಿಸುವ ಕ್ರಮದ ಮುಖ್ಯ ಅವಧಿ.
+  hi: समय के क्रम में सबसे बड़ी अवधि।
+admin_note: Use this label for the main period in a sequence of longer and shorter periods. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- Mahadasha
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.jupiter-maha
+- vedic.dashas-vimshottari.ketu-maha
+- vedic.dashas-vimshottari.mars-maha
+- vedic.dashas-vimshottari.mercury-maha
+- vedic.dashas-vimshottari.moon-maha
+- vedic.dashas-vimshottari.rahu-maha
+- vedic.dashas-vimshottari.saturn-maha
+- vedic.dashas-vimshottari.sun-maha
+- vedic.dashas-vimshottari.venus-maha

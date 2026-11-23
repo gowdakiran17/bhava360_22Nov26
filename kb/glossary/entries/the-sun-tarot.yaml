@@ -1,0 +1,24 @@
+id: glossary.terms.the-sun-tarot
+term:
+  en: The Sun (Tarot)
+  kn: ಸೂರ್ಯನ ಪತ್ರ (ಟ್ಯಾರೊ)
+  hi: सूरज का पत्ता (टैरो)
+sanskrit:
+  devanagari: सूर्यचित्र
+  kannada: ಸೂರ್ಯಚಿತ್ರ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 19, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 19 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 19 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on shared enjoyment.
+  What comes to mind in this position?'
+aliases: []
+reference_rules:
+- tarot.major-arcana.the-sun-upright
+- tarot.major-arcana.the-sun-reversed
+used_by:
+- tarot.major-arcana.the-sun-reversed
+- tarot.major-arcana.the-sun-upright
+systems:
+- tarot

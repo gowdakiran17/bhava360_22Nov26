@@ -1,0 +1,121 @@
+id: glossary.terms.ketu
+term:
+  en: Ketu
+  kn: ಕೇತು
+  hi: केतु
+sanskrit:
+  devanagari: केतु
+  kannada: ಕೇತು
+  usage: traditional term
+meaning:
+  en: The point where the Moon crosses the Sun’s apparent path heading south.
+  kn: ಚಂದ್ರನು ಸೂರ್ಯನ ಪಥವನ್ನು ದಕ್ಷಿಣಕ್ಕೆ ದಾಟುವ ಬಿಂದು.
+  hi: वह बिंदु जहाँ चंद्रमा सूर्य के मार्ग को दक्षिण की ओर काटता है।
+admin_note: 'Application in vedic.planets.ketu: Match Ketu when the selected D1 chart point is its computed natal placement.'
+aliases:
+- descending node
+- south node
+reference_rules:
+- vedic.planets.ketu
+used_by:
+- jaimini.argala.intervention
+- jaimini.argala.obstruction
+- jaimini.argala.special-third
+- remedies.conduct.ketu
+- vastu.directions.centre
+- vedic.dashas-narayana.progression
+- vedic.dashas-vimshottari.jupiter-ketu-antar
+- vedic.dashas-vimshottari.ketu-jupiter-antar
+- vedic.dashas-vimshottari.ketu-ketu-antar
+- vedic.dashas-vimshottari.ketu-maha
+- vedic.dashas-vimshottari.ketu-mars-antar
+- vedic.dashas-vimshottari.ketu-mercury-antar
+- vedic.dashas-vimshottari.ketu-moon-antar
+- vedic.dashas-vimshottari.ketu-rahu-antar
+- vedic.dashas-vimshottari.ketu-saturn-antar
+- vedic.dashas-vimshottari.ketu-sun-antar
+- vedic.dashas-vimshottari.ketu-venus-antar
+- vedic.dashas-vimshottari.mars-ketu-antar
+- vedic.dashas-vimshottari.mercury-ketu-antar
+- vedic.dashas-vimshottari.moon-ketu-antar
+- vedic.dashas-vimshottari.rahu-ketu-antar
+- vedic.dashas-vimshottari.saturn-ketu-antar
+- vedic.dashas-vimshottari.sun-ketu-antar
+- vedic.dashas-vimshottari.venus-ketu-antar
+- vedic.doshas.grahan
+- vedic.doshas.guru-chandal
+- vedic.doshas.nodal-axis
+- vedic.houses.ketu-house-1
+- vedic.houses.ketu-house-10
+- vedic.houses.ketu-house-11
+- vedic.houses.ketu-house-12
+- vedic.houses.ketu-house-2
+- vedic.houses.ketu-house-3
+- vedic.houses.ketu-house-4
+- vedic.houses.ketu-house-5
+- vedic.houses.ketu-house-6
+- vedic.houses.ketu-house-7
+- vedic.houses.ketu-house-8
+- vedic.houses.ketu-house-9
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.magha
+- vedic.nakshatras.mula
+- vedic.planets-in-houses.ketu-house-1
+- vedic.planets-in-houses.ketu-house-10
+- vedic.planets-in-houses.ketu-house-11
+- vedic.planets-in-houses.ketu-house-12
+- vedic.planets-in-houses.ketu-house-2
+- vedic.planets-in-houses.ketu-house-3
+- vedic.planets-in-houses.ketu-house-4
+- vedic.planets-in-houses.ketu-house-5
+- vedic.planets-in-houses.ketu-house-6
+- vedic.planets-in-houses.ketu-house-7
+- vedic.planets-in-houses.ketu-house-8
+- vedic.planets-in-houses.ketu-house-9
+- vedic.planets-in-signs.ketu-aquarius
+- vedic.planets-in-signs.ketu-aries
+- vedic.planets-in-signs.ketu-cancer
+- vedic.planets-in-signs.ketu-capricorn
+- vedic.planets-in-signs.ketu-gemini
+- vedic.planets-in-signs.ketu-leo
+- vedic.planets-in-signs.ketu-libra
+- vedic.planets-in-signs.ketu-pisces
+- vedic.planets-in-signs.ketu-sagittarius
+- vedic.planets-in-signs.ketu-scorpio
+- vedic.planets-in-signs.ketu-taurus
+- vedic.planets-in-signs.ketu-virgo
+- vedic.planets.ketu
+- vedic.signs.gemini
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo
+- vedic.states.graha-drishti
+- vedic.states.vargottama
+- vedic.states.yuti
+- vedic.transits.ketu-moon-house-1
+- vedic.transits.ketu-moon-house-10
+- vedic.transits.ketu-moon-house-11
+- vedic.transits.ketu-moon-house-12
+- vedic.transits.ketu-moon-house-2
+- vedic.transits.ketu-moon-house-3
+- vedic.transits.ketu-moon-house-4
+- vedic.transits.ketu-moon-house-5
+- vedic.transits.ketu-moon-house-6
+- vedic.transits.ketu-moon-house-7
+- vedic.transits.ketu-moon-house-8
+- vedic.transits.ketu-moon-house-9
+- vedic.transits.nodal-axis
+- vedic.transits.rahu-moon-house-1
+- vedic.transits.rahu-moon-house-10
+- vedic.transits.rahu-moon-house-11
+- vedic.transits.rahu-moon-house-12
+- vedic.transits.rahu-moon-house-2
+- vedic.transits.rahu-moon-house-3
+- vedic.transits.rahu-moon-house-4
+- vedic.transits.rahu-moon-house-5
+- vedic.transits.rahu-moon-house-6
+- vedic.transits.rahu-moon-house-7
+- vedic.transits.rahu-moon-house-8
+- vedic.transits.rahu-moon-house-9

@@ -1,0 +1,91 @@
+id: glossary.terms.leo
+term:
+  en: Leo
+  kn: ಸಿಂಹ
+  hi: सिंह
+sanskrit:
+  devanagari: सिंह
+  kannada: ಸಿಂಹ
+  usage: traditional term
+meaning:
+  en: Sign number 5 in the twelve-part circle, covering degrees 120 to 150.
+  kn: ರಾಶಿಚಕ್ರದ 5ನೇ ಭಾಗ, 120ರಿಂದ 150 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 5, 120 से 150 अंश तक।
+admin_note: 'Application in western.signs.leo: The selected tropical point falls in [120, 150) degrees from the March
+  equinox. Fixed fire; modern ruler sun, traditional ruler sun.'
+aliases:
+- Simha
+reference_rules:
+- vedic.signs.leo
+used_by:
+- tarot.major-arcana.strength-reversed
+- tarot.major-arcana.strength-upright
+- tarot.minor-arcana.five-of-wands-reversed
+- tarot.minor-arcana.five-of-wands-upright
+- tarot.minor-arcana.king-of-pentacles-reversed
+- tarot.minor-arcana.king-of-pentacles-upright
+- tarot.minor-arcana.knight-of-wands-reversed
+- tarot.minor-arcana.knight-of-wands-upright
+- tarot.minor-arcana.page-of-wands-reversed
+- tarot.minor-arcana.page-of-wands-upright
+- tarot.minor-arcana.seven-of-wands-reversed
+- tarot.minor-arcana.seven-of-wands-upright
+- tarot.minor-arcana.six-of-wands-reversed
+- tarot.minor-arcana.six-of-wands-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.leo-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-leo
+- vedic.planets-in-signs.ketu-leo
+- vedic.planets-in-signs.mars-leo
+- vedic.planets-in-signs.mercury-leo
+- vedic.planets-in-signs.moon-leo
+- vedic.planets-in-signs.rahu-leo
+- vedic.planets-in-signs.saturn-leo
+- vedic.planets-in-signs.sun-leo
+- vedic.planets-in-signs.venus-leo
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.leo
+- vedic.strength-ashtakavarga.shodhana
+- vedic.vargas.d16-placement
+- vedic.vargas.d2-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d24-placement
+- vedic.vargas.d45-placement
+- western.natal.ascendant-leo
+- western.natal.jupiter-leo
+- western.natal.mars-leo
+- western.natal.mercury-leo
+- western.natal.moon-leo
+- western.natal.neptune-leo
+- western.natal.pluto-leo
+- western.natal.saturn-leo
+- western.natal.sun-leo
+- western.natal.uranus-leo
+- western.natal.venus-leo
+- western.signs.leo

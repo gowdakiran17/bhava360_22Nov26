@@ -1,0 +1,25 @@
+id: glossary.terms.three-of-pentacles-tarot
+term:
+  en: Three Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಮೂರು
+  hi: मुद्रा · तीन
+sanskrit:
+  devanagari: मुद्रा त्रि
+  kannada: ಮುದ್ರಾ ತ್ರಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank three in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಮೂರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · तीन की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on working together.
+  What comes to mind in this position?'
+aliases:
+- Three Of Pentacles
+reference_rules:
+- tarot.minor-arcana.three-of-pentacles-upright
+- tarot.minor-arcana.three-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.three-of-pentacles-reversed
+- tarot.minor-arcana.three-of-pentacles-upright
+systems:
+- tarot

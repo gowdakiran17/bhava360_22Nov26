@@ -1,0 +1,19 @@
+id: glossary.terms.vitatha
+term:
+  en: Vitatha
+  kn: ವಿತಥ
+  hi: वितथ
+sanskrit:
+  devanagari: वितथ
+  kannada: ವಿತಥ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position S3 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ S3 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह S3 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at S3.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

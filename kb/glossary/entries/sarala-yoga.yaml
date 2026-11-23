@@ -1,0 +1,25 @@
+id: glossary.terms.sarala-yoga
+term:
+  en: Sarala yoga
+  kn: ಸರಲಯೋಗ
+  hi: सरलयोग
+sanskrit:
+  devanagari: सरलयोग
+  kannada: ಸರಲಯೋಗ
+  usage: traditional term
+meaning:
+  en: The ruler of house 8 occupies the sixth, eighth or twelfth house in this method.
+  kn: 8ನೇ ಮನೆಯ ಅಧಿಪತಿ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆಯಲ್ಲಿ ಇರುವುದು.
+  hi: घर 8 का स्वामी छठे, आठवें या बारहवें घर में होना।
+admin_note: Lord of house 8 occupies house 6, 8 or 12 under the broad Vipareeta screen.
+aliases:
+- sarala
+reference_rules:
+- vedic.yogas.sarala
+used_by:
+- vedic.house-lords.lord-8-in-house-12
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-8-in-house-8
+- vedic.yogas.sarala
+systems:
+- vedic

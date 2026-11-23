@@ -1,0 +1,20 @@
+id: glossary.terms.varshphal
+term:
+  en: Varshphal
+  kn: ವರ್ಷಫಲ
+  hi: वर्षफल
+sanskrit:
+  devanagari: वर्षफल
+  kannada: ವರ್ಷಫಲ
+  usage: traditional term
+meaning:
+  en: A traditional reading for the year beginning when the Sun returns to its birth position.
+  kn: ಸೂರ್ಯ ಜನನದ ಸ್ಥಾನಕ್ಕೆ ಮರಳಿದಾಗ ಆರಂಭವಾಗುವ ವರ್ಷದ ಓದು.
+  hi: सूर्य के जन्म की जगह लौटने पर शुरू होने वाले वर्ष की पढ़ाई।
+admin_note: Use this label for a traditional reading for the year beginning when the Sun returns to its birth position.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Varshaphala
+reference_rules: []
+used_by:
+- lal-kitab.varshphal.year-house

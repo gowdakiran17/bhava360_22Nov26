@@ -1,0 +1,110 @@
+id: glossary.terms.house-10
+term:
+  en: House 10
+  kn: ಕರ್ಮಭಾವ
+  hi: कर्मभाव
+sanskrit:
+  devanagari: कर्मभाव
+  kannada: ಕರ್ಮಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore work and public responsibilities.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ವೃತ್ತಿ ಮತ್ತು ಸಾರ್ವಜನಿಕ ಜವಾಬ್ದಾರಿ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में काम और सार्वजनिक जिम्मेदारी से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists livelihood, public responsibilities,
+  authority among its subjects.
+aliases:
+- Karma
+reference_rules:
+- vedic.houses.house-10
+used_by:
+- jaimini.arudha-padas.a10
+- lal-kitab.placements.house-10
+- vedic.dashas-vimshottari.career-house-lord
+- vedic.dashas-vimshottari.career-upcoming
+- vedic.house-lords.lord-1-in-house-10
+- vedic.house-lords.lord-10-in-house-1
+- vedic.house-lords.lord-10-in-house-10
+- vedic.house-lords.lord-10-in-house-11
+- vedic.house-lords.lord-10-in-house-12
+- vedic.house-lords.lord-10-in-house-2
+- vedic.house-lords.lord-10-in-house-3
+- vedic.house-lords.lord-10-in-house-4
+- vedic.house-lords.lord-10-in-house-5
+- vedic.house-lords.lord-10-in-house-6
+- vedic.house-lords.lord-10-in-house-7
+- vedic.house-lords.lord-10-in-house-8
+- vedic.house-lords.lord-10-in-house-9
+- vedic.house-lords.lord-11-in-house-10
+- vedic.house-lords.lord-12-in-house-10
+- vedic.house-lords.lord-2-in-house-10
+- vedic.house-lords.lord-3-in-house-10
+- vedic.house-lords.lord-4-in-house-10
+- vedic.house-lords.lord-5-in-house-10
+- vedic.house-lords.lord-6-in-house-10
+- vedic.house-lords.lord-7-in-house-10
+- vedic.house-lords.lord-8-in-house-10
+- vedic.house-lords.lord-9-in-house-10
+- vedic.houses.house-10
+- vedic.houses.jupiter-house-10
+- vedic.houses.ketu-house-10
+- vedic.houses.mars-house-10
+- vedic.houses.mercury-house-10
+- vedic.houses.moon-house-10
+- vedic.houses.rahu-house-10
+- vedic.houses.saturn-house-10
+- vedic.houses.sun-house-10
+- vedic.houses.venus-house-10
+- vedic.planets-in-houses.jupiter-house-10
+- vedic.planets-in-houses.ketu-house-10
+- vedic.planets-in-houses.mars-house-1
+- vedic.planets-in-houses.mars-house-10
+- vedic.planets-in-houses.mars-house-11
+- vedic.planets-in-houses.mars-house-12
+- vedic.planets-in-houses.mars-house-2
+- vedic.planets-in-houses.mars-house-3
+- vedic.planets-in-houses.mars-house-4
+- vedic.planets-in-houses.mars-house-5
+- vedic.planets-in-houses.mars-house-6
+- vedic.planets-in-houses.mars-house-7
+- vedic.planets-in-houses.mars-house-8
+- vedic.planets-in-houses.mars-house-9
+- vedic.planets-in-houses.mercury-house-10
+- vedic.planets-in-houses.moon-house-10
+- vedic.planets-in-houses.rahu-house-10
+- vedic.planets-in-houses.saturn-house-10
+- vedic.planets-in-houses.sun-house-1
+- vedic.planets-in-houses.sun-house-10
+- vedic.planets-in-houses.sun-house-11
+- vedic.planets-in-houses.sun-house-12
+- vedic.planets-in-houses.sun-house-2
+- vedic.planets-in-houses.sun-house-3
+- vedic.planets-in-houses.sun-house-4
+- vedic.planets-in-houses.sun-house-5
+- vedic.planets-in-houses.sun-house-6
+- vedic.planets-in-houses.sun-house-7
+- vedic.planets-in-houses.sun-house-8
+- vedic.planets-in-houses.sun-house-9
+- vedic.planets-in-houses.venus-house-10
+- vedic.planets.mars
+- vedic.planets.sun
+- vedic.prashna.job
+- vedic.transits.jupiter-moon-house-10
+- vedic.transits.ketu-moon-house-10
+- vedic.transits.mars-moon-house-10
+- vedic.transits.mercury-moon-house-10
+- vedic.transits.moon-moon-house-10
+- vedic.transits.rahu-moon-house-10
+- vedic.transits.saturn-moon-house-10
+- vedic.transits.sun-moon-house-10
+- vedic.transits.venus-moon-house-10
+- western.natal.jupiter-house-10
+- western.natal.mars-house-10
+- western.natal.mercury-house-10
+- western.natal.moon-house-10
+- western.natal.neptune-house-10
+- western.natal.pluto-house-10
+- western.natal.saturn-house-10
+- western.natal.sun-house-10
+- western.natal.uranus-house-10
+- western.natal.venus-house-10

@@ -1,0 +1,38 @@
+id: glossary.terms.drik-bala
+term:
+  en: Drik bala
+  kn: ದೃಗ್ಬಲ
+  hi: दृग्बल
+sanskrit:
+  devanagari: दृग्बल
+  kannada: ದೃಗ್ಬಲ
+  usage: traditional term
+meaning:
+  en: The part of a planet’s strength drawn from the angles other planets make to it.
+  kn: ಇತರ ಗ್ರಹಗಳೊಡನೆ ಇರುವ ಕೋನಗಳಿಂದ ಲೆಕ್ಕಿಸುವ ಬಲ.
+  hi: दूसरे ग्रहों के साथ कोणों से निकला बल।
+admin_note: 'Application in vedic.strength-shadbala.drik: For each other classical graha compute (target longitude −
+  caster longitude) modulo 360. Interpolate the common aspect between consecutive knots. At the start and end of each
+  special-aspect interval use the selected caster’s special peak at the indicated knot, interpolating between adjacent
+  knot values. Add benefic aspects and subtract malefic aspects, then divide by four. Jupiter and Venus are benefic.
+  Moon is benefic for elongation in (0,180]; Mercury is benefic unless sharing a natal sign with Sun, Mars, Saturn or
+  a dark Moon.'
+aliases:
+- Drik
+reference_rules: []
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.choghadiya
+- vedic.panchang.gulika-kalam
+- vedic.panchang.pradosh
+- vedic.panchang.rahu-kalam
+- vedic.panchang.yamaganda
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.totals

@@ -1,0 +1,22 @@
+id: glossary.terms.five-card-career-spread
+term:
+  en: Five-card career spread
+  kn: ವೃತ್ತಿಗೆ ಐದು ಪತ್ರಗಳು
+  hi: काम के पाँच पत्ते
+sanskrit:
+  devanagari: कर्मपञ्चपत्रविन्यास
+  kannada: ಕರ್ಮಪಞ್ಚಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Five cards explore a task, a skill, a constraint, available support and a next step.
+  kn: ಐದು ಪತ್ರಗಳ ಮೂಲಕ ಕೆಲಸ, ಕೌಶಲ, ಮಿತಿ, ಸಹಾಯ ಮತ್ತು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ನೋಡಬಹುದು.
+  hi: पाँच पत्तों से काम, कौशल, सीमा, सहारा और अगला कदम देख सकते हैं।
+admin_note: 'Read the positions in order: current-task, skill-to-use, work-constraint, available-support, next-step.
+  The final prompt invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- career-five
+used_by:
+- career-five
+systems:
+- tarot

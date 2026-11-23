@@ -1,0 +1,25 @@
+id: glossary.terms.indra-calendar-yoga
+term:
+  en: Indra (calendar yoga)
+  kn: ಇನ್ದ್ರ
+  hi: इन्द्र
+sanskrit:
+  devanagari: इन्द्र
+  kannada: ಇನ್ದ್ರ
+  usage: traditional term
+meaning:
+  en: Interval 26 of 27 found by adding the positions of the Sun and Moon.
+  kn: ಸೂರ್ಯ ಮತ್ತು ಚಂದ್ರನ ಸ್ಥಾನಗಳನ್ನು ಕೂಡಿಸಿ ಪಡೆಯುವ ೨೭ ಅವಧಿಗಳಲ್ಲಿ 26ನೇ ಭಾಗ.
+  hi: सूर्य और चंद्रमा की जगह जोड़ने से मिलने वाले २७ हिस्सों में क्रम 26।
+admin_note: 'Application in vedic.panchang.yoga: Use 1 + floor(((sidereal Moon + sidereal Sun) modulo a turn) / 48000
+  arcseconds). Select the ordered yoga and solve the bracketing sum-angle crossings.'
+aliases:
+- Indra
+reference_rules:
+- vedic.panchang.yoga
+used_by:
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.vishakha
+- vedic.panchang.yoga
+systems:
+- vedic

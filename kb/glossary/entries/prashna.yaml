@@ -1,0 +1,49 @@
+id: glossary.terms.prashna
+term:
+  en: Prashna
+  kn: ಪ್ರಶ್ನ
+  hi: प्रश्न
+sanskrit:
+  devanagari: प्रश्न
+  kannada: ಪ್ರಶ್ನ
+  usage: traditional term
+meaning:
+  en: A reading based on the time and place a question is asked.
+  kn: ಪ್ರಶ್ನೆ ಕೇಳಿದ ಸ್ಥಳ ಮತ್ತು ಸಮಯವನ್ನು ಆಧರಿಸಿದ ಓದು.
+  hi: सवाल पूछे जाने के समय और स्थान के आधार पर की जाने वाली पढ़ाई।
+admin_note: Use this label for a reading based on the time and place a question is asked. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- horary
+- horary chart
+- Prasna
+- ಪ್ರಶ್ನ ಕುಂಡಲಿ
+- प्रश्न कुंडली
+reference_rules: []
+used_by:
+- kp.number-horary.arc
+- kp.significators.job-change
+- kp.star-sub-lords.subdivision
+- tarot.minor-arcana.ace-of-swords-reversed
+- vedic.dashas-vimshottari.property-vehicles-upcoming
+- vedic.prashna.arudha
+- vedic.prashna.ashtamangala
+- vedic.prashna.current-question
+- vedic.prashna.health
+- vedic.prashna.job
+- vedic.prashna.kp-horary
+- vedic.prashna.leans-against
+- vedic.prashna.leans-toward
+- vedic.prashna.litigation
+- vedic.prashna.litigation-study
+- vedic.prashna.lost-item
+- vedic.prashna.marriage
+- vedic.prashna.mixed
+- vedic.prashna.moon
+- vedic.prashna.property
+- vedic.prashna.timing
+- vedic.prashna.travel
+- vedic.prashna.unclear
+- western.natal.ascendant-aquarius
+- western.natal.moon-aquarius
+- western.natal.sun-aquarius

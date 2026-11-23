@@ -1,0 +1,19 @@
+id: glossary.terms.face-reading
+term:
+  en: Face reading
+  kn: ಮುಖಲಕ್ಷಣ ಓದು
+  hi: मुखाकृति पठन
+sanskrit:
+  devanagari: मुखसामुद्रिक
+  kannada: ಮುಖಸಾಮುದ್ರಿಕ
+  usage: descriptive equivalent
+meaning:
+  en: A tradition that uses voluntarily identified facial features as prompts for reflection.
+  kn: ಸ್ವಯಂ ಗುರುತಿಸಿದ ಮುಖಲಕ್ಷಣಗಳನ್ನು ಚಿಂತನೆಗೆ ಬಳಸುವ ಪರಂಪರೆ.
+  hi: अपनी इच्छा से पहचानी चेहरे की विशेषताओं पर विचार करने की परंपरा।
+admin_note: Use this label for a tradition that uses voluntarily identified facial features as prompts for reflection.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- face-reading.reflection.self-description

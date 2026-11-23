@@ -1,0 +1,19 @@
+id: glossary.terms.yamaganda
+term:
+  en: Yamaganda
+  kn: ಯಮಗಣ್ಡ
+  hi: यमगण्ड
+sanskrit:
+  devanagari: यमगण्ड
+  kannada: ಯಮಗಣ್ಡ
+  usage: traditional term
+meaning:
+  en: A weekday-specific part of daylight considered when choosing a start time.
+  kn: ಆರಂಭದ ಸಮಯ ಆರಿಸುವಾಗ ವಾರದ ದಿನಕ್ಕೆ ಅನುಸಾರವಾಗಿ ನೋಡುವ ಹಗಲಿನ ಭಾಗ.
+  hi: शुरुआत का समय चुनते हुए वार के अनुसार देखा गया दिन का एक हिस्सा।
+admin_note: 'Application in vedic.panchang.yamaganda: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.yamaganda.
+  Let D = (sunset − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.yamaganda

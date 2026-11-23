@@ -1,0 +1,19 @@
+id: glossary.terms.abhijit-muhurta
+term:
+  en: Abhijit muhurta
+  kn: ಅಭಿಜಿನ್ಮುಹೂರ್ತ
+  hi: अभिजिन्मुहूर्त
+sanskrit:
+  devanagari: अभिजिन्मुहूर्त
+  kannada: ಅಭಿಜಿನ್ಮುಹೂರ್ತ
+  usage: traditional term
+meaning:
+  en: A small interval around local midday used in some time-selection traditions.
+  kn: ಸ್ಥಳೀಯ ಮಧ್ಯಾಹ್ನದ ಸುತ್ತ ಆಯ್ದ ಚಿಕ್ಕ ಸಮಯ.
+  hi: स्थानीय दोपहर के आसपास का छोटा चुना हुआ समय।
+admin_note: 'Application in vedic.panchang.abhijit-muhurta: Use daytime slot 8 of 15 in day-night.yaml; its midpoint
+  is halfway between sunrise and sunset.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.abhijit-muhurta

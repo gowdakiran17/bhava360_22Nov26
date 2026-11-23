@@ -1,0 +1,40 @@
+id: glossary.terms.virupa
+term:
+  en: Virupa
+  kn: ವಿರೂಪ
+  hi: विरूप
+sanskrit:
+  devanagari: विरूप
+  kannada: ವಿರೂಪ
+  usage: traditional term
+meaning:
+  en: One sixtieth of a full unit used to record planetary strength.
+  kn: ಗ್ರಹಬಲದ ಪೂರ್ಣ ಘಟಕದ ಅರವತ್ತರಲ್ಲಿ ಒಂದು ಭಾಗ.
+  hi: ग्रह बल की पूरी इकाई का साठवाँ हिस्सा।
+admin_note: Use this label for one sixtieth of a full unit used to record planetary strength. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Virupas
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.dig
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.kendradi
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.nathonnata
+- vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.sthana
+- vedic.strength-shadbala.totals
+- vedic.strength-shadbala.tribhaga
+- vedic.strength-shadbala.uchcha
+- vedic.strength-shadbala.vara
+- vedic.strength-shadbala.yuddha

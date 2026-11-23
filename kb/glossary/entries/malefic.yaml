@@ -1,0 +1,29 @@
+id: glossary.terms.malefic
+term:
+  en: Malefic
+  kn: ಪಾಪಗ್ರಹ
+  hi: पापग्रह
+sanskrit:
+  devanagari: पापग्रह
+  kannada: ಪಾಪಗ್ರಹ
+  usage: traditional term
+meaning:
+  en: A planet traditionally read as bringing extra effort to a topic.
+  kn: ಒಂದು ವಿಷಯಕ್ಕೆ ಹೆಚ್ಚಿನ ಪ್ರಯತ್ನ ಬೇಕೆಂದು ಸಾಂಪ್ರದಾಯಿಕವಾಗಿ ಓದುವ ಗ್ರಹ.
+  hi: किसी विषय में अधिक प्रयास का संकेतक माना गया ग्रह।
+admin_note: Use this label for a planet traditionally read as bringing extra effort to a topic. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- malefics
+reference_rules: []
+used_by:
+- jaimini.argala.special-third
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.strength-shadbala.drik
+- vedic.yogas.vesi

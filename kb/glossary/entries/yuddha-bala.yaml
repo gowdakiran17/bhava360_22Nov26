@@ -1,0 +1,22 @@
+id: glossary.terms.yuddha-bala
+term:
+  en: Yuddha bala
+  kn: ಯುದ್ಧಬಲ
+  hi: युद्धबल
+sanskrit:
+  devanagari: युद्धबल
+  kannada: ಯುದ್ಧಬಲ
+  usage: traditional term
+meaning:
+  en: A strength adjustment applied to two eligible planets in a very close meeting.
+  kn: ತುಂಬ ಹತ್ತಿರವಿರುವ ಎರಡು ಅರ್ಹ ಗ್ರಹಗಳಿಗೆ ಮಾಡುವ ಬಲದ ಹೊಂದಾಣಿಕೆ.
+  hi: बहुत पास आए दो पात्र ग्रहों के बल में किया जाने वाला समायोजन।
+admin_note: 'Application in vedic.strength-shadbala.yuddha: For each eligible pair with shorter separation strictly below
+  one degree, compare the signed ecliptic latitudes per KB-05. Transfer the absolute difference of their pre-war Kala
+  amounts to the northern graha from the southern graha. The pre-war amount is the sum of the other eight Kala terms.
+  Accumulate disjoint pairs simultaneously. Withhold affected results for an unresolved winner or overlapping pairs.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.yuddha
+used_by:
+- vedic.strength-shadbala.yuddha

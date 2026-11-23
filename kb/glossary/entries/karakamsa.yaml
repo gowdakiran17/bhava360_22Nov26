@@ -1,0 +1,21 @@
+id: glossary.terms.karakamsa
+term:
+  en: Karakamsa
+  kn: ಕಾರಕಾಂಶ
+  hi: कारकांश
+sanskrit:
+  devanagari: कारकांश
+  kannada: ಕಾರಕಾಂಶ
+  usage: traditional term
+meaning:
+  en: The sign of the leading personal indicator in the nine-part chart, used as a starting point.
+  kn: ಒಂಬತ್ತು ಭಾಗಗಳ ನಕ್ಷೆಯಲ್ಲಿ ಮುಖ್ಯ ವೈಯಕ್ತಿಕ ಸೂಚಕ ಇರುವ ರಾಶಿ.
+  hi: नौ भागों वाली पत्री में मुख्य व्यक्तिगत संकेतक की राशि।
+admin_note: Use this label for the sign of the leading personal indicator in the nine-part chart, used as a starting
+  point. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.karakamsa.atmakaraka
+- jaimini.karakamsa.d1-projection
+- jaimini.karakamsa.swamsa

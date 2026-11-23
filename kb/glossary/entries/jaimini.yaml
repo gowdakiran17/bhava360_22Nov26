@@ -1,0 +1,57 @@
+id: glossary.terms.jaimini
+term:
+  en: Jaimini
+  kn: ಜೈಮಿನಿ
+  hi: जैमिनि
+sanskrit:
+  devanagari: जैमिनि
+  kannada: ಜೈಮಿನಿ
+  usage: traditional term
+meaning:
+  en: An Indian chart-reading tradition that uses relationships between signs and ranks planets by their positions.
+  kn: ರಾಶಿಗಳ ಸಂಬಂಧ ಮತ್ತು ಗ್ರಹಗಳ ಕ್ರಮವನ್ನು ಬಳಸುವ ಭಾರತೀಯ ಪರಂಪರೆ.
+  hi: राशियों के संबंध और ग्रहों के क्रम का उपयोग करने वाली भारतीय परंपरा।
+admin_note: Use this label for an Indian chart-reading tradition that uses relationships between signs and ranks planets
+  by their positions. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.argala.intervention
+- jaimini.argala.obstruction
+- jaimini.argala.special-third
+- jaimini.arudha-padas.a10
+- jaimini.arudha-padas.a11
+- jaimini.arudha-padas.a2
+- jaimini.arudha-padas.a3
+- jaimini.arudha-padas.a4
+- jaimini.arudha-padas.a5
+- jaimini.arudha-padas.a6
+- jaimini.arudha-padas.a7
+- jaimini.arudha-padas.a8
+- jaimini.arudha-padas.a9
+- jaimini.arudha-padas.arudha-lagna
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada
+- jaimini.chara-dasha.sign-chapter
+- jaimini.chara-karakas.amatyakaraka
+- jaimini.chara-karakas.atmakaraka
+- jaimini.chara-karakas.bhratrikaraka
+- jaimini.chara-karakas.darakaraka
+- jaimini.chara-karakas.gnatikaraka
+- jaimini.chara-karakas.matrikaraka
+- jaimini.chara-karakas.pitrikaraka
+- jaimini.chara-karakas.putrakaraka
+- jaimini.karakamsa.atmakaraka
+- jaimini.karakamsa.d1-projection
+- jaimini.karakamsa.swamsa
+- jaimini.raja-yogas.advisory-role
+- jaimini.raja-yogas.fifth-from-lord
+- jaimini.raja-yogas.lords-aspect-anchors
+- jaimini.rashi-drishti.sign-contact
+- vedic.dashas-chara.home-topic
+- vedic.dashas-chara.sign-order
+- vedic.dashas-narayana.partnership-topic
+- vedic.dashas-narayana.progression
+- vedic.prashna.arudha
+- vedic.signs.aquarius
+- vedic.signs.scorpio

@@ -1,0 +1,46 @@
+id: glossary.terms.cups
+term:
+  en: Cups
+  kn: ಚಷಕಾಃ
+  hi: चषकाः
+sanskrit:
+  devanagari: चषकाः
+  kannada: ಚಷಕಾಃ
+  usage: descriptive equivalent
+meaning:
+  en: The tarot suit pictured with vessels, often used to explore feelings and relationships.
+  kn: ಭಾವನೆ ಮತ್ತು ಸಂಬಂಧಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಪಾತ್ರೆ ಗುರುತಿನ ಪತ್ರಗಳ ಗುಂಪು.
+  hi: भावनाओं और संबंधों पर विचार करने वाला प्याला चिह्न का पत्ता समूह।
+admin_note: Use this label for the tarot suit pictured with vessels, often used to explore feelings and relationships.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.minor-arcana.ace-of-cups-reversed
+- tarot.minor-arcana.ace-of-cups-upright
+- tarot.minor-arcana.eight-of-cups-reversed
+- tarot.minor-arcana.eight-of-cups-upright
+- tarot.minor-arcana.five-of-cups-reversed
+- tarot.minor-arcana.five-of-cups-upright
+- tarot.minor-arcana.four-of-cups-reversed
+- tarot.minor-arcana.four-of-cups-upright
+- tarot.minor-arcana.king-of-cups-reversed
+- tarot.minor-arcana.king-of-cups-upright
+- tarot.minor-arcana.knight-of-cups-reversed
+- tarot.minor-arcana.knight-of-cups-upright
+- tarot.minor-arcana.nine-of-cups-reversed
+- tarot.minor-arcana.nine-of-cups-upright
+- tarot.minor-arcana.page-of-cups-reversed
+- tarot.minor-arcana.page-of-cups-upright
+- tarot.minor-arcana.queen-of-cups-reversed
+- tarot.minor-arcana.queen-of-cups-upright
+- tarot.minor-arcana.seven-of-cups-reversed
+- tarot.minor-arcana.seven-of-cups-upright
+- tarot.minor-arcana.six-of-cups-reversed
+- tarot.minor-arcana.six-of-cups-upright
+- tarot.minor-arcana.ten-of-cups-reversed
+- tarot.minor-arcana.ten-of-cups-upright
+- tarot.minor-arcana.three-of-cups-reversed
+- tarot.minor-arcana.three-of-cups-upright
+- tarot.minor-arcana.two-of-cups-reversed
+- tarot.minor-arcana.two-of-cups-upright

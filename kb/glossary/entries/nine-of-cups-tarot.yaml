@@ -1,0 +1,25 @@
+id: glossary.terms.nine-of-cups-tarot
+term:
+  en: Nine Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಒಂಬತ್ತು
+  hi: प्याला · नौ
+sanskrit:
+  devanagari: चषक नव
+  kannada: ಚಷಕ ನವ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank nine in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಒಂಬತ್ತು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · नौ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on contentment.
+  What comes to mind in this position?'
+aliases:
+- Nine Of Cups
+reference_rules:
+- tarot.minor-arcana.nine-of-cups-upright
+- tarot.minor-arcana.nine-of-cups-reversed
+used_by:
+- tarot.minor-arcana.nine-of-cups-reversed
+- tarot.minor-arcana.nine-of-cups-upright
+systems:
+- tarot

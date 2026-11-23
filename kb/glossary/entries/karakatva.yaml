@@ -1,0 +1,28 @@
+id: glossary.terms.karakatva
+term:
+  en: Karakatva
+  kn: ಕಾರಕತ್ವ
+  hi: कारकत्व
+sanskrit:
+  devanagari: कारकत्व
+  kannada: ಕಾರಕತ್ವ
+  usage: traditional term
+meaning:
+  en: A subject traditionally represented by a planet.
+  kn: ಒಂದು ಗ್ರಹ ಸೂಚಿಸುತ್ತದೆ ಎಂದು ಪರಿಗಣಿಸುವ ವಿಷಯ.
+  hi: ग्रह से पारंपरिक रूप से जोड़ा गया विषय।
+admin_note: Use this label for a subject traditionally represented by a planet. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases:
+- Karakatvas
+reference_rules: []
+used_by:
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus

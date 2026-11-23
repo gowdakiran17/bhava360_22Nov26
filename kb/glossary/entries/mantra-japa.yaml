@@ -1,0 +1,27 @@
+id: glossary.terms.mantra-japa
+term:
+  en: Mantra japa
+  kn: ಮಂತ್ರ ಜಪ
+  hi: मंत्र जप
+sanskrit:
+  devanagari: मन्त्रजप
+  kannada: ಮನ್ತ್ರಜಪ
+  usage: descriptive equivalent
+meaning:
+  en: An optional practice of repeating a chosen word or prayer.
+  kn: ಆಯ್ದ ಪದ ಅಥವಾ ಪ್ರಾರ್ಥನೆಯನ್ನು ಪುನರಾವರ್ತಿಸುವ ಐಚ್ಛಿಕ ಆಚರಣೆ.
+  hi: चुने शब्द या प्रार्थना को दोहराने का वैकल्पिक अभ्यास।
+admin_note: Use this label for an optional practice of repeating a chosen word or prayer. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- remedies.conduct.jupiter
+- remedies.conduct.ketu
+- remedies.conduct.mars
+- remedies.conduct.mercury
+- remedies.conduct.moon
+- remedies.conduct.rahu
+- remedies.conduct.saturn
+- remedies.conduct.sun
+- remedies.conduct.venus

@@ -1,0 +1,25 @@
+id: glossary.terms.page-of-pentacles-tarot
+term:
+  en: Page Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ದೂತ
+  hi: मुद्रा · दूत
+sanskrit:
+  devanagari: मुद्रा दूत
+  kannada: ಮುದ್ರಾ ದೂತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank page in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ದೂತ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · दूत की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on learning by
+  doing. What comes to mind in this position?'
+aliases:
+- Page Of Pentacles
+reference_rules:
+- tarot.minor-arcana.page-of-pentacles-upright
+- tarot.minor-arcana.page-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.page-of-pentacles-reversed
+- tarot.minor-arcana.page-of-pentacles-upright
+systems:
+- tarot

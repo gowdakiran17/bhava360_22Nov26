@@ -1,0 +1,46 @@
+id: glossary.terms.pentacles
+term:
+  en: Pentacles
+  kn: ಮುದ್ರಾಃ
+  hi: मुद्राः
+sanskrit:
+  devanagari: मुद्राः
+  kannada: ಮುದ್ರಾಃ
+  usage: descriptive equivalent
+meaning:
+  en: The tarot suit pictured with marked discs, often used to explore practical matters.
+  kn: ಪ್ರಾಯೋಗಿಕ ವಿಷಯಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಚಕ್ರ ಗುರುತಿನ ಪತ್ರಗಳ ಗುಂಪು.
+  hi: व्यावहारिक विषयों पर विचार करने वाला चक्र चिह्न का पत्ता समूह।
+admin_note: Use this label for the tarot suit pictured with marked discs, often used to explore practical matters. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.minor-arcana.ace-of-pentacles-reversed
+- tarot.minor-arcana.ace-of-pentacles-upright
+- tarot.minor-arcana.eight-of-pentacles-reversed
+- tarot.minor-arcana.eight-of-pentacles-upright
+- tarot.minor-arcana.five-of-pentacles-reversed
+- tarot.minor-arcana.five-of-pentacles-upright
+- tarot.minor-arcana.four-of-pentacles-reversed
+- tarot.minor-arcana.four-of-pentacles-upright
+- tarot.minor-arcana.king-of-pentacles-reversed
+- tarot.minor-arcana.king-of-pentacles-upright
+- tarot.minor-arcana.knight-of-pentacles-reversed
+- tarot.minor-arcana.knight-of-pentacles-upright
+- tarot.minor-arcana.nine-of-pentacles-reversed
+- tarot.minor-arcana.nine-of-pentacles-upright
+- tarot.minor-arcana.page-of-pentacles-reversed
+- tarot.minor-arcana.page-of-pentacles-upright
+- tarot.minor-arcana.queen-of-pentacles-reversed
+- tarot.minor-arcana.queen-of-pentacles-upright
+- tarot.minor-arcana.seven-of-pentacles-reversed
+- tarot.minor-arcana.seven-of-pentacles-upright
+- tarot.minor-arcana.six-of-pentacles-reversed
+- tarot.minor-arcana.six-of-pentacles-upright
+- tarot.minor-arcana.ten-of-pentacles-reversed
+- tarot.minor-arcana.ten-of-pentacles-upright
+- tarot.minor-arcana.three-of-pentacles-reversed
+- tarot.minor-arcana.three-of-pentacles-upright
+- tarot.minor-arcana.two-of-pentacles-reversed
+- tarot.minor-arcana.two-of-pentacles-upright

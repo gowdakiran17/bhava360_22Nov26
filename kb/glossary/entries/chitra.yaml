@@ -1,0 +1,26 @@
+id: glossary.terms.chitra
+term:
+  en: Chitra
+  kn: ಚಿತ್ರಾ
+  hi: चित्रा
+sanskrit:
+  devanagari: चित्रा
+  kannada: ಚಿತ್ರಾ
+  usage: traditional term
+meaning:
+  en: Section 14 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 14ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 14।
+admin_note: 'Application in vedic.nakshatras.chitra: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.chitra
+used_by:
+- vedic.matching.porutham-vedha
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.chitra

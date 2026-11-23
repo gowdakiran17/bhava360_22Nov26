@@ -1,0 +1,22 @@
+id: glossary.terms.kubera-vastu-guardian
+term:
+  en: Kubera (Vastu guardian)
+  kn: ಕುಬೇರ ದಿಕ್ಪಾಲ
+  hi: कुबेर दिक्पाल
+sanskrit:
+  devanagari: कुबेर दिक्पाल
+  kannada: ಕುಬೇರ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the north part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಉತ್ತರ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के उत्तर भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vastu.directions.north: The north is associated with Kubera and mercury.'
+aliases:
+- Kubera
+reference_rules:
+- vastu.directions.north
+used_by:
+- vastu.directions.north
+systems:
+- vastu

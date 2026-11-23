@@ -1,0 +1,24 @@
+id: glossary.terms.life-broken-line
+term:
+  en: Life Broken line
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬದಿಯ ಬಾಗಿದ ಗೆರೆಯಲ್ಲಿ ಅಂತರ
+  hi: अँगूठे की ओर मुड़ती रेखा में दिखाई देता अंतर
+sanskrit:
+  devanagari: खण्डितजीवन हस्तरेखा
+  kannada: ಖಣ್ಡಿತಜೀವನ ಹಸ್ತರೇಖಾ
+  usage: descriptive equivalent
+meaning:
+  en: Thumb-side arc with a visible gap.
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬದಿಯ ಬಾಗಿದ ಗೆರೆಯಲ್ಲಿ ಅಂತರ.
+  hi: अँगूठे की ओर मुड़ती रेखा में दिखाई देता अंतर।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.lines.life-broken-left
+- palmistry.lines.life-broken-right
+used_by:
+- palmistry.lines.life-broken-left
+- palmistry.lines.life-broken-right
+systems:
+- palmistry

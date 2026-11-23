@@ -1,0 +1,21 @@
+id: glossary.terms.nadi
+term:
+  en: Nadi
+  kn: ನಾಡೀ
+  hi: नाडी
+sanskrit:
+  devanagari: नाडी
+  kannada: ನಾಡೀ
+  usage: traditional term
+meaning:
+  en: In matching, one of three groups assigned to each person’s birth star.
+  kn: ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಜನ್ಮನಕ್ಷತ್ರಗಳಿಗೆ ನೀಡುವ ಮೂರು ಗುಂಪುಗಳಲ್ಲಿ ಒಂದು.
+  hi: मिलान में जन्म तारों को दिए तीन समूहों में से एक।
+admin_note: 'Application in vedic.matching.nadi: Look up each Moon’s birth star in the three Nadi groups, then read the
+  class-pair matrix. Keep the raw points when a selected exception softens interpretation.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.nadi
+- vedic.matching.nadi
+- vedic.matching.shared-star-class

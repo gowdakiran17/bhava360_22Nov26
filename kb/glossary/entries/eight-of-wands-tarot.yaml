@@ -1,0 +1,25 @@
+id: glossary.terms.eight-of-wands-tarot
+term:
+  en: Eight Of Wands (Tarot)
+  kn: ಕೋಲು · ಎಂಟು
+  hi: छड़ी · आठ
+sanskrit:
+  devanagari: दण्ड अष्ट
+  kannada: ದಣ್ಡ ಅಷ್ಟ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank eight in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಎಂಟು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · आठ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on swift communication.
+  What comes to mind in this position?'
+aliases:
+- Eight Of Wands
+reference_rules:
+- tarot.minor-arcana.eight-of-wands-upright
+- tarot.minor-arcana.eight-of-wands-reversed
+used_by:
+- tarot.minor-arcana.eight-of-wands-reversed
+- tarot.minor-arcana.eight-of-wands-upright
+systems:
+- tarot

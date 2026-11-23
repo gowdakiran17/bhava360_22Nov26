@@ -1,0 +1,25 @@
+id: glossary.terms.harsha-yoga
+term:
+  en: Harsha yoga
+  kn: ಹರ್ಷಯೋಗ
+  hi: हर्षयोग
+sanskrit:
+  devanagari: हर्षयोग
+  kannada: ಹರ್ಷಯೋಗ
+  usage: traditional term
+meaning:
+  en: The ruler of house 6 occupies the sixth, eighth or twelfth house in this method.
+  kn: 6ನೇ ಮನೆಯ ಅಧಿಪತಿ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆಯಲ್ಲಿ ಇರುವುದು.
+  hi: घर 6 का स्वामी छठे, आठवें या बारहवें घर में होना।
+admin_note: Lord of house 6 occupies house 6, 8 or 12 under the broad Vipareeta screen.
+aliases:
+- harsha
+reference_rules:
+- vedic.yogas.harsha
+used_by:
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-6
+- vedic.house-lords.lord-6-in-house-8
+- vedic.yogas.harsha
+systems:
+- vedic

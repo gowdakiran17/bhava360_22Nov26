@@ -1,0 +1,34 @@
+id: glossary.terms.kp-sublord
+term:
+  en: KP sublord
+  kn: ಕೆಪಿ ಉಪಾಧಿಪತಿ
+  hi: केपी उपस्वामी
+sanskrit:
+  devanagari: उपनक्षत्राधिपति
+  kannada: ಉಪನಕ್ಷತ್ರಾಧಿಪತಿ
+  usage: descriptive equivalent
+meaning:
+  en: The planet assigned to the small part of a star section that contains the point being read.
+  kn: ಪರಿಶೀಲಿಸುವ ಬಿಂದು ಇರುವ ನಕ್ಷತ್ರದ ಚಿಕ್ಕ ಭಾಗಕ್ಕೆ ನಿಗದಿಯಾದ ಗ್ರಹ.
+  hi: देखा जा रहा बिंदु नक्षत्र के जिस छोटे हिस्से में आता है, उससे जुड़ा ग्रह।
+admin_note: Use this label for the planet assigned to the small part of a star section that contains the point being
+  read. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- sub-lord
+- sublord
+reference_rules: []
+used_by:
+- kp.cusps.cusp-1
+- kp.cusps.cusp-10
+- kp.cusps.cusp-11
+- kp.cusps.cusp-12
+- kp.cusps.cusp-2
+- kp.cusps.cusp-3
+- kp.cusps.cusp-4
+- kp.cusps.cusp-5
+- kp.cusps.cusp-6
+- kp.cusps.cusp-8
+- kp.cusps.cusp-9
+- kp.cusps.seventh-cusp
+- kp.significators.job-change
+- kp.star-sub-lords.subdivision

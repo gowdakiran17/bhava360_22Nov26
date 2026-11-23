@@ -1,0 +1,19 @@
+id: glossary.terms.rahu-kalam
+term:
+  en: Rahu Kalam
+  kn: ರಾಹುಕಾಲ
+  hi: राहुकाल
+sanskrit:
+  devanagari: राहुकाल
+  kannada: ರಾಹುಕಾಲ
+  usage: traditional term
+meaning:
+  en: One of eight parts of daylight selected by weekday and traditionally set aside when choosing a start time.
+  kn: ವಾರದ ದಿನಕ್ಕೆ ತಕ್ಕಂತೆ ಆಯ್ಕೆ ಮಾಡುವ ಹಗಲಿನ ಎಂಟು ಭಾಗಗಳಲ್ಲಿ ಒಂದು.
+  hi: दिन के उजाले के आठ हिस्सों में से वार से चुना गया एक हिस्सा।
+admin_note: 'Application in vedic.panchang.rahu-kalam: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.rahu.
+  Let D = (sunset − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.rahu-kalam

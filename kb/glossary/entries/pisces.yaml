@@ -1,0 +1,82 @@
+id: glossary.terms.pisces
+term:
+  en: Pisces
+  kn: ಮೀನ
+  hi: मीन
+sanskrit:
+  devanagari: मीन
+  kannada: ಮೀನ
+  usage: traditional term
+meaning:
+  en: Sign number 12 in the twelve-part circle, covering degrees 330 to 360.
+  kn: ರಾಶಿಚಕ್ರದ 12ನೇ ಭಾಗ, 330ರಿಂದ 360 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 12, 330 से 360 अंश तक।
+admin_note: 'Application in western.signs.pisces: The selected tropical point falls in [330, 360) degrees from the March
+  equinox. Mutable water; modern ruler neptune, traditional ruler jupiter.'
+aliases:
+- Meena
+reference_rules:
+- vedic.signs.pisces
+used_by:
+- tarot.major-arcana.the-moon-reversed
+- tarot.major-arcana.the-moon-upright
+- tarot.minor-arcana.eight-of-cups-reversed
+- tarot.minor-arcana.eight-of-cups-upright
+- tarot.minor-arcana.king-of-cups-reversed
+- tarot.minor-arcana.king-of-cups-upright
+- tarot.minor-arcana.nine-of-cups-reversed
+- tarot.minor-arcana.nine-of-cups-upright
+- tarot.minor-arcana.queen-of-wands-reversed
+- tarot.minor-arcana.queen-of-wands-upright
+- tarot.minor-arcana.ten-of-cups-reversed
+- tarot.minor-arcana.ten-of-cups-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.pisces-lagna-lord
+- vedic.muhurta.education-start
+- vedic.muhurta.marriage
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.revati
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-pisces
+- vedic.planets-in-signs.ketu-pisces
+- vedic.planets-in-signs.mars-pisces
+- vedic.planets-in-signs.mercury-pisces
+- vedic.planets-in-signs.moon-pisces
+- vedic.planets-in-signs.rahu-pisces
+- vedic.planets-in-signs.saturn-pisces
+- vedic.planets-in-signs.sun-pisces
+- vedic.planets-in-signs.venus-pisces
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.pisces
+- vedic.strength-ashtakavarga.sarvashtakavarga
+- vedic.vargas.d30-placement
+- western.natal.ascendant-pisces
+- western.natal.jupiter-pisces
+- western.natal.mars-pisces
+- western.natal.mercury-pisces
+- western.natal.moon-pisces
+- western.natal.neptune-pisces
+- western.natal.pluto-pisces
+- western.natal.saturn-pisces
+- western.natal.sun-pisces
+- western.natal.uranus-pisces
+- western.natal.venus-pisces
+- western.planets.neptune
+- western.signs.pisces

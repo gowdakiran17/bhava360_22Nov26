@@ -1,0 +1,25 @@
+id: glossary.terms.ace-of-pentacles-tarot
+term:
+  en: Ace Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಒಂದು
+  hi: मुद्रा · इक्का
+sanskrit:
+  devanagari: मुद्रा एक
+  kannada: ಮುದ್ರಾ ಏಕ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank ace in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಒಂದು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · इक्का की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a practical
+  opening. What comes to mind in this position?'
+aliases:
+- Ace Of Pentacles
+reference_rules:
+- tarot.minor-arcana.ace-of-pentacles-upright
+- tarot.minor-arcana.ace-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.ace-of-pentacles-reversed
+- tarot.minor-arcana.ace-of-pentacles-upright
+systems:
+- tarot

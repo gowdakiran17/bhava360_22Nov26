@@ -1,0 +1,27 @@
+id: glossary.terms.arcsecond
+term:
+  en: Arcsecond
+  kn: ಕೋನ ಸೆಕೆಂಡ್
+  hi: कोण सेकंड
+sanskrit:
+  devanagari: विकलामान
+  kannada: ವಿಕಲಾಮಾನ
+  usage: descriptive equivalent
+meaning:
+  en: One sixtieth of an arcminute, or one 3,600th of a degree.
+  kn: ಒಂದು ಕೋನ ನಿಮಿಷದ ಅರವತ್ತನೇ ಭಾಗ.
+  hi: कोण के एक मिनट का साठवाँ भाग।
+admin_note: Use this label for one sixtieth of an arcminute, or one 3,600th of a degree. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- arcseconds
+- arcsec
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.balance-calculation
+- vedic.dashas-yogini.balance-calculation
+- vedic.panchang.karana
+- vedic.panchang.nakshatra
+- vedic.panchang.tithi
+- vedic.panchang.yoga
+- vedic.transits.nodal-axis

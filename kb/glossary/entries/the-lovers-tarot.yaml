@@ -1,0 +1,25 @@
+id: glossary.terms.the-lovers-tarot
+term:
+  en: The Lovers (Tarot)
+  kn: ಪ್ರೇಮಿಗಳು (ಟ್ಯಾರೊ)
+  hi: प्रेमी (टैरो)
+sanskrit:
+  devanagari: प्रेमी
+  kannada: ಪ್ರೇಮೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 6, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 6 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 6 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on shared values.
+  What comes to mind in this position?'
+aliases:
+- The Lovers
+reference_rules:
+- tarot.major-arcana.the-lovers-upright
+- tarot.major-arcana.the-lovers-reversed
+used_by:
+- tarot.major-arcana.the-lovers-reversed
+- tarot.major-arcana.the-lovers-upright
+systems:
+- tarot

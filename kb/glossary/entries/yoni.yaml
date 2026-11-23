@@ -1,0 +1,21 @@
+id: glossary.terms.yoni
+term:
+  en: Yoni
+  kn: ಯೋನಿ
+  hi: योनि
+sanskrit:
+  devanagari: योनि
+  kannada: ಯೋನಿ
+  usage: traditional term
+meaning:
+  en: A matching factor that compares animal symbols assigned to birth stars.
+  kn: ಜನ್ಮನಕ್ಷತ್ರಗಳಿಗೆ ನೀಡಿದ ಪ್ರಾಣಿ ಸಂಕೇತಗಳನ್ನು ಹೋಲಿಸುವ ಅಂಶ.
+  hi: जन्म तारों के पशु प्रतीकों की तुलना का पहलू।
+admin_note: 'Application in vedic.matching.yoni: Look up both birth-star animals in the ordered animal matrix. This comparison
+  cannot establish personal preferences or consent.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.porutham-yoni
+- vedic.matching.yoni
+- vedic.nakshatras.bharani

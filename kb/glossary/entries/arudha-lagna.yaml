@@ -1,0 +1,20 @@
+id: glossary.terms.arudha-lagna
+term:
+  en: Arudha lagna
+  kn: ಆರೂಢಲಗ್ನ
+  hi: आरूढलग्न
+sanskrit:
+  devanagari: आरूढलग्न
+  kannada: ಆರೂಢಲಗ್ನ
+  usage: traditional term
+meaning:
+  en: A point calculated from the rising sign and its ruler to explore a person’s public image.
+  kn: ಉದಯ ರಾಶಿ ಮತ್ತು ಅದರ ಅಧಿಪತಿಯಿಂದ ವ್ಯಕ್ತಿಯ ಸಾರ್ವಜನಿಕ ಚಿತ್ರಕ್ಕಾಗಿ ಪಡೆಯುವ ಸ್ಥಾನ.
+  hi: उदय राशि और उसके स्वामी से निकला बिंदु जिससे सार्वजनिक छवि पर विचार किया जाता है।
+admin_note: 'Application in jaimini.arudha-padas.arudha-lagna: Bind the requested D1 house 1 and compute A1 with arudha-padas/methods.yaml.
+  Read its visible expression only if its final sign is stable.'
+aliases:
+- A1
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.arudha-lagna

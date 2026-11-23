@@ -1,0 +1,22 @@
+id: glossary.terms.non-dominant-hand
+term:
+  en: Non-dominant hand
+  kn: ಅಪ್ರಧಾನಹಸ್ತ
+  hi: अप्रधानहस्त
+sanskrit:
+  devanagari: अप्रधानहस्त
+  kannada: ಅಪ್ರಧಾನಹಸ್ತ
+  usage: traditional term
+meaning:
+  en: The other hand when a person identifies a hand they use more often.
+  kn: ಹೆಚ್ಚು ಬಳಸುವ ಕೈಯನ್ನು ಗುರುತಿಸಿದಾಗ ಅದರ ಎದುರಿನ ಕೈ.
+  hi: जब व्यक्ति एक हाथ अधिक इस्तेमाल करता है तब उसका दूसरा हाथ।
+admin_note: 'Application in palmistry.mounts.jupiter-right: The user confirmed the illustrated choice on the right hand:
+  Raised pad beneath the index finger.'
+aliases: []
+reference_rules:
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+used_by:
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right

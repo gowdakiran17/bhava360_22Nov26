@@ -1,0 +1,27 @@
+id: glossary.terms.yama-vastu-guardian
+term:
+  en: Yama (Vastu guardian)
+  kn: ಯಮ ದಿಕ್ಪಾಲ
+  hi: यम दिक्पाल
+sanskrit:
+  devanagari: यम दिक्पाल
+  kannada: ಯಮ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the south part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ದಕ್ಷಿಣ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के दक्षिण भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vedic.nakshatras.bharani: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases:
+- Yama
+reference_rules:
+- vastu.directions.south
+- vedic.nakshatras.bharani
+used_by:
+- vastu.directions.south
+- vedic.nakshatras.bharani
+systems:
+- vastu
+used_in_files:
+- vastu/entrances/padas.yaml

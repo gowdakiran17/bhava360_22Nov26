@@ -1,0 +1,23 @@
+id: glossary.terms.anapha-yoga
+term:
+  en: Anapha yoga
+  kn: ಅನಫಾಯೋಗ
+  hi: अनफायोग
+sanskrit:
+  devanagari: अनफायोग
+  kannada: ಅನಫಾಯೋಗ
+  usage: traditional term
+meaning:
+  en: One of five eligible planets occupies the sign before the Moon.
+  kn: ಚಂದ್ರನ ಹಿಂದಿನ ರಾಶಿಯಲ್ಲಿ ನಿರ್ದಿಷ್ಟ ಐದು ಗ್ರಹಗಳಲ್ಲಿ ಒಂದು ಇರುವುದು.
+  hi: चंद्रमा से पिछली राशि में पाँच पात्र ग्रहों में से कोई एक होना।
+admin_note: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the twelfth sign(s) counted from the natal
+  Moon; for both sides require a separate occupant on each.
+aliases:
+- anapha
+reference_rules:
+- vedic.yogas.anapha
+used_by:
+- vedic.yogas.anapha
+systems:
+- vedic

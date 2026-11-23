@@ -1,0 +1,25 @@
+id: glossary.terms.mercury-mount
+term:
+  en: Mercury mount
+  kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  hi: कनिष्ठा के नीचे उभरा भाग
+sanskrit:
+  devanagari: बुध करतलोन्नति
+  kannada: ಬುಧ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised pad beneath the little finger.
+  kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ.
+  hi: कनिष्ठा के नीचे उभरा भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.mercury-left
+- palmistry.mounts.mercury-right
+used_by:
+- palmistry.mounts.mercury
+- palmistry.mounts.mercury-left
+- palmistry.mounts.mercury-right
+systems:
+- palmistry

@@ -1,0 +1,20 @@
+id: glossary.terms.aja-ekapada
+term:
+  en: Aja Ekapada
+  kn: ಅಜೈಕಪಾದ
+  hi: अजैकपाद
+sanskrit:
+  devanagari: अजैकपाद
+  kannada: ಅಜೈಕಪಾದ
+  usage: traditional term
+meaning:
+  en: Aja Ekapada is a traditional figure associated with Purva Bhadrapada.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಪೂರ್ವಭಾದ್ರಪದಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: पूर्वभाद्रपदा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.purva-bhadrapada
+used_by:
+- vedic.nakshatras.purva-bhadrapada

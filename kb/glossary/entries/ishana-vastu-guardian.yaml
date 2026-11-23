@@ -1,0 +1,23 @@
+id: glossary.terms.ishana-vastu-guardian
+term:
+  en: Ishana (Vastu guardian)
+  kn: ಈಶಾನ ದಿಕ್ಪಾಲ
+  hi: ईशान दिक्पाल
+sanskrit:
+  devanagari: ईशान दिक्पाल
+  kannada: ಈಶಾನ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the northeast part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಈಶಾನ್ಯ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के उत्तरपूर्व भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vastu.directions.northeast: A user-selected quiet corner is in the northeast.'
+aliases:
+- Ishana
+reference_rules:
+- vastu.directions.northeast
+used_by:
+- vastu.directions.northeast
+- vastu.directions.northeast-rulership
+systems:
+- vastu

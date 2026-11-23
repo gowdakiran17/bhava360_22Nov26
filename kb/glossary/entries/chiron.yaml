@@ -1,0 +1,20 @@
+id: glossary.terms.chiron
+term:
+  en: Chiron
+  kn: ಕಾಇರನ್
+  hi: काइरन्
+sanskrit:
+  devanagari: काइरन्
+  kannada: ಕಾಇರನ್
+  usage: descriptive equivalent
+meaning:
+  en: A small body orbiting the Sun that some modern chart readers include.
+  kn: ಸೂರ್ಯನ ಸುತ್ತ ಸುತ್ತುವ ಮತ್ತು ಕೆಲವು ಆಧುನಿಕ ನಕ್ಷೆಗಳಲ್ಲಿ ಬಳಸುವ ಕಿರು ಆಕಾಶಕಾಯ.
+  hi: सूर्य की परिक्रमा करने वाला छोटा पिंड जिसे कुछ आधुनिक पत्रियों में देखते हैं।
+admin_note: Use this label for a small body orbiting the Sun that some modern chart readers include. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- western/aspects/orbs.yaml

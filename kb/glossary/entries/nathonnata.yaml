@@ -1,0 +1,21 @@
+id: glossary.terms.nathonnata
+term:
+  en: Nathonnata
+  kn: ನತೋನ್ನತ
+  hi: नतोन्नत
+sanskrit:
+  devanagari: नतोन्नत
+  kannada: ನತೋನ್ನತ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on the time’s distance from midday or midnight.
+  kn: ಮಧ್ಯಾಹ್ನ ಅಥವಾ ಮಧ್ಯರಾತ್ರಿಯಿಂದ ಸಮಯದ ಅಂತರದ ಆಧಾರದ ಬಲ.
+  hi: दोपहर या आधी रात से समय की दूरी पर आधारित बल।
+admin_note: 'Application in vedic.strength-shadbala.nathonnata: Let t be local apparent solar hours since solar midnight
+  modulo twenty-four. Day strength is five times min(t,24−t). Nocturnal grahas take sixty minus that value. Mercury receives
+  sixty.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.nathonnata

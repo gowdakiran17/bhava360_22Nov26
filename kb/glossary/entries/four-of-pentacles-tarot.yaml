@@ -1,0 +1,25 @@
+id: glossary.terms.four-of-pentacles-tarot
+term:
+  en: Four Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ನಾಲ್ಕು
+  hi: मुद्रा · चार
+sanskrit:
+  devanagari: मुद्रा चतुर्
+  kannada: ಮುದ್ರಾ ಚತುರ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank four in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ನಾಲ್ಕು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · चार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on protecting
+  resources. What comes to mind in this position?'
+aliases:
+- Four Of Pentacles
+reference_rules:
+- tarot.minor-arcana.four-of-pentacles-upright
+- tarot.minor-arcana.four-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.four-of-pentacles-reversed
+- tarot.minor-arcana.four-of-pentacles-upright
+systems:
+- tarot

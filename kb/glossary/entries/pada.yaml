@@ -1,0 +1,86 @@
+id: glossary.terms.pada
+term:
+  en: Pada
+  kn: ಪಾದ
+  hi: पाद
+sanskrit:
+  devanagari: पाद
+  kannada: ಪಾದ
+  usage: traditional term
+meaning:
+  en: One of the four equal parts of a Moon section, or a marked section of an entrance in home planning.
+  kn: ಚಂದ್ರನ ವಿಭಾಗದ ನಾಲ್ಕು ಸಮಭಾಗಗಳಲ್ಲಿ ಒಂದು ಅಥವಾ ಪ್ರವೇಶದ್ವಾರದ ಗುರುತಿಸಿದ ಭಾಗ.
+  hi: चंद्रमा के एक आकाश खंड का चौथाई भाग या घर के प्रवेश का चिह्नित हिस्सा।
+admin_note: Use this label for one of the four equal parts of a Moon section, or a marked section of an entrance in home
+  planning. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Padas
+- Nakshatra quarter
+- ನಕ್ಷತ್ರ ಪಾದ
+- नक्षत्र चरण
+- Quarter
+- चरण
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.a10
+- jaimini.arudha-padas.a11
+- jaimini.arudha-padas.a2
+- jaimini.arudha-padas.a3
+- jaimini.arudha-padas.a4
+- jaimini.arudha-padas.a5
+- jaimini.arudha-padas.a6
+- jaimini.arudha-padas.a7
+- jaimini.arudha-padas.a8
+- jaimini.arudha-padas.a9
+- jaimini.arudha-padas.arudha-lagna
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada
+- vedic.dashas-kalachakra.pada-wheel
+- vedic.dashas-kalachakra.study-topic
+- vedic.doshas.nadi
+- vedic.matching.nadi
+- vedic.matching.shared-star-class
+- vedic.matching.vashya
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.padas.born-pada
+- vedic.padas.check-business-name-syllable-match
+- vedic.padas.check-personal-baby-name-dictionary-hit
+- vedic.padas.check-personal-baby-name-different-sound
+- vedic.padas.check-personal-baby-name-pada
+- vedic.prashna.arudha
+- vedic.strength-shadbala.drik
+- vedic.vargas.d4-placement

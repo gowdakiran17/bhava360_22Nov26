@@ -1,0 +1,21 @@
+id: glossary.terms.dashakoota
+term:
+  en: Dashakoota
+  kn: ದಶಕೂಟ
+  hi: दशकूट
+sanskrit:
+  devanagari: दशकूट
+  kannada: ದಶಕೂಟ
+  usage: traditional term
+meaning:
+  en: A family of marriage-matching methods that compare ten factors.
+  kn: ವಿವಾಹ ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಹತ್ತು ಅಂಶಗಳನ್ನು ಹೋಲಿಸುವ ವಿಧಾನಗಳು.
+  hi: विवाह मिलान में दस पहलुओं की तुलना करने वाली पद्धतियाँ।
+admin_note: Use this label for a family of marriage-matching methods that compare ten factors. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Dashakuta
+reference_rules: []
+used_by:
+- vedic.matching.nadi
+- vedic.matching.shared-star-class

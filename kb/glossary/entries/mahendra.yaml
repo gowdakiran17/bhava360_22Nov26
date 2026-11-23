@@ -1,0 +1,19 @@
+id: glossary.terms.mahendra
+term:
+  en: Mahendra
+  kn: ಮಹೇನ್ದ್ರ
+  hi: महेन्द्र
+sanskrit:
+  devanagari: महेन्द्र
+  kannada: ಮಹೇನ್ದ್ರ
+  usage: traditional term
+meaning:
+  en: A matching factor based on counting from one person’s birth star to the other.
+  kn: ಒಬ್ಬರ ಜನ್ಮನಕ್ಷತ್ರದಿಂದ ಇನ್ನೊಬ್ಬರ ನಕ್ಷತ್ರದವರೆಗೆ ಎಣಿಸುವ ಅಂಶ.
+  hi: एक के जन्म तारे से दूसरे के जन्म तारे तक गिनने का पहलू।
+admin_note: Use this label for a matching factor based on counting from one person’s birth star to the other. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.porutham-mahendra

@@ -1,0 +1,25 @@
+id: glossary.terms.two-of-swords-tarot
+term:
+  en: Two Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಎರಡು
+  hi: तलवार · दो
+sanskrit:
+  devanagari: खड्ग द्वि
+  kannada: ಖಡ್ಗ ದ್ವಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank two in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಎರಡು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · दो की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a difficult
+  choice. What comes to mind in this position?'
+aliases:
+- Two Of Swords
+reference_rules:
+- tarot.minor-arcana.two-of-swords-upright
+- tarot.minor-arcana.two-of-swords-reversed
+used_by:
+- tarot.minor-arcana.two-of-swords-reversed
+- tarot.minor-arcana.two-of-swords-upright
+systems:
+- tarot

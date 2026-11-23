@@ -16,3 +16,18 @@ lookup:
   Moolank: moolank
   Bhagyank: bhagyank
 resolve: Resolve aliases within the selected system and locale.
+canonical_ids:
+  Gajakesari: glossary.terms.gaja-kesari-yoga
+  Kuja: glossary.terms.mars
+  Mangala: glossary.terms.mars
+  Guru: glossary.terms.jupiter
+  Shukra: glossary.terms.venus
+  Shani: glossary.terms.saturn
+  Rasi: glossary.terms.rasi
+  Gochara: glossary.terms.gochara
+  Dasa: glossary.terms.dasha
+  Navamsha: glossary.terms.d9
+  Dasamsha: glossary.terms.d10
+  Upapada: glossary.terms.upapada
+  Moolank: glossary.terms.birthday-number
+  Bhagyank: glossary.terms.life-path

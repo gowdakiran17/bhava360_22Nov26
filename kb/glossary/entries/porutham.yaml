@@ -1,0 +1,43 @@
+id: glossary.terms.porutham
+term:
+  en: Porutham
+  kn: ಪೊರುತ್ತಂ
+  hi: पोरुत्तम
+sanskrit:
+  devanagari: मेलापक
+  kannada: ಮೇಲಾಪಕ
+  usage: descriptive equivalent
+meaning:
+  en: A South Indian marriage-matching tradition that compares two people’s birth details across several factors.
+  kn: ಇಬ್ಬರ ಜನನದ ವಿವರಗಳನ್ನು ಹಲವು ಅಂಶಗಳ ಆಧಾರದಲ್ಲಿ ಹೋಲಿಸುವ ದಕ್ಷಿಣ ಭಾರತದ ವಿವಾಹ ಹೊಂದಾಣಿಕೆ ಪದ್ಧತಿ.
+  hi: दक्षिण भारत की विवाह मिलान परंपरा जिसमें दो लोगों के जन्म विवरण की कई पहलुओं से तुलना की जाती है।
+admin_note: Porutham is a Tamil term. The Sanskrit field gives a descriptive equivalent. This library uses ten separate
+  comparisons in its South Indian profile, including Rajju and Vedha. Preserve the direction of comparison and show the
+  factors separately.
+aliases:
+- Poruttam
+- Poruthams
+reference_rules:
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-gana
+- vedic.matching.porutham-mahendra
+- vedic.matching.porutham-rajju
+- vedic.matching.porutham-rashi-lord
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-stree-deergha
+- vedic.matching.porutham-vashya
+- vedic.matching.porutham-vedha
+- vedic.matching.porutham-yoni
+used_by:
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-gana
+- vedic.matching.porutham-mahendra
+- vedic.matching.porutham-rajju
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-rashi-lord
+- vedic.matching.porutham-stree-deergha
+- vedic.matching.porutham-vashya
+- vedic.matching.porutham-vedha
+- vedic.matching.porutham-yoni
+- vedic.matching.tara
+- vedic.matching.vashya

@@ -1,0 +1,62 @@
+id: glossary.terms.compound-number
+term:
+  en: Compound number
+  kn: ಸಂಯುಕ್ತಾಙ್ಕ
+  hi: संयुक्ताङ्क
+sanskrit:
+  devanagari: संयुक्ताङ्क
+  kannada: ಸಂಯುಕ್ತಾಙ್ಕ
+  usage: traditional term
+meaning:
+  en: The total before repeated addition reduces it to a single digit.
+  kn: ಪುನಃ ಕೂಡಿಸಿ ಒಂದಂಕಿಗೆ ಇಳಿಸುವ ಮೊದಲಿನ ಒಟ್ಟು.
+  hi: बार-बार जोड़कर एक अंक बनाने से पहले का कुल।
+admin_note: Use this label for the total before repeated addition reduces it to a single digit. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- compounds
+reference_rules: []
+used_by:
+- numerology.chaldean.compound-10
+- numerology.chaldean.compound-11
+- numerology.chaldean.compound-12
+- numerology.chaldean.compound-13
+- numerology.chaldean.compound-14
+- numerology.chaldean.compound-15
+- numerology.chaldean.compound-16
+- numerology.chaldean.compound-17
+- numerology.chaldean.compound-18
+- numerology.chaldean.compound-19
+- numerology.chaldean.compound-20
+- numerology.chaldean.compound-21
+- numerology.chaldean.compound-22
+- numerology.chaldean.compound-23
+- numerology.chaldean.compound-24
+- numerology.chaldean.compound-25
+- numerology.chaldean.compound-26
+- numerology.chaldean.compound-27
+- numerology.chaldean.compound-28
+- numerology.chaldean.compound-29
+- numerology.chaldean.compound-30
+- numerology.chaldean.compound-31
+- numerology.chaldean.compound-32
+- numerology.chaldean.compound-33
+- numerology.chaldean.compound-34
+- numerology.chaldean.compound-35
+- numerology.chaldean.compound-36
+- numerology.chaldean.compound-37
+- numerology.chaldean.compound-38
+- numerology.chaldean.compound-39
+- numerology.chaldean.compound-40
+- numerology.chaldean.compound-41
+- numerology.chaldean.compound-42
+- numerology.chaldean.compound-43
+- numerology.chaldean.compound-44
+- numerology.chaldean.compound-45
+- numerology.chaldean.compound-46
+- numerology.chaldean.compound-47
+- numerology.chaldean.compound-48
+- numerology.chaldean.compound-49
+- numerology.chaldean.compound-50
+- numerology.chaldean.compound-51
+- numerology.chaldean.compound-52

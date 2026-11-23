@@ -1,0 +1,27 @@
+id: glossary.terms.prastara
+term:
+  en: Prastara
+  kn: ಪ್ರಸ್ತಾರ
+  hi: प्रस्तार
+sanskrit:
+  devanagari: प्रस्तार
+  kannada: ಪ್ರಸ್ತಾರ
+  usage: traditional term
+meaning:
+  en: A detailed table showing which starting point supplied each contribution.
+  kn: ಪ್ರತಿ ಕೊಡುಗೆ ಯಾವ ಆರಂಭದ ಸ್ಥಾನದಿಂದ ಬಂದಿತೆಂದು ತೋರಿಸುವ ಕೋಷ್ಟಕ.
+  hi: हर योगदान किस शुरुआती स्थान से आया यह दिखाने वाली तालिका।
+admin_note: Use this label for a detailed table showing which starting point supplied each contribution. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.jupiter-bav
+- vedic.strength-ashtakavarga.kakshya
+- vedic.strength-ashtakavarga.mars-bav
+- vedic.strength-ashtakavarga.mercury-bav
+- vedic.strength-ashtakavarga.moon-bav
+- vedic.strength-ashtakavarga.saturn-bav
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-ashtakavarga.venus-bav
+- vedic.transits.raw-bav-kakshya

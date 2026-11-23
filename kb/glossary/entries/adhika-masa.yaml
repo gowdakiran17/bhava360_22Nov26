@@ -1,0 +1,20 @@
+id: glossary.terms.adhika-masa
+term:
+  en: Adhika masa
+  kn: ಅಧಿಕಮಾಸ
+  hi: अधिकमास
+sanskrit:
+  devanagari: अधिकमास
+  kannada: ಅಧಿಕಮಾಸ
+  usage: traditional term
+meaning:
+  en: An extra lunar month used to keep lunar months aligned with the solar year.
+  kn: ಚಂದ್ರಮಾಸಗಳನ್ನು ಸೌರವರ್ಷದೊಂದಿಗೆ ಹೊಂದಿಸಲು ಸೇರಿಸುವ ಹೆಚ್ಚುವರಿ ತಿಂಗಳು.
+  hi: चंद्र महीनों को सौर वर्ष के साथ रखने के लिए जोड़ा गया महीना।
+admin_note: 'Application in vedic.panchang.adhika-masa: Within the selected new-moon interval classify the month using
+  calendar-profiles.yaml. Match exactly zero solar ingresses. Label using the sign of the next ingress; keep a two-ingress
+  month separately flagged.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.adhika-masa

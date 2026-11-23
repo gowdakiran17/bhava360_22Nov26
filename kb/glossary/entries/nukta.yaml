@@ -1,0 +1,20 @@
+id: glossary.terms.nukta
+term:
+  en: Nukta
+  kn: ಅಧೋಬಿನ್ದು
+  hi: अधोबिन्दु
+sanskrit:
+  devanagari: अधोबिन्दु
+  kannada: ಅಧೋಬಿನ್ದು
+  usage: traditional term
+meaning:
+  en: A dot below a letter that changes which sound it represents.
+  kn: ಅಕ್ಷರದ ಕೆಳಗೆ ಹಾಕಿ ಅದರ ಧ್ವನಿಯನ್ನು ಬದಲಿಸುವ ಬಿಂದು.
+  hi: अक्षर के नीचे लगी बिंदी जो उसकी ध्वनि बदलती है।
+admin_note: Use this label for a dot below a letter that changes which sound it represents. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- numerology/transliteration.yaml

@@ -1,0 +1,22 @@
+id: glossary.terms.trayodashi
+term:
+  en: Trayodashi
+  kn: ತ್ರಯೋದಶೀ
+  hi: त्रयोदशी
+sanskrit:
+  devanagari: त्रयोदशी
+  kannada: ತ್ರಯೋದಶೀ
+  usage: traditional term
+meaning:
+  en: Lunar day 13 of a fortnight, measured by the changing distance of the Moon from the Sun.
+  kn: ಚಂದ್ರಪಕ್ಷದ 13ನೇ ದಿನ.
+  hi: चंद्र पक्ष का 13वाँ दिन।
+admin_note: 'Application in vedic.panchang.tithi: At the query instant compute E = (Moon − Sun) modulo 1296000 arcseconds.
+  The public number is 1 + floor(E / 43200); use the zero-based quotient for indexing only. Resolve name and paksha in
+  limb-tables.yaml and bracket the two true crossings as specified in limbs.yaml.'
+aliases: []
+reference_rules:
+- vedic.panchang.tithi
+used_by:
+- vedic.panchang.pradosh
+- vedic.panchang.tithi

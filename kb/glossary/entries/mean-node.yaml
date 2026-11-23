@@ -1,0 +1,21 @@
+id: glossary.terms.mean-node
+term:
+  en: Mean node
+  kn: ಸರಾಸರಿ ಪಾತ
+  hi: औसत पात
+sanskrit:
+  devanagari: मध्यमपात
+  kannada: ಮಧ್ಯಮಪಾತ
+  usage: descriptive equivalent
+meaning:
+  en: A smoothed estimate of a crossing point of the Moon’s path.
+  kn: ಚಂದ್ರಪಥದ ಛೇದನ ಬಿಂದುವಿನ ಸರಾಸರಿ ಚಲನೆಯಿಂದ ಪಡೆದ ಸ್ಥಾನ.
+  hi: चंद्र पथ के कटान बिंदु की औसत चाल से निकली जगह।
+admin_note: Use this label for a smoothed estimate of a crossing point of the Moon’s path. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.transits.nodal-axis
+used_in_files:
+- shared/conventions/profiles.yaml

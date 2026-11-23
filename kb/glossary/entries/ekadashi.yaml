@@ -1,0 +1,22 @@
+id: glossary.terms.ekadashi
+term:
+  en: Ekadashi
+  kn: ಏಕಾದಶೀ
+  hi: एकादशी
+sanskrit:
+  devanagari: एकादशी
+  kannada: ಏಕಾದಶೀ
+  usage: traditional term
+meaning:
+  en: Lunar day 11 of a fortnight, measured by the changing distance of the Moon from the Sun.
+  kn: ಚಂದ್ರಪಕ್ಷದ 11ನೇ ದಿನ.
+  hi: चंद्र पक्ष का 11वाँ दिन।
+admin_note: 'Application in vedic.panchang.ekadashi: Identify the instantaneous tithi by its one-based number in [11,
+  26]. For the ordinary calendar day label query that number at local sunrise. Retain every actual matching sunrise and
+  the exact interval even when it falls between sunrises.'
+aliases: []
+reference_rules:
+- vedic.panchang.tithi
+used_by:
+- vedic.panchang.ekadashi
+- vedic.panchang.tithi

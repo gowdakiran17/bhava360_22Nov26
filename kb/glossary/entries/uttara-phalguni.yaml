@@ -1,0 +1,25 @@
+id: glossary.terms.uttara-phalguni
+term:
+  en: Uttara Phalguni
+  kn: ಉತ್ತರಫಲ್ಗುನೀ
+  hi: उत्तरफल्गुनी
+sanskrit:
+  devanagari: उत्तरफल्गुनी
+  kannada: ಉತ್ತರಫಲ್ಗುನೀ
+  usage: traditional term
+meaning:
+  en: Section 12 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 12ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 12।
+admin_note: 'Application in vedic.nakshatras.uttara-phalguni: Match the stable natal Moon nakshatra when its sidereal
+  longitude falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.uttara-phalguni
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.nakshatras.uttara-phalguni

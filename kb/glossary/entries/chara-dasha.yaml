@@ -1,0 +1,19 @@
+id: glossary.terms.chara-dasha
+term:
+  en: Chara dasha
+  kn: ಚರದಶಾ
+  hi: चरदशा
+sanskrit:
+  devanagari: चरदशा
+  kannada: ಚರದಶಾ
+  usage: traditional term
+meaning:
+  en: A timing system that moves through signs in an order calculated from the birth chart.
+  kn: ಜನ್ಮನಕ್ಷೆಯಿಂದ ನಿರ್ಧರಿಸಿದ ಕ್ರಮದಲ್ಲಿ ರಾಶಿಗಳಿಗೆ ಅವಧಿಗಳನ್ನು ನೀಡುವ ವಿಧಾನ.
+  hi: जन्मपत्री से तय क्रम में राशियों को समय देने की विधि।
+admin_note: Use this label for a timing system that moves through signs in an order calculated from the birth chart.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.chara-dasha.sign-chapter

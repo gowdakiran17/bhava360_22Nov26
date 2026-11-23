@@ -1,0 +1,22 @@
+id: glossary.terms.personality-number
+term:
+  en: Personality number
+  kn: ವ್ಯಞ್ಜನಾಙ್ಕ
+  hi: व्यञ्जनाङ्क
+sanskrit:
+  devanagari: व्यञ्जनाङ्क
+  kannada: ವ್ಯಞ್ಜನಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number found using only the consonants in a name.
+  kn: ಹೆಸರಿನ ವ್ಯಂಜನಗಳ ಮೌಲ್ಯಗಳಿಂದ ಮಾತ್ರ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: नाम के केवल व्यंजनों के मान से बनी संख्या।
+admin_note: 'Application in numerology.pythagorean.personality: Sum the remaining consonants, including Y, and reduce.
+  An empty consonant partition is unavailable.'
+aliases: []
+reference_rules:
+- numerology.chaldean.personality
+- numerology.pythagorean.personality
+used_by:
+- numerology.chaldean.personality
+- numerology.pythagorean.personality

@@ -1,0 +1,21 @@
+id: glossary.terms.daily-spread
+term:
+  en: Daily spread
+  kn: ದಿನದ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: दिन का पत्ता विन्यास
+sanskrit:
+  devanagari: दैनिकपत्रविन्यास
+  kannada: ದೈನಿಕಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: A one-card layout for reflecting on the day.
+  kn: ದಿನದ ಕುರಿತು ಯೋಚಿಸಲು ಒಂದು ಪತ್ರದ ವಿನ್ಯಾಸ.
+  hi: दिन पर विचार करने के लिए एक पत्ते का विन्यास।
+admin_note: 'Read the positions in order: reflection. The final prompt invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- daily
+used_by:
+- daily
+systems:
+- tarot

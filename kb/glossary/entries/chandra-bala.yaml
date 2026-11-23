@@ -1,0 +1,24 @@
+id: glossary.terms.chandra-bala
+term:
+  en: Chandra bala
+  kn: ಚನ್ದ್ರಬಲ
+  hi: चन्द्रबल
+sanskrit:
+  devanagari: चन्द्रबल
+  kannada: ಚನ್ದ್ರಬಲ
+  usage: traditional term
+meaning:
+  en: A comparison between the Moon’s sign at birth and its sign on a chosen day.
+  kn: ಜನನದ ಚಂದ್ರರಾಶಿ ಮತ್ತು ಆಯ್ದ ದಿನದ ಚಂದ್ರರಾಶಿಯ ಹೋಲಿಕೆ.
+  hi: जन्म और चुने हुए दिन की चंद्र राशि की तुलना।
+admin_note: 'Application in vedic.muhurta.check-big-decision-muhurta-moon-support: Specific participant has a supportive
+  transit Moon distance during the candidate interval.'
+aliases:
+- Chandrabala
+- lunar support
+- ಚಂದ್ರಬಲ
+- चंद्रबल
+reference_rules:
+- vedic.muhurta.check-big-decision-muhurta-moon-support
+used_by:
+- vedic.muhurta.check-big-decision-muhurta-moon-support

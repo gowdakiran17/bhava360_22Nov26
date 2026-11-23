@@ -1,0 +1,19 @@
+id: glossary.terms.yod
+term:
+  en: Yod
+  kn: ಯೋಡ್
+  hi: योड
+sanskrit:
+  devanagari: कोणत्रयविन्यास
+  kannada: ಕೋಣತ್ರಯವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Two positions a sixth of a circle apart each form a 150-degree angle to a third.
+  kn: ಪರಸ್ಪರ ೬೦ ಅಂಶ ದೂರದ ಎರಡು ಸ್ಥಾನಗಳು ಮೂರನೇ ಸ್ಥಾನದಿಂದ ತಲಾ ೧೫೦ ಅಂಶ ದೂರವಿರುವ ಜೋಡಣೆ.
+  hi: दो जगहें आपस में ६० अंश और तीसरी से १५०-१५० अंश दूर होती हैं।
+admin_note: 'Application in western.patterns.yod: Two base planets form a sextile and a third, the apex, forms a quincunx
+  to both. Use the quincunx orb on both long edges; enable quincunx for this search.'
+aliases: []
+reference_rules: []
+used_by:
+- western.patterns.yod

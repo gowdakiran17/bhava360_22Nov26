@@ -1,0 +1,20 @@
+id: glossary.terms.dainya-parivartana
+term:
+  en: Dainya parivartana
+  kn: ದೈನ್ಯಪರಿವರ್ತನ
+  hi: दैन्यपरिवर्तन
+sanskrit:
+  devanagari: दैन्यपरिवर्तन
+  kannada: ದೈನ್ಯಪರಿವರ್ತನ
+  usage: traditional term
+meaning:
+  en: Two house rulers exchange places and at least one rules house six, eight or twelve.
+  kn: ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆ ಒಳಗೊಂಡ ಇಬ್ಬರು ಅಧಿಪತಿಗಳ ಸ್ಥಾನ ವಿನಿಮಯ.
+  hi: दो स्वामियों का स्थान बदलना जिसमें छठा, आठवाँ या बारहवाँ घर शामिल हो।
+admin_note: Use this label for two house rulers exchange places and at least one rules house six, eight or twelve. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Dainya
+reference_rules: []
+used_by:
+- vedic.yogas.parivartana-dainya

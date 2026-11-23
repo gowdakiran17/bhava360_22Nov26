@@ -1,0 +1,22 @@
+id: glossary.terms.d3
+term:
+  en: D3
+  kn: D3 ದ್ರೇಷ್ಕಾಣ
+  hi: D3 द्रेष्काण
+sanskrit:
+  devanagari: द्रेष्काण
+  kannada: ದ್ರೇಷ್ಕಾಣ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore sibling relationships.
+  kn: ಒಡಹುಟ್ಟಿದವರ ಸಂಬಂಧ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: भाई-बहनों से संबंध को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Count the first, fifth and ninth signs from the natal sign.
+aliases:
+- Drekkana
+reference_rules:
+- vedic.vargas.d3-placement
+used_by:
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.sthana
+- vedic.vargas.d3-placement

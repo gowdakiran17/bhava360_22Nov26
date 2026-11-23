@@ -1,0 +1,25 @@
+id: glossary.terms.jupiter-mount
+term:
+  en: Jupiter mount
+  kn: ತೋರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+  hi: तर्जनी के नीचे उभरा भाग
+sanskrit:
+  devanagari: गुरु करतलोन्नति
+  kannada: ಗುರು ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised pad beneath the index finger.
+  kn: ತೋರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ.
+  hi: तर्जनी के नीचे उभरा भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+used_by:
+- palmistry.mounts.jupiter
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+systems:
+- palmistry

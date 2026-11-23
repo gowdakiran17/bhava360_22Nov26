@@ -1,0 +1,22 @@
+id: glossary.terms.geocentric
+term:
+  en: Geocentric
+  kn: ಭೂಕೇಂದ್ರಿತ
+  hi: भूकेंद्रित
+sanskrit:
+  devanagari: भूकेन्द्रिक
+  kannada: ಭೂಕೇನ್ದ್ರಿಕ
+  usage: descriptive equivalent
+meaning:
+  en: Measured as seen from the centre of Earth.
+  kn: ಭೂಮಿಯ ಕೇಂದ್ರದಿಂದ ಕಂಡಂತೆ ಅಳೆಯುವುದು.
+  hi: पृथ्वी के केंद्र से देखकर मापा हुआ।
+admin_note: Use this label for measured as seen from the centre of Earth. Read the linked entries for the applicable
+  conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.states.graha-yuddha
+- vedic.states.vakri
+- vedic.strength-shadbala.ayana
+- vedic.transits.retrograde

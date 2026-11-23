@@ -1,0 +1,21 @@
+id: glossary.terms.d30
+term:
+  en: D30
+  kn: D30 ತ್ರಿಂಶಾಂಶ
+  hi: D30 त्रिंशांश
+sanskrit:
+  devanagari: त्रिंशांश
+  kannada: ತ್ರಿಂಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore responding to difficulty.
+  kn: ಸವಾಲಿಗೆ ಸ್ಪಂದನೆ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: कठिनाई का सामना को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Odd signs use half-open degree bands [0,5,10,18,25,30] mapped to Aries, Aquarius, Sagittarius, Gemini, Libra.
+  Even signs use [0,5,12,20,25,30] mapped to Taurus, Virgo, Pisces, Capricorn, Scorpio.
+aliases:
+- Trimsamsa
+reference_rules:
+- vedic.vargas.d30-placement
+used_by:
+- vedic.vargas.d30-placement

@@ -1,0 +1,25 @@
+id: glossary.terms.knight-of-pentacles-tarot
+term:
+  en: Knight Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಸವಾರ
+  hi: मुद्रा · सवार
+sanskrit:
+  devanagari: मुद्रा अश्वारोही
+  kannada: ಮುದ್ರಾ ಅಶ್ವಾರೋಹೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank knight in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಸವಾರ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · सवार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on steady routine.
+  What comes to mind in this position?'
+aliases:
+- Knight Of Pentacles
+reference_rules:
+- tarot.minor-arcana.knight-of-pentacles-upright
+- tarot.minor-arcana.knight-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.knight-of-pentacles-reversed
+- tarot.minor-arcana.knight-of-pentacles-upright
+systems:
+- tarot

@@ -1,0 +1,20 @@
+id: glossary.terms.vasu
+term:
+  en: Vasu
+  kn: ವಸು
+  hi: वसु
+sanskrit:
+  devanagari: वसु
+  kannada: ವಸು
+  usage: traditional term
+meaning:
+  en: Vasu is a traditional figure associated with Dhanishta.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಧನಿಷ್ಠಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: धनिष्ठा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.dhanishta
+used_by:
+- vedic.nakshatras.dhanishta

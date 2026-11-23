@@ -1,0 +1,22 @@
+id: glossary.terms.prajapati
+term:
+  en: Prajapati
+  kn: ಪ್ರಜಾಪತಿ
+  hi: प्रजापति
+sanskrit:
+  devanagari: प्रजापति
+  kannada: ಪ್ರಜಾಪತಿ
+  usage: traditional term
+meaning:
+  en: Prajapati is a traditional figure associated with Rohini, Mula.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ರೋಹಿಣೀ, ಮೂಲ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: रोहिणी, मूल।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.rohini
+- vedic.nakshatras.mula
+used_by:
+- vedic.nakshatras.mula
+- vedic.nakshatras.rohini

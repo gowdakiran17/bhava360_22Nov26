@@ -1,0 +1,35 @@
+id: glossary.terms.ashtakoota
+term:
+  en: Ashtakoota
+  kn: ಅಷ್ಟಕೂಟ
+  hi: अष्टकूट
+sanskrit:
+  devanagari: अष्टकूट
+  kannada: ಅಷ್ಟಕೂಟ
+  usage: traditional term
+meaning:
+  en: A marriage-matching method that compares two birth charts using eight factors.
+  kn: ಇಬ್ಬರ ಜನ್ಮನಕ್ಷೆಗಳನ್ನು ಎಂಟು ಅಂಶಗಳಲ್ಲಿ ಹೋಲಿಸುವ ವಿಧಾನ.
+  hi: दो जन्मपत्रियों को आठ पहलुओं पर मिलाने की विधि।
+admin_note: 'Application in vedic.matching.nadi: Look up each Moon’s birth star in the three Nadi groups, then read the
+  class-pair matrix. Keep the raw points when a selected exception softens interpretation.'
+aliases:
+- Ashtakuta
+reference_rules:
+- vedic.matching.varna
+- vedic.matching.vashya
+- vedic.matching.tara
+- vedic.matching.yoni
+- vedic.matching.graha-maitri
+- vedic.matching.gana
+- vedic.matching.bhakoot
+- vedic.matching.nadi
+used_by:
+- vedic.matching.bhakoot
+- vedic.matching.gana
+- vedic.matching.graha-maitri
+- vedic.matching.nadi
+- vedic.matching.tara
+- vedic.matching.varna
+- vedic.matching.vashya
+- vedic.matching.yoni

@@ -1,0 +1,36 @@
+id: glossary.terms.arudha
+term:
+  en: Arudha
+  kn: ಆರೂಢ
+  hi: आरूढ
+sanskrit:
+  devanagari: आरूढ
+  kannada: ಆರೂಢ
+  usage: traditional term
+meaning:
+  en: A calculated place in a chart used to explore how a part of life may appear to others.
+  kn: ಜೀವನದ ಒಂದು ಅಂಶ ಇತರರಿಗೆ ಹೇಗೆ ಕಾಣಬಹುದು ಎಂದು ನೋಡಲು ಲೆಕ್ಕಿಸುವ ಸ್ಥಾನ.
+  hi: जीवन का कोई पहलू दूसरों को कैसा दिख सकता है, इसे देखने के लिए निकाला गया स्थान।
+admin_note: 'Application in vedic.prashna.arudha: Bind the sign explicitly recorded from the questioner’s placement of
+  the token in the Kerala sign diagram. Keep this observed sign, its ruler, and the actual Prashna lagna separately.
+  Missing observation gives no Arudha.'
+aliases:
+- Arudha pada
+- Arudhas
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.a10
+- jaimini.arudha-padas.a11
+- jaimini.arudha-padas.a2
+- jaimini.arudha-padas.a3
+- jaimini.arudha-padas.a4
+- jaimini.arudha-padas.a5
+- jaimini.arudha-padas.a6
+- jaimini.arudha-padas.a7
+- jaimini.arudha-padas.a8
+- jaimini.arudha-padas.a9
+- jaimini.arudha-padas.arudha-lagna
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada
+- vedic.prashna.arudha
+- vedic.prashna.ashtamangala

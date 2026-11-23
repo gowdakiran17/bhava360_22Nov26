@@ -1,0 +1,84 @@
+id: glossary.terms.house-12
+term:
+  en: House 12
+  kn: ವ್ಯಯಭಾವ
+  hi: व्ययभाव
+sanskrit:
+  devanagari: व्ययभाव
+  kannada: ವ್ಯಯಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore expenditure.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ವೆಚ್ಚ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में खर्च से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists outgoings, rest, seclusion
+  among its subjects.
+aliases:
+- Vyaya
+reference_rules:
+- vedic.houses.house-12
+used_by:
+- jaimini.arudha-padas.upapada
+- lal-kitab.placements.house-12
+- vedic.house-lords.lord-1-in-house-12
+- vedic.house-lords.lord-10-in-house-12
+- vedic.house-lords.lord-11-in-house-12
+- vedic.house-lords.lord-12-in-house-1
+- vedic.house-lords.lord-12-in-house-10
+- vedic.house-lords.lord-12-in-house-11
+- vedic.house-lords.lord-12-in-house-12
+- vedic.house-lords.lord-12-in-house-2
+- vedic.house-lords.lord-12-in-house-3
+- vedic.house-lords.lord-12-in-house-4
+- vedic.house-lords.lord-12-in-house-5
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-12-in-house-7
+- vedic.house-lords.lord-12-in-house-8
+- vedic.house-lords.lord-12-in-house-9
+- vedic.house-lords.lord-2-in-house-12
+- vedic.house-lords.lord-3-in-house-12
+- vedic.house-lords.lord-4-in-house-12
+- vedic.house-lords.lord-5-in-house-12
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-7-in-house-12
+- vedic.house-lords.lord-8-in-house-12
+- vedic.house-lords.lord-9-in-house-12
+- vedic.houses.house-12
+- vedic.houses.jupiter-house-12
+- vedic.houses.ketu-house-12
+- vedic.houses.mars-house-12
+- vedic.houses.mercury-house-12
+- vedic.houses.moon-house-12
+- vedic.houses.rahu-house-12
+- vedic.houses.saturn-house-12
+- vedic.houses.sun-house-12
+- vedic.houses.venus-house-12
+- vedic.planets-in-houses.jupiter-house-12
+- vedic.planets-in-houses.ketu-house-12
+- vedic.planets-in-houses.mars-house-12
+- vedic.planets-in-houses.mercury-house-12
+- vedic.planets-in-houses.moon-house-12
+- vedic.planets-in-houses.rahu-house-12
+- vedic.planets-in-houses.saturn-house-12
+- vedic.planets-in-houses.sun-house-12
+- vedic.planets-in-houses.venus-house-12
+- vedic.transits.jupiter-moon-house-12
+- vedic.transits.ketu-moon-house-12
+- vedic.transits.mars-moon-house-12
+- vedic.transits.mercury-moon-house-12
+- vedic.transits.moon-moon-house-12
+- vedic.transits.rahu-moon-house-12
+- vedic.transits.saturn-moon-house-12
+- vedic.transits.sun-moon-house-12
+- vedic.transits.venus-moon-house-12
+- vedic.yogas.vimala
+- western.natal.jupiter-house-12
+- western.natal.mars-house-12
+- western.natal.mercury-house-12
+- western.natal.moon-house-12
+- western.natal.neptune-house-12
+- western.natal.pluto-house-12
+- western.natal.saturn-house-12
+- western.natal.sun-house-12
+- western.natal.uranus-house-12
+- western.natal.venus-house-12

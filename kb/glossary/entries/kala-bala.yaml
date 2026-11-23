@@ -1,0 +1,19 @@
+id: glossary.terms.kala-bala
+term:
+  en: Kala bala
+  kn: ಕಾಲಬಲ
+  hi: कालबल
+sanskrit:
+  devanagari: कालबल
+  kannada: ಕಾಲಬಲ
+  usage: traditional term
+meaning:
+  en: The part of a planet’s strength calculated from time-related conditions.
+  kn: ಸಮಯದ ಸ್ಥಿತಿಗಳಿಂದ ಲೆಕ್ಕಿಸುವ ಗ್ರಹಬಲದ ಭಾಗ.
+  hi: समय की स्थितियों से निकला ग्रह बल का भाग।
+admin_note: Use this label for the part of a planet’s strength calculated from time-related conditions. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.kala

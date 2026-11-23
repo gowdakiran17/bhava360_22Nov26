@@ -1,0 +1,24 @@
+id: glossary.terms.mars-upper-mount
+term:
+  en: Mars Upper mount
+  kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗಿನ ಭಾಗ ಮತ್ತು ಚಂದ್ರ ಭಾಗದ ನಡುವಿನ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+  hi: कनिष्ठा और चंद्र क्षेत्र के बीच बाहरी किनारे पर उभार
+sanskrit:
+  devanagari: ऊर्ध्वमङ्गल करतलोन्नति
+  kannada: ಊರ್ಧ್ವಮಙ್ಗಲ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Raised outer edge between the little-finger pad and Moon pad.
+  kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗಿನ ಭಾಗ ಮತ್ತು ಚಂದ್ರ ಭಾಗದ ನಡುವಿನ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು.
+  hi: कनिष्ठा और चंद्र क्षेत्र के बीच बाहरी किनारे पर उभार।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+used_by:
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+systems:
+- palmistry

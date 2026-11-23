@@ -1,0 +1,35 @@
+id: glossary.terms.koota
+term:
+  en: Koota
+  kn: ಕೂಟ
+  hi: कूट
+sanskrit:
+  devanagari: कूट
+  kannada: ಕೂಟ
+  usage: traditional term
+meaning:
+  en: One factor in a traditional comparison of two birth charts for marriage.
+  kn: ವಿವಾಹಕ್ಕಾಗಿ ಎರಡು ಜನ್ಮನಕ್ಷೆಗಳನ್ನು ಹೋಲಿಸುವಾಗ ನೋಡುವ ಒಂದು ಅಂಶ.
+  hi: विवाह के लिए दो जन्मपत्रियों की तुलना में देखा जाने वाला एक पहलू।
+admin_note: Use this label for one factor in a traditional comparison of two birth charts for marriage. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Kuta
+- Kootas
+- Traditional matching factor
+reference_rules: []
+used_by:
+- vedic.matching.bhakoot
+- vedic.matching.gana
+- vedic.matching.graha-maitri
+- vedic.matching.nadi
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-gana
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-vashya
+- vedic.matching.porutham-yoni
+- vedic.matching.shared-star-class
+- vedic.matching.tara
+- vedic.matching.varna
+- vedic.matching.vashya
+- vedic.matching.yoni

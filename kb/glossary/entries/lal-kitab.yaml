@@ -1,0 +1,32 @@
+id: glossary.terms.lal-kitab
+term:
+  en: Lal Kitab
+  kn: ಲಾಲ್ ಕಿತಾಬ್
+  hi: लाल किताब
+sanskrit:
+  devanagari: लालपुस्तकम्
+  kannada: ಲಾಲಪುಸ್ತಕಮ್
+  usage: descriptive equivalent
+meaning:
+  en: A South Asian reading tradition with its own house-based rules and suggested practices.
+  kn: ಮನೆಗಳ ಆಧಾರದ ಓದು ಮತ್ತು ಐಚ್ಛಿಕ ಆಚರಣೆಗಳ ದಕ್ಷಿಣ ಏಷ್ಯಾದ ಪದ್ಧತಿ.
+  hi: घरों की पढ़ाई और वैकल्पिक अभ्यासों की दक्षिण एशियाई पद्धति।
+admin_note: Use this label for a South Asian reading tradition with its own house-based rules and suggested practices.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- lal-kitab.fixed-houses.house-reference
+- lal-kitab.placements.house-1
+- lal-kitab.placements.house-10
+- lal-kitab.placements.house-11
+- lal-kitab.placements.house-12
+- lal-kitab.placements.house-2
+- lal-kitab.placements.house-3
+- lal-kitab.placements.house-4
+- lal-kitab.placements.house-5
+- lal-kitab.placements.house-6
+- lal-kitab.placements.house-7
+- lal-kitab.placements.house-8
+- lal-kitab.placements.house-9
+- lal-kitab.varshphal.year-house

@@ -1,0 +1,23 @@
+id: glossary.terms.sthana-bala
+term:
+  en: Sthana bala
+  kn: ಸ್ಥಾನಬಲ
+  hi: स्थानबल
+sanskrit:
+  devanagari: स्थानबल
+  kannada: ಸ್ಥಾನಬಲ
+  usage: traditional term
+meaning:
+  en: The part of a planet’s traditional strength calculated from where it is placed.
+  kn: ಗ್ರಹ ಇರುವ ಸ್ಥಾನದಿಂದ ಲೆಕ್ಕಿಸುವ ಬಲದ ಒಂದು ಭಾಗ.
+  hi: ग्रह की जगह से निकाला जाने वाला बल का हिस्सा।
+admin_note: 'Application in vedic.strength-shadbala.sthana: Sum the five positional contributions in virupas without
+  intermediate rounding.'
+aliases:
+- sthana
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.sthana
+- vedic.strength-shadbala.totals

@@ -1,0 +1,21 @@
+id: glossary.terms.kalachakra
+term:
+  en: Kalachakra
+  kn: ಕಾಲಚಕ್ರ
+  hi: कालचक्र
+sanskrit:
+  devanagari: कालचक्र
+  kannada: ಕಾಲಚಕ್ರ
+  usage: traditional term
+meaning:
+  en: A timing system whose order of signs depends on the Moon’s position at birth.
+  kn: ಜನನದ ಚಂದ್ರನ ಸ್ಥಾನದಿಂದ ರಾಶಿಗಳ ಕಾಲಕ್ರಮವನ್ನು ನಿರ್ಧರಿಸುವ ವಿಧಾನ.
+  hi: जन्म के चंद्रमा की जगह से राशियों का समयक्रम तय करने की विधि।
+admin_note: Use this label for a timing system whose order of signs depends on the Moon’s position at birth. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.dashas-kalachakra.pada-wheel
+- vedic.dashas-kalachakra.study-topic
+- vedic.vargas.d9-placement

@@ -1,0 +1,29 @@
+id: glossary.terms.sextile
+term:
+  en: Sextile
+  kn: ಷಷ್ಟ್ಯಂಶಕೋಣ
+  hi: षष्ट्यंशकोण
+sanskrit:
+  devanagari: षष्ट्यंशकोण
+  kannada: ಷಷ್ಟ್ಯಂಶಕೋಣ
+  usage: descriptive equivalent
+meaning:
+  en: Two positions about 60 degrees apart around the sky.
+  kn: ಆಕಾಶವೃತ್ತದಲ್ಲಿ ಸುಮಾರು 60 ಅಂಶ ದೂರವಿರುವ ಎರಡು ಸ್ಥಾನಗಳು.
+  hi: आकाश के चक्र में लगभग 60 अंश दूर दो स्थान।
+admin_note: 'Application in western.aspects.sextile: For a bound natal pair, accept shortest circular separation within
+  4 degrees of 60 degrees, inclusive.'
+aliases: []
+reference_rules:
+- western.aspects.sextile
+used_by:
+- western.aspects.semi-sextile
+- western.aspects.sextile
+- western.patterns.yod
+- western.planets.neptune
+- western.planets.pluto
+- western.planets.uranus
+- western.progressions.secondary-contact-sextile
+- western.transits.natal-contact-sextile
+systems:
+- western

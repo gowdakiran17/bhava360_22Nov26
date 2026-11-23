@@ -1,0 +1,20 @@
+id: glossary.terms.putrakaraka
+term:
+  en: Putrakaraka
+  kn: ಪುತ್ರಕಾರಕ
+  hi: पुत्रकारक
+sanskrit:
+  devanagari: पुत्रकारक
+  kannada: ಪುತ್ರಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent children by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ಮಕ್ಕಳು ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से संतान का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds PK: rank 5 of seven or rank 6 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.putrakaraka
+used_by:
+- jaimini.chara-karakas.putrakaraka

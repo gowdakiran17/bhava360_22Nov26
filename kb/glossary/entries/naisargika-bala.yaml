@@ -1,0 +1,21 @@
+id: glossary.terms.naisargika-bala
+term:
+  en: Naisargika bala
+  kn: ನೈಸರ್ಗಿಕಬಲ
+  hi: नैसर्गिकबल
+sanskrit:
+  devanagari: नैसर्गिकबल
+  kannada: ನೈಸರ್ಗಿಕಬಲ
+  usage: traditional term
+meaning:
+  en: A fixed traditional weight assigned according to which planet is being considered.
+  kn: ಗ್ರಹದ ಗುರುತಿನ ಆಧಾರದಲ್ಲಿ ನೀಡುವ ಸ್ಥಿರ ಬಲ.
+  hi: ग्रह की पहचान के अनुसार दिया जाने वाला निश्चित बल।
+admin_note: 'Application in vedic.strength-shadbala.naisargika: Multiply the ordinal rank by sixty and divide by seven.
+  Saturn begins at rank one and Sun ends at rank seven. Keep the fraction through summation.'
+aliases:
+- Naisargika
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.totals

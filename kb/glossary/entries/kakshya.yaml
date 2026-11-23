@@ -1,0 +1,25 @@
+id: glossary.terms.kakshya
+term:
+  en: Kakshya
+  kn: ಕಕ್ಷ್ಯಾ
+  hi: कक्ष्या
+sanskrit:
+  devanagari: कक्ष्या
+  kannada: ಕಕ್ಷ್ಯಾ
+  usage: traditional term
+meaning:
+  en: One of eight equal parts of a sign used to read a moving planet against a contribution table.
+  kn: ಗ್ರಹದ ಚಲನೆ ಓದಲು ಒಂದು ರಾಶಿಯ ಎಂಟು ಸಮಭಾಗಗಳಲ್ಲಿ ಒಂದು.
+  hi: चलते ग्रह को पढ़ने के लिए राशि के आठ बराबर भागों में से एक।
+admin_note: 'Application in vedic.strength-ashtakavarga.kakshya: Normalize the current sidereal transit longitude modulo
+  a full circle. Within its sign use the zero-based floor of arcminutes divided by 225. Look up the lord at that index,
+  then read only that contributor’s bit in the transiting graha’s raw prastara for the transit sign. Re-evaluate on boundary
+  crossings in either direction.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.bindu-steady
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.bindu-take-care
+- vedic.strength-ashtakavarga.kakshya
+- vedic.transits.raw-bav-kakshya

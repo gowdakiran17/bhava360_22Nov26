@@ -1,0 +1,20 @@
+id: glossary.terms.pitrikaraka
+term:
+  en: Pitrikaraka
+  kn: ಪಿತೃಕಾರಕ
+  hi: पितृकारक
+sanskrit:
+  devanagari: पितृकारक
+  kannada: ಪಿತೃಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent father by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ತಂದೆ ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से पिता का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds PiK: rank 5 of eight under chara-karakas/methods.yaml. Require a
+  unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.pitrikaraka
+used_by:
+- jaimini.chara-karakas.pitrikaraka

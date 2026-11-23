@@ -1,0 +1,21 @@
+id: glossary.terms.sesquiquadrate
+term:
+  en: Sesquiquadrate
+  kn: ಸಾರ್ಧಸಮಕೋಣ
+  hi: सार्धसमकोण
+sanskrit:
+  devanagari: सार्धसमकोण
+  kannada: ಸಾರ್ಧಸಮಕೋಣ
+  usage: descriptive equivalent
+meaning:
+  en: A Western chart angle of about 135 degrees.
+  kn: ಪಾಶ್ಚಾತ್ಯ ನಕ್ಷೆಯಲ್ಲಿ ಸುಮಾರು 135 ಅಂಶದ ಕೋನ.
+  hi: पश्चिमी पत्री में लगभग 135 अंश का कोण।
+admin_note: 'Application in western.aspects.sesquiquadrate: The selected natal pair forms the named aspect within its
+  configured orb.'
+aliases: []
+reference_rules: []
+used_by:
+- western.aspects.sesquiquadrate
+used_in_files:
+- western/aspects/orbs.yaml

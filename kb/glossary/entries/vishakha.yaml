@@ -1,0 +1,23 @@
+id: glossary.terms.vishakha
+term:
+  en: Vishakha
+  kn: ವಿಶಾಖಾ
+  hi: विशाखा
+sanskrit:
+  devanagari: विशाखा
+  kannada: ವಿಶಾಖಾ
+  usage: traditional term
+meaning:
+  en: Section 16 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 16ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 16।
+admin_note: 'Application in vedic.nakshatras.vishakha: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.vishakha
+used_by:
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.travel
+- vedic.nakshatras.vishakha

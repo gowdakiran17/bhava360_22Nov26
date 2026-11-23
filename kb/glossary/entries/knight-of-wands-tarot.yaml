@@ -1,0 +1,25 @@
+id: glossary.terms.knight-of-wands-tarot
+term:
+  en: Knight Of Wands (Tarot)
+  kn: ಕೋಲು · ಸವಾರ
+  hi: छड़ी · सवार
+sanskrit:
+  devanagari: दण्ड अश्वारोही
+  kannada: ದಣ್ಡ ಅಶ್ವಾರೋಹೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank knight in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಸವಾರ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · सवार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on enthusiasm.
+  What comes to mind in this position?'
+aliases:
+- Knight Of Wands
+reference_rules:
+- tarot.minor-arcana.knight-of-wands-upright
+- tarot.minor-arcana.knight-of-wands-reversed
+used_by:
+- tarot.minor-arcana.knight-of-wands-reversed
+- tarot.minor-arcana.knight-of-wands-upright
+systems:
+- tarot

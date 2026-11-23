@@ -1,0 +1,19 @@
+id: glossary.terms.avastha
+term:
+  en: Avastha
+  kn: ಅವಸ್ಥಾ
+  hi: अवस्था
+sanskrit:
+  devanagari: अवस्था
+  kannada: ಅವಸ್ಥಾ
+  usage: traditional term
+meaning:
+  en: A name for a planet’s condition in a particular way of reading its position.
+  kn: ಒಂದು ವಿಧಾನದಲ್ಲಿ ಗ್ರಹದ ಸ್ಥಿತಿಗೆ ನೀಡುವ ಹೆಸರು.
+  hi: किसी पद्धति में ग्रह की दशा को दिया नाम।
+admin_note: Use this label for a name for a planet’s condition in a particular way of reading its position. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.states.baladi

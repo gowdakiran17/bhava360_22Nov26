@@ -1,0 +1,21 @@
+id: glossary.terms.nakshatra-syllable
+term:
+  en: Nakshatra syllable
+  kn: ನಾಮಾಕ್ಷರ
+  hi: नामाक्षर
+sanskrit:
+  devanagari: नामाक्षर
+  kannada: ನಾಮಾಕ್ಷರ
+  usage: traditional term
+meaning:
+  en: A traditional starting sound for a name chosen from the Moon’s section at birth.
+  kn: ಜನನದ ಚಂದ್ರನ ಸ್ಥಾನದಿಂದ ಹೆಸರಿಗೆ ಸೂಚಿಸುವ ಆರಂಭದ ಧ್ವನಿ.
+  hi: जन्म में चंद्रमा की जगह से नाम के लिए सुझाई जाने वाली शुरुआती ध्वनि।
+admin_note: 'Application in vedic.padas.check-personal-baby-name-pada: Chosen spelling has a reviewed initial sound matching
+  the stable birth pada in the selected regional table.'
+aliases:
+- Namakshar
+reference_rules:
+- vedic.padas.check-personal-baby-name-pada
+used_by:
+- vedic.padas.check-personal-baby-name-pada

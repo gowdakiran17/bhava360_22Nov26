@@ -509,6 +509,8 @@ def main():
     validate_tarot(rules,read,require,ROOT)
     from palmistry import validate_palmistry
     validate_palmistry(rules,read,require,ROOT,evaluate)
+    from glossary import validate_glossary
+    validate_glossary(rules,read,require,ROOT)
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
     from muhurta import validate_muhurta

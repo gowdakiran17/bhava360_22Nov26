@@ -1,0 +1,20 @@
+id: glossary.terms.western-astrology
+term:
+  en: Western astrology
+  kn: ಪಾಶ್ಚಾತ್ಯ ಜ್ಯೋತಿಷ
+  hi: पश्चिमी ज्योतिष
+sanskrit:
+  devanagari: पाश्चात्यज्योतिष
+  kannada: ಪಾಶ್ಚಾತ್ಯಜ್ಯೋತಿಷ
+  usage: descriptive equivalent
+meaning:
+  en: A family of chart-reading traditions that commonly use the seasons to locate planets in signs.
+  kn: ಋತುಗಳನ್ನು ಆಧರಿಸಿ ಗ್ರಹಗಳ ರಾಶಿಗಳನ್ನು ಗುರುತಿಸುವ ಓದಿನ ಪರಂಪರೆಗಳ ಗುಂಪು.
+  hi: पत्री पढ़ने की परंपराएँ जिनमें प्रायः ऋतुओं से ग्रहों की राशियाँ तय होती हैं।
+admin_note: 'Application in western.aspects.conjunction: For a bound natal pair, accept shortest circular separation
+  within 8 degrees of 0 degrees, inclusive.'
+aliases: []
+reference_rules:
+- western.aspects.conjunction
+used_by:
+- western.aspects.conjunction

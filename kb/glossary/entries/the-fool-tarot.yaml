@@ -1,0 +1,25 @@
+id: glossary.terms.the-fool-tarot
+term:
+  en: The Fool (Tarot)
+  kn: ಪಯಣಿಗ (ಟ್ಯಾರೊ)
+  hi: पथिक (टैरो)
+sanskrit:
+  devanagari: पथिक
+  kannada: ಪಥಿಕ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 0, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 0 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 0 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a first step.
+  What comes to mind in this position?'
+aliases:
+- The Fool
+reference_rules:
+- tarot.major-arcana.the-fool-upright
+- tarot.major-arcana.the-fool-reversed
+used_by:
+- tarot.major-arcana.the-fool-reversed
+- tarot.major-arcana.the-fool-upright
+systems:
+- tarot

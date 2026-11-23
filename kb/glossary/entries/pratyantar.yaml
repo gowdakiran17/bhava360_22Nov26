@@ -1,0 +1,21 @@
+id: glossary.terms.pratyantar
+term:
+  en: Pratyantar
+  kn: ಪ್ರತ್ಯನ್ತರದಶಾ
+  hi: प्रत्यन्तरदशा
+sanskrit:
+  devanagari: प्रत्यन्तरदशा
+  kannada: ಪ್ರತ್ಯನ್ತರದಶಾ
+  usage: traditional term
+meaning:
+  en: A period one level smaller than the first subdivision of a main period.
+  kn: ಮುಖ್ಯ ಅವಧಿಯ ಉಪವಿಭಾಗದೊಳಗಿನ ಅವಧಿ.
+  hi: मुख्य अवधि के पहले उपभाग के भीतर की अवधि।
+admin_note: Use this label for a period one level smaller than the first subdivision of a main period. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Pratyantardasha
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.pratyantar-period
+- vedic.dashas-vimshottari.sookshma-period

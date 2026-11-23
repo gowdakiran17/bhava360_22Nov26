@@ -1,0 +1,20 @@
+id: glossary.terms.pitru-dosha
+term:
+  en: Pitru dosha
+  kn: ಪಿತೃದೋಷ
+  hi: पितृदोष
+sanskrit:
+  devanagari: पितृदोष
+  kannada: ಪಿತೃದೋಷ
+  usage: traditional term
+meaning:
+  en: A school-specific chart pattern used in some readings about family traditions.
+  kn: ಕುಟುಂಬ ಪರಂಪರೆಯ ಚರ್ಚೆಯಲ್ಲಿ ಕೆಲವು ಶಾಲೆಗಳು ನೋಡುವ ಜೋಡಣೆ.
+  hi: कुछ परंपराओं में पारिवारिक रीति के संदर्भ में देखा जाने वाला मेल।
+admin_note: 'Application in vedic.doshas.pitru: A natal node and a luminary share the ninth whole-sign house from Lagna.'
+aliases:
+- Pitru
+reference_rules: []
+used_by:
+- vedic.doshas.grahan
+- vedic.doshas.pitru

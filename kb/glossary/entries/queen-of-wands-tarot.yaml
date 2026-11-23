@@ -1,0 +1,25 @@
+id: glossary.terms.queen-of-wands-tarot
+term:
+  en: Queen Of Wands (Tarot)
+  kn: ಕೋಲು · ರಾಣಿ
+  hi: छड़ी · रानी
+sanskrit:
+  devanagari: दण्ड राज्ञी
+  kannada: ದಣ್ಡ ರಾಜ್ಞೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank queen in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ರಾಣಿ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · रानी की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on warm leadership.
+  What comes to mind in this position?'
+aliases:
+- Queen Of Wands
+reference_rules:
+- tarot.minor-arcana.queen-of-wands-upright
+- tarot.minor-arcana.queen-of-wands-reversed
+used_by:
+- tarot.minor-arcana.queen-of-wands-reversed
+- tarot.minor-arcana.queen-of-wands-upright
+systems:
+- tarot

@@ -1,0 +1,38 @@
+id: glossary.terms.agni-vastu-guardian
+term:
+  en: Agni (Vastu guardian)
+  kn: ಅಗ್ನಿ ದಿಕ್ಪಾಲ
+  hi: अग्नि दिक्पाल
+sanskrit:
+  devanagari: अग्नि दिक्पाल
+  kannada: ಅಗ್ನಿ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the southeast part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಆಗ್ನೇಯ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के दक्षिणपूर्व भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vedic.nakshatras.vishakha: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases:
+- Agni
+reference_rules:
+- vastu.directions.southeast
+- vedic.nakshatras.krittika
+- vedic.nakshatras.vishakha
+used_by:
+- vastu.directions.southeast
+- vastu.rooms.centre-kitchen
+- vastu.rooms.east-kitchen
+- vastu.rooms.north-kitchen
+- vastu.rooms.northeast-kitchen
+- vastu.rooms.northwest-kitchen
+- vastu.rooms.south-kitchen
+- vastu.rooms.southeast-kitchen
+- vastu.rooms.southwest-kitchen
+- vastu.rooms.west-kitchen
+- vedic.nakshatras.krittika
+- vedic.nakshatras.vishakha
+systems:
+- vastu
+used_in_files:
+- vastu/entrances/padas.yaml

@@ -1,0 +1,20 @@
+id: glossary.terms.ashvin-twins
+term:
+  en: Ashvin twins
+  kn: ಅಶ್ವಿನೌ
+  hi: अश्विनौ
+sanskrit:
+  devanagari: अश्विनौ
+  kannada: ಅಶ್ವಿನೌ
+  usage: traditional term
+meaning:
+  en: Ashvin twins is a traditional figure associated with Ashwini.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಅಶ್ವಿನೀ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: अश्विनी।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.ashwini
+used_by:
+- vedic.nakshatras.ashwini

@@ -1,0 +1,20 @@
+id: glossary.terms.ashtama-shani
+term:
+  en: Ashtama Shani
+  kn: ಅಷ್ಟಮಶನಿ
+  hi: अष्टमशनि
+sanskrit:
+  devanagari: अष्टमशनि
+  kannada: ಅಷ್ಟಮಶನಿ
+  usage: traditional term
+meaning:
+  en: Saturn’s passage through the eighth sign counted from the Moon’s birth sign.
+  kn: ಜನ್ಮದ ಚಂದ್ರರಾಶಿಯಿಂದ ಎಂಟನೇ ರಾಶಿಯಲ್ಲಿ ಶನಿಯ ಸಂಚಾರ.
+  hi: जन्म की चंद्र राशि से आठवीं राशि में शनि का चलना।
+admin_note: 'Application in vedic.doshas.ashtama-shani: Within a solved transit interval, Saturn occupies the eighth
+  sign counted inclusively from the natal Moon. Split intervals at each exit and return.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.ashtama-shani
+- vedic.transits.ashtama-shani

@@ -1,0 +1,50 @@
+id: glossary.terms.conjunction
+term:
+  en: Conjunction
+  kn: ಯುತಿ
+  hi: युति
+sanskrit:
+  devanagari: युति
+  kannada: ಯುತಿ
+  usage: traditional term
+meaning:
+  en: Two bodies occupy the same sign or appear near the same point, according to the method used.
+  kn: ವಿಧಾನದ ಪ್ರಕಾರ ಎರಡು ಗ್ರಹಗಳು ಒಂದೇ ರಾಶಿಯಲ್ಲಿ ಅಥವಾ ಹತ್ತಿರ ಕಾಣುವುದು.
+  hi: पद्धति के अनुसार दो ग्रहों का एक राशि में या पास दिखाई देना।
+admin_note: 'Application in western.aspects.conjunction: For a bound natal pair, accept shortest circular separation
+  within 8 degrees of 0 degrees, inclusive.'
+aliases:
+- Yuti
+- conjunctions
+reference_rules: []
+used_by:
+- jaimini.raja-yogas.advisory-role
+- vedic.doshas.grahan
+- vedic.doshas.guru-chandal
+- vedic.doshas.mars-partnership
+- vedic.doshas.pitru
+- vedic.doshas.shrapit
+- vedic.house-lords.lord-11-in-house-5
+- vedic.house-lords.lord-11-in-house-9
+- vedic.house-lords.lord-2-in-house-5
+- vedic.house-lords.lord-2-in-house-9
+- vedic.house-lords.lord-5-in-house-11
+- vedic.house-lords.lord-5-in-house-2
+- vedic.house-lords.lord-9-in-house-11
+- vedic.house-lords.lord-9-in-house-2
+- vedic.states.yuti
+- vedic.transits.over-dasha-lord
+- vedic.transits.over-natal-graha
+- vedic.yogas.budhaditya
+- vedic.yogas.chandra-mangala
+- vedic.yogas.dhana
+- vedic.yogas.kemadruma
+- vedic.yogas.raja
+- western.aspects.conjunction
+- western.patterns.stellium
+- western.planets.neptune
+- western.planets.pluto
+- western.planets.uranus
+- western.progressions.progressed-moon
+- western.progressions.secondary-contact-conjunction
+- western.transits.natal-contact-conjunction

@@ -1,0 +1,20 @@
+id: glossary.terms.stree-deergha
+term:
+  en: Stree Deergha
+  kn: ಸ್ತ್ರೀದೀರ್ಘ
+  hi: स्त्रीदीर्घ
+sanskrit:
+  devanagari: स्त्रीदीर्घ
+  kannada: ಸ್ತ್ರೀದೀರ್ಘ
+  usage: traditional term
+meaning:
+  en: A matching factor that checks the forward distance between the two birth stars.
+  kn: ಒಂದು ಜನ್ಮನಕ್ಷತ್ರದಿಂದ ಇನ್ನೊಂದರವರೆಗಿನ ಮುಂದಿನ ಅಂತರದ ಪರಿಶೀಲನೆ.
+  hi: एक जन्म तारे से दूसरे तक आगे की ओर दूरी की जाँच।
+admin_note: Use this label for a matching factor that checks the forward distance between the two birth stars. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases:
+- Stri Dirgha
+reference_rules: []
+used_by:
+- vedic.matching.porutham-stree-deergha

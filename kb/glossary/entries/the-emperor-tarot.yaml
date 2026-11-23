@@ -1,0 +1,25 @@
+id: glossary.terms.the-emperor-tarot
+term:
+  en: The Emperor (Tarot)
+  kn: ಚಕ್ರವರ್ತಿ (ಟ್ಯಾರೊ)
+  hi: सम्राट (टैरो)
+sanskrit:
+  devanagari: सम्राट्
+  kannada: ಸಮ್ರಾಟ್
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 4, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 4 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 4 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on clear boundaries.
+  What comes to mind in this position?'
+aliases:
+- The Emperor
+reference_rules:
+- tarot.major-arcana.the-emperor-upright
+- tarot.major-arcana.the-emperor-reversed
+used_by:
+- tarot.major-arcana.the-emperor-reversed
+- tarot.major-arcana.the-emperor-upright
+systems:
+- tarot

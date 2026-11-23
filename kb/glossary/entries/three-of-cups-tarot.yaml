@@ -1,0 +1,25 @@
+id: glossary.terms.three-of-cups-tarot
+term:
+  en: Three Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಮೂರು
+  hi: प्याला · तीन
+sanskrit:
+  devanagari: चषक त्रि
+  kannada: ಚಷಕ ತ್ರಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank three in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಮೂರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · तीन की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on friendship.
+  What comes to mind in this position?'
+aliases:
+- Three Of Cups
+reference_rules:
+- tarot.minor-arcana.three-of-cups-upright
+- tarot.minor-arcana.three-of-cups-reversed
+used_by:
+- tarot.minor-arcana.three-of-cups-reversed
+- tarot.minor-arcana.three-of-cups-upright
+systems:
+- tarot

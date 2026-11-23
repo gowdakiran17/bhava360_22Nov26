@@ -1,0 +1,24 @@
+id: glossary.terms.star-palm-mark
+term:
+  en: Star palm mark
+  kn: ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ ಸೇರುವ ಹಲವು ಗೆರೆಗಳು
+  hi: एक बिंदु पर मिलती कई रेखाएँ
+sanskrit:
+  devanagari: ताराकार करचिह्न
+  kannada: ತಾರಾಕಾರ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: Several strokes meeting at one point.
+  kn: ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ ಸೇರುವ ಹಲವು ಗೆರೆಗಳು.
+  hi: एक बिंदु पर मिलती कई रेखाएँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.star-left
+- palmistry.marks.star-right
+used_by:
+- palmistry.marks.star-left
+- palmistry.marks.star-right
+systems:
+- palmistry

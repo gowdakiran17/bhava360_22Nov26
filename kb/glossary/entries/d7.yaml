@@ -1,0 +1,20 @@
+id: glossary.terms.d7
+term:
+  en: D7
+  kn: D7 ಸಪ್ತಾಂಶ
+  hi: D7 सप्तांश
+sanskrit:
+  devanagari: सप्तांश
+  kannada: ಸಪ್ತಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore caregiving.
+  kn: ಆರೈಕೆ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: देखभाल को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Begin at the natal sign for odd signs and its seventh for even signs.
+aliases:
+- Saptamsa
+reference_rules:
+- vedic.vargas.d7-placement
+used_by:
+- vedic.vargas.d7-placement

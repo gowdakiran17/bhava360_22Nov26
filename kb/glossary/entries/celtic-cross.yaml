@@ -1,0 +1,19 @@
+id: glossary.terms.celtic-cross
+term:
+  en: Celtic Cross
+  kn: ದಶಪತ್ರವಿನ್ಯಾಸ
+  hi: दशपत्रविन्यास
+sanskrit:
+  devanagari: दशपत्रविन्यास
+  kannada: ದಶಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: A ten-position card layout for exploring a question from several viewpoints.
+  kn: ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ವಿವಿಧ ಕೋನಗಳಿಂದ ನೋಡಲು ಹತ್ತು ಸ್ಥಾನಗಳ ಪತ್ರ ವಿನ್ಯಾಸ.
+  hi: एक सवाल को अलग पहलुओं से देखने का दस जगहों वाला पत्ता विन्यास।
+admin_note: Use this label for a ten-position card layout for exploring a question from several viewpoints. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- celtic-cross

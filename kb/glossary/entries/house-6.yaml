@@ -1,0 +1,87 @@
+id: glossary.terms.house-6
+term:
+  en: House 6
+  kn: ಅರಿಭಾವ
+  hi: अरिभाव
+sanskrit:
+  devanagari: अरिभाव
+  kannada: ಅರಿಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore challenges and obligations.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಹೊಣೆಗಾರಿಕೆ ಮತ್ತು ಸವಾಲುಗಳು ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में चुनौतियाँ और दायित्व से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists debts, disagreements, health
+  concerns among its subjects.
+aliases:
+- Ari
+reference_rules:
+- vedic.houses.house-6
+used_by:
+- jaimini.arudha-padas.a6
+- kp.significators.job-change
+- lal-kitab.placements.house-6
+- vedic.house-lords.lord-1-in-house-6
+- vedic.house-lords.lord-10-in-house-6
+- vedic.house-lords.lord-11-in-house-6
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-2-in-house-6
+- vedic.house-lords.lord-3-in-house-6
+- vedic.house-lords.lord-4-in-house-6
+- vedic.house-lords.lord-5-in-house-6
+- vedic.house-lords.lord-6-in-house-1
+- vedic.house-lords.lord-6-in-house-10
+- vedic.house-lords.lord-6-in-house-11
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-2
+- vedic.house-lords.lord-6-in-house-3
+- vedic.house-lords.lord-6-in-house-4
+- vedic.house-lords.lord-6-in-house-5
+- vedic.house-lords.lord-6-in-house-6
+- vedic.house-lords.lord-6-in-house-7
+- vedic.house-lords.lord-6-in-house-8
+- vedic.house-lords.lord-6-in-house-9
+- vedic.house-lords.lord-7-in-house-6
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-9-in-house-6
+- vedic.houses.house-6
+- vedic.houses.jupiter-house-6
+- vedic.houses.ketu-house-6
+- vedic.houses.mars-house-6
+- vedic.houses.mercury-house-6
+- vedic.houses.moon-house-6
+- vedic.houses.rahu-house-6
+- vedic.houses.saturn-house-6
+- vedic.houses.sun-house-6
+- vedic.houses.venus-house-6
+- vedic.planets-in-houses.jupiter-house-6
+- vedic.planets-in-houses.ketu-house-6
+- vedic.planets-in-houses.mars-house-6
+- vedic.planets-in-houses.mercury-house-6
+- vedic.planets-in-houses.moon-house-6
+- vedic.planets-in-houses.rahu-house-6
+- vedic.planets-in-houses.saturn-house-6
+- vedic.planets-in-houses.sun-house-6
+- vedic.planets-in-houses.venus-house-6
+- vedic.transits.jupiter-moon-house-6
+- vedic.transits.ketu-moon-house-6
+- vedic.transits.mars-moon-house-6
+- vedic.transits.mercury-moon-house-6
+- vedic.transits.moon-moon-house-6
+- vedic.transits.rahu-moon-house-6
+- vedic.transits.saturn-moon-house-6
+- vedic.transits.sun-moon-house-6
+- vedic.transits.venus-moon-house-6
+- vedic.yogas.harsha
+- vedic.yogas.sarala
+- vedic.yogas.vimala
+- western.natal.jupiter-house-6
+- western.natal.mars-house-6
+- western.natal.mercury-house-6
+- western.natal.moon-house-6
+- western.natal.neptune-house-6
+- western.natal.pluto-house-6
+- western.natal.saturn-house-6
+- western.natal.sun-house-6
+- western.natal.uranus-house-6
+- western.natal.venus-house-6

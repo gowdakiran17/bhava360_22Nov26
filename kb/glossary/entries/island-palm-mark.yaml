@@ -1,0 +1,24 @@
+id: glossary.terms.island-palm-mark
+term:
+  en: Island palm mark
+  kn: ಕವಲಾಗಿ ಮತ್ತೆ ಸೇರುವ ಪುಟ್ಟ ಕುಣಿಕೆಯ ಗೆರೆ
+  hi: दो भागों में बँटकर फिर मिलती छोटी घेरानुमा रेखा
+sanskrit:
+  devanagari: द्वीपाकार करचिह्न
+  kannada: ದ್ವೀಪಾಕಾರ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: One crease dividing and rejoining in a small loop.
+  kn: ಕವಲಾಗಿ ಮತ್ತೆ ಸೇರುವ ಪುಟ್ಟ ಕುಣಿಕೆಯ ಗೆರೆ.
+  hi: दो भागों में बँटकर फिर मिलती छोटी घेरानुमा रेखा।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.island-left
+- palmistry.marks.island-right
+used_by:
+- palmistry.marks.island-left
+- palmistry.marks.island-right
+systems:
+- palmistry

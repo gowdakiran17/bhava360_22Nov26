@@ -1,0 +1,19 @@
+id: glossary.terms.rajju
+term:
+  en: Rajju
+  kn: ರಜ್ಜು
+  hi: रज्जु
+sanskrit:
+  devanagari: रज्जु
+  kannada: ರಜ್ಜು
+  usage: traditional term
+meaning:
+  en: A South Indian matching factor that compares the groups assigned to two birth stars.
+  kn: ದಕ್ಷಿಣ ಭಾರತದ ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಜನ್ಮನಕ್ಷತ್ರಗಳ ಗುಂಪುಗಳನ್ನು ಹೋಲಿಸುವ ಅಂಶ.
+  hi: दक्षिण भारतीय मिलान में जन्म तारों के समूहों की तुलना का पहलू।
+admin_note: Use this label for a South Indian matching factor that compares the groups assigned to two birth stars. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.porutham-rajju

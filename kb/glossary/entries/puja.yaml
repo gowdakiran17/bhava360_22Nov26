@@ -1,0 +1,29 @@
+id: glossary.terms.puja
+term:
+  en: Puja
+  kn: ಪೂಜಾ
+  hi: पूजा
+sanskrit:
+  devanagari: पूजा
+  kannada: ಪೂಜಾ
+  usage: traditional term
+meaning:
+  en: An act of worship a person may choose as part of their tradition.
+  kn: ವ್ಯಕ್ತಿ ತನ್ನ ಪರಂಪರೆಗೆ ತಕ್ಕಂತೆ ಆಯಬಹುದಾದ ಆರಾಧನೆ.
+  hi: व्यक्ति की पसंद के अनुसार किया जाने वाला पूजन।
+admin_note: Use this label for an act of worship a person may choose as part of their tradition. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- pooja
+reference_rules: []
+used_by:
+- vastu.rooms.centre-pooja
+- vastu.rooms.east-pooja
+- vastu.rooms.north-pooja
+- vastu.rooms.northeast-pooja
+- vastu.rooms.northwest-pooja
+- vastu.rooms.south-pooja
+- vastu.rooms.southeast-pooja
+- vastu.rooms.southwest-pooja
+- vastu.rooms.west-pooja
+- vedic.panchang.deepavali

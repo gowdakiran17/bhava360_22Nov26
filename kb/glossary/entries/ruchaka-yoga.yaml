@@ -1,0 +1,22 @@
+id: glossary.terms.ruchaka-yoga
+term:
+  en: Ruchaka yoga
+  kn: ರುಚಕಯೋಗ
+  hi: रुचकयोग
+sanskrit:
+  devanagari: रुचकयोग
+  kannada: ರುಚಕಯೋಗ
+  usage: traditional term
+meaning:
+  en: Mars occupies a corner of the chart in a sign it rules or where it has special standing.
+  kn: ಮಂಗಳ ತಾನು ಆಳುವ ಅಥವಾ ಹೆಚ್ಚಿನ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯ ಸ್ಥಾನದಲ್ಲಿರುವುದು.
+  hi: मंगल का अपनी या विशेष बल की राशि में पत्री के कोने पर होना।
+admin_note: Mars occupies a whole-sign angle from Lagna and its own or exaltation sign.
+aliases:
+- ruchaka
+reference_rules:
+- vedic.yogas.ruchaka
+used_by:
+- vedic.yogas.ruchaka
+systems:
+- vedic

@@ -1,0 +1,22 @@
+id: glossary.terms.fate-line
+term:
+  en: Fate line
+  kn: ಭಾಗ್ಯರೇಖಾ
+  hi: भाग्यरेखा
+sanskrit:
+  devanagari: भाग्यरेखा
+  kannada: ಭಾಗ್ಯರೇಖಾ
+  usage: traditional term
+meaning:
+  en: A palm crease running up towards the middle finger.
+  kn: ಅಂಗೈಯಲ್ಲಿ ಮಧ್ಯದ ಬೆರಳಿನತ್ತ ಸಾಗುವ ಗೆರೆ.
+  hi: हथेली पर मध्यमा की ओर जाती रेखा।
+admin_note: 'Application in palmistry.lines.fate-right: The user confirmed the illustrated choice on the right hand:
+  Upright crease toward the middle finger.'
+aliases: []
+reference_rules:
+- palmistry.lines.fate-left
+- palmistry.lines.fate-right
+used_by:
+- palmistry.lines.fate-left
+- palmistry.lines.fate-right

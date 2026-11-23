@@ -1,0 +1,20 @@
+id: glossary.terms.ahir-budhnya
+term:
+  en: Ahir Budhnya
+  kn: ಅಹಿರ್ಬುಧ್ನ್ಯ
+  hi: अहिर्बुध्न्य
+sanskrit:
+  devanagari: अहिर्बुध्न्य
+  kannada: ಅಹಿರ್ಬುಧ್ನ್ಯ
+  usage: traditional term
+meaning:
+  en: Ahir Budhnya is a traditional figure associated with Uttara Bhadrapada.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಉತ್ತರಭಾದ್ರಪದಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: उत्तरभाद्रपदा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.uttara-bhadrapada
+used_by:
+- vedic.nakshatras.uttara-bhadrapada

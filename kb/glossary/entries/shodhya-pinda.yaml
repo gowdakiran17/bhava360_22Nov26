@@ -1,0 +1,21 @@
+id: glossary.terms.shodhya-pinda
+term:
+  en: Shodhya pinda
+  kn: ಶೋಧ್ಯಪಿಣ್ಡ
+  hi: शोध्यपिण्ड
+sanskrit:
+  devanagari: शोध्यपिण्ड
+  kannada: ಶೋಧ್ಯಪಿಣ್ಡ
+  usage: traditional term
+meaning:
+  en: A weighted total obtained after the traditional reductions to a planet’s table.
+  kn: ಗ್ರಹದ ಕೋಷ್ಟಕವನ್ನು ಕಡಿತಗೊಳಿಸಿದ ಬಳಿಕ ತೂಕಗಳನ್ನು ಅನ್ವಯಿಸಿ ಪಡೆಯುವ ಮೊತ್ತ.
+  hi: ग्रह की तालिका में कटौती के बाद भार लगाकर निकला कुल।
+admin_note: 'Application in vedic.strength-ashtakavarga.shodhya-pinda: For each target, multiply each fully reduced sign
+  value by its rashi weight and sum. For every natal graha multiply its graha weight by the reduced value at its natal
+  sign and sum, counting co-occupants separately. Add rashi and graha pinda.'
+aliases:
+- Pinda
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.shodhya-pinda

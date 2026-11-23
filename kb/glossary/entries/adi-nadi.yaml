@@ -1,0 +1,21 @@
+id: glossary.terms.adi-nadi
+term:
+  en: Adi Nadi
+  kn: ಆದಿ ನಾಡೀ
+  hi: आदि नाडी
+sanskrit:
+  devanagari: आदि नाडी
+  kannada: ಆದಿ ನಾಡೀ
+  usage: traditional term
+meaning:
+  en: Birth-star group 1 of three used for one part of marriage matching.
+  kn: ವಿವಾಹ ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಬಳಸುವ ಮೂರು ನಕ್ಷತ್ರ ಗುಂಪುಗಳಲ್ಲಿ 1ನೇ ಗುಂಪು.
+  hi: विवाह मिलान में जन्म तारों की तीन श्रेणियों में क्रम 1।
+admin_note: 'Application in vedic.matching.nadi: Look up each Moon’s birth star in the three Nadi groups, then read the
+  class-pair matrix. Keep the raw points when a selected exception softens interpretation.'
+aliases:
+- Adi
+reference_rules:
+- vedic.matching.nadi
+used_by:
+- vedic.matching.nadi

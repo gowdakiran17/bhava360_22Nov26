@@ -1,0 +1,21 @@
+id: glossary.terms.baladi
+term:
+  en: Baladi
+  kn: ಬಾಲಾದಿ
+  hi: बालादि
+sanskrit:
+  devanagari: बालादि
+  kannada: ಬಾಲಾದಿ
+  usage: traditional term
+meaning:
+  en: A system that divides a sign into five bands and gives a planet a symbolic age.
+  kn: ಪ್ರತಿ ರಾಶಿಯನ್ನು ಐದು ಭಾಗಗಳಾಗಿ ಮಾಡಿ ಗ್ರಹಕ್ಕೆ ಸಾಂಕೇತಿಕ ವಯಸ್ಸು ನೀಡುವ ಕ್ರಮ.
+  hi: राशि के पाँच हिस्सों से ग्रह की प्रतीकात्मक उम्र बताने की विधि।
+admin_note: 'Application in vedic.states.baladi: Divide the graha’s natal sign into five successive six-degree intervals.
+  Read the odd-sign order from Aries onward by sign parity and reverse the order in even signs. Normalize 30 degrees
+  to the next sign before lookup.'
+aliases:
+- Baladi avastha
+reference_rules: []
+used_by:
+- vedic.states.baladi

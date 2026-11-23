@@ -1,0 +1,191 @@
+id: glossary.terms.sun
+term:
+  en: Sun
+  kn: ಸೂರ್ಯ
+  hi: सूर्य
+sanskrit:
+  devanagari: सूर्य
+  kannada: ಸೂರ್ಯ
+  usage: traditional term
+meaning:
+  en: The star at the centre of our solar system.
+  kn: ಸೌರವ್ಯೂಹದ ಕೇಂದ್ರದ ನಕ್ಷತ್ರ.
+  hi: सौरमंडल के केंद्र का तारा।
+admin_note: 'Application in western.planets.sun: The selected tropical natal body is sun. Read its sign as a style and
+  its house as an area of experience.'
+aliases:
+- Surya
+- Aditya
+reference_rules:
+- vedic.planets.sun
+used_by:
+- palmistry.lines.sun
+- palmistry.lines.sun-left
+- palmistry.lines.sun-right
+- remedies.conduct.sun
+- tarot.major-arcana.the-sun-reversed
+- tarot.major-arcana.the-sun-upright
+- tarot.minor-arcana.eight-of-pentacles-reversed
+- tarot.minor-arcana.eight-of-pentacles-upright
+- tarot.minor-arcana.four-of-pentacles-reversed
+- tarot.minor-arcana.four-of-pentacles-upright
+- tarot.minor-arcana.six-of-cups-reversed
+- tarot.minor-arcana.six-of-cups-upright
+- tarot.minor-arcana.ten-of-swords-reversed
+- tarot.minor-arcana.ten-of-swords-upright
+- tarot.minor-arcana.three-of-wands-reversed
+- tarot.minor-arcana.three-of-wands-upright
+- vastu.directions.east
+- vedic.annual-chart.solar-return
+- vedic.dashas-vimshottari.jupiter-sun-antar
+- vedic.dashas-vimshottari.ketu-sun-antar
+- vedic.dashas-vimshottari.mars-sun-antar
+- vedic.dashas-vimshottari.mercury-sun-antar
+- vedic.dashas-vimshottari.moon-sun-antar
+- vedic.dashas-vimshottari.rahu-sun-antar
+- vedic.dashas-vimshottari.saturn-sun-antar
+- vedic.dashas-vimshottari.sun-jupiter-antar
+- vedic.dashas-vimshottari.sun-ketu-antar
+- vedic.dashas-vimshottari.sun-maha
+- vedic.dashas-vimshottari.sun-mars-antar
+- vedic.dashas-vimshottari.sun-mercury-antar
+- vedic.dashas-vimshottari.sun-moon-antar
+- vedic.dashas-vimshottari.sun-rahu-antar
+- vedic.dashas-vimshottari.sun-saturn-antar
+- vedic.dashas-vimshottari.sun-sun-antar
+- vedic.dashas-vimshottari.sun-venus-antar
+- vedic.dashas-vimshottari.venus-sun-antar
+- vedic.doshas.grahan
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-9
+- vedic.houses.sun-house-1
+- vedic.houses.sun-house-10
+- vedic.houses.sun-house-11
+- vedic.houses.sun-house-12
+- vedic.houses.sun-house-2
+- vedic.houses.sun-house-3
+- vedic.houses.sun-house-4
+- vedic.houses.sun-house-5
+- vedic.houses.sun-house-6
+- vedic.houses.sun-house-7
+- vedic.houses.sun-house-8
+- vedic.houses.sun-house-9
+- vedic.lordships.leo-lagna-lord
+- vedic.muhurta.marriage
+- vedic.nakshatras.krittika
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-phalguni
+- vedic.panchang.karana
+- vedic.panchang.sankranti
+- vedic.panchang.tithi
+- vedic.panchang.yoga
+- vedic.planets-in-houses.sun-house-1
+- vedic.planets-in-houses.sun-house-10
+- vedic.planets-in-houses.sun-house-11
+- vedic.planets-in-houses.sun-house-12
+- vedic.planets-in-houses.sun-house-2
+- vedic.planets-in-houses.sun-house-3
+- vedic.planets-in-houses.sun-house-4
+- vedic.planets-in-houses.sun-house-5
+- vedic.planets-in-houses.sun-house-6
+- vedic.planets-in-houses.sun-house-7
+- vedic.planets-in-houses.sun-house-8
+- vedic.planets-in-houses.sun-house-9
+- vedic.planets-in-signs.jupiter-leo
+- vedic.planets-in-signs.ketu-leo
+- vedic.planets-in-signs.mars-leo
+- vedic.planets-in-signs.mercury-leo
+- vedic.planets-in-signs.moon-leo
+- vedic.planets-in-signs.rahu-leo
+- vedic.planets-in-signs.saturn-leo
+- vedic.planets-in-signs.sun-aquarius
+- vedic.planets-in-signs.sun-aries
+- vedic.planets-in-signs.sun-cancer
+- vedic.planets-in-signs.sun-capricorn
+- vedic.planets-in-signs.sun-gemini
+- vedic.planets-in-signs.sun-leo
+- vedic.planets-in-signs.sun-libra
+- vedic.planets-in-signs.sun-pisces
+- vedic.planets-in-signs.sun-sagittarius
+- vedic.planets-in-signs.sun-scorpio
+- vedic.planets-in-signs.sun-taurus
+- vedic.planets-in-signs.sun-virgo
+- vedic.planets-in-signs.venus-leo
+- vedic.planets.jupiter
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.aries
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.states.baladi
+- vedic.states.combustion
+- vedic.states.graha-drishti
+- vedic.states.vargottama
+- vedic.states.yuti
+- vedic.strength-ashtakavarga.kakshya
+- vedic.strength-ashtakavarga.shodhana
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.dig
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.nathonnata
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.totals
+- vedic.strength-shadbala.tribhaga
+- vedic.transits.sun-moon-house-1
+- vedic.transits.sun-moon-house-10
+- vedic.transits.sun-moon-house-11
+- vedic.transits.sun-moon-house-12
+- vedic.transits.sun-moon-house-2
+- vedic.transits.sun-moon-house-3
+- vedic.transits.sun-moon-house-4
+- vedic.transits.sun-moon-house-5
+- vedic.transits.sun-moon-house-6
+- vedic.transits.sun-moon-house-7
+- vedic.transits.sun-moon-house-8
+- vedic.transits.sun-moon-house-9
+- vedic.yogas.budhaditya
+- vedic.yogas.ubhayachari
+- vedic.yogas.vesi
+- vedic.yogas.vosi
+- western.aspects.saturn-square-sun
+- western.natal.sun-aquarius
+- western.natal.sun-aries
+- western.natal.sun-cancer
+- western.natal.sun-capricorn
+- western.natal.sun-gemini
+- western.natal.sun-house-1
+- western.natal.sun-house-10
+- western.natal.sun-house-11
+- western.natal.sun-house-12
+- western.natal.sun-house-2
+- western.natal.sun-house-3
+- western.natal.sun-house-4
+- western.natal.sun-house-5
+- western.natal.sun-house-6
+- western.natal.sun-house-7
+- western.natal.sun-house-8
+- western.natal.sun-house-9
+- western.natal.sun-leo
+- western.natal.sun-libra
+- western.natal.sun-pisces
+- western.natal.sun-sagittarius
+- western.natal.sun-scorpio
+- western.natal.sun-taurus
+- western.natal.sun-virgo
+- western.planets.sun
+- western.progressions.progressed-moon
+- western.returns.solar-return
+- western.signs.leo
+- western.solar-arc.directed-contact
+used_in_files:
+- vastu/entrances/padas.yaml

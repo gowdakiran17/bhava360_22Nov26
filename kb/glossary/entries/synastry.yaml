@@ -1,0 +1,19 @@
+id: glossary.terms.synastry
+term:
+  en: Synastry
+  kn: ಜನ್ಮಪತ್ರಿಕಾತುಲನಾ
+  hi: जन्मपत्रिकातुलना
+sanskrit:
+  devanagari: जन्मपत्रिकातुलना
+  kannada: ಜನ್ಮಪತ್ರಿಕಾತುಲನಾ
+  usage: descriptive equivalent
+meaning:
+  en: A comparison of two birth charts to explore how people may relate.
+  kn: ಇಬ್ಬರ ಸಂಬಂಧದ ಬಗ್ಗೆ ಯೋಚಿಸಲು ಮಾಡುವ ಎರಡು ಜನ್ಮನಕ್ಷೆಗಳ ಹೋಲಿಕೆ.
+  hi: दो लोगों के संबंध पर विचार के लिए उनकी जन्मपत्रियों की तुलना।
+admin_note: Use this label for a comparison of two birth charts to explore how people may relate. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- western.synastry.two-chart-contact

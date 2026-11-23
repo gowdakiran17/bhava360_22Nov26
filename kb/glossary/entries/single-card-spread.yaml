@@ -1,0 +1,21 @@
+id: glossary.terms.single-card-spread
+term:
+  en: Single-card spread
+  kn: ಒಂದು ಪತ್ರದ ವಿನ್ಯಾಸ
+  hi: एक पत्ते का विन्यास
+sanskrit:
+  devanagari: एकपत्रविन्यास
+  kannada: ಏಕಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: One card offers a single question to reflect on.
+  kn: ಒಂದು ಪತ್ರ ಒಂದು ಪ್ರಶ್ನೆಯ ಬಗ್ಗೆ ಯೋಚಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: एक पत्ता एक सवाल पर विचार करने में मदद कर सकता है।
+admin_note: 'Read the positions in order: reflection. The final prompt invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- single-card
+used_by:
+- single-card
+systems:
+- tarot

@@ -1,0 +1,79 @@
+id: glossary.terms.gemini
+term:
+  en: Gemini
+  kn: ಮಿಥುನ
+  hi: मिथुन
+sanskrit:
+  devanagari: मिथुन
+  kannada: ಮಿಥುನ
+  usage: traditional term
+meaning:
+  en: Sign number 3 in the twelve-part circle, covering degrees 60 to 90.
+  kn: ರಾಶಿಚಕ್ರದ 3ನೇ ಭಾಗ, 60ರಿಂದ 90 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 3, 60 से 90 अंश तक।
+admin_note: 'Application in western.signs.gemini: The selected tropical point falls in [60, 90) degrees from the March
+  equinox. Mutable air; modern ruler mercury, traditional ruler mercury.'
+aliases:
+- Mithuna
+reference_rules:
+- vedic.signs.gemini
+used_by:
+- tarot.major-arcana.the-lovers-reversed
+- tarot.major-arcana.the-lovers-upright
+- tarot.minor-arcana.eight-of-swords-reversed
+- tarot.minor-arcana.eight-of-swords-upright
+- tarot.minor-arcana.king-of-swords-reversed
+- tarot.minor-arcana.king-of-swords-upright
+- tarot.minor-arcana.nine-of-swords-reversed
+- tarot.minor-arcana.nine-of-swords-upright
+- tarot.minor-arcana.queen-of-cups-reversed
+- tarot.minor-arcana.queen-of-cups-upright
+- tarot.minor-arcana.ten-of-swords-reversed
+- tarot.minor-arcana.ten-of-swords-upright
+- vedic.doshas.mars-partnership
+- vedic.lordships.gemini-lagna-lord
+- vedic.muhurta.education-start
+- vedic.muhurta.marriage
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.hasta
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shravana
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-gemini
+- vedic.planets-in-signs.ketu-gemini
+- vedic.planets-in-signs.mars-gemini
+- vedic.planets-in-signs.mercury-gemini
+- vedic.planets-in-signs.moon-gemini
+- vedic.planets-in-signs.rahu-gemini
+- vedic.planets-in-signs.saturn-gemini
+- vedic.planets-in-signs.sun-gemini
+- vedic.planets-in-signs.venus-gemini
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.gemini
+- vedic.vargas.d30-placement
+- western.natal.ascendant-gemini
+- western.natal.jupiter-gemini
+- western.natal.mars-gemini
+- western.natal.mercury-gemini
+- western.natal.moon-gemini
+- western.natal.neptune-gemini
+- western.natal.pluto-gemini
+- western.natal.saturn-gemini
+- western.natal.sun-gemini
+- western.natal.uranus-gemini
+- western.natal.venus-gemini
+- western.signs.gemini

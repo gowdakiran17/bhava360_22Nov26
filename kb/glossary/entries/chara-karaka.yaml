@@ -1,0 +1,27 @@
+id: glossary.terms.chara-karaka
+term:
+  en: Chara karaka
+  kn: ಚರಕಾರಕ
+  hi: चरकारक
+sanskrit:
+  devanagari: चरकारक
+  kannada: ಚರಕಾರಕ
+  usage: traditional term
+meaning:
+  en: A planet given a personal role by ranking the positions of planets within their signs.
+  kn: ರಾಶಿಯೊಳಗಿನ ಸ್ಥಾನಕ್ರಮದಿಂದ ನಿರ್ದಿಷ್ಟ ಪಾತ್ರ ಪಡೆದ ಗ್ರಹ.
+  hi: राशि के भीतर स्थिति के क्रम से खास भूमिका पाने वाला ग्रह।
+admin_note: Use this label for a planet given a personal role by ranking the positions of planets within their signs.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- chara karakas
+reference_rules: []
+used_by:
+- jaimini.chara-karakas.amatyakaraka
+- jaimini.chara-karakas.atmakaraka
+- jaimini.chara-karakas.bhratrikaraka
+- jaimini.chara-karakas.darakaraka
+- jaimini.chara-karakas.gnatikaraka
+- jaimini.chara-karakas.matrikaraka
+- jaimini.chara-karakas.pitrikaraka
+- jaimini.chara-karakas.putrakaraka

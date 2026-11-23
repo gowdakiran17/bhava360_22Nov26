@@ -1,0 +1,28 @@
+id: glossary.terms.yogakaraka
+term:
+  en: Yogakaraka
+  kn: ಯೋಗಕಾರಕ
+  hi: योगकारक
+sanskrit:
+  devanagari: योगकारक
+  kannada: ಯೋಗಕಾರಕ
+  usage: traditional term
+meaning:
+  en: A planet that rules both a corner of the chart and one of its three traditionally related places.
+  kn: ನಕ್ಷೆಯ ಕೇಂದ್ರ ಮತ್ತು ತ್ರಿಕೋಣ ಸ್ಥಾನಗಳೆರಡನ್ನೂ ಆಳುವ ಗ್ರಹ.
+  hi: पत्री के एक केंद्रीय और एक त्रिकोणीय स्थान का साझा स्वामी ग्रह।
+admin_note: Use this label for a planet that rules both a corner of the chart and one of its three traditionally related
+  places. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- yoga karaka
+reference_rules: []
+used_by:
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus

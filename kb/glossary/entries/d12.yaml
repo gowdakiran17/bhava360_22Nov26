@@ -1,0 +1,20 @@
+id: glossary.terms.d12
+term:
+  en: D12
+  kn: D12 ದ್ವಾದಶಾಂಶ
+  hi: D12 द्वादशांश
+sanskrit:
+  devanagari: द्वादशांश
+  kannada: ದ್ವಾದಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore family background.
+  kn: ಕುಟುಂಬದ ಹಿನ್ನೆಲೆ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: पारिवारिक पृष्ठभूमि को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Begin at the natal sign.
+aliases:
+- Dwadasamsa
+reference_rules:
+- vedic.vargas.d12-placement
+used_by:
+- vedic.vargas.d12-placement

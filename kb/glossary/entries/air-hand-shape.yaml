@@ -1,0 +1,24 @@
+id: glossary.terms.air-hand-shape
+term:
+  en: Air hand shape
+  kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+  hi: चौकोर हथेली, लंबी उँगलियाँ
+sanskrit:
+  devanagari: वायु हस्ताकृति
+  kannada: ವಾಯು ಹಸ್ತಾಕೃತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Square palm, longer fingers.
+  kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು.
+  hi: चौकोर हथेली, लंबी उँगलियाँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.hands.air-left
+- palmistry.hands.air-right
+used_by:
+- palmistry.hands.air-left
+- palmistry.hands.air-right
+systems:
+- palmistry

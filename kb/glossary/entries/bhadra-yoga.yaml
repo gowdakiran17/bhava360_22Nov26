@@ -1,0 +1,22 @@
+id: glossary.terms.bhadra-yoga
+term:
+  en: Bhadra yoga
+  kn: ಭದ್ರಯೋಗ
+  hi: भद्रयोग
+sanskrit:
+  devanagari: भद्रयोग
+  kannada: ಭದ್ರಯೋಗ
+  usage: traditional term
+meaning:
+  en: Mercury occupies a corner of the chart in a sign it rules or where it has special standing.
+  kn: ಬುಧ ತಾನು ಆಳುವ ಅಥವಾ ಹೆಚ್ಚಿನ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯ ಸ್ಥಾನದಲ್ಲಿರುವುದು.
+  hi: बुध का अपनी या विशेष बल की राशि में पत्री के कोने पर होना।
+admin_note: Mercury occupies a whole-sign angle from Lagna and its own or exaltation sign.
+aliases:
+- bhadra
+reference_rules:
+- vedic.yogas.bhadra
+used_by:
+- vedic.yogas.bhadra
+systems:
+- vedic

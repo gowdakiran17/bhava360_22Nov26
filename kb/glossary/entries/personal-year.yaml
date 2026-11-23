@@ -1,0 +1,22 @@
+id: glossary.terms.personal-year
+term:
+  en: Personal year
+  kn: ವ್ಯಕ್ತಿವರ್ಷಾಙ್ಕ
+  hi: व्यक्तिवर्षाङ्क
+sanskrit:
+  devanagari: व्यक्तिवर्षाङ्क
+  kannada: ವ್ಯಕ್ತಿವರ್ಷಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A yearly number based on the birth month, birth day and chosen year.
+  kn: ಜನನದ ದಿನ, ತಿಂಗಳು ಮತ್ತು ಆಯ್ದ ವರ್ಷದಿಂದ ಪಡೆಯುವ ವಾರ್ಷಿಕ ಸಂಖ್ಯೆ.
+  hi: जन्म का दिन, महीना और चुना वर्ष लेकर निकली साल की संख्या।
+admin_note: 'Application in numerology.pythagorean.personal-year: Reduce birth month, birth day and target calendar year
+  separately. Add and reduce. The cycle changes on January 1 in the selected local calendar.'
+aliases: []
+reference_rules: []
+used_by:
+- numerology.chaldean.personal-month
+- numerology.chaldean.personal-year
+- numerology.pythagorean.personal-month
+- numerology.pythagorean.personal-year

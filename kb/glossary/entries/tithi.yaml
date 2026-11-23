@@ -1,0 +1,38 @@
+id: glossary.terms.tithi
+term:
+  en: Tithi
+  kn: ತಿಥಿ
+  hi: तिथि
+sanskrit:
+  devanagari: तिथि
+  kannada: ತಿಥಿ
+  usage: traditional term
+meaning:
+  en: One thirtieth of the Moon’s cycle, measured by how far it is ahead of the Sun.
+  kn: ಚಂದ್ರನು ಸೂರ್ಯನಿಂದ ಎಷ್ಟು ಮುಂದಿದ್ದಾನೆ ಎಂಬುದರ ಆಧಾರದಲ್ಲಿ ಚಂದ್ರಚಕ್ರದ ಮೂವತ್ತರಲ್ಲಿ ಒಂದು ಭಾಗ.
+  hi: चंद्रमा सूर्य से कितना आगे है, उससे तय होने वाला चंद्र चक्र का तीसवाँ हिस्सा।
+admin_note: 'Application in vedic.panchang.tithi: At the query instant compute E = (Moon − Sun) modulo 1296000 arcseconds.
+  The public number is 1 + floor(E / 43200); use the zero-based quotient for indexing only. Resolve name and paksha in
+  limb-tables.yaml and bracket the two true crossings as specified in limbs.yaml.'
+aliases:
+- lunar day
+- Tithis
+reference_rules: []
+used_by:
+- vedic.festivals.observance
+- vedic.muhurta.business-start
+- vedic.muhurta.check-big-decision-muhurta-activity-limb
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.amavasya
+- vedic.panchang.deepavali
+- vedic.panchang.ekadashi
+- vedic.panchang.karana
+- vedic.panchang.pradosh
+- vedic.panchang.purnima
+- vedic.panchang.tithi

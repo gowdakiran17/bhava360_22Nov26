@@ -1,0 +1,25 @@
+id: glossary.terms.king-of-pentacles-tarot
+term:
+  en: King Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ರಾಜ
+  hi: मुद्रा · राजा
+sanskrit:
+  devanagari: मुद्रा राजा
+  kannada: ಮುದ್ರಾ ರಾಜಾ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank king in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ರಾಜ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · राजा की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on responsible
+  stewardship. What comes to mind in this position?'
+aliases:
+- King Of Pentacles
+reference_rules:
+- tarot.minor-arcana.king-of-pentacles-upright
+- tarot.minor-arcana.king-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.king-of-pentacles-reversed
+- tarot.minor-arcana.king-of-pentacles-upright
+systems:
+- tarot

@@ -1,0 +1,22 @@
+id: glossary.terms.latitude
+term:
+  en: Latitude
+  kn: ಅಕ್ಷಾಂಶ
+  hi: अक्षांश
+sanskrit:
+  devanagari: अक्षांश
+  kannada: ಅಕ್ಷಾಂಶ
+  usage: descriptive equivalent
+meaning:
+  en: An angle north or south of the reference circle used for a position.
+  kn: ಆಧಾರ ವೃತ್ತದಿಂದ ಉತ್ತರ ಅಥವಾ ದಕ್ಷಿಣದ ಕೋನ.
+  hi: जगह बताने वाले आधार वृत्त से उत्तर या दक्षिण का कोण।
+admin_note: Use this label for an angle north or south of the reference circle used for a position. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- kp.cusps.placidus
+- kp.number-horary.arc
+- vedic.states.graha-yuddha
+- western.houses.polar-fallback

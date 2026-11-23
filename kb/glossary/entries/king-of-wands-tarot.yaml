@@ -1,0 +1,25 @@
+id: glossary.terms.king-of-wands-tarot
+term:
+  en: King Of Wands (Tarot)
+  kn: ಕೋಲು · ರಾಜ
+  hi: छड़ी · राजा
+sanskrit:
+  devanagari: दण्ड राजा
+  kannada: ದಣ್ಡ ರಾಜಾ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank king in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ರಾಜ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · राजा की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a motivating
+  vision. What comes to mind in this position?'
+aliases:
+- King Of Wands
+reference_rules:
+- tarot.minor-arcana.king-of-wands-upright
+- tarot.minor-arcana.king-of-wands-reversed
+used_by:
+- tarot.minor-arcana.king-of-wands-reversed
+- tarot.minor-arcana.king-of-wands-upright
+systems:
+- tarot

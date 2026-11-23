@@ -1,0 +1,19 @@
+id: glossary.terms.root-number
+term:
+  en: Root number
+  kn: ಮೂಲಾಙ್ಕಫಲ
+  hi: मूलाङ्कफल
+sanskrit:
+  devanagari: मूलाङ्कफल
+  kannada: ಮೂಲಾಙ್ಕಫಲ
+  usage: traditional term
+meaning:
+  en: The single digit left after repeatedly adding the digits of a total.
+  kn: ಒಟ್ಟು ಸಂಖ್ಯೆಯ ಅಂಕಿಗಳನ್ನು ಪುನಃ ಕೂಡಿಸಿದ ಬಳಿಕ ಉಳಿಯುವ ಒಂದಂಕಿ.
+  hi: कुल के अंकों को बार-बार जोड़ने पर बचा एक अंक।
+admin_note: 'Application in numerology.chaldean.root-1: The selected metric has a single-digit result of 1.'
+aliases: []
+reference_rules:
+- numerology.chaldean.root-1
+used_by:
+- numerology.chaldean.root-1

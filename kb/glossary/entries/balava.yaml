@@ -1,0 +1,22 @@
+id: glossary.terms.balava
+term:
+  en: Balava
+  kn: ಬಾಲವ
+  hi: बालव
+sanskrit:
+  devanagari: बालव
+  kannada: ಬಾಲವ
+  usage: traditional term
+meaning:
+  en: A half lunar day named in a repeating seven-part sequence.
+  kn: ಏಳು ಹೆಸರುಗಳ ಪುನರಾವರ್ತಿತ ಕ್ರಮದ ಒಂದು ಅರ್ಧ ತಿಥಿ.
+  hi: सात नामों के दोहराते क्रम का एक आधा चंद्र दिन।
+admin_note: 'Application in vedic.panchang.karana: Use floor(((Moon − Sun) modulo a turn) / 21600 arcseconds). Use the
+  fixed index map at 0 and 57–59; for 1–56 use movable[(index−1) modulo 7]. Solve the flanking 6° crossings.'
+aliases: []
+reference_rules:
+- vedic.panchang.karana
+used_by:
+- vedic.muhurta.education-start
+- vedic.muhurta.naming
+- vedic.panchang.karana

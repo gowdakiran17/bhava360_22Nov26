@@ -1,0 +1,25 @@
+id: glossary.terms.six-of-pentacles-tarot
+term:
+  en: Six Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ಆರು
+  hi: मुद्रा · छह
+sanskrit:
+  devanagari: मुद्रा षट्
+  kannada: ಮುದ್ರಾ ಷಟ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank six in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ಆರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · छह की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on giving and
+  receiving. What comes to mind in this position?'
+aliases:
+- Six Of Pentacles
+reference_rules:
+- tarot.minor-arcana.six-of-pentacles-upright
+- tarot.minor-arcana.six-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.six-of-pentacles-reversed
+- tarot.minor-arcana.six-of-pentacles-upright
+systems:
+- tarot

@@ -1,0 +1,20 @@
+id: glossary.terms.vishnu
+term:
+  en: Vishnu
+  kn: ವಿಷ್ಣು
+  hi: विष्णु
+sanskrit:
+  devanagari: विष्णु
+  kannada: ವಿಷ್ಣು
+  usage: traditional term
+meaning:
+  en: Vishnu is a traditional figure associated with Shravana.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಶ್ರವಣ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: श्रवण।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.shravana
+used_by:
+- vedic.nakshatras.shravana

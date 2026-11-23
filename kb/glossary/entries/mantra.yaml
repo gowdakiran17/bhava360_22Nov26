@@ -1,0 +1,27 @@
+id: glossary.terms.mantra
+term:
+  en: Mantra
+  kn: ಮನ್ತ್ರ
+  hi: मन्त्र
+sanskrit:
+  devanagari: मन्त्र
+  kannada: ಮನ್ತ್ರ
+  usage: traditional term
+meaning:
+  en: A traditional word or phrase used in recitation or contemplation.
+  kn: ಪಠಣ ಅಥವಾ ಚಿಂತನೆಗೆ ಬಳಸುವ ಸಾಂಪ್ರದಾಯಿಕ ಪದ ಅಥವಾ ನುಡಿ.
+  hi: पाठ या चिंतन के लिए पारंपरिक शब्द या वाक्य।
+admin_note: Use this label for a traditional word or phrase used in recitation or contemplation. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- remedies.conduct.jupiter
+- remedies.conduct.ketu
+- remedies.conduct.mars
+- remedies.conduct.mercury
+- remedies.conduct.moon
+- remedies.conduct.rahu
+- remedies.conduct.saturn
+- remedies.conduct.sun
+- remedies.conduct.venus

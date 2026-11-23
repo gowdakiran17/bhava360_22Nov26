@@ -1,0 +1,20 @@
+id: glossary.terms.kashta-phala
+term:
+  en: Kashta phala
+  kn: ಕಷ್ಟಫಲ
+  hi: कष्टफल
+sanskrit:
+  devanagari: कष्टफल
+  kannada: ಕಷ್ಟಫಲ
+  usage: traditional term
+meaning:
+  en: A calculated measure of strain in a particular strength method.
+  kn: ಒಂದು ಬಲಗಣನೆಯ ವಿಧಾನದಲ್ಲಿ ಒತ್ತಡವನ್ನು ಸೂಚಿಸುವ ಅಳತೆ.
+  hi: बल की एक विधि में दबाव का गणितीय माप।
+admin_note: Use this label for a calculated measure of strain in a particular strength method. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Kashta
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.totals

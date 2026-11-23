@@ -1,0 +1,26 @@
+id: glossary.terms.neecha-bhanga-raja-yoga
+term:
+  en: Neecha bhanga raja yoga
+  kn: ನೀಚಭಙ್ಗರಾಜಯೋಗ
+  hi: नीचभङ्गराजयोग
+sanskrit:
+  devanagari: नीचभङ्गराजयोग
+  kannada: ನೀಚಭಙ್ಗರಾಜಯೋಗ
+  usage: traditional term
+meaning:
+  en: A qualified form of relief for a weakly placed planet with further conditions for interpreting responsibility.
+  kn: ಕಡಿಮೆ ಬಲದ ಸ್ಥಾನಕ್ಕೆ ಪರಿಹಾರ ಮತ್ತು ಜವಾಬ್ದಾರಿಯ ಓದಿಗೆ ಹೆಚ್ಚುವರಿ ಷರತ್ತುಗಳಿರುವ ಜೋಡಣೆ.
+  hi: कम बल की स्थिति में राहत के साथ जिम्मेदारी की व्याख्या के लिए अतिरिक्त शर्तों वाला मेल।
+admin_note: 'Application in vedic.yogas.neecha-bhanga-raja: For the same debilitated classical graha, match any listed
+  relief branch: The dispositor occupies a kendra from Lagna or Moon. The ruler of the selected graha’s exaltation sign
+  occupies a kendra from Lagna or Moon. The distinct rulers of the debilitation and exaltation signs occupy mutual kendras.
+  The dispositor casts a full graha aspect on the selected debilitated graha. Under the alternate reading of tunganatha,
+  a classical planet exalted in the occupied sign is angular from Lagna or Moon. The selected graha is debilitated in
+  D1 but occupies its exaltation sign in D9. The ruler of the selected graha’s D9 sign occupies a D1 angle or trine and
+  either Lagna is movable or the Lagna lord occupies a movable navamsha. Also require the recovered graha in a D1 kendra
+  from Lagna.'
+aliases: []
+reference_rules:
+- vedic.yogas.neecha-bhanga-raja
+used_by:
+- vedic.yogas.neecha-bhanga-raja

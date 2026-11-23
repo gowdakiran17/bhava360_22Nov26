@@ -1,0 +1,27 @@
+id: glossary.terms.varuna-vastu-guardian
+term:
+  en: Varuna (Vastu guardian)
+  kn: ವರುಣ ದಿಕ್ಪಾಲ
+  hi: वरुण दिक्पाल
+sanskrit:
+  devanagari: वरुण दिक्पाल
+  kannada: ವರುಣ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the west part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಪಶ್ಚಿಮ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के पश्चिम भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vedic.nakshatras.shatabhisha: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases:
+- Varuna
+reference_rules:
+- vastu.directions.west
+- vedic.nakshatras.shatabhisha
+used_by:
+- vastu.directions.west
+- vedic.nakshatras.shatabhisha
+systems:
+- vastu
+used_in_files:
+- vastu/entrances/padas.yaml

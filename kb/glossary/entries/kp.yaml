@@ -1,0 +1,42 @@
+id: glossary.terms.kp
+term:
+  en: KP
+  kn: ಕೃಷ್ಣಮೂರ್ತಿಪದ್ಧತಿ
+  hi: कृष्णमूर्तिपद्धति
+sanskrit:
+  devanagari: कृष्णमूर्तिपद्धति
+  kannada: ಕೃಷ್ಣಮೂರ್ತಿಪದ್ಧತಿ
+  usage: traditional term
+meaning:
+  en: An Indian method that associates each chart point with the rulers of successively smaller parts of the sky.
+  kn: ಆಕಾಶದ ಚಿಕ್ಕ ವಿಭಾಗಗಳಿಗೆ ನೀಡಿದ ಅಧಿಪತಿಗಳನ್ನು ಬಳಸುವ ಭಾರತೀಯ ವಿಧಾನ.
+  hi: आकाश के छोटे हिस्सों से जुड़े स्वामियों को देखने की भारतीय विधि।
+admin_note: Use this label for an Indian method that associates each chart point with the rulers of successively smaller
+  parts of the sky. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Krishnamurti Paddhati
+reference_rules: []
+used_by:
+- kp.cusps.cusp-1
+- kp.cusps.cusp-10
+- kp.cusps.cusp-11
+- kp.cusps.cusp-12
+- kp.cusps.cusp-2
+- kp.cusps.cusp-3
+- kp.cusps.cusp-4
+- kp.cusps.cusp-5
+- kp.cusps.cusp-6
+- kp.cusps.cusp-8
+- kp.cusps.cusp-9
+- kp.cusps.placidus
+- kp.cusps.seventh-cusp
+- kp.number-horary.arc
+- kp.ruling-planets.repeated-lord
+- kp.significators.four-step
+- kp.significators.job-change
+- kp.significators.ranked-levels
+- kp.star-sub-lords.subdivision
+- vedic.prashna.kp-horary
+- western.planets.neptune
+- western.planets.pluto
+- western.planets.uranus

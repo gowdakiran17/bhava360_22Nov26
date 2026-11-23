@@ -1,0 +1,24 @@
+id: glossary.terms.vajra-calendar-yoga
+term:
+  en: Vajra (calendar yoga)
+  kn: ವಜ್ರ
+  hi: वज्र
+sanskrit:
+  devanagari: वज्र
+  kannada: ವಜ್ರ
+  usage: traditional term
+meaning:
+  en: Interval 15 of 27 found by adding the positions of the Sun and Moon.
+  kn: ಸೂರ್ಯ ಮತ್ತು ಚಂದ್ರನ ಸ್ಥಾನಗಳನ್ನು ಕೂಡಿಸಿ ಪಡೆಯುವ ೨೭ ಅವಧಿಗಳಲ್ಲಿ 15ನೇ ಭಾಗ.
+  hi: सूर्य और चंद्रमा की जगह जोड़ने से मिलने वाले २७ हिस्सों में क्रम 15।
+admin_note: 'Application in vedic.panchang.yoga: Use 1 + floor(((sidereal Moon + sidereal Sun) modulo a turn) / 48000
+  arcseconds). Select the ordered yoga and solve the bracketing sum-angle crossings.'
+aliases:
+- Vajra
+reference_rules:
+- vedic.panchang.yoga
+used_by:
+- vedic.muhurta.marriage
+- vedic.panchang.yoga
+systems:
+- vedic

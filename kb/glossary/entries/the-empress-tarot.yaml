@@ -1,0 +1,25 @@
+id: glossary.terms.the-empress-tarot
+term:
+  en: The Empress (Tarot)
+  kn: ಸಾಮ್ರಾಜ್ಞಿ (ಟ್ಯಾರೊ)
+  hi: साम्राज्ञी (टैरो)
+sanskrit:
+  devanagari: साम्राज्ञी
+  kannada: ಸಾಮ್ರಾಜ್ಞೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 3, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 3 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 3 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on nurturing an
+  idea. What comes to mind in this position?'
+aliases:
+- The Empress
+reference_rules:
+- tarot.major-arcana.the-empress-upright
+- tarot.major-arcana.the-empress-reversed
+used_by:
+- tarot.major-arcana.the-empress-reversed
+- tarot.major-arcana.the-empress-upright
+systems:
+- tarot

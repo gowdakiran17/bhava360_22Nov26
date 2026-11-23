@@ -1,0 +1,27 @@
+id: glossary.terms.opposition
+term:
+  en: Opposition
+  kn: ಪ್ರತಿಯೋಗ
+  hi: प्रतियोग
+sanskrit:
+  devanagari: प्रतियोग
+  kannada: ಪ್ರತಿಯೋಗ
+  usage: descriptive equivalent
+meaning:
+  en: Two positions about 180 degrees apart around the sky.
+  kn: ಆಕಾಶವೃತ್ತದಲ್ಲಿ ಸುಮಾರು 180 ಅಂಶ ದೂರವಿರುವ ಎರಡು ಸ್ಥಾನಗಳು.
+  hi: आकाश के चक्र में लगभग 180 अंश दूर दो स्थान।
+admin_note: 'Application in western.aspects.opposition: For a bound natal pair, accept shortest circular separation within
+  8 degrees of 180 degrees, inclusive.'
+aliases: []
+reference_rules:
+- western.aspects.opposition
+used_by:
+- western.aspects.opposition
+- western.planets.neptune
+- western.planets.pluto
+- western.planets.uranus
+- western.progressions.secondary-contact-opposition
+- western.transits.natal-contact-opposition
+systems:
+- western

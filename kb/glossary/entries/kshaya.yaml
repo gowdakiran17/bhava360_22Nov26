@@ -1,0 +1,20 @@
+id: glossary.terms.kshaya
+term:
+  en: Kshaya
+  kn: ಕ್ಷಯ
+  hi: क्षय
+sanskrit:
+  devanagari: क्षय
+  kannada: ಕ್ಷಯ
+  usage: traditional term
+meaning:
+  en: A calendar label for a missing interval, such as an omitted lunar month.
+  kn: ಪಂಚಾಂಗದಲ್ಲಿ ಒಂದು ತಿಂಗಳು ಅಥವಾ ಕಾಲಭಾಗ ಬಿಟ್ಟುಹೋಗುವುದರ ಹೆಸರು.
+  hi: पंचांग में महीना या समय खंड छूट जाने का नाम।
+admin_note: Use this label for a calendar label for a missing interval, such as an omitted lunar month. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.adhika-masa
+- vedic.panchang.sankranti

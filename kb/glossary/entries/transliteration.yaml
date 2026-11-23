@@ -1,0 +1,20 @@
+id: glossary.terms.transliteration
+term:
+  en: Transliteration
+  kn: ಲಿಪ್ಯಂತರ
+  hi: लिप्यंतरण
+sanskrit:
+  devanagari: लिप्यन्तरण
+  kannada: ಲಿಪ್ಯನ್ತರಣ
+  usage: descriptive equivalent
+meaning:
+  en: Writing a word from one script in another script while following its sounds or letters.
+  kn: ಪದದ ಧ್ವನಿ ಅಥವಾ ಅಕ್ಷರಗಳನ್ನು ಅನುಸರಿಸಿ ಇನ್ನೊಂದು ಲಿಪಿಯಲ್ಲಿ ಬರೆಯುವುದು.
+  hi: शब्द की ध्वनियों या अक्षरों के अनुसार उसे दूसरी लिपि में लिखना।
+admin_note: Use this label for writing a word from one script in another script while following its sounds or letters.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- numerology/transliteration.yaml

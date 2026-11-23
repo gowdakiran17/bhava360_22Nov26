@@ -1,0 +1,176 @@
+id: glossary.terms.reversal
+term:
+  en: Reversal
+  kn: ವಿಪರೀತಪತ್ರ
+  hi: विपरीतपत्र
+sanskrit:
+  devanagari: विपरीतपत्र
+  kannada: ವಿಪರೀತಪತ್ರ
+  usage: descriptive equivalent
+meaning:
+  en: A card appearing upside down in a draw, when that option is used.
+  kn: ಆ ಆಯ್ಕೆ ಇದ್ದಾಗ ಪಠಣದಲ್ಲಿ ತಲೆಕೆಳಗಾಗಿ ಬಂದ ಪತ್ರ.
+  hi: विकल्प चालू होने पर पढ़ाई में उलटा आया पत्ता।
+admin_note: Use this label for a card appearing upside down in a draw, when that option is used. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- reversed
+reference_rules: []
+used_by:
+- jaimini.argala.intervention
+- jaimini.argala.obstruction
+- jaimini.argala.special-third
+- jaimini.chara-karakas.amatyakaraka
+- jaimini.chara-karakas.atmakaraka
+- jaimini.chara-karakas.bhratrikaraka
+- jaimini.chara-karakas.darakaraka
+- jaimini.chara-karakas.gnatikaraka
+- jaimini.chara-karakas.matrikaraka
+- jaimini.chara-karakas.pitrikaraka
+- jaimini.chara-karakas.putrakaraka
+- tarot.major-arcana.death-reversed
+- tarot.major-arcana.death-upright
+- tarot.major-arcana.judgement-reversed
+- tarot.major-arcana.judgement-upright
+- tarot.major-arcana.justice-reversed
+- tarot.major-arcana.justice-upright
+- tarot.major-arcana.strength-reversed
+- tarot.major-arcana.strength-upright
+- tarot.major-arcana.temperance-reversed
+- tarot.major-arcana.temperance-upright
+- tarot.major-arcana.the-chariot-reversed
+- tarot.major-arcana.the-chariot-upright
+- tarot.major-arcana.the-devil-reversed
+- tarot.major-arcana.the-devil-upright
+- tarot.major-arcana.the-emperor-reversed
+- tarot.major-arcana.the-emperor-upright
+- tarot.major-arcana.the-empress-reversed
+- tarot.major-arcana.the-fool-reversed
+- tarot.major-arcana.the-fool-upright
+- tarot.major-arcana.the-hanged-man-reversed
+- tarot.major-arcana.the-hanged-man-upright
+- tarot.major-arcana.the-hermit-reversed
+- tarot.major-arcana.the-hermit-upright
+- tarot.major-arcana.the-hierophant-reversed
+- tarot.major-arcana.the-hierophant-upright
+- tarot.major-arcana.the-high-priestess-reversed
+- tarot.major-arcana.the-lovers-reversed
+- tarot.major-arcana.the-lovers-upright
+- tarot.major-arcana.the-magician-reversed
+- tarot.major-arcana.the-moon-reversed
+- tarot.major-arcana.the-moon-upright
+- tarot.major-arcana.the-star-reversed
+- tarot.major-arcana.the-star-upright
+- tarot.major-arcana.the-sun-reversed
+- tarot.major-arcana.the-tower-reversed
+- tarot.major-arcana.the-world-reversed
+- tarot.major-arcana.wheel-of-fortune-reversed
+- tarot.minor-arcana.ace-of-cups-reversed
+- tarot.minor-arcana.ace-of-cups-upright
+- tarot.minor-arcana.ace-of-pentacles-reversed
+- tarot.minor-arcana.ace-of-pentacles-upright
+- tarot.minor-arcana.ace-of-swords-reversed
+- tarot.minor-arcana.ace-of-swords-upright
+- tarot.minor-arcana.ace-of-wands-reversed
+- tarot.minor-arcana.ace-of-wands-upright
+- tarot.minor-arcana.eight-of-cups-reversed
+- tarot.minor-arcana.eight-of-cups-upright
+- tarot.minor-arcana.eight-of-pentacles-reversed
+- tarot.minor-arcana.eight-of-pentacles-upright
+- tarot.minor-arcana.eight-of-swords-reversed
+- tarot.minor-arcana.eight-of-swords-upright
+- tarot.minor-arcana.eight-of-wands-reversed
+- tarot.minor-arcana.eight-of-wands-upright
+- tarot.minor-arcana.five-of-cups-reversed
+- tarot.minor-arcana.five-of-cups-upright
+- tarot.minor-arcana.five-of-pentacles-reversed
+- tarot.minor-arcana.five-of-pentacles-upright
+- tarot.minor-arcana.five-of-swords-reversed
+- tarot.minor-arcana.five-of-swords-upright
+- tarot.minor-arcana.five-of-wands-reversed
+- tarot.minor-arcana.five-of-wands-upright
+- tarot.minor-arcana.four-of-cups-reversed
+- tarot.minor-arcana.four-of-cups-upright
+- tarot.minor-arcana.four-of-pentacles-reversed
+- tarot.minor-arcana.four-of-pentacles-upright
+- tarot.minor-arcana.four-of-swords-reversed
+- tarot.minor-arcana.four-of-swords-upright
+- tarot.minor-arcana.four-of-wands-reversed
+- tarot.minor-arcana.four-of-wands-upright
+- tarot.minor-arcana.king-of-cups-reversed
+- tarot.minor-arcana.king-of-pentacles-reversed
+- tarot.minor-arcana.king-of-swords-reversed
+- tarot.minor-arcana.king-of-wands-reversed
+- tarot.minor-arcana.knight-of-cups-reversed
+- tarot.minor-arcana.knight-of-pentacles-reversed
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.knight-of-wands-reversed
+- tarot.minor-arcana.nine-of-cups-reversed
+- tarot.minor-arcana.nine-of-cups-upright
+- tarot.minor-arcana.nine-of-pentacles-reversed
+- tarot.minor-arcana.nine-of-pentacles-upright
+- tarot.minor-arcana.nine-of-swords-reversed
+- tarot.minor-arcana.nine-of-swords-upright
+- tarot.minor-arcana.nine-of-wands-reversed
+- tarot.minor-arcana.nine-of-wands-upright
+- tarot.minor-arcana.page-of-cups-reversed
+- tarot.minor-arcana.page-of-pentacles-reversed
+- tarot.minor-arcana.page-of-swords-reversed
+- tarot.minor-arcana.page-of-wands-reversed
+- tarot.minor-arcana.queen-of-cups-reversed
+- tarot.minor-arcana.queen-of-pentacles-reversed
+- tarot.minor-arcana.queen-of-swords-reversed
+- tarot.minor-arcana.queen-of-wands-reversed
+- tarot.minor-arcana.seven-of-cups-reversed
+- tarot.minor-arcana.seven-of-cups-upright
+- tarot.minor-arcana.seven-of-pentacles-reversed
+- tarot.minor-arcana.seven-of-pentacles-upright
+- tarot.minor-arcana.seven-of-swords-reversed
+- tarot.minor-arcana.seven-of-swords-upright
+- tarot.minor-arcana.seven-of-wands-reversed
+- tarot.minor-arcana.seven-of-wands-upright
+- tarot.minor-arcana.six-of-cups-reversed
+- tarot.minor-arcana.six-of-cups-upright
+- tarot.minor-arcana.six-of-pentacles-reversed
+- tarot.minor-arcana.six-of-pentacles-upright
+- tarot.minor-arcana.six-of-swords-reversed
+- tarot.minor-arcana.six-of-swords-upright
+- tarot.minor-arcana.six-of-wands-reversed
+- tarot.minor-arcana.six-of-wands-upright
+- tarot.minor-arcana.ten-of-cups-reversed
+- tarot.minor-arcana.ten-of-cups-upright
+- tarot.minor-arcana.ten-of-pentacles-reversed
+- tarot.minor-arcana.ten-of-pentacles-upright
+- tarot.minor-arcana.ten-of-swords-reversed
+- tarot.minor-arcana.ten-of-swords-upright
+- tarot.minor-arcana.ten-of-wands-reversed
+- tarot.minor-arcana.ten-of-wands-upright
+- tarot.minor-arcana.three-of-cups-reversed
+- tarot.minor-arcana.three-of-cups-upright
+- tarot.minor-arcana.three-of-pentacles-reversed
+- tarot.minor-arcana.three-of-pentacles-upright
+- tarot.minor-arcana.three-of-swords-reversed
+- tarot.minor-arcana.three-of-swords-upright
+- tarot.minor-arcana.three-of-wands-reversed
+- tarot.minor-arcana.three-of-wands-upright
+- tarot.minor-arcana.two-of-cups-reversed
+- tarot.minor-arcana.two-of-cups-upright
+- tarot.minor-arcana.two-of-pentacles-reversed
+- tarot.minor-arcana.two-of-pentacles-upright
+- tarot.minor-arcana.two-of-swords-reversed
+- tarot.minor-arcana.two-of-swords-upright
+- tarot.minor-arcana.two-of-wands-reversed
+- tarot.minor-arcana.two-of-wands-upright
+- vedic.house-lords.lord-12-in-house-12
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-12-in-house-8
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-6
+- vedic.house-lords.lord-6-in-house-8
+- vedic.house-lords.lord-8-in-house-12
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-8-in-house-8
+- vedic.states.baladi
+- vedic.vargas.d12-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d27-placement

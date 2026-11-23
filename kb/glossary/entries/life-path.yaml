@@ -1,0 +1,25 @@
+id: glossary.terms.life-path
+term:
+  en: Life path
+  kn: ಜೀವನಪಥ ಸಂಖ್ಯೆ
+  hi: जीवन पथ संख्या
+sanskrit:
+  devanagari: जन्माङ्कयोग
+  kannada: ಜನ್ಮಾಙ್ಕಯೋಗ
+  usage: descriptive equivalent
+meaning:
+  en: A number found by combining the day, month and year of birth.
+  kn: ಜನನದ ದಿನ, ತಿಂಗಳು ಮತ್ತು ವರ್ಷವನ್ನು ಸೇರಿಸಿ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: जन्म का दिन, महीना और वर्ष जोड़कर निकाली जाने वाली संख्या।
+admin_note: 'Application in numerology.pythagorean.life-path: Reduce the Gregorian birth month, day and year separately,
+  add the three results and reduce again.'
+aliases:
+- life path number
+- Bhagyank
+reference_rules: []
+used_by:
+- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
+- numerology.chaldean.life-path
+- numerology.pythagorean.check-personal-baby-name-name-root
+- numerology.pythagorean.life-path
+- numerology.pythagorean.maturity

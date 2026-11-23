@@ -1,0 +1,20 @@
+id: glossary.terms.d4
+term:
+  en: D4
+  kn: D4 ಚತುರ್ಥಾಂಶ
+  hi: D4 चतुर्थांश
+sanskrit:
+  devanagari: चतुर्थांश
+  kannada: ಚತುರ್ಥಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore home.
+  kn: ಮನೆ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: घर को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Count the first, fourth, seventh and tenth signs from the natal sign.
+aliases:
+- Chaturthamsa
+reference_rules:
+- vedic.vargas.d4-placement
+used_by:
+- vedic.vargas.d4-placement

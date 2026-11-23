@@ -1,0 +1,22 @@
+id: glossary.terms.solar-return
+term:
+  en: Solar return
+  kn: ಸೂರ್ಯಪ್ರತ್ಯಾಗಮ
+  hi: सूर्यप्रत्यागम
+sanskrit:
+  devanagari: सूर्यप्रत्यागम
+  kannada: ಸೂರ್ಯಪ್ರತ್ಯಾಗಮ
+  usage: traditional term
+meaning:
+  en: A chart for the moment the Sun returns to its position at birth.
+  kn: ಸೂರ್ಯನು ಜನನದ ಸ್ಥಾನಕ್ಕೆ ಮರಳುವ ಕ್ಷಣದ ನಕ್ಷೆ.
+  hi: सूर्य के जन्म वाली जगह लौटने के पल की पत्री।
+admin_note: 'Application in western.returns.solar-return: Solve the annual ascending crossing of the unwrapped tropical
+  solar longitude at the natal solar longitude plus an integral turn near the requested anniversary. Cast for the location
+  at the return instant; compare return angles and Sun house with the natal chart. Without a reliable location omit houses
+  and angles.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.annual-chart.solar-return
+- western.returns.solar-return

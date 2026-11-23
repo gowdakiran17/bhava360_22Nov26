@@ -1,0 +1,25 @@
+id: glossary.terms.seven-of-wands-tarot
+term:
+  en: Seven Of Wands (Tarot)
+  kn: ಕೋಲು · ಏಳು
+  hi: छड़ी · सात
+sanskrit:
+  devanagari: दण्ड सप्त
+  kannada: ದಣ್ಡ ಸಪ್ತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank seven in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಏಳು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · सात की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on holding a boundary.
+  What comes to mind in this position?'
+aliases:
+- Seven Of Wands
+reference_rules:
+- tarot.minor-arcana.seven-of-wands-upright
+- tarot.minor-arcana.seven-of-wands-reversed
+used_by:
+- tarot.minor-arcana.seven-of-wands-reversed
+- tarot.minor-arcana.seven-of-wands-upright
+systems:
+- tarot

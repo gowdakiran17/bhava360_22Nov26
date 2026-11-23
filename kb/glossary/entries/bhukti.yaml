@@ -1,0 +1,121 @@
+id: glossary.terms.bhukti
+term:
+  en: Bhukti
+  kn: ಭುಕ್ತಿ
+  hi: भुक्ति
+sanskrit:
+  devanagari: भुक्ति
+  kannada: ಭುಕ್ತಿ
+  usage: traditional term
+meaning:
+  en: A smaller period inside a longer period in an Indian timing system.
+  kn: ಭಾರತೀಯ ಕಾಲಗಣನೆಯಲ್ಲಿ ದೊಡ್ಡ ಅವಧಿಯೊಳಗಿನ ಚಿಕ್ಕ ಅವಧಿ.
+  hi: भारतीय समय पद्धति में एक बड़ी अवधि के भीतर की छोटी अवधि।
+admin_note: Use this label for a smaller period inside a longer period in an Indian timing system. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Antardasha
+- Antardasa
+- Antar dasha
+- subperiod
+- ಅಂತರ್ದಶೆ
+- अंतर्दशा
+reference_rules: []
+used_by:
+- vedic.dashas-sandhi.junction
+- vedic.dashas-vimshottari.antar-period
+- vedic.dashas-vimshottari.business-upcoming
+- vedic.dashas-vimshottari.career-upcoming
+- vedic.dashas-vimshottari.check-vehicle-number-vehicle-period
+- vedic.dashas-vimshottari.children-upcoming
+- vedic.dashas-vimshottari.family-home-upcoming
+- vedic.dashas-vimshottari.health-upcoming
+- vedic.dashas-vimshottari.jupiter-jupiter-antar
+- vedic.dashas-vimshottari.jupiter-ketu-antar
+- vedic.dashas-vimshottari.jupiter-mars-antar
+- vedic.dashas-vimshottari.jupiter-mercury-antar
+- vedic.dashas-vimshottari.jupiter-moon-antar
+- vedic.dashas-vimshottari.jupiter-rahu-antar
+- vedic.dashas-vimshottari.jupiter-saturn-antar
+- vedic.dashas-vimshottari.jupiter-sun-antar
+- vedic.dashas-vimshottari.jupiter-venus-antar
+- vedic.dashas-vimshottari.ketu-jupiter-antar
+- vedic.dashas-vimshottari.ketu-ketu-antar
+- vedic.dashas-vimshottari.ketu-mars-antar
+- vedic.dashas-vimshottari.ketu-mercury-antar
+- vedic.dashas-vimshottari.ketu-moon-antar
+- vedic.dashas-vimshottari.ketu-rahu-antar
+- vedic.dashas-vimshottari.ketu-saturn-antar
+- vedic.dashas-vimshottari.ketu-sun-antar
+- vedic.dashas-vimshottari.ketu-venus-antar
+- vedic.dashas-vimshottari.learning-upcoming
+- vedic.dashas-vimshottari.love-marriage-upcoming
+- vedic.dashas-vimshottari.mars-jupiter-antar
+- vedic.dashas-vimshottari.mars-ketu-antar
+- vedic.dashas-vimshottari.mars-mars-antar
+- vedic.dashas-vimshottari.mars-mercury-antar
+- vedic.dashas-vimshottari.mars-moon-antar
+- vedic.dashas-vimshottari.mars-rahu-antar
+- vedic.dashas-vimshottari.mars-saturn-antar
+- vedic.dashas-vimshottari.mars-sun-antar
+- vedic.dashas-vimshottari.mars-venus-antar
+- vedic.dashas-vimshottari.mercury-jupiter-antar
+- vedic.dashas-vimshottari.mercury-ketu-antar
+- vedic.dashas-vimshottari.mercury-mars-antar
+- vedic.dashas-vimshottari.mercury-mercury-antar
+- vedic.dashas-vimshottari.mercury-moon-antar
+- vedic.dashas-vimshottari.mercury-rahu-antar
+- vedic.dashas-vimshottari.mercury-saturn-antar
+- vedic.dashas-vimshottari.mercury-sun-antar
+- vedic.dashas-vimshottari.mercury-venus-antar
+- vedic.dashas-vimshottari.money-upcoming
+- vedic.dashas-vimshottari.moon-jupiter-antar
+- vedic.dashas-vimshottari.moon-ketu-antar
+- vedic.dashas-vimshottari.moon-mars-antar
+- vedic.dashas-vimshottari.moon-mercury-antar
+- vedic.dashas-vimshottari.moon-moon-antar
+- vedic.dashas-vimshottari.moon-rahu-antar
+- vedic.dashas-vimshottari.moon-saturn-antar
+- vedic.dashas-vimshottari.moon-sun-antar
+- vedic.dashas-vimshottari.moon-venus-antar
+- vedic.dashas-vimshottari.pratyantar-period
+- vedic.dashas-vimshottari.property-vehicles-upcoming
+- vedic.dashas-vimshottari.rahu-jupiter-antar
+- vedic.dashas-vimshottari.rahu-ketu-antar
+- vedic.dashas-vimshottari.rahu-mars-antar
+- vedic.dashas-vimshottari.rahu-mercury-antar
+- vedic.dashas-vimshottari.rahu-moon-antar
+- vedic.dashas-vimshottari.rahu-rahu-antar
+- vedic.dashas-vimshottari.rahu-saturn-antar
+- vedic.dashas-vimshottari.rahu-sun-antar
+- vedic.dashas-vimshottari.rahu-venus-antar
+- vedic.dashas-vimshottari.saturn-jupiter-antar
+- vedic.dashas-vimshottari.saturn-ketu-antar
+- vedic.dashas-vimshottari.saturn-mars-antar
+- vedic.dashas-vimshottari.saturn-mercury-antar
+- vedic.dashas-vimshottari.saturn-moon-antar
+- vedic.dashas-vimshottari.saturn-rahu-antar
+- vedic.dashas-vimshottari.saturn-saturn-antar
+- vedic.dashas-vimshottari.saturn-sun-antar
+- vedic.dashas-vimshottari.saturn-venus-antar
+- vedic.dashas-vimshottari.sookshma-period
+- vedic.dashas-vimshottari.spirituality-upcoming
+- vedic.dashas-vimshottari.sun-jupiter-antar
+- vedic.dashas-vimshottari.sun-ketu-antar
+- vedic.dashas-vimshottari.sun-mars-antar
+- vedic.dashas-vimshottari.sun-mercury-antar
+- vedic.dashas-vimshottari.sun-moon-antar
+- vedic.dashas-vimshottari.sun-rahu-antar
+- vedic.dashas-vimshottari.sun-saturn-antar
+- vedic.dashas-vimshottari.sun-sun-antar
+- vedic.dashas-vimshottari.sun-venus-antar
+- vedic.dashas-vimshottari.travel-relocation-upcoming
+- vedic.dashas-vimshottari.venus-jupiter-antar
+- vedic.dashas-vimshottari.venus-ketu-antar
+- vedic.dashas-vimshottari.venus-mars-antar
+- vedic.dashas-vimshottari.venus-mercury-antar
+- vedic.dashas-vimshottari.venus-moon-antar
+- vedic.dashas-vimshottari.venus-rahu-antar
+- vedic.dashas-vimshottari.venus-saturn-antar
+- vedic.dashas-vimshottari.venus-sun-antar
+- vedic.dashas-vimshottari.venus-venus-antar

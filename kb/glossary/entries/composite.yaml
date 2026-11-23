@@ -1,0 +1,19 @@
+id: glossary.terms.composite
+term:
+  en: Composite
+  kn: ಮಧ್ಯಬಿನ್ದುಪತ್ರಿಕಾ
+  hi: मध्यबिन्दुपत्रिका
+sanskrit:
+  devanagari: मध्यबिन्दुपत्रिका
+  kannada: ಮಧ್ಯಬಿನ್ದುಪತ್ರಿಕಾ
+  usage: descriptive equivalent
+meaning:
+  en: A relationship chart made by taking the midpoints between corresponding positions in two charts.
+  kn: ಎರಡು ಜನ್ಮನಕ್ಷೆಗಳ ಸಂಬಂಧಿತ ಸ್ಥಾನಗಳ ನಡುವಿನ ಮಧ್ಯಬಿಂದುಗಳಿಂದ ಮಾಡುವ ನಕ್ಷೆ.
+  hi: दो पत्रियों की संबंधित जगहों के बीच के बिंदुओं से बनी संबंध पत्री।
+admin_note: Use this label for a relationship chart made by taking the midpoints between corresponding positions in two
+  charts. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- western.composite.midpoint

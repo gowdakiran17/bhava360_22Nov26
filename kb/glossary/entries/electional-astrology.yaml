@@ -1,0 +1,50 @@
+id: glossary.terms.electional-astrology
+term:
+  en: Electional astrology
+  kn: ಆರಂಭಕಾಲದ ಆಯ್ಕೆ
+  hi: आरंभ समय का चयन
+sanskrit:
+  devanagari: मुहूर्तविचार
+  kannada: ಮುಹೂರ್ತವಿಚಾರ
+  usage: descriptive equivalent
+meaning:
+  en: Using calendar and sky conditions to compare possible starting times for an activity.
+  kn: ಕೆಲಸಕ್ಕೆ ಆರಂಭದ ಸಮಯಗಳನ್ನು ಹೋಲಿಸಲು ಪಂಚಾಂಗ ಮತ್ತು ಆಕಾಶದ ಸ್ಥಿತಿಗಳನ್ನು ಬಳಸುವುದು.
+  hi: किसी काम के संभावित आरंभ समयों की तुलना के लिए पंचांग और आकाश की स्थितियाँ देखना।
+admin_note: Use this label for using calendar and sky conditions to compare possible starting times for an activity.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- electional
+reference_rules: []
+used_by:
+- vedic.doshas.mars-partnership
+- vedic.matching.bhakoot
+- vedic.matching.chart-cross-check
+- vedic.matching.gana
+- vedic.matching.graha-maitri
+- vedic.matching.manglik-comparison
+- vedic.matching.nadi
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-gana
+- vedic.matching.porutham-mahendra
+- vedic.matching.porutham-rajju
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-rashi-lord
+- vedic.matching.porutham-stree-deergha
+- vedic.matching.porutham-vashya
+- vedic.matching.porutham-vedha
+- vedic.matching.porutham-yoni
+- vedic.matching.shared-star-class
+- vedic.matching.tara
+- vedic.matching.varna
+- vedic.matching.vashya
+- vedic.matching.yoni
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.abhijit-muhurta

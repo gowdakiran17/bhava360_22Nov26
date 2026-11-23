@@ -1,0 +1,30 @@
+id: glossary.terms.tara
+term:
+  en: Tara
+  kn: ತಾರಾ
+  hi: तारा
+sanskrit:
+  devanagari: तारा
+  kannada: ತಾರಾ
+  usage: traditional term
+meaning:
+  en: A matching factor based on the distance counted between two birth stars.
+  kn: ಇಬ್ಬರ ಜನ್ಮ ನಕ್ಷತ್ರಗಳ ನಡುವಿನ ಅಂತರವನ್ನು ಎಣಿಸುವ ಅಂಶ.
+  hi: दो जन्म तारों के बीच की दूरी गिनने का पहलू।
+admin_note: 'Application in vedic.matching.tara: Count birth stars inclusively in both directions. Add the two remainder
+  lookups, using zero for multiples of nine.'
+aliases:
+- Dina koota
+reference_rules: []
+used_by:
+- vedic.matching.porutham-dina
+- vedic.matching.tara
+- vedic.muhurta.business-start
+- vedic.muhurta.check-big-decision-muhurta-tara-support
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase

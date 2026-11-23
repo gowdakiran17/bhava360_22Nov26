@@ -1,0 +1,128 @@
+id: glossary.terms.rahu
+term:
+  en: Rahu
+  kn: ರಾಹು
+  hi: राहु
+sanskrit:
+  devanagari: राहु
+  kannada: ರಾಹು
+  usage: traditional term
+meaning:
+  en: The point where the Moon crosses the Sun’s apparent path heading north.
+  kn: ಚಂದ್ರನು ಸೂರ್ಯನ ಪಥವನ್ನು ಉತ್ತರಕ್ಕೆ ದಾಟುವ ಬಿಂದು.
+  hi: वह बिंदु जहाँ चंद्रमा सूर्य के मार्ग को उत्तर की ओर काटता है।
+admin_note: 'Application in vedic.planets.rahu: Match Rahu when the selected D1 chart point is its computed natal placement.'
+aliases:
+- ascending node
+- north node
+reference_rules:
+- vedic.planets.rahu
+used_by:
+- jaimini.chara-karakas.amatyakaraka
+- jaimini.chara-karakas.atmakaraka
+- jaimini.chara-karakas.bhratrikaraka
+- jaimini.chara-karakas.darakaraka
+- jaimini.chara-karakas.gnatikaraka
+- jaimini.chara-karakas.matrikaraka
+- jaimini.chara-karakas.pitrikaraka
+- jaimini.chara-karakas.putrakaraka
+- remedies.conduct.rahu
+- vastu.directions.southwest
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.dashas-vimshottari.jupiter-rahu-antar
+- vedic.dashas-vimshottari.ketu-rahu-antar
+- vedic.dashas-vimshottari.mars-rahu-antar
+- vedic.dashas-vimshottari.mercury-rahu-antar
+- vedic.dashas-vimshottari.moon-rahu-antar
+- vedic.dashas-vimshottari.rahu-jupiter-antar
+- vedic.dashas-vimshottari.rahu-ketu-antar
+- vedic.dashas-vimshottari.rahu-maha
+- vedic.dashas-vimshottari.rahu-mars-antar
+- vedic.dashas-vimshottari.rahu-mercury-antar
+- vedic.dashas-vimshottari.rahu-moon-antar
+- vedic.dashas-vimshottari.rahu-rahu-antar
+- vedic.dashas-vimshottari.rahu-saturn-antar
+- vedic.dashas-vimshottari.rahu-sun-antar
+- vedic.dashas-vimshottari.rahu-venus-antar
+- vedic.dashas-vimshottari.saturn-rahu-antar
+- vedic.dashas-vimshottari.sun-rahu-antar
+- vedic.dashas-vimshottari.venus-rahu-antar
+- vedic.doshas.grahan
+- vedic.doshas.guru-chandal
+- vedic.doshas.nodal-axis
+- vedic.doshas.shrapit
+- vedic.houses.rahu-house-1
+- vedic.houses.rahu-house-10
+- vedic.houses.rahu-house-11
+- vedic.houses.rahu-house-12
+- vedic.houses.rahu-house-2
+- vedic.houses.rahu-house-3
+- vedic.houses.rahu-house-4
+- vedic.houses.rahu-house-5
+- vedic.houses.rahu-house-6
+- vedic.houses.rahu-house-7
+- vedic.houses.rahu-house-8
+- vedic.houses.rahu-house-9
+- vedic.nakshatras.ardra
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.swati
+- vedic.panchang.rahu-kalam
+- vedic.planets-in-houses.rahu-house-1
+- vedic.planets-in-houses.rahu-house-10
+- vedic.planets-in-houses.rahu-house-11
+- vedic.planets-in-houses.rahu-house-12
+- vedic.planets-in-houses.rahu-house-2
+- vedic.planets-in-houses.rahu-house-3
+- vedic.planets-in-houses.rahu-house-4
+- vedic.planets-in-houses.rahu-house-5
+- vedic.planets-in-houses.rahu-house-6
+- vedic.planets-in-houses.rahu-house-7
+- vedic.planets-in-houses.rahu-house-8
+- vedic.planets-in-houses.rahu-house-9
+- vedic.planets-in-signs.rahu-aquarius
+- vedic.planets-in-signs.rahu-aries
+- vedic.planets-in-signs.rahu-cancer
+- vedic.planets-in-signs.rahu-capricorn
+- vedic.planets-in-signs.rahu-gemini
+- vedic.planets-in-signs.rahu-leo
+- vedic.planets-in-signs.rahu-libra
+- vedic.planets-in-signs.rahu-pisces
+- vedic.planets-in-signs.rahu-sagittarius
+- vedic.planets-in-signs.rahu-scorpio
+- vedic.planets-in-signs.rahu-taurus
+- vedic.planets-in-signs.rahu-virgo
+- vedic.planets.rahu
+- vedic.signs.gemini
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo
+- vedic.states.graha-drishti
+- vedic.states.vargottama
+- vedic.states.yuti
+- vedic.transits.ketu-moon-house-1
+- vedic.transits.ketu-moon-house-10
+- vedic.transits.ketu-moon-house-11
+- vedic.transits.ketu-moon-house-12
+- vedic.transits.ketu-moon-house-2
+- vedic.transits.ketu-moon-house-3
+- vedic.transits.ketu-moon-house-4
+- vedic.transits.ketu-moon-house-5
+- vedic.transits.ketu-moon-house-6
+- vedic.transits.ketu-moon-house-7
+- vedic.transits.ketu-moon-house-8
+- vedic.transits.ketu-moon-house-9
+- vedic.transits.nodal-axis
+- vedic.transits.rahu-moon-house-1
+- vedic.transits.rahu-moon-house-10
+- vedic.transits.rahu-moon-house-11
+- vedic.transits.rahu-moon-house-12
+- vedic.transits.rahu-moon-house-2
+- vedic.transits.rahu-moon-house-3
+- vedic.transits.rahu-moon-house-4
+- vedic.transits.rahu-moon-house-5
+- vedic.transits.rahu-moon-house-6
+- vedic.transits.rahu-moon-house-7
+- vedic.transits.rahu-moon-house-8
+- vedic.transits.rahu-moon-house-9

@@ -1,0 +1,21 @@
+id: glossary.terms.sarpa
+term:
+  en: Sarpa
+  kn: ಸರ್ಪ
+  hi: सर्प
+sanskrit:
+  devanagari: सर्प
+  kannada: ಸರ್ಪ
+  usage: traditional term
+meaning:
+  en: Sarpa is a traditional figure associated with Ashlesha.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಆಶ್ಲೇಷಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: आश्लेषा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. Select the star using its measured span.
+aliases: []
+reference_rules:
+- vedic.nakshatras.ashlesha
+used_by:
+- vedic.doshas.nodal-axis
+- vedic.nakshatras.ashlesha

@@ -1,0 +1,21 @@
+id: glossary.terms.kaal-sarp
+term:
+  en: Kaal Sarp
+  kn: ಕಾಲಸರ್ಪ
+  hi: कालसर्प
+sanskrit:
+  devanagari: कालसर्प
+  kannada: ಕಾಲಸರ್ಪ
+  usage: traditional term
+meaning:
+  en: A disputed label for a chart where planets lie on one side of the Moon’s two crossing points.
+  kn: ಚಂದ್ರಪಥದ ಎರಡು ಛೇದನಗಳ ಒಂದೇ ಬದಿಯಲ್ಲಿ ಗ್ರಹಗಳಿರುವುದಕ್ಕೆ ಕೆಲವರು ಬಳಸುವ ವಿವಾದಿತ ಹೆಸರು.
+  hi: चंद्र पथ के दो कटान बिंदुओं की एक ओर ग्रह होने का विवादित नाम।
+admin_note: Use this label for a disputed label for a chart where planets lie on one side of the Moon’s two crossing
+  points. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Kala Sarpa
+- nodal axis enclosure
+reference_rules: []
+used_by:
+- vedic.doshas.nodal-axis

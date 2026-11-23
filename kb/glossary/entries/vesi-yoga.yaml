@@ -1,0 +1,23 @@
+id: glossary.terms.vesi-yoga
+term:
+  en: Vesi yoga
+  kn: ವೇಶಿಯೋಗ
+  hi: वेशियोग
+sanskrit:
+  devanagari: वेशियोग
+  kannada: ವೇಶಿಯೋಗ
+  usage: traditional term
+meaning:
+  en: An eligible planet occupies the sign after the Sun.
+  kn: ಸೂರ್ಯನ ಮುಂದಿನ ರಾಶಿಯಲ್ಲಿ ಅರ್ಹ ಗ್ರಹ ಇರುವುದು.
+  hi: सूर्य से अगली राशि में पात्र ग्रह होना।
+admin_note: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are
+  excluded as contributors.
+aliases:
+- vesi
+reference_rules:
+- vedic.yogas.vesi
+used_by:
+- vedic.yogas.vesi
+systems:
+- vedic

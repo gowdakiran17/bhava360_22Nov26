@@ -1,0 +1,19 @@
+id: glossary.terms.grahan
+term:
+  en: Grahan
+  kn: ಗ್ರಹಣ
+  hi: ग्रहण
+sanskrit:
+  devanagari: ग्रहण
+  kannada: ಗ್ರಹಣ
+  usage: traditional term
+meaning:
+  en: A label for the Sun or Moon near a lunar crossing point, with closer checks needed for an actual eclipse.
+  kn: ಚಂದ್ರಪಥದ ಛೇದನದ ಬಳಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ ಇರುವ ಸ್ಥಿತಿಗೆ ಬಳಸುವ ಹೆಸರು.
+  hi: सूर्य या चंद्रमा के चंद्र पथ के कटान के पास होने का नाम।
+admin_note: 'Application in vedic.doshas.grahan: The natal Sun or Moon shares a sidereal sign with Rahu or Ketu. Bind
+  each matching pair separately.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.grahan

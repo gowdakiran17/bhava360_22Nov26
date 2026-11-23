@@ -1,0 +1,19 @@
+id: glossary.terms.varna
+term:
+  en: Varna
+  kn: ವರ್ಣ
+  hi: वर्ण
+sanskrit:
+  devanagari: वर्ण
+  kannada: ವರ್ಣ
+  usage: traditional term
+meaning:
+  en: A historical matching category assigned from the Moon’s sign.
+  kn: ಚಂದ್ರರಾಶಿಯಿಂದ ನಿರ್ಧರಿಸುವ ಐತಿಹಾಸಿಕ ಹೊಂದಾಣಿಕೆಯ ವರ್ಗ.
+  hi: चंद्र राशि के आधार पर तय मिलान की पारंपरिक श्रेणी।
+admin_note: 'Application in vedic.matching.varna: Read the lunar sign element in row and column order. This symbolic
+  classification never assigns social identity or standing.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.varna

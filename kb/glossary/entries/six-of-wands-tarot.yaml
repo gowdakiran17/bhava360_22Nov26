@@ -1,0 +1,25 @@
+id: glossary.terms.six-of-wands-tarot
+term:
+  en: Six Of Wands (Tarot)
+  kn: ಕೋಲು · ಆರು
+  hi: छड़ी · छह
+sanskrit:
+  devanagari: दण्ड षट्
+  kannada: ದಣ್ಡ ಷಟ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank six in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಆರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · छह की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on recognition.
+  What comes to mind in this position?'
+aliases:
+- Six Of Wands
+reference_rules:
+- tarot.minor-arcana.six-of-wands-upright
+- tarot.minor-arcana.six-of-wands-reversed
+used_by:
+- tarot.minor-arcana.six-of-wands-reversed
+- tarot.minor-arcana.six-of-wands-upright
+systems:
+- tarot

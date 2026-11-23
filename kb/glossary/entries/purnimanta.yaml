@@ -1,0 +1,19 @@
+id: glossary.terms.purnimanta
+term:
+  en: Purnimanta
+  kn: ಪೂರ್ಣಿಮಾನ್ತ
+  hi: पूर्णिमान्त
+sanskrit:
+  devanagari: पूर्णिमान्त
+  kannada: ಪೂರ್ಣಿಮಾನ್ತ
+  usage: traditional term
+meaning:
+  en: A calendar convention in which the lunar month ends at the full Moon.
+  kn: ಹುಣ್ಣಿಮೆಯಲ್ಲಿ ಚಂದ್ರಮಾಸ ಮುಗಿಯುವ ಪದ್ಧತಿ.
+  hi: पूर्णिमा पर चंद्र मास समाप्त करने की रीति।
+admin_note: Use this label for a calendar convention in which the lunar month ends at the full Moon. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.adhika-masa

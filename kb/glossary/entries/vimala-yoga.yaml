@@ -1,0 +1,25 @@
+id: glossary.terms.vimala-yoga
+term:
+  en: Vimala yoga
+  kn: ವಿಮಲಯೋಗ
+  hi: विमलयोग
+sanskrit:
+  devanagari: विमलयोग
+  kannada: ವಿಮಲಯೋಗ
+  usage: traditional term
+meaning:
+  en: The ruler of house 12 occupies the sixth, eighth or twelfth house in this method.
+  kn: 12ನೇ ಮನೆಯ ಅಧಿಪತಿ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆಯಲ್ಲಿ ಇರುವುದು.
+  hi: घर 12 का स्वामी छठे, आठवें या बारहवें घर में होना।
+admin_note: Lord of house 12 occupies house 6, 8 or 12 under the broad Vipareeta screen.
+aliases:
+- vimala
+reference_rules:
+- vedic.yogas.vimala
+used_by:
+- vedic.house-lords.lord-12-in-house-12
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-12-in-house-8
+- vedic.yogas.vimala
+systems:
+- vedic

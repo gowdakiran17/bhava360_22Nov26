@@ -1,0 +1,139 @@
+id: glossary.terms.upachaya
+term:
+  en: Upachaya
+  kn: ಉಪಚಯ
+  hi: उपचय
+sanskrit:
+  devanagari: उपचय
+  kannada: ಉಪಚಯ
+  usage: traditional term
+meaning:
+  en: A group consisting of the third, sixth, tenth and eleventh places in the birth chart.
+  kn: ಮೂರು, ಆರು, ಹತ್ತು ಮತ್ತು ಹನ್ನೊಂದನೇ ಸ್ಥಾನಗಳ ಗುಂಪು.
+  hi: तीसरे, छठे, दसवें और ग्यारहवें स्थान का समूह।
+admin_note: Use this label for a group consisting of the third, sixth, tenth and eleventh places in the birth chart.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.house-lords.lord-1-in-house-10
+- vedic.house-lords.lord-1-in-house-11
+- vedic.house-lords.lord-1-in-house-3
+- vedic.house-lords.lord-1-in-house-6
+- vedic.house-lords.lord-10-in-house-1
+- vedic.house-lords.lord-10-in-house-10
+- vedic.house-lords.lord-10-in-house-11
+- vedic.house-lords.lord-10-in-house-12
+- vedic.house-lords.lord-10-in-house-2
+- vedic.house-lords.lord-10-in-house-3
+- vedic.house-lords.lord-10-in-house-4
+- vedic.house-lords.lord-10-in-house-5
+- vedic.house-lords.lord-10-in-house-6
+- vedic.house-lords.lord-10-in-house-7
+- vedic.house-lords.lord-10-in-house-8
+- vedic.house-lords.lord-10-in-house-9
+- vedic.house-lords.lord-11-in-house-1
+- vedic.house-lords.lord-11-in-house-10
+- vedic.house-lords.lord-11-in-house-11
+- vedic.house-lords.lord-11-in-house-12
+- vedic.house-lords.lord-11-in-house-2
+- vedic.house-lords.lord-11-in-house-3
+- vedic.house-lords.lord-11-in-house-4
+- vedic.house-lords.lord-11-in-house-5
+- vedic.house-lords.lord-11-in-house-6
+- vedic.house-lords.lord-11-in-house-7
+- vedic.house-lords.lord-11-in-house-8
+- vedic.house-lords.lord-11-in-house-9
+- vedic.house-lords.lord-12-in-house-10
+- vedic.house-lords.lord-12-in-house-11
+- vedic.house-lords.lord-12-in-house-3
+- vedic.house-lords.lord-12-in-house-6
+- vedic.house-lords.lord-2-in-house-10
+- vedic.house-lords.lord-2-in-house-11
+- vedic.house-lords.lord-2-in-house-3
+- vedic.house-lords.lord-2-in-house-6
+- vedic.house-lords.lord-3-in-house-1
+- vedic.house-lords.lord-3-in-house-10
+- vedic.house-lords.lord-3-in-house-11
+- vedic.house-lords.lord-3-in-house-12
+- vedic.house-lords.lord-3-in-house-2
+- vedic.house-lords.lord-3-in-house-3
+- vedic.house-lords.lord-3-in-house-4
+- vedic.house-lords.lord-3-in-house-5
+- vedic.house-lords.lord-3-in-house-6
+- vedic.house-lords.lord-3-in-house-7
+- vedic.house-lords.lord-3-in-house-8
+- vedic.house-lords.lord-3-in-house-9
+- vedic.house-lords.lord-4-in-house-10
+- vedic.house-lords.lord-4-in-house-11
+- vedic.house-lords.lord-4-in-house-3
+- vedic.house-lords.lord-4-in-house-6
+- vedic.house-lords.lord-5-in-house-10
+- vedic.house-lords.lord-5-in-house-11
+- vedic.house-lords.lord-5-in-house-3
+- vedic.house-lords.lord-5-in-house-6
+- vedic.house-lords.lord-6-in-house-1
+- vedic.house-lords.lord-6-in-house-10
+- vedic.house-lords.lord-6-in-house-11
+- vedic.house-lords.lord-6-in-house-12
+- vedic.house-lords.lord-6-in-house-2
+- vedic.house-lords.lord-6-in-house-3
+- vedic.house-lords.lord-6-in-house-4
+- vedic.house-lords.lord-6-in-house-5
+- vedic.house-lords.lord-6-in-house-6
+- vedic.house-lords.lord-6-in-house-7
+- vedic.house-lords.lord-6-in-house-8
+- vedic.house-lords.lord-6-in-house-9
+- vedic.house-lords.lord-7-in-house-10
+- vedic.house-lords.lord-7-in-house-11
+- vedic.house-lords.lord-7-in-house-3
+- vedic.house-lords.lord-7-in-house-6
+- vedic.house-lords.lord-8-in-house-10
+- vedic.house-lords.lord-8-in-house-11
+- vedic.house-lords.lord-8-in-house-3
+- vedic.house-lords.lord-8-in-house-6
+- vedic.house-lords.lord-9-in-house-10
+- vedic.house-lords.lord-9-in-house-11
+- vedic.house-lords.lord-9-in-house-3
+- vedic.house-lords.lord-9-in-house-6
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-3
+- vedic.houses.house-6
+- vedic.planets-in-houses.jupiter-house-10
+- vedic.planets-in-houses.jupiter-house-11
+- vedic.planets-in-houses.jupiter-house-3
+- vedic.planets-in-houses.jupiter-house-6
+- vedic.planets-in-houses.ketu-house-10
+- vedic.planets-in-houses.ketu-house-11
+- vedic.planets-in-houses.ketu-house-3
+- vedic.planets-in-houses.ketu-house-6
+- vedic.planets-in-houses.mars-house-10
+- vedic.planets-in-houses.mars-house-11
+- vedic.planets-in-houses.mars-house-3
+- vedic.planets-in-houses.mars-house-6
+- vedic.planets-in-houses.mercury-house-10
+- vedic.planets-in-houses.mercury-house-11
+- vedic.planets-in-houses.mercury-house-3
+- vedic.planets-in-houses.mercury-house-6
+- vedic.planets-in-houses.moon-house-10
+- vedic.planets-in-houses.moon-house-11
+- vedic.planets-in-houses.moon-house-3
+- vedic.planets-in-houses.moon-house-6
+- vedic.planets-in-houses.rahu-house-10
+- vedic.planets-in-houses.rahu-house-11
+- vedic.planets-in-houses.rahu-house-3
+- vedic.planets-in-houses.rahu-house-6
+- vedic.planets-in-houses.saturn-house-10
+- vedic.planets-in-houses.saturn-house-11
+- vedic.planets-in-houses.saturn-house-3
+- vedic.planets-in-houses.saturn-house-6
+- vedic.planets-in-houses.sun-house-10
+- vedic.planets-in-houses.sun-house-11
+- vedic.planets-in-houses.sun-house-3
+- vedic.planets-in-houses.sun-house-6
+- vedic.planets-in-houses.venus-house-10
+- vedic.planets-in-houses.venus-house-11
+- vedic.planets-in-houses.venus-house-3
+- vedic.planets-in-houses.venus-house-6
+- vedic.yogas.vasumati

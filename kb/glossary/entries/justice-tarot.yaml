@@ -1,0 +1,25 @@
+id: glossary.terms.justice-tarot
+term:
+  en: Justice (Tarot)
+  kn: ನ್ಯಾಯ (ಟ್ಯಾರೊ)
+  hi: न्याय (टैरो)
+sanskrit:
+  devanagari: न्याय
+  kannada: ನ್ಯಾಯ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 11, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 11 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 11 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a fair decision.
+  What comes to mind in this position?'
+aliases:
+- Justice
+reference_rules:
+- tarot.major-arcana.justice-upright
+- tarot.major-arcana.justice-reversed
+used_by:
+- tarot.major-arcana.justice-reversed
+- tarot.major-arcana.justice-upright
+systems:
+- tarot

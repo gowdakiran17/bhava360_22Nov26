@@ -1,0 +1,25 @@
+id: glossary.terms.ten-of-wands-tarot
+term:
+  en: Ten Of Wands (Tarot)
+  kn: ಕೋಲು · ಹತ್ತು
+  hi: छड़ी · दस
+sanskrit:
+  devanagari: दण्ड दश
+  kannada: ದಣ್ಡ ದಶ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank ten in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಹತ್ತು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · दस की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on responsibility.
+  What comes to mind in this position?'
+aliases:
+- Ten Of Wands
+reference_rules:
+- tarot.minor-arcana.ten-of-wands-upright
+- tarot.minor-arcana.ten-of-wands-reversed
+used_by:
+- tarot.minor-arcana.ten-of-wands-reversed
+- tarot.minor-arcana.ten-of-wands-upright
+systems:
+- tarot

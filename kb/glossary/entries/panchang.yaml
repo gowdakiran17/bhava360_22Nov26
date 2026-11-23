@@ -1,0 +1,55 @@
+id: glossary.terms.panchang
+term:
+  en: Panchang
+  kn: ಪಞ್ಚಾಙ್ಗ
+  hi: पञ्चाङ्ग
+sanskrit:
+  devanagari: पञ्चाङ्ग
+  kannada: ಪಞ್ಚಾಙ್ಗ
+  usage: traditional term
+meaning:
+  en: A calendar that describes each day using five measures of time and sky position.
+  kn: ದಿನವನ್ನು ಕಾಲ ಮತ್ತು ಆಕಾಶಸ್ಥಾನದ ಐದು ಅಂಶಗಳಿಂದ ವಿವರಿಸುವ ಪಂಚಾಂಗ.
+  hi: दिन को समय और आकाश की स्थिति से जुड़े पाँच पहलुओं से बताने वाला कैलेंडर।
+admin_note: Use this label for a calendar that describes each day using five measures of time and sky position. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Panchanga
+- Panchangam
+- ಪಂಚಾಂಗ
+- पंचांग
+reference_rules: []
+used_by:
+- vedic.doshas.mars-partnership
+- vedic.festivals.observance
+- vedic.muhurta.business-start
+- vedic.muhurta.check-big-decision-muhurta-activity-limb
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.abhijit-muhurta
+- vedic.panchang.adhika-masa
+- vedic.panchang.amavasya
+- vedic.panchang.brahma-muhurta
+- vedic.panchang.choghadiya
+- vedic.panchang.deepavali
+- vedic.panchang.ekadashi
+- vedic.panchang.gulika-kalam
+- vedic.panchang.hora
+- vedic.panchang.karana
+- vedic.panchang.local-sunrise
+- vedic.panchang.nakshatra
+- vedic.panchang.pradosh
+- vedic.panchang.purnima
+- vedic.panchang.rahu-kalam
+- vedic.panchang.sankranti
+- vedic.panchang.tithi
+- vedic.panchang.ugadi
+- vedic.panchang.vara
+- vedic.panchang.vishti
+- vedic.panchang.yamaganda
+- vedic.panchang.yoga

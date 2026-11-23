@@ -1,0 +1,19 @@
+id: glossary.terms.t-square
+term:
+  en: T-square
+  kn: ಟಿ ಚೌಕ
+  hi: टी स्क्वेयर
+sanskrit:
+  devanagari: समकोणत्रय
+  kannada: ಸಮಕೋಣತ್ರಯ
+  usage: descriptive equivalent
+meaning:
+  en: Two opposite positions are each about a quarter-circle from a third position.
+  kn: ಎದುರುಬದುರಿನ ಎರಡು ಸ್ಥಾನಗಳಿಂದ ಮೂರನೇ ಸ್ಥಾನ ಸುಮಾರು ಕಾಲು ಸುತ್ತಿನ ದೂರದಲ್ಲಿರುವ ಜೋಡಣೆ.
+  hi: दो आमने-सामने जगहों से तीसरी जगह लगभग चौथाई चक्र दूर होती है।
+admin_note: 'Application in western.patterns.t-square: Two endpoints oppose one another and a third, the apex, squares
+  both. Test all three edges.'
+aliases: []
+reference_rules: []
+used_by:
+- western.patterns.t-square

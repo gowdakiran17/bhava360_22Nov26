@@ -1,0 +1,23 @@
+id: glossary.terms.gaja-kesari-yoga
+term:
+  en: Gaja Kesari yoga
+  kn: ಗಜಕೇಸರೀಯೋಗ
+  hi: गजकेसरीयोग
+sanskrit:
+  devanagari: गजकेसरीयोग
+  kannada: ಗಜಕೇಸರೀಯೋಗ
+  usage: traditional term
+meaning:
+  en: Jupiter is in the first, fourth, seventh or tenth place counted from the Moon.
+  kn: ಚಂದ್ರನಿಂದ ಒಂದು, ನಾಲ್ಕು, ಏಳು ಅಥವಾ ಹತ್ತನೇ ಸ್ಥಾನದಲ್ಲಿ ಗುರು ಇರುವುದು.
+  hi: चंद्रमा से पहले, चौथे, सातवें या दसवें स्थान में बृहस्पति होना।
+admin_note: 'Moon-based screen: Jupiter occupies an angle from the Moon.'
+aliases:
+- gaja-kesari
+- Gajakesari
+reference_rules:
+- vedic.yogas.gaja-kesari
+used_by:
+- vedic.yogas.gaja-kesari
+systems:
+- vedic

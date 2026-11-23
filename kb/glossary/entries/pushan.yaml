@@ -1,0 +1,23 @@
+id: glossary.terms.pushan
+term:
+  en: Pushan
+  kn: ಪೂಷನ್
+  hi: पूषन्
+sanskrit:
+  devanagari: पूषन्
+  kannada: ಪೂಷನ್
+  usage: traditional term
+meaning:
+  en: Pushan is a traditional figure associated with Revati.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ರೇವತೀ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: रेवती।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. The entrance grid places it at S2.
+aliases:
+- Pusha
+reference_rules:
+- vedic.nakshatras.revati
+used_by:
+- vedic.nakshatras.revati
+used_in_files:
+- vastu/entrances/padas.yaml

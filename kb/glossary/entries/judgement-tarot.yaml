@@ -1,0 +1,27 @@
+id: glossary.terms.judgement-tarot
+term:
+  en: Judgement (Tarot)
+  kn: ಮರುಪರಿಶೀಲನೆ (ಟ್ಯಾರೊ)
+  hi: पुनर्विचार (टैरो)
+sanskrit:
+  devanagari: पुनर्विचार
+  kannada: ಪುನರ್ವಿಚಾರ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 20, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 20 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 20 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on an honest review.
+  What comes to mind in this position?'
+aliases:
+- Judgement
+reference_rules:
+- tarot.major-arcana.judgement-upright
+- tarot.major-arcana.judgement-reversed
+used_by:
+- tarot.major-arcana.judgement-reversed
+- tarot.major-arcana.judgement-upright
+- tarot.minor-arcana.eight-of-cups-reversed
+- tarot.minor-arcana.king-of-swords-upright
+systems:
+- tarot

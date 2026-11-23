@@ -1,0 +1,25 @@
+id: glossary.terms.six-of-swords-tarot
+term:
+  en: Six Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಆರು
+  hi: तलवार · छह
+sanskrit:
+  devanagari: खड्ग षट्
+  kannada: ಖಡ್ಗ ಷಟ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank six in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಆರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · छह की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a calmer transition.
+  What comes to mind in this position?'
+aliases:
+- Six Of Swords
+reference_rules:
+- tarot.minor-arcana.six-of-swords-upright
+- tarot.minor-arcana.six-of-swords-reversed
+used_by:
+- tarot.minor-arcana.six-of-swords-reversed
+- tarot.minor-arcana.six-of-swords-upright
+systems:
+- tarot

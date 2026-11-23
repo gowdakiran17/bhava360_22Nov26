@@ -1,0 +1,25 @@
+id: glossary.terms.four-of-cups-tarot
+term:
+  en: Four Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ನಾಲ್ಕು
+  hi: प्याला · चार
+sanskrit:
+  devanagari: चषक चतुर्
+  kannada: ಚಷಕ ಚತುರ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank four in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ನಾಲ್ಕು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · चार की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on quiet contemplation.
+  What comes to mind in this position?'
+aliases:
+- Four Of Cups
+reference_rules:
+- tarot.minor-arcana.four-of-cups-upright
+- tarot.minor-arcana.four-of-cups-reversed
+used_by:
+- tarot.minor-arcana.four-of-cups-reversed
+- tarot.minor-arcana.four-of-cups-upright
+systems:
+- tarot

@@ -1,0 +1,34 @@
+id: glossary.terms.shodasavarga
+term:
+  en: Shodasavarga
+  kn: ಷೋಡಶವರ್ಗ
+  hi: षोडशवर्ग
+sanskrit:
+  devanagari: षोडशवर्ग
+  kannada: ಷೋಡಶವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A traditional set of sixteen charts made by subdividing the signs.
+  kn: ರಾಶಿಗಳನ್ನು ಭಾಗಿಸುವ ಹದಿನಾರು ನಕ್ಷೆಗಳ ಸಾಂಪ್ರದಾಯಿಕ ಗುಂಪು.
+  hi: राशियाँ बाँटकर बनी सोलह पत्रियों का पारंपरिक समूह।
+admin_note: Use this label for a traditional set of sixteen charts made by subdividing the signs. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.vargas.d1-placement
+- vedic.vargas.d10-placement
+- vedic.vargas.d12-placement
+- vedic.vargas.d16-placement
+- vedic.vargas.d2-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d24-placement
+- vedic.vargas.d27-placement
+- vedic.vargas.d3-placement
+- vedic.vargas.d30-placement
+- vedic.vargas.d4-placement
+- vedic.vargas.d40-placement
+- vedic.vargas.d45-placement
+- vedic.vargas.d60-placement
+- vedic.vargas.d7-placement
+- vedic.vargas.d9-placement

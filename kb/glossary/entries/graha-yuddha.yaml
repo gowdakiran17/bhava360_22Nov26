@@ -1,0 +1,22 @@
+id: glossary.terms.graha-yuddha
+term:
+  en: Graha yuddha
+  kn: ಗ್ರಹಯುದ್ಧ
+  hi: ग्रहयुद्ध
+sanskrit:
+  devanagari: ग्रहयुद्ध
+  kannada: ಗ್ರಹಯುದ್ಧ
+  usage: traditional term
+meaning:
+  en: Two eligible planets appear close enough together for a traditional comparison of their positions.
+  kn: ತುಂಬ ಹತ್ತಿರ ಕಾಣುವ ಎರಡು ಗ್ರಹಗಳ ಸ್ಥಾನಗಳ ಸಾಂಪ್ರದಾಯಿಕ ಹೋಲಿಕೆ.
+  hi: बहुत पास दिखने वाले दो पात्र ग्रहों की स्थिति की पारंपरिक तुलना।
+admin_note: 'Application in vedic.states.graha-yuddha: Match two distinct eligible planets less than one degree apart
+  in natal longitude. Among a matched pair, the planet farther north by signed ecliptic latitude wins under this profile.'
+aliases:
+- planetary war
+reference_rules: []
+used_by:
+- vedic.states.graha-yuddha
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.yuddha

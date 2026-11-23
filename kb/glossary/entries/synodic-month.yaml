@@ -1,0 +1,22 @@
+id: glossary.terms.synodic-month
+term:
+  en: Synodic month
+  kn: ಚಾನ್ದ್ರಮಾಸ
+  hi: चान्द्रमास
+sanskrit:
+  devanagari: चान्द्रमास
+  kannada: ಚಾನ್ದ್ರಮಾಸ
+  usage: traditional term
+meaning:
+  en: The time from one new Moon to the next.
+  kn: ಒಂದು ಅಮಾವಾಸ್ಯೆಯಿಂದ ಮುಂದಿನ ಅಮಾವಾಸ್ಯೆಯವರೆಗಿನ ಅವಧಿ.
+  hi: एक अमावस्या से अगली तक का समय।
+admin_note: 'Application in vedic.panchang.tithi: At the query instant compute E = (Moon − Sun) modulo 1296000 arcseconds.
+  The public number is 1 + floor(E / 43200); use the zero-based quotient for indexing only. Resolve name and paksha in
+  limb-tables.yaml and bracket the two true crossings as specified in limbs.yaml.'
+aliases:
+- lunation
+reference_rules:
+- vedic.panchang.tithi
+used_by:
+- vedic.panchang.tithi

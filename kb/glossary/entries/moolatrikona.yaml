@@ -1,0 +1,125 @@
+id: glossary.terms.moolatrikona
+term:
+  en: Moolatrikona
+  kn: ಮೂಲತ್ರಿಕೋಣ
+  hi: मूलत्रिकोण
+sanskrit:
+  devanagari: मूलत्रिकोण
+  kannada: ಮೂಲತ್ರಿಕೋಣ
+  usage: traditional term
+meaning:
+  en: A designated part of a sign where a planet is traditionally understood to function with particular ease.
+  kn: ಗ್ರಹವು ಸುಲಲಿತವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತದೆ ಎಂದು ಪರಿಗಣಿಸುವ ರಾಶಿಯ ಭಾಗ.
+  hi: राशि का वह हिस्सा जहाँ ग्रह को अपना काम करने में सहज माना जाता है।
+admin_note: Use this label for a designated part of a sign where a planet is traditionally understood to function with
+  particular ease. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Mulatrikona
+reference_rules: []
+used_by:
+- vedic.planets-in-signs.jupiter-aquarius
+- vedic.planets-in-signs.jupiter-aries
+- vedic.planets-in-signs.jupiter-cancer
+- vedic.planets-in-signs.jupiter-capricorn
+- vedic.planets-in-signs.jupiter-gemini
+- vedic.planets-in-signs.jupiter-leo
+- vedic.planets-in-signs.jupiter-libra
+- vedic.planets-in-signs.jupiter-pisces
+- vedic.planets-in-signs.jupiter-sagittarius
+- vedic.planets-in-signs.jupiter-scorpio
+- vedic.planets-in-signs.jupiter-taurus
+- vedic.planets-in-signs.jupiter-virgo
+- vedic.planets-in-signs.mars-aquarius
+- vedic.planets-in-signs.mars-aries
+- vedic.planets-in-signs.mars-cancer
+- vedic.planets-in-signs.mars-capricorn
+- vedic.planets-in-signs.mars-gemini
+- vedic.planets-in-signs.mars-leo
+- vedic.planets-in-signs.mars-libra
+- vedic.planets-in-signs.mars-pisces
+- vedic.planets-in-signs.mars-sagittarius
+- vedic.planets-in-signs.mars-scorpio
+- vedic.planets-in-signs.mars-taurus
+- vedic.planets-in-signs.mars-virgo
+- vedic.planets-in-signs.mercury-aquarius
+- vedic.planets-in-signs.mercury-aries
+- vedic.planets-in-signs.mercury-cancer
+- vedic.planets-in-signs.mercury-capricorn
+- vedic.planets-in-signs.mercury-gemini
+- vedic.planets-in-signs.mercury-leo
+- vedic.planets-in-signs.mercury-libra
+- vedic.planets-in-signs.mercury-pisces
+- vedic.planets-in-signs.mercury-sagittarius
+- vedic.planets-in-signs.mercury-scorpio
+- vedic.planets-in-signs.mercury-taurus
+- vedic.planets-in-signs.mercury-virgo
+- vedic.planets-in-signs.moon-aquarius
+- vedic.planets-in-signs.moon-aries
+- vedic.planets-in-signs.moon-cancer
+- vedic.planets-in-signs.moon-capricorn
+- vedic.planets-in-signs.moon-gemini
+- vedic.planets-in-signs.moon-leo
+- vedic.planets-in-signs.moon-libra
+- vedic.planets-in-signs.moon-pisces
+- vedic.planets-in-signs.moon-sagittarius
+- vedic.planets-in-signs.moon-scorpio
+- vedic.planets-in-signs.moon-taurus
+- vedic.planets-in-signs.moon-virgo
+- vedic.planets-in-signs.saturn-aquarius
+- vedic.planets-in-signs.saturn-aries
+- vedic.planets-in-signs.saturn-cancer
+- vedic.planets-in-signs.saturn-capricorn
+- vedic.planets-in-signs.saturn-gemini
+- vedic.planets-in-signs.saturn-leo
+- vedic.planets-in-signs.saturn-libra
+- vedic.planets-in-signs.saturn-pisces
+- vedic.planets-in-signs.saturn-sagittarius
+- vedic.planets-in-signs.saturn-scorpio
+- vedic.planets-in-signs.saturn-taurus
+- vedic.planets-in-signs.saturn-virgo
+- vedic.planets-in-signs.sun-aquarius
+- vedic.planets-in-signs.sun-aries
+- vedic.planets-in-signs.sun-cancer
+- vedic.planets-in-signs.sun-capricorn
+- vedic.planets-in-signs.sun-gemini
+- vedic.planets-in-signs.sun-leo
+- vedic.planets-in-signs.sun-libra
+- vedic.planets-in-signs.sun-pisces
+- vedic.planets-in-signs.sun-sagittarius
+- vedic.planets-in-signs.sun-scorpio
+- vedic.planets-in-signs.sun-taurus
+- vedic.planets-in-signs.sun-virgo
+- vedic.planets-in-signs.venus-aquarius
+- vedic.planets-in-signs.venus-aries
+- vedic.planets-in-signs.venus-cancer
+- vedic.planets-in-signs.venus-capricorn
+- vedic.planets-in-signs.venus-gemini
+- vedic.planets-in-signs.venus-leo
+- vedic.planets-in-signs.venus-libra
+- vedic.planets-in-signs.venus-pisces
+- vedic.planets-in-signs.venus-sagittarius
+- vedic.planets-in-signs.venus-scorpio
+- vedic.planets-in-signs.venus-taurus
+- vedic.planets-in-signs.venus-virgo
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo
+- vedic.strength-shadbala.saptavargaja

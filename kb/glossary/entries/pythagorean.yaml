@@ -1,0 +1,40 @@
+id: glossary.terms.pythagorean
+term:
+  en: Pythagorean
+  kn: ಪೈಥಾಗೋರಿಯನ್
+  hi: पाइथागोरियन
+sanskrit:
+  devanagari: नवाङ्कपद्धति
+  kannada: ನವಾಙ್ಕಪದ್ಧತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A name-reading system that cycles the letters through values from one to nine.
+  kn: ಅಕ್ಷರಗಳಿಗೆ ಒಂದರಿಂದ ಒಂಬತ್ತರವರೆಗೆ ಮೌಲ್ಯಗಳನ್ನು ಪುನರಾವರ್ತಿಸಿ ನೀಡುವ ವಿಧಾನ.
+  hi: अक्षरों को एक से नौ तक बार-बार मान देने की पद्धति।
+admin_note: Use this label for a name-reading system that cycles the letters through values from one to nine. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- numerology.pythagorean.birthday
+- numerology.pythagorean.check-personal-baby-name-name-root
+- numerology.pythagorean.expression
+- numerology.pythagorean.life-path
+- numerology.pythagorean.master-11
+- numerology.pythagorean.master-22
+- numerology.pythagorean.master-33
+- numerology.pythagorean.maturity
+- numerology.pythagorean.personal-day
+- numerology.pythagorean.personal-month
+- numerology.pythagorean.personal-year
+- numerology.pythagorean.personality
+- numerology.pythagorean.root-1
+- numerology.pythagorean.root-2
+- numerology.pythagorean.root-3
+- numerology.pythagorean.root-4
+- numerology.pythagorean.root-5
+- numerology.pythagorean.root-6
+- numerology.pythagorean.root-7
+- numerology.pythagorean.root-8
+- numerology.pythagorean.root-9
+- numerology.pythagorean.soul-urge

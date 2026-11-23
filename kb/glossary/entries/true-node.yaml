@@ -1,0 +1,19 @@
+id: glossary.terms.true-node
+term:
+  en: True node
+  kn: ಸ್ಪಷ್ಟ ಪಾತ
+  hi: स्पष्ट पात
+sanskrit:
+  devanagari: स्पष्टपात
+  kannada: ಸ್ಪಷ್ಟಪಾತ
+  usage: descriptive equivalent
+meaning:
+  en: The calculated crossing point of the Moon’s path including short changes in its motion.
+  kn: ಚಲನೆಯ ಸಣ್ಣ ಬದಲಾವಣೆಗಳನ್ನೂ ಒಳಗೊಂಡ ಚಂದ್ರಪಥದ ಛೇದನ ಸ್ಥಾನ.
+  hi: चाल के छोटे बदलावों समेत चंद्र पथ के कटान की गणना।
+admin_note: Use this label for the calculated crossing point of the Moon’s path including short changes in its motion.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.transits.nodal-axis

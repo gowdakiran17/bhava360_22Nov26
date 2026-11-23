@@ -1,0 +1,19 @@
+id: glossary.terms.bhallata
+term:
+  en: Bhallata
+  kn: ಭಲ್ಲಾಟ
+  hi: भल्लाट
+sanskrit:
+  devanagari: भल्लाट
+  kannada: ಭಲ್ಲಾಟ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position N4 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ N4 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह N4 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at N4.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

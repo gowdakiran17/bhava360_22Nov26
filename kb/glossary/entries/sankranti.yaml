@@ -1,0 +1,25 @@
+id: glossary.terms.sankranti
+term:
+  en: Sankranti
+  kn: ಸಙ್ಕ್ರಾನ್ತಿ
+  hi: सङ्क्रान्ति
+sanskrit:
+  devanagari: सङ्क्रान्ति
+  kannada: ಸಙ್ಕ್ರಾನ್ತಿ
+  usage: traditional term
+meaning:
+  en: The Sun’s entry into a new sign.
+  kn: ಸೂರ್ಯ ಒಂದು ಹೊಸ ರಾಶಿಗೆ ಪ್ರವೇಶಿಸುವುದು.
+  hi: सूर्य का नई राशि में प्रवेश।
+admin_note: 'Application in vedic.panchang.sankranti: Match the sunrise day containing a solved forward sidereal solar
+  crossing of an integer multiple of 30 degrees. Bind the entered sign and crossing instant.'
+aliases:
+- Solar ingress
+- ಸೌರ ಪ್ರವೇಶ
+- सौर प्रवेश
+reference_rules: []
+used_by:
+- vedic.panchang.sankranti
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.vara

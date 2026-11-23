@@ -1,0 +1,32 @@
+id: glossary.terms.rakshasa-gana
+term:
+  en: Rakshasa Gana
+  kn: ರಾಕ್ಷಸ ಗಣ
+  hi: राक्षस गण
+sanskrit:
+  devanagari: राक्षस गण
+  kannada: ರಾಕ್ಷಸ ಗಣ
+  usage: traditional term
+meaning:
+  en: One of the three traditional groups of birth stars, bearing the label Rakshasa.
+  kn: ಜನ್ಮನಕ್ಷತ್ರಗಳ ಮೂರು ಸಾಂಪ್ರದಾಯಿಕ ಗುಂಪುಗಳಲ್ಲಿ ರಾಕ್ಷಸ ಎಂಬ ಗುಂಪು.
+  hi: जन्म तारों के तीन पारंपरिक समूहों में राक्षस नाम का समूह।
+admin_note: 'Application in vedic.matching.gana: Read both natal star classes and look up their ordered temperamental
+  grouping. Labels belong to the table only.'
+aliases:
+- Rakshasa
+reference_rules:
+- vedic.matching.gana
+used_by:
+- vedic.matching.gana
+- vedic.matching.porutham-gana
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.vishakha

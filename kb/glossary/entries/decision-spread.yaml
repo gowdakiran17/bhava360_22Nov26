@@ -1,0 +1,22 @@
+id: glossary.terms.decision-spread
+term:
+  en: Decision spread
+  kn: ನಿರ್ಧಾರಕ್ಕೆ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: निर्णय का पत्ता विन्यास
+sanskrit:
+  devanagari: निर्णयपत्रविन्यास
+  kannada: ನಿರ್ಣಯಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards help compare two choices against a shared starting point.
+  kn: ಮೂರು ಪತ್ರಗಳು ಒಂದೇ ಹಿನ್ನೆಲೆಯಿಂದ ಎರಡು ಆಯ್ಕೆಗಳನ್ನು ಹೋಲಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: तीन पत्ते एक ही संदर्भ में दो विकल्पों की तुलना में मदद कर सकते हैं।
+admin_note: 'Read the positions in order: common-context, path-a, path-b. The final prompt invites reflection or a chosen
+  action.'
+aliases: []
+reference_rules:
+- decision
+used_by:
+- decision
+systems:
+- tarot

@@ -1,0 +1,25 @@
+id: glossary.terms.ace-of-cups-tarot
+term:
+  en: Ace Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಒಂದು
+  hi: प्याला · इक्का
+sanskrit:
+  devanagari: चषक एक
+  kannada: ಚಷಕ ಏಕ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank ace in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಒಂದು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · इक्का की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on emotional openness.
+  What comes to mind in this position?'
+aliases:
+- Ace Of Cups
+reference_rules:
+- tarot.minor-arcana.ace-of-cups-upright
+- tarot.minor-arcana.ace-of-cups-reversed
+used_by:
+- tarot.minor-arcana.ace-of-cups-reversed
+- tarot.minor-arcana.ace-of-cups-upright
+systems:
+- tarot

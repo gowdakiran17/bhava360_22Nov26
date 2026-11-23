@@ -1,0 +1,47 @@
+id: glossary.terms.ephemeris
+term:
+  en: Ephemeris
+  kn: ಗ್ರಹಸಾರಣೀ
+  hi: ग्रहसारणी
+sanskrit:
+  devanagari: ग्रहसारणी
+  kannada: ಗ್ರಹಸಾರಣೀ
+  usage: traditional term
+meaning:
+  en: A table or calculation giving the positions of celestial bodies for particular times.
+  kn: ನಿಗದಿತ ಕಾಲಕ್ಕೆ ಆಕಾಶಕಾಯಗಳ ಸ್ಥಾನ ತೋರಿಸುವ ಕೋಷ್ಟಕ ಅಥವಾ ಲೆಕ್ಕ.
+  hi: तय समय पर आकाशीय पिंडों की जगह देने वाली तालिका या गणना।
+admin_note: Use this label for a table or calculation giving the positions of celestial bodies for particular times.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- ephemerides
+reference_rules: []
+used_by:
+- kp.cusps.cusp-1
+- kp.cusps.cusp-10
+- kp.cusps.cusp-11
+- kp.cusps.cusp-12
+- kp.cusps.cusp-2
+- kp.cusps.cusp-3
+- kp.cusps.cusp-4
+- kp.cusps.cusp-5
+- kp.cusps.cusp-6
+- kp.cusps.cusp-8
+- kp.cusps.cusp-9
+- kp.cusps.placidus
+- kp.cusps.seventh-cusp
+- kp.number-horary.arc
+- kp.ruling-planets.repeated-lord
+- kp.significators.four-step
+- kp.significators.job-change
+- kp.significators.ranked-levels
+- kp.star-sub-lords.subdivision
+- vedic.prashna.current-question
+- western.progressions.progressed-moon
+- western.progressions.secondary-contact
+- western.progressions.secondary-contact-conjunction
+- western.progressions.secondary-contact-opposition
+- western.progressions.secondary-contact-quincunx
+- western.progressions.secondary-contact-sextile
+- western.progressions.secondary-contact-square
+- western.progressions.secondary-contact-trine

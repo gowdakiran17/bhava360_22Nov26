@@ -1,0 +1,19 @@
+id: glossary.terms.ashvina
+term:
+  en: Ashvina
+  kn: ಆಶ್ವಿನ
+  hi: आश्विन
+sanskrit:
+  devanagari: आश्विन
+  kannada: ಆಶ್ವಿನ
+  usage: traditional term
+meaning:
+  en: A traditional lunar month whose dates shift relative to the civil calendar.
+  kn: ನಾಗರಿಕ ಪಂಚಾಂಗಕ್ಕೆ ಹೋಲಿಸಿದರೆ ದಿನಾಂಕ ಬದಲಾಗುವ ಒಂದು ಚಂದ್ರಮಾಸ.
+  hi: एक पारंपरिक चंद्र मास जिसकी तारीखें नागरिक कैलेंडर के अनुसार बदलती हैं।
+admin_note: Use this label for a traditional lunar month whose dates shift relative to the civil calendar. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.deepavali

@@ -1,0 +1,20 @@
+id: glossary.terms.maha-parivartana
+term:
+  en: Maha parivartana
+  kn: ಮಹಾಪರಿವರ್ತನ
+  hi: महापरिवर्तन
+sanskrit:
+  devanagari: महापरिवर्तन
+  kannada: ಮಹಾಪರಿವರ್ತನ
+  usage: traditional term
+meaning:
+  en: An exchange of rulers involving houses other than the third, sixth, eighth and twelfth.
+  kn: ಮೂರು, ಆರು, ಎಂಟು, ಹನ್ನೆರಡನ್ನು ಹೊರತುಪಡಿಸಿದ ಮನೆಗಳ ಅಧಿಪತಿಗಳ ವಿನಿಮಯ.
+  hi: तीसरे, छठे, आठवें और बारहवें को छोड़ दो घरों के स्वामियों का स्थान बदलना।
+admin_note: 'Application in vedic.yogas.parivartana-maha: Two distinct classical lords occupy each other’s houses and
+  neither house is 3, 6, 8 or 12.'
+aliases: []
+reference_rules:
+- vedic.yogas.parivartana-maha
+used_by:
+- vedic.yogas.parivartana-maha

@@ -1,0 +1,20 @@
+id: glossary.terms.kua
+term:
+  en: Kua
+  kn: ಕುವಾ
+  hi: कुआ
+sanskrit:
+  devanagari: दिगङ्क
+  kannada: ದಿಗಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number used in a Chinese system for grouping directions.
+  kn: ಚೀನಿ ಪದ್ಧತಿಯಲ್ಲಿ ದಿಕ್ಕುಗಳನ್ನು ಗುಂಪುಮಾಡಲು ಬಳಸುವ ಸಂಖ್ಯೆ.
+  hi: चीनी पद्धति में दिशाओं के समूह देखने की संख्या।
+admin_note: Use this label for a number used in a Chinese system for grouping directions. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- numerology/kua/profile.yaml

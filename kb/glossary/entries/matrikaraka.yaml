@@ -1,0 +1,20 @@
+id: glossary.terms.matrikaraka
+term:
+  en: Matrikaraka
+  kn: ಮಾತೃಕಾರಕ
+  hi: मातृकारक
+sanskrit:
+  devanagari: मातृकारक
+  kannada: ಮಾತೃಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent mother by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ತಾಯಿ ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से माता का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds MK: rank 4 of seven or rank 4 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.matrikaraka
+used_by:
+- jaimini.chara-karakas.matrikaraka

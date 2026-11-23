@@ -1,0 +1,91 @@
+id: glossary.terms.vastu-zone
+term:
+  en: Vastu zone
+  kn: ವಾಸ್ತು ವಲಯ
+  hi: वास्तु क्षेत्र
+sanskrit:
+  devanagari: वास्तुविभाग
+  kannada: ವಾಸ್ತುವಿಭಾಗ
+  usage: descriptive equivalent
+meaning:
+  en: A part of a floor plan identified by its direction or its position at the centre.
+  kn: ದಿಕ್ಕು ಅಥವಾ ಕೇಂದ್ರದ ಸ್ಥಾನದಿಂದ ಗುರುತಿಸುವ ಮನೆಯ ನಕ್ಷೆಯ ಒಂದು ಭಾಗ.
+  hi: घर के नक्शे का वह हिस्सा जिसकी पहचान दिशा या बीच की जगह से होती है।
+admin_note: Use this label for a part of a floor plan identified by its direction or its position at the centre. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Vastu zones
+reference_rules: []
+used_by:
+- vastu.rooms.centre-bedroom
+- vastu.rooms.centre-entrance
+- vastu.rooms.centre-kitchen
+- vastu.rooms.centre-pooja
+- vastu.rooms.centre-staircase
+- vastu.rooms.centre-study
+- vastu.rooms.centre-toilet
+- vastu.rooms.centre-water-tank
+- vastu.rooms.east-bedroom
+- vastu.rooms.east-entrance
+- vastu.rooms.east-kitchen
+- vastu.rooms.east-pooja
+- vastu.rooms.east-staircase
+- vastu.rooms.east-study
+- vastu.rooms.east-toilet
+- vastu.rooms.east-water-tank
+- vastu.rooms.north-bedroom
+- vastu.rooms.north-entrance
+- vastu.rooms.north-kitchen
+- vastu.rooms.north-pooja
+- vastu.rooms.north-staircase
+- vastu.rooms.north-study
+- vastu.rooms.north-toilet
+- vastu.rooms.north-water-tank
+- vastu.rooms.northeast-bedroom
+- vastu.rooms.northeast-entrance
+- vastu.rooms.northeast-kitchen
+- vastu.rooms.northeast-pooja
+- vastu.rooms.northeast-staircase
+- vastu.rooms.northeast-study
+- vastu.rooms.northeast-toilet
+- vastu.rooms.northeast-water-tank
+- vastu.rooms.northwest-bedroom
+- vastu.rooms.northwest-entrance
+- vastu.rooms.northwest-kitchen
+- vastu.rooms.northwest-pooja
+- vastu.rooms.northwest-staircase
+- vastu.rooms.northwest-study
+- vastu.rooms.northwest-toilet
+- vastu.rooms.northwest-water-tank
+- vastu.rooms.south-bedroom
+- vastu.rooms.south-entrance
+- vastu.rooms.south-kitchen
+- vastu.rooms.south-pooja
+- vastu.rooms.south-staircase
+- vastu.rooms.south-study
+- vastu.rooms.south-toilet
+- vastu.rooms.south-water-tank
+- vastu.rooms.southeast-bedroom
+- vastu.rooms.southeast-entrance
+- vastu.rooms.southeast-kitchen
+- vastu.rooms.southeast-pooja
+- vastu.rooms.southeast-staircase
+- vastu.rooms.southeast-study
+- vastu.rooms.southeast-toilet
+- vastu.rooms.southeast-water-tank
+- vastu.rooms.southwest-bedroom
+- vastu.rooms.southwest-entrance
+- vastu.rooms.southwest-kitchen
+- vastu.rooms.southwest-pooja
+- vastu.rooms.southwest-staircase
+- vastu.rooms.southwest-study
+- vastu.rooms.southwest-toilet
+- vastu.rooms.southwest-water-tank
+- vastu.rooms.west-bedroom
+- vastu.rooms.west-entrance
+- vastu.rooms.west-kitchen
+- vastu.rooms.west-pooja
+- vastu.rooms.west-staircase
+- vastu.rooms.west-study
+- vastu.rooms.west-toilet
+- vastu.rooms.west-water-tank

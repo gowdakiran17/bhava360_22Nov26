@@ -1,0 +1,83 @@
+id: glossary.terms.samudrika
+term:
+  en: Samudrika
+  kn: ಸಾಮುದ್ರಿಕ
+  hi: सामुद्रिक
+sanskrit:
+  devanagari: सामुद्रिक
+  kannada: ಸಾಮುದ್ರಿಕ
+  usage: traditional term
+meaning:
+  en: An Indian tradition that gives symbolic readings of visible features, including the hand.
+  kn: ಕೈ ಸೇರಿದಂತೆ ಕಾಣುವ ಲಕ್ಷಣಗಳನ್ನು ಸಾಂಕೇತಿಕವಾಗಿ ಓದುವ ಭಾರತೀಯ ಪರಂಪರೆ.
+  hi: हाथ सहित दिखाई देने वाली बनावट को प्रतीक की तरह पढ़ने की भारतीय परंपरा।
+admin_note: Use this label for an Indian tradition that gives symbolic readings of visible features, including the hand.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Samudrika Shastra
+reference_rules: []
+used_by:
+- palmistry.fingers.long-left
+- palmistry.fingers.long-right
+- palmistry.fingers.short-left
+- palmistry.fingers.short-right
+- palmistry.fingers.thumb-long-left
+- palmistry.fingers.thumb-long-right
+- palmistry.fingers.thumb-short-left
+- palmistry.fingers.thumb-short-right
+- palmistry.hands.air-left
+- palmistry.hands.air-right
+- palmistry.hands.earth-left
+- palmistry.hands.earth-right
+- palmistry.hands.fire-left
+- palmistry.hands.fire-right
+- palmistry.hands.water-left
+- palmistry.hands.water-right
+- palmistry.lines.fate-left
+- palmistry.lines.fate-right
+- palmistry.lines.head-left
+- palmistry.lines.head-right
+- palmistry.lines.heart-left
+- palmistry.lines.heart-right
+- palmistry.lines.life-broken-left
+- palmistry.lines.life-broken-right
+- palmistry.lines.life-left
+- palmistry.lines.life-right
+- palmistry.lines.life-short-left
+- palmistry.lines.life-short-right
+- palmistry.lines.mercury-left
+- palmistry.lines.mercury-right
+- palmistry.lines.sun-left
+- palmistry.lines.sun-right
+- palmistry.lines.union-left
+- palmistry.lines.union-right
+- palmistry.marks.cross-left
+- palmistry.marks.cross-right
+- palmistry.marks.grid-left
+- palmistry.marks.grid-right
+- palmistry.marks.island-left
+- palmistry.marks.island-right
+- palmistry.marks.square-left
+- palmistry.marks.square-right
+- palmistry.marks.star-left
+- palmistry.marks.star-right
+- palmistry.marks.triangle-left
+- palmistry.marks.triangle-right
+- palmistry.mounts.apollo-left
+- palmistry.mounts.apollo-right
+- palmistry.mounts.jupiter-left
+- palmistry.mounts.jupiter-right
+- palmistry.mounts.luna-left
+- palmistry.mounts.luna-right
+- palmistry.mounts.mars-left
+- palmistry.mounts.mars-lower-left
+- palmistry.mounts.mars-lower-right
+- palmistry.mounts.mars-right
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+- palmistry.mounts.mercury-left
+- palmistry.mounts.mercury-right
+- palmistry.mounts.saturn-left
+- palmistry.mounts.saturn-right
+- palmistry.mounts.venus-left
+- palmistry.mounts.venus-right

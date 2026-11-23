@@ -1,0 +1,22 @@
+id: glossary.terms.amavasya
+term:
+  en: Amavasya
+  kn: ಅಮಾವಾಸ್ಯಾ
+  hi: अमावास्या
+sanskrit:
+  devanagari: अमावास्या
+  kannada: ಅಮಾವಾಸ್ಯಾ
+  usage: traditional term
+meaning:
+  en: The new-Moon day at the end of the dark half of the month.
+  kn: ಚಂದ್ರಪಕ್ಷದ 15ನೇ ದಿನ (ಅಮಾವಾಸ್ಯೆ).
+  hi: चंद्र पक्ष का 15वाँ दिन (अमावस्या)।
+admin_note: 'Application in vedic.panchang.amavasya: Identify the instantaneous tithi by its one-based number in [30].
+  For the ordinary calendar day label query that number at local sunrise. Retain every actual matching sunrise and the
+  exact interval even when it falls between sunrises.'
+aliases: []
+reference_rules:
+- vedic.panchang.tithi
+used_by:
+- vedic.panchang.amavasya
+- vedic.panchang.tithi

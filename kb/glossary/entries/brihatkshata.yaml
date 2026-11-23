@@ -1,0 +1,19 @@
+id: glossary.terms.brihatkshata
+term:
+  en: Brihatkshata
+  kn: ಬೃಹತ್ಕ್ಷತ
+  hi: बृहत्क्षत
+sanskrit:
+  devanagari: बृहत्क्षत
+  kannada: ಬೃಹತ್ಕ್ಷತ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position S4 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ S4 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह S4 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at S4.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

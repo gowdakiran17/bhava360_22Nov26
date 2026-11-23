@@ -1,0 +1,25 @@
+id: glossary.terms.the-devil-tarot
+term:
+  en: The Devil (Tarot)
+  kn: ಪ್ರಲೋಭಕ (ಟ್ಯಾರೊ)
+  hi: शैतान (टैरो)
+sanskrit:
+  devanagari: प्रलोभक
+  kannada: ಪ್ರಲೋಭಕ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 15, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 15 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 15 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You can notice a habit that narrows your
+  choices and ask what keeps drawing you back to it.'
+aliases:
+- The Devil
+reference_rules:
+- tarot.major-arcana.the-devil-upright
+- tarot.major-arcana.the-devil-reversed
+used_by:
+- tarot.major-arcana.the-devil-reversed
+- tarot.major-arcana.the-devil-upright
+systems:
+- tarot

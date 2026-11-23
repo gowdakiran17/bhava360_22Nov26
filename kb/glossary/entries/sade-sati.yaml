@@ -1,0 +1,22 @@
+id: glossary.terms.sade-sati
+term:
+  en: Sade Sati
+  kn: ಸಾರ್ಧಸಪ್ತವರ್ಷ
+  hi: सार्धसप्तवर्ष
+sanskrit:
+  devanagari: सार्धसप्तवर्ष
+  kannada: ಸಾರ್ಧಸಪ್ತವರ್ಷ
+  usage: traditional term
+meaning:
+  en: The time Saturn spends in the sign before, at and after the Moon’s birth sign.
+  kn: ಜನ್ಮದ ಚಂದ್ರರಾಶಿಯ ಹಿಂದಿನ, ಅದೇ ಮತ್ತು ಮುಂದಿನ ರಾಶಿಗಳಲ್ಲಿ ಶನಿ ಸಾಗುವ ಅವಧಿ.
+  hi: जन्म की चंद्र राशि से पिछली, उसी और अगली राशि में शनि के जाने का समय।
+admin_note: 'Application in vedic.doshas.sade-sati: Within a solved transit interval, Saturn occupies the sign before
+  the natal Moon, its sign, or the following sign. Split intervals at each exit and return.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.sade-sati
+- vedic.transits.sade-sati-closing
+- vedic.transits.sade-sati-middle
+- vedic.transits.sade-sati-rising

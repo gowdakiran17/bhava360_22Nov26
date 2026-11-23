@@ -1,0 +1,20 @@
+id: glossary.terms.asterism
+term:
+  en: Asterism
+  kn: ತಾರಾಸಮೂಹ
+  hi: तारासमूह
+sanskrit:
+  devanagari: तारासमूह
+  kannada: ತಾರಾಸಮೂಹ
+  usage: traditional term
+meaning:
+  en: A named pattern of stars seen from Earth.
+  kn: ಭೂಮಿಯಿಂದ ಕಾಣುವ ನಕ್ಷತ್ರಗಳ ಹೆಸರಿನ ವಿನ್ಯಾಸ.
+  hi: पृथ्वी से दिखने वाला तारों का एक नाम वाला समूह।
+admin_note: 'Application in vedic.nakshatras.ashwini: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.ashwini
+used_by:
+- vedic.nakshatras.ashwini

@@ -1,0 +1,23 @@
+id: glossary.terms.sunapha-yoga
+term:
+  en: Sunapha yoga
+  kn: ಸುನಫಾಯೋಗ
+  hi: सुनफायोग
+sanskrit:
+  devanagari: सुनफायोग
+  kannada: ಸುನಫಾಯೋಗ
+  usage: traditional term
+meaning:
+  en: One of five eligible planets occupies the sign after the Moon.
+  kn: ಚಂದ್ರನ ಮುಂದಿನ ರಾಶಿಯಲ್ಲಿ ಐದು ಅರ್ಹ ಗ್ರಹಗಳಲ್ಲಿ ಒಂದು ಇರುವುದು.
+  hi: चंद्रमा से अगली राशि में पाँच पात्र ग्रहों में से कोई एक होना।
+admin_note: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the second sign(s) counted from the natal
+  Moon; for both sides require a separate occupant on each.
+aliases:
+- sunapha
+reference_rules:
+- vedic.yogas.sunapha
+used_by:
+- vedic.yogas.sunapha
+systems:
+- vedic

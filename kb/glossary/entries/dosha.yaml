@@ -1,0 +1,40 @@
+id: glossary.terms.dosha
+term:
+  en: Dosha
+  kn: ದೋಷ
+  hi: दोष
+sanskrit:
+  devanagari: दोष
+  kannada: ದೋಷ
+  usage: traditional term
+meaning:
+  en: A traditional label for a combination that readers examine more closely.
+  kn: ಹೆಚ್ಚು ಗಮನದಿಂದ ಪರಿಶೀಲಿಸುವ ಜೋಡಣೆಗೆ ಬಳಸುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: किसी विशेष मेल का पारंपरिक नाम जिसे पढ़ते समय अधिक ध्यान से देखा जाता है।
+admin_note: Use this label for a traditional label for a combination that readers examine more closely. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Doshas
+reference_rules: []
+used_by:
+- vedic.doshas.ashtama-shani
+- vedic.doshas.bhakoot
+- vedic.doshas.grahan
+- vedic.doshas.guru-chandal
+- vedic.doshas.mars-partnership
+- vedic.doshas.nadi
+- vedic.doshas.nodal-axis
+- vedic.doshas.pitru
+- vedic.doshas.sade-sati
+- vedic.doshas.shrapit
+- vedic.matching.bhakoot
+- vedic.matching.chart-cross-check
+- vedic.matching.manglik-comparison
+- vedic.matching.nadi
+- vedic.muhurta.marriage
+- vedic.planets-in-houses.mars-house-1
+- vedic.planets-in-houses.mars-house-12
+- vedic.planets-in-houses.mars-house-2
+- vedic.planets-in-houses.mars-house-4
+- vedic.planets-in-houses.mars-house-7
+- vedic.planets-in-houses.mars-house-8

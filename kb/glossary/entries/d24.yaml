@@ -1,0 +1,20 @@
+id: glossary.terms.d24
+term:
+  en: D24
+  kn: D24 ಚತುರ್ವಿಂಶಾಂಶ
+  hi: D24 चतुर्विंशांश
+sanskrit:
+  devanagari: चतुर्विंशांश
+  kannada: ಚತುರ್ವಿಂಶಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore learning.
+  kn: ಕಲಿಕೆ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: अध्ययन को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at Leo for odd signs and Cancer for even signs.
+aliases:
+- Chaturvimsamsa
+reference_rules:
+- vedic.vargas.d24-placement
+used_by:
+- vedic.vargas.d24-placement

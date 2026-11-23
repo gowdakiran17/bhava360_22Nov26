@@ -1,0 +1,103 @@
+id: glossary.terms.house-7
+term:
+  en: House 7
+  kn: ಯುವತಿಭಾವ
+  hi: युवतिभाव
+sanskrit:
+  devanagari: युवतिभाव
+  kannada: ಯುವತಿಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore partnership.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಒಡನಾಟ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में साझेदारी से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists committed partnership, agreements,
+  one-to-one dealings among its subjects.
+aliases:
+- Yuvati
+reference_rules:
+- vedic.houses.house-7
+used_by:
+- jaimini.arudha-padas.a7
+- lal-kitab.placements.house-7
+- vedic.dashas-vimshottari.business-house-lord
+- vedic.dashas-vimshottari.business-upcoming
+- vedic.dashas-vimshottari.love-marriage-house-lord
+- vedic.dashas-vimshottari.love-marriage-upcoming
+- vedic.house-lords.lord-1-in-house-7
+- vedic.house-lords.lord-10-in-house-7
+- vedic.house-lords.lord-11-in-house-7
+- vedic.house-lords.lord-12-in-house-7
+- vedic.house-lords.lord-2-in-house-7
+- vedic.house-lords.lord-3-in-house-7
+- vedic.house-lords.lord-4-in-house-7
+- vedic.house-lords.lord-5-in-house-7
+- vedic.house-lords.lord-6-in-house-7
+- vedic.house-lords.lord-7-in-house-1
+- vedic.house-lords.lord-7-in-house-10
+- vedic.house-lords.lord-7-in-house-11
+- vedic.house-lords.lord-7-in-house-12
+- vedic.house-lords.lord-7-in-house-2
+- vedic.house-lords.lord-7-in-house-3
+- vedic.house-lords.lord-7-in-house-4
+- vedic.house-lords.lord-7-in-house-5
+- vedic.house-lords.lord-7-in-house-6
+- vedic.house-lords.lord-7-in-house-7
+- vedic.house-lords.lord-7-in-house-8
+- vedic.house-lords.lord-7-in-house-9
+- vedic.house-lords.lord-8-in-house-7
+- vedic.house-lords.lord-9-in-house-7
+- vedic.houses.house-10
+- vedic.houses.house-4
+- vedic.houses.house-7
+- vedic.houses.jupiter-house-7
+- vedic.houses.ketu-house-7
+- vedic.houses.mars-house-7
+- vedic.houses.mercury-house-7
+- vedic.houses.moon-house-7
+- vedic.houses.rahu-house-7
+- vedic.houses.saturn-house-7
+- vedic.houses.sun-house-7
+- vedic.houses.venus-house-7
+- vedic.matching.chart-cross-check
+- vedic.planets-in-houses.jupiter-house-7
+- vedic.planets-in-houses.ketu-house-7
+- vedic.planets-in-houses.mars-house-7
+- vedic.planets-in-houses.mercury-house-7
+- vedic.planets-in-houses.moon-house-7
+- vedic.planets-in-houses.rahu-house-7
+- vedic.planets-in-houses.saturn-house-1
+- vedic.planets-in-houses.saturn-house-10
+- vedic.planets-in-houses.saturn-house-11
+- vedic.planets-in-houses.saturn-house-12
+- vedic.planets-in-houses.saturn-house-2
+- vedic.planets-in-houses.saturn-house-3
+- vedic.planets-in-houses.saturn-house-4
+- vedic.planets-in-houses.saturn-house-5
+- vedic.planets-in-houses.saturn-house-6
+- vedic.planets-in-houses.saturn-house-7
+- vedic.planets-in-houses.saturn-house-8
+- vedic.planets-in-houses.saturn-house-9
+- vedic.planets-in-houses.sun-house-7
+- vedic.planets-in-houses.venus-house-7
+- vedic.planets.saturn
+- vedic.prashna.marriage
+- vedic.transits.jupiter-moon-house-7
+- vedic.transits.ketu-moon-house-7
+- vedic.transits.mars-moon-house-7
+- vedic.transits.mercury-moon-house-7
+- vedic.transits.moon-moon-house-7
+- vedic.transits.rahu-moon-house-7
+- vedic.transits.saturn-moon-house-7
+- vedic.transits.sun-moon-house-7
+- vedic.transits.venus-moon-house-7
+- western.natal.jupiter-house-7
+- western.natal.mars-house-7
+- western.natal.mercury-house-7
+- western.natal.moon-house-7
+- western.natal.neptune-house-7
+- western.natal.pluto-house-7
+- western.natal.saturn-house-7
+- western.natal.sun-house-7
+- western.natal.uranus-house-7
+- western.natal.venus-house-7

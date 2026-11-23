@@ -1,0 +1,47 @@
+id: glossary.terms.gana
+term:
+  en: Gana
+  kn: ಗಣ
+  hi: गण
+sanskrit:
+  devanagari: गण
+  kannada: ಗಣ
+  usage: traditional term
+meaning:
+  en: One of three traditional birth-star groups compared in matching.
+  kn: ಹೊಂದಾಣಿಕೆಯಲ್ಲಿ ಹೋಲಿಸುವ ಜನ್ಮನಕ್ಷತ್ರಗಳ ಮೂರು ಗುಂಪುಗಳಲ್ಲಿ ಒಂದು.
+  hi: मिलान में देखे जाने वाले जन्म तारों के तीन समूहों में से एक।
+admin_note: 'Application in vedic.matching.gana: Read both natal star classes and look up their ordered temperamental
+  grouping. Labels belong to the table only.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.gana
+- vedic.matching.porutham-gana
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha

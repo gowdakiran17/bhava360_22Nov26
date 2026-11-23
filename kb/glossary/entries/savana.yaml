@@ -1,0 +1,28 @@
+id: glossary.terms.savana
+term:
+  en: Savana
+  kn: ಸಾವನ
+  hi: सावन
+sanskrit:
+  devanagari: सावन
+  kannada: ಸಾವನ
+  usage: traditional term
+meaning:
+  en: In timing calculations a conventional year of 360 days; in calendars a day measured from sunrise.
+  kn: ಕಾಲಗಣನೆಯಲ್ಲಿ ೩೬೦ ದಿನಗಳ ವರ್ಷ ಅಥವಾ ಸೂರ್ಯೋದಯದಿಂದ ಎಣಿಸಿದ ದಿನ.
+  hi: गणना में ३६० दिन का वर्ष या सूर्योदय से गिना दिन।
+admin_note: Use this label for in timing calculations a conventional year of 360 days; in calendars a day measured from
+  sunrise. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.antar-period
+- vedic.dashas-vimshottari.balance-calculation
+- vedic.dashas-vimshottari.maha-period
+- vedic.dashas-vimshottari.pratyantar-period
+- vedic.dashas-vimshottari.sookshma-period
+- vedic.dashas-yogini.balance-calculation
+- vedic.dashas-yogini.work-topic
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.vara

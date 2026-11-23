@@ -1,0 +1,80 @@
+id: glossary.terms.chaldean
+term:
+  en: Chaldean
+  kn: ಕಾಲ್ಡಿಯನ್
+  hi: कैल्डियन
+sanskrit:
+  devanagari: नामाङ्कपद्धति
+  kannada: ನಾಮಾಙ್ಕಪದ್ಧತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A name-reading system that assigns the letters values from one to eight.
+  kn: ಅಕ್ಷರಗಳಿಗೆ ಒಂದರಿಂದ ಎಂಟರವರೆಗೆ ಮೌಲ್ಯಗಳನ್ನು ನೀಡುವ ಹೆಸರು ಗಣನಾ ಪದ್ಧತಿ.
+  hi: अक्षरों को एक से आठ तक मान देने की नाम गणना पद्धति।
+admin_note: Use this label for a name-reading system that assigns the letters values from one to eight. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- numerology.chaldean.birthday
+- numerology.chaldean.check-business-name-brand-root
+- numerology.chaldean.check-mobile-number-compound-known
+- numerology.chaldean.compound-10
+- numerology.chaldean.compound-11
+- numerology.chaldean.compound-12
+- numerology.chaldean.compound-13
+- numerology.chaldean.compound-14
+- numerology.chaldean.compound-15
+- numerology.chaldean.compound-16
+- numerology.chaldean.compound-17
+- numerology.chaldean.compound-18
+- numerology.chaldean.compound-19
+- numerology.chaldean.compound-20
+- numerology.chaldean.compound-21
+- numerology.chaldean.compound-22
+- numerology.chaldean.compound-23
+- numerology.chaldean.compound-24
+- numerology.chaldean.compound-25
+- numerology.chaldean.compound-26
+- numerology.chaldean.compound-27
+- numerology.chaldean.compound-28
+- numerology.chaldean.compound-29
+- numerology.chaldean.compound-30
+- numerology.chaldean.compound-31
+- numerology.chaldean.compound-32
+- numerology.chaldean.compound-33
+- numerology.chaldean.compound-34
+- numerology.chaldean.compound-35
+- numerology.chaldean.compound-36
+- numerology.chaldean.compound-37
+- numerology.chaldean.compound-38
+- numerology.chaldean.compound-39
+- numerology.chaldean.compound-40
+- numerology.chaldean.compound-41
+- numerology.chaldean.compound-42
+- numerology.chaldean.compound-43
+- numerology.chaldean.compound-44
+- numerology.chaldean.compound-45
+- numerology.chaldean.compound-46
+- numerology.chaldean.compound-47
+- numerology.chaldean.compound-48
+- numerology.chaldean.compound-49
+- numerology.chaldean.compound-50
+- numerology.chaldean.compound-51
+- numerology.chaldean.compound-52
+- numerology.chaldean.expression
+- numerology.chaldean.life-path
+- numerology.chaldean.personal-day
+- numerology.chaldean.personal-month
+- numerology.chaldean.personal-year
+- numerology.chaldean.personality
+- numerology.chaldean.root-1
+- numerology.chaldean.root-2
+- numerology.chaldean.root-3
+- numerology.chaldean.root-4
+- numerology.chaldean.root-5
+- numerology.chaldean.root-6
+- numerology.chaldean.root-7
+- numerology.chaldean.root-8
+- numerology.chaldean.root-9
+- numerology.chaldean.soul-urge

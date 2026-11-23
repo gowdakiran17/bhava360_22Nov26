@@ -1,0 +1,25 @@
+id: glossary.terms.five-of-swords-tarot
+term:
+  en: Five Of Swords (Tarot)
+  kn: ಕತ್ತಿ · ಐದು
+  hi: तलवार · पाँच
+sanskrit:
+  devanagari: खड्ग पञ्च
+  kannada: ಖಡ್ಗ ಪಞ್ಚ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank five in the swords family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕತ್ತಿ · ಐದು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में तलवार · पाँच की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on the cost of
+  conflict. What comes to mind in this position?'
+aliases:
+- Five Of Swords
+reference_rules:
+- tarot.minor-arcana.five-of-swords-upright
+- tarot.minor-arcana.five-of-swords-reversed
+used_by:
+- tarot.minor-arcana.five-of-swords-reversed
+- tarot.minor-arcana.five-of-swords-upright
+systems:
+- tarot

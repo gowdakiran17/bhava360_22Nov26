@@ -1,0 +1,20 @@
+id: glossary.terms.khala-parivartana
+term:
+  en: Khala parivartana
+  kn: ಖಲಪರಿವರ್ತನ
+  hi: खलपरिवर्तन
+sanskrit:
+  devanagari: खलपरिवर्तन
+  kannada: ಖಲಪರಿವರ್ತನ
+  usage: traditional term
+meaning:
+  en: Two rulers exchange places involving the third house and excluding houses six, eight and twelve.
+  kn: ಆರು, ಎಂಟು, ಹನ್ನೆರಡನ್ನು ಹೊರತುಪಡಿಸಿ ಮೂರನೇ ಮನೆ ಒಳಗೊಂಡ ಸ್ಥಾನ ವಿನಿಮಯ.
+  hi: छठे, आठवें और बारहवें को छोड़ तीसरे घर से जुड़ा स्थान बदलना।
+admin_note: Use this label for two rulers exchange places involving the third house and excluding houses six, eight and
+  twelve. Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Khala
+reference_rules: []
+used_by:
+- vedic.yogas.parivartana-khala

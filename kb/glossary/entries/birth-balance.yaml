@@ -1,0 +1,29 @@
+id: glossary.terms.birth-balance
+term:
+  en: Birth balance
+  kn: ಜನನದ ಅವಧಿ ಶೇಷ
+  hi: जन्म पर अवधि शेष
+sanskrit:
+  devanagari: जन्मदशाशेष
+  kannada: ಜನ್ಮದಶಾಶೇಷ
+  usage: descriptive equivalent
+meaning:
+  en: The time left in the opening period at birth.
+  kn: ಜನನದ ಕ್ಷಣದಲ್ಲಿ ಮೊದಲ ಅವಧಿಯಲ್ಲಿ ಉಳಿದಿರುವ ಸಮಯ.
+  hi: जन्म के समय पहली अवधि में बचा समय।
+admin_note: 'Application in vedic.dashas-vimshottari.balance-calculation: Normalize the sidereal Moon longitude to [0°,360°).
+  Each of the 27 stars spans 48000 arcseconds. Divide longitude by this width: the integer quotient selects the star
+  from Ashwini and the remainder is the arc traversed. With f = remainder / 48000 and Y = years of the star lord, elapsed
+  years = Y × f and remaining years = Y × (1 − f). Maha starts at birth minus elapsed time and ends at birth plus remaining
+  time. At an exact edge, select the next star with its full balance.'
+aliases:
+- starting balance
+reference_rules:
+- vedic.dashas-vimshottari.balance-calculation
+used_by:
+- vedic.dashas-kalachakra.pada-wheel
+- vedic.dashas-kalachakra.study-topic
+- vedic.dashas-vimshottari.balance-calculation
+- vedic.dashas-vimshottari.maha-period
+- vedic.dashas-yogini.balance-calculation
+- vedic.dashas-yogini.work-topic

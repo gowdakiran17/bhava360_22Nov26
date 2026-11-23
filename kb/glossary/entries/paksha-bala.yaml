@@ -1,0 +1,21 @@
+id: glossary.terms.paksha-bala
+term:
+  en: Paksha bala
+  kn: ಪಕ್ಷಬಲ
+  hi: पक्षबल
+sanskrit:
+  devanagari: पक्षबल
+  kannada: ಪಕ್ಷಬಲ
+  usage: traditional term
+meaning:
+  en: The part of time-based strength derived from the changing separation of Sun and Moon.
+  kn: ಸೂರ್ಯ ಮತ್ತು ಚಂದ್ರರ ನಡುವಿನ ಅಂತರದಿಂದ ಪಡೆಯುವ ಕಾಲಬಲದ ಭಾಗ.
+  hi: सूर्य और चंद्रमा की बदलती दूरी से निकला समय बल।
+admin_note: 'Application in vedic.strength-shadbala.paksha: Let L be the shorter Sun–Moon arc divided by three. Award
+  L to Moon, Mercury, Jupiter and Venus, and sixty minus L to Sun, Mars and Saturn. Use the undoubled Moon amount here
+  and in Cheshta.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.paksha
+used_by:
+- vedic.strength-shadbala.paksha

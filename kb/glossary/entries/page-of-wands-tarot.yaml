@@ -1,0 +1,25 @@
+id: glossary.terms.page-of-wands-tarot
+term:
+  en: Page Of Wands (Tarot)
+  kn: ಕೋಲು · ದೂತ
+  hi: छड़ी · दूत
+sanskrit:
+  devanagari: दण्ड दूत
+  kannada: ದಣ್ಡ ದೂತ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank page in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ದೂತ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · दूत की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on creative curiosity.
+  What comes to mind in this position?'
+aliases:
+- Page Of Wands
+reference_rules:
+- tarot.minor-arcana.page-of-wands-upright
+- tarot.minor-arcana.page-of-wands-reversed
+used_by:
+- tarot.minor-arcana.page-of-wands-reversed
+- tarot.minor-arcana.page-of-wands-upright
+systems:
+- tarot

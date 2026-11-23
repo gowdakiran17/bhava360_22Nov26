@@ -1,0 +1,20 @@
+id: glossary.terms.kendradi
+term:
+  en: Kendradi
+  kn: ಕೇನ್ದ್ರಾದಿ
+  hi: केन्द्रादि
+sanskrit:
+  devanagari: केन्द्रादि
+  kannada: ಕೇನ್ದ್ರಾದಿ
+  usage: traditional term
+meaning:
+  en: A strength contribution based on distance from the four corners of the chart.
+  kn: ನಕ್ಷೆಯ ನಾಲ್ಕು ಮೂಲೆಗಳಿಂದ ದೂರದ ಆಧಾರದ ಬಲ.
+  hi: पत्री के चार कोनों से दूरी पर आधारित बल।
+admin_note: 'Application in vedic.strength-shadbala.kendradi: Count whole signs inclusively from natal Lagna. Group houses
+  in repeating angular, succedent and cadent order and award the corresponding value.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.kendradi
+- vedic.strength-shadbala.sthana

@@ -1,0 +1,20 @@
+id: glossary.terms.soul-urge
+term:
+  en: Soul urge
+  kn: ಸ್ವರಾಙ್ಕ
+  hi: स्वराङ्क
+sanskrit:
+  devanagari: स्वराङ्क
+  kannada: ಸ್ವರಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number found using only the vowels in a name.
+  kn: ಹೆಸರಿನ ಸ್ವರಗಳ ಮೌಲ್ಯಗಳಿಂದ ಮಾತ್ರ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: नाम के केवल स्वरों के मान से बनी संख्या।
+admin_note: 'Application in numerology.pythagorean.soul-urge: Sum A E I O U in the confirmed spelling and reduce. Y belongs
+  to the consonants under the fixed profile. An empty vowel partition is unavailable.'
+aliases: []
+reference_rules: []
+used_by:
+- numerology.chaldean.soul-urge
+- numerology.pythagorean.soul-urge

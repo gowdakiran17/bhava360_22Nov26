@@ -1,0 +1,21 @@
+id: glossary.terms.birthday-number
+term:
+  en: Birthday number
+  kn: ಜನ್ಮದಿನಾಙ್ಕ
+  hi: जन्मदिनाङ्क
+sanskrit:
+  devanagari: जन्मदिनाङ्क
+  kannada: ಜನ್ಮದಿನಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A number derived from the day of the month on which someone was born.
+  kn: ಹುಟ್ಟಿದ ತಿಂಗಳ ದಿನಾಂಕದಿಂದ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: जन्म के महीने की तारीख से निकली संख्या।
+admin_note: Use this label for a number derived from the day of the month on which someone was born. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Moolank
+reference_rules: []
+used_by:
+- numerology.ank-jyotish.check-house-relocation-dwelling-root
+- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match

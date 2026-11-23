@@ -1,0 +1,27 @@
+id: glossary.terms.navagraha
+term:
+  en: Navagraha
+  kn: ನವಗ್ರಹ
+  hi: नवग्रह
+sanskrit:
+  devanagari: नवग्रह
+  kannada: ನವಗ್ರಹ
+  usage: traditional term
+meaning:
+  en: The nine celestial indicators used in traditional Indian charts.
+  kn: ಭಾರತೀಯ ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ಬಳಸುವ ಒಂಬತ್ತು ಆಕಾಶ ಸೂಚಕಗಳು.
+  hi: भारतीय जन्मपत्री में देखे जाने वाले नौ आकाशीय संकेतक।
+admin_note: Use this label for the nine celestial indicators used in traditional Indian charts. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- remedies.conduct.jupiter
+- remedies.conduct.ketu
+- remedies.conduct.mars
+- remedies.conduct.mercury
+- remedies.conduct.moon
+- remedies.conduct.rahu
+- remedies.conduct.saturn
+- remedies.conduct.sun
+- remedies.conduct.venus

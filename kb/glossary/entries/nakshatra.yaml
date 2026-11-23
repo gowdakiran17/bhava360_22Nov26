@@ -1,0 +1,67 @@
+id: glossary.terms.nakshatra
+term:
+  en: Nakshatra
+  kn: ನಕ್ಷತ್ರ
+  hi: नक्षत्र
+sanskrit:
+  devanagari: नक्षत्र
+  kannada: ನಕ್ಷತ್ರ
+  usage: traditional term
+meaning:
+  en: One of the sky’s 27 equal sections used to track the Moon.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸಲು ಬಳಸುವ ಆಕಾಶದ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ ಒಂದು.
+  hi: चंद्रमा की स्थिति बताने के लिए आकाश के २७ बराबर हिस्सों में से एक।
+admin_note: 'Application in vedic.panchang.nakshatra: Use 1 + floor((sidereal Moon modulo a turn) / 48000 arcseconds).
+  Resolve that numbered KB-03 catalog row and its rule ID. Solve start and end on the Moon’s unwrapped longitude.'
+aliases:
+- lunar mansion
+- birth star
+- Nakshatras
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.balance-calculation
+- vedic.dashas-vimshottari.maha-period
+- vedic.doshas.nadi
+- vedic.matching.nadi
+- vedic.matching.porutham-dina
+- vedic.matching.porutham-rajju
+- vedic.matching.porutham-vedha
+- vedic.matching.yoni
+- vedic.muhurta.business-start
+- vedic.muhurta.check-big-decision-muhurta-activity-limb
+- vedic.muhurta.check-big-decision-muhurta-tara-support
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.panchang.nakshatra

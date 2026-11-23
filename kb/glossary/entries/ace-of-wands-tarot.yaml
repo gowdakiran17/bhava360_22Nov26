@@ -1,0 +1,25 @@
+id: glossary.terms.ace-of-wands-tarot
+term:
+  en: Ace Of Wands (Tarot)
+  kn: ಕೋಲು · ಒಂದು
+  hi: छड़ी · इक्का
+sanskrit:
+  devanagari: दण्ड एक
+  kannada: ದಣ್ಡ ಏಕ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank ace in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಒಂದು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · इक्का की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a spark of
+  interest. What comes to mind in this position?'
+aliases:
+- Ace Of Wands
+reference_rules:
+- tarot.minor-arcana.ace-of-wands-upright
+- tarot.minor-arcana.ace-of-wands-reversed
+used_by:
+- tarot.minor-arcana.ace-of-wands-reversed
+- tarot.minor-arcana.ace-of-wands-upright
+systems:
+- tarot

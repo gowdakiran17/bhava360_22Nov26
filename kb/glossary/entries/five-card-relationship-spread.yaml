@@ -1,0 +1,22 @@
+id: glossary.terms.five-card-relationship-spread
+term:
+  en: Five-card relationship spread
+  kn: ಒಡನಾಟಕ್ಕೆ ಐದು ಪತ್ರಗಳು
+  hi: रिश्ते के पाँच पत्ते
+sanskrit:
+  devanagari: सम्बन्धपञ्चपत्रविन्यास
+  kannada: ಸಮ್ಬನ್ಧಪಞ್ಚಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Five cards explore two perspectives, a shared question, a personal boundary and a next step.
+  kn: ಎರಡು ದೃಷ್ಟಿಕೋನ, ಸಾಮಾನ್ಯ ಪ್ರಶ್ನೆ, ಮಿತಿ ಮತ್ತು ಮುಂದಿನ ಹೆಜ್ಜೆಗಾಗಿ ಐದು ಪತ್ರಗಳು.
+  hi: दो नज़रिए, साझा सवाल, निजी सीमा और अगले कदम के लिए पाँच पत्ते।
+admin_note: 'Read the positions in order: own-perspective, other-perspective-to-explore, shared-question, personal-boundary,
+  next-step. The final prompt invites reflection or a chosen action.'
+aliases: []
+reference_rules:
+- relationship-five
+used_by:
+- relationship-five
+systems:
+- tarot

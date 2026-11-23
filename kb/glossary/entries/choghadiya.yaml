@@ -1,0 +1,20 @@
+id: glossary.terms.choghadiya
+term:
+  en: Choghadiya
+  kn: ಚೌಘಡಿಯಾ
+  hi: चौघड़िया
+sanskrit:
+  devanagari: चौघडिया
+  kannada: ಚೌಘಡಿಯಾ
+  usage: descriptive equivalent
+meaning:
+  en: A schedule dividing daylight and night into eight labelled intervals each.
+  kn: ಹಗಲು ಮತ್ತು ರಾತ್ರಿಯನ್ನು ತಲಾ ಎಂಟು ಹೆಸರಿನ ಭಾಗಗಳಾಗಿ ಮಾಡುವ ವೇಳಾಪಟ್ಟಿ.
+  hi: दिन और रात को अलग-अलग आठ नाम वाले हिस्सों में बाँटने की सारणी।
+admin_note: 'Application in vedic.panchang.choghadiya: Use eight equal elapsed slots of day or night. Starting at the
+  weekday’s first label in day-night.yaml advance one position in the matching seven-label cycle per slot; sunset begins
+  night slot one.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.panchang.choghadiya

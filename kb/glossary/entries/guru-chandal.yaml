@@ -1,0 +1,18 @@
+id: glossary.terms.guru-chandal
+term:
+  en: Guru Chandal
+  kn: ಗುರುಚಾಣ್ಡಾಲ
+  hi: गुरुचाण्डाल
+sanskrit:
+  devanagari: गुरुचाण्डाल
+  kannada: ಗುರುಚಾಣ್ಡಾಲ
+  usage: traditional term
+meaning:
+  en: A traditional name for a combination of Jupiter and a lunar crossing point.
+  kn: ಗುರು ಮತ್ತು ಚಂದ್ರಪಥದ ಛೇದನ ಬಿಂದುವಿನ ಜೋಡಣೆ.
+  hi: बृहस्पति और चंद्र पथ के कटान बिंदु का पारंपरिक मेल।
+admin_note: 'Application in vedic.doshas.guru-chandal: Jupiter and Rahu or Ketu share a natal sidereal sign.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.doshas.guru-chandal

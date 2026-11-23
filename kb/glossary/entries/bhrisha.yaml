@@ -1,0 +1,19 @@
+id: glossary.terms.bhrisha
+term:
+  en: Bhrisha
+  kn: ಭೃಶ
+  hi: भृश
+sanskrit:
+  devanagari: भृश
+  kannada: ಭೃಶ
+  usage: traditional term
+meaning:
+  en: The traditional name for entrance position E7 in the building plan.
+  kn: ಕಟ್ಟಡದ ನಕ್ಷೆಯಲ್ಲಿ E7 ಪ್ರವೇಶ ಸ್ಥಾನಕ್ಕೆ ನೀಡುವ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು.
+  hi: भवन के नक्शे में प्रवेश की जगह E7 का पारंपरिक नाम।
+admin_note: This name identifies the symbolic attribution in the cited KB table. The entrance grid places it at E7.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/entrances/padas.yaml

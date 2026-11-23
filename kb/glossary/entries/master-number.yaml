@@ -1,0 +1,20 @@
+id: glossary.terms.master-number
+term:
+  en: Master number
+  kn: ವಿಶೇಷಾಙ್ಕ
+  hi: विशेषाङ्क
+sanskrit:
+  devanagari: विशेषाङ्क
+  kannada: ವಿಶೇಷಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: One of the double-digit values a number-reading method may keep before further addition.
+  kn: ಕೆಲವು ಲೆಕ್ಕಗಳಲ್ಲಿ ಮತ್ತೆ ಕೂಡಿಸುವ ಮೊದಲು ಹಾಗೆಯೇ ಉಳಿಸುವ ಎರಡಂಕಿ ಸಂಖ್ಯೆ.
+  hi: कुछ विधियों में आगे जोड़ने से पहले रखा जाने वाला दोहरा अंक।
+admin_note: Use this label for one of the double-digit values a number-reading method may keep before further addition.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases:
+- master numbers
+reference_rules: []
+used_by:
+- numerology.pythagorean.check-personal-baby-name-name-root

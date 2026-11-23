@@ -1,0 +1,664 @@
+locale: en
+status: required
+terms:
+  abda-bala: Abda bala
+  abhijit: Abhijit
+  abhijit-muhurta: Abhijit muhurta
+  ace-of-cups-tarot: Ace Of Cups (Tarot)
+  ace-of-pentacles-tarot: Ace Of Pentacles (Tarot)
+  ace-of-swords-tarot: Ace Of Swords (Tarot)
+  ace-of-wands-tarot: Ace Of Wands (Tarot)
+  adhi-yoga: Adhi yoga
+  adhika-masa: Adhika masa
+  adi-nadi: Adi Nadi
+  aditi: Aditi
+  agni-vastu-guardian: Agni (Vastu guardian)
+  ahi: Ahi
+  ahir-budhnya: Ahir Budhnya
+  air-hand-shape: Air hand shape
+  aja-ekapada: Aja Ekapada
+  amala-yoga: Amala yoga
+  amanta: Amanta
+  amatyakaraka: Amatyakaraka
+  amavasya: Amavasya
+  amrit-choghadiya: Amrit (Choghadiya)
+  anapha-yoga: Anapha yoga
+  antariksha: Antariksha
+  antya-nadi: Antya Nadi
+  anuradha: Anuradha
+  apas: Apas
+  apollo-mount: Apollo mount
+  aquarius: Aquarius
+  arcminute: Arcminute
+  arcsecond: Arcsecond
+  ardra: Ardra
+  argala: Argala
+  aries: Aries
+  arudha: Arudha
+  arudha-lagna: Arudha lagna
+  aryaman: Aryaman
+  ashlesha: Ashlesha
+  ashtakavarga: Ashtakavarga
+  ashtakoota: Ashtakoota
+  ashtama-shani: Ashtama Shani
+  ashtamangala: Ashtamangala
+  ashtami: Ashtami
+  ashtottari: Ashtottari
+  ashvin-twins: Ashvin twins
+  ashvina: Ashvina
+  ashwini: Ashwini
+  aspect: Aspect
+  asterism: Asterism
+  astrology: Astrology
+  asura: Asura
+  atiganda-calendar-yoga: Atiganda (calendar yoga)
+  atmakaraka: Atmakaraka
+  avastha: Avastha
+  ayana-bala: Ayana bala
+  ayanamsa: Ayanamsa
+  ayu: Ayu
+  ayushman-calendar-yoga: Ayushman (calendar yoga)
+  bala-age-state: Bala (age state)
+  baladi: Baladi
+  balava: Balava
+  bava: Bava
+  benefic: Benefic
+  bhadra-yoga: Bhadra yoga
+  bhadrika-yogini: Bhadrika Yogini
+  bhaga: Bhaga
+  bhakoot: Bhakoot
+  bhallata: Bhallata
+  bharani: Bharani
+  bhava: Bhava
+  bhava-bala: Bhava bala
+  bhava-chalit: Bhava chalit
+  bhavat-bhavam: Bhavat bhavam
+  bhinnashtakavarga: Bhinnashtakavarga
+  bhramari-yogini: Bhramari Yogini
+  bhratrikaraka: Bhratrikaraka
+  bhringaraja: Bhringaraja
+  bhrisha: Bhrisha
+  bhujaga: Bhujaga
+  bhukti: Bhukti
+  bindu: Bindu
+  birth-balance: Birth balance
+  birth-time: Birth time
+  birthday-number: Birthday number
+  brahma-calendar-yoga: Brahma (calendar yoga)
+  brahma-muhurta: Brahma muhurta
+  brahma-vastu-guardian: Brahma (Vastu guardian)
+  brahmasthan: Brahmasthan
+  brihatkshata: Brihatkshata
+  budhaditya-yoga: Budhaditya yoga
+  cancer: Cancer
+  capricorn: Capricorn
+  cardinal: Cardinal
+  career-spread: Career spread
+  celtic-cross: Celtic Cross
+  chaitra: Chaitra
+  chaldean: Chaldean
+  chandra-bala: Chandra bala
+  chandra-mangala-yoga: Chandra Mangala yoga
+  char-choghadiya: Char (Choghadiya)
+  chara-dasha: Chara dasha
+  chara-karaka: Chara karaka
+  chaturdashi: Chaturdashi
+  chaturthi: Chaturthi
+  chatushpada: Chatushpada
+  cheshta-bala: Cheshta bala
+  chiron: Chiron
+  chitra: Chitra
+  choghadiya: Choghadiya
+  combustion: Combustion
+  composite: Composite
+  compound-number: Compound number
+  conjunction: Conjunction
+  cross-palm-mark: Cross palm mark
+  cups: Cups
+  cusp: Cusp
+  d1: D1
+  d10: D10
+  d12: D12
+  d16: D16
+  d2: D2
+  d20: D20
+  d24: D24
+  d27: D27
+  d3: D3
+  d30: D30
+  d4: D4
+  d40: D40
+  d45: D45
+  d60: D60
+  d7: D7
+  d9: D9
+  daily-spread: Daily spread
+  dainya-parivartana: Dainya parivartana
+  darakaraka: Darakaraka
+  dasha: Dasha
+  dasha-sandhi: Dasha sandhi
+  dashakoota: Dashakoota
+  dashami: Dashami
+  dashavarga: Dashavarga
+  dauvarika: Dauvarika
+  death-tarot: Death (Tarot)
+  debilitation: Debilitation
+  decan: Decan
+  decision-spread: Decision spread
+  deepavali: Deepavali
+  degree: Degree
+  descendant: Descendant
+  deva-gana: Deva Gana
+  dhana-yoga: Dhana yoga
+  dhanishta: Dhanishta
+  dhanya-yogini: Dhanya Yogini
+  dhriti-calendar-yoga: Dhriti (calendar yoga)
+  dhruva-calendar-yoga: Dhruva (calendar yoga)
+  dig-bala: Dig bala
+  dignity: Dignity
+  dispositor: Dispositor
+  diti: Diti
+  dominant-hand: Dominant hand
+  dosha: Dosha
+  double-transit: Double transit
+  drik-bala: Drik bala
+  durudhara-yoga: Durudhara yoga
+  dusthana: Dusthana
+  dvadashi: Dvadashi
+  dvitiya: Dvitiya
+  earth-hand-shape: Earth hand shape
+  ecliptic: Ecliptic
+  eight-of-cups-tarot: Eight Of Cups (Tarot)
+  eight-of-pentacles-tarot: Eight Of Pentacles (Tarot)
+  eight-of-swords-tarot: Eight Of Swords (Tarot)
+  eight-of-wands-tarot: Eight Of Wands (Tarot)
+  ekadashi: Ekadashi
+  ekadhipatya: Ekadhipatya
+  electional-astrology: Electional astrology
+  element: Element
+  entrance-pada: Entrance pada
+  ephemeris: Ephemeris
+  equal-house: Equal house
+  exaltation: Exaltation
+  expression-number: Expression number
+  face-reading: Face reading
+  fate-line: Fate line
+  fire-hand-shape: Fire hand shape
+  five-card-career-spread: Five-card career spread
+  five-card-relationship-spread: Five-card relationship spread
+  five-of-cups-tarot: Five Of Cups (Tarot)
+  five-of-pentacles-tarot: Five Of Pentacles (Tarot)
+  five-of-swords-tarot: Five Of Swords (Tarot)
+  five-of-wands-tarot: Five Of Wands (Tarot)
+  fixed-sign: Fixed sign
+  four-of-cups-tarot: Four Of Cups (Tarot)
+  four-of-pentacles-tarot: Four Of Pentacles (Tarot)
+  four-of-swords-tarot: Four Of Swords (Tarot)
+  four-of-wands-tarot: Four Of Wands (Tarot)
+  gaja-kesari-yoga: Gaja Kesari yoga
+  gana: Gana
+  ganda-calendar-yoga: Ganda (calendar yoga)
+  gandharva: Gandharva
+  gara: Gara
+  gemini: Gemini
+  geocentric: Geocentric
+  gnatikaraka: Gnatikaraka
+  gochara: Gochara
+  golden-dawn: Golden Dawn
+  graha: Graha
+  graha-drishti: Graha drishti
+  graha-maitri: Graha Maitri
+  graha-yuddha: Graha yuddha
+  grahan: Grahan
+  grand-trine: Grand trine
+  grid-palm-mark: Grid palm mark
+  griha-pravesha: Griha pravesha
+  gulika-kalam: Gulika Kalam
+  guru-chandal: Guru Chandal
+  hamsa-yoga: Hamsa yoga
+  harsha-yoga: Harsha yoga
+  harshana-calendar-yoga: Harshana (calendar yoga)
+  hasta: Hasta
+  head-line: Head line
+  heart-line: Heart line
+  hora: Hora
+  hora-bala: Hora bala
+  house-1: House 1
+  house-10: House 10
+  house-11: House 11
+  house-12: House 12
+  house-2: House 2
+  house-3: House 3
+  house-4: House 4
+  house-5: House 5
+  house-6: House 6
+  house-7: House 7
+  house-8: House 8
+  house-9: House 9
+  house-lord: House lord
+  house-system: House system
+  indra-calendar-yoga: Indra (calendar yoga)
+  indra-vastu-guardian: Indra (Vastu guardian)
+  ishana-vastu-guardian: Ishana (Vastu guardian)
+  ishta-phala: Ishta phala
+  island-palm-mark: Island palm mark
+  ithasala: Ithasala
+  jaimini: Jaimini
+  japa: Japa
+  jayanta: Jayanta
+  judgement-tarot: Judgement (Tarot)
+  jupiter: Jupiter
+  jupiter-mount: Jupiter mount
+  justice-tarot: Justice (Tarot)
+  jyeshtha: Jyeshtha
+  jyotish: Jyotish
+  kaal-choghadiya: Kaal (Choghadiya)
+  kaal-sarp: Kaal Sarp
+  kakshya: Kakshya
+  kala-bala: Kala bala
+  kalachakra: Kalachakra
+  kalapurusha: Kalapurusha
+  kantaka-shani: Kantaka Shani
+  karaka: Karaka
+  karakamsa: Karakamsa
+  karakatva: Karakatva
+  karana: Karana
+  kartika: Kartika
+  kashta-phala: Kashta phala
+  kaulava: Kaulava
+  kemadruma-yoga: Kemadruma yoga
+  kendra: Kendra
+  kendradi: Kendradi
+  ketu: Ketu
+  khala-parivartana: Khala parivartana
+  kimstughna: Kimstughna
+  king-of-cups-tarot: King Of Cups (Tarot)
+  king-of-pentacles-tarot: King Of Pentacles (Tarot)
+  king-of-swords-tarot: King Of Swords (Tarot)
+  king-of-wands-tarot: King Of Wands (Tarot)
+  knight-of-cups-tarot: Knight Of Cups (Tarot)
+  knight-of-pentacles-tarot: Knight Of Pentacles (Tarot)
+  knight-of-swords-tarot: Knight Of Swords (Tarot)
+  knight-of-wands-tarot: Knight Of Wands (Tarot)
+  koch: Koch
+  koota: Koota
+  kp: KP
+  kp-sublord: KP sublord
+  krishna-paksha: Krishna paksha
+  krittika: Krittika
+  krura: Krura
+  kshaya: Kshaya
+  kua: Kua
+  kubera-vastu-guardian: Kubera (Vastu guardian)
+  kumara-age-state: Kumara (age state)
+  kusumadanta: Kusumadanta
+  labh-choghadiya: Labh (Choghadiya)
+  lagna: Lagna
+  lahiri: Lahiri
+  lakshmi-yoga: Lakshmi yoga
+  lal-kitab: Lal Kitab
+  latitude: Latitude
+  leo: Leo
+  libra: Libra
+  life-broken-line: Life Broken line
+  life-line: Life line
+  life-path: Life path
+  life-short-line: Life Short line
+  lo-shu: Lo Shu
+  long-finger-proportion: Long finger proportion
+  longitude: Longitude
+  luminary: Luminary
+  luna-mount: Luna mount
+  lunar-node: Lunar node
+  madhya-nadi: Madhya Nadi
+  magha: Magha
+  magnetic-declination: Magnetic declination
+  maha-dasha: Maha dasha
+  maha-parivartana: Maha parivartana
+  mahendra: Mahendra
+  major-arcana: Major Arcana
+  malavya-yoga: Malavya yoga
+  malefic: Malefic
+  mangala-yogini: Mangala Yogini
+  manglik: Manglik
+  mantra: Mantra
+  mantra-japa: Mantra japa
+  manushya-gana: Manushya Gana
+  maraka: Maraka
+  mars: Mars
+  mars-lower-mount: Mars Lower mount
+  mars-mount: Mars mount
+  mars-upper-mount: Mars Upper mount
+  masa-bala: Masa bala
+  master-number: Master number
+  matrikaraka: Matrikaraka
+  maturity-number: Maturity number
+  mean-node: Mean node
+  mercury: Mercury
+  mercury-line: Mercury line
+  mercury-mount: Mercury mount
+  midheaven: Midheaven
+  minor-arcana: Minor Arcana
+  mitra: Mitra
+  modality: Modality
+  moolatrikona: Moolatrikona
+  moon: Moon
+  mount: Mount
+  mriga: Mriga
+  mrigashira: Mrigashira
+  mrita-age-state: Mrita (age state)
+  muhurta: Muhurta
+  mukhya: Mukhya
+  mula: Mula
+  mutable: Mutable
+  nadi: Nadi
+  naga: Naga
+  naisargika-bala: Naisargika bala
+  nakshatra: Nakshatra
+  nakshatra-nadi: Nakshatra Nadi
+  nakshatra-syllable: Nakshatra syllable
+  narayana-dasha: Narayana dasha
+  nathonnata: Nathonnata
+  navagraha: Navagraha
+  navami: Navami
+  neecha-bhanga: Neecha bhanga
+  neecha-bhanga-raja-yoga: Neecha bhanga raja yoga
+  neptune: Neptune
+  nine-of-cups-tarot: Nine Of Cups (Tarot)
+  nine-of-pentacles-tarot: Nine Of Pentacles (Tarot)
+  nine-of-swords-tarot: Nine Of Swords (Tarot)
+  nine-of-wands-tarot: Nine Of Wands (Tarot)
+  nirriti-vastu-guardian: Nirriti (Vastu guardian)
+  non-dominant-hand: Non-dominant hand
+  nukta: Nukta
+  numerology: Numerology
+  ojayugma: Ojayugma
+  opposition: Opposition
+  orb: Orb
+  pada: Pada
+  page-of-cups-tarot: Page Of Cups (Tarot)
+  page-of-pentacles-tarot: Page Of Pentacles (Tarot)
+  page-of-swords-tarot: Page Of Swords (Tarot)
+  page-of-wands-tarot: Page Of Wands (Tarot)
+  paksha: Paksha
+  paksha-bala: Paksha bala
+  palmistry: Palmistry
+  pancha-mahapurusha: Pancha Mahapurusha
+  panchaka: Panchaka
+  panchami: Panchami
+  panchang: Panchang
+  papayakshma: Papayakshma
+  parashari: Parashari
+  parigha-calendar-yoga: Parigha (calendar yoga)
+  parivartana: Parivartana
+  parjanya: Parjanya
+  part-of-fortune: Part of Fortune
+  past-present-future-spread: Past present future spread
+  pentacles: Pentacles
+  personal-day: Personal day
+  personal-month: Personal month
+  personal-year: Personal year
+  personality-number: Personality number
+  pingala-yogini: Pingala Yogini
+  pisces: Pisces
+  pitrikaraka: Pitrikaraka
+  pitris: Pitris
+  pitru-dosha: Pitru dosha
+  placidus: Placidus
+  planet: Planet
+  pluto: Pluto
+  porutham: Porutham
+  pradosh: Pradosh
+  prajapati: Prajapati
+  prashna: Prashna
+  prastara: Prastara
+  pratipada: Pratipada
+  pratyantar: Pratyantar
+  priti-calendar-yoga: Priti (calendar yoga)
+  progression: Progression
+  puja: Puja
+  punarvasu: Punarvasu
+  purnima: Purnima
+  purnimanta: Purnimanta
+  purva-ashadha: Purva Ashadha
+  purva-bhadrapada: Purva Bhadrapada
+  purva-phalguni: Purva Phalguni
+  pushan: Pushan
+  pushya: Pushya
+  putrakaraka: Putrakaraka
+  pythagorean: Pythagorean
+  queen-of-cups-tarot: Queen Of Cups (Tarot)
+  queen-of-pentacles-tarot: Queen Of Pentacles (Tarot)
+  queen-of-swords-tarot: Queen Of Swords (Tarot)
+  queen-of-wands-tarot: Queen Of Wands (Tarot)
+  querent: Querent
+  quincunx: Quincunx
+  rahu: Rahu
+  rahu-kalam: Rahu Kalam
+  raja-yoga: Raja yoga
+  rajju: Rajju
+  rakshasa-gana: Rakshasa Gana
+  rasi: Rasi
+  rasi-drishti: Rasi drishti
+  rectification: Rectification
+  reduction: Reduction
+  rekha: Rekha
+  relationship-spread: Relationship spread
+  relocation: Relocation
+  retrogression: Retrogression
+  revati: Revati
+  reversal: Reversal
+  rider-waite-smith: Rider Waite Smith
+  rog-choghadiya: Rog (Choghadiya)
+  roga: Roga
+  rohini: Rohini
+  root-number: Root number
+  ruchaka-yoga: Ruchaka yoga
+  rudra: Rudra
+  rulership: Rulership
+  ruling-planets: Ruling planets
+  rupa: Rupa
+  sade-sati: Sade Sati
+  sadhya-calendar-yoga: Sadhya (calendar yoga)
+  sagittarius: Sagittarius
+  sakata-yoga: Sakata yoga
+  samudrika: Samudrika
+  sankata-yogini: Sankata Yogini
+  sankranti: Sankranti
+  saptami: Saptami
+  saptavargaja: Saptavargaja
+  sarala-yoga: Sarala yoga
+  saraswati-yoga: Saraswati yoga
+  sarpa: Sarpa
+  sarvashtakavarga: Sarvashtakavarga
+  saturn: Saturn
+  saturn-mount: Saturn mount
+  satya: Satya
+  saubhagya-calendar-yoga: Saubhagya (calendar yoga)
+  saumya: Saumya
+  savana: Savana
+  savitar: Savitar
+  scorpio: Scorpio
+  semi-sextile: Semi-sextile
+  semi-square: Semi-square
+  sesquiquadrate: Sesquiquadrate
+  seven-of-cups-tarot: Seven Of Cups (Tarot)
+  seven-of-pentacles-tarot: Seven Of Pentacles (Tarot)
+  seven-of-swords-tarot: Seven Of Swords (Tarot)
+  seven-of-wands-tarot: Seven Of Wands (Tarot)
+  sextile: Sextile
+  shadbala: Shadbala
+  shadbala-minimum: Shadbala minimum
+  shakuni: Shakuni
+  shasha-yoga: Shasha yoga
+  shashthi: Shashthi
+  shashtiamsa: Shashtiamsa
+  shatabhisha: Shatabhisha
+  shesha: Shesha
+  shiva-calendar-yoga: Shiva (calendar yoga)
+  shobhana-calendar-yoga: Shobhana (calendar yoga)
+  shodasavarga: Shodasavarga
+  shodhana: Shodhana
+  shodhya-pinda: Shodhya pinda
+  short-finger-proportion: Short finger proportion
+  shrapit: Shrapit
+  shravana: Shravana
+  shubh-choghadiya: Shubh (Choghadiya)
+  shubha-calendar-yoga: Shubha (calendar yoga)
+  shukla-calendar-yoga: Shukla (calendar yoga)
+  shukla-paksha: Shukla paksha
+  shula-calendar-yoga: Shula (calendar yoga)
+  siddha-calendar-yoga: Siddha (calendar yoga)
+  siddha-yogini: Siddha Yogini
+  siddhi-calendar-yoga: Siddhi (calendar yoga)
+  sidereal-zodiac: Sidereal zodiac
+  single-card-spread: Single-card spread
+  situation-action-outcome-spread: Situation action outcome spread
+  six-of-cups-tarot: Six Of Cups (Tarot)
+  six-of-pentacles-tarot: Six Of Pentacles (Tarot)
+  six-of-swords-tarot: Six Of Swords (Tarot)
+  six-of-wands-tarot: Six Of Wands (Tarot)
+  solar-arc: Solar arc
+  solar-return: Solar return
+  sookshma: Sookshma
+  soul-urge: Soul urge
+  spread: Spread
+  square: Square
+  square-palm-mark: Square palm mark
+  sripati: Sripati
+  star-lord: Star lord
+  star-palm-mark: Star palm mark
+  station: Station
+  stellium: Stellium
+  sthana-bala: Sthana bala
+  stree-deergha: Stree Deergha
+  strength-tarot: Strength (Tarot)
+  sugriva: Sugriva
+  sukarma-calendar-yoga: Sukarma (calendar yoga)
+  sun: Sun
+  sun-line: Sun line
+  sunapha-yoga: Sunapha yoga
+  swamsa: Swamsa
+  swati: Swati
+  swords: Swords
+  synastry: Synastry
+  synodic-month: Synodic month
+  t-square: T-square
+  taitila: Taitila
+  tajika: Tajika
+  tara: Tara
+  tara-bala: Tara bala
+  tarot: Tarot
+  taurus: Taurus
+  temperance-tarot: Temperance (Tarot)
+  ten-of-cups-tarot: Ten Of Cups (Tarot)
+  ten-of-pentacles-tarot: Ten Of Pentacles (Tarot)
+  ten-of-swords-tarot: Ten Of Swords (Tarot)
+  ten-of-wands-tarot: Ten Of Wands (Tarot)
+  the-chariot-tarot: The Chariot (Tarot)
+  the-devil-tarot: The Devil (Tarot)
+  the-emperor-tarot: The Emperor (Tarot)
+  the-empress-tarot: The Empress (Tarot)
+  the-fool-tarot: The Fool (Tarot)
+  the-hanged-man-tarot: The Hanged Man (Tarot)
+  the-hermit-tarot: The Hermit (Tarot)
+  the-hierophant-tarot: The Hierophant (Tarot)
+  the-high-priestess-tarot: The High Priestess (Tarot)
+  the-lovers-tarot: The Lovers (Tarot)
+  the-magician-tarot: The Magician (Tarot)
+  the-moon-tarot: The Moon (Tarot)
+  the-star-tarot: The Star (Tarot)
+  the-sun-tarot: The Sun (Tarot)
+  the-tower-tarot: The Tower (Tarot)
+  the-world-tarot: The World (Tarot)
+  three-card-spread: Three-card spread
+  three-of-cups-tarot: Three Of Cups (Tarot)
+  three-of-pentacles-tarot: Three Of Pentacles (Tarot)
+  three-of-swords-tarot: Three Of Swords (Tarot)
+  three-of-wands-tarot: Three Of Wands (Tarot)
+  thumb-long-finger-proportion: Thumb Long finger proportion
+  thumb-short-finger-proportion: Thumb Short finger proportion
+  tithi: Tithi
+  transliteration: Transliteration
+  trayodashi: Trayodashi
+  triangle-palm-mark: Triangle palm mark
+  tribhaga: Tribhaga
+  trikona: Trikona
+  trine: Trine
+  triplicity: Triplicity
+  tritiya: Tritiya
+  tropical-zodiac: Tropical zodiac
+  true-node: True node
+  tvashtar: Tvashtar
+  two-of-cups-tarot: Two Of Cups (Tarot)
+  two-of-pentacles-tarot: Two Of Pentacles (Tarot)
+  two-of-swords-tarot: Two Of Swords (Tarot)
+  two-of-wands-tarot: Two Of Wands (Tarot)
+  ubhayachari-yoga: Ubhayachari yoga
+  udveg-choghadiya: Udveg (Choghadiya)
+  ugadi: Ugadi
+  ulka-yogini: Ulka Yogini
+  union-line: Union line
+  upachaya: Upachaya
+  upapada: Upapada
+  upright: Upright
+  uranus: Uranus
+  uttara-ashadha: Uttara Ashadha
+  uttara-bhadrapada: Uttara Bhadrapada
+  uttara-phalguni: Uttara Phalguni
+  vaidhriti-calendar-yoga: Vaidhriti (calendar yoga)
+  vajra-calendar-yoga: Vajra (calendar yoga)
+  vanija: Vanija
+  vara: Vara
+  vara-bala: Vara bala
+  varga: Varga
+  vargottama: Vargottama
+  variyan-calendar-yoga: Variyan (calendar yoga)
+  varna: Varna
+  varshphal: Varshphal
+  varuna-vastu-guardian: Varuna (Vastu guardian)
+  vashya: Vashya
+  vastu: Vastu
+  vastu-zone: Vastu zone
+  vasu: Vasu
+  vasumati-yoga: Vasumati yoga
+  vayu-vastu-guardian: Vayu (Vastu guardian)
+  vedha: Vedha
+  venus: Venus
+  venus-mount: Venus mount
+  vesi-yoga: Vesi yoga
+  vimala-yoga: Vimala yoga
+  vimshopaka: Vimshopaka
+  vimshottari: Vimshottari
+  viparita: Viparita
+  virama: Virama
+  virgo: Virgo
+  virodhargala: Virodhargala
+  virupa: Virupa
+  vishakha: Vishakha
+  vishkambha-calendar-yoga: Vishkambha (calendar yoga)
+  vishnu: Vishnu
+  vishti: Vishti
+  vishvadevas: Vishvadevas
+  vitatha: Vitatha
+  vosi-yoga: Vosi yoga
+  vrata: Vrata
+  vriddha-age-state: Vriddha (age state)
+  vriddhi-calendar-yoga: Vriddhi (calendar yoga)
+  vyaghata-calendar-yoga: Vyaghata (calendar yoga)
+  vyatipata-calendar-yoga: Vyatipata (calendar yoga)
+  wands: Wands
+  water-hand-shape: Water hand shape
+  western-astrology: Western astrology
+  wheel-of-fortune-tarot: Wheel Of Fortune (Tarot)
+  whole-sign: Whole sign
+  yama-vastu-guardian: Yama (Vastu guardian)
+  yamaganda: Yamaganda
+  yod: Yod
+  yoga: Yoga
+  yogakaraka: Yogakaraka
+  yogini: Yogini
+  yoni: Yoni
+  yuddha-bala: Yuddha bala
+  yuva-age-state: Yuva (age state)
+  zodiac: Zodiac

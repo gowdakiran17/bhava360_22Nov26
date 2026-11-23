@@ -1,0 +1,20 @@
+id: glossary.terms.d2
+term:
+  en: D2
+  kn: D2 ಹೋರಾವರ್ಗ
+  hi: D2 होरावर्ग
+sanskrit:
+  devanagari: होरावर्ग
+  kannada: ಹೋರಾವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore resources.
+  kn: ಸಂಪನ್ಮೂಲಗಳು ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: संसाधन को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Odd signs use Leo then Cancer. Even signs reverse the pair.
+aliases:
+- hora chart
+reference_rules:
+- vedic.vargas.d2-placement
+used_by:
+- vedic.vargas.d2-placement

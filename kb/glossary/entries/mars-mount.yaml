@@ -1,0 +1,25 @@
+id: glossary.terms.mars-mount
+term:
+  en: Mars mount
+  kn: ಮಂಗಳ ಭಾಗದಲ್ಲಿ ಉಬ್ಬು, ನಿಖರ ಸ್ಥಳ ತಿಳಿದಿಲ್ಲ
+  hi: मंगल क्षेत्र में उभार, सटीक भाग स्पष्ट नहीं
+sanskrit:
+  devanagari: मङ्गल करतलोन्नति
+  kannada: ಮಙ್ಗಲ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: A raised Mars area, location uncertain.
+  kn: ಮಂಗಳ ಭಾಗದಲ್ಲಿ ಉಬ್ಬು, ನಿಖರ ಸ್ಥಳ ತಿಳಿದಿಲ್ಲ.
+  hi: मंगल क्षेत्र में उभार, सटीक भाग स्पष्ट नहीं।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.mars-left
+- palmistry.mounts.mars-right
+used_by:
+- palmistry.mounts.mars
+- palmistry.mounts.mars-left
+- palmistry.mounts.mars-right
+systems:
+- palmistry

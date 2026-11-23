@@ -1,0 +1,99 @@
+id: glossary.terms.aquarius
+term:
+  en: Aquarius
+  kn: ಕುಂಭ
+  hi: कुंभ
+sanskrit:
+  devanagari: कुम्भ
+  kannada: ಕುಮ್ಭ
+  usage: traditional term
+meaning:
+  en: Sign number 11 in the twelve-part circle, covering degrees 300 to 330.
+  kn: ರಾಶಿಚಕ್ರದ 11ನೇ ಭಾಗ, 300ರಿಂದ 330 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 11, 300 से 330 अंश तक।
+admin_note: 'Application in western.signs.aquarius: The selected tropical point falls in [300, 330) degrees from the
+  March equinox. Fixed air; modern ruler uranus, traditional ruler saturn.'
+aliases:
+- Kumbha
+reference_rules:
+- vedic.signs.aquarius
+used_by:
+- jaimini.arudha-padas.a10
+- jaimini.arudha-padas.a11
+- jaimini.arudha-padas.a2
+- jaimini.arudha-padas.a3
+- jaimini.arudha-padas.a4
+- jaimini.arudha-padas.a5
+- jaimini.arudha-padas.a6
+- jaimini.arudha-padas.a7
+- jaimini.arudha-padas.a8
+- jaimini.arudha-padas.a9
+- jaimini.arudha-padas.arudha-lagna
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada
+- tarot.major-arcana.the-star-reversed
+- tarot.major-arcana.the-star-upright
+- tarot.minor-arcana.five-of-swords-reversed
+- tarot.minor-arcana.five-of-swords-upright
+- tarot.minor-arcana.king-of-cups-reversed
+- tarot.minor-arcana.king-of-cups-upright
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.knight-of-swords-upright
+- tarot.minor-arcana.page-of-swords-reversed
+- tarot.minor-arcana.page-of-swords-upright
+- tarot.minor-arcana.seven-of-swords-reversed
+- tarot.minor-arcana.seven-of-swords-upright
+- tarot.minor-arcana.six-of-swords-reversed
+- tarot.minor-arcana.six-of-swords-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.aquarius-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.revati
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-aquarius
+- vedic.planets-in-signs.ketu-aquarius
+- vedic.planets-in-signs.mars-aquarius
+- vedic.planets-in-signs.mercury-aquarius
+- vedic.planets-in-signs.moon-aquarius
+- vedic.planets-in-signs.rahu-aquarius
+- vedic.planets-in-signs.saturn-aquarius
+- vedic.planets-in-signs.sun-aquarius
+- vedic.planets-in-signs.venus-aquarius
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.aquarius
+- vedic.vargas.d30-placement
+- western.natal.ascendant-aquarius
+- western.natal.jupiter-aquarius
+- western.natal.mars-aquarius
+- western.natal.mercury-aquarius
+- western.natal.moon-aquarius
+- western.natal.neptune-aquarius
+- western.natal.pluto-aquarius
+- western.natal.saturn-aquarius
+- western.natal.sun-aquarius
+- western.natal.uranus-aquarius
+- western.natal.venus-aquarius
+- western.planets.uranus
+- western.signs.aquarius

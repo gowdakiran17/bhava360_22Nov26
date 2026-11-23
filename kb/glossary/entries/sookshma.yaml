@@ -1,0 +1,20 @@
+id: glossary.terms.sookshma
+term:
+  en: Sookshma
+  kn: ಸೂಕ್ಷ್ಮದಶಾ
+  hi: सूक्ष्मदशा
+sanskrit:
+  devanagari: सूक्ष्मदशा
+  kannada: ಸೂಕ್ಷ್ಮದಶಾ
+  usage: traditional term
+meaning:
+  en: A fine time interval obtained by dividing a third-level period again.
+  kn: ಮೂರನೇ ಹಂತದ ಅವಧಿಯನ್ನು ಮತ್ತೆ ಭಾಗಿಸಿ ಪಡೆಯುವ ಅವಧಿ.
+  hi: तीसरे स्तर की अवधि का और छोटा हिस्सा।
+admin_note: Use this label for a fine time interval obtained by dividing a third-level period again. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Sukshma
+reference_rules: []
+used_by:
+- vedic.dashas-vimshottari.sookshma-period

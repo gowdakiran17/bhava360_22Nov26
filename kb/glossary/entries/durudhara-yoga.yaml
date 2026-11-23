@@ -1,0 +1,25 @@
+id: glossary.terms.durudhara-yoga
+term:
+  en: Durudhara yoga
+  kn: ದುರುಧರಾಯೋಗ
+  hi: दुरुधरायोग
+sanskrit:
+  devanagari: दुरुधरायोग
+  kannada: ದುರುಧರಾಯೋಗ
+  usage: traditional term
+meaning:
+  en: Eligible planets occupy the signs on both sides of the Moon.
+  kn: ಚಂದ್ರನ ಎರಡೂ ಬದಿಯ ರಾಶಿಗಳಲ್ಲಿ ಅರ್ಹ ಗ್ರಹಗಳಿರುವುದು.
+  hi: चंद्रमा के दोनों ओर की राशियों में पात्र ग्रह होना।
+admin_note: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the second and twelfth sign(s) counted from
+  the natal Moon; for both sides require a separate occupant on each.
+aliases:
+- durudhara
+reference_rules:
+- vedic.yogas.durudhara
+used_by:
+- vedic.yogas.anapha
+- vedic.yogas.durudhara
+- vedic.yogas.sunapha
+systems:
+- vedic

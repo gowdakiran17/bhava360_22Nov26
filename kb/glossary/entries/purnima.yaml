@@ -1,0 +1,22 @@
+id: glossary.terms.purnima
+term:
+  en: Purnima
+  kn: ಪೂರ್ಣಿಮಾ
+  hi: पूर्णिमा
+sanskrit:
+  devanagari: पूर्णिमा
+  kannada: ಪೂರ್ಣಿಮಾ
+  usage: traditional term
+meaning:
+  en: The full-Moon day at the end of the bright half of the month.
+  kn: ಚಂದ್ರಪಕ್ಷದ 15ನೇ ದಿನ (ಹುಣ್ಣಿಮೆ).
+  hi: चंद्र पक्ष का 15वाँ दिन (पूर्णिमा)।
+admin_note: 'Application in vedic.panchang.purnima: Identify the instantaneous tithi by its one-based number in [15].
+  For the ordinary calendar day label query that number at local sunrise. Retain every actual matching sunrise and the
+  exact interval even when it falls between sunrises.'
+aliases: []
+reference_rules:
+- vedic.panchang.tithi
+used_by:
+- vedic.panchang.purnima
+- vedic.panchang.tithi

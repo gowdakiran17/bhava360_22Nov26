@@ -1,0 +1,33 @@
+id: glossary.terms.ashtakavarga
+term:
+  en: Ashtakavarga
+  kn: ಅಷ್ಟಕವರ್ಗ
+  hi: अष्टकवर्ग
+sanskrit:
+  devanagari: अष्टकवर्ग
+  kannada: ಅಷ್ಟಕವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A method that counts contributions from eight starting points across the signs.
+  kn: ರಾಶಿಗಳಲ್ಲಿ ಎಂಟು ಆರಂಭಿಕ ಸ್ಥಾನಗಳ ಕೊಡುಗೆಗಳನ್ನು ಎಣಿಸುವ ವಿಧಾನ.
+  hi: आठ शुरुआती स्थानों से मिली गिनतियों को राशियों के अनुसार रखने की विधि।
+admin_note: Use this label for a method that counts contributions from eight starting points across the signs. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases:
+- Aṣṭakavarga
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.bindu-steady
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.bindu-take-care
+- vedic.strength-ashtakavarga.jupiter-bav
+- vedic.strength-ashtakavarga.kakshya
+- vedic.strength-ashtakavarga.mars-bav
+- vedic.strength-ashtakavarga.mercury-bav
+- vedic.strength-ashtakavarga.moon-bav
+- vedic.strength-ashtakavarga.sarvashtakavarga
+- vedic.strength-ashtakavarga.saturn-bav
+- vedic.strength-ashtakavarga.shodhana
+- vedic.strength-ashtakavarga.shodhya-pinda
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-ashtakavarga.venus-bav

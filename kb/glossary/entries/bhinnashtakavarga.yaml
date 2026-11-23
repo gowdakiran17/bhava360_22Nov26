@@ -1,0 +1,32 @@
+id: glossary.terms.bhinnashtakavarga
+term:
+  en: Bhinnashtakavarga
+  kn: ಭಿನ್ನಾಷ್ಟಕವರ್ಗ
+  hi: भिन्नाष्टकवर्ग
+sanskrit:
+  devanagari: भिन्नाष्टकवर्ग
+  kannada: ಭಿನ್ನಾಷ್ಟಕವರ್ಗ
+  usage: traditional term
+meaning:
+  en: A table that counts contributions separately for one planet in each sign.
+  kn: ಒಂದು ಗ್ರಹಕ್ಕೆ ಪ್ರತಿ ರಾಶಿಯಲ್ಲಿ ಕೊಡುಗೆಗಳನ್ನು ಎಣಿಸುವ ಕೋಷ್ಟಕ.
+  hi: हर राशि में एक ग्रह के लिए योगदान गिनने की तालिका।
+admin_note: Use this label for a table that counts contributions separately for one planet in each sign. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- BAV
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.bindu-steady
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.bindu-take-care
+- vedic.strength-ashtakavarga.jupiter-bav
+- vedic.strength-ashtakavarga.mars-bav
+- vedic.strength-ashtakavarga.mercury-bav
+- vedic.strength-ashtakavarga.moon-bav
+- vedic.strength-ashtakavarga.sarvashtakavarga
+- vedic.strength-ashtakavarga.saturn-bav
+- vedic.strength-ashtakavarga.shodhana
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-ashtakavarga.venus-bav
+- vedic.transits.raw-bav-kakshya

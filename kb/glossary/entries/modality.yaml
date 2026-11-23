@@ -1,0 +1,38 @@
+id: glossary.terms.modality
+term:
+  en: Modality
+  kn: ರಾಶಿಸ್ವಭಾವ
+  hi: राशिस्वभाव
+sanskrit:
+  devanagari: राशिस्वभाव
+  kannada: ರಾಶಿಸ್ವಭಾವ
+  usage: traditional term
+meaning:
+  en: A way of grouping signs by a pattern of beginning, holding steady or adapting.
+  kn: ಆರಂಭಿಸುವ, ಸ್ಥಿರವಾಗಿರುವ ಅಥವಾ ಹೊಂದಿಕೊಳ್ಳುವ ಗುಣದಿಂದ ರಾಶಿಗಳನ್ನು ವರ್ಗೀಕರಿಸುವ ಕ್ರಮ.
+  hi: शुरुआत, स्थिरता या बदलाव के ढंग से राशियों को समूहों में रखने की विधि।
+admin_note: Use this label for a way of grouping signs by a pattern of beginning, holding steady or adapting. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- jaimini.rashi-drishti.sign-contact
+- vedic.dashas-chara.home-topic
+- vedic.dashas-chara.sign-order
+- vedic.dashas-narayana.progression
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo
+- vedic.vargas.d16-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d45-placement
+- vedic.vargas.d9-placement

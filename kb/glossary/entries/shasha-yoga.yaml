@@ -1,0 +1,22 @@
+id: glossary.terms.shasha-yoga
+term:
+  en: Shasha yoga
+  kn: ಶಶಯೋಗ
+  hi: शशयोग
+sanskrit:
+  devanagari: शशयोग
+  kannada: ಶಶಯೋಗ
+  usage: traditional term
+meaning:
+  en: Saturn occupies a corner of the chart in a sign it rules or where it has special standing.
+  kn: ಶನಿ ತಾನು ಆಳುವ ಅಥವಾ ಹೆಚ್ಚಿನ ಬಲದ ರಾಶಿಯಲ್ಲಿ ನಕ್ಷೆಯ ಮೂಲೆಯ ಸ್ಥಾನದಲ್ಲಿರುವುದು.
+  hi: शनि का अपनी या विशेष बल की राशि में पत्री के कोने पर होना।
+admin_note: Saturn occupies a whole-sign angle from Lagna and its own or exaltation sign.
+aliases:
+- shasha
+reference_rules:
+- vedic.yogas.shasha
+used_by:
+- vedic.yogas.shasha
+systems:
+- vedic

@@ -1,0 +1,22 @@
+id: glossary.terms.mercury-line
+term:
+  en: Mercury line
+  kn: ಬುಧರೇಖಾ
+  hi: बुधरेखा
+sanskrit:
+  devanagari: बुधरेखा
+  kannada: ಬುಧರೇಖಾ
+  usage: traditional term
+meaning:
+  en: A palm crease running towards the base of the little finger.
+  kn: ಕಿರುಬೆರಳಿನ ಬುಡದತ್ತ ಸಾಗುವ ಅಂಗೈ ಗೆರೆ.
+  hi: छोटी उँगली की जड़ की ओर जाती रेखा।
+admin_note: 'Application in palmistry.lines.mercury-right: The user confirmed the illustrated choice on the right hand:
+  Slanting crease toward the little finger.'
+aliases: []
+reference_rules:
+- palmistry.lines.mercury-left
+- palmistry.lines.mercury-right
+used_by:
+- palmistry.lines.mercury-left
+- palmistry.lines.mercury-right

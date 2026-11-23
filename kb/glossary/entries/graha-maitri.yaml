@@ -1,0 +1,20 @@
+id: glossary.terms.graha-maitri
+term:
+  en: Graha Maitri
+  kn: ಗ್ರಹಮೈತ್ರೀ
+  hi: ग्रहमैत्री
+sanskrit:
+  devanagari: ग्रहमैत्री
+  kannada: ಗ್ರಹಮೈತ್ರೀ
+  usage: traditional term
+meaning:
+  en: A matching factor comparing the rulers of two Moon signs and their traditional relationships.
+  kn: ಎರಡು ಚಂದ್ರರಾಶಿಗಳ ಅಧಿಪತಿಗಳ ಸಾಂಪ್ರದಾಯಿಕ ಸಂಬಂಧದ ಹೋಲಿಕೆ.
+  hi: दो चंद्र राशियों के स्वामियों के पारंपरिक संबंध की तुलना।
+admin_note: 'Application in vedic.matching.graha-maitri: Use the two classical Moon-sign rulers and read the natural-relationship
+  matrix in declared order.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.graha-maitri
+- vedic.matching.porutham-rashi-lord

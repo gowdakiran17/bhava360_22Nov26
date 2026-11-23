@@ -1,0 +1,24 @@
+id: glossary.terms.lakshmi-yoga
+term:
+  en: Lakshmi yoga
+  kn: ಲಕ್ಷ್ಮೀಯೋಗ
+  hi: लक्ष्मीयोग
+sanskrit:
+  devanagari: लक्ष्मीयोग
+  kannada: ಲಕ್ಷ್ಮೀಯೋಗ
+  usage: traditional term
+meaning:
+  en: Venus and the ninth house’s ruler occupy traditionally strong places in the chart.
+  kn: ಶುಕ್ರ ಮತ್ತು ಒಂಬತ್ತನೇ ಮನೆಯ ಅಧಿಪತಿ ನಕ್ಷೆಯ ಬಲವಾದ ಸ್ಥಾನಗಳಲ್ಲಿ ಇರುವುದು.
+  hi: शुक्र और नवें घर के स्वामी का पत्री में बल वाली जगहों पर होना।
+admin_note: Both Venus and the ninth lord occupy an own or exaltation sign in an angle or trine from Lagna. When Venus
+  rules the ninth, evaluate its single placement.
+aliases:
+- lakshmi
+reference_rules:
+- vedic.yogas.lakshmi
+used_by:
+- vedic.panchang.deepavali
+- vedic.yogas.lakshmi
+systems:
+- vedic

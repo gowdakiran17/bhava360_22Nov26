@@ -1,0 +1,20 @@
+id: glossary.terms.shodhana
+term:
+  en: Shodhana
+  kn: ಶೋಧನ
+  hi: शोधन
+sanskrit:
+  devanagari: शोधन
+  kannada: ಶೋಧನ
+  usage: traditional term
+meaning:
+  en: A specified reduction of counts before a later calculation.
+  kn: ಮುಂದಿನ ಲೆಕ್ಕಕ್ಕೆ ಮೊದಲು ನಿಗದಿತ ಕ್ರಮದಿಂದ ಮೊತ್ತಗಳನ್ನು ಕಡಿಮೆ ಮಾಡುವುದು.
+  hi: अगली गणना से पहले तय नियम से गिनतियाँ घटाना।
+admin_note: 'Application in vedic.strength-ashtakavarga.shodhana: Copy each raw planetary row. Within each elemental
+  trine, subtract its minimum from every member. Then apply the ordered occupancy cases in reductions.yaml to the five
+  co-owned pairs. Cancer and Leo have no partner. Retain the intermediate and final rows for inspection.'
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.shodhana

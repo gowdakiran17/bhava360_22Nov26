@@ -1,0 +1,25 @@
+id: glossary.terms.eight-of-cups-tarot
+term:
+  en: Eight Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಎಂಟು
+  hi: प्याला · आठ
+sanskrit:
+  devanagari: चषक अष्ट
+  kannada: ಚಷಕ ಅಷ್ಟ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank eight in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಎಂಟು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · आठ की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on leaving something
+  behind. What comes to mind in this position?'
+aliases:
+- Eight Of Cups
+reference_rules:
+- tarot.minor-arcana.eight-of-cups-upright
+- tarot.minor-arcana.eight-of-cups-reversed
+used_by:
+- tarot.minor-arcana.eight-of-cups-reversed
+- tarot.minor-arcana.eight-of-cups-upright
+systems:
+- tarot

@@ -1,0 +1,20 @@
+id: glossary.terms.nakshatra-nadi
+term:
+  en: Nakshatra Nadi
+  kn: ನಕ್ಷತ್ರನಾಡೀ
+  hi: नक्षत्रनाडी
+sanskrit:
+  devanagari: नक्षत्रनाडी
+  kannada: ನಕ್ಷತ್ರನಾಡೀ
+  usage: traditional term
+meaning:
+  en: A birth-star classification used in some traditions, with the specific method chosen before comparison.
+  kn: ಹೋಲಿಕೆಗೆ ಮೊದಲು ವಿಧಾನ ಆಯ್ದು ಬಳಸುವ ಜನ್ಮನಕ್ಷತ್ರಗಳ ವರ್ಗೀಕರಣ.
+  hi: तुलना से पहले विधि चुनकर इस्तेमाल किया जाने वाला जन्म तारों का वर्गीकरण।
+admin_note: This name is reserved by the product plan. It has no active calculation or reading. The Nadi factor in the
+  marriage-matching module has its own glossary entry.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- governance/release-flags/phases.yaml

@@ -1,0 +1,89 @@
+id: glossary.terms.cancer
+term:
+  en: Cancer
+  kn: ಕರ್ಕಾಟಕ
+  hi: कर्क
+sanskrit:
+  devanagari: कर्क
+  kannada: ಕರ್ಕ
+  usage: traditional term
+meaning:
+  en: Sign number 4 in the twelve-part circle, covering degrees 90 to 120.
+  kn: ರಾಶಿಚಕ್ರದ 4ನೇ ಭಾಗ, 90ರಿಂದ 120 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 4, 90 से 120 अंश तक।
+admin_note: 'Application in western.signs.cancer: The selected tropical point falls in [90, 120) degrees from the March
+  equinox. Cardinal water; modern ruler moon, traditional ruler moon.'
+aliases:
+- Karka
+- Karkataka
+reference_rules:
+- vedic.signs.cancer
+used_by:
+- tarot.major-arcana.the-chariot-reversed
+- tarot.major-arcana.the-chariot-upright
+- tarot.minor-arcana.four-of-cups-reversed
+- tarot.minor-arcana.four-of-cups-upright
+- tarot.minor-arcana.knight-of-wands-reversed
+- tarot.minor-arcana.knight-of-wands-upright
+- tarot.minor-arcana.queen-of-cups-reversed
+- tarot.minor-arcana.queen-of-cups-upright
+- tarot.minor-arcana.three-of-cups-reversed
+- tarot.minor-arcana.three-of-cups-upright
+- tarot.minor-arcana.two-of-cups-reversed
+- tarot.minor-arcana.two-of-cups-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.cancer-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.hasta
+- vedic.nakshatras.magha
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.pushya
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shravana
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-cancer
+- vedic.planets-in-signs.ketu-cancer
+- vedic.planets-in-signs.mars-cancer
+- vedic.planets-in-signs.mercury-cancer
+- vedic.planets-in-signs.moon-cancer
+- vedic.planets-in-signs.rahu-cancer
+- vedic.planets-in-signs.saturn-cancer
+- vedic.planets-in-signs.sun-cancer
+- vedic.planets-in-signs.venus-cancer
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.cancer
+- vedic.strength-ashtakavarga.shodhana
+- vedic.vargas.d2-placement
+- vedic.vargas.d24-placement
+- vedic.vargas.d27-placement
+- western.natal.ascendant-cancer
+- western.natal.jupiter-cancer
+- western.natal.mars-cancer
+- western.natal.mercury-cancer
+- western.natal.moon-cancer
+- western.natal.neptune-cancer
+- western.natal.pluto-cancer
+- western.natal.saturn-cancer
+- western.natal.sun-cancer
+- western.natal.uranus-cancer
+- western.natal.venus-cancer
+- western.signs.cancer

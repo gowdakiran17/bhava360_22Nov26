@@ -1,0 +1,88 @@
+id: glossary.terms.libra
+term:
+  en: Libra
+  kn: ತುಲಾ
+  hi: तुला
+sanskrit:
+  devanagari: तुला
+  kannada: ತುಲಾ
+  usage: traditional term
+meaning:
+  en: Sign number 7 in the twelve-part circle, covering degrees 180 to 210.
+  kn: ರಾಶಿಚಕ್ರದ 7ನೇ ಭಾಗ, 180ರಿಂದ 210 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 7, 180 से 210 अंश तक।
+admin_note: 'Application in western.signs.libra: The selected tropical point falls in [180, 210) degrees from the March
+  equinox. Cardinal air; modern ruler venus, traditional ruler venus.'
+aliases:
+- Tula
+reference_rules:
+- vedic.signs.libra
+used_by:
+- tarot.major-arcana.justice-reversed
+- tarot.major-arcana.justice-upright
+- tarot.minor-arcana.four-of-swords-reversed
+- tarot.minor-arcana.four-of-swords-upright
+- tarot.minor-arcana.knight-of-cups-reversed
+- tarot.minor-arcana.knight-of-cups-upright
+- tarot.minor-arcana.queen-of-swords-reversed
+- tarot.minor-arcana.queen-of-swords-upright
+- tarot.minor-arcana.three-of-swords-reversed
+- tarot.minor-arcana.three-of-swords-upright
+- tarot.minor-arcana.two-of-swords-reversed
+- tarot.minor-arcana.two-of-swords-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.libra-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-libra
+- vedic.planets-in-signs.ketu-libra
+- vedic.planets-in-signs.mars-libra
+- vedic.planets-in-signs.mercury-libra
+- vedic.planets-in-signs.moon-libra
+- vedic.planets-in-signs.rahu-libra
+- vedic.planets-in-signs.saturn-libra
+- vedic.planets-in-signs.sun-libra
+- vedic.planets-in-signs.venus-libra
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.libra
+- vedic.vargas.d27-placement
+- vedic.vargas.d30-placement
+- vedic.vargas.d40-placement
+- western.natal.ascendant-libra
+- western.natal.jupiter-libra
+- western.natal.mars-libra
+- western.natal.mercury-libra
+- western.natal.moon-libra
+- western.natal.neptune-libra
+- western.natal.pluto-libra
+- western.natal.saturn-libra
+- western.natal.sun-libra
+- western.natal.uranus-libra
+- western.natal.venus-libra
+- western.signs.libra

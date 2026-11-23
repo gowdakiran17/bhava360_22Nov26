@@ -1,0 +1,23 @@
+id: glossary.terms.pitris
+term:
+  en: Pitris
+  kn: ಪಿತರಃ
+  hi: पितरः
+sanskrit:
+  devanagari: पितरः
+  kannada: ಪಿತರಃ
+  usage: traditional term
+meaning:
+  en: Pitris is a traditional figure associated with Magha.
+  kn: 'ಚಂದ್ರನ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಹೆಸರು: ಮಘಾ.'
+  hi: 'चंद्र पथ के इस हिस्से से जुड़ा पारंपरिक नाम: मघा।'
+admin_note: This name identifies the symbolic attribution in the cited KB table. Read the linked star entries for the
+  source and any competing assignment. The entrance grid places it at W1.
+aliases:
+- Pitri
+reference_rules:
+- vedic.nakshatras.magha
+used_by:
+- vedic.nakshatras.magha
+used_in_files:
+- vastu/entrances/padas.yaml

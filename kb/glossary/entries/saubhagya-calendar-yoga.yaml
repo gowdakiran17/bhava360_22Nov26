@@ -1,0 +1,31 @@
+id: glossary.terms.saubhagya-calendar-yoga
+term:
+  en: Saubhagya (calendar yoga)
+  kn: ಸೌಭಾಗ್ಯ
+  hi: सौभाग्य
+sanskrit:
+  devanagari: सौभाग्य
+  kannada: ಸೌಭಾಗ್ಯ
+  usage: traditional term
+meaning:
+  en: Interval 4 of 27 found by adding the positions of the Sun and Moon.
+  kn: ಸೂರ್ಯ ಮತ್ತು ಚಂದ್ರನ ಸ್ಥಾನಗಳನ್ನು ಕೂಡಿಸಿ ಪಡೆಯುವ ೨೭ ಅವಧಿಗಳಲ್ಲಿ 4ನೇ ಭಾಗ.
+  hi: सूर्य और चंद्रमा की जगह जोड़ने से मिलने वाले २७ हिस्सों में क्रम 4।
+admin_note: 'Application in vedic.panchang.yoga: Use 1 + floor(((sidereal Moon + sidereal Sun) modulo a turn) / 48000
+  arcseconds). Select the ordered yoga and solve the bracketing sum-angle crossings.'
+aliases:
+- Saubhagya
+reference_rules:
+- vedic.panchang.yoga
+used_by:
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.panchang.yoga
+systems:
+- vedic

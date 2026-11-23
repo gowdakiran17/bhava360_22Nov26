@@ -1,0 +1,82 @@
+id: glossary.terms.sagittarius
+term:
+  en: Sagittarius
+  kn: ಧನು
+  hi: धनु
+sanskrit:
+  devanagari: धनुस्
+  kannada: ಧನುಸ್
+  usage: traditional term
+meaning:
+  en: Sign number 9 in the twelve-part circle, covering degrees 240 to 270.
+  kn: ರಾಶಿಚಕ್ರದ 9ನೇ ಭಾಗ, 240ರಿಂದ 270 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 9, 240 से 270 अंश तक।
+admin_note: 'Application in western.signs.sagittarius: The selected tropical point falls in [240, 270) degrees from the
+  March equinox. Mutable fire; modern ruler jupiter, traditional ruler jupiter.'
+aliases:
+- Dhanu
+reference_rules:
+- vedic.signs.sagittarius
+used_by:
+- tarot.major-arcana.temperance-reversed
+- tarot.major-arcana.temperance-upright
+- tarot.minor-arcana.eight-of-wands-reversed
+- tarot.minor-arcana.eight-of-wands-upright
+- tarot.minor-arcana.king-of-wands-reversed
+- tarot.minor-arcana.king-of-wands-upright
+- tarot.minor-arcana.nine-of-wands-reversed
+- tarot.minor-arcana.nine-of-wands-upright
+- tarot.minor-arcana.queen-of-pentacles-reversed
+- tarot.minor-arcana.queen-of-pentacles-upright
+- tarot.minor-arcana.ten-of-wands-reversed
+- tarot.minor-arcana.ten-of-wands-upright
+- vedic.doshas.mars-partnership
+- vedic.lordships.sagittarius-lagna-lord
+- vedic.muhurta.education-start
+- vedic.muhurta.travel
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.mula
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.revati
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-sagittarius
+- vedic.planets-in-signs.ketu-sagittarius
+- vedic.planets-in-signs.mars-sagittarius
+- vedic.planets-in-signs.mercury-sagittarius
+- vedic.planets-in-signs.moon-sagittarius
+- vedic.planets-in-signs.rahu-sagittarius
+- vedic.planets-in-signs.saturn-sagittarius
+- vedic.planets-in-signs.sun-sagittarius
+- vedic.planets-in-signs.venus-sagittarius
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.sagittarius
+- vedic.vargas.d16-placement
+- vedic.vargas.d20-placement
+- vedic.vargas.d30-placement
+- vedic.vargas.d45-placement
+- western.natal.ascendant-sagittarius
+- western.natal.jupiter-sagittarius
+- western.natal.mars-sagittarius
+- western.natal.mercury-sagittarius
+- western.natal.moon-sagittarius
+- western.natal.neptune-sagittarius
+- western.natal.pluto-sagittarius
+- western.natal.saturn-sagittarius
+- western.natal.sun-sagittarius
+- western.natal.uranus-sagittarius
+- western.natal.venus-sagittarius
+- western.signs.sagittarius

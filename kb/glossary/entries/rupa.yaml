@@ -1,0 +1,43 @@
+id: glossary.terms.rupa
+term:
+  en: Rupa
+  kn: ರೂಪ
+  hi: रूप
+sanskrit:
+  devanagari: रूप
+  kannada: ರೂಪ
+  usage: traditional term
+meaning:
+  en: A full unit of planetary strength, equal to sixty smaller units.
+  kn: ಗ್ರಹಬಲದ ಅರವತ್ತು ಚಿಕ್ಕ ಘಟಕಗಳಿಗೆ ಸಮವಾದ ಪೂರ್ಣ ಘಟಕ.
+  hi: ग्रह बल की पूरी इकाई जिसमें साठ छोटी इकाइयाँ होती हैं।
+admin_note: Use this label for a full unit of planetary strength, equal to sixty smaller units. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Rupas
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.abda
+- vedic.strength-shadbala.ayana
+- vedic.strength-shadbala.cheshta
+- vedic.strength-shadbala.dig
+- vedic.strength-shadbala.drekkana
+- vedic.strength-shadbala.drik
+- vedic.strength-shadbala.hora
+- vedic.strength-shadbala.kala
+- vedic.strength-shadbala.kendradi
+- vedic.strength-shadbala.masa
+- vedic.strength-shadbala.naisargika
+- vedic.strength-shadbala.nathonnata
+- vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.paksha
+- vedic.strength-shadbala.saptavargaja
+- vedic.strength-shadbala.sthana
+- vedic.strength-shadbala.totals
+- vedic.strength-shadbala.tribhaga
+- vedic.strength-shadbala.uchcha
+- vedic.strength-shadbala.vara
+- vedic.strength-shadbala.yuddha
+- vedic.transits.saturn-moon-house-5
+- vedic.vargas.d60-placement
+- western.patterns.grand-trine

@@ -1,0 +1,20 @@
+id: glossary.terms.gulika-kalam
+term:
+  en: Gulika Kalam
+  kn: ಗುಲಿಕಕಾಲ
+  hi: गुलिककाल
+sanskrit:
+  devanagari: गुलिककाल
+  kannada: ಗುಲಿಕಕಾಲ
+  usage: traditional term
+meaning:
+  en: One of eight daylight sections identified by a weekday rule.
+  kn: ವಾರದ ನಿಯಮದಿಂದ ಗುರುತಿಸುವ ಹಗಲಿನ ಎಂಟು ಭಾಗಗಳಲ್ಲಿ ಒಂದು.
+  hi: दिन के आठ हिस्सों में वार के नियम से तय एक हिस्सा।
+admin_note: 'Application in vedic.panchang.gulika-kalam: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.gulika.
+  Let D = (sunset − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.'
+aliases:
+- Gulika
+reference_rules: []
+used_by:
+- vedic.panchang.gulika-kalam

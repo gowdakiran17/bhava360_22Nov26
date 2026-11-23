@@ -1,0 +1,24 @@
+id: glossary.terms.square-palm-mark
+term:
+  en: Square palm mark
+  kn: ಚತುರ್ಭುಜ ರೂಪಿಸುವ ನಾಲ್ಕು ಗೆರೆಗಳು
+  hi: चार रेखाओं से घिरा छोटा चौकोर भाग
+sanskrit:
+  devanagari: चतुष्कोण करचिह्न
+  kannada: ಚತುಷ್ಕೋಣ ಕರಚಿಹ್ನ
+  usage: descriptive equivalent
+meaning:
+  en: Four strokes enclosing a small quadrangle.
+  kn: ಚತುರ್ಭುಜ ರೂಪಿಸುವ ನಾಲ್ಕು ಗೆರೆಗಳು.
+  hi: चार रेखाओं से घिरा छोटा चौकोर भाग।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.marks.square-left
+- palmistry.marks.square-right
+used_by:
+- palmistry.marks.square-left
+- palmistry.marks.square-right
+systems:
+- palmistry

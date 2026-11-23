@@ -1,0 +1,49 @@
+id: glossary.terms.abhijit
+term:
+  en: Abhijit
+  kn: ಅಭಿಜಿತ್
+  hi: अभिजित्
+sanskrit:
+  devanagari: अभिजित्
+  kannada: ಅಭಿಜಿತ್
+  usage: traditional term
+meaning:
+  en: An additional star section used in some twenty-eight-part lists.
+  kn: ಕೆಲವು ೨೮ ಭಾಗಗಳ ಪಟ್ಟಿಗಳ ಹೆಚ್ಚುವರಿ ನಕ್ಷತ್ರ.
+  hi: कुछ अट्ठाईस खंड वाली सूचियों का अतिरिक्त तारा खंड।
+admin_note: Use this label for an additional star section used in some twenty-eight-part lists. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.dashas-ashtottari.conditional-cycle
+- vedic.dashas-ashtottari.learning-topic
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.panchang.abhijit-muhurta
+- vedic.panchang.nakshatra

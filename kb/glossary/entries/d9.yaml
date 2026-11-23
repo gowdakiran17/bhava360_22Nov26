@@ -1,0 +1,59 @@
+id: glossary.terms.d9
+term:
+  en: D9
+  kn: D9 ನವಾಂಶ
+  hi: D9 नवांश
+sanskrit:
+  devanagari: नवांश
+  kannada: ನವಾಂಶ
+  usage: traditional term
+meaning:
+  en: A chart calculated from subdivisions of each sign to explore partnership.
+  kn: ಸಹಭಾಗಿತ್ವ ವಿಷಯವನ್ನು ನೋಡಲು ಬಳಸುವ ನಕ್ಷೆ.
+  hi: साझेदारी को समझने के लिए देखी जाने वाली पत्री।
+admin_note: Start at the natal sign for movable signs, its ninth for fixed signs and its fifth for dual signs.
+aliases:
+- Navamsa
+- Navamsha
+reference_rules:
+- vedic.vargas.d9-placement
+used_by:
+- jaimini.karakamsa.atmakaraka
+- jaimini.karakamsa.d1-projection
+- jaimini.karakamsa.swamsa
+- vedic.matching.chart-cross-check
+- vedic.matching.graha-maitri
+- vedic.muhurta.griha-pravesha
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.states.vargottama
+- vedic.strength-shadbala.ojayugma
+- vedic.vargas.d9-placement
+- vedic.yogas.kemadruma
+- vedic.yogas.neecha-bhanga
+- vedic.yogas.neecha-bhanga-raja

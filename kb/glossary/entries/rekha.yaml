@@ -1,0 +1,25 @@
+id: glossary.terms.rekha
+term:
+  en: Rekha
+  kn: ರೇಖಾ
+  hi: रेखा
+sanskrit:
+  devanagari: रेखा
+  kannada: ರೇಖಾ
+  usage: traditional term
+meaning:
+  en: A stroke used to record a count in some traditional tables.
+  kn: ಕೆಲವು ಸಾಂಪ್ರದಾಯಿಕ ಕೋಷ್ಟಕಗಳಲ್ಲಿ ಎಣಿಕೆಯನ್ನು ಗುರುತಿಸುವ ಗೆರೆ.
+  hi: कुछ पारंपरिक तालिकाओं में गिनती लिखने का निशान।
+admin_note: Use this label for a stroke used to record a count in some traditional tables. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.strength-ashtakavarga.jupiter-bav
+- vedic.strength-ashtakavarga.mars-bav
+- vedic.strength-ashtakavarga.mercury-bav
+- vedic.strength-ashtakavarga.moon-bav
+- vedic.strength-ashtakavarga.saturn-bav
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-ashtakavarga.venus-bav

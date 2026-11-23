@@ -1,0 +1,20 @@
+id: glossary.terms.fixed-sign
+term:
+  en: Fixed sign
+  kn: ಸ್ಥಿರರಾಶಿ
+  hi: स्थिरराशि
+sanskrit:
+  devanagari: स्थिरराशि
+  kannada: ಸ್ಥಿರರಾಶಿ
+  usage: traditional term
+meaning:
+  en: A sign in the group associated with maintaining a steady course.
+  kn: ಸ್ಥಿರವಾಗಿ ಮುಂದುವರಿಯುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಗುಂಪಿನ ರಾಶಿ.
+  hi: स्थिरता बनाए रखने से जुड़े समूह की राशि।
+admin_note: 'Application in vedic.signs.taurus: Match the selected D1 graha or ascendant when its stable sidereal sign
+  is Vrishabha.'
+aliases: []
+reference_rules:
+- vedic.signs.taurus
+used_by:
+- vedic.signs.taurus

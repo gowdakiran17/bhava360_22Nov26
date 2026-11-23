@@ -1,0 +1,25 @@
+id: glossary.terms.ten-of-cups-tarot
+term:
+  en: Ten Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಹತ್ತು
+  hi: प्याला · दस
+sanskrit:
+  devanagari: चषक दश
+  kannada: ಚಷಕ ದಶ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank ten in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಹತ್ತು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · दस की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on shared happiness.
+  What comes to mind in this position?'
+aliases:
+- Ten Of Cups
+reference_rules:
+- tarot.minor-arcana.ten-of-cups-upright
+- tarot.minor-arcana.ten-of-cups-reversed
+used_by:
+- tarot.minor-arcana.ten-of-cups-reversed
+- tarot.minor-arcana.ten-of-cups-upright
+systems:
+- tarot

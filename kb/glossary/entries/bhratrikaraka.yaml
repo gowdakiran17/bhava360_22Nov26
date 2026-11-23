@@ -1,0 +1,20 @@
+id: glossary.terms.bhratrikaraka
+term:
+  en: Bhratrikaraka
+  kn: ಭ್ರಾತೃಕಾರಕ
+  hi: भ्रातृकारक
+sanskrit:
+  devanagari: भ्रातृकारक
+  kannada: ಭ್ರಾತೃಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent siblings by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ಒಡಹುಟ್ಟಿದವರು ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से भाई-बहन का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds BK: rank 3 of seven or rank 3 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.bhratrikaraka
+used_by:
+- jaimini.chara-karakas.bhratrikaraka

@@ -1,0 +1,33 @@
+id: glossary.terms.virama
+term:
+  en: Virama
+  kn: ವಿರಾಮ
+  hi: विराम
+sanskrit:
+  devanagari: विराम
+  kannada: ವಿರಾಮ
+  usage: traditional term
+meaning:
+  en: A writing mark that removes the vowel normally read after a consonant.
+  kn: ವ್ಯಂಜನದ ನಂತರ ಸಾಮಾನ್ಯವಾಗಿ ಓದುವ ಸ್ವರವನ್ನು ತೆಗೆದುಹಾಕುವ ಗುರುತು.
+  hi: व्यंजन के बाद सामान्यतः पढ़े जाने वाले स्वर को हटाने का चिह्न।
+admin_note: Use this label for a writing mark that removes the vowel normally read after a consonant. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- palmistry.lines.life-short-left
+- palmistry.lines.life-short-right
+- palmistry.mounts.mars-upper-left
+- palmistry.mounts.mars-upper-right
+- remedies.conduct.moon
+- tarot.minor-arcana.four-of-swords-upright
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.nine-of-wands-reversed
+- vedic.matching.porutham-vedha
+- vedic.signs.scorpio
+- vedic.states.baladi
+- vedic.transits.mars-moon-house-7
+- vedic.transits.station
+used_in_files:
+- numerology/transliteration.yaml

@@ -1,0 +1,27 @@
+id: glossary.terms.cardinal
+term:
+  en: Cardinal
+  kn: ಚರರಾಶಿ
+  hi: चरराशि
+sanskrit:
+  devanagari: चरराशि
+  kannada: ಚರರಾಶಿ
+  usage: traditional term
+meaning:
+  en: A sign in the group associated with starting a new phase.
+  kn: ಹೊಸ ಹಂತ ಆರಂಭಿಸುವುದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಗುಂಪಿನ ರಾಶಿ.
+  hi: नया चरण शुरू करने से जुड़े समूह की राशि।
+admin_note: Use this label for a sign in the group associated with starting a new phase. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- movable sign
+reference_rules: []
+used_by:
+- vedic.dashas-chara.home-topic
+- vedic.dashas-chara.sign-order
+- vedic.dashas-narayana.partnership-topic
+- vedic.dashas-narayana.progression
+- western.signs.aries
+- western.signs.cancer
+- western.signs.capricorn
+- western.signs.libra

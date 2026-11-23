@@ -1,0 +1,22 @@
+id: glossary.terms.situation-action-outcome-spread
+term:
+  en: Situation action outcome spread
+  kn: ಸ್ಥಿತಿ ಕ್ರಮ ಫಲದ ಪತ್ರ ವಿನ್ಯಾಸ
+  hi: स्थिति कदम परिणाम का विन्यास
+sanskrit:
+  devanagari: स्थितिक्रियाफलपत्रविन्यास
+  kannada: ಸ್ಥಿತಿಕ್ರಿಯಾಫಲಪತ್ರವಿನ್ಯಾಸ
+  usage: descriptive equivalent
+meaning:
+  en: Three cards explore a situation, an available action and a possible result.
+  kn: ಒಂದು ಸ್ಥಿತಿ, ಆಯ್ಕೆ ಮಾಡಬಹುದಾದ ಕ್ರಮ ಮತ್ತು ಸಾಧ್ಯ ಫಲಕ್ಕಾಗಿ ಮೂರು ಪತ್ರಗಳು.
+  hi: स्थिति, एक संभव कदम और संभावित नतीजे के लिए तीन पत्ते।
+admin_note: 'Read the positions in order: situation, choice-of-action, possible-outcome. The final prompt invites reflection
+  or a chosen action.'
+aliases: []
+reference_rules:
+- situation-action-outcome
+used_by:
+- situation-action-outcome
+systems:
+- tarot

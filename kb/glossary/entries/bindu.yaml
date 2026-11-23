@@ -1,0 +1,34 @@
+id: glossary.terms.bindu
+term:
+  en: Bindu
+  kn: ಬಿನ್ದು
+  hi: बिन्दु
+sanskrit:
+  devanagari: बिन्दु
+  kannada: ಬಿನ್ದು
+  usage: traditional term
+meaning:
+  en: A single contribution counted in a traditional planet table.
+  kn: ಗ್ರಹದ ಸಾಂಪ್ರದಾಯಿಕ ಕೋಷ್ಟಕದಲ್ಲಿ ಎಣಿಸುವ ಒಂದು ಕೊಡುಗೆ.
+  hi: ग्रह की पारंपरिक तालिका में जोड़ी जाने वाली एक इकाई।
+admin_note: Use this label for a single contribution counted in a traditional planet table. Read the linked entries for
+  the applicable conditions and differences between methods.
+aliases:
+- bindus
+- Contribution point
+- ಬಿಂದು
+- बिंदु
+reference_rules: []
+used_by:
+- vedic.prashna.kp-horary
+- vedic.strength-ashtakavarga.bindu-steady
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.bindu-take-care
+- vedic.strength-ashtakavarga.jupiter-bav
+- vedic.strength-ashtakavarga.mars-bav
+- vedic.strength-ashtakavarga.mercury-bav
+- vedic.strength-ashtakavarga.moon-bav
+- vedic.strength-ashtakavarga.saturn-bav
+- vedic.strength-ashtakavarga.sun-bav
+- vedic.strength-ashtakavarga.venus-bav
+- vedic.transits.raw-bav-kakshya

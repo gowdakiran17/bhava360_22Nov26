@@ -1,0 +1,76 @@
+id: glossary.terms.rasi
+term:
+  en: Rasi
+  kn: ರಾಶಿ
+  hi: राशि
+sanskrit:
+  devanagari: राशि
+  kannada: ರಾಶಿ
+  usage: traditional term
+meaning:
+  en: One of twelve equal sections of the path used to mark positions in the sky.
+  kn: ಆಕಾಶದ ಸ್ಥಾನಗಳನ್ನು ಗುರುತಿಸುವ ಮಾರ್ಗದ ಹನ್ನೆರಡು ಸಮಭಾಗಗಳಲ್ಲಿ ಒಂದು.
+  hi: आकाश में स्थिति बताने वाले मार्ग के बारह बराबर भागों में से एक।
+admin_note: Use this label for one of twelve equal sections of the path used to mark positions in the sky. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases:
+- Rashi
+- zodiac sign
+- Raasi
+reference_rules: []
+used_by:
+- jaimini.chara-dasha.sign-chapter
+- jaimini.raja-yogas.lords-aspect-anchors
+- jaimini.rashi-drishti.sign-contact
+- vedic.dashas-chara.sign-order
+- vedic.dashas-kalachakra.study-topic
+- vedic.dashas-narayana.progression
+- vedic.matching.bhakoot
+- vedic.matching.graha-maitri
+- vedic.matching.porutham-rashi
+- vedic.matching.porutham-rashi-lord
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.ashwini
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.hasta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.magha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.mula
+- vedic.nakshatras.punarvasu
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-bhadrapada
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.revati
+- vedic.nakshatras.rohini
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.uttara-phalguni
+- vedic.nakshatras.vishakha
+- vedic.panchang.sankranti
+- vedic.signs.aquarius
+- vedic.signs.aries
+- vedic.signs.cancer
+- vedic.signs.capricorn
+- vedic.signs.gemini
+- vedic.signs.leo
+- vedic.signs.libra
+- vedic.signs.pisces
+- vedic.signs.sagittarius
+- vedic.signs.scorpio
+- vedic.signs.taurus
+- vedic.signs.virgo
+- vedic.strength-ashtakavarga.bindu-support
+- vedic.strength-ashtakavarga.shodhya-pinda
+- vedic.transits.over-natal-graha
+- vedic.vargas.d1-placement
+- western.houses.polar-fallback

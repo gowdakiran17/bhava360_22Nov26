@@ -1,0 +1,25 @@
+id: glossary.terms.the-high-priestess-tarot
+term:
+  en: The High Priestess (Tarot)
+  kn: ಪ್ರಧಾನ ಅರ್ಚಕಿ (ಟ್ಯಾರೊ)
+  hi: महापुरोहिता (टैरो)
+sanskrit:
+  devanagari: महापुरोहिता
+  kannada: ಮಹಾಪುರೋಹಿತಾ
+  usage: descriptive rendering of card title
+meaning:
+  en: A named picture card, numbered 2, used as a prompt for reflection.
+  kn: ಚಿಂತನೆಗೆ ಬಳಸುವ 2 ಸಂಖ್ಯೆಯ ಚಿತ್ರಪತ್ರ.
+  hi: चिंतन के लिए चित्र वाला पत्ता, जिसका क्रमांक 2 है।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on quiet observation.
+  What comes to mind in this position?'
+aliases:
+- The High Priestess
+reference_rules:
+- tarot.major-arcana.the-high-priestess-upright
+- tarot.major-arcana.the-high-priestess-reversed
+used_by:
+- tarot.major-arcana.the-high-priestess-reversed
+- tarot.major-arcana.the-high-priestess-upright
+systems:
+- tarot

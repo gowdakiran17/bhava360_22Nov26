@@ -1,0 +1,21 @@
+id: glossary.terms.yogini
+term:
+  en: Yogini
+  kn: ಯೋಗಿನೀ
+  hi: योगिनी
+sanskrit:
+  devanagari: योगिनी
+  kannada: ಯೋಗಿನೀ
+  usage: traditional term
+meaning:
+  en: A repeating sequence of eight periods lasting 36 years in total.
+  kn: ಎಂಟು ಅವಧಿಗಳ ೩೬ ವರ್ಷದ ಚಕ್ರ.
+  hi: आठ अवधियों का ३६ वर्ष का चक्र।
+admin_note: Use this label for a repeating sequence of eight periods lasting 36 years in total. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.dashas-yogini.balance-calculation
+- vedic.dashas-yogini.lord-change
+- vedic.dashas-yogini.work-topic

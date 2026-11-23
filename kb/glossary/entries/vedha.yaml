@@ -1,0 +1,144 @@
+id: glossary.terms.vedha
+term:
+  en: Vedha
+  kn: ವೇಧ
+  hi: वेध
+sanskrit:
+  devanagari: वेध
+  kannada: ವೇಧ
+  usage: traditional term
+meaning:
+  en: A blocking relationship between positions, used differently in transit reading and marriage matching.
+  kn: ಸಂಚಾರ ಅಥವಾ ಹೊಂದಾಣಿಕೆಯ ವಿಧಾನದಲ್ಲಿ ತಡೆಯೆಂದು ಪರಿಗಣಿಸುವ ಸಂಬಂಧ.
+  hi: गोचर या मिलान की पद्धति में रुकावट माना गया संबंध।
+admin_note: Use this label for a blocking relationship between positions, used differently in transit reading and marriage
+  matching. Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.matching.porutham-vedha
+- vedic.transits.ashtama-shani
+- vedic.transits.business-watch
+- vedic.transits.career-watch
+- vedic.transits.children-watch
+- vedic.transits.family-home-watch
+- vedic.transits.health-watch
+- vedic.transits.jupiter-moon-house-1
+- vedic.transits.jupiter-moon-house-10
+- vedic.transits.jupiter-moon-house-11
+- vedic.transits.jupiter-moon-house-12
+- vedic.transits.jupiter-moon-house-2
+- vedic.transits.jupiter-moon-house-3
+- vedic.transits.jupiter-moon-house-4
+- vedic.transits.jupiter-moon-house-5
+- vedic.transits.jupiter-moon-house-6
+- vedic.transits.jupiter-moon-house-7
+- vedic.transits.jupiter-moon-house-8
+- vedic.transits.jupiter-moon-house-9
+- vedic.transits.kantaka-shani
+- vedic.transits.ketu-moon-house-1
+- vedic.transits.ketu-moon-house-10
+- vedic.transits.ketu-moon-house-11
+- vedic.transits.ketu-moon-house-12
+- vedic.transits.ketu-moon-house-2
+- vedic.transits.ketu-moon-house-3
+- vedic.transits.ketu-moon-house-4
+- vedic.transits.ketu-moon-house-5
+- vedic.transits.ketu-moon-house-6
+- vedic.transits.ketu-moon-house-7
+- vedic.transits.ketu-moon-house-8
+- vedic.transits.ketu-moon-house-9
+- vedic.transits.learning-watch
+- vedic.transits.love-marriage-watch
+- vedic.transits.mars-moon-house-1
+- vedic.transits.mars-moon-house-10
+- vedic.transits.mars-moon-house-11
+- vedic.transits.mars-moon-house-12
+- vedic.transits.mars-moon-house-2
+- vedic.transits.mars-moon-house-3
+- vedic.transits.mars-moon-house-4
+- vedic.transits.mars-moon-house-5
+- vedic.transits.mars-moon-house-6
+- vedic.transits.mars-moon-house-7
+- vedic.transits.mars-moon-house-8
+- vedic.transits.mars-moon-house-9
+- vedic.transits.mercury-moon-house-1
+- vedic.transits.mercury-moon-house-10
+- vedic.transits.mercury-moon-house-11
+- vedic.transits.mercury-moon-house-12
+- vedic.transits.mercury-moon-house-2
+- vedic.transits.mercury-moon-house-3
+- vedic.transits.mercury-moon-house-4
+- vedic.transits.mercury-moon-house-5
+- vedic.transits.mercury-moon-house-6
+- vedic.transits.mercury-moon-house-7
+- vedic.transits.mercury-moon-house-8
+- vedic.transits.mercury-moon-house-9
+- vedic.transits.money-watch
+- vedic.transits.moon-moon-house-1
+- vedic.transits.moon-moon-house-10
+- vedic.transits.moon-moon-house-11
+- vedic.transits.moon-moon-house-12
+- vedic.transits.moon-moon-house-2
+- vedic.transits.moon-moon-house-3
+- vedic.transits.moon-moon-house-4
+- vedic.transits.moon-moon-house-5
+- vedic.transits.moon-moon-house-6
+- vedic.transits.moon-moon-house-7
+- vedic.transits.moon-moon-house-8
+- vedic.transits.moon-moon-house-9
+- vedic.transits.property-vehicles-watch
+- vedic.transits.rahu-moon-house-1
+- vedic.transits.rahu-moon-house-10
+- vedic.transits.rahu-moon-house-11
+- vedic.transits.rahu-moon-house-12
+- vedic.transits.rahu-moon-house-2
+- vedic.transits.rahu-moon-house-3
+- vedic.transits.rahu-moon-house-4
+- vedic.transits.rahu-moon-house-5
+- vedic.transits.rahu-moon-house-6
+- vedic.transits.rahu-moon-house-7
+- vedic.transits.rahu-moon-house-8
+- vedic.transits.rahu-moon-house-9
+- vedic.transits.sade-sati-closing
+- vedic.transits.sade-sati-middle
+- vedic.transits.sade-sati-rising
+- vedic.transits.saturn-moon
+- vedic.transits.saturn-moon-house-10
+- vedic.transits.saturn-moon-house-11
+- vedic.transits.saturn-moon-house-12
+- vedic.transits.saturn-moon-house-2
+- vedic.transits.saturn-moon-house-3
+- vedic.transits.saturn-moon-house-4
+- vedic.transits.saturn-moon-house-5
+- vedic.transits.saturn-moon-house-6
+- vedic.transits.saturn-moon-house-7
+- vedic.transits.saturn-moon-house-8
+- vedic.transits.saturn-moon-house-9
+- vedic.transits.spirituality-watch
+- vedic.transits.sun-moon-house-1
+- vedic.transits.sun-moon-house-10
+- vedic.transits.sun-moon-house-11
+- vedic.transits.sun-moon-house-12
+- vedic.transits.sun-moon-house-2
+- vedic.transits.sun-moon-house-3
+- vedic.transits.sun-moon-house-4
+- vedic.transits.sun-moon-house-5
+- vedic.transits.sun-moon-house-6
+- vedic.transits.sun-moon-house-7
+- vedic.transits.sun-moon-house-8
+- vedic.transits.sun-moon-house-9
+- vedic.transits.travel-relocation-watch
+- vedic.transits.vedha-obstruction
+- vedic.transits.venus-moon-house-1
+- vedic.transits.venus-moon-house-10
+- vedic.transits.venus-moon-house-11
+- vedic.transits.venus-moon-house-12
+- vedic.transits.venus-moon-house-2
+- vedic.transits.venus-moon-house-3
+- vedic.transits.venus-moon-house-4
+- vedic.transits.venus-moon-house-5
+- vedic.transits.venus-moon-house-6
+- vedic.transits.venus-moon-house-7
+- vedic.transits.venus-moon-house-8
+- vedic.transits.venus-moon-house-9

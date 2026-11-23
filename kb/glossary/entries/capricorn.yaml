@@ -1,0 +1,86 @@
+id: glossary.terms.capricorn
+term:
+  en: Capricorn
+  kn: ಮಕರ
+  hi: मकर
+sanskrit:
+  devanagari: मकर
+  kannada: ಮಕರ
+  usage: traditional term
+meaning:
+  en: Sign number 10 in the twelve-part circle, covering degrees 270 to 300.
+  kn: ರಾಶಿಚಕ್ರದ 10ನೇ ಭಾಗ, 270ರಿಂದ 300 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 10, 270 से 300 अंश तक।
+admin_note: 'Application in western.signs.capricorn: The selected tropical point falls in [270, 300) degrees from the
+  March equinox. Cardinal earth; modern ruler saturn, traditional ruler saturn.'
+aliases:
+- Makara
+reference_rules:
+- vedic.signs.capricorn
+used_by:
+- tarot.major-arcana.the-devil-reversed
+- tarot.major-arcana.the-devil-upright
+- tarot.minor-arcana.four-of-pentacles-reversed
+- tarot.minor-arcana.four-of-pentacles-upright
+- tarot.minor-arcana.knight-of-swords-reversed
+- tarot.minor-arcana.knight-of-swords-upright
+- tarot.minor-arcana.queen-of-pentacles-reversed
+- tarot.minor-arcana.queen-of-pentacles-upright
+- tarot.minor-arcana.three-of-pentacles-reversed
+- tarot.minor-arcana.three-of-pentacles-upright
+- tarot.minor-arcana.two-of-pentacles-reversed
+- tarot.minor-arcana.two-of-pentacles-upright
+- vedic.dashas-chara.sign-order
+- vedic.doshas.mars-partnership
+- vedic.lordships.capricorn-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.ardra
+- vedic.nakshatras.ashlesha
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.krittika
+- vedic.nakshatras.revati
+- vedic.nakshatras.shatabhisha
+- vedic.nakshatras.shravana
+- vedic.nakshatras.swati
+- vedic.nakshatras.uttara-ashadha
+- vedic.nakshatras.uttara-phalguni
+- vedic.planets-in-signs.jupiter-capricorn
+- vedic.planets-in-signs.ketu-capricorn
+- vedic.planets-in-signs.mars-capricorn
+- vedic.planets-in-signs.mercury-capricorn
+- vedic.planets-in-signs.moon-capricorn
+- vedic.planets-in-signs.rahu-capricorn
+- vedic.planets-in-signs.saturn-capricorn
+- vedic.planets-in-signs.sun-capricorn
+- vedic.planets-in-signs.venus-capricorn
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.capricorn
+- vedic.vargas.d27-placement
+- vedic.vargas.d30-placement
+- western.natal.ascendant-capricorn
+- western.natal.jupiter-capricorn
+- western.natal.mars-capricorn
+- western.natal.mercury-capricorn
+- western.natal.moon-capricorn
+- western.natal.neptune-capricorn
+- western.natal.pluto-capricorn
+- western.natal.saturn-capricorn
+- western.natal.sun-capricorn
+- western.natal.uranus-capricorn
+- western.natal.venus-capricorn
+- western.signs.capricorn

@@ -1,0 +1,20 @@
+id: glossary.terms.virodhargala
+term:
+  en: Virodhargala
+  kn: ವಿರೋಧಾರ್ಗಲಾ
+  hi: विरोधार्गला
+sanskrit:
+  devanagari: विरोधार्गला
+  kannada: ವಿರೋಧಾರ್ಗಲಾ
+  usage: traditional term
+meaning:
+  en: Planets in corresponding places can offset an influence on a sign.
+  kn: ರಾಶಿಯ ಮೇಲಿನ ಒಂದು ಪ್ರಭಾವವನ್ನು ತಗ್ಗಿಸಬಹುದಾದ ಸ್ಥಾನಸಂಬಂಧ.
+  hi: ऐसा स्थान संबंध जो राशि पर माने गए प्रभाव को कम कर सकता है।
+admin_note: 'Application in jaimini.argala.obstruction: Require a nonempty intervening sign and strictly more occupants
+  in its paired obstructing sign under argala/pairs.yaml.'
+aliases: []
+reference_rules:
+- jaimini.argala.obstruction
+used_by:
+- jaimini.argala.obstruction

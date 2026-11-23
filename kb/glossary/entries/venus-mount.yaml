@@ -1,0 +1,25 @@
+id: glossary.terms.venus-mount
+term:
+  en: Venus mount
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ದುಂಡಾದ ಭಾಗ
+  hi: अँगूठे के आधार पर गोल उभार
+sanskrit:
+  devanagari: शुक्र करतलोन्नति
+  kannada: ಶುಕ್ರ ಕರತಲೋನ್ನತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Rounded pad at the base of the thumb.
+  kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ದುಂಡಾದ ಭಾಗ.
+  hi: अँगूठे के आधार पर गोल उभार।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.mounts.venus-left
+- palmistry.mounts.venus-right
+used_by:
+- palmistry.mounts.venus
+- palmistry.mounts.venus-left
+- palmistry.mounts.venus-right
+systems:
+- palmistry

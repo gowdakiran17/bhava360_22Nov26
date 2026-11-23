@@ -1,0 +1,23 @@
+id: glossary.terms.saraswati-yoga
+term:
+  en: Saraswati yoga
+  kn: ಸರಸ್ವತೀಯೋಗ
+  hi: सरस्वतीयोग
+sanskrit:
+  devanagari: सरस्वतीयोग
+  kannada: ಸರಸ್ವತೀಯೋಗ
+  usage: traditional term
+meaning:
+  en: Mercury, Venus and Jupiter occupy selected places while Jupiter also meets a strength check.
+  kn: ಬುಧ, ಶುಕ್ರ ಮತ್ತು ಗುರು ಆಯ್ದ ಸ್ಥಾನಗಳಲ್ಲಿದ್ದು ಗುರು ಬಲದ ಷರತ್ತನ್ನೂ ಪೂರೈಸುವುದು.
+  hi: बुध, शुक्र और गुरु का चुनी जगहों में होना और गुरु का बल की शर्त पूरी करना।
+admin_note: Mercury, Venus and Jupiter each occupy house 1, 2, 4, 5, 7, 9 or 10 from Lagna. Jupiter also meets its strength
+  minimum in an own, exaltation or naturally friendly sign.
+aliases:
+- saraswati
+reference_rules:
+- vedic.yogas.saraswati
+used_by:
+- vedic.yogas.saraswati
+systems:
+- vedic

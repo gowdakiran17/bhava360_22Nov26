@@ -1,0 +1,118 @@
+id: glossary.terms.vastu
+term:
+  en: Vastu
+  kn: ವಾಸ್ತು
+  hi: वास्तु
+sanskrit:
+  devanagari: वास्तु
+  kannada: ವಾಸ್ತು
+  usage: traditional term
+meaning:
+  en: An Indian tradition that considers direction and arrangement when looking at spaces.
+  kn: ಸ್ಥಳದ ದಿಕ್ಕು ಮತ್ತು ಜೋಡಣೆಯನ್ನು ಗಮನಿಸುವ ಭಾರತೀಯ ಪರಂಪರೆ.
+  hi: जगह की दिशा और व्यवस्था पर विचार करने की भारतीय परंपरा।
+admin_note: Use this label for an Indian tradition that considers direction and arrangement when looking at spaces. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases:
+- Vastu Shastra
+reference_rules: []
+used_by:
+- vastu.chart-fit.moon-fourth
+- vastu.directions.centre
+- vastu.directions.east
+- vastu.directions.north
+- vastu.directions.northeast
+- vastu.directions.northeast-rulership
+- vastu.directions.northwest
+- vastu.directions.south
+- vastu.directions.southeast
+- vastu.directions.southwest
+- vastu.directions.west
+- vastu.entrances.check-house-relocation-dwelling-facing
+- vastu.entrances.north
+- vastu.layouts.central-space
+- vastu.layouts.east
+- vastu.layouts.north
+- vastu.layouts.northeast
+- vastu.layouts.northwest
+- vastu.layouts.south
+- vastu.layouts.southeast
+- vastu.layouts.southwest
+- vastu.layouts.west
+- vastu.plots.fall-north-east
+- vastu.plots.irregular-footprint
+- vastu.plots.level
+- vastu.plots.other-fall
+- vastu.plots.regular-footprint
+- vastu.rooms.centre-bedroom
+- vastu.rooms.centre-entrance
+- vastu.rooms.centre-kitchen
+- vastu.rooms.centre-pooja
+- vastu.rooms.centre-staircase
+- vastu.rooms.centre-study
+- vastu.rooms.centre-toilet
+- vastu.rooms.centre-water-tank
+- vastu.rooms.east-bedroom
+- vastu.rooms.east-entrance
+- vastu.rooms.east-kitchen
+- vastu.rooms.east-pooja
+- vastu.rooms.east-staircase
+- vastu.rooms.east-study
+- vastu.rooms.east-toilet
+- vastu.rooms.east-water-tank
+- vastu.rooms.north-bedroom
+- vastu.rooms.north-entrance
+- vastu.rooms.north-kitchen
+- vastu.rooms.north-pooja
+- vastu.rooms.north-staircase
+- vastu.rooms.north-study
+- vastu.rooms.north-toilet
+- vastu.rooms.north-water-tank
+- vastu.rooms.northeast-bedroom
+- vastu.rooms.northeast-entrance
+- vastu.rooms.northeast-kitchen
+- vastu.rooms.northeast-pooja
+- vastu.rooms.northeast-staircase
+- vastu.rooms.northeast-study
+- vastu.rooms.northeast-toilet
+- vastu.rooms.northeast-water-tank
+- vastu.rooms.northwest-bedroom
+- vastu.rooms.northwest-entrance
+- vastu.rooms.northwest-kitchen
+- vastu.rooms.northwest-pooja
+- vastu.rooms.northwest-staircase
+- vastu.rooms.northwest-study
+- vastu.rooms.northwest-toilet
+- vastu.rooms.northwest-water-tank
+- vastu.rooms.south-bedroom
+- vastu.rooms.south-entrance
+- vastu.rooms.south-kitchen
+- vastu.rooms.south-pooja
+- vastu.rooms.south-staircase
+- vastu.rooms.south-study
+- vastu.rooms.south-toilet
+- vastu.rooms.south-water-tank
+- vastu.rooms.southeast-bedroom
+- vastu.rooms.southeast-entrance
+- vastu.rooms.southeast-kitchen
+- vastu.rooms.southeast-pooja
+- vastu.rooms.southeast-staircase
+- vastu.rooms.southeast-study
+- vastu.rooms.southeast-toilet
+- vastu.rooms.southeast-water-tank
+- vastu.rooms.southwest-bedroom
+- vastu.rooms.southwest-entrance
+- vastu.rooms.southwest-kitchen
+- vastu.rooms.southwest-pooja
+- vastu.rooms.southwest-staircase
+- vastu.rooms.southwest-study
+- vastu.rooms.southwest-toilet
+- vastu.rooms.southwest-water-tank
+- vastu.rooms.west-bedroom
+- vastu.rooms.west-entrance
+- vastu.rooms.west-kitchen
+- vastu.rooms.west-pooja
+- vastu.rooms.west-staircase
+- vastu.rooms.west-study
+- vastu.rooms.west-toilet
+- vastu.rooms.west-water-tank

@@ -1,0 +1,20 @@
+id: glossary.terms.ishta-phala
+term:
+  en: Ishta phala
+  kn: ಇಷ್ಟಫಲ
+  hi: इष्टफल
+sanskrit:
+  devanagari: इष्टफल
+  kannada: ಇಷ್ಟಫಲ
+  usage: traditional term
+meaning:
+  en: A calculated measure of ease in a particular strength method.
+  kn: ಒಂದು ಬಲಗಣನೆಯ ವಿಧಾನದಲ್ಲಿ ಅನುಕೂಲವನ್ನು ಸೂಚಿಸುವ ಅಳತೆ.
+  hi: बल की एक विधि में सहजता का गणितीय माप।
+admin_note: Use this label for a calculated measure of ease in a particular strength method. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- Ishta
+reference_rules: []
+used_by:
+- vedic.strength-shadbala.totals

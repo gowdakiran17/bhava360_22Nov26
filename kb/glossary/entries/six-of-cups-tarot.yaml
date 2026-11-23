@@ -1,0 +1,25 @@
+id: glossary.terms.six-of-cups-tarot
+term:
+  en: Six Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ಆರು
+  hi: प्याला · छह
+sanskrit:
+  devanagari: चषक षट्
+  kannada: ಚಷಕ ಷಟ್
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank six in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ಆರು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · छह की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on a fond memory.
+  What comes to mind in this position?'
+aliases:
+- Six Of Cups
+reference_rules:
+- tarot.minor-arcana.six-of-cups-upright
+- tarot.minor-arcana.six-of-cups-reversed
+used_by:
+- tarot.minor-arcana.six-of-cups-reversed
+- tarot.minor-arcana.six-of-cups-upright
+systems:
+- tarot

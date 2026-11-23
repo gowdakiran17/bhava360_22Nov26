@@ -1,0 +1,25 @@
+id: glossary.terms.king-of-cups-tarot
+term:
+  en: King Of Cups (Tarot)
+  kn: ಪಾತ್ರೆ · ರಾಜ
+  hi: प्याला · राजा
+sanskrit:
+  devanagari: चषक राजा
+  kannada: ಚಷಕ ರಾಜಾ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank king in the cups family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಪಾತ್ರೆ · ರಾಜ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में प्याला · राजा की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on steady compassion.
+  What comes to mind in this position?'
+aliases:
+- King Of Cups
+reference_rules:
+- tarot.minor-arcana.king-of-cups-upright
+- tarot.minor-arcana.king-of-cups-reversed
+used_by:
+- tarot.minor-arcana.king-of-cups-reversed
+- tarot.minor-arcana.king-of-cups-upright
+systems:
+- tarot

@@ -1,0 +1,24 @@
+id: glossary.terms.long-finger-proportion
+term:
+  en: Long finger proportion
+  kn: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಉದ್ದದ ಬೆರಳುಗಳು
+  hi: हथेली की तुलना में लंबी उँगलियाँ
+sanskrit:
+  devanagari: दीर्घ अङ्गुलिप्रमाण
+  kannada: ದೀರ್ಘ ಅಙ್ಗುಲಿಪ್ರಮಾಣ
+  usage: descriptive equivalent
+meaning:
+  en: Fingers look long relative to the palm.
+  kn: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಉದ್ದದ ಬೆರಳುಗಳು.
+  hi: हथेली की तुलना में लंबी उँगलियाँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.fingers.long-left
+- palmistry.fingers.long-right
+used_by:
+- palmistry.fingers.long-left
+- palmistry.fingers.long-right
+systems:
+- palmistry

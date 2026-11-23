@@ -1,0 +1,24 @@
+id: glossary.terms.sankata-yogini
+term:
+  en: Sankata Yogini
+  kn: ಸಙ್ಕಟಾ ಯೋಗಿನೀ
+  hi: सङ्कटा योगिनी
+sanskrit:
+  devanagari: सङ्कटा योगिनी
+  kannada: ಸಙ್ಕಟಾ ಯೋಗಿನೀ
+  usage: traditional term
+meaning:
+  en: A period lasting 8 years in the repeating 36-year sequence.
+  kn: ೩೬ ವರ್ಷದ ಚಕ್ರದಲ್ಲಿ 8 ವರ್ಷ ಇರುವ ಅವಧಿ.
+  hi: ३६ वर्ष के चक्र में 8 वर्ष की अवधि।
+admin_note: 'Application in vedic.dashas-yogini.balance-calculation: Number the 27 equal lunar mansions from Ashwini
+  = 1. Add three to the natal Moon’s mansion number and take the remainder modulo eight, reading zero as the eighth Yogini.
+  The fraction elapsed is the arc traversed in that mansion divided by 48000 arcseconds. Subtract that fraction of the
+  first lord’s full years from birth to obtain the true start. Advance by the remaining fraction to obtain the end. Repeat
+  the eight periods in sequence. Each parent opens with its own Yogini and divides among all eight by child years / 36.'
+aliases:
+- Sankata
+reference_rules:
+- vedic.dashas-yogini.balance-calculation
+used_by:
+- vedic.dashas-yogini.balance-calculation

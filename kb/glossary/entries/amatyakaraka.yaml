@@ -1,0 +1,20 @@
+id: glossary.terms.amatyakaraka
+term:
+  en: Amatyakaraka
+  kn: ಅಮಾತ್ಯಕಾರಕ
+  hi: अमात्यकारक
+sanskrit:
+  devanagari: अमात्यकारक
+  kannada: ಅಮಾತ್ಯಕಾರಕ
+  usage: traditional term
+meaning:
+  en: The planet assigned to represent work and advice by its place in a ranked list.
+  kn: ಸ್ಥಾನಕ್ರಮದ ಪ್ರಕಾರ ಸಲಹೆ ಮತ್ತು ಕೆಲಸ ವಿಷಯಕ್ಕೆ ಆಯ್ದ ಗ್ರಹ.
+  hi: स्थिति के क्रम से सलाह और काम का प्रतिनिधित्व करने वाला ग्रह।
+admin_note: 'Select the bound graha only if it holds AmK: rank 2 of seven or rank 2 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+aliases: []
+reference_rules:
+- jaimini.chara-karakas.amatyakaraka
+used_by:
+- jaimini.chara-karakas.amatyakaraka

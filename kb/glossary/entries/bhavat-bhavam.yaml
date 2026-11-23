@@ -1,0 +1,30 @@
+id: glossary.terms.bhavat-bhavam
+term:
+  en: Bhavat bhavam
+  kn: ಭಾವಾದ್ಭಾವಮ್
+  hi: भावाद्भावम्
+sanskrit:
+  devanagari: भावाद्भावम्
+  kannada: ಭಾವಾದ್ಭಾವಮ್
+  usage: traditional term
+meaning:
+  en: Counting the same house distance again gives another place to consult about its topic.
+  kn: ಅದೇ ಅಂತರವನ್ನು ಮತ್ತೊಮ್ಮೆ ಎಣಿಸಿ ಒಂದು ವಿಷಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಇನ್ನೊಂದು ಮನೆಯನ್ನು ನೋಡುವುದು.
+  hi: उतनी ही दूरी दोबारा गिनकर उसी विषय से जुड़ा दूसरा घर देखना।
+admin_note: Use this label for counting the same house distance again gives another place to consult about its topic.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.houses.house-1
+- vedic.houses.house-10
+- vedic.houses.house-11
+- vedic.houses.house-12
+- vedic.houses.house-2
+- vedic.houses.house-3
+- vedic.houses.house-4
+- vedic.houses.house-5
+- vedic.houses.house-6
+- vedic.houses.house-7
+- vedic.houses.house-8
+- vedic.houses.house-9

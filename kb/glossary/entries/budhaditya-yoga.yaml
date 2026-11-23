@@ -1,0 +1,22 @@
+id: glossary.terms.budhaditya-yoga
+term:
+  en: Budhaditya yoga
+  kn: ಬುಧಾದಿತ್ಯಯೋಗ
+  hi: बुधादित्ययोग
+sanskrit:
+  devanagari: बुधादित्ययोग
+  kannada: ಬುಧಾದಿತ್ಯಯೋಗ
+  usage: traditional term
+meaning:
+  en: The Sun and Mercury occupy the same sign.
+  kn: ಸೂರ್ಯ ಮತ್ತು ಬುಧ ಒಂದೇ ರಾಶಿಯಲ್ಲಿ ಇರುವುದು.
+  hi: सूर्य और बुध का एक राशि में होना।
+admin_note: Sun and Mercury occupy one sign.
+aliases:
+- budhaditya
+reference_rules:
+- vedic.yogas.budhaditya
+used_by:
+- vedic.yogas.budhaditya
+systems:
+- vedic

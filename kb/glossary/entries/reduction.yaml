@@ -1,0 +1,29 @@
+id: glossary.terms.reduction
+term:
+  en: Reduction
+  kn: ಅಂಕ ಸಂಕ್ಷೇಪ
+  hi: अंक संक्षेप
+sanskrit:
+  devanagari: अङ्कसङ्क्षेप
+  kannada: ಅಙ್ಕಸಙ್ಕ್ಷೇಪ
+  usage: descriptive equivalent
+meaning:
+  en: Adding the digits of a total again until the chosen stopping rule is reached.
+  kn: ನಿಗದಿತ ಹಂತದವರೆಗೆ ಮೊತ್ತದ ಅಂಕಿಗಳನ್ನು ಮತ್ತೆ ಮತ್ತೆ ಕೂಡಿಸುವುದು.
+  hi: तय सीमा तक कुल के अंकों को दोबारा जोड़ना।
+admin_note: Use this label for adding the digits of a total again until the chosen stopping rule is reached. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases:
+- digit reduction
+reference_rules: []
+used_by:
+- numerology.pythagorean.birthday
+- numerology.pythagorean.expression
+- numerology.pythagorean.life-path
+- numerology.pythagorean.maturity
+- numerology.pythagorean.personal-day
+- numerology.pythagorean.personal-month
+- numerology.pythagorean.personal-year
+- numerology.pythagorean.personality
+- numerology.pythagorean.soul-urge
+- vedic.strength-ashtakavarga.shodhana

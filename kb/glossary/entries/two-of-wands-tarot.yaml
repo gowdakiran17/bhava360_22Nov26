@@ -1,0 +1,25 @@
+id: glossary.terms.two-of-wands-tarot
+term:
+  en: Two Of Wands (Tarot)
+  kn: ಕೋಲು · ಎರಡು
+  hi: छड़ी · दो
+sanskrit:
+  devanagari: दण्ड द्वि
+  kannada: ದಣ್ಡ ದ್ವಿ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank two in the wands family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ಕೋಲು · ಎರಡು ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में छड़ी · दो की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on choosing a
+  path. What comes to mind in this position?'
+aliases:
+- Two Of Wands
+reference_rules:
+- tarot.minor-arcana.two-of-wands-upright
+- tarot.minor-arcana.two-of-wands-reversed
+used_by:
+- tarot.minor-arcana.two-of-wands-reversed
+- tarot.minor-arcana.two-of-wands-upright
+systems:
+- tarot

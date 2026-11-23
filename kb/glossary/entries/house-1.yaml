@@ -1,0 +1,112 @@
+id: glossary.terms.house-1
+term:
+  en: House 1
+  kn: ತನುಭಾವ
+  hi: तनुभाव
+sanskrit:
+  devanagari: तनुभाव
+  kannada: ತನುಭಾವ
+  usage: traditional term
+meaning:
+  en: The part of a birth chart used to explore self and personal presence.
+  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ವ್ಯಕ್ತಿತ್ವ ಮತ್ತು ಇರುವಿಕೆ ಕುರಿತು ನೋಡುವ ಭಾಗ.
+  hi: जन्मपत्री में व्यक्तित्व और उपस्थिति से जुड़ा हिस्सा।
+admin_note: Count from the rising sign under the default whole-sign method. This house lists embodiment, appearance,
+  personal presence among its subjects.
+aliases:
+- Tanu
+reference_rules:
+- vedic.houses.house-1
+used_by:
+- jaimini.arudha-padas.arudha-lagna
+- lal-kitab.placements.house-1
+- vedic.dashas-vimshottari.health-house-lord
+- vedic.dashas-vimshottari.health-upcoming
+- vedic.doshas.mars-partnership
+- vedic.house-lords.lord-1-in-house-1
+- vedic.house-lords.lord-1-in-house-10
+- vedic.house-lords.lord-1-in-house-11
+- vedic.house-lords.lord-1-in-house-12
+- vedic.house-lords.lord-1-in-house-2
+- vedic.house-lords.lord-1-in-house-3
+- vedic.house-lords.lord-1-in-house-4
+- vedic.house-lords.lord-1-in-house-5
+- vedic.house-lords.lord-1-in-house-6
+- vedic.house-lords.lord-1-in-house-7
+- vedic.house-lords.lord-1-in-house-8
+- vedic.house-lords.lord-1-in-house-9
+- vedic.house-lords.lord-10-in-house-1
+- vedic.house-lords.lord-11-in-house-1
+- vedic.house-lords.lord-12-in-house-1
+- vedic.house-lords.lord-2-in-house-1
+- vedic.house-lords.lord-3-in-house-1
+- vedic.house-lords.lord-4-in-house-1
+- vedic.house-lords.lord-5-in-house-1
+- vedic.house-lords.lord-6-in-house-1
+- vedic.house-lords.lord-7-in-house-1
+- vedic.house-lords.lord-8-in-house-1
+- vedic.house-lords.lord-9-in-house-1
+- vedic.houses.house-1
+- vedic.houses.house-7
+- vedic.houses.jupiter-house-1
+- vedic.houses.ketu-house-1
+- vedic.houses.mars-house-1
+- vedic.houses.mercury-house-1
+- vedic.houses.moon-house-1
+- vedic.houses.rahu-house-1
+- vedic.houses.saturn-house-1
+- vedic.houses.sun-house-1
+- vedic.houses.venus-house-1
+- vedic.planets-in-houses.jupiter-house-1
+- vedic.planets-in-houses.jupiter-house-10
+- vedic.planets-in-houses.jupiter-house-11
+- vedic.planets-in-houses.jupiter-house-12
+- vedic.planets-in-houses.jupiter-house-2
+- vedic.planets-in-houses.jupiter-house-3
+- vedic.planets-in-houses.jupiter-house-4
+- vedic.planets-in-houses.jupiter-house-5
+- vedic.planets-in-houses.jupiter-house-6
+- vedic.planets-in-houses.jupiter-house-7
+- vedic.planets-in-houses.jupiter-house-8
+- vedic.planets-in-houses.jupiter-house-9
+- vedic.planets-in-houses.ketu-house-1
+- vedic.planets-in-houses.mars-house-1
+- vedic.planets-in-houses.mercury-house-1
+- vedic.planets-in-houses.mercury-house-10
+- vedic.planets-in-houses.mercury-house-11
+- vedic.planets-in-houses.mercury-house-12
+- vedic.planets-in-houses.mercury-house-2
+- vedic.planets-in-houses.mercury-house-3
+- vedic.planets-in-houses.mercury-house-4
+- vedic.planets-in-houses.mercury-house-5
+- vedic.planets-in-houses.mercury-house-6
+- vedic.planets-in-houses.mercury-house-7
+- vedic.planets-in-houses.mercury-house-8
+- vedic.planets-in-houses.mercury-house-9
+- vedic.planets-in-houses.moon-house-1
+- vedic.planets-in-houses.rahu-house-1
+- vedic.planets-in-houses.saturn-house-1
+- vedic.planets-in-houses.sun-house-1
+- vedic.planets-in-houses.venus-house-1
+- vedic.planets.jupiter
+- vedic.planets.mercury
+- vedic.transits.jupiter-moon-house-1
+- vedic.transits.ketu-moon-house-1
+- vedic.transits.mars-moon-house-1
+- vedic.transits.mercury-moon-house-1
+- vedic.transits.moon-moon-house-1
+- vedic.transits.rahu-moon-house-1
+- vedic.transits.saturn-moon
+- vedic.transits.sun-moon-house-1
+- vedic.transits.venus-moon-house-1
+- vedic.yogas.saraswati
+- western.natal.jupiter-house-1
+- western.natal.mars-house-1
+- western.natal.mercury-house-1
+- western.natal.moon-house-1
+- western.natal.neptune-house-1
+- western.natal.pluto-house-1
+- western.natal.saturn-house-1
+- western.natal.sun-house-1
+- western.natal.uranus-house-1
+- western.natal.venus-house-1

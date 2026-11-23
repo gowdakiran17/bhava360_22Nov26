@@ -1,0 +1,101 @@
+id: glossary.terms.scorpio
+term:
+  en: Scorpio
+  kn: ವೃಶ್ಚಿಕ
+  hi: वृश्चिक
+sanskrit:
+  devanagari: वृश्चिक
+  kannada: ವೃಶ್ಚಿಕ
+  usage: traditional term
+meaning:
+  en: Sign number 8 in the twelve-part circle, covering degrees 210 to 240.
+  kn: ರಾಶಿಚಕ್ರದ 8ನೇ ಭಾಗ, 210ರಿಂದ 240 ಅಂಶಗಳವರೆಗೆ.
+  hi: बारह राशियों में क्रम 8, 210 से 240 अंश तक।
+admin_note: 'Application in western.signs.scorpio: The selected tropical point falls in [210, 240) degrees from the March
+  equinox. Fixed water; modern ruler pluto, traditional ruler mars.'
+aliases:
+- Vrischika
+reference_rules:
+- vedic.signs.scorpio
+used_by:
+- jaimini.arudha-padas.a10
+- jaimini.arudha-padas.a11
+- jaimini.arudha-padas.a2
+- jaimini.arudha-padas.a3
+- jaimini.arudha-padas.a4
+- jaimini.arudha-padas.a5
+- jaimini.arudha-padas.a6
+- jaimini.arudha-padas.a7
+- jaimini.arudha-padas.a8
+- jaimini.arudha-padas.a9
+- jaimini.arudha-padas.arudha-lagna
+- jaimini.arudha-padas.marriage-support
+- jaimini.arudha-padas.upapada
+- tarot.major-arcana.death-reversed
+- tarot.major-arcana.death-upright
+- tarot.minor-arcana.five-of-cups-reversed
+- tarot.minor-arcana.five-of-cups-upright
+- tarot.minor-arcana.king-of-wands-reversed
+- tarot.minor-arcana.king-of-wands-upright
+- tarot.minor-arcana.knight-of-cups-reversed
+- tarot.minor-arcana.knight-of-cups-upright
+- tarot.minor-arcana.page-of-cups-reversed
+- tarot.minor-arcana.page-of-cups-upright
+- tarot.minor-arcana.seven-of-cups-reversed
+- tarot.minor-arcana.seven-of-cups-upright
+- tarot.minor-arcana.six-of-cups-reversed
+- tarot.minor-arcana.six-of-cups-upright
+- vedic.doshas.mars-partnership
+- vedic.lordships.scorpio-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
+- vedic.nakshatras.anuradha
+- vedic.nakshatras.bharani
+- vedic.nakshatras.chitra
+- vedic.nakshatras.dhanishta
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.mrigashira
+- vedic.nakshatras.purva-ashadha
+- vedic.nakshatras.purva-phalguni
+- vedic.nakshatras.pushya
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.nakshatras.vishakha
+- vedic.planets-in-signs.jupiter-scorpio
+- vedic.planets-in-signs.ketu-scorpio
+- vedic.planets-in-signs.mars-scorpio
+- vedic.planets-in-signs.mercury-scorpio
+- vedic.planets-in-signs.moon-scorpio
+- vedic.planets-in-signs.rahu-scorpio
+- vedic.planets-in-signs.saturn-scorpio
+- vedic.planets-in-signs.sun-scorpio
+- vedic.planets-in-signs.venus-scorpio
+- vedic.planets.jupiter
+- vedic.planets.ketu
+- vedic.planets.mars
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.rahu
+- vedic.planets.saturn
+- vedic.planets.sun
+- vedic.planets.venus
+- vedic.signs.scorpio
+- vedic.vargas.d30-placement
+- western.natal.ascendant-scorpio
+- western.natal.jupiter-scorpio
+- western.natal.mars-scorpio
+- western.natal.mercury-scorpio
+- western.natal.moon-scorpio
+- western.natal.neptune-scorpio
+- western.natal.pluto-scorpio
+- western.natal.saturn-scorpio
+- western.natal.sun-scorpio
+- western.natal.uranus-scorpio
+- western.natal.venus-scorpio
+- western.planets.pluto
+- western.signs.scorpio

@@ -1,0 +1,28 @@
+id: glossary.terms.ayu
+term:
+  en: Ayu
+  kn: ಆಯುಸ್
+  hi: आयुस्
+sanskrit:
+  devanagari: आयुस्
+  kannada: ಆಯುಸ್
+  usage: traditional term
+meaning:
+  en: A historical term for length of life in classical lists of house meanings.
+  kn: ಮನೆಗಳ ಐತಿಹಾಸಿಕ ಅರ್ಥಪಟ್ಟಿಯಲ್ಲಿ ಜೀವನದ ಅವಧಿಗೆ ಬಳಸಿದ ಪದ.
+  hi: घरों के अर्थ की ऐतिहासिक सूचियों में जीवन की अवधि के लिए शब्द।
+admin_note: Historical terminology in the eighth-house source list. Public health reflections are limited to everyday
+  wellbeing.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.houses.house-8
+- vedic.planets-in-houses.jupiter-house-8
+- vedic.planets-in-houses.ketu-house-8
+- vedic.planets-in-houses.mars-house-8
+- vedic.planets-in-houses.mercury-house-8
+- vedic.planets-in-houses.moon-house-8
+- vedic.planets-in-houses.rahu-house-8
+- vedic.planets-in-houses.saturn-house-8
+- vedic.planets-in-houses.sun-house-8
+- vedic.planets-in-houses.venus-house-8

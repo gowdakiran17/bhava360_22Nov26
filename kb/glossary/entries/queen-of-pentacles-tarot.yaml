@@ -1,0 +1,25 @@
+id: glossary.terms.queen-of-pentacles-tarot
+term:
+  en: Queen Of Pentacles (Tarot)
+  kn: ನಾಣ್ಯ · ರಾಣಿ
+  hi: मुद्रा · रानी
+sanskrit:
+  devanagari: मुद्रा राज्ञी
+  kannada: ಮುದ್ರಾ ರಾಜ್ಞೀ
+  usage: descriptive rendering of card title
+meaning:
+  en: The card of rank queen in the pentacles family of the deck.
+  kn: ಟ್ಯಾರೊ ಪತ್ರಗಳ ಗುಂಪಿನಲ್ಲಿ ನಾಣ್ಯ · ರಾಣಿ ಗುರುತಿನ ಪತ್ರ.
+  hi: टैरो की गड्डी में मुद्रा · रानी की पहचान वाला पत्ता।
+admin_note: 'Deck identity is shared by both orientations. Upright reflection: You may wish to reflect on practical care.
+  What comes to mind in this position?'
+aliases:
+- Queen Of Pentacles
+reference_rules:
+- tarot.minor-arcana.queen-of-pentacles-upright
+- tarot.minor-arcana.queen-of-pentacles-reversed
+used_by:
+- tarot.minor-arcana.queen-of-pentacles-reversed
+- tarot.minor-arcana.queen-of-pentacles-upright
+systems:
+- tarot

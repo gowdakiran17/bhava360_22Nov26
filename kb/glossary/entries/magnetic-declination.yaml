@@ -1,0 +1,20 @@
+id: glossary.terms.magnetic-declination
+term:
+  en: Magnetic declination
+  kn: ಚುಮ್ಬಕೀಯದಿಗನ್ತರ
+  hi: चुम्बकीयदिगन्तर
+sanskrit:
+  devanagari: चुम्बकीयदिगन्तर
+  kannada: ಚುಮ್ಬಕೀಯದಿಗನ್ತರ
+  usage: descriptive equivalent
+meaning:
+  en: The angle between compass north and geographic north at a place and date.
+  kn: ಸ್ಥಳ ಮತ್ತು ದಿನಾಂಕಕ್ಕೆ ದಿಕ್ಸೂಚಿಯ ಉತ್ತರ ಮತ್ತು ಭೌಗೋಳಿಕ ಉತ್ತರದ ನಡುವಿನ ಕೋನ.
+  hi: किसी जगह और तारीख पर चुंबकीय उत्तर और भौगोलिक उत्तर के बीच का कोण।
+admin_note: Use this label for the angle between compass north and geographic north at a place and date. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- vastu/profile.yaml

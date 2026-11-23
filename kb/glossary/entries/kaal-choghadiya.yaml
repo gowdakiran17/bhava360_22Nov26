@@ -1,0 +1,24 @@
+id: glossary.terms.kaal-choghadiya
+term:
+  en: Kaal (Choghadiya)
+  kn: ಕಾಲ ಬೇಲಾ
+  hi: काल बेला
+sanskrit:
+  devanagari: काल बेला
+  kannada: ಕಾಲ ಬೇಲಾ
+  usage: traditional term
+meaning:
+  en: One of seven labels rotated through the eight daytime or nighttime intervals of a weekday.
+  kn: ಹಗಲು ಅಥವಾ ರಾತ್ರಿಯ ಎಂಟು ಅವಧಿಗಳಿಗೆ ಕ್ರಮವಾಗಿ ನೀಡುವ ಏಳು ಹೆಸರುಗಳಲ್ಲಿ ಒಂದು.
+  hi: दिन या रात के आठ हिस्सों में क्रम से दिए जाने वाले सात नामों में से एक।
+admin_note: This label is slot 5 in the stored day cycle. Look up the weekday-specific start and use the separate night
+  cycle after sunset.
+aliases:
+- Kaal
+reference_rules:
+- vedic.panchang.choghadiya
+used_by:
+- vedic.doshas.nodal-axis
+- vedic.panchang.choghadiya
+systems:
+- vedic

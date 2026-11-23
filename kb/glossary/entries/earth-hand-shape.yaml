@@ -1,0 +1,24 @@
+id: glossary.terms.earth-hand-shape
+term:
+  en: Earth hand shape
+  kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+  hi: चौकोर हथेली, छोटी उँगलियाँ
+sanskrit:
+  devanagari: पृथ्वी हस्ताकृति
+  kannada: ಪೃಥ್ವೀ ಹಸ್ತಾಕೃತಿ
+  usage: descriptive equivalent
+meaning:
+  en: Square palm, shorter fingers.
+  kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು.
+  hi: चौकोर हथेली, छोटी उँगलियाँ।
+admin_note: Use the illustration for the selected physical hand. The reader reports their own choice. The linked entries
+  distinguish left and right.
+aliases: []
+reference_rules:
+- palmistry.hands.earth-left
+- palmistry.hands.earth-right
+used_by:
+- palmistry.hands.earth-left
+- palmistry.hands.earth-right
+systems:
+- palmistry

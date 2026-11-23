@@ -1,0 +1,27 @@
+id: glossary.terms.retrogression
+term:
+  en: Retrogression
+  kn: ವಕ್ರಗತಿ
+  hi: वक्रगति
+sanskrit:
+  devanagari: वक्रगति
+  kannada: ವಕ್ರಗತಿ
+  usage: traditional term
+meaning:
+  en: A planet appears to move backwards along its usual path when seen from Earth.
+  kn: ಭೂಮಿಯಿಂದ ನೋಡಿದಾಗ ಗ್ರಹ ಹಿಮ್ಮುಖವಾಗಿ ಸಾಗಿದಂತೆ ಕಾಣುವುದು.
+  hi: पृथ्वी से ग्रह का पीछे जाता हुआ दिखना।
+admin_note: 'Application in vedic.transits.retrograde: Within the selected motion interval, signed geocentric longitude
+  speed is negative. At zero do not fire retrograde merely from the instantaneous speed.'
+aliases:
+- Vakri
+- retrograde
+reference_rules: []
+used_by:
+- vedic.states.combustion
+- vedic.states.vakri
+- vedic.transits.reentry
+- vedic.transits.retrograde
+- vedic.transits.station
+- vedic.yogas.neecha-bhanga
+- vedic.yogas.neecha-bhanga-raja

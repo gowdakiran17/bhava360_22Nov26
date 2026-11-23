@@ -1,0 +1,31 @@
+id: glossary.terms.benefic
+term:
+  en: Benefic
+  kn: ಶುಭಗ್ರಹ
+  hi: शुभग्रह
+sanskrit:
+  devanagari: शुभग्रह
+  kannada: ಶುಭಗ್ರಹ
+  usage: traditional term
+meaning:
+  en: A planet considered supportive in a particular reading tradition.
+  kn: ಓದಿನ ಒಂದು ಪರಂಪರೆಯಲ್ಲಿ ಬೆಂಬಲ ನೀಡುತ್ತದೆ ಎಂದು ಪರಿಗಣಿಸುವ ಗ್ರಹ.
+  hi: किसी पढ़ने की परंपरा में सहायक माना गया ग्रह।
+admin_note: Use this label for a planet considered supportive in a particular reading tradition. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- benefics
+reference_rules: []
+used_by:
+- jaimini.arudha-padas.marriage-support
+- vedic.doshas.mars-partnership
+- vedic.doshas.nodal-axis
+- vedic.planets.jupiter
+- vedic.planets.mercury
+- vedic.planets.moon
+- vedic.planets.venus
+- vedic.strength-shadbala.drik
+- vedic.yogas.adhi
+- vedic.yogas.amala
+- vedic.yogas.vasumati
+- vedic.yogas.vesi

@@ -1,0 +1,46 @@
+id: glossary.terms.wands
+term:
+  en: Wands
+  kn: ದಣ್ಡಾಃ
+  hi: दण्डाः
+sanskrit:
+  devanagari: दण्डाः
+  kannada: ದಣ್ಡಾಃ
+  usage: descriptive equivalent
+meaning:
+  en: The tarot suit pictured with staffs, often used to explore effort and initiative.
+  kn: ಪ್ರಯತ್ನ ಮತ್ತು ಮುಂದಾಳತ್ವವನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಕೋಲು ಗುರುತಿನ ಪತ್ರಗಳ ಗುಂಪು.
+  hi: कोशिश और पहल पर विचार करने वाला छड़ी चिह्न का पत्ता समूह।
+admin_note: Use this label for the tarot suit pictured with staffs, often used to explore effort and initiative. Read
+  the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- tarot.minor-arcana.ace-of-wands-reversed
+- tarot.minor-arcana.ace-of-wands-upright
+- tarot.minor-arcana.eight-of-wands-reversed
+- tarot.minor-arcana.eight-of-wands-upright
+- tarot.minor-arcana.five-of-wands-reversed
+- tarot.minor-arcana.five-of-wands-upright
+- tarot.minor-arcana.four-of-wands-reversed
+- tarot.minor-arcana.four-of-wands-upright
+- tarot.minor-arcana.king-of-wands-reversed
+- tarot.minor-arcana.king-of-wands-upright
+- tarot.minor-arcana.knight-of-wands-reversed
+- tarot.minor-arcana.knight-of-wands-upright
+- tarot.minor-arcana.nine-of-wands-reversed
+- tarot.minor-arcana.nine-of-wands-upright
+- tarot.minor-arcana.page-of-wands-reversed
+- tarot.minor-arcana.page-of-wands-upright
+- tarot.minor-arcana.queen-of-wands-reversed
+- tarot.minor-arcana.queen-of-wands-upright
+- tarot.minor-arcana.seven-of-wands-reversed
+- tarot.minor-arcana.seven-of-wands-upright
+- tarot.minor-arcana.six-of-wands-reversed
+- tarot.minor-arcana.six-of-wands-upright
+- tarot.minor-arcana.ten-of-wands-reversed
+- tarot.minor-arcana.ten-of-wands-upright
+- tarot.minor-arcana.three-of-wands-reversed
+- tarot.minor-arcana.three-of-wands-upright
+- tarot.minor-arcana.two-of-wands-reversed
+- tarot.minor-arcana.two-of-wands-upright

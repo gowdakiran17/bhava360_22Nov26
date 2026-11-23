@@ -1,0 +1,24 @@
+id: glossary.terms.mutable
+term:
+  en: Mutable
+  kn: ದ್ವಿಸ್ವಭಾವರಾಶಿ
+  hi: द्विस्वभावराशि
+sanskrit:
+  devanagari: द्विस्वभावराशि
+  kannada: ದ್ವಿಸ್ವಭಾವರಾಶಿ
+  usage: traditional term
+meaning:
+  en: A sign in the group associated with adjusting or changing direction.
+  kn: ಹೊಂದಾಣಿಕೆ ಅಥವಾ ದಿಕ್ಕಿನ ಬದಲಾವಣೆಗೆ ಸಂಬಂಧಿಸಿದ ಗುಂಪಿನ ರಾಶಿ.
+  hi: ढलने या दिशा बदलने से जुड़े समूह की राशि।
+admin_note: Use this label for a sign in the group associated with adjusting or changing direction. Read the linked entries
+  for the applicable conditions and differences between methods.
+aliases:
+- dual sign
+reference_rules: []
+used_by:
+- vedic.signs.gemini
+- western.signs.gemini
+- western.signs.pisces
+- western.signs.sagittarius
+- western.signs.virgo

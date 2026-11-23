@@ -1,0 +1,22 @@
+id: glossary.terms.sakata-yoga
+term:
+  en: Sakata yoga
+  kn: ಶಕಟಯೋಗ
+  hi: शकटयोग
+sanskrit:
+  devanagari: शकटयोग
+  kannada: ಶಕಟಯೋಗ
+  usage: traditional term
+meaning:
+  en: The Moon occupies the sixth, eighth or twelfth place from Jupiter.
+  kn: ಗುರುವಿನಿಂದ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಸ್ಥಾನದಲ್ಲಿ ಚಂದ್ರ ಇರುವುದು.
+  hi: बृहस्पति से छठे, आठवें या बारहवें स्थान में चंद्रमा होना।
+admin_note: Moon lies sixth, eighth or twelfth from Jupiter.
+aliases:
+- sakata
+reference_rules:
+- vedic.yogas.sakata
+used_by:
+- vedic.yogas.sakata
+systems:
+- vedic

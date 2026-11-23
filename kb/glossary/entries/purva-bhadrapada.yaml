@@ -1,0 +1,23 @@
+id: glossary.terms.purva-bhadrapada
+term:
+  en: Purva Bhadrapada
+  kn: ಪೂರ್ವಭಾದ್ರಪದಾ
+  hi: पूर्वभाद्रपदा
+sanskrit:
+  devanagari: पूर्वभाद्रपदा
+  kannada: ಪೂರ್ವಭಾದ್ರಪದಾ
+  usage: traditional term
+meaning:
+  en: Section 25 of the 27 equal parts used to locate the Moon along its path.
+  kn: ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಗುರುತಿಸುವ ೨೭ ಸಮಭಾಗಗಳಲ್ಲಿ 25ನೇ ಭಾಗ.
+  hi: चंद्रमा की जगह बताने वाले २७ बराबर हिस्सों में क्रम 25।
+admin_note: 'Application in vedic.nakshatras.purva-bhadrapada: Match the stable natal Moon nakshatra when its sidereal
+  longitude falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vedic.nakshatras.purva-bhadrapada
+used_by:
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.travel
+- vedic.nakshatras.purva-bhadrapada

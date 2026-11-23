@@ -1,0 +1,28 @@
+id: glossary.terms.indra-vastu-guardian
+term:
+  en: Indra (Vastu guardian)
+  kn: ಇನ್ದ್ರ ದಿಕ್ಪಾಲ
+  hi: इन्द्र दिक्पाल
+sanskrit:
+  devanagari: इन्द्र दिक्पाल
+  kannada: ಇನ್ದ್ರ ದಿಕ್ಪಾಲ
+  usage: traditional term
+meaning:
+  en: The traditional guardian associated with the east part of a building plan.
+  kn: ಮನೆಯ ನಕ್ಷೆಯ ಪೂರ್ವ ಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ಪಾಲಕ.
+  hi: घर के नक्शे के पूर्व भाग से जुड़े पारंपरिक रक्षक।
+admin_note: 'Application in vedic.nakshatras.vishakha: Match the stable natal Moon nakshatra when its sidereal longitude
+  falls in the recorded half-open span.'
+aliases: []
+reference_rules:
+- vastu.directions.east
+- vedic.nakshatras.vishakha
+- vedic.nakshatras.jyeshtha
+used_by:
+- vastu.directions.east
+- vedic.nakshatras.jyeshtha
+- vedic.nakshatras.vishakha
+systems:
+- vastu
+used_in_files:
+- vastu/entrances/padas.yaml

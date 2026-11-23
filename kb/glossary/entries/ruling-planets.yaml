@@ -1,0 +1,19 @@
+id: glossary.terms.ruling-planets
+term:
+  en: Ruling planets
+  kn: ಅಧಿಪಗ್ರಹಾಃ
+  hi: अधिपग्रहाः
+sanskrit:
+  devanagari: अधिपग्रहाः
+  kannada: ಅಧಿಪಗ್ರಹಾಃ
+  usage: traditional term
+meaning:
+  en: Planets selected from the time of a question to help check a reading.
+  kn: ಪ್ರಶ್ನೆಯ ಸಮಯದಿಂದ ಆಯ್ದು ಓದನ್ನು ಪರಿಶೀಲಿಸಲು ಬಳಸುವ ಗ್ರಹಗಳು.
+  hi: सवाल के समय से चुने ग्रह जिनसे पढ़ाई की जाँच की जाती है।
+admin_note: Use this label for planets selected from the time of a question to help check a reading. Read the linked
+  entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- kp.ruling-planets.repeated-lord

@@ -1,0 +1,27 @@
+id: glossary.terms.japa
+term:
+  en: Japa
+  kn: ಜಪ
+  hi: जप
+sanskrit:
+  devanagari: जप
+  kannada: ಜಪ
+  usage: traditional term
+meaning:
+  en: Quiet or spoken repetition of a chosen prayer or phrase.
+  kn: ಆಯ್ದ ಪ್ರಾರ್ಥನೆ ಅಥವಾ ಪದವನ್ನು ಮೌನವಾಗಿ ಅಥವಾ ಗಟ್ಟಿಯಾಗಿ ಪುನರಾವರ್ತಿಸುವುದು.
+  hi: चुनी हुई प्रार्थना या शब्द को मन में या बोलकर दोहराना।
+admin_note: Use this label for quiet or spoken repetition of a chosen prayer or phrase. Read the linked entries for the
+  applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- remedies.conduct.jupiter
+- remedies.conduct.ketu
+- remedies.conduct.mars
+- remedies.conduct.mercury
+- remedies.conduct.moon
+- remedies.conduct.rahu
+- remedies.conduct.saturn
+- remedies.conduct.sun
+- remedies.conduct.venus

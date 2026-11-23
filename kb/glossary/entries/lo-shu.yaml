@@ -1,0 +1,20 @@
+id: glossary.terms.lo-shu
+term:
+  en: Lo Shu
+  kn: ಲೋ ಶು
+  hi: लो शू
+sanskrit:
+  devanagari: नवकोष्ठक
+  kannada: ನವಕೋಷ್ಠಕ
+  usage: descriptive equivalent
+meaning:
+  en: A three-by-three number grid used here to arrange digits from the birth date.
+  kn: ಜನ್ಮದಿನಾಂಕದ ಅಂಕಿಗಳನ್ನು ಜೋಡಿಸುವ ಒಂಬತ್ತು ಕೋಣೆಗಳ ಚೌಕ.
+  hi: जन्मतिथि के अंक रखने का नौ खानों वाला वर्ग।
+admin_note: Use this label for a three-by-three number grid used here to arrange digits from the birth date. Read the
+  linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by: []
+used_in_files:
+- numerology/lo-shu/grid.yaml

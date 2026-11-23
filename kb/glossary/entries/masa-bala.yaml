@@ -1,0 +1,21 @@
+id: glossary.terms.masa-bala
+term:
+  en: Masa bala
+  kn: ಮಾಸಬಲ
+  hi: मासबल
+sanskrit:
+  devanagari: मासबल
+  kannada: ಮಾಸಬಲ
+  usage: traditional term
+meaning:
+  en: The part of time-based planetary strength assigned to the ruler of the month.
+  kn: ತಿಂಗಳ ಅಧಿಪತಿಗೆ ನೀಡುವ ಕಾಲಬಲದ ಭಾಗ.
+  hi: महीने के स्वामी को दिया समय बल का भाग।
+admin_note: 'Application in vedic.strength-shadbala.masa: Use the weekday lord of the first sunrise of the active 30-day
+  month. For completed sunrise days d from a bound cycle epoch, the zero-based weekday is (epoch weekday + span × floor(d/span))
+  modulo seven, Sunday first. Award points only to that lord.'
+aliases: []
+reference_rules:
+- vedic.strength-shadbala.masa
+used_by:
+- vedic.strength-shadbala.masa

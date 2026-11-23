@@ -1,0 +1,19 @@
+id: glossary.terms.grand-trine
+term:
+  en: Grand trine
+  kn: ತ್ರಿಕೋಣತ್ರಯ
+  hi: त्रिकोणत्रय
+sanskrit:
+  devanagari: त्रिकोणत्रय
+  kannada: ತ್ರಿಕೋಣತ್ರಯ
+  usage: descriptive equivalent
+meaning:
+  en: Three positions about a third of a circle apart from one another.
+  kn: ಪರಸ್ಪರ ವೃತ್ತದ ಮೂರನೇ ಒಂದು ಭಾಗದಷ್ಟು ದೂರವಿರುವ ಮೂರು ಸ್ಥಾನಗಳು.
+  hi: तीन स्थान जो एक दूसरे से लगभग एक तिहाई चक्र दूर हैं।
+admin_note: 'Application in western.patterns.grand-trine: Three distinct natal planets make all three trines within the
+  natal trine orb. Element agreement is descriptive; the edge test admits out-of-sign contacts.'
+aliases: []
+reference_rules: []
+used_by:
+- western.patterns.grand-trine

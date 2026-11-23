@@ -1,0 +1,22 @@
+id: glossary.terms.personal-month
+term:
+  en: Personal month
+  kn: ವ್ಯಕ್ತಿಮಾಸಾಙ್ಕ
+  hi: व्यक्तिमासाङ्क
+sanskrit:
+  devanagari: व्यक्तिमासाङ्क
+  kannada: ವ್ಯಕ್ತಿಮಾಸಾಙ್ಕ
+  usage: descriptive equivalent
+meaning:
+  en: A monthly number based on the personal year and chosen month.
+  kn: ವೈಯಕ್ತಿಕ ವರ್ಷದ ಸಂಖ್ಯೆ ಮತ್ತು ಆಯ್ದ ತಿಂಗಳಿಂದ ಪಡೆಯುವ ಸಂಖ್ಯೆ.
+  hi: व्यक्तिगत वर्ष और चुने महीने से निकली महीने की संख्या।
+admin_note: 'Application in numerology.pythagorean.personal-month: Add the target calendar month to the personal year
+  and reduce.'
+aliases: []
+reference_rules: []
+used_by:
+- numerology.chaldean.personal-day
+- numerology.chaldean.personal-month
+- numerology.pythagorean.personal-day
+- numerology.pythagorean.personal-month

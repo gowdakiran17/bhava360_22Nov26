@@ -1,0 +1,82 @@
+id: glossary.terms.maraka
+term:
+  en: Maraka
+  kn: ಮಾರಕ
+  hi: मारक
+sanskrit:
+  devanagari: मारक
+  kannada: ಮಾರಕ
+  usage: traditional term
+meaning:
+  en: A historical house classification associated especially with the second and seventh places.
+  kn: ಮುಖ್ಯವಾಗಿ ಎರಡು ಮತ್ತು ಏಳನೇ ಸ್ಥಾನಗಳಿಗೆ ಬಳಸುವ ಐತಿಹಾಸಿಕ ವರ್ಗ.
+  hi: मुख्यतः दूसरे और सातवें स्थान की पारंपरिक श्रेणी।
+admin_note: Use this label for a historical house classification associated especially with the second and seventh places.
+  Read the linked entries for the applicable conditions and differences between methods.
+aliases: []
+reference_rules: []
+used_by:
+- vedic.house-lords.lord-1-in-house-2
+- vedic.house-lords.lord-1-in-house-7
+- vedic.house-lords.lord-10-in-house-2
+- vedic.house-lords.lord-10-in-house-7
+- vedic.house-lords.lord-11-in-house-2
+- vedic.house-lords.lord-11-in-house-7
+- vedic.house-lords.lord-12-in-house-2
+- vedic.house-lords.lord-12-in-house-7
+- vedic.house-lords.lord-2-in-house-1
+- vedic.house-lords.lord-2-in-house-10
+- vedic.house-lords.lord-2-in-house-11
+- vedic.house-lords.lord-2-in-house-12
+- vedic.house-lords.lord-2-in-house-2
+- vedic.house-lords.lord-2-in-house-3
+- vedic.house-lords.lord-2-in-house-4
+- vedic.house-lords.lord-2-in-house-5
+- vedic.house-lords.lord-2-in-house-6
+- vedic.house-lords.lord-2-in-house-7
+- vedic.house-lords.lord-2-in-house-8
+- vedic.house-lords.lord-2-in-house-9
+- vedic.house-lords.lord-3-in-house-2
+- vedic.house-lords.lord-3-in-house-7
+- vedic.house-lords.lord-4-in-house-2
+- vedic.house-lords.lord-4-in-house-7
+- vedic.house-lords.lord-5-in-house-2
+- vedic.house-lords.lord-5-in-house-7
+- vedic.house-lords.lord-6-in-house-2
+- vedic.house-lords.lord-6-in-house-7
+- vedic.house-lords.lord-7-in-house-1
+- vedic.house-lords.lord-7-in-house-10
+- vedic.house-lords.lord-7-in-house-11
+- vedic.house-lords.lord-7-in-house-12
+- vedic.house-lords.lord-7-in-house-2
+- vedic.house-lords.lord-7-in-house-3
+- vedic.house-lords.lord-7-in-house-4
+- vedic.house-lords.lord-7-in-house-5
+- vedic.house-lords.lord-7-in-house-6
+- vedic.house-lords.lord-7-in-house-7
+- vedic.house-lords.lord-7-in-house-8
+- vedic.house-lords.lord-7-in-house-9
+- vedic.house-lords.lord-8-in-house-2
+- vedic.house-lords.lord-8-in-house-7
+- vedic.house-lords.lord-9-in-house-2
+- vedic.house-lords.lord-9-in-house-7
+- vedic.houses.house-2
+- vedic.houses.house-7
+- vedic.planets-in-houses.jupiter-house-2
+- vedic.planets-in-houses.jupiter-house-7
+- vedic.planets-in-houses.ketu-house-2
+- vedic.planets-in-houses.ketu-house-7
+- vedic.planets-in-houses.mars-house-2
+- vedic.planets-in-houses.mars-house-7
+- vedic.planets-in-houses.mercury-house-2
+- vedic.planets-in-houses.mercury-house-7
+- vedic.planets-in-houses.moon-house-2
+- vedic.planets-in-houses.moon-house-7
+- vedic.planets-in-houses.rahu-house-2
+- vedic.planets-in-houses.rahu-house-7
+- vedic.planets-in-houses.saturn-house-2
+- vedic.planets-in-houses.saturn-house-7
+- vedic.planets-in-houses.sun-house-2
+- vedic.planets-in-houses.sun-house-7
+- vedic.planets-in-houses.venus-house-2
+- vedic.planets-in-houses.venus-house-7

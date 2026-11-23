@@ -1,0 +1,20 @@
+id: glossary.terms.semi-square
+term:
+  en: Semi-square
+  kn: ಅರ್ಧಸಮಕೋಣ
+  hi: अर्धसमकोण
+sanskrit:
+  devanagari: अर्धसमकोण
+  kannada: ಅರ್ಧಸಮಕೋಣ
+  usage: descriptive equivalent
+meaning:
+  en: Two chart positions about forty-five degrees apart.
+  kn: ಸುಮಾರು ನಲವತ್ತೈದು ಅಂಶ ಅಂತರದ ಎರಡು ಸ್ಥಾನಗಳು.
+  hi: लगभग पैंतालीस अंश दूर दो स्थान।
+admin_note: 'Application in western.aspects.semi-square: The selected natal pair forms the named aspect within its configured
+  orb.'
+aliases:
+- semisquare
+reference_rules: []
+used_by:
+- western.aspects.semi-square
