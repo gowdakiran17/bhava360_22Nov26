@@ -1,0 +1,107 @@
+id: vedic.planets-in-houses.mars-house-11
+system: vedic
+topic: planets-in-houses
+title: Mars in house 11
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Mars in whole-sign D1 house 11 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.mars.house_from_lagna
+    op: eq
+    value: 11
+placement:
+  graha: mars
+  house: 11
+  reference: lagna
+  related_placement: vedic.houses.mars-house-11
+  themes:
+  - directing effort
+  - receipts
+  - fulfilment of aims
+  grouping_effects:
+    upachaya: An upachaya house places emphasis on capacities that can develop through practice.
+  dig_bala:
+    direction: south
+    peak_house: 10
+    peak_house_matches: false
+    note: The peak for Mars is in house 10. Exact strength depends on angular distance from the pivot.
+meaning: Mars in house 11 may bring directing effort into questions of receipts. When a goal comes within reach,
+  you can choose one practical step and check whom it affects.
+life_areas:
+- money
+- career
+- family-home
+strength_notes:
+- when:
+    fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.mars.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions:
+- when:
+    all:
+    - fact: d1.mars.debilitated
+      op: eq
+      value: true
+    - fact: d1.dignity.debility_lord_angular
+      op: eq
+      value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Qualify the debility modifier when the cancellation candidate matches this same graha. The house placement
+    still applies.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 8–10
+  other_locator: Mars in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Directional strength
+  supports: Peak directions of the seven visible grahas.
+  verification: verified
+confidence: medium
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When a goal comes within reach, you can choose one practical step and check whom it affects.
+  kn: ಒಂದು ಗುರಿ ಕೈಗೆಟುಕುವಂತಾದಾಗ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆರಿಸಿ ಅದು ಯಾರ ಮೇಲೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: जब कोई लक्ष्य पहुँच में आने लगे, आप एक व्यावहारिक कदम चुनकर देख सकते हैं कि उसका असर किस पर पड़ेगा।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can pause to hear another view before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
+    hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।

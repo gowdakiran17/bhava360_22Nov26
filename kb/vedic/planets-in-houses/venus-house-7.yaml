@@ -1,0 +1,107 @@
+id: vedic.planets-in-houses.venus-house-7
+system: vedic
+topic: planets-in-houses
+title: Venus in house 7
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Venus in whole-sign D1 house 7 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.venus.house_from_lagna
+    op: eq
+    value: 7
+placement:
+  graha: venus
+  house: 7
+  reference: lagna
+  related_placement: vedic.houses.venus-house-7
+  themes:
+  - finding common ground
+  - committed partnership
+  - agreements
+  grouping_effects:
+    kendra: An angular house brings the topic into recurring, visible decisions.
+    maraka: Maraka is a traditional technical classification. Use the ordinary house topics in this reading.
+  dig_bala:
+    direction: north
+    peak_house: 4
+    peak_house_matches: false
+    note: The peak for Venus is in house 4. Exact strength depends on angular distance from the pivot.
+meaning: Venus in house 7 may bring finding common ground into questions of committed partnership. When making
+  an agreement, you can ask what would make the arrangement work for everyone involved.
+life_areas:
+- love-marriage
+- business
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.venus.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions:
+- when:
+    all:
+    - fact: d1.venus.debilitated
+      op: eq
+      value: true
+    - fact: d1.dignity.debility_lord_angular
+      op: eq
+      value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Qualify the debility modifier when the cancellation candidate matches this same graha. The house placement
+    still applies.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 17–19
+  other_locator: Venus in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Directional strength
+  supports: Peak directions of the seven visible grahas.
+  verification: verified
+confidence: medium
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When making an agreement, you can ask what would make the arrangement work for everyone involved.
+  kn: ಒಪ್ಪಂದ ಮಾಡಿಕೊಳ್ಳುವಾಗ ಭಾಗಿಯಾದವರಿಗೆ ವ್ಯವಸ್ಥೆ ಹೇಗೆ ಅನುಕೂಲವಾಗಬಹುದು ಎಂದು ಕೇಳಬಹುದು.
+  hi: कोई समझौता तय करते समय, आप पूछ सकते हैं कि व्यवस्था सभी के लिए कैसे सुविधाजनक बन सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for someone else’s preference today.
+    kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.
+    hi: आज किसी और की पसंद को भी जगह दे सकते हैं।

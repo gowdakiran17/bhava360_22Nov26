@@ -1,0 +1,85 @@
+id: vedic.planets-in-houses.rahu-house-11
+system: vedic
+topic: planets-in-houses
+title: Rahu in house 11
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Rahu in whole-sign D1 house 11 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.rahu.house_from_lagna
+    op: eq
+    value: 11
+placement:
+  graha: rahu
+  house: 11
+  reference: lagna
+  related_placement: vedic.houses.rahu-house-11
+  themes:
+  - exploring an unfamiliar option
+  - receipts
+  - fulfilment of aims
+  grouping_effects:
+    upachaya: An upachaya house places emphasis on capacities that can develop through practice.
+  dig_bala:
+    direction: null
+    peak_house: null
+    peak_house_matches: null
+    note: This profile leaves nodal dig bala unassigned.
+meaning: Rahu in house 11 may bring exploring an unfamiliar option into questions of receipts. When a goal comes
+  within reach, you can check what you know about an unfamiliar option before trying it.
+life_areas:
+- money
+- career
+- family-home
+strength_notes:
+- when:
+    fact: d1.rahu.dispositor_own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The sign ruler can support this house topic through its own dignity.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 25–27
+  other_locator: Rahu in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+confidence: disputed
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When a goal comes within reach, you can check what you know about an unfamiliar option before trying it.
+  kn: ಒಂದು ಗುರಿ ಕೈಗೆಟುಕುವಂತಾದಾಗ ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಅದರ ಬಗ್ಗೆ ನಿಮಗೆ ತಿಳಿದಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: जब कोई लक्ष्य पहुँच में आने लगे, आप किसी नए विकल्प को आज़माने से पहले उसके बारे में अपनी जानकारी जाँच सकते
+    हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can check one assumption before trying something new.
+    kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: कुछ नया आज़माने से पहले एक अनुमान जाँच सकते हैं।

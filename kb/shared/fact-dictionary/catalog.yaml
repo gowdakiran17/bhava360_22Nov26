@@ -1399,3 +1399,13 @@ facts:
     producer: vedic.d1
     origin: For the same bound house, the house, lord and all listed natural karakas meet the selected profile's strength criteria.
     unknown_if: Selection, strength method or any required assessment is missing or unstable.
+  d1.rahu.dispositor_own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: The classical ruler of the natal sign occupied by Rahu occupies its own or exaltation sign in the same chart.
+    unknown_if: The node sign, ruler or ruler placement is missing or unstable.
+  d1.ketu.dispositor_own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: The classical ruler of the natal sign occupied by Ketu occupies its own or exaltation sign in the same chart.
+    unknown_if: The node sign, ruler or ruler placement is missing or unstable.

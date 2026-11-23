@@ -105,3 +105,10 @@ vedic_planets_in_signs:
   sign_class: Sign-level exaltation, debilitation or ownership takes precedence over the natural relationship to the ruler. Unassigned nodal dignity is disputed.
   degree_sensitive: Retain the KB-01/02 limits for moolatrikona and own sign, and the exact peak for exaltation or debilitation. A sign-only match cannot establish an exact degree state.
   cancellation: A debility exception references a candidate rule and applies only to the same selected graha.
+vedic_planets_in_houses:
+  extension: placement
+  fields: [graha, house, reference, related_placement, themes, grouping_effects, dig_bala]
+  reference: Whole-sign natal house counted from a stable Lagna.
+  related_placement: Treat this entry and the linked vedic.houses placement as one piece of evidence.
+  dig_bala: Match the KB-02 peak house. Calculating a strength value requires angular distance. Nodes are unassigned.
+  related_rules: Optional top-level list of separate rules to consult. Each rule evaluates its own conditions.

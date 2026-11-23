@@ -40,3 +40,4 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, us
 # Western outer-planet entries carry the outer_planet mapping defined in SCHEMA.yaml.
 # Vedic planetary state entries carry the state mapping defined in SCHEMA.yaml.
 # Vedic planet-in-sign entries carry the placement mapping defined in SCHEMA.yaml.
+# Vedic planet-in-house entries use the house placement mapping in SCHEMA.yaml.

@@ -1,0 +1,106 @@
+id: vedic.planets-in-houses.mercury-house-3
+system: vedic
+topic: planets-in-houses
+title: Mercury in house 3
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Mercury in whole-sign D1 house 3 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.mercury.house_from_lagna
+    op: eq
+    value: 3
+placement:
+  graha: mercury
+  house: 3
+  reference: lagna
+  related_placement: vedic.houses.mercury-house-3
+  themes:
+  - putting ideas into words
+  - siblings
+  - initiative
+  grouping_effects:
+    upachaya: An upachaya house places emphasis on capacities that can develop through practice.
+  dig_bala:
+    direction: east
+    peak_house: 1
+    peak_house_matches: false
+    note: The peak for Mercury is in house 1. Exact strength depends on angular distance from the pivot.
+meaning: Mercury in house 3 may bring putting ideas into words into questions of siblings. When practising a skill,
+  you can put the main question into your own words.
+life_areas:
+- family-home
+- learning
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.mercury.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions:
+- when:
+    all:
+    - fact: d1.mercury.debilitated
+      op: eq
+      value: true
+    - fact: d1.dignity.debility_lord_angular
+      op: eq
+      value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Qualify the debility modifier when the cancellation candidate matches this same graha. The house placement
+    still applies.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 11–13
+  other_locator: Mercury in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Directional strength
+  supports: Peak directions of the seven visible grahas.
+  verification: verified
+confidence: medium
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When practising a skill, you can put the main question into your own words.
+  kn: ಕೌಶಲವೊಂದನ್ನು ಅಭ್ಯಾಸ ಮಾಡುವಾಗ ಮುಖ್ಯ ಪ್ರಶ್ನೆಯನ್ನು ನಿಮ್ಮದೇ ಮಾತಿನಲ್ಲಿ ಹೇಳಬಹುದು.
+  hi: किसी हुनर का अभ्यास करते समय, आप मुख्य सवाल को अपने शब्दों में रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can clarify an instruction for someone who asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+    hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।

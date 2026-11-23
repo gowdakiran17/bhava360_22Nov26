@@ -1,0 +1,108 @@
+id: vedic.planets-in-houses.sun-house-8
+system: vedic
+topic: planets-in-houses
+title: Sun in house 8
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Sun in whole-sign D1 house 8 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.sun.house_from_lagna
+    op: eq
+    value: 8
+placement:
+  graha: sun
+  house: 8
+  reference: lagna
+  related_placement: vedic.houses.sun-house-8
+  themes:
+  - taking responsibility
+  - continuity through disruption
+  - longevity (ayu)
+  grouping_effects:
+    dusthana: This house can call for attention to costs, complications or matters that take time to resolve.
+  dig_bala:
+    direction: south
+    peak_house: 10
+    peak_house_matches: false
+    note: The peak for Sun is in house 10. Exact strength depends on angular distance from the pivot.
+meaning: Sun in house 8 may bring taking responsibility into questions of continuity through disruption. When
+  a shared responsibility changes, you can be clear about what you are willing to stand behind.
+life_areas:
+- money
+- love-marriage
+- health
+- spirituality
+strength_notes:
+- when:
+    fact: d1.sun.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Own or exaltation sign supplies a supporting dignity factor. Check other strengths separately.
+- when:
+    fact: d1.sun.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation qualifies this graha’s expression; check separately sourced cancellations before interpreting.
+exceptions:
+- when:
+    all:
+    - fact: d1.sun.debilitated
+      op: eq
+      value: true
+    - fact: d1.dignity.debility_lord_angular
+      op: eq
+      value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Qualify the debility modifier when the cancellation candidate matches this same graha. The house placement
+    still applies.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 1–4
+  other_locator: Sun in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Directional strength
+  supports: Peak directions of the seven visible grahas.
+  verification: verified
+confidence: medium
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When a shared responsibility changes, you can be clear about what you are willing to stand behind.
+  kn: ಹಂಚಿಕೊಂಡ ಜವಾಬ್ದಾರಿ ಬದಲಾದಾಗ ಯಾವುದಕ್ಕೆ ಹೊಣೆ ವಹಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಿ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+  hi: जब कोई साझी ज़िम्मेदारी बदले, आप साफ़ कर सकते हैं कि किस बात की ज़िम्मेदारी लेने को तैयार हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can give credit to someone who helped you lead a task.
+    kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: काम सँभालने में मदद करने वाले को श्रेय दे सकते हैं।

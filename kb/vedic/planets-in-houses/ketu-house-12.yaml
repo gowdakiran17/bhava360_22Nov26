@@ -1,0 +1,85 @@
+id: vedic.planets-in-houses.ketu-house-12
+system: vedic
+topic: planets-in-houses
+title: Ketu in house 12
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Ketu in whole-sign D1 house 12 from a stable natal Lagna.
+conditions:
+  all:
+  - fact: d1.ketu.house_from_lagna
+    op: eq
+    value: 12
+placement:
+  graha: ketu
+  house: 12
+  reference: lagna
+  related_placement: vedic.houses.ketu-house-12
+  themes:
+  - simplifying a familiar pattern
+  - outgoings
+  - rest
+  grouping_effects:
+    dusthana: This house can call for attention to costs, complications or matters that take time to resolve.
+  dig_bala:
+    direction: null
+    peak_house: null
+    peak_house_matches: null
+    note: This profile leaves nodal dig bala unassigned.
+meaning: Ketu in house 12 may bring simplifying a familiar pattern into questions of outgoings. When setting aside
+  time or money, you may find that leaving one unnecessary step out makes room for what matters.
+life_areas:
+- money
+- health
+- spirituality
+strength_notes:
+- when:
+    fact: d1.ketu.dispositor_own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The sign ruler can support this house topic through its own dignity.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This entry counts whole signs from Lagna. A count from the Moon can place the graha in another house and
+    requires its own reference and reading.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 8
+  verse: 28–33
+  other_locator: Ketu in the twelve houses from Lagna
+  supports: Classical placement context. The practical reflection is editorial.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+confidence: disputed
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
+  matches.
+user_text:
+  en: When setting aside time or money, you may find that leaving one unnecessary step out makes room for what
+    matters.
+  kn: ಸಮಯ ಅಥವಾ ಹಣವನ್ನು ಮೀಸಲಿಡುವಾಗ ಅಗತ್ಯವಿಲ್ಲದ ಒಂದು ಹಂತವನ್ನು ಬಿಡುವುದರಿಂದ ಮುಖ್ಯ ವಿಷಯಕ್ಕೆ ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: समय या पैसे अलग रखते समय, एक अनावश्यक कदम हटाने से ज़रूरी बात के लिए जगह बन सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can set aside a few quiet minutes for reflection.
+    kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
+    hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।

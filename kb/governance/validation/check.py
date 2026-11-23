@@ -136,6 +136,36 @@ def validate_states(rules, facts):
         require(combustion_match(combustion, graha, 0, 0, 1) is False, graha + ' ineligible')
 
 
+def validate_planets_in_houses(rules, grahas):
+    prefix = 'vedic.planets-in-houses.'
+    expected = {f'{prefix}{g}-house-{n}' for g in grahas for n in range(1, 13)}
+    actual = {r['id'] for r in rules.values() if (r['system'], r['topic']) == ('vedic', 'planets-in-houses')}
+    require(actual == expected and len(actual) == 108, 'planet-in-house grid is incomplete or unexpected')
+    for rid in expected:
+        entry = rules[rid]
+        p = entry['placement']
+        graha, number = p['graha'], p['house']
+        require(rid == f'{prefix}{graha}-house-{number}' and p['reference'] == 'lagna', rid)
+        condition = {'all': [{'fact': f'd1.{graha}.house_from_lagna', 'op': 'eq', 'value': number}]}
+        require(entry['conditions'] == condition, rid + ' Lagna binding')
+        links = ['vedic.doshas.mars-partnership'] if graha == 'mars' and number in (1, 2, 4, 7, 8, 12) else []
+        require(entry.get('related_rules', []) == links and all(link in rules for link in links), rid + ' related rules')
+        related_id = f'vedic.houses.{graha}-house-{number}'
+        require(p['related_placement'] == related_id and rules[related_id]['conditions'] == condition, rid)
+        house = rules[f'vedic.houses.house-{number}']
+        require(entry['life_areas'] == house['life_areas'], rid + ' house life areas')
+        effects = p['grouping_effects']
+        require(set(effects) == set(house['bhava']['groupings']) and all(effects.values()), rid + ' groups')
+        src = rules[f'vedic.planets.{graha}']['graha']['directional_strength']
+        dig = p['dig_bala']
+        peak = src['peak_house']
+        require(dig['peak_house'] == peak and dig['direction'] == src['direction'] and
+                dig['peak_house_matches'] is (None if peak is None else number == peak), rid + ' dig bala')
+        require(p['themes'] and entry['strength_notes'] and entry['traditions_differ'], rid)
+        if graha in ('rahu', 'ketu'):
+            require(entry['confidence'] == 'disputed', rid + ' node doctrine')
+
+
 def validate_planets_in_signs(rules, grahas, signs):
     prefix = 'vedic.planets-in-signs.'
     expected = {prefix + g + '-' + s['id'] for g in grahas for s in signs}
@@ -315,8 +345,10 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
-        if data['system'] == 'vedic' and data['topic'] == 'planets-in-signs':
+        if data['system'] == 'vedic' and data['topic'] in ('planets-in-signs', 'planets-in-houses'):
             expected_fields.add('placement')
+        if data['topic'] == 'planets-in-houses' and 'related_rules' in data:
+            expected_fields.add('related_rules')
         if data['system'] == 'vedic' and data['topic'] == 'states':
             expected_fields.add('state')
         if rid in {'western.planets.' + name for name in OUTER_BODIES}:
@@ -385,6 +417,7 @@ def main():
                     expected[field][name] = attributes[field][graha]
             require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
+    validate_planets_in_houses(rules, grahas)
     validate_planets_in_signs(rules, grahas, signs)
     validate_nakshatras(rules, signs)
     validate_houses(rules, areas['areas'])
