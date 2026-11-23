@@ -79,7 +79,7 @@ Use a shared activity catalogue for everyday travel, starting work, purchase, si
 ## Writing and publication
 
 - Write the rule and meaning independently in plain language after consulting the source. Cite book, edition, chapter and verse or equivalent locator. Never copy a translation, another app's copy or card artwork. Link sources to the claims they support.
-- Mark uncertain drafts with a review note. Confidence (high, medium, disputed) describes support within the named tradition. It is separate from approval. Record competing readings and verify exact references before advancing draft → validated → approved.
+- Mark uncertain drafts with a review note. Confidence (high, medium, low, disputed) describes support within the named tradition. It is separate from approval. Record competing readings and verify exact references before advancing draft → validated → approved.
 - Use gentle may/can equivalents in English, Kannada and Hindi. Have native reviewers check terminology, tone and meaning in context. Preserve the PRD reading footer and the additional reflection line for tarot, palmistry and face reading in all locales.
 - Avoid fear, guarantees, urgency, scores, lucky/unlucky labels and medical, financial, legal, pregnancy or lifespan verdicts. Use approved sensitive-topic responses. Matching alone may show traditional points as text. Keep palm and face observations within the PRD's consent and inference limits.
 - Offer practical actions first. A remedy may be null. Allowed practices are optional, free mantra, charity or conduct, labelled “Traditional practice.” Exclude gems, crystals, lucky colours, paid rituals and sales.

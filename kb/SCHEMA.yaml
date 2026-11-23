@@ -1,0 +1,17 @@
+version: 1
+scope: Rule and meaning entries
+entry_template: templates/entry.yaml
+canonical_id: system.topic-key.slug
+example_id: vedic.houses.mars-house-7
+conditions:
+  root: all, any or not
+  single_leaf: Wrap one typed fact predicate in an all list.
+  nested_leaves: Use fact, op and value.
+confidence: [high, medium, low, disputed]
+traditions_differ: A disputed entry records the profile and the point of disagreement.
+exceptions: Store cancellations here with a when predicate, a cancel or soften effect, and a reason.
+life_areas:
+  catalogue: life-areas/catalog.yaml
+  assignments: Tag every clearly applicable area using its catalogue key.
+  empty: Use [] for an area-neutral definition or a rule whose area depends on the specific planet, house or activity supplied at runtime.
+user_tones: [Supportive, Steady, Take care]

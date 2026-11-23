@@ -6,12 +6,13 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Lord of house 8 occupies house 6, 8 or 12 under the broad Vipareeta screen.
 conditions:
-  fact: d1.lord_8.distance_from_lagna
-  op: in
-  value:
-  - 6
-  - 8
-  - 12
+  all:
+  - fact: d1.lord_8.distance_from_lagna
+    op: in
+    value:
+    - 6
+    - 8
+    - 12
 meaning: You can make room for support from people you trust.
 life_areas:
 - career

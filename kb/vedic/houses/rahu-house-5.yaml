@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of rahu counted from Lagna is 5.
 conditions:
-  fact: d1.rahu.house_from_lagna
-  op: eq
-  value: 5
+  all:
+  - fact: d1.rahu.house_from_lagna
+    op: eq
+    value: 5
 meaning: Use the graha theme of examining an unfamiliar possibility to frame a reflection on learning and creativity.
 life_areas:
 - learning

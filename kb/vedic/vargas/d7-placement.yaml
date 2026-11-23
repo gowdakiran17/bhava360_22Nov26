@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Use a stable D7 placement alongside its D1 context.
 conditions:
-  fact: varga.d7.verified_placement
-  op: eq
-  value: true
+  all:
+  - fact: varga.d7.verified_placement
+    op: eq
+    value: true
 meaning: This chart supplies a supplementary lens on caregiving.
-life_areas: []
+life_areas: [children, family-home]
 strength_notes: []
 exceptions: []
 traditions_differ: []

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The requested activity window overlaps the computed Vishti karana interval.
 conditions:
-  fact: panchang.karana.vishti
-  op: eq
-  value: true
+  all:
+  - fact: panchang.karana.vishti
+    op: eq
+    value: true
 meaning: You can look at the next available planning window.
 life_areas: []
 strength_notes: []

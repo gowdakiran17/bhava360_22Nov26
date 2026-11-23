@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: Registration digit root matches the selected birth root.
 conditions:
-  fact: checker.vehicle.root_matches_birth
-  op: eq
-  value: true
+  all:
+  - fact: checker.vehicle.root_matches_birth
+    op: eq
+    value: true
 meaning: This registration shares a number theme with your birth date.
 life_areas: []
 strength_notes: []

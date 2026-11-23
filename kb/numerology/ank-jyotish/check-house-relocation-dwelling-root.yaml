@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: Under the explicitly selected house-number convention the reduced house number equals Moolank.
 conditions:
-  fact: checker.house-relocation.dwelling-root
-  op: eq
-  value: true
+  all:
+  - fact: checker.house-relocation.dwelling-root
+    op: eq
+    value: true
 meaning: The house number and birth-day number share a root.
 life_areas: []
 strength_notes: []

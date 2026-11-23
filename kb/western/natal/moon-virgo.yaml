@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal moon is in virgo.
 conditions:
-  fact: western.natal.moon.sign
-  op: eq
-  value: virgo
+  all:
+  - fact: western.natal.moon.sign
+    op: eq
+    value: virgo
 meaning: Consider emotional needs through the theme of refining details.
 life_areas: []
 strength_notes: []

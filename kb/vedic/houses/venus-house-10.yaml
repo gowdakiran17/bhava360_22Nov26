@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of venus counted from Lagna is 10.
 conditions:
-  fact: d1.venus.house_from_lagna
-  op: eq
-  value: 10
+  all:
+  - fact: d1.venus.house_from_lagna
+    op: eq
+    value: 10
 meaning: Use the graha theme of finding common ground to frame a reflection on public responsibilities.
 life_areas:
 - career

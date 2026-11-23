@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Saturn occupies the natal Moon sign within a solved ingress-to-egress interval.
 conditions:
-  fact: transit.saturn.over_moon_sign
-  op: eq
-  value: true
+  all:
+  - fact: transit.saturn.over_moon_sign
+    op: eq
+    value: true
 meaning: You may prefer a steady routine during this period.
 life_areas: []
 strength_notes: []

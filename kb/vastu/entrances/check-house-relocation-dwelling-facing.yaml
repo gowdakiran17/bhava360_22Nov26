@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: A confirmed entrance direction resolves to an entry in the selected Vastu layout profile.
 conditions:
-  fact: checker.house-relocation.dwelling-facing
-  op: eq
-  value: true
+  all:
+  - fact: checker.house-relocation.dwelling-facing
+    op: eq
+    value: true
 meaning: You can explore the entrance direction in the layout notes.
 life_areas: []
 strength_notes: []

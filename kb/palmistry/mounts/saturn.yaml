@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: user-confirmed prominence of saturn mount
 conditions:
-  fact: palm.mounts.saturn
-  op: eq
-  value: true
+  all:
+  - fact: palm.mounts.saturn
+    op: eq
+    value: true
 meaning: Use responsibility as an optional journal topic.
 life_areas: []
 strength_notes: []

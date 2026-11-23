@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: Observed main entrance faces north in the recorded compass convention.
 conditions:
-  fact: vastu.north
-  op: eq
-  value: true
+  all:
+  - fact: vastu.north
+    op: eq
+    value: true
 meaning: arrival routines
 life_areas:
 - family-home

@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 41.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 41
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 41
 meaning: maintaining an independent judgement
 life_areas: []
 strength_notes: []

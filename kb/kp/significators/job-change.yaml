@@ -6,9 +6,10 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: The selected cusp sub lord signifies a work house (6, 10 or 11), with its level recorded.
 conditions:
-  fact: kp.work_chain
-  op: eq
-  value: true
+  all:
+  - fact: kp.work_chain
+    op: eq
+    value: true
 meaning: This factor may help you explore your work question.
 life_areas:
 - career

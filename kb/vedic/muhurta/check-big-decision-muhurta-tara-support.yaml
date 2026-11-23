@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Specific participant has a supportive birth-star distance in the candidate interval.
 conditions:
-  fact: checker.big-decision-muhurta.tara-support
-  op: eq
-  value: true
+  all:
+  - fact: checker.big-decision-muhurta.tara-support
+    op: eq
+    value: true
 meaning: Your birth-star count supports this window under the chosen method.
 life_areas: []
 strength_notes: []

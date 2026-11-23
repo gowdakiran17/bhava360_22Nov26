@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Next dated major or subperiod lord owns house 4 of the stable natal chart. Bind the exact child interval.
 conditions:
-  fact: dasha.next_lord.owns_house_4
-  op: eq
-  value: true
+  all:
+  - fact: dasha.next_lord.owns_house_4
+    op: eq
+    value: true
 meaning: Home responsibilities may draw your attention in this period.
 life_areas:
 - family-home

@@ -7,9 +7,10 @@ approval: draft
 rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
   Bind graha, reference house, interval and qualifying rule ID.
 conditions:
-  fact: transit.love-marriage.qualified_challenge
-  op: eq
-  value: true
+  all:
+  - fact: transit.love-marriage.qualified_challenge
+    op: eq
+    value: true
 meaning: You may wish to check whether both of you expect the same thing.
 life_areas:
 - love-marriage

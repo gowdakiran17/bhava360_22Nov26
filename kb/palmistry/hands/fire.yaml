@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: long palm and relatively short fingers
 conditions:
-  fact: palm.hands.fire
-  op: eq
-  value: true
+  all:
+  - fact: palm.hands.fire
+    op: eq
+    value: true
 meaning: Use taking initiative as an optional journal topic.
 life_areas: []
 strength_notes: []

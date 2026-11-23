@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: confirmed line below ring finger
 conditions:
-  fact: palm.lines.sun
-  op: eq
-  value: true
+  all:
+  - fact: palm.lines.sun
+    op: eq
+    value: true
 meaning: Use creative enjoyment as an optional journal topic.
 life_areas: []
 strength_notes: []

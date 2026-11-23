@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 23.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 23
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 23
 meaning: drawing on helpful contacts
 life_areas: []
 strength_notes: []

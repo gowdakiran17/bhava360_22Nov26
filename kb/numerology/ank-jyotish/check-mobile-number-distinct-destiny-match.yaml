@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The derived root equals Bhagyank and Bhagyank differs from Moolank.
 conditions:
-  fact: checker.mobile-number.distinct-destiny-match
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile-number.distinct-destiny-match
+    op: eq
+    value: true
 meaning: The root also connects this option with your full birth-date number.
 life_areas: []
 strength_notes: []

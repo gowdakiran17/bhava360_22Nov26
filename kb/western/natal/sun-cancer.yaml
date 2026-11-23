@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in cancer.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: cancer
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: cancer
 meaning: Consider purpose through the theme of creating belonging.
 life_areas: []
 strength_notes: []

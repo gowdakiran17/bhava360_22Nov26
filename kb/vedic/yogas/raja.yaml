@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: A distinct angle lord and trine lord conjoin or exchange signs under this profile.
 conditions:
-  fact: d1.lords.kendra_trikona_link
-  op: eq
-  value: true
+  all:
+  - fact: d1.lords.kendra_trikona_link
+    op: eq
+    value: true
 meaning: You may wish to choose one practical next step at work.
 life_areas:
 - career

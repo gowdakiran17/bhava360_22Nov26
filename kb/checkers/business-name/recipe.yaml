@@ -14,7 +14,7 @@ next_actions:
 method: Compare the exact spellings and show each system in its own column. India filter defaults on.
 compare_limit: 3
 policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
-  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  not a Supportive tone by itself. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
   of the limit.
 tone_resolution:
   only_supportive: Supportive

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Both selected birth stars belong to the same Nadi class under the chosen table.
 conditions:
-  fact: match.nadi.same
-  op: eq
-  value: true
+  all:
+  - fact: match.nadi.same
+    op: eq
+    value: true
 meaning: You can read how this traditional factor is counted and which exceptions apply.
 life_areas:
 - love-marriage

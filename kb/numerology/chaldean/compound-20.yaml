@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 20.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 20
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 20
 meaning: answering a call to action
 life_areas: []
 strength_notes: []

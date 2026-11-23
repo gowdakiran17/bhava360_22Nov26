@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: A validated house-strength profile classifies this specific bhava as supported.
 conditions:
-  fact: strength.bhava.qualitative_support
-  op: eq
-  value: true
+  all:
+  - fact: strength.bhava.qualitative_support
+    op: eq
+    value: true
 meaning: You can explore the supporting factors for this part of your chart.
 life_areas: []
 strength_notes: []

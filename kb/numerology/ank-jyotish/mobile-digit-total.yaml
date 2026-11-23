@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The candidate has ten digits and its original digit sum has been computed in memory.
 conditions:
-  fact: checker.mobile.digit_sum_known
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile.digit_sum_known
+    op: eq
+    value: true
 meaning: Show the compound total within this view.
 life_areas: []
 strength_notes: []

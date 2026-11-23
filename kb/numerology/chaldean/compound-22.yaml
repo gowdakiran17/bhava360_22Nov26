@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 22.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 22
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 22
 meaning: seeking a second perspective
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: user-confirmed prominence of venus mount
 conditions:
-  fact: palm.mounts.venus
-  op: eq
-  value: true
+  all:
+  - fact: palm.mounts.venus
+    op: eq
+    value: true
 meaning: Use affection as an optional journal topic.
 life_areas: []
 strength_notes: []

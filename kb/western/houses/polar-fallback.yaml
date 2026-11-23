@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The chosen quadrant system could not produce cusps and the engine explicitly used Whole Sign.
 conditions:
-  fact: western.polar-fallback-used
-  op: eq
-  value: true
+  all:
+  - fact: western.polar-fallback-used
+    op: eq
+    value: true
 meaning: You can view this chart with whole-sign houses for this latitude.
 life_areas: []
 strength_notes: []

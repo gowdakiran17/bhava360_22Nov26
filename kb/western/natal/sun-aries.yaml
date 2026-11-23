@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in aries.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: aries
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: aries
 meaning: Consider purpose through the theme of starting something.
 life_areas: []
 strength_notes: []

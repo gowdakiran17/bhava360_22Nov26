@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The proposed launch instant falls inside an activity-specific hard exclusion.
 conditions:
-  fact: checker.business-name.launch-exclusion
-  op: eq
-  value: true
+  all:
+  - fact: checker.business-name.launch-exclusion
+    op: eq
+    value: true
 meaning: You can compare another time for the launch.
-life_areas: []
+life_areas: [business]
 strength_notes: []
 exceptions: []
 traditions_differ: []

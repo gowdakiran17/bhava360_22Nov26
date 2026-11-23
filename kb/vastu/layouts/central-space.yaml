@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: User identifies an open central area.
 conditions:
-  fact: vastu.central-space
-  op: eq
-  value: true
+  all:
+  - fact: vastu.central-space
+    op: eq
+    value: true
 meaning: how people move through the home
 life_areas:
 - family-home

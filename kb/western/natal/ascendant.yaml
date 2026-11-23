@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: Present the tropical ascendant sign only with a reliable birth time.
 conditions:
-  fact: western.ascendant-sign
-  op: eq
-  value: true
+  all:
+  - fact: western.ascendant-sign
+    op: eq
+    value: true
 meaning: Your rising sign can be a starting point for exploring how you meet new situations.
 life_areas: []
 strength_notes: []

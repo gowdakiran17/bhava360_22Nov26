@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The ten-digit total reduces to the selected birth-number root.
 conditions:
-  fact: checker.mobile.root_matches_birth
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile.root_matches_birth
+    op: eq
+    value: true
 meaning: The two totals share a root in this number system.
 life_areas: []
 strength_notes: []

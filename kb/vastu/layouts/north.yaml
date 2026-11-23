@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: Use the recorded compass sector of the identified room.
 conditions:
-  fact: vastu.observed.sector
-  op: eq
-  value: north
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: north
 meaning: Optional household reflection about entering and leaving.
 life_areas:
 - family-home

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The window’s tithi or nakshatra is listed as supportive in the selected activity profile.
 conditions:
-  fact: checker.big-decision-muhurta.activity-limb
-  op: eq
-  value: true
+  all:
+  - fact: checker.big-decision-muhurta.activity-limb
+    op: eq
+    value: true
 meaning: The calendar factor shown here fits the selected activity.
 life_areas: []
 strength_notes: []

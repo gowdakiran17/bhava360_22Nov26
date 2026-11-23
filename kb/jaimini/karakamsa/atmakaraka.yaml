@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: Resolve the D9 sign occupied by the ranked Atmakaraka.
 conditions:
-  fact: jaimini.d9.ak_sign_stable
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.d9.ak_sign_stable
+    op: eq
+    value: true
 meaning: A recurring interest may be worth exploring.
 life_areas: []
 strength_notes: []

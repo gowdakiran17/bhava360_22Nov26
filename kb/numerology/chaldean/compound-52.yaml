@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 52.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 52
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 52
 meaning: preparing for a change of plan
 life_areas: []
 strength_notes: []

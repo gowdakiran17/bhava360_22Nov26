@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Use a stable D10 placement alongside its D1 context.
 conditions:
-  fact: varga.d10.verified_placement
-  op: eq
-  value: true
+  all:
+  - fact: varga.d10.verified_placement
+    op: eq
+    value: true
 meaning: This chart supplies a supplementary lens on professional responsibilities.
-life_areas: []
+life_areas: [career]
 strength_notes: []
 exceptions: []
 traditions_differ: []

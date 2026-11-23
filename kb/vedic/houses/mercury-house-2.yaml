@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of mercury counted from Lagna is 2.
 conditions:
-  fact: d1.mercury.house_from_lagna
-  op: eq
-  value: 2
+  all:
+  - fact: d1.mercury.house_from_lagna
+    op: eq
+    value: 2
 meaning: Use the graha theme of asking a clarifying question to frame a reflection on speech and family resources.
 life_areas:
 - family-home

@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: broad palm and short fingers
 conditions:
-  fact: palm.hands.earth
-  op: eq
-  value: true
+  all:
+  - fact: palm.hands.earth
+    op: eq
+    value: true
 meaning: Use practical tasks as an optional journal topic.
 life_areas: []
 strength_notes: []

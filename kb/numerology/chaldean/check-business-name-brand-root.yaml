@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The Chaldean candidate root equals the comparison root explicitly selected by the owner.
 conditions:
-  fact: checker.business-name.brand-root
-  op: eq
-  value: true
+  all:
+  - fact: checker.business-name.brand-root
+    op: eq
+    value: true
 meaning: The proposed spelling shares the root you chose for comparison.
 life_areas: []
 strength_notes: []

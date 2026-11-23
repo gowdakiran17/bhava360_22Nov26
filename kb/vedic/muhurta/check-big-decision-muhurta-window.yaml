@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: No excluded interval overlaps the candidate window and every required participant is included.
 conditions:
-  fact: checker.window.all_pass
-  op: eq
-  value: true
+  all:
+  - fact: checker.window.all_pass
+    op: eq
+    value: true
 meaning: This window can be considered for your chosen activity.
 life_areas: []
 strength_notes: []

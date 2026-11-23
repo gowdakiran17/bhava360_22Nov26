@@ -6,12 +6,13 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Moon lies sixth, eighth or twelfth from Jupiter.
 conditions:
-  fact: d1.moon.distance_from_jupiter
-  op: in
-  value:
-  - 6
-  - 8
-  - 12
+  all:
+  - fact: d1.moon.distance_from_jupiter
+    op: in
+    value:
+    - 6
+    - 8
+    - 12
 meaning: You can make room for support from people you trust.
 life_areas:
 - family-home

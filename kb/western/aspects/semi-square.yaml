@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The selected natal pair forms the named aspect within its configured orb.
 conditions:
-  fact: western.natal.aspect
-  op: eq
-  value: semi-square
+  all:
+  - fact: western.natal.aspect
+    op: eq
+    value: semi-square
 meaning: a minor friction
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Current major period lord owns natal house 7.
 conditions:
-  fact: dasha.active_lord.owns_house_7
-  op: eq
-  value: true
+  all:
+  - fact: dasha.active_lord.owns_house_7
+    op: eq
+    value: true
 meaning: The period connects the active lord to house 7; use the dated period as context for love-marriage.
 life_areas:
 - love-marriage

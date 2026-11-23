@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of moon counted from Lagna is 11.
 conditions:
-  fact: d1.moon.house_from_lagna
-  op: eq
-  value: 11
+  all:
+  - fact: d1.moon.house_from_lagna
+    op: eq
+    value: 11
 meaning: Use the graha theme of noticing emotional needs to frame a reflection on networks and aims.
 life_areas:
 - business

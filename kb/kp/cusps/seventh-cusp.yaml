@@ -6,9 +6,10 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: The computed seventh cusp sub lord signifies one or more of houses 2, 7 and 11 under the stated KP method.
 conditions:
-  fact: kp.cusp7.links_2_7_11
-  op: eq
-  value: true
+  all:
+  - fact: kp.cusp7.links_2_7_11
+    op: eq
+    value: true
 meaning: This factor can add context to a partnership question.
 life_areas: []
 strength_notes: []

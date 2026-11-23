@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Retrograde motion carries the named graha back across a sign boundary in the requested window.
 conditions:
-  fact: transit.ingress.reentry
-  op: eq
-  value: true
+  all:
+  - fact: transit.ingress.reentry
+    op: eq
+    value: true
 meaning: You may wish to return to a topic from the earlier passage.
 life_areas: []
 strength_notes: []

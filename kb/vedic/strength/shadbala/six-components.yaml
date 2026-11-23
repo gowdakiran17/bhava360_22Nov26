@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: All six components are available and the selected graha meets its reference minimum.
 conditions:
-  fact: strength.shadbala.meets_minimum
-  op: eq
-  value: true
+  all:
+  - fact: strength.shadbala.meets_minimum
+    op: eq
+    value: true
 meaning: This planet may lend support to the topics it represents.
 life_areas: []
 strength_notes: []

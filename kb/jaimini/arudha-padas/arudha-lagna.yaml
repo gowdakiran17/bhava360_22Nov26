@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: The Arudha Lagna sign has been derived with the selected exception profile and remains stable.
 conditions:
-  fact: jaimini.al.stable
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.al.stable
+    op: eq
+    value: true
 meaning: You may reflect on the impression your work leaves with others.
 life_areas:
 - career

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The entire window passes all hard exclusions and all required participant checks.
 conditions:
-  fact: muhurta.window.eligible
-  op: eq
-  value: true
+  all:
+  - fact: muhurta.window.eligible
+    op: eq
+    value: true
 meaning: You can consider this time alongside your practical schedule.
 life_areas: []
 strength_notes: []

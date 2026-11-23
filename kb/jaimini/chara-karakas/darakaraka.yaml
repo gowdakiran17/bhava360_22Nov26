@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: Under the stated scheme, identify the last-ranked graha as Darakaraka.
 conditions:
-  fact: jaimini.dk.confirmed
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.dk.confirmed
+    op: eq
+    value: true
 meaning: You may reflect on the qualities you value in a partner.
 life_areas: []
 strength_notes: []

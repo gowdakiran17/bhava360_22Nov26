@@ -15,7 +15,7 @@ next_actions:
 method: City mode uses destination coordinates at birth instant. House mode uses observed layout, its number and natal factors.
 compare_limit: 3
 policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
-  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  not a Supportive tone by itself. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
   of the limit.
 tone_resolution:
   only_supportive: Supportive

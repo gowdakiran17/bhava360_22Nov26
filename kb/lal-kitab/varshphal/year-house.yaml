@@ -6,9 +6,10 @@ doctrine_profile: lal-kitab-editorial-v1
 approval: draft
 rule: A year-specific placement is returned by the selected edition’s age-year table.
 conditions:
-  fact: lal_kitab.annual.house_known
-  op: eq
-  value: true
+  all:
+  - fact: lal_kitab.annual.house_known
+    op: eq
+    value: true
 meaning: You can compare this annual house with its natal reference.
 life_areas: []
 strength_notes: []

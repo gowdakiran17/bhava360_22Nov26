@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: An intervening occupancy survives the corresponding obstruction check from the same reference sign.
 conditions:
-  fact: jaimini.argala_unobstructed
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.argala_unobstructed
+    op: eq
+    value: true
 meaning: This factor may bring another house into the discussion.
 life_areas: []
 strength_notes: []

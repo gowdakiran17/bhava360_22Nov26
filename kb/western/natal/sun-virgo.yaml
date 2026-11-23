@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in virgo.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: virgo
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: virgo
 meaning: Consider purpose through the theme of refining details.
 life_areas: []
 strength_notes: []

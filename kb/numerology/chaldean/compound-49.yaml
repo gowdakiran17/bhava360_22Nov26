@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 49.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 49
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 49
 meaning: balancing solitude and company
 life_areas: []
 strength_notes: []

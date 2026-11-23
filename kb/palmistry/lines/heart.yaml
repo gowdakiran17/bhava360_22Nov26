@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: clearly confirmed upper transverse line
 conditions:
-  fact: palm.lines.heart
-  op: eq
-  value: true
+  all:
+  - fact: palm.lines.heart
+    op: eq
+    value: true
 meaning: Use expressing care as an optional journal topic.
 life_areas: []
 strength_notes: []

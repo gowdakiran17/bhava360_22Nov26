@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: confirmed middle transverse line
 conditions:
-  fact: palm.lines.head
-  op: eq
-  value: true
+  all:
+  - fact: palm.lines.head
+    op: eq
+    value: true
 meaning: Use thinking habits as an optional journal topic.
 life_areas: []
 strength_notes: []

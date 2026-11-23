@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in pisces.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: pisces
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: pisces
 meaning: Consider purpose through the theme of using imagination.
 life_areas: []
 strength_notes: []

@@ -6,14 +6,17 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: All seven classical grahas lie within the same directed nodal semicircle under the selected boundary convention.
 conditions:
-  fact: dosha.axis.confined
-  op: eq
-  value: true
+  all:
+  - fact: dosha.axis.confined
+    op: eq
+    value: true
 meaning: This chart detail can be explored as a traditional nodal pattern.
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Schools differ on whether to use Kaal Sarp, which nodal direction to count and whether a graha exactly on an endpoint qualifies.
 sources:
 - book: Bhava360 engine and reading conventions
   work_id: bhava360-engine-and-reading-conventions
@@ -23,7 +26,7 @@ sources:
   other_locator: vedic.doshas.nodal-axis
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
-confidence: medium
+confidence: disputed
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
   en: This chart detail can be explored as a traditional nodal pattern.

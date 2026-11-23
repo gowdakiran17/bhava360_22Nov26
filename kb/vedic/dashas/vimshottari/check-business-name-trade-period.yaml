@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The current stable period lord owns the seventh, tenth or eleventh house in the owner’s natal chart.
 conditions:
-  fact: checker.business-name.trade-period
-  op: eq
-  value: true
+  all:
+  - fact: checker.business-name.trade-period
+    op: eq
+    value: true
 meaning: The current chapter touches a house used for business questions.
 life_areas: []
 strength_notes: []

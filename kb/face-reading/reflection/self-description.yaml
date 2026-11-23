@@ -6,9 +6,10 @@ doctrine_profile: face-reading-editorial-v1
 approval: draft
 rule: Adult user opts in to an on-device, self-described expression prompt.
 conditions:
-  fact: face.reflection.opted_in
-  op: eq
-  value: true
+  all:
+  - fact: face.reflection.opted_in
+    op: eq
+    value: true
 meaning: You can describe how you felt in this moment.
 life_areas: []
 strength_notes: []

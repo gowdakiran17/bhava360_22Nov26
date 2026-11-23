@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Next dated major or subperiod lord owns house 10 of the stable natal chart. Bind the exact child interval.
 conditions:
-  fact: dasha.next_lord.owns_house_10
-  op: eq
-  value: true
+  all:
+  - fact: dasha.next_lord.owns_house_10
+    op: eq
+    value: true
 meaning: The upcoming period can bring work responsibilities into focus.
 life_areas:
 - career

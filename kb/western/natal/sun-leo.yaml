@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in leo.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: leo
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: leo
 meaning: Consider purpose through the theme of expressing creativity.
 life_areas: []
 strength_notes: []

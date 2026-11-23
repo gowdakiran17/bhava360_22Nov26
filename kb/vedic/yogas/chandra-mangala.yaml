@@ -6,10 +6,11 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Moon and Mars occupy the same sign in this conjunction-only profile.
 conditions:
-  fact: d1.mars.distance_from_moon
-  op: in
-  value:
-  - 1
+  all:
+  - fact: d1.mars.distance_from_moon
+    op: in
+    value:
+    - 1
 meaning: You may want to review the resources available for your plan.
 life_areas:
 - business

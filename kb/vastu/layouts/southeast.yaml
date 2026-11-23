@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: Use the recorded compass sector of the identified room.
 conditions:
-  fact: vastu.observed.sector
-  op: eq
-  value: southeast
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: southeast
 meaning: Optional household reflection about meal preparation.
 life_areas:
 - family-home

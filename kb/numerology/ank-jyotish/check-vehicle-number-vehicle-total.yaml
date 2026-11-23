@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The submitted registration has at least one decimal digit and the engine supplies the verified digit sum.
 conditions:
-  fact: checker.vehicle-number.vehicle-total
-  op: eq
-  value: true
+  all:
+  - fact: checker.vehicle-number.vehicle-total
+    op: eq
+    value: true
 meaning: The displayed total uses the digits in this registration.
 life_areas: []
 strength_notes: []

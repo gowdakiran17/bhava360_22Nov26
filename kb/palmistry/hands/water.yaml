@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: long palm and long fingers
 conditions:
-  fact: palm.hands.water
-  op: eq
-  value: true
+  all:
+  - fact: palm.hands.water
+    op: eq
+    value: true
 meaning: Use sensitivity as an optional journal topic.
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: confirmed side line below little finger
 conditions:
-  fact: palm.lines.union
-  op: eq
-  value: true
+  all:
+  - fact: palm.lines.union
+    op: eq
+    value: true
 meaning: Use relationship expectations as an optional journal topic.
 life_areas: []
 strength_notes: []

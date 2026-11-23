@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: At least one of the digits 1–9 is absent in this candidate.
 conditions:
-  fact: checker.mobile-number.missing-digits
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile-number.missing-digits
+    op: eq
+    value: true
 meaning: The detail shows which digits are absent from this option.
 life_areas: []
 strength_notes: []

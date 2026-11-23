@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: At the original birth instant a referenced graha occupies a different house at the destination.
 conditions:
-  fact: checker.city.changed_house
-  op: eq
-  value: true
+  all:
+  - fact: checker.city.changed_house
+    op: eq
+    value: true
 meaning: You can compare the two house placements for this planet.
 life_areas: []
 strength_notes: []

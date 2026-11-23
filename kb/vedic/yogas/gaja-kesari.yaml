@@ -6,13 +6,14 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: 'Moon-based screen: Jupiter occupies an angle from the Moon.'
 conditions:
-  fact: d1.jupiter.distance_from_moon
-  op: in
-  value:
-  - 1
-  - 4
-  - 7
-  - 10
+  all:
+  - fact: d1.jupiter.distance_from_moon
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
 meaning: You may find it helpful to talk through an idea before acting.
 life_areas:
 - learning

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of mars counted from Lagna is 3.
 conditions:
-  fact: d1.mars.house_from_lagna
-  op: eq
-  value: 3
+  all:
+  - fact: d1.mars.house_from_lagna
+    op: eq
+    value: 3
 meaning: Use the graha theme of choosing where to act to frame a reflection on communication and practice.
 life_areas:
 - learning

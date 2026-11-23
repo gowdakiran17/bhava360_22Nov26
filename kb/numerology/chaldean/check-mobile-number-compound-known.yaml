@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: A Chaldean compound reading is explicitly enabled and the digit sum is within 10–52.
 conditions:
-  fact: checker.mobile-number.compound-known
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile-number.compound-known
+    op: eq
+    value: true
 meaning: You can read the compound theme before reducing the total.
 life_areas: []
 strength_notes: []

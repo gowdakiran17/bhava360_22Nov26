@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 28.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 28
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 28
 meaning: making agreements explicit
 life_areas: []
 strength_notes: []

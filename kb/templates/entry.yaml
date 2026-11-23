@@ -11,7 +11,7 @@ conditions:
       op: eq
       value: "<typed literal>"
 meaning: "<what the matched facts may indicate>"
-life_areas: []  # Select applicable keys from the folder map.
+life_areas: []  # Use catalogue keys. Leave empty for area-neutral or context-dependent rules (see SCHEMA.yaml).
 strength_notes: []  # Item: {when: <predicate>, effect: stronger|weaker, reason: <text>}
 exceptions: []  # Item: {when: <predicate>, effect: soften|cancel, reason: <text>}
 traditions_differ: []  # Item: {profile: <variant ID>, note: <difference>}
@@ -24,7 +24,7 @@ sources:
     other_locator: null
     supports: "<formation, meaning, modifier or exception>"
     verification: pending
-confidence: medium  # high | medium | disputed
+confidence: medium  # high | medium | low | disputed
 review_notes: "<open questions and verification needed>"
 user_text:
   en: "<English>"

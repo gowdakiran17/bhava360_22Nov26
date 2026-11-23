@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The proposed name begins with a reviewed sound assigned to the owner’s stable lunar pada.
 conditions:
-  fact: checker.brand.initial_sound_matches_pada
-  op: eq
-  value: true
+  all:
+  - fact: checker.brand.initial_sound_matches_pada
+    op: eq
+    value: true
 meaning: The opening sound may suit your chosen naming tradition.
 life_areas: []
 strength_notes: []

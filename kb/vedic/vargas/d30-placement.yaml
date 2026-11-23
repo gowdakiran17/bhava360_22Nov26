@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Use a stable D30 placement alongside its D1 context.
 conditions:
-  fact: varga.d30.verified_placement
-  op: eq
-  value: true
+  all:
+  - fact: varga.d30.verified_placement
+    op: eq
+    value: true
 meaning: This chart supplies a supplementary lens on responding to difficulty.
 life_areas: []
 strength_notes: []

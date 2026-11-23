@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal sun is in sagittarius.
 conditions:
-  fact: western.natal.sun.sign
-  op: eq
-  value: sagittarius
+  all:
+  - fact: western.natal.sun.sign
+    op: eq
+    value: sagittarius
 meaning: Consider purpose through the theme of seeking perspective.
 life_areas: []
 strength_notes: []

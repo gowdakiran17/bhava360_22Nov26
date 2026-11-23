@@ -6,9 +6,10 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: An accepted integer 1–249 selects exactly one interval in the number-horary table.
 conditions:
-  fact: kp.question.arc_selected
-  op: eq
-  value: true
+  all:
+  - fact: kp.question.arc_selected
+    op: eq
+    value: true
 meaning: You can view the chart factors linked to the number you selected.
 life_areas: []
 strength_notes: []

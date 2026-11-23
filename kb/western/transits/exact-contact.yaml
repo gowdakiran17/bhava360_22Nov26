@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: A solved transit to a natal point falls in the requested date range.
 conditions:
-  fact: western.exact-transit
-  op: eq
-  value: true
+  all:
+  - fact: western.exact-transit
+    op: eq
+    value: true
 meaning: You may wish to revisit this theme around the indicated date.
 life_areas: []
 strength_notes: []

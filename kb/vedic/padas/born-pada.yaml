@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal Moon stays within the same pada throughout the supported birth-time interval.
 conditions:
-  fact: name.lunar_pada_stable
-  op: eq
-  value: true
+  all:
+  - fact: name.lunar_pada_stable
+    op: eq
+    value: true
 meaning: You can explore names beginning with the displayed sound.
 life_areas:
 - children

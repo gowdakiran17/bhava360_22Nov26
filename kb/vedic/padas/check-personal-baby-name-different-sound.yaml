@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Reviewed initial sound and recommended pada sound are both known and differ.
 conditions:
-  fact: checker.personal-baby-name.different-sound
-  op: eq
-  value: true
+  all:
+  - fact: checker.personal-baby-name.different-sound
+    op: eq
+    value: true
 meaning: Your shortlist includes a different starting sound, which you can still choose.
 life_areas: []
 strength_notes: []

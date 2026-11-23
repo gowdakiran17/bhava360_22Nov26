@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of ketu counted from Lagna is 8.
 conditions:
-  fact: d1.ketu.house_from_lagna
-  op: eq
-  value: 8
+  all:
+  - fact: d1.ketu.house_from_lagna
+    op: eq
+    value: 8
 meaning: Use the graha theme of deciding what to simplify to frame a reflection on shared obligations and change.
 life_areas:
 - money

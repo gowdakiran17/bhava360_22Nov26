@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The selected natal pair forms the named aspect within its configured orb.
 conditions:
-  fact: western.natal.aspect
-  op: eq
-  value: trine
+  all:
+  - fact: western.natal.aspect
+    op: eq
+    value: trine
 meaning: an easy exchange
 life_areas: []
 strength_notes: []

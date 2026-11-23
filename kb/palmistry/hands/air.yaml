@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: square palm and long fingers
 conditions:
-  fact: palm.hands.air
-  op: eq
-  value: true
+  all:
+  - fact: palm.hands.air
+    op: eq
+    value: true
 meaning: Use sharing ideas as an optional journal topic.
 life_areas: []
 strength_notes: []

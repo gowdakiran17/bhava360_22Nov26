@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Requested vehicle delivery interval overlaps an applicable muhurta hard exclusion.
 conditions:
-  fact: checker.vehicle-number.delivery-exclusion
-  op: eq
-  value: true
+  all:
+  - fact: checker.vehicle-number.delivery-exclusion
+    op: eq
+    value: true
 meaning: You may wish to compare a different delivery time.
-life_areas: []
+life_areas: [property-vehicles]
 strength_notes: []
 exceptions: []
 traditions_differ: []

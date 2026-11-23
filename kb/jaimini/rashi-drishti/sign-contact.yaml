@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: Source and target signs form a rashi drishti under their modality rules.
 conditions:
-  fact: jaimini.sign_aspect
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.sign_aspect
+    op: eq
+    value: true
 meaning: You can explore how the two sign themes connect.
 life_areas: []
 strength_notes: []

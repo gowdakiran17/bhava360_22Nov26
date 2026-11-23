@@ -13,7 +13,7 @@ next_actions:
 method: Ignore registration letters for the digit-only profile. Preserve leading zeros in digit counts. Same privacy as mobile.
 compare_limit: 3
 policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
-  not a favourable signal. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
+  not a Supportive tone by itself. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
   of the limit.
 tone_resolution:
   only_supportive: Supportive

@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: Two consented charts have a selected inter-aspect within its configured orb.
 conditions:
-  fact: western.synastry-contact
-  op: eq
-  value: true
+  all:
+  - fact: western.synastry-contact
+    op: eq
+    value: true
 meaning: You can use this shared theme to start a conversation.
 life_areas:
 - love-marriage

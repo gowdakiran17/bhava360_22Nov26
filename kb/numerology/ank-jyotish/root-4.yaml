@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The selected metric has a single-digit result of 4.
 conditions:
-  fact: number.ank-jyotish.root
-  op: eq
-  value: 4
+  all:
+  - fact: number.ank-jyotish.root
+    op: eq
+    value: 4
 meaning: Use structure as a reflection topic within this system.
 life_areas: []
 strength_notes: []

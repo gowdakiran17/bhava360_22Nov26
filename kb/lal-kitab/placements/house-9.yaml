@@ -6,9 +6,10 @@ doctrine_profile: lal-kitab-editorial-v1
 approval: draft
 rule: The selected graha occupies fixed house 9.
 conditions:
-  fact: lal_kitab.planet.fixed_house
-  op: eq
-  value: 9
+  all:
+  - fact: lal_kitab.planet.fixed_house
+    op: eq
+    value: 9
 meaning: This original prompt opens the house detail for guidance you value.
 life_areas: []
 strength_notes: []

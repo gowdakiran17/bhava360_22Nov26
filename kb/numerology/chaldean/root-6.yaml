@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The selected metric has a single-digit result of 6.
 conditions:
-  fact: number.chaldean.root
-  op: eq
-  value: 6
+  all:
+  - fact: number.chaldean.root
+    op: eq
+    value: 6
 meaning: Use care as a reflection topic within this system.
 life_areas: []
 strength_notes: []

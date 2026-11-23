@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Use a stable D20 placement alongside its D1 context.
 conditions:
-  fact: varga.d20.verified_placement
-  op: eq
-  value: true
+  all:
+  - fact: varga.d20.verified_placement
+    op: eq
+    value: true
 meaning: This chart supplies a supplementary lens on spiritual practice.
-life_areas: []
+life_areas: [spirituality]
 strength_notes: []
 exceptions: []
 traditions_differ: []

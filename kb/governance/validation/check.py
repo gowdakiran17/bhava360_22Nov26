@@ -53,6 +53,7 @@ def check_predicate(node, facts):
         check_predicate(child,facts)
 
 def main():
+    confidence_values=read('governance/review/identifiers.yaml')['confidence_values']
     template=read('templates/entry.yaml')
     facts=read('shared/fact-dictionary/catalog.yaml')['facts']
     profiles=read('shared/conventions/profiles.yaml')['doctrine_profiles']
@@ -72,11 +73,14 @@ def main():
         require(data['doctrine_profile'] in profiles and set(data['life_areas'])<=areas['areas'].keys(),rid)
         require(set(data['user_text'])=={'en','kn','hi'} and all(data['user_text'].values()),rid)
         require(re.search('[ಀ-೿]',data['user_text']['kn']) and re.search('[ऀ-ॿ]',data['user_text']['hi']),rid)
-        require(data['approval'] in ('draft','validated','approved') and data['confidence'] in ('high','medium','disputed'),rid)
+        require(data['approval'] in ('draft','validated','approved') and data['confidence'] in confidence_values,rid)
         if data['approval']=='approved':
             require(all(v=='approved' for v in data['native_review'].values()),rid)
             require(all(c['verification']=='verified' for c in data['sources']),rid)
             require(profiles[data['doctrine_profile']]['approval']=='approved',rid)
+        require('fact' not in data['conditions'],rid)
+        require(data['confidence']!='disputed' or data['traditions_differ'],rid)
+        require(all(e['effect'] in ('cancel','soften') for e in data['exceptions']),rid)
         check_predicate(data['conditions'],facts)
         for modifier in data['exceptions']+data['strength_notes']:
             check_predicate(modifier['when'],facts)

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Horary chart was calculated for the accepted question, local time and current city.
 conditions:
-  fact: prashna.current_chart_ready
-  op: eq
-  value: true
+  all:
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
 meaning: You can explore the factors connected with this question now.
 life_areas: []
 strength_notes: []

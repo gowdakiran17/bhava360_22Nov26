@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: confirmed arc beside thumb
 conditions:
-  fact: palm.lines.life
-  op: eq
-  value: true
+  all:
+  - fact: palm.lines.life
+    op: eq
+    value: true
 meaning: Use personal routines as an optional journal topic.
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Boundary instant between two computed Yogini major periods falls in the selected interval.
 conditions:
-  fact: yogini.period_changed
-  op: eq
-  value: true
+  all:
+  - fact: yogini.period_changed
+    op: eq
+    value: true
 meaning: You can review your priorities at the start of this period.
 life_areas: []
 strength_notes: []

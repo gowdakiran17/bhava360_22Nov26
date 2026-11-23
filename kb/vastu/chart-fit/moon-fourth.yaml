@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: A stable natal Moon occupies the fourth house in the selected profile.
 conditions:
-  fact: vastu.moon-fourth
-  op: eq
-  value: true
+  all:
+  - fact: vastu.moon-fourth
+    op: eq
+    value: true
 meaning: what makes a place feel like home
 life_areas:
 - family-home

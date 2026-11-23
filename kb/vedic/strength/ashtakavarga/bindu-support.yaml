@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Chosen transit sign is supported by the transiting graha’s unreduced BAV under the validated qualitative threshold.
 conditions:
-  fact: transit.bav.supportive
-  op: eq
-  value: true
+  all:
+  - fact: transit.bav.supportive
+    op: eq
+    value: true
 meaning: This sign may offer support during the indicated transit.
 life_areas: []
 strength_notes: []

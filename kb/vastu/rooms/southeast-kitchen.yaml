@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: User identifies the kitchen in the southeast sector.
 conditions:
-  fact: vastu.southeast-kitchen
-  op: eq
-  value: true
+  all:
+  - fact: vastu.southeast-kitchen
+    op: eq
+    value: true
 meaning: cooking routines
 life_areas:
 - family-home

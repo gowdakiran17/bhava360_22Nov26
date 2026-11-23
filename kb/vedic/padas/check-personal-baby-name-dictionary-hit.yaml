@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The chosen name resolves to a reviewed meaning for its exact spelling and language.
 conditions:
-  fact: checker.personal-baby-name.dictionary-hit
-  op: eq
-  value: true
+  all:
+  - fact: checker.personal-baby-name.dictionary-hit
+    op: eq
+    value: true
 meaning: You can read the recorded meaning for this spelling.
 life_areas: []
 strength_notes: []

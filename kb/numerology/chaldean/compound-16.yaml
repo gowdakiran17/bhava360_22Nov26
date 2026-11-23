@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 16.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 16
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 16
 meaning: checking a fragile assumption
 life_areas: []
 strength_notes: []

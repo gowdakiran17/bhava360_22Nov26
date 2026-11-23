@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Current major period lord owns natal house 2.
 conditions:
-  fact: dasha.active_lord.owns_house_2
-  op: eq
-  value: true
+  all:
+  - fact: dasha.active_lord.owns_house_2
+    op: eq
+    value: true
 meaning: The period connects the active lord to house 2; use the dated period as context for money.
 life_areas:
 - money

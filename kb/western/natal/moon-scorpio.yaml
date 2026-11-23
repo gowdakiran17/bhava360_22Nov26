@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: The tropical natal moon is in scorpio.
 conditions:
-  fact: western.natal.moon.sign
-  op: eq
-  value: scorpio
+  all:
+  - fact: western.natal.moon.sign
+    op: eq
+    value: scorpio
 meaning: Consider emotional needs through the theme of exploring depth.
 life_areas: []
 strength_notes: []

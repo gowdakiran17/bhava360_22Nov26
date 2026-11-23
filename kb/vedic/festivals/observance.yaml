@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: A region-specific festival rule identifies the local date for the selected city.
 conditions:
-  fact: panchang.observance.local
-  op: eq
-  value: true
+  all:
+  - fact: panchang.observance.local
+    op: eq
+    value: true
 meaning: You can check the local observance date and its calendar basis.
 life_areas: []
 strength_notes: []

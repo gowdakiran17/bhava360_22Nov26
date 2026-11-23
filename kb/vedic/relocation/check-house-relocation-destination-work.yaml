@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: At the proposed destination the same graha moves into the relocated tenth house.
 conditions:
-  fact: checker.house-relocation.destination-work
-  op: eq
-  value: true
+  all:
+  - fact: checker.house-relocation.destination-work
+    op: eq
+    value: true
 meaning: The relocated chart gives this planet a work-related house placement.
 life_areas: []
 strength_notes: []

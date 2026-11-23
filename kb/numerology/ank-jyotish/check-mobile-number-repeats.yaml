@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: At least one decimal digit occurs more than once in the candidate.
 conditions:
-  fact: checker.mobile.repeated_digit
-  op: eq
-  value: true
+  all:
+  - fact: checker.mobile.repeated_digit
+    op: eq
+    value: true
 meaning: You can see which digits repeat in this option.
 life_areas: []
 strength_notes: []

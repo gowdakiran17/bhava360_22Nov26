@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 19.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 19
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 19
 meaning: sharing confidence
 life_areas: []
 strength_notes: []

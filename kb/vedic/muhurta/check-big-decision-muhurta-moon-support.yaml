@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Specific participant has a supportive transit Moon distance during the candidate interval.
 conditions:
-  fact: checker.big-decision-muhurta.moon-support
-  op: eq
-  value: true
+  all:
+  - fact: checker.big-decision-muhurta.moon-support
+    op: eq
+    value: true
 meaning: The Moon’s position also supports this time in your chart.
 life_areas: []
 strength_notes: []

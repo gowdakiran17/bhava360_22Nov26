@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The Sun returns to its pinned natal longitude and a chart exists for the selected annual location and convention.
 conditions:
-  fact: annual.return_exact
-  op: eq
-  value: true
+  all:
+  - fact: annual.return_exact
+    op: eq
+    value: true
 meaning: You can use this annual chart to reflect on the year ahead.
 life_areas: []
 strength_notes: []

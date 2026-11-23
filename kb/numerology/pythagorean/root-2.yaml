@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The selected metric has a single-digit result of 2.
 conditions:
-  fact: number.pythagorean.root
-  op: eq
-  value: 2
+  all:
+  - fact: number.pythagorean.root
+    op: eq
+    value: 2
 meaning: Use cooperation as a reflection topic within this system.
 life_areas: []
 strength_notes: []

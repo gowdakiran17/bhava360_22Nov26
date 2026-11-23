@@ -6,9 +6,10 @@ doctrine_profile: jaimini-editorial-v1
 approval: draft
 rule: The active Chara sign period is derived under a pinned and validated variant.
 conditions:
-  fact: jaimini.chara.current_sign_known
-  op: eq
-  value: true
+  all:
+  - fact: jaimini.chara.current_sign_known
+    op: eq
+    value: true
 meaning: You can explore the themes of this sign during the dated period.
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 27.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 27
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 27
 meaning: using judgement responsibly
 life_areas: []
 strength_notes: []

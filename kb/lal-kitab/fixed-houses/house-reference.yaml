@@ -6,9 +6,10 @@ doctrine_profile: lal-kitab-editorial-v1
 approval: draft
 rule: Engine supplied a fixed-house Lal Kitab chart with explicit house numbering.
 conditions:
-  fact: lal-kitab.fixed_house_confirmed
-  op: eq
-  value: true
+  all:
+  - fact: lal-kitab.fixed_house_confirmed
+    op: eq
+    value: true
 meaning: You can explore the planet through its recorded house.
 life_areas: []
 strength_notes: []

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of sun counted from Lagna is 12.
 conditions:
-  fact: d1.sun.house_from_lagna
-  op: eq
-  value: 12
+  all:
+  - fact: d1.sun.house_from_lagna
+    op: eq
+    value: 12
 meaning: Use the graha theme of taking responsibility to frame a reflection on rest and expenditure.
 life_areas:
 - travel-relocation

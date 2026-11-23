@@ -8,5 +8,5 @@ rule_id:
   uniqueness_scope: all production rule files
 locales: [en, kn, hi]
 approval_path: [draft, validated, approved]
-confidence_values: [high, medium, disputed]
+confidence_values: [high, medium, low, disputed]
 public_gate: Require approved rule, verified citations, approved convention, native-reviewed copy and matched evidence.

@@ -6,9 +6,10 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: One identified ruling planet fills more than one recorded role at question time.
 conditions:
-  fact: kp.ruling.repeated_lord
-  op: eq
-  value: true
+  all:
+  - fact: kp.ruling.repeated_lord
+    op: eq
+    value: true
 meaning: You can explore why the same planet appears twice in this question.
 life_areas: []
 strength_notes: []

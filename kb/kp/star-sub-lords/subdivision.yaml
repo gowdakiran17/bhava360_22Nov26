@@ -6,9 +6,10 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: A point lies within a uniquely identified star and sub interval under the pinned KP ayanamsa.
 conditions:
-  fact: kp.sub.known
-  op: eq
-  value: true
+  all:
+  - fact: kp.sub.known
+    op: eq
+    value: true
 meaning: You can inspect which small segment contains this point.
 life_areas: []
 strength_notes: []

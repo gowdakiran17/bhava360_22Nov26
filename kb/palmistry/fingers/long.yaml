@@ -6,9 +6,10 @@ doctrine_profile: palmistry-editorial-v1
 approval: draft
 rule: confirmed long fingers relative to palm
 conditions:
-  fact: palm.fingers.long
-  op: eq
-  value: true
+  all:
+  - fact: palm.fingers.long
+    op: eq
+    value: true
 meaning: Use attention to detail as an optional journal topic.
 life_areas: []
 strength_notes: []

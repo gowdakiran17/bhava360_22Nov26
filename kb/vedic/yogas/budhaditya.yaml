@@ -6,10 +6,11 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Sun and Mercury occupy one sign.
 conditions:
-  fact: d1.mercury.distance_from_sun
-  op: in
-  value:
-  - 1
+  all:
+  - fact: d1.mercury.distance_from_sun
+    op: in
+    value:
+    - 1
 meaning: You may find it helpful to talk through an idea before acting.
 life_areas:
 - learning

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The natal D1 whole-sign house of saturn counted from Lagna is 9.
 conditions:
-  fact: d1.saturn.house_from_lagna
-  op: eq
-  value: 9
+  all:
+  - fact: d1.saturn.house_from_lagna
+    op: eq
+    value: 9
 meaning: Use the graha theme of making time for steady effort to frame a reflection on study and guiding values.
 life_areas:
 - spirituality

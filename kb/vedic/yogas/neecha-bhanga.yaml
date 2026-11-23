@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: For the debilitated graha, its sign lord is angular from Lagna or Moon.
 conditions:
-  fact: d1.dignity.debility_lord_angular
-  op: eq
-  value: true
+  all:
+  - fact: d1.dignity.debility_lord_angular
+    op: eq
+    value: true
 meaning: You can make room for support from people you trust.
 life_areas:
 - career

@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: A valid local sunrise anchors the displayed vara at the selected city.
 conditions:
-  fact: panchang.vara.local
-  op: eq
-  value: true
+  all:
+  - fact: panchang.vara.local
+    op: eq
+    value: true
 meaning: You can see where the local Panchang day begins.
 life_areas: []
 strength_notes: []

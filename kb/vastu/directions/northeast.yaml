@@ -6,9 +6,10 @@ doctrine_profile: vastu-editorial-v1
 approval: draft
 rule: A user-selected quiet corner is in the northeast.
 conditions:
-  fact: vastu.northeast
-  op: eq
-  value: true
+  all:
+  - fact: vastu.northeast
+    op: eq
+    value: true
 meaning: time for reflection
 life_areas:
 - family-home

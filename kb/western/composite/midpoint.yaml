@@ -6,9 +6,10 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: Use the circular midpoint for corresponding points in two consenting charts; ambiguous antipodes require a convention.
 conditions:
-  fact: western.composite-midpoint
-  op: eq
-  value: true
+  all:
+  - fact: western.composite-midpoint
+    op: eq
+    value: true
 meaning: You can explore a theme of the relationship together.
 life_areas:
 - love-marriage

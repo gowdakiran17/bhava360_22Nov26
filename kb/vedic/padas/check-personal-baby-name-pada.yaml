@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Chosen spelling has a reviewed initial sound matching the stable birth pada in the selected regional table.
 conditions:
-  fact: checker.name.sound_match
-  op: eq
-  value: true
+  all:
+  - fact: checker.name.sound_match
+    op: eq
+    value: true
 meaning: This name can be considered among your matching sounds.
 life_areas: []
 strength_notes: []

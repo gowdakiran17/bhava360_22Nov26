@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: The active major or subperiod lord owns the fourth natal house.
 conditions:
-  fact: checker.vehicle-number.vehicle-period
-  op: eq
-  value: true
+  all:
+  - fact: checker.vehicle-number.vehicle-period
+    op: eq
+    value: true
 meaning: The current period connects with the house traditionally used for vehicles.
 life_areas: []
 strength_notes: []

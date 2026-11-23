@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Mars occupies one of the stated Lagna-based Manglik houses; evaluate recognized cancellations.
 conditions:
-  fact: dosha.mars.natal_candidate
-  op: eq
-  value: true
+  all:
+  - fact: dosha.mars.natal_candidate
+    op: eq
+    value: true
 meaning: You can discuss how each of you handles disagreement.
 life_areas:
 - love-marriage
@@ -20,7 +21,9 @@ exceptions:
     value: true
   effect: soften
   reason: Selected dignity exception applies to the same Mars placement.
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some house lists omit the second house. The candidate list here includes it and counts from Lagna. Moon and Venus references require their own profiles.
 sources:
 - book: Bhava360 engine and reading conventions
   work_id: bhava360-engine-and-reading-conventions
@@ -30,7 +33,7 @@ sources:
   other_locator: vedic.doshas.mars-partnership
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
-confidence: medium
+confidence: disputed
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
   en: You can discuss how each of you handles disagreement.

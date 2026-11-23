@@ -5,6 +5,13 @@ own_sign: Match the sign lord to the graha.
 scope: Independent sign memberships. Keep overlapping flags, including Mercury in Virgo. Peak degree is a separate
   point. Moolatrikona sign alone does not establish degree-specific dignity.
 node_dignity: unassigned
+node_dignity_review:
+  applies_to: [rahu, ketu]
+  confidence: disputed
+  traditions_differ:
+  - profile: parashari-lahiri-whole-sign-draft-v1
+    note: This table leaves both nodes unassigned. Schools that assign nodal dignities differ on the signs.
+  exceptions: []
 grahas:
   sun:
     exaltation: aries

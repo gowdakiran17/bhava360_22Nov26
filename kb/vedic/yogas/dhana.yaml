@@ -6,9 +6,10 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Second or eleventh lord is linked to fifth or ninth lord by conjunction or exchange.
 conditions:
-  fact: d1.lords.wealth_trine_link
-  op: eq
-  value: true
+  all:
+  - fact: d1.lords.wealth_trine_link
+    op: eq
+    value: true
 meaning: You may want to review the resources available for your plan.
 life_areas:
 - money

@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 51.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 51
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 51
 meaning: handling leadership responsibly
 life_areas: []
 strength_notes: []

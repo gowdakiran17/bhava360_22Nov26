@@ -6,11 +6,12 @@ doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: A computed moving window within the requested month passes the full griha-pravesh exclusion profile.
 conditions:
-  fact: checker.house-relocation.moving-window
-  op: eq
-  value: true
+  all:
+  - fact: checker.house-relocation.moving-window
+    op: eq
+    value: true
 meaning: You can compare the suggested moving window with your schedule.
-life_areas: []
+life_areas: [family-home, travel-relocation]
 strength_notes: []
 exceptions: []
 traditions_differ: []

@@ -6,9 +6,10 @@ doctrine_profile: numerology-editorial-v1
 approval: draft
 rule: The unreduced Chaldean sum is 18.
 conditions:
-  fact: number.chaldean.compound
-  op: eq
-  value: 18
+  all:
+  - fact: number.chaldean.compound
+    op: eq
+    value: 18
 meaning: navigating conflicting interests
 life_areas: []
 strength_notes: []
