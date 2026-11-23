@@ -80,6 +80,55 @@ def validate_nakshatras(rules, signs):
         cursor=end
     require(cursor==360*60,'nakshatra coverage must end at 360 degrees')
 
+def validate_houses(rules, areas):
+    groups = {
+        'kendra': {1, 4, 7, 10},
+        'trikona': {1, 5, 9},
+        'dusthana': {6, 8, 12},
+        'upachaya': {3, 6, 10, 11},
+        'maraka': {2, 7},
+    }
+    fields = set(read('SCHEMA.yaml')['vedic_house_entries']['fields'])
+    for number in range(1, 13):
+        rid = f'vedic.houses.house-{number}'
+        require(rid in rules, rid + ' missing')
+        record = rules[rid]
+        data = record['bhava']
+        require(set(data) == fields and data['number'] == number, rid + ' fields')
+        require(record['conditions'] == {'all': [
+            {'fact': 'd1.selected_house.number', 'op': 'eq', 'value': number}
+        ]}, rid + ' selection')
+        tags = record['life_areas']
+        require(tags and set(tags) <= set(areas), rid + ' life areas')
+        expected = {group for group, members in groups.items() if number in members}
+        require(len(data['groupings']) == len(expected) and set(data['groupings']) == expected, rid + ' groupings')
+        require(data['bhavat_bhavam'] == {
+            'from_house': number, 'count': number, 'target_house': (2 * number - 2) % 12 + 1
+        }, rid + ' derived house')
+        for key in ('significations', 'natural_karakas', 'symbolic_body_parts'):
+            require(isinstance(data[key], list) and data[key] and all(data[key]), rid + ' ' + key)
+
+
+# Check display copy at any depth, including examples, remedies and non-rule catalogues.
+BANNED_USER_TERMS = re.compile(
+    r'\b(?:deaths?|accidents?|fears?|feared|fearing|fearful)\b'
+    r'|मृत्यु|मौत|दुर्घटना|हादस[ाे]|भय|(?<![ऀ-ॿ])डर'
+    r'|ಮರಣ|ಸಾವು|ಸಾವಿನ|ಮೃತ್ಯು|ಅಪಘಾತ|ಭಯ|ಹೆದರ', re.I)
+
+
+def validate_user_text(node, location, inside=False):
+    if isinstance(node, dict):
+        for key, value in node.items():
+            validate_user_text(value, f'{location}.{key}', inside or key == 'user_text')
+    elif isinstance(node, list):
+        for i, value in enumerate(node):
+            validate_user_text(value, f'{location}[{i}]', inside)
+    elif inside and isinstance(node, str):
+        match = BANNED_USER_TERMS.search(node)
+        if match:
+            raise ValueError(f'{location}: prohibited user_text term {match[0]}')
+
+
 def main():
     confidence_values=read('governance/review/identifiers.yaml')['confidence_values']
     template=read('templates/entry.yaml')
@@ -92,6 +141,7 @@ def main():
     rules={}
     for path in sorted(ROOT.rglob('*.yaml')):
         data=yaml.safe_load(path.read_text())
+        validate_user_text(data, path.relative_to(ROOT))
         if 'rule' not in data or path.parent.name=='templates':
             continue
         rid=data['id']
@@ -103,6 +153,8 @@ def main():
         if data['system']=='vedic' and data['topic']=='planets':
             expected_fields.add('graha')
             require(set(data['graha'])==graha_fields,rid)
+        if re.fullmatch(r'vedic\.houses\.house-(?:[1-9]|1[0-2])', rid):
+            expected_fields.add('bhava')
         if data['system']=='vedic' and data['topic']=='nakshatras':
             expected_fields.add('nakshatra')
         require(set(data)==expected_fields and rid not in rules,rid)
@@ -156,6 +208,7 @@ def main():
             require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
     validate_nakshatras(rules, signs)
+    validate_houses(rules, areas['areas'])
     for area in areas['areas']:
         recipe=read(f'life-areas/{area}/reading.yaml')
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)

@@ -1,0 +1,91 @@
+id: vedic.houses.house-4
+system: vedic
+topic: houses
+title: House 4 · Sukha
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Use these meanings when house 4 of the computed natal whole-sign chart is selected.
+conditions:
+  all:
+  - fact: d1.selected_house.number
+    op: eq
+    value: 4
+bhava:
+  number: 4
+  significations:
+  - home
+  - caregiving
+  - land and vehicles
+  groupings:
+  - kendra
+  natural_karakas:
+  - moon
+  - mercury
+  symbolic_body_parts:
+  - heart
+  bhavat_bhavam:
+    from_house: 4
+    count: 4
+    target_house: 7
+meaning: The place you return to may shape your sense of ease. You can notice one feature of home that helps you
+  settle.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes:
+- when:
+    fact: d1.selected_house.house_lord_karaka_strong
+    op: eq
+    value: true
+  effect: stronger
+  reason: Agreement among the strengths of the house, its lord and its natural significator can lend weight to
+    the selected theme.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Count whole signs from the rising sign. Bhava chalit charts can move a graha across a house boundary.
+    Sripati is one cusp-based method and needs its own house calculation.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: 17, 20, 25
+  other_locator: Study of bhavas
+  supports: Natural house karakas, counting from a house as a new origin, and weighing the house with its lord
+    and karaka.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: '4'
+  other_locator: Kalapurusha sign sequence
+  supports: Source for the symbolic body sequence, applied here by house number as a natural-zodiac analogy.
+  verification: verified
+confidence: medium
+review_notes: House topics are reference meanings. Body correspondences are symbolic. The bhavat-bhavam link counts
+  inclusively. Native copy review is pending.
+user_text:
+  en: You can notice one feature of home that helps you settle.
+  kn: ಮನೆಯಲ್ಲಿ ಯಾವುದು ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप गौर कर सकते हैं कि घर की कौन सी बात आपको सुकून देती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can notice one feature of home that helps you settle.
+    kn: ಮನೆಯಲ್ಲಿ ಯಾವುದು ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+    hi: आप गौर कर सकते हैं कि घर की कौन सी बात आपको सुकून देती है।

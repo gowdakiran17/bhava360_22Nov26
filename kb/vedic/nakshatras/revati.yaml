@@ -21,7 +21,7 @@ nakshatra:
   signs_spanned:
   - pisces
   vimshottari_lord: mercury
-  deity: Pushya
+  deity: Pushan
   symbol: fish
   gana: deva
   muhurta_nature: gentle
@@ -48,18 +48,22 @@ traditions_differ:
 - profile: parashari-lahiri-whole-sign-draft-v1
   note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
     Vimshottari sequence used here exclude it.
-- profile: parashari-lahiri-whole-sign-draft-v1
-  note: The cited Iyer transcription reads Pushya. Pushan is the familiar alternative attribution. The transcription-specific
-    label awaits Sanskrit collation.
 sources:
+- book: Taittiriya Brahmana
+  work_id: taittiriya-brahmana
+  edition: taittiriya-brahmana-vedicpupil
+  chapter: 3.1.2
+  verse: null
+  other_locator: Nakshatra Sukta, Revati stanza
+  supports: Primary classical attribution of Revati to Pushan.
+  verification: verified
 - book: Brihat Samhita
   work_id: brihat-samhita
   edition: brihat-samhita-iyer-1884
   chapter: 98
   verse: 3–5, 10
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
-    the later verses indicated.
+  supports: The 28-star catalogue and the gentle activity classification.
   verification: verified
 - book: Phaladeepika
   work_id: phaladeepika

@@ -35,3 +35,4 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, us
 # Vedic sign entries also carry the rasi mapping defined in SCHEMA.yaml.
 # Vedic planet entries also carry the graha mapping defined in SCHEMA.yaml.
 # Vedic nakshatra entries also carry the nakshatra mapping defined in SCHEMA.yaml.
+# The twelve bhava reference entries also carry the bhava mapping defined in SCHEMA.yaml.

@@ -1,0 +1,91 @@
+id: vedic.houses.house-1
+system: vedic
+topic: houses
+title: House 1 · Tanu
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Use these meanings when house 1 of the computed natal whole-sign chart is selected.
+conditions:
+  all:
+  - fact: d1.selected_house.number
+    op: eq
+    value: 1
+bhava:
+  number: 1
+  significations:
+  - embodiment
+  - appearance
+  - personal presence
+  groupings:
+  - kendra
+  - trikona
+  natural_karakas:
+  - sun
+  symbolic_body_parts:
+  - head
+  bhavat_bhavam:
+    from_house: 1
+    count: 1
+    target_house: 1
+meaning: The rising house frames how you meet daily life. You may notice which routines suit your energy.
+life_areas:
+- health
+strength_notes:
+- when:
+    fact: d1.selected_house.house_lord_karaka_strong
+    op: eq
+    value: true
+  effect: stronger
+  reason: Agreement among the strengths of the house, its lord and its natural significator can lend weight to
+    the selected theme.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Count whole signs from the rising sign. Bhava chalit charts can move a graha across a house boundary.
+    Sripati is one cusp-based method and needs its own house calculation.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This profile includes Lagna in the 1–5–9 trine. Phaladeepika I.18 names the fifth and ninth specifically.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: 17, 20, 25
+  other_locator: Study of bhavas
+  supports: Natural house karakas, counting from a house as a new origin, and weighing the house with its lord
+    and karaka.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: '4'
+  other_locator: Kalapurusha sign sequence
+  supports: Source for the symbolic body sequence, applied here by house number as a natural-zodiac analogy.
+  verification: verified
+confidence: medium
+review_notes: House topics are reference meanings. Body correspondences are symbolic. The bhavat-bhavam link counts
+  inclusively. Native copy review is pending.
+user_text:
+  en: You may notice which routines suit your energy.
+  kn: ನಿಮ್ಮ ಚೈತನ್ಯಕ್ಕೆ ಯಾವ ದಿನಚರಿ ಹೊಂದುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि कौन सी दिनचर्या आपकी ऊर्जा के अनुकूल है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may notice which routines suit your energy.
+    kn: ನಿಮ್ಮ ಚೈತನ್ಯಕ್ಕೆ ಯಾವ ದಿನಚರಿ ಹೊಂದುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+    hi: आप देख सकते हैं कि कौन सी दिनचर्या आपकी ऊर्जा के अनुकूल है।

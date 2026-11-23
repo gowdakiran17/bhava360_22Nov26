@@ -1,0 +1,92 @@
+id: vedic.houses.house-9
+system: vedic
+topic: houses
+title: House 9 · Dharma
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Use these meanings when house 9 of the computed natal whole-sign chart is selected.
+conditions:
+  all:
+  - fact: d1.selected_house.number
+    op: eq
+    value: 9
+bhava:
+  number: 9
+  significations:
+  - teachers
+  - ethical commitments
+  - pilgrimage
+  groupings:
+  - trikona
+  natural_karakas:
+  - sun
+  - jupiter
+  symbolic_body_parts:
+  - thighs
+  bhavat_bhavam:
+    from_house: 9
+    count: 9
+    target_house: 5
+meaning: A teacher or a journey may give a familiar value new meaning. You can recall one lesson you still put
+  into practice.
+life_areas:
+- learning
+- spirituality
+- travel-relocation
+strength_notes:
+- when:
+    fact: d1.selected_house.house_lord_karaka_strong
+    op: eq
+    value: true
+  effect: stronger
+  reason: Agreement among the strengths of the house, its lord and its natural significator can lend weight to
+    the selected theme.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Count whole signs from the rising sign. Bhava chalit charts can move a graha across a house boundary.
+    Sripati is one cusp-based method and needs its own house calculation.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: 17, 20, 25
+  other_locator: Study of bhavas
+  supports: Natural house karakas, counting from a house as a new origin, and weighing the house with its lord
+    and karaka.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: '4'
+  other_locator: Kalapurusha sign sequence
+  supports: Source for the symbolic body sequence, applied here by house number as a natural-zodiac analogy.
+  verification: verified
+confidence: medium
+review_notes: House topics are reference meanings. Body correspondences are symbolic. The bhavat-bhavam link counts
+  inclusively. Native copy review is pending.
+user_text:
+  en: You can recall one lesson you still put into practice.
+  kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+  hi: आप कोई ऐसी सीख याद कर सकते हैं जिस पर आप आज भी अमल करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can recall one lesson you still put into practice.
+    kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: आप कोई ऐसी सीख याद कर सकते हैं जिस पर आप आज भी अमल करते हैं।

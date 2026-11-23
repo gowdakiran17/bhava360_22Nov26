@@ -1,5 +1,6 @@
 version: 1
 works:
+  taittiriya-brahmana: Taittiriya Brahmana
   brihat-samhita: Brihat Samhita
   nakshatra-table: Nakshatra Table
   bphs: Brihat Parashara Hora Shastra
@@ -30,6 +31,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  taittiriya-brahmana-vedicpupil:
+    work_id: taittiriya-brahmana
+    edition_id: taittiriya-brahmana-vedicpupil
+    title_as_printed: Taittiriya Brahmana
+    language: Sanskrit/English
+    publication_details: VedicPupil digital presentation of the Nakshatra Sukta.
+    text: https://vedicpupil.in/library/books/taittiriya-brahmana/chapter-6
+    verified_by: Revati stanza names Pushan.
+  bphs-sivash-44:
+    work_id: bphs
+    edition_id: bphs-sivash-44
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: Sanskrit/English
+    publication_details: Siva.sh digital text, chapter 44.
+    verified_by: Chapter 44, verses 2–3, maraka classification.
+    text: https://www.siva.sh/brihat-parashara-hora-shastra/44
   brihat-samhita-iyer-1884:
     work_id: brihat-samhita
     edition_id: brihat-samhita-iyer-1884

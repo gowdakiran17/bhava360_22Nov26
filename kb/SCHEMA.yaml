@@ -34,3 +34,9 @@ vedic_nakshatra_entries:
   fields: [number, span_degrees, span_arcminutes, signs_spanned, vimshottari_lord, deity, symbol, gana, muhurta_nature, padas]
   coordinates: Exact absolute sidereal arcminutes from Aries. Start inclusive and end exclusive. Normalize 360 degrees to zero before lookup.
   padas: Four successive 200-arcminute quarters, each binding its natal rasi and its D9 sign.
+vedic_house_entries:
+  extension: bhava
+  applies_to: The twelve vedic.houses.house-N reference entries.
+  fields: [number, significations, groupings, natural_karakas, symbolic_body_parts, bhavat_bhavam]
+  bhavat_bhavam: Count N houses inclusively from house N, wrapping after twelve.
+  body_convention: Kalapurusha sequence by ordinal house, irrespective of the occupying sign.

@@ -1,0 +1,91 @@
+id: vedic.houses.house-6
+system: vedic
+topic: houses
+title: House 6 · Ari
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Use these meanings when house 6 of the computed natal whole-sign chart is selected.
+conditions:
+  all:
+  - fact: d1.selected_house.number
+    op: eq
+    value: 6
+bhava:
+  number: 6
+  significations:
+  - debts
+  - disagreements
+  - health concerns
+  groupings:
+  - dusthana
+  - upachaya
+  natural_karakas:
+  - saturn
+  - mars
+  symbolic_body_parts:
+  - navel
+  bhavat_bhavam:
+    from_house: 6
+    count: 6
+    target_house: 11
+meaning: Obligations can compete for attention. You may find it easier to address one manageable task at a time.
+life_areas:
+- money
+- health
+strength_notes:
+- when:
+    fact: d1.selected_house.house_lord_karaka_strong
+    op: eq
+    value: true
+  effect: stronger
+  reason: Agreement among the strengths of the house, its lord and its natural significator can lend weight to
+    the selected theme.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Count whole signs from the rising sign. Bhava chalit charts can move a graha across a house boundary.
+    Sripati is one cusp-based method and needs its own house calculation.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: 17, 20, 25
+  other_locator: Study of bhavas
+  supports: Natural house karakas, counting from a house as a new origin, and weighing the house with its lord
+    and karaka.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: '4'
+  other_locator: Kalapurusha sign sequence
+  supports: Source for the symbolic body sequence, applied here by house number as a natural-zodiac analogy.
+  verification: verified
+confidence: medium
+review_notes: House topics are reference meanings. Body correspondences are symbolic. The bhavat-bhavam link counts
+  inclusively. Native copy review is pending.
+user_text:
+  en: You may find it easier to address one manageable task at a time.
+  kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
+  hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it easier to address one manageable task at a time.
+    kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
+    hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
