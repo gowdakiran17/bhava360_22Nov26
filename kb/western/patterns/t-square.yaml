@@ -1,0 +1,47 @@
+id: western.patterns.t-square
+system: western
+topic: patterns
+title: T Square
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Two endpoints oppose one another and a third, the apex, squares both. Test all three edges.
+conditions:
+  all:
+  - fact: western.patterns.t-square
+    op: eq
+    value: true
+meaning: Competing priorities may focus your attention on one decision. You can take time to hear both sides.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: Aspect Figure
+  work_id: astrowiki-pattern
+  edition: astrowiki-pattern-web
+  chapter: null
+  verse: null
+  other_locator: Aspect Figure
+  supports: Method description; numerical cutoffs and public wording are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.patterns.t-square
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: Competing priorities may focus your attention on one decision. You can take time to hear both sides.
+  kn: ಭಿನ್ನ ಆದ್ಯತೆಗಳು ಒಂದು ನಿರ್ಧಾರದತ್ತ ಗಮನ ಸೆಳೆಯಬಹುದು. ಎರಡೂ ಕಡೆಯ ಮಾತು ಕೇಳಬಹುದು.
+  hi: अलग प्राथमिकताएँ आपका ध्यान एक फैसले पर ला सकती हैं। आप दोनों पक्ष सुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

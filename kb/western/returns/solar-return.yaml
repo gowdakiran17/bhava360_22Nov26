@@ -1,0 +1,49 @@
+id: western.returns.solar-return
+system: western
+topic: returns
+title: Solar Return
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Solve the annual ascending crossing of the unwrapped tropical solar longitude at the natal solar longitude
+  plus an integral turn near the requested anniversary. Cast for the location at the return instant; compare return
+  angles and Sun house with the natal chart. Without a reliable location omit houses and angles.
+conditions:
+  all:
+  - fact: western.returns.solar-return
+    op: eq
+    value: true
+meaning: You can use this anniversary to reflect on a theme you would like to develop over the coming year.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions. Other return-location conventions use residence or birthplace.
+sources:
+- book: Solar Return Chart
+  work_id: astrowiki-return
+  edition: astrowiki-return-web
+  chapter: null
+  verse: null
+  other_locator: Solar Return Chart
+  supports: Method description; numerical cutoffs and public wording are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.returns.solar-return
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: You can use this anniversary to reflect on a theme you would like to develop over the coming year.
+  kn: ಮುಂಬರುವ ವರ್ಷದಲ್ಲಿ ಬೆಳೆಸಲು ಬಯಸುವ ವಿಷಯದ ಬಗ್ಗೆ ಈ ವಾರ್ಷಿಕ ಸಂದರ್ಭದಲ್ಲಿ ಯೋಚಿಸಬಹುದು.
+  hi: इस सालगिरह पर आप सोच सकते हैं कि आने वाले साल में किस विषय को आगे बढ़ाना चाहेंगे।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

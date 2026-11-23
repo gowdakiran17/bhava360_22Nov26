@@ -1,0 +1,49 @@
+id: western.patterns.yod
+system: western
+topic: patterns
+title: Yod
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Two base planets form a sextile and a third, the apex, forms a quincunx to both. Use the quincunx orb on both
+  long edges; enable quincunx for this search.
+conditions:
+  all:
+  - fact: western.patterns.yod
+    op: eq
+    value: true
+meaning: Two priorities may fit together while a third calls for adjustment. You can try changing one detail at
+  a time.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: Aspect Figure
+  work_id: astrowiki-pattern
+  edition: astrowiki-pattern-web
+  chapter: null
+  verse: null
+  other_locator: Aspect Figure
+  supports: Method description; numerical cutoffs and public wording are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.patterns.yod
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: Two priorities may fit together while a third calls for adjustment. You can try changing one detail at a time.
+  kn: ಎರಡು ಆದ್ಯತೆಗಳು ಹೊಂದಿಕೊಂಡರೂ ಇನ್ನೊಂದಕ್ಕೆ ಹೊಂದಾಣಿಕೆ ಬೇಕಾಗಬಹುದು. ಒಂದೊಂದೇ ವಿವರವನ್ನು ಬದಲಾಯಿಸಿ ನೋಡಬಹುದು.
+  hi: दो प्राथमिकताएँ साथ चल सकती हैं और तीसरी में बदलाव की गुंजाइश हो सकती है। आप एक बार में एक बात बदल सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

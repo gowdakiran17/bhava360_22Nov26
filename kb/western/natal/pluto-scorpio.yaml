@@ -1,0 +1,54 @@
+id: western.natal.pluto-scorpio
+system: western
+topic: natal
+title: Pluto in Scorpio
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Read pluto at its tropical natal longitude in scorpio. Use the slow sign placement as cohort context; apply
+  the KB-02b personal-contact filter for a personal emphasis.
+conditions:
+  all:
+  - fact: western.natal.body
+    op: eq
+    value: pluto
+  - fact: western.natal.bound-sign
+    op: eq
+    value: scorpio
+meaning: People born around the same time may share a theme of power and renewal expressed through looking beneath
+  a first impression.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.pluto-scorpio
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: People born around the same time may share a theme of power and renewal expressed through looking beneath
+    a first impression.
+  kn: ಸುಮಾರು ಒಂದೇ ಅವಧಿಯಲ್ಲಿ ಹುಟ್ಟಿದವರಲ್ಲಿ “ಅಧಿಕಾರ ಮತ್ತು ನವೀಕರಣ” ಮತ್ತು “ಮೊದಲ ಅನಿಸಿಕೆಯನ್ನು ಮೀರಿ ನೋಡುವುದು” ಎಂಬ ವಿಷಯಗಳು
+    ಸಾಮಾನ್ಯವಾಗಿರಬಹುದು.
+  hi: आसपास के वर्षों में जन्मे लोगों में “शक्ति और बदलाव” और “पहली धारणा से आगे देखना” की साझा थीम हो सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

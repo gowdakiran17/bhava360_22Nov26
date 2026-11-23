@@ -1,0 +1,82 @@
+approval: draft
+zodiac: tropical
+longitude: Geocentric apparent ecliptic longitude of date. Normalize to [0,360). Signs are equal half-open sectors
+  starting at the March equinox.
+houses:
+  default: placidus
+  option: whole-sign
+  assignment: Follow forward zodiacal order from each cusp, inclusive, to the next cusp, exclusive. Whole-sign house
+    one begins at zero degrees of the tropical rising sign. At polar Placidus failure use whole sign only with a
+    valid Ascendant and label the fallback.
+planets:
+- western.planets.sun
+- western.planets.moon
+- western.planets.mercury
+- western.planets.venus
+- western.planets.mars
+- western.planets.jupiter
+- western.planets.saturn
+- western.planets.uranus
+- western.planets.neptune
+- western.planets.pluto
+natal_aspects:
+- conjunction
+- sextile
+- square
+- trine
+- opposition
+- quincunx
+natal_orbs: aspects/orbs.yaml#draft_natal_orbs
+quincunx: Enable the minor aspect for stand-alone quincunx or Yod queries.
+patterns: Distinct natal bodies from the ten-planet list only; apply all required edges to the same instant. Canonicalize
+  by member set and apex. A maximal sign cluster counts once.
+transit_orb_degrees: 1
+secondary_orb_degrees: 1
+secondary_days_per_year: 365.2425
+timing: Use the six configured angles with their timing orb. Find exact times by solving continuous longitude against
+  both oriented branches, including station tangencies. Unknown natal positions suppress dependent contacts. Solar
+  arcs use a separate existing module.
+outer_planets: Use the existing KB-02b entries and their personal-contact filters; sign placements alone supply
+  cohort context.
+public:
+  label: Western (tropical)
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  localization: shared/localization/reading.yaml
+  selection: Cooperative testimony may give Supportive; tension needing attention may give Take care; mixed or neutral
+    testimony gives Steady. Use only supported natal or timing facts. Omit unresolved readings.
+  fields:
+  - localized_tone
+  - user_text
+  evidence: Bodies, orbs, exact times, house method and pattern members are available for chart evidence. No score
+    in public copy.
+pattern_geometry:
+  grand-trine:
+    edges:
+    - trine
+    - trine
+    - trine
+  t-square:
+    edges:
+    - opposition
+    - square
+    - square
+    apex: third
+  yod:
+    edges:
+    - sextile
+    - quincunx
+    - quincunx
+    apex: third
+  stellium:
+    same: sign
+    minimum_bodies: 3
+    maximal: true
+pattern_edge_order:
+- base-to-base
+- first-base-to-third
+- second-base-to-third
+phase_index: For secondary lunar phases take floor(((progressed Moon minus progressed Sun) mod 360)/45). Index zero
+  begins at conjunction. A change is a solved crossing of a sector boundary.

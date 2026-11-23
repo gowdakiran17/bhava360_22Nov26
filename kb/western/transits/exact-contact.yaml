@@ -14,7 +14,10 @@ meaning: You may wish to revisit this theme around the indicated date.
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
 sources:
 - book: Bhava360 Western conventions
   work_id: bhava360-western-conventions

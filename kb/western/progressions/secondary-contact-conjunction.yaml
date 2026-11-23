@@ -1,0 +1,52 @@
+id: western.progressions.secondary-contact-conjunction
+system: western
+topic: progressions
+title: Secondary Contact · conjunction
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Use birth JD plus elapsed days divided by 365.2425 as the progressed ephemeris JD. Compare the progressed
+  tropical planet to the natal planet within the separate progression orb. The date describes symbolic development.
+  Interpret the bound conjunction using both planet meanings and the natal target house when stable.
+conditions:
+  all:
+  - fact: western.progressions.secondary-contact
+    op: eq
+    value: true
+  - fact: western.progressions.bound-aspect
+    op: eq
+    value: conjunction
+meaning: As your priorities gradually shift, you can combine two concerns into one practical step.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions. This timing method is independent of Vedic dasha periods.
+sources:
+- book: Secondary Progression
+  work_id: astrowiki-progression
+  edition: astrowiki-progression-web
+  chapter: null
+  verse: null
+  other_locator: Secondary Progression
+  supports: Method description; numerical cutoffs and public wording are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.progressions.secondary-contact-conjunction
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: As your priorities gradually shift, you can combine two concerns into one practical step.
+  kn: ನಿಮ್ಮ ಆದ್ಯತೆಗಳು ನಿಧಾನವಾಗಿ ಬದಲಾಗುವಾಗ ಎರಡು ವಿಷಯಗಳನ್ನು ಒಟ್ಟಿಗೆ ಪರಿಗಣಿಸಬಹುದು.
+  hi: समय के साथ प्राथमिकताएँ बदलने पर आप दो विषयों को साथ रखकर एक कदम चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

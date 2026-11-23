@@ -1,5 +1,8 @@
 version: 1
 works:
+  astrowiki-return: Solar Return Chart
+  astrowiki-progression: Secondary Progression
+  astrowiki-pattern: Aspect Figure
   prashna-marga: Prasna Marga, Part I
   prasna-tantra: Prasna Tantra
   muhurta-chintamani: Muhurta Chintamani
@@ -63,6 +66,24 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  astrowiki-return-web:
+    work_id: astrowiki-return
+    edition_id: astrowiki-return-web
+    title_as_printed: Solar Return Chart
+    language: English
+    text: https://www.astro.com/astrowiki/en/Solar_Return
+  astrowiki-progression-web:
+    work_id: astrowiki-progression
+    edition_id: astrowiki-progression-web
+    title_as_printed: Secondary Progression
+    language: English
+    text: https://www.astro.com/astrowiki/en/Secondary_Directions
+  astrowiki-pattern-web:
+    work_id: astrowiki-pattern
+    edition_id: astrowiki-pattern-web
+    title_as_printed: Aspect Figure
+    language: English
+    text: https://www.astro.com/astrowiki/en/Aspect_Figure
   prashna-marga-raman:
     work_id: prashna-marga
     edition_id: prashna-marga-raman

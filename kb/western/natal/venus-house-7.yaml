@@ -1,0 +1,52 @@
+id: western.natal.venus-house-7
+system: western
+topic: natal
+title: Venus in house 7
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Bind natal venus to house 7 in the recorded Western house system. Read affection and personal taste in the
+  context of one-to-one partnerships. Withhold when birth-time uncertainty changes the occupied house.
+conditions:
+  all:
+  - fact: western.natal.body
+    op: eq
+    value: venus
+  - fact: western.natal.bound-house
+    op: eq
+    value: 7
+meaning: You may find it easier to express affection when you and a partner say what each of you values.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.venus-house-7
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: You may find it easier to express affection when you and a partner say what each of you values.
+  kn: ನಿಮಗೂ ಸಂಗಾತಿಗೂ ಮುಖ್ಯವಾದುದನ್ನು ಹಂಚಿಕೊಂಡಾಗ ಪ್ರೀತಿಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು ಸುಲಭವಾಗಬಹುದು.
+  hi: आप और आपका साथी जब अपनी पसंद खुलकर बताते हैं, तो स्नेह जताना आसान हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

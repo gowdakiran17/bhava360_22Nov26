@@ -1,0 +1,52 @@
+id: western.natal.mars-house-5
+system: western
+topic: natal
+title: Mars in house 5
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Bind natal mars to house 5 in the recorded Western house system. Read initiative in the context of creative
+  play. Withhold when birth-time uncertainty changes the occupied house.
+conditions:
+  all:
+  - fact: western.natal.body
+    op: eq
+    value: mars
+  - fact: western.natal.bound-house
+    op: eq
+    value: 5
+meaning: In matters of creative play, you may notice the theme of initiative.
+life_areas:
+- children
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.mars-house-5
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: In matters of creative play, you may notice the theme of initiative.
+  kn: ಸೃಜನಶೀಲ ಚಟುವಟಿಕೆಗಳಲ್ಲಿ “ಮುಂದಾಳತ್ವ” ಎಂಬ ವಿಷಯವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: रचनात्मक गतिविधियों में आप “पहल” की भूमिका पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

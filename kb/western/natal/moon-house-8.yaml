@@ -1,0 +1,52 @@
+id: western.natal.moon-house-8
+system: western
+topic: natal
+title: Moon in house 8
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Bind natal moon to house 8 in the recorded Western house system. Read emotional comfort in the context of
+  shared resources and trust. Withhold when birth-time uncertainty changes the occupied house.
+conditions:
+  all:
+  - fact: western.natal.body
+    op: eq
+    value: moon
+  - fact: western.natal.bound-house
+    op: eq
+    value: 8
+meaning: In matters of shared resources and trust, you may notice the theme of emotional comfort.
+life_areas:
+- money
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.natal.moon-house-8
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: In matters of shared resources and trust, you may notice the theme of emotional comfort.
+  kn: ಜಂಟಿ ಸಂಪನ್ಮೂಲಗಳ ನಿರ್ವಹಣೆಯಲ್ಲಿ “ಮನಸ್ಸಿನ ನೆಮ್ಮದಿ” ಎಂಬ ವಿಷಯವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: साझा साधन सँभालते समय आप “भावनात्मक सुकून” की भूमिका पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

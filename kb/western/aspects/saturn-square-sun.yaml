@@ -1,0 +1,56 @@
+id: western.aspects.saturn-square-sun
+system: western
+topic: aspects
+title: Saturn square Sun · natal
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: In the same natal chart, bind Sun and Saturn in either order. Their shortest longitude separation is within
+  six degrees of ninety, endpoints included. Read the tension between purpose and responsibility.
+conditions:
+  all:
+  - fact: western.natal.sun-saturn-pair
+    op: eq
+    value: true
+  - fact: western.natal.aspect
+    op: eq
+    value: square
+meaning: You may feel pulled between a personal goal and a responsibility. Choosing a manageable next step can leave
+  room for both.
+life_areas:
+- career
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.aspects.saturn-square-sun
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: You may feel pulled between a personal goal and a responsibility. Choosing a manageable next step can leave
+    room for both.
+  kn: ನಿಮ್ಮ ಗುರಿ ಮತ್ತು ಜವಾಬ್ದಾರಿಯ ನಡುವೆ ಎಳೆಯಲ್ಪಟ್ಟಂತೆ ಅನಿಸಬಹುದು. ಕೈಗೆಟಕುವ ಮುಂದಿನ ಹೆಜ್ಜೆ ಎರಡಕ್ಕೂ ಜಾಗ ಕೊಡಬಹುದು.
+  hi: आप किसी निजी लक्ष्य और ज़िम्मेदारी के बीच खिंचाव महसूस कर सकते हैं। एक छोटा, व्यावहारिक कदम दोनों के लिए जगह
+    बना सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

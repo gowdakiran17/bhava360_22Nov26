@@ -483,6 +483,8 @@ def main():
         for slot in recipe['slot_bindings'].values():
             if 'rule_id' in slot:require(slot['rule_id'] in rules,slot)
     validate_life_areas(rules, read, require, ROOT)
+    from western import validate_western
+    validate_western(rules,read,evaluate,require)
     for name in areas['checker_ids']:
         recipe=read(f'checkers/{name}/recipe.yaml')
         require(len(recipe['reason_channels'])>=3 and recipe['compare_limit']==3,name)

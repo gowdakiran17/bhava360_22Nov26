@@ -1,0 +1,30 @@
+synthetic: true
+charts:
+  Asha:
+    # Invented tropical degrees, including a wraparound quadrant cusp.
+    ascendant: 350
+    placidus: [350, 18, 50, 82, 114, 147, 170, 198, 230, 262, 294, 327]
+    positions: {sun: 355, saturn: 85, venus: 185}
+    venus_house: {placidus: 7, whole-sign: 8}
+    sun_saturn_square: true
+  Ravi:
+    ascendant: 15
+    placidus: [15, 43, 71, 100, 132, 165, 195, 223, 251, 280, 312, 345]
+    positions: {sun: 3, saturn: 100, venus: 195}
+    venus_house: {placidus: 7, whole-sign: 7}
+    sun_saturn_square: false
+patterns:
+  - {kind: grand-trine, points: [359, 119, 239], found: true}
+  - {kind: grand-trine, points: [359, 119, 247], found: false}
+  - {kind: t-square, points: [280, 10, 190], found: true}
+  - {kind: t-square, points: [280, 10, 200], found: false}
+  - {kind: yod, points: [150, 0, 300], found: true}
+  - {kind: yod, points: [153, 0, 300], found: false}
+  - {kind: stellium, points: [1, 15, 29, 32], found: true}
+  - {kind: stellium, points: [359, 1, 15], found: false}
+timing:
+  birth_jd: 2451545
+  elapsed_days: 7304.85
+  progressed_jd: 2451565
+  # A linear synthetic ephemeris spanning zero near the anniversary.
+  solar_return: {natal_sun: 0.25, bracket_jd: [2451910, 2451912], solar_longitudes: [359.25, 1.25], expected_jd: 2451911}

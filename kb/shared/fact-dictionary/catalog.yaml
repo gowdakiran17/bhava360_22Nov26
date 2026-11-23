@@ -2531,3 +2531,115 @@ facts:
     producer: vedic.matching
     origin: Both consenting charts have the inputs for the same KB-10 Mars convention and origin.
     unknown_if: A required Mars input, role or convention is unresolved.
+  western.natal.body:
+    type: enum
+    producer: western.tropical
+    origin: Selected body in this tropical natal chart.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+    values:
+    - sun
+    - moon
+    - mercury
+    - venus
+    - mars
+    - jupiter
+    - saturn
+    - uranus
+    - neptune
+    - pluto
+  western.natal.bound-sign:
+    type: enum
+    producer: western.tropical
+    origin: Sign of the bound tropical point; floor(normalized longitude / 30).
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  western.natal.bound-house:
+    type: integer
+    producer: western.tropical
+    origin: House of the bound tropical body under the recorded system; exact cusp belongs to the opening house.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+    values:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+  western.natal.sun-saturn-pair:
+    type: boolean
+    producer: western.tropical
+    origin: Selected unordered pair is Sun and Saturn in the same natal chart.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.patterns.grand-trine:
+    type: boolean
+    producer: western.tropical
+    origin: Three distinct natal planets make all three trines within the natal trine orb. Element agreement is descriptive;
+      the edge test admits out-of-sign contacts.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.patterns.t-square:
+    type: boolean
+    producer: western.tropical
+    origin: Two endpoints oppose one another and a third, the apex, squares both. Test all three edges.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.patterns.stellium:
+    type: boolean
+    producer: western.tropical
+    origin: Group at least three distinct natal planets in one tropical sign, returning one maximal group per sign.
+      Schools also use four planets, house clusters or a chain of conjunctions.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.patterns.yod:
+    type: boolean
+    producer: western.tropical
+    origin: Two base planets form a sextile and a third, the apex, forms a quincunx to both. Use the quincunx orb
+      on both long edges; enable quincunx for this search.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.transits.natal-contact:
+    type: boolean
+    producer: western.tropical
+    origin: Use a dated transiting tropical body against a fixed tropical natal body. Test the configured aspect and
+      separate transit orb. Track applying, exact and separating passes by UTC instant; retain repeat passes across
+      a station.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.progressions.secondary-contact:
+    type: boolean
+    producer: western.tropical
+    origin: Use birth JD plus elapsed days divided by 365.2425 as the progressed ephemeris JD. Compare the progressed
+      tropical planet to the natal planet within the separate progression orb. The date describes symbolic development.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.returns.solar-return:
+    type: boolean
+    producer: western.tropical
+    origin: Solve the annual ascending crossing of the unwrapped tropical solar longitude at the natal solar longitude
+      plus an integral turn near the requested anniversary. Cast for the location at the return instant; compare return
+      angles and Sun house with the natal chart. Without a reliable location omit houses and angles.
+    unknown_if: Unbound body, chart frame or required ephemeris input missing or unstable.
+  western.transits.bound-aspect:
+    type: enum
+    producer: western.tropical
+    values: [conjunction, sextile, square, trine, opposition, quincunx]
+    origin: Aspect of the bound moving body to the fixed natal target under the selected timing method and orb.
+    unknown_if: Contact or ephemeris input unresolved.
+  western.progressions.bound-aspect:
+    type: enum
+    producer: western.tropical
+    values: [conjunction, sextile, square, trine, opposition, quincunx]
+    origin: Aspect of the bound moving body to the fixed natal target under the selected timing method and orb.
+    unknown_if: Contact or ephemeris input unresolved.

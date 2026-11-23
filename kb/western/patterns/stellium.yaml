@@ -1,0 +1,48 @@
+id: western.patterns.stellium
+system: western
+topic: patterns
+title: Stellium
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Group at least three distinct natal planets in one tropical sign, returning one maximal group per sign. Schools
+  also use four planets, house clusters or a chain of conjunctions.
+conditions:
+  all:
+  - fact: western.patterns.stellium
+    op: eq
+    value: true
+meaning: One style may show up in several parts of life. You can try another approach when that style feels limiting.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: Aspect Figure
+  work_id: astrowiki-pattern
+  edition: astrowiki-pattern-web
+  chapter: null
+  verse: null
+  other_locator: Aspect Figure
+  supports: Method description; numerical cutoffs and public wording are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.patterns.stellium
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: One style may show up in several parts of life. You can try another approach when that style feels limiting.
+  kn: ಬದುಕಿನ ಹಲವು ಭಾಗಗಳಲ್ಲಿ ಒಂದೇ ಶೈಲಿ ಕಾಣಬಹುದು. ಬೇಕಾದಾಗ ಬೇರೆ ವಿಧಾನವನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು.
+  hi: जीवन के कई हिस्सों में एक ही शैली दिख सकती है। आप ज़रूरत पड़ने पर दूसरा तरीका आज़मा सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -4,7 +4,9 @@ topic: progressions
 title: Progressed Moon
 doctrine_profile: western-editorial-v1
 approval: draft
-rule: A secondary progressed lunar phase change is dated from one ephemeris day per life year.
+rule: A secondary progressed lunar phase change is dated from one ephemeris day per life year. Use the progressed
+  Moon–Sun elongation, eight successive sectors of 45 degrees from conjunction; bind a phase-change date only at
+  the solved crossing.
 conditions:
   all:
   - fact: western.progressed-moon-phase
@@ -14,7 +16,10 @@ meaning: This period may invite a review of what matters to you now.
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
 sources:
 - book: Bhava360 Western conventions
   work_id: bhava360-western-conventions

@@ -37,6 +37,7 @@ calculation_profiles:
     polar_fallback: unknown
   western-tropical-v1:
     zodiac: tropical
+    house_options: [placidus, whole-sign, koch, equal]
     houses: placidus
     polar_fallback: whole-sign
     label_fallback: true

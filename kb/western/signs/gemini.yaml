@@ -1,0 +1,48 @@
+id: western.signs.gemini
+system: western
+topic: signs
+title: Gemini
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: The selected tropical point falls in [60, 90) degrees from the March equinox. Mutable air; modern ruler mercury,
+  traditional ruler mercury.
+conditions:
+  all:
+  - fact: western.natal.bound-sign
+    op: eq
+    value: gemini
+meaning: You may explore the theme of comparing two viewpoints.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: The Western profile measures tropical longitude from the March equinox. The Vedic profile uses a sidereal
+    zodiac and its own house and aspect conventions.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Historical symbolism of signs, planets and houses. The combined placement prompts are editorial.
+  verification: verified
+- book: Bhava360 Western reflection prompts
+  work_id: bhava360-western-reflection-prompts
+  edition: bhava360-western-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: western.signs.gemini
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+user_text:
+  en: You may explore the theme of comparing two viewpoints.
+  kn: “ಎರಡು ದೃಷ್ಟಿಕೋನಗಳನ್ನು ಹೋಲಿಸುವುದು” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
+  hi: आप “दो नज़रियों की तुलना करना” के विषय पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

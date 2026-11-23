@@ -4,7 +4,7 @@ topic: aspects
 title: Conjunction
 doctrine_profile: western-editorial-v1
 approval: draft
-rule: The selected natal pair forms the named aspect within its configured orb.
+rule: For a bound natal pair, accept shortest circular separation within 8 degrees of 0 degrees, inclusive.
 conditions:
   all:
   - fact: western.natal.aspect
@@ -14,7 +14,9 @@ meaning: a shared focus
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Orbs vary by school. This tropical geometric profile is separate from Parashari graha drishti.
 sources:
 - book: 'Astrology: How to Make and Read Your Own Horoscope'
   work_id: sepharial-astrology
