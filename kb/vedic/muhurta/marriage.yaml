@@ -1,0 +1,208 @@
+id: vedic.muhurta.marriage
+system: vedic
+topic: muhurta
+title: Marriage
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
+  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+conditions:
+  all:
+  - fact: muhurta.activity
+    op: eq
+    value: marriage
+  - fact: muhurta.window.eligible
+    op: eq
+    value: true
+meaning: You can compare ceremony times that suit both of you.
+life_areas:
+- love-marriage
+- family-home
+strength_notes: []
+exceptions:
+- when:
+    fact: muhurta.relief.chandra
+    op: eq
+    value: true
+  effect: soften
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
+    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
+    may differ. The combustion gate uses election-time longitude and KB-05 orbs as a proxy; visibility-based
+    asta and regional wedding seasons differ.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: Marriage, election of a Muhurtha
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
+    Bhava360 preferences.
+  verification: verified
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: The Birth Star and the Birth Moon; Special Adverse Yogas and their Neutralisation
+  supports: Tara count, Panchaka arithmetic, Vishti and qualified relief. Qualitative cutoffs are Bhava360 selections.
+  verification: verified
+- book: Muhurta Chintamani
+  work_id: muhurta-chintamani
+  edition: muhurta-chintamani-miu
+  chapter: Vivaha Prakarana
+  verse: null
+  other_locator: Marriage election and dosha summary
+  supports: Marriage election tradition. The angular combustion thresholds are the specified KB proxy.
+  verification: chapter-only
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+- book: Surya Siddhanta
+  work_id: surya-siddhanta
+  edition: surya-siddhanta-burgess
+  chapter: 9
+  verse: 6–9
+  other_locator: Planetary rising and setting
+  supports: Basis of the KB-05 proximity table. For this draft apply the selected orbs to the election chart.
+  verification: verified
+confidence: medium
+review_notes: Draft; confirm regional convention and native Kannada/Hindi copy before release.
+user_text:
+  en: You can compare ceremony times that suit both of you.
+  kn: ನಿಮ್ಮಿಬ್ಬರಿಗೂ ಹೊಂದುವ ಸಮಾರಂಭದ ಸಮಯಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: आप दोनों की सुविधा के अनुसार समारोह के समय की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+activity_profile:
+  activity: marriage
+  shared_policy: vedic/muhurta/ranking-policy.yaml
+  participants: both partners
+  required_people: 2
+  factors:
+    tithi:
+      support:
+      - 2
+      - 3
+      - 5
+      - 7
+      - 10
+      - 11
+      - 13
+      avoid:
+      - 4
+      - 6
+      - 8
+      - 9
+      - 12
+      - 14
+      - 19
+      - 21
+      - 23
+      - 24
+      - 26
+      - 27
+      - 28
+      - 29
+      - 30
+    vara:
+      support:
+      - monday
+      - wednesday
+      - thursday
+      - friday
+      avoid:
+      - tuesday
+    nakshatra:
+      support:
+      - rohini
+      - mrigashira
+      - magha
+      - uttara-phalguni
+      - hasta
+      - swati
+      - anuradha
+      - mula
+      - uttara-ashadha
+      - uttara-bhadrapada
+      - revati
+      avoid:
+      - ashwini
+      - bharani
+      - krittika
+      - ardra
+      - punarvasu
+      - pushya
+      - ashlesha
+      - purva-phalguni
+      - chitra
+      - vishakha
+      - jyeshtha
+      - purva-ashadha
+      - shravana
+      - dhanishta
+      - shatabhisha
+      - purva-bhadrapada
+    yoga:
+      support:
+      - Priti
+      - Saubhagya
+      - Shobhana
+      - Sukarma
+      - Siddhi
+      - Shubha
+      avoid:
+      - Atiganda
+      - Shula
+      - Ganda
+      - Vyatipata
+      - Vaidhriti
+      - Dhruva
+      - Vajra
+      - Vishkambha
+      - Vyaghata
+      - Parigha
+    karana:
+      support:
+      - taitila
+      avoid:
+      - vishti
+      - shakuni
+      - chatushpada
+      - naga
+    lagna:
+      support:
+      - gemini
+      - virgo
+      - libra
+      avoid:
+      - aries
+      - scorpio
+      - capricorn
+      - pisces
+  panchaka_avoid:
+  - 1
+  - 8
+  combustion:
+  - venus
+  - jupiter
+  quarter_cautions:
+    magha:
+    - 1
+    mula:
+    - 1
+    revati:
+    - 4
+  reliefs:
+  - chandra

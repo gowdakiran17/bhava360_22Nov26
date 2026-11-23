@@ -17,6 +17,55 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  muhurta.activity:
+    type: enum
+    producer: vedic.muhurta
+    origin: Canonical activity resolved through selection.yaml aliases.
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
+    values:
+    - marriage
+    - griha-pravesha
+    - vehicle-purchase
+    - business-start
+    - naming
+    - travel
+    - education-start
+    - property-registration
+  muhurta.window.tone:
+    type: enum
+    producer: vedic.muhurta
+    origin: Apply the scoring-free administrative evaluation to the complete bound window and required participants.
+      Hard-excluded windows are omitted from recommendations.
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
+    values:
+    - Supportive
+    - Steady
+    - Take care
+  muhurta.relief.chandra:
+    type: boolean
+    producer: vedic.muhurta
+    origin: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+      is supportive. Soften only their eighth-house Chandra caution to neutral.'
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
+  muhurta.relief.naming_tuesday:
+    type: boolean
+    producer: vedic.muhurta
+    origin: 'For naming on Tuesday: the local civil date is the tenth, twelfth or sixteenth day counted inclusively
+      from the child’s local birth date. Cancel only the Tuesday caution.'
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
+  muhurta.relief.entry_navamsa:
+    type: boolean
+    producer: vedic.muhurta
+    origin: 'For house entry: the election lagna is movable and its KB-11 D9 sign is Taurus. Cancel only the movable-lagna
+      caution.'
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
+  muhurta.relief.janma_star:
+    type: boolean
+    producer: vedic.muhurta
+    origin: For first letters or the purchase-registration of land, the election star is the participant’s actual
+      birth star. Cancel only that participant’s Janma Tara caution; another star in the same Tara class does
+      not qualify.
+    unknown_if: Missing required evidence, unresolved participant or unsplit material boundary.
   panchang.pradosh.active:
     type: boolean
     producer: vedic.panchang

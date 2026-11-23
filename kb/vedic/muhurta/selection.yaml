@@ -16,14 +16,33 @@ activities:
 - griha-pravesh
 - joining-job
 - naming
-partition: Partition the requested range at all relevant sunrise, sunset, limb, exclusion and participant-strength boundaries.
-  Use half-open windows.
+- griha-pravesha
+- vehicle-purchase
+- education-start
+- property-registration
+partition: Partition the requested range at all relevant sunrise, sunset, limb, exclusion and participant-strength
+  boundaries. Use half-open windows.
 hard_exclusions:
 - Vishti/Bhadra
 - Rahu Kaal
 - pre-sunrise for daytime activities
 - activity-specific exclusions in approved doctrine
-tara: Count inclusively from birth star to window star, wrap 27 then cycle 1..9. Categories 2,4,6,8,9 support this profile.
-chandra: Count window Moon from each natal Moon inclusively. Base supportive houses 1,3,6,7,10,11; lunar-phase variants separate.
-participants: For marriage evaluate both profiles. Skip a candidate if any hard exclusion intersects it. Order accepted windows
-  by stated activity preferences and then start time. Attach individual reasons.
+tara: Count inclusively from birth star to window star, wrap 27 then cycle 1..9. Categories 2,4,6,8,9 support
+  this profile.
+chandra: Count window Moon from each natal Moon inclusively. Base supportive houses 1,3,6,7,10,11; lunar-phase
+  variants separate.
+participants: Use the required natal chart or charts in the selected activity profile. Rank surviving windows
+  by ranking_policy; use existing draft preferences for activities outside KB-20.
+activity_profiles:
+  marriage: vedic.muhurta.marriage
+  griha-pravesha: vedic.muhurta.griha-pravesha
+  vehicle-purchase: vedic.muhurta.vehicle-purchase
+  business-start: vedic.muhurta.business-start
+  naming: vedic.muhurta.naming
+  travel: vedic.muhurta.travel
+  education-start: vedic.muhurta.education-start
+  property-registration: vedic.muhurta.property-registration
+aliases:
+  vehicle-delivery: vehicle-purchase
+  griha-pravesh: griha-pravesha
+ranking_policy: vedic/muhurta/ranking-policy.yaml

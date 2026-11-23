@@ -1,5 +1,6 @@
 version: 1
 works:
+  muhurta-chintamani: Muhurta Chintamani
   diwali-pradosha-profile: How Diwali and Lakshmi Puja Are Dated
   drik-pradosh: Drik Panchang Pradosh Days
   drik-code: Drik Panchanga routines
@@ -60,6 +61,12 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  muhurta-chintamani-miu:
+    work_id: muhurta-chintamani
+    edition_id: muhurta-chintamani-miu
+    title_as_printed: Muhurta Cintamani
+    language: Sanskrit
+    text: https://vedicreserve.miu.edu/jyotish/muhurta_cintamani.pdf
   diwali-pradosha-online:
     work_id: diwali-pradosha-profile
     edition_id: diwali-pradosha-online

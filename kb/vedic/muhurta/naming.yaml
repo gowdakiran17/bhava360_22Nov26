@@ -1,0 +1,178 @@
+id: vedic.muhurta.naming
+system: vedic
+topic: muhurta
+title: Naming ceremony
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
+  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+conditions:
+  all:
+  - fact: muhurta.activity
+    op: eq
+    value: naming
+  - fact: muhurta.window.eligible
+    op: eq
+    value: true
+meaning: You can compare times when the family can gather to share the name.
+life_areas:
+- children
+- family-home
+strength_notes: []
+exceptions:
+- when:
+    fact: muhurta.relief.chandra
+    op: eq
+    value: true
+  effect: soften
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+- when:
+    fact: muhurta.relief.naming_tuesday
+    op: eq
+    value: true
+  effect: cancel
+  reason: 'For naming on Tuesday: the local civil date is the tenth, twelfth or sixteenth day counted inclusively
+    from the child’s local birth date. Cancel only the Tuesday caution.'
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
+    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
+    may differ. '
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: Post-Natal Ceremonies, Namakarana
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
+    Bhava360 preferences.
+  verification: verified
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: The Birth Star and the Birth Moon; Special Adverse Yogas and their Neutralisation
+  supports: Tara count, Panchaka arithmetic, Vishti and qualified relief. Qualitative cutoffs are Bhava360 selections.
+  verification: verified
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+confidence: medium
+review_notes: Draft; confirm regional convention and native Kannada/Hindi copy before release.
+user_text:
+  en: You can compare times when the family can gather to share the name.
+  kn: ಹೆಸರು ಹೇಳಲು ಮನೆಯವರು ಸೇರಬಹುದಾದ ಸಮಯಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: नाम साझा करने के लिए परिवार के एकत्र होने का समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+activity_profile:
+  activity: naming
+  shared_policy: vedic/muhurta/ranking-policy.yaml
+  participants: child
+  required_people: 1
+  factors:
+    tithi:
+      support:
+      - 2
+      - 3
+      - 5
+      - 7
+      - 10
+      - 11
+      - 13
+      avoid:
+      - 4
+      - 6
+      - 8
+      - 9
+      - 12
+      - 14
+      - 15
+      - 19
+      - 21
+      - 23
+      - 24
+      - 27
+      - 29
+      - 30
+    vara:
+      support:
+      - monday
+      - wednesday
+      - thursday
+      - friday
+      avoid:
+      - tuesday
+    nakshatra:
+      support:
+      - mrigashira
+      - chitra
+      - anuradha
+      - revati
+      - ashwini
+      - pushya
+      - hasta
+      - rohini
+      - uttara-phalguni
+      - uttara-ashadha
+      - uttara-bhadrapada
+      - punarvasu
+      - swati
+      - shravana
+      - dhanishta
+      - shatabhisha
+      avoid:
+      - bharani
+      - krittika
+    yoga:
+      support:
+      - Priti
+      - Saubhagya
+      - Shobhana
+      - Sukarma
+      - Siddhi
+      - Shubha
+      avoid:
+      - Atiganda
+      - Shula
+      - Ganda
+      - Vyatipata
+      - Vaidhriti
+    karana:
+      support:
+      - balava
+      - bava
+      avoid:
+      - vishti
+      - shakuni
+      - chatushpada
+      - naga
+    lagna:
+      support:
+      - taurus
+      - leo
+      - scorpio
+      - aquarius
+      avoid:
+      - aries
+      - cancer
+      - libra
+      - capricorn
+  panchaka_avoid:
+  - 1
+  - 8
+  combustion: []
+  quarter_cautions: {}
+  reliefs:
+  - chandra
+  - naming-tuesday

@@ -14,9 +14,9 @@ next_actions:
 - calendar
 method: Intersect hard exclusions first. Marriage requires both participants. Rank only surviving windows.
 compare_limit: 3
-policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive evidence,
-  not a Supportive tone by itself. Resolve fit only from approved directional rules. Missing material evidence yields an explanation
-  of the limit.
+policy: Require three independent derived reasons. A numeric total or a curated name definition alone is descriptive
+  evidence, not a Supportive tone by itself. Resolve fit only from approved directional rules. Missing material
+  evidence yields an explanation of the limit.
 tone_resolution:
   only_supportive: Supportive
   only_caution: Take care
@@ -35,6 +35,8 @@ explain_rules:
 - rule_id: vedic.muhurta.check-big-decision-muhurta-activity-limb
   direction: support
   evidence: checker.big-decision-muhurta.activity-limb
-selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
-  ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
-  match, return limited evidence.
+selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input
+  mode and candidate ID. Independent evidence means a total and its arithmetic restatement count once. When
+  fewer than three explainable reasons match, return limited evidence.
+activity_profiles: vedic/muhurta/selection.yaml
+ranking_policy: vedic/muhurta/ranking-policy.yaml

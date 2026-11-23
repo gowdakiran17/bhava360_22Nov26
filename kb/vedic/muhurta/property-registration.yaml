@@ -1,0 +1,178 @@
+id: vedic.muhurta.property-registration
+system: vedic
+topic: muhurta
+title: Property registration
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
+  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+conditions:
+  all:
+  - fact: muhurta.activity
+    op: eq
+    value: property-registration
+  - fact: muhurta.window.eligible
+    op: eq
+    value: true
+meaning: You can compare signing times that allow everyone to review the papers.
+life_areas:
+- property-vehicles
+- money
+strength_notes: []
+exceptions:
+- when:
+    fact: muhurta.relief.chandra
+    op: eq
+    value: true
+  effect: soften
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+- when:
+    fact: muhurta.relief.janma_star
+    op: eq
+    value: true
+  effect: cancel
+  reason: For first letters or the purchase-registration of land, the election star is the participant’s actual
+    birth star. Cancel only that participant’s Janma Tara caution; another star in the same Tara class does
+    not qualify.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
+    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
+    may differ. Land-purchase criteria are adapted to signing. An actual registry appointment and document requirements
+    govern practical availability.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: House Building, Buying Lands for Buildings
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
+    Bhava360 preferences.
+  verification: verified
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: The Birth Star and the Birth Moon; Special Adverse Yogas and their Neutralisation
+  supports: Tara count, Panchaka arithmetic, Vishti and qualified relief. Qualitative cutoffs are Bhava360 selections.
+  verification: verified
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+confidence: medium
+review_notes: Draft; confirm regional convention and native Kannada/Hindi copy before release.
+user_text:
+  en: You can compare signing times that allow everyone to review the papers.
+  kn: ಎಲ್ಲರೂ ದಾಖಲೆಗಳನ್ನು ಪರಿಶೀಲಿಸಲು ಅನುಕೂಲವಾಗುವ ಸಹಿಯ ಸಮಯಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: दस्तावेज़ देखने की गुंजाइश रखने वाले हस्ताक्षर के समयों की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+activity_profile:
+  activity: property-registration
+  shared_policy: vedic/muhurta/ranking-policy.yaml
+  participants: signing buyer
+  required_people: 1
+  factors:
+    tithi:
+      support:
+      - 2
+      - 3
+      - 5
+      - 7
+      - 10
+      - 11
+      - 13
+      - 17
+      - 18
+      - 20
+      - 22
+      - 25
+      - 26
+      - 28
+      avoid:
+      - 4
+      - 9
+      - 14
+      - 19
+      - 24
+      - 29
+      - 30
+    vara:
+      support:
+      - monday
+      - wednesday
+      - thursday
+      - saturday
+      avoid:
+      - tuesday
+    nakshatra:
+      support:
+      - ashwini
+      - rohini
+      - mrigashira
+      - punarvasu
+      - pushya
+      - uttara-phalguni
+      - hasta
+      - swati
+      - anuradha
+      - uttara-ashadha
+      - shravana
+      - dhanishta
+      - shatabhisha
+      - uttara-bhadrapada
+      avoid:
+      - bharani
+      - krittika
+    yoga:
+      support:
+      - Priti
+      - Saubhagya
+      - Shobhana
+      - Sukarma
+      - Siddhi
+      - Shubha
+      avoid:
+      - Atiganda
+      - Shula
+      - Ganda
+      - Vyatipata
+      - Vaidhriti
+    karana:
+      support:
+      - vanija
+      - bava
+      avoid:
+      - vishti
+      - shakuni
+      - chatushpada
+      - naga
+    lagna:
+      support:
+      - taurus
+      - leo
+      - scorpio
+      - aquarius
+      avoid:
+      - aries
+      - cancer
+      - libra
+      - capricorn
+  panchaka_avoid:
+  - 2
+  - 4
+  combustion: []
+  quarter_cautions: {}
+  reliefs:
+  - chandra
+  - janma-star

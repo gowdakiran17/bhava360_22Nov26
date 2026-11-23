@@ -1,0 +1,37 @@
+id: vedic.muhurta.window-steady
+system: vedic
+topic: muhurta
+title: Steady
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Render this localized reflection when the bound candidate resolves to Steady under ranking-policy.yaml.
+conditions:
+  all:
+  - fact: muhurta.window.tone
+    op: eq
+    value: Steady
+meaning: You can weigh the different timing indications alongside your plans.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/muhurta/ranking-policy.yaml
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own
+    evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can weigh the different timing indications alongside your plans.
+  kn: ನಿಮ್ಮ ಯೋಜನೆಗಳ ಜೊತೆಗೆ ಸಮಯದ ವಿಭಿನ್ನ ಸೂಚನೆಗಳನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: आप अपनी योजना के साथ समय के अलग संकेतों पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

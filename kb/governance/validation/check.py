@@ -377,6 +377,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['topic']=='muhurta' and 'activity_profile' in data:
+            expected_fields.add('activity_profile')
         if data['topic']=='strength/ashtakavarga':
             expected_fields.add('calculation')
         if data['topic']=='strength/shadbala' and rid!='vedic.strength-shadbala.six-components':
@@ -487,6 +489,8 @@ def main():
             require(len(matched)==1,(card,orientation))
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
+    from muhurta import validate_muhurta
+    validate_muhurta(rules,read,evaluate,require)
     from panchang import validate_panchang
     validate_panchang(rules,read,evaluate,require)
     from jaimini import validate_jaimini

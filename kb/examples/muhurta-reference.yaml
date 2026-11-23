@@ -1,0 +1,334 @@
+synthetic: true
+description: Independent invented charts evaluated on short, pre-partitioned local windows. Longitudes in degrees;
+  graha motion is signed degrees/day. Dates and positions are fixture inputs.
+window:
+  city: Bengaluru
+  sunrise: '2032-03-18T06:00:00+05:30'
+  sunset: '2032-03-18T18:00:00+05:30'
+  start: '2032-03-18T09:00:00+05:30'
+  end: '2032-03-18T09:12:00+05:30'
+rahu_overlap:
+  start: '2032-03-18T13:29:00+05:30'
+  end: '2032-03-18T13:31:00+05:30'
+ends_at_rahu:
+  start: '2032-03-18T13:15:00+05:30'
+  end: '2032-03-18T13:30:00+05:30'
+cases:
+  marriage:
+    sun: 18
+    moon: 48
+    asc: 71
+    natal_moons:
+      Asha: 30
+      Ravi: 346
+    participants:
+    - Asha
+    - Ravi
+    venus:
+    - 38
+    - 1
+    jupiter:
+    - 87
+    - -0.1
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: neutral
+  griha-pravesha:
+    sun: 18
+    moon: 48
+    asc: 41
+    natal_moons:
+      Asha: 30
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: support
+  vehicle-purchase:
+    sun: 58
+    moon: 88
+    asc: 11
+    natal_moons:
+      Asha: 14
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: support
+  business-start:
+    sun: 18
+    moon: 48
+    asc: 41
+    natal_moons:
+      Asha: 30
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: support
+  naming:
+    sun: 43
+    moon: 61
+    asc: 41
+    natal_moons:
+      Asha: 14
+    participants:
+    - Asha
+    birth_date: '2032-03-09'
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: support
+  travel:
+    sun: 43
+    moon: 61
+    asc: 11
+    natal_moons:
+      Asha: 14
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: neutral
+  education-start:
+    sun: 315
+    moon: 8
+    asc: 11
+    natal_moons:
+      Asha: 14
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: support
+  property-registration:
+    sun: 291
+    moon: 8
+    asc: 41
+    natal_moons:
+      Asha: 14
+    participants:
+    - Asha
+    expected_tone: Supportive
+    expected_reasons:
+      nakshatra: support
+      lagna: support
+      tara/Asha: support
+      chandra/Asha: support
+      panchaka: neutral
+probes:
+- activity: marriage
+  override:
+    venus:
+    - 28
+    - 1
+  result:
+  - false
+  - Take care
+  reasons:
+    blocked:
+    - venus-combust
+- activity: marriage
+  override:
+    jupiter:
+    - 7
+    - 1
+  result:
+  - false
+  - Take care
+  reasons:
+    blocked:
+    - jupiter-combust
+- activity: marriage
+  override:
+    venus:
+    - 27
+    - -1
+  result:
+  - true
+  - Supportive
+  reasons: {}
+- activity: marriage
+  override:
+    venus:
+    - 27
+    - 0
+  result:
+  - null
+  - null
+  reasons: {}
+- activity: marriage
+  override:
+    participants:
+    - Asha
+    - Asha
+  result:
+  - null
+  - null
+  reasons: {}
+- activity: marriage
+  override:
+    natal_moons:
+      Asha: 30
+      Ravi: 48
+  result:
+  - true
+  - Steady
+  reasons:
+    tara/Ravi: avoid
+    tara/Asha: support
+- activity: education-start
+  override:
+    natal_moons:
+      Asha: 8
+  result:
+  - true
+  - Supportive
+  reasons:
+    tara/Asha: neutral
+- activity: property-registration
+  override:
+    natal_moons:
+      Asha: 8
+  result:
+  - true
+  - Supportive
+  reasons:
+    tara/Asha: neutral
+- activity: vehicle-purchase
+  override:
+    natal_moons:
+      Asha: 88
+  result:
+  - true
+  - Steady
+  reasons:
+    tara/Asha: avoid
+- activity: griha-pravesha
+  override:
+    asc: 4
+  result:
+  - true
+  - Steady
+  reasons:
+    lagna: neutral
+- activity: naming
+  override:
+    sunrise: '2032-03-16T06:00:00+05:30'
+    sunset: '2032-03-16T18:00:00+05:30'
+    start: '2032-03-16T09:00:00+05:30'
+    end: '2032-03-16T09:12:00+05:30'
+    birth_date: '2032-03-07'
+  result:
+  - true
+  - Supportive
+  reasons:
+    vara: neutral
+- activity: naming
+  override:
+    sunrise: '2032-03-16T06:00:00+05:30'
+    sunset: '2032-03-16T18:00:00+05:30'
+    start: '2032-03-16T09:00:00+05:30'
+    end: '2032-03-16T09:12:00+05:30'
+    birth_date: '2032-03-08'
+  result:
+  - true
+  - Steady
+  reasons:
+    vara: avoid
+- activity: travel
+  override:
+    natal_moons:
+      Asha: 210
+  result:
+  - true
+  - Supportive
+  reasons:
+    chandra/Asha: neutral
+    tara/Asha: support
+- activity: vehicle-purchase
+  override:
+    vishti_intervals:
+    - - '2032-03-18T09:12:00+05:30'
+      - '2032-03-18T09:20:00+05:30'
+  result:
+  - true
+  - Supportive
+- activity: vehicle-purchase
+  override:
+    vishti_intervals:
+    - - '2032-03-18T09:11:59+05:30'
+      - '2032-03-18T09:12:00+05:30'
+  result:
+  - false
+  - Take care
+ranking:
+  input:
+  - - '2032-03-18T09:00:00+05:30'
+    - '2032-03-18T09:01:00+05:30'
+    - true
+    - Steady
+  - - '2032-03-18T09:02:00+05:30'
+    - '2032-03-18T09:03:00+05:30'
+    - true
+    - Supportive
+  - - '2032-03-18T09:02:00+05:30'
+    - '2032-03-18T09:03:00+05:30'
+    - true
+    - Supportive
+  - - '2032-03-18T09:01:00+05:30'
+    - '2032-03-18T09:02:00+05:30'
+    - true
+    - Supportive
+  - - '2032-03-18T09:03:00+05:30'
+    - '2032-03-18T09:04:00+05:30'
+    - true
+    - Take care
+  - - '2032-03-18T09:04:00+05:30'
+    - '2032-03-18T09:05:00+05:30'
+    - false
+    - Take care
+  - - '2032-03-18T09:05:00+05:30'
+    - '2032-03-18T09:06:00+05:30'
+    - null
+    - null
+  expected:
+  - - '2032-03-18T09:01:00+05:30'
+    - '2032-03-18T09:02:00+05:30'
+    - Supportive
+  - - '2032-03-18T09:02:00+05:30'
+    - '2032-03-18T09:03:00+05:30'
+    - Supportive
+  - - '2032-03-18T09:00:00+05:30'
+    - '2032-03-18T09:01:00+05:30'
+    - Steady
+  - - '2032-03-18T09:03:00+05:30'
+    - '2032-03-18T09:04:00+05:30'
+    - Take care

@@ -1,0 +1,37 @@
+id: vedic.muhurta.window-take-care
+system: vedic
+topic: muhurta
+title: Take care
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Render this localized reflection when the bound candidate resolves to Take care under ranking-policy.yaml.
+conditions:
+  all:
+  - fact: muhurta.window.tone
+    op: eq
+    value: Take care
+meaning: You may prefer to compare another available time.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/muhurta/ranking-policy.yaml
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own
+    evidence.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may prefer to compare another available time.
+  kn: ಲಭ್ಯವಿರುವ ಇನ್ನೊಂದು ಸಮಯವನ್ನು ಹೋಲಿಸಲು ನೀವು ಬಯಸಬಹುದು.
+  hi: आप किसी दूसरे उपलब्ध समय पर भी विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

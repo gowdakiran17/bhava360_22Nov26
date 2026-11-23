@@ -156,3 +156,9 @@ jaimini_entries:
   public_fields: [user_text, remedy.user_text]
   technical_fields_access: [admin]
   projection: Render only the reviewed locale copy. Scheme, rank, karaka identity, chart frame, pada steps, aspect pairs, intervention counts, titles and source evidence are administrative.
+vedic_muhurta_activity_profiles:
+  extension: activity_profile
+  selection: vedic/muhurta/selection.yaml
+  ranking: vedic/muhurta/ranking-policy.yaml
+  technical_fields_access: [admin]
+  public_fields: [localized_tone, user_text]

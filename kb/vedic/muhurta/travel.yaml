@@ -1,0 +1,163 @@
+id: vedic.muhurta.travel
+system: vedic
+topic: muhurta
+title: Travel departure
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
+  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+conditions:
+  all:
+  - fact: muhurta.activity
+    op: eq
+    value: travel
+  - fact: muhurta.window.eligible
+    op: eq
+    value: true
+meaning: You can compare departure times with the needs of your journey.
+life_areas:
+- travel-relocation
+strength_notes: []
+exceptions:
+- when:
+    fact: muhurta.relief.chandra
+    op: eq
+    value: true
+  effect: soften
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
+    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
+    may differ. '
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: Travel, Journeys
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
+    Bhava360 preferences.
+  verification: verified
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: The Birth Star and the Birth Moon; Special Adverse Yogas and their Neutralisation
+  supports: Tara count, Panchaka arithmetic, Vishti and qualified relief. Qualitative cutoffs are Bhava360 selections.
+  verification: verified
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+confidence: medium
+review_notes: Draft; confirm regional convention and native Kannada/Hindi copy before release.
+user_text:
+  en: You can compare departure times with the needs of your journey.
+  kn: ಪ್ರಯಾಣದ ಅಗತ್ಯಗಳಿಗೆ ತಕ್ಕಂತೆ ಹೊರಡುವ ಸಮಯಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: आप अपनी यात्रा की ज़रूरतों के अनुसार प्रस्थान के समय की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+activity_profile:
+  activity: travel
+  shared_policy: vedic/muhurta/ranking-policy.yaml
+  participants: traveller
+  required_people: 1
+  factors:
+    tithi:
+      support:
+      - 2
+      - 3
+      - 5
+      - 7
+      - 10
+      - 11
+      - 13
+      - 17
+      - 18
+      - 20
+      - 22
+      - 25
+      - 26
+      - 28
+      avoid:
+      - 14
+      - 15
+      - 29
+      - 30
+    vara:
+      support:
+      - monday
+      - wednesday
+      - thursday
+      - friday
+      avoid:
+      - tuesday
+    nakshatra:
+      support:
+      - mrigashira
+      - ashwini
+      - pushya
+      - punarvasu
+      - hasta
+      - anuradha
+      - shravana
+      - mula
+      - dhanishta
+      - revati
+      avoid:
+      - krittika
+      - bharani
+      - ashlesha
+      - vishakha
+      - purva-phalguni
+      - purva-bhadrapada
+      - ardra
+    yoga:
+      support:
+      - Priti
+      - Saubhagya
+      - Shobhana
+      - Sukarma
+      - Siddhi
+      - Shubha
+      avoid:
+      - Atiganda
+      - Shula
+      - Ganda
+      - Vyatipata
+      - Vaidhriti
+    karana:
+      support:
+      - gara
+      - bava
+      avoid:
+      - vishti
+      - shakuni
+      - chatushpada
+      - naga
+    lagna:
+      support:
+      - aries
+      - taurus
+      - cancer
+      - leo
+      - libra
+      - sagittarius
+      avoid:
+      - scorpio
+  panchaka_avoid:
+  - 6
+  combustion: []
+  quarter_cautions: {}
+  reliefs:
+  - chandra

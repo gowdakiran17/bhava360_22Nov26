@@ -1,0 +1,112 @@
+version: 1
+approval: draft
+scope: KB-20 daytime activity profiles; evaluate in the current city using KB-19 sunrise, weekday and limbs.
+bounds: Split requested ranges at sunrise, sunset, exact limb/pada/lagna/D9 crossings, Rahu Kalam endpoints
+  and relevant combustion threshold or motion changes. Evaluate half-open pieces. If an indivisible requested
+  interval intersects a hard exclusion for positive duration, exclude it.
+hard_exclusions:
+- outside-daylight
+- vishti
+- rahu-kalam
+- marriage-combustion
+combustion: Use vedic/states/combustion-orbs.yaml at the election instant with shortest circular Sun–graha separation.
+  Equality is combust. At an unresolved motion branch use a result only if both possible thresholds agree on
+  the classification; otherwise withhold.
+tara:
+  formula: 1 + (((event star − natal star) modulo 27) modulo 9), same star counts as one.
+  support:
+  - 2
+  - 4
+  - 6
+  - 8
+  - 9
+  avoid:
+  - 1
+  - 3
+  - 5
+  - 7
+chandra:
+  formula: 1 + ((event Moon sign − natal Moon sign) modulo 12).
+  support:
+  - 1
+  - 3
+  - 6
+  - 7
+  - 10
+  - 11
+  avoid:
+  - 8
+  - 12
+  other: neutral
+panchaka:
+  formula: (full tithi 1..30 + sunrise weekday Sunday=1 + star Ashwini=1 + election lagna Aries=1) modulo 9
+  clear:
+  - 0
+  - 3
+  - 5
+  - 7
+  remaining: Apply the activity-specific panchaka_avoid list. Unselected non-clear remainders are neutral.
+  traditions_differ: This is the remainder-based election test. Regional nakshatra Panchaka and fortnight-relative
+    tithi methods are different tests. Vehicle handover inherits travel caution; registration inherits property
+    caution; naming and study use the ceremonial analogy.
+  remainder_names:
+    1: mrityu
+    2: agni
+    4: raja
+    6: chora
+    8: roga
+  visibility: Internal evidence only.
+reliefs:
+  chandra: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
+    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+  naming-tuesday: 'For naming on Tuesday: the local civil date is the tenth, twelfth or sixteenth day counted
+    inclusively from the child’s local birth date. Cancel only the Tuesday caution.'
+  entry-navamsa: 'For house entry: the election lagna is movable and its KB-11 D9 sign is Taurus. Cancel only
+    the movable-lagna caution.'
+  janma-star: For first letters or the purchase-registration of land, the election star is the participant’s
+    actual birth star. Cancel only that participant’s Janma Tara caution; another star in the same Tara class
+    does not qualify.
+eligibility: Hard exclusions override every relief and omit the interval. For a directly inspected blocked interval
+  show Take care. Missing required evidence yields limited evidence with no rank or tone. For marriage require
+  two distinct natal charts.
+preferences: Use full one-based tithi, KB-03 star ID, KB-19 case-sensitive yoga and karana names, and D1 election
+  lagna. Values absent from both lists are neutral. A listed cautionary star quarter supersedes support from
+  the same star.
+channels:
+- activity-limbs
+- election-lagna
+- tara
+- chandra
+- panchaka
+aggregation: 'For each channel retain directional evidence as a set; preserve participant identity. Never average
+  partner results. Deduplicate correlated evidence: do not count Panchaka as an additional independent reason
+  alongside its component limbs and lagna. Limit evidence if fewer than three independent reason channels are
+  available (complete neutral observations can explain a channel).'
+tone: 'After named reliefs: only supportive directions gives Supportive; only caution directions gives Take
+  care; mixed or all neutral gives Steady. No points, weights or tally of favourable signals.'
+ranking:
+- Supportive
+- Steady
+- Take care
+tie_break: Earlier start, then earlier end, within each tone. Deduplicate identical activity, participants,
+  city and interval. Keep excluded and unresolved windows outside the recommendation list.
+public_projection: Localized tone label, localized user_text, and ordinary local date/time when displaying a
+  schedule. No scores, numeric rule evidence, participant counts, formula outputs or technical chains in user_text.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: null
+  verse: null
+  other_locator: The Birth Star and the Birth Moon; Special Adverse Yogas and their Neutralisation
+  supports: Tara count, Panchaka arithmetic, Vishti and qualified relief. Qualitative cutoffs are Bhava360 selections.
+  verification: verified
+- book: Muhurta Chintamani
+  work_id: muhurta-chintamani
+  edition: muhurta-chintamani-miu
+  chapter: Vivaha Prakarana
+  verse: null
+  other_locator: Marriage election and dosha summary
+  supports: Marriage election tradition. The angular combustion thresholds are the specified KB proxy.
+  verification: chapter-only
+tone_labels: shared/localization/reading.yaml
