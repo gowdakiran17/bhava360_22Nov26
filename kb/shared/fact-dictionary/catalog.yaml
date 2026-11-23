@@ -17,6 +17,161 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  jaimini.raja.ak_amk_together:
+    type: boolean
+    producer: jaimini.raja-yogas
+    origin: Distinct, stable AK and AmK under the selected scheme occupy the same D1 sign.
+    unknown_if: Ranking, scheme or placement is unresolved.
+  jaimini.ak.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds AK: rank 1 of seven or rank 1 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.amk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds AmK: rank 2 of seven or rank 2 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.bk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds BK: rank 3 of seven or rank 3 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.mk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds MK: rank 4 of seven or rank 4 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.pik.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds PiK: rank 5 of eight under chara-karakas/methods.yaml. Require
+      a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.pk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds PK: rank 5 of seven or rank 6 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.gk.confirmed:
+    type: boolean
+    producer: jaimini.chara-karakas
+    origin: 'Select the bound graha only if it holds GK: rank 6 of seven or rank 7 of eight under chara-karakas/methods.yaml.
+      Require a unique rank across the chart uncertainty interval.'
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a2.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 2 and compute A2 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a3.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 3 and compute A3 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a4.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 4 and compute A4 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a5.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 5 and compute A5 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a6.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 6 and compute A6 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a7.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 7 and compute A7 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a8.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 8 and compute A8 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a9.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 9 and compute A9 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a10.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 10 and compute A10 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.a11.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 11 and compute A11 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.ul.stable:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: Bind the requested D1 house 12 and compute A12 with arudha-padas/methods.yaml. Read its visible expression
+      only if its final sign is stable.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.swamsa.stable:
+    type: boolean
+    producer: jaimini.karakamsa
+    origin: Bind the requested swamsa convention. In the sutra-commentary reading use the AK’s D9 sign; in the
+      lagnamsa reading use the D9 sign of the birth ascendant. Use the KB-11 Navamsa lookup and only D9 occupants.
+      An unspecified convention yields unknown.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.karakamsa.d1_projection:
+    type: boolean
+    producer: jaimini.karakamsa
+    origin: Require the D1 projection variant and a stable AK navamsa sign. Set that sign as the reference in
+      D1 and use only D1 occupants and sign aspects.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.argala.blocked:
+    type: boolean
+    producer: jaimini.argala
+    origin: Require a nonempty intervening sign and strictly more occupants in its paired obstructing sign under
+      argala/pairs.yaml.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.argala.special_third:
+    type: boolean
+    producer: jaimini.argala
+    origin: Require at least three distinct members of special_malefics in the counted third under argala/pairs.yaml.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.ul.support:
+    type: boolean
+    producer: jaimini.arudha-padas
+    origin: For a relationship question compute stable A12. Take the next sign (second inclusive from UL); require
+      Jupiter or Venus there or in a D1 sign that aspects it. Record occupation and aspect separately.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.raja.fifth_from_lord:
+    type: boolean
+    producer: jaimini.raja-yogas
+    origin: Choose either the D1 ascendant ruler or seventh-sign ruler. Require Jupiter, Venus or Moon to occupy
+      the fifth sign counted from that ruler’s occupied sign.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
+  jaimini.raja.lords_aspect_anchors:
+    type: boolean
+    producer: jaimini.raja-yogas
+    origin: Use D1 Lagna and the D1 sign occupied by the ranked AK as the two anchors in this profile. The ruler
+      of each anchor must occupy a sign casting rasi drishti to its own anchor. Require both tests.
+    unknown_if: Required chart, scheme, role, reference or computed outcome is unresolved.
   kp.cusp1.links_event:
     type: boolean
     producer: kp.cusps

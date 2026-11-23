@@ -1,6 +1,60 @@
 version: 1
 approval: draft
-seven: Rank Sun through Saturn by degrees traversed in their current signs, descending. AK, AmK, BK, MK, PK, GK, DK.
-eight: Add Rahu using 30° minus its intra-sign longitude; insert paternal karaka between MK and PK. Resolve ties with full
-  precision or hold the rank.
-karakamsa: Read the sign of the ranked Atmakaraka in D9. Keep D9 reference and any projection to D1 explicitly labelled.
+seven: Rank Sun through Saturn by degrees traversed in their current signs, descending. AK, AmK, BK, MK, PK,
+  GK, DK.
+eight: Add Rahu using 30° minus its intra-sign longitude; insert paternal karaka between MK and PK. Resolve
+  ties with full precision or hold the rank.
+karakamsa: Read the sign of the ranked Atmakaraka in D9. Keep D9 reference and any projection to D1 explicitly
+  labelled.
+access: admin
+selection: Require an explicit scheme on the chart.
+schemes:
+  seven:
+  - AK
+  - AmK
+  - BK
+  - MK
+  - PK
+  - GK
+  - DK
+  eight:
+  - AK
+  - AmK
+  - BK
+  - MK
+  - PiK
+  - PK
+  - GK
+  - DK
+classical_candidates:
+- sun
+- moon
+- mars
+- mercury
+- jupiter
+- venus
+- saturn
+eight_addition: rahu
+sign_width_arcsec: 108000
+rank: Normalize sidereal longitude modulo a turn, then take the remainder modulo one sign. Sort descending
+  without rounding. Rahu alone uses sign width minus remainder, including the full width at zero. Ordinary
+  retrogression does not reverse any other graha.
+tie: All equal scores retain their slots. Set only those role values to unknown; do not promote lower-ranked
+  bodies. An incomplete candidate set gives an unknown ranking.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 11–19
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Role selection by progress within the sign and the alternative schemes.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 8
+  verse: null
+  other_locator: 8.2, Table 13
+  supports: Eight-role order, reversed progress for Rahu and the exact-tie variant.
+  verification: verified

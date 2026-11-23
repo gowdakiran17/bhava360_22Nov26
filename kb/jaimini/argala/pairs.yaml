@@ -1,0 +1,40 @@
+access: admin
+primary:
+  2: 12
+  4: 10
+  11: 3
+secondary:
+  5: 9
+counting: Count inclusively from the selected D1 reference. Reverse both offsets when Ketu occupies the reference
+  sign. Count the nine grahas once each, excluding Lagna.
+outcomes: 'No interveners: absent. More interveners than blockers: survives. More blockers than interveners:
+  obstructed. Equal nonzero counts: unresolved pending school-specific strength comparison.'
+special_third: Three or more natural malefics in the counted third form the separate special intervention of
+  I.1.6. Do not run this special through the standard pairs.
+special_malefics:
+- sun
+- mars
+- saturn
+- rahu
+- ketu
+traditions_differ: The special rule uses fixed malefics in this profile. Some classifications include a waning
+  Moon or afflicted Mercury.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 5–10
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Intervening positions, opposing places, relative strength, and Ketu reversal.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 10
+  verse: null
+  other_locator: 10.5–10.7
+  supports: Paired intervention and obstruction, trinal pair and comparison of counts.
+  verification: verified
+dual_lord_profile: jaimini/lordship/dual-lords.yaml
+reference_binding: For a question about the lord of Scorpio or Aquarius, select the stronger lord using the non-period comparison and bind its occupied sign before counting pairs. For an ordinary sign reference use that sign directly. Neither co-lord is added as a virtual occupant.

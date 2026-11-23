@@ -1,0 +1,60 @@
+id: jaimini.karakamsa.swamsa
+system: jaimini
+topic: karakamsa
+title: Swamsa · explicit Navamsa reference
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Bind the requested swamsa convention. In the sutra-commentary reading use the AK’s D9 sign; in the lagnamsa
+  reading use the D9 sign of the birth ascendant. Use the KB-11 Navamsa lookup and only D9 occupants. An unspecified
+  convention yields unknown.
+conditions:
+  all:
+  - fact: jaimini.swamsa.stable
+    op: eq
+    value: true
+meaning: You can reflect on how your commitments shape your sense of direction.
+life_areas:
+- spirituality
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: In the Sutras commentary swamsa can refer to the AK’s navamsa. This profile calls that D9 sign karakamsa
+    and labels the D9 ascendant lagnamsa when using the separate swamsa-as-ascendant convention. A D1 projection
+    uses D1 occupants at the same sign.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.2
+  verse: '1'
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: The ranked significator’s navamsa as a reference.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 7
+  verse: null
+  other_locator: 7.3.6
+  supports: Karakamsa as the occupied navamsa sign.
+  verification: verified
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rath-upadesa
+  chapter: I.2
+  verse: '1'
+  other_locator: Sanjay Rath, introductory swamsa commentary
+  supports: Alternative ascendant-navamsa reference.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You can reflect on how your commitments shape your sense of direction.
+  kn: ನಿಮ್ಮ ಬದ್ಧತೆಗಳು ನಿಮ್ಮ ಜೀವನದ ದಿಕ್ಕನ್ನು ಹೇಗೆ ರೂಪಿಸುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि आपकी प्रतिबद्धताएँ जीवन की दिशा कैसे तय करती हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

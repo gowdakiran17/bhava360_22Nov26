@@ -20,3 +20,4 @@ antar_forward:
 cycles: 1
 co_lords: Resolve using the explicit dual-lord ranking in vedic/dashas/narayana/periods.yaml. This is the KB
   operational tie profile.
+dual_lord_profile: jaimini/lordship/dual-lords.yaml

@@ -1,0 +1,42 @@
+id: jaimini.raja-yogas.lords-aspect-anchors
+system: jaimini
+topic: raja-yogas
+title: Raja yoga · lords-aspect-anchors
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Use D1 Lagna and the D1 sign occupied by the ranked AK as the two anchors in this profile. The ruler
+  of each anchor must occupy a sign casting rasi drishti to its own anchor. Require both tests.
+conditions:
+  all:
+  - fact: jaimini.raja.lords_aspect_anchors
+    op: eq
+    value: true
+meaning: You may notice responsibilities that call for both initiative and consistency.
+life_areas:
+- career
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: Read leadership as a possible theme. The profile fixes the reference chart and uses sign aspects for
+    the aspect test; commentators may use a different karaka reference.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.3
+  verse: '41'
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Leadership configuration in the selected translation. Public reading is editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You may notice responsibilities that call for both initiative and consistency.
+  kn: ಮುಂದಾಳತ್ವ ಮತ್ತು ಸ್ಥಿರತೆ ಎರಡೂ ಬೇಕಾಗುವ ಹೊಣೆಗಳನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप ऐसी ज़िम्मेदारियाँ पहचान सकते हैं जिनमें पहल और निरंतरता दोनों चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

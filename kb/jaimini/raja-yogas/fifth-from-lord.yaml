@@ -1,0 +1,42 @@
+id: jaimini.raja-yogas.fifth-from-lord
+system: jaimini
+topic: raja-yogas
+title: Raja yoga · fifth-from-lord
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Choose either the D1 ascendant ruler or seventh-sign ruler. Require Jupiter, Venus or Moon to occupy
+  the fifth sign counted from that ruler’s occupied sign.
+conditions:
+  all:
+  - fact: jaimini.raja.fifth_from_lord
+    op: eq
+    value: true
+meaning: You may find opportunities to guide a group through a shared decision.
+life_areas:
+- career
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: Read leadership as a possible theme. The profile fixes the reference chart and uses sign aspects for
+    the aspect test; commentators may use a different karaka reference.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.3
+  verse: '35'
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Leadership configuration in the selected translation. Public reading is editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You may find opportunities to guide a group through a shared decision.
+  kn: ತಂಡದ ನಿರ್ಧಾರಕ್ಕೆ ಮಾರ್ಗದರ್ಶನ ನೀಡಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: साझा निर्णय में समूह को दिशा देने का अवसर मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

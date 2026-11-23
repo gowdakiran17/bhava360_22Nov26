@@ -1,0 +1,60 @@
+id: jaimini.arudha-padas.marriage-support
+system: jaimini
+topic: arudha-padas
+title: Marriage · support from Upapada
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: For a relationship question compute stable A12. Take the next sign (second inclusive from UL); require
+  Jupiter or Venus there or in a D1 sign that aspects it. Record occupation and aspect separately.
+conditions:
+  all:
+  - fact: jaimini.ul.support
+    op: eq
+    value: true
+meaning: You can talk together about what helps your partnership feel supported.
+life_areas:
+- love-marriage
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: This conservative benefic subset keeps a qualitative relationship theme. Other readings expand the
+    benefic list or examine the ruler of the second from UL. The selected profile takes the tenth from a raw
+    projection in the first or seventh. Suryanarain Rao’s examples in I.1.30–31 retain the raw result. Use
+    Mars for Scorpio and Saturn for Aquarius here; other methods compare co-lords.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.4
+  verse: 1–4
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Twelfth-house pada and the second sign from it as partnership considerations.
+  verification: verified
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 29–31
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Repeated sign count and a different treatment of exceptional projections in this translation.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 9
+  verse: null
+  other_locator: Arudha Padas, Bhava Arudhas, calculation steps 1–6
+  supports: All twelve padas and the tenth-from-projection exception.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You can talk together about what helps your partnership feel supported.
+  kn: ನಿಮ್ಮ ಸಂಬಂಧಕ್ಕೆ ಬೆಂಬಲ ನೀಡುವ ವಿಷಯಗಳ ಬಗ್ಗೆ ಒಟ್ಟಾಗಿ ಮಾತನಾಡಬಹುದು.
+  hi: आप साथ मिलकर बात कर सकते हैं कि रिश्ते को सहारा किससे मिलता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,31 +1,46 @@
 id: jaimini.karakamsa.atmakaraka
 system: jaimini
 topic: karakamsa
-title: Atmakaraka
+title: Karakamsa · AK in D9
 doctrine_profile: jaimini-editorial-v1
 approval: draft
-rule: Resolve the D9 sign occupied by the ranked Atmakaraka.
+rule: Take the stable ranked AK and look up its longitude in vedic.vargas.d9-placement. Use its resulting D9
+  sign as the first house when examining D9 occupants and sign aspects.
 conditions:
   all:
   - fact: jaimini.d9.ak_sign_stable
     op: eq
     value: true
 meaning: A recurring interest may be worth exploring.
-life_areas: []
+life_areas:
+- spirituality
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: In the Sutras commentary swamsa can refer to the AK’s navamsa. This profile calls that D9 sign karakamsa
+    and labels the D9 ascendant lagnamsa when using the separate swamsa-as-ascendant convention. A D1 projection
+    uses D1 occupants at the same sign.
 sources:
 - book: Jaimini Sutras
   work_id: jaimini-sutras
-  edition: null
-  chapter: null
+  edition: jaimini-rao-online
+  chapter: I.2
+  verse: '1'
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: The ranked significator’s navamsa as a reference.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 7
   verse: null
-  other_locator: Karakamsa section
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: 7.3.6
+  supports: Karakamsa as the occupied navamsa sign.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
 user_text:
   en: A recurring interest may be worth exploring.
   kn: ಮರುಕಳಿಸುವ ಆಸಕ್ತಿಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.

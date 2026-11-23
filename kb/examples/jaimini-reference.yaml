@@ -1,0 +1,41 @@
+synthetic: true
+units: D1 sign index (Aries zero), followed by exact arcseconds traversed within that sign.
+cases:
+  Asha:
+    lagna: [0, 12000]
+    positions:
+      sun: [4, 86400]
+      moon: [3, 61200]
+      mars: [0, 43200]
+      mercury: [5, 28800]
+      jupiter: [8, 18000]
+      venus: [1, 7200]
+      saturn: [9, 3600]
+      rahu: [2, 0]
+      ketu: [8, 0]
+    ranked_seven: [sun, moon, mars, mercury, jupiter, venus, saturn]
+    ranked_eight: [rahu, sun, moon, mars, mercury, jupiter, venus, saturn]
+    dual_lords: [ketu, rahu]
+    lord_argala: {7: [7, 9], 10: [3, 1]}
+    padas: [9, 10, 5, 0, 1, 2, 8, 9, 5, 6, 6, 2]
+    ak_d9: {seven: 7, eight: 6}
+    lagna_d9: 1
+  Ravi:
+    lagna: [10, 1]
+    positions:
+      sun: [1, 3600]
+      moon: [11, 46800]
+      mars: [6, 21600]
+      mercury: [9, 82800]
+      jupiter: [5, 32400]
+      venus: [4, 97200]
+      saturn: [3, 64800]
+      rahu: [5, 72000]
+      ketu: [11, 72000]
+    ranked_seven: [venus, mercury, saturn, moon, jupiter, mars, sun]
+    ranked_eight: [venus, mercury, saturn, moon, rahu, jupiter, mars, sun]
+    dual_lords: [ketu, rahu]
+    lord_argala: {7: [10, 0], 10: [6, 4]}
+    padas: [0, 8, 9, 4, 4, 7, 7, 1, 2, 3, 11, 6]
+    ak_d9: {seven: 8, eight: 8}
+    lagna_d9: 6

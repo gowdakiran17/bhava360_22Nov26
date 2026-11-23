@@ -4,3 +4,51 @@ movable: Aspect every fixed sign except the adjacent one.
 fixed: Aspect every movable sign except the adjacent one.
 dual: Aspect the other three dual signs.
 propagation: Grahas in the aspecting sign participate. Keep separate from full graha drishti.
+access: admin
+sign_index: Aries = 0, Pisces = 11
+targets:
+- - 4
+  - 7
+  - 10
+- - 3
+  - 6
+  - 9
+- - 5
+  - 8
+  - 11
+- - 1
+  - 7
+  - 10
+- - 0
+  - 6
+  - 9
+- - 2
+  - 8
+  - 11
+- - 1
+  - 4
+  - 10
+- - 0
+  - 3
+  - 9
+- - 2
+  - 5
+  - 11
+- - 1
+  - 4
+  - 7
+- - 0
+  - 3
+  - 6
+- - 2
+  - 5
+  - 8
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 2–4
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Sign aspects by modality and propagation to their occupants.
+  verification: verified

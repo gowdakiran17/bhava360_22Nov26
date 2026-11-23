@@ -1,10 +1,11 @@
 id: jaimini.arudha-padas.arudha-lagna
 system: jaimini
 topic: arudha-padas
-title: Arudha Lagna
+title: A1 · arudha-lagna
 doctrine_profile: jaimini-editorial-v1
 approval: draft
-rule: The Arudha Lagna sign has been derived with the selected exception profile and remains stable.
+rule: Bind the requested D1 house 1 and compute A1 with arudha-padas/methods.yaml. Read its visible expression
+  only if its final sign is stable.
 conditions:
   all:
   - fact: jaimini.al.stable
@@ -13,20 +14,32 @@ conditions:
 meaning: You may reflect on the impression your work leaves with others.
 life_areas:
 - career
+- family-home
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: The selected profile takes the tenth from a raw projection in the first or seventh. Suryanarain Rao’s
+    examples in I.1.30–31 retain the raw result. Select the stronger co-lord for Scorpio and Aquarius under jaimini/lordship/dual-lords.yaml.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 29–31
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Repeated sign count and a different treatment of exceptional projections in this translation.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 9
   verse: null
-  other_locator: jaimini.arudha-padas.arudha-lagna
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Arudha Padas, Bhava Arudhas, calculation steps 1–6
+  supports: All twelve padas and the tenth-from-projection exception.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
 user_text:
   en: You may reflect on the impression your work leaves with others.
   kn: ನಿಮ್ಮ ಕೆಲಸ ಇತರರಲ್ಲಿ ಮೂಡಿಸುವ ಅನಿಸಿಕೆ ಕುರಿತು ಯೋಚಿಸಬಹುದು.

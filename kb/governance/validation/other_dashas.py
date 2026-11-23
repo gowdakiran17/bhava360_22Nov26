@@ -92,7 +92,7 @@ class SignChart:
     def support(self, sign, lord):
         return sum(drishti(self.pos[g],sign) for g in ('jupiter','mercury',lord))
 
-    def owner(self, sign):
+    def owner(self, sign, *, for_period=True):
         usual = LORDS[sign]
         if sign not in (7,10):
             return usual
@@ -104,8 +104,12 @@ class SignChart:
             return usual
         def rank(g):
             s = self.pos[g]
+            progress = self.degree[g]
+            if g in ('rahu','ketu'):
+                progress = 30-progress
+            final = self.years(sign,g) if for_period else progress
             return (list(self.pos.values()).count(s),self.support(s,LORDS[s]),s==EXALT.get(g),
-                    s%3,self.years(sign,g))
+                    s%3,final)
         if rank(usual)==rank(other):
             raise ValueError('co-lord evidence tied')
         return max((usual,other),key=rank)

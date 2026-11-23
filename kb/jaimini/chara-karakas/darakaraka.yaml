@@ -4,28 +4,42 @@ topic: chara-karakas
 title: Darakaraka
 doctrine_profile: jaimini-editorial-v1
 approval: draft
-rule: Under the stated scheme, identify the last-ranked graha as Darakaraka.
+rule: 'Select the bound graha only if it holds DK: rank 7 of seven or rank 8 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
 conditions:
   all:
   - fact: jaimini.dk.confirmed
     op: eq
     value: true
 meaning: You may reflect on the qualities you value in a partner.
-life_areas: []
+life_areas:
+- love-marriage
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: Choose seven or eight explicitly. The eight-role scheme admits reverse-counted Rahu and inserts the
+    paternal role after MK. Some readings share a role at an exact tie. Bhava360 withholds only the tied positions
+    and downstream readings that depend on them.
 sources:
 - book: Jaimini Sutras
   work_id: jaimini-sutras
-  edition: null
-  chapter: null
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 11–19
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Role selection by progress within the sign and the alternative schemes.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 8
   verse: null
-  other_locator: Chara karakas
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: 8.2, Table 13
+  supports: Eight-role order, reversed progress for Rahu and the exact-tie variant.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
 user_text:
   en: You may reflect on the qualities you value in a partner.
   kn: ಸಂಗಾತಿಯಲ್ಲಿ ನಿಮಗೆ ಮುಖ್ಯವಾಗುವ ಗುಣಗಳ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.

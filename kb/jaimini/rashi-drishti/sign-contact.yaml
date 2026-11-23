@@ -1,35 +1,41 @@
 id: jaimini.rashi-drishti.sign-contact
 system: jaimini
 topic: rashi-drishti
-title: Sign Contact
+title: Mutual sign aspect
 doctrine_profile: jaimini-editorial-v1
 approval: draft
-rule: Source and target signs form a rashi drishti under their modality rules.
+rule: From the selected D1 sign, use rashi-drishti/signs.yaml to test the target. Occupants inherit the sign
+  contact; same-sign occupation is a separate relation.
 conditions:
   all:
   - fact: jaimini.sign_aspect
     op: eq
     value: true
-meaning: You can explore how the two sign themes connect.
-life_areas: []
+meaning: You can explore how two areas of your life influence each other.
+life_areas:
+- family-home
+- career
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: Whole signs carry the aspect irrespective of the occupant or its degrees. Parashari graha aspects use
+    a separate calculation.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
-  verse: null
-  other_locator: jaimini.rashi-drishti.sign-contact
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 2–4
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Sign aspects by modality and propagation to their occupants.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
 user_text:
-  en: You can explore how the two sign themes connect.
-  kn: ಎರಡು ರಾಶಿಗಳ ವಿಷಯಗಳು ಹೇಗೆ ಸಂಪರ್ಕಿಸುತ್ತವೆ ಎಂದು ನೋಡಬಹುದು.
-  hi: दोनों राशियों के विषयों का संबंध देख सकते हैं।
+  en: You can explore how two areas of your life influence each other.
+  kn: ಜೀವನದ ಎರಡು ಕ್ಷೇತ್ರಗಳು ಪರಸ್ಪರ ಹೇಗೆ ಪ್ರಭಾವ ಬೀರುತ್ತವೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: आप देख सकते हैं कि जीवन के दो पहलू एक-दूसरे को कैसे प्रभावित करते हैं।
 native_review:
   kn: pending
   hi: pending

@@ -152,3 +152,7 @@ kp_entries:
   public_fields: [user_text, remedy.user_text]
   technical_fields_access: [admin]
   projection: Only render the localized reflection after evaluation. Keep titles, cusp degrees, numbered intervals, house groups, ruling roles and significator chains in administrative evidence.
+jaimini_entries:
+  public_fields: [user_text, remedy.user_text]
+  technical_fields_access: [admin]
+  projection: Render only the reviewed locale copy. Scheme, rank, karaka identity, chart frame, pada steps, aspect pairs, intervention counts, titles and source evidence are administrative.

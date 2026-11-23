@@ -1,0 +1,50 @@
+id: jaimini.arudha-padas.a2
+system: jaimini
+topic: arudha-padas
+title: A2 · a2
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: Bind the requested D1 house 2 and compute A2 with arudha-padas/methods.yaml. Read its visible expression
+  only if its final sign is stable.
+conditions:
+  all:
+  - fact: jaimini.a2.stable
+    op: eq
+    value: true
+meaning: You can consider what your spending habits communicate.
+life_areas:
+- money
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: The selected profile takes the tenth from a raw projection in the first or seventh. Suryanarain Rao’s
+    examples in I.1.30–31 retain the raw result. Select the stronger co-lord for Scorpio and Aquarius under jaimini/lordship/dual-lords.yaml.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 29–31
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Repeated sign count and a different treatment of exceptional projections in this translation.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 9
+  verse: null
+  other_locator: Arudha Padas, Bhava Arudhas, calculation steps 1–6
+  supports: All twelve padas and the tenth-from-projection exception.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You can consider what your spending habits communicate.
+  kn: ನಿಮ್ಮ ಖರ್ಚಿನ ಅಭ್ಯಾಸಗಳು ಏನನ್ನು ಸೂಚಿಸುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप विचार कर सकते हैं कि खर्च की आपकी आदतों से कैसी छाप बनती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,9 +1,77 @@
-version: 1
+version: 2
 approval: draft
-projection: Count from the house sign to its lord inclusively; project the same distance forward from that lord. If projected
-  pada falls in the source sign use its tenth; if in its seventh use the tenth from the projected sign under this variant.
+projection: Count from the house sign to its lord inclusively; project the same distance forward from that
+  lord. If projected pada falls in the source sign use its tenth; if in its seventh use the tenth from the
+  projected sign under this variant.
 labels:
-  AL: 1
+  A1: 1
+  A2: 2
+  A3: 3
+  A4: 4
+  A5: 5
+  A6: 6
   A7: 7
+  A8: 8
+  A9: 9
+  A10: 10
+  A11: 11
+  A12: 12
+  AL: 1
   UL: 12
 uncertainty: Recalculate affected padas when Lagna or lord sign varies.
+access: admin
+chart: Sidereal natal whole signs, Aries index 0 through Pisces index 11.
+rulers:
+- mars
+- venus
+- mercury
+- moon
+- sun
+- mercury
+- venus
+- mars
+- jupiter
+- saturn
+- saturn
+- jupiter
+calculation:
+  source: (lagna + house - 1) mod 12
+  lord_sign: D1 sign occupied by the selected ruler; resolve Scorpio and Aquarius before projection
+  distance: 1 + ((lord_sign - source) mod 12)
+  raw: (lord_sign + distance - 1) mod 12
+  exception_when_raw_distance:
+  - 1
+  - 7
+  advance_from_raw: 9
+  final: If the inclusive distance from source to raw is 1 or 7, use (raw + 9) mod 12. Otherwise use raw.
+examples:
+- source: aries
+  lord: mars
+  lord_sign: aries
+  raw: aries
+  final: capricorn
+- source: aries
+  lord: mars
+  lord_sign: cancer
+  raw: libra
+  final: cancer
+traditions_differ: The selected profile takes the tenth from a raw projection in the first or seventh. Suryanarain
+  Rao’s examples in I.1.30–31 retain the raw result. Select the stronger co-lord for Scorpio and Aquarius under jaimini/lordship/dual-lords.yaml.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 29–31
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Repeated sign count and a different treatment of exceptional projections in this translation.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 9
+  verse: null
+  other_locator: Arudha Padas, Bhava Arudhas, calculation steps 1–6
+  supports: All twelve padas and the tenth-from-projection exception.
+  verification: verified
+dual_lord_profile: jaimini/lordship/dual-lords.yaml

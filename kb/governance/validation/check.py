@@ -487,6 +487,8 @@ def main():
             require(len(matched)==1,(card,orientation))
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
+    from jaimini import validate_jaimini
+    validate_jaimini(rules,read,evaluate,require)
     from kp import validate_kp
     validate_kp(rules,read,evaluate,require)
     from gochara import validate_gochara

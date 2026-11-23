@@ -1,0 +1,14 @@
+profile: bhava360-jaimini-dual-v1
+access: admin
+pairs: {scorpio: [mars, ketu], aquarius: [saturn, rahu]}
+steps:
+  - If exactly one candidate is in the owned sign, select the other. If both occupy it, use the classical ruler for this profile.
+  - Prefer more other grahas occupying the candidate's sign. Use the nine classical grahas and exclude the candidate itself.
+  - Prefer more connections from Jupiter, Mercury and the classical dispositor of the occupied sign. Test occupation or Jaimini sign aspect. Count roles separately even when Mercury or Jupiter also disposits. Classical dispositors prevent recursion.
+  - Prefer an exalted candidate under the selected dignity profile. Mars exalts in Capricorn and Saturn in Libra. Nodal exaltations are unassigned in this profile.
+  - Prefer the candidate occupying a dual sign, then fixed, then movable.
+  - For Chara dasha compare the two candidate durations using the selected direction and dignity adjustments. For arudhas or a lord-based argala reference compare unrounded progress within the sign, measured from the sign's end for either node.
+tie: Withhold a dependent selection if all applicable comparisons tie or required data are missing.
+traditions_differ: Some schools always use Mars and Saturn. Nodal exaltations and the final tie-break vary. The longer-period test belongs to the period calculation only.
+sources:
+  - {book: 'Vedic Astrology: An Integrated Approach', work_id: rao-integrated, edition: rao-integrated-online, chapter: 15, verse: null, other_locator: 'Strength of planets and rasis, printed pages 202–203', supports: 'Co-lord precedence, aspect sources and distinct period and arudha tie-breaks.', verification: verified}

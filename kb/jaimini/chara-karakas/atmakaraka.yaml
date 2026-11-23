@@ -1,0 +1,51 @@
+id: jaimini.chara-karakas.atmakaraka
+system: jaimini
+topic: chara-karakas
+title: Atmakaraka
+doctrine_profile: jaimini-editorial-v1
+approval: draft
+rule: 'Select the bound graha only if it holds AK: rank 1 of seven or rank 1 of eight under chara-karakas/methods.yaml.
+  Require a unique rank across the chart uncertainty interval.'
+conditions:
+  all:
+  - fact: jaimini.ak.confirmed
+    op: eq
+    value: true
+meaning: You may notice which values you return to when making a difficult choice.
+life_areas:
+- spirituality
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: jaimini-editorial-v1
+  note: Choose seven or eight explicitly. The eight-role scheme admits reverse-counted Rahu and inserts the
+    paternal role after MK. Some readings share a role at an exact tie. Bhava360 withholds only the tied positions
+    and downstream readings that depend on them.
+sources:
+- book: Jaimini Sutras
+  work_id: jaimini-sutras
+  edition: jaimini-rao-online
+  chapter: I.1
+  verse: 11–19
+  other_locator: B. Suryanarain Rao translation and notes
+  supports: Role selection by progress within the sign and the alternative schemes.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 8
+  verse: null
+  other_locator: 8.2, Table 13
+  supports: Eight-role order, reversed progress for Rahu and the exact-tie variant.
+  verification: verified
+confidence: medium
+review_notes: Draft; native Kannada and Hindi review pending. Technical evidence is administrative.
+user_text:
+  en: You may notice which values you return to when making a difficult choice.
+  kn: ಕಷ್ಟದ ಆಯ್ಕೆ ಮಾಡುವಾಗ ಯಾವ ಮೌಲ್ಯಗಳಿಗೆ ಮರಳುತ್ತೀರಿ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: कठिन चुनाव करते समय आप देख सकते हैं कि कौन से मूल्य आपका मार्गदर्शन करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -51,6 +51,20 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  jaimini-rath-upadesa:
+    work_id: jaimini-sutras
+    edition_id: jaimini-rath-upadesa
+    title_as_printed: Jaimini Maharishi’s Upadesa Sutras
+    language: English
+    publication_details: Sanjay Rath, commentary on swamsa in the opening of I.2.
+    text: https://storage.yandexcloud.net/j108/library/znt9qlo0/Maharishi_Jaimini_-_Jaimini_Maharishi%27s_Upadesa_Sutras.pdf
+  jaimini-rao-online:
+    work_id: jaimini-sutras
+    edition_id: jaimini-rao-online
+    title_as_printed: Jaimini Sutras
+    language: English
+    publication_details: B. Suryanarain Rao translation and notes, part 1; numbering follows this transcription.
+    text: https://devotionalindia.com/wp-content/uploads/2024/11/Jaimini-Sutras.pdf
   kp-dutta-online:
     work_id: kp-dutta
     edition_id: kp-dutta-online
