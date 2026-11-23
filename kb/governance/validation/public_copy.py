@@ -12,19 +12,22 @@ ORDINAL = r'first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|ele
 NUMBER = r'\d+(?:st|nd|rd|th)?|one|two|three|four|five|six|seven|eight|nine|ten|eleven|twelve|' + ORDINAL
 HOUSE = r'houses?|bhavas?'
 POLICIES = {
-    'sensitive term': r'\b(?:m[aā]raka|death|shrapit|guru[- ]?chand[aā]l|chand[aā]l[ae]?|pitru[- ]?dosha|grahan)\b'
-                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|श्रापित|पितृदोष|ಮಾರಕ|ಮೃತ್ಯು|ಚಾಂಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
+    'sensitive term': r'\b(?:m[aā]raka|deaths?|shrapit|guru[- ]?chand[aā]l|chand[aā]l[ae]?|pitru[- ]?dosha|grahan)\b'
+                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|श्रापित|पितृदोष|मौत|मरण|ಮಾರಕ|ಮೃತ್ಯು|ಮರಣ|ಸಾವು|ಚಾಂಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
     'fear or judgment': r'\b(?:weak(?:ly|er|est|ness)?|curs(?:e[ds]?|ing)|doom(?:ed)?|danger(?:ous)?|bad[- ]luck)\b'
-                        r'|कमज़ोर|कमजोर|अभिशाप|दुर्भाग्य|खतरा|ದುರ್ಬಲ|ದುರದೃಷ್ಟ|ಶಾಪಗ್ರಸ್ತ|ಅಪಾಯ'
-                        r'|\b(?:maldici[oó]n|d[eé]bil|peligro|mala suerte|malédiction|faible|malchance)\b'
-                        r'|சாபம்|ஆபத்து|శాపం|ప్రమాదం|ശാപം|അപകടം',
-    'numbered house': rf'\b(?:{HOUSE})\s*[-:#]?\s*(?:{NUMBER})\b|\b(?:{NUMBER})\s*[- ](?:{HOUSE})\b'
+                        r'|कमज़ोर|कमजोर|अभिशाप|दुर्भाग्य|खतर|बदकिस्मती|श्राप|शापित|ದುರ್ಬಲ|ದುರದೃಷ್ಟ|ಶಾಪ|ಕೆಟ್ಟ ಅದೃಷ್ಟ|ಅಪಾಯ'
+                        r'|\b(?:maldici[oó]n|d[eé]bil|peligro|mala suerte|malédiction|maudit[e]?|mort|muerte|faible|malchance|fatalidad|perdición|perdition)\b'
+                        r'|சாபம்|ஆபத்து|மரணம்|பலவீன|துரதிர்ஷ்ட|శాపం|ప్రమాదం|మరణం|బలహీన|దురదృష్ట|ശാപം|അപകടം|മരണം|ദുർബല|ദൗർഭാഗ്യ',
+    'numbered house': rf'\b(?:{HOUSE})\s*[-:#]?\s*(?:{NUMBER})\b|\b(?:\d+(?:st|nd|rd|th)|{ORDINAL})\s*[- ](?:{HOUSE})\b'
                       r'|(?:भाव|भव|ಭಾವ|భావం|பாவம்|ഭാവം|casa|maison)\s*[-:#]?\s*\d+'
-                      r'|\d+\s*(?:ನೇ|ನೆಯ|वें|वाँ|वां|वां|वा|वाँ|वें|ஆம்|వ|ാം)?\s*(?:ಭಾವ|भाव|பாவம்|భావం|ഭാവം)'
+                      r'|\d+\s*(?:ನೇ|ನೆಯ|वें|वाँ|वां|वा|ஆம்|వ|ാം)?\s*(?:ಭಾವ|भाव|பாவம்|భావం|ഭാവം)'
                       r'|(?:ಮೊದಲ|ಎರಡನೇ|ಮೂರನೇ|ನಾಲ್ಕನೇ|ಐದನೇ|ಆರನೇ|ಏಳನೇ|ಎಂಟನೇ|ಒಂಬತ್ತನೇ|ಹತ್ತನೇ|ಹನ್ನೊಂದನೇ|ಹನ್ನೆರಡನೇ)\s*ಭಾವ'
-                      r'|(?:पहल[ाे]|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ाेें]+|छठ[ाे]|सातव[ाेें]+|आठव[ाेें]+|नौव[ाेें]+|दसव[ाेें]+|ग्यारहव[ाेें]+|बारहव[ाेें]+)\s*भाव',
+                      r'|(?:पहल[ाे]|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ाेें]+|छठ[ाे]|सातव[ाेें]+|आठव[ाेें]+|नौव[ाेें]+|दसव[ाेें]+|ग्यारहव[ाेें]+|बारहव[ाेें]+)\s*भाव'
+                      r'|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth)(?:,\s*|\s+(?:and|or)\s+)(?:\w+[, ]+){0,6}(?:houses?|places?)\b',
     'public score': r'[%٪]|\d+(?:\.\d+)?\s*(?:out of|of|/|sur|de)\s*36\b|३६\s*में से|36\s*में से'
                     r'|\b(?:point[- ]total|total points|bindu count)s?\b|\d+\s*(?:traditional\s+)?(?:points?|bindus?|percent|अंक|बिंदु|ಅಂಕ|ಬಿಂದು)'
+                    r'|\d+\s*(?:por ciento|pour cent|प्रतिशत|ಶೇಕಡಾ|प्रतिशत|ಶತಾಂಶ|புள்ளிகள்|పాయింట్లు|പോയിന്റ്|puntos?|pontos?)'
+                    r'|(?:36|३६|೩೬)\s*(?:ರಲ್ಲಿ|में से)|\d+\s*(?:गुण|ಗುಣ)\s*(?:मिले|अंक|ಅಂಕ)'
                     r'|(?:score|points?|bindus?|अंक|ಅಂಕ)\s*[:=]\s*\d+',
 }
 PATTERNS = {name: re.compile(pattern, re.I) for name, pattern in POLICIES.items()}

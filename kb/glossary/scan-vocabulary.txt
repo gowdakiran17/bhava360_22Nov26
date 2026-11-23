@@ -1432,6 +1432,7 @@ celebrations
 cell
 cells
 celtic
+cent
 center
 central
 centre
@@ -1522,6 +1523,7 @@ chronological
 chronology
 chu
 chun
+ciento
 cintamani
 circle
 circular
@@ -2664,6 +2666,7 @@ fascination
 fast
 fasting
 fatal
+fatalidad
 fate
 father
 favourable
@@ -3846,6 +3849,7 @@ matrixes
 matter
 matters
 maturity
+maudit
 max
 maximal
 maximum
@@ -3966,6 +3970,7 @@ moonrise
 moons
 more
 morning
+mort
 moseph
 most
 motion
@@ -3987,6 +3992,7 @@ mrityu
 mt
 mu
 much
+muerte
 muhurat
 muhurta
 muhurtas
@@ -4439,6 +4445,8 @@ perceived
 percent
 percentage
 percentages
+perdicion
+perdition
 perfection
 period
 periods
@@ -4534,10 +4542,12 @@ points
 polar
 policies
 policy
+pontos
 pooja
 poojas
 pop
 populated
+por
 portion
 portions
 porutham
@@ -4552,6 +4562,7 @@ possibilities
 possibility
 possible
 post
+pour
 power
 practical
 practice
@@ -4700,6 +4711,7 @@ puja
 pujas
 pulled
 punarvasu
+puntos
 purchas
 purchase
 purchases
@@ -6895,6 +6907,7 @@ zones
 क्षेत्रीय
 ख
 खड़ी
+खतर
 खतरा
 खरी
 खरीद
@@ -7449,6 +7462,7 @@ zones
 बताते
 बताने
 बदकिस्मत
+बदकिस्मती
 बदल
 बदलकर
 बदलता
@@ -7572,6 +7586,7 @@ zones
 मन
 मनन
 मना
+मरण
 मसले
 महत्त्व
 महत्व
@@ -7811,6 +7826,7 @@ zones
 शहरों
 शांत
 शाप
+शापित
 शाम
 शामिल
 शारीरिक
@@ -8624,6 +8640,7 @@ zones
 ಕುಳಿತುಕೊಳ್ಳುವ
 ಕೂಟವನ್ನು
 ಕೃಷ್ಣಪಕ್ಷ
+ಕೆಟ್ಟ
 ಕೆಡವ
 ಕೆಲವು
 ಕೆಲಸ
@@ -8731,6 +8748,7 @@ zones
 ಗಮನವಿರಲಿ
 ಗಮನಿಕೆಯನ್ನು
 ಗಮನಿಸದ
+ಗಮನಿಸದೆ
 ಗಮನಿಸಬಹುದು
 ಗಮನಿಸಲು
 ಗಮನಿಸಿ
@@ -8741,6 +8759,7 @@ zones
 ಗಳಿಸಿದ
 ಗುಂಪಿನ
 ಗುಂಪು
+ಗುಣ
 ಗುಣಗಳ
 ಗುಣವನ್ನು
 ಗುರಿ
@@ -9713,6 +9732,7 @@ zones
 ರ
 ರಚಿಸುವ
 ರತ್ನ
+ರಲ್ಲಿ
 ರಾವ್
 ರಾಶಿ
 ರಾಶಿಗಳನ್ನು
@@ -9894,6 +9914,7 @@ zones
 ಶಕ್ತಿ
 ಶಕ್ತಿಗೆ
 ಶಕ್ತಿಯನ್ನು
+ಶತಾಂಶ
 ಶನಿ
 ಶನಿವಾರ
 ಶನೈಶ್ಚರಾಯ
