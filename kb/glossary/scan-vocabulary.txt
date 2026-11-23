@@ -2595,6 +2595,8 @@ explicitly
 explore
 exploring
 export
+expose
+exposes
 express
 expressed
 expresses
@@ -3254,6 +3256,7 @@ inspect
 inspected
 inspection
 inspiration
+install
 installations
 instant
 instantaneous
@@ -3446,7 +3449,6 @@ kartika
 kashinatha
 kashta
 kaulava
-kavya
 kb
 kb10
 kb16
@@ -4167,6 +4169,7 @@ notification
 notifications
 noting
 nourishment
+nov
 now
 nu
 nukta
@@ -4300,6 +4303,7 @@ others
 otherwise
 otp
 ous
+ously
 out
 outcome
 outcomes
@@ -4527,6 +4531,7 @@ planned
 planning
 plans
 plant
+planted
 play
 playful
 please
@@ -5131,6 +5136,7 @@ revisit
 revisiting
 reward
 rewarding
+rewrites
 rf
 rglob
 rh
@@ -5282,6 +5288,7 @@ scalar
 scale
 scaled
 scan
+scanner
 scans
 scattered
 scenario
@@ -5296,6 +5303,7 @@ schwa
 science
 scientific
 scope
+scoped
 scopes
 score
 scored
@@ -5390,6 +5398,7 @@ settings
 settle
 settled
 settling
+setup
 seven
 seventh
 several
@@ -6257,6 +6266,7 @@ use
 used
 useful
 user
+users
 uses
 using
 usual
@@ -6433,6 +6443,7 @@ ways
 weak
 weaker
 weakest
+weakly
 wealth
 web
 webresh
@@ -6972,10 +6983,12 @@ zones
 घेरानुमा
 ङ
 च
+चंडाल
 चंद्र
 चंद्रमा
 चकाचौंध
 चक्र
+चण्डाल
 चने
 चन्द्राय
 चबूतरा
@@ -7079,6 +7092,7 @@ zones
 जिनमें
 जिनसे
 जिन्हें
+जिम्मेदारी
 जिस
 जिसका
 जिसके
@@ -7366,6 +7380,7 @@ zones
 पहलू
 पहले
 पहुँच
+पहुँचा
 पहुँचाने
 पाँचव
 पाएँगे
@@ -7490,6 +7505,7 @@ zones
 बनाया
 बनी
 बर्तनों
+बल
 बहन
 बहनों
 बहलाने
@@ -7599,6 +7615,7 @@ zones
 माँगें
 माँगों
 मान
+माना
 मामले
 मामलों
 मायने
@@ -7822,6 +7839,7 @@ zones
 शब्द
 शब्दों
 शर्तें
+शर्तों
 शहर
 शहरों
 शांत
@@ -8156,6 +8174,7 @@ zones
 ಅನಿಸಿಕೆ
 ಅನಿಸಿಕೆಯ
 ಅನಿಸಿಕೆಯನ್ನು
+ಅನಿಸಿದರೆ
 ಅನಿಸುತ್ತದೆ
 ಅನುಕೂಲಕ್ಕೆ
 ಅನುಕೂಲವಾಗಬಹುದು
@@ -8827,6 +8846,7 @@ zones
 ಚಲನೆಯಿಂದ
 ಚಾಂಡಾಲ
 ಚಾಂದ್ರ
+ಚಾಣ್ಡಾಲ
 ಚಾಪದೊಳಗಿನ
 ಚಾಲನೆ
 ಚಿಂತನೆ

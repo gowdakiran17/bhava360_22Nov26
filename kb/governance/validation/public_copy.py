@@ -13,8 +13,8 @@ NUMBER = r'\d+(?:st|nd|rd|th)?|one|two|three|four|five|six|seven|eight|nine|ten|
 HOUSE = r'houses?|bhavas?'
 POLICIES = {
     'sensitive term': r'\b(?:m[aā]raka|deaths?|shrapit|guru[- ]?chand[aā]l|chand[aā]l[ae]?|pitru[- ]?dosha|grahan)\b'
-                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|श्रापित|पितृदोष|मौत|मरण|ಮಾರಕ|ಮೃತ್ಯು|ಮರಣ|ಸಾವು|ಚಾಂಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
-    'fear or judgment': r'\b(?:weak(?:ly|er|est|ness)?|curs(?:e[ds]?|ing)|doom(?:ed)?|danger(?:ous)?|bad[- ]luck)\b'
+                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|चंडाल|चण्डाल|श्रापित|पितृदोष|मौत|मरण|ಮಾರಕ|ಮೃತ್ಯು|ಮರಣ|ಸಾವು|ಚಾಂಡಾಲ|ಚಾಣ್ಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
+    'fear or judgment': r'\b(?:weak(?:ly|er|est|ness)?|curs(?:e[ds]?|ing)|doom(?:ed|s)?|danger(?:s|ous|ously)?|bad[- ]luck)\b'
                         r'|कमज़ोर|कमजोर|अभिशाप|दुर्भाग्य|खतर|बदकिस्मती|श्राप|शापित|ದುರ್ಬಲ|ದುರದೃಷ್ಟ|ಶಾಪ|ಕೆಟ್ಟ ಅದೃಷ್ಟ|ಅಪಾಯ'
                         r'|\b(?:maldici[oó]n|d[eé]bil|peligro|mala suerte|malédiction|maudit[e]?|mort|muerte|faible|malchance|fatalidad|perdición|perdition)\b'
                         r'|சாபம்|ஆபத்து|மரணம்|பலவீன|துரதிர்ஷ்ட|శాపం|ప్రమాదం|మరణం|బలహీన|దురదృష్ట|ശാപം|അപകടം|മരണം|ദുർബല|ദൗർഭാഗ്യ',
@@ -25,8 +25,8 @@ POLICIES = {
                       r'|(?:पहल[ाे]|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ाेें]+|छठ[ाे]|सातव[ाेें]+|आठव[ाेें]+|नौव[ाेें]+|दसव[ाेें]+|ग्यारहव[ाेें]+|बारहव[ाेें]+)\s*भाव'
                       r'|\b(?:first|second|third|fourth|fifth|sixth|seventh|eighth|ninth|tenth|eleventh|twelfth)(?:,\s*|\s+(?:and|or)\s+)(?:\w+[, ]+){0,6}(?:houses?|places?)\b',
     'public score': r'[%٪]|\d+(?:\.\d+)?\s*(?:out of|of|/|sur|de)\s*36\b|३६\s*में से|36\s*में से'
-                    r'|\b(?:point[- ]total|total points|bindu count)s?\b|\d+\s*(?:traditional\s+)?(?:points?|bindus?|percent|अंक|बिंदु|ಅಂಕ|ಬಿಂದು)'
-                    r'|\d+\s*(?:por ciento|pour cent|प्रतिशत|ಶೇಕಡಾ|प्रतिशत|ಶತಾಂಶ|புள்ளிகள்|పాయింట్లు|പോയിന്റ്|puntos?|pontos?)'
+                    r'|\b(?:point[- ]total|total points|bindu count)s?\b|\d+\s*(?:traditional\s+)?(?:points?|bindus?|per\s*cent|percent|अंक|बिंदु|ಅಂಕ|ಬಿಂದು)'
+                    r'|\d+\s*(?:por ciento|pour cent|प्रतिशत|ಶೇಕಡಾ|ಶತಾಂಶ|புள்ளிகள்|పాయింట్లు|പോയിന്റ്|puntos?|pontos?)'
                     r'|(?:36|३६|೩೬)\s*(?:ರಲ್ಲಿ|में से)|\d+\s*(?:गुण|ಗುಣ)\s*(?:मिले|अंक|ಅಂಕ)'
                     r'|(?:score|points?|bindus?|अंक|ಅಂಕ)\s*[:=]\s*\d+',
 }
@@ -39,6 +39,7 @@ def check_text(text, field, locale):
     if field in (TAROT_FIELD, TAROT_MESSAGE) and locale in EN_FALLBACK and text == 'Transformation (Death card)':
         return
     normalized = unicodedata.normalize('NFKC', text)
+    normalized = ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in normalized)
     for name, pattern in PATTERNS.items():
         match = pattern.search(normalized)
         if match:

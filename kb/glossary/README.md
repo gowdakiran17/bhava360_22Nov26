@@ -15,3 +15,7 @@ For lookup, normalize the search text using the validator's `normalized` functio
 `used_by` lists unique existing KB document IDs where a label occurs, plus explicit conceptual links in `reference_rules`. An optional system scope limits ambiguous names. A document mention can be in a technical note or source citation. For a method described in an ID-less table, `used_in_files` points directly to that table.
 
 Run `python kb/governance/validation/check.py` from the repository root to validate the terminology alongside the reading rules. Glossary records are counted separately from rules that fire on a reading.
+
+## Public glossary copy
+
+An entry marked `visibility: admin-only` is available for staff lookup. The public exporter skips it before creating any message or lookup key. For other entries, `public_label` can supply a localized display name while `term`, Sanskrit forms, and aliases remain available for staff lookup. The required-locale indexes mirror the public labels. The five planned locales can use English fallback. Editorial rewrites carry draft approval and pending Kannada and Hindi review.
