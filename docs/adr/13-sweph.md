@@ -1,5 +1,9 @@
-# Reserve Swiss Ephemeris for Vedic and Western calculations
+# Use Swiss Ephemeris behind a replaceable ephemeris port
 
-Accepted for groundwork.
+Accepted 23 November 2026 (IST), superseding the groundwork deferral.
 
-Both engines will need a reproducible ephemeris and convention metadata. Defer the runtime library and binaries until the owner resolves Swiss Ephemeris licensing. The Python development binding from issue 00 remains available for future golden tests.
+The Vedic engine takes an EphemerisPort from core. Later engines can share the port or use a different implementation. A separate Node adapter package owns the Swiss dependency, loads the WASM asset from the installed npm package, and configures its own instance. This keeps vendor imports out of engine packages and avoids native addon install scripts. Development uses built-in Moshier. The intended production preference is SEFLG_SWIEPH with licensed Swiss compressed files provisioned locally. Enabling that backend will require a separate change and validation of the actual flags. The development setup has no remote ephemeris downloader.
+
+Swiss Ephemeris uses Astrodienst's AGPL / commercial dual licence. The project decision is development-only use until a Professional Edition licence is purchased. Kiran must approve the purchase before public launch as a web service or distributed app. Keep vendor copyright and licence notices. Use the authors' or Astrodienst's names in promotion only as allowed by the licence; the “Swiss Ephemeris Inside” designation is permitted. The npm binding declares AGPL-3.0 separately, so verify rights to the binding as well as the underlying library when selecting a distribution artifact. [Swiss Ephemeris licensing](https://www.astro.com/swisseph/swephinfo_e.htm)
+
+The owner-supplied price-list reference on 23 November 2026 (IST) lists **700.00 CHF** for the Professional Edition unlimited licence. The September 2026 contract, updated 9 November 2026, describes unlimited projects of the licensee over a six-year term. At expiry the licence must be renewed or use in web services and distributed software must stop. Re-check the official price and terms before any purchase. This development decision authorizes neither a purchase nor a public build. [Price list](https://www.astro.com/swisseph/swephprice_e.htm) · [Contract](https://www.astro.com/swisseph/secont_e_2609.pdf)

@@ -1,0 +1,8 @@
+{
+  "name": "@bhava360/ephemeris-swiss",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {"@bhava360/core": "workspace:*", "@fusionstrings/swisseph-wasi": "0.1.0"}
+}
