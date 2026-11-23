@@ -106,6 +106,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may find it easier to address one manageable task at a time.
     kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.

@@ -1,0 +1,37 @@
+area: property-vehicles
+title: Home & property
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-4
+  - vedic.houses.house-11
+  karakas:
+  - vedic.planets.mars
+  - vedic.planets.venus
+  vargas:
+  - vedic.vargas.d4-placement
+  dashas:
+  - vedic.dashas-vimshottari.property-vehicles-house-lord
+  - vedic.dashas-vimshottari.property-vehicles-upcoming
+  transits:
+  - vedic.transits.property-vehicles-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find a space that meets a priority on your household list.
+      kn: ಮನೆಗೆ ಸಂಬಂಧಿಸಿದ ನಿಮ್ಮ ಆದ್ಯತೆಗೆ ಹೊಂದುವ ಸ್ಥಳ ಸಿಗಬಹುದು.
+      hi: आपको ऐसी जगह मिल सकती है जो घर से जुड़ी आपकी किसी प्राथमिकता पर खरी उतरे।
+  Steady:
+    user_text:
+      en: You can compare how each property fits your everyday needs.
+      kn: ಪ್ರತಿಯೊಂದು ಆಸ್ತಿಯೂ ನಿಮ್ಮ ದಿನನಿತ್ಯದ ಅಗತ್ಯಗಳಿಗೆ ಹೇಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ ಎಂದು ಹೋಲಿಸಬಹುದು.
+      hi: आप तुलना कर सकते हैं कि कौन सी जगह आपकी रोज़ की ज़रूरतों के अनुकूल है।
+  Take care:
+    user_text:
+      en: You can check documents and running costs before making a commitment.
+      kn: ಒಪ್ಪಿಕೊಳ್ಳುವ ಮೊದಲು ದಾಖಲೆಗಳು ಮತ್ತು ನಿರ್ವಹಣಾ ವೆಚ್ಚವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+      hi: सहमति देने से पहले आप कागज़ात और नियमित खर्च जाँच सकते हैं।

@@ -86,6 +86,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can clarify who needs the result of your next task.
     kn: ನಿಮ್ಮ ಮುಂದಿನ ಕೆಲಸದ ಫಲ ಯಾರಿಗೆ ಬೇಕು ಎಂಬುದನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿಕೊಳ್ಳಬಹುದು.

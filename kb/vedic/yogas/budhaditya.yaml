@@ -49,6 +49,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may find it helpful to talk through an idea before acting.
     kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.

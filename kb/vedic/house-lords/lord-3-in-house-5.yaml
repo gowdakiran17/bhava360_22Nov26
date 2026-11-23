@@ -95,6 +95,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may enjoy explaining an idea to someone who is learning it.
     kn: ಕಲಿಯುತ್ತಿರುವವರಿಗೆ ಒಂದು ವಿಚಾರವನ್ನು ವಿವರಿಸುವುದರಲ್ಲಿ ನಿಮಗೆ ಸಂತೋಷ ಸಿಗಬಹುದು.

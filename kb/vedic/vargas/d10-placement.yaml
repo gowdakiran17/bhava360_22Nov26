@@ -77,6 +77,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, list one duty you enjoy and one you would like to clarify.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮಗೆ ಇಷ್ಟವಾದ ಒಂದು ಕರ್ತವ್ಯ ಮತ್ತು ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟತೆ ಬೇಕಾದ ಮತ್ತೊಂದು ಕರ್ತವ್ಯವನ್ನು ಬರೆದಿಡಬಹುದು.

@@ -83,6 +83,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can give credit to someone who helped you lead a task.
     kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.

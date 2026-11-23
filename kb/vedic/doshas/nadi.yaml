@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, give each person a turn to speak before deciding together.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.

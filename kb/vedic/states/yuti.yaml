@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Give each concern its own line in a note.
     kn: ಪ್ರತಿ ವಿಷಯವನ್ನೂ ಪ್ರತ್ಯೇಕ ಸಾಲಿನಲ್ಲಿ ಬರೆದಿಡಬಹುದು.

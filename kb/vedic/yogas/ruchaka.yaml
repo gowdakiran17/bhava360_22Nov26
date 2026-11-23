@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may enjoy taking the initiative when a task needs action.
     kn: ಕೆಲಸಕ್ಕೆ ಚಾಲನೆ ನೀಡಲು ನೀವು ಆಸಕ್ತಿ ತೋರಬಹುದು.

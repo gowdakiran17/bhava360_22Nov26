@@ -78,6 +78,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can clarify an instruction for someone who asks.
     kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.

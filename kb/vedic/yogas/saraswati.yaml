@@ -81,6 +81,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can try explaining an idea through a story, a sketch or a worked example.
     kn: ಒಂದು ವಿಚಾರವನ್ನು ಕಥೆ, ಚಿತ್ರ ಅಥವಾ ಉದಾಹರಣೆಯ ಮೂಲಕ ವಿವರಿಸಬಹುದು.

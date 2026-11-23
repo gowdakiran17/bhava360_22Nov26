@@ -81,6 +81,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may give each person time to speak before a shared decision.
     kn: ಒಟ್ಟಿನ ನಿರ್ಧಾರಕ್ಕೂ ಮೊದಲು ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.

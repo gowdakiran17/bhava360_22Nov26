@@ -95,6 +95,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can name a goal before deciding how to use a new resource.
     kn: ಹೊಸ ಸಂಪನ್ಮೂಲವನ್ನು ಹೇಗೆ ಬಳಸಬೇಕೆಂದು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಒಂದು ಗುರಿಯನ್ನು ಗುರುತಿಸಬಹುದು.

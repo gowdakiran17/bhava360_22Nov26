@@ -1,0 +1,44 @@
+area: health
+title: Health & wellbeing
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-1
+  - vedic.houses.house-6
+  karakas:
+  - vedic.planets.sun
+  - vedic.planets.moon
+  vargas:
+  - vedic.vargas.d1-placement
+  dashas:
+  - vedic.dashas-vimshottari.health-house-lord
+  - vedic.dashas-vimshottari.health-upcoming
+  transits:
+  - vedic.transits.health-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find it easier to make time for rest in your daily routine.
+      kn: ದಿನಚರಿಯಲ್ಲಿ ವಿಶ್ರಾಂತಿಗೆ ಸಮಯ ಕಲ್ಪಿಸುವುದು ಸುಲಭವಾಗಬಹುದು.
+      hi: दिनचर्या में आराम के लिए समय निकालना आसान हो सकता है।
+  Steady:
+    user_text:
+      en: You can notice which parts of your day leave you feeling rested.
+      kn: ದಿನದ ಯಾವ ಹೊತ್ತಿನಲ್ಲಿ ನಿಮಗೆ ವಿಶ್ರಾಂತಿ ಸಿಗುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+      hi: आप ध्यान दे सकते हैं कि दिन के किस हिस्से में आपको आराम मिलता है।
+  Take care:
+    user_text:
+      en: You can give yourself a quieter pace and ask for support when you need it.
+      kn: ನಿಮಗೆ ತಕ್ಕಂತೆ ನಿಧಾನವಾಗಿ ಸಾಗಬಹುದು ಮತ್ತು ಬೇಕಾದಾಗ ನೆರವು ಕೇಳಬಹುದು.
+      hi: आप अपनी गति धीमी रख सकते हैं और ज़रूरत पड़ने पर सहारा माँग सकते हैं।
+scope: Everyday wellbeing and routines only. Suppress disease, diagnosis, and lifespan in every public slot. Use the
+  doctor line with every tone.
+always_append:
+  user_text:
+    en: Please see a doctor for anything that worries you.
+    kn: ನಿಮಗೆ ಯಾವುದಾದರೂ ವಿಷಯ ಚಿಂತೆ ಉಂಟುಮಾಡಿದರೆ ದಯವಿಟ್ಟು ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.
+    hi: अगर कोई बात आपको परेशान करे, तो कृपया डॉक्टर से मिलें।

@@ -79,6 +79,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may acknowledge someone else’s contribution to a shared task.
     kn: ಒಟ್ಟಿನ ಕೆಲಸದಲ್ಲಿ ಮತ್ತೊಬ್ಬರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.

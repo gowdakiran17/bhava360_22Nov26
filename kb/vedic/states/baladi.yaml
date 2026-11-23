@@ -71,6 +71,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Choose a small next step that suits your present experience.
     kn: ಈಗಿನ ಅನುಭವಕ್ಕೆ ಹೊಂದುವ ಒಂದು ಸಣ್ಣ ಹೆಜ್ಜೆಯನ್ನು ಆರಿಸಬಹುದು.

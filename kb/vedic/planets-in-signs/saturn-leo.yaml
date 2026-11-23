@@ -77,6 +77,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can follow through on a small promise to someone who relies on you.
     kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.

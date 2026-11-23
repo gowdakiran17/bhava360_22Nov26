@@ -95,6 +95,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can notice one feature of home that helps you settle.
     kn: ಮನೆಯಲ್ಲಿ ಯಾವುದು ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.

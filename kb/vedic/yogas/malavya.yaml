@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may notice what helps people feel welcome.
     kn: ಜನರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಿಸುವ ವಿಷಯಗಳನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.

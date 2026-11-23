@@ -99,6 +99,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may notice where you would like to leave a little room for rest.
     kn: ವಿಶ್ರಾಂತಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಎಲ್ಲಿ ಮೀಸಲಿಡಬಹುದು ಎಂದು ಗಮನಿಸಬಹುದು.

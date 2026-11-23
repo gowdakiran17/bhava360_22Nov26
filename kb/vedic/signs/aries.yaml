@@ -81,6 +81,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may offer to do one small task for someone today.
     kn: ಇಂದು ಯಾರಿಗಾದರೂ ಒಂದು ಸಣ್ಣ ಕೆಲಸ ಮಾಡಿಕೊಡಬಹುದು.

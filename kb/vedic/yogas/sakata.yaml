@@ -60,6 +60,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.

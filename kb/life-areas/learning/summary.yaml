@@ -1,0 +1,38 @@
+area: learning
+title: Education
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-4
+  - vedic.houses.house-5
+  - vedic.houses.house-9
+  karakas:
+  - vedic.planets.mercury
+  - vedic.planets.jupiter
+  vargas:
+  - vedic.vargas.d24-placement
+  dashas:
+  - vedic.dashas-vimshottari.learning-house-lord
+  - vedic.dashas-vimshottari.learning-upcoming
+  transits:
+  - vedic.transits.learning-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find an opening to explore a subject that holds your interest.
+      kn: ಆಸಕ್ತಿಯ ವಿಷಯವನ್ನು ಕಲಿಯಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+      hi: आपको अपनी पसंद का विषय सीखने का अवसर मिल सकता है।
+  Steady:
+    user_text:
+      en: You can choose a study goal and set aside time to practise.
+      kn: ಕಲಿಕೆಯ ಗುರಿಯನ್ನು ಆಯ್ದು ಅಭ್ಯಾಸಕ್ಕೆ ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+      hi: आप पढ़ाई का एक लक्ष्य चुनकर अभ्यास के लिए समय रख सकते हैं।
+  Take care:
+    user_text:
+      en: You can ask for an example before moving on to the next topic.
+      kn: ಮುಂದಿನ ವಿಷಯಕ್ಕೆ ಹೋಗುವ ಮೊದಲು ಒಂದು ಉದಾಹರಣೆ ಕೇಳಬಹುದು.
+      hi: अगले विषय पर जाने से पहले आप एक उदाहरण पूछ सकते हैं।

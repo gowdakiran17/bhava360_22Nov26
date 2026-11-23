@@ -53,6 +53,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may reflect on how you carry responsibility in public.
     kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.

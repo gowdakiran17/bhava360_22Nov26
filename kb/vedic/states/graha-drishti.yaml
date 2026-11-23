@@ -71,6 +71,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Consider two responsibilities that affect one another.
     kn: ಒಂದರ ಮೇಲೊಂದು ಪರಿಣಾಮ ಬೀರುವ ಎರಡು ಜವಾಬ್ದಾರಿಗಳನ್ನು ಪರಿಗಣಿಸಬಹುದು.

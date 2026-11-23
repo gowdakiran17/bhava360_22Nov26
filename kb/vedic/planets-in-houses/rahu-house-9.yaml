@@ -80,6 +80,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can check one assumption before trying something new.
     kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.

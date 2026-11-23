@@ -81,6 +81,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may invite someone quieter to contribute an idea.
     kn: ಹೆಚ್ಚಾಗಿ ಮಾತನಾಡದವರಿಗೂ ತಮ್ಮ ಅಭಿಪ್ರಾಯ ನೀಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.

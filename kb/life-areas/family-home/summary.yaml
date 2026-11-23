@@ -1,0 +1,36 @@
+area: family-home
+title: Family
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-4
+  - vedic.houses.house-2
+  karakas:
+  - vedic.planets.moon
+  vargas:
+  - vedic.vargas.d12-placement
+  dashas:
+  - vedic.dashas-vimshottari.family-home-house-lord
+  - vedic.dashas-vimshottari.family-home-upcoming
+  transits:
+  - vedic.transits.family-home-watch
+summaries:
+  Supportive:
+    user_text:
+      en: A shared task may give you a chance to reconnect with a family member.
+      kn: ಒಟ್ಟಿಗೆ ಮಾಡುವ ಕೆಲಸದಿಂದ ಮನೆಯವರೊಂದಿಗೆ ಮತ್ತೆ ಮಾತನಾಡಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+      hi: मिलकर कोई काम करने से परिवार के किसी सदस्य से फिर जुड़ने का मौका मिल सकता है।
+  Steady:
+    user_text:
+      en: You can agree on how to share household responsibilities this week.
+      kn: ಈ ವಾರ ಮನೆಯ ಜವಾಬ್ದಾರಿಗಳನ್ನು ಹೇಗೆ ಹಂಚಿಕೊಳ್ಳಬೇಕು ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+      hi: आप तय कर सकते हैं कि इस हफ्ते घर का काम कैसे बाँटना है।
+  Take care:
+    user_text:
+      en: You can ask what help is welcome before stepping into a family disagreement.
+      kn: ಮನೆಯ ಭಿನ್ನಾಭಿಪ್ರಾಯದಲ್ಲಿ ಮಧ್ಯಪ್ರವೇಶಿಸುವ ಮೊದಲು ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
+      hi: परिवार के मतभेद में शामिल होने से पहले आप पूछ सकते हैं कि किस तरह की मदद चाहिए।

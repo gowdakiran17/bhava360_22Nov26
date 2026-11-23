@@ -97,6 +97,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can recall one lesson you still put into practice.
     kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.

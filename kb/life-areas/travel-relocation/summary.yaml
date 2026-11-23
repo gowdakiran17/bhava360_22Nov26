@@ -1,0 +1,38 @@
+area: travel-relocation
+title: Travel
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-4
+  - vedic.houses.house-9
+  - vedic.houses.house-12
+  - vedic.houses.house-10
+  karakas:
+  - vedic.planets.moon
+  vargas:
+  - vedic.vargas.d4-placement
+  dashas:
+  - vedic.dashas-vimshottari.travel-relocation-house-lord
+  - vedic.dashas-vimshottari.travel-relocation-upcoming
+  transits:
+  - vedic.transits.travel-relocation-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find a route that fits the purpose of your trip.
+      kn: ಪ್ರಯಾಣದ ಉದ್ದೇಶಕ್ಕೆ ಹೊಂದುವ ಮಾರ್ಗ ಸಿಗಬಹುದು.
+      hi: आपको अपने सफ़र के उद्देश्य के अनुकूल रास्ता मिल सकता है।
+  Steady:
+    user_text:
+      en: You can compare routes and choose where to leave extra time.
+      kn: ಮಾರ್ಗಗಳನ್ನು ಹೋಲಿಸಿ ಎಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಸಮಯ ಇರಿಸಬೇಕು ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+      hi: आप रास्तों की तुलना करके तय कर सकते हैं कि कहाँ अतिरिक्त समय रखना है।
+  Take care:
+    user_text:
+      en: You can check connections and keep a backup route handy.
+      kn: ಪ್ರಯಾಣದ ಸಂಪರ್ಕಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಪರ್ಯಾಯ ಮಾರ್ಗವನ್ನು ಸಿದ್ಧವಾಗಿಟ್ಟುಕೊಳ್ಳಬಹುದು.
+      hi: आप आगे की यात्रा के साधन जाँच सकते हैं और एक वैकल्पिक रास्ता रख सकते हैं।

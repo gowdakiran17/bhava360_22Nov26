@@ -1,0 +1,56 @@
+area: career
+title: Career
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-10
+  - vedic.houses.house-6
+  - vedic.houses.house-2
+  - vedic.houses.house-11
+  karakas:
+  - vedic.planets.sun
+  - vedic.planets.saturn
+  - vedic.planets.mercury
+  - vedic.planets.jupiter
+  vargas:
+  - vedic.vargas.d10-placement
+  dashas:
+  - vedic.dashas-vimshottari.career-house-lord
+  - vedic.dashas-vimshottari.career-upcoming
+  transits:
+  - vedic.transits.career-watch
+  house_lord_placements:
+  - vedic.house-lords.lord-10-in-house-1
+  - vedic.house-lords.lord-10-in-house-2
+  - vedic.house-lords.lord-10-in-house-3
+  - vedic.house-lords.lord-10-in-house-4
+  - vedic.house-lords.lord-10-in-house-5
+  - vedic.house-lords.lord-10-in-house-6
+  - vedic.house-lords.lord-10-in-house-7
+  - vedic.house-lords.lord-10-in-house-8
+  - vedic.house-lords.lord-10-in-house-9
+  - vedic.house-lords.lord-10-in-house-10
+  - vedic.house-lords.lord-10-in-house-11
+  - vedic.house-lords.lord-10-in-house-12
+summaries:
+  Supportive:
+    user_text:
+      en: You may have room to take on a responsibility that fits your skills.
+      kn: ನಿಮ್ಮ ಕೌಶಲಕ್ಕೆ ಹೊಂದುವ ಜವಾಬ್ದಾರಿಯನ್ನು ವಹಿಸಿಕೊಳ್ಳಲು ಅವಕಾಶ ಇರಬಹುದು.
+      hi: आपको अपने कौशल के अनुरूप ज़िम्मेदारी लेने का अवसर मिल सकता है।
+  Steady:
+    user_text:
+      en: You can agree with your team on which task comes first.
+      kn: ಯಾವ ಕೆಲಸಕ್ಕೆ ಆದ್ಯತೆ ನೀಡಬೇಕು ಎಂದು ತಂಡದೊಂದಿಗೆ ತೀರ್ಮಾನಿಸಬಹುದು.
+      hi: आप अपनी टीम के साथ तय कर सकते हैं कि कौन सा काम पहले करना है।
+  Take care:
+    user_text:
+      en: You can clarify the workload before accepting a new commitment.
+      kn: ಹೊಸ ಜವಾಬ್ದಾರಿ ಒಪ್ಪುವ ಮೊದಲು ಕೆಲಸದ ಹೊರೆ ಎಷ್ಟಿದೆ ಎಂದು ತಿಳಿದುಕೊಳ್ಳಬಹುದು.
+      hi: नई ज़िम्मेदारी लेने से पहले आप काम का बोझ स्पष्ट कर सकते हैं।
+weighting_note: Read the matched natal tenth-lord placement first. Weight the four karakas by their connection to that
+  lord and corroboration in a stable D10. Keep unsupported karakas contextual.

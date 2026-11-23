@@ -99,6 +99,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, you can listen without interrupting today.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.

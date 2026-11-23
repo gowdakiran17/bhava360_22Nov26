@@ -98,6 +98,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can ask a partner what each of you understood before deciding together.
     kn: ಜೊತೆಯಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಒಪ್ಪಂದವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.

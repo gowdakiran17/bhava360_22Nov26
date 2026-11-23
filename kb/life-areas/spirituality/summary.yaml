@@ -1,0 +1,38 @@
+area: spirituality
+title: Spiritual growth
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-9
+  - vedic.houses.house-12
+  - vedic.houses.house-5
+  karakas:
+  - vedic.planets.jupiter
+  - vedic.planets.ketu
+  vargas:
+  - vedic.vargas.d20-placement
+  dashas:
+  - vedic.dashas-vimshottari.spirituality-house-lord
+  - vedic.dashas-vimshottari.spirituality-upcoming
+  transits:
+  - vedic.transits.spirituality-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find a quiet moment to explore a practice that feels meaningful.
+      kn: ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸುವ ಅಭ್ಯಾಸಕ್ಕೆ ಶಾಂತವಾದ ಸಮಯ ಸಿಗಬಹುದು.
+      hi: आपको अपने लिए अर्थपूर्ण अभ्यास करने का शांत समय मिल सकता है।
+  Steady:
+    user_text:
+      en: You can return to a simple practice at a pace that suits you.
+      kn: ನಿಮಗೆ ಹೊಂದುವ ಗತಿಯಲ್ಲಿ ಸರಳ ಅಭ್ಯಾಸಕ್ಕೆ ಮರಳಬಹುದು.
+      hi: आप अपनी गति से किसी सरल अभ्यास की ओर लौट सकते हैं।
+  Take care:
+    user_text:
+      en: You can pause and consider which practices reflect your own values.
+      kn: ಯಾವ ಅಭ್ಯಾಸಗಳು ನಿಮ್ಮ ಮೌಲ್ಯಗಳಿಗೆ ಹೊಂದುತ್ತವೆ ಎಂದು ಯೋಚಿಸಲು ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+      hi: आप ठहरकर विचार कर सकते हैं कि कौन से अभ्यास आपके मूल्यों से मेल खाते हैं।

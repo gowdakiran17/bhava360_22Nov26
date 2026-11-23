@@ -85,6 +85,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can ask someone close what support they would welcome.
     kn: ಆತ್ಮೀಯರಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.

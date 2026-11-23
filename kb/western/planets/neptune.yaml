@@ -92,6 +92,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Write down one hope and a question you still have about it.
     kn: ಒಂದು ಆಶೆ ಮತ್ತು ಅದರ ಬಗ್ಗೆ ನಿಮಗಿರುವ ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡಬಹುದು.

@@ -66,6 +66,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may wish to choose one practical next step at work.
     kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.

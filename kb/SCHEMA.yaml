@@ -172,3 +172,18 @@ vedic_matching_entries:
   routing: vedic/matching/factors.yaml
   evidence_access: [admin, tester]
   public_fields: [localized_tone, user_text]
+life_area_summaries:
+  discovery: Follow summary_profile relative to an area's reading.yaml.
+  feeds: Resolve the five lists to existing Vedic rule IDs. Houses and karakas describe the natal theme; a stable relevant varga can corroborate it. A placement definition alone supplies no direction.
+  weighting_order: [natal-promise, dasha, transit]
+  selection: Use only approved, matched evidence from the person's chart. Establish a natal theme before selecting a tone. Use the active or named upcoming dasha to time it and a dated transit to refine that period. Withhold unsupported timing and omit the summary when natal evidence is missing.
+  tones: Choose Supportive for coherent supportive evidence, Take care for coherent caution, and Steady for mixed or neutral evidence. A transit alone cannot establish or reverse a natal theme. Apply matched exceptions before synthesis.
+  render: Render the selected tone's user_text alongside the existing matched area reasons. Resolve each locale field separately. Always append the health profile's doctor line to its summary; across health slots show only everyday wellbeing and routines.
+safe_remedies:
+  directory: remedies
+  link: Each catalogue practice links to a graha or house rule. Practices are optional traditional reflections and are never prerequisites for a reading.
+  types: [mantra-japa, charity, fasting, service, routine, temple-visit]
+  cost: free
+  legacy: Inline entries also retain the free boolean for existing callers.
+  fasting: Offer only as an explicitly selected existing practice for adults who know it is safe for them. Omit from health readings. Quiet reflection is available in the same copy.
+  display: Show the optional status and localized text. Use only free participation and freely available materials.

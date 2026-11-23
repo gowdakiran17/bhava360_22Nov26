@@ -77,6 +77,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may listen to someone’s explanation before offering your own.
     kn: ನಿಮ್ಮ ವಿವರಣೆ ನೀಡುವ ಮುನ್ನ ಇನ್ನೊಬ್ಬರ ಮಾತನ್ನು ಆಲಿಸಬಹುದು.

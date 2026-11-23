@@ -94,6 +94,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can recall a saying that shaped your habits.
     kn: ನಿಮ್ಮ ಅಭ್ಯಾಸಗಳ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರಿದ ಮನೆಯ ಮಾತೊಂದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.

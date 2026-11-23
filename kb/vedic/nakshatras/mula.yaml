@@ -100,6 +100,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, you can write down when a recurring question first came up.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಮತ್ತೆ ಮತ್ತೆ ಎದುರಾಗುವ ಪ್ರಶ್ನೆ ಮೊದಲು ಯಾವಾಗ ಹುಟ್ಟಿತು ಎಂದು ಬರೆದಿಡಬಹುದು.

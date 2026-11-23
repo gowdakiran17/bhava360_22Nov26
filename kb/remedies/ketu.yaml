@@ -1,0 +1,50 @@
+id: remedies.conduct.ketu
+approval: draft
+linked_to: vedic.planets.ketu
+remedy:
+  type: mantra-japa
+  optional: true
+  cost: free
+  user_text:
+    en: If you like, you can sit quietly and repeat a short prayer from your own tradition.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಶಾಂತವಾಗಿ ಕುಳಿತು ನಿಮ್ಮ ಪರಂಪರೆಯ ಸಣ್ಣ ಪ್ರಾರ್ಥನೆಯನ್ನು ಪುನರಾವರ್ತಿಸಬಹುದು.
+    hi: चाहें तो आप शांत बैठकर अपनी परंपरा की कोई छोटी प्रार्थना दोहरा सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+options:
+  service:
+    type: service
+    cost: free
+    optional: true
+    user_text:
+      en: If you like, you can give your time to help someone with a task they choose.
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಯಾರಾದರೂ ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ಸಮಯ ನೀಡಿ ನೆರವಾಗಬಹುದು.
+      hi: चाहें तो आप किसी के चुने हुए काम में अपना समय देकर मदद कर सकते हैं।
+  japa:
+    type: mantra-japa
+    cost: free
+    optional: true
+    weekday: Tuesday
+    form: nama
+    sources:
+    - title: Navagraha Mantra · Name mantras and weekdays
+      url: https://kundlinaksha.com/blog/navagraha-mantra
+      locator: ketu
+    user_text:
+      en: If you like, on Tuesday you can quietly repeat “Om Ketave Namah.”
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಮಂಗಳವಾರ “ಓಂ ಕೇತವೇ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
+      hi: चाहें तो मंगलवार को आप “ॐ केतवे नमः” मन ही मन दोहरा सकते हैं।
+    traditions_differ: Regional observance day; the nodes do not rule weekdays.
+  charity:
+    type: charity
+    cost: free
+    optional: true
+    sources:
+    - title: Plant World in Hindu Consciousness
+      url: https://vbuss.org/sites/vbuss.org/files/1-Plant-World%20in%20Hindu%20Consciousness%20%281%29.pdf
+      locator: Navadhanya list; grain association. Sharing existing food is an editorial adaptation.
+    user_text:
+      en: If you already have horse gram to spare, you can share some with someone who would welcome it.
+      kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಹುರಳಿಕಾಳು ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+      hi: यदि आपके पास अतिरिक्त कुल्थी हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।

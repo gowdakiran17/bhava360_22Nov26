@@ -1,0 +1,38 @@
+area: love-marriage
+title: Love & marriage
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-7
+  - vedic.houses.house-2
+  - vedic.houses.house-11
+  karakas:
+  - vedic.planets.venus
+  - vedic.planets.jupiter
+  vargas:
+  - vedic.vargas.d9-placement
+  dashas:
+  - vedic.dashas-vimshottari.love-marriage-house-lord
+  - vedic.dashas-vimshottari.love-marriage-upcoming
+  transits:
+  - vedic.transits.love-marriage-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find it easier to share what matters to you in a relationship.
+      kn: ಸಂಬಂಧದಲ್ಲಿ ನಿಮಗೆ ಮುಖ್ಯವಾದುದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ಸುಲಭವಾಗಬಹುದು.
+      hi: रिश्ते में आपके लिए क्या मायने रखता है, यह साझा करना आसान हो सकता है।
+  Steady:
+    user_text:
+      en: You can set aside time to hear what each of you wants.
+      kn: ಇಬ್ಬರ ಆಸೆಗಳನ್ನು ಆಲಿಸಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+      hi: आप एक दूसरे की इच्छाएँ सुनने के लिए समय निकाल सकते हैं।
+  Take care:
+    user_text:
+      en: You can give each other space before making a shared decision.
+      kn: ಜಂಟಿ ನಿರ್ಧಾರಕ್ಕೂ ಮುನ್ನ ಪರಸ್ಪರ ಯೋಚಿಸಲು ಸಮಯ ಕೊಡಬಹುದು.
+      hi: साझा फैसला लेने से पहले आप एक दूसरे को सोचने का समय दे सकते हैं।

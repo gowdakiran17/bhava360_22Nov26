@@ -50,6 +50,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can clarify which shared obligation needs attention first.
     kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳಲ್ಲಿ ಯಾವುದಕ್ಕೆ ಮೊದಲು ಗಮನ ಕೊಡಬೇಕು ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.

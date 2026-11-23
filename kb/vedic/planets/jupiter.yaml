@@ -165,6 +165,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can share a useful explanation when someone asks.
     kn: ಕೇಳಿದವರಿಗೆ ಉಪಯುಕ್ತ ವಿವರಣೆ ನೀಡಬಹುದು.

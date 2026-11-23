@@ -1,0 +1,50 @@
+id: remedies.conduct.venus
+approval: draft
+linked_to: vedic.planets.venus
+remedy:
+  type: temple-visit
+  optional: true
+  cost: free
+  user_text:
+    en: If you like, you can pause at a freely accessible temple along your usual route, or spend a quiet moment at home.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಎಂದಿನ ದಾರಿಯಲ್ಲಿ ಉಚಿತ ಪ್ರವೇಶವಿರುವ ದೇವಾಲಯದಲ್ಲಿ ಸ್ವಲ್ಪ ಕಾಲ ಕಳೆಯಬಹುದು ಅಥವಾ ಮನೆಯಲ್ಲೇ ಶಾಂತವಾಗಿ ಕುಳಿತುಕೊಳ್ಳಬಹುದು.
+    hi: चाहें तो अपने सामान्य रास्ते में निःशुल्क प्रवेश वाले मंदिर में ठहर सकते हैं या घर पर कुछ शांत समय बिता सकते
+      हैं।
+native_review:
+  kn: pending
+  hi: pending
+options:
+  service:
+    type: service
+    cost: free
+    optional: true
+    user_text:
+      en: If you like, you can give your time to help someone with a task they choose.
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಯಾರಾದರೂ ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ಸಮಯ ನೀಡಿ ನೆರವಾಗಬಹುದು.
+      hi: चाहें तो आप किसी के चुने हुए काम में अपना समय देकर मदद कर सकते हैं।
+  japa:
+    type: mantra-japa
+    cost: free
+    optional: true
+    weekday: Friday
+    form: nama
+    sources:
+    - title: Navagraha Mantra · Name mantras and weekdays
+      url: https://kundlinaksha.com/blog/navagraha-mantra
+      locator: venus
+    user_text:
+      en: If you like, on Friday you can quietly repeat “Om Shukraya Namah.”
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಶುಕ್ರವಾರ “ಓಂ ಶುಕ್ರಾಯ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
+      hi: चाहें तो शुक्रवार को आप “ॐ शुक्राय नमः” मन ही मन दोहरा सकते हैं।
+  charity:
+    type: charity
+    cost: free
+    optional: true
+    sources:
+    - title: Plant World in Hindu Consciousness
+      url: https://vbuss.org/sites/vbuss.org/files/1-Plant-World%20in%20Hindu%20Consciousness%20%281%29.pdf
+      locator: Navadhanya list; grain association. Sharing existing food is an editorial adaptation.
+    user_text:
+      en: If you already have white beans to spare, you can share some with someone who would welcome it.
+      kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಬಿಳಿ ಬೀನ್ಸ್ ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+      hi: यदि आपके पास अतिरिक्त सफ़ेद फलियाँ हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।

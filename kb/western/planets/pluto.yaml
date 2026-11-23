@@ -96,6 +96,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Invite someone affected by a shared decision to give their view.
     kn: ಒಂದು ತೀರ್ಮಾನದಿಂದ ಪ್ರಭಾವಿತರಾಗುವವರ ಅಭಿಪ್ರಾಯವನ್ನು ಕೇಳಬಹುದು.

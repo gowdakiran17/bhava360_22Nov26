@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may find meaning in sharing what you learn.
     kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.

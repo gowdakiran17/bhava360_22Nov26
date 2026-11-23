@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may prefer responsibilities that reward patience.
     kn: ತಾಳ್ಮೆ ಬೇಡುವ ಹೊಣೆಗಾರಿಕೆಗಳು ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.

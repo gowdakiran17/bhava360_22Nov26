@@ -50,6 +50,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may find that a small rehearsal helps both sides of an agreement.
     kn: ಒಂದು ಸಣ್ಣ ಅಭ್ಯಾಸ ಒಪ್ಪಂದದ ಎರಡೂ ಕಡೆಯವರಿಗೆ ನೆರವಾಗಬಹುದು.

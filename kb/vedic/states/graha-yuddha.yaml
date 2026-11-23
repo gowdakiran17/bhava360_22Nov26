@@ -64,6 +64,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Give each priority a turn in the conversation.
     kn: ಎರಡೂ ವಿಷಯಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.

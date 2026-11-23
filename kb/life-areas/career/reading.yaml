@@ -4,15 +4,18 @@ houses:
 - 10
 - 6
 - 2
+- 11
 varga: D10
 karakas:
 - sun
 - saturn
+- mercury
+- jupiter
 intent: job-change
 checker: big-decision-muhurta
 slots:
-  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
-    active period. Cite the actual graha and house.
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
+    in the active period. Cite the actual graha and house.
   upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
     when KP is enabled; display an honest absence when no supported date exists.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
@@ -45,3 +48,4 @@ slot_bindings:
     localized_field: slots.what-you-can-do
     requires: at least one matched area fact
     checker: big-decision-muhurta
+summary_profile: summary.yaml

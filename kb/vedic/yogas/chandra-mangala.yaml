@@ -48,6 +48,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may want to review the resources available for your plan.
     kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.

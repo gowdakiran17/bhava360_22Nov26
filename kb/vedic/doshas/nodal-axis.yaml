@@ -48,6 +48,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You could choose one chart theme to reflect on today.
     kn: ಇಂದು ಒಂದು ವಿಷಯವನ್ನು ಆರಿಸಿ ಚಿಂತಿಸಬಹುದು.

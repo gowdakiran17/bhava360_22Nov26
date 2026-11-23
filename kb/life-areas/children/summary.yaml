@@ -1,0 +1,36 @@
+area: children
+title: Children
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-5
+  - vedic.houses.house-2
+  karakas:
+  - vedic.planets.jupiter
+  vargas:
+  - vedic.vargas.d7-placement
+  dashas:
+  - vedic.dashas-vimshottari.children-house-lord
+  - vedic.dashas-vimshottari.children-upcoming
+  transits:
+  - vedic.transits.children-watch
+summaries:
+  Supportive:
+    user_text:
+      en: A shared activity may give a child in your care room to express an interest.
+      kn: ಒಟ್ಟಿಗೆ ಮಾಡುವ ಚಟುವಟಿಕೆಯಲ್ಲಿ ಮಗು ತನ್ನ ಆಸಕ್ತಿಯನ್ನು ವ್ಯಕ್ತಪಡಿಸಬಹುದು.
+      hi: साथ मिलकर कुछ करने से बच्चे को अपनी रुचि बताने का मौका मिल सकता है।
+  Steady:
+    user_text:
+      en: You can make time to listen to a child at their own pace.
+      kn: ಮಗುವಿಗೆ ಅವಸರ ಮಾಡದೆ ಅದರ ಮಾತನ್ನು ಕೇಳಲು ಸಮಯ ಕೊಡಬಹುದು.
+      hi: आप बच्चे को अपनी गति से बोलने का समय देकर सुन सकते हैं।
+  Take care:
+    user_text:
+      en: You can keep plans flexible and check what support the child wants.
+      kn: ಯೋಜನೆಗಳನ್ನು ಹೊಂದಿಸಿಕೊಳ್ಳಬಹುದು ಮತ್ತು ಮಗುವಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
+      hi: आप योजना में गुंजाइश रख सकते हैं और पूछ सकते हैं कि बच्चे को कैसी मदद चाहिए।

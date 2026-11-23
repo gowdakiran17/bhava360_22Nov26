@@ -73,6 +73,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, ask each other which shared commitment matters most this week.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಈ ವಾರ ಯಾವ ಜಂಟಿ ಬದ್ಧತೆ ಹೆಚ್ಚು ಮುಖ್ಯ ಎಂದು ಪರಸ್ಪರ ಕೇಳಿಕೊಳ್ಳಬಹುದು.

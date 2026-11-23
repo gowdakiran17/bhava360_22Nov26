@@ -1,0 +1,50 @@
+id: remedies.conduct.rahu
+approval: draft
+linked_to: vedic.planets.rahu
+remedy:
+  type: routine
+  optional: true
+  cost: free
+  user_text:
+    en: If you like, you can pause before sharing a message and check its source.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಸಂದೇಶ ಹಂಚುವ ಮೊದಲು ಸ್ವಲ್ಪ ತಡೆದು ಅದರ ಮೂಲವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: चाहें तो कोई संदेश साझा करने से पहले ठहरकर उसका स्रोत जाँच सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+options:
+  service:
+    type: service
+    cost: free
+    optional: true
+    user_text:
+      en: If you like, you can give your time to help someone with a task they choose.
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಯಾರಾದರೂ ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ಸಮಯ ನೀಡಿ ನೆರವಾಗಬಹುದು.
+      hi: चाहें तो आप किसी के चुने हुए काम में अपना समय देकर मदद कर सकते हैं।
+  japa:
+    type: mantra-japa
+    cost: free
+    optional: true
+    weekday: Saturday
+    form: nama
+    sources:
+    - title: Navagraha Mantra · Name mantras and weekdays
+      url: https://kundlinaksha.com/blog/navagraha-mantra
+      locator: rahu
+    user_text:
+      en: If you like, on Saturday you can quietly repeat “Om Rahave Namah.”
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಶನಿವಾರ “ಓಂ ರಾಹವೇ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
+      hi: चाहें तो शनिवार को आप “ॐ राहवे नमः” मन ही मन दोहरा सकते हैं।
+    traditions_differ: Regional observance day; the nodes do not rule weekdays.
+  charity:
+    type: charity
+    cost: free
+    optional: true
+    sources:
+    - title: Plant World in Hindu Consciousness
+      url: https://vbuss.org/sites/vbuss.org/files/1-Plant-World%20in%20Hindu%20Consciousness%20%281%29.pdf
+      locator: Navadhanya list; grain association. Sharing existing food is an editorial adaptation.
+    user_text:
+      en: If you already have black gram to spare, you can share some with someone who would welcome it.
+      kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಉದ್ದಿನ ಬೇಳೆ ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+      hi: यदि आपके पास अतिरिक्त उड़द हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।

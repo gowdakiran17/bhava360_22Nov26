@@ -1,0 +1,17 @@
+id: remedies.conduct.optional-fast
+approval: draft
+linked_to: vedic.planets.jupiter
+remedy:
+  type: fasting
+  optional: true
+  cost: free
+  user_text:
+    en: If fasting is already safe for you and part of your practice, you may observe your usual fast. You can also choose
+      quiet reflection.
+    kn: ಉಪವಾಸ ನಿಮಗೆ ಸುರಕ್ಷಿತವಾಗಿದ್ದು ಈಗಾಗಲೇ ನಿಮ್ಮ ಆಚರಣೆಯ ಭಾಗವಾಗಿದ್ದರೆ, ಎಂದಿನ ಉಪವಾಸವನ್ನು ಆಯ್ದುಕೊಳ್ಳಬಹುದು. ಶಾಂತವಾಗಿ ಚಿಂತಿಸುವುದನ್ನೂ
+      ಆಯ್ದುಕೊಳ್ಳಬಹುದು.
+    hi: यदि उपवास आपके लिए सुरक्षित है और पहले से आपकी परंपरा का हिस्सा है, तो आप अपना सामान्य व्रत रख सकते हैं। आप शांत
+      चिंतन भी चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

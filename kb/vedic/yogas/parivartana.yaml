@@ -48,6 +48,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can consider what each side of an exchange needs from the other.
     kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.

@@ -80,6 +80,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can pause before answering a sensitive question.
     kn: ಸೂಕ್ಷ್ಮ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸುವ ಮುನ್ನ ಸ್ವಲ್ಪ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.

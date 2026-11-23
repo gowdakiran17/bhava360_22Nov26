@@ -82,6 +82,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can take a moment to thank someone who helps at home.
     kn: ಮನೆಯಲ್ಲಿ ಸಹಾಯ ಮಾಡುವವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಬಹುದು.

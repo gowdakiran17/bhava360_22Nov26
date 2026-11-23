@@ -97,6 +97,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may notice which routines suit your energy.
     kn: ನಿಮ್ಮ ಚೈತನ್ಯಕ್ಕೆ ಯಾವ ದಿನಚರಿ ಹೊಂದುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.

@@ -1,0 +1,37 @@
+area: money
+title: Money
+approval: draft
+weighting_order:
+- natal-promise
+- dasha
+- transit
+feeds:
+  houses:
+  - vedic.houses.house-2
+  - vedic.houses.house-11
+  - vedic.houses.house-5
+  karakas:
+  - vedic.planets.jupiter
+  vargas:
+  - vedic.vargas.d2-placement
+  dashas:
+  - vedic.dashas-vimshottari.money-house-lord
+  - vedic.dashas-vimshottari.money-upcoming
+  transits:
+  - vedic.transits.money-watch
+summaries:
+  Supportive:
+    user_text:
+      en: You may find room in your budget for a goal you have been saving toward.
+      kn: ನೀವು ಉಳಿಸುತ್ತಿರುವ ಗುರಿಗೆ ಬಜೆಟ್‌ನಲ್ಲಿ ಸ್ವಲ್ಪ ಅವಕಾಶ ಸಿಗಬಹುದು.
+      hi: जिस लक्ष्य के लिए आप बचत कर रहे हैं, उसके लिए बजट में गुंजाइश मिल सकती है।
+  Steady:
+    user_text:
+      en: You can review regular expenses and choose what to set aside.
+      kn: ನಿಯಮಿತ ವೆಚ್ಚಗಳನ್ನು ನೋಡಿ ಎಷ್ಟು ಉಳಿಸಬೇಕು ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+      hi: आप नियमित खर्च देखकर तय कर सकते हैं कि कितना अलग रखना है।
+  Take care:
+    user_text:
+      en: You can read the terms and check upcoming bills before taking on an expense.
+      kn: ಹೊಸ ವೆಚ್ಚವನ್ನು ಒಪ್ಪುವ ಮೊದಲು ಷರತ್ತುಗಳನ್ನು ಓದಿ ಬರುವ ಬಿಲ್‌ಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+      hi: नया खर्च उठाने से पहले आप शर्तें पढ़ सकते हैं और आने वाले बिल देख सकते हैं।

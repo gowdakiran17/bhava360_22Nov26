@@ -102,6 +102,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can make room for someone else’s preference today.
     kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.

@@ -1,0 +1,49 @@
+id: remedies.conduct.sun
+approval: draft
+linked_to: vedic.planets.sun
+remedy:
+  type: routine
+  optional: true
+  cost: free
+  user_text:
+    en: If you like, you can set aside a quiet moment in the morning to choose a priority.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಬೆಳಿಗ್ಗೆ ಶಾಂತವಾಗಿ ಕುಳಿತು ದಿನದ ಆದ್ಯತೆಯನ್ನು ಆರಿಸಬಹುದು.
+    hi: चाहें तो आप सुबह कुछ शांत समय निकालकर दिन की एक प्राथमिकता चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+options:
+  service:
+    type: service
+    cost: free
+    optional: true
+    user_text:
+      en: If you like, you can give your time to help someone with a task they choose.
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಯಾರಾದರೂ ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ಸಮಯ ನೀಡಿ ನೆರವಾಗಬಹುದು.
+      hi: चाहें तो आप किसी के चुने हुए काम में अपना समय देकर मदद कर सकते हैं।
+  japa:
+    type: mantra-japa
+    cost: free
+    optional: true
+    weekday: Sunday
+    form: nama
+    sources:
+    - title: Navagraha Mantra · Name mantras and weekdays
+      url: https://kundlinaksha.com/blog/navagraha-mantra
+      locator: sun
+    user_text:
+      en: If you like, on Sunday you can quietly repeat “Om Suryaya Namah.”
+      kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಭಾನುವಾರ “ಓಂ ಸೂರ್ಯಾಯ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
+      hi: चाहें तो रविवार को आप “ॐ सूर्याय नमः” मन ही मन दोहरा सकते हैं।
+  charity:
+    type: charity
+    cost: free
+    optional: true
+    sources:
+    - title: Plant World in Hindu Consciousness
+      url: https://vbuss.org/sites/vbuss.org/files/1-Plant-World%20in%20Hindu%20Consciousness%20%281%29.pdf
+      locator: Navadhanya list; grain association. Sharing existing food is an editorial adaptation.
+    user_text:
+      en: If you already have wheat to spare, you can share some with someone who would welcome it.
+      kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಗೋಧಿ ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+      hi: यदि आपके पास अतिरिक्त गेहूँ हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।

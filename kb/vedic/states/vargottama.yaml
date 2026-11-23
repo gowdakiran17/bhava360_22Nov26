@@ -59,6 +59,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Recall two settings in which the same skill helped you.
     kn: ಒಂದೇ ಕೌಶಲ ನಿಮಗೆ ನೆರವಾದ ಎರಡು ಸಂದರ್ಭಗಳನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.

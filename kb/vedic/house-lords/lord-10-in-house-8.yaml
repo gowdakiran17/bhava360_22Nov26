@@ -101,6 +101,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: If you like, write down one shared responsibility you would like to discuss.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನೀವು ಚರ್ಚಿಸಲು ಬಯಸುವ ಒಂದು ಹಂಚಿಕೆಯ ಜವಾಬ್ದಾರಿಯನ್ನು ಬರೆದಿಡಬಹುದು.

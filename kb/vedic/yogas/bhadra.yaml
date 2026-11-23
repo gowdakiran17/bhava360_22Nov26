@@ -55,6 +55,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may enjoy explaining a difficult idea clearly.
     kn: ಕಷ್ಟದ ವಿಚಾರವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ವಿವರಿಸುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.

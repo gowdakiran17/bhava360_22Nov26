@@ -60,6 +60,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You may find it useful to write down a question before answering it.
     kn: ಉತ್ತರಿಸುವ ಮೊದಲು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡುವುದು ನೆರವಾಗಬಹುದು.

@@ -50,6 +50,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can look for two commitments that can support each other.
     kn: ಪರಸ್ಪರ ನೆರವಾಗುವ ಎರಡು ಹೊಣೆಗಳನ್ನು ಗುರುತಿಸಬಹುದು.

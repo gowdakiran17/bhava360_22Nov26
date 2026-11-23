@@ -43,3 +43,4 @@ slot_bindings:
     localized_field: slots.what-you-can-do
     requires: at least one matched area fact
     checker: house-relocation
+summary_profile: summary.yaml

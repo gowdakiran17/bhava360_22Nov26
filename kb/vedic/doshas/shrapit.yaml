@@ -50,6 +50,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can break one task into smaller steps.
     kn: ಒಂದು ಕೆಲಸವನ್ನು ಸಣ್ಣ ಹಂತಗಳಾಗಿ ವಿಂಗಡಿಸಬಹುದು.

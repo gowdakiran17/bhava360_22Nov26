@@ -79,6 +79,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can listen for a few minutes to someone who wants to talk.
     kn: ಮಾತನಾಡಲು ಬಯಸುವವರ ಮಾತನ್ನು ಕೆಲವು ನಿಮಿಷ ಆಲಿಸಬಹುದು.

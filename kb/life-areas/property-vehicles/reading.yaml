@@ -48,3 +48,4 @@ checker_routes:
   property: big-decision-muhurta
   dwelling-fit: house-relocation
   vehicle: vehicle-number
+summary_profile: summary.yaml

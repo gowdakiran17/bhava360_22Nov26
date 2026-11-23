@@ -50,6 +50,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can compare two explanations of the same idea.
     kn: ಒಂದೇ ವಿಚಾರದ ಎರಡು ವಿವರಣೆಗಳನ್ನು ಹೋಲಿಸಬಹುದು.

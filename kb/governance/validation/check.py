@@ -1,4 +1,5 @@
 """Validate the authoring corpus and representative boundary cases (Python 3 + PyYAML)."""
+from life_areas import check_remedy, validate_life_areas
 from collections import Counter
 from pathlib import Path
 import re
@@ -334,6 +335,8 @@ def validate_user_text(node, location, required, supported):
     elif isinstance(node, dict):
         for key, value in node.items():
             field = f'{location}.{key}'
+            if key == 'remedy' and value is not None:
+                check_remedy(value, field, require)
             if key != 'user_text':
                 validate_user_text(value, field, required, supported)
                 continue
@@ -479,6 +482,7 @@ def main():
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)
         for slot in recipe['slot_bindings'].values():
             if 'rule_id' in slot:require(slot['rule_id'] in rules,slot)
+    validate_life_areas(rules, read, require, ROOT)
     for name in areas['checker_ids']:
         recipe=read(f'checkers/{name}/recipe.yaml')
         require(len(recipe['reason_channels'])>=3 and recipe['compare_limit']==3,name)

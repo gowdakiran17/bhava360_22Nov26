@@ -52,6 +52,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: Revisit a note you set aside.
     kn: ಬದಿಗಿಟ್ಟ ಟಿಪ್ಪಣಿಯೊಂದನ್ನು ಮತ್ತೆ ಓದಬಹುದು.

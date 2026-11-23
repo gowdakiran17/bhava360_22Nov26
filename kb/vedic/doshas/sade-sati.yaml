@@ -51,6 +51,7 @@ remedy:
   type: conduct
   optional: true
   free: true
+  cost: free
   user_text:
     en: You can choose one task to finish at a comfortable pace.
     kn: ಒಂದು ಕೆಲಸವನ್ನು ಆರಿಸಿ ಅನುಕೂಲವಾದ ವೇಗದಲ್ಲಿ ಮುಗಿಸಬಹುದು.
