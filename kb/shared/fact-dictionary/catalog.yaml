@@ -2714,3 +2714,54 @@ facts:
     origin: Observed level or downhill sector of the plot. North, northeast and east
       map to north-eastward.
     unknown_if: Observation unavailable or unresolved.
+  palm.guided.hand:
+    type: enum
+    producer: palmistry.guided
+    origin: Physical side explicitly chosen by the user.
+    unknown_if: Consent, hand or confirmed illustrated choice is missing.
+    values:
+    - left
+    - right
+  palm.guided.choice:
+    type: enum
+    producer: palmistry.guided
+    origin: Selected illustrated feature on the bound hand.
+    unknown_if: Consent, hand or confirmed illustrated choice is missing.
+    values:
+    - hands-earth
+    - hands-air
+    - hands-fire
+    - hands-water
+    - mounts-jupiter
+    - mounts-saturn
+    - mounts-apollo
+    - mounts-mercury
+    - mounts-venus
+    - mounts-luna
+    - mounts-mars-upper
+    - mounts-mars-lower
+    - lines-heart
+    - lines-head
+    - lines-life
+    - lines-life-short
+    - lines-life-broken
+    - lines-fate
+    - lines-sun
+    - lines-mercury
+    - marks-cross
+    - marks-star
+    - marks-island
+    - marks-grid
+    - marks-triangle
+    - marks-square
+    - fingers-long
+    - fingers-short
+    - fingers-thumb-long
+    - fingers-thumb-short
+    - lines-union
+    - mounts-mars
+  palm.guided.confirmed:
+    type: boolean
+    producer: palmistry.guided
+    origin: Separate palm consent and manual confirmation for this feature and hand.
+    unknown_if: Consent, hand or confirmed illustrated choice is missing.

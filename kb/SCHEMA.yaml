@@ -208,3 +208,10 @@ tarot_card_entries:
   position_dictionary: tarot/positions/catalog.yaml
   public: Canonical RWS title, position prompt, localized tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply to interpretive text in every locale.
   conventions: Aces have elemental roots; pages have polar quadrants; other courts use the specified rank crosswalk. Element tags for planetary trumps are editorial. No birth chart inference from the draw.
+palmistry_guided_entries:
+  extension: guided
+  intake: palmistry/guided-observations/questions.yaml
+  choices: palmistry/guided-observations/choices.yaml
+  routing: Bind one confirmed choice on its recorded physical hand. Use its hand-specific entry once. Older undifferentiated observations retain their original IDs.
+  public_fields: [localized_tone, user_text, reflection_footer]
+  technical_fields_access: [admin]

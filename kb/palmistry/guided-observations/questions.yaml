@@ -1,14 +1,45 @@
-version: 1
+version: 2
 approval: draft
 order:
-- choose dominant hand
-- confirm shape
-- confirm relative finger length
-- confirm visible lines
-- optionally confirm mounts
+- obtain separate palm-reading consent
+- select left or right hand
+- optionally indicate dominant side
+- choose an illustration, absent or unsure
+- confirm the observation
 answers:
 - confirmed
 - absent
 - unsure
-privacy: Camera denied or poor image → illustrated questions. Unsure provides no matching fact. Reject frames with faces.
-  No fingerprint templates. No health, lifespan or wealth inference.
+privacy: Use only explicit illustrated selections. Discard unconfirmed observations. No image input in the current
+  flow.
+mode: illustrated-self-selection
+choice_catalog: guided-observations/choices.yaml
+dominance:
+- left
+- right
+- mixed
+- unknown
+photo:
+  feature_flag: palm_photo
+  enabled_by_default: false
+  separate_explicit_consent_required: true
+  store_by_default: false
+  retention_days_default: 0
+  photo_ai_enabled: false
+  logging: false
+  training: false
+projection:
+  admin:
+  - selected hand
+  - reported dominance
+  - hand role
+  - confirmed feature
+  - reason
+  - rule ID
+  public:
+  - localized_tone
+  - user_text
+  - reflection_footer
+scope: Life line refers to daily energy, pace and lifestyle only. No medical interpretation, lifespan, accident,
+  marriage or child counts, financial prediction or relationship verdict. Present one reflection per confirmed
+  observation. Do not rank the hands or infer identity.

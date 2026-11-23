@@ -1,0 +1,79 @@
+id: palmistry.marks.grid-left
+system: palmistry
+topic: marks
+title: Crossing sets of short parallel strokes · left hand
+doctrine_profile: palmistry-editorial-v1
+approval: draft
+rule: 'The user confirmed the illustrated choice on the left hand: Crossing sets of short parallel strokes.'
+conditions:
+  all:
+  - fact: palm.guided.hand
+    op: eq
+    value: left
+  - fact: palm.guided.choice
+    op: eq
+    value: marks-grid
+  - fact: palm.guided.confirmed
+    op: eq
+    value: true
+meaning: If several tasks compete for attention, you can choose which one comes first.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: palmistry-editorial-v1
+  note: Western comparative readings often use the dominant hand for practised habits and the other for background
+    tendencies. Historical right/left conventions vary. Use self-reported dominance; mixed or unknown remains
+    unspecified.
+- profile: palmistry-editorial-v1
+  note: One Indian Samudrika witness, Kara-lakkhana verse 3, selects right or left by sex. Other lineages differ.
+    This guided profile lets the person choose either hand and never uses sex to assign it.
+sources:
+- book: Bhava360 palm reflection prompts
+  work_id: bhava360-palm-reflection-prompts
+  edition: bhava360-palm-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: marks-grid
+  supports: Original optional reflection; tone is editorial.
+  verification: pending
+- book: Palmistry for All
+  work_id: cheiro-palmistry
+  edition: cheiro-pg20480
+  chapter: Part II
+  verse: null
+  other_locator: Different Classes of Lines and Right and Left Hands; The Lines of the Hand
+  supports: Cheiro’s feature vocabulary and historical comparison of hands.
+  verification: pending
+- book: The Laws of Scientific Hand Reading
+  work_id: benham-hand
+  edition: benham-hand-web
+  chapter: null
+  verse: null
+  other_locator: Signs on the lines and mounts
+  supports: Western observation terminology, not the public reflection.
+  verification: chapter-only
+- book: Kara-lakkhana (Samudrika Shastra)
+  work_id: samudrika-kara
+  edition: samudrika-kara-web
+  chapter: null
+  verse: null
+  other_locator: Introduction, discussion of verse 3
+  supports: Historical Indian hand selection only.
+  verification: chapter-only
+confidence: medium
+review_notes: Draft. Kannada and Hindi native review pending.
+user_text:
+  en: If several tasks compete for attention, you can choose which one comes first.
+  kn: ಹಲವು ಕೆಲಸಗಳು ಗಮನ ಸೆಳೆಯುತ್ತಿದ್ದರೆ, ಯಾವುದಕ್ಕೆ ಆದ್ಯತೆ ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+  hi: कई काम ध्यान माँग रहे हों तो आप तय कर सकते हैं कि पहले क्या करना है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+guided:
+  hand: left
+  choice: marks-grid
+  tone: Take care
+  reason: This confirmed choice on the left hand selects the editorial prompt about ordering competing tasks.

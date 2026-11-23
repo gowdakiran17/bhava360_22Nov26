@@ -1,0 +1,79 @@
+id: palmistry.fingers.thumb-short-right
+system: palmistry
+topic: fingers
+title: Thumb looks short alongside the palm · right hand
+doctrine_profile: palmistry-editorial-v1
+approval: draft
+rule: 'The user confirmed the illustrated choice on the right hand: Thumb looks short alongside the palm.'
+conditions:
+  all:
+  - fact: palm.guided.hand
+    op: eq
+    value: right
+  - fact: palm.guided.choice
+    op: eq
+    value: fingers-thumb-short
+  - fact: palm.guided.confirmed
+    op: eq
+    value: true
+meaning: You can give yourself time before agreeing to a request.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: palmistry-editorial-v1
+  note: Western comparative readings often use the dominant hand for practised habits and the other for background
+    tendencies. Historical right/left conventions vary. Use self-reported dominance; mixed or unknown remains
+    unspecified.
+- profile: palmistry-editorial-v1
+  note: One Indian Samudrika witness, Kara-lakkhana verse 3, selects right or left by sex. Other lineages differ.
+    This guided profile lets the person choose either hand and never uses sex to assign it.
+sources:
+- book: Bhava360 palm reflection prompts
+  work_id: bhava360-palm-reflection-prompts
+  edition: bhava360-palm-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: fingers-thumb-short
+  supports: Original optional reflection; tone is editorial.
+  verification: pending
+- book: Palmistry for All
+  work_id: cheiro-palmistry
+  edition: cheiro-pg20480
+  chapter: Part II
+  verse: null
+  other_locator: Different Classes of Lines and Right and Left Hands; The Thumb and hand shapes
+  supports: Cheiro’s feature vocabulary and historical comparison of hands.
+  verification: pending
+- book: The Laws of Scientific Hand Reading
+  work_id: benham-hand
+  edition: benham-hand-web
+  chapter: null
+  verse: null
+  other_locator: The Finger Tips; The Thumb
+  supports: Western observation terminology, not the public reflection.
+  verification: chapter-only
+- book: Kara-lakkhana (Samudrika Shastra)
+  work_id: samudrika-kara
+  edition: samudrika-kara-web
+  chapter: null
+  verse: null
+  other_locator: Introduction, discussion of verse 3
+  supports: Historical Indian hand selection only.
+  verification: chapter-only
+confidence: medium
+review_notes: Draft. Kannada and Hindi native review pending.
+user_text:
+  en: You can give yourself time before agreeing to a request.
+  kn: ವಿನಂತಿಗೆ ಒಪ್ಪುವ ಮೊದಲು ಯೋಚಿಸಲು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: किसी अनुरोध पर सहमति देने से पहले आप सोचने का समय ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+guided:
+  hand: right
+  choice: fingers-thumb-short
+  tone: Steady
+  reason: This confirmed choice on the right hand selects the editorial prompt about taking time before a commitment.

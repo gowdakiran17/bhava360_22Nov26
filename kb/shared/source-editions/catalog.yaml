@@ -1,5 +1,8 @@
 version: 1
 works:
+  modern-elemental-hands: Palmistry handouts
+  samudrika-kara: Kara-lakkhana (Samudrika Shastra)
+  benham-hand: The Laws of Scientific Hand Reading
   golden-dawn-book-t: Book T, The Tarot
   vastu-building-plan: Building Planning and Design
   vastu-direction-table: Planets and Deities of the Directions
@@ -69,6 +72,24 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  modern-elemental-hands-web:
+    work_id: modern-elemental-hands
+    edition_id: modern-elemental-hands-web
+    title_as_printed: Palmistry handouts
+    text: https://hastingscommons.com/wp-content/uploads/2025/03/Palmistry-handouts.pdf
+    language: English
+  samudrika-kara-web:
+    work_id: samudrika-kara
+    edition_id: samudrika-kara-web
+    title_as_printed: Kara-lakkhana (Samudrika Shastra)
+    text: https://www.ebharatisampat.in/pdfs/ebharati-pdf-1620824944KaraLakkhanaPraphullaKumarModi.pdf
+    language: English
+  benham-hand-web:
+    work_id: benham-hand
+    edition_id: benham-hand-web
+    title_as_printed: The Laws of Scientific Hand Reading
+    text: https://books.google.com/books?id=tsTlrHkJgiUC
+    language: English
   golden-dawn-book-t-transcript:
     work_id: golden-dawn-book-t
     edition_id: golden-dawn-book-t-transcript

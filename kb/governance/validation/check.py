@@ -380,6 +380,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system']=='palmistry' and 'guided' in data:
+            expected_fields.add('guided')
         if data['system']=='tarot':
             expected_fields.add('card_profile')
         if data['system']=='vastu' and 'vastu' in data:
@@ -505,6 +507,8 @@ def main():
             require(len(matched)==1,(card,orientation))
     from tarot_cards import validate_tarot
     validate_tarot(rules,read,require,ROOT)
+    from palmistry import validate_palmistry
+    validate_palmistry(rules,read,require,ROOT,evaluate)
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
     from muhurta import validate_muhurta

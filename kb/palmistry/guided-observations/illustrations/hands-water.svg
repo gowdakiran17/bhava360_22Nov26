@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 226" role="img" aria-labelledby="label">
+  <title id="label">Long palm, longer fingers</title>
+  <g transform="translate(18 0) scale(0.8 1)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 211 Q51 194 40 171 L17 138 Q13 126 22 129 Q29 129 34 137 L52 149 Q55 135 56 115 L56 28.8 Q56 9.9 66 9.9 Q76 9.9 76 28.8 L77 102 L80 8.7 Q80 -9.0 90 -9.0 Q101 -9.0 101 8.7 L101 99 L104 18.1 Q104 1.6 114 1.6 Q125 1.6 125 18.1 L124 105 L129 52.4 Q131 37.0 140 39.4 Q150 40.6 148 58.3 L147 111 Q157 144 147 176 Q141 194 133 211 Z" fill="#fbf4e8" stroke="#514942" stroke-width="2.5"/>
+    <g fill="none" stroke="#994615" stroke-width="3"><path d="M90 0.4 L90 99 M95 114 L95 199" stroke-dasharray="4 5"/></g>
+  </g>
+</svg>

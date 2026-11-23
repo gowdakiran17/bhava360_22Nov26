@@ -1,0 +1,356 @@
+version: 1
+illustration_view: Right palm facing the viewer, fingers upward. Mirror illustrations horizontally for the left
+  hand. Amber marks indicate the option being compared; proportions are qualitative.
+choices:
+  hands-earth:
+    group: hands
+    option: earth
+    label:
+      en: Square palm, shorter fingers
+      kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+      hi: चौकोर हथेली, छोटी उँगलियाँ
+    illustration: guided-observations/illustrations/hands-earth.svg
+    rules:
+      left: palmistry.hands.earth-left
+      right: palmistry.hands.earth-right
+  hands-air:
+    group: hands
+    option: air
+    label:
+      en: Square palm, longer fingers
+      kn: ಚೌಕಾಕಾರದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+      hi: चौकोर हथेली, लंबी उँगलियाँ
+    illustration: guided-observations/illustrations/hands-air.svg
+    rules:
+      left: palmistry.hands.air-left
+      right: palmistry.hands.air-right
+  hands-fire:
+    group: hands
+    option: fire
+    label:
+      en: Long palm, shorter fingers
+      kn: ಉದ್ದ ಅಂಗೈ, ಚಿಕ್ಕ ಬೆರಳುಗಳು
+      hi: लंबी हथेली, छोटी उँगलियाँ
+    illustration: guided-observations/illustrations/hands-fire.svg
+    rules:
+      left: palmistry.hands.fire-left
+      right: palmistry.hands.fire-right
+  hands-water:
+    group: hands
+    option: water
+    label:
+      en: Long palm, longer fingers
+      kn: ಉದ್ದ ಅಂಗೈ, ಉದ್ದ ಬೆರಳುಗಳು
+      hi: लंबी हथेली, लंबी उँगलियाँ
+    illustration: guided-observations/illustrations/hands-water.svg
+    rules:
+      left: palmistry.hands.water-left
+      right: palmistry.hands.water-right
+  mounts-jupiter:
+    group: mounts
+    option: jupiter
+    label:
+      en: Raised pad beneath the index finger
+      kn: ತೋರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+      hi: तर्जनी के नीचे उभरा भाग
+    illustration: guided-observations/illustrations/mounts-jupiter.svg
+    rules:
+      left: palmistry.mounts.jupiter-left
+      right: palmistry.mounts.jupiter-right
+  mounts-saturn:
+    group: mounts
+    option: saturn
+    label:
+      en: Raised pad beneath the middle finger
+      kn: ಮಧ್ಯದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+      hi: मध्यमा के नीचे उभरा भाग
+    illustration: guided-observations/illustrations/mounts-saturn.svg
+    rules:
+      left: palmistry.mounts.saturn-left
+      right: palmistry.mounts.saturn-right
+  mounts-apollo:
+    group: mounts
+    option: apollo
+    label:
+      en: Raised pad beneath the ring finger
+      kn: ಉಂಗುರದ ಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+      hi: अनामिका के नीचे उभरा भाग
+    illustration: guided-observations/illustrations/mounts-apollo.svg
+    rules:
+      left: palmistry.mounts.apollo-left
+      right: palmistry.mounts.apollo-right
+  mounts-mercury:
+    group: mounts
+    option: mercury
+    label:
+      en: Raised pad beneath the little finger
+      kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗೆ ಎದ್ದು ಕಾಣುವ ಭಾಗ
+      hi: कनिष्ठा के नीचे उभरा भाग
+    illustration: guided-observations/illustrations/mounts-mercury.svg
+    rules:
+      left: palmistry.mounts.mercury-left
+      right: palmistry.mounts.mercury-right
+  mounts-venus:
+    group: mounts
+    option: venus
+    label:
+      en: Rounded pad at the base of the thumb
+      kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ದುಂಡಾದ ಭಾಗ
+      hi: अँगूठे के आधार पर गोल उभार
+    illustration: guided-observations/illustrations/mounts-venus.svg
+    rules:
+      left: palmistry.mounts.venus-left
+      right: palmistry.mounts.venus-right
+  mounts-luna:
+    group: mounts
+    option: luna
+    label:
+      en: Raised outer pad near the wrist
+      kn: ಮಣಿಕಟ್ಟಿನ ಬಳಿ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+      hi: कलाई के पास बाहरी किनारे पर उभार
+    illustration: guided-observations/illustrations/mounts-luna.svg
+    rules:
+      left: palmistry.mounts.luna-left
+      right: palmistry.mounts.luna-right
+  mounts-mars-upper:
+    group: mounts
+    option: mars-upper
+    label:
+      en: Raised outer edge between the little-finger pad and Moon pad
+      kn: ಕಿರುಬೆರಳಿನ ಕೆಳಗಿನ ಭಾಗ ಮತ್ತು ಚಂದ್ರ ಭಾಗದ ನಡುವಿನ ಹೊರ ಅಂಚಿನ ಉಬ್ಬು
+      hi: कनिष्ठा और चंद्र क्षेत्र के बीच बाहरी किनारे पर उभार
+    illustration: guided-observations/illustrations/mounts-mars-upper.svg
+    rules:
+      left: palmistry.mounts.mars-upper-left
+      right: palmistry.mounts.mars-upper-right
+  mounts-mars-lower:
+    group: mounts
+    option: mars-lower
+    label:
+      en: Raised area inside the thumb–index web above the thumb pad
+      kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಮೇಲೆ, ತೋರುಬೆರಳಿನ ಕಡೆಗಿನ ಉಬ್ಬು
+      hi: अँगूठे के उभार के ऊपर तर्जनी की ओर उभरा भाग
+    illustration: guided-observations/illustrations/mounts-mars-lower.svg
+    rules:
+      left: palmistry.mounts.mars-lower-left
+      right: palmistry.mounts.mars-lower-right
+  lines-heart:
+    group: lines
+    option: heart
+    label:
+      en: Upper crease crossing the palm below the fingers
+      kn: ಬೆರಳುಗಳ ಕೆಳಗಿನ ಮೇಲಿನ ಅಡ್ಡ ಗೆರೆ
+      hi: उँगलियों के नीचे ऊपरी आड़ी रेखा
+    illustration: guided-observations/illustrations/lines-heart.svg
+    rules:
+      left: palmistry.lines.heart-left
+      right: palmistry.lines.heart-right
+  lines-head:
+    group: lines
+    option: head
+    label:
+      en: Middle crease crossing the palm
+      kn: ಅಂಗೈ ಮಧ್ಯದ ಅಡ್ಡ ಗೆರೆ
+      hi: हथेली के बीच की आड़ी रेखा
+    illustration: guided-observations/illustrations/lines-head.svg
+    rules:
+      left: palmistry.lines.head-left
+      right: palmistry.lines.head-right
+  lines-life:
+    group: lines
+    option: life
+    label:
+      en: Arc around the base of the thumb
+      kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡವನ್ನು ಸುತ್ತುವ ಬಾಗಿದ ಗೆರೆ
+      hi: अँगूठे के आधार के चारों ओर मुड़ती रेखा
+    illustration: guided-observations/illustrations/lines-life.svg
+    rules:
+      left: palmistry.lines.life-left
+      right: palmistry.lines.life-right
+  lines-life-short:
+    group: lines
+    option: life-short
+    label:
+      en: Thumb-side arc ending partway around the pad
+      kn: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಸುತ್ತ ಅರ್ಧದಲ್ಲೇ ಕೊನೆಗೊಳ್ಳುವ ಗೆರೆ
+      hi: अँगूठे के उभार के चारों ओर कुछ दूर जाकर समाप्त होती रेखा
+    illustration: guided-observations/illustrations/lines-life-short.svg
+    rules:
+      left: palmistry.lines.life-short-left
+      right: palmistry.lines.life-short-right
+  lines-life-broken:
+    group: lines
+    option: life-broken
+    label:
+      en: Thumb-side arc with a visible gap
+      kn: ಹೆಬ್ಬೆರಳಿನ ಬದಿಯ ಬಾಗಿದ ಗೆರೆಯಲ್ಲಿ ಅಂತರ
+      hi: अँगूठे की ओर मुड़ती रेखा में दिखाई देता अंतर
+    illustration: guided-observations/illustrations/lines-life-broken.svg
+    rules:
+      left: palmistry.lines.life-broken-left
+      right: palmistry.lines.life-broken-right
+  lines-fate:
+    group: lines
+    option: fate
+    label:
+      en: Upright crease toward the middle finger
+      kn: ಮಧ್ಯದ ಬೆರಳಿನತ್ತ ಸಾಗುವ ಲಂಬ ಗೆರೆ
+      hi: मध्यमा की ओर जाती खड़ी रेखा
+    illustration: guided-observations/illustrations/lines-fate.svg
+    rules:
+      left: palmistry.lines.fate-left
+      right: palmistry.lines.fate-right
+  lines-sun:
+    group: lines
+    option: sun
+    label:
+      en: Upright crease toward the ring finger
+      kn: ಉಂಗುರದ ಬೆರಳಿನತ್ತ ಸಾಗುವ ಲಂಬ ಗೆರೆ
+      hi: अनामिका की ओर जाती खड़ी रेखा
+    illustration: guided-observations/illustrations/lines-sun.svg
+    rules:
+      left: palmistry.lines.sun-left
+      right: palmistry.lines.sun-right
+  lines-mercury:
+    group: lines
+    option: mercury
+    label:
+      en: Slanting crease toward the little finger
+      kn: ಕಿರುಬೆರಳಿನತ್ತ ಸಾಗುವ ಓರೆ ಗೆರೆ
+      hi: कनिष्ठा की ओर जाती तिरछी रेखा
+    illustration: guided-observations/illustrations/lines-mercury.svg
+    rules:
+      left: palmistry.lines.mercury-left
+      right: palmistry.lines.mercury-right
+  marks-cross:
+    group: marks
+    option: cross
+    label:
+      en: Two intersecting strokes
+      kn: ಅಡ್ಡಹಾಯುವ ಎರಡು ಗೆರೆಗಳು
+      hi: एक दूसरे को काटती दो रेखाएँ
+    illustration: guided-observations/illustrations/marks-cross.svg
+    rules:
+      left: palmistry.marks.cross-left
+      right: palmistry.marks.cross-right
+  marks-star:
+    group: marks
+    option: star
+    label:
+      en: Several strokes meeting at one point
+      kn: ಒಂದು ಬಿಂದುವಿನಲ್ಲಿ ಸೇರುವ ಹಲವು ಗೆರೆಗಳು
+      hi: एक बिंदु पर मिलती कई रेखाएँ
+    illustration: guided-observations/illustrations/marks-star.svg
+    rules:
+      left: palmistry.marks.star-left
+      right: palmistry.marks.star-right
+  marks-island:
+    group: marks
+    option: island
+    label:
+      en: One crease dividing and rejoining in a small loop
+      kn: ಕವಲಾಗಿ ಮತ್ತೆ ಸೇರುವ ಪುಟ್ಟ ಕುಣಿಕೆಯ ಗೆರೆ
+      hi: दो भागों में बँटकर फिर मिलती छोटी घेरानुमा रेखा
+    illustration: guided-observations/illustrations/marks-island.svg
+    rules:
+      left: palmistry.marks.island-left
+      right: palmistry.marks.island-right
+  marks-grid:
+    group: marks
+    option: grid
+    label:
+      en: Crossing sets of short parallel strokes
+      kn: ಅಡ್ಡಹಾಯುವ ಸಮಾಂತರ ಸಣ್ಣ ಗೆರೆಗಳ ಗುಂಪು
+      hi: एक दूसरे को काटते छोटी समानांतर रेखाओं के समूह
+    illustration: guided-observations/illustrations/marks-grid.svg
+    rules:
+      left: palmistry.marks.grid-left
+      right: palmistry.marks.grid-right
+  marks-triangle:
+    group: marks
+    option: triangle
+    label:
+      en: Three strokes closing a triangular space
+      kn: ತ್ರಿಕೋನ ರೂಪಿಸುವ ಮೂರು ಗೆರೆಗಳು
+      hi: त्रिकोण बनाती तीन रेखाएँ
+    illustration: guided-observations/illustrations/marks-triangle.svg
+    rules:
+      left: palmistry.marks.triangle-left
+      right: palmistry.marks.triangle-right
+  marks-square:
+    group: marks
+    option: square
+    label:
+      en: Four strokes enclosing a small quadrangle
+      kn: ಚತುರ್ಭುಜ ರೂಪಿಸುವ ನಾಲ್ಕು ಗೆರೆಗಳು
+      hi: चार रेखाओं से घिरा छोटा चौकोर भाग
+    illustration: guided-observations/illustrations/marks-square.svg
+    rules:
+      left: palmistry.marks.square-left
+      right: palmistry.marks.square-right
+  fingers-long:
+    group: fingers
+    option: long
+    label:
+      en: Fingers look long relative to the palm
+      kn: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಉದ್ದದ ಬೆರಳುಗಳು
+      hi: हथेली की तुलना में लंबी उँगलियाँ
+    illustration: guided-observations/illustrations/fingers-long.svg
+    rules:
+      left: palmistry.fingers.long-left
+      right: palmistry.fingers.long-right
+  fingers-short:
+    group: fingers
+    option: short
+    label:
+      en: Fingers look short relative to the palm
+      kn: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಚಿಕ್ಕ ಬೆರಳುಗಳು
+      hi: हथेली की तुलना में छोटी उँगलियाँ
+    illustration: guided-observations/illustrations/fingers-short.svg
+    rules:
+      left: palmistry.fingers.short-left
+      right: palmistry.fingers.short-right
+  fingers-thumb-long:
+    group: fingers
+    option: thumb-long
+    label:
+      en: Thumb looks long alongside the palm
+      kn: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಉದ್ದವಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು
+      hi: हथेली के अनुपात में लंबा दिखता अँगूठा
+    illustration: guided-observations/illustrations/fingers-thumb-long.svg
+    rules:
+      left: palmistry.fingers.thumb-long-left
+      right: palmistry.fingers.thumb-long-right
+  fingers-thumb-short:
+    group: fingers
+    option: thumb-short
+    label:
+      en: Thumb looks short alongside the palm
+      kn: ಅಂಗೈ ಪಕ್ಕದಲ್ಲಿ ಚಿಕ್ಕದಾಗಿ ಕಾಣುವ ಹೆಬ್ಬೆರಳು
+      hi: हथेली के अनुपात में छोटा दिखता अँगूठा
+    illustration: guided-observations/illustrations/fingers-thumb-short.svg
+    rules:
+      left: palmistry.fingers.thumb-short-left
+      right: palmistry.fingers.thumb-short-right
+  lines-union:
+    group: lines
+    option: union
+    label:
+      en: Short horizontal crease at the outer palm edge
+      kn: ಅಂಗೈ ಹೊರ ಅಂಚಿನ ಪುಟ್ಟ ಅಡ್ಡ ಗೆರೆ
+      hi: हथेली के बाहरी किनारे की छोटी आड़ी रेखा
+    illustration: guided-observations/illustrations/lines-union.svg
+    rules:
+      left: palmistry.lines.union-left
+      right: palmistry.lines.union-right
+  mounts-mars:
+    group: mounts
+    option: mars
+    label:
+      en: A raised Mars area, location uncertain
+      kn: ಮಂಗಳ ಭಾಗದಲ್ಲಿ ಉಬ್ಬು, ನಿಖರ ಸ್ಥಳ ತಿಳಿದಿಲ್ಲ
+      hi: मंगल क्षेत्र में उभार, सटीक भाग स्पष्ट नहीं
+    illustration: guided-observations/illustrations/mounts-mars.svg
+    rules:
+      left: palmistry.mounts.mars-left
+      right: palmistry.mounts.mars-right

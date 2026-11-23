@@ -4,7 +4,7 @@ inputs:
   timing: Use the current timing city or label the fallback. Preserve the original natal instant and place.
   ai: With consent, allow first name and minimum derived evidence only. Exclude contact details, raw identifiers, exact coordinates and raw images from text prompts.
   mobile_and_vehicle: Process raw numbers in memory. Never log or send them to AI. Persist only by explicit save.
-  palm: Separate consent, immediate deletion by default, optional 30-day retention. Only confirmed features enter the reading.
+  palm: Separate reading consent and confirmed illustrated choices only. Future photo input is disabled by default and requires separate explicit consent. Default retention is zero days.
   face: On-device only with immediate photo deletion. Exclude sensitive-trait inference.
   fixtures: Synthetic only, excluded from production retrieval.
 copy:

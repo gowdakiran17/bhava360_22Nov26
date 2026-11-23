@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 226" role="img" aria-labelledby="label">
+  <title id="label">Thumb-side arc ending partway around the pad</title>
+  <g transform="translate(0 0) scale(1 1)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 211 Q51 194 40 171 L17 138 Q13 126 22 129 Q29 129 34 137 L52 149 Q55 135 56 115 L56 47.1 Q56 32.6 66 32.6 Q76 32.6 76 47.1 L77 102 L80 31.6 Q80 18.0 90 18.0 Q101 18.0 101 31.6 L101 99 L104 38.9 Q104 26.2 114 26.2 Q125 26.2 125 38.9 L124 105 L129 65.3 Q131 53.5 140 55.3 Q150 56.2 148 69.9 L147 111 Q157 144 147 176 Q141 194 133 211 Z" fill="#fbf4e8" stroke="#514942" stroke-width="2.5"/>
+    <g fill="none" stroke="#994615" stroke-width="3"><path d="M56 129 Q74 140 76 153"/></g>
+  </g>
+</svg>

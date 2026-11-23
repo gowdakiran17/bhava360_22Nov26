@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 226" role="img" aria-labelledby="label">
+  <title id="label">Fingers look short relative to the palm</title>
+  <g transform="translate(0 0) scale(1 1)" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M64 211 Q51 194 40 171 L17 138 Q13 126 22 129 Q29 129 34 137 L52 149 Q55 135 56 115 L56 63.4 Q56 52.7 66 52.7 Q76 52.7 76 63.4 L77 102 L80 52.0 Q80 42.0 90 42.0 Q101 42.0 101 52.0 L101 99 L104 57.4 Q104 48.0 114 48.0 Q125 48.0 125 57.4 L124 105 L129 76.8 Q131 68.1 140 69.5 Q150 70.1 148 80.2 L147 111 Q157 144 147 176 Q141 194 133 211 Z" fill="#fbf4e8" stroke="#514942" stroke-width="2.5"/>
+    <g fill="none" stroke="#994615" stroke-width="3"><path d="M90 47.4 L90 99 M95 114 L95 199" stroke-dasharray="4 5"/></g>
+  </g>
+</svg>

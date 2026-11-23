@@ -1,0 +1,79 @@
+id: palmistry.mounts.apollo-left
+system: palmistry
+topic: mounts
+title: Raised pad beneath the ring finger · left hand
+doctrine_profile: palmistry-editorial-v1
+approval: draft
+rule: 'The user confirmed the illustrated choice on the left hand: Raised pad beneath the ring finger.'
+conditions:
+  all:
+  - fact: palm.guided.hand
+    op: eq
+    value: left
+  - fact: palm.guided.choice
+    op: eq
+    value: mounts-apollo
+  - fact: palm.guided.confirmed
+    op: eq
+    value: true
+meaning: You can set aside time for something you enjoy making.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: palmistry-editorial-v1
+  note: Western comparative readings often use the dominant hand for practised habits and the other for background
+    tendencies. Historical right/left conventions vary. Use self-reported dominance; mixed or unknown remains
+    unspecified.
+- profile: palmistry-editorial-v1
+  note: One Indian Samudrika witness, Kara-lakkhana verse 3, selects right or left by sex. Other lineages differ.
+    This guided profile lets the person choose either hand and never uses sex to assign it.
+sources:
+- book: Bhava360 palm reflection prompts
+  work_id: bhava360-palm-reflection-prompts
+  edition: bhava360-palm-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: mounts-apollo
+  supports: Original optional reflection; tone is editorial.
+  verification: pending
+- book: Palmistry for All
+  work_id: cheiro-palmistry
+  edition: cheiro-pg20480
+  chapter: Part II
+  verse: null
+  other_locator: Different Classes of Lines and Right and Left Hands; The Mounts of the Hand
+  supports: Cheiro’s feature vocabulary and historical comparison of hands.
+  verification: pending
+- book: The Laws of Scientific Hand Reading
+  work_id: benham-hand
+  edition: benham-hand-web
+  chapter: null
+  verse: null
+  other_locator: The Mounts; apollo
+  supports: Western observation terminology, not the public reflection.
+  verification: chapter-only
+- book: Kara-lakkhana (Samudrika Shastra)
+  work_id: samudrika-kara
+  edition: samudrika-kara-web
+  chapter: null
+  verse: null
+  other_locator: Introduction, discussion of verse 3
+  supports: Historical Indian hand selection only.
+  verification: chapter-only
+confidence: medium
+review_notes: Draft. Kannada and Hindi native review pending.
+user_text:
+  en: You can set aside time for something you enjoy making.
+  kn: ನೀವು ಆಸಕ್ತಿಯಿಂದ ರಚಿಸುವ ಕೆಲಸಕ್ಕೆ ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+  hi: आप अपनी पसंद की कोई चीज़ बनाने के लिए समय रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+guided:
+  hand: left
+  choice: mounts-apollo
+  tone: Supportive
+  reason: This confirmed choice on the left hand selects the editorial prompt about making time for creativity.

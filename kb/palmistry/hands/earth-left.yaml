@@ -1,0 +1,87 @@
+id: palmistry.hands.earth-left
+system: palmistry
+topic: hands
+title: Square palm, shorter fingers · left hand
+doctrine_profile: palmistry-editorial-v1
+approval: draft
+rule: 'The user confirmed the illustrated choice on the left hand: Square palm, shorter fingers.'
+conditions:
+  all:
+  - fact: palm.guided.hand
+    op: eq
+    value: left
+  - fact: palm.guided.choice
+    op: eq
+    value: hands-earth
+  - fact: palm.guided.confirmed
+    op: eq
+    value: true
+meaning: You can start a practical task with one small step.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: palmistry-editorial-v1
+  note: Western comparative readings often use the dominant hand for practised habits and the other for background
+    tendencies. Historical right/left conventions vary. Use self-reported dominance; mixed or unknown remains
+    unspecified.
+- profile: palmistry-editorial-v1
+  note: One Indian Samudrika witness, Kara-lakkhana verse 3, selects right or left by sex. Other lineages differ.
+    This guided profile lets the person choose either hand and never uses sex to assign it.
+sources:
+- book: Bhava360 palm reflection prompts
+  work_id: bhava360-palm-reflection-prompts
+  edition: bhava360-palm-reflection-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: hands-earth
+  supports: Original optional reflection; tone is editorial.
+  verification: pending
+- book: Palmistry for All
+  work_id: cheiro-palmistry
+  edition: cheiro-pg20480
+  chapter: Part II
+  verse: null
+  other_locator: Different Classes of Lines and Right and Left Hands; The Thumb and hand shapes
+  supports: Cheiro’s feature vocabulary and historical comparison of hands.
+  verification: pending
+- book: The Laws of Scientific Hand Reading
+  work_id: benham-hand
+  edition: benham-hand-web
+  chapter: null
+  verse: null
+  other_locator: The Hand
+  supports: Western observation terminology, not the public reflection.
+  verification: chapter-only
+- book: Kara-lakkhana (Samudrika Shastra)
+  work_id: samudrika-kara
+  edition: samudrika-kara-web
+  chapter: null
+  verse: null
+  other_locator: Introduction, discussion of verse 3
+  supports: Historical Indian hand selection only.
+  verification: chapter-only
+- book: Palmistry handouts
+  work_id: modern-elemental-hands
+  edition: modern-elemental-hands-web
+  chapter: null
+  verse: null
+  other_locator: Four illustrated combinations of palm shape and finger length.
+  supports: Modern element labels for the four silhouettes.
+  verification: chapter-only
+confidence: medium
+review_notes: Draft. Kannada and Hindi native review pending.
+user_text:
+  en: You can start a practical task with one small step.
+  kn: ಒಂದು ಸಣ್ಣ ಹೆಜ್ಜೆಯಿಂದ ಪ್ರಾಯೋಗಿಕ ಕೆಲಸವನ್ನು ಆರಂಭಿಸಬಹುದು.
+  hi: आप कोई व्यावहारिक काम एक छोटे कदम से शुरू कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+guided:
+  hand: left
+  choice: hands-earth
+  tone: Steady
+  reason: This confirmed choice on the left hand selects the editorial prompt about practical first steps.
