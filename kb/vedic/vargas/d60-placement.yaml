@@ -1,0 +1,97 @@
+id: vedic.vargas.d60-placement
+system: vedic
+topic: vargas
+title: D60 · Shashtyamsa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Count forward from the natal sign in half-degree steps. Use 60 equal half-open parts of 30°/60. An exact
+  boundary opens the next part.
+conditions:
+  all:
+  - fact: varga.d60.verified_placement
+    op: eq
+    value: true
+meaning: With a closely established birth time, you may explore small distinctions in a theme already visible
+  in the natal chart.
+life_areas:
+- spirituality
+strength_notes:
+- when:
+    fact: varga.reading.topic_supported
+    op: eq
+    value: true
+  effect: stronger
+  reason: Give the theme more interpretive weight when the relevant house and its ruler both support it.
+exceptions:
+- when:
+    fact: varga.reading.house_unstable
+    op: eq
+    value: true
+  effect: cancel
+  reason: Omit this house-based reading if the divisional Lagna or the referenced house changes within the birth-time
+    range.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Other methods start all signs at Aries or reverse even signs. The ordering of named sixtyfold portions
+    also varies and does not by itself select a chart-sign method.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 33–41
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 7
+  verse: 6, 20–24, 37, 43
+  other_locator: null
+  supports: Varga topic, Vimshopaka group weights and house-lord principle. The listed reading priorities are
+    editorial applications.
+  verification: verified
+- work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  book: PyJHora
+  chapter: null
+  verse: null
+  other_locator: shashtyamsa_chart in charts.py and Vimshopaka tables in const.py
+  supports: Calculation comparator and numerical weights.
+  verification: verified
+confidence: disputed
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending. D60 interpretation
+  remains held pending method approval.
+user_text:
+  en: With a closely established birth time, you may explore small distinctions in a theme already visible in
+    the natal chart.
+  kn: ಜನ್ಮಸಮಯ ನಿಖರವಾಗಿ ತಿಳಿದಿದ್ದರೆ ಜನ್ಮಕುಂಡಲಿಯಲ್ಲಿ ಕಾಣುವ ವಿಷಯದ ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: जन्म समय सटीक रूप से ज्ञात हो तो आप जन्मकुंडली में दिख रहे किसी विषय की बारीकियाँ देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, write down one example from your own experience.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಅನುಭವದ ಒಂದು ಉದಾಹರಣೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो अपने अनुभव से एक उदाहरण लिख सकते हैं।
+varga:
+  method_id: parashari-d60-v1
+  calculation:
+    parts: 60
+    seed: natal
+    stride: 1
+  whole_sign_houses:
+    1: fine context for the question
+    9: values and inherited teachings
+  lords: From this divisional Lagna, identify the classical ruler of each listed house sign and read its placement
+    in this chart.
+  d1_anchor: Compare the D1 topic house and its ruler with the corresponding divisional houses and their rulers.
+  vimshopaka_points:
+    shodasavarga: 4
+    dashavarga: 5
+  purpose: subtle distinctions

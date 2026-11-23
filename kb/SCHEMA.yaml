@@ -121,3 +121,12 @@ vedic_house_lord_entries:
 vedic_dosha_entries:
   reference_paths: Matching and transit entries link to their governing KB tables using kb-relative paths.
   evaluation: Preserve natal formation separately from any relief, pair-only adjustment or timed interval.
+vedic_varga_entries:
+  extension: varga
+  method_catalog: vedic/vargas/methods.yaml
+  input: Use the same unrounded sidereal longitude for the selected point or Lagna in every division. Normalize modulo 360 degrees.
+  equal_parts: With zero-based natal sign and part indices, take floor(degrees within sign × parts / 30). Add stride × part to the seed modulo 12. The D2 rows give the result directly.
+  unequal_parts: D30 selects the parity row using lower-inclusive, upper-exclusive band edges in degrees.
+  seed_order: Aries is odd. Parity runs odd/even, modality movable/fixed/dual, element fire/earth/air/water.
+  reading: Count houses from the divisional Lagna. Recompute it throughout the stated birth-time uncertainty. Use each method's existing read_access setting.
+  weights: Absolute Vimshopaka points within each 20-point scheme. Zero marks a chart outside the ten-chart scheme. These are weights for planetary dignity aggregation.

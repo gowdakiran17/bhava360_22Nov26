@@ -4,33 +4,93 @@ topic: vargas
 title: D4 · Chaturthamsa
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use a stable D4 placement alongside its D1 context.
+rule: Count the first, fourth, seventh and tenth signs from the natal sign. Use 4 equal half-open parts of 30°/4.
+  An exact boundary opens the next part.
 conditions:
   all:
   - fact: varga.d4.verified_placement
     op: eq
     value: true
-meaning: This chart supplies a supplementary lens on home.
-life_areas: [family-home, property-vehicles]
-strength_notes: []
-exceptions: []
-traditions_differ: []
+meaning: You may reflect on which kinds of support help a place feel like home.
+life_areas:
+- family-home
+- property-vehicles
+- travel-relocation
+strength_notes:
+- when:
+    fact: varga.reading.topic_supported
+    op: eq
+    value: true
+  effect: stronger
+  reason: Give the theme more interpretive weight when the relevant house and its ruler both support it.
+exceptions:
+- when:
+    fact: varga.reading.house_unstable
+    op: eq
+    value: true
+  effect: cancel
+  reason: Omit this house-based reading if the divisional Lagna or the referenced house changes within the birth-time
+    range.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Cyclic Chaturthamsa advances one sign per quarter. The selected method moves between angular signs.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: '9'
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 7
+  verse: 2, 20–24, 37, 43
+  other_locator: null
+  supports: Varga topic, Vimshopaka group weights and house-lord principle. The listed reading priorities are
+    editorial applications.
+  verification: verified
+- work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  book: PyJHora
   chapter: null
   verse: null
-  other_locator: Shodashavarga chapter, division Chaturthamsa
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: chaturthamsa_chart in charts.py and Vimshopaka tables in const.py
+  supports: Calculation comparator and numerical weights.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending.
 user_text:
-  en: You can explore home alongside this placement.
-  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಮನೆ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस स्थिति के साथ “घर” पर विचार कर सकते हैं।
+  en: You may reflect on which kinds of support help a place feel like home.
+  kn: ಯಾವ ಬೆಂಬಲದಿಂದ ಒಂದು ಸ್ಥಳ ನಿಮ್ಮ ಮನೆಯಂತೆ ಅನಿಸುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि किस तरह के सहारे से कोई जगह घर जैसी लगती है।
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, write down one example from your own experience.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಅನುಭವದ ಒಂದು ಉದಾಹರಣೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो अपने अनुभव से एक उदाहरण लिख सकते हैं।
+varga:
+  method_id: parashari-d4-v1
+  calculation:
+    parts: 4
+    seed: natal
+    stride: 3
+  whole_sign_houses:
+    1: settling in
+    4: dwelling and land
+    9: support and fortune
+  lords: From this divisional Lagna, identify the classical ruler of each listed house sign and read its placement
+    in this chart.
+  d1_anchor: Compare the D1 topic house and its ruler with the corresponding divisional houses and their rulers.
+  vimshopaka_points:
+    shodasavarga: 0.5
+    dashavarga: 0
+  purpose: home

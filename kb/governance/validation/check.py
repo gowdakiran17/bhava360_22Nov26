@@ -366,7 +366,7 @@ def main():
         if system_dir in VEDIC_SYSTEMS:
             if 'rule' in data:
                 inputs = [data['conditions'], *[m['when'] for m in data['strength_notes'] + data['exceptions']]]
-                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state', 'placement', 'house_pair') if k in data)
+                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state', 'placement', 'house_pair', 'varga') if k in data)
             else:
                 # Calculation tables include candidate lists, weights and lord assignments.
                 inputs = data
@@ -381,6 +381,8 @@ def main():
             expected_fields.add('placement')
         if data['topic'] == 'planets-in-houses' and 'related_rules' in data:
             expected_fields.add('related_rules')
+        if data['system'] == 'vedic' and data['topic'] == 'vargas':
+            expected_fields.add('varga')
         if data['system'] == 'vedic' and data['topic'] == 'states':
             expected_fields.add('state')
         if data['topic'] == 'doshas' and rid.split('.')[-1] in ('nadi','bhakoot','ashtama-shani','sade-sati'):
@@ -477,8 +479,8 @@ def main():
         for orientation in ('upright','reversed'):
             matched=[r for r in rules.values() if r['system']=='tarot' and evaluate(r['conditions'],{'draw.card':card,'draw.orientation':orientation})]
             require(len(matched)==1,(card,orientation))
-    bands=read('vedic/vargas/methods.yaml')['methods']
-    require({r['chart'] for r in bands}=={'D'+str(n) for n in [1,2,3,4,7,9,10,12,16,20,24,27,30,40,45,60]},'vargas')
+    from varga_charts import validate_vargas
+    validate_vargas(rules, read, require)
     bindu=read('vedic/strength/ashtakavarga/bindu.yaml')
     for reference_positions in ([0]*8,list(range(8)),[11,6,2,0,1,4,8,3]):
         sums=[0]*12
@@ -505,9 +507,6 @@ def main():
         require(arc['number']==i+1 and arc['start_arcsec']<arc['end_arcsec'],'KP interval')
         require(arc['start_arcsec']//108000==(arc['end_arcsec']-1)//108000==arc['sign']-1,'KP cusp split')
         if i:require(arcs[i-1]['end_arcsec']==arc['start_arcsec'],'KP boundary')
-    for method in bands:
-        n=int(method['chart'][1:])
-        require(len(method['sign_lookup'])==12 and all(len(v)==(5 if n==30 else n) for v in method['sign_lookup'].values()),method['chart'])
     check=read('vedic/strength/ashtakavarga/worked-reference.yaml')
     expected=check['expected_sav']
     computed=[0]*12

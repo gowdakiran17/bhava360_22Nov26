@@ -449,6 +449,24 @@ facts:
     values:
     - upright
     - reversed
+  varga.reading.topic_supported:
+    type: boolean
+    producer: vedic.vargas
+    origin: The selected topic house and its classical ruler independently support the same theme in the active
+      chart.
+    unknown_if: The topic, house or ruler evidence is missing.
+  varga.reading.house_unstable:
+    type: boolean
+    producer: vedic.vargas
+    origin: The active chart Lagna sign or referenced whole-sign house changes across the supported birth-time
+      interval.
+    unknown_if: The interval has not been evaluated.
+  varga.d60.verified_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: The D60 method has been approved for display and the specific computed cell is stable across the birth-time
+      uncertainty interval.
+    unknown_if: Read access is held, method approval is absent, or the placement is unstable.
   varga.d1.verified_placement:
     type: boolean
     producer: vedic.vargas

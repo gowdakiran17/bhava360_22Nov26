@@ -4,33 +4,102 @@ topic: vargas
 title: D10 · Dasamsa
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use a stable D10 placement alongside its D1 context.
+rule: Start at the natal sign for odd signs and its ninth for even signs. Use 10 equal half-open parts of 30°/10.
+  An exact boundary opens the next part.
 conditions:
   all:
   - fact: varga.d10.verified_placement
     op: eq
     value: true
-meaning: This chart supplies a supplementary lens on professional responsibilities.
-life_areas: [career]
-strength_notes: []
-exceptions: []
-traditions_differ: []
+meaning: You may notice which responsibilities suit you by comparing your daily work with the role others rely
+  on you to fill.
+life_areas:
+- career
+- business
+strength_notes:
+- when:
+    fact: varga.reading.topic_supported
+    op: eq
+    value: true
+  effect: stronger
+  reason: Give the theme more interpretive weight when the relevant house and its ruler both support it.
+exceptions:
+- when:
+    fact: varga.reading.house_unstable
+    op: eq
+    value: true
+  effect: cancel
+  reason: Omit this house-based reading if the divisional Lagna or the referenced house changes within the birth-time
+    range.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: An alternative starts at the same ninth sign for even signs and then counts backward. The selected profile
+    counts forward for both parities.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 13–14
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 7
+  verse: 3, 20–24, 37, 43
+  other_locator: null
+  supports: Varga topic, Vimshopaka group weights and house-lord principle. The listed reading priorities are
+    editorial applications.
+  verification: verified
+- work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  book: PyJHora
   chapter: null
   verse: null
-  other_locator: Shodashavarga chapter, division Dasamsa
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: dasamsa_chart in charts.py and Vimshopaka tables in const.py
+  supports: Calculation comparator and numerical weights.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending.
 user_text:
-  en: You can explore professional responsibilities alongside this placement.
-  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ವೃತ್ತಿಯ ಜವಾಬ್ದಾರಿಗಳು” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस स्थिति के साथ “काम की ज़िम्मेदारियाँ” पर विचार कर सकते हैं।
+  en: You may notice which responsibilities suit you by comparing your daily work with the role others rely
+    on you to fill.
+  kn: ದಿನನಿತ್ಯದ ಕೆಲಸ ಮತ್ತು ಇತರರು ನಿಮ್ಮಿಂದ ನಿರೀಕ್ಷಿಸುವ ಪಾತ್ರವನ್ನು ಹೋಲಿಸಿದಾಗ ಯಾವ ಜವಾಬ್ದಾರಿಗಳು ನಿಮಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ
+    ಎಂದು ತಿಳಿಯಬಹುದು.
+  hi: रोज़ के काम और दूसरों की आपसे अपेक्षाओं को साथ देखकर आप समझ सकते हैं कि कौन सी ज़िम्मेदारियाँ आपको अनुकूल
+    लगती हैं।
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, list one duty you enjoy and one you would like to clarify.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮಗೆ ಇಷ್ಟವಾದ ಒಂದು ಕರ್ತವ್ಯ ಮತ್ತು ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟತೆ ಬೇಕಾದ ಮತ್ತೊಂದು ಕರ್ತವ್ಯವನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो एक ज़िम्मेदारी लिखें जो आपको पसंद है और एक जिसके बारे में आप अधिक स्पष्टता चाहते हैं।
+varga:
+  method_id: parashari-d10-v1
+  calculation:
+    parts: 10
+    seed: natal_plus_parity_offset
+    stride: 1
+    offsets:
+    - 0
+    - 8
+  whole_sign_houses:
+    1: approach to work
+    6: service and daily duties
+    10: public responsibility
+    11: professional networks and gains
+  lords: From this divisional Lagna, identify the classical ruler of each listed house sign and read its placement
+    in this chart.
+  d1_anchor: Read the D1 tenth house and its lord first. Compare their indications with the D10 Lagna, tenth
+    house and their lords.
+  vimshopaka_points:
+    shodasavarga: 0.5
+    dashavarga: 1.5
+  purpose: professional responsibilities

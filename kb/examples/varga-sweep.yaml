@@ -1,0 +1,8 @@
+synthetic: true
+# Asha is a synthetic point swept around the zodiac, independent of any ephemeris.
+fixture: Asha
+start_degree: 0
+stop_degree_exclusive: 360
+step_degree: 1
+# Probe both sides of every rational band edge, including the zodiac seam.
+boundary_offset_arcseconds: 1

@@ -1,5 +1,6 @@
 version: 1
 works:
+  pyjhora-vargas: PyJHora divisional chart methods and weights
   sgs-panchangam: SGS Panchangam
   raman-muhurtha: Muhurtha (Electional Astrology)
   rath-mangala: Mangalika Dosha
@@ -41,6 +42,26 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  bphs-varga-web:
+    work_id: bphs
+    edition_id: bphs-varga-web
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: Sanskrit and English
+    publication_details: Enjoy Learning Sanskrit online chapter and verse transcription.
+    text:
+    - https://enjoylearningsanskrit.com/scriptures/parashara/chapter-6/
+    - https://enjoylearningsanskrit.com/scriptures/parashara/chapter-7/
+    verified_by: Compared numbered Sanskrit passages with the selected mappings and numerical reference.
+  pyjhora-vargas-pinned:
+    work_id: pyjhora-vargas
+    edition_id: pyjhora-vargas-pinned
+    title_as_printed: PyJHora
+    language: Python
+    publication_details: Revision f8c6de2f54338752bdb667384a8b0ca5791c5bdf.
+    text:
+    - https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/chart/charts.py
+    - https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/const.py
+    verified_by: Inspected chart-method variants and both twenty-point weight tables.
   sgs-fixed:
     work_id: sgs-panchangam
     edition_id: sgs-fixed

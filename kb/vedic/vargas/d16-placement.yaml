@@ -4,33 +4,96 @@ topic: vargas
 title: D16 · Shodasamsa
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use a stable D16 placement alongside its D1 context.
+rule: Start at Aries, Leo or Sagittarius for movable, fixed or dual signs respectively. Use 16 equal half-open
+  parts of 30°/16. An exact boundary opens the next part.
 conditions:
   all:
   - fact: varga.d16.verified_placement
     op: eq
     value: true
-meaning: This chart supplies a supplementary lens on comfort and transport.
-life_areas: [property-vehicles]
-strength_notes: []
-exceptions: []
-traditions_differ: []
+meaning: You may notice which practical comforts make a journey or a daily routine easier.
+life_areas:
+- property-vehicles
+- travel-relocation
+strength_notes:
+- when:
+    fact: varga.reading.topic_supported
+    op: eq
+    value: true
+  effect: stronger
+  reason: Give the theme more interpretive weight when the relevant house and its ruler both support it.
+exceptions:
+- when:
+    fact: varga.reading.house_unstable
+    op: eq
+    value: true
+  effect: cancel
+  reason: Omit this house-based reading if the divisional Lagna or the referenced house changes within the birth-time
+    range.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: An alternative reverses the order for even signs. Direction assigned to a deity list and direction for
+    chart signs are separate choices.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: '16'
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 7
+  verse: 3–4, 20–24, 37, 43
+  other_locator: null
+  supports: Varga topic, Vimshopaka group weights and house-lord principle. The listed reading priorities are
+    editorial applications.
+  verification: verified
+- work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  book: PyJHora
   chapter: null
   verse: null
-  other_locator: Shodashavarga chapter, division Shodasamsa
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: shodasamsa_chart in charts.py and Vimshopaka tables in const.py
+  supports: Calculation comparator and numerical weights.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending.
 user_text:
-  en: You can explore comfort and transport alongside this placement.
-  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಸೌಕರ್ಯ ಮತ್ತು ಸಂಚಾರ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस स्थिति के साथ “सुविधा और आवागमन” पर विचार कर सकते हैं।
+  en: You may notice which practical comforts make a journey or a daily routine easier.
+  kn: ಯಾವ ಸೌಕರ್ಯಗಳಿಂದ ಪ್ರಯಾಣ ಅಥವಾ ದಿನಚರಿ ಸುಲಭವಾಗುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि कौन सी सुविधाएँ सफ़र या दिनचर्या को आसान बनाती हैं।
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, write down one example from your own experience.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಅನುಭವದ ಒಂದು ಉದಾಹರಣೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो अपने अनुभव से एक उदाहरण लिख सकते हैं।
+varga:
+  method_id: parashari-d16-v1
+  calculation:
+    parts: 16
+    seed: modality_sign
+    stride: 1
+    starts:
+    - aries
+    - leo
+    - sagittarius
+  whole_sign_houses:
+    1: experience of comfort
+    4: vehicles and domestic conveniences
+  lords: From this divisional Lagna, identify the classical ruler of each listed house sign and read its placement
+    in this chart.
+  d1_anchor: Compare the D1 topic house and its ruler with the corresponding divisional houses and their rulers.
+  vimshopaka_points:
+    shodasavarga: 2
+    dashavarga: 1.5
+  purpose: comfort and transport

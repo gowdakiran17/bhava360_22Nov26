@@ -4,33 +4,92 @@ topic: vargas
 title: D1 · The natal chart
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use a stable D1 placement alongside its D1 context.
+rule: Keep the natal sign.
 conditions:
   all:
   - fact: varga.d1.verified_placement
     op: eq
     value: true
-meaning: This chart supplies a supplementary lens on life context.
-life_areas: []
-strength_notes: []
-exceptions: []
-traditions_differ: []
+meaning: The rising sign may frame how personal priorities and public roles fit together. Select the house relevant
+  to the question.
+life_areas:
+- health
+- career
+strength_notes:
+- when:
+    fact: varga.reading.topic_supported
+    op: eq
+    value: true
+  effect: stronger
+  reason: Give the theme more interpretive weight when the relevant house and its ruler both support it.
+exceptions:
+- when:
+    fact: varga.reading.house_unstable
+    op: eq
+    value: true
+  effect: cancel
+  reason: Omit this house-based reading if the divisional Lagna or the referenced house changes within the birth-time
+    range.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: A different ayanamsha can move a placement near a sign boundary. Whole-sign and Sripati houses can also
+    assign a different house to the same longitude.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 3–5
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 7
+  verse: 1, 20–24, 37, 43
+  other_locator: null
+  supports: Varga topic, Vimshopaka group weights and house-lord principle. The listed reading priorities are
+    editorial applications.
+  verification: verified
+- work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  book: PyJHora
   chapter: null
   verse: null
-  other_locator: Shodashavarga chapter, division The natal chart
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: rasi_chart in charts.py and Vimshopaka tables in const.py
+  supports: Calculation comparator and numerical weights.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending.
 user_text:
-  en: You can explore life context alongside this placement.
-  kn: ಈ ಸ್ಥಾನದ ಜೊತೆಗೆ “ಜೀವನದ ಹಿನ್ನೆಲೆ” ಎಂಬ ವಿಷಯವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस स्थिति के साथ “जीवन का संदर्भ” पर विचार कर सकते हैं।
+  en: You may explore how your priorities and responsibilities fit together.
+  kn: ನಿಮ್ಮ ಆದ್ಯತೆಗಳು ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳು ಹೇಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ ಎಂದು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि आपकी प्राथमिकताएँ और ज़िम्मेदारियाँ कैसे साथ चलती हैं।
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, write down one example from your own experience.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಅನುಭವದ ಒಂದು ಉದಾಹರಣೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो अपने अनुभव से एक उदाहरण लिख सकते हैं।
+varga:
+  method_id: parashari-d1-v1
+  calculation:
+    parts: 1
+    seed: natal
+    stride: 1
+  whole_sign_houses:
+    1: approach and embodiment
+    10: public responsibilities
+  lords: From this divisional Lagna, identify the classical ruler of each listed house sign and read its placement
+    in this chart.
+  d1_anchor: Begin with the natal Lagna and its lord.
+  vimshopaka_points:
+    shodasavarga: 3.5
+    dashavarga: 3
+  purpose: life context
