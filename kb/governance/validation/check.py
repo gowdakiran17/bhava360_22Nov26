@@ -383,6 +383,12 @@ def main():
             expected_fields.add('related_rules')
         if data['system'] == 'vedic' and data['topic'] == 'states':
             expected_fields.add('state')
+        if data['topic'] == 'doshas' and rid.split('.')[-1] in ('nadi','bhakoot','ashtama-shani','sade-sati'):
+            expected_fields.add('reference_paths')
+            module = 'matching' if rid.split('.')[-1] in ('nadi','bhakoot') else 'transits'
+            paths = data['reference_paths']
+            require(paths and all(re.fullmatch(r'vedic/'+module+r'/[a-z-]+\.yaml', p)
+                                  and (ROOT/p).is_file() for p in paths), rid+' module pointers')
         if rid in {'western.planets.' + name for name in OUTER_BODIES}:
             expected_fields.add('outer_planet')
         if data['system']=='vedic' and data['topic']=='signs':
@@ -521,6 +527,8 @@ def main():
     require(evaluate(mars,{'d1.mars.distance_from_lagna':1}) is None,'Ruchaka incomplete')
     from yoga_charts import validate_yoga_charts
     validate_yoga_charts(rules, read, evaluate, require)
+    from dosha_charts import validate_doshas
+    validate_doshas(rules, read, evaluate, require)
     kem=rules['vedic.yogas.kemadruma']
     require(evaluate(kem['conditions'],{'d1.moon.eligible_flank':False}) is True,'Kemadruma positive')
     require(evaluate(kem['exceptions'][0]['when'],{'d1.moon.distance_from_lagna':4}) is True,'Kemadruma cancellation')

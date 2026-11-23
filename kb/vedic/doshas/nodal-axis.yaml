@@ -1,38 +1,54 @@
 id: vedic.doshas.nodal-axis
 system: vedic
 topic: doshas
-title: Nodal Axis
+title: Kaal Sarp · nodal enclosure
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: All seven classical grahas lie within the same directed nodal semicircle under the selected boundary convention.
+rule: All seven classical grahas fall on the forward semicircle from natal Rahu to Ketu, endpoints included.
+  Test longitudes modulo 360. Show in detail view only.
 conditions:
   all:
   - fact: dosha.axis.confined
     op: eq
     value: true
-meaning: This chart detail can be explored as a traditional nodal pattern.
+meaning: The drawing may bring a cluster of chart placements into view.
 life_areas: []
-strength_notes: []
+strength_notes:
+- when:
+    fact: dosha.axis.strict_interior
+    op: eq
+    value: true
+  effect: stronger
+  reason: The confinement also survives the stricter open-endpoint convention.
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Schools differ on whether to use Kaal Sarp, which nodal direction to count and whether a graha exactly on an endpoint qualifies.
+  note: A disputed late tradition. Some schools omit the label, reverse the counted arc or exclude endpoints.
+    Paired benefics or a remedy are not universal cancellations.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: PyJHora dosha.py
+  work_id: pyjhora-doshas
+  edition: pyjhora-doshas
   chapter: null
   verse: null
-  other_locator: vedic.doshas.nodal-axis
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: kala_sarpa
+  supports: Contemporary nodal-enclosure comparator. The library selects one arc and longitude-based endpoints.
+  verification: verified
 confidence: disputed
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+  pending.
 user_text:
-  en: This chart detail can be explored as a traditional nodal pattern.
-  kn: ಈ ವಿವರವನ್ನು ಸಂಪ್ರದಾಯದ ನೆರಳುಗ್ರಹ ವಿನ್ಯಾಸವಾಗಿ ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस विवरण को पारंपरिक राहु-केतु विन्यास के रूप में देख सकते हैं।
+  en: You can explore the placements inside the arc one at a time.
+  kn: ಚಾಪದೊಳಗಿನ ಸ್ಥಾನಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಗಮನಿಸಬಹುದು.
+  hi: आप चाप के भीतर की स्थितियों को एक-एक करके देख सकते हैं।
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You could choose one chart theme to reflect on today.
+    kn: ಇಂದು ಒಂದು ವಿಷಯವನ್ನು ಆರಿಸಿ ಚಿಂತಿಸಬಹುದು.
+    hi: आज आप किसी एक विषय पर विचार कर सकते हैं।

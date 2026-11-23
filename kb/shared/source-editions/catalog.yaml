@@ -1,5 +1,10 @@
 version: 1
 works:
+  sgs-panchangam: SGS Panchangam
+  raman-muhurtha: Muhurtha (Electional Astrology)
+  rath-mangala: Mangalika Dosha
+  pyjhora-doshas: PyJHora dosha.py
+  pyjhora-matching: PyJHora compatibility.py
   uttara-kalamrita: Uttara Kalamrita
   surya-siddhanta: Surya Siddhanta
   taittiriya-brahmana: Taittiriya Brahmana
@@ -36,6 +41,62 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  sgs-fixed:
+    work_id: sgs-panchangam
+    edition_id: sgs-fixed
+    title_as_printed: SGS Panchangam
+    language: Telugu in Roman transcription
+    publication_details: Datta Peetham, fixed information, section 31.
+    verified_by: Section heading and transliterated passage inspected.
+    text: https://sgspanchangam.vedanidhi.in/assets/fixed-data_en.html
+  bphs-80:
+    work_id: bphs
+    edition_id: bphs-80
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: Brihat Parashara Hora Shastra
+    text: https://enjoylearningsanskrit.com/scriptures/parashara/chapter-80/
+    publication_details: Sanskrit and English, chapter 80
+    language: Sanskrit/English
+  bphs-80-four:
+    work_id: bphs
+    edition_id: bphs-80-four
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: Brihat Parashara Hora Shastra
+    text: https://divyachadhava.com/en/sanatan-sahitya/bphs-chapter-80-female-horoscopy
+    publication_details: English transcription, four-house wording at 80.47
+    language: English
+  raman-muhurtha:
+    work_id: raman-muhurtha
+    edition_id: raman-muhurtha
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: Muhurtha (Electional Astrology)
+    text: https://rteks.io/muhurta.pdf
+    publication_details: B. V. Raman, marriage chapter, Kuja Dosha section
+    language: English
+  rath-mangala:
+    work_id: rath-mangala
+    edition_id: rath-mangala
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: Mangalika Dosha
+    text: https://srath.com/jyoti%E1%B9%A3a/amateur/ma%E1%B9%85galika-do%E1%B9%A3a/
+    publication_details: Sanjay Rath, defining Mangalika Dosha and Chandra Lagna sections
+    language: English
+  pyjhora-doshas:
+    work_id: pyjhora-doshas
+    edition_id: pyjhora-doshas
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: PyJHora dosha.py
+    text: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/chart/dosha.py
+    publication_details: Pinned contemporary reference implementation
+    language: English
+  pyjhora-matching:
+    work_id: pyjhora-matching
+    edition_id: pyjhora-matching
+    verified_by: Section or function specified in the entry was inspected in the linked edition.
+    title_as_printed: PyJHora compatibility.py
+    text: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/match/compatibility.py
+    publication_details: Pinned implementation underlying the northern matching profile
+    language: English
   jataka-parijata-vedicpupil:
     work_id: jataka-parijata
     edition_id: jataka-parijata-vedicpupil

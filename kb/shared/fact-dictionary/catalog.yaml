@@ -17,6 +17,146 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  dosha.mars.house_list:
+    type: enum
+    producer: vedic.doshas
+    origin: Resolved list ID from vedic/doshas/profiles.yaml. Default inclusive.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+    values:
+    - inclusive
+    - lagna_five
+    - family_five
+    - four
+  dosha.mars.reference_distance:
+    type: integer
+    producer: vedic.doshas
+    origin: Inclusive natal sign distance from the separately selected Lagna, Moon or Venus to Mars; evaluate
+      each origin independently.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+    range:
+    - 1
+    - 12
+  dosha.mars.sgs_aspects_candidate:
+    type: boolean
+    producer: vedic.doshas
+    origin: Mars fully aspects one of the five SGS candidate houses counted from Lagna.
+    unknown_if: Lagna or the Mars placement is unresolved.
+  dosha.mars.sgs_lagna_exempt:
+    type: boolean
+    producer: vedic.doshas
+    origin: Lagna is in the six exempt signs in the SGS convention.
+    unknown_if: Lagna or the Mars placement is unresolved.
+  dosha.mars.relief_profile:
+    type: enum
+    producer: vedic.doshas
+    origin: Bound cancellation convention. Require the documented list/reference combination for a named author
+      profile.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+    values:
+    - library
+    - bphs
+    - raman
+    - rath
+    - sgs
+  dosha.mars.benefic_contact:
+    type: boolean
+    producer: vedic.doshas
+    origin: A natural benefic joins Mars by sign or fully aspects its sign. Use Jupiter, Venus, waxing Moon,
+      and Mercury when unassociated with natural malefics. For Mercury consider Sun, Mars, Saturn, nodes and
+      waning Moon.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.mars.pair_balanced:
+    type: boolean
+    producer: vedic.doshas
+    origin: In a consented matching context only, both charts satisfy the same Manglik screen after natal exceptions,
+      with the identical list, origin and relief profile. Applies to pair interpretation only; preserve individual
+      raw placements.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.mars.raman_house_sign:
+    type: boolean
+    producer: vedic.doshas
+    origin: Mars sign is in the exemption row for its bound reference distance in raman_house_sign_pairs.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.mars.raman_sign:
+    type: boolean
+    producer: vedic.doshas
+    origin: Mars occupies Leo or Aquarius.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.mars.raman_companion:
+    type: boolean
+    producer: vedic.doshas
+    origin: Jupiter or the Moon occupies Mars’s natal sign.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.mars.raman_ascendant:
+    type: boolean
+    producer: vedic.doshas
+    origin: Jupiter or Venus occupies the natal ascendant sign.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.node.shares_sun:
+    type: boolean
+    producer: vedic.doshas
+    origin: The natal sun shares a sidereal sign with either node.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.node.shares_moon:
+    type: boolean
+    producer: vedic.doshas
+    origin: The natal moon shares a sidereal sign with either node.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.node.shares_jupiter:
+    type: boolean
+    producer: vedic.doshas
+    origin: The natal jupiter shares a sidereal sign with either node.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.rahu.shares_saturn:
+    type: boolean
+    producer: vedic.doshas
+    origin: Saturn occupies the same sidereal sign as Rahu.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.pitru.ninth_node_luminary:
+    type: boolean
+    producer: vedic.doshas
+    origin: A node and either natal luminary share the ninth whole-sign house from Lagna. Narrow editorial selection
+      of family-related indicators; bind both to that house.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.node.contact_within_one_degree:
+    type: boolean
+    producer: vedic.doshas
+    origin: For the exact pair bound by the matching condition, shortest circular separation is at most one
+      degree. This is an editorial proximity note.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  dosha.axis.strict_interior:
+    type: boolean
+    producer: vedic.doshas
+    origin: All seven classical grahas have a forward angular distance from Rahu strictly between zero and 180
+      degrees.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  match.bhakoot.zero:
+    type: boolean
+    producer: vedic.matching
+    origin: Consented natal lunar sign pair gives a reciprocal distance pair of 2/12, 5/9 or 6/8 under the northern
+      table.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  match.nadi.pada_parihara:
+    type: boolean
+    producer: vedic.matching
+    origin: Selected matching profile enables same-star/different-quarter relief, and the consented pair has
+      the same birth star in distinct quarters.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  match.bhakoot.lord_parihara:
+    type: boolean
+    producer: vedic.matching
+    origin: Selected matching profile enables lord relief and the two natal Moon-sign lords are identical or
+      mutually natural friends in KB-02.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+  transit.saturn.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: For the query instant within a solved Saturn sign interval, count from the natal sidereal Moon sign
+      to transiting Saturn, inclusively. Re-entry creates a new interval.
+    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+    range:
+    - 1
+    - 12
   d1.moon.eligible_flank:
     type: boolean
     producer: vedic.d1

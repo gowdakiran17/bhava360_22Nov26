@@ -1,0 +1,56 @@
+id: vedic.doshas.pitru
+system: vedic
+topic: doshas
+title: Pitru · family traditions
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A natal node and a luminary share the ninth whole-sign house from Lagna.
+conditions:
+  all:
+  - fact: dosha.pitru.ninth_node_luminary
+    op: eq
+    value: true
+meaning: This family-themed reading may invite reflection on inherited customs.
+life_areas:
+- family-home
+- spirituality
+strength_notes:
+- when:
+    fact: dosha.node.contact_within_one_degree
+    op: eq
+    value: true
+  effect: stronger
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
+    convention.
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some practitioners examine other ninth-house, solar or lunar indications. This entry selects the narrower
+    combination; it makes no judgement about relatives.
+sources:
+- book: PyJHora dosha.py
+  work_id: pyjhora-doshas
+  edition: pyjhora-doshas
+  chapter: null
+  verse: null
+  other_locator: pitru_dosha, ninth-house and luminary-node indicators
+  supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
+  verification: verified
+confidence: disputed
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+  pending.
+user_text:
+  en: You may enjoy hearing how a family custom began.
+  kn: ಮನೆಯ ಆಚರಣೆಯೊಂದು ಹೇಗೆ ಆರಂಭವಾಯಿತು ಎಂದು ಕೇಳುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+  hi: परिवार की कोई परंपरा कैसे शुरू हुई, यह जानना आपको अच्छा लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can invite a relative to share a memory.
+    kn: ಸಂಬಂಧಿಯೊಬ್ಬರನ್ನು ಒಂದು ನೆನಪು ಹಂಚಿಕೊಳ್ಳಲು ಆಹ್ವಾನಿಸಬಹುದು.
+    hi: आप किसी रिश्तेदार से एक याद साझा करने के लिए कह सकते हैं।

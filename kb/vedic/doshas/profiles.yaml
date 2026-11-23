@@ -12,12 +12,76 @@ manglik:
   confidence: disputed
   traditions_differ:
   - profile: vedic-editorial-v1
-    note: Some house lists omit the second house. The candidate list here includes it.
-  exceptions:
-  - when: {fact: dosha.mars.dignity_exception, op: eq, value: true}
-    effect: soften
-    reason: The selected profile recognizes own-sign or exalted Mars as mitigating its natal placement.
+    note: Bind the named house list, origin and relief convention before deriving a result.
   pair_comparison: Evaluate partners independently and retain each natal result.
+  defaults:
+    house_list: inclusive
+    reference: lagna
+    relief: library
+  house_lists:
+    inclusive:
+    - 1
+    - 2
+    - 4
+    - 7
+    - 8
+    - 12
+    lagna_five:
+    - 1
+    - 4
+    - 7
+    - 8
+    - 12
+    family_five:
+    - 2
+    - 4
+    - 7
+    - 8
+    - 12
+    four:
+    - 4
+    - 7
+    - 8
+    - 12
+  references:
+  - lagna
+  - moon
+  - venus
+  relief_profiles:
+    library: Use the stated benefic-contact and pair exceptions plus own/exalted mitigation on the library
+      house list.
+    bphs: Use the Sanskrit five-house list from Lagna and verses 47–49.
+    raman: Use the second-house five-list, with separately bound Lagna, Moon or Venus origin. Apply the Raman
+      exceptions to the chosen origin.
+    rath: Lagna uses family_five. Moon uses lagna_five. No automatic transfer of another school’s sign exceptions.
+    sgs: Use family_five from Lagna, including full Mars aspects to those houses.
+  raman_house_sign_pairs:
+    2:
+    - gemini
+    - virgo
+    4:
+    - aries
+    - scorpio
+    7:
+    - cancer
+    - capricorn
+    8:
+    - sagittarius
+    - pisces
+    12:
+    - taurus
+    - libra
+  raman_exempt_signs:
+  - leo
+  - aquarius
+  exception_source: vedic/doshas/mars-partnership.yaml
+  sgs_exempt_lagnas:
+  - aries
+  - cancer
+  - leo
+  - scorpio
+  - sagittarius
+  - pisces
 kaal_sarp:
   formation: Check the seven classical longitudes against the selected directed nodal semicircle.
   visibility: detail-only
@@ -26,4 +90,15 @@ kaal_sarp:
   - profile: vedic-editorial-v1
     note: Use, direction and endpoint treatment vary by school.
   exceptions: []
-sade_sati: Use the three Moon-relative Saturn transit phases, including re-entries. Never present as a natal defect.
+  direction: Forward longitude from Rahu to Ketu
+  endpoints: inclusive
+  bodies:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+sade_sati: Use the three Moon-relative Saturn transit phases, including re-entries. Never present as a natal
+  defect.

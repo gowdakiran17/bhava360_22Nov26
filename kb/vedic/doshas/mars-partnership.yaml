@@ -1,40 +1,229 @@
 id: vedic.doshas.mars-partnership
 system: vedic
 topic: doshas
-title: Mars Partnership
+title: Manglik · Kuja dosha
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Mars occupies one of the stated Lagna-based Manglik houses; evaluate recognized cancellations.
+rule: Count whole signs to natal Mars from the bound origin and apply only its selected house list. The library
+  default counts 1, 2, 4, 7, 8 and 12 from Lagna. Evaluate natal exceptions first, then any pair-only exception.
+  The SGS regional profile additionally checks full Mars aspects.
 conditions:
-  all:
-  - fact: dosha.mars.natal_candidate
-    op: eq
-    value: true
-meaning: You can discuss how each of you handles disagreement.
+  any:
+  - all:
+    - fact: dosha.mars.house_list
+      op: eq
+      value: inclusive
+    - fact: dosha.mars.reference_distance
+      op: in
+      value:
+      - 1
+      - 2
+      - 4
+      - 7
+      - 8
+      - 12
+  - all:
+    - fact: dosha.mars.house_list
+      op: eq
+      value: lagna_five
+    - fact: dosha.mars.reference_distance
+      op: in
+      value:
+      - 1
+      - 4
+      - 7
+      - 8
+      - 12
+  - all:
+    - fact: dosha.mars.house_list
+      op: eq
+      value: family_five
+    - fact: dosha.mars.reference_distance
+      op: in
+      value:
+      - 2
+      - 4
+      - 7
+      - 8
+      - 12
+  - all:
+    - fact: dosha.mars.house_list
+      op: eq
+      value: four
+    - fact: dosha.mars.reference_distance
+      op: in
+      value:
+      - 4
+      - 7
+      - 8
+      - 12
+  - all:
+    - fact: dosha.mars.relief_profile
+      op: eq
+      value: sgs
+    - fact: dosha.mars.sgs_aspects_candidate
+      op: eq
+      value: true
+meaning: The placement may prompt a conversation about pace, initiative and how two people settle differences.
 life_areas:
 - love-marriage
-strength_notes: []
+strength_notes:
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - library
+    - fact: dosha.mars.dignity_exception
+      op: eq
+      value: true
+  effect: weaker
+  reason: Own-sign or exalted Mars may qualify the reading in the library dignity convention.
 exceptions:
 - when:
-    fact: dosha.mars.dignity_exception
-    op: eq
-    value: true
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - library
+      - bphs
+    - fact: dosha.mars.benefic_contact
+      op: eq
+      value: true
+  effect: cancel
+  reason: A benefic joins or fully aspects Mars in the BPHS reading.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - library
+      - bphs
+      - raman
+      - sgs
+    - fact: dosha.mars.pair_balanced
+      op: eq
+      value: true
+  effect: cancel
+  reason: In a matched pair only, comparable surviving placements balance the pair interpretation. Keep both
+    natal records.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - raman
+    - fact: dosha.mars.raman_house_sign
+      op: eq
+      value: true
+  effect: cancel
+  reason: 'House/sign exemptions: 2 Gemini/Virgo, 4 Aries/Scorpio, 7 Cancer/Capricorn, 8 Sagittarius/Pisces,
+    12 Taurus/Libra.'
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - raman
+    - fact: dosha.mars.raman_sign
+      op: eq
+      value: true
+  effect: cancel
+  reason: Mars occupies Leo or Aquarius in Raman’s convention.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - raman
+    - fact: dosha.mars.raman_companion
+      op: eq
+      value: true
+  effect: cancel
+  reason: Raman recognises the Moon or Jupiter sharing the Mars sign.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - raman
+    - fact: dosha.mars.raman_ascendant
+      op: eq
+      value: true
+  effect: cancel
+  reason: Raman recognises Jupiter or Venus in Lagna.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: in
+      value:
+      - library
+    - fact: dosha.mars.dignity_exception
+      op: eq
+      value: true
   effect: soften
-  reason: Selected dignity exception applies to the same Mars placement.
+  reason: Own-sign or exalted Mars mitigates the library interpretation.
+- when:
+    all:
+    - fact: dosha.mars.relief_profile
+      op: eq
+      value: sgs
+    - fact: dosha.mars.sgs_lagna_exempt
+      op: eq
+      value: true
+  effect: cancel
+  reason: The SGS almanac exempts six ascendant signs in its regional convention.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Some house lists omit the second house. The candidate list here includes it and counts from Lagna. Moon and Venus references require their own profiles.
+  note: The Sanskrit BPHS reading starts with house 1; one English transcription lists only 4/7/8/12. Raman
+    counts 2/4/7/8/12 and examines Lagna, Moon and Venus separately. Rath uses the second-house list from Lagna
+    and the first-house list from the Moon. The library uses the inclusive six-house list. Keep the author
+    profiles separate. The SGS almanac also screens full Mars aspects to its five houses from Lagna and gives
+    six ascendant exemptions. Its additional sign/house glosses have differing readings and are pending textual
+    review.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-80
+  chapter: 80
+  verse: 47–49
+  other_locator: Sanskrit and English
+  supports: First-house list, benefic aspect or conjunction, and two-chart qualification.
+  verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-80-four
+  chapter: 80
+  verse: '47'
+  other_locator: English rendering
+  supports: Four-house textual variant.
+  verification: verified
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
   chapter: null
   verse: null
-  other_locator: vedic.doshas.mars-partnership
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Marriage · The So-called Kuja Dosha
+  supports: Later list, references, sign exceptions and counteracting placements.
+  verification: verified
+- book: Mangalika Dosha
+  work_id: rath-mangala
+  edition: rath-mangala
+  chapter: null
+  verse: null
+  other_locator: Defining Mangalika Dosha; Chandra Lagna
+  supports: Alternative house lists and distinct Moon reference.
+  verification: verified
+- book: SGS Panchangam
+  work_id: sgs-panchangam
+  edition: sgs-fixed
+  chapter: null
+  verse: null
+  other_locator: Fixed information, section 31
+  supports: Regional aspect-based screen, six ascendant exemptions and pair comparison.
+  verification: verified
 confidence: disputed
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
 user_text:
   en: You can discuss how each of you handles disagreement.
   kn: ಭಿನ್ನಾಭಿಪ್ರಾಯವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
@@ -42,4 +231,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, give each person a turn to speak before deciding together.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
+    hi: चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दें।

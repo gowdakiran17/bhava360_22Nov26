@@ -1,0 +1,64 @@
+id: vedic.doshas.bhakoot
+system: vedic
+topic: doshas
+title: Bhakoot · matching factor
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The two consented natal Moon signs form a 2/12, 5/9 or 6/8 pair, counted inclusively in both directions.
+conditions:
+  all:
+  - fact: match.bhakoot.zero
+    op: eq
+    value: true
+meaning: This is one factor in the northern matching table. Keep its raw score and any parihara explanation
+  separate.
+life_areas:
+- love-marriage
+strength_notes:
+- when:
+    fact: match.bhakoot.lord_parihara
+    op: eq
+    value: true
+  effect: weaker
+  reason: Describe the exception once. Preserve the base factor score.
+exceptions:
+- when:
+    fact: match.bhakoot.lord_parihara
+    op: eq
+    value: true
+  effect: soften
+  reason: Identical or mutually friendly sign lords qualify under the selected parihara variant.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Parihara varies by matching school. Preserve the raw northern score and use both charts only in the
+    consented matching step.
+sources:
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: Northern bhakoot factor
+  supports: Computational source for the base factor. Parihara follows the KB matching profile.
+  verification: verified
+confidence: disputed
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+  pending.
+user_text:
+  en: You can use this factor as a starting point for talking about your preferences.
+  kn: ನಿಮ್ಮ ಆದ್ಯತೆಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಈ ಅಂಶವನ್ನು ಆರಂಭವಾಗಿ ಬಳಸಬಹುದು.
+  hi: आप अपनी पसंद पर बातचीत शुरू करने के लिए इस पहलू का उपयोग कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, give each person a turn to speak before deciding together.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
+    hi: चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दें।
+reference_paths:
+- vedic/matching/factors.yaml
+- vedic/matching/north-profile.yaml

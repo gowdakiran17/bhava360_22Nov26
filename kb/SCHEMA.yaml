@@ -118,3 +118,6 @@ vedic_house_lord_entries:
   chart: Use the classical ruler of the source house sign in the natal whole-sign chart. Bind modifiers and candidate associations to the same lords and chart.
   related_rules: Evaluate each yoga separately. Raja and dhana require distinct eligible lords actually joined or exchanged in this profile. Exchanges require reciprocal occupation and distinct grahas.
   life_areas: Deduplicated union of both KB-04 houses.
+vedic_dosha_entries:
+  reference_paths: Matching and transit entries link to their governing KB tables using kb-relative paths.
+  evaluation: Preserve natal formation separately from any relief, pair-only adjustment or timed interval.

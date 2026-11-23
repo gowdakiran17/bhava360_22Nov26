@@ -1,0 +1,66 @@
+id: vedic.doshas.grahan
+system: vedic
+topic: doshas
+title: Grahan · luminary with a node
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: The natal Sun or Moon shares a sidereal sign with Rahu or Ketu. Bind each matching pair separately.
+conditions:
+  any:
+  - fact: dosha.node.shares_sun
+    op: eq
+    value: true
+  - fact: dosha.node.shares_moon
+    op: eq
+    value: true
+meaning: A nodal contact may be used as a prompt to consider what receives attention.
+life_areas:
+- learning
+strength_notes:
+- when:
+    fact: dosha.node.contact_within_one_degree
+    op: eq
+    value: true
+  effect: stronger
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
+    convention.
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The sign screen is broader than an astronomical eclipse, which requires the appropriate solar–lunar
+    alignment and eclipse geometry.
+sources:
+- book: PyJHora dosha.py
+  work_id: pyjhora-doshas
+  edition: pyjhora-doshas
+  chapter: null
+  verse: null
+  other_locator: pitru_dosha, luminary and node co-occupancy branch
+  supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
+  verification: verified
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 5
+  verse: '8'
+  other_locator: https://www.wisdomlib.org/hinduism/book/brihat-samhita/d/doc226721.html
+  supports: Classical astronomical distinction between eclipse types.
+  verification: verified
+confidence: disputed
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+  pending.
+user_text:
+  en: You can take a moment to notice what has your attention.
+  kn: ನಿಮ್ಮ ಗಮನ ಯಾವ ಕಡೆ ಇದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप थोड़ा समय लेकर देख सकते हैं कि आपका ध्यान कहाँ है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it useful to write down a question before answering it.
+    kn: ಉತ್ತರಿಸುವ ಮೊದಲು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡುವುದು ನೆರವಾಗಬಹುದು.
+    hi: जवाब देने से पहले सवाल लिख लेना उपयोगी हो सकता है।

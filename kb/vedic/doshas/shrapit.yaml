@@ -1,0 +1,56 @@
+id: vedic.doshas.shrapit
+system: vedic
+topic: doshas
+title: Shrapit · Saturn with Rahu
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Saturn and Rahu share a natal sidereal sign.
+conditions:
+  all:
+  - fact: dosha.rahu.shares_saturn
+    op: eq
+    value: true
+meaning: A modern symbolic reading may draw attention to the time a commitment takes.
+life_areas:
+- career
+- learning
+strength_notes:
+- when:
+    fact: dosha.node.contact_within_one_degree
+    op: eq
+    value: true
+  effect: stronger
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
+    convention.
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This contemporary conjunction label lacks an agreed classical cancellation list. The selected profile
+    uses Rahu only.
+sources:
+- book: PyJHora dosha.py
+  work_id: pyjhora-doshas
+  edition: pyjhora-doshas
+  chapter: null
+  verse: null
+  other_locator: shrapit
+  supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
+  verification: verified
+confidence: disputed
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+  pending.
+user_text:
+  en: You can choose a pace you can sustain.
+  kn: ಮುಂದುವರಿಸಬಹುದಾದ ವೇಗವನ್ನು ಆರಿಸಬಹುದು.
+  hi: आप ऐसी गति चुन सकते हैं जिसे बनाए रखना सहज हो।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can break one task into smaller steps.
+    kn: ಒಂದು ಕೆಲಸವನ್ನು ಸಣ್ಣ ಹಂತಗಳಾಗಿ ವಿಂಗಡಿಸಬಹುದು.
+    hi: आप एक काम को छोटे चरणों में बाँट सकते हैं।
