@@ -34,7 +34,7 @@ export async function run(operation: Operation, url: string | undefined, environ
       await db.query(await readFile(new URL('../seed.sql', import.meta.url), 'utf8'));
     } else {
       await db.query('CREATE TABLE IF NOT EXISTS bhava_migrations (version integer PRIMARY KEY)');
-      for (const version of operation === 'up' ? [1, 2] : [2, 1]) {
+      for (const version of operation === 'up' ? [1, 2, 3] : [3, 2, 1]) {
         const applied = await db.query('SELECT version FROM bhava_migrations WHERE version=$1', [version]);
         if (Boolean(applied.rowCount) === (operation === 'up')) continue;
         const file = String(version).padStart(3, '0');

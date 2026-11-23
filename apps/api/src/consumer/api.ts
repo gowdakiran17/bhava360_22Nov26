@@ -1,4 +1,5 @@
 import type { Pool } from 'pg';
+import { approvedCopy } from '../staff/kb';
 import { isIP } from 'node:net';
 import { catalogue } from '@bhava360/i18n';
 import {
@@ -72,6 +73,27 @@ export async function consumer(
       return json({ authenticated: true }, 200, {
         'set-cookie': cookie + '=' + token + attributes + '; Max-Age=2592000',
       });
+    }
+    if (req.method === 'GET' && route === 'flags') {
+      const env =
+        settings.environment === 'test' ? 'development' : settings.environment;
+      return json(
+        (
+          await pool.query(
+            'SELECT key,value FROM feature_flags WHERE environment=$1',
+            [env],
+          )
+        ).rows,
+      );
+    }
+    if (req.method === 'GET' && route === 'rule-copy') {
+      const copy = await approvedCopy(
+        pool,
+        text(url.searchParams.get('entry')),
+        locale(url.searchParams.get('locale') ?? 'en'),
+      );
+      if (!copy) throw new ApiError(404, 'missing');
+      return json(copy);
     }
     if (req.method === 'GET' && route === 'places') {
       const query = text(url.searchParams.get('q'));

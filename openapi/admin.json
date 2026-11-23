@@ -1,0 +1,3508 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Bhava360 staff API",
+    "version": "0.1.0",
+    "description": "Staff-only backend. Mutating requests require the exact admin origin. After TOTP, use the separate staff session and device cookies plus X-Staff-CSRF for writes."
+  },
+  "components": {
+    "securitySchemes": {
+      "staff": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "__Host-bhava-staff"
+      },
+      "csrf": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-Staff-CSRF"
+      },
+      "pending": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "__Host-bhava-staff-login"
+      },
+      "device": {
+        "type": "apiKey",
+        "in": "cookie",
+        "name": "__Host-bhava-staff-device"
+      }
+    },
+    "schemas": {
+      "Login": {
+        "type": "object",
+        "properties": {
+          "next": {
+            "type": "string"
+          },
+          "enrollment_secret": {
+            "type": "string"
+          }
+        }
+      },
+      "Verified": {
+        "type": "object",
+        "properties": {
+          "csrf": {
+            "type": "string"
+          },
+          "recovery_codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "Approval": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "operation": {
+            "type": "string"
+          },
+          "expires_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "Flag": {
+        "type": "object",
+        "properties": {
+          "key": {
+            "type": "string"
+          },
+          "value": {
+            "type": [
+              "boolean",
+              "string"
+            ]
+          }
+        }
+      },
+      "MaskedProfile": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "profile_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "identity": {
+            "const": "masked"
+          },
+          "deactivated": {
+            "type": "boolean"
+          }
+        }
+      },
+      "Fixture": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "display_name": {
+            "type": "string"
+          },
+          "time_precision": {
+            "type": "string"
+          }
+        }
+      },
+      "Inspection": {
+        "type": "object",
+        "properties": {
+          "user_saw": {
+            "type": "null"
+          },
+          "staff_evidence": {
+            "type": "object",
+            "properties": {
+              "engine": {
+                "const": "not_built"
+              },
+              "rule_chains": {
+                "type": "array"
+              },
+              "matching_points": {
+                "type": "null"
+              },
+              "numerology_totals": {
+                "type": "null"
+              },
+              "lagna_facts": {
+                "type": "string"
+              },
+              "kp_sublords": {
+                "type": "null"
+              },
+              "dasha_transit": {
+                "type": "null"
+              },
+              "check_tool_chains": {
+                "type": "array"
+              }
+            }
+          }
+        }
+      },
+      "AuditEvent": {
+        "type": "object",
+        "properties": {
+          "action": {
+            "type": "string"
+          },
+          "actor_id": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "opaque_target_id": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "QueueItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "kind": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          },
+          "due_at": {
+            "type": "string"
+          }
+        }
+      },
+      "NativeItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "entry_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "i18n_key": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "locale": {
+            "type": "string"
+          },
+          "proposal": {
+            "type": "string"
+          },
+          "state": {
+            "type": "string"
+          },
+          "remedy_option": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      },
+      "Job": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "type": "string"
+          }
+        }
+      },
+      "Template": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "template_key": {
+            "type": "string"
+          },
+          "translations": {
+            "type": "object"
+          }
+        }
+      },
+      "Generation": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "model": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "prompt_reference": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "prompt": {
+            "type": "null"
+          },
+          "output": {
+            "type": "null"
+          },
+          "guardrail_hits": {
+            "type": "string"
+          },
+          "ai_marked": {
+            "type": "null"
+          }
+        }
+      },
+      "Rule": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "conditions": {
+            "type": "object"
+          },
+          "sources": {
+            "type": "array"
+          },
+          "confidence": {
+            "type": "string"
+          },
+          "exceptions": {
+            "type": "array"
+          },
+          "traditions_differ": {
+            "type": "array"
+          },
+          "user_text": {
+            "type": "object"
+          },
+          "approval": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  },
+  "paths": {
+    "/staff/login": {
+      "post": {
+        "summary": "Start password verification and TOTP enrollment if needed",
+        "operationId": "login",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Login"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "password": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "email",
+                  "password"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "login"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/verify": {
+      "post": {
+        "summary": "Complete MFA using the pending cookie",
+        "operationId": "verify",
+        "security": [
+          {
+            "pending": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Verified"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "code": {
+                    "type": "string"
+                  },
+                  "recovery_code": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "verify"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/dashboard": {
+      "get": {
+        "summary": "Read role-scoped aggregate counts",
+        "operationId": "dashboard",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "native_pending": {
+                      "type": "array"
+                    },
+                    "kb_states": {
+                      "type": "array"
+                    },
+                    "open_requests": {
+                      "type": "integer"
+                    },
+                    "failed_jobs": {
+                      "type": "integer"
+                    },
+                    "fixture_benchmark": {
+                      "type": "string"
+                    },
+                    "flag_drift": {
+                      "type": "string"
+                    },
+                    "ai_guardrail_hits": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "dashboard"
+        ]
+      }
+    },
+    "/staff/logout": {
+      "post": {
+        "summary": "Revoke staff session",
+        "operationId": "logout",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "signed_out": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        },
+        "tags": [
+          "logout"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/recovery/rotate": {
+      "post": {
+        "summary": "Replace recovery codes and disclose new codes once",
+        "operationId": "recovery_rotate",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "recovery_codes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        },
+        "tags": [
+          "recovery"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/users": {
+      "get": {
+        "summary": "Search masked accounts or profiles by opaque ID",
+        "operationId": "users",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/MaskedProfile"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "tags": [
+          "users"
+        ]
+      }
+    },
+    "/staff/unmask": {
+      "post": {
+        "summary": "Reveal one retained field with a documented reason",
+        "operationId": "unmask",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "field": {
+                          "type": "string"
+                        },
+                        "status": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "birth_instant": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "field": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "field",
+                  "reason"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "unmask"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/testers": {
+      "post": {
+        "summary": "Create or disable a fixture-bound tester",
+        "operationId": "testers",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "type": "object",
+                      "properties": {
+                        "disabled": {
+                          "type": "boolean"
+                        }
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "email": {
+                          "type": "string"
+                        },
+                        "initial_password": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "email": {
+                    "type": "string"
+                  },
+                  "fixture_user_id": {
+                    "type": "string"
+                  },
+                  "disable": {
+                    "type": "boolean"
+                  }
+                },
+                "required": [
+                  "email",
+                  "fixture_user_id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "testers"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/fixtures": {
+      "get": {
+        "summary": "List fixture profiles",
+        "operationId": "fixtures",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Fixture"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "fixtures"
+        ]
+      }
+    },
+    "/staff/fixtures/code": {
+      "post": {
+        "summary": "Issue a non-production fixture email challenge",
+        "operationId": "fixtures_code",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string"
+                    },
+                    "fixture_only": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "fixtures"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/inspector": {
+      "post": {
+        "summary": "Inspect fixture or authorized profile",
+        "operationId": "inspector",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Inspection"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "reason": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "inspector"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/kb": {
+      "get": {
+        "summary": "Browse dotted IDs or read one indexed entry",
+        "operationId": "kb",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    {
+                      "$ref": "#/components/schemas/Rule"
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "entry": {
+                          "type": "string"
+                        },
+                        "text": {
+                          "type": [
+                            "string",
+                            "null"
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "entry",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "prefix",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "tags": [
+          "kb"
+        ]
+      }
+    },
+    "/staff/kb/edit": {
+      "post": {
+        "summary": "Update draft doctrine overlay",
+        "operationId": "kb_edit",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "state": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "entry": {
+                    "type": "string"
+                  },
+                  "conditions": {
+                    "type": "object"
+                  },
+                  "sources": {
+                    "type": "array",
+                    "items": {
+                      "type": "object"
+                    }
+                  }
+                },
+                "required": [
+                  "entry",
+                  "conditions",
+                  "sources"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "kb"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/kb/transition": {
+      "post": {
+        "summary": "Record approval transition",
+        "operationId": "kb_transition",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "entry": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "entry": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string"
+                  },
+                  "notes": {
+                    "type": "string"
+                  },
+                  "approval": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "entry",
+                  "state"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "kb"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/native/queue": {
+      "get": {
+        "summary": "Read scoped Kannada and Hindi proposals",
+        "operationId": "native_queue",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/NativeItem"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "native"
+        ]
+      }
+    },
+    "/staff/native/review": {
+      "post": {
+        "summary": "Approve or reject a locale proposal",
+        "operationId": "native_review",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "state": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "state": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "state"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "native"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/copy": {
+      "post": {
+        "summary": "Propose non-legal localized copy",
+        "operationId": "copy",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "locale": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "type": "string"
+                  },
+                  "entry": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "locale",
+                  "text"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "copy"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/legal": {
+      "post": {
+        "summary": "Record a human-provided file digest",
+        "operationId": "legal",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    },
+                    "file_sha256": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "file_sha256": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "file_sha256"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "legal"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/remedies": {
+      "get": {
+        "summary": "Browse free optional remedies",
+        "operationId": "remedies",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "entry": {
+                        "type": "string"
+                      },
+                      "key": {
+                        "type": "string"
+                      },
+                      "remedy": {
+                        "type": "object"
+                      },
+                      "text": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "remedies"
+        ]
+      }
+    },
+    "/staff/remedies/review": {
+      "post": {
+        "summary": "Validate catalogued practice",
+        "operationId": "remedies_review",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "reviewed": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "entry": {
+                    "type": "string"
+                  },
+                  "option": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "entry"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "remedies"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/flags": {
+      "get": {
+        "summary": "List environment flags",
+        "operationId": "flags",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Flag"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "environment",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "tags": [
+          "flags"
+        ]
+      }
+    },
+    "/staff/flags/change": {
+      "post": {
+        "summary": "Change flag using bound approval for production",
+        "operationId": "flags_change",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string"
+                    },
+                    "environment": {
+                      "type": "string"
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "boolean"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "environment": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "type": "string"
+                  },
+                  "value": {},
+                  "approval": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "environment",
+                  "key",
+                  "value"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "flags"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/flags/request": {
+      "post": {
+        "summary": "Request a non-production change",
+        "operationId": "flags_request",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "requested": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "environment": {
+                    "type": "string"
+                  },
+                  "key": {
+                    "type": "string"
+                  },
+                  "value": {}
+                },
+                "required": [
+                  "environment",
+                  "key",
+                  "value"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "flags"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/ai": {
+      "post": {
+        "summary": "Review privacy-minimized generation metadata",
+        "operationId": "ai",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Generation"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "reason": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "tags": [
+          "ai"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/jobs": {
+      "get": {
+        "summary": "Read PDF job status",
+        "operationId": "jobs",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Job"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "jobs"
+        ]
+      }
+    },
+    "/staff/jobs/retry": {
+      "post": {
+        "summary": "Retry failed non-production fixture job",
+        "operationId": "jobs_retry",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Job"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "jobs"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/payments": {
+      "get": {
+        "summary": "Read test payment status",
+        "operationId": "payments",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "anyOf": [
+                    {
+                      "type": "array",
+                      "items": {
+                        "$ref": "#/components/schemas/Job"
+                      }
+                    },
+                    {
+                      "type": "object",
+                      "properties": {
+                        "mode": {
+                          "type": "string"
+                        },
+                        "items": {
+                          "type": "array"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "payments"
+        ]
+      }
+    },
+    "/staff/payments/test": {
+      "post": {
+        "summary": "Exercise simulated webhook boundary",
+        "operationId": "payments_test",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "mode": {
+                      "type": "string"
+                    },
+                    "capture": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {}
+              }
+            }
+          }
+        },
+        "tags": [
+          "payments"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/payments/live": {
+      "post": {
+        "summary": "Consume owner go-ahead and report live adapter availability",
+        "operationId": "payments_live",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "capture": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "approval": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "approval"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "payments"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/notifications": {
+      "get": {
+        "summary": "Read templates or delivery status",
+        "operationId": "notifications",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "anyOf": [
+                      {
+                        "$ref": "#/components/schemas/Template"
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "template_key": {
+                            "type": "string"
+                          },
+                          "text": {
+                            "type": [
+                              "string",
+                              "null"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "template_id": {
+                            "type": "string"
+                          },
+                          "created_at": {
+                            "type": "string"
+                          },
+                          "status": {
+                            "type": "string"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "notifications"
+        ]
+      }
+    },
+    "/staff/notifications/edit": {
+      "post": {
+        "summary": "Submit localized template text",
+        "operationId": "notifications_edit",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "state": {
+                      "type": "string"
+                    },
+                    "translations": {
+                      "type": "object"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "key": {
+                    "type": "string"
+                  },
+                  "locale": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "key",
+                  "locale",
+                  "text"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "notifications"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/notifications/test": {
+      "post": {
+        "summary": "Record a non-production test delivery",
+        "operationId": "notifications_test",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "notifications"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/notifications/broadcast": {
+      "post": {
+        "summary": "Record authorized broadcast request",
+        "operationId": "notifications_broadcast",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "sent": {
+                      "type": "boolean"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "approval": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "approval"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "notifications"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/audit": {
+      "get": {
+        "summary": "Search permitted append-only audit events",
+        "operationId": "audit",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/AuditEvent"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [
+          {
+            "name": "action",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "tags": [
+          "audit"
+        ]
+      }
+    },
+    "/staff/settings": {
+      "get": {
+        "summary": "List presence of allowlisted configuration names",
+        "operationId": "settings",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "name",
+                      "present"
+                    ],
+                    "properties": {
+                      "name": {
+                        "type": "string"
+                      },
+                      "present": {
+                        "type": "boolean"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "settings"
+        ]
+      }
+    },
+    "/staff/staff/role": {
+      "post": {
+        "summary": "Change role and revoke current sessions",
+        "operationId": "staff_role",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result; keep credential-bearing replies out of logs.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "role": {
+                      "type": "string"
+                    },
+                    "initial_password": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "role": {
+                    "type": "string"
+                  },
+                  "locale": {
+                    "type": "string"
+                  },
+                  "email": {
+                    "type": "string",
+                    "format": "email"
+                  }
+                },
+                "required": [
+                  "role"
+                ],
+                "oneOf": [
+                  {
+                    "required": [
+                      "id"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "email"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "staff"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/requests/list": {
+      "get": {
+        "summary": "Read export and deletion queue",
+        "operationId": "requests_list",
+        "security": [
+          {
+            "staff": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/QueueItem"
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "parameters": [],
+        "tags": [
+          "requests"
+        ]
+      }
+    },
+    "/staff/requests/intake": {
+      "post": {
+        "summary": "Create request by user ID",
+        "operationId": "requests_intake",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "user_id": {
+                    "type": "string"
+                  },
+                  "kind": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "user_id",
+                  "kind"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "requests"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/requests/export": {
+      "post": {
+        "summary": "Generate scoped user data package",
+        "operationId": "requests_export",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "profiles": {
+                      "type": "array"
+                    },
+                    "consents": {
+                      "type": "array"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "requests"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/requests/complete": {
+      "post": {
+        "summary": "Complete an authorized pending delete",
+        "operationId": "requests_complete",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "completed": {
+                      "type": "boolean"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "approval": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "requests"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/approvals": {
+      "post": {
+        "summary": "Create a scoped one-use owner approval",
+        "operationId": "approvals",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Approval"
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "operation": {
+                    "type": "string"
+                  },
+                  "parameters": {
+                    "type": "object"
+                  }
+                },
+                "required": [
+                  "operation",
+                  "parameters"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "approvals"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    },
+    "/staff/remedies/edit": {
+      "post": {
+        "summary": "Edit free optional remedy text; queue Kannada and Hindi for review",
+        "operationId": "remedies_edit",
+        "security": [
+          {
+            "staff": [],
+            "csrf": [],
+            "device": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Role-scoped result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "state": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "default": {
+            "description": "Invalid input, denied access, conflict, lockout or unavailable service",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "error": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "locale": {
+                    "type": "string"
+                  },
+                  "text": {
+                    "type": "string"
+                  },
+                  "entry": {
+                    "type": "string"
+                  },
+                  "option": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "entry",
+                  "locale",
+                  "text"
+                ]
+              }
+            }
+          }
+        },
+        "tags": [
+          "remedies"
+        ],
+        "parameters": [
+          {
+            "name": "Origin",
+            "in": "header",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uri"
+            },
+            "description": "Exact configured staff origin"
+          }
+        ]
+      }
+    }
+  }
+}

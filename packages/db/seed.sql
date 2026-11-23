@@ -39,3 +39,7 @@ INSERT INTO staff_users(email,role) VALUES
  ('reviewer@example.test','astrologer-reviewer'),('kn-reviewer@example.test','native-language reviewer'),
  ('tester@example.test','tester'),('support@example.test','support')
 ON CONFLICT DO NOTHING;
+
+UPDATE staff_users SET assigned_locale='kn' WHERE email='kn-reviewer@example.test' AND assigned_locale IS NULL;
+UPDATE staff_users SET fixture_user_id=md5('fixture:user:Asha')::uuid
+WHERE email='tester@example.test' AND fixture_user_id IS NULL;

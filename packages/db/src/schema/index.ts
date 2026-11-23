@@ -1,5 +1,5 @@
 import { sql } from 'drizzle-orm';
-import { pgTable, pgEnum, uuid, text, timestamp, date, time, integer, doublePrecision, boolean, jsonb, cidr, unique, index, check, foreignKey } from 'drizzle-orm/pg-core';
+import { bigint, pgTable, pgEnum, uuid, text, timestamp, date, time, integer, doublePrecision, boolean, jsonb, cidr, unique, index, check, foreignKey } from 'drizzle-orm/pg-core';
 
 export const channel = pgEnum('identity_channel', ['phone', 'email']);
 export const precision = pgEnum('birth_precision', ['known', 'approximate', 'unknown']);
@@ -248,6 +248,7 @@ export const report_books = pgTable('report_books', {
 ]);
 
 export const payments = pgTable('payments', {
+  mode: text().notNull().default('unknown'),
   id: uuid().primaryKey().defaultRandom(),
   order_id: uuid().notNull().references(() => report_orders.id, { onDelete: 'cascade' }),
   provider_ref: text().notNull().unique(),
@@ -278,6 +279,7 @@ export const entitlements = pgTable('entitlements', {
 ]);
 
 export const notifications = pgTable('notifications', {
+  translations: jsonb().notNull().default({}),
   id: uuid().primaryKey().defaultRandom(),
   template_key: text().notNull().unique(),
 });
@@ -337,6 +339,7 @@ export const feature_flags = pgTable('feature_flags', {
 ]);
 
 export const rule_catalogue = pgTable('rule_catalogue', {
+  draft_patch: jsonb().notNull().default({}),
   id: uuid().primaryKey().defaultRandom(),
   rule_key: text().notNull().unique(),
   source_path: text().notNull(),
@@ -346,6 +349,10 @@ export const rule_catalogue = pgTable('rule_catalogue', {
 ]);
 
 export const staff_users = pgTable('staff_users', {
+  password_hash: text(),
+  disabled_at: timestamp({withTimezone:true}),
+  assigned_locale: text(),
+  fixture_user_id: uuid().references(() => users.id, {onDelete:'set null'}),
   id: uuid().primaryKey().defaultRandom(),
   email: text().notNull().unique(),
   role: role().notNull(),
@@ -353,6 +360,8 @@ export const staff_users = pgTable('staff_users', {
 });
 
 export const staff_sessions = pgTable('staff_sessions', {
+  binding: text(),
+  last_seen: timestamp({withTimezone:true}).notNull().defaultNow(),
   id: uuid().primaryKey().defaultRandom(),
   staff_id: uuid().notNull().references(() => staff_users.id, { onDelete: 'cascade' }),
   token_hash: text().notNull().unique(),
@@ -363,6 +372,7 @@ export const staff_sessions = pgTable('staff_sessions', {
 ]);
 
 export const staff_mfa_devices = pgTable('staff_mfa_devices', {
+  last_step: bigint({mode:'number'}).notNull().default(-1),
   id: uuid().primaryKey().defaultRandom(),
   staff_id: uuid().notNull().references(() => staff_users.id, { onDelete: 'cascade' }),
   secret_ciphertext: text().notNull(),
@@ -395,6 +405,7 @@ export const kb_entry_reviews = pgTable('kb_entry_reviews', {
 ]);
 
 export const native_review_items = pgTable('native_review_items', {
+  remedy_option: text(),
   id: uuid().primaryKey().defaultRandom(),
   entry_id: uuid().references(() => rule_catalogue.id, { onDelete: 'restrict' }),
   i18n_key: text(),
@@ -481,3 +492,17 @@ export const otp_rate_limits = pgTable('otp_rate_limits', {
   window_start: timestamp({ withTimezone: true }).notNull(),
   hits: integer().notNull(),
 }, t => [index('otp_rate_expiry').on(t.window_start)]);
+
+export const staff_login_challenges = pgTable('staff_login_challenges', {
+  token_hash: text().primaryKey(), staff_id: uuid().notNull().unique().references(() => staff_users.id, {onDelete:'cascade'}),
+  binding: text().notNull(), expires_at: timestamp({withTimezone:true}).notNull(), enrollment_ciphertext: text()
+});
+export const staff_approvals = pgTable('staff_approvals', {
+  id: uuid().primaryKey().defaultRandom(), owner_id: uuid().notNull().references(() => staff_users.id),
+  operation: text().notNull(), parameters: jsonb().notNull(), expires_at: timestamp({withTimezone:true}).notNull(),
+  used_at: timestamp({withTimezone:true})
+});
+export const notification_test_log = pgTable('notification_test_log', {
+  id: uuid().primaryKey().defaultRandom(), template_id: uuid().notNull().references(() => notifications.id),
+  staff_id: uuid().notNull().references(() => staff_users.id), created_at: timestamp({withTimezone:true}).notNull().defaultNow()
+});
