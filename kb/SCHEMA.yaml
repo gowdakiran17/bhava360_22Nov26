@@ -29,3 +29,8 @@ vedic_planet_entries:
   directional_strength: Peak house identifies the angle for maximum dig bala. Exact strength depends on angular distance.
   nodes: Empty dignity tables and unassigned friendships and dig bala denote a deliberate doctrine choice.
   functional_nature: For each whole-sign Lagna list houses owned. The strict single-graha yogakaraka flag requires ownership of both an angle (4, 7 or 10) and a trine (5 or 9). Nodes rule no houses in this profile.
+vedic_nakshatra_entries:
+  extension: nakshatra
+  fields: [number, span_degrees, span_arcminutes, signs_spanned, vimshottari_lord, deity, symbol, gana, muhurta_nature, padas]
+  coordinates: Exact absolute sidereal arcminutes from Aries. Start inclusive and end exclusive. Normalize 360 degrees to zero before lookup.
+  padas: Four successive 200-arcminute quarters, each binding its natal rasi and its D9 sign.

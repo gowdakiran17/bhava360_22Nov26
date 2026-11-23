@@ -1,0 +1,103 @@
+id: vedic.nakshatras.krittika
+system: vedic
+topic: nakshatras
+title: Krittika
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: krittika
+nakshatra:
+  number: 3
+  span_degrees:
+  - 26°40′
+  - 40°00′
+  span_arcminutes:
+  - 1600
+  - 2400
+  signs_spanned:
+  - aries
+  - taurus
+  vimshottari_lord: sun
+  deity: Agni
+  symbol: blade
+  gana: rakshasa
+  muhurta_nature: mixed
+  padas:
+  - pada: 1
+    rasi: aries
+    navamsha: sagittarius
+  - pada: 2
+    rasi: taurus
+    navamsha: capricorn
+  - pada: 3
+    rasi: taurus
+    navamsha: aquarius
+  - pada: 4
+    rasi: taurus
+    navamsha: pisces
+meaning: Fire and a cutting edge offer an image of separating the useful from the unnecessary.
+life_areas:
+- learning
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 11
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Krittika row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You may find it helpful to keep the clearest part of a plan and revise the rest.
+  kn: ಯೋಜನೆಯ ಸ್ಪಷ್ಟ ಭಾಗ ಉಳಿಸಿಕೊಂಡು ಉಳಿದುದನ್ನು ಪರಿಷ್ಕರಿಸಬಹುದು.
+  hi: योजना का स्पष्ट हिस्सा रखकर बाकी पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

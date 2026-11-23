@@ -2,7 +2,7 @@ approval: draft
 origin: 0 degrees sidereal Aries
 width_arcseconds: 48000
 sequence_source: Nitya Deepam, name syllables table, sidereal span column
-lord_review: Vimshottari sequence pending edition-specific verification.
+lord_review: Phaladeepika XIX.2, Sastri second edition, begins with the Sun at Krittika; rotated to Ashwini this sequence begins with Ketu.
 nakshatras:
 - id: ashwini
   number: 1

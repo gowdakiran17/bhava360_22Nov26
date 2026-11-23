@@ -1,0 +1,105 @@
+id: vedic.nakshatras.revati
+system: vedic
+topic: nakshatras
+title: Revati
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: revati
+nakshatra:
+  number: 27
+  span_degrees:
+  - 346°40′
+  - 360°00′
+  span_arcminutes:
+  - 20800
+  - 21600
+  signs_spanned:
+  - pisces
+  vimshottari_lord: mercury
+  deity: Pushya
+  symbol: fish
+  gana: deva
+  muhurta_nature: gentle
+  padas:
+  - pada: 1
+    rasi: pisces
+    navamsha: sagittarius
+  - pada: 2
+    rasi: pisces
+    navamsha: capricorn
+  - pada: 3
+    rasi: pisces
+    navamsha: aquarius
+  - pada: 4
+    rasi: pisces
+    navamsha: pisces
+meaning: A guiding deity and a travelling creature can suggest accompanying someone through the last part of a journey.
+life_areas:
+- travel-relocation
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The cited Iyer transcription reads Pushya. Pushan is the familiar alternative attribution. The transcription-specific
+    label awaits Sanskrit collation.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 10
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Revati row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You can check what someone needs before they set out or return home.
+  kn: ಯಾರಾದರೂ ಹೊರಡುವ ಮೊದಲು ಅಥವಾ ಮನೆಗೆ ಮರಳುವಾಗ ಅವರಿಗೆ ಏನು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
+  hi: किसी के निकलने या घर लौटने से पहले पूछ सकते हैं कि उन्हें क्या चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

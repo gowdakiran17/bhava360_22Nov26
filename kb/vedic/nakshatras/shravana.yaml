@@ -1,0 +1,102 @@
+id: vedic.nakshatras.shravana
+system: vedic
+topic: nakshatras
+title: Shravana
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: shravana
+nakshatra:
+  number: 22
+  span_degrees:
+  - 280°00′
+  - 293°20′
+  span_arcminutes:
+  - 16800
+  - 17600
+  signs_spanned:
+  - capricorn
+  vimshottari_lord: moon
+  deity: Vishnu
+  symbol: ear
+  gana: deva
+  muhurta_nature: movable
+  padas:
+  - pada: 1
+    rasi: capricorn
+    navamsha: aries
+  - pada: 2
+    rasi: capricorn
+    navamsha: taurus
+  - pada: 3
+    rasi: capricorn
+    navamsha: gemini
+  - pada: 4
+    rasi: capricorn
+    navamsha: cancer
+meaning: The ear makes listening the beginning of learning, particularly when entering an unfamiliar setting.
+life_areas:
+- learning
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 11
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Shravana row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You may hear something useful by letting someone finish their account.
+  kn: ಇನ್ನೊಬ್ಬರು ಮಾತು ಮುಗಿಸುವವರೆಗೆ ಆಲಿಸಿದರೆ ಉಪಯುಕ್ತ ವಿಷಯ ಕೇಳಬಹುದು.
+  hi: किसी को अपनी बात पूरी करने देने पर उपयोगी बात सुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

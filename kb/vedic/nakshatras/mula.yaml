@@ -1,0 +1,106 @@
+id: vedic.nakshatras.mula
+system: vedic
+topic: nakshatras
+title: Mula
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: mula
+nakshatra:
+  number: 19
+  span_degrees:
+  - 240°00′
+  - 253°20′
+  span_arcminutes:
+  - 14400
+  - 15200
+  signs_spanned:
+  - sagittarius
+  vimshottari_lord: ketu
+  deity: Prajapati
+  symbol: bundle of roots
+  gana: rakshasa
+  muhurta_nature: sharp
+  padas:
+  - pada: 1
+    rasi: sagittarius
+    navamsha: aries
+  - pada: 2
+    rasi: sagittarius
+    navamsha: taurus
+  - pada: 3
+    rasi: sagittarius
+    navamsha: gemini
+  - pada: 4
+    rasi: sagittarius
+    navamsha: cancer
+meaning: Roots beneath the surface offer a way to reflect on origins. A question that keeps returning may be easier
+  to understand by tracing where it began.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Iyer’s printed deity table lists Prajapati for Mula. Gendarz gives Nirriti. This profile records the reading
+    of the cited classical edition.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 7
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Mula row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You may find it useful to trace one recurring question back to its starting point.
+  kn: ಮತ್ತೆ ಮತ್ತೆ ಎದುರಾಗುವ ಪ್ರಶ್ನೆ ಮೊದಲು ಎಲ್ಲಿ ಹುಟ್ಟಿತು ಎಂದು ಪರಿಶೀಲಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: बार-बार उठने वाले किसी सवाल की शुरुआत कहाँ हुई, यह देखना उपयोगी हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can write down when a recurring question first came up.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಮತ್ತೆ ಮತ್ತೆ ಎದುರಾಗುವ ಪ್ರಶ್ನೆ ಮೊದಲು ಯಾವಾಗ ಹುಟ್ಟಿತು ಎಂದು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो लिख सकते हैं कि बार-बार उठने वाला कोई सवाल पहली बार कब सामने आया था।

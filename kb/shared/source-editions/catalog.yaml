@@ -1,5 +1,7 @@
 version: 1
 works:
+  brihat-samhita: Brihat Samhita
+  nakshatra-table: Nakshatra Table
   bphs: Brihat Parashara Hora Shastra
   phaladeepika: Phaladeepika
   saravali: Saravali
@@ -28,6 +30,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  brihat-samhita-iyer-1884:
+    work_id: brihat-samhita
+    edition_id: brihat-samhita-iyer-1884
+    title_as_printed: Brihat Samhita
+    language: en
+    publication_details: N. Chidambaram Iyer translation, 1884, electronic chapter transcription.
+    verified_by: Chapter 98 stellar catalogue and classification passages inspected.
+    text: https://www.wisdomlib.org/hinduism/book/brihat-samhita/d/doc229361.html
+  gendarz-nakshatra-table:
+    work_id: nakshatra-table
+    edition_id: gendarz-nakshatra-table
+    title_as_printed: Nakshatra Table
+    language: en
+    publication_details: Rafal Gendarz, tabular PDF reference.
+    verified_by: Rows checked by star name for symbols and deity labels.
+    text: https://www.docs.rohinaa.com/naktable.pdf
   saravali-vedicpupil-ch3:
     work_id: saravali
     edition_id: saravali-vedicpupil-ch3

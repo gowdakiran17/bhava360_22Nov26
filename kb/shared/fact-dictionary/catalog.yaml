@@ -1309,3 +1309,9 @@ facts:
     values: [sun, moon, mars, mercury, jupiter, venus, saturn, rahu, ketu]
     origin: Identity of the graha bound to the selected computed D1 placement and profile.
     unknown_if: No computed placement is bound, or the selected point is Lagna.
+  d1.moon.nakshatra:
+    producer: vedic.d1
+    type: enum
+    values: [ashwini, bharani, krittika, rohini, mrigashira, ardra, punarvasu, pushya, ashlesha, magha, purva-phalguni, uttara-phalguni, hasta, chitra, swati, vishakha, anuradha, jyeshtha, mula, purva-ashadha, uttara-ashadha, shravana, dhanishta, shatabhisha, purva-bhadrapada, uttara-bhadrapada, revati]
+    origin: Sidereal natal Moon longitude in the equal 27-star profile, starting at zero Aries.
+    unknown_if: The Moon crosses a nakshatra boundary during the supported birth-time interval.

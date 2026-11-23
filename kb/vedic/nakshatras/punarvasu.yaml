@@ -1,0 +1,106 @@
+id: vedic.nakshatras.punarvasu
+system: vedic
+topic: nakshatras
+title: Punarvasu
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: punarvasu
+nakshatra:
+  number: 7
+  span_degrees:
+  - 80°00′
+  - 93°20′
+  span_arcminutes:
+  - 4800
+  - 5600
+  signs_spanned:
+  - gemini
+  - cancer
+  vimshottari_lord: jupiter
+  deity: Aditi
+  symbol: quiver
+  gana: deva
+  muhurta_nature: movable
+  padas:
+  - pada: 1
+    rasi: gemini
+    navamsha: aries
+  - pada: 2
+    rasi: gemini
+    navamsha: taurus
+  - pada: 3
+    rasi: gemini
+    navamsha: gemini
+  - pada: 4
+    rasi: cancer
+    navamsha: cancer
+meaning: A quiver holds something in reserve; returning to an earlier idea can reveal another possibility.
+life_areas:
+- family-home
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The Bhava360 activity profile groups Punarvasu with movable stars. Iyer’s list of moving activities in 98.11
+    omits it.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 11
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Punarvasu row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You can revisit a familiar approach and see what still works.
+  kn: ಪರಿಚಿತ ವಿಧಾನವನ್ನು ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ ಯಾವುದು ಇನ್ನೂ ಉಪಯುಕ್ತವೆಂದು ನೋಡಬಹುದು.
+  hi: पुराना तरीका फिर आज़माकर देख सकते हैं कि क्या अब भी काम करता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

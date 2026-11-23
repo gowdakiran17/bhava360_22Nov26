@@ -1,0 +1,102 @@
+id: vedic.nakshatras.uttara-bhadrapada
+system: vedic
+topic: nakshatras
+title: Uttara Bhadrapada
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: uttara-bhadrapada
+nakshatra:
+  number: 26
+  span_degrees:
+  - 333°20′
+  - 346°40′
+  span_arcminutes:
+  - 20000
+  - 20800
+  signs_spanned:
+  - pisces
+  vimshottari_lord: saturn
+  deity: Ahir Budhnya
+  symbol: rear of a funeral cot
+  gana: manushya
+  muhurta_nature: fixed
+  padas:
+  - pada: 1
+    rasi: pisces
+    navamsha: leo
+  - pada: 2
+    rasi: pisces
+    navamsha: virgo
+  - pada: 3
+    rasi: pisces
+    navamsha: libra
+  - pada: 4
+    rasi: pisces
+    navamsha: scorpio
+meaning: The supporting frame suggests what quietly sustains a person through a transition.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 6
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Uttara Bhadrapada row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You may notice a source of support that usually stays in the background.
+  kn: ಹಿನ್ನೆಲೆಯಲ್ಲೇ ಇರುವ ಬೆಂಬಲದ ಮೂಲವನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
+  hi: आप किसी ऐसे सहारे पर ध्यान दे सकते हैं जो अक्सर नज़र से छूट जाता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

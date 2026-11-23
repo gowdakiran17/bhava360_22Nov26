@@ -1,0 +1,102 @@
+id: vedic.nakshatras.jyeshtha
+system: vedic
+topic: nakshatras
+title: Jyeshtha
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the stable natal Moon nakshatra when its sidereal longitude falls in the recorded half-open span.
+conditions:
+  all:
+  - fact: d1.moon.nakshatra
+    op: eq
+    value: jyeshtha
+nakshatra:
+  number: 18
+  span_degrees:
+  - 226°40′
+  - 240°00′
+  span_arcminutes:
+  - 13600
+  - 14400
+  signs_spanned:
+  - scorpio
+  vimshottari_lord: mercury
+  deity: Indra
+  symbol: protective amulet
+  gana: rakshasa
+  muhurta_nature: sharp
+  padas:
+  - pada: 1
+    rasi: scorpio
+    navamsha: sagittarius
+  - pada: 2
+    rasi: scorpio
+    navamsha: capricorn
+  - pada: 3
+    rasi: scorpio
+    navamsha: aquarius
+  - pada: 4
+    rasi: scorpio
+    navamsha: pisces
+meaning: A protective emblem suggests the obligations that come with experience or seniority.
+life_areas:
+- career
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
+    Vimshottari sequence used here exclude it.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 7
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 19
+  verse: 2
+  other_locator: Nine-lord dasha sequence counted from Krittika
+  supports: Vimshottari lord for the birth Moon.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6
+  other_locator: Stellar quarters per sign and navamsha starting signs
+  supports: Rasi and navamsha sequence.
+  verification: verified
+- book: Nakshatra Table
+  work_id: nakshatra-table
+  edition: gendarz-nakshatra-table
+  chapter: null
+  verse: null
+  other_locator: Jyeshtha row
+  supports: Secondary comparison for deity names and reference for the symbol.
+  verification: verified
+confidence: medium
+review_notes: Editorial reflection on the symbol. Gana is a traditional matching class; muhurta requires the event
+  Moon and activity-specific factors. Native review pending.
+user_text:
+  en: You may find a way to support someone without taking over their task.
+  kn: ಇನ್ನೊಬ್ಬರ ಕೆಲಸವನ್ನು ವಹಿಸಿಕೊಳ್ಳದೆ ಅವರಿಗೆ ನೆರವಾಗುವ ದಾರಿ ಹುಡುಕಬಹುದು.
+  hi: किसी का काम अपने हाथ में लिए बिना उन्हें सहारा दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, you can listen without interrupting today.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।

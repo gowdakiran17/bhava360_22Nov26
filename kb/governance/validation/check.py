@@ -52,6 +52,34 @@ def check_predicate(node, facts):
     for child in children:
         check_predicate(child,facts)
 
+def validate_nakshatras(rules, signs):
+    catalog = read('vedic/nakshatras/catalog.yaml')['nakshatras']
+    fields = read('SCHEMA.yaml')['vedic_nakshatra_entries']['fields']
+    lords = 'ketu venus sun moon mars rahu jupiter saturn mercury'.split()
+    sign_ids = [item['id'] for item in signs]
+    d9 = next(m for m in read('vedic/vargas/methods.yaml')['methods'] if m['chart']=='D9')['sign_lookup']
+    records = {r['id']:r for r in rules.values() if r['system']=='vedic' and r['topic']=='nakshatras'}
+    require(len(records)==len(catalog)==27, '27 nakshatras required')
+    cursor = 0
+    for index, star in enumerate(catalog):
+        rid = 'vedic.nakshatras.' + star['id']
+        record = records[rid]
+        data = record['nakshatra']
+        require(set(data)==set(fields) and data['number']==star['number']==index+1, rid)
+        require(record['conditions']=={'all':[{'fact':'d1.moon.nakshatra','op':'eq','value':star['id']}]}, rid)
+        start, end = data['span_arcminutes']
+        require(start==cursor and end-start==800, rid+' gap, overlap or width')
+        require(data['span_degrees']==[f'{m//60}°{m%60:02d}′' for m in (start,end)],rid+' degrees')
+        require(data['vimshottari_lord']==star['vimshottari_lord']==lords[index%9],rid+' lord')
+        expected = []
+        for j in range(4):
+            longitude = start+j*200
+            sign = sign_ids[longitude//1800]
+            expected.append({'pada':j+1,'rasi':sign,'navamsha':d9[sign][longitude%1800//200]})
+        require(data['padas']==expected and data['signs_spanned']==list(dict.fromkeys(x['rasi'] for x in expected)),rid+' padas')
+        cursor=end
+    require(cursor==360*60,'nakshatra coverage must end at 360 degrees')
+
 def main():
     confidence_values=read('governance/review/identifiers.yaml')['confidence_values']
     template=read('templates/entry.yaml')
@@ -75,6 +103,8 @@ def main():
         if data['system']=='vedic' and data['topic']=='planets':
             expected_fields.add('graha')
             require(set(data['graha'])==graha_fields,rid)
+        if data['system']=='vedic' and data['topic']=='nakshatras':
+            expected_fields.add('nakshatra')
         require(set(data)==expected_fields and rid not in rules,rid)
         rules[rid]=data
         require(re.fullmatch(r'[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*',rid),rid)
@@ -125,6 +155,7 @@ def main():
                     expected[field][name] = attributes[field][graha]
             require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
+    validate_nakshatras(rules, signs)
     for area in areas['areas']:
         recipe=read(f'life-areas/{area}/reading.yaml')
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)
