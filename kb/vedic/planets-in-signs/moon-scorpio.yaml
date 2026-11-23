@@ -36,13 +36,12 @@ strength_notes:
   reason: Mars rules the sign. Its own or exalted placement may support the expression of this placement.
 exceptions:
 - when:
-    fact: d1.dignity.debility_lord_angular
+    fact: d1.dignity.neecha_bhanga_matched
     op: eq
     value: true
   effect: soften
   rule_id: vedic.yogas.neecha-bhanga
-  reason: Apply the cancellation screen to this Moon placement. An angular dispositor can qualify the debility
-    reading.
+  reason: Apply the cancellation screen to this Moon placement. A matched relief condition can qualify the debility reading.
 traditions_differ:
 - profile: parashari-lahiri-whole-sign-draft-v1
   note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships

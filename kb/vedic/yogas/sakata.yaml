@@ -13,10 +13,16 @@ conditions:
     - 6
     - 8
     - 12
-meaning: You can make room for support from people you trust.
+meaning: An uneven rhythm in resources or support may invite planning across more than one phase.
 life_areas:
 - family-home
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: weaker
+  reason: When both the Moon and Jupiter meet their strength minima, give less weight to the variability reading.
 exceptions:
 - when:
     fact: d1.moon.distance_from_lagna
@@ -28,18 +34,21 @@ exceptions:
     - 10
   effect: cancel
   reason: Moon angular from Lagna in this cancellation profile.
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This is the lunar Shakata, distinct from the Nabhasa formation of the same name.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: 14
-  other_locator: null
-  supports: Formation and angular-Moon cancellation.
+  verse: 14, 17
+  other_locator: Named yoga or graha combination
+  supports: Moon–Jupiter distance and the angular Moon exception.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You can make room for support from people you trust.
   kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
@@ -47,4 +56,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for support from people you trust.
+    kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+    hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।

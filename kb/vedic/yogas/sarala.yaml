@@ -13,23 +13,34 @@ conditions:
     - 6
     - 8
     - 12
-meaning: You can make room for support from people you trust.
+meaning: A demanding house topic may become an area of practical experience when its ruler occupies a dusthana.
 life_areas:
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the lord of house 8 in this match before giving the reading greater
+    weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Includes the ruler in its own dusthana. Stricter viparita readings restrict other associations and
+    may require a different dusthana.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 57, 65
+  other_locator: Named yoga or graha combination
+  supports: House yoga name and interpretation. The broad three-dusthana placement screen is the KB convention.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You can make room for support from people you trust.
   kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
@@ -37,4 +48,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for support from people you trust.
+    kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+    hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।

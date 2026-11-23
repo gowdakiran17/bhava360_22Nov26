@@ -17,24 +17,33 @@ conditions:
   - fact: d1.jupiter.own_or_exalted
     op: eq
     value: true
-meaning: You may find meaning in sharing what you learn.
+meaning: An angular, dignified Jupiter may make teaching and judgement more prominent in the house it occupies.
 life_areas:
 - learning
 - spirituality
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Jupiter in this match before giving the reading greater weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use Lagna as the origin. A parallel lunar-origin reading requires a separately labelled chart reference.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: 1
-  other_locator: Five angular planetary combinations
-  supports: Formation only. Reflection prompt is editorial.
+  verse: 1–4
+  other_locator: Named yoga or graha combination
+  supports: Five angular dignity formations and their individual grahas.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may find meaning in sharing what you learn.
   kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.
@@ -42,4 +51,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find meaning in sharing what you learn.
+    kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.
+    hi: सीखी हुई बात बाँटना आपको सार्थक लग सकता है।

@@ -1,5 +1,6 @@
 version: 1
 works:
+  uttara-kalamrita: Uttara Kalamrita
   surya-siddhanta: Surya Siddhanta
   taittiriya-brahmana: Taittiriya Brahmana
   nasa-planet-definition: What Is a Planet?
@@ -35,6 +36,20 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  jataka-parijata-vedicpupil:
+    work_id: jataka-parijata
+    edition_id: jataka-parijata-vedicpupil
+    title_as_printed: Jataka Parijata
+    language: Sanskrit/English
+    text: https://vedicpupil.in/library/books/jataka-parijata/chapter-7/verse-14
+    publication_details: Digital presentation, royal yoga passages.
+  uttara-kalamrita-strength:
+    work_id: uttara-kalamrita
+    edition_id: uttara-kalamrita-strength
+    title_as_printed: Uttara Kalamrita
+    language: Sanskrit/English
+    text: https://storage.yandexcloud.net/j108/library/mwlfiyhy/Kalidasa_-_Uttara_Kalamrita.pdf
+    publication_details: English rendering with commentary on motional strength.
   bphs-divyachadhava-24:
     work_id: bphs
     edition_id: bphs-divyachadhava-24

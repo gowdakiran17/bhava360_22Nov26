@@ -17,6 +17,80 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  d1.moon.eligible_flank:
+    type: boolean
+    producer: vedic.d1
+    origin: Any of Mars, Mercury, Jupiter, Venus or Saturn in sign 2 or 12 counted from the natal Moon.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.yoga.anchor_meets_strength:
+    type: boolean
+    producer: vedic.d1
+    origin: All bound anchor grahas named in this rule’s strength note meet their individual six-component shadbala
+      minimum. Bind only the participants producing this match.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.lords.exchange_class:
+    type: enum
+    producer: vedic.d1
+    origin: For the same reciprocal house pair, dainya if either house is 6, 8 or 12; otherwise khala if either
+      is 3; otherwise maha. Undefined without exchange.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+    values:
+    - maha
+    - khala
+    - dainya
+  d1.lord_9.dignified_in_angle_or_trine:
+    type: boolean
+    producer: vedic.d1
+    origin: Ninth lord occupies its own or exaltation sign and house 1, 4, 5, 7, 9 or 10 from Lagna.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.jupiter.saraswati_strength:
+    type: boolean
+    producer: vedic.d1
+    origin: Jupiter meets its shadbala minimum and is in an own, exaltation, or natural friend’s sign using
+      KB-02 relationships.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.exaltation_lord_angular:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. The ruler of the selected graha’s
+      exaltation sign occupies a kendra from Lagna or Moon.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.mutual_kendras:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. The distinct rulers of the debilitation
+      and exaltation signs occupy mutual kendras.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.dispositor_aspect:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. The dispositor casts a full graha
+      aspect on the selected debilitated graha.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.exaltee_angular:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. Under the alternate reading of tunganatha,
+      a classical planet exalted in the occupied sign is angular from Lagna or Moon.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.exalted_navamsha:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. The selected graha is debilitated
+      in D1 but occupies its exaltation sign in D9.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.navamsha_lord_support:
+    type: boolean
+    producer: vedic.d1
+    origin: Require the selected classical graha to be debilitated in D1. The ruler of the selected graha’s
+      D9 sign occupies a D1 angle or trine and either Lagna is movable or the Lagna lord occupies a movable
+      navamsha.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
+  d1.dignity.debilitated_vakri:
+    type: boolean
+    producer: vedic.d1
+    origin: Selected graha is debilitated in D1 and retrograde. Apply as a separate strength interpretation.
+    unknown_if: Required positions, bound participants, or strength inputs are unavailable or unstable.
   d1.state.graha_drishti:
     type: boolean
     producer: vedic.d1
@@ -1499,3 +1573,9 @@ facts:
     origin: For the bound pair of distinct houses, their two distinct classical sign rulers each occupy the other
       house in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.
     unknown_if: Either house, graha or placement is missing or unstable.
+  d1.dignity.neecha_bhanga_matched:
+    type: boolean
+    producer: vedic.d1
+    definition: vedic/yogas/neecha-bhanga.yaml
+    origin: Evaluate the referenced rule's complete formation for the same bound graha and its chart. Propagate an unknown result.
+    unknown_if: The selected graha or the result of the referenced rule is unresolved.

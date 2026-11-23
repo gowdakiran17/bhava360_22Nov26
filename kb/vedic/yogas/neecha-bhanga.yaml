@@ -4,29 +4,97 @@ topic: yogas
 title: Neecha Bhanga candidate
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For the debilitated graha, its sign lord is angular from Lagna or Moon.
+rule: 'For the same debilitated classical graha, match any listed relief branch: The dispositor occupies a
+  kendra from Lagna or Moon. The ruler of the selected graha’s exaltation sign occupies a kendra from Lagna
+  or Moon. The distinct rulers of the debilitation and exaltation signs occupy mutual kendras. The dispositor
+  casts a full graha aspect on the selected debilitated graha. Under the alternate reading of tunganatha,
+  a classical planet exalted in the occupied sign is angular from Lagna or Moon. The selected graha is debilitated
+  in D1 but occupies its exaltation sign in D9. The ruler of the selected graha’s D9 sign occupies a D1 angle
+  or trine and either Lagna is movable or the Lagna lord occupies a movable navamsha.'
 conditions:
-  all:
+  any:
   - fact: d1.dignity.debility_lord_angular
     op: eq
     value: true
-meaning: You can make room for support from people you trust.
+  - fact: d1.dignity.exaltation_lord_angular
+    op: eq
+    value: true
+  - fact: d1.dignity.mutual_kendras
+    op: eq
+    value: true
+  - fact: d1.dignity.dispositor_aspect
+    op: eq
+    value: true
+  - fact: d1.dignity.exaltee_angular
+    op: eq
+    value: true
+  - fact: d1.dignity.exalted_navamsha
+    op: eq
+    value: true
+  - fact: d1.dignity.navamsha_lord_support
+    op: eq
+    value: true
+meaning: Support elsewhere in the chart may qualify how a difficult dignity is expressed.
 life_areas:
+- learning
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the selected debilitated graha in this match before giving the reading
+    greater weight.
+- when:
+    fact: d1.dignity.debilitated_vakri
+    op: eq
+    value: true
+  effect: stronger
+  reason: Uttara Kalamrita II.6 gives retrograde debility motional strength; this profile keeps the D1 sign
+    dignity.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The alternate exaltee reading and the navamsha branches are identified separately. Retrogression is
+    a strength variant. The raja entry adds the library’s stricter angularity requirement for the recovered
+    planet.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  edition: phaladeepika-sastri-1950
+  chapter: 7
+  verse: 26–30
+  other_locator: Named yoga or graha combination
+  supports: Angular sign lords, mutual angles, dispositor aspect and the alternate exalted-graha gloss.
+  verification: verified
+- book: Jataka Parijata
+  work_id: jataka-parijata
+  edition: jataka-parijata-vedicpupil
+  chapter: 7
+  verse: 13–14
+  other_locator: Named yoga or graha combination
+  supports: Kendra and qualified navamsha-lord branches.
+  verification: verified
+- book: Jataka Parijata
+  work_id: jataka-parijata
+  edition: jataka-parijata-vedicpupil
+  chapter: 6
+  verse: '36'
+  other_locator: https://vedicpupil.in/library/books/jataka-parijata/chapter-6/verse-36
+  supports: D1 debility with D9 exaltation, a divisional qualification.
+  verification: verified
+- book: Uttara Kalamrita
+  work_id: uttara-kalamrita
+  edition: uttara-kalamrita-strength
+  chapter: 2
+  verse: '6'
+  other_locator: Named yoga or graha combination
+  supports: Retrograde debility as a distinct motional-strength reading.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You can make room for support from people you trust.
   kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
@@ -34,4 +102,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for support from people you trust.
+    kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+    hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।

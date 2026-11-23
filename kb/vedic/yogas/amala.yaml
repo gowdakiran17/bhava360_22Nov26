@@ -4,7 +4,8 @@ topic: yogas
 title: Amala
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named reference.
+rule: At least one graha classified as benefic under the selected profile occupies the tenth sign from the
+  named reference.
 conditions:
   any:
   - fact: d1.moon.tenth_has_benefic
@@ -13,23 +14,34 @@ conditions:
   - fact: d1.lagna.tenth_has_benefic
     op: eq
     value: true
-meaning: You may reflect on how you carry responsibility in public.
+meaning: A benefic in the tenth may bring values into visible work and commitments.
 life_areas:
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the qualifying benefic in this match before giving the reading greater
+    weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Record which origin matches. This profile admits a benefic even where another graha also occupies
+    the sign.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: 19
-  other_locator: null
-  supports: Formation in the tenth from Lagna or Moon.
+  verse: 12, 19
+  other_locator: Named yoga or graha combination
+  supports: Tenth from Moon or Lagna and the associated conduct theme.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may reflect on how you carry responsibility in public.
   kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
@@ -37,4 +49,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may reflect on how you carry responsibility in public.
+    kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+    hi: सार्वजनिक ज़िम्मेदारी निभाने के अपने तरीके पर विचार कर सकते हैं।

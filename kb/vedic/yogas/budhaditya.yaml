@@ -11,23 +11,33 @@ conditions:
     op: in
     value:
     - 1
-meaning: You may find it helpful to talk through an idea before acting.
+meaning: A shared sign may bring communication and decision-making into the same setting.
 life_areas:
 - learning
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Mercury and Sun in this match before giving the reading greater
+    weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The shared-sign screen includes close conjunctions. Assess Mercury’s combustion separately.
 sources:
-- book: Phaladeepika
-  work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 14
+  verse: '1'
+  other_locator: Named yoga or graha combination
+  supports: Sun and Mercury in one sign; the later name is used as a catalogue label.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may find it helpful to talk through an idea before acting.
   kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
@@ -35,4 +45,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it helpful to talk through an idea before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
+    hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।

@@ -236,7 +236,7 @@ def validate_planets_in_signs(rules, grahas, signs):
             require(entry['placement']['themes'] and entry['life_areas'] and entry['strength_notes'], rid + ' content')
             if status == 'debilitated':
                 pointer = 'vedic.yogas.neecha-bhanga'
-                require(any(e.get('rule_id') == pointer and e['when'] in rules[pointer]['conditions']['all']
+                require(any(e.get('rule_id') == pointer and e['when'] == {'fact': 'd1.dignity.neecha_bhanga_matched', 'op': 'eq', 'value': True}
                             and e['effect'] == 'soften' for e in entry['exceptions']), rid + ' cancellation')
 
 
@@ -519,8 +519,10 @@ def main():
     require(evaluate(mars,{'d1.mars.distance_from_lagna':1,'d1.mars.own_or_exalted':True}) is True,'Ruchaka positive')
     require(evaluate(mars,{'d1.mars.distance_from_lagna':2}) is False,'Ruchaka negative')
     require(evaluate(mars,{'d1.mars.distance_from_lagna':1}) is None,'Ruchaka incomplete')
+    from yoga_charts import validate_yoga_charts
+    validate_yoga_charts(rules, read, evaluate, require)
     kem=rules['vedic.yogas.kemadruma']
-    require(evaluate(kem['conditions'],{'d1.moon.eligible_flank_or_companion':False}) is True,'Kemadruma positive')
+    require(evaluate(kem['conditions'],{'d1.moon.eligible_flank':False}) is True,'Kemadruma positive')
     require(evaluate(kem['exceptions'][0]['when'],{'d1.moon.distance_from_lagna':4}) is True,'Kemadruma cancellation')
     for case in read('examples/asha.yaml')['cases']:
         check_predicate(case['entry']['conditions'],facts)

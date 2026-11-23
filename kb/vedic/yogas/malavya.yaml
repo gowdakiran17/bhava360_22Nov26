@@ -17,23 +17,33 @@ conditions:
   - fact: d1.venus.own_or_exalted
     op: eq
     value: true
-meaning: You may notice what helps people feel welcome.
+meaning: An angular, dignified Venus may make aesthetic judgement and cooperation more prominent in the house
+  it occupies.
 life_areas:
 - family-home
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Venus in this match before giving the reading greater weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use Lagna as the origin. A parallel lunar-origin reading requires a separately labelled chart reference.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: 1
-  other_locator: Five angular planetary combinations
-  supports: Formation only. Reflection prompt is editorial.
+  verse: 1–4
+  other_locator: Named yoga or graha combination
+  supports: Five angular dignity formations and their individual grahas.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may notice what helps people feel welcome.
   kn: ಜನರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಿಸುವ ವಿಷಯಗಳನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
@@ -41,4 +51,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may notice what helps people feel welcome.
+    kn: ಜನರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಿಸುವ ವಿಷಯಗಳನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
+    hi: आप देख सकते हैं कि लोगों को अपनापन किससे मिलता है।

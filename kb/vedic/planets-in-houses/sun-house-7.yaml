@@ -51,7 +51,7 @@ exceptions:
     - fact: d1.sun.debilitated
       op: eq
       value: true
-    - fact: d1.dignity.debility_lord_angular
+    - fact: d1.dignity.neecha_bhanga_matched
       op: eq
       value: true
   effect: soften

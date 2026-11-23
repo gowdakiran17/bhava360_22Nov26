@@ -4,7 +4,8 @@ topic: yogas
 title: Adhi
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Under this candidate profile Mercury, Venus and Jupiter each occupy one of the sixth, seventh or eighth signs from Moon.
+rule: Under this candidate profile Mercury, Venus and Jupiter each occupy one of the sixth, seventh or eighth
+  signs from Moon.
 conditions:
   all:
   - fact: d1.mercury.distance_from_moon
@@ -25,23 +26,35 @@ conditions:
     - 6
     - 7
     - 8
-meaning: You may wish to choose one practical next step at work.
+meaning: Several benefic influences across the Moon’s sixth through eighth signs may emphasise support in
+  handling responsibilities.
 life_areas:
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Mercury, Venus and Jupiter in this match before giving the reading
+    greater weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: All three named grahas must fall within the group. They may share a sign. Other readings distinguish
+    partial formations.
 sources:
-- book: Phaladeepika
-  work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 13
+  verse: '2'
+  other_locator: Named yoga or graha combination
+  supports: Benefic placements in the sixth through eighth from the Moon.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may wish to choose one practical next step at work.
   kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
@@ -49,4 +62,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may wish to choose one practical next step at work.
+    kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+    hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।

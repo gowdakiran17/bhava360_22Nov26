@@ -4,8 +4,8 @@ topic: yogas
 title: Durudhara
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are excluded
-  as contributors.
+rule: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the second and twelfth sign(s) counted
+  from the natal Moon; for both sides require a separate occupant on each.
 conditions:
   all:
   - any:
@@ -50,23 +50,34 @@ conditions:
       op: in
       value:
       - 12
-meaning: You may want to review the resources available for your plan.
+meaning: Support on both sides of the Moon may suggest balancing preparation with follow-through.
 life_areas:
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the Moon and the qualifying flank occupants in this match before
+    giving the reading greater weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Only Mars, Mercury, Jupiter, Venus and Saturn count. When both flanks are occupied, present Durudhara
+    once rather than stacking the two one-sided readings.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 5–7
+  other_locator: Named yoga or graha combination
+  supports: Flanking placements and their distinct readings.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may want to review the resources available for your plan.
   kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -74,4 +85,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may want to review the resources available for your plan.
+    kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।

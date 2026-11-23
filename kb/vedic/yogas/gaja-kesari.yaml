@@ -14,10 +14,17 @@ conditions:
     - 4
     - 7
     - 10
-meaning: You may find it helpful to talk through an idea before acting.
+meaning: Jupiter in a lunar angle may connect judgement with the needs that receive attention.
 life_areas:
 - learning
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Jupiter and Moon in this match before giving the reading greater
+    weight.
 exceptions:
 - when:
     fact: d1.jupiter.debilitated
@@ -25,18 +32,21 @@ exceptions:
     value: true
   effect: soften
   reason: Jupiter occupies its debilitation sign under the dignity register.
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This is the Moon–Jupiter angular screen. Stricter versions also assess affliction and dignity.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: 14
-  other_locator: null
-  supports: Moon/Jupiter angularity in the Kesari formulation; separate modern qualification requires review.
+  verse: 14, 16
+  other_locator: Named yoga or graha combination
+  supports: Lunar kendra definition and Kesari interpretation.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may find it helpful to talk through an idea before acting.
   kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
@@ -44,4 +54,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it helpful to talk through an idea before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
+    hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।

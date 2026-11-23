@@ -1,0 +1,69 @@
+id: vedic.yogas.lakshmi
+system: vedic
+topic: yogas
+title: Lakshmi
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Both Venus and the ninth lord occupy an own or exaltation sign in an angle or trine from Lagna. When
+  Venus rules the ninth, evaluate its single placement.
+conditions:
+  all:
+  - fact: d1.lord_9.dignified_in_angle_or_trine
+    op: eq
+    value: true
+  - fact: d1.venus.distance_from_lagna
+    op: in
+    value:
+    - 1
+    - 4
+    - 7
+    - 10
+    - 5
+    - 9
+  - fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+meaning: Values, material resources and guidance may reinforce one another.
+life_areas:
+- money
+- spirituality
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for Venus and the ninth lord in this match before giving the reading
+    greater weight.
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This is Mantreswara’s Venus-and-ninth-lord definition. Other definitions give greater weight to Lagna-lord
+    strength.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: 21, 24
+  other_locator: Named yoga or graha combination
+  supports: Venus and the ninth lord independently occupy angles or trines in own or exaltation signs.
+  verification: verified
+confidence: medium
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
+user_text:
+  en: You may find it useful to connect a financial choice with a value you want to practise.
+  kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯದೊಂದಿಗೆ ಜೋಡಿಸಬಹುದು.
+  hi: आप किसी आर्थिक चुनाव को उस मूल्य से जोड़ सकते हैं जिस पर आप अमल करना चाहते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it useful to connect a financial choice with a value you want to practise.
+    kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯದೊಂದಿಗೆ ಜೋಡಿಸಬಹುದು.
+    hi: आप किसी आर्थिक चुनाव को उस मूल्य से जोड़ सकते हैं जिस पर आप अमल करना चाहते हैं।

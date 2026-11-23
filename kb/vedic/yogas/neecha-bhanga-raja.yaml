@@ -4,33 +4,102 @@ topic: yogas
 title: Neecha Bhanga Raja candidate
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Both a sourced debility cancellation and additional angular placement of the recovered planet are required in this candidate
-  profile.
+rule: 'For the same debilitated classical graha, match any listed relief branch: The dispositor occupies a
+  kendra from Lagna or Moon. The ruler of the selected graha’s exaltation sign occupies a kendra from Lagna
+  or Moon. The distinct rulers of the debilitation and exaltation signs occupy mutual kendras. The dispositor
+  casts a full graha aspect on the selected debilitated graha. Under the alternate reading of tunganatha,
+  a classical planet exalted in the occupied sign is angular from Lagna or Moon. The selected graha is debilitated
+  in D1 but occupies its exaltation sign in D9. The ruler of the selected graha’s D9 sign occupies a D1 angle
+  or trine and either Lagna is movable or the Lagna lord occupies a movable navamsha. Also require the recovered
+  graha in a D1 kendra from Lagna.'
 conditions:
   all:
-  - fact: d1.dignity.debility_lord_angular
-    op: eq
-    value: true
+  - any:
+    - fact: d1.dignity.debility_lord_angular
+      op: eq
+      value: true
+    - fact: d1.dignity.exaltation_lord_angular
+      op: eq
+      value: true
+    - fact: d1.dignity.mutual_kendras
+      op: eq
+      value: true
+    - fact: d1.dignity.dispositor_aspect
+      op: eq
+      value: true
+    - fact: d1.dignity.exaltee_angular
+      op: eq
+      value: true
+    - fact: d1.dignity.exalted_navamsha
+      op: eq
+      value: true
+    - fact: d1.dignity.navamsha_lord_support
+      op: eq
+      value: true
   - fact: d1.dignity.recovered_planet_angular
     op: eq
     value: true
-meaning: You may wish to choose one practical next step at work.
+meaning: Support elsewhere in the chart may qualify how a difficult dignity is expressed.
 life_areas:
+- learning
 - career
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the selected debilitated graha in this match before giving the reading
+    greater weight.
+- when:
+    fact: d1.dignity.debilitated_vakri
+    op: eq
+    value: true
+  effect: stronger
+  reason: Uttara Kalamrita II.6 gives retrograde debility motional strength; this profile keeps the D1 sign
+    dignity.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The alternate exaltee reading and the navamsha branches are identified separately. Retrogression is
+    a strength variant. The raja entry adds the library’s stricter angularity requirement for the recovered
+    planet.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapter; exact edition and qualifications pending
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  edition: phaladeepika-sastri-1950
+  chapter: 7
+  verse: 26–30
+  other_locator: Named yoga or graha combination
+  supports: Angular sign lords, mutual angles, dispositor aspect and the alternate exalted-graha gloss.
+  verification: verified
+- book: Jataka Parijata
+  work_id: jataka-parijata
+  edition: jataka-parijata-vedicpupil
+  chapter: 7
+  verse: 13–14
+  other_locator: Named yoga or graha combination
+  supports: Kendra and qualified navamsha-lord branches.
+  verification: verified
+- book: Jataka Parijata
+  work_id: jataka-parijata
+  edition: jataka-parijata-vedicpupil
+  chapter: 6
+  verse: '36'
+  other_locator: https://vedicpupil.in/library/books/jataka-parijata/chapter-6/verse-36
+  supports: D1 debility with D9 exaltation, a divisional qualification.
+  verification: verified
+- book: Uttara Kalamrita
+  work_id: uttara-kalamrita
+  edition: uttara-kalamrita-strength
+  chapter: 2
+  verse: '6'
+  other_locator: Named yoga or graha combination
+  supports: Retrograde debility as a distinct motional-strength reading.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You may wish to choose one practical next step at work.
   kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
@@ -38,4 +107,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may wish to choose one practical next step at work.
+    kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+    hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।

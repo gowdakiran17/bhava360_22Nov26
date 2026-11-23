@@ -1,0 +1,528 @@
+scope: Synthetic placements in sidereal degrees from Aries, independent scenarios.
+  House pairs bind exchanges; shadbala is a supplied fixture measurement. No birth
+  data.
+cases:
+- id: scenario-1
+  fixture: Asha
+  longitude:
+    lagna: 350
+    sun: 177
+    moon: 177
+    mars: 275
+    mercury: 175
+    jupiter: 316
+    venus: 149
+    saturn: 69
+  selected_graha: venus
+  house_pair:
+  - 10
+  - 1
+  jupiter_shadbala_rupas: 7
+  misses:
+  - adhi
+  - amala
+  - chandra-mangala
+  - dhana
+  - durudhara
+  - gaja-kesari
+  - hamsa
+  - harsha
+  - kemadruma
+  - lakshmi
+  - malavya
+  - neecha-bhanga
+  - neecha-bhanga-raja
+  - parivartana
+  - parivartana-dainya
+  - parivartana-khala
+  - parivartana-maha
+  - ruchaka
+  - saraswati
+  - shasha
+  - sunapha
+  - ubhayachari
+  - vasumati
+  - vesi
+  - vimala
+  matches:
+  - anapha
+  - bhadra
+  - budhaditya
+  - raja
+  - sakata
+  - sarala
+  - vosi
+  exceptions:
+    sakata:
+    - 0
+- id: scenario-2
+  fixture: Ravi
+  longitude:
+    lagna: 177
+    sun: 203
+    moon: 49
+    mars: 292
+    mercury: 213
+    jupiter: 56
+    venus: 216
+    saturn: 268
+  selected_graha: saturn
+  house_pair:
+  - 2
+  - 1
+  jupiter_shadbala_rupas: 5
+  misses:
+  - anapha
+  - bhadra
+  - budhaditya
+  - sakata
+  - sarala
+  - vosi
+  matches:
+  - gaja-kesari
+  - kemadruma
+  - vesi
+  exceptions:
+    kemadruma:
+    - 1
+    - 2
+- id: scenario-3
+  fixture: Meera
+  longitude:
+    lagna: 31
+    sun: 125
+    moon: 325
+    mars: 68
+    mercury: 146
+    jupiter: 153
+    venus: 94
+    saturn: 212
+  selected_graha: venus
+  house_pair:
+  - 2
+  - 6
+  jupiter_shadbala_rupas: 7
+  matches:
+  - adhi
+  - ubhayachari
+  exceptions:
+    kemadruma:
+    - 0
+    - 2
+- id: scenario-4
+  fixture: Kabir
+  longitude:
+    lagna: 258
+    sun: 337
+    moon: 218
+    mars: 315
+    mercury: 358
+    jupiter: 148
+    venus: 312
+    saturn: 292
+  selected_graha: mars
+  house_pair:
+  - 9
+  - 2
+  jupiter_shadbala_rupas: 5
+  matches:
+  - amala
+  - dhana
+- id: scenario-5
+  fixture: Dev
+  longitude:
+    lagna: 319
+    sun: 338
+    moon: 339
+    mars: 311
+    mercury: 1
+    jupiter: 64
+    venus: 295
+    saturn: 209
+  selected_graha: venus
+  house_pair:
+  - 2
+  - 12
+  jupiter_shadbala_rupas: 5
+  matches:
+  - durudhara
+  - sunapha
+  misses:
+  - raja
+- id: scenario-6
+  fixture: Asha
+  longitude:
+    lagna: 207
+    sun: 182
+    moon: 163
+    mars: 355
+    mercury: 206
+    jupiter: 157
+    venus: 178
+    saturn: 199
+  selected_graha: moon
+  house_pair:
+  - 3
+  - 4
+  jupiter_shadbala_rupas: 7
+  matches:
+  - harsha
+  - shasha
+- id: scenario-7
+  fixture: Ravi
+  longitude:
+    lagna: 354
+    sun: 156
+    moon: 269
+    mars: 249
+    mercury: 145
+    jupiter: 114
+    venus: 142
+    saturn: 330
+  selected_graha: jupiter
+  house_pair:
+  - 12
+  - 6
+  jupiter_shadbala_rupas: 7
+  matches:
+  - chandra-mangala
+- id: scenario-8
+  fixture: Meera
+  longitude:
+    lagna: 310
+    sun: 64
+    moon: 55
+    mars: 245
+    mercury: 58
+    jupiter: 106
+    venus: 31
+    saturn: 261
+  selected_graha: jupiter
+  house_pair:
+  - 12
+  - 6
+  jupiter_shadbala_rupas: 5
+  matches:
+  - lakshmi
+  - malavya
+- id: scenario-9
+  fixture: Kabir
+  longitude:
+    lagna: 275
+    sun: 129
+    moon: 258
+    mars: 346
+    mercury: 139
+    jupiter: 242
+    venus: 131
+    saturn: 162
+  selected_graha: saturn
+  house_pair:
+  - 12
+  - 8
+  jupiter_shadbala_rupas: 5
+  matches:
+  - vimala
+- id: scenario-10
+  fixture: Dev
+  longitude:
+    lagna: 353
+    sun: 101
+    moon: 272
+    mars: 87
+    mercury: 85
+    jupiter: 287
+    venus: 61
+    saturn: 112
+  selected_graha: jupiter
+  house_pair:
+  - 10
+  - 4
+  jupiter_shadbala_rupas: 5
+  exceptions:
+    gaja-kesari:
+    - 0
+  matches:
+  - neecha-bhanga
+- id: scenario-11
+  fixture: Asha
+  longitude:
+    lagna: 246
+    sun: 88
+    moon: 323
+    mars: 36
+    mercury: 67
+    jupiter: 350
+    venus: 46
+    saturn: 196
+  selected_graha: mercury
+  house_pair:
+  - 6
+  - 4
+  jupiter_shadbala_rupas: 5
+  matches:
+  - hamsa
+- id: scenario-12
+  fixture: Ravi
+  longitude:
+    lagna: 9
+    sun: 330
+    moon: 313
+    mars: 5
+    mercury: 352
+    jupiter: 73
+    venus: 330
+    saturn: 145
+  selected_graha: mercury
+  house_pair:
+  - 8
+  - 7
+  jupiter_shadbala_rupas: 7
+  matches:
+  - ruchaka
+- id: scenario-13
+  fixture: Meera
+  longitude:
+    lagna: 106
+    sun: 181
+    moon: 259
+    mars: 204
+    mercury: 156
+    jupiter: 251
+    venus: 225
+    saturn: 49
+  selected_graha: sun
+  house_pair:
+  - 9
+  - 5
+  jupiter_shadbala_rupas: 7
+  matches:
+  - neecha-bhanga-raja
+- id: scenario-14
+  fixture: Kabir
+  longitude:
+    lagna: 87
+    sun: 4
+    moon: 336
+    mars: 86
+    mercury: 358
+    jupiter: 337
+    venus: 0
+    saturn: 359
+  selected_graha: saturn
+  house_pair:
+  - 10
+  - 2
+  jupiter_shadbala_rupas: 7
+  matches:
+  - vasumati
+- id: scenario-15
+  fixture: Dev
+  longitude:
+    lagna: 62
+    sun: 89
+    moon: 201
+    mars: 149
+    mercury: 80
+    jupiter: 94
+    venus: 118
+    saturn: 63
+  selected_graha: mars
+  house_pair:
+  - 10
+  - 12
+  jupiter_shadbala_rupas: 7
+  matches:
+  - saraswati
+- id: scenario-16
+  fixture: Asha
+  longitude:
+    lagna: 241
+    sun: 102
+    moon: 129
+    mars: 222
+    mercury: 92
+    jupiter: 89
+    venus: 105
+    saturn: 19
+  selected_graha: saturn
+  house_pair:
+  - 5
+  - 3
+  jupiter_shadbala_rupas: 5
+  sole_relief_branch: d1.dignity.debility_lord_angular
+- id: scenario-17
+  fixture: Ravi
+  longitude:
+    lagna: 203
+    sun: 269
+    moon: 35
+    mars: 97
+    mercury: 244
+    jupiter: 293
+    venus: 243
+    saturn: 161
+  selected_graha: sun
+  house_pair:
+  - 10
+  - 7
+  jupiter_shadbala_rupas: 5
+  exceptions:
+    kemadruma: []
+- id: scenario-18
+  fixture: Meera
+  longitude:
+    lagna: 166
+    sun: 189
+    moon: 75
+    mars: 336
+    mercury: 210
+    jupiter: 207
+    venus: 158
+    saturn: 339
+  selected_graha: venus
+  house_pair:
+  - 2
+  - 9
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.exalted_navamsha
+- id: scenario-19
+  fixture: Kabir
+  longitude:
+    lagna: 120
+    sun: 337
+    moon: 138
+    mars: 297
+    mercury: 345
+    jupiter: 287
+    venus: 298
+    saturn: 345
+  selected_graha: jupiter
+  house_pair:
+  - 9
+  - 5
+  jupiter_shadbala_rupas: 5
+  sole_relief_branch: d1.dignity.exaltation_lord_angular
+- id: scenario-20
+  fixture: Dev
+  longitude:
+    lagna: 170
+    sun: 217
+    moon: 59
+    mars: 195
+    mercury: 219
+    jupiter: 313
+    venus: 221
+    saturn: 285
+  selected_graha: saturn
+  house_pair:
+  - 3
+  - 2
+  jupiter_shadbala_rupas: 5
+  matches:
+  - parivartana
+  - parivartana-khala
+- id: scenario-21
+  fixture: Asha
+  longitude:
+    lagna: 239
+    sun: 297
+    moon: 156
+    mars: 162
+    mercury: 304
+    jupiter: 231
+    venus: 329
+    saturn: 42
+  selected_graha: sun
+  house_pair:
+  - 4
+  - 7
+  jupiter_shadbala_rupas: 5
+  matches:
+  - parivartana-maha
+- id: scenario-22
+  fixture: Ravi
+  longitude:
+    lagna: 321
+    sun: 338
+    moon: 238
+    mars: 80
+    mercury: 330
+    jupiter: 266
+    venus: 349
+    saturn: 23
+  selected_graha: moon
+  house_pair:
+  - 10
+  - 11
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.mutual_kendras
+- id: scenario-23
+  fixture: Meera
+  longitude:
+    lagna: 317
+    sun: 287
+    moon: 54
+    mars: 10
+    mercury: 287
+    jupiter: 348
+    venus: 292
+    saturn: 138
+  selected_graha: mercury
+  house_pair:
+  - 7
+  - 12
+  jupiter_shadbala_rupas: 5
+  matches:
+  - parivartana-dainya
+- id: scenario-24
+  fixture: Kabir
+  longitude:
+    lagna: 320
+    sun: 92
+    moon: 137
+    mars: 287
+    mercury: 79
+    jupiter: 181
+    venus: 87
+    saturn: 16
+  selected_graha: saturn
+  house_pair:
+  - 6
+  - 10
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.dispositor_aspect
+- id: scenario-25
+  fixture: Dev
+  longitude:
+    lagna: 287
+    sun: 121
+    moon: 294
+    mars: 33
+    mercury: 121
+    jupiter: 341
+    venus: 160
+    saturn: 124
+  selected_graha: venus
+  house_pair:
+  - 5
+  - 11
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.navamsha_lord_support
+- id: scenario-26
+  fixture: Asha
+  longitude:
+    lagna: 164
+    sun: 208
+    moon: 72
+    mars: 288
+    mercury: 194
+    jupiter: 284
+    venus: 219
+    saturn: 342
+  selected_graha: sun
+  house_pair:
+  - 1
+  - 3
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.exaltee_angular

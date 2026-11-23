@@ -4,29 +4,39 @@ topic: yogas
 title: Parivartana · reciprocal house-lord exchange
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For the bound pair of distinct houses, their two distinct classical sign rulers each occupy the other house
-  in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.
+rule: For the bound pair of distinct houses, their two distinct classical sign rulers each occupy the other
+  house in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.
 conditions:
   all:
   - fact: d1.lords.reciprocal_exchange
     op: eq
     value: true
-meaning: The topics of the two houses may draw on one another because their rulers trade places.
+meaning: A reciprocal exchange may make each house’s concerns depend on decisions in the other.
 life_areas: []
-strength_notes: []
+strength_notes:
+- when:
+    fact: d1.yoga.anchor_meets_strength
+    op: eq
+    value: true
+  effect: stronger
+  reason: Assess the shadbala minimum for the two exchanging lords in this match before giving the reading
+    greater weight.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Classify the specific house pair. A graha owning both houses cannot exchange with itself.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
   edition: phaladeepika-sastri-1950
   chapter: 6
-  verse: '32'
-  other_locator: Exchange of house lords
-  supports: Two distinct house lords occupy each other’s signs.
+  verse: 32–34
+  other_locator: Named yoga or graha combination
+  supports: Reciprocal exchange and its three classes.
   verification: verified
 confidence: medium
-review_notes: Bind both houses to the same natal chart. Native review pending.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
+  Kannada and Hindi await native review.
 user_text:
   en: You can consider what each side of an exchange needs from the other.
   kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
@@ -34,4 +44,11 @@ user_text:
 native_review:
   kn: pending
   hi: pending
-remedy: null
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can consider what each side of an exchange needs from the other.
+    kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+    hi: आप सोच सकते हैं कि लेन-देन में दोनों पक्षों को एक-दूसरे से क्या चाहिए।
