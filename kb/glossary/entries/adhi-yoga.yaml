@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಅಧಿಯೋಗ
   usage: traditional term
 meaning:
-  en: Mercury, Venus and Jupiter occupy places six to eight from the Moon.
-  kn: ಚಂದ್ರನಿಂದ ಆರು, ಏಳು ಅಥವಾ ಎಂಟನೇ ಸ್ಥಾನಗಳಲ್ಲಿ ಬುಧ, ಶುಕ್ರ ಮತ್ತು ಗುರು ಇರುವ ಜೋಡಣೆ.
-  hi: चंद्रमा से छठे से आठवें स्थानों में बुध, शुक्र और गुरु का मेल।
+  en: A grouping of planets read in relation to the Moon.
+  kn: ಚಂದ್ರನಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಓದುವ ಗ್ರಹಗಳ ವಿನ್ಯಾಸ.
+  hi: चंद्रमा के सापेक्ष देखा जाने वाला ग्रहों का समूह।
 admin_note: Under this candidate profile Mercury, Venus and Jupiter each occupy one of the sixth, seventh or eighth signs
   from Moon.
 aliases:
@@ -21,3 +21,7 @@ used_by:
 - vedic.yogas.adhi
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

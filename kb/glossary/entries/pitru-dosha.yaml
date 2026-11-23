@@ -18,3 +18,11 @@ reference_rules: []
 used_by:
 - vedic.doshas.grahan
 - vedic.doshas.pitru
+public_label:
+  en: Family traditions
+  kn: ಕುಟುಂಬದ ಸಂಪ್ರದಾಯಗಳು
+  hi: पारिवारिक परंपराएँ
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

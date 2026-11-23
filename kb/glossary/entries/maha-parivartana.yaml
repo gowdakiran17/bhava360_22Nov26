@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಮಹಾಪರಿವರ್ತನ
   usage: traditional term
 meaning:
-  en: An exchange of rulers involving houses other than the third, sixth, eighth and twelfth.
-  kn: ಮೂರು, ಆರು, ಎಂಟು, ಹನ್ನೆರಡನ್ನು ಹೊರತುಪಡಿಸಿದ ಮನೆಗಳ ಅಧಿಪತಿಗಳ ವಿನಿಮಯ.
-  hi: तीसरे, छठे, आठवें और बारहवें को छोड़ दो घरों के स्वामियों का स्थान बदलना।
+  en: A traditional category of exchange between chart rulers.
+  kn: ನಕ್ಷೆಯ ಅಧಿಪತಿಗಳ ಸ್ಥಾನ ವಿನಿಮಯದ ಸಾಂಪ್ರದಾಯಿಕ ವರ್ಗ.
+  hi: कुंडली में स्वामियों के स्थान परिवर्तन की एक पारंपरिक श्रेणी।
 admin_note: 'Application in vedic.yogas.parivartana-maha: Two distinct classical lords occupy each other’s houses and
   neither house is 3, 6, 8 or 12.'
 aliases: []
@@ -18,3 +18,7 @@ reference_rules:
 - vedic.yogas.parivartana-maha
 used_by:
 - vedic.yogas.parivartana-maha
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

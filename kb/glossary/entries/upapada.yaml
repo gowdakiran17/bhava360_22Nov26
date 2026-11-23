@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಉಪಪದ
   usage: traditional term
 meaning:
-  en: A point derived from the twelfth house and its ruler for a traditional partnership reading.
-  kn: ಒಡನಾಟದ ಓದಿಗೆ ಹನ್ನೆರಡನೇ ಮನೆ ಮತ್ತು ಅದರ ಅಧಿಪತಿಯಿಂದ ಪಡೆಯುವ ಸ್ಥಾನ.
-  hi: साझेदारी को समझने के लिए बारहवें घर और उसके स्वामी से निकला बिंदु।
+  en: A chart point that can be used to reflect on partnerships.
+  kn: ಪಾಲುದಾರಿಕೆಯ ಕುರಿತು ಚಿಂತಿಸಲು ಬಳಸಬಹುದಾದ ನಕ್ಷೆಯ ಬಿಂದು.
+  hi: कुंडली का एक बिंदु जिसका उपयोग साझेदारी पर विचार के लिए किया जा सकता है।
 admin_note: 'Application in jaimini.arudha-padas.upapada: Bind the requested D1 house 12 and compute A12 with arudha-padas/methods.yaml.
   Read its visible expression only if its final sign is stable.'
 aliases:
@@ -20,3 +20,7 @@ reference_rules: []
 used_by:
 - jaimini.arudha-padas.marriage-support
 - jaimini.arudha-padas.upapada
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

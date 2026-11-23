@@ -17,6 +17,8 @@ aliases:
 - lunar nodes
 reference_rules: []
 used_by:
+- vedic.doshas.grahan
+- vedic.doshas.guru-chandal
 - vedic.planets-in-signs.ketu-aquarius
 - vedic.planets-in-signs.ketu-aries
 - vedic.planets-in-signs.ketu-cancer

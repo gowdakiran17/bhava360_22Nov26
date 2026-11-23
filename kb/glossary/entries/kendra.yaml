@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಕೇನ್ದ್ರ
   usage: traditional term
 meaning:
-  en: The first, fourth, seventh or tenth place counted from a starting position.
-  kn: ಆರಂಭದ ಸ್ಥಾನದಿಂದ ಒಂದನೇ, ನಾಲ್ಕನೇ, ಏಳನೇ ಅಥವಾ ಹತ್ತನೇ ಸ್ಥಾನ.
-  hi: आरंभ से पहला, चौथा, सातवाँ या दसवाँ स्थान।
+  en: Chart areas associated with self, home, partnerships and work.
+  kn: ವ್ಯಕ್ತಿತ್ವ, ಮನೆ, ಪಾಲುದಾರಿಕೆ ಮತ್ತು ಕೆಲಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕ್ಷೇತ್ರಗಳು.
+  hi: पहचान, घर, साझेदारी और काम से जुड़े क्षेत्र।
 admin_note: Use this label for the first, fourth, seventh or tenth place counted from a starting position. Read the linked
   entries for the applicable conditions and differences between methods.
 aliases:
@@ -143,3 +143,7 @@ used_by:
 - vedic.yogas.neecha-bhanga
 - vedic.yogas.neecha-bhanga-raja
 - vedic.yogas.raja
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

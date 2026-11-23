@@ -8,9 +8,9 @@ sanskrit:
   kannada: ದೈನ್ಯಪರಿವರ್ತನ
   usage: traditional term
 meaning:
-  en: Two house rulers exchange places and at least one rules house six, eight or twelve.
-  kn: ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆ ಒಳಗೊಂಡ ಇಬ್ಬರು ಅಧಿಪತಿಗಳ ಸ್ಥಾನ ವಿನಿಮಯ.
-  hi: दो स्वामियों का स्थान बदलना जिसमें छठा, आठवाँ या बारहवाँ घर शामिल हो।
+  en: An exchange between chart rulers involving service, change or reflection.
+  kn: ಸೇವೆ, ಬದಲಾವಣೆ ಅಥವಾ ಚಿಂತನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಪತಿಗಳ ಸ್ಥಾನ ವಿನಿಮಯ.
+  hi: सेवा, बदलाव या चिंतन के क्षेत्र से जुड़ा स्वामियों का स्थान परिवर्तन।
 admin_note: Use this label for two house rulers exchange places and at least one rules house six, eight or twelve. Read
   the linked entries for the applicable conditions and differences between methods.
 aliases:
@@ -18,3 +18,7 @@ aliases:
 reference_rules: []
 used_by:
 - vedic.yogas.parivartana-dainya
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

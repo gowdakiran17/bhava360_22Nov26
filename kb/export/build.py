@@ -13,7 +13,12 @@ from tempfile import TemporaryDirectory
 from jsonschema import Draft202012Validator
 import yaml
 
+import sys
+
 from routes import routing
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "governance/validation"))
+from public_copy import check_text, check_public_file
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parents[1]
@@ -79,13 +84,16 @@ class Messages:
                 raise ValueError('Repeated public message: '+name)
             word = translations.get(locale)
             bundle[key] = word if isinstance(word,str) and word.strip() else translations[self.fallback]
+            check_text(bundle[key], name, locale)
         return key
 
 
 def practice(messages, name, remedy):
     if remedy['optional'] is not True or remedy['cost'] != 'free':
         raise ValueError('Unexpected remedy policy: '+name)
-    return {'optional':True,'cost':'free','type':remedy['type'],
+    if name.startswith('remedies/') and remedy.get('label') != 'traditional-practice':
+        raise ValueError('Missing traditional practice label: '+name)
+    return {'label':token('m','shared/traditional-practices/options.yaml#label'),'optional':True,'cost':'free','type':remedy['type'],
             'user_text':messages.add(name,remedy['user_text'])}
 
 
@@ -110,7 +118,10 @@ def public_resources(docs, messages):
         bindings[name] = key
     for path, doc in sorted(docs.items()):
         if path.startswith('glossary/entries/'):
-            public = {k:messages.add(path+'/'+k,doc[k]) for k in ('term','meaning')}
+            if doc.get('visibility') == 'admin-only':
+                continue
+            public = {'term':messages.add(path+'/term',doc.get('public_label',doc['term'])),
+                      'meaning':messages.add(path+'/meaning',doc['meaning'])}
         elif path.startswith('remedies/') and isinstance(doc,dict) and 'remedy' in doc:
             public = {'remedy':practice(messages,path,doc['remedy']),
                       'options':{k:practice(messages,path+'/'+k,v) for k,v in doc.get('options',{}).items()}}
@@ -200,6 +211,8 @@ def compile_files(docs, commit):
             tones = [v['tone'] for v in doc.values() if isinstance(v,dict) and 'tone' in v]
             public[public_id] = {'user_text':text_key, 'tone':tones[0] if tones else None,
                                  'remedy':practice(messages,key+'/remedy',doc['remedy']) if doc['remedy'] else None}
+            if 'public_label' in doc:
+                public[public_id]['label'] = messages.add(key+'/label',doc['public_label'])
             record = {k:v for k,v in doc.items() if k not in ('id','user_text','remedy')}
             record['life_areas'] = sorted(set(doc['life_areas']).union(*(by_id[a]['life_areas'] for a in grouped[key])))
             admin[key] = {'aliases':sorted(grouped[key]),'copy_owner':owner,'public_key':public_id,
@@ -244,6 +257,8 @@ def schema_name(path):
 def validate_outputs(outputs, manifest, docs):
     validators = {}
     for path, value in {**outputs,'manifest.json':manifest}.items():
+        if path.startswith('public/'):
+            check_public_file(path, value)
         name = schema_name(path)
         if name not in validators:
             schema = json.loads((HERE/'schema'/(name+'.json')).read_text())

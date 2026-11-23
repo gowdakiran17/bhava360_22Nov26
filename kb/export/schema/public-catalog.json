@@ -70,13 +70,18 @@
                   "type": {
                     "type": "string",
                     "minLength": 1
+                  },
+                  "label": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
                   }
                 },
                 "required": [
                   "user_text",
                   "optional",
                   "cost",
-                  "type"
+                  "type",
+                  "label"
                 ],
                 "additionalProperties": false
               },
@@ -98,13 +103,18 @@
                     "type": {
                       "type": "string",
                       "minLength": 1
+                    },
+                    "label": {
+                      "type": "string",
+                      "pattern": "^m_[0-9a-f]{24}$"
                     }
                   },
                   "required": [
                     "user_text",
                     "optional",
                     "cost",
-                    "type"
+                    "type",
+                    "label"
                   ],
                   "additionalProperties": false
                 }

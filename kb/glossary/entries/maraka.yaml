@@ -80,3 +80,8 @@ used_by:
 - vedic.planets-in-houses.sun-house-7
 - vedic.planets-in-houses.venus-house-2
 - vedic.planets-in-houses.venus-house-7
+visibility: admin-only
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

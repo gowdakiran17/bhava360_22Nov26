@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಸರಲಯೋಗ
   usage: traditional term
 meaning:
-  en: The ruler of house 8 occupies the sixth, eighth or twelfth house in this method.
-  kn: 8ನೇ ಮನೆಯ ಅಧಿಪತಿ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಮನೆಯಲ್ಲಿ ಇರುವುದು.
-  hi: घर 8 का स्वामी छठे, आठवें या बारहवें घर में होना।
+  en: A traditional pattern involving the ruler associated with change and shared resources.
+  kn: ಬದಲಾವಣೆ ಮತ್ತು ಹಂಚಿಕೊಂಡ ಸಂಪನ್ಮೂಲಗಳು ಕ್ಷೇತ್ರದ ಅಧಿಪತಿಗೆ ಸಂಬಂಧಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ವಿನ್ಯಾಸ.
+  hi: बदलाव और साझा संसाधन के क्षेत्र के स्वामी से जुड़ा पारंपरिक मेल।
 admin_note: Lord of house 8 occupies house 6, 8 or 12 under the broad Vipareeta screen.
 aliases:
 - sarala
@@ -23,3 +23,7 @@ used_by:
 - vedic.yogas.sarala
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

@@ -16,3 +16,11 @@ aliases: []
 reference_rules: []
 used_by:
 - vedic.doshas.guru-chandal
+public_label:
+  en: Jupiter with a lunar node
+  kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನೊಂದಿಗೆ ಗುರು
+  hi: चंद्र पथ के कटान के पास बृहस्पति
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

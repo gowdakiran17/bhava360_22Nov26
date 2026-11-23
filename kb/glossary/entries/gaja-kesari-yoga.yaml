@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಗಜಕೇಸರೀಯೋಗ
   usage: traditional term
 meaning:
-  en: Jupiter is in the first, fourth, seventh or tenth place counted from the Moon.
-  kn: ಚಂದ್ರನಿಂದ ಒಂದು, ನಾಲ್ಕು, ಏಳು ಅಥವಾ ಹತ್ತನೇ ಸ್ಥಾನದಲ್ಲಿ ಗುರು ಇರುವುದು.
-  hi: चंद्रमा से पहले, चौथे, सातवें या दसवें स्थान में बृहस्पति होना।
+  en: A pattern based on the relative positions of Jupiter and the Moon.
+  kn: ಗುರು ಮತ್ತು ಚಂದ್ರನ ಪರಸ್ಪರ ಸ್ಥಾನಗಳನ್ನು ಆಧರಿಸಿದ ವಿನ್ಯಾಸ.
+  hi: बृहस्पति और चंद्रमा की आपसी स्थिति पर आधारित मेल।
 admin_note: 'Moon-based screen: Jupiter occupies an angle from the Moon.'
 aliases:
 - gaja-kesari
@@ -21,3 +21,7 @@ used_by:
 - vedic.yogas.gaja-kesari
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

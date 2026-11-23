@@ -17,3 +17,11 @@ aliases: []
 reference_rules: []
 used_by:
 - vedic.doshas.grahan
+public_label:
+  en: Sun or Moon near a lunar node
+  kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನ ಬಳಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ
+  hi: चंद्र पथ के कटान के पास सूर्य या चंद्रमा
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

@@ -141,7 +141,7 @@ terms:
   dashami: Dashami
   dashavarga: Dashavarga
   dauvarika: Dauvarika
-  death-tarot: Death (Tarot)
+  death-tarot: Transformation (Death card)
   debilitation: Debilitation
   decan: Decan
   decision-spread: Decision spread
@@ -209,12 +209,12 @@ terms:
   graha-drishti: Graha drishti
   graha-maitri: Graha Maitri
   graha-yuddha: Graha yuddha
-  grahan: Grahan
+  grahan: Sun or Moon near a lunar node
   grand-trine: Grand trine
   grid-palm-mark: Grid palm mark
   griha-pravesha: Griha pravesha
   gulika-kalam: Gulika Kalam
-  guru-chandal: Guru Chandal
+  guru-chandal: Jupiter with a lunar node
   hamsa-yoga: Hamsa yoga
   harsha-yoga: Harsha yoga
   harshana-calendar-yoga: Harshana (calendar yoga)
@@ -223,18 +223,18 @@ terms:
   heart-line: Heart line
   hora: Hora
   hora-bala: Hora bala
-  house-1: House 1
-  house-10: House 10
-  house-11: House 11
-  house-12: House 12
-  house-2: House 2
-  house-3: House 3
-  house-4: House 4
-  house-5: House 5
-  house-6: House 6
-  house-7: House 7
-  house-8: House 8
-  house-9: House 9
+  house-1: Identity and self-expression
+  house-10: Work and responsibilities
+  house-11: Community and aspirations
+  house-12: Rest and reflection
+  house-2: Family and resources
+  house-3: Communication and everyday efforts
+  house-4: Home and learning
+  house-5: Creativity and children
+  house-6: Daily routines and service
+  house-7: Partnerships
+  house-8: Change and shared resources
+  house-9: Learning and long journeys
   house-lord: House lord
   house-system: House system
   indra-calendar-yoga: Indra (calendar yoga)
@@ -324,7 +324,6 @@ terms:
   mantra: Mantra
   mantra-japa: Mantra japa
   manushya-gana: Manushya Gana
-  maraka: Maraka
   mars: Mars
   mars-lower-mount: Mars Lower mount
   mars-mount: Mars mount
@@ -403,7 +402,7 @@ terms:
   pisces: Pisces
   pitrikaraka: Pitrikaraka
   pitris: Pitris
-  pitru-dosha: Pitru dosha
+  pitru-dosha: Family traditions
   placidus: Placidus
   planet: Planet
   pluto: Pluto
@@ -501,7 +500,7 @@ terms:
   shodhana: Shodhana
   shodhya-pinda: Shodhya pinda
   short-finger-proportion: Short finger proportion
-  shrapit: Shrapit
+  shrapit: Saturn with Rahu
   shravana: Shravana
   shubh-choghadiya: Shubh (Choghadiya)
   shubha-calendar-yoga: Shubha (calendar yoga)

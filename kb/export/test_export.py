@@ -112,7 +112,7 @@ class EngineExport(unittest.TestCase):
             for key,row in self.rows.items():
                 src = self.rules[key]
                 pub = self.docs['public/'+src['system']+'.json']['readings'][row['public_key']]
-                self.assertEqual(set(pub),{'user_text','tone','remedy'})
+                self.assertEqual(set(pub), {'user_text','tone','remedy'} | ({'label'} if 'public_label' in src else set()))
                 self.assertEqual(bundle[pub['user_text']],src['user_text'].get(loc) or src['user_text']['en'])
                 if src['remedy']:
                     text = src['remedy']['user_text']

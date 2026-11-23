@@ -70,3 +70,6 @@ mercury_comparison:
     Meera: {strict_benefic: false, majority_benefic: false}
     Kabir: {strict_benefic: false, majority_benefic: false}
     Dev: {strict_benefic: true, majority_benefic: true}
+sripati_lords:
+  4: mercury
+  10: jupiter

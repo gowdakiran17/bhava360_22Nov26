@@ -8,9 +8,9 @@ sanskrit:
   kannada: ದುಃಸ್ಥಾನ
   usage: traditional term
 meaning:
-  en: The sixth, eighth or twelfth part of a birth chart, grouped together for interpretation.
-  kn: ಜನ್ಮನಕ್ಷೆಯ ಆರು, ಎಂಟು ಮತ್ತು ಹನ್ನೆರಡನೇ ಸ್ಥಾನಗಳ ಗುಂಪು.
-  hi: जन्मपत्री के छठे, आठवें और बारहवें स्थान का समूह।
+  en: A traditional grouping of chart areas linked with service, change and reflection.
+  kn: ಸೇವೆ, ಬದಲಾವಣೆ ಮತ್ತು ಚಿಂತನೆಗೆ ಸಂಬಂಧಿಸಿದ ಕ್ಷೇತ್ರಗಳ ಸಾಂಪ್ರದಾಯಿಕ ಗುಂಪು.
+  hi: सेवा, बदलाव और चिंतन से जुड़े क्षेत्रों का एक पारंपरिक समूह।
 admin_note: Use this label for the sixth, eighth or twelfth part of a birth chart, grouped together for interpretation.
   Read the linked entries for the applicable conditions and differences between methods.
 aliases:
@@ -117,3 +117,7 @@ used_by:
 - vedic.yogas.parivartana-maha
 - vedic.yogas.sarala
 - vedic.yogas.vimala
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

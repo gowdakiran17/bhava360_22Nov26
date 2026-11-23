@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಶಕಟಯೋಗ
   usage: traditional term
 meaning:
-  en: The Moon occupies the sixth, eighth or twelfth place from Jupiter.
-  kn: ಗುರುವಿನಿಂದ ಆರು, ಎಂಟು ಅಥವಾ ಹನ್ನೆರಡನೇ ಸ್ಥಾನದಲ್ಲಿ ಚಂದ್ರ ಇರುವುದು.
-  hi: बृहस्पति से छठे, आठवें या बारहवें स्थान में चंद्रमा होना।
+  en: A traditional grouping based on the position of the Moon relative to Jupiter.
+  kn: ಗುರುವಿಗೆ ಸಂಬಂಧಿಸಿದಂತೆ ಚಂದ್ರನ ಸ್ಥಾನವನ್ನು ಆಧರಿಸಿದ ಸಾಂಪ್ರದಾಯಿಕ ವಿನ್ಯಾಸ.
+  hi: बृहस्पति के सापेक्ष चंद्रमा की स्थिति पर आधारित एक पारंपरिक मेल।
 admin_note: Moon lies sixth, eighth or twelfth from Jupiter.
 aliases:
 - sakata
@@ -20,3 +20,7 @@ used_by:
 - vedic.yogas.sakata
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

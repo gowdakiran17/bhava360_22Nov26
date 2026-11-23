@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಉಪಚಯ
   usage: traditional term
 meaning:
-  en: A group consisting of the third, sixth, tenth and eleventh places in the birth chart.
-  kn: ಮೂರು, ಆರು, ಹತ್ತು ಮತ್ತು ಹನ್ನೊಂದನೇ ಸ್ಥಾನಗಳ ಗುಂಪು.
-  hi: तीसरे, छठे, दसवें और ग्यारहवें स्थान का समूह।
+  en: Chart areas associated with effort, service, work and community.
+  kn: ಪ್ರಯತ್ನ, ಸೇವೆ, ಕೆಲಸ ಮತ್ತು ಸಮುದಾಯಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಕ್ಷೇತ್ರಗಳು.
+  hi: प्रयास, सेवा, काम और समुदाय से जुड़े क्षेत्र।
 admin_note: Use this label for a group consisting of the third, sixth, tenth and eleventh places in the birth chart.
   Read the linked entries for the applicable conditions and differences between methods.
 aliases: []
@@ -137,3 +137,7 @@ used_by:
 - vedic.planets-in-houses.venus-house-3
 - vedic.planets-in-houses.venus-house-6
 - vedic.yogas.vasumati
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

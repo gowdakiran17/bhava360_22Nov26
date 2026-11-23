@@ -4,6 +4,7 @@ linked_to: vedic.planets.saturn
 remedy:
   type: service
   optional: true
+  label: traditional-practice
   cost: free
   user_text:
     en: If you like, you can offer someone dependable help with a routine task and follow through at the agreed time.
@@ -17,6 +18,7 @@ options:
     type: mantra-japa
     cost: free
     optional: true
+    label: traditional-practice
     weekday: Saturday
     form: nama
     sources:
@@ -31,6 +33,7 @@ options:
     type: charity
     cost: free
     optional: true
+    label: traditional-practice
     sources:
     - title: Plant World in Hindu Consciousness
       url: https://vbuss.org/sites/vbuss.org/files/1-Plant-World%20in%20Hindu%20Consciousness%20%281%29.pdf

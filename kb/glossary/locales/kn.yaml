@@ -141,7 +141,7 @@ terms:
   dashami: ದಶಮೀ
   dashavarga: ದಶವರ್ಗ
   dauvarika: ದೌವಾರಿಕ
-  death-tarot: ಮೃತ್ಯು (ಟ್ಯಾರೊ)
+  death-tarot: ರೂಪಾಂತರ (ಟ್ಯಾರೋ ಕಾರ್ಡ್)
   debilitation: ನೀಚ
   decan: ಹತ್ತು ಅಂಶಗಳ ವಿಭಾಗ
   decision-spread: ನಿರ್ಧಾರಕ್ಕೆ ಪತ್ರ ವಿನ್ಯಾಸ
@@ -209,12 +209,12 @@ terms:
   graha-drishti: ಗ್ರಹದೃಷ್ಟಿ
   graha-maitri: ಗ್ರಹಮೈತ್ರೀ
   graha-yuddha: ಗ್ರಹಯುದ್ಧ
-  grahan: ಗ್ರಹಣ
+  grahan: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನ ಬಳಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ
   grand-trine: ತ್ರಿಕೋಣತ್ರಯ
   grid-palm-mark: ಅಡ್ಡಹಾಯುವ ಸಮಾಂತರ ಸಣ್ಣ ಗೆರೆಗಳ ಗುಂಪು
   griha-pravesha: ಗೃಹಪ್ರವೇಶ
   gulika-kalam: ಗುಲಿಕಕಾಲ
-  guru-chandal: ಗುರುಚಾಣ್ಡಾಲ
+  guru-chandal: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನೊಂದಿಗೆ ಗುರು
   hamsa-yoga: ಹಂಸಯೋಗ
   harsha-yoga: ಹರ್ಷಯೋಗ
   harshana-calendar-yoga: ಹರ್ಷಣ
@@ -223,18 +223,18 @@ terms:
   heart-line: ಹೃದಯರೇಖಾ
   hora: ಹೋರಾ
   hora-bala: ಹೋರಾಬಲ
-  house-1: ತನುಭಾವ
-  house-10: ಕರ್ಮಭಾವ
-  house-11: ಲಾಭಭಾವ
-  house-12: ವ್ಯಯಭಾವ
-  house-2: ಧನಭಾವ
-  house-3: ಸಹಜಭಾವ
-  house-4: ಸುಖಭಾವ
-  house-5: ಪುತ್ರಭಾವ
-  house-6: ಅರಿಭಾವ
-  house-7: ಯುವತಿಭಾವ
-  house-8: ರನ್ಧ್ರಭಾವ
-  house-9: ಧರ್ಮಭಾವ
+  house-1: ವ್ಯಕ್ತಿತ್ವ ಮತ್ತು ಅಭಿವ್ಯಕ್ತಿ
+  house-10: ಕೆಲಸ ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳು
+  house-11: ಸಮುದಾಯ ಮತ್ತು ಆಶಯಗಳು
+  house-12: ವಿಶ್ರಾಂತಿ ಮತ್ತು ಚಿಂತನೆ
+  house-2: ಕುಟುಂಬ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು
+  house-3: ಸಂವಹನ ಮತ್ತು ದೈನಂದಿನ ಪ್ರಯತ್ನಗಳು
+  house-4: ಮನೆ ಮತ್ತು ಕಲಿಕೆ
+  house-5: ಸೃಜನಶೀಲತೆ ಮತ್ತು ಮಕ್ಕಳು
+  house-6: ದಿನಚರಿ ಮತ್ತು ಸೇವೆ
+  house-7: ಪಾಲುದಾರಿಕೆ
+  house-8: ಬದಲಾವಣೆ ಮತ್ತು ಹಂಚಿಕೊಂಡ ಸಂಪನ್ಮೂಲಗಳು
+  house-9: ಕಲಿಕೆ ಮತ್ತು ದೀರ್ಘ ಪ್ರಯಾಣಗಳು
   house-lord: ಭಾವೇಶ
   house-system: ಮನೆಯ ವಿಭಾಗ ವಿಧಾನ
   indra-calendar-yoga: ಇನ್ದ್ರ
@@ -324,7 +324,6 @@ terms:
   mantra: ಮನ್ತ್ರ
   mantra-japa: ಮಂತ್ರ ಜಪ
   manushya-gana: ಮನುಷ್ಯ ಗಣ
-  maraka: ಮಾರಕ
   mars: ಮಂಗಳ
   mars-lower-mount: ಹೆಬ್ಬೆರಳಿನ ಬುಡದ ಮೇಲೆ, ತೋರುಬೆರಳಿನ ಕಡೆಗಿನ ಉಬ್ಬು
   mars-mount: ಮಂಗಳ ಭಾಗದಲ್ಲಿ ಉಬ್ಬು, ನಿಖರ ಸ್ಥಳ ತಿಳಿದಿಲ್ಲ
@@ -403,7 +402,7 @@ terms:
   pisces: ಮೀನ
   pitrikaraka: ಪಿತೃಕಾರಕ
   pitris: ಪಿತರಃ
-  pitru-dosha: ಪಿತೃದೋಷ
+  pitru-dosha: ಕುಟುಂಬದ ಸಂಪ್ರದಾಯಗಳು
   placidus: ಪ್ಲಾಸಿಡಸ್
   planet: ಖಗೋಳದ ಗ್ರಹ
   pluto: ಪ್ಲುಟೊ
@@ -501,7 +500,7 @@ terms:
   shodhana: ಶೋಧನ
   shodhya-pinda: ಶೋಧ್ಯಪಿಣ್ಡ
   short-finger-proportion: ಅಂಗೈಗೆ ಹೋಲಿಸಿದರೆ ಚಿಕ್ಕ ಬೆರಳುಗಳು
-  shrapit: ಶ್ರಾಪಿತ
+  shrapit: ರಾಹುವಿನೊಂದಿಗೆ ಶನಿ
   shravana: ಶ್ರವಣ
   shubh-choghadiya: ಶುಭ ಬೇಲಾ
   shubha-calendar-yoga: ಶುಭ

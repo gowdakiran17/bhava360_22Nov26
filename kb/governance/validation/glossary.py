@@ -90,6 +90,12 @@ def validate_glossary(rules, read, require, root):
         for field,lo,hi in [('devanagari','ऀ','ॿ'),('kannada','ಀ','೿')]:
             require(any(lo <= c <= hi for c in row['sanskrit'][field]),key+' Sanskrit '+field)
         require(row['admin_note'].strip() and len(row['aliases'])==len(set(map(normalized,row['aliases']))),key)
+        if row.get('visibility') != 'admin-only':
+            from public_copy import check_text
+            for field, localized in [('term', row.get('public_label',row['term'])), ('meaning',row['meaning'])]:
+                require(set(localized) == {'en','hi','kn'}, key+' public locales')
+                for locale, text in localized.items():
+                    check_text(text, f'glossary/entries/{key}.yaml/{field}', locale)
         entries[key] = row
     inventory = (base / 'inventory.txt').read_text().splitlines()
     require(sorted(entries) == inventory,'glossary inventory and entry files differ')
@@ -120,7 +126,7 @@ def validate_glossary(rules, read, require, root):
                 and set(actual) <= rules.keys(), key+' glossary backlinks')
     for lang in ('en','kn','hi'):
         labels = read(f'glossary/locales/{lang}.yaml')['terms']
-        require(labels == {k:r['term'][lang] for k,r in entries.items()},lang+' glossary index')
+        require(labels == {k:r.get('public_label',r['term'])[lang] for k,r in entries.items() if r.get('visibility') != 'admin-only'},lang+' glossary index')
     for lang in ('te','ta','ml','es','fr'):
         row = read(f'glossary/locales/{lang}.yaml')
         require(row['fallback']=='en' and not any(row['terms'].values()),lang+' glossary fallback')

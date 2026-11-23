@@ -23,3 +23,11 @@ used_by:
 - tarot.major-arcana.death-upright
 systems:
 - tarot
+public_label:
+  en: Transformation (Death card)
+  kn: ರೂಪಾಂತರ (ಟ್ಯಾರೋ ಕಾರ್ಡ್)
+  hi: रूपांतरण (टैरो कार्ड)
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
