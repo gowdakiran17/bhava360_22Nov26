@@ -1,0 +1,50 @@
+id: vedic.matching.porutham-rashi-lord
+system: vedic
+topic: matching
+title: Porutham · Rashi-Lord
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compare the two Moon-sign rulers. A common ruler or mutual natural friendship gives agreement. Other relationships
+  are contextual in this profile.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can ask how your partner prefers to discuss a disagreement.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern graha-maitri factor
+    has its own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 7. Rasyadhipathi
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can ask how your partner prefers to discuss a disagreement.
+  kn: ಭಿನ್ನಾಭಿಪ್ರಾಯದ ಬಗ್ಗೆ ಹೇಗೆ ಮಾತನಾಡಲು ಇಷ್ಟಪಡುತ್ತಾರೆ ಎಂದು ಕೇಳಬಹುದು.
+  hi: आप पूछ सकते हैं कि मतभेद पर आपका साथी कैसे बात करना पसंद करता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  support: same or mutual natural friends
+  partial: other relationships reviewed as context

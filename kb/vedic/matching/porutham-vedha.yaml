@@ -1,0 +1,73 @@
+id: vedic.matching.porutham-vedha
+system: vedic
+topic: matching
+title: Porutham · Vedha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Look up the unordered birth-star pair in the explicit obstruction list. All other pairs pass this factor.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can agree on a way to pause when a conversation feels difficult.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Raman names thirteen pairs. Other tables group Mrigashira, Chitra and Dhanishta as mutually obstructing.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 10. Vedha
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can agree on a way to pause when a conversation feels difficult.
+  kn: ಸಂಭಾಷಣೆ ಕಷ್ಟವೆನಿಸಿದಾಗ ಹೇಗೆ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬೇಕು ಎಂದು ಒಪ್ಪಿಕೊಳ್ಳಬಹುದು.
+  hi: बातचीत कठिन लगे तो आप मिलकर विराम लेने का तरीका तय कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  mutual_obstructions:
+  - - 1
+    - 18
+  - - 2
+    - 17
+  - - 3
+    - 16
+  - - 4
+    - 15
+  - - 6
+    - 22
+  - - 7
+    - 21
+  - - 8
+    - 20
+  - - 9
+    - 19
+  - - 10
+    - 27
+  - - 11
+    - 26
+  - - 12
+    - 25
+  - - 13
+    - 24
+  - - 5
+    - 23

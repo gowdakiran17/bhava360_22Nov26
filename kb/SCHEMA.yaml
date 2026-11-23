@@ -167,3 +167,8 @@ vedic_prashna_entries:
   judgment: vedic/prashna/judgment.yaml
   public: Localized question reflection, eligible leaning with reasons, and optional review window.
   restricted: Health uses the clinician referral. Legal requests use the lawyer referral. Legal house study and the advanced Kerala observation workflow are admin-only.
+vedic_matching_entries:
+  extension: matching
+  routing: vedic/matching/factors.yaml
+  evidence_access: [admin, tester]
+  public_fields: [localized_tone, user_text]

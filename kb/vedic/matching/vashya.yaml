@@ -1,0 +1,81 @@
+id: vedic.matching.vashya
+system: vedic
+topic: matching
+title: Vashya koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Classify each exact lunar longitude by sign and sign half. At fifteen degrees use the second half. Look up
+  the ordered classes.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can discuss how each of you likes to make decisions.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Porutham uses a sign-affinity list. PyJHora approximates halves by pada in its default routine.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 8. Vasya Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: VasiyaArray
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can discuss how each of you likes to make decisions.
+  kn: ನಿರ್ಧಾರಗಳನ್ನು ಹೇಗೆ ತೆಗೆದುಕೊಳ್ಳಲು ಇಷ್ಟಪಡುತ್ತೀರಿ ಎಂದು ಮಾತನಾಡಬಹುದು.
+  hi: आप बात कर सकते हैं कि आप दोनों फैसले कैसे लेना पसंद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  matrix: vashya
+  sign_half_classes:
+  - - 0
+    - 0
+  - - 0
+    - 0
+  - - 1
+    - 1
+  - - 2
+    - 2
+  - - 3
+    - 3
+  - - 1
+    - 1
+  - - 1
+    - 1
+  - - 4
+    - 4
+  - - 1
+    - 0
+  - - 0
+    - 2
+  - - 1
+    - 1
+  - - 2
+    - 2

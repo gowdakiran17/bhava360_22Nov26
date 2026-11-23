@@ -1,0 +1,67 @@
+id: vedic.matching.porutham-vashya
+system: vedic
+topic: matching
+title: Porutham · Vashya
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Find the row Moon sign and check whether the column Moon sign appears in its affinity list. Signs are numbered
+  from Aries.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can discuss how each of you likes to make decisions.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern vashya factor has
+    its own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 8. Vasya Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can discuss how each of you likes to make decisions.
+  kn: ನಿರ್ಧಾರಗಳನ್ನು ಹೇಗೆ ತೆಗೆದುಕೊಳ್ಳಲು ಇಷ್ಟಪಡುತ್ತೀರಿ ಎಂದು ಮಾತನಾಡಬಹುದು.
+  hi: आप बात कर सकते हैं कि आप दोनों फैसले कैसे लेना पसंद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  column_signs_by_row:
+  - - 5
+    - 8
+  - - 4
+    - 7
+  - - 6
+  - - 8
+    - 9
+  - - 7
+  - - 12
+    - 3
+  - - 10
+    - 6
+  - - 4
+  - - 12
+  - - 1
+    - 11
+  - - 1
+  - - 10

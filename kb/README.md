@@ -99,3 +99,7 @@ Use a shared activity catalogue for everyday travel, starting work, purchase, si
 10. Fill R3 palmistry, Western progressions/solar arc/composite, custom tarot and lessons. Stage Lal Kitab, full Vastu, face reflection, annual charts, rectification, festivals and family Together under their release flags. On-hold subjects require a new product decision.
 
 The [Parashari D1 guide](vedic/D1.md) explains how to combine the registers, identify house lords and handle uncertain birth times.
+
+### Matching table convention
+
+For Bhakoot, the Aquarius row and Cancer column form a 6/8 pair when counted inclusively. Bhava360 overrides the pinned PyJHora cell with the distance-rule value of zero in both directions. The matching reference grid tests this cell. Raw points are visible only to admins and testers.

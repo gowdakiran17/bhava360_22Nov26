@@ -1,6 +1,6 @@
 version: 1
 approval: draft
-source: PyJHora compatibility.py, revision f8c6de2f54338752bdb667384a8b0ca5791c5bdf. Candidate northern profile.
+source: PyJHora compatibility.py, revision f8c6de2f54338752bdb667384a8b0ca5791c5bdf. Matrix source for the named northern profile. Entry-specific rules document differences.
 matrix_order: First use the declared row partner (traditional bride role), then column partner (traditional groom role). Ask
   for the intended roles for asymmetric tables. Never infer either from a name.
 matrixes:
@@ -404,8 +404,8 @@ lord_order:
 - jupiter
 - venus
 - saturn
-tara: For each direction cycle the inclusive star count through nine. Candidate convention awards 1.5 for each remainder other
-  than 3, 5, 7. Confirm same-star exceptions in selected edition.
+tara: For each direction cycle the inclusive star count through nine. This profile awards 1.5 for each remainder other
+  than 3, 5, 7. Both inclusive counts equal one for a shared star.
 bhakoot: Award 0 for 2/12, 5/9 or 6/8 sign relationships, otherwise 7 in the base table. Keep a separately reviewed exception
   for identical or mutually friendly sign lords.
 nadi: Repeat 0,1,2,2,1,0 across the 27 birth stars from Ashwini. Different classes give 8, identical classes 0. Treat same-star/different-pada

@@ -1,0 +1,81 @@
+id: vedic.matching.porutham-rajju
+system: vedic
+topic: matching
+title: Porutham · Rajju
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compare the two birth-star groups. Distinct groups give agreement. A shared group calls for context.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can discuss what staying connected means to each of you during a change.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This profile follows Raman’s five groups. Some Tamil approaches distinguish ascending and descending stars
+    within one group. Rajju is outside the northern total.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 9. Rajju
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can discuss what staying connected means to each of you during a change.
+  kn: ಬದಲಾವಣೆಯ ಸಮಯದಲ್ಲಿ ಸಂಪರ್ಕದಲ್ಲಿರುವುದು ನಿಮಗೆ ಏನರ್ಥ ಎಂದು ಇಬ್ಬರೂ ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि बदलाव के समय जुड़े रहने का आप दोनों के लिए क्या अर्थ है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  stars:
+    foot:
+    - 1
+    - 9
+    - 10
+    - 18
+    - 19
+    - 27
+    waist:
+    - 2
+    - 8
+    - 11
+    - 17
+    - 20
+    - 26
+    navel:
+    - 3
+    - 7
+    - 12
+    - 16
+    - 21
+    - 25
+    neck:
+    - 4
+    - 6
+    - 13
+    - 15
+    - 22
+    - 24
+    head:
+    - 5
+    - 14
+    - 23
+  agreement: different groups

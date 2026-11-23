@@ -1,0 +1,159 @@
+profile: raman-ten-porutham
+access:
+- admin
+- tester
+orientation: Declared row to column, both endpoints inclusive. Same sign is contextual
+  for Rashi. A boolean records the base agreement only. Do not sum the ten factors.
+factors:
+  dina:
+    inclusive_remainders:
+    - 0
+    - 2
+    - 4
+    - 6
+    - 8
+  gana:
+    accepted:
+    - - true
+      - true
+      - true
+    - - true
+      - true
+      - true
+    - - false
+      - false
+      - true
+    partial_when_column_class: rakshasa with different row
+  mahendra:
+    inclusive_counts:
+    - 4
+    - 7
+    - 10
+    - 13
+    - 16
+    - 19
+    - 22
+    - 25
+  stree-deergha:
+    inclusive_count_above: 9
+  yoni:
+    enemy_pairs:
+    - - 7
+      - 9
+    - - 1
+      - 13
+    - - 0
+      - 8
+    - - 4
+      - 10
+    - - 3
+      - 12
+    - - 11
+      - 2
+    - - 5
+      - 6
+  rashi:
+    inclusive_counts:
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    same_sign: neutral context
+  rashi-lord:
+    support: same or mutual natural friends
+    partial: other relationships reviewed as context
+  vashya:
+    column_signs_by_row:
+    - - 5
+      - 8
+    - - 4
+      - 7
+    - - 6
+    - - 8
+      - 9
+    - - 7
+    - - 12
+      - 3
+    - - 10
+      - 6
+    - - 4
+    - - 12
+    - - 1
+      - 11
+    - - 1
+    - - 10
+  rajju:
+    stars:
+      foot:
+      - 1
+      - 9
+      - 10
+      - 18
+      - 19
+      - 27
+      waist:
+      - 2
+      - 8
+      - 11
+      - 17
+      - 20
+      - 26
+      navel:
+      - 3
+      - 7
+      - 12
+      - 16
+      - 21
+      - 25
+      neck:
+      - 4
+      - 6
+      - 13
+      - 15
+      - 22
+      - 24
+      head:
+      - 5
+      - 14
+      - 23
+    agreement: different groups
+  vedha:
+    mutual_obstructions:
+    - - 1
+      - 18
+    - - 2
+      - 17
+    - - 3
+      - 16
+    - - 4
+      - 15
+    - - 6
+      - 22
+    - - 7
+      - 21
+    - - 8
+      - 20
+    - - 9
+      - 19
+    - - 10
+      - 27
+    - - 11
+      - 26
+    - - 12
+      - 25
+    - - 13
+      - 24
+    - - 5
+      - 23
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: Marriage, factors 1–10
+  supports: Southern factor definitions; selected thresholds and treatment of partial
+    agreement form a named profile.
+  verification: verified

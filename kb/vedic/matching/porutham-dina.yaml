@@ -1,0 +1,53 @@
+id: vedic.matching.porutham-dina
+system: vedic
+topic: matching
+title: Porutham · Dina
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Count inclusively from the row birth star to the column birth star and look up the remainder modulo nine.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can talk about when each of you needs encouragement.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern tara factor has its
+    own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 1. Dina Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can talk about when each of you needs encouragement.
+  kn: ಯಾವಾಗ ಪ್ರೋತ್ಸಾಹ ಬೇಕು ಎಂದು ಒಬ್ಬರಿಗೊಬ್ಬರು ಹೇಳಬಹುದು.
+  hi: आप बता सकते हैं कि कब आपको हौसले की ज़रूरत होती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  inclusive_remainders:
+  - 0
+  - 2
+  - 4
+  - 6
+  - 8

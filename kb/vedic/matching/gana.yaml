@@ -1,0 +1,57 @@
+id: vedic.matching.gana
+system: vedic
+topic: matching
+title: Gana koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read both natal star classes and look up their ordered temperamental grouping. Labels belong to the table
+  only.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can compare how each of you responds to a change of plans.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Northern rows are directional. Southern comparisons use their own qualitative agreement.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 2. Gana Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: gana_array
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can compare how each of you responds to a change of plans.
+  kn: ಯೋಜನೆ ಬದಲಾದಾಗ ನೀವು ಹೇಗೆ ಸ್ಪಂದಿಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि योजना बदलने पर आप दोनों कैसे प्रतिक्रिया देते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  matrix: gana
+  class_index: gana_stars

@@ -1,0 +1,27 @@
+synthetic: true
+origin: Invented sidereal Moon degrees for matching tests. Partner order is explicitly selected by the fixture.
+apply_kb10_parihara: true
+pairs:
+- row: Asha
+  column: Ravi
+  moon_degrees: [1, 5]
+  consent: [true, true]
+  nadi_softened: true
+  bhakoot_softened: false
+  north: [1, 2, 3, 4, 5, 6, 7, 0]
+  south: [0, 1, 0, 0, 1, 0, 1, 0, 0, 1]
+  tone: Steady
+- row: Meera
+  column: Kabir
+  moon_degrees: [10, 218]
+  consent: [true, true]
+  nadi_softened: false
+  bhakoot_softened: true
+  north: [1, 2, 1.5, 1, 5, 6, 0, 8]
+  south: [1, 1, 0, 1, 1, 1, 1, 1, 1, 1]
+  tone: Steady
+raman_relief_probes:
+- {moons: [1, 5], selected: true, nadi: true, bhakoot: false}
+- {moons: [1, 5], selected: false, nadi: false, bhakoot: false}
+- {moons: [10, 218], selected: true, nadi: false, bhakoot: true}
+- {moons: [45, 195], selected: true, nadi: false, bhakoot: true}

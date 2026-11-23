@@ -1,0 +1,69 @@
+id: vedic.matching.varna
+system: vedic
+topic: matching
+title: Varna koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read the lunar sign element in row and column order. This symbolic classification never assigns social identity
+  or standing.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can compare what gives each of you a sense of purpose.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The northern profile uses lunar elements. Raman gives a different sign grouping.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 11. Varna
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: VarnaArray
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can compare what gives each of you a sense of purpose.
+  kn: ನಿಮ್ಮಿಬ್ಬರಿಗೂ ಯಾವುದು ಅರ್ಥಪೂರ್ಣವೆಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: आप बात कर सकते हैं कि किस बात से आप दोनों को उद्देश्य का अनुभव होता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  matrix: varna
+  sign_class:
+  - 1
+  - 2
+  - 3
+  - 0
+  - 1
+  - 2
+  - 3
+  - 0
+  - 1
+  - 2
+  - 3
+  - 0

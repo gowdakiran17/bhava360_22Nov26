@@ -1,0 +1,48 @@
+id: vedic.matching.porutham-stree-deergha
+system: vedic
+topic: matching
+title: Porutham · Stree-Deergha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compare the inclusive row-to-column distance to the selected threshold.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can discuss how much time each of you needs for a shared decision.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Raman uses more than nine and reports more than seven elsewhere. Other Tamil implementations use a longer
+    interval.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 4. Stree-Deergha
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can discuss how much time each of you needs for a shared decision.
+  kn: ಜಂಟಿ ನಿರ್ಧಾರಕ್ಕೆ ಇಬ್ಬರಿಗೂ ಎಷ್ಟು ಕಾಲ ಬೇಕೆಂದು ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि साझा फैसले के लिए किसे कितना समय चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  inclusive_count_above: 9

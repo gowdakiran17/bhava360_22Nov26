@@ -1,0 +1,62 @@
+id: vedic.matching.chart-cross-check
+system: vedic
+topic: matching
+title: Seventh house, Venus and Navamsha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For each partner inspect the D1 seventh sign, its ruler and Venus by house, sign and dignity. Compare the
+  D9 ascendant, seventh house, seventh lord and Venus. Record repeated or differing themes for the two charts separately.
+  Unstable birth times leave house and D9 evidence unresolved.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: context
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.context.ready
+    op: eq
+    value: true
+meaning: You can compare what commitment means to each of you.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Cross-checks provide context alongside either regional profile. A single chart factor does not decide a
+    relationship.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: Marriage, introductory discussion and Kuja Dosha
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: '12'
+  other_locator: null
+  supports: Classical division and its assignment.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can compare what commitment means to each of you.
+  kn: ಬದ್ಧತೆ ಎಂದರೆ ನಿಮಗೆ ಏನರ್ಥ ಎಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: आप साझा कर सकते हैं कि प्रतिबद्धता आप दोनों के लिए क्या मायने रखती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  related_rules:
+  - vedic.houses.house-7
+  - vedic.planets.venus
+  - vedic.vargas.d9-placement
+  weight: context only

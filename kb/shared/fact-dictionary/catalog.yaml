@@ -2495,3 +2495,39 @@ facts:
     definition: vedic/yogas/neecha-bhanga.yaml
     origin: Evaluate the referenced rule's complete formation for the same bound graha and its chart. Propagate an unknown result.
     unknown_if: The selected graha or the result of the referenced rule is unresolved.
+  match.pair.ready:
+    type: boolean
+    producer: vedic.matching
+    origin: Both partners consented, role order and convention explicitly selected.
+    unknown_if: Inputs or consent unavailable.
+  match.moons.stable:
+    type: boolean
+    producer: vedic.matching
+    origin: Both sidereal Moon longitudes and all selected factor inputs are stable.
+    unknown_if: Inputs or consent unavailable.
+  match.context.ready:
+    type: boolean
+    producer: vedic.matching
+    origin: Both charts have the required timed D1 and D9 context for the selected comparison.
+    unknown_if: Inputs or consent unavailable.
+  match.profile:
+    type: enum
+    values: [north, south, context]
+    producer: vedic.matching
+    origin: Selected matching branch; context is invoked separately for both profiles.
+    unknown_if: Inputs or consent unavailable.
+  match.nadi.quarter_relief:
+    type: boolean
+    producer: vedic.matching
+    origin: With Raman quarter reckoning expressly selected, a shared star-level Nadi is set aside when the two quarter Nadis differ. Number all 108 quarters from zero at Ashwini and repeat adi, madhya, antya, antya, madhya, adi. Preserve the star-level score.
+    unknown_if: Convention or either Moon input unavailable.
+  match.bhakoot.raman_relief:
+    type: boolean
+    producer: vedic.matching
+    origin: With Raman lord relief expressly selected, shared rulers or mutual natural friends cancel the interpretive objection to the base sign pair. Preserve the base score.
+    unknown_if: Convention or either Moon input unavailable.
+  match.mars.ready:
+    type: boolean
+    producer: vedic.matching
+    origin: Both consenting charts have the inputs for the same KB-10 Mars convention and origin.
+    unknown_if: A required Mars input, role or convention is unresolved.

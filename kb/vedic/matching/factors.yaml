@@ -22,3 +22,18 @@ exceptions: Keep Nadi and Bhakoot parihara reasons beside the raw points. Evalua
   never infer consent or a marriage decision.
 dashakoota: 'Separate southern profile: Dina, Gana, Mahendra, Stree Deergha, Yoni, Rashi, Rashi lord, Vashya, Rajju, Vedha.
   Never convert to 36 points.'
+access:
+  evidence: [admin, tester]
+  public_fields: [localized_tone, user_text]
+  tone_labels: shared/localization/reading.yaml
+  missing: Withhold the reading when consent, row/column choice or stable Moon inputs are missing. Independently withhold unavailable timed-chart context.
+  aggregation: For northern factors a maximum is supportive, zero invites care, and intermediate points give context. Parihara changes a care signal to context while preserving raw points. For southern factors an agreement is supportive and a listed obstruction invites care; a partial match or unclassified relationship gives context. A shared sign gives context in southern Rashi. All supportive gives Supportive, all care gives Take care, and mixed or contextual evidence gives Steady. No public total or cutoff. Do not combine the two profiles.
+  cross_checks: Chart and Manglik context are separate from factor aggregation. Relationship decisions belong to both people.
+reference:
+  file: examples/matching-pair-reference.csv
+  convention: Both stars numbered from Ashwini. Each pada is sampled at its exact midpoint. The two readable columns use the first pada. Each digest covers all sixteen ordered pada pairs in row-major order. Join the comma-separated factor rows with LF, no trailing LF, booleans as 1 or 0.
+  northern_order: [varna, vashya, tara, yoni, graha-maitri, gana, bhakoot, nadi]
+  southern_order: [dina, gana, mahendra, stree-deergha, yoni, rashi, rashi-lord, vashya, rajju, vedha]
+  provenance: Independent reference transcription of pinned PyJHora class matrices and Raman's Marriage sections. Exact sign halves, elemental Varna, the existing two-direction Tara convention, and the named southern choices follow this library. For southern partial Gana the stored bit records base agreement; for same-sign Rashi it is zero.
+  bhakoot_reference_correction: The pinned PyJHora array gives seven in the Aquarius-row/Cancer-column cell. The inclusive distances are six and eight. Both directions use zero in this KB and in the fixed reference.
+parihara_selection: Keep the KB-10 softening variant or explicitly select Raman's cancellation variant for each factor. Preserve raw admin points and the selected reason. Either relief makes that factor contextual in the public synthesis. Do not apply both explanations to one factor.

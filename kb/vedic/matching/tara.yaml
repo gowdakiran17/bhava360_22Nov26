@@ -1,0 +1,66 @@
+id: vedic.matching.tara
+system: vedic
+topic: matching
+title: Tara koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Count birth stars inclusively in both directions. Add the two remainder lookups, using zero for multiples
+  of nine.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can talk about when each of you needs encouragement.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The existing northern profile counts both directions and accepts remainder one. Raman counts one direction
+    and accepts only 2, 4, 6, 8 and 0. The pinned software reverses the northern award.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 1. Dina Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: nakshathra_porutham
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can talk about when each of you needs encouragement.
+  kn: ಯಾವಾಗ ಪ್ರೋತ್ಸಾಹ ಬೇಕು ಎಂದು ಒಬ್ಬರಿಗೊಬ್ಬರು ಹೇಳಬಹುದು.
+  hi: आप बता सकते हैं कि कब आपको हौसले की ज़रूरत होती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  remainder_points:
+  - 1.5
+  - 1.5
+  - 1.5
+  - 0
+  - 1.5
+  - 0
+  - 1.5
+  - 0
+  - 1.5

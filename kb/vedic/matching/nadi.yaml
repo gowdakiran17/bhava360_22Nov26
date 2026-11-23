@@ -1,0 +1,116 @@
+id: vedic.matching.nadi
+system: vedic
+topic: matching
+title: Nadi koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Look up each Moon’s birth star in the three Nadi groups, then read the class-pair matrix. Keep the raw points
+  when a selected exception softens interpretation.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can talk about the daily routines that help each of you feel at ease.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions:
+- when:
+    fact: match.nadi.pada_parihara
+    op: eq
+    value: true
+  effect: soften
+  reason: Same birth star and distinct padas qualify under the selected parihara variant.
+- when:
+    fact: match.nadi.quarter_relief
+    op: eq
+    value: true
+  effect: cancel
+  reason: With Raman quarter reckoning expressly selected, a shared star-level Nadi is set aside when the two quarter
+    Nadis differ. Number all 108 quarters from zero at Ashwini and repeat adi, madhya, antya, antya, madhya, adi.
+    Preserve the star-level score.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: KB-10 allows same-star, different-pada softening in the selected variant. Raman also describes a separate
+    quarter-based Nadi reckoning. Dashakoota omits this factor.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 12. Nadi Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: NadiArray
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: disputed
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can talk about the daily routines that help each of you feel at ease.
+  kn: ದಿನಚರಿಯಲ್ಲಿ ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುವ ಅಭ್ಯಾಸಗಳ ಬಗ್ಗೆ ಇಬ್ಬರೂ ಮಾತನಾಡಬಹುದು.
+  hi: आप उन रोज़मर्रा की आदतों पर बात कर सकते हैं जिनसे आप दोनों सहज महसूस करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  stars:
+    adi:
+    - 1
+    - 6
+    - 7
+    - 12
+    - 13
+    - 18
+    - 19
+    - 24
+    - 25
+    madhya:
+    - 2
+    - 5
+    - 8
+    - 11
+    - 14
+    - 17
+    - 20
+    - 23
+    - 26
+    antya:
+    - 3
+    - 4
+    - 9
+    - 10
+    - 15
+    - 16
+    - 21
+    - 22
+    - 27
+  class_order:
+  - adi
+  - madhya
+  - antya
+  points:
+  - - 0
+    - 8
+    - 8
+  - - 8
+    - 0
+    - 8
+  - - 8
+    - 8
+    - 0
+  related_rule: vedic.doshas.nadi

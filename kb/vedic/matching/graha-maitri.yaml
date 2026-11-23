@@ -1,0 +1,69 @@
+id: vedic.matching.graha-maitri
+system: vedic
+topic: matching
+title: Graha Maitri koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use the two classical Moon-sign rulers and read the natural-relationship matrix in declared order.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can ask how your partner prefers to discuss a disagreement.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The northern profile uses the pinned natural-lord matrix. Other readings include temporary friendship or
+    navamsha rulers.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 7. Rasyadhipathi
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: raasi_adhipathi_array
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can ask how your partner prefers to discuss a disagreement.
+  kn: ಭಿನ್ನಾಭಿಪ್ರಾಯದ ಬಗ್ಗೆ ಹೇಗೆ ಮಾತನಾಡಲು ಇಷ್ಟಪಡುತ್ತಾರೆ ಎಂದು ಕೇಳಬಹುದು.
+  hi: आप पूछ सकते हैं कि मतभेद पर आपका साथी कैसे बात करना पसंद करता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  matrix: lord_friendship
+  sign_lord:
+  - 2
+  - 5
+  - 3
+  - 1
+  - 0
+  - 3
+  - 5
+  - 2
+  - 4
+  - 6
+  - 6
+  - 4

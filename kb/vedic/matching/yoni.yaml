@@ -1,0 +1,57 @@
+id: vedic.matching.yoni
+system: vedic
+topic: matching
+title: Yoni koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Look up both birth-star animals in the ordered animal matrix. This comparison cannot establish personal preferences
+  or consent.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can share what helps each of you feel comfortable with closeness.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The northern numerical matrix follows the pinned table. The southern profile checks enemy pairs.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 5. Yoni Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: YoniArray
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can share what helps each of you feel comfortable with closeness.
+  kn: ಸಾನ್ನಿಧ್ಯದಲ್ಲಿ ಯಾವುದು ಹಿತವೆನಿಸುತ್ತದೆ ಎಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: आप साझा कर सकते हैं कि निकटता में किस बात से सहजता महसूस होती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  matrix: yoni
+  class_index: yoni_star

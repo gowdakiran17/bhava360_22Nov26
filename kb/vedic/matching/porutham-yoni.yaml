@@ -1,0 +1,62 @@
+id: vedic.matching.porutham-yoni
+system: vedic
+topic: matching
+title: Porutham · Yoni
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compare both animal classes with the seven unordered enemy pairs. All remaining combinations give base agreement.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can share what helps each of you feel comfortable with closeness.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern yoni factor has its
+    own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 5. Yoni Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can share what helps each of you feel comfortable with closeness.
+  kn: ಸಾನ್ನಿಧ್ಯದಲ್ಲಿ ಯಾವುದು ಹಿತವೆನಿಸುತ್ತದೆ ಎಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: आप साझा कर सकते हैं कि निकटता में किस बात से सहजता महसूस होती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  enemy_pairs:
+  - - 7
+    - 9
+  - - 1
+    - 13
+  - - 0
+    - 8
+  - - 4
+    - 10
+  - - 3
+    - 12
+  - - 11
+    - 2
+  - - 5
+    - 6

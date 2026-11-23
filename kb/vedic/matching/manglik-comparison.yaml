@@ -1,0 +1,52 @@
+id: vedic.matching.manglik-comparison
+system: vedic
+topic: matching
+title: Manglik comparison
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Run KB-10 separately on each D1 with the same house list, reference and school. Resolve each natal exception
+  first. Only then apply the selected comparable-placement exception to both surviving results. Keep each original
+  result and reason.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: context
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.mars.ready
+    op: eq
+    value: true
+meaning: You can discuss how each of you prefers to handle tension.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Cross-checks provide context alongside either regional profile. A single chart factor does not decide a
+    relationship.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: Marriage, introductory discussion and Kuja Dosha
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can discuss how each of you prefers to handle tension.
+  kn: ಒತ್ತಡ ಬಂದಾಗ ಅದನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಲು ಇಷ್ಟಪಡುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि तनाव होने पर आप दोनों उसे कैसे संभालना पसंद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  related_rules:
+  - vedic.doshas.mars-partnership
+  weight: context only

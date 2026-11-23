@@ -1,0 +1,215 @@
+id: vedic.matching.bhakoot
+system: vedic
+topic: matching
+title: Bhakoot koota
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Look up the two sidereal lunar signs in the sign-pair matrix. Record raw points before applying the selected
+  lord exception.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: north
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can make room for both partners’ priorities in your plans.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions:
+- when:
+    fact: match.bhakoot.lord_parihara
+    op: eq
+    value: true
+  effect: soften
+  reason: Identical or mutually friendly sign lords qualify under the selected parihara variant.
+- when:
+    fact: match.bhakoot.raman_relief
+    op: eq
+    value: true
+  effect: cancel
+  reason: With Raman lord relief expressly selected, shared rulers or mutual natural friends cancel the interpretive
+    objection to the base sign pair. Preserve the base score.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The northern base is symmetric. Raman’s Rasi comparison is directional and recognises shared or friendly
+    lords.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 6. Rasi Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+- book: PyJHora compatibility.py
+  work_id: pyjhora-matching
+  edition: pyjhora-matching
+  chapter: null
+  verse: null
+  other_locator: raasi_array
+  supports: Pinned computational comparison. Profile-specific choices are recorded separately.
+  verification: verified
+confidence: disputed
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can make room for both partners’ priorities in your plans.
+  kn: ಯೋಜನೆಗಳಲ್ಲಿ ಇಬ್ಬರ ಆದ್ಯತೆಗಳಿಗೂ ಜಾಗ ಕೊಡಬಹುದು.
+  hi: आप अपनी योजनाओं में दोनों की प्राथमिकताओं के लिए जगह बना सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  sign_pair_points:
+  - - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+  - - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+  - - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+  - - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+  - - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+  - - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+  - - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+    - 0
+  - - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+    - 0
+  - - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+    - 7
+  - - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+    - 7
+  - - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+    - 0
+  - - 0
+    - 7
+    - 7
+    - 0
+    - 0
+    - 7
+    - 0
+    - 0
+    - 7
+    - 7
+    - 0
+    - 7
+  related_rule: vedic.doshas.bhakoot

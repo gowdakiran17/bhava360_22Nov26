@@ -1,0 +1,55 @@
+id: vedic.matching.porutham-mahendra
+system: vedic
+topic: matching
+title: Porutham · Mahendra
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Count inclusively from the declared row star to the column star and check the permitted distances.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can talk about the support you would like to offer each other.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Southern profiles retain this directional factor separately. The northern total omits it.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 3. Mahendra
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can talk about the support you would like to offer each other.
+  kn: ಪರಸ್ಪರ ಯಾವ ಬೆಂಬಲ ನೀಡಲು ಬಯಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि एक दूसरे को किस तरह सहारा देना चाहेंगे।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  inclusive_counts:
+  - 4
+  - 7
+  - 10
+  - 13
+  - 16
+  - 19
+  - 22
+  - 25

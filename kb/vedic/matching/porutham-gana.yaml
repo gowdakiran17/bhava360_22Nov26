@@ -1,0 +1,59 @@
+id: vedic.matching.porutham-gana
+system: vedic
+topic: matching
+title: Porutham · Gana
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compare the two star classes in the declared direction. A column Rakshasa with a different row class is partial
+  agreement.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can compare how each of you responds to a change of plans.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern gana factor has its
+    own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 2. Gana Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can compare how each of you responds to a change of plans.
+  kn: ಯೋಜನೆ ಬದಲಾದಾಗ ನೀವು ಹೇಗೆ ಸ್ಪಂದಿಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+  hi: आप बात कर सकते हैं कि योजना बदलने पर आप दोनों कैसे प्रतिक्रिया देते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  accepted:
+  - - true
+    - true
+    - true
+  - - true
+    - true
+    - true
+  - - false
+    - false
+    - true
+  partial_when_column_class: rakshasa with different row

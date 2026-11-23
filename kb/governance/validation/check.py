@@ -377,6 +377,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['topic']=='matching' and 'matching' in data:
+            expected_fields.add('matching')
         if data['topic']=='muhurta' and 'activity_profile' in data:
             expected_fields.add('activity_profile')
         if data['topic']=='strength/ashtakavarga':
@@ -493,6 +495,8 @@ def main():
     validate_muhurta(rules,read,evaluate,require)
     from prashna import validate_prashna
     validate_prashna(rules, read, evaluate, require)
+    from matching import validate_matching
+    validate_matching(rules, read, evaluate, require, ROOT)
     from panchang import validate_panchang
     validate_panchang(rules,read,evaluate,require)
     from jaimini import validate_jaimini

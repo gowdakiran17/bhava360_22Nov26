@@ -1,0 +1,56 @@
+id: vedic.matching.porutham-rashi
+system: vedic
+topic: matching
+title: Porutham · Rashi
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Count the column Moon sign from the row Moon sign inclusively. Read the directional distance table. A shared
+  sign gives context.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: south
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.moons.stable
+    op: eq
+    value: true
+meaning: You can make room for both partners’ priorities in your plans.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This southern profile uses Raman’s directional or class-based comparison. The northern bhakoot factor has
+    its own table and weight.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: 6. Rasi Kuta
+  supports: Historical factor and classification. Public reflections are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+user_text:
+  en: You can make room for both partners’ priorities in your plans.
+  kn: ಯೋಜನೆಗಳಲ್ಲಿ ಇಬ್ಬರ ಆದ್ಯತೆಗಳಿಗೂ ಜಾಗ ಕೊಡಬಹುದು.
+  hi: आप अपनी योजनाओं में दोनों की प्राथमिकताओं के लिए जगह बना सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  inclusive_counts:
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  - 12
+  same_sign: neutral context
