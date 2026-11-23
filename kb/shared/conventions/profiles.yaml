@@ -24,7 +24,7 @@ calculation_profiles:
     node_aspects: seventh-only
     sunrise: apparent-upper-limb-with-refraction
     vimshottari_year_days:
-      proposed_default: 365.25
+      proposed_default: 365.2425
       alternative: 360
       owner_confirmation: pending
     ashtakavarga_variant: bphs-seven-graha-337

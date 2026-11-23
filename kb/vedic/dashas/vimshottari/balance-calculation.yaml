@@ -1,0 +1,55 @@
+id: vedic.dashas-vimshottari.balance-calculation
+system: vedic
+topic: dashas/vimshottari
+title: Birth balance from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'Normalize the sidereal Moon longitude to [0°,360°). Each of the 27 stars spans 48000 arcseconds. Divide
+  longitude by this width: the integer quotient selects the star from Ashwini and the remainder is the arc traversed.
+  With f = remainder / 48000 and Y = years of the star lord, elapsed years = Y × f and remaining years = Y × (1
+  − f). Maha starts at birth minus elapsed time and ends at birth plus remaining time. At an exact edge, select
+  the next star with its full balance.'
+conditions:
+  all:
+  - fact: dasha.vimshottari.birth_balance_stable
+    op: eq
+    value: true
+meaning: Your birth Moon may place you partway through a period. Its remaining time can give your reading a starting
+  point.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The KB uses a fixed 365.2425-day year by default. A savana year uses 360 days. Apply one convention to
+    the entire tree and label it on every dated result.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 46
+  verse: 12–16
+  other_locator: null
+  supports: Lunar mansion sequence and elapsed proportion.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: Table 38 and section 16.2
+  supports: Nine lengths, angular birth balance and year-length alternatives.
+  verification: verified
+confidence: medium
+review_notes: Synthetic timing checks cover the calculation profile. Interpretive prompts are editorial. Native-language
+  review pending.
+user_text:
+  en: Your birth Moon may place you partway through a period. Its remaining time can give your reading a starting
+    point.
+  kn: ಜನನಕಾಲದ ಚಂದ್ರನ ಸ್ಥಾನದಿಂದ ದಶೆಯ ಒಂದು ಭಾಗ ಈಗಾಗಲೇ ಕಳೆದಿರಬಹುದು. ಉಳಿದ ಅವಧಿಯು ನಿಮ್ಮ ಓದಿಗೆ ಆರಂಭದ ಬಿಂದುವಾಗಬಹುದು.
+  hi: जन्म के समय चंद्रमा की स्थिति के अनुसार दशा का कुछ हिस्सा पहले ही बीत चुका हो सकता है। बची हुई अवधि से आप
+    अपने पाठ की शुरुआत समझ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

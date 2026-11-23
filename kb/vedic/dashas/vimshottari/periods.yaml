@@ -11,8 +11,46 @@ sequence:
   saturn: 19
   mercury: 17
 cycle_years: 120
-start: Find the lord of the birth Moon nakshatra. Remaining years = lord years × remaining arc / 13°20′. Back-project elapsed
-  balance to the true start of the first major period.
-subperiod: Start each period with its own lord then cycle in order. Duration = parent duration × child lord years / 120. Generate
-  children from the full period start, then clip to display range.
+start: Find the lord of the birth Moon nakshatra. Remaining years = lord years × remaining arc / 13°20′. Back-project
+  elapsed balance to the true start of the first major period.
+subperiod: Start each period with its own lord then cycle in order. Duration = parent duration × child lord years
+  / 120. Generate children from the full period start, then clip to display range.
 clock: Use one pinned year length throughout. Preserve instants, render half-open intervals in the selected zone.
+lord_order:
+- ketu
+- venus
+- sun
+- moon
+- mars
+- rahu
+- jupiter
+- saturn
+- mercury
+star_width_arcseconds: 48000
+levels:
+- maha
+- antar
+- pratyantar
+- sookshma
+year_days:
+  mean-gregorian: '365.2425'
+  savana: '360'
+default_year: mean-gregorian
+interval: UTC elapsed time, 86400 seconds per day, start inclusive and end exclusive. Retain exact rational endpoints
+  until display.
+reading_context:
+  reference: Stable sidereal D1 whole-sign houses from Lagna. Bind each lookup to the actual period lord and same
+    chart.
+  house: Open vedic.planets-in-houses.{lord}-house-{occupied_house} for the concrete topic.
+  sign: Open vedic.planets-in-signs.{lord}-{sign} for dignity, degree exceptions and style.
+  ownership: For every house ruled by this graha from the natal Lagna, open vedic.house-lords.lord-{owned_house}-in-house-{occupied_house}.
+  nodes: Use the node’s occupied house, sign ruler and confirmed associations. Use classical sign rulers for ownership.
+  areas: Select the applicable tags of the matched natal entries. Pair tags suggest topics to check. Require matching
+    chart evidence before making an area-specific reading.
+  pair: Use the Maha lord for the ongoing topic. Use the Antar lord’s own placements and its relationship to the
+    Maha lord to qualify that topic. Require both stable contexts for a paired reading.
+lookup_patterns:
+  occupied_house: vedic.planets-in-houses.{lord}-house-{occupied_house}
+  sign: vedic.planets-in-signs.{lord}-{sign}
+  ruled_house: vedic.house-lords.lord-{owned_house}-in-house-{occupied_house}
+  node_dispositor: vedic.planets-in-signs.{dispositor}-{dispositor_sign}

@@ -1,0 +1,69 @@
+id: vedic.dashas-vimshottari.mars-mars-antar
+system: vedic
+topic: dashas/vimshottari
+title: Mars Maha · Mars Antar
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Within the dated Mars Maha and Mars Antar, read the major lord’s ongoing topic through the subperiod lord’s
+  natal placement. Bind the dated lord to its D1 occupied house, sign placement and every house it rules from
+  the natal Lagna using periods.yaml reading_context. Use the sign ruler and natal associations for nodes. Retain
+  only topics supported by these resolved entries. Both roles bind to the same graha. Give its supported theme
+  one emphasis.
+conditions:
+  all:
+  - fact: dasha.vimshottari.maha_lord
+    op: eq
+    value: mars
+  - fact: dasha.vimshottari.antar_lord
+    op: eq
+    value: mars
+  - fact: dasha.vimshottari.pair_context_ready
+    op: eq
+    value: true
+meaning: You may be ready to act on a practical task. You can choose a manageable first step.
+life_areas:
+- career
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The reading uses whole-sign houses and classical sign rulers. Schools that assign nodal co-lordship or
+    nodal dignity may describe the period differently.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 47
+  verse: 1–3
+  other_locator: null
+  supports: General graha indications qualified by natal placement.
+  verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 48
+  verse: 1–14
+  other_locator: null
+  supports: House ownership and relationships among lords.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: Section 16.5.1
+  supports: Application of natal factors to an active period.
+  verification: verified
+confidence: medium
+review_notes: Synthetic timing checks cover the calculation profile. Interpretive prompts are editorial. Native-language
+  review pending.
+user_text:
+  en: You may be ready to act on a practical task. You can choose a manageable first step.
+  kn: ಪ್ರಾಯೋಗಿಕ ಕೆಲಸವೊಂದನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲು ಸಿದ್ಧರಾಗಿರಬಹುದು. ನಿಭಾಯಿಸಬಹುದಾದ ಮೊದಲ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+  hi: आप कोई व्यावहारिक काम हाथ में लेने के लिए तैयार हो सकते हैं। आप शुरुआत के लिए कोई ऐसा कदम चुन सकते हैं जो
+    सहज लगे।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

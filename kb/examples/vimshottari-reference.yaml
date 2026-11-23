@@ -1,0 +1,102 @@
+synthetic: true
+provenance: Invented sidereal Moon positions. Independent decimal worksheet uses explicit cumulative lord weights
+  for each reference path. UTC timestamps are rounded only for output, to nearest microsecond, ties to even.
+fixtures:
+  Asha:
+    sample_context:
+      lagna: cancer
+      natal_signs: {saturn: leo, rahu: libra, venus: gemini}
+      expected:
+        saturn: [vedic.planets-in-houses.saturn-house-2, vedic.planets-in-signs.saturn-leo, vedic.house-lords.lord-7-in-house-2, vedic.house-lords.lord-8-in-house-2]
+        rahu: [vedic.planets-in-houses.rahu-house-4, vedic.planets-in-signs.rahu-libra, vedic.planets-in-signs.venus-gemini]
+    birth: '1992-03-12T05:40:00+05:30'
+    moon_arcseconds: 360000
+    expected:
+      mean-gregorian:
+        birth_maha_start: '1982-09-11T04:52:36Z'
+        birth_maha_end: '2001-09-10T19:27:24Z'
+        query: '1996-10-26T05:21:13.254000Z'
+        path:
+          maha:
+            lord: saturn
+            start: '1982-09-11T04:52:36Z'
+            end: '2001-09-10T19:27:24Z'
+          antar:
+            lord: rahu
+            start: '1996-04-23T14:07:32.400000Z'
+            end: '1999-02-28T12:42:45.600000Z'
+          pratyantar:
+            lord: jupiter
+            start: '1996-09-26T17:30:49.380000Z'
+            end: '1997-02-12T12:31:31.140000Z'
+          sookshma:
+            lord: saturn
+            start: '1996-10-15T05:38:54.948000Z'
+            end: '1996-11-06T05:03:31.560000Z'
+      savana:
+        birth_maha_start: '1982-10-31T00:10:00Z'
+        birth_maha_end: '2001-07-23T00:10:00Z'
+        query: '1996-10-01T23:26:48Z'
+        path:
+          maha:
+            lord: saturn
+            start: '1982-10-31T00:10:00Z'
+            end: '2001-07-23T00:10:00Z'
+          antar:
+            lord: rahu
+            start: '1996-04-02T00:10:00Z'
+            end: '1999-01-23T00:10:00Z'
+          pratyantar:
+            lord: jupiter
+            start: '1996-09-02T21:46:00Z'
+            end: '1997-01-17T16:58:00Z'
+          sookshma:
+            lord: saturn
+            start: '1996-09-21T03:31:36Z'
+            end: '1996-10-12T19:22:00Z'
+  Ravi:
+    birth: '2000-02-29T00:00:00+00:00'
+    moon_arcseconds: 48000
+    expected:
+      mean-gregorian:
+        birth_maha_start: '2000-02-29T00:00:00Z'
+        birth_maha_end: '2020-02-28T20:24:00Z'
+        query: '2025-05-01T14:38:48.030000Z'
+        path:
+          maha:
+            lord: sun
+            start: '2020-02-28T20:24:00Z'
+            end: '2026-02-28T07:19:12Z'
+          antar:
+            lord: venus
+            start: '2025-02-28T01:30:00Z'
+            end: '2026-02-28T07:19:12Z'
+          pratyantar:
+            lord: sun
+            start: '2025-04-29T22:28:12Z'
+            end: '2025-05-18T04:45:39.600000Z'
+          sookshma:
+            lord: moon
+            start: '2025-04-30T20:23:04.380000Z'
+            end: '2025-05-02T08:54:31.680000Z'
+      savana:
+        birth_maha_start: '2000-02-29T00:00:00Z'
+        birth_maha_end: '2019-11-16T00:00:00Z'
+        query: '2024-12-20T15:36:00Z'
+        path:
+          maha:
+            lord: sun
+            start: '2019-11-16T00:00:00Z'
+            end: '2025-10-15T00:00:00Z'
+          antar:
+            lord: venus
+            start: '2024-10-20T00:00:00Z'
+            end: '2025-10-15T00:00:00Z'
+          pratyantar:
+            lord: sun
+            start: '2024-12-19T00:00:00Z'
+            end: '2025-01-06T00:00:00Z'
+          sookshma:
+            lord: moon
+            start: '2024-12-19T21:36:00Z'
+            end: '2024-12-21T09:36:00Z'

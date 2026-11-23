@@ -485,6 +485,8 @@ def main():
             require(len(matched)==1,(card,orientation))
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
+    from vimshottari import validate_vimshottari
+    validate_vimshottari(rules,read,evaluate,require)
     from varga_charts import validate_vargas
     validate_vargas(rules, read, require)
     from ashtakavarga import validate_ashtakavarga

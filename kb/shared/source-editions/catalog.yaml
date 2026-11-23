@@ -44,6 +44,14 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  bphs-dasha-web:
+    work_id: bphs
+    edition_id: bphs-dasha-web
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: Sanskrit and English
+    publication_details: Enjoy Learning Sanskrit online edition, chapters 46–48 and 57.
+    text: https://enjoylearningsanskrit.com/scriptures/parashara/chapter-46/
+    verified_by: Numbered passages consulted for birth balance, natal interpretation and Saturn/Rahu. Numerical period lengths cross-checked with Rao Table 38.
   bphs-av-web:
     work_id: bphs
     edition_id: bphs-av-web

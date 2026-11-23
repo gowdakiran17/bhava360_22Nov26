@@ -17,6 +17,53 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  dasha.vimshottari.birth_balance_stable:
+    type: boolean
+    producer: vedic.dashas/vimshottari
+    origin: The natal Moon, birth instant and selected year profile yield a stable starting balance.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
+  dasha.vimshottari.selected_level:
+    type: enum
+    producer: vedic.dashas/vimshottari
+    origin: Level of the selected dated interval containing the query instant.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
+    values:
+    - maha
+    - antar
+    - pratyantar
+    - sookshma
+  dasha.vimshottari.maha_lord:
+    type: enum
+    producer: vedic.dashas/vimshottari
+    origin: Lord of the active Maha at the query instant.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
+    values: &id001
+    - ketu
+    - venus
+    - sun
+    - moon
+    - mars
+    - rahu
+    - jupiter
+    - saturn
+    - mercury
+  dasha.vimshottari.antar_lord:
+    type: enum
+    producer: vedic.dashas/vimshottari
+    origin: Lord of the active Antar within the same Maha at the query instant.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
+    values: *id001
+  dasha.vimshottari.maha_context_ready:
+    type: boolean
+    producer: vedic.dashas/vimshottari
+    origin: The active Maha lord has stable natal house, sign and classical lordship or node dispositor evidence.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
+  dasha.vimshottari.pair_context_ready:
+    type: boolean
+    producer: vedic.dashas/vimshottari
+    origin: Both dated lords and their natal placement, lordship or dispositor references resolve in the same chart;
+      topic is supported by the matched entries.
+    unknown_if: Required chart, timing convention or bound evidence is missing or unstable.
   strength.ashtakavarga.selected_component:
     type: enum
     producer: vedic.strength/ashtakavarga

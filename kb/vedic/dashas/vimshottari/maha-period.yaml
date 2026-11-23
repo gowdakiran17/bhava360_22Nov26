@@ -1,0 +1,49 @@
+id: vedic.dashas-vimshottari.maha-period
+system: vedic
+topic: dashas/vimshottari
+title: Maha · dated interval
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Anchor the full first Maha at its back-projected start. Advance by each lord’s years in the order in periods.yaml,
+  wrapping after Mercury for a 120-year cycle.
+conditions:
+  all:
+  - fact: dasha.vimshottari.selected_level
+    op: eq
+    value: maha
+meaning: You can use this interval to place a chart theme in time.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The KB uses a fixed 365.2425-day year by default. A savana year uses 360 days. Apply one convention to
+    the entire tree and label it on every dated result.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 46
+  verse: 12–16
+  other_locator: null
+  supports: Lunar mansion sequence and elapsed proportion.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: Table 38 and section 16.2
+  supports: Nine lengths, angular birth balance and year-length alternatives.
+  verification: verified
+confidence: medium
+review_notes: Synthetic timing checks cover the calculation profile. Interpretive prompts are editorial. Native-language
+  review pending.
+user_text:
+  en: You can use this interval to place a chart theme in time.
+  kn: ಕುಂಡಲಿಯ ವಿಷಯವನ್ನು ಕಾಲದ ನೆಲೆಯಲ್ಲಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ಈ ಅವಧಿಯನ್ನು ಬಳಸಬಹುದು.
+  hi: कुंडली के किसी विषय को समय के संदर्भ में समझने के लिए आप इस अवधि को देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
