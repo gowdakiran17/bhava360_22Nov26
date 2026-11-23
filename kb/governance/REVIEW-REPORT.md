@@ -392,3 +392,9 @@ File names are relative to `kb/`. Each line identifies the affected field or fie
 - Exercise alias handling, privacy, locale fallback and one public tone through the eventual app. The repository contains the KB and validation tools; end-to-end rendering and live calculations remain integration work.
 
 Run the full validator from the repository root with `python kb/governance/validation/check.py`.
+
+## KB-32 convention review
+
+Zero reading rules, meanings or fact keys added. Seven profile declarations, one named variant, two parameter tables and one synthetic convention record added. Five draft Vimshottari rule notes now describe the Julian default. Two Julian reference paths supplement the four preserved paths. The four recommendations awaiting Kiran are in shared/conventions/DECISIONS.md.
+
+Convention sources are the supplied PRD v1.2 §8.4 and §8.4.5 requirements, STEP-04, Swiss Ephemeris API constants and rise/set calling conventions, IANA tzdb history for Asia/Kolkata, and the existing KB period and candidate-method tables. The source of the mean-node confirmation is the PRD. No book locator received a new verification status.

@@ -1,6 +1,6 @@
 synthetic: true
 provenance: Invented sidereal Moon positions. Independent decimal worksheet uses explicit cumulative lord weights
-  for each reference path. UTC timestamps are rounded only for output, to nearest microsecond, ties to even.
+  for each reference path. Julian expectations scale the exact savana offsets from the same worksheet anchor by 365.25/360. The legacy Ravi epoch is a period-boundary test anchor. UTC timestamps are rounded only for output, to nearest microsecond, ties to even.
 fixtures:
   Asha:
     sample_context:
@@ -12,6 +12,27 @@ fixtures:
     birth: '1992-03-12T05:40:00+05:30'
     moon_arcseconds: 360000
     expected:
+      julian-365.25:
+        birth_maha_start: '1982-09-11T03:10:00Z'
+        birth_maha_end: '2001-09-10T21:10:00Z'
+        query: '1996-10-26T06:11:10.200000Z'
+        path:
+          maha:
+            lord: saturn
+            start: '1982-09-11T03:10:00Z'
+            end: '2001-09-10T21:10:00Z'
+          antar:
+            lord: rahu
+            start: '1996-04-23T14:52:00Z'
+            end: '1999-02-28T13:58:00Z'
+          pratyantar:
+            lord: jupiter
+            start: '1996-09-26T18:19:54Z'
+            end: '1997-02-12T13:24:42Z'
+          sookshma:
+            lord: saturn
+            start: '1996-10-15T06:28:32.400000Z'
+            end: '1996-11-06T05:53:48Z'
       mean-gregorian:
         birth_maha_start: '1982-09-11T04:52:36Z'
         birth_maha_end: '2001-09-10T19:27:24Z'
@@ -58,6 +79,27 @@ fixtures:
     birth: '2000-02-29T00:00:00+00:00'
     moon_arcseconds: 48000
     expected:
+      julian-365.25:
+        birth_maha_start: '2000-02-29T00:00:00Z'
+        birth_maha_end: '2020-02-29T00:00:00Z'
+        query: '2025-05-01T19:10:39Z'
+        path:
+          maha:
+            lord: sun
+            start: '2020-02-29T00:00:00Z'
+            end: '2026-02-28T12:00:00Z'
+          antar:
+            lord: venus
+            start: '2025-02-28T06:00:00Z'
+            end: '2026-02-28T12:00:00Z'
+          pratyantar:
+            lord: sun
+            start: '2025-04-30T03:00:00Z'
+            end: '2025-05-18T09:18:00Z'
+          sookshma:
+            lord: moon
+            start: '2025-05-01T00:54:54Z'
+            end: '2025-05-02T13:26:24Z'
       mean-gregorian:
         birth_maha_start: '2000-02-29T00:00:00Z'
         birth_maha_end: '2020-02-28T20:24:00Z'

@@ -21,7 +21,7 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The KB uses a fixed 365.2425-day year by default. A savana year uses 360 days. Apply one convention to
+  note: The default Julian year is 365.25 days. Alternatives are mean Gregorian (365.2425 days) and savana (360 days). Apply one convention to
     the entire tree and label it on every dated result.
 sources:
 - book: Brihat Parashara Hora Shastra

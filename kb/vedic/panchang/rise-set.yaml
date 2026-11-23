@@ -1,0 +1,34 @@
+version: 1
+approval: draft
+calculation_profile: vedic-lahiri-v1
+routine: swe_rise_trans
+ephemeris_flag: runtime-backend
+allowed_backends: [SEFLG_SWIEPH, SEFLG_MOSEPH]
+record: Store the backend actually used. Resolve from position return flags with the same ephemeris configuration and body at the event. The rise routine returns an event status, not ephemeris flags.
+observer:
+  frame: topocentric
+  location: selected-city
+  coordinates: [longitude-degrees-east, latitude-degrees-north, elevation-metres]
+  elevation_source: city-record
+  elevation_default_m: 0
+  pressure_hpa: 1013.25
+  temperature_c: 15
+  refraction_model: swiss-default
+  horizon: standard-unobstructed
+events:
+  sunrise: {body: SE_SUN, limb: upper, rsmi: 1, flags: [SE_CALC_RISE]}
+  sunset: {body: SE_SUN, limb: upper, rsmi: 2, flags: [SE_CALC_SET]}
+  moonrise: {body: SE_MOON, limb: upper, rsmi: 1, flags: [SE_CALC_RISE], selection: first-rise-in-local-civil-date, absent_in_date: unknown}
+excluded_bits: [SE_BIT_DISC_CENTER, SE_BIT_NO_REFRACTION]
+day_boundary:
+  start: local-sunrise-inclusive
+  end: following-local-sunrise-exclusive
+  missing_required_sunrise: unknown
+  applies_to: all-sunrise-day-dependent-timings
+  polar_day: unknown
+  polar_night: unknown
+instants:
+  storage: unrounded-utc
+  display_zone: selected-city-iana-zone
+  display_unit_seconds: 60
+  display_rounding: nearest-minute-ties-earlier

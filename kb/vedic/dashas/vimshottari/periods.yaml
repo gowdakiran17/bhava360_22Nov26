@@ -33,9 +33,10 @@ levels:
 - pratyantar
 - sookshma
 year_days:
+  julian-365.25: '365.25'
   mean-gregorian: '365.2425'
   savana: '360'
-default_year: mean-gregorian
+default_year: julian-365.25
 interval: UTC elapsed time, 86400 seconds per day, start inclusive and end exclusive. Retain exact rational endpoints
   until display.
 reading_context:

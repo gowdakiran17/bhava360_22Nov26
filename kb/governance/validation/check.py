@@ -1,5 +1,6 @@
 """Validate the authoring corpus and representative boundary cases (Python 3 + PyYAML)."""
 from life_areas import check_remedy, validate_life_areas
+from conventions import profile_refs, validate_conventions
 from collections import Counter
 from pathlib import Path
 import re
@@ -358,7 +359,10 @@ def main():
     confidence_values=read('governance/review/identifiers.yaml')['confidence_values']
     template=read('templates/entry.yaml')
     facts=read('shared/fact-dictionary/catalog.yaml')['facts']
-    profiles=read('shared/conventions/profiles.yaml')['doctrine_profiles']
+    registry = read('shared/conventions/profiles.yaml')
+    profiles = registry['doctrine_profiles']
+    profile_ids = set(profiles) | set(registry['calculation_profiles']) | set(registry['variants'])
+    validate_conventions(read, require, ROOT)
     sources=read('shared/source-editions/catalog.yaml')
     areas=read('life-areas/catalog.yaml')
     graha_fields=set(read('SCHEMA.yaml')['vedic_planet_entries']['fields'])
@@ -366,6 +370,8 @@ def main():
     rules={}
     for path in sorted(ROOT.rglob('*.yaml')):
         data=yaml.safe_load(path.read_text())
+        if path.relative_to(ROOT).as_posix() != 'templates/entry.yaml':
+            profile_refs(data, profile_ids, ROOT, str(path.relative_to(ROOT)))
         validate_user_text(data, path.relative_to(ROOT), required, supported)
         system_dir = path.relative_to(ROOT).parts[0]
         if system_dir in VEDIC_SYSTEMS:

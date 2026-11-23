@@ -12,22 +12,35 @@ calculation_profiles:
   vedic-lahiri-v1:
     presentation_flags: [modern_outer]
     engine: Swiss Ephemeris
-    ephemeris: SEFLG_SWIEPH
+    ephemeris_flag: runtime-backend
+    allowed_backends: [SEFLG_SWIEPH, SEFLG_MOSEPH]
+    actual_backend: Required in each record. Inspect the returned position flags and store the single backend used.
+    position_flags: [runtime-backend, SEFLG_SIDEREAL, SEFLG_SPEED]
+    frame: apparent-geocentric
+    excluded_position_flags: [SEFLG_TRUEPOS, SEFLG_HELCTR, SEFLG_BARYCTR, SEFLG_TOPOCTR, SEFLG_NONUT]
+    sidereal_mode_name: SE_SIDM_LAHIRI
+    ayanamsa_definition: true ayanamsa, Swiss default
+    lagna: {routine: swe_houses_ex, flag: SEFLG_SIDEREAL, house_code: W, result: "ascmc[0]"}
+    ketu: (rahu_longitude_deg + 180) modulo 360
+    tolerances_inclusive: {longitude_deg: 0.002, ayanamsa_deg: 0.001, lagna_deg: 0.01, sunrise_seconds: 60}
+    time_policy: shared/conventions/time.yaml
+    rise_set_parameters: vedic/panchang/rise-set.yaml
     zodiac: sidereal
     ayanamsa: Lahiri
     sidereal_mode: 1
     houses: whole-sign
     node:
-      proposed_default: mean
+      default: mean
+      mixing: forbidden
       alternative: true-node
-      owner_confirmation: pending
+      owner_confirmation: confirmed-by-PRD-v1.2
     combustion_orbs: vedic/states/combustion-orbs.yaml
     node_aspects: seventh-only
     sunrise: apparent-upper-limb-with-refraction
     vimshottari_year_days:
-      proposed_default: 365.2425
-      alternative: 360
-      owner_confirmation: pending
+      default: julian-365.25
+      days: 365.25
+      alternatives: {mean-gregorian: 365.2425, savana: 360}
     ashtakavarga_variant: bphs-seven-graha-337
   kp-placidus-v1:
     presentation_flags: [modern_outer]
@@ -53,7 +66,8 @@ doctrine_profiles:
     approval: draft
   bhava-chalit:
     approval: draft
-    method: pending
+    method: outside-mvp
+    on_request: unavailable
   parashari-qualified-formation:
     approval: draft
     formation: pending
@@ -91,7 +105,17 @@ doctrine_profiles:
   face-reading-editorial-v1:
     system: face-reading
     approval: draft
+  parashari-strength-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: shadbala}
+  moon-based-gochara-candidate-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: moon-based-vedha}
+  pyjhora-kn-rao-candidate-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: candidate-chara-dasha}
+  bhava360-jaimini-dual-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: dual-lordship}
+  raman-ten-porutham: {system: vedic, approval: draft, scope: ten-porutham}
+  bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
+  nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
+variants:
+  bphs-seven-graha-337: {system: vedic, approval: draft, scope: seven-graha-ashtakavarga}
 open_decisions:
+- kp-polar-fallback
 - jaimini-karaka-scheme
 - chara-dasha-variant
 - d60-method

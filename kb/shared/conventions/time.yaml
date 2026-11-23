@@ -1,0 +1,25 @@
+version: 1
+approval: draft
+zone_rules: IANA-tzdb
+record_required: [iana_zone, tzdb_version, resolved_utc_offset, resolution]
+ambiguity:
+  unique: accept
+  fall_back: Return both UTC instants with their offsets in chronological order. Require explicit choice before computing.
+  spring_forward: Reject the missing civil time and ask for a valid local time.
+  message:
+    en: This local time was skipped. You can choose another time.
+    kn: ಈ ಸ್ಥಳೀಯ ಸಮಯವನ್ನು ದಾಟಲಾಗಿದೆ. ನೀವು ಬೇರೆ ಸಮಯವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+    hi: यह स्थानीय समय छोड़ दिया गया था। आप दूसरा समय चुन सकते हैं।
+  native_review: {kn: pending, hi: pending}
+india_wartime: Use Asia/Kolkata history including the 1942–45 wartime changes. Never apply a fixed modern IST offset to those dates.
+pre_standard:
+  default: tzdb-lmt
+  explicit_alternative: user-supplied-offset
+  record: Retain the historical zone, offset in seconds and origin label. An explicit offset is a user observation, never a second source of zone rules.
+precision:
+  exact: {radius_seconds: 0, retain: resolved-instant-facts}
+  "±5 min": {radius_seconds: 300, retain: stable-throughout-interval}
+  "±15 min": {radius_seconds: 900, retain: stable-throughout-interval}
+  "±1 h": {radius_seconds: 3600, retain: stable-throughout-interval}
+  unknown: {working_time: local-noon, interval: entire-local-civil-date, withhold: [lagna, houses-from-lagna, lagna-derived-facts, exact-birth-dependent-times], retain: stable-throughout-date}
+stability: For a nonzero uncertainty interval include both endpoints and every intervening transition. Withhold precise birth-dependent event instants and any changing or unproved classification, including sign, house, nakshatra, pada, varga and period lord. Noon positions are working estimates only. Missing place or unresolved civil time withholds all instant-dependent facts.
