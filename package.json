@@ -13,13 +13,16 @@
     "build": "pnpm check:i18n && pnpm typecheck && pnpm --filter @bhava360/api build && pnpm --filter @bhava360/web build && pnpm --filter @bhava360/admin build",
     "db:migrate": "pnpm --filter @bhava360/db exec tsx src/cli.ts up",
     "db:down": "pnpm --filter @bhava360/db exec tsx src/cli.ts down",
-    "db:seed": "pnpm --filter @bhava360/db exec tsx src/cli.ts seed"
+    "db:seed": "pnpm --filter @bhava360/db exec tsx src/cli.ts seed",
+    "api:docs": "node scripts/admin-docs.mjs",
+    "admin:bootstrap": "pnpm --filter @bhava360/db exec tsx src/bootstrap-owner.ts"
   },
   "devDependencies": {
-    "typescript": "~5.9.3",
-    "vitest": "^3.2.4",
     "@types/node": "^22",
     "@types/react": "^19",
-    "@types/react-dom": "^19"
+    "@types/react-dom": "^19",
+    "swagger-ui-dist": "^5.36.0",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4"
   }
 }

@@ -117,6 +117,35 @@ async function fixtureIdentity(
   return result.rows[0];
 }
 
+export async function issueFixtureCode(
+  db: PoolClient,
+  settings: Settings,
+  body: Body,
+  ip: string,
+) {
+  if (!['test', 'development'].includes(settings.environment))
+    throw new ApiError(403, 'denied');
+  const who = recipient(body);
+  const code = randomInt(1_000_000).toString().padStart(6, '0');
+  const identity = await fixtureIdentity(db, who);
+  if (!identity) return undefined;
+  const recent = await db.query(
+    "SELECT id FROM otp_challenges WHERE identity_id=$1 AND created_at>now()-interval '30 seconds'",
+    [identity.id],
+  );
+  if (recent.rowCount) throw new ApiError(429, 'wait');
+  await db.query(
+    'UPDATE otp_challenges SET consumed_at=now() WHERE identity_id=$1 AND consumed_at IS NULL',
+    [identity.id],
+  );
+  const id = randomUUID();
+  await db.query(
+    `INSERT INTO otp_challenges(id,identity_id,code_hash,ip_digest,expires_at)
+        VALUES ($1,$2,$3,$4,now()+interval '10 minutes')`,
+    [id, identity.id, keyed(settings, id, code), keyed(settings, 'ip', ip)],
+  );
+  return code;
+}
 export async function otp(
   pool: Pool,
   settings: Settings,
@@ -129,28 +158,10 @@ export async function otp(
   const who = recipient(body);
   await limit(pool, settings, mode, who.address, ip);
   if (mode === 'request') {
-    const code = randomInt(1_000_000).toString().padStart(6, '0');
-    const delivered = await transaction(pool, async (db) => {
-      const identity = await fixtureIdentity(db, who);
-      if (!identity) return false;
-      const recent = await db.query(
-        "SELECT id FROM otp_challenges WHERE identity_id=$1 AND created_at>now()-interval '30 seconds'",
-        [identity.id],
-      );
-      if (recent.rowCount) throw new ApiError(429, 'wait');
-      await db.query(
-        'UPDATE otp_challenges SET consumed_at=now() WHERE identity_id=$1 AND consumed_at IS NULL',
-        [identity.id],
-      );
-      const id = randomUUID();
-      await db.query(
-        `INSERT INTO otp_challenges(id,identity_id,code_hash,ip_digest,expires_at)
-        VALUES ($1,$2,$3,$4,now()+interval '10 minutes')`,
-        [id, identity.id, keyed(settings, id, code), keyed(settings, 'ip', ip)],
-      );
-      return true;
-    });
-    if (delivered) settings.delivery.send(who.channel, who.address, code);
+    const code = await transaction(pool, (db) =>
+      issueFixtureCode(db, settings, body, ip),
+    );
+    if (code) settings.delivery.send(who.channel, who.address, code);
     return;
   }
   const language = locale(body.locale ?? 'en');
