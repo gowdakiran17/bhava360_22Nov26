@@ -12,7 +12,7 @@ Leave the environment secret store empty. If the platform requires a binding, us
 
 Start with Bash and Python 3 on Linux. On a minimal Debian or Ubuntu image, install missing prerequisites during setup with apt: `python3`, `python3-venv`, `python3-pip`, `python3-dev`, `build-essential`, `ca-certificates`, `curl` and `xz-utils`. The script creates a repository-local `.venv` and installs the development requirements from PyPI. PyYAML provides the `yaml` module and pyswisseph provides `swisseph`.
 
-Setup uses the installed Node and pnpm when available. On Linux x64 and arm64, it can bootstrap Node 22 LTS from the official nodejs.org tarball, checking its SHA-256 against the release manifest before extraction. When pnpm is missing it installs major 10 with npm into the virtual environment. New shells can use these tools by activating the environment.
+Setup uses the installed Node when available. For a workspace with a pnpm packageManager pin, it enables a virtual-environment Corepack shim and caches the requested release under .venv/cache/corepack before installing dependencies. On Linux x64 and arm64, it can bootstrap Node 22 LTS from the official nodejs.org tarball, checking its SHA-256 against the release manifest before extraction. For a checkout without a package-manager pin or installed pnpm, it installs major 10 with npm into the virtual environment. New shells can use these tools by activating the environment.
 
 ## Before each PR
 
@@ -20,6 +20,7 @@ From the repository root, run:
 
 ```bash
 source .venv/bin/activate
+export COREPACK_HOME="$VIRTUAL_ENV/cache/corepack"
 export XDG_DATA_HOME="${XDG_DATA_HOME:-$VIRTUAL_ENV/share}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$VIRTUAL_ENV/cache}"
 export PYTHONDONTWRITEBYTECODE=1

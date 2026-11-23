@@ -44,15 +44,26 @@ fi
 
 export XDG_DATA_HOME="${XDG_DATA_HOME:-$VIRTUAL_ENV/share}"
 export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$VIRTUAL_ENV/cache}"
-if ! command -v pnpm >/dev/null; then
+if [[ -f package.json ]] && node -e "process.exit(require('./package.json').packageManager?.startsWith('pnpm@') ? 0 : 1)"; then
+  export COREPACK_HOME="$VIRTUAL_ENV/cache/corepack"
+  export NODE_USE_ENV_PROXY="${NODE_USE_ENV_PROXY:-1}"
+  mkdir -p "$COREPACK_HOME"
+  if ! command -v corepack >/dev/null; then
+    npm install --cache "$XDG_CACHE_HOME/npm" --global --prefix "$VIRTUAL_ENV" corepack@0.34
+  fi
+  corepack enable --install-directory "$VIRTUAL_ENV/bin" pnpm
+  corepack install
+  hash -r
+  pnpm --version
+elif ! command -v pnpm >/dev/null; then
   npm install --cache "$XDG_CACHE_HOME/npm" --global --prefix "$VIRTUAL_ENV" pnpm@10
 fi
 
 if [[ -f package.json ]]; then
   if [[ -f pnpm-lock.yaml ]]; then
-    pnpm install --frozen-lockfile
+    CI=true pnpm install --frozen-lockfile
   else
-    pnpm install
+    CI=true pnpm install
   fi
 else
   log "No package.json yet; skipping pnpm install (expected before issue 01)."

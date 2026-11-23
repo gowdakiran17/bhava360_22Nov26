@@ -1,2 +1,1 @@
-// Issue 02 adds PostgreSQL schema and Drizzle migrations here.
-export {};
+export * from './schema/index.js';

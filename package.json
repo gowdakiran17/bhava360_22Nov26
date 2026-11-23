@@ -10,7 +10,10 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "check:i18n": "vitest run tests/i18n.test.ts",
-    "build": "pnpm check:i18n && pnpm typecheck && pnpm --filter @bhava360/api build && pnpm --filter @bhava360/web build && pnpm --filter @bhava360/admin build"
+    "build": "pnpm check:i18n && pnpm typecheck && pnpm --filter @bhava360/api build && pnpm --filter @bhava360/web build && pnpm --filter @bhava360/admin build",
+    "db:migrate": "pnpm --filter @bhava360/db exec tsx src/cli.ts up",
+    "db:down": "pnpm --filter @bhava360/db exec tsx src/cli.ts down",
+    "db:seed": "pnpm --filter @bhava360/db exec tsx src/cli.ts seed"
   },
   "devDependencies": {
     "typescript": "~5.9.3",
