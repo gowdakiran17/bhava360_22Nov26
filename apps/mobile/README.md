@@ -1,0 +1,1 @@
+PRD §8.17 reserves this directory for the consumer Capacitor wrapper. The ID and display name are provisional. STEP-13b adds Android first and iOS later, including export packaging, native projects and signing. Only the browser apps run today.
