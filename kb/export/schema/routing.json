@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:routing",
+  "type": "object",
+  "properties": {
+    "routes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "array",
+        "items": {
+          "type": "string",
+          "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
+        },
+        "uniqueItems": true
+      },
+      "propertyNames": {
+        "pattern": "^(area|screen|tool)/[a-z0-9-]+$"
+      }
+    }
+  },
+  "required": [
+    "routes"
+  ],
+  "additionalProperties": false
+}

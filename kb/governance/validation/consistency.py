@@ -54,7 +54,7 @@ def validate_consistency(rules, read, require, root):
     namespaces = {r['system'] for r in rules.values()} | {'glossary','remedies'}
     literal = re.compile(r'(?<![\w.-])(?:'+'|'.join(sorted(namespaces))+r')(?:\.[a-z0-9][a-z0-9_-]*){2,}(?![\w-])')
     paths = [p for p in sorted(root.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and
-             p.name != 'REVIEW-REPORT.md' and p.relative_to(root).parts[0] != 'templates']
+             p.name != 'REVIEW-REPORT.md' and p.relative_to(root).parts[0] not in ('templates','export','dist-json')]
     typed_refs = []
     for p in paths:
         if p.suffix != '.yaml':

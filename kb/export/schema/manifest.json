@@ -1,0 +1,420 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:manifest",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "commit": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{40}$"
+    },
+    "schema_version": {
+      "const": 1
+    },
+    "authoring_schema_version": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "locales": {
+      "type": "object",
+      "properties": {
+        "required": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "en",
+              "kn",
+              "hi",
+              "te",
+              "ta",
+              "ml",
+              "es",
+              "fr"
+            ]
+          }
+        },
+        "planned": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "en",
+              "kn",
+              "hi",
+              "te",
+              "ta",
+              "ml",
+              "es",
+              "fr"
+            ]
+          }
+        },
+        "fallback": {
+          "const": "en"
+        }
+      },
+      "required": [
+        "required",
+        "planned",
+        "fallback"
+      ],
+      "additionalProperties": false
+    },
+    "conventions": {
+      "type": "object",
+      "properties": {
+        "vedic-lahiri-v1": {
+          "type": "object",
+          "properties": {
+            "zodiac": {
+              "const": "sidereal"
+            },
+            "houses": {
+              "const": "whole-sign"
+            },
+            "ayanamsa": {
+              "const": "Lahiri"
+            },
+            "sidereal_mode": {
+              "const": 1
+            }
+          },
+          "required": [
+            "zodiac",
+            "houses",
+            "ayanamsa",
+            "sidereal_mode"
+          ],
+          "additionalProperties": true
+        },
+        "kp-placidus-v1": {
+          "type": "object",
+          "properties": {
+            "zodiac": {
+              "const": "sidereal"
+            },
+            "houses": {
+              "const": "placidus"
+            },
+            "ayanamsa_family": {
+              "const": "KP"
+            },
+            "sidereal_mode": {
+              "const": 5
+            }
+          },
+          "required": [
+            "zodiac",
+            "houses",
+            "ayanamsa_family",
+            "sidereal_mode"
+          ],
+          "additionalProperties": true
+        },
+        "western-tropical-v1": {
+          "type": "object",
+          "properties": {
+            "zodiac": {
+              "const": "tropical"
+            },
+            "houses": {
+              "const": "placidus"
+            }
+          },
+          "required": [
+            "zodiac",
+            "houses"
+          ],
+          "additionalProperties": true
+        }
+      },
+      "required": [
+        "vedic-lahiri-v1",
+        "kp-placidus-v1",
+        "western-tropical-v1"
+      ],
+      "additionalProperties": false
+    },
+    "counts": {
+      "type": "object",
+      "properties": {
+        "source_rules": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "canonical_rules": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "evidence_aliases": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "copy_aliases": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "routes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "routed_rules": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "messages_per_locale": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "system_counts": {
+          "type": "object",
+          "properties": {
+            "face-reading": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "jaimini": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "kp": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "lal-kitab": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "numerology": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "palmistry": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "tarot": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "vastu": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "vedic": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            },
+            "western": {
+              "type": "object",
+              "properties": {
+                "rules": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "aliases": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              },
+              "required": [
+                "rules",
+                "aliases"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "face-reading",
+            "jaimini",
+            "kp",
+            "lal-kitab",
+            "numerology",
+            "palmistry",
+            "tarot",
+            "vastu",
+            "vedic",
+            "western"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "source_rules",
+        "canonical_rules",
+        "evidence_aliases",
+        "copy_aliases",
+        "routes",
+        "routed_rules",
+        "messages_per_locale",
+        "system_counts"
+      ],
+      "additionalProperties": false
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "schema": {
+            "type": "string",
+            "minLength": 1
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "required": [
+          "schema",
+          "bytes",
+          "sha256"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "version",
+    "commit",
+    "schema_version",
+    "authoring_schema_version",
+    "locales",
+    "conventions",
+    "counts",
+    "files"
+  ],
+  "additionalProperties": false
+}

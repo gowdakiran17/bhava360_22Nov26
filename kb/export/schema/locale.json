@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:locale",
+  "type": "object",
+  "properties": {
+    "locale": {
+      "enum": [
+        "en",
+        "kn",
+        "hi",
+        "te",
+        "ta",
+        "ml",
+        "es",
+        "fr"
+      ]
+    },
+    "messages": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "propertyNames": {
+        "pattern": "^m_[0-9a-f]{24}$"
+      }
+    }
+  },
+  "required": [
+    "locale",
+    "messages"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:admin-system",
+  "type": "object",
+  "properties": {
+    "system": {
+      "enum": [
+        "face-reading",
+        "jaimini",
+        "kp",
+        "lal-kitab",
+        "numerology",
+        "palmistry",
+        "tarot",
+        "vastu",
+        "vedic",
+        "western"
+      ]
+    },
+    "rules": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "aliases": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
+            },
+            "uniqueItems": true
+          },
+          "copy_owner": {
+            "type": "string",
+            "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
+          },
+          "public_key": {
+            "type": "string",
+            "pattern": "^p_[0-9a-f]{24}$"
+          },
+          "rule": {
+            "type": "object",
+            "properties": {
+              "system": {
+                "enum": [
+                  "face-reading",
+                  "jaimini",
+                  "kp",
+                  "lal-kitab",
+                  "numerology",
+                  "palmistry",
+                  "tarot",
+                  "vastu",
+                  "vedic",
+                  "western"
+                ]
+              },
+              "topic": {
+                "type": "string",
+                "minLength": 1
+              },
+              "title": {
+                "type": "string",
+                "minLength": 1
+              },
+              "rule": {
+                "type": "string",
+                "minLength": 1
+              },
+              "conditions": {
+                "$ref": "#/$defs/condition"
+              },
+              "approval": {
+                "enum": [
+                  "draft",
+                  "validated",
+                  "approved"
+                ]
+              },
+              "doctrine_profile": {
+                "type": "string",
+                "minLength": 1
+              },
+              "sources": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "book",
+                    "work_id",
+                    "verification"
+                  ]
+                },
+                "minItems": 1
+              },
+              "meaning": {
+                "type": "string",
+                "minLength": 1
+              },
+              "life_areas": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "uniqueItems": true
+              },
+              "strength_notes": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "exceptions": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "traditions_differ": {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "confidence": {
+                "enum": [
+                  "high",
+                  "medium",
+                  "low",
+                  "disputed"
+                ]
+              },
+              "native_review": {
+                "type": "object"
+              }
+            },
+            "required": [
+              "system",
+              "topic",
+              "title",
+              "rule",
+              "conditions",
+              "approval",
+              "doctrine_profile",
+              "sources",
+              "meaning",
+              "life_areas",
+              "strength_notes",
+              "exceptions",
+              "traditions_differ",
+              "confidence",
+              "native_review"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "aliases",
+          "copy_owner",
+          "public_key",
+          "rule"
+        ],
+        "additionalProperties": false
+      },
+      "propertyNames": {
+        "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
+      }
+    },
+    "resources": {
+      "type": "object",
+      "additionalProperties": {}
+    }
+  },
+  "required": [
+    "system",
+    "rules",
+    "resources"
+  ],
+  "additionalProperties": false,
+  "$defs": {
+    "condition": {
+      "oneOf": [
+        {
+          "type": "object",
+          "properties": {
+            "fact": {
+              "type": "string",
+              "minLength": 1
+            },
+            "op": {
+              "enum": [
+                "eq",
+                "in"
+              ]
+            },
+            "value": {}
+          },
+          "required": [
+            "fact",
+            "op",
+            "value"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "all": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "all"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "any": {
+              "type": "array",
+              "items": {
+                "$ref": "#/$defs/condition"
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "any"
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "properties": {
+            "not": {
+              "$ref": "#/$defs/condition"
+            }
+          },
+          "required": [
+            "not"
+          ],
+          "additionalProperties": false
+        }
+      ]
+    }
+  }
+}

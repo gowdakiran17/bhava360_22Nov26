@@ -20,7 +20,7 @@ def normalized(text):
 def corpus(root):
     for path in sorted(root.rglob('*')):
         rel = path.relative_to(root)
-        if not path.is_file() or rel.parts[0] == 'glossary' or '__pycache__' in rel.parts:
+        if not path.is_file() or rel.parts[0] in ('glossary','export','dist-json') or '__pycache__' in rel.parts:
             continue
         if path.suffix not in ('', '.md', '.py', '.csv', '.yaml', '.svg'):
             raise ValueError(f'Classify new KB file type for glossary scan: {rel}')

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:admin-catalog",
+  "type": "object",
+  "properties": {
+    "resources": {
+      "type": "object",
+      "additionalProperties": {}
+    },
+    "public_keys": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^p_[0-9a-f]{24}$"
+      }
+    }
+  },
+  "required": [
+    "resources",
+    "public_keys"
+  ],
+  "additionalProperties": false
+}

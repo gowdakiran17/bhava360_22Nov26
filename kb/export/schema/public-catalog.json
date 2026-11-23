@@ -1,0 +1,166 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:public-catalog",
+  "type": "object",
+  "properties": {
+    "entries": {
+      "type": "object",
+      "additionalProperties": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "term": {
+                "type": "string",
+                "pattern": "^m_[0-9a-f]{24}$"
+              },
+              "meaning": {
+                "type": "string",
+                "pattern": "^m_[0-9a-f]{24}$"
+              }
+            },
+            "required": [
+              "term",
+              "meaning"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "label": {
+                "type": "string",
+                "pattern": "^m_[0-9a-f]{24}$"
+              }
+            },
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "user_text": {
+                "type": "string",
+                "pattern": "^m_[0-9a-f]{24}$"
+              }
+            },
+            "required": [
+              "user_text"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "remedy": {
+                "type": "object",
+                "properties": {
+                  "user_text": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
+                  },
+                  "optional": {
+                    "const": true
+                  },
+                  "cost": {
+                    "const": "free"
+                  },
+                  "type": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "user_text",
+                  "optional",
+                  "cost",
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              "options": {
+                "type": "object",
+                "additionalProperties": {
+                  "type": "object",
+                  "properties": {
+                    "user_text": {
+                      "type": "string",
+                      "pattern": "^m_[0-9a-f]{24}$"
+                    },
+                    "optional": {
+                      "const": true
+                    },
+                    "cost": {
+                      "const": "free"
+                    },
+                    "type": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "user_text",
+                    "optional",
+                    "cost",
+                    "type"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            },
+            "required": [
+              "remedy",
+              "options"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "summaries": {
+                "type": "object",
+                "properties": {
+                  "Supportive": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
+                  },
+                  "Steady": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
+                  },
+                  "Take care": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
+                  }
+                },
+                "required": [
+                  "Supportive",
+                  "Steady",
+                  "Take care"
+                ],
+                "additionalProperties": false
+              },
+              "footer": {
+                "type": "string",
+                "pattern": "^m_[0-9a-f]{24}$"
+              }
+            },
+            "required": [
+              "summaries"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "propertyNames": {
+        "pattern": "^p_[0-9a-f]{24}$"
+      }
+    }
+  },
+  "required": [
+    "entries"
+  ],
+  "additionalProperties": false
+}

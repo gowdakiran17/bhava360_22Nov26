@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:bhava360:export:v1:public-system",
+  "type": "object",
+  "properties": {
+    "system": {
+      "enum": [
+        "face-reading",
+        "jaimini",
+        "kp",
+        "lal-kitab",
+        "numerology",
+        "palmistry",
+        "tarot",
+        "vastu",
+        "vedic",
+        "western"
+      ]
+    },
+    "readings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "user_text": {
+            "type": "string",
+            "pattern": "^m_[0-9a-f]{24}$"
+          },
+          "tone": {
+            "enum": [
+              "Supportive",
+              "Steady",
+              "Take care",
+              null
+            ]
+          },
+          "remedy": {
+            "anyOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "user_text": {
+                    "type": "string",
+                    "pattern": "^m_[0-9a-f]{24}$"
+                  },
+                  "optional": {
+                    "const": true
+                  },
+                  "cost": {
+                    "const": "free"
+                  },
+                  "type": {
+                    "type": "string",
+                    "minLength": 1
+                  }
+                },
+                "required": [
+                  "user_text",
+                  "optional",
+                  "cost",
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "user_text",
+          "tone",
+          "remedy"
+        ],
+        "additionalProperties": false
+      },
+      "propertyNames": {
+        "pattern": "^p_[0-9a-f]{24}$"
+      }
+    }
+  },
+  "required": [
+    "system",
+    "readings"
+  ],
+  "additionalProperties": false
+}
