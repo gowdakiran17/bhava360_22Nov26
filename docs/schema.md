@@ -1,6 +1,6 @@
 # Local database schema
 
-The Drizzle models in `packages/db/src/schema` describe 43 domain tables. The reviewed SQL pair in `packages/db/drizzle` is the executable migration. The CLI applies version 1 inside a transaction under a database advisory lock. Repeated up/down calls are safe. A down migration drops domain data; use a disposable local database.
+The Drizzle models in `packages/db/src/schema` describe 44 domain tables. The reviewed SQL pair in `packages/db/drizzle` is the executable migration. The CLI applies ordered migrations inside a transaction under a database advisory lock. Repeated up/down calls are safe. A down migration drops domain data; use a disposable local database.
 
 ```mermaid
 erDiagram
@@ -89,4 +89,6 @@ Foreign-key indexes support ownership joins and cascades. Additional indexes cov
 
 Seeding requires an explicit development or test APP_ENV. Five synthetic accounts use deterministic IDs and example.test email digests. No address or phone is needed in plaintext. Fixture digests use public test inputs and must never be reused for real identity lookup. Dev has two profiles to distinguish known noon from unknown time. The seed resolves fixture instants with PostgreSQL's IANA time zone history. Seven city rows include the five birthplaces and Mangaluru/Mangalore and Kalaburagi/Gulbarga. Native labels are pending review. Six synthetic staff rows have no credentials.
 
-Up installs settings for development, staging and production. Vedic houses are whole-sign, Western houses Placidus, and matching defaults to Ashtakoota with Porutham available. Modern outer planets are off and remain display-only if enabled later; never feed them into Vedic or KP calculations. EN/KN/HI are enabled. TE/TA/ML/ES/FR are off. Vedic and numerology are enabled as MVP modules. Western, tarot, palmistry, Lal Kitab, Vastu and face are gated off until release approval.
+Up installs settings for development, staging and production. Vedic houses are whole-sign, Western houses Placidus, and matching defaults to Ashtakoota with Porutham available. Modern outer planets are off and remain display-only if enabled later; never feed them into Vedic or KP calculations. EN/KN/HI are enabled. TE/TA/ML/ES/FR are off. Vedic is enabled for MVP. Numerology is off until R2. Western, tarot, palmistry, Lal Kitab, Vastu and face are gated off until release approval.
+
+Migration 002 adds the session locale and active profile, OTP creation timestamps, shared OTP throttle buckets and profile soft-deletion/permission fields. Buckets store keyed digests and expire from the limiter after ten minutes; subsequent traffic purges rows older than a day. Soft-deleted profiles are excluded from reads, switches and the free-plan count. Account hard deletion still cascades through those profiles.

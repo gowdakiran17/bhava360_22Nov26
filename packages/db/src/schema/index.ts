@@ -44,6 +44,7 @@ export const identities = pgTable('identities', {
 export const otp_challenges = pgTable('otp_challenges', {
   id: uuid().primaryKey().defaultRandom(),
   identity_id: uuid().notNull().references(() => identities.id, { onDelete: 'cascade' }),
+  created_at: timestamp({ withTimezone: true }).notNull().defaultNow(),
   code_hash: text().notNull(),
   ip_digest: text().notNull(),
   expires_at: timestamp({ withTimezone: true }).notNull(),
@@ -55,6 +56,8 @@ export const otp_challenges = pgTable('otp_challenges', {
 ]);
 
 export const sessions = pgTable('sessions', {
+  locale: text().notNull().default('en'),
+  active_profile_id: uuid().references(() => profiles.id, { onDelete: 'set null' }),
   id: uuid().primaryKey().defaultRandom(),
   user_id: uuid().notNull().references(() => users.id, { onDelete: 'cascade' }),
   token_hash: text().notNull().unique(),
@@ -77,6 +80,8 @@ export const consents = pgTable('consents', {
 ]);
 
 export const profiles = pgTable('profiles', {
+  deleted_at: timestamp({ withTimezone: true }),
+  adult_permission: boolean().notNull().default(false),
   id: uuid().primaryKey().defaultRandom(),
   user_id: uuid().notNull().references(() => users.id, { onDelete: 'cascade' }),
   display_name: text().notNull(),
@@ -470,3 +475,9 @@ export const report_jobs = pgTable('report_jobs', {
   index().on(t.order_id),
   index().on(t.status,t.available_at),
 ]);
+
+export const otp_rate_limits = pgTable('otp_rate_limits', {
+  bucket: text().primaryKey(),
+  window_start: timestamp({ withTimezone: true }).notNull(),
+  hits: integer().notNull(),
+}, t => [index('otp_rate_expiry').on(t.window_start)]);

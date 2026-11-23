@@ -26,3 +26,4 @@ export interface EngineModule<Input, Facts> {
 export function toPublicProjection(reading: { text: string; evidence: readonly string[] }) {
   return { text: reading.text };
 }
+export { resolveBirth } from './birth';

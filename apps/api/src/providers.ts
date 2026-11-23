@@ -4,15 +4,18 @@ export interface PaymentPort {
 }
 
 export interface OtpPort {
-  sendChallenge(challengeId: string): Promise<{ available: boolean }>;
+  send(channel: 'phone' | 'email', recipient: string, code: string): void;
 }
 
 export interface EmailPort {
   sendMessage(messageId: string): Promise<{ available: boolean }>;
 }
 
-export const offlineProviders: PaymentPort & OtpPort & EmailPort = {
-  async createCheckout() { return { available: false }; },
-  async sendChallenge() { return { available: false }; },
-  async sendMessage() { return { available: false }; }
+export const offlineProviders: PaymentPort & EmailPort = {
+  async createCheckout() {
+    return { available: false };
+  },
+  async sendMessage() {
+    return { available: false };
+  },
 };
