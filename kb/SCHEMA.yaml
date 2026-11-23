@@ -1,6 +1,14 @@
 version: 1
 scope: Rule and meaning entries
 entry_template: templates/entry.yaml
+supported_locales:
+  required: [en, kn, hi]
+  planned: [te, ta, ml, es, fr]
+  fallback: en
+localized_copy:
+  fields: [user_text, remedy.user_text]
+  resolution: Resolve each field separately. Use the requested locale when present, otherwise use that field’s English text.
+  authoring: Supply nonblank strings for required locales. Omit planned keys until their text is available.
 canonical_id: system.topic-key.slug
 example_id: vedic.houses.mars-house-7
 conditions:
@@ -44,3 +52,50 @@ western_outer_planet_entries:
   extension: outer_planet
   fields: [themes, discovery_year, modern_rulership, traditional_ruler, generational_use, personal_use, orbs]
   orbs: Resolve the named natal table and compare absolute angular deviation inclusively. Only listed major aspects qualify for personal use.
+vedic_state_entries:
+  extension: state
+  fields_by_state:
+    baladi:
+    - eligible
+    - width_degrees
+    - interval
+    - odd_sign_order
+    - even_sign_order
+    - state_meanings
+    combustion:
+    - reference_table
+    - orbs
+    - reference_body
+    - separation
+    - boundary
+    - motion_selector
+    graha-drishti:
+    - reference_table
+    - inclusive_distances
+    - direction
+    - calculation
+    graha-yuddha:
+    - eligible
+    - distinct_pair
+    - separation
+    - maximum_exclusive_degrees
+    - winner
+    - tie_or_missing_latitude
+    - winner_scope
+    vakri:
+    - eligible
+    - observable
+    - unit
+    - test
+    - station
+    vargottama:
+    - eligible
+    - charts
+    - same_graha
+    - comparison
+    - d9_method
+    yuti:
+    - eligible
+    - distinct_pair
+    - comparison
+    - orb_degrees

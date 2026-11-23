@@ -20,6 +20,7 @@ calculation_profiles:
       proposed_default: mean
       alternative: true-node
       owner_confirmation: pending
+    combustion_orbs: vedic/states/combustion-orbs.yaml
     node_aspects: seventh-only
     sunrise: apparent-upper-limb-with-refraction
     vimshottari_year_days:

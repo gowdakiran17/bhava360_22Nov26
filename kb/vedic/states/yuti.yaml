@@ -1,0 +1,61 @@
+id: vedic.states.yuti
+system: vedic
+topic: states
+title: Yuti · conjunction
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match two distinct selected grahas occupying the same natal sidereal sign.
+conditions:
+  all:
+  - fact: d1.state.yuti
+    op: eq
+    value: true
+state:
+  eligible:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+  - rahu
+  - ketu
+  distinct_pair: true
+  comparison: same D1 sidereal sign
+  orb_degrees: none for sign co-occupancy
+meaning: The two grahas may describe different concerns arising in the same setting. The pair and its house give
+  the reading its subject.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Sign co-occupancy is sufficient here. Degree-sensitive practice also weighs proximity. The cited chapter
+    treats the seven visible grahas; this profile extends co-occupancy to nodal placements.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 14
+  verse: 1–5
+  other_locator: Pairs in one sign
+  supports: Classical basis for reading sign co-occupancy in pairs.
+  verification: verified
+confidence: medium
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: You can consider what each of two concerns needs when they arise together.
+  kn: ಎರಡು ವಿಷಯಗಳು ಒಟ್ಟಿಗೆ ಎದುರಾದಾಗ ಪ್ರತಿಯೊಂದಕ್ಕೂ ಏನು ಬೇಕು ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: दो बातें एक साथ सामने आएँ तो आप देख सकते हैं कि दोनों को क्या चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Give each concern its own line in a note.
+    kn: ಪ್ರತಿ ವಿಷಯವನ್ನೂ ಪ್ರತ್ಯೇಕ ಸಾಲಿನಲ್ಲಿ ಬರೆದಿಡಬಹುದು.
+    hi: दोनों बातों को अलग-अलग पंक्तियों में लिख सकते हैं।

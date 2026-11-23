@@ -26,6 +26,7 @@ sources:
     verification: pending
 confidence: medium  # high | medium | low | disputed
 review_notes: "<open questions and verification needed>"
+# Both user_text maps follow supported_locales in SCHEMA.yaml. Omit untranslated optional keys.
 user_text:
   en: "<English>"
   kn: "<ಕನ್ನಡ>"
@@ -37,3 +38,4 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, us
 # Vedic nakshatra entries also carry the nakshatra mapping defined in SCHEMA.yaml.
 # The twelve bhava reference entries also carry the bhava mapping defined in SCHEMA.yaml.
 # Western outer-planet entries carry the outer_planet mapping defined in SCHEMA.yaml.
+# Vedic planetary state entries carry the state mapping defined in SCHEMA.yaml.

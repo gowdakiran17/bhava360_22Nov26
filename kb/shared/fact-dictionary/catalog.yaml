@@ -17,6 +17,67 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  d1.state.graha_drishti:
+    type: boolean
+    producer: vedic.d1
+    origin: Count forward from the source graha’s D1 sign as one. Match a full aspect when the target sign falls
+      at a listed distance for that source.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/graha-drishti.yaml
+  d1.state.yuti:
+    type: boolean
+    producer: vedic.d1
+    origin: Match two distinct selected grahas occupying the same natal sidereal sign.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/yuti.yaml
+  d1.state.combustion:
+    type: boolean
+    producer: vedic.d1
+    origin: For an eligible graha, match when its shortest natal longitude separation from the Sun is at or below
+      its motion-specific threshold. Exclude the Sun and both nodes.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/combustion.yaml
+  d1.state.vakri:
+    type: boolean
+    producer: vedic.d1
+    origin: Match an eligible natal planet whose apparent geocentric longitude speed is negative.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/vakri.yaml
+  d1.state.graha_yuddha:
+    type: boolean
+    producer: vedic.d1
+    origin: Match two distinct eligible planets less than one degree apart in natal longitude. Among a matched pair,
+      the planet farther north by signed ecliptic latitude wins under this profile.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/graha-yuddha.yaml
+  d1.state.baladi:
+    type: enum
+    producer: vedic.d1
+    origin: Divide the graha’s natal sign into five successive six-degree intervals. Read the odd-sign order from
+      Aries onward by sign parity and reverse the order in even signs. Normalize 30 degrees to the next sign before
+      lookup.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/baladi.yaml
+    values:
+    - bala
+    - kumara
+    - yuva
+    - vriddha
+    - mrita
+  d1.state.vargottama:
+    type: boolean
+    producer: vedic.d1
+    origin: Match the same graha when its D1 sign equals its D9 sign under the selected Parashari navamsha method.
+      Require both sign assignments to be stable.
+    unknown_if: Return unknown if a required input is missing or if the result changes across the supported birth
+      interval.
+    definition: vedic/states/vargottama.yaml
   western.natal.selected_outer:
     type: enum
     producer: western.natal

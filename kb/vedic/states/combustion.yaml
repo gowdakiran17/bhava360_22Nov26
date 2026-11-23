@@ -1,0 +1,79 @@
+id: vedic.states.combustion
+system: vedic
+topic: states
+title: Asta · combustion
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: For an eligible graha, match when its shortest natal longitude separation from the Sun is at or below its
+  motion-specific threshold. Exclude the Sun and both nodes.
+conditions:
+  all:
+  - fact: d1.state.combustion
+    op: eq
+    value: true
+state:
+  reference_table: vedic/states/combustion-orbs.yaml
+  orbs:
+    direct:
+      moon: 12
+      mars: 17
+      mercury: 14
+      jupiter: 11
+      venus: 10
+      saturn: 15
+    retrograde:
+      mars: 17
+      mercury: 12
+      jupiter: 11
+      venus: 8
+      saturn: 15
+  reference_body: sun
+  separation: shortest circular longitude distance
+  boundary: inclusive
+  motion_selector: Negative longitude speed selects retrograde. Positive speed selects direct. At a station use
+    a shared threshold where both rows agree; Mercury and Venus require a resolved motion branch.
+meaning: Combustion may make the graha’s own concerns harder to distinguish from the priorities signified by the
+  Sun. Judge the placement alongside its house, rulership and other strengths.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The classical source calculates heliacal visibility with horizon-dependent quantities. This natal profile
+    uses the shortest ecliptic arc, includes the exact limit and uses the Moon’s threshold as a solar-proximity
+    flag. Lunar phase strength is assessed separately.
+sources:
+- book: Surya Siddhanta
+  work_id: surya-siddhanta
+  edition: surya-siddhanta-burgess
+  chapter: 9
+  verse: 6–9
+  other_locator: Planetary rising and setting
+  supports: Source of the five planetary thresholds. The natal profile maps the two inner-planet limits to motion.
+  verification: verified
+- book: Surya Siddhanta
+  work_id: surya-siddhanta
+  edition: surya-siddhanta-burgess
+  chapter: 10
+  verse: '1'
+  other_locator: Lunar visibility
+  supports: Twelve-degree lunar threshold adapted for the natal comparison.
+  verification: verified
+confidence: medium
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: When one priority takes most of your attention, you may find it useful to name what else needs a hearing.
+  kn: ಒಂದು ವಿಷಯವೇ ಹೆಚ್ಚು ಗಮನ ಸೆಳೆಯುವಾಗ ಬೇರೆ ಯಾವುದಕ್ಕೆ ಗಮನ ಬೇಕಿದೆ ಎಂದು ಗುರುತಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: जब एक प्राथमिकता आपका ज़्यादातर ध्यान ले रही हो, तो यह पहचानना मददगार हो सकता है कि और किस बात को सुनने
+    की ज़रूरत है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, give a quieter concern a line of its own in your notes.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಗಮನಕ್ಕೆ ಬಾರದ ಒಂದು ವಿಷಯವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो जिस बात पर कम ध्यान गया है, उसे अलग से लिख सकते हैं।

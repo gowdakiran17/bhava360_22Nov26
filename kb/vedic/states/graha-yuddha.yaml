@@ -1,0 +1,70 @@
+id: vedic.states.graha-yuddha
+system: vedic
+topic: states
+title: Graha yuddha · planetary war
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match two distinct eligible planets less than one degree apart in natal longitude. Among a matched pair,
+  the planet farther north by signed ecliptic latitude wins under this profile.
+conditions:
+  all:
+  - fact: d1.state.graha_yuddha
+    op: eq
+    value: true
+state:
+  eligible:
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+  distinct_pair: true
+  separation: shortest circular longitude distance
+  maximum_exclusive_degrees: 1
+  winner: greater signed geocentric ecliptic latitude
+  tie_or_missing_latitude: war can match; winner unknown
+  winner_scope: pair only
+meaning: A very close pair may place two graha themes in competition. The winner supplies a relative emphasis
+  within this pair.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The one-degree screen and latitude-only winner are reproducible natal conventions. Phaladeepika describes
+    a bright northern planet. Brihat Samhita allows a prominent bright southern disc to prevail. Equal or unresolved
+    latitudes leave the winner open.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Motional strength in planetary war
+  supports: Northern position and brightness as victory indicators.
+  verification: verified
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-sivash-17
+  chapter: 17
+  verse: 9–10
+  other_locator: Appearance of the planets
+  supports: Visual qualifications can alter the apparent victor.
+  verification: verified
+confidence: disputed
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: If two priorities compete, you can decide which needs attention first today.
+  kn: ಎರಡು ಆದ್ಯತೆಗಳು ಎದುರಾದಾಗ ಇಂದು ಯಾವುದಕ್ಕೆ ಮೊದಲು ಗಮನ ಕೊಡಬೇಕು ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+  hi: जब दो प्राथमिकताएँ टकराएँ, तो आप तय कर सकते हैं कि आज पहले किस पर ध्यान देना है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Give each priority a turn in the conversation.
+    kn: ಎರಡೂ ವಿಷಯಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.
+    hi: बातचीत में दोनों विषयों के लिए समय रख सकते हैं।

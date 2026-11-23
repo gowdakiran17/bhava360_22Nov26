@@ -1,5 +1,6 @@
 version: 1
 works:
+  surya-siddhanta: Surya Siddhanta
   taittiriya-brahmana: Taittiriya Brahmana
   nasa-planet-definition: What Is a Planet?
   astrodienst-ruler: Ruler
@@ -34,6 +35,30 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  surya-siddhanta-burgess:
+    work_id: surya-siddhanta
+    edition_id: surya-siddhanta-burgess
+    title_as_printed: Surya Siddhanta
+    publication_details: E. Burgess, English translation (1860).
+    text: https://classicalastrologer.com/wp-content/uploads/2018/04/surya_siddhanta_english.pdf
+    verified_by: Chapters IX and X, heliacal thresholds.
+    language: English
+  bphs-sanskritdocuments-45:
+    work_id: bphs
+    edition_id: bphs-sanskritdocuments-45
+    title_as_printed: Brihat Parashara Hora Shastra
+    publication_details: Sanskrit Documents digital translation, chapters 34–45.
+    text: https://sanskritdocuments.org/doc_z_misc_sociology_astrology/horaashaastraEng34-45.html
+    verified_by: Chapter 45, opening Baladi classification.
+    language: English
+  brihat-samhita-sivash-17:
+    work_id: brihat-samhita
+    edition_id: brihat-samhita-sivash-17
+    title_as_printed: Brihat Samhita
+    publication_details: Siva.sh Sanskrit and English digital presentation.
+    text: https://www.siva.sh/brihat-samhita/17/6-10
+    verified_by: Chapter 17 on visible discs and victory.
+    language: Sanskrit/English
   taittiriya-brahmana-vedicpupil:
     work_id: taittiriya-brahmana
     edition_id: taittiriya-brahmana-vedicpupil

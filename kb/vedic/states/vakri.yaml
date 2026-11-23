@@ -1,0 +1,58 @@
+id: vedic.states.vakri
+system: vedic
+topic: states
+title: Vakri · retrogression
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match an eligible natal planet whose apparent geocentric longitude speed is negative.
+conditions:
+  all:
+  - fact: d1.state.vakri
+    op: eq
+    value: true
+state:
+  eligible:
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+  observable: apparent geocentric ecliptic longitude speed
+  unit: degrees/day
+  test: speed < 0
+  station: zero is stationary
+meaning: A graha in apparent reverse motion may acquire motional emphasis. The nature of the graha and the topic
+  it governs shape how that emphasis is read.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Vakri is one input to cheshta bala. Some readings emphasize delay or revision; the speed sign alone establishes
+    neither outcome. Nodal motion uses a different model.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Motional strength
+  supports: Retrogression as a source of motional strength.
+  verification: verified
+confidence: medium
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: You may find a second look at an earlier choice worthwhile.
+  kn: ಹಿಂದಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: पहले किए गए किसी चुनाव पर फिर से विचार करना उपयोगी हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Revisit a note you set aside.
+    kn: ಬದಿಗಿಟ್ಟ ಟಿಪ್ಪಣಿಯೊಂದನ್ನು ಮತ್ತೆ ಓದಬಹುದು.
+    hi: पहले अलग रखे किसी नोट को फिर से पढ़ सकते हैं।

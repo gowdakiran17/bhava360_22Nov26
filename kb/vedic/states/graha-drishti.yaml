@@ -1,0 +1,77 @@
+id: vedic.states.graha-drishti
+system: vedic
+topic: states
+title: Graha drishti · full planetary aspect
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Count forward from the source graha’s D1 sign as one. Match a full aspect when the target sign falls at
+  a listed distance for that source.
+conditions:
+  all:
+  - fact: d1.state.graha_drishti
+    op: eq
+    value: true
+state:
+  reference_table: vedic/aspects/full-graha.yaml
+  inclusive_distances:
+    sun:
+    - 7
+    moon:
+    - 7
+    mars:
+    - 4
+    - 7
+    - 8
+    mercury:
+    - 7
+    jupiter:
+    - 5
+    - 7
+    - 9
+    venus:
+    - 7
+    saturn:
+    - 3
+    - 7
+    - 10
+    rahu:
+    - 7
+    ketu:
+    - 7
+  direction: source to target
+  calculation: 1 + ((target sign index - source sign index) mod 12)
+meaning: A full aspect may connect two chart topics even when their grahas occupy different signs.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The seven classical grahas use the full-aspect table. Nodal aspects are disputed. This profile follows
+    the PRD’s seventh-only convention for both nodes. Other schools omit nodal aspects or include the fifth and
+    ninth. Fractional aspect strength is a separate calculation.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: '13'
+  other_locator: Planetary aspects
+  supports: Full seventh and special full aspects of the seven grahas. The node convention comes from PRD 8.4.1.
+  verification: verified
+confidence: disputed
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: You may notice how attention to one part of life affects another.
+  kn: ಬದುಕಿನ ಒಂದು ವಿಷಯಕ್ಕೆ ನೀಡುವ ಗಮನ ಇನ್ನೊಂದರ ಮೇಲೆ ಹೇಗೆ ಪರಿಣಾಮ ಬೀರುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि जीवन के एक पहलू पर ध्यान देने से दूसरे पर क्या असर पड़ता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Consider two responsibilities that affect one another.
+    kn: ಒಂದರ ಮೇಲೊಂದು ಪರಿಣಾಮ ಬೀರುವ ಎರಡು ಜವಾಬ್ದಾರಿಗಳನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+    hi: एक-दूसरे पर असर डालने वाली दो ज़िम्मेदारियों पर विचार कर सकते हैं।

@@ -6,7 +6,7 @@ rule_id:
   revision: Keep the ID for copy, source-locator and translation corrections. Issue a new ID for a different formation, school or reference point. Retain a superseded record for historical readings.
   systems: [vedic, jaimini, kp, western, numerology, vastu, tarot, palmistry, lal-kitab, face-reading]
   uniqueness_scope: all production rule files
-locales: [en, kn, hi]
+locales: [en, kn, hi, te, ta, ml, es, fr]  # Required and planned groups follow SCHEMA.yaml.
 approval_path: [draft, validated, approved]
 confidence_values: [high, medium, low, disputed]
 public_gate: Require approved rule, verified citations, approved convention, native-reviewed copy and matched evidence.

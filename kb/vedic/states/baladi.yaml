@@ -1,0 +1,77 @@
+id: vedic.states.baladi
+system: vedic
+topic: states
+title: Baladi avastha · five age states
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Divide the graha’s natal sign into five successive six-degree intervals. Read the odd-sign order from Aries
+  onward by sign parity and reverse the order in even signs. Normalize 30 degrees to the next sign before lookup.
+conditions:
+  all:
+  - fact: d1.state.baladi
+    op: in
+    value: &id001
+    - bala
+    - kumara
+    - yuva
+    - vriddha
+    - mrita
+state:
+  eligible:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+  width_degrees: 6
+  interval: start inclusive, end exclusive
+  odd_sign_order: *id001
+  even_sign_order:
+  - mrita
+  - vriddha
+  - yuva
+  - kumara
+  - bala
+  state_meanings:
+    bala: just beginning
+    kumara: developing
+    yuva: fully active
+    vriddha: less active
+    mrita: quiescent
+meaning: The age label may qualify how readily a graha expresses its theme. It describes a stage in a symbolic
+  cycle.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: This rule uses the degree-based Baladi sequence for the seven classical planets. Wakefulness, dignity-based
+    states and other avastha families answer different questions.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-sanskritdocuments-45
+  chapter: 45
+  verse: 2–4
+  other_locator: Opening Baladi passage
+  supports: Five degree-based states, reversed sequence in even signs and relative expression.
+  verification: verified
+confidence: medium
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: You may consider whether a skill feels new, well practised or ready for a pause.
+  kn: ಒಂದು ಕೌಶಲ ಹೊಸದಾಗಿದೆಯೇ, ಚೆನ್ನಾಗಿ ಅಭ್ಯಾಸವಾಗಿದೆಯೇ ಅಥವಾ ವಿರಾಮ ಬೇಕೇ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि कोई हुनर अभी नया है, अभ्यास में है या थोड़ा विराम चाहता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Choose a small next step that suits your present experience.
+    kn: ಈಗಿನ ಅನುಭವಕ್ಕೆ ಹೊಂದುವ ಒಂದು ಸಣ್ಣ ಹೆಜ್ಜೆಯನ್ನು ಆರಿಸಬಹುದು.
+    hi: अपने मौजूदा अनुभव के अनुसार एक छोटा अगला कदम चुन सकते हैं।

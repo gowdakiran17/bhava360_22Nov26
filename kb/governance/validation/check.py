@@ -80,6 +80,62 @@ def validate_nakshatras(rules, signs):
         cursor=end
     require(cursor==360*60,'nakshatra coverage must end at 360 degrees')
 
+def combustion_match(state, graha, sun_longitude, longitude, speed):
+    """Evaluate the KB threshold, allowing an unresolved motion branch at a station."""
+    direct = state['orbs']['direct'].get(graha)
+    if direct is None:
+        return False
+    retrograde = state['orbs']['retrograde'].get(graha)
+    if retrograde is not None and retrograde != direct and (speed is None or speed == 0):
+        return None
+    if longitude is None or sun_longitude is None:
+        return None
+    orb = retrograde if retrograde is not None and speed is not None and speed < 0 else direct
+    separation = abs((longitude - sun_longitude + 180) % 360 - 180)
+    return separation <= orb
+
+
+def validate_states(rules, facts):
+    records = {rid.split('.')[-1]: rule for rid, rule in rules.items()
+               if rule['system'] == 'vedic' and rule['topic'] == 'states'}
+    fields = read('SCHEMA.yaml')['vedic_state_entries']['fields_by_state']
+    require(set(records) == set(fields), 'missing or unexpected planetary state')
+    for slug, record in records.items():
+        require(set(record['state']) == set(fields[slug]), record['id'] + ' fields')
+        fact = 'd1.state.' + slug.replace('-', '_')
+        require(facts[fact]['definition'] == 'vedic/states/' + slug + '.yaml', fact)
+        test = {'op': 'eq', 'value': True} if slug != 'baladi' else {'op': 'in', 'value': facts[fact]['values']}
+        require(record['conditions'] == {'all': [{'fact': fact, **test}]}, fact)
+
+    aspect = records['graha-drishti']['state']
+    require(aspect['reference_table'] == 'vedic/aspects/full-graha.yaml', 'full-aspect reference')
+    houses = read(aspect['reference_table'])['inclusive_distances']
+    require(aspect['inclusive_distances'] == houses, 'full aspect houses differ from table')
+    for graha in ('sun', 'moon', 'mars', 'mercury', 'jupiter', 'venus', 'saturn', 'rahu', 'ketu'):
+        special = {'mars': [4, 8], 'jupiter': [5, 9], 'saturn': [3, 10]}
+        require(houses[graha] == sorted([7] + special.get(graha, [])), graha + ' full aspects')
+
+    combustion = records['combustion']['state']
+    require(combustion['reference_table'] == 'vedic/states/combustion-orbs.yaml', 'combustion reference')
+    table = read(combustion['reference_table'])
+    require(table['orbs'] == combustion['orbs'] and table['boundary'] == combustion['boundary'] == 'inclusive',
+            'combustion profile differs from table')
+    direct = {'moon': 12, 'mars': 17, 'mercury': 14, 'jupiter': 11, 'venus': 10, 'saturn': 15}
+    retro = {g: direct[g] for g in direct if g != 'moon'}
+    retro.update(mercury=12, venus=8)
+    require(table['orbs'] == {'direct': direct, 'retrograde': retro}, 'combustion reference values')
+    for speed, limits in [(1, direct), (-1, retro)]:
+        for graha, orb in limits.items():
+            for direction in (-1, 1):
+                edge = (359 + direction * orb) % 360
+                require(combustion_match(combustion, graha, 359, edge, speed), graha + ' threshold')
+                require(not combustion_match(combustion, graha, 359, edge + direction * 0.01, speed),
+                        graha + ' outside threshold')
+    require(combustion_match(combustion, 'venus', 0, 9, 0) is None, 'unresolved Venus station')
+    for graha in ('sun', 'rahu', 'ketu'):
+        require(combustion_match(combustion, graha, 0, 0, 1) is False, graha + ' ineligible')
+
+
 def validate_houses(rules, areas):
     groups = {
         'kendra': {1, 4, 7, 10},
@@ -165,20 +221,31 @@ BANNED_USER_TERMS = re.compile(
     r'|ಮರಣ|ಸಾವು|ಸಾವಿನ|ಮೃತ್ಯು|ಅಪಘಾತ|ಭಯ|ಹೆದರ', re.I)
 
 
-def validate_user_text(node, location, inside=False):
-    if isinstance(node, dict):
+def validate_user_text(node, location, required, supported):
+    if isinstance(node, list):
+        for index, value in enumerate(node):
+            validate_user_text(value, f'{location}[{index}]', required, supported)
+    elif isinstance(node, dict):
         for key, value in node.items():
-            validate_user_text(value, f'{location}.{key}', inside or key == 'user_text')
-    elif isinstance(node, list):
-        for i, value in enumerate(node):
-            validate_user_text(value, f'{location}[{i}]', inside)
-    elif inside and isinstance(node, str):
-        match = BANNED_USER_TERMS.search(node)
-        if match:
-            raise ValueError(f'{location}: prohibited user_text term {match[0]}')
+            field = f'{location}.{key}'
+            if key != 'user_text':
+                validate_user_text(value, field, required, supported)
+                continue
+            require(isinstance(value, dict), f'{field}: expected locale map')
+            require(required <= value.keys() <= supported, f'{field}: invalid locale keys {list(value)}')
+            for locale, translation in value.items():
+                require(isinstance(translation, str) and translation.strip(), f'{field}.{locale}: empty text')
+                match = BANNED_USER_TERMS.search(translation)
+                if match:
+                    raise ValueError(f'{field}.{locale}: prohibited user_text term {match[0]}')
 
 
 def main():
+    locales = read('SCHEMA.yaml')['supported_locales']
+    required = set(locales['required'])
+    supported = required | set(locales['planned'])
+    require(locales['fallback'] in required, 'fallback locale needs required text')
+    require(set(read('governance/review/identifiers.yaml')['locales']) == supported, 'locale registry')
     confidence_values=read('governance/review/identifiers.yaml')['confidence_values']
     template=read('templates/entry.yaml')
     facts=read('shared/fact-dictionary/catalog.yaml')['facts']
@@ -190,12 +257,12 @@ def main():
     rules={}
     for path in sorted(ROOT.rglob('*.yaml')):
         data=yaml.safe_load(path.read_text())
-        validate_user_text(data, path.relative_to(ROOT))
+        validate_user_text(data, path.relative_to(ROOT), required, supported)
         system_dir = path.relative_to(ROOT).parts[0]
         if system_dir in VEDIC_SYSTEMS:
             if 'rule' in data:
                 inputs = [data['conditions'], *[m['when'] for m in data['strength_notes'] + data['exceptions']]]
-                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra') if k in data)
+                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state') if k in data)
             else:
                 # Calculation tables include candidate lists, weights and lord assignments.
                 inputs = data
@@ -204,6 +271,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system'] == 'vedic' and data['topic'] == 'states':
+            expected_fields.add('state')
         if rid in {'western.planets.' + name for name in OUTER_BODIES}:
             expected_fields.add('outer_planet')
         if data['system']=='vedic' and data['topic']=='signs':
@@ -222,7 +291,8 @@ def main():
         require(re.fullmatch(r'[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*',rid),rid)
         require(path.parent==ROOT/data['system']/data['topic'],rid)
         require(data['doctrine_profile'] in profiles and set(data['life_areas'])<=areas['areas'].keys(),rid)
-        require(set(data['user_text'])=={'en','kn','hi'} and all(data['user_text'].values()),rid)
+        if data['remedy'] is not None:
+            require(isinstance(data['remedy'], dict) and 'user_text' in data['remedy'], rid + ' remedy.user_text')
         require(re.search('[ಀ-೿]',data['user_text']['kn']) and re.search('[ऀ-ॿ]',data['user_text']['hi']),rid)
         require(data['approval'] in ('draft','validated','approved') and data['confidence'] in confidence_values,rid)
         if data['approval']=='approved':
@@ -270,6 +340,7 @@ def main():
     validate_nakshatras(rules, signs)
     validate_houses(rules, areas['areas'])
     validate_outer_profiles(rules)
+    validate_states(rules, facts)
     for area in areas['areas']:
         recipe=read(f'life-areas/{area}/reading.yaml')
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)

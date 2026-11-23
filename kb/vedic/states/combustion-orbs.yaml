@@ -1,0 +1,18 @@
+profile: parashari-lahiri-whole-sign-draft-v1
+unit: degrees of geocentric ecliptic longitude
+boundary: inclusive
+source: Surya Siddhanta IX.6–9 and X.1, adapted for natal longitude
+orbs:
+  direct:
+    moon: 12
+    mars: 17
+    mercury: 14
+    jupiter: 11
+    venus: 10
+    saturn: 15
+  retrograde:
+    mars: 17
+    mercury: 12
+    jupiter: 11
+    venus: 8
+    saturn: 15

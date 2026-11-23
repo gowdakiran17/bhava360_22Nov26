@@ -1,0 +1,65 @@
+id: vedic.states.vargottama
+system: vedic
+topic: states
+title: Vargottama · repeated natal and navamsha sign
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the same graha when its D1 sign equals its D9 sign under the selected Parashari navamsha method. Require
+  both sign assignments to be stable.
+conditions:
+  all:
+  - fact: d1.state.vargottama
+    op: eq
+    value: true
+state:
+  eligible:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
+  - rahu
+  - ketu
+  charts:
+  - D1
+  - D9
+  same_graha: true
+  comparison: equal sidereal sign IDs
+  d9_method: vedic/vargas/methods.yaml
+meaning: A repeated sign may give its themes continuity between the natal and navamsha readings. Keep the graha’s
+  actual dignity and house context in view.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The classical reference is specifically to navamsha. The library also supports labelled comparisons with
+    other divisions. A repeated sign in another division does not activate this D1–D9 entry.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: '14'
+  other_locator: Vargottama navamshas
+  supports: Navamshas that repeat the sign of the natal placement.
+  verification: verified
+confidence: medium
+review_notes: Area and strength depend on the bound graha and chart context. Kannada and Hindi await native review.
+user_text:
+  en: You may notice a familiar way of approaching a subject in more than one setting.
+  kn: ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ಸಂದರ್ಭಗಳಲ್ಲಿ ಒಂದೇ ರೀತಿಯ ನಡೆ ಕಾಣಿಸುತ್ತದೆಯೇ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि अलग-अलग परिस्थितियों में आपका कोई परिचित तरीका दोहराया जाता है या नहीं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Recall two settings in which the same skill helped you.
+    kn: ಒಂದೇ ಕೌಶಲ ನಿಮಗೆ ನೆರವಾದ ಎರಡು ಸಂದರ್ಭಗಳನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: दो ऐसे मौके याद कर सकते हैं जब एक ही हुनर आपके काम आया था।
