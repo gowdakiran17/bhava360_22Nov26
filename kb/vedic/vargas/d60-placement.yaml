@@ -61,8 +61,7 @@ sources:
   supports: Calculation comparator and numerical weights.
   verification: verified
 confidence: disputed
-review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending. D60 interpretation
-  remains held pending method approval.
+review_notes: House priorities and practical prompts are editorial. Kannada and Hindi review pending. D60 uses the owner-selected BPHS method. Cap confidence at low unless birth time is verified. Omit unstable facts and deity names from user text.
 user_text:
   en: With a closely established birth time, you may explore small distinctions in a theme already visible in
     the natal chart.

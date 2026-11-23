@@ -370,6 +370,7 @@ used_by:
 - vedic.states.combustion
 - vedic.states.graha-yuddha
 - vedic.states.vakri
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-shadbala.cheshta
 - vedic.strength-shadbala.dig
 - vedic.strength-shadbala.drekkana
@@ -377,6 +378,7 @@ used_by:
 - vedic.strength-shadbala.kendradi
 - vedic.strength-shadbala.naisargika
 - vedic.strength-shadbala.ojayugma
+- vedic.strength-shadbala.paksha
 - vedic.strength-shadbala.saptavargaja
 - vedic.strength-shadbala.six-components
 - vedic.strength-shadbala.sthana

@@ -21,6 +21,7 @@ aliases:
 - प्रश्न कुंडली
 reference_rules: []
 used_by:
+- kp.cusps.placidus
 - kp.number-horary.arc
 - kp.significators.job-change
 - kp.star-sub-lords.subdivision

@@ -42,3 +42,5 @@ grahas:
     hi: केतु
 node_definition: Rahu is the selected ascending lunar node. Ketu is its antipode. Record mean or true node in the
   calculation result.
+dignity_label_table: vedic/dignity/sign-dignities.yaml
+relationship_table: vedic/dignity/relationships.yaml

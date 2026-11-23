@@ -1,0 +1,13 @@
+version: 1
+approval: draft
+profile: parashari-strength-v1
+natural_source: Read graha.natural_friendships in the target's vedic/planets entry. Use its directed relationship to the classical owner of the occupied sign.
+distance: One plus (owner D1 sign index minus target D1 sign index) modulo twelve.
+temporary_friends: [2, 3, 4, 10, 11, 12]
+temporary_enemies: [1, 5, 6, 7, 8, 9]
+matrix:
+  friend: {friend: adhi-mitra, enemy: sama}
+  neutral: {friend: mitra, enemy: shatru}
+  enemy: {friend: sama, enemy: adhi-shatru}
+award_order: [adhi-shatru, shatru, sama, mitra, adhi-mitra]
+unknown_if: Target or owner position or directed relation is missing. Node dignity is unassigned.

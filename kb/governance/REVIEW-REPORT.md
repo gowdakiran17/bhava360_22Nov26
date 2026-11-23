@@ -398,3 +398,7 @@ Run the full validator from the repository root with `python kb/governance/valid
 Zero reading rules, meanings or fact keys added. Seven profile declarations, one named variant, two parameter tables and one synthetic convention record added. Five draft Vimshottari rule notes now describe the Julian default. Two Julian reference paths supplement the four preserved paths. The four recommendations awaiting Kiran are in shared/conventions/DECISIONS.md.
 
 Convention sources are the supplied PRD v1.2 §8.4 and §8.4.5 requirements, STEP-04, Swiss Ephemeris API constants and rise/set calling conventions, IANA tzdb history for Asia/Kolkata, and the existing KB period and candidate-method tables. The source of the mean-node confirmation is the PRD. No book locator received a new verification status.
+
+## KB-33 strength review
+
+Added three draft rules, one component selector fact and one natural-benefic profile. Totals are 1,815 draft rules across ten systems, 402 fact keys and 661 glossary entries. Numerical evidence stays in the admin export. The published Raman worksheet awaits source verification.

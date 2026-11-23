@@ -33,3 +33,7 @@ Production release requires native Kannada/Hindi review, approval of rule interp
 ## KB-32 calculation conventions
 
 The 1,812 rules and 401 fact keys are unchanged. Seven referenced profiles and one named Ashtakavarga variant now have registry entries. Two parameter tables cover civil time and rise/set. One synthetic convention record identifies the effective ephemeris. Vimshottari has six reference timelines across three year lengths and four levels (24 nested intervals).
+
+## KB-33 strength coverage
+
+Three new draft house component entries bring coverage to 1,815 rules and 402 fact keys. Scenario S1 covers all 42 planetary components and twelve house totals. The published Raman matrix awaits a source worksheet.

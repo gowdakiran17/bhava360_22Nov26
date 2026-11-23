@@ -4,7 +4,7 @@ topic: panchang
 title: Sunrise-based day
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use the most recent apparent upper-limb sunrise with refraction at the selected city, including equality. Use the parameters in vedic/panchang/rise-set.yaml.
+rule: Use the most recent apparent upper-limb sunrise with refraction at the selected city, including equality. Use the parameters in vedic/panchang/rise-set.yaml and record the selected sunrise variant.
   Until the following local sunrise retain its local civil weekday, even after midnight.
 conditions:
   all:

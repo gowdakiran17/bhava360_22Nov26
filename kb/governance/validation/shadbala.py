@@ -40,12 +40,8 @@ def recompute(chart, tables, rules, signs):
     tri = tables['tribhaga']['day' if day else 'night'][int(3*elapsed)]
     cycle = tables['hora']['order']
     hourlord = cycle[(cycle.index(daylord)+int(12*elapsed)+(0 if day else 12))%7]
-    elongation = (lon['moon']-lon['sun'])%360
-    malefics = {'sun','mars','saturn'}
-    if not 0 < elongation <= 180:
-        malefics.add('moon')
-    if any(sign['mercury']==sign[g] for g in malefics):
-        malefics.add('mercury')
+    from bhava_bala import benefic, relationship
+    nature = {g:benefic(g,lon,tables['natural']) for g in GRAHAS}
     out = {g:{} for g in GRAHAS}
     for g,r in out.items():
         graha = rules['vedic.planets.'+g]['graha']
@@ -66,10 +62,11 @@ def recompute(chart, tables, rules, signs):
                 award = sap['own']
             else:
                 relations = graha['natural_friendships']
-                nat = int(owner in relations['friends'])-int(owner in relations['enemies'])
+                natural = 'friend' if owner in relations['friends'] else 'enemy' if owner in relations['enemies'] else 'neutral'
                 distance = (sign[owner]-sign[g])%12+1
-                temp = 1 if distance in sap['temporary_friends'] else -1
-                award = sap['relationship_awards'][2+nat+temp]
+                rel = tables['relationships']
+                label = relationship(rel,natural,distance)
+                award = sap['relationship_awards'][rel['award_order'].index(label)]
             r['saptavargaja'] += award
         parity = int(g in tables['ojayugma']['even'])
         r['ojayugma'] = tables['ojayugma']['award']*sum(sign_names.index(vargas[n])%2==parity for n in (1,9))
@@ -102,8 +99,8 @@ def recompute(chart, tables, rules, signs):
             midpoint = slow+((lon[g]-slow+180)%360-180)/2
             r['cheshta'] = arc(midpoint,fast)/3
         r['naisargika'] = (1+tables['naisargika']['ascending'].index(g))*60/7
-        r['drik'] = sum(aspect(tables['drik'],p,(lon[g]-lon[p])%360)*(-1 if p in malefics else 1)
-                        for p in GRAHAS if p!=g)/4
+        r['drik'] = sum(aspect(tables['drik'],p,(lon[g]-lon[p])%360)*(1 if nature[p] else -1)
+                        for p in GRAHAS if p!=g)/4 if all(nature[p] is not None for p in GRAHAS if p!=g) else None
     war = rules[tables['yuddha']['winner_rule']]['state']
     pairs = [(a,b) for a,b in combinations(war['eligible'],2) if arc(lon[a],lon[b])<war['maximum_exclusive_degrees']]
     for a,b in pairs:
@@ -118,7 +115,7 @@ def recompute(chart, tables, rules, signs):
     for g,r in out.items():
         r['kala'] = None if r['yuddha'] is None else sum(r[k] for k in tables['kala']['terms'])
         total = tables['totals']
-        r['totals'] = None if r['kala'] is None else sum(r[k] for k in total['terms'])
+        r['totals'] = None if any(r[k] is None for k in total['terms']) else sum(r[k] for k in total['terms'])
         r['rupas'] = None if r['totals'] is None else r['totals']/total['virupas_per_rupa']
         r['meets_minimum'] = None if r['rupas'] is None else r['rupas']>=total['minimum_rupas'][g]
         r['ishta'] = sqrt(r['uchcha']*r['cheshta'])
@@ -144,6 +141,23 @@ def validate_shadbala(rules,read,require):
         if 'calculation' in r:
             require(r['calculation']['access']==['admin','tester'],rid+' numeric visibility')
             require(r['conditions']=={'all':[dict(fact='strength.shadbala.selected_component',op='eq',value=rid[len(PREFIX):])]},rid+' selection')
+    tables['natural'] = read('vedic/planets/benefic-profile.yaml')
+    tables['relationships'] = read(tables['saptavargaja']['relationship_table'])
+    reference = read(ROOT+'worked-reference.yaml')
+    scenario = reference['scenario']
+    require(scenario['verification']=='unverified-pending-source' and scenario['synthetic']
+            and reference['published_raman']['expected_7_by_6'] is None,'benchmark provenance')
+    got = recompute(scenario['inputs'],tables,rules,read('vedic/signs/catalog.yaml')['signs'])
+    components = set(tables['totals']['terms'])
+    tolerance = scenario['absolute_tolerance_virupas']
+    require(set(scenario['expected'])==set(GRAHAS) and set(tolerance)==components
+            and all(0 < t <= 1e-6 for t in tolerance.values()),'benchmark shape')
+    for g,row in scenario['expected'].items():
+        require(set(row)==components,g+' six components')
+        for component,expected in row.items():
+            require(isclose(got[g][component],expected,rel_tol=0,abs_tol=tolerance[component]),
+                    f'S1 {g} {component}: {got[g][component]} vs {expected}')
+    print('S1 independent worksheet passed: 42 component values; published Raman comparison pending.')
     count = 0
     for name,f in cases['fixtures'].items():
         result = recompute(f['inputs'],tables,rules,read('vedic/signs/catalog.yaml')['signs'])

@@ -57,6 +57,10 @@ def validate_kp(rules, read, evaluate, require):
     groups = read('kp/cusps/event-groups.yaml')['events']
     require(set(groups)==set(range(1,13)) and groups[7]['houses']==[2,7,11]
             and groups[10]['houses']==groups[6]['houses']==[2,6,10,11], 'KP event groups')
+    failure = read('shared/conventions/profiles.yaml')['calculation_profiles']['kp-placidus-v1']['on_cusp_failure']
+    require('planet-sub-lords' in failure['retain'] and lookup(0)['sub_lord']=='ketu'
+            and set(failure['withhold'])=={'cuspal-sub-lords','house-significators','kp-prashna'}
+            and set(failure['note'])=={'en','kn','hi'},'polar failure preserves independent planetary rows')
     fixture = read('examples/kp-reference.yaml')
     require(fixture['synthetic'] and set(fixture['cases'])=={'Asha','Ravi'}, 'synthetic KP charts')
     division = read('kp/star-sub-lords/divisions.yaml')

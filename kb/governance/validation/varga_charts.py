@@ -52,7 +52,7 @@ def validate_vargas(rules, read, require):
         require(v['whole_sign_houses'] and all(f'vedic.houses.house-{h}' in rules for h in v['whole_sign_houses']), rid+' houses')
         require(rule['conditions']=={'all':[{'fact':f'varga.d{n}.verified_placement','op':'eq','value':True}]},rid+' placement gate')
         if n == 60:
-            require(m['read_access']=='held',rid+' held method')
+            require(m['read_access']=='stability-gated' and m['unverified_time_confidence_cap']=='low' and not m['user_deity_names'],rid+' held method')
         boundaries = m['degree_boundaries']
         require(set(m['sign_lookup'])==set(signs), rid+' lookup coverage')
         if n != 30:

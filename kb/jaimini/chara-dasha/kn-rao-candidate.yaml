@@ -15,5 +15,5 @@ duration: For an even-footed period sign count backward to its lord, otherwise f
   dual-lord selection explicit.
 antardashas: Divide major period into twelve. Start one sign forward for Aries, Leo, Virgo, Libra, Aquarius and Pisces; otherwise
   start one backward. Continue in the same direction and end with parent sign.
-review: Compare to the intended edition and confirm sign-lord variant. Owner selection pending.
+review: Compare to the intended edition and confirm sign-lord variant. Owner selected this variant. Retain its existing ID for reproducibility.
 dual_lord_profile: jaimini/lordship/dual-lords.yaml

@@ -28,7 +28,7 @@ vedic_sign_entries:
   fields: [element, modality, ruler, traditional_gender, nature, kalapurusha_body_parts, exaltation_peak_degrees, debilitation_peak_degrees, moolatrikona_sign_for, moolatrikona_degree_limits]
   dignity: Peak degrees are measured within this sign. Empty collections mean no assignment among the seven classical grahas. Moolatrikona sign membership alone cannot establish a degree-specific dignity.
   glossary: Movable, fixed and dual describe modes of expression. Krura and saumya are traditional forceful and gentle sign classes. Gender and body correspondences are symbolic.
-  degree_limits: Pairs give the degree boundaries in Phaladeepika I.7. Preserve exact exaltation peaks at shared boundaries; confirm endpoint precedence before emitting a single dignity label.
+  degree_limits: Pairs give the degree boundaries in Phaladeepika I.7. Preserve exact exaltation peaks at shared boundaries; use vedic/dignity/sign-dignities.yaml for single-label endpoint precedence.
 vedic_planet_entries:
   extension: graha
   fields: [karakatvas, nature, dignity, natural_friendships, directional_strength, symbolic_body_parts]

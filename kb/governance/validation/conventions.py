@@ -152,7 +152,37 @@ def validate_conventions(read, require, root):
             and moonrise_on(local.date(), zone, [tomorrow, midnight]) == midnight
             and moonrise_on(local.date(), zone, []) is None, 'moonrise civil date')
     require(profiles['doctrine_profiles']['bhava-chalit']['method'] == 'outside-mvp'
-            and len(set(profiles['open_decisions'])) == 4, 'optional methods')
+            and not profiles['open_decisions'] and len(profiles['owner_defaults']) == 4, 'optional methods')
+    defaults = profiles['owner_defaults']
+    require(defaults == {'kp-polar-fallback':'withhold-cusps','jaimini-karaka-scheme':'seven',
+                         'chara-dasha-variant':'pyjhora-kn-rao-candidate-v1','d60-method':'parashari-d60-v1'},
+            'KB-33 owner defaults')
+    kp = profiles['calculation_profiles']['kp-placidus-v1']
+    def signature(p):
+        return p['sidereal_mode'], p['node']['default'], p['houses']
+    require(signature(frame)==(1,'mean','whole-sign') and signature(kp)==(5,'true-node','placidus'),
+            'mixed Parashari or KP default frame')
+    def accepts_frame(p, record, node_override=None):
+        if node_override is not None and node_override != p['node'].get('alternative'):
+            return False
+        return record == (p['sidereal_mode'], node_override or p['node']['default'], p['houses'])
+    for p in (frame,kp):
+        expected = signature(p)
+        require(accepts_frame(p,expected),'consistent frame')
+        other = signature(kp if p is frame else frame)
+        for i in range(3):
+            mixed = list(expected)
+            mixed[i] = other[i]
+            require(not accepts_frame(p,tuple(mixed)), 'mixed frame must fail')
+    require(accepts_frame(frame,(1,'true-node','whole-sign'),'true-node')
+            and not accepts_frame(kp,(5,'mean','placidus'),'mean'),'explicit node alternatives')
+    require(kp['polar_fallback']=='unknown' and kp['on_cusp_failure']['withhold']==
+            ['cuspal-sub-lords','house-significators','kp-prashna'] and kp['on_cusp_failure']['retain']==
+            ['planet-star-lords','planet-sub-lords','independent-parashari'], 'KP polar scope')
+    variant = rise['sunrise_variants']['sunrise.traditional-disc-centre']
+    require(variant['rsmi']==1|256|512 and variant['refraction'] is False and variant['limb']=='centre'
+            and set(variant['flags'])=={'SE_CALC_RISE','SE_BIT_DISC_CENTER','SE_BIT_NO_REFRACTION'}
+            and rise['default_sunrise']==frame['sunrise'], 'separate solar event settings')
     for bad in (None, '', '../SCHEMA.yaml', 'unknown-v1'):
         try:
             profile_refs({'calculation': {'profile': bad}}, set(), root, 'negative fixture')

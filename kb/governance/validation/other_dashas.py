@@ -217,6 +217,8 @@ def validate_other_dashas(rules, read, evaluate, require):
     for name,chart in fixtures['charts'].items():
         for system,case in chart['reference'].items():
             cfg = read(ROOT+system+'/periods.yaml')
+            if system in ('yogini','narayana'):
+                require(cfg['default_year']=='mean-gregorian' and cfg['year_days']=={'mean-gregorian':365.2425,'savana':360},system+' independent clock')
             at = F(case['query_years_after_birth'])
             if system in ('yogini','ashtottari'):
                 path = lunar(system,cfg,chart,at)
@@ -226,7 +228,7 @@ def validate_other_dashas(rules, read, evaluate, require):
             else:
                 path = sign_path(system,cfg,chart,at)
             for clock,expected in case['dates'].items():
-                year = F(clocks[clock])*86400
+                year = F(str(cfg.get('year_days',clocks)[clock]))*86400
                 for row,ref in zip(path,expected,strict=True):
                     actual = [row[0],stamp(instant(chart['birth'])+row[1]*year),stamp(instant(chart['birth'])+row[2]*year)]
                     require(actual==ref,f'{name} {system} {clock}: {actual} vs {ref}')

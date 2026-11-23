@@ -11,3 +11,127 @@ sun_sthana_components:
   drekkana: 15
 expected_virupas: 198
 scope: This benchmark checks a position-strength subtotal. The full synthetic component worksheet for the library profile is examples/shadbala-reference.yaml.
+published_raman:
+  verification: unverified-pending-source
+  work: B.V. Raman, Graha and Bhava Balas
+  edition: null
+  locator: null
+  source_ayanamsa_and_inputs: null
+  expected_7_by_6: null
+  completion: Supply the edition, pages, component units, reference frame and anonymous calculation inputs before enabling a published comparison.
+scenario:
+  name: Scenario S1
+  verification: unverified-pending-source
+  synthetic: true
+  jd_ut: 2451545.0
+  observer_east_north_m:
+  - 15
+  - 12
+  - 0
+  profile: parashari-strength-v1
+  ayanamsa: SE_SIDM_LAHIRI
+  backend: SEFLG_MOSEPH
+  swiss_version: 2.10.03
+  generator: governance/validation/scenario_strength.py
+  inputs:
+    instant: 2451545.0
+    asc: 6.167739092330319
+    mc: 269.7414408512491
+    longitude:
+      sun: 256.51569718931427
+      moon: 199.47055295238047
+      mars: 304.11009083249115
+      mercury: 248.0360525214584
+      jupiter: 1.3998078233926976
+      venus: 217.7125758401396
+      saturn: 16.542416469972864
+      rahu: 101.18742357058703
+      ketu: 281.18742357058704
+    latitude:
+      sun: 0.00023232651417606507
+      moon: 5.1708154689961505
+      mars: -1.0677829482743426
+      mercury: -0.994825181869966
+      jupiter: -1.262172835521226
+      venus: 2.0663479908646116
+      saturn: -2.444822554619215
+      rahu: 0.0
+    declination:
+      sun: -23.03242536797977
+      moon: -10.900573957264728
+      mars: -13.18247632147186
+      mercury: -24.418897936224884
+      jupiter: 8.594257120073934
+      venus: -18.448921112982113
+      saturn: 12.614787314616933
+    mean:
+      sun: 256.6105698448371
+      mars: 331.6030353815934
+      mercury: 228.40020477548114
+      jupiter: 10.52252796956041
+      venus: 158.12689979210822
+      saturn: 26.1507122916988
+    sunrise_sunset_next:
+    - 2451544.7223746097
+    - 2451545.198854323
+    - 2451545.7226486495
+    solar_hour: 12.945245739072561
+    epoch_weekday: 6
+    completed_days: 0
+  absolute_tolerance_virupas:
+    sthana: 1.0e-06
+    dig: 1.0e-06
+    kala: 1.0e-06
+    cheshta: 1.0e-06
+    naisargika: 1.0e-06
+    drik: 1.0e-06
+  expected:
+    sun:
+      sthana: 171.17189906310477
+      dig: 55.59141877935506
+      kala: 157.46819151568457
+      cheshta: 1.2094682900252884
+      naisargika: 60.0
+      drik: -0.4520512832728021
+    moon:
+      sthana: 171.50981568253985
+      dig: 23.423629299622878
+      kala: 127.36699422092164
+      cheshta: 19.015048078977923
+      naisargika: 51.42857142857143
+      drik: -7.472768315836355
+    mars:
+      sthana: 262.96330305583626
+      dig: 48.54378333958598
+      kala: 59.233085214545056
+      cheshta: 20.41533108740172
+      naisargika: 17.142857142857142
+      drik: -10.745395829915338
+    mercury:
+      sthana: 137.32131582618055
+      dig: 20.622771143042694
+      kala: 139.0150480789779
+      cheshta: 7.974368802555527
+      naisargika: 25.714285714285715
+      drik: 1.6678598836911647
+    jupiter:
+      sthana: 263.7999359411309
+      dig: 58.4106895770208
+      kala: 175.03164078370753
+      cheshta: 36.45019935054649
+      naisargika: 34.285714285714285
+      drik: -25.51666681318049
+    venus:
+      sthana: 183.57085861337987
+      dig: 17.342955003703157
+      kala: 81.22766799238748
+      cheshta: 26.344891016793373
+      naisargika: 42.857142857142854
+      drik: -3.6143234506797377
+    saturn:
+      sthana: 138.15252784334237
+      dig: 3.458225792547515
+      kala: 149.9426964731137
+      cheshta: 41.57866484533292
+      naisargika: 8.571428571428571
+      drik: -30.399862750641944

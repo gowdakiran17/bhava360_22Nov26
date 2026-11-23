@@ -16,4 +16,7 @@ admin_note: Use this label for a traditional measure of the support a house rece
 aliases: []
 reference_rules: []
 used_by:
+- vedic.strength-bhava-bala.bhava-dig
+- vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-bhava-bala.house-support

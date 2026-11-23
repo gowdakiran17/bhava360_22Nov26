@@ -521,6 +521,8 @@ def main():
     validate_glossary(rules,read,require,ROOT)
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
+    from bhava_bala import validate_bhava
+    validate_bhava(read, require)
     from muhurta import validate_muhurta
     validate_muhurta(rules,read,evaluate,require)
     from prashna import validate_prashna

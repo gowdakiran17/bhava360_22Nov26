@@ -32,4 +32,7 @@ grahas:
 - venus
 - rahu
 star_width_arcseconds: 48000
-clock: vedic/dashas/vimshottari/periods.yaml
+clock: system-specific
+default_year: mean-gregorian
+year_days: {mean-gregorian: 365.2425, savana: 360}
+clock_reason: Preserve this system’s dated references independently of the Vimshottari default.
