@@ -1,0 +1,44 @@
+id: vedic.dashas-yogini.balance-calculation
+system: vedic
+topic: dashas/yogini
+title: Yogini · birth balance
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Number the 27 equal lunar mansions from Ashwini = 1. Add three to the natal Moon’s mansion number and take
+  the remainder modulo eight, reading zero as the eighth Yogini. The fraction elapsed is the arc traversed in
+  that mansion divided by 48000 arcseconds. Subtract that fraction of the first lord’s full years from birth
+  to obtain the true start. Advance by the remaining fraction to obtain the end. Repeat the eight periods in
+  sequence. Each parent opens with its own Yogini and divides among all eight by child years / 36.
+conditions:
+  all:
+  - fact: dasha.yogini.balance_calculation
+    op: eq
+    value: true
+meaning: Use this lunar timing method when Yogini is selected and the birth Moon and clock are stable. Read the
+  Yogini’s planetary representative through the natal house and its ruled topics.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use one fixed year length from the KB-14 clock throughout each tree. The draft default is 365.2425 days
+    and the savana variant is 360. Use exact UTC offsets from the full parent start and half-open boundaries.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 46
+  verse: 195–200
+  other_locator: null
+  supports: Names, planetary representatives, starting index and lengths. The library uses an angular birth balance.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: The birth Moon may show how much of the opening Yogini period is still ahead.
+  kn: ಜನನಕಾಲದ ಚಂದ್ರನ ಸ್ಥಾನವು ಮೊದಲ ಯೋಗಿನಿ ದಶೆಯಲ್ಲಿ ಎಷ್ಟು ಅವಧಿ ಉಳಿದಿದೆ ಎಂಬುದನ್ನು ತಿಳಿಯಲು ನೆರವಾಗಬಹುದು.
+  hi: जन्म के समय चंद्रमा की स्थिति से समझ सकते हैं कि पहली योगिनी दशा का कितना भाग शेष है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

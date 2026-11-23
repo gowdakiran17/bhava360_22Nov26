@@ -10,6 +10,26 @@ sequence:
   Siddha: 7
   Sankata: 8
 cycle_years: 36
-start: 'Candidate convention: add three to the one-based birth nakshatra number and take modulo eight, treating zero as eight.
-  Remaining fraction comes from untraversed lunar arc.'
+start: 'Candidate convention: add three to the one-based birth nakshatra number and take modulo eight, treating
+  zero as eight. Remaining fraction comes from untraversed lunar arc.'
 subperiod: Rotate from the parent yogini and allocate duration in proportion to years / 36.
+lord_order:
+- Mangala
+- Pingala
+- Dhanya
+- Bhramari
+- Bhadrika
+- Ulka
+- Siddha
+- Sankata
+grahas:
+- moon
+- sun
+- jupiter
+- mars
+- mercury
+- saturn
+- venus
+- rahu
+star_width_arcseconds: 48000
+clock: vedic/dashas/vimshottari/periods.yaml

@@ -1,0 +1,44 @@
+id: vedic.dashas-sandhi.junction
+system: vedic
+topic: dashas/sandhi
+title: Dasha sandhi · junction
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For neighbouring dated periods of the same profile and level, accept the junction only when the outgoing
+  end equals the incoming start. Its duration is zero. At that instant the incoming period owns the reading.
+  A display range [a,b) contains the junction if a ≤ boundary < b. Preserve both lords as context. If birth-time
+  uncertainty spans the boundary, describe the transition and withhold a unique active lord. A child turnover
+  uses its own parent subdivision.
+conditions:
+  all:
+  - fact: dasha.sandhi.junction
+    op: eq
+    value: true
+meaning: Use at an actual period change, including subperiod changes. Derive its life area from the houses of
+  the two bound periods.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some readers describe a broader transitional phase. This editorial boundary has no fixed lead or lag.
+    A junction is not an independent period with a lord or children.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: §§16.2–3
+  supports: Adjacent dated periods and subdivisions. Exact-instant junction handling is the KB convention.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: As one period gives way to another, you can review which commitments still feel relevant.
+  kn: ಒಂದು ದಶೆಯಿಂದ ಮತ್ತೊಂದಕ್ಕೆ ಸಾಗುವಾಗ ಯಾವ ಬದ್ಧತೆಗಳು ಇನ್ನೂ ಸೂಕ್ತವೆನಿಸುತ್ತವೆ ಎಂದು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: एक दशा से दूसरी में जाते समय आप देख सकते हैं कि कौन सी प्रतिबद्धताएँ अब भी प्रासंगिक हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

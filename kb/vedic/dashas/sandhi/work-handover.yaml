@@ -1,0 +1,44 @@
+id: vedic.dashas-sandhi.work-handover
+system: vedic
+topic: dashas/sandhi
+title: Sandhi · career
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read this topic when the exact junction is in the selected display range and the incoming and outgoing
+  periods both have stable, independently supported work-house evidence.
+conditions:
+  all:
+  - fact: dasha.sandhi.junction
+    op: eq
+    value: true
+  - fact: dasha.sandhi.work_handover
+    op: eq
+    value: true
+meaning: As work priorities change, you can make space to finish a responsibility or hand it over.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some readers describe a broader transitional phase. This editorial boundary has no fixed lead or lag.
+    A junction is not an independent period with a lord or children.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: §§16.2–3
+  supports: Adjacent dated periods and subdivisions. Exact-instant junction handling is the KB convention.
+  verification: verified
+confidence: medium
+review_notes: Editorial topic application of the dated rule. Native-language review pending.
+user_text:
+  en: As work priorities change, you can make space to finish a responsibility or hand it over.
+  kn: ಕೆಲಸದ ಆದ್ಯತೆಗಳು ಬದಲಾಗುವಾಗ ಹೊಣೆಯನ್ನು ಪೂರ್ಣಗೊಳಿಸಲು ಅಥವಾ ಹಸ್ತಾಂತರಿಸಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+  hi: काम की प्राथमिकताएँ बदलें तो आप कोई ज़िम्मेदारी पूरी करने या सौंपने के लिए समय रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

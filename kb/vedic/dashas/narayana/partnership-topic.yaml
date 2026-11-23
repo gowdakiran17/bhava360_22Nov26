@@ -1,0 +1,61 @@
+id: vedic.dashas-narayana.partnership-topic
+system: vedic
+topic: dashas/narayana
+title: Narayana · love-marriage
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read this topic when the progressed Lagna is the natal seventh house and the bound seventh-house evidence
+  concerns partnership.
+conditions:
+  all:
+  - fact: dasha.narayana.progression
+    op: eq
+    value: true
+  - fact: dasha.narayana.partnership_topic
+    op: eq
+    value: true
+meaning: You may find it useful to revisit how you share responsibilities with a partner.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Strength tie-breaks, node dignity and sign progression vary across lineages. The KB uses classical dignity
+    for the seven grahas and no nodal dignity increment. Keep the sign seed distinct from the sign occupied by
+    its ruler.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 18
+  verse: null
+  other_locator: §§18.2–4 and Table 40
+  supports: Seed, ordering, duration, second pass and Antar.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 15
+  verse: null
+  other_locator: Strength of planets and signs
+  supports: Strength comparisons for co-lords and signs.
+  verification: verified
+- book: Narayana Dasa
+  work_id: rath-narayana
+  edition: rath-narayana-pdf
+  chapter: null
+  verse: null
+  other_locator: Movable Sign (Lagna), Chart 6 and commentary on Jaimini 2.4.8–10
+  supports: Rath labels the regular movable progression Chara and distinguishes fixed and dual progressions.
+  verification: verified
+confidence: medium
+review_notes: Editorial topic application of the dated rule. Native-language review pending.
+user_text:
+  en: You may find it useful to revisit how you share responsibilities with a partner.
+  kn: ಸಂಗಾತಿಯೊಂದಿಗೆ ಹೊಣೆಗಳನ್ನು ಹೇಗೆ ಹಂಚಿಕೊಳ್ಳುತ್ತೀರಿ ಎಂಬುದನ್ನು ಮತ್ತೆ ಗಮನಿಸಬಹುದು.
+  hi: आप साथी के साथ ज़िम्मेदारियाँ बाँटने के तरीके पर फिर से विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

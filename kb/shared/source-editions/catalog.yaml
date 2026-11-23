@@ -1,5 +1,7 @@
 version: 1
 works:
+  rath-narayana: Narayana Dasa
+  pyjhora-chara: PyJHora Chara calculations
   rao-integrated: Vedic Astrology, An Integrated Approach
   maitreya-shadbala: Maitreya Shadbala documentation
   pyjhora-vargas: PyJHora divisional chart methods and weights
@@ -44,6 +46,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  rath-narayana-pdf:
+    work_id: rath-narayana
+    edition_id: rath-narayana-pdf
+    title_as_printed: Narayana Dasa
+    language: English
+    publication_details: Sanjay Rath, 194-page PDF, movable-sign section and Chart 6.
+    text: https://storage.yandexcloud.net/j108/library/6fhh7uus/Sanjay_Rath_-_Narayana_Dasa.pdf
+    verified_by: Inspected the author's commentary on Jaimini 2.4.8–10 and movable-sign chart heading.
+  pyjhora-chara-pinned:
+    work_id: pyjhora-chara
+    edition_id: pyjhora-chara-pinned
+    title_as_printed: PyJHora Chara calculations
+    language: Python
+    publication_details: PyJHora revision f8c6de2f54338752bdb667384a8b0ca5791c5bdf, chara.py.
+    text: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/dhasa/raasi/chara.py
+    verified_by: Compared the three method-specific functions to the existing Jaimini candidate.
   bphs-dasha-web:
     work_id: bphs
     edition_id: bphs-dasha-web

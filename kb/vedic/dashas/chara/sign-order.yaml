@@ -1,0 +1,55 @@
+id: vedic.dashas-chara.sign-order
+system: vedic
+topic: dashas/chara
+title: Chara · Jaimini sign order
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'Start the K.N. Rao implementation at the natal Lagna at birth. Count to the ninth sign inclusively. If
+  it is Cancer, Leo, Virgo, Capricorn, Aquarius or Pisces, step backward through all twelve major signs; otherwise
+  step forward. For duration, use the period sign’s own foot group: count directed steps to its resolved ruler,
+  with zero steps worth twelve years. Add one for exaltation or subtract one for debilitation. Use classical
+  dignity for the seven grahas; leave nodes unadjusted in this profile. Skip a zero duration. Divide a full Maha
+  equally among twelve Antars. Start one sign ahead for Aries, Leo, Virgo, Libra, Aquarius or Pisces and one
+  behind for the others. Continue in that direction and end with the parent.'
+conditions:
+  all:
+  - fact: dasha.chara.sign_order
+    op: eq
+    value: true
+meaning: Use to explore the natal houses and Jaimini sign aspects activated by a sign period when the Lagna and
+  school are stable.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: K.N. Rao here means the pinned implementation, with Lagna as seed. In Sanjay Rath’s Narayana Dasa commentary
+    on Jaimini 2.4.8–10 the regular movable progression is called Chara. His sign-strength seed and modality-based
+    progression belong to that separate profile.
+sources:
+- book: PyJHora Chara calculations
+  work_id: pyjhora-chara
+  edition: pyjhora-chara-pinned
+  chapter: null
+  verse: null
+  other_locator: _dhasa_progression_knrao_method, _dhasa_duration_knrao_method, _antardhasa_order_knrao
+  supports: Numerical K.N. Rao profile as implemented at the pinned revision.
+  verification: verified
+- book: Narayana Dasa
+  work_id: rath-narayana
+  edition: rath-narayana-pdf
+  chapter: null
+  verse: null
+  other_locator: Movable Sign (Lagna), Chart 6 and commentary on Jaimini 2.4.8–10
+  supports: Rath labels the regular movable progression Chara and distinguishes fixed and dual progressions.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: You can consider which part of life the active sign brings into focus.
+  kn: ಸಕ್ರಿಯ ರಾಶಿಯು ಜೀವನದ ಯಾವ ಭಾಗವನ್ನು ಗಮನಕ್ಕೆ ತರುತ್ತದೆ ಎಂದು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि सक्रिय राशि जीवन के किस पहलू पर ध्यान दिलाती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

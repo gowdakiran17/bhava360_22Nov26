@@ -1,0 +1,54 @@
+id: vedic.dashas-ashtottari.conditional-cycle
+system: vedic
+topic: dashas/ashtottari
+title: Ashtottari · eligibility and timing
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'Default: require Rahu outside the natal Lagna and in an angular or trinal whole sign counted from the
+  natal Lagna lord’s occupied sign. When eligible, take the Moon’s sidereal longitude in arcminutes modulo 21600.
+  Add 21600 if below 4000. Locate it in the half-open edges in periods.yaml. Back-project the fraction traversed
+  of the entire multi-star arc times its lord’s full years. Cycle through eight lords. Each Antar starts with
+  the successor of the Maha lord and ends with the Maha lord. Allocate parent duration × child years / 108.'
+conditions:
+  all:
+  - fact: dasha.ashtottari.conditional_cycle
+    op: eq
+    value: true
+meaning: Use as a conditional second reading. Unknown eligibility withholds its dates. Read an eligible interval
+  through the natal lord’s topics.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Separate traditions use a waning-fortnight daytime birth or waxing-fortnight nighttime birth, or use
+    the system universally. Select a gate explicitly. Rao Table 39 uses continuous arcs, including the shortened
+    Saturn group around Abhijit.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 17
+  verse: null
+  other_locator: Table 39 and §§17.2.1–3
+  supports: Angular ranges, all periods, successor-first Antar and alternative applicability rules.
+  verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 46
+  verse: 17–20
+  other_locator: null
+  supports: Conditional eight-lord system.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: When the chart meets this method’s conditions, you can compare its timing with a theme already visible
+    in the chart.
+  kn: ಕುಂಡಲಿಯು ಈ ವಿಧಾನದ ಷರತ್ತುಗಳನ್ನು ಪೂರೈಸಿದಾಗ ಅದರ ಕಾಲಸೂಚನೆಯನ್ನು ಕುಂಡಲಿಯಲ್ಲಿ ಕಾಣುವ ವಿಷಯದೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+  hi: कुंडली इस विधि की शर्तें पूरी करे तो आप इसके समय को कुंडली में दिख रहे किसी विषय से मिलाकर देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,64 @@
+id: vedic.dashas-narayana.progression
+system: vedic
+topic: dashas/narayana
+title: Narayana · progressed sign
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At birth begin with the stronger of Lagna and its seventh, using the strength comparison in periods.yaml.
+  Use the ninth from that seed to select direction as in Chara. Traverse the seed-modality offsets in that direction.
+  Saturn in the seed gives ordinary forward succession; otherwise Ketu in the seed reverses the normal direction.
+  Compute first-cycle lengths by directed lord distance and dignity as in Chara. Cap a first-pass length at twelve for this complementary profile. In the second pass the same
+  sign receives twelve minus its first length. Skip zero spans. For Antar take the stronger of the parent sign
+  and its seventh. Start in the sign occupied by its lord. Count forward from an odd start, backward from an
+  even start. Saturn in the stronger sign forces forward; otherwise Ketu there reverses direction. Each child
+  takes one twelfth.
+conditions:
+  all:
+  - fact: dasha.narayana.progression
+    op: eq
+    value: true
+meaning: Use this sign-based period for a stable D1 chart to examine shifts in house emphasis. If the seventh
+  supplied the seed, read the sign opposite the dated sign as the progressed Lagna.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Strength tie-breaks, node dignity and sign progression vary across lineages. The KB uses classical dignity
+    for the seven grahas and no nodal dignity increment. Keep the sign seed distinct from the sign occupied by
+    its ruler.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 18
+  verse: null
+  other_locator: §§18.2–4 and Table 40
+  supports: Seed, ordering, duration, second pass and Antar.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 15
+  verse: null
+  other_locator: Strength of planets and signs
+  supports: Strength comparisons for co-lords and signs.
+  verification: verified
+- book: Narayana Dasa
+  work_id: rath-narayana
+  edition: rath-narayana-pdf
+  chapter: null
+  verse: null
+  other_locator: Movable Sign (Lagna), Chart 6 and commentary on Jaimini 2.4.8–10
+  supports: Rath labels the regular movable progression Chara and distinguishes fixed and dual progressions.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: A change of sign period may help you look at familiar responsibilities from another position.
+  kn: ರಾಶಿ ದಶೆ ಬದಲಾಗುವಾಗ ಪರಿಚಿತ ಹೊಣೆಗಳನ್ನು ಇನ್ನೊಂದು ನೆಲೆಯಿಂದ ಗಮನಿಸಬಹುದು.
+  hi: राशि दशा बदलने पर आप परिचित ज़िम्मेदारियों को दूसरे दृष्टिकोण से देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

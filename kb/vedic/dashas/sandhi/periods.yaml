@@ -1,0 +1,8 @@
+version: 1
+approval: draft
+clock: vedic/dashas/vimshottari/periods.yaml
+mode: adjacent-interval-boundary
+duration_seconds: 0
+ownership: incoming
+bounds: '[start,end)'
+levels: Apply separately to adjacent siblings in a single system and clock, at Maha or subperiod level.

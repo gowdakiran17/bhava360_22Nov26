@@ -1,0 +1,49 @@
+id: vedic.dashas-kalachakra.pada-wheel
+system: vedic
+topic: dashas/kalachakra
+title: Kalachakra · advanced admin timing
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Select the birth Moon’s star group and pada using the half-open angular intervals in periods.yaml. Multiply
+  its traversed pada fraction by the sum of the nine listed sign years. Walk that row cumulatively to find the
+  running sign and time already elapsed in it. Back-project its full start. Continue through the ordered sign
+  occurrences. After a row move to the next pada; after pada four move to pada one of the other subgroup in the
+  same direction family. For an Antar take nine consecutive sign occurrences beginning at the parent occurrence,
+  crossing rows as needed. Divide the parent duration in proportion to their individual years over their actual
+  sum.
+conditions:
+  all:
+  - fact: dasha.kalachakra.pada_wheel
+    op: eq
+    value: true
+  - fact: dasha.access.admin
+    op: eq
+    value: true
+meaning: Use for advanced admin comparison only when the Moon’s pada is stable. Keep the row and occurrence index
+  because a sign can repeat.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This pada-based wheel follows Rao’s row continuation. Alternative traversal and birth-balance conventions
+    must be named separately. Row totals describe the wheel and carry no personal lifespan claim.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 24
+  verse: null
+  other_locator: §24.2, Tables 42–48
+  supports: Groups, pada sequences, proportional balance, sign lengths and Antars.
+  verification: verified
+confidence: medium
+review_notes: Compare only intervals calculated under the same selected clock. Native-language review pending.
+user_text:
+  en: An administrator can compare this period with the themes shown elsewhere in the chart.
+  kn: ನಿರ್ವಾಹಕರು ಈ ಅವಧಿಯನ್ನು ಕುಂಡಲಿಯ ಇತರ ಸೂಚನೆಗಳೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+  hi: प्रशासक इस अवधि की तुलना कुंडली में दिखने वाले दूसरे संकेतों से कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

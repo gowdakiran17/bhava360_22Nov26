@@ -1,0 +1,227 @@
+synthetic: true
+units: Invented sidereal D1 signs indexed from Aries = 0. Expected UTC dates are independent worksheet values
+  rounded once to nearest microsecond.
+charts:
+  Asha:
+    birth: '1992-03-12T05:40:00+05:30'
+    lagna: 0
+    moon_arcseconds: 360000
+    positions:
+      sun: 0
+      moon: 3
+      mars: 4
+      mercury: 2
+      jupiter: 9
+      venus: 0
+      saturn: 5
+      rahu: 7
+      ketu: 1
+    degree_in_sign:
+      sun: 4
+      moon: 10.0
+      mars: 13
+      mercury: 15
+      jupiter: 18
+      venus: 20
+      saturn: 23
+      rahu: 21
+      ketu: 21
+    reference:
+      yogini:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - Dhanya
+            - '1990-09-11T03:26:12Z'
+            - '1993-09-10T20:53:48Z'
+          - - Siddha
+            - '1992-03-12T00:10:00Z'
+            - '1992-10-11T01:33:42Z'
+          savana:
+          - - Dhanya
+            - '1990-09-19T00:10:00Z'
+            - '1993-09-03T00:10:00Z'
+          - - Siddha
+            - '1992-03-12T00:10:00Z'
+            - '1992-10-08T00:10:00Z'
+      ashtottari:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - sun
+            - '1988-06-11T08:20:30Z'
+            - '1994-06-11T19:15:42Z'
+          - - jupiter
+            - '1991-03-22T21:50:30Z'
+            - '1992-04-11T10:39:06Z'
+          savana:
+          - - sun
+            - '1988-07-01T00:10:00Z'
+            - '1994-05-31T00:10:00Z'
+          - - jupiter
+            - '1991-03-28T00:10:00Z'
+            - '1992-04-11T00:10:00Z'
+      chara:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - aries
+            - '1992-03-12T00:10:00Z'
+            - '1996-03-11T23:26:48Z'
+          - - taurus
+            - '1992-03-12T00:10:00Z'
+            - '1992-07-11T18:06:24Z'
+          savana:
+          - - aries
+            - '1992-03-12T00:10:00Z'
+            - '1996-02-20T00:10:00Z'
+          - - taurus
+            - '1992-03-12T00:10:00Z'
+            - '1992-07-10T00:10:00Z'
+      narayana:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - aries
+            - '1992-03-12T00:10:00Z'
+            - '1996-03-11T23:26:48Z'
+          - - leo
+            - '1992-03-12T00:10:00Z'
+            - '1992-07-11T18:06:24Z'
+          savana:
+          - - aries
+            - '1992-03-12T00:10:00Z'
+            - '1996-02-20T00:10:00Z'
+          - - leo
+            - '1992-03-12T00:10:00Z'
+            - '1992-07-10T00:10:00Z'
+      kalachakra:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - libra
+            - '1992-03-12T00:10:00Z'
+            - '2008-03-11T21:17:12Z'
+          - - libra
+            - '1992-03-12T00:10:00Z'
+            - '1995-04-12T12:54:45.686747Z'
+          savana:
+          - - libra
+            - '1992-03-12T00:10:00Z'
+            - '2007-12-19T00:10:00Z'
+          - - libra
+            - '1992-03-12T00:10:00Z'
+            - '1995-03-27T08:50:28.915663Z'
+  Ravi:
+    birth: '2000-02-29T00:00:00+00:00'
+    lagna: 1
+    moon_arcseconds: 48000
+    positions:
+      sun: 7
+      moon: 0
+      mars: 4
+      mercury: 7
+      jupiter: 4
+      venus: 2
+      saturn: 4
+      rahu: 5
+      ketu: 11
+    degree_in_sign:
+      sun: 4
+      moon: 13.333333333333334
+      mars: 13
+      mercury: 15
+      jupiter: 18
+      venus: 20
+      saturn: 23
+      rahu: 21
+      ketu: 21
+    reference:
+      yogini:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - Bhadrika
+            - '2000-02-29T00:00:00Z'
+            - '2005-02-28T05:06:00Z'
+          - - Bhadrika
+            - '2000-02-29T00:00:00Z'
+            - '2000-11-08T15:22:30Z'
+          savana:
+          - - Bhadrika
+            - '2000-02-29T00:00:00Z'
+            - '2005-02-02T00:00:00Z'
+          - - Bhadrika
+            - '2000-02-29T00:00:00Z'
+            - '2000-11-05T00:00:00Z'
+      ashtottari:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - rahu
+            - '1991-02-28T19:37:12Z'
+            - '2003-02-28T17:27:36Z'
+          - - jupiter
+            - '1999-09-19T16:04:48Z'
+            - '2001-10-29T17:42:00Z'
+          savana:
+          - - rahu
+            - '1991-04-17T00:00:00Z'
+            - '2003-02-13T00:00:00Z'
+          - - jupiter
+            - '1999-09-22T00:00:00Z'
+            - '2001-10-21T00:00:00Z'
+      chara:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - taurus
+            - '2000-02-29T00:00:00Z'
+            - '2001-02-28T05:49:12Z'
+          - - aries
+            - '2000-02-29T00:00:00Z'
+            - '2000-03-30T10:29:06Z'
+          savana:
+          - - taurus
+            - '2000-02-29T00:00:00Z'
+            - '2001-02-23T00:00:00Z'
+          - - aries
+            - '2000-02-29T00:00:00Z'
+            - '2000-03-30T00:00:00Z'
+      narayana:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2009-02-28T04:22:48Z'
+          - - leo
+            - '2000-02-29T00:00:00Z'
+            - '2000-11-28T22:21:54Z'
+          savana:
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2009-01-12T00:00:00Z'
+          - - leo
+            - '2000-02-29T00:00:00Z'
+            - '2000-11-25T00:00:00Z'
+      kalachakra:
+        query_years_after_birth: '0'
+        dates:
+          mean-gregorian:
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2007-02-28T16:44:24Z'
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2000-08-25T23:15:06.480000Z'
+          savana:
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2007-01-23T00:00:00Z'
+          - - scorpio
+            - '2000-02-29T00:00:00Z'
+            - '2000-08-23T09:36:00Z'
+sandhi_utc:
+  mean-gregorian: '1993-09-10T20:53:48Z'
+  savana: '1993-09-03T00:10:00Z'

@@ -1,0 +1,43 @@
+id: vedic.dashas-yogini.work-topic
+system: vedic
+topic: dashas/yogini
+title: Yogini · career
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read this topic when the graha representing the active Yogini occupies or owns the natal tenth house.
+conditions:
+  all:
+  - fact: dasha.yogini.balance_calculation
+    op: eq
+    value: true
+  - fact: dasha.yogini.work_topic
+    op: eq
+    value: true
+meaning: Work already under way may deserve another look during this period.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use one fixed year length from the KB-14 clock throughout each tree. The draft default is 365.2425 days
+    and the savana variant is 360. Use exact UTC offsets from the full parent start and half-open boundaries.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-dasha-web
+  chapter: 46
+  verse: 195–200
+  other_locator: null
+  supports: Names, planetary representatives, starting index and lengths. The library uses an angular birth balance.
+  verification: verified
+confidence: medium
+review_notes: Editorial topic application of the dated rule. Native-language review pending.
+user_text:
+  en: Work already under way may deserve another look during this period.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಈಗಾಗಲೇ ನಡೆಯುತ್ತಿರುವ ಕೆಲಸವನ್ನು ಮತ್ತೆ ಗಮನಿಸಬಹುದು.
+  hi: इस अवधि में चल रहे काम को फिर से देखना उपयोगी हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

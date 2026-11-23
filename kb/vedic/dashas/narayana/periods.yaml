@@ -1,0 +1,62 @@
+version: 1
+approval: draft
+clock: vedic/dashas/vimshottari/periods.yaml
+even_footed:
+- cancer
+- leo
+- virgo
+- capricorn
+- aquarius
+- pisces
+normal_offsets:
+  movable:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 11
+  fixed:
+  - 0
+  - 5
+  - 10
+  - 3
+  - 8
+  - 1
+  - 6
+  - 11
+  - 4
+  - 9
+  - 2
+  - 7
+  dual:
+  - 0
+  - 4
+  - 8
+  - 9
+  - 1
+  - 5
+  - 6
+  - 10
+  - 2
+  - 3
+  - 7
+  - 11
+sign_strength: 'Compare, lexicographically: graha count, count of Jupiter/Mercury/lord occupying or giving rashi
+  drishti (count roles separately), presence of exaltation, lord occupying opposite parity, modality (dual >
+  fixed > movable), then within-sign advancement of lord (reverse for nodes). On an unresolved tie withhold selection.'
+dual_lords: Scorpio uses Mars/Ketu and Aquarius Saturn/Rahu. If just one occupies the owned sign use the other.
+  If both occupy it use the classical ruler. Otherwise compare companion count, support from Jupiter/Mercury/classical
+  dispositor by occupation or rashi drishti, exaltation, modality, then longer candidate duration. Withhold unresolved
+  ties. Use the classical dispositor for this comparison to avoid recursion.
+simultaneous_exceptions: Saturn precedence when both Saturn and Ketu occupy the seed (KB choice).
+clock_policy: Use one fixed year length from the KB-14 clock throughout each tree. The draft default is 365.2425
+  days and the savana variant is 360. Use exact UTC offsets from the full parent start and half-open boundaries.
+first_pass_max_years: 12
+complement_convention: Cap the first pass at twelve before computing its complement. This handles a ruler simultaneously in its own and exaltation sign.

@@ -1,0 +1,47 @@
+id: vedic.dashas-kalachakra.study-topic
+system: vedic
+topic: dashas/kalachakra
+title: Kalachakra · learning
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read this topic when an admin has selected a verified pada row whose dated sign is the natal fifth house
+  and the natal reading supports study.
+conditions:
+  all:
+  - fact: dasha.kalachakra.pada_wheel
+    op: eq
+    value: true
+  - fact: dasha.access.admin
+    op: eq
+    value: true
+  - fact: dasha.kalachakra.study_topic
+    op: eq
+    value: true
+meaning: The reviewer can compare the dated sign with the chart’s learning themes.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This pada-based wheel follows Rao’s row continuation. Alternative traversal and birth-balance conventions
+    must be named separately. Row totals describe the wheel and carry no personal lifespan claim.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 24
+  verse: null
+  other_locator: §24.2, Tables 42–48
+  supports: Groups, pada sequences, proportional balance, sign lengths and Antars.
+  verification: verified
+confidence: medium
+review_notes: Editorial topic application of the dated rule. Native-language review pending.
+user_text:
+  en: The reviewer can compare the dated sign with the chart’s learning themes.
+  kn: ಪರಿಶೀಲಕರು ಈ ಅವಧಿಯ ರಾಶಿಯನ್ನು ಕುಂಡಲಿಯ ಕಲಿಕೆಯ ವಿಷಯಗಳೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+  hi: समीक्षक इस अवधि की राशि की तुलना कुंडली में अध्ययन के संकेतों से कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

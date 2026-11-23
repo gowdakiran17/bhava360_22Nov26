@@ -1,0 +1,22 @@
+version: 1
+approval: draft
+clock: vedic/dashas/vimshottari/periods.yaml
+profile: pyjhora-kn-rao-candidate-v1
+jaimini_profile: jaimini/chara-dasha/kn-rao-candidate.yaml
+even_footed:
+- cancer
+- leo
+- virgo
+- capricorn
+- aquarius
+- pisces
+antar_forward:
+- aries
+- leo
+- virgo
+- libra
+- aquarius
+- pisces
+cycles: 1
+co_lords: Resolve using the explicit dual-lord ranking in vedic/dashas/narayana/periods.yaml. This is the KB
+  operational tie profile.

@@ -1,0 +1,41 @@
+version: 1
+approval: draft
+clock: vedic/dashas/vimshottari/periods.yaml
+order:
+- sun
+- moon
+- mars
+- mercury
+- saturn
+- jupiter
+- rahu
+- venus
+years:
+- 6
+- 15
+- 8
+- 17
+- 10
+- 19
+- 12
+- 21
+cycle_years: 108
+arc_edges_minutes:
+- 4000
+- 7200
+- 9600
+- 12800
+- 15200
+- 17600
+- 20000
+- 23200
+- 25600
+eligible_distances:
+- 1
+- 4
+- 5
+- 7
+- 9
+- 10
+default_gate: rahu-from-lagna-lord
+child_start: successor

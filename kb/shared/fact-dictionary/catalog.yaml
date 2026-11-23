@@ -17,6 +17,83 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  dasha.yogini.work_topic:
+    type: boolean
+    producer: vedic.dashas/yogini
+    origin: The graha representing the active Yogini occupies or owns the natal tenth house.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.ashtottari.learning_topic:
+    type: boolean
+    producer: vedic.dashas/ashtottari
+    origin: The eligibility gate is true and the dated lord occupies or owns the natal fifth or ninth house with
+      a supported learning theme.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.chara.home_topic:
+    type: boolean
+    producer: vedic.dashas/chara
+    origin: The dated sign is the fourth whole-sign house from the stable natal Lagna and the house reading supports
+      home matters.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.narayana.partnership_topic:
+    type: boolean
+    producer: vedic.dashas/narayana
+    origin: The progressed Lagna is the natal seventh house and the bound seventh-house evidence concerns partnership.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.kalachakra.study_topic:
+    type: boolean
+    producer: vedic.dashas/kalachakra
+    origin: An admin has selected a verified pada row whose dated sign is the natal fifth house and the natal reading
+      supports study.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.sandhi.work_handover:
+    type: boolean
+    producer: vedic.dashas/sandhi
+    origin: The exact junction is in the selected display range and the incoming and outgoing periods both have
+      stable, independently supported work-house evidence.
+    unknown_if: Timing, access or natal topic evidence unavailable.
+  dasha.yogini.balance_calculation:
+    type: boolean
+    producer: vedic.dashas/yogini
+    origin: Use this lunar timing method when Yogini is selected and the birth Moon and clock are stable. Read
+      the Yogini’s planetary representative through the natal house and its ruled topics. Bind to the named system,
+      profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved.
+  dasha.ashtottari.conditional_cycle:
+    type: boolean
+    producer: vedic.dashas/ashtottari
+    origin: Use as a conditional second reading. Unknown eligibility withholds its dates. Read an eligible interval
+      through the natal lord’s topics. Bind to the named system, profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved.
+  dasha.chara.sign_order:
+    type: boolean
+    producer: vedic.dashas/chara
+    origin: Use to explore the natal houses and Jaimini sign aspects activated by a sign period when the Lagna
+      and school are stable. Bind to the named system, profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved.
+  dasha.narayana.progression:
+    type: boolean
+    producer: vedic.dashas/narayana
+    origin: Use this sign-based period for a stable D1 chart to examine shifts in house emphasis. If the seventh
+      supplied the seed, read the sign opposite the dated sign as the progressed Lagna. Bind to the named system,
+      profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved.
+  dasha.kalachakra.pada_wheel:
+    type: boolean
+    producer: vedic.dashas/kalachakra
+    origin: Use for advanced admin comparison only when the Moon’s pada is stable. Keep the row and occurrence
+      index because a sign can repeat. Bind to the named system, profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved. Admin access required.
+  dasha.sandhi.junction:
+    type: boolean
+    producer: vedic.dashas/sandhi
+    origin: Use at an actual period change, including subperiod changes. Derive its life area from the houses of
+      the two bound periods. Bind to the named system, profile, verified inputs and dated interval.
+    unknown_if: Required evidence or profile is unresolved.
+  dasha.access.admin:
+    type: boolean
+    producer: access.role
+    origin: The current requesting role is admin.
+    unknown_if: Caller role has not been established.
   dasha.vimshottari.birth_balance_stable:
     type: boolean
     producer: vedic.dashas/vimshottari

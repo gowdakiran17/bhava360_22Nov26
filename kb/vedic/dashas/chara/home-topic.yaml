@@ -1,0 +1,53 @@
+id: vedic.dashas-chara.home-topic
+system: vedic
+topic: dashas/chara
+title: Chara · family-home
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read this topic when the dated sign is the fourth whole-sign house from the stable natal Lagna and the
+  house reading supports home matters.
+conditions:
+  all:
+  - fact: dasha.chara.sign_order
+    op: eq
+    value: true
+  - fact: dasha.chara.home_topic
+    op: eq
+    value: true
+meaning: You can consider what would make your home routine easier.
+life_areas:
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: K.N. Rao here means the pinned implementation, with Lagna as seed. In Sanjay Rath’s Narayana Dasa commentary
+    on Jaimini 2.4.8–10 the regular movable progression is called Chara. His sign-strength seed and modality-based
+    progression belong to that separate profile.
+sources:
+- book: PyJHora Chara calculations
+  work_id: pyjhora-chara
+  edition: pyjhora-chara-pinned
+  chapter: null
+  verse: null
+  other_locator: _dhasa_progression_knrao_method, _dhasa_duration_knrao_method, _antardhasa_order_knrao
+  supports: Numerical K.N. Rao profile as implemented at the pinned revision.
+  verification: verified
+- book: Narayana Dasa
+  work_id: rath-narayana
+  edition: rath-narayana-pdf
+  chapter: null
+  verse: null
+  other_locator: Movable Sign (Lagna), Chart 6 and commentary on Jaimini 2.4.8–10
+  supports: Rath labels the regular movable progression Chara and distinguishes fixed and dual progressions.
+  verification: verified
+confidence: medium
+review_notes: Editorial topic application of the dated rule. Native-language review pending.
+user_text:
+  en: You can consider what would make your home routine easier.
+  kn: ಮನೆಯ ದಿನಚರಿಯನ್ನು ಸುಲಭಗೊಳಿಸುವ ವಿಷಯಗಳನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप विचार कर सकते हैं कि घर की दिनचर्या को कैसे सहज बनाया जाए।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
