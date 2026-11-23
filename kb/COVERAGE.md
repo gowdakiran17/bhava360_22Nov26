@@ -37,3 +37,6 @@ The 1,812 rules and 401 fact keys are unchanged. Seven referenced profiles and o
 ## KB-33 strength coverage
 
 Three new draft house component entries bring coverage to 1,815 rules and 402 fact keys. Scenario S1 covers all 42 planetary components and twelve house totals. The published Raman matrix awaits a source worksheet.
+## KB-34 Western, numerology and strength
+
+Added nine draft rules and four fact keys. The KB now holds 1,824 reading rules across ten systems and 406 fact keys. Four Western house systems, six technique orb tables and all 81 directed Ank root comparisons have reference coverage. Lo Shu arrows and planes remain deferred.

@@ -147,7 +147,7 @@ def catalog_keys(read):
         (slug(n) + '-choghadiya' for n in read('vedic/panchang/day-night.yaml')['choghadiya_order']),
         (slug(n) + '-age-state' for n in read('vedic/states/baladi.yaml')['state']['state_meanings']),
         (slug(n) + '-vastu-guardian' for n in read('vastu/profile.yaml')['guardians'].values()),
-        read('western/aspects/orbs.yaml')['draft_natal_orbs'],
+        read('western/aspects/orbs.yaml')['natal'],
         (card + '-tarot' for card in read('tarot/draws/deck.yaml')['order']),
     ]
     return set(chain.from_iterable(configs))

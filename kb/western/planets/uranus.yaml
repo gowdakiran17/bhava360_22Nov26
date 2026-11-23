@@ -23,7 +23,7 @@ outer_planet:
   personal_use: A close contact can frame a question about where a familiar method leaves little room to experiment.
   orbs:
     profile: western/aspects/orbs.yaml
-    table: draft_natal_orbs
+    table: natal
     personal_aspects:
     - conjunction
     - sextile

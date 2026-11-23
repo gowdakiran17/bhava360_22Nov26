@@ -35,4 +35,8 @@ metrics:
 preserve_at_each_reduction: []
 convention: Chaldean assigns 1–8 to letters; root 9 is possible. Date cycles and the vowel/consonant split are Bhava360
   comparative extensions.
-letter_reference: https://namietamodi.com/numerology-alphabet-chart/
+letter_reference:
+  work_id: cheiro-s-book-of-numbers
+  edition: cheiro-numbers-herbert-jenkins
+  locator: Alphabet table assigning letters to numbers one through eight
+  verification: pending

@@ -5,3 +5,13 @@ method: In the Gregorian-year simplification sum the final two year digits to a 
   5 with 2 or 8 respectively.
 limits: Use only with volunteered calculation input. Li Chun year-boundary profile requires a solar-term instant; keep it
   distinct from the Gregorian simplification. Outside supported centuries return unknown.
+input_policy:
+  requires_explicit_opt_in: true
+  default_gender: null
+  allowed_calculation_inputs: [male-convention, female-convention]
+  inferred_from_name_or_chart: false
+  missing_or_declined: withhold
+  message:
+    en: You can leave this optional calculation blank.
+    kn: ಈ ಐಚ್ಛಿಕ ಲೆಕ್ಕವನ್ನು ಖಾಲಿ ಬಿಡಬಹುದು.
+    hi: आप इस वैकल्पिक गणना को खाली छोड़ सकते हैं।

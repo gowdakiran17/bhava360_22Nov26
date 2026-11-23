@@ -1,4 +1,4 @@
 version: 1
 approval: draft
 inputs: Use both consented profiles and selected matching system.
-output: Show factor explanations, traditional points as text, exceptions and practices for discussing differences.
+output: Show factor explanations, qualitative themes, exceptions and practices for discussing differences.

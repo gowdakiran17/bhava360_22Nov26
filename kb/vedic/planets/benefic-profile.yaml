@@ -8,9 +8,15 @@ moon:
   default: shukla
   variants:
     shukla: {lower_deg: 0, lower_inclusive: false, upper_deg: 180, upper_inclusive: true}
-    bright-72: {lower_deg: 72, lower_inclusive: true, upper_deg: 180, upper_inclusive: true}
+    bright-72: {tag: MODERN, lower_deg: 72, lower_inclusive: true, upper_deg: 288, upper_inclusive: true}
+    raman-ashtami: {tag: CLASSICAL, lower_deg: 84, lower_inclusive: true, upper_deg: 264, upper_inclusive: false}
   note: The alternative uses measured elongation. A 72-degree threshold is distinct from the start of Ashtami at 84 degrees.
 mercury:
-  malefic_if_same_d1_sign_as: [sun, mars, saturn, rahu, ketu, malefic-moon]
+  tag: CLASSICAL
+  default: predominance
+  associates: [sun, moon, mars, jupiter, venus, saturn, rahu, ketu]
+  method: Count other grahas in Mercury's D1 sign. Malefic only when malefics outnumber benefics. Count both nodes and use the selected Moon class.
+  traditions_differ: Strict BPHS 3.11 treats any malefic companion as sufficient. The predominance interpretation follows the Phaladeepika ch.2 discussion; some PyJHora paths omit nodes.
   otherwise: benefic
 unknown_if: A missing longitude or unresolved Moon class could change the requested classification.
+sources_note: BPHS 3.11 for waning Moon; Raman Graha and Bhava Balas, Paksha Bala sections 52–53 for the Ashtami window. Primary locators pending inspection.

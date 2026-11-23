@@ -57,6 +57,7 @@ used_by:
 - western.aspects.sextile
 - western.aspects.square
 - western.aspects.trine
+- western.composite.midpoint
 - western.houses.polar-fallback
 - western.natal.ascendant-sagittarius
 - western.natal.jupiter-aquarius
@@ -334,6 +335,7 @@ used_by:
 - western.signs.scorpio
 - western.signs.taurus
 - western.signs.virgo
+- western.solar-arc.directed-contact
 - western.synastry.two-chart-contact
 - western.transits.exact-contact
 - western.transits.natal-contact

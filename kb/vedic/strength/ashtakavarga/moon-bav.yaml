@@ -17,6 +17,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
+  note: CLASSICAL edition dispute. Raman/Santhanam contributor rows are the default. PVR Table 20 is retained as pvr-table-20. Both yield 49, with different sign totals.
+- profile: vedic-editorial-v1
   note: The library counts a supportive mark as a bindu. In the cited textbook the same mark is called a rekha.
     Convert the notation before using another table.
 sources:

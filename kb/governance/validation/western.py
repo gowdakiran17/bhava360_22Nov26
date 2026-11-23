@@ -18,11 +18,63 @@ def pattern(positions, geometry, aspects):
     return False
 
 
+def fortune(asc, sun, moon, altitude):
+    if None in (asc,sun,moon,altitude):
+        return None
+    return (asc+(moon-sun if altitude>=0 else sun-moon))%360
+
+
+def western_houses(method, asc, calculate, policy):
+    """calculate returns twelve cusps or raises on Swiss failure (including substituted systems)."""
+    if method not in policy['systems'] or asc is None:
+        return None
+    effective = method
+    if method in ('placidus','koch'):
+        try:
+            cusps = calculate(policy['systems'][method]['code'])
+            widths = [(cusps[(i+1)%12]-c)%360 for i,c in enumerate(cusps)] if len(cusps)==12 else []
+            if not widths or min(widths)<=0 or abs(sum(widths)-360)>1e-7:
+                raise ValueError('Invalid quadrant cusps')
+        except ValueError:
+            effective = 'whole-sign'
+    if effective in ('whole-sign','equal'):
+        start = int(asc%360//30)*30 if effective=='whole-sign' else asc
+        cusps = [(start+30*i)%360 for i in range(12)]
+    label = policy['systems'][method]['admin_label'] if method==effective else policy['fallback_labels'][method]
+    return dict(requested=method,effective=effective,label=label,code=policy['systems'][effective]['code'],cusps=cusps)
+
+
 def validate_western(rules,read,evaluate,require):
     profile = read('western/profile.yaml')
     fixture = read('examples/western-reference.yaml')
     require(fixture['synthetic'] and profile['zodiac']=='tropical' and profile['houses']['default']=='placidus'
-            and profile['houses']['option']=='whole-sign','Western frame')
+            and set(profile['houses']['systems'])=={'placidus','whole-sign','koch','equal'},'Western frame')
+    hp = profile['houses']
+    require([s['code'] for s in hp['systems'].values()]==list('PWKE'),'Swiss house codes')
+    for name in hp['systems']:
+        normal = western_houses(name,359,lambda code:[(359+30*i)%360 for i in range(12)],hp)
+        require(normal['effective']==name and normal['cusps'][0]==(330 if name=='whole-sign' else 359),'house origin')
+        failed = western_houses(name,359,lambda code:[0]*12,hp)
+        require(failed['effective']==('whole-sign' if name in ('koch','placidus') else name)
+                and western_houses(name,None,None,hp) is None,'Western labelled fallback')
+    require(read('shared/conventions/profiles.yaml')['calculation_profiles']['kp-placidus-v1']['polar_fallback']=='unknown','KP keeps separate policy')
+    require(fortune(350,10,30,0)==10 and fortune(350,10,30,-.01)==330
+            and fortune(None,10,30,20) is None,'Fortune sect and wrap')
+    # A quadrant adapter may signal a polar substitution as an error.
+    def failed_call(code):
+        raise ValueError('Polar cusp failure')
+    require(all(western_houses(m,351,failed_call,hp)['code']=='W' for m in ('koch','placidus')),
+            'explicit Western recomputation')
+    orb_tables = read('western/aspects/orbs.yaml')
+    for technique in ('natal','transit','progression','solar-arc','synastry','composite'):
+        table = orb_tables[technique]
+        for i,name in enumerate(profile['natal_aspects']):
+            width = table[name]['orb']
+            expected = [8,4,6,6,8,2][i] if technique=='natal' else [6,3,5,5,6,2][i] if technique in ('synastry','composite') else 1
+            require(width==expected and table[name]['angle']==orb_tables['natal'][name]['angle'],technique+' width')
+            for delta,want in [(width-.001,True),(width,True),(width+.001,False)]:
+                exact = table[name]['angle']
+                require((abs(separation(exact-delta if exact==180 else exact+delta,0)-exact)<=width)==want,'orb boundary')
     bodies = 'sun moon mercury venus mars jupiter saturn uranus neptune pluto'.split()
     signs = 'aries taurus gemini cancer leo virgo libra scorpio sagittarius capricorn aquarius pisces'.split()
     require(set(profile['planets'])=={'western.planets.'+b for b in bodies},'ten Western planet anchors')
@@ -36,7 +88,7 @@ def validate_western(rules,read,evaluate,require):
             require(fires('signs.'+s,facts) and fires('natal.'+b+'-'+s,facts),b+'/'+s)
             require(fires(f'natal.{b}-house-{i+1}',{'western.natal.body':b,'western.natal.bound-house':i+1}),
                     b+' house inventory')
-    orbs = read('western/aspects/orbs.yaml')['draft_natal_orbs']
+    orbs = read('western/aspects/orbs.yaml')['natal']
     for name,(angle,orb) in zip(('conjunction','sextile','square','trine','opposition','quincunx'),
                                [(0,8),(60,4),(90,6),(120,6),(180,8),(150,2)]):
         require(name in profile['natal_aspects'] and orbs[name]==dict(angle=angle,orb=orb),name+' orb')

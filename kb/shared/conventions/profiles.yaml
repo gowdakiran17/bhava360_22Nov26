@@ -60,9 +60,9 @@ calculation_profiles:
         hi: यहाँ भाव विवरण उपलब्ध नहीं हैं। आप ग्रहों का संदर्भ देख सकते हैं।
   western-tropical-v1:
     zodiac: tropical
-    house_options: [placidus, whole-sign]
+    house_options: [placidus, whole-sign, koch, equal]
     houses: placidus
-    reference_only_house_terms: [koch, equal]
+    fallback_from: [placidus, koch]
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
@@ -113,6 +113,7 @@ doctrine_profiles:
   face-reading-editorial-v1:
     system: face-reading
     approval: draft
+  ank-ruler-compatibility-v1: {system: numerology, approval: draft, table: numerology/ank-jyotish/compatibility.yaml}
   parashari-natural-v1: {system: vedic, approval: draft, calculation: vedic-lahiri-v1, table: vedic/planets/benefic-profile.yaml}
   parashari-strength-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: planetary-and-house-strength}
   moon-based-gochara-candidate-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: moon-based-vedha}
@@ -122,6 +123,13 @@ doctrine_profiles:
   bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:
+  saravali-five-degrees: {system: vedic, approval: draft, scope: labelled-alternative}
+  pvr-table-20: {system: vedic, approval: draft, scope: labelled-alternative}
+  raman-ashtami: {system: vedic, approval: draft, scope: labelled-alternative}
+  bright-72: {system: vedic, approval: draft, scope: labelled-alternative}
+  sripati: {system: vedic, approval: draft, scope: labelled-alternative}
+  fixed-segment: {system: vedic, approval: draft, scope: labelled-alternative}
+  classical-disc-difference: {system: vedic, approval: draft, scope: labelled-alternative}
   bphs-seven-graha-337: {system: vedic, approval: draft, scope: seven-graha-ashtakavarga}
 open_decisions: []
 owner_defaults: {kp-polar-fallback: withhold-cusps, jaimini-karaka-scheme: seven, chara-dasha-variant: pyjhora-kn-rao-candidate-v1, d60-method: parashari-d60-v1}

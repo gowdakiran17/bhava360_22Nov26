@@ -5,6 +5,7 @@ title: Directed Contact
 doctrine_profile: western-editorial-v1
 approval: draft
 rule: Add the progressed Sun minus natal Sun arc to a natal point and test for a dated contact.
+  Use the solar-arc table. See western/aspects/orbs.yaml.
 conditions:
   all:
   - fact: western.solar-arc-contact

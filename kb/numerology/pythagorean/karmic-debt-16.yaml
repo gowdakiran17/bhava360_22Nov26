@@ -1,0 +1,37 @@
+id: numerology.pythagorean.karmic-debt-16
+system: numerology
+topic: pythagorean
+title: Reflection on a reduction stage
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Match compound 16 before a reduction step in an eligible named stage. Keep the stage and reduction trace
+  in staff evidence.
+conditions:
+  all:
+  - fact: number.pythagorean.stage-compound
+    op: eq
+    value: 16
+meaning: You can revisit an assumption and listen to another view.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- work_id: bhava360-engine-and-reading-conventions
+  book: Bhava360 engine and reading conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology/pythagorean/karmic-debt-16.yaml
+  supports: Product stage binding and editorial reflection.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can revisit an assumption and listen to another view.
+  kn: ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೊಂದು ದೃಷ್ಟಿಯನ್ನು ಕೇಳಬಹುದು.
+  hi: आप अपनी धारणा पर फिर विचार कर सकते हैं और दूसरा दृष्टिकोण सुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

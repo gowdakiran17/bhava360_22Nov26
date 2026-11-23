@@ -3,7 +3,7 @@ from math import isclose
 from shadbala import GRAHAS, aspect
 
 
-def benefic(g, positions, table, variant=None):
+def benefic(g, positions, table, variant=None, mercury_method="predominance"):
     if g in table['always_benefic']:
         return True
     if g in table['always_malefic']:
@@ -14,23 +14,24 @@ def benefic(g, positions, table, variant=None):
         bounds = table['moon']['variants'][variant or table['moon']['default']]
         angle = (positions['moon']-positions['sun'])%360
         lower = bounds['lower_deg']
-        return (angle > lower or angle == lower and bounds['lower_inclusive']) and angle <= bounds['upper_deg']
+        return (angle > lower or angle == lower and bounds['lower_inclusive']) and (angle < bounds['upper_deg'] or angle == bounds['upper_deg'] and bounds['upper_inclusive'])
     if g != 'mercury' or positions.get(g) is None:
         return None
-    uncertain = False
-    for body in table['mercury']['malefic_if_same_d1_sign_as']:
-        moon = body == 'malefic-moon'
-        body = 'moon' if moon else body
-        nature = benefic(body,positions,table,variant) if moon else False
-        if nature is True:
+    # Range of possible net votes (benefics minus malefics) for incomplete inputs.
+    low = high = 0
+    for body in table['mercury']['associates']:
+        nature = benefic(body,positions,table,variant)
+        pos = positions.get(body)
+        if pos is not None and pos//30 != positions[g]//30:
             continue
-        if positions.get(body) is None:
-            uncertain = True
-        elif positions[body]//30 == positions[g]//30:
-            if nature is False:
-                return False
-            uncertain = True
-    return None if uncertain else True
+        votes = [1] if nature is True else [-1] if nature is False else [-1,1]
+        if mercury_method == 'strict':
+            votes = [min(0, vote) for vote in votes]
+        if pos is None:
+            votes.append(0)
+        low += min(votes)
+        high += max(votes)
+    return True if low >= 0 else False if high < 0 else None
 
 
 def relationship(table, natural, distance):
@@ -67,12 +68,25 @@ def direction(table, house, midpoint):
     raise ValueError('Incomplete house class table')
 
 
-def houses(c, totals, read):
+def houses(c, totals, read, method="whole-sign-middle"):
     table = read('vedic/strength/bhava-bala/components.yaml')
     signs = read('vedic/signs/catalog.yaml')['signs']
     natural = read(table['drik']['sign_source'])
     drik = read(table['drik']['base'])['calculation']
     lon = c['longitude']
+    altitude = c.get('solar_altitude_deg')
+    if altitude is None or c.get('asc') is None:
+        return None
+    period = 'day' if altitude >= 0 else 'twilight' if altitude >= -6 else 'night'
+    if method == 'sripati':
+        if c.get('mc') is None:
+            return None
+        corners = [c['asc'],(c['mc']+180)%360,(c['asc']+180)%360,c['mc']]
+        spans = [(corners[(i+1)%4]-x)%360 for i,x in enumerate(corners)]
+        if not isclose(sum(spans),360) or min(spans)<=0:
+            return None
+    elif method != 'whole-sign-middle':
+        raise ValueError('Unknown midpoint convention')
     rows = []
     for h in range(1,13):
         if c.get('asc') is None:
@@ -81,17 +95,25 @@ def houses(c, totals, read):
         lord = signs[idx]['lord']
         mid = 30*idx+15
         group, dig = direction(table,h,mid)
+        if method == 'sripati':
+            quadrant, third = divmod(h-1,3)
+            mid = (corners[quadrant]+third*spans[quadrant]/3)%360
+            group,_ = direction(table,h,mid)
+            strongest = corners[(table['strongest_house'][group]-1)//3]
+            dig = abs((mid-strongest)%360-180)/3
         terms = {}
         for p in table['drik']['casters']:
             good = benefic(p,lon,natural)
-            if good is None or lon.get(p) is None or totals.get(lord) is None:
+            if (good is None and p not in ('jupiter','mercury')) or lon.get(p) is None or totals.get(lord) is None:
                 return None
             weight = table['drik']['weights'].get(p,table['drik']['weights']['other'])
-            terms[p] = aspect(drik,p,(mid-lon[p])%360)*weight*(1 if good else -1)
+            terms[p] = aspect(drik,p,(mid-lon[p])%360)*weight*(1 if good or p in ('mercury','jupiter') else -1)
+        occupancy = sum(weight for body,weight in table['occupants']['weights'].items() if int(lon[body]//30)==idx)
+        time_term = table['birth_time']['award'] if signs[idx]['id'] in table['birth_time'][period] else 0
         net = sum(terms.values())
         rows.append(dict(house=h, madhya=mid, lord=lord, sign_class=group,
                          lord_total=totals[lord], dig=dig, signed_aspects=terms, drik=net,
-                         total=totals[lord]+dig+net+table['day_night_adjustment']))
+                         occupants=occupancy, birth_time=time_term, total=totals[lord]+dig+net+occupancy+time_term))
     return rows
 
 
@@ -131,11 +153,15 @@ def validate_bhava(read, require):
             bhava_word([8]*12,2,w['bhava'])=='steady' and bhava_word([],1,w['bhava']) is None,'rank boundaries')
     b = read('vedic/planets/benefic-profile.yaml')
     for variant,angles,expected in [('shukla',[0,.01,180,181],[False,True,True,False]),
-                                   ('bright-72',[71.99,72,180,181],[False,True,True,False])]:
+                                   ('bright-72',[71.99,72,288,288.01],[False,True,True,False]),
+                                   ('raman-ashtami',[83.99,84,263.99,264],[False,True,True,False])]:
         require([benefic('moon',{'sun':0,'moon':x},b,variant) for x in angles]==expected,'Moon boundary')
-    lon = dict(sun=0,moon=40,mars=80,saturn=120,rahu=150,ketu=330,mercury=200)
+    lon = dict(sun=0,moon=40,mars=80,saturn=120,rahu=150,ketu=330,mercury=200,jupiter=60,venus=270)
     require(benefic('mercury',lon,b) and benefic('mercury',dict(lon,mercury=155),b) is False
             and benefic('mercury',dict(lon,rahu=None),b) is None,'Mercury conjunction or unknown')
+    mixed=dict(lon,mercury=1,jupiter=2)
+    require(benefic('mercury',mixed,b) and not benefic('mercury',mixed,b,mercury_method='strict')
+            and not benefic('mercury',dict(lon,mercury=1),b),'Mercury tie versus Sun alone')
     rel = read('vedic/dignity/relationships.yaml')
     for nat, yes, no in [('friend','adhi-mitra','sama'),('neutral','mitra','shatru'),('enemy','sama','adhi-shatru')]:
         for d in range(1,13):
@@ -156,7 +182,7 @@ def validate_bhava(read, require):
             require(label(lo)=='moolatrikona' and label(hi)=='own-sign',g+' own boundary')
     s=read('examples/bhava-bala-s1.yaml')
     reference = read('vedic/strength/shadbala/worked-reference.yaml')['scenario']
-    require(s['inputs']=={key:reference['inputs'][key] for key in ('asc','longitude')} and
+    require(s['inputs']=={key:reference['inputs'][key] for key in ('asc','mc','longitude','solar_altitude_deg')} and
             s['lord_totals']=={g:sum(row.values()) for g,row in reference['expected'].items()},'same S1 chart')
     rows=houses(s['inputs'],s['lord_totals'],read)
     expected=s['house_ten']
@@ -167,4 +193,15 @@ def validate_bhava(read, require):
             and bhava_word(s['twelve_totals'],10,w['bhava'])==s['label']
             and w['labels'][s['label']]==s['public_words'],'S1 house ten worksheet')
     require(houses(dict(s['inputs'],asc=None),s['lord_totals'],read) is None,'missing Lagna')
+    for degree,label in [(4.99,'moolatrikona'),(5,'moolatrikona'),(14.99,'moolatrikona'),(15,'own-sign')]:
+        require(dignity_label(dignity,'venus','libra',degree,True,None)==label,'Venus Libra boundary')
+    for altitude,period in [(0,'day'),(-.001,'twilight'),(-6,'twilight'),(-6.001,'night')]:
+        rows=houses(dict(s['inputs'],solar_altitude_deg=altitude),s['lord_totals'],read)
+        require(sum(x['birth_time'] for x in rows)==15*len(table['birth_time'][period]),'rising classes')
+    occupied=next(x for x in rows if x['occupants']!=0)
+    require(occupied['occupants']==sum(value for body,value in table['occupants']['weights'].items()
+            if s['inputs']['longitude'][body]//30==occupied['madhya']//30),'whole-sign occupants')
+    sripati=houses(s['inputs'],s['lord_totals'],read,'sripati')
+    require(isclose(sripati[0]['madhya'],s['inputs']['asc']) and isclose(sripati[9]['madhya'],s['inputs']['mc'])
+            and houses(dict(s['inputs'],mc=None),s['lord_totals'],read,'sripati') is None,'Sripati kardinal anchors')
     print('Bhava Bala passed: 12 houses, signed S1 worksheet, dignity boundaries, friendship and qualitative bands.')

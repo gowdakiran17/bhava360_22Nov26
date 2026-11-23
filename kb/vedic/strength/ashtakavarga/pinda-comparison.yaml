@@ -54,3 +54,4 @@ unresolved: []
 release: Keep Pinda evidence internal until any differences are reconciled against
   an approved edition.
 numeric_access: [admin, tester]
+moon_table_variant: pvr-table-20

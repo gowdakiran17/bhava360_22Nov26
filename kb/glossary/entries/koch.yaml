@@ -15,6 +15,7 @@ admin_note: Use this label for a time-based way of dividing a chart into twelve 
   applicable conditions and differences between methods.
 aliases: []
 reference_rules: []
-used_by: []
+used_by:
+- western.houses.polar-fallback
 used_in_files:
 - shared/conventions/profiles.yaml

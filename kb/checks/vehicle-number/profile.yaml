@@ -8,7 +8,9 @@ steps:
   Zero alone has no number meaning. Use the matching Ank Jyotish root as descriptive evidence.
 - Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
   and use the parent recipe for a full-profile tone.
+compatibility_table: numerology/ank-jyotish/compatibility.yaml
 numerology_ids:
+- numerology.ank-jyotish.check-vehicle-number-ruler-compatibility
 - numerology.ank-jyotish.check-vehicle-number-root
 - numerology.ank-jyotish.check-vehicle-number-vehicle-total
 parent_recipe: checkers/vehicle-number/recipe.yaml

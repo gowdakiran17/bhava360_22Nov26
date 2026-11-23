@@ -33,6 +33,10 @@ explain_rules:
 - rule_id: vedic.muhurta.check-vehicle-number-delivery-exclusion
   direction: caution
   evidence: checker.vehicle-number.delivery-exclusion
+- rule_id: numerology.ank-jyotish.check-vehicle-number-ruler-compatibility
+  direction: ruler-matrix
+  evidence: checker.vehicle-number.ruler-relation
+  channel: birth-root-comparison
 selection: Evaluate only profile-compatible rules. Deduplicate reasons by underlying evidence and retain input mode and candidate
   ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
   match, return limited evidence.

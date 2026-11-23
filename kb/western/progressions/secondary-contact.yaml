@@ -6,6 +6,7 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: Use birth JD plus elapsed days divided by 365.2425 as the progressed ephemeris JD. Compare the progressed
   tropical planet to the natal planet within the separate progression orb. The date describes symbolic development.
+  Use the progression table. See western/aspects/orbs.yaml.
 conditions:
   all:
   - fact: western.progressions.secondary-contact

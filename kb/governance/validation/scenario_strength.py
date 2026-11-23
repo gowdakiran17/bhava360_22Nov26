@@ -17,9 +17,9 @@ def read(path):
     return yaml.safe_load((KB / path).read_text())
 
 
-def inputs():
+def inputs(day_offset=0):
     # Artificial test epoch at J2000 and an invented observing point. No birth record.
-    jd, place = 2451545.0, (15., 12., 0.)
+    jd, place = 2451545.0 + day_offset, (15., 12., 0.)
     swe.set_sid_mode(swe.SIDM_LAHIRI)
     backend = swe.FLG_MOSEPH
     ayan = swe.get_ayanamsa_ex_ut(jd, backend)[1]
@@ -46,7 +46,10 @@ def inputs():
     rise = event(jd-.5, swe.CALC_RISE)
     chart['sunrise_sunset_next'] = [rise, event(rise,swe.CALC_SET), event(rise+.01,swe.CALC_RISE)]
     chart['solar_hour'] = ((jd+.5+place[0]/360+swe.time_equ(jd))%1)*24
-    chart.update(epoch_weekday=6, completed_days=0)  # scenario cycle begins at this Saturday sunrise
+    epoch_jd = 2451545.0
+    chart.update(epoch_weekday=int(epoch_jd+1.5)%7, completed_days=day_offset)
+    trop = swe.calc_ut(jd,swe.SUN,backend)[0]
+    chart['solar_altitude_deg'] = swe.azalt(jd,swe.ECL2HOR,place,1013.25,15,trop[:3])[1]
     return chart
 
 
@@ -78,11 +81,12 @@ def worksheet(c):
     negative = {'sun','mars','saturn','rahu','ketu'}
     if not 0 < (lon['moon']-lon['sun'])%360 <= 180:
         negative.add('moon')
-    if any(lon[p]//30 == lon['mercury']//30 for p in negative):
+    companions = [p for p in lon if p!='mercury' and lon[p]//30==lon['mercury']//30]
+    if 2*sum(p in negative for p in companions)>len(companions):
         negative.add('mercury')
     rise, setting, _ = c['sunrise_sunset_next']
     daylight = (c['instant']-rise)/(setting-rise)
-    assert 0 <= daylight < 1 and c['epoch_weekday'] == 6 and c['completed_days'] == 0
+    assert 0 <= daylight < 1
     assert all(separation(lon[a],lon[b])>=1 for i,a in enumerate(ORDER[2:]) for b in ORDER[2:][i+1:])
     phase = separation(lon['moon'],lon['sun'])/3
     rows = {}
@@ -117,8 +121,12 @@ def worksheet(c):
         paksha = phase if g in ('moon','mercury','venus','jupiter') else 60-phase
         kala = (60 if g=='mercury' else noon if g in ('sun','venus','jupiter') else 60-noon)+ayana+paksha
         kala += 60*(g in ('jupiter',('mercury','sun','saturn')[int(daylight*3)]))
-        kala += (15+30+45)*(g=='saturn')
-        kala += 60*(g=='saturn jupiter mars sun venus mercury moon'.split()[int(daylight*12)%7])
+        weekday = ORDER[(c['epoch_weekday']+c['completed_days'])%7]
+        for span,award in [(360,15),(30,30),(1,45)]:
+            lord = ORDER[(c['epoch_weekday']+span*(c['completed_days']//span))%7]
+            kala += award*(g==lord)
+        hora = 'saturn jupiter mars sun venus mercury moon'.split()
+        kala += 60*(g==hora[(hora.index(weekday)+int(daylight*12))%7])
         if g in ('sun','moon'):
             cheshta = ayana if g=='sun' else paksha
         else:
@@ -132,8 +140,15 @@ def worksheet(c):
 
 if __name__=='__main__':
     chart = inputs()
+    probes = read('vedic/strength/shadbala/worked-reference.yaml')['weekday_probes']
+    for offset,expected in probes.items():
+        probe = inputs(offset)
+        terms = worksheet(probe)
+        assert abs(terms['sun']['kala']-expected['sun_kala']) <= 1e-6
+        for span,key in [(360,'abda'),(30,'masa'),(1,'vara')]:
+            assert ORDER[(probe['epoch_weekday']+span*(offset//span))%7] == expected[key]
     print(yaml.safe_dump(dict(name='Scenario S1', verification='unverified-pending-source',
-          synthetic=True, jd_ut=2451545., observer_east_north_m=[15,12,0], profile='parashari-strength-v1',
+          synthetic=True, jd_ut=2451545., observer=dict(longitude_deg_east=15,latitude_deg_north=12,elevation_m=0), profile='parashari-strength-v1',
           ayanamsa='SE_SIDM_LAHIRI', backend='SEFLG_MOSEPH', swiss_version=swe.version,
           generator='governance/validation/scenario_strength.py', inputs=chart,
           absolute_tolerance_virupas=dict.fromkeys(SIX,0.000001), expected=worksheet(chart)),sort_keys=False))

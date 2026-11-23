@@ -19,6 +19,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
+  note: The BPHS ch.27 Santhanam and Raman Sun minimum is 6.5 rupas. PyJHora shad_bala_factors uses 5; retain 6.5 here.
+- profile: vedic-editorial-v1
   note: The library uses its geometric-mean Ishta/Kashta convention. BPHS also distinguishes ray-based results
     and sign-based awards. The minimum measures capacity within this tradition.
 sources:

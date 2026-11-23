@@ -1,27 +1,110 @@
 version: 2
 approval: draft
 profile: parashari-strength-v1
-access: [admin, tester]
+access:
+- admin
+- tester
 unit: virupa
-madhya: Whole-sign MVP. Set the midpoint to the beginning of the house sign plus 15 degrees. Do not shift planets between houses.
-bhavadhipati: Use the classical sign lord of the madhya. Take its complete six-component Shadbala total in virupas.
+madhya: Whole-sign MVP. Set the midpoint to the beginning of the house sign plus 15 degrees. Do not shift planets
+  between houses.
+bhavadhipati: Use the classical sign lord of the madhya. Take its complete six-component Shadbala total in
+  virupas.
 class_intervals_deg:
-  nara: [[60,90], [150,210], [240,255], [300,330]]
-  jalachara: [[90,120], [285,300], [330,360]]
-  chatushpada: [[0,60], [120,150], [255,285]]
-  keeta: [[210,240]]
+  nara:
+  - - 60
+    - 90
+  - - 150
+    - 210
+  - - 240
+    - 255
+  - - 300
+    - 330
+  jalachara:
+  - - 90
+    - 120
+  - - 285
+    - 300
+  - - 330
+    - 360
+  chatushpada:
+  - - 0
+    - 60
+  - - 120
+    - 150
+  - - 255
+    - 285
+  keeta:
+  - - 210
+    - 240
 bounds: Normalize sidereal longitude modulo 360. Left endpoint included, right endpoint excluded.
-strongest_house: {nara: 1, jalachara: 4, chatushpada: 10, keeta: 7}
-dig: From the strongest reference house count zero at equality. Use the shorter cyclic distance in houses, d, from zero to six. Award 60 minus 10 times d.
+strongest_house:
+  nara: 1
+  jalachara: 4
+  chatushpada: 10
+  keeta: 7
+dig: From the strongest reference house count zero at equality. Use the shorter cyclic distance in houses,
+  d, from zero to six. Award 60 minus 10 times d.
 drik:
   base: vedic/strength/shadbala/drik.yaml
   angle: (madhya minus caster longitude) modulo 360
-  casters: [sun, moon, mars, mercury, jupiter, venus, saturn]
+  casters:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn
   sign_source: vedic/planets/benefic-profile.yaml
-  weights: {mercury: 1, jupiter: 1, other: 0.25}
-  sum: Interpolate the caster's aspect from the base table. Multiply by its weight and by +1 for a benefic or -1 for a malefic. Sum the seven signed terms. Nodes qualify Mercury but do not cast an aspect in this table.
-day_night_adjustment: 0
-total: Add lord, direction and signed aspect terms without clipping or intermediate rounding. Day/night contributes zero in this product profile.
+  weights:
+    mercury: 1
+    jupiter: 1
+    other: 0.25
+  sum: CLASSICAL. Jupiter and Mercury each contribute the full positive aspect exactly once irrespective of
+    nature. For each remaining classical graha use one signed quarter (BPHS 27.28–29).
+total: Add unrounded lord, direction, drik, occupant and birth-time terms. Classical added terms follow BPHS
+  ch.27 vv.30–31 and Raman Bhava Bala chapter; primary verification pending.
 unknown_if: Unstable rising sign, unknown lord total, aspect, classification or midpoint.
-source_note: PyJHora 5.0.6 jhora/const.py sign-class ranges and jhora/horoscope/chart/strength.py _bhava_dig_bala reference houses. Whole-sign midpoint and signed aspect weighting are explicit Bhava360 implementation choices.
-component_rules: [vedic.strength-bhava-bala.bhavadhipati, vedic.strength-bhava-bala.bhava-dig, vedic.strength-bhava-bala.bhava-drik]
+source_note: PyJHora 5.0.6 jhora/const.py sign-class ranges and jhora/horoscope/chart/strength.py _bhava_dig_bala
+  reference houses. The whole-sign midpoint and house-count distance are modern MVP choices; the corrected aspect weighting follows the owner-selected classical reading.
+component_rules:
+- vedic.strength-bhava-bala.bhavadhipati
+- vedic.strength-bhava-bala.bhava-dig
+- vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhava-occupants
+- vedic.strength-bhava-bala.birth-time
+midpoint_methods:
+  default: whole-sign-middle
+  whole-sign-middle: MODERN. Sign start plus 15 degrees. Direction from shorter whole-house count.
+  sripati: CLASSICAL option. Use Ascendant, IC, Descendant and MC as madhyas 1,4,7,10. Trisect each forward
+    quadrant arc for the intervening madhyas. Direction is shortest arc from the class weakest cardinal angle
+    divided by three. Keep occupants in whole-sign houses.
+occupants:
+  tag: CLASSICAL
+  unit: virupas per occupant
+  weights:
+    jupiter: 60
+    mercury: 60
+    saturn: -60
+    mars: -60
+    sun: -60
+birth_time:
+  tag: CLASSICAL
+  award: 15
+  day:
+  - gemini
+  - leo
+  - virgo
+  - libra
+  - scorpio
+  - aquarius
+  night:
+  - aries
+  - taurus
+  - cancer
+  - sagittarius
+  - capricorn
+  twilight:
+  - pisces
+  window: 'Operational civil twilight: geometric solar centre at or above -6 degrees and below zero. Day at
+    or above zero; night below -6.'

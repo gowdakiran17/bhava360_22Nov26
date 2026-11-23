@@ -47,3 +47,4 @@ expected_mercury_bav:
 - 6
 - 4
 numeric_access: [admin, tester]
+moon_table_variant: pvr-table-20

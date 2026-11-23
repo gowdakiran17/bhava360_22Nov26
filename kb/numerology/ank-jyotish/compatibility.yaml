@@ -1,0 +1,115 @@
+version: 1
+approval: draft
+profile: ank-ruler-compatibility-v1
+school: Ank Jyotish root rulers with directed Parashari natural friendships. Bhava360 comparative adaptation.
+source: vedic/planets graha.natural_friendships, Brihat Jataka II.16–17, Iyer edition. Nodal edges and same-root
+  affinity are editorial; other Ank schools use different nodal relations.
+row: birth day root (Moolank)
+columns:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+candidate: Identifier or name root, including reduction of a master to a single digit for this comparison only.
+cells:
+  1:
+  - friendly
+  - friendly
+  - friendly
+  - challenging
+  - neutral
+  - challenging
+  - challenging
+  - challenging
+  - friendly
+  2:
+  - friendly
+  - friendly
+  - neutral
+  - challenging
+  - friendly
+  - neutral
+  - challenging
+  - neutral
+  - neutral
+  3:
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - challenging
+  - challenging
+  - friendly
+  - neutral
+  - friendly
+  4:
+  - challenging
+  - challenging
+  - neutral
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - friendly
+  - neutral
+  5:
+  - friendly
+  - challenging
+  - neutral
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - neutral
+  - neutral
+  6:
+  - challenging
+  - challenging
+  - neutral
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - friendly
+  - neutral
+  7:
+  - challenging
+  - challenging
+  - friendly
+  - neutral
+  - neutral
+  - neutral
+  - friendly
+  - neutral
+  - friendly
+  8:
+  - challenging
+  - challenging
+  - neutral
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - friendly
+  - challenging
+  9:
+  - friendly
+  - friendly
+  - friendly
+  - neutral
+  - challenging
+  - neutral
+  - friendly
+  - neutral
+  - friendly
+direction:
+  friendly: support
+  neutral: neutral
+  challenging: caution
+unknown_if: Either root outside 1–9 or absent.
+node_school_variant: Directed nodal relationships are school-dependent. This matrix adopts editorial affinities for Rahu with Mercury, Venus and Saturn, and Ketu with Jupiter and Mars. Retain the selected table ID with evidence.

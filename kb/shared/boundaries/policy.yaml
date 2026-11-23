@@ -11,7 +11,8 @@ copy:
   user_tones: [Supportive, Steady, Take care]
   evidence: Every personal statement must resolve to supplied facts. Mark each AI-written sentence with ✦ AI.
   style: Use gentle possibilities and practical choices. Exclude guarantees, fear, pressure, scores and colour-only signals.
-  matching_exception: Traditional points as text only.
+  matching: Show qualitative factor explanations. Raw matching totals, points and percentages are restricted to admin/tester evidence.
+  houses: Use localized life-area wording in consumer output. Restrict house numbers to admin/tester evidence.
   fixed_response_topics: [diagnosis, death-or-lifespan, pregnancy-or-child-sex, legal-outcomes, gambling-or-stock-tips, self-harm]
   sensitive_routing: Route to approved localized boundary messages. For self-harm use the support flow with current verified resources.
   reading_footer_en: Guidance for reflection, not a guarantee. Not medical, financial or legal advice.

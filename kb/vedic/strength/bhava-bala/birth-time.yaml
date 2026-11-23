@@ -1,0 +1,39 @@
+id: vedic.strength-bhava-bala.birth-time
+system: vedic
+topic: strength/bhava-bala
+title: birth-time
+doctrine_profile: parashari-strength-v1
+approval: draft
+rule: Award 15 when the sign rising class matches day, night or twilight. A missing time or altitude withholds
+  the term.
+conditions:
+  all:
+  - fact: strength.bhava.selected_component
+    op: eq
+    value: birth-time
+meaning: The time of day may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-strength-v1
+  note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '31'
+  other_locator: null
+  supports: Classical Bhava Bala term. Edition locator supplied by review.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The time of day may add context to this theme.
+  kn: ದಿನದ ಸಮಯವು ಈ ವಿಷಯಕ್ಕೆ ಸಂದರ್ಭ ನೀಡಬಹುದು.
+  hi: दिन का समय इस विषय को समझने में सहायक हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

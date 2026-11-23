@@ -402,3 +402,7 @@ Convention sources are the supplied PRD v1.2 §8.4 and §8.4.5 requirements, STE
 ## KB-33 strength review
 
 Added three draft rules, one component selector fact and one natural-benefic profile. Totals are 1,815 draft rules across ten systems, 402 fact keys and 661 glossary entries. Numerical evidence stays in the admin export. The published Raman worksheet awaits source verification.
+## KB-34 review
+
+Seven new numerology reflections and two house-strength components bring the totals to 1,824 draft rules, 406 fact keys and 661 glossary entries. S1 uses the corrected house weights, occupant terms and rising-type award. The published Raman matrix remains pending. The Moon table uses Raman/Santhanam by owner selection and retains the PVR variant for its original comparisons. New edition locators supplied in review are recorded pending primary inspection.
+The strict and predominance Mercury rules agreed on all five known-time synthetic charts. The equal-companions probe distinguishes the methods. New speculative school mappings, including node-to-number compatibility, are labelled editorial.

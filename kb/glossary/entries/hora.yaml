@@ -274,6 +274,9 @@ used_by:
 - vedic.houses.house-7
 - vedic.matching.chart-cross-check
 - vedic.panchang.hora
+- vedic.planets-in-signs.venus-libra
+- vedic.planets.venus
+- vedic.signs.libra
 - vedic.states.baladi
 - vedic.strength-ashtakavarga.jupiter-bav
 - vedic.strength-ashtakavarga.mars-bav
@@ -285,6 +288,8 @@ used_by:
 - vedic.strength-ashtakavarga.shodhya-pinda
 - vedic.strength-ashtakavarga.sun-bav
 - vedic.strength-ashtakavarga.venus-bav
+- vedic.strength-bhava-bala.bhava-occupants
+- vedic.strength-bhava-bala.birth-time
 - vedic.strength-shadbala.abda
 - vedic.strength-shadbala.ayana
 - vedic.strength-shadbala.cheshta

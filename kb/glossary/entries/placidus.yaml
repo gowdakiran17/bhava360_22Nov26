@@ -32,3 +32,4 @@ used_by:
 - kp.cusps.seventh-cusp
 - kp.number-horary.arc
 - vedic.prashna.kp-horary
+- western.houses.polar-fallback

@@ -52,6 +52,9 @@ label_policy:
   relationships: vedic/dignity/relationships.yaml
   first_match: [exaltation-peak, moolatrikona, own-sign, exaltation-sign, debilitation-sign, compound-friendship]
   bounds: Normalize 30 degrees into the next sign. Use [start,end) for MT with the exact exaltation peak taking precedence. Mercury in Virgo below 15 degrees is exalted, above the peak to 20 is MT and from 20 is own. Moon in Taurus below 3 is exalted, exactly 3 is peak and above 3 is MT.
-  mt_degrees: {sun: [0,20], moon: [3,30], mars: [0,12], mercury: [15,20], jupiter: [0,10], venus: [0,5], saturn: [0,20]}
+  mt_degrees: {sun: [0,20], moon: [3,30], mars: [0,12], mercury: [15,20], jupiter: [0,10], venus: [0,15], saturn: [0,20]}
   mercury_virgo_below_peak: exaltation-sign
   unknown_if: Missing position or required relationship. Preserve independent sign memberships.
+venus_variant: {id: saravali-five-degrees, bounds: [0, 5], end_exclusive: true}
+traditions_differ:
+- CLASSICAL. BPHS 3.54 (tithyamsha) is the default to 15 degrees exclusive; Saravali 1.21–24 and Phaladeepika 1.7 use the five-degree variant. Brihat Jataka I.13–14 identifies the sign only. Edition locators supplied for review.

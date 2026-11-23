@@ -139,8 +139,11 @@ def validate_ashtakavarga(rules,read,evaluate,require):
     # Published comparison has an expanded occupancy mask and its own weight variant.
     ref = read(DIR+'pinda-comparison.yaml')
     natal = dict(zip(contributors,ref['origin_indices_zero_based']))
+    moon = table['offsets']['moon']
+    require([moon[p] for p in ('moon','mars','jupiter')]==[[1,3,6,7,10,11],[2,3,5,6,9,10,11],[1,4,7,8,10,11,12]],'edition-specific Moon cells')
     for i,g in enumerate(PLANETS):
-        bav = list(map(sum,zip(*prastara_for(table['offsets'][g],natal).values())))
+        offsets = table['variants'][ref['moon_table_variant']][g] if g=='moon' else table['offsets'][g]
+        bav = list(map(sum,zip(*prastara_for(offsets,natal).values())))
         _,final = reduce_row(bav,trines,pairs,set(ref['occupied_sign_indices']))
         weighted = pindas(final,natal,reduction['rashi_weights'][ref['rashi_weight_profile']],planet_weights)
         require(weighted[:2]==[ref['reference_rashi'][i],ref['reference_graha'][i]],g+' published pinda')

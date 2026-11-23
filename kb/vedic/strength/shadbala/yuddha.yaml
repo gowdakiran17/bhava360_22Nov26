@@ -19,6 +19,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
+  note: CLASSICAL BPHS 27.20 and Raman use the absolute difference of Sthana + Dig + pre-war Kala divided by the absolute difference of apparent disc diameters in arcminutes. Withhold for missing or equal diameters; transfer to winner from loser. The current eight-Kala-term transfer is MODERN.
+- profile: vedic-editorial-v1
   note: Some authorities use apparent disc sizes and a different pre-war subtotal. This editorial profile uses
     a zero-sum transfer and the existing KB-05 winner rule.
 sources:
@@ -55,3 +57,5 @@ calculation:
   - tester
   unit: virupa (shashtiamsa of one rupa)
   winner_rule: vedic.states.graha-yuddha
+  default_method: modern-kala-transfer
+  alternative: classical-disc-difference

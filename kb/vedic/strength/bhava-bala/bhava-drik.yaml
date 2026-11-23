@@ -4,8 +4,8 @@ topic: strength/bhava-bala
 title: Aspects to the house midpoint
 doctrine_profile: parashari-strength-v1
 approval: draft
-rule: Interpolate the caster's aspect from the base table. Multiply by its weight and by +1 for a benefic or -1
-  for a malefic. Sum the seven signed terms. Nodes qualify Mercury but do not cast an aspect in this table.
+rule: CLASSICAL. Jupiter and Mercury each contribute the full positive aspect exactly once irrespective of
+  nature. For each remaining classical graha use one signed quarter (BPHS 27.28–29).
 conditions:
   all:
   - fact: strength.bhava.selected_component
