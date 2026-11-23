@@ -5,10 +5,10 @@ import { calendarDate, toPublicProjection } from '../packages/core/src';
 import { GET } from '../apps/api/app/health/route';
 
 it('checks engine sources for implicit or local time', () => {
-  const sources = globSync('packages/engine-*/src/**/*.ts');
+  const sources = [...globSync('packages/engine-*/src/**/*.ts'), ...globSync('packages/ephemeris-swiss/src/**/*.ts'), 'packages/core/src/ephemeris.ts'];
   expect(sources.length).toBeGreaterThanOrEqual(5);
   for (const path of sources) {
-    expect(readFileSync(path, 'utf8'), path).not.toMatch(/\bDate\b|process\.env\.TZ|\.toLocale(?:Date|Time)String\(/);
+    expect(readFileSync(path, 'utf8'), path).not.toMatch(/\bDate\b|process\.env\.TZ|\.get(?:Date|Day|FullYear|Hours|Milliseconds|Minutes|Month|Seconds|TimezoneOffset|Year)\s*\(|\.toLocale(?:Date|Time)String\(/);
   }
 });
 it('uses the injected zone across midnight', () => {

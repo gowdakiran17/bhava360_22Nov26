@@ -27,3 +27,4 @@ export function toPublicProjection(reading: { text: string; evidence: readonly s
   return { text: reading.text };
 }
 export { resolveBirth } from './birth';
+export * from './ephemeris';

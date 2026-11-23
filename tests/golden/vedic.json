@@ -1,0 +1,325 @@
+{
+  "provenance": {
+    "binding": "pyswisseph 2.10.3.2",
+    "library": "2.10.03",
+    "flag": "SEFLG_MOSEPH",
+    "mode": 1,
+    "node": "mean",
+    "calendar": "Gregorian",
+    "source": "generate_vedic.py"
+  },
+  "fixtures": [
+    {
+      "name": "Asha",
+      "date": "1992-03-12",
+      "time": "05:40",
+      "city": "Bengaluru",
+      "latitude": 12.97,
+      "longitude": 77.59,
+      "timeZone": "Asia/Kolkata",
+      "precision": "known",
+      "utc": "1992-03-12T00:10:00+00:00",
+      "julianDay": 2448693.5069444445,
+      "ayanamsa": 23.752902955306475,
+      "lagna": 312.29807767153795,
+      "positions": {
+        "sun": {
+          "longitude": 327.92588480551785,
+          "speed": 0.9979236658808753
+        },
+        "moon": {
+          "longitude": 56.63267259567812,
+          "speed": 13.75183389480013
+        },
+        "mercury": {
+          "longitude": 345.7832885747932,
+          "speed": 0.7042602494316763
+        },
+        "venus": {
+          "longitude": 303.789026653636,
+          "speed": 1.2347396105369322
+        },
+        "mars": {
+          "longitude": 293.7991114398564,
+          "speed": 0.7727025457202701
+        },
+        "jupiter": {
+          "longitude": 134.38180164752808,
+          "speed": -0.12450965476128759
+        },
+        "saturn": {
+          "longitude": 290.2880878514187,
+          "speed": 0.10297283217910033
+        },
+        "rahu": {
+          "longitude": 252.29378912047233,
+          "speed": -0.052992028648376974
+        },
+        "ketu": {
+          "longitude": 72.2937891204723,
+          "speed": -0.052992028648376974
+        }
+      }
+    },
+    {
+      "name": "Ravi",
+      "date": "1985-08-03",
+      "time": "14:10",
+      "city": "Mysuru",
+      "latitude": 12.3,
+      "longitude": 76.64,
+      "timeZone": "Asia/Kolkata",
+      "precision": "known",
+      "utc": "1985-08-03T08:40:00+00:00",
+      "julianDay": 2446280.861111111,
+      "ayanamsa": 23.652923016444095,
+      "lagna": 221.91150899201517,
+      "positions": {
+        "sun": {
+          "longitude": 107.30106873194462,
+          "speed": 0.95689836659963
+        },
+        "moon": {
+          "longitude": 317.09894095179413,
+          "speed": 12.699798350579425
+        },
+        "mercury": {
+          "longitude": 119.97425796522161,
+          "speed": -0.5235402833146384
+        },
+        "venus": {
+          "longitude": 67.46518249618416,
+          "speed": 1.1428228687537758
+        },
+        "mars": {
+          "longitude": 102.27445618256733,
+          "speed": 0.6432955374228347
+        },
+        "jupiter": {
+          "longitude": 288.5253134456742,
+          "speed": -0.13001228111555133
+        },
+        "saturn": {
+          "longitude": 207.8739380795074,
+          "speed": 0.013789711927581695
+        },
+        "rahu": {
+          "longitude": 20.144771999755978,
+          "speed": -0.05299202674817548
+        },
+        "ketu": {
+          "longitude": 200.144771999756,
+          "speed": -0.05299202674817548
+        }
+      }
+    },
+    {
+      "name": "Meera",
+      "date": "2001-12-21",
+      "time": "22:30",
+      "city": "Delhi",
+      "latitude": 28.61,
+      "longitude": 77.21,
+      "timeZone": "Asia/Kolkata",
+      "precision": "known",
+      "utc": "2001-12-21T17:00:00+00:00",
+      "julianDay": 2452265.2083333335,
+      "ayanamsa": 23.879893785314632,
+      "lagna": 132.02245599872813,
+      "positions": {
+        "sun": {
+          "longitude": 246.02003865091092,
+          "speed": 1.0184223338735823
+        },
+        "moon": {
+          "longitude": 323.3705065579445,
+          "speed": 11.86148012934457
+        },
+        "mercury": {
+          "longitude": 255.43878352036992,
+          "speed": 1.5894614357419603
+        },
+        "venus": {
+          "longitude": 240.33011084842568,
+          "speed": 1.2585445211426687
+        },
+        "mars": {
+          "longitude": 315.46705796733306,
+          "speed": 0.7319101338254621
+        },
+        "jupiter": {
+          "longitude": 78.16233133600963,
+          "speed": -0.13013948118884827
+        },
+        "saturn": {
+          "longitude": 46.15819563232434,
+          "speed": -0.07450089802444339
+        },
+        "rahu": {
+          "longitude": 63.02213601362229,
+          "speed": -0.05299201920306138
+        },
+        "ketu": {
+          "longitude": 243.0221360136223,
+          "speed": -0.05299201920306138
+        }
+      }
+    },
+    {
+      "name": "Kabir",
+      "date": "1978-06-09",
+      "time": "07:15",
+      "city": "Mumbai",
+      "latitude": 19.08,
+      "longitude": 72.88,
+      "timeZone": "Asia/Kolkata",
+      "precision": "known",
+      "utc": "1978-06-09T01:45:00+00:00",
+      "julianDay": 2443668.5729166665,
+      "ayanamsa": 23.55595414764666,
+      "lagna": 70.85446091154505,
+      "positions": {
+        "sun": {
+          "longitude": 54.329924226116,
+          "speed": 0.9566482410070329
+        },
+        "moon": {
+          "longitude": 90.34143777418191,
+          "speed": 11.84253211997268
+        },
+        "mercury": {
+          "longitude": 47.68312395523174,
+          "speed": 2.1430897132224147
+        },
+        "venus": {
+          "longitude": 87.9382951071877,
+          "speed": 1.18683795093709
+        },
+        "mars": {
+          "longitude": 123.7095111432365,
+          "speed": 0.5382787488050454
+        },
+        "jupiter": {
+          "longitude": 77.28952273260798,
+          "speed": 0.21652782470058554
+        },
+        "saturn": {
+          "longitude": 121.78315322711563,
+          "speed": 0.07237003310716973
+        },
+        "rahu": {
+          "longitude": 158.57522572059844,
+          "speed": -0.05299204194663591
+        },
+        "ketu": {
+          "longitude": 338.57522572059844,
+          "speed": -0.05299204194663591
+        }
+      }
+    },
+    {
+      "name": "Dev",
+      "date": "1995-01-05",
+      "time": "12:00",
+      "city": "Chennai",
+      "latitude": 13.08,
+      "longitude": 80.27,
+      "timeZone": "Asia/Kolkata",
+      "precision": "known",
+      "utc": "1995-01-05T06:30:00+00:00",
+      "julianDay": 2449722.7708333335,
+      "ayanamsa": 23.790868362485135,
+      "lagna": 350.8797818854301,
+      "positions": {
+        "sun": {
+          "longitude": 260.65398894427204,
+          "speed": 1.0195364840865213
+        },
+        "moon": {
+          "longitude": 311.09422917845967,
+          "speed": 13.414376349116008
+        },
+        "mercury": {
+          "longitude": 273.5484822609672,
+          "speed": 1.6110726594677978
+        },
+        "venus": {
+          "longitude": 214.05614113507033,
+          "speed": 0.9541284246479449
+        },
+        "mars": {
+          "longitude": 128.84149755896505,
+          "speed": -0.03097093764925629
+        },
+        "jupiter": {
+          "longitude": 221.78836616640515,
+          "speed": 0.19600839421869806
+        },
+        "saturn": {
+          "longitude": 314.565839979702,
+          "speed": 0.08816809944941352
+        },
+        "rahu": {
+          "longitude": 197.75101795513953,
+          "speed": -0.05299202594801406
+        },
+        "ketu": {
+          "longitude": 17.75101795513956,
+          "speed": -0.05299202594801406
+        }
+      }
+    },
+    {
+      "name": "Dev",
+      "date": "1995-01-05",
+      "time": "12:00",
+      "city": "Chennai",
+      "latitude": 13.08,
+      "longitude": 80.27,
+      "timeZone": "Asia/Kolkata",
+      "precision": "unknown",
+      "utc": "1995-01-05T06:30:00+00:00",
+      "julianDay": 2449722.7708333335,
+      "ayanamsa": 23.790868362485135,
+      "lagna": null,
+      "positions": {
+        "sun": {
+          "longitude": 260.65398894427204,
+          "speed": 1.0195364840865213
+        },
+        "moon": {
+          "longitude": 311.09422917845967,
+          "speed": 13.414376349116008
+        },
+        "mercury": {
+          "longitude": 273.5484822609672,
+          "speed": 1.6110726594677978
+        },
+        "venus": {
+          "longitude": 214.05614113507033,
+          "speed": 0.9541284246479449
+        },
+        "mars": {
+          "longitude": 128.84149755896505,
+          "speed": -0.03097093764925629
+        },
+        "jupiter": {
+          "longitude": 221.78836616640515,
+          "speed": 0.19600839421869806
+        },
+        "saturn": {
+          "longitude": 314.565839979702,
+          "speed": 0.08816809944941352
+        },
+        "rahu": {
+          "longitude": 197.75101795513953,
+          "speed": -0.05299202594801406
+        },
+        "ketu": {
+          "longitude": 17.75101795513956,
+          "speed": -0.05299202594801406
+        }
+      }
+    }
+  ]
+}
