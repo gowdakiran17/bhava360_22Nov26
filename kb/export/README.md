@@ -22,3 +22,4 @@ The builder validates every serialized document against its Draft 2020-12 schema
 
 The administrative system files also contain their named calculation tables and configuration documents, keyed by the original KB paths. Shared facts, conventions, governance, glossary metadata, checker recipes, summaries and remedies are in the administrative catalog. Guided palm diagrams are included as static SVG strings at their existing resource paths. Original Python implementations of the seeded Tarot draw and guided palm selection remain in their KB modules.
 Install KB development dependencies in a Python virtual environment with `python -m pip install -r kb/requirements-dev.txt` from the repository root.
+The export needs PyYAML and jsonschema. Regenerating Scenario S1 also needs pyswisseph. On Linux images where Python expects unavailable Clang binaries, use the GCC compiler settings in the repository setup script when installing these requirements.

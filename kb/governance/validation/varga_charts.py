@@ -52,7 +52,8 @@ def validate_vargas(rules, read, require):
         require(v['whole_sign_houses'] and all(f'vedic.houses.house-{h}' in rules for h in v['whole_sign_houses']), rid+' houses')
         require(rule['conditions']=={'all':[{'fact':f'varga.d{n}.verified_placement','op':'eq','value':True}]},rid+' placement gate')
         if n == 60:
-            require(m['read_access']=='stability-gated' and m['unverified_time_confidence_cap']=='low' and not m['user_deity_names'],rid+' held method')
+            require(m['read_access']=='stability-gated' and m['unverified_time_confidence_cap']=='low' and not m['user_deity_names'],rid+' access and confidence')
+            require(m['deity_order']=={'odd':'forward','even':'reverse'},rid+' deity ordering')
         boundaries = m['degree_boundaries']
         require(set(m['sign_lookup'])==set(signs), rid+' lookup coverage')
         if n != 30:
@@ -67,6 +68,11 @@ def validate_vargas(rules, read, require):
             # Bind expected signs to intervals in the static reference. Probe edges from
             # within each interval so both sides are tested even at adjacent sign seams.
             for i,(lo,hi) in enumerate(zip(edges,edges[1:])):
+                if n == 60:
+                    first = 1 if m['deity_order'][('odd','even')[natal%2]] == 'forward' else 60
+                    deity = first + i if first == 1 else first - i
+                    require(deity==(i+1 if natal%2==0 else 60-i) and row[i]==signs[(natal+i)%12],
+                            rid+' deity and sign have independent directions')
                 probes = {lo,lo+epsilon,hi-epsilon}
                 probes.update(d-origin for d in grid[origin:origin+30] if lo <= d-origin < hi)
                 for offset in probes:

@@ -3103,6 +3103,7 @@ methods:
     kn: ಸೂಕ್ಷ್ಮ ವ್ಯತ್ಯಾಸಗಳು
     hi: सूक्ष्म अंतर
   read_access: stability-gated
+  deity_order: {odd: forward, even: reverse}
   deity_index: One-based part in odd signs, 61 minus part in even signs.
   unverified_time_confidence_cap: low
   user_deity_names: false
