@@ -70,7 +70,9 @@ def reading(read, spread_id, *, locale='en', seed=None, reversals=None, cut=0, p
         topic = 'minor-arcana' if '-of-' in card and card!='wheel-of-fortune' else 'major-arcana'
         entry = read(f'tarot/{topic}/{card}-{side}.yaml')
         slot['rule_id'] = entry['id']
-        slots.append(dict(card_name=entry['title'].rsplit(' · ',1)[0],orientation=side,
+        glossary = read(f'glossary/entries/{card}-tarot.yaml')
+        name = localized(glossary['public_label']) if 'public_label' in glossary else entry['title'].rsplit(' · ',1)[0]
+        slots.append(dict(card_name=name,orientation=side,
                           position_text=localized(positions[slot['position']]['user_text']),
                           localized_tone=localized(labels[entry['card_profile']['tone']]),
                           user_text=localized(entry['user_text'])))

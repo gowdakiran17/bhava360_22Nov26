@@ -388,6 +388,11 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if rid in ('vedic.doshas.shrapit', 'vedic.doshas.guru-chandal', 'vedic.doshas.pitru', 'vedic.doshas.grahan'):
+            expected_fields.add('public_label')
+            glossary_slug = 'pitru-dosha' if rid.endswith('.pitru') else rid.split('.')[-1]
+            require(data.get('public_label') == read(f'glossary/entries/{glossary_slug}.yaml')['public_label'],
+                    rid + ' public display label')
         if data['system']=='palmistry' and 'guided' in data:
             expected_fields.add('guided')
         if data['system']=='tarot':

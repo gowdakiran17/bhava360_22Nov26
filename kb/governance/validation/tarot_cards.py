@@ -90,6 +90,12 @@ def validate_tarot(rules,read,require,root):
     require(sum((counts[c]-100)**2/100 for c in deck)<140,'first-card chi-square smoke test')
     all_cards=mod.draw(deck,list(range(78)),seed=args['seed'])['slots']
     require(len({slot['card'] for slot in all_cards})==78,'no replacement')
+    pick = next(i for i, slot in enumerate(all_cards) if slot['card'] == 'death')
+    display = read('glossary/entries/death-tarot.yaml')['public_label']
+    for locale in ('en', 'kn', 'hi', 'fr'):
+        reading = mod.reading(read, 'single-card', locale=locale, seed=args['seed'], picks=[pick])
+        require(reading['public']['slots'][0]['card_name'] == display.get(locale, display['en']),
+                'localized Transformation card label')
     for term in ['doom','disaster','तबाही','ದುರಂತ']:
         require(BLOCK.search(term),'tarot copy guard')
     print('Tarot passed: 78 cards, 156 meanings, 36 decans, spread positions and reproducible draws.')
