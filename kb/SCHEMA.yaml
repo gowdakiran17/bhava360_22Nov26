@@ -40,3 +40,7 @@ vedic_house_entries:
   fields: [number, significations, groupings, natural_karakas, symbolic_body_parts, bhavat_bhavam]
   bhavat_bhavam: Count N houses inclusively from house N, wrapping after twelve.
   body_convention: Kalapurusha sequence by ordinal house, irrespective of the occupying sign.
+western_outer_planet_entries:
+  extension: outer_planet
+  fields: [themes, discovery_year, modern_rulership, traditional_ruler, generational_use, personal_use, orbs]
+  orbs: Resolve the named natal table and compare absolute angular deviation inclusively. Only listed major aspects qualify for personal use.

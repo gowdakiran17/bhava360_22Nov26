@@ -109,6 +109,55 @@ def validate_houses(rules, areas):
             require(isinstance(data[key], list) and data[key] and all(data[key]), rid + ' ' + key)
 
 
+OUTER_BODIES = {'uranus', 'neptune', 'pluto'}
+OUTER_INPUT = re.compile(r'(?<![a-z0-9])(uranus|neptune|pluto|modern[-_]outer|western)(?![a-z0-9])', re.I)
+VEDIC_SYSTEMS = {'vedic', 'jaimini', 'kp'}
+
+
+def check_classical_inputs(value, facts, location, visited):
+    """Follow fact references, including the inputs of derived facts."""
+    if isinstance(value, dict):
+        for key, item in value.items():
+            check_classical_inputs(key, facts, location, visited)
+            check_classical_inputs(item, facts, location, visited)
+    elif isinstance(value, list):
+        for item in value:
+            check_classical_inputs(item, facts, location, visited)
+    elif isinstance(value, str):
+        require(not OUTER_INPUT.search(value), f'{location}: non-classical input {value}')
+        if value in facts and value not in visited:
+            visited.add(value)
+            check_classical_inputs(facts[value], facts, location, visited)
+
+
+def validate_outer_profiles(rules):
+    conventions = read('shared/conventions/profiles.yaml')
+    flag = conventions['presentation_flags']['modern_outer']
+    require(flag['type'] == 'boolean' and flag['default'] is False and
+            set(flag['bodies']) == OUTER_BODIES and flag['calculation_inputs'] == [] and
+            set(flag['when_enabled']) == {'chart_overlay', 'labelled_context'}, 'modern_outer scope')
+    exclusions = {'dignity', 'friendships', 'dasha', 'yogas', 'ashtakavarga', 'shadbala',
+                  'kp_significators', 'kp_star_lords', 'kp_sub_lords'}
+    require(exclusions <= set(flag['excluded_from']), 'modern_outer exclusions')
+    for name in ('vedic-lahiri-v1', 'kp-placidus-v1'):
+        require('modern_outer' in conventions['calculation_profiles'][name]['presentation_flags'], name)
+    fields = read('SCHEMA.yaml')['western_outer_planet_entries']['fields']
+    for body in OUTER_BODIES:
+        rid = 'western.planets.' + body
+        record = rules[rid]
+        attributes = record['outer_planet']
+        require(set(attributes) == set(fields) and all(attributes.values()), rid + ' fields')
+        require(record['conditions'] == {'all': [{'fact': 'western.natal.selected_outer',
+                 'op': 'eq', 'value': body}]}, rid + ' selection')
+        policy = attributes['orbs']
+        require(policy['profile'] == 'western/aspects/orbs.yaml' and policy['table'] == 'draft_natal_orbs'
+                and policy['boundary'] == 'inclusive', rid + ' natal orb profile')
+        major = {'conjunction', 'opposition', 'square', 'trine', 'sextile'}
+        table = read(policy['profile'])[policy['table']]
+        require(set(policy['personal_aspects']) == major and all(table[a]['orb'] > 0 for a in major),
+                rid + ' personal aspects')
+
+
 # Check display copy at any depth, including examples, remedies and non-rule catalogues.
 BANNED_USER_TERMS = re.compile(
     r'\b(?:deaths?|accidents?|fears?|feared|fearing|fearful)\b'
@@ -142,10 +191,21 @@ def main():
     for path in sorted(ROOT.rglob('*.yaml')):
         data=yaml.safe_load(path.read_text())
         validate_user_text(data, path.relative_to(ROOT))
+        system_dir = path.relative_to(ROOT).parts[0]
+        if system_dir in VEDIC_SYSTEMS:
+            if 'rule' in data:
+                inputs = [data['conditions'], *[m['when'] for m in data['strength_notes'] + data['exceptions']]]
+                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra') if k in data)
+            else:
+                # Calculation tables include candidate lists, weights and lord assignments.
+                inputs = data
+            check_classical_inputs(inputs, facts, str(path.relative_to(ROOT)), set())
         if 'rule' not in data or path.parent.name=='templates':
             continue
         rid=data['id']
         expected_fields = set(template)
+        if rid in {'western.planets.' + name for name in OUTER_BODIES}:
+            expected_fields.add('outer_planet')
         if data['system']=='vedic' and data['topic']=='signs':
             expected_fields.add('rasi')
             require(set(data['rasi'])=={'element','modality','ruler','traditional_gender','nature',
@@ -209,6 +269,7 @@ def main():
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
     validate_nakshatras(rules, signs)
     validate_houses(rules, areas['areas'])
+    validate_outer_profiles(rules)
     for area in areas['areas']:
         recipe=read(f'life-areas/{area}/reading.yaml')
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)

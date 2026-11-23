@@ -36,3 +36,4 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, us
 # Vedic planet entries also carry the graha mapping defined in SCHEMA.yaml.
 # Vedic nakshatra entries also carry the nakshatra mapping defined in SCHEMA.yaml.
 # The twelve bhava reference entries also carry the bhava mapping defined in SCHEMA.yaml.
+# Western outer-planet entries carry the outer_planet mapping defined in SCHEMA.yaml.

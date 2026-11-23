@@ -17,6 +17,18 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  western.natal.selected_outer:
+    type: enum
+    producer: western.natal
+    values: [uranus, neptune, pluto]
+    origin: Body bound to a computed tropical natal longitude for this reading.
+    unknown_if: No stable placement or selection.
+  western.natal.selected_outer_personal_contact:
+    type: boolean
+    producer: western.natal
+    dependencies: [western.natal.selected_outer]
+    origin: The selected body forms a major natal aspect within the configured natal orb to the Sun, Moon, Mercury, Venus, Mars, Ascendant or MC. Use stable coordinates for both ends.
+    unknown_if: Inputs or target coordinates needed to resolve the result are unstable or missing.
   d1.jupiter.house_from_lagna:
     producer: vedic.d1
     type: integer

@@ -1,0 +1,98 @@
+id: western.planets.neptune
+system: western
+topic: planets
+title: Neptune
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Use the cohort meaning when the selected natal placement is Neptune. Add the personal reading only with
+  a chart-specific contact.
+conditions:
+  all:
+  - fact: western.natal.selected_outer
+    op: eq
+    value: neptune
+outer_planet:
+  themes:
+  - imagination
+  - ideals
+  - permeable boundaries
+  discovery_year: 1846
+  modern_rulership: pisces
+  traditional_ruler: jupiter
+  generational_use: A shared sign may describe ideals and images familiar to a generation.
+  personal_use: A close contact can help frame how a particular ideal enters a relationship or creative practice.
+  orbs:
+    profile: western/aspects/orbs.yaml
+    table: draft_natal_orbs
+    personal_aspects:
+    - conjunction
+    - sextile
+    - square
+    - trine
+    - opposition
+    boundary: inclusive
+meaning: A shared sign may describe ideals and images familiar to a generation.
+life_areas:
+- learning
+- spirituality
+strength_notes:
+- when:
+    fact: western.natal.selected_outer_personal_contact
+    op: eq
+    value: true
+  effect: stronger
+  reason: A close contact can help frame how a particular ideal enters a relationship or creative practice.
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Modern Western schools may assign Pisces to Neptune or share its rulership with Jupiter. Traditional
+    Western practice keeps Jupiter as its ruler.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: The Vedic profile permits an optional display overlay and contextual mention only.
+- profile: kp-editorial-v1
+  note: This KP profile permits the same optional overlay. Star lords, sub-lords and significators use the
+    classical calculation set.
+sources:
+- book: What Is a Planet?
+  work_id: nasa-planet-definition
+  edition: nasa-planet-definition-web
+  chapter: null
+  verse: null
+  other_locator: Discovery history
+  supports: Year of discovery.
+  verification: verified
+- book: Ruler
+  work_id: astrodienst-ruler
+  edition: astrodienst-ruler-web
+  chapter: null
+  verse: null
+  other_locator: Sign rulers
+  supports: Modern and traditional rulers.
+  verification: verified
+- book: Spiritual Planet
+  work_id: astrodienst-spiritual-planet
+  edition: astrodienst-spiritual-planet-web
+  chapter: null
+  verse: null
+  other_locator: Interpretation
+  supports: Modern planetary themes and the distinction between a slow sign placement and individual chart
+    context.
+  verification: verified
+confidence: medium
+review_notes: The personal-contact filter and natal orbs are editorial conventions. Kannada and Hindi await
+  native review.
+user_text:
+  en: You may find it helpful to name the hope behind an idea.
+  kn: ಒಂದು ಆಲೋಚನೆಯ ಹಿಂದಿರುವ ಆಶೆಯನ್ನು ಗುರುತಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: किसी विचार के पीछे छिपी उम्मीद को पहचानना मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: Write down one hope and a question you still have about it.
+    kn: ಒಂದು ಆಶೆ ಮತ್ತು ಅದರ ಬಗ್ಗೆ ನಿಮಗಿರುವ ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: एक उम्मीद और उससे जुड़ा अपना एक सवाल लिख सकते हैं।

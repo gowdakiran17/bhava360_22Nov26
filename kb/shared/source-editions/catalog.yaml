@@ -1,6 +1,9 @@
 version: 1
 works:
   taittiriya-brahmana: Taittiriya Brahmana
+  nasa-planet-definition: What Is a Planet?
+  astrodienst-ruler: Ruler
+  astrodienst-spiritual-planet: Spiritual Planet
   brihat-samhita: Brihat Samhita
   nakshatra-table: Nakshatra Table
   bphs: Brihat Parashara Hora Shastra
@@ -39,6 +42,30 @@ editions:
     publication_details: VedicPupil digital presentation of the Nakshatra Sukta.
     text: https://vedicpupil.in/library/books/taittiriya-brahmana/chapter-6
     verified_by: Revati stanza names Pushan.
+  nasa-planet-definition-web:
+    work_id: nasa-planet-definition
+    edition_id: nasa-planet-definition-web
+    title_as_printed: What Is a Planet?
+    language: en
+    publication_details: NASA Science
+    text: https://science.nasa.gov/solar-system/planets/what-is-a-planet/
+    verified_by: Discovery history
+  astrodienst-ruler-web:
+    work_id: astrodienst-ruler
+    edition_id: astrodienst-ruler-web
+    title_as_printed: Ruler
+    language: en
+    publication_details: Astrodienst Astrowiki
+    text: https://www.astro.com/astrowiki/en/Ruler
+    verified_by: Sign rulers
+  astrodienst-spiritual-planet-web:
+    work_id: astrodienst-spiritual-planet
+    edition_id: astrodienst-spiritual-planet-web
+    title_as_printed: Spiritual Planet
+    language: en
+    publication_details: Astrodienst Astrowiki
+    text: https://www.astro.com/astrowiki/en/Spiritual_Planet
+    verified_by: Interpretation
   bphs-sivash-44:
     work_id: bphs
     edition_id: bphs-sivash-44
