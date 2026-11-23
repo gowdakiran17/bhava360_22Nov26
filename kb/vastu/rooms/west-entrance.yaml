@@ -1,0 +1,61 @@
+id: vastu.rooms.west-entrance
+system: vastu
+topic: rooms
+title: Entrance · west
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Bind the observed entrance and west zone to the same room within the dwelling. North and east are broad entrance
+  preferences in this modern profile. Door location along a wall is a separate observation.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: west
+  - fact: vastu.observed.room
+    op: eq
+    value: entrance
+meaning: You can keep the door swing and the place where you set things down clear.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.rooms.west-entrance
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can keep the door swing and the place where you set things down clear.
+  kn: ಬಾಗಿಲು ತೆರೆಯುವ ಜಾಗ ಮತ್ತು ವಸ್ತುಗಳನ್ನು ಇಡುವ ಸ್ಥಳವನ್ನು ತೆರವಾಗಿಡಬಹುದು.
+  hi: आप दरवाज़ा खुलने की जगह और सामान रखने की जगह खाली रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  zone: west
+  room: entrance
+  score: 0
+  tone: Steady
+  reason: North and east are broad entrance preferences in this modern profile. Door location along a wall is a
+    separate observation. The selected profile gives a contextual reading for this placement.

@@ -1,0 +1,53 @@
+id: vastu.plots.irregular-footprint
+system: vastu
+topic: plots
+title: Irregular Footprint
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Record L-shaped, triangular or other irregular outlines as observed. Withhold grid assignments when the reference
+  extent is uncertain.
+conditions:
+  all:
+  - fact: vastu.plot.shape
+    op: eq
+    value: irregular
+meaning: Record L-shaped, triangular or other irregular outlines as observed. Withhold grid assignments when the
+  reference extent is uncertain.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: Iyer 53.116 discusses level ground. Later practice often prefers a northward or eastward fall. Plot observations
+    do not apply to an individual apartment floor.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.plots.irregular-footprint
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can mark any recesses on your sketch so the outline reflects the space you use.
+  kn: ನೀವು ಬಳಸುವ ಜಾಗ ಸರಿಯಾಗಿ ಕಾಣಲು ಒಳಚಾಚುಗಳನ್ನು ನಕ್ಷೆಯಲ್ಲಿ ಗುರುತಿಸಬಹುದು.
+  hi: आप नक्शे पर भीतर की ओर कटे हिस्से भी दिखा सकते हैं ताकि इस्तेमाल की जगह स्पष्ट हो।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  tone: Steady

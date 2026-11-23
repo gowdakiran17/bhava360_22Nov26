@@ -1,0 +1,61 @@
+id: vastu.rooms.northeast-pooja
+system: vastu
+topic: rooms
+title: Pooja · northeast
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Bind the observed pooja and northeast zone to the same room within the dwelling. The northeast is the prayer
+  sector in the chapter 53 layout.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: northeast
+  - fact: vastu.observed.room
+    op: eq
+    value: pooja
+meaning: You can choose a quiet place to sit and keep that space clear for prayer.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 53
+  verse: '118'
+  other_locator: On house-building, Iyer translation
+  supports: Traditional southeast kitchen and northeast worship area.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.rooms.northeast-pooja
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can choose a quiet place to sit and keep that space clear for prayer.
+  kn: ಪ್ರಾರ್ಥನೆಗೆ ಶಾಂತವಾಗಿ ಕುಳಿತುಕೊಳ್ಳುವ ಸ್ಥಳವನ್ನು ಆಯ್ದು ಆ ಜಾಗವನ್ನು ತೆರವಾಗಿಡಬಹುದು.
+  hi: आप प्रार्थना के लिए बैठने की शांत जगह चुनकर उसे खाली रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  zone: northeast
+  room: pooja
+  score: 1
+  tone: Supportive
+  reason: The northeast is the prayer sector in the chapter 53 layout. The selected layout profile favours this
+    location for the recorded use.

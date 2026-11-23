@@ -1,0 +1,61 @@
+id: vastu.rooms.southeast-bedroom
+system: vastu
+topic: rooms
+title: Bedroom · southeast
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Bind the observed bedroom and southeast zone to the same room within the dwelling. The selected modern profile
+  favours the southwest for the main sleeping area. Furniture and a clear passage are the practical considerations.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: southeast
+  - fact: vastu.observed.room
+    op: eq
+    value: bedroom
+meaning: You can arrange the furniture you have so there is a clear path from the bed to the door.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.rooms.southeast-bedroom
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can arrange the furniture you have so there is a clear path from the bed to the door.
+  kn: ಹಾಸಿಗೆಯಿಂದ ಬಾಗಿಲಿನವರೆಗೆ ದಾರಿ ತೆರವಾಗಿರುವಂತೆ ಇರುವ ಪೀಠೋಪಕರಣಗಳನ್ನು ಜೋಡಿಸಬಹುದು.
+  hi: आप अपने मौजूदा फ़र्नीचर को ऐसे रख सकते हैं कि बिस्तर से दरवाज़े तक रास्ता खुला रहे।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  zone: southeast
+  room: bedroom
+  score: 0
+  tone: Steady
+  reason: The selected modern profile favours the southwest for the main sleeping area. Furniture and a clear passage
+    are the practical considerations. The selected profile gives a contextual reading for this placement.

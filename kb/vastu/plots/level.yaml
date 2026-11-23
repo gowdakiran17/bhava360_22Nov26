@@ -1,0 +1,51 @@
+id: vastu.plots.level
+system: vastu
+topic: plots
+title: Level
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Record a level site as its own observation.
+conditions:
+  all:
+  - fact: vastu.plot.slope
+    op: eq
+    value: level
+meaning: Record a level site as its own observation.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: Iyer 53.116 discusses level ground. Later practice often prefers a northward or eastward fall. Plot observations
+    do not apply to an individual apartment floor.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.plots.level
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can note which path you already use across the site and where you prefer to sit.
+  kn: ನಿವೇಶನದಲ್ಲಿ ನೀವು ಬಳಸುವ ದಾರಿ ಮತ್ತು ಕುಳಿತುಕೊಳ್ಳಲು ಇಷ್ಟಪಡುವ ಜಾಗವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि भूखंड में आप किस रास्ते का इस्तेमाल करते हैं और कहाँ बैठना पसंद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  tone: Steady

@@ -1,0 +1,51 @@
+id: vastu.plots.regular-footprint
+system: vastu
+topic: plots
+title: Regular Footprint
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Square and rectangular outlines admit a simple reference grid.
+conditions:
+  all:
+  - fact: vastu.plot.shape
+    op: eq
+    value: regular
+meaning: Square and rectangular outlines admit a simple reference grid.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: Iyer 53.116 discusses level ground. Later practice often prefers a northward or eastward fall. Plot observations
+    do not apply to an individual apartment floor.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.plots.regular-footprint
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can mark the edges on a sketch before noting how each space is used.
+  kn: ಪ್ರತಿ ಜಾಗದ ಬಳಕೆಯನ್ನು ಗುರುತಿಸುವ ಮೊದಲು ನಕ್ಷೆಯಲ್ಲಿ ಅಂಚುಗಳನ್ನು ಗುರುತಿಸಬಹುದು.
+  hi: आप जगहों का उपयोग लिखने से पहले नक्शे पर किनारे चिह्नित कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  tone: Steady

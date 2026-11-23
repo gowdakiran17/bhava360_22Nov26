@@ -1,0 +1,73 @@
+id: vastu.rooms.east-water-tank
+system: vastu
+topic: rooms
+title: Water-Tank · east
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Bind the observed water-tank and east zone to the same room within the dwelling. The modern convention distinguishes
+  an underground tank to the north or northeast from overhead storage to the west or southwest. Shared building
+  services are outside a unit reading.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: east
+  - fact: vastu.observed.room
+    op: eq
+    value: water-tank
+meaning: You can keep everyday storage clear of the access route in the part of the home you use.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.rooms.east-water-tank
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can keep everyday storage clear of the access route in the part of the home you use.
+  kn: ನೀವು ಬಳಸುವ ಭಾಗದಲ್ಲಿ ಓಡಾಡುವ ದಾರಿಯಲ್ಲಿ ಮನೆಯ ಸಾಮಾನುಗಳನ್ನು ಇಡದೆ ಇರಬಹುದು.
+  hi: आप घर के जिस हिस्से का इस्तेमाल करते हैं, वहाँ आने-जाने का रास्ता सामान से खाली रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  zone: east
+  room: water-tank
+  score: 0
+  tone: Steady
+  reason: The modern convention distinguishes an underground tank to the north or northeast from overhead storage
+    to the west or southwest. Shared building services are outside a unit reading. The selected profile gives a
+    contextual reading for this placement.
+  by_tank_type:
+    overhead:
+      score: 0
+      tone: Steady
+    underground:
+      score: 0
+      tone: Steady
+    unspecified:
+      score: 0
+      tone: Steady

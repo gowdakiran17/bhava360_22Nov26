@@ -1,0 +1,62 @@
+id: vastu.rooms.centre-staircase
+system: vastu
+topic: rooms
+title: Staircase · centre
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: Bind the observed staircase and centre zone to the same room within the dwelling. The selected profile favours
+  the south, west or southwest for stairs and preserves the central circulation space.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: centre
+  - fact: vastu.observed.room
+    op: eq
+    value: staircase
+meaning: You can keep loose items off the steps and leave the landing clear.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
+sources:
+- book: Building Planning and Design
+  work_id: vastu-building-plan
+  edition: vastu-building-plan-web
+  chapter: null
+  verse: null
+  other_locator: C.E. Circular 228, Vastu Shastra section
+  supports: Modern directional layout conventions. The app’s tones and arrangement suggestions are editorial.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.rooms.centre-staircase
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can keep loose items off the steps and leave the landing clear.
+  kn: ಮೆಟ್ಟಿಲುಗಳಿಂದ ಬಿಡಿ ವಸ್ತುಗಳನ್ನು ತೆಗೆದು ಮಧ್ಯದ ಜಾಗವನ್ನು ತೆರವಾಗಿಡಬಹುದು.
+  hi: आप सीढ़ियों से ढीला सामान हटाकर बीच का चबूतरा खाली रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  zone: centre
+  room: staircase
+  score: -1
+  tone: Take care
+  reason: The selected profile favours the south, west or southwest for stairs and preserves the central circulation
+    space. The selected profile gives this placement a caution reading; its practical prompt concerns only the present
+    arrangement.

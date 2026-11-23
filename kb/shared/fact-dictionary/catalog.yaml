@@ -2187,6 +2187,7 @@ facts:
     - southwest
     - west
     - northwest
+    - centre
   lal_kitab.planet.fixed_house:
     type: integer
     producer: lal-kitab.fixed-houses
@@ -2681,3 +2682,35 @@ facts:
     producer: numerology.pythagorean
     origin: Retained result of the bound metric.
     unknown_if: Unbound or non-master result.
+  vastu.observed.room:
+    type: enum
+    values:
+    - entrance
+    - kitchen
+    - bedroom
+    - pooja
+    - study
+    - toilet
+    - staircase
+    - water-tank
+    producer: vastu.form
+    origin: Confirmed use for the same room ID as the bound sector.
+    unknown_if: Observation unavailable or unresolved.
+  vastu.plot.shape:
+    type: enum
+    values:
+    - regular
+    - irregular
+    producer: vastu.form
+    origin: Recorded shape of the land footprint.
+    unknown_if: Observation unavailable or unresolved.
+  vastu.plot.slope:
+    type: enum
+    values:
+    - level
+    - north-eastward
+    - other
+    producer: vastu.form
+    origin: Observed level or downhill sector of the plot. North, northeast and east
+      map to north-eastward.
+    unknown_if: Observation unavailable or unresolved.

@@ -1,0 +1,21 @@
+synthetic: true
+homes:
+  Asha:
+    dwelling_type: house
+    tenure: owned
+    model: eight
+    reference: magnetic
+    declination_deg: 5
+    rooms:
+    - {id: cook, use: kitchen, central: false, in_unit: true, bearing_deg: 130}
+    expected: {cook: [southeast-kitchen, Supportive]}
+  Ravi:
+    dwelling_type: flat
+    tenure: rented
+    model: sixteen
+    reference: 'true'
+    rooms:
+    - {id: bath, use: toilet, central: false, in_unit: true, bearing_deg: 45}
+    - {id: desk, use: study, central: true, in_unit: true}
+    - {id: roof, use: water-tank, central: false, in_unit: false, bearing_deg: 225, tank_type: overhead}
+    expected: {bath: [northeast-toilet, Take care], desk: [centre-study, Steady]}

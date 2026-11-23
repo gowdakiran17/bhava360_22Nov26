@@ -42,3 +42,4 @@ selection: Evaluate only profile-compatible rules. Deduplicate reasons by underl
   ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
   match, return limited evidence.
 numerology_profile: checks/house-relocation/profile.yaml
+layout_profile: vastu/profile.yaml

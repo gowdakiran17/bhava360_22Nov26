@@ -1,0 +1,92 @@
+approval: draft
+access: admin
+basis: For a confirmed cardinal plan wall, measure the doorway midpoint along its length clockwise from the named
+  corner. The eight equal wall intervals are a modern lookup convention using the classical sequence; these are
+  not compass wedges.
+start_corner:
+  east: northeast
+  south: southeast
+  west: southwest
+  north: northwest
+interval: For 0 <= distance < wall_length, index = 1 + floor(8 * distance / wall_length). At an exact terminal corner
+  use position zero on the next clockwise wall. Withhold if the wall or midpoint is uncertain.
+rows:
+  east:
+  - id: E1
+    deity: Agni
+  - id: E2
+    deity: Parjanya
+  - id: E3
+    deity: Jayanta
+  - id: E4
+    deity: Indra
+  - id: E5
+    deity: Surya
+  - id: E6
+    deity: Satya
+  - id: E7
+    deity: Bhrisha
+  - id: E8
+    deity: Antariksha
+  south:
+  - id: S1
+    deity: Vayu
+  - id: S2
+    deity: Pusha
+  - id: S3
+    deity: Vitatha
+  - id: S4
+    deity: Brihatkshata
+  - id: S5
+    deity: Yama
+  - id: S6
+    deity: Gandharva
+  - id: S7
+    deity: Bhringaraja
+  - id: S8
+    deity: Mriga
+  west:
+  - id: W1
+    deity: Pitri
+  - id: W2
+    deity: Dauvarika
+  - id: W3
+    deity: Sugriva
+  - id: W4
+    deity: Kusumadanta
+  - id: W5
+    deity: Varuna
+  - id: W6
+    deity: Asura
+  - id: W7
+    deity: Shesha
+  - id: W8
+    deity: Papayakshma
+  north:
+  - id: N1
+    deity: Roga
+  - id: N2
+    deity: Ahi
+  - id: N3
+    deity: Mukhya
+  - id: N4
+    deity: Bhallata
+  - id: N5
+    deity: Soma
+  - id: N6
+    deity: Bhujaga
+  - id: N7
+    deity: Aditi
+  - id: N8
+    deity: Diti
+interpretation: The position identifies an entrance tradition for admin review. No independent outcome or automatic
+  change of the room tone.
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 53
+  verse: 42–45, 71–75
+  other_locator: On house-building, Iyer translation
+  supports: Outer deity order and side-specific doorway sequence. Romanization follows the named edition.
+  verification: verified

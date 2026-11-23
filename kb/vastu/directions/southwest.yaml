@@ -1,0 +1,52 @@
+id: vastu.directions.southwest
+system: vastu
+topic: directions
+title: Southwest
+doctrine_profile: vastu-editorial-v1
+approval: draft
+rule: The southwest is associated with Nirriti and rahu.
+conditions:
+  all:
+  - fact: vastu.observed.sector
+    op: eq
+    value: southwest
+meaning: The southwest is associated with Nirriti and rahu.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing.
+sources:
+- book: Planets and Deities of the Directions
+  work_id: vastu-direction-table
+  edition: vastu-direction-table-web
+  chapter: null
+  verse: null
+  other_locator: Eight directions and Brahmasthan
+  supports: Modern graha correspondences and directional guardians.
+  verification: verified
+- book: Bhava360 dwelling observations
+  work_id: bhava360-dwelling-observations
+  edition: bhava360-dwelling-observations-v1
+  chapter: null
+  verse: null
+  other_locator: vastu.directions.southwest
+  supports: Original free arrangement suggestion and tone policy.
+  verification: pending
+confidence: medium
+review_notes: Draft; Kannada and Hindi await native review.
+user_text:
+  en: You can note how you use this part of your home.
+  kn: ಮನೆಯ ಈ ಭಾಗವನ್ನು ಹೇಗೆ ಬಳಸುತ್ತೀರಿ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि घर के इस हिस्से का इस्तेमाल कैसे करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+vastu:
+  deity: Nirriti
+  graha: rahu

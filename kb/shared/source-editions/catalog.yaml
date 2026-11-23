@@ -1,5 +1,7 @@
 version: 1
 works:
+  vastu-building-plan: Building Planning and Design
+  vastu-direction-table: Planets and Deities of the Directions
   astrowiki-return: Solar Return Chart
   astrowiki-progression: Secondary Progression
   astrowiki-pattern: Aspect Figure
@@ -66,6 +68,18 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  vastu-building-plan-web:
+    work_id: vastu-building-plan
+    edition_id: vastu-building-plan-web
+    title_as_printed: Building Planning and Design
+    language: English
+    text: https://ser.indianrailways.gov.in/uploads/files/1303296731291-CEC-228.pdf
+  vastu-direction-table-web:
+    work_id: vastu-direction-table
+    edition_id: vastu-direction-table-web
+    title_as_printed: Planets and Deities of the Directions
+    language: English
+    text: https://simastrovastu.com.au/planetary-vastu-directions.html
   astrowiki-return-web:
     work_id: astrowiki-return
     edition_id: astrowiki-return-web
@@ -424,7 +438,8 @@ editions:
     title_as_printed: Brihat Samhita
     language: en
     publication_details: N. Chidambaram Iyer translation, 1884, electronic chapter transcription.
-    verified_by: Chapter 98 stellar catalogue and classification passages inspected.
+    verified_by: Chapter 98 stellar catalogue and chapter 53 house-building passages inspected.
+    house_building: https://www.wisdomlib.org/hinduism/book/brihat-samhita/d/doc229297.html
     text: https://www.wisdomlib.org/hinduism/book/brihat-samhita/d/doc229361.html
   gendarz-nakshatra-table:
     work_id: nakshatra-table

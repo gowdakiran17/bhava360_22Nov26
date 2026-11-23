@@ -1,37 +1,65 @@
 id: vastu.rooms.southeast-kitchen
 system: vastu
 topic: rooms
-title: Southeast Kitchen
+title: Kitchen · southeast
 doctrine_profile: vastu-editorial-v1
 approval: draft
-rule: User identifies the kitchen in the southeast sector.
+rule: Bind the observed kitchen and southeast zone to the same room within the dwelling. The southeast is Agni’s
+  cooking sector in the chapter 53 layout. The central cells are reserved for circulation in this household profile.
 conditions:
-  all:
+  any:
+  - all:
+    - fact: vastu.observed.sector
+      op: eq
+      value: southeast
+    - fact: vastu.observed.room
+      op: eq
+      value: kitchen
   - fact: vastu.southeast-kitchen
     op: eq
     value: true
-meaning: cooking routines
+meaning: You can keep a clear spot beside the cooking area for the utensils you use most.
 life_areas:
 - family-home
+- property-vehicles
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vastu-editorial-v1
+  note: The base reading uses eight compass sectors plus the centre. The optional sixteen-zone overlay retains the
+    narrower label as context and evaluates the room using its measured eight-sector bearing. Modern placement preferences
+    vary by room and school. The qualitative lookup is the Bhava360 profile.
 sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 53
+  verse: '118'
+  other_locator: On house-building, Iyer translation
+  supports: Traditional southeast kitchen and northeast worship area.
+  verification: verified
 - book: Bhava360 dwelling observations
   work_id: bhava360-dwelling-observations
   edition: bhava360-dwelling-observations-v1
   chapter: null
   verse: null
   other_locator: vastu.rooms.southeast-kitchen
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  supports: Original free arrangement suggestion and tone policy.
   verification: pending
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft; Kannada and Hindi await native review.
 user_text:
-  en: You may use this traditional lens to reflect on cooking routines.
-  kn: ಈ ಸಂಪ್ರದಾಯದ ನೋಟದಲ್ಲಿ “ಅಡುಗೆಯ ದಿನಚರಿ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
-  hi: इस पारंपरिक दृष्टि से “रसोई की दिनचर्या” पर विचार कर सकते हैं।
+  en: You can keep a clear spot beside the cooking area for the utensils you use most.
+  kn: ಅಡುಗೆ ಮಾಡುವ ಸ್ಥಳದ ಪಕ್ಕದಲ್ಲಿ ಹೆಚ್ಚಾಗಿ ಬಳಸುವ ಪಾತ್ರೆಗಳಿಗೆ ಸ್ವಲ್ಪ ಜಾಗ ಬಿಡಬಹುದು.
+  hi: आप खाना बनाने की जगह के पास रोज़ इस्तेमाल होने वाले बर्तनों के लिए थोड़ी जगह खाली रख सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+vastu:
+  zone: southeast
+  room: kitchen
+  score: 1
+  tone: Supportive
+  reason: The southeast is Agni’s cooking sector in the chapter 53 layout. The central cells are reserved for circulation
+    in this household profile. The selected layout profile favours this location for the recorded use.

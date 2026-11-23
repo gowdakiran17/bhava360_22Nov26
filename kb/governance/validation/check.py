@@ -380,6 +380,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system']=='vastu' and 'vastu' in data:
+            expected_fields.add('vastu')
         if data['topic']=='matching' and 'matching' in data:
             expected_fields.add('matching')
         if data['topic']=='muhurta' and 'activity_profile' in data:
@@ -487,6 +489,8 @@ def main():
     validate_western(rules,read,evaluate,require)
     from numerology import validate_numerology
     validate_numerology(rules,read,evaluate,require,ROOT)
+    from vastu import validate_vastu
+    validate_vastu(rules,read,evaluate,require,ROOT)
     for name in areas['checker_ids']:
         recipe=read(f'checkers/{name}/recipe.yaml')
         require(len(recipe['reason_channels'])>=3 and recipe['compare_limit']==3,name)

@@ -1,0 +1,140 @@
+approval: draft
+directions:
+- north
+- northeast
+- east
+- southeast
+- south
+- southwest
+- west
+- northwest
+- centre
+guardians:
+  north: Kubera
+  northeast: Ishana
+  east: Indra
+  southeast: Agni
+  south: Yama
+  southwest: Nirriti
+  west: Varuna
+  northwest: Vayu
+  centre: Brahma
+grahas:
+  north: mercury
+  northeast: jupiter
+  east: sun
+  southeast: venus
+  south: mars
+  southwest: rahu
+  west: saturn
+  northwest: moon
+  centre: null
+rooms:
+- entrance
+- kitchen
+- bedroom
+- pooja
+- study
+- toilet
+- staircase
+- water-tank
+sectors16:
+- N
+- NNE
+- NE
+- ENE
+- E
+- ESE
+- SE
+- SSE
+- S
+- SSW
+- SW
+- WSW
+- W
+- WNW
+- NW
+- NNW
+input:
+  dwelling_type:
+  - flat
+  - house
+  tenure:
+  - rented
+  - owned
+  model:
+  - eight
+  - sixteen
+  reference:
+  - 'true'
+  - magnetic
+  declination_deg: Signed east-positive local declination for the measurement date and location; use true = (magnetic
+    + declination) modulo 360. Never apply declination twice. Missing correction leaves magnetic bearings unresolved.
+  room_list: Each observation supplies a unique room ID, use, verified position in unit, central-region flag and
+    a degree bearing clockwise from north from the unit centre to the room midpoint. For a tank record type and
+    whether it belongs to this unit. Record outward-facing door bearing separately.
+  central_region: On a confirmed rectangular plan the middle third on both axes is the centre (each interval includes
+    its lower bound and excludes its upper bound). A central room has no angular bearing. Unknown centre membership
+    or uncertain boundaries yield no room reading.
+  zones: Index = floor((true_bearing + half_sector_width) / sector_width) modulo sector_count. For the sixteen-zone
+    option retain the exact narrower label but calculate the eight-sector room lookup independently from the same
+    true bearing.
+  entrance_padas: entrances/padas.yaml
+  plot: Optional observed land footprint and downhill direction on a plot; use no plot reading for a flat or unknown
+    land information.
+rendering:
+  access:
+    admin:
+    - zone
+    - sector16
+    - score
+    - reason
+    - pada
+    - source
+    public:
+    - localized_tone
+    - user_text
+  labels: shared/localization/reading.yaml
+  tones:
+  - Supportive
+  - Steady
+  - Take care
+  policy: Choose the rule for the identified room and zone. Use the tank subtype override when applicable. For several
+    rooms retain their own labels; a combined summary is Steady for mixed or all-context observations, otherwise
+    use the sole directional tone. No numeric aggregation.
+  rental: All room texts use free, reversible arrangements of existing space. Flats use the unit footprint and exclude
+    shared installations. Tenure never increases a caution tone.
+house_check:
+  profile: checks/house-relocation/profile.yaml
+  recipe: checkers/house-relocation/recipe.yaml
+  references:
+  - numerology.ank-jyotish.check-house-relocation-dwelling-root
+  - vedic.houses.house-4
+  - vedic.planets.moon
+  - vedic.planets-in-houses.moon-house-4
+  - vastu.chart-fit.moon-fourth
+  - vastu.entrances.check-house-relocation-dwelling-facing
+  - vedic.relocation.check-house-relocation-destination
+  route: House mode joins independently matched layout observations with the optional number check and stable natal
+    fourth-house/Moon context. Only fire Moon-in-fourth when that actual placement holds. City-only mode uses destination
+    coordinates at the birth instant; no rooms, door padas or house number inferred. Use parent recipe for combined
+    evidence.
+form:
+  required: [dwelling_type, tenure, model, reference, rooms]
+  rooms:
+    type: list
+    item_required: [id, use, in_unit, central]
+    id: unique nonempty string within this dwelling
+    use: one of rooms in this profile
+    in_unit: confirmed boolean
+    central: true, false or unknown
+    bearing_deg: finite numeric degrees, required for noncentral room
+    uncertainty_deg: optional nonnegative angular half-width; default zero. Suppress a classification that changes anywhere in the uncertainty interval.
+    tank_type: overhead, underground or unspecified
+  compass:
+    reference: true-north or magnetic; true-north is represented by the string 'true'
+    declination_deg: signed degrees, required for magnetic bearings
+    provenance: preserve observation date, location and declination source with any correction
+  optional:
+    entrance: cardinal wall, wall length and clockwise distance to opening midpoint in the same units
+    plot: confirmed land footprint shape, level flag, and true downhill bearing if sloping
