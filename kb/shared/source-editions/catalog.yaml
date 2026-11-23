@@ -1,5 +1,6 @@
 version: 1
 works:
+  rao-integrated: Vedic Astrology, An Integrated Approach
   maitreya-shadbala: Maitreya Shadbala documentation
   pyjhora-vargas: PyJHora divisional chart methods and weights
   sgs-panchangam: SGS Panchangam
@@ -43,6 +44,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  bphs-av-web:
+    work_id: bphs
+    edition_id: bphs-av-web
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: Sanskrit and English
+    publication_details: Enjoy Learning Sanskrit, online chapters 66–69 and 72.
+    text: https://enjoylearningsanskrit.com/scriptures/parashara/chapter-66/
+    verified_by: Chapter framework and numbered reduction, pinda and aggregate passages inspected.
+  rao-integrated-online:
+    work_id: rao-integrated
+    edition_id: rao-integrated-online
+    title_as_printed: 'Vedic Astrology: An Integrated Approach'
+    language: English
+    publication_details: P. V. R. Narasimha Rao, author-hosted PDF, chapters 12 and 25.
+    text: https://www.vedicastrologer.org/articles/vedic_astro_textbook.pdf
+    verified_by: Inspected Tables 19–25, 28–29 and 60 and associated text.
   maitreya-shadbala-web:
     work_id: maitreya-shadbala
     edition_id: maitreya-shadbala-web

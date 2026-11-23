@@ -426,5 +426,18 @@ totals:
 reduction: Keep raw BAV/SAV for transit use. On a copy subtract the smallest value in each elemental trine from all three.
   Then reduce dual-owned signs under the selected occupancy convention.
 pinda: For each reduced row sum sign bindus × sign weights for Rashi Pinda. Sum reduced bindus in occupied signs × graha weights
-  for Graha Pinda. Add the two for Shodhya Pinda. Pin multipliers and a worked example before release.
-visibility: Admin numeric evidence only
+  for Graha Pinda. Add the two for Shodhya Pinda. Use the named weight and occupancy profiles in shodhya-pinda.yaml and shodhana.yaml.
+visibility: Numeric evidence for admin and tester roles only.
+numeric_access:
+- admin
+- tester
+transit_bands:
+  Take care:
+  - 0
+  - 3
+  Steady:
+  - 4
+  - 4
+  Supportive:
+  - 5
+  - 8

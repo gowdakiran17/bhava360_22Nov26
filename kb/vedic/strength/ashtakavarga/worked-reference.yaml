@@ -46,3 +46,4 @@ expected_mercury_bav:
 - 3
 - 6
 - 4
+numeric_access: [admin, tester]

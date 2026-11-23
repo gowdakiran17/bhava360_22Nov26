@@ -17,6 +17,18 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  strength.ashtakavarga.selected_component:
+    type: enum
+    producer: vedic.strength/ashtakavarga
+    origin: Completed diagnostic selection for an admin or tester in the named Ashtakavarga profile.
+    unknown_if: Unauthorized role or missing natal inputs.
+    values: [sun-bav, moon-bav, mars-bav, mercury-bav, jupiter-bav, venus-bav, saturn-bav, sarvashtakavarga, shodhana, shodhya-pinda, kakshya]
+  transit.bav.band:
+    type: enum
+    producer: vedic.strength/ashtakavarga
+    origin: Inclusive raw BAV band for the transiting graha and sign from vedic/strength/ashtakavarga/bindu.yaml.
+    unknown_if: Graha, natal profile, raw marks or transit sign unavailable or unstable.
+    values: [Supportive, Steady, Take care]
   strength.shadbala.selected_component:
     type: enum
     producer: vedic.strength
@@ -1220,7 +1232,7 @@ facts:
   transit.bav.supportive:
     type: boolean
     producer: vedic.strength/ashtakavarga
-    origin: Chosen transit sign is supported by the transiting graha’s unreduced BAV under the validated qualitative threshold.
+    origin: True exactly when transit.bav.band is Supportive. Preserve unknown if the band is unresolved.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
   dosha.mars.natal_candidate:
     type: boolean

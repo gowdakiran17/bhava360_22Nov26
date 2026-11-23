@@ -1,0 +1,86 @@
+id: vedic.strength-ashtakavarga.shodhana
+system: vedic
+topic: strength/ashtakavarga
+title: Trikona and Ekadhipatya shodhana
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Copy each raw planetary row. Within each elemental trine, subtract its minimum from every member. Then apply
+  the ordered occupancy cases in reductions.yaml to the five co-owned pairs. Cancer and Leo have no partner. Retain
+  the intermediate and final rows for inspection.
+conditions:
+  all:
+  - fact: strength.ashtakavarga.selected_component
+    op: eq
+    value: shodhana
+meaning: A closer look at related signs may add context to this part of your chart.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use natal occupancy by the seven grahas. A separate benchmark also counts Lagna and nodes. Some schools
+    clear the remaining member of a trine with two zeroes. In this profile a zero minimum leaves the trine intact.
+    For a tied occupied/empty pair, clear the empty member.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-av-web
+  chapter: 67
+  verse: 1–5
+  other_locator: null
+  supports: Trinal subtraction.
+  verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-av-web
+  chapter: 68
+  verse: 1–6
+  other_locator: null
+  supports: Reduction of co-owned signs.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 12
+  verse: null
+  other_locator: Sections 12.7.1–12.7.2
+  supports: Case distinctions and alternative treatment of zeroes.
+  verification: verified
+confidence: medium
+review_notes: Draft reading. Native-language review pending.
+user_text:
+  en: A closer look at related signs may add context to this part of your chart.
+  kn: ಸಂಬಂಧಿತ ರಾಶಿಗಳನ್ನು ಗಮನಿಸುವುದರಿಂದ ಕುಂಡಲಿಯ ಈ ಭಾಗವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: संबंधित राशियों को साथ देखने से कुंडली के इस हिस्से को समझने में मदद मिल सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  input: raw_bav_copy
+  case_table: vedic/strength/ashtakavarga/reductions.yaml
+  trines:
+  - - 0
+    - 4
+    - 8
+  - - 1
+    - 5
+    - 9
+  - - 2
+    - 6
+    - 10
+  - - 3
+    - 7
+    - 11
+  occupants:
+  - sun
+  - moon
+  - mars
+  - mercury
+  - jupiter
+  - venus
+  - saturn

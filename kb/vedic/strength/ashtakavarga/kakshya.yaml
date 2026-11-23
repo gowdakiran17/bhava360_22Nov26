@@ -1,0 +1,58 @@
+id: vedic.strength-ashtakavarga.kakshya
+system: vedic
+topic: strength/ashtakavarga
+title: Kakshya and contributor support
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Normalize the current sidereal transit longitude modulo a full circle. Within its sign use the zero-based
+  floor of arcminutes divided by 225. Look up the lord at that index, then read only that contributor’s bit in
+  the transiting graha’s raw prastara for the transit sign. Re-evaluate on boundary crossings in either direction.
+conditions:
+  all:
+  - fact: strength.ashtakavarga.selected_component
+    op: eq
+    value: kakshya
+meaning: The current part of the transit may bring a particular chart theme into focus.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some readings use the sign total alone. A kakshya reads the particular contributor’s mark and leaves the
+    transit band unchanged.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: Section 25.5.2, Table 60
+  supports: Boundaries, lord sequence and contributor-specific mark.
+  verification: verified
+confidence: medium
+review_notes: Draft reading. Native-language review pending.
+user_text:
+  en: The current part of the transit may bring a particular chart theme into focus.
+  kn: ಸಂಚಾರದ ಈ ಹಂತದಲ್ಲಿ ಕುಂಡಲಿಯ ಒಂದು ವಿಷಯ ಹೆಚ್ಚು ಸ್ಪಷ್ಟವಾಗಬಹುದು.
+  hi: गोचर के इस हिस्से में कुंडली का कोई विषय अधिक स्पष्ट हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  width_arcminutes: 225
+  lords:
+  - saturn
+  - jupiter
+  - mars
+  - sun
+  - venus
+  - mercury
+  - moon
+  - lagna
+  bounds: lower-inclusive upper-exclusive
+  input: raw_prastara

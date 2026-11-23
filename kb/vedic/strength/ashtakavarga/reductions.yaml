@@ -12,13 +12,22 @@ same_owner_pairs:
 - Gemini/Virgo
 - Sagittarius/Pisces
 - Capricorn/Aquarius
-occupancy: Pin whether nodes or Lagna count as occupants. Never mix occupancy definitions between worked examples.
+occupancy: Default to the seven natal grahas. Only the separately labeled comparison uses its expanded occupancy mask.
 cases:
   either_zero_or_both_occupied: Preserve both values.
   both_empty_equal: Set both to zero.
   both_empty_unequal: Set both to the smaller value.
   one_occupied: Retain occupied value. Empty value becomes zero if less than or equal to occupied, otherwise reduce it to
     the occupied value.
+worked_example:
+  fixture: Asha
+  target: saturn
+  signs: [aries, scorpio]
+  occupants: [[sun], []]
+  case: one_occupied
+  after_trikona: [3, 1]
+  after_ekadhipatya: [3, 0]
+  explanation: The Sun occupies Aries and Scorpio is empty. Keep Aries at three and clear the smaller Scorpio value.
 rashi_weights:
   pvr:
   - 7
@@ -54,3 +63,4 @@ graha_weights_sun_through_saturn:
 - 10
 - 7
 - 5
+numeric_access: [admin, tester]

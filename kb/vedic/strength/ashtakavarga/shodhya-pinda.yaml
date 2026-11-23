@@ -1,0 +1,57 @@
+id: vedic.strength-ashtakavarga.shodhya-pinda
+system: vedic
+topic: strength/ashtakavarga
+title: Shodhya pinda
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For each target, multiply each fully reduced sign value by its rashi weight and sum. For every natal graha
+  multiply its graha weight by the reduced value at its natal sign and sum, counting co-occupants separately.
+  Add rashi and graha pinda.
+conditions:
+  all:
+  - fact: strength.ashtakavarga.selected_component
+    op: eq
+    value: shodhya-pinda
+meaning: These chart relationships may offer another way to reflect on a familiar theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: BPHS assigns Virgo a multiplier of five. Table 28 in Rao gives six. The selected classical-weight profile
+    uses five. The published comparison has its own occupancy convention.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-av-web
+  chapter: 69
+  verse: 1–4
+  other_locator: null
+  supports: Sign and planetary multiplication and summation.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 12
+  verse: null
+  other_locator: Tables 28–29
+  supports: Alternate Virgo weight and the graha multipliers.
+  verification: verified
+confidence: medium
+review_notes: Draft reading. Native-language review pending.
+user_text:
+  en: These chart relationships may offer another way to reflect on a familiar theme.
+  kn: ಕುಂಡಲಿಯ ಈ ಸಂಬಂಧಗಳು ಪರಿಚಿತ ವಿಷಯವನ್ನು ಮತ್ತೊಂದು ರೀತಿಯಲ್ಲಿ ಗಮನಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: कुंडली के ये संबंध किसी परिचित विषय को दूसरे ढंग से समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  input: after_ekadhipatya
+  weights: vedic/strength/ashtakavarga/reductions.yaml
+  rashi_weight_profile: alternative

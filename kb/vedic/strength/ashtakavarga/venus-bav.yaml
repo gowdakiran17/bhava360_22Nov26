@@ -1,0 +1,55 @@
+id: vedic.strength-ashtakavarga.venus-bav
+system: vedic
+topic: strength/ashtakavarga
+title: Venus · Bhinnashtakavarga
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For each contributor, count inclusively from its own natal sign. Mark a destination once when its distance
+  occurs in the Venus offset row. Retain all contributor bits as prastara and sum them by destination sign.
+conditions:
+  all:
+  - fact: strength.ashtakavarga.selected_component
+    op: eq
+    value: venus-bav
+meaning: This placement may help explain how a transit fits the wider chart.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The library counts a supportive mark as a bindu. In the cited textbook the same mark is called a rekha.
+    Convert the notation before using another table.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-av-web
+  chapter: 66
+  verse: null
+  other_locator: Ashtakavarga construction
+  supports: Classical contributor framework.
+  verification: chapter-only
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 12
+  verse: null
+  other_locator: Table 24
+  supports: All eight contributor columns compared cell by cell.
+  verification: verified
+confidence: medium
+review_notes: Draft reading. Native-language review pending.
+user_text:
+  en: This placement may help explain how a transit fits the wider chart.
+  kn: ಈ ಸ್ಥಾನವು ಸಂಚಾರವನ್ನು ಕುಂಡಲಿಯ ಇತರ ಸೂಚನೆಗಳೊಂದಿಗೆ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: यह स्थिति गोचर को कुंडली के बाकी संकेतों के साथ समझने में मदद कर सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  offset_table: vedic/strength/ashtakavarga/bindu.yaml
+  target: venus

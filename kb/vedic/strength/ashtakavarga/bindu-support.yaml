@@ -1,10 +1,12 @@
 id: vedic.strength-ashtakavarga.bindu-support
 system: vedic
 topic: strength/ashtakavarga
-title: Bindu Support
+title: Supportive · transit BAV
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Chosen transit sign is supported by the transiting graha’s unreduced BAV under the validated qualitative threshold.
+rule: Use the raw natal BAV of the transiting graha at its current sidereal sign. Select the inclusive band in
+  bindu.yaml. Require a stable sign, identified graha and the matching natal profile. Suppress the reading if
+  these are unresolved.
 conditions:
   all:
   - fact: transit.bav.supportive
@@ -14,18 +16,21 @@ meaning: This sign may offer support during the indicated transit.
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some readings add SAV or the kakshya contributor as secondary context. This transit band is decided by
+    the raw individual BAV.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
   verse: null
-  other_locator: vedic.strength-ashtakavarga.bindu-support
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Section 25.5, before 25.5.1
+  supports: Upper and lower BAV thresholds. The middle band and public wording are editorial.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft reading. Native-language review pending.
 user_text:
   en: This sign may offer support during the indicated transit.
   kn: ಸೂಚಿಸಿದ ಸಂಚಾರದಲ್ಲಿ ಈ ರಾಶಿಯಿಂದ ಬೆಂಬಲ ಸಿಗಬಹುದು.
@@ -34,3 +39,10 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  tone: Supportive
+  band_table: vedic/strength/ashtakavarga/bindu.yaml

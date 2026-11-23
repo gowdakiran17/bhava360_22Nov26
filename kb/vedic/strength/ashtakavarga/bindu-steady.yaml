@@ -1,0 +1,48 @@
+id: vedic.strength-ashtakavarga.bindu-steady
+system: vedic
+topic: strength/ashtakavarga
+title: Steady · transit BAV
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use the raw natal BAV of the transiting graha at its current sidereal sign. Select the inclusive band in
+  bindu.yaml. Require a stable sign, identified graha and the matching natal profile. Suppress the reading if
+  these are unresolved.
+conditions:
+  all:
+  - fact: transit.bav.band
+    op: eq
+    value: Steady
+meaning: You may find it helpful to keep a familiar pace during this transit.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some readings add SAV or the kakshya contributor as secondary context. This transit band is decided by
+    the raw individual BAV.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: Section 25.5, before 25.5.1
+  supports: Upper and lower BAV thresholds. The middle band and public wording are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft reading. Native-language review pending.
+user_text:
+  en: You may find it helpful to keep a familiar pace during this transit.
+  kn: ಈ ಸಂಚಾರದ ಅವಧಿಯಲ್ಲಿ ಪರಿಚಿತ ಗತಿಯನ್ನು ಮುಂದುವರಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: इस गोचर में अपनी परिचित गति बनाए रखना मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: bphs-seven-graha-337
+  numeric_access:
+  - admin
+  - tester
+  tone: Steady
+  band_table: vedic/strength/ashtakavarga/bindu.yaml

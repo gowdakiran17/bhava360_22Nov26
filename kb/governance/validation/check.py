@@ -375,6 +375,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['topic']=='strength/ashtakavarga':
+            expected_fields.add('calculation')
         if data['topic']=='strength/shadbala' and rid!='vedic.strength-shadbala.six-components':
             expected_fields.add('calculation')
         if data['system'] == 'vedic' and data['topic'] == 'house-lords':
@@ -485,6 +487,8 @@ def main():
     validate_shadbala(rules, read, require)
     from varga_charts import validate_vargas
     validate_vargas(rules, read, require)
+    from ashtakavarga import validate_ashtakavarga
+    validate_ashtakavarga(rules,read,evaluate,require)
     bindu=read('vedic/strength/ashtakavarga/bindu.yaml')
     for reference_positions in ([0]*8,list(range(8)),[11,6,2,0,1,4,8,3]):
         sums=[0]*12

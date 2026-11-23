@@ -136,3 +136,10 @@ vedic_shadbala_entries:
   public_fields: [user_text]
   public_copy: Select a complete locale map from the reviewed qualitative phrase list in vedic/strength/shadbala/components.yaml. Do not interpolate any input, component, threshold or result into public text.
   units: Sixty virupas (shashtiamsas of strength) make one rupa. Keep full precision until an authorized diagnostic display.
+vedic_ashtakavarga_entries:
+  extension: calculation
+  numeric_roles: [admin, tester]
+  public_fields: [user_text]
+  public_projection: Render only localized qualitative text. Keep offset tables, contributor bits, sign counts, reductions and pinda out of public evidence.
+  input: Raw prastara is indexed by target graha, contributor and sidereal sign. Each supportive mark contributes one.
+  reduction: Preserve raw BAV and SAV. Apply the named occupancy and weight profiles only to the separate reduced rows.
