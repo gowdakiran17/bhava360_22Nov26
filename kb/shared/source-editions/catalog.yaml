@@ -35,6 +35,14 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  bphs-divyachadhava-24:
+    work_id: bphs
+    edition_id: bphs-divyachadhava-24
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: English
+    publication_details: DivyaChadhava electronic chapter 24 transcription.
+    text: https://divyachadhava.com/en/sanatan-sahitya/bphs-chapter-24-effects-of-the-bhava-lords
+    verified_by: House-lord placement sections checked against this transcription. Numbering varies across editions.
   surya-siddhanta-burgess:
     work_id: surya-siddhanta
     edition_id: surya-siddhanta-burgess

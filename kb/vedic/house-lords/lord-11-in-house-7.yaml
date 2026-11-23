@@ -1,0 +1,104 @@
+id: vedic.house-lords.lord-11-in-house-7
+system: vedic
+topic: house-lords
+title: Lord of house 11 in house 7
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 11 occupies house 7 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_11.distance_from_lagna
+    op: eq
+    value: 7
+house_pair:
+  source_house: 11
+  occupied_house: 7
+  themes:
+  - gains and longer-term aims
+  - one-to-one agreements
+  source_groups:
+  - upachaya
+  occupied_groups:
+  - kendra
+  - maraka
+  logic: The ruler carries concerns about gains and longer-term aims into the setting of one-to-one agreements.
+    The angular destination can bring the source topic into visible decisions.
+  reciprocal_placement: vedic.house-lords.lord-7-in-house-11
+related_rules:
+- vedic.yogas.parivartana
+meaning: The ruler carries concerns about gains and longer-term aims into the setting of one-to-one agreements.
+  When a goal is within reach, you can ask the other person what they understood you to be offering.
+life_areas:
+- money
+- career
+- family-home
+- love-marriage
+- business
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '127'
+  other_locator: House 11 lord section, placement in house 7
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When a goal is within reach, you can ask the other person what they understood you to be offering.
+  kn: ಗುರಿಯೊಂದು ಕೈಗೆಟುಕುವಾಗ ನೀವು ಏನು ನೀಡಲು ಮುಂದಾಗಿದ್ದೀರಿ ಎಂದು ಇನ್ನೊಬ್ಬರು ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡರು ಎಂಬುದನ್ನು ಕೇಳಬಹುದು.
+  hi: जब कोई लक्ष्य पहुँच में आने लगे, आप दूसरे व्यक्ति से पूछ सकते हैं कि उन्होंने आपकी पेशकश को कैसे समझा।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can ask a partner what each of you understood before deciding together.
+    kn: ಜೊತೆಯಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಒಪ್ಪಂದವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
+    hi: साथ मिलकर फैसला लेने से पहले आप बात कर सकते हैं कि समझौते को दोनों ने कैसे समझा।

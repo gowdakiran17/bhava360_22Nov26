@@ -1,0 +1,102 @@
+id: vedic.house-lords.lord-1-in-house-11
+system: vedic
+topic: house-lords
+title: Lord of house 1 in house 11
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 1 occupies house 11 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_1.distance_from_lagna
+    op: eq
+    value: 11
+house_pair:
+  source_house: 1
+  occupied_house: 11
+  themes:
+  - personal choices
+  - gains and shared aims
+  source_groups:
+  - kendra
+  - trikona
+  occupied_groups:
+  - upachaya
+  logic: The ruler carries concerns about personal choices into the setting of gains and shared aims.
+  reciprocal_placement: vedic.house-lords.lord-11-in-house-1
+related_rules:
+- vedic.yogas.parivartana
+meaning: The ruler carries concerns about personal choices into the setting of gains and shared aims. When deciding
+  what fits your own needs, you can name the goal a new resource would serve.
+life_areas:
+- health
+- money
+- career
+- family-home
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '11'
+  other_locator: House 1 lord section, placement in house 11
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When deciding what fits your own needs, you can name the goal a new resource would serve.
+  kn: ನಿಮ್ಮ ಅಗತ್ಯಕ್ಕೆ ಯಾವುದು ಹೊಂದುತ್ತದೆ ಎಂದು ಯೋಚಿಸುವಾಗ ಹೊಸ ಸಂಪನ್ಮೂಲ ಯಾವ ಗುರಿಗೆ ನೆರವಾಗುತ್ತದೆ ಎಂದು ಗುರುತಿಸಬಹುದು.
+  hi: जब आप अपनी ज़रूरत पर विचार करें, आप तय कर सकते हैं कि नया साधन किस लक्ष्य में मदद करेगा।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can name a goal before deciding how to use a new resource.
+    kn: ಹೊಸ ಸಂಪನ್ಮೂಲವನ್ನು ಹೇಗೆ ಬಳಸಬೇಕೆಂದು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಒಂದು ಗುರಿಯನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: कोई नया साधन कैसे इस्तेमाल करें, यह तय करने से पहले आप अपना लक्ष्य पहचान सकते हैं।

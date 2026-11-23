@@ -136,6 +136,36 @@ def validate_states(rules, facts):
         require(combustion_match(combustion, graha, 0, 0, 1) is False, graha + ' ineligible')
 
 
+def validate_house_lords(rules):
+    houses = range(1, 13)
+    prefix = 'vedic.house-lords.'
+    expected = {f'{prefix}lord-{a}-in-house-{b}' for a in houses for b in houses}
+    actual = {r['id'] for r in rules.values() if (r['system'], r['topic']) == ('vedic', 'house-lords')}
+    require(actual == expected and len(actual) == 144, 'house-lord grid is incomplete or unexpected')
+    for rid in sorted(expected):
+        entry = rules[rid]
+        pair = entry['house_pair']
+        a, b = pair['source_house'], pair['occupied_house']
+        require(rid == f'{prefix}lord-{a}-in-house-{b}', rid + ' house pair')
+        require(entry['conditions'] == {'all': [{'fact': f'd1.lord_{a}.distance_from_lagna',
+                'op': 'eq', 'value': b}]}, rid + ' chart binding')
+        src, dest = [rules[f'vedic.houses.house-{i}'] for i in (a, b)]
+        tags = set(src['life_areas']) | set(dest['life_areas'])
+        require(set(entry['life_areas']) == tags and len(entry['life_areas']) == len(tags), rid + ' life-area union')
+        require(pair['source_groups'] == src['bhava']['groupings'] and
+                pair['occupied_groups'] == dest['bhava']['groupings'], rid + ' groups')
+        swap = f'{prefix}lord-{b}-in-house-{a}' if a != b else None
+        require(pair['reciprocal_placement'] == swap, rid + ' reciprocal')
+        eligible = {'vedic.yogas.parivartana'} if swap else set()
+        for group, key in [({1, 4, 7, 10}, 'raja'), ({2, 11}, 'dhana')]:
+            if (a in group and b in (5, 9)) or (b in group and a in (5, 9)):
+                eligible.add('vedic.yogas.' + key)
+        reversal = {6: 'harsha', 8: 'sarala', 12: 'vimala'}
+        if a in reversal and b in reversal:
+            eligible.add('vedic.yogas.' + reversal[a])
+        require(set(entry['related_rules']) == eligible and eligible <= rules.keys(), rid + ' yoga pointers')
+
+
 def validate_planets_in_houses(rules, grahas):
     prefix = 'vedic.planets-in-houses.'
     expected = {f'{prefix}{g}-house-{n}' for g in grahas for n in range(1, 13)}
@@ -336,7 +366,7 @@ def main():
         if system_dir in VEDIC_SYSTEMS:
             if 'rule' in data:
                 inputs = [data['conditions'], *[m['when'] for m in data['strength_notes'] + data['exceptions']]]
-                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state', 'placement') if k in data)
+                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state', 'placement', 'house_pair') if k in data)
             else:
                 # Calculation tables include candidate lists, weights and lord assignments.
                 inputs = data
@@ -345,6 +375,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system'] == 'vedic' and data['topic'] == 'house-lords':
+            expected_fields.update(('house_pair', 'related_rules'))
         if data['system'] == 'vedic' and data['topic'] in ('planets-in-signs', 'planets-in-houses'):
             expected_fields.add('placement')
         if data['topic'] == 'planets-in-houses' and 'related_rules' in data:
@@ -417,6 +449,7 @@ def main():
                     expected[field][name] = attributes[field][graha]
             require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
+    validate_house_lords(rules)
     validate_planets_in_houses(rules, grahas)
     validate_planets_in_signs(rules, grahas, signs)
     validate_nakshatras(rules, signs)

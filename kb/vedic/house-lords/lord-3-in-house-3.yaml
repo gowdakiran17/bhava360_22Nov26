@@ -1,0 +1,89 @@
+id: vedic.house-lords.lord-3-in-house-3
+system: vedic
+topic: house-lords
+title: Lord of house 3 in house 3
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 3 occupies house 3 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_3.distance_from_lagna
+    op: eq
+    value: 3
+house_pair:
+  source_house: 3
+  occupied_house: 3
+  themes:
+  - practice and initiative
+  - skills built through practice
+  source_groups: &id001
+  - upachaya
+  occupied_groups: *id001
+  logic: The ruler remains in the house it governs, concentrating attention on practice and initiative.
+  reciprocal_placement: null
+related_rules: []
+meaning: The ruler remains in the house it governs, concentrating attention on practice and initiative. When taking
+  the first step toward a skill, you can try one small rehearsal before committing.
+life_areas:
+- family-home
+- learning
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '27'
+  other_locator: House 3 lord section, placement in house 3
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When taking the first step toward a skill, you can try one small rehearsal before committing.
+  kn: ಹೊಸ ಕೌಶಲದತ್ತ ಮೊದಲ ಹೆಜ್ಜೆ ಇಡುವಾಗ ಮುಂದುವರಿಯುವ ಮೊದಲು ಒಂದು ಸಣ್ಣ ಅಭ್ಯಾಸ ಮಾಡಬಹುದು.
+  hi: जब आप किसी हुनर की शुरुआत करें, आप हामी भरने से पहले एक छोटा अभ्यास कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can choose one small part to practise today.
+    kn: ಹೊಸ ಕೌಶಲದ ಒಂದು ಸಣ್ಣ ಭಾಗವನ್ನು ಇಂದು ಅಭ್ಯಾಸ ಮಾಡಬಹುದು.
+    hi: आज आप किसी नए हुनर के एक छोटे हिस्से का अभ्यास कर सकते हैं।

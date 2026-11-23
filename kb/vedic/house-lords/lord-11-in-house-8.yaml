@@ -1,0 +1,104 @@
+id: vedic.house-lords.lord-11-in-house-8
+system: vedic
+topic: house-lords
+title: Lord of house 11 in house 8
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 11 occupies house 8 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_11.distance_from_lagna
+    op: eq
+    value: 8
+house_pair:
+  source_house: 11
+  occupied_house: 8
+  themes:
+  - gains and longer-term aims
+  - changes in shared resources
+  source_groups:
+  - upachaya
+  occupied_groups:
+  - dusthana
+  logic: The ruler carries concerns about gains and longer-term aims into the setting of changes in shared resources.
+    The destination brings the source topic into a setting that may need time or support.
+  reciprocal_placement: vedic.house-lords.lord-8-in-house-11
+related_rules:
+- vedic.yogas.parivartana
+meaning: The ruler carries concerns about gains and longer-term aims into the setting of changes in shared resources.
+  When a goal is within reach, you can clarify who will handle a shared cost if arrangements change.
+life_areas:
+- money
+- career
+- family-home
+- love-marriage
+- health
+- spirituality
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '128'
+  other_locator: House 11 lord section, placement in house 8
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When a goal is within reach, you can clarify who will handle a shared cost if arrangements change.
+  kn: ಗುರಿಯೊಂದು ಕೈಗೆಟುಕುವಾಗ ವ್ಯವಸ್ಥೆ ಬದಲಾದರೆ ಹಂಚಿಕೊಂಡ ವೆಚ್ಚವನ್ನು ಯಾರು ನೋಡಿಕೊಳ್ಳುತ್ತಾರೆ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+  hi: जब कोई लक्ष्य पहुँच में आने लगे, आप स्पष्ट कर सकते हैं कि व्यवस्था बदले तो साझा खर्च कौन सँभालेगा।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: If you like, write down one shared responsibility you would like to discuss.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನೀವು ಚರ್ಚಿಸಲು ಬಯಸುವ ಒಂದು ಹಂಚಿಕೆಯ ಜವಾಬ್ದಾರಿಯನ್ನು ಬರೆದಿಡಬಹುದು.
+    hi: चाहें तो कोई एक साझी ज़िम्मेदारी लिख लें जिस पर आप बात करना चाहते हैं।

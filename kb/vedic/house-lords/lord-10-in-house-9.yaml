@@ -1,0 +1,107 @@
+id: vedic.house-lords.lord-10-in-house-9
+system: vedic
+topic: house-lords
+title: Lord of house 10 in house 9
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 10 occupies house 9 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_10.distance_from_lagna
+    op: eq
+    value: 9
+house_pair:
+  source_house: 10
+  occupied_house: 9
+  themes:
+  - work and public responsibility
+  - learning from a trusted guide
+  source_groups:
+  - kendra
+  - upachaya
+  occupied_groups:
+  - trikona
+  logic: The ruler carries concerns about work and public responsibility into the setting of learning from a trusted
+    guide. An angle and a trine are linked by house placement. Check whether their distinct lords also conjoin
+    or exchange.
+  reciprocal_placement: vedic.house-lords.lord-9-in-house-10
+related_rules:
+- vedic.yogas.parivartana
+- vedic.yogas.raja
+meaning: The ruler carries concerns about work and public responsibility into the setting of learning from a trusted
+  guide. When planning work others rely on, you can consider which piece of advice fits the situation.
+life_areas:
+- career
+- business
+- learning
+- spirituality
+- travel-relocation
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '117'
+  other_locator: House 10 lord section, placement in house 9
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When planning work others rely on, you can consider which piece of advice fits the situation.
+  kn: ಇತರರು ಅವಲಂಬಿಸಿರುವ ಕೆಲಸದ ಯೋಜನೆ ಮಾಡುವಾಗ ಯಾವ ಸಲಹೆ ಈ ಸಂದರ್ಭಕ್ಕೆ ಹೊಂದುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: जब आप ऐसे काम की योजना बनाएँ जिस पर दूसरे निर्भर हैं, आप देख सकते हैं कि कौन सी सलाह इस स्थिति में उपयोगी
+    है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can recall one lesson you still put into practice.
+    kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: आप कोई ऐसी सीख याद कर सकते हैं जिस पर आप आज भी अमल करते हैं।

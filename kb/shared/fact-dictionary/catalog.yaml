@@ -1409,3 +1409,93 @@ facts:
     producer: vedic.d1
     origin: The classical ruler of the natal sign occupied by Ketu occupies its own or exaltation sign in the same chart.
     unknown_if: The node sign, ruler or ruler placement is missing or unstable.
+  d1.lord_1.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 1, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_2.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 2, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_3.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 3, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_4.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 4, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_5.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 5, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_7.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 7, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_9.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 9, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_10.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 10, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.lord_11.distance_from_lagna:
+    type: integer
+    producer: vedic.d1
+    range:
+    - 1
+    - 12
+    origin: Whole-sign house occupied by the classical sign ruler of natal house 11, counted from Lagna as one.
+    unknown_if: Lagna, house ruler or its placement is unavailable or unstable.
+  d1.bound_house_lord.own_or_exalted:
+    type: boolean
+    producer: vedic.d1
+    origin: The source house lord occupies its own or exaltation sign. Bind the graha from the source house of this
+      matched entry.
+    unknown_if: Source house, ruler or dignity is unavailable or unstable.
+  d1.bound_house_lord.debilitated:
+    type: boolean
+    producer: vedic.d1
+    origin: The source house lord occupies its debilitation sign. Bind the graha from the source house of this matched
+      entry.
+    unknown_if: Source house, ruler or dignity is unavailable or unstable.
+  d1.lords.reciprocal_exchange:
+    type: boolean
+    producer: vedic.d1
+    origin: For the bound pair of distinct houses, their two distinct classical sign rulers each occupy the other
+      house in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.
+    unknown_if: Either house, graha or placement is missing or unstable.

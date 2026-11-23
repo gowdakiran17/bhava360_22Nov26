@@ -1,0 +1,37 @@
+id: vedic.yogas.parivartana
+system: vedic
+topic: yogas
+title: Parivartana · reciprocal house-lord exchange
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the bound pair of distinct houses, their two distinct classical sign rulers each occupy the other house
+  in the same whole-sign D1 chart. A shared ruler cannot exchange with itself.
+conditions:
+  all:
+  - fact: d1.lords.reciprocal_exchange
+    op: eq
+    value: true
+meaning: The topics of the two houses may draw on one another because their rulers trade places.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Bind both houses to the same natal chart. Native review pending.
+user_text:
+  en: You can consider what each side of an exchange needs from the other.
+  kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि लेन-देन में दोनों पक्षों को एक-दूसरे से क्या चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

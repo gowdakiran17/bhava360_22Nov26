@@ -1,0 +1,105 @@
+id: vedic.house-lords.lord-10-in-house-12
+system: vedic
+topic: house-lords
+title: Lord of house 10 in house 12
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 10 occupies house 12 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_10.distance_from_lagna
+    op: eq
+    value: 12
+house_pair:
+  source_house: 10
+  occupied_house: 12
+  themes:
+  - work and public responsibility
+  - private time and expenditure
+  source_groups:
+  - kendra
+  - upachaya
+  occupied_groups:
+  - dusthana
+  logic: The ruler carries concerns about work and public responsibility into the setting of private time and
+    expenditure. The destination brings the source topic into a setting that may need time or support.
+  reciprocal_placement: vedic.house-lords.lord-12-in-house-10
+related_rules:
+- vedic.yogas.parivartana
+meaning: The ruler carries concerns about work and public responsibility into the setting of private time and
+  expenditure. When planning work others rely on, you can leave room for rest when deciding what you can give.
+life_areas:
+- career
+- business
+- money
+- health
+- spirituality
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '120'
+  other_locator: House 10 lord section, placement in house 12
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '32'
+  other_locator: Exchange of house lords
+  supports: Two distinct house lords occupy each other’s signs.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When planning work others rely on, you can leave room for rest when deciding what you can give.
+  kn: ಇತರರು ಅವಲಂಬಿಸಿರುವ ಕೆಲಸದ ಯೋಜನೆ ಮಾಡುವಾಗ ಎಷ್ಟು ನೀಡಬಹುದು ಎಂದು ತೀರ್ಮಾನಿಸುವಾಗ ವಿಶ್ರಾಂತಿಗೂ ಅವಕಾಶ ಕೊಡಬಹುದು.
+  hi: जब आप ऐसे काम की योजना बनाएँ जिस पर दूसरे निर्भर हैं, आप कितना दे सकते हैं यह तय करते समय आराम की गुंजाइश
+    रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may notice where you would like to leave a little room for rest.
+    kn: ವಿಶ್ರಾಂತಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಎಲ್ಲಿ ಮೀಸಲಿಡಬಹುದು ಎಂದು ಗಮನಿಸಬಹುದು.
+    hi: आप देख सकते हैं कि आराम के लिए थोड़ा समय कहाँ निकाला जा सकता है।

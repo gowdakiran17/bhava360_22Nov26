@@ -112,3 +112,9 @@ vedic_planets_in_houses:
   related_placement: Treat this entry and the linked vedic.houses placement as one piece of evidence.
   dig_bala: Match the KB-02 peak house. Calculating a strength value requires angular distance. Nodes are unassigned.
   related_rules: Optional top-level list of separate rules to consult. Each rule evaluates its own conditions.
+vedic_house_lord_entries:
+  extension: house_pair
+  fields: [source_house, occupied_house, themes, source_groups, occupied_groups, logic, reciprocal_placement]
+  chart: Use the classical ruler of the source house sign in the natal whole-sign chart. Bind modifiers and candidate associations to the same lords and chart.
+  related_rules: Evaluate each yoga separately. Raja and dhana require distinct eligible lords actually joined or exchanged in this profile. Exchanges require reciprocal occupation and distinct grahas.
+  life_areas: Deduplicated union of both KB-04 houses.

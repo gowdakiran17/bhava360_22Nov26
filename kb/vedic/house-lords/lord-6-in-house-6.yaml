@@ -1,0 +1,101 @@
+id: vedic.house-lords.lord-6-in-house-6
+system: vedic
+topic: house-lords
+title: Lord of house 6 in house 6
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: The classical ruler of whole-sign natal house 6 occupies house 6 from the same stable Lagna.
+conditions:
+  all:
+  - fact: d1.lord_6.distance_from_lagna
+    op: eq
+    value: 6
+house_pair:
+  source_house: 6
+  occupied_house: 6
+  themes:
+  - debts and obligations
+  - everyday obligations
+  source_groups: &id001
+  - dusthana
+  - upachaya
+  occupied_groups: *id001
+  logic: The ruler remains in the house it governs, concentrating attention on debts and obligations. The dusthana
+    lord occupies a dusthana, meeting the broad reversal screen.
+  reciprocal_placement: null
+related_rules:
+- vedic.yogas.harsha
+meaning: The ruler remains in the house it governs, concentrating attention on debts and obligations. When sorting
+  out an obligation, you can identify one duty that needs attention first.
+life_areas:
+- money
+- health
+strength_notes:
+- when:
+    fact: d1.bound_house_lord.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The source lord’s sign dignity can support its ability to carry the house topic.
+exceptions:
+- when:
+    fact: d1.bound_house_lord.debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Qualify expectations for the house link and check the same graha’s cancellation conditions separately.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Read both houses from the natal Lagna using classical sign rulers. A Moon-based count requires a separate
+    reading. The library’s broad viparita screen admits any dusthana destination, including the lord’s own house.
+    Stricter readings also weigh other lordships and associations before interpreting a reversal.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-divyachadhava-24
+  chapter: 24
+  verse: '66'
+  other_locator: House 6 lord section, placement in house 6
+  supports: Classical house-lord placement framework. The practical reading is an editorial application.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 10–18
+  other_locator: Definitions
+  supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 15
+  verse: '25'
+  other_locator: Strength of house, lord and karaka
+  supports: Weigh the lord’s condition alongside the house before interpreting a placement.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: '57'
+  other_locator: House-based yoga names
+  supports: Names of the house-based yogas. The broad three-house screen follows the library profile.
+  verification: verified
+confidence: medium
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+user_text:
+  en: When sorting out an obligation, you can identify one duty that needs attention first.
+  kn: ಒಂದು ಜವಾಬ್ದಾರಿಯನ್ನು ನಿಭಾಯಿಸುವಾಗ ಮೊದಲು ಗಮನ ಬೇಕಾದ ಒಂದು ಹೊಣೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
+  hi: जब आप कोई ज़िम्मेदारी सँभालें, आप पहचान सकते हैं कि किस ज़िम्मेदारी पर पहले ध्यान देना है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may find it easier to address one manageable task at a time.
+    kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
+    hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
