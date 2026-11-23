@@ -1,0 +1,55 @@
+id: vedic.prashna.timing
+system: vedic
+topic: prashna
+title: Timing
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use the local day of the earliest verified future perfection as a review window under judgment.yaml. Require
+  an identified pair, a solved instant, stable reference and an eligible leaning.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: standard
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.timing.verified
+    op: eq
+    value: true
+meaning: You can use this period to check what has changed since you asked.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Symbolic degrees-to-days or weeks depend on school and question. This version dates only a calculated
+    chart contact.
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 29
+  verse: null
+  other_locator: 29.1; 29.2.3 Ithasala and preceding Tajaka aspect-orb discussion
+  supports: Applying contacts, overlapping planetary orbs and application to Prashna.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can use this period to check what has changed since you asked.
+  kn: ಪ್ರಶ್ನೆ ಕೇಳಿದ ಬಳಿಕ ಏನು ಬದಲಾಗಿದೆ ಎಂದು ಈ ಅವಧಿಯಲ್ಲಿ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: सवाल पूछने के बाद क्या बदला है, इस अवधि में देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

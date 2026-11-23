@@ -1,5 +1,7 @@
 version: 1
 works:
+  prashna-marga: Prasna Marga, Part I
+  prasna-tantra: Prasna Tantra
   muhurta-chintamani: Muhurta Chintamani
   diwali-pradosha-profile: How Diwali and Lakshmi Puja Are Dated
   drik-pradosh: Drik Panchang Pradosh Days
@@ -61,6 +63,20 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  prashna-marga-raman:
+    work_id: prashna-marga
+    edition_id: prashna-marga-raman
+    title_as_printed: Prasna Marga, Part I
+    language: English
+    publication_details: B. V. Raman translation with commentary.
+    text: https://storage.yandexcloud.net/j108/library/touvip7g/Panangadu_Nambudhiri_-_Prasna_Marga_%28Part_I%29.pdf
+  prasna-tantra-raman:
+    work_id: prasna-tantra
+    edition_id: prasna-tantra-raman
+    title_as_printed: Prasna Tantra
+    language: English
+    publication_details: B. V. Raman translation with commentary.
+    text: https://storage.yandexcloud.net/j108/library/pwnejyvl/Sri_Neelakanta_-_Prasna_Tantra.pdf
   muhurta-chintamani-miu:
     work_id: muhurta-chintamani
     edition_id: muhurta-chintamani-miu

@@ -1,0 +1,53 @@
+id: vedic.prashna.health
+system: vedic
+topic: prashna
+title: Health question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: House mapping for catalogue purposes only. The public route displays the existing health referral immediately.
+  Show only the reviewed professional referral to the user.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: health
+  - fact: prashna.access
+    op: eq
+    value: health-referral
+meaning: For health questions, a qualified clinician can help you decide what care you need.
+life_areas:
+- health
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Sixth House Questions
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: For health questions, a qualified clinician can help you decide what care you need.
+  kn: ಆರೋಗ್ಯದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಅರ್ಹ ವೈದ್ಯರು ಸೂಕ್ತ ಆರೈಕೆ ಆರಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: स्वास्थ्य से जुड़े सवालों में योग्य चिकित्सक देखभाल तय करने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

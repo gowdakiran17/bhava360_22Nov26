@@ -1,12 +1,104 @@
-version: 1
+version: 2
 approval: draft
 inputs:
-- question instant
-- current place and zone
-- question category
+- accepted question ID and instant with UTC offset
+- current city, coordinates and IANA zone
+- question category, method and audience
+- trip scope for travel
 route:
-  job: 10th/6th houses
-  partnership: 7th house
-  journey: 3rd/9th houses
-output: Describe a current leaning from question-chart lords, their relationship and Moon. Attach timing only when available.
-  Exclude health; legal is admin-only.
+  job:
+    primary: 10
+    context:
+    - 6
+    - 11
+    scope: A specific job application or offer; the sixth supplies service context, the eleventh gains.
+    entry: vedic.prashna.job
+    access: public-reflection
+  marriage:
+    primary: 7
+    context:
+    - 2
+    - 11
+    scope: A question about a proposed partnership or marriage; family and shared plans provide context.
+    entry: vedic.prashna.marriage
+    access: public-reflection
+  health:
+    primary: 6
+    context:
+    - 1
+    scope: House mapping for catalogue purposes only. The public route displays the existing health referral immediately.
+    entry: vedic.prashna.health
+    access: referral-only
+  lost-item:
+    primary: 4
+    context:
+    - 2
+    scope: Recovery of a misplaced possession. The fourth is the recovery reference; the second describes the
+      possession. One additional recovery testimony is the fourth lord occupying the question ascendant.
+    entry: vedic.prashna.lost-item
+    access: public-reflection
+  travel:
+    primary: 9
+    context:
+    - 3
+    - 4
+    scope: Use the third for a short or local trip and the ninth for a long journey. Bind the stated trip type;
+      the fourth can describe the return.
+    entry: vedic.prashna.travel
+    access: public-reflection
+  property:
+    primary: 4
+    context:
+    - 2
+    - 11
+    scope: A home or land inquiry. The fourth describes the property, the second resources and the eleventh fulfilment.
+      Contract or title-law questions use the legal boundary.
+    entry: vedic.prashna.property
+    access: public-reflection
+  litigation:
+    primary: 7
+    context:
+    - 1
+    - 6
+    - 10
+    scope: For administrative study bind the first to the querent, the seventh to the opposing party, the sixth
+      to the dispute and the tenth to authority. Public legal requests use the existing legal referral.
+    entry: vedic.prashna.litigation
+    access: admin-study
+output: Lead with a provisional leaning, give deduplicated testimony and a practical action; attach timing only
+  under judgment.yaml. Missing evidence is distinct from complete but inconclusive evidence.
+aliases:
+  partnership: marriage
+  journey: travel
+chart: Cast one sidereal Lahiri whole-sign D1 for the accepted question at the current location. Preserve the
+  UTC instant and local civil date, time, offset and weekday. For ambiguous civil times require the offset or
+  fold. An invalid local time is unresolved.
+travel_primary:
+  short: 3
+  long: 9
+rulers_from_aries:
+- mars
+- venus
+- mercury
+- moon
+- sun
+- mercury
+- venus
+- mars
+- jupiter
+- saturn
+- saturn
+- jupiter
+method: Standard house routing uses the question chart. Kerala observation and KP number horary are separately
+  selected modes; neither contributes extra votes to a standard reading.
+sensitive_routing: Check requested intent before chart or method selection, including repeat questions and KP.
+  Health, diagnostic, legal-outcome and legal-advice requests use shared/boundaries/responses.yaml. No outcome
+  or timing for health or litigation, including admin study. Lost-item questions never identify a person, allege
+  theft or state a definite location. A missing person is outside this item route.
+public_referrals: {health: health, litigation: legal}
+intent_overrides:
+  diagnosis: health
+  treatment: health
+  legal-advice: litigation
+  legal-outcome: litigation
+unsupported_intents: [identify-suspect, missing-person]

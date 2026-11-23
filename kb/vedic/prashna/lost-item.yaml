@@ -1,0 +1,62 @@
+id: vedic.prashna.lost-item
+system: vedic
+topic: prashna
+title: Lost Item question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Recovery of a misplaced possession. The fourth is the recovery reference; the second describes the possession.
+  One additional recovery testimony is the fourth lord occupying the question ascendant. Start with house 4 and
+  consult judgment.yaml for a provisional leaning.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: lost-item
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+  - fact: prashna.mode
+    op: eq
+    value: standard
+meaning: You can start with the last place you remember using the item and retrace your steps.
+life_areas:
+- family-home
+- money
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. Some traditions use the second house as the main possession reference.
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: III
+  verse: null
+  other_locator: Recovery of Lost Property, stanza 76
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can start with the last place you remember using the item and retrace your steps.
+  kn: ವಸ್ತುವನ್ನು ಕೊನೆಯದಾಗಿ ಬಳಸಿದ ನೆನಪಿರುವ ಜಾಗದಿಂದ ಹುಡುಕಾಟ ಆರಂಭಿಸಿ, ಹೋದ ದಾರಿಯನ್ನು ಮತ್ತೆ ನೋಡಬಹುದು.
+  hi: आप उस जगह से तलाश शुरू कर सकते हैं जहाँ आपने वस्तु आखिरी बार इस्तेमाल की थी, फिर अपना रास्ता दोबारा देख
+    सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

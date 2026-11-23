@@ -1,0 +1,61 @@
+id: vedic.prashna.property
+system: vedic
+topic: prashna
+title: Property question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A home or land inquiry. The fourth describes the property, the second resources and the eleventh fulfilment.
+  Contract or title-law questions use the legal boundary. Start with house 4 and consult judgment.yaml for a provisional
+  leaning.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: property
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+  - fact: prashna.mode
+    op: eq
+    value: standard
+meaning: You can list what you want to check about the property before arranging a visit.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Fourth House Questions
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can list what you want to check about the property before arranging a visit.
+  kn: ಭೇಟಿ ನಿಗದಿಪಡಿಸುವ ಮೊದಲು ಆಸ್ತಿಯ ಬಗ್ಗೆ ಪರಿಶೀಲಿಸಬೇಕಾದ ವಿಷಯಗಳ ಪಟ್ಟಿಯನ್ನು ಮಾಡಬಹುದು.
+  hi: जगह देखने जाने से पहले आप संपत्ति से जुड़े अपने सवाल लिख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

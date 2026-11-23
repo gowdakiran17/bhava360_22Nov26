@@ -1,35 +1,55 @@
 id: vedic.prashna.current-question
 system: vedic
 topic: prashna
-title: Current Question
+title: Prashna lagna
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Horary chart was calculated for the accepted question, local time and current city.
+rule: Use the rising sign at the accepted question instant and current place. Its classical ruler signifies the
+  querent. Compute the primary house and lord from this same chart. Retain one chart for follow-ups to the same
+  question.
 conditions:
   all:
   - fact: prashna.current_chart_ready
     op: eq
     value: true
-meaning: You can explore the factors connected with this question now.
-life_areas: []
+  - fact: prashna.mode
+    op: eq
+    value: standard
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+meaning: You can return to the question as you understood it when you first asked.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some traditions cast at the astrologer’s judgment place. Bhava360 uses the user’s current place and accepted
+    instant.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
+- book: Prasna Marga, Part I
+  work_id: prashna-marga
+  edition: prashna-marga-raman
+  chapter: V
   verse: null
-  other_locator: vedic.prashna.current-question
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Determination of the ascendant at the question
+  supports: Traditional question-chart frame. Current location, ephemeris and time-zone policy are editorial.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
 user_text:
-  en: You can explore the factors connected with this question now.
-  kn: ಈಗ ಈ ಪ್ರಶ್ನೆಗೆ ಸಂಬಂಧಿಸಿದ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
-  hi: अभी इस प्रश्न से जुड़े कारकों पर विचार कर सकते हैं।
+  en: You can return to the question as you understood it when you first asked.
+  kn: ಮೊದಲು ಕೇಳಿದಾಗ ಪ್ರಶ್ನೆಯನ್ನು ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಮತ್ತೆ ನೋಡಬಹುದು.
+  hi: आप उस सवाल पर लौट सकते हैं जैसा आपने उसे पहली बार पूछते समय समझा था।
 native_review:
   kn: pending
   hi: pending

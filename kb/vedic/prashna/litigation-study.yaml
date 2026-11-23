@@ -1,0 +1,50 @@
+id: vedic.prashna.litigation-study
+system: vedic
+topic: prashna
+title: Litigation · administrative house study
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For administrative study bind the first to the querent, the seventh to the opposing party, the sixth to
+  the dispute and the tenth to authority. Public legal requests use the existing legal referral. Retain only role-to-house
+  mappings for study; suppress outcome and timing.
+conditions:
+  all:
+  - fact: prashna.access
+    op: eq
+    value: admin-study
+  - fact: prashna.category
+    op: eq
+    value: litigation
+  - fact: prashna.mode
+    op: eq
+    value: standard
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+meaning: For your legal options, you can speak with a qualified lawyer.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: House assignments can depend on who raises the dispute.
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: III
+  verse: null
+  other_locator: On Disputes
+  supports: Traditional study topic; public referral is editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: For your legal options, you can speak with a qualified lawyer.
+  kn: ಕಾನೂನು ಆಯ್ಕೆಗಳ ಕುರಿತು ಅರ್ಹ ವಕೀಲರೊಂದಿಗೆ ಮಾತನಾಡಬಹುದು.
+  hi: कानूनी विकल्पों के लिए योग्य वकील से बात कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

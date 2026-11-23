@@ -1,0 +1,56 @@
+id: vedic.prashna.litigation
+system: vedic
+topic: prashna
+title: Litigation question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For administrative study bind the first to the querent, the seventh to the opposing party, the sixth to
+  the dispute and the tenth to authority. Public legal requests use the existing legal referral. Show only the
+  reviewed professional referral to the user.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: litigation
+  - fact: prashna.access
+    op: eq
+    value: legal-referral
+meaning: For your legal options, you can speak with a qualified lawyer.
+life_areas:
+- career
+- money
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: III
+  verse: null
+  other_locator: On Disputes
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: For your legal options, you can speak with a qualified lawyer.
+  kn: ಕಾನೂನು ಆಯ್ಕೆಗಳ ಕುರಿತು ಅರ್ಹ ವಕೀಲರೊಂದಿಗೆ ಮಾತನಾಡಬಹುದು.
+  hi: कानूनी विकल्पों के लिए योग्य वकील से बात कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

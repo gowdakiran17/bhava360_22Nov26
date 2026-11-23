@@ -17,6 +17,82 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  prashna.category:
+    type: enum
+    producer: vedic.prashna
+    origin: Normalized accepted question category before chart analysis.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+    values:
+    - job
+    - marriage
+    - health
+    - lost-item
+    - travel
+    - property
+    - litigation
+  prashna.access:
+    type: enum
+    producer: vedic.prashna
+    origin: Intent-first public or administrative output gate from questions.yaml.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+    values:
+    - public-reflection
+    - health-referral
+    - legal-referral
+    - admin-study
+  prashna.mode:
+    type: enum
+    producer: vedic.prashna
+    origin: Explicitly selected method.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+    values:
+    - standard
+    - kerala
+    - kp-number
+  prashna.leaning:
+    type: enum
+    producer: vedic.prashna
+    origin: Independent positive and frictional testimonies combined under judgment.yaml.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+    values:
+    - leans-toward
+    - leans-against
+    - mixed
+    - unclear
+  prashna.arudha.observed:
+    type: boolean
+    producer: vedic.prashna
+    origin: Bind the sign explicitly recorded from the questioner’s placement of the token in the Kerala sign diagram.
+      Keep this observed sign, its ruler, and the actual Prashna lagna separately. Missing observation gives no
+      Arudha.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+  prashna.ashtamangala.observed:
+    type: boolean
+    producer: vedic.prashna
+    origin: Advanced administrative study. Bind three positive integer cowrie heap counts in the recorded reading
+      order. For each take 1 + ((count − 1) modulo 8); retain the three digits separately and preserve the recorded
+      Arudha if available. Never simulate a ritual input or send this evidence to the public projection.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+  prashna.moon.bound:
+    type: boolean
+    producer: vedic.prashna
+    origin: Bind the Moon of the question chart. Check its applying or exact contact with the topic lord under judgment.yaml.
+      Keep a separating contact as background. When the Moon is already the ascendant lord, count that pair only
+      once.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+  prashna.timing.verified:
+    type: boolean
+    producer: vedic.prashna
+    origin: Use the local day of the earliest verified future perfection as a review window under judgment.yaml.
+      Require an identified pair, a solved instant, stable reference and an eligible leaning.
+    unknown_if: Required input, mode or validation of the bound question is missing.
+  prashna.kp.bound:
+    type: boolean
+    producer: vedic.prashna
+    origin: After the intent gate, require an integer 1–249, current judgment time and place. Delegate to kp/number-horary/input.yaml
+      and kp.number-horary.arc for the selected numbered ascendant, KP ayanamsa and Placidus frame. Use KP-17 evidence
+      only.
+    unknown_if: Required input, mode or validation of the bound question is missing.
   muhurta.activity:
     type: enum
     producer: vedic.muhurta

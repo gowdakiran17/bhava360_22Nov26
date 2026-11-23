@@ -491,6 +491,8 @@ def main():
     validate_shadbala(rules, read, require)
     from muhurta import validate_muhurta
     validate_muhurta(rules,read,evaluate,require)
+    from prashna import validate_prashna
+    validate_prashna(rules, read, evaluate, require)
     from panchang import validate_panchang
     validate_panchang(rules,read,evaluate,require)
     from jaimini import validate_jaimini

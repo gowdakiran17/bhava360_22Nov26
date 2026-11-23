@@ -1,0 +1,55 @@
+id: vedic.prashna.moon
+system: vedic
+topic: prashna
+title: Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the Moon of the question chart. Check its applying or exact contact with the topic lord under judgment.yaml.
+  Keep a separating contact as background. When the Moon is already the ascendant lord, count that pair only once.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: standard
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.moon.bound
+    op: eq
+    value: true
+meaning: You may notice which part of the question needs your attention first.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some methods follow a chain of lunar contacts. This profile compares the Moon directly with the bound
+    topic lord.
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 29
+  verse: null
+  other_locator: 29.1; 29.2.3 Ithasala and preceding Tajaka aspect-orb discussion
+  supports: Applying contacts, overlapping planetary orbs and application to Prashna.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You may notice which part of the question needs your attention first.
+  kn: ಪ್ರಶ್ನೆಯ ಯಾವ ಭಾಗಕ್ಕೆ ಮೊದಲು ಗಮನ ಕೊಡಬೇಕು ಎಂದು ನೋಡಬಹುದು.
+  hi: आप देख सकते हैं कि सवाल के किस पहलू पर पहले ध्यान देना है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

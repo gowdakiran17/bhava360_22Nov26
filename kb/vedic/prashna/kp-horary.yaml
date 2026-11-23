@@ -1,0 +1,48 @@
+id: vedic.prashna.kp-horary
+system: vedic
+topic: prashna
+title: KP number horary
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: After the intent gate, require an integer 1–249, current judgment time and place. Delegate to kp/number-horary/input.yaml
+  and kp.number-horary.arc for the selected numbered ascendant, KP ayanamsa and Placidus frame. Use KP-17 evidence
+  only.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: kp-number
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.kp.bound
+    op: eq
+    value: true
+meaning: You can consider the number you chose as a starting point for this question.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Number horary selects the ascendant from a numbered arc. The actual rising sign remains the standard Prashna
+    reference.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 2, horary number 248 and first cusp
+  supports: Worked example of the lower-bound ascendant.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can consider the number you chose as a starting point for this question.
+  kn: ಈ ಪ್ರಶ್ನೆಗೆ ಆರಂಭವಾಗಿ ನೀವು ಆಯ್ದ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: आप अपनी चुनी संख्या को इस सवाल का शुरुआती बिंदु मान सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,56 @@
+id: vedic.prashna.ashtamangala
+system: vedic
+topic: prashna
+title: Ashtamangala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Advanced administrative study. Bind three positive integer cowrie heap counts in the recorded reading order.
+  For each take 1 + ((count − 1) modulo 8); retain the three digits separately and preserve the recorded Arudha
+  if available. Never simulate a ritual input or send this evidence to the public projection.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: kerala
+  - fact: prashna.access
+    op: eq
+    value: admin-study
+  - fact: prashna.ashtamangala.observed
+    op: eq
+    value: true
+meaning: You can explore the background of this regional practice.
+life_areas:
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The sign observation and ordered remainders belong to a Kerala consultation. Local ritual sequences and
+    interpretation vary.
+sources:
+- book: Prasna Marga, Part I
+  work_id: prashna-marga
+  edition: prashna-marga-raman
+  chapter: IV
+  verse: 51–55
+  other_locator: Ashtamangala number
+  supports: Three observed heaps, counted separately in groups of eight.
+  verification: verified
+- book: Prasna Marga, Part I
+  work_id: prashna-marga
+  edition: prashna-marga-raman
+  chapter: IV
+  verse: 56–57
+  other_locator: Observation of Arudha and gold piece
+  supports: Record the observed reference separately from the rising sign.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can explore the background of this regional practice.
+  kn: ಈ ಪ್ರಾದೇಶಿಕ ಆಚರಣೆಯ ಹಿನ್ನೆಲೆಯನ್ನು ತಿಳಿದುಕೊಳ್ಳಬಹುದು.
+  hi: आप इस क्षेत्रीय परंपरा की पृष्ठभूमि समझ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

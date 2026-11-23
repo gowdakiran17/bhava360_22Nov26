@@ -1,0 +1,47 @@
+id: vedic.prashna.arudha
+system: vedic
+topic: prashna
+title: Arudha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the sign explicitly recorded from the questioner’s placement of the token in the Kerala sign diagram.
+  Keep this observed sign, its ruler, and the actual Prashna lagna separately. Missing observation gives no Arudha.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: kerala
+  - fact: prashna.access
+    op: eq
+    value: admin-study
+  - fact: prashna.arudha.observed
+    op: eq
+    value: true
+meaning: You can reflect on what first drew your attention to this question.
+life_areas:
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Other lineages derive Arudha from direction or a number. The natal Jaimini pada calculation is a different
+    method.
+sources:
+- book: Prasna Marga, Part I
+  work_id: prashna-marga
+  edition: prashna-marga-raman
+  chapter: IV
+  verse: 56–57
+  other_locator: Observation of Arudha and gold piece
+  supports: Record the observed reference separately from the rising sign.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can reflect on what first drew your attention to this question.
+  kn: ಈ ಪ್ರಶ್ನೆ ಮೊದಲು ನಿಮ್ಮ ಗಮನ ಸೆಳೆದದ್ದು ಏಕೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि इस सवाल ने पहले आपका ध्यान क्यों खींचा।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

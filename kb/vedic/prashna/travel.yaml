@@ -1,0 +1,60 @@
+id: vedic.prashna.travel
+system: vedic
+topic: prashna
+title: Travel question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use the third for a short or local trip and the ninth for a long journey. Bind the stated trip type; the
+  fourth can describe the return. Start with house 9 for a long trip and consult judgment.yaml for a provisional
+  leaning.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: travel
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+  - fact: prashna.mode
+    op: eq
+    value: standard
+meaning: You can check the route and return arrangements before settling on a plan.
+life_areas:
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Third and Ninth House Questions; On the Traveller
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can check the route and return arrangements before settling on a plan.
+  kn: ಯೋಜನೆ ನಿಗದಿಪಡಿಸುವ ಮೊದಲು ದಾರಿ ಮತ್ತು ಮರಳುವ ವ್ಯವಸ್ಥೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: योजना तय करने से पहले आप रास्ते और वापसी की व्यवस्था जाँच सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

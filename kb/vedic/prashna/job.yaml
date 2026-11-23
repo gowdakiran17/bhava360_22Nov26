@@ -1,0 +1,59 @@
+id: vedic.prashna.job
+system: vedic
+topic: prashna
+title: Job question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A specific job application or offer; the sixth supplies service context, the eleventh gains. Start with
+  house 10 and consult judgment.yaml for a provisional leaning.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: job
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+  - fact: prashna.mode
+    op: eq
+    value: standard
+meaning: You can check what the employer needs before deciding when to follow up.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Tenth House Questions, stanza 108; Employer–Employee Relations
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You can check what the employer needs before deciding when to follow up.
+  kn: ಮತ್ತೆ ಸಂಪರ್ಕಿಸುವ ಸಮಯವನ್ನು ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಉದ್ಯೋಗದಾತರಿಗೆ ಏನು ಬೇಕಿದೆ ಎಂದು ವಿಚಾರಿಸಬಹುದು.
+  hi: दोबारा संपर्क करने का समय तय करने से पहले आप पूछ सकते हैं कि नियोक्ता को क्या चाहिए।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

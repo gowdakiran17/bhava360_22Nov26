@@ -1,0 +1,81 @@
+profile: bhava360-tajika-question-v1
+access: admin
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 29
+  verse: null
+  other_locator: 29.1; 29.2.3 Ithasala and preceding Tajaka aspect-orb discussion
+  supports: Applying contacts, overlapping planetary orbs and application to Prashna.
+  verification: verified
+orb_degrees:
+  sun: 15
+  moon: 12
+  mars: 8
+  mercury: 7
+  jupiter: 9
+  venus: 7
+  saturn: 9
+sign_steps:
+  0: context
+  2: support
+  3: friction
+  4: support
+  6: friction
+  8: support
+  9: friction
+  10: support
+contact: 'For each distinct pair of classical grahas, use d = (target sign − source sign) mod 12. Require a listed
+  d. Compare within-sign degrees: signed error = target degree − source degree. Require abs(error) <= the smaller
+  planetary orb. Applying means error × (target speed − source speed) < 0; equality at zero error is exact. Signed
+  speeds are instantaneous geocentric degrees/day. Conjunction needs additional interpretation and remains context
+  in this profile.'
+actors: Test question Lagna lord to primary topic lord and Moon to primary topic lord. Deduplicate unordered pairs;
+  omit self-pairs. Context houses explain scope and do not cast independent votes. For lost-item recovery also
+  test the fourth lord occupying the ascendant (Prasna Tantra III.76).
+leaning:
+  support_only: leans-toward
+  friction_only: leans-against
+  both: mixed
+  neither: unclear
+unknown: Missing primary, Moon, position or motion inputs leaves insufficient evidence. A separating contact alone
+  cannot produce a negative verdict.
+timing: Only a one-direction, public, standard reading may carry a review window. Require a future ephemeris-solved
+  exact contact for a contributing applying pair at its stated aspect, before either graha changes sign or stations,
+  within the requested horizon. Choose the earliest verified contact. Show the local civil day containing that
+  instant as a time to revisit the question. Chart contact dates do not establish event dates. No root means no
+  timing hint.
+traditions_differ: This restricted Tajika comparison uses current motion, sign aspects and the smaller orb. Schools
+  also assess reception, obstruction, transferred light and symbolic time units; this profile does not assign
+  those uncomputed testimonies.
+reason_copy:
+  querent-support:
+    en: Your plans and the matter you asked about may be coming together.
+    kn: ನಿಮ್ಮ ಯೋಜನೆಗಳು ಮತ್ತು ನೀವು ಕೇಳಿದ ವಿಷಯ ಒಂದಕ್ಕೊಂದು ಹೊಂದಿಕೊಳ್ಳಬಹುದು.
+    hi: आपकी योजना और जिस विषय पर आपने पूछा है, उनमें तालमेल बन सकता है।
+  querent-friction:
+    en: Your plans may need an adjustment before you can move ahead.
+    kn: ಮುಂದೆ ಸಾಗಲು ನಿಮ್ಮ ಯೋಜನೆಯಲ್ಲಿ ಸ್ವಲ್ಪ ಬದಲಾವಣೆ ಬೇಕಾಗಬಹುದು.
+    hi: आगे बढ़ने से पहले आपको अपनी योजना में कुछ बदलाव करना पड़ सकता है।
+  moon-support:
+    en: The way the situation is unfolding may give you an opening.
+    kn: ಪರಿಸ್ಥಿತಿ ಸಾಗುತ್ತಿರುವ ರೀತಿಯಿಂದ ನಿಮಗೆ ಒಂದು ಅವಕಾಶ ಸಿಗಬಹುದು.
+    hi: हालात जिस तरह बदल रहे हैं, उनसे आपको एक अवसर मिल सकता है।
+  moon-friction:
+    en: Changing circumstances may call for another look at your plans.
+    kn: ಬದಲಾಗುತ್ತಿರುವ ಪರಿಸ್ಥಿತಿಯಲ್ಲಿ ನಿಮ್ಮ ಯೋಜನೆಯನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: बदलते हालात में आप अपनी योजना पर फिर विचार कर सकते हैं।
+  recovery-context:
+    en: The reading suggests that another search may be worthwhile.
+    kn: ಇನ್ನೊಮ್ಮೆ ಹುಡುಕುವುದು ಉಪಯುಕ್ತವಾಗಬಹುದು ಎಂಬ ಸೂಚನೆ ಇದೆ.
+    hi: इस संकेत के आधार पर एक बार फिर तलाश करना उपयोगी हो सकता है।
+reason_binding: For a qualifying pair use querent-support or querent-friction when the source is the ascendant lord, otherwise moon-support or moon-friction. The fourth lord in the ascendant supplies recovery-context only on the lost-item route. Emit each reason once.

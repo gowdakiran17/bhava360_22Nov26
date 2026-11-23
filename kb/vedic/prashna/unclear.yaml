@@ -1,0 +1,54 @@
+id: vedic.prashna.unclear
+system: vedic
+topic: prashna
+title: Unclear
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Render only for the matching evidence state from judgment.yaml. Attach the deduplicated reasons for this
+  question.
+conditions:
+  all:
+  - fact: prashna.mode
+    op: eq
+    value: standard
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.leaning
+    op: eq
+    value: unclear
+meaning: You may want another piece of practical information before deciding.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This is a current qualitative leaning. The evidence summary and wording are editorial.
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 29
+  verse: null
+  other_locator: 29.1; 29.2.3 Ithasala and preceding Tajaka aspect-orb discussion
+  supports: Applying contacts, overlapping planetary orbs and application to Prashna.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You may want another piece of practical information before deciding.
+  kn: ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇನ್ನಷ್ಟು ಮಾಹಿತಿ ಪಡೆಯಬಹುದು.
+  hi: निर्णय से पहले आप कुछ और व्यावहारिक जानकारी जुटा सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,60 @@
+id: vedic.prashna.marriage
+system: vedic
+topic: prashna
+title: Marriage question
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: A question about a proposed partnership or marriage; family and shared plans provide context. Start with
+  house 7 and consult judgment.yaml for a provisional leaning.
+conditions:
+  all:
+  - fact: prashna.category
+    op: eq
+    value: marriage
+  - fact: prashna.access
+    op: eq
+    value: public-reflection
+  - fact: prashna.current_chart_ready
+    op: eq
+    value: true
+  - fact: prashna.mode
+    op: eq
+    value: standard
+meaning: You may find it helpful to ask your partner what they want from the next conversation.
+life_areas:
+- love-marriage
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
+    actions are editorial. '
+sources:
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Seventh House Questions
+  supports: Traditional topic or testimony; practical advice and supporting-house selection follow the Bhava360
+    profile.
+  verification: verified
+- book: Prasna Tantra
+  work_id: prasna-tantra
+  edition: prasna-tantra-raman
+  chapter: II
+  verse: null
+  other_locator: Bhava Prasna, General Estimate and Success of Object in View
+  supports: Ascendant lord, question lord and lunar testimony. The evidence categories and timing gate are editorial.
+  verification: verified
+confidence: medium
+review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
+user_text:
+  en: You may find it helpful to ask your partner what they want from the next conversation.
+  kn: ಮುಂದಿನ ಮಾತುಕತೆಯಿಂದ ಸಂಗಾತಿ ಏನನ್ನು ಬಯಸುತ್ತಾರೆ ಎಂದು ಕೇಳಬಹುದು.
+  hi: आप साथी से पूछ सकते हैं कि अगली बातचीत से वे क्या चाहते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
