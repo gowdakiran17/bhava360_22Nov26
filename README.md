@@ -22,3 +22,5 @@ Read the [architecture](docs/architecture.md), [security design](docs/security.m
 ## Local PostgreSQL
 
 `pnpm test` starts and stops a disposable loopback PostgreSQL cluster for migration and cascade tests. To work with a separate local development database, set DATABASE_URL in the shell and run `pnpm db:migrate` followed by `APP_ENV=development pnpm db:seed`. The destructive `pnpm db:down` rolls back the schema. See [schema, ownership and retention](docs/schema.md).
+
+See the [consumer API](docs/consumer-api.md) for fixture sign-in, sessions, consent, profile operations and same-origin setup.

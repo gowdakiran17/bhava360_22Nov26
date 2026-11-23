@@ -22,6 +22,10 @@ INSERT INTO users(id) SELECT user_id FROM fixture ON CONFLICT DO NOTHING;
 INSERT INTO identities(user_id,kind,identifier_digest)
 SELECT user_id,'email',encode(sha256(convert_to(lower(name) || '@example.test','UTF8')),'hex')
 FROM fixture ON CONFLICT DO NOTHING;
+INSERT INTO identities(user_id,kind,identifier_digest)
+SELECT user_id,'phone',encode(sha256(convert_to('+91900000000' ||
+  array_position(ARRAY['Asha','Ravi','Meera','Kabir','Dev'],name)::text,'UTF8')),'hex')
+FROM fixture ON CONFLICT DO NOTHING;
 INSERT INTO profiles(id,user_id,display_name,local_date,local_time,iana_zone,place_id,birth_instant,time_precision,relation)
 SELECT md5('fixture:profile:' || name || precision)::uuid,user_id,name,birth,born,p.iana_zone,p.id,
        (birth + born) AT TIME ZONE p.iana_zone,precision::birth_precision,'self'
