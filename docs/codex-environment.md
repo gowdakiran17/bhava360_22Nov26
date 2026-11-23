@@ -23,6 +23,8 @@ Activate the installed tools in each new task shell.
 cd /workspace/bhava360_22Nov26
 tools_dir="${BHAVA_TOOLS_DIR:-/workspace/.bhava360-tools}"
 export PATH="$tools_dir/bin:$PATH"
+export XDG_DATA_HOME="${XDG_DATA_HOME:-$tools_dir/share}"
+export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$tools_dir/cache}"
 . "$tools_dir/venv/bin/activate"
 node --version
 pnpm --version
