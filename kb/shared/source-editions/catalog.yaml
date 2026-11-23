@@ -1,5 +1,6 @@
 version: 1
 works:
+  maitreya-shadbala: Maitreya Shadbala documentation
   pyjhora-vargas: PyJHora divisional chart methods and weights
   sgs-panchangam: SGS Panchangam
   raman-muhurtha: Muhurtha (Electional Astrology)
@@ -42,6 +43,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  maitreya-shadbala-web:
+    work_id: maitreya-shadbala
+    edition_id: maitreya-shadbala-web
+    title_as_printed: Maitreya's Dream
+    publication_details: Online Shadbala documentation, component pages identified by URL in each citation.
+    language: English
+    text: https://saravali.github.io/astrology/shadbala.html
+    verified_by: Inspected positional, temporal, motional and summary pages.
+  bphs-strength-web:
+    work_id: bphs
+    edition_id: bphs-strength-web
+    title_as_printed: Brihat Parashara Hora Shastra
+    language: Sanskrit and English
+    publication_details: Enjoy Learning Sanskrit, online chapters 27 and 28.
+    text: [https://enjoylearningsanskrit.com/scriptures/parashara/chapter-27/, https://enjoylearningsanskrit.com/scriptures/parashara/chapter-28/]
+    verified_by: Numbered passages inspected. School-specific numerical choices are identified separately.
   bphs-varga-web:
     work_id: bphs
     edition_id: bphs-varga-web

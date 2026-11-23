@@ -375,6 +375,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['topic']=='strength/shadbala' and rid!='vedic.strength-shadbala.six-components':
+            expected_fields.add('calculation')
         if data['system'] == 'vedic' and data['topic'] == 'house-lords':
             expected_fields.update(('house_pair', 'related_rules'))
         if data['system'] == 'vedic' and data['topic'] in ('planets-in-signs', 'planets-in-houses'):
@@ -479,6 +481,8 @@ def main():
         for orientation in ('upright','reversed'):
             matched=[r for r in rules.values() if r['system']=='tarot' and evaluate(r['conditions'],{'draw.card':card,'draw.orientation':orientation})]
             require(len(matched)==1,(card,orientation))
+    from shadbala import validate_shadbala
+    validate_shadbala(rules, read, require)
     from varga_charts import validate_vargas
     validate_vargas(rules, read, require)
     bindu=read('vedic/strength/ashtakavarga/bindu.yaml')

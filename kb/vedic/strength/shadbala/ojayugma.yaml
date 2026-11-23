@@ -1,0 +1,49 @@
+id: vedic.strength-shadbala.ojayugma
+system: vedic
+topic: strength/shadbala
+title: Ojayugma bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Independently award fifteen for qualifying sign parity in D1 and D9. Moon and Venus use even signs and the
+  other grahas use odd signs. Aries is sign one.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: ojayugma
+meaning: The planet’s placement may help you explore where its themes feel familiar.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count natal and Navamsa parity separately, including when the signs coincide.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '5'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The planet’s placement may help you explore where its themes feel familiar.
+  kn: ಗ್ರಹದ ಸ್ಥಾನವು ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯಗಳು ನಿಮಗೆ ಎಲ್ಲಿ ಪರಿಚಿತವಾಗಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: ग्रह की स्थिति से आप देख सकते हैं कि उससे जुड़े विषय आपको कहाँ परिचित लगते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  even:
+  - moon
+  - venus
+  award: 15

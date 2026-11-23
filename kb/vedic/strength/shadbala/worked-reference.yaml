@@ -10,5 +10,4 @@ sun_sthana_components:
   kendra: 60
   drekkana: 15
 expected_virupas: 198
-scope: This benchmark checks a position-strength subtotal. A production six-component implementation needs its own full reference
-  run.
+scope: This benchmark checks a position-strength subtotal. The full synthetic component worksheet for the library profile is examples/shadbala-reference.yaml.

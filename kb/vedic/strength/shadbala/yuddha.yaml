@@ -1,0 +1,57 @@
+id: vedic.strength-shadbala.yuddha
+system: vedic
+topic: strength/shadbala
+title: Yuddha bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For each eligible pair with shorter separation strictly below one degree, compare the signed ecliptic latitudes
+  per KB-05. Transfer the absolute difference of their pre-war Kala amounts to the northern graha from the southern
+  graha. The pre-war amount is the sum of the other eight Kala terms. Accumulate disjoint pairs simultaneously.
+  Withhold affected results for an unresolved winner or overlapping pairs.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: yuddha
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some authorities use apparent disc sizes and a different pre-war subtotal. This editorial profile uses
+    a zero-sum transfer and the existing KB-05 winner rule.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '20'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_kala.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  winner_rule: vedic.states.graha-yuddha

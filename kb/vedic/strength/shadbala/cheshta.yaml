@@ -1,0 +1,59 @@
+id: vedic.strength-shadbala.cheshta
+system: vedic
+topic: strength/shadbala
+title: Cheshta bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use solar Ayana for the Sun and lunar Paksha for the Moon. For Mars, Jupiter and Saturn use the mean Sun
+  as the fast point and the planet mean as the slow point. For Mercury and Venus swap these roles. Move halfway
+  from the slow point to the true planet along the shortest signed arc in [−180,180). Divide the shorter arc from
+  that midpoint to the fast point by three. Mean and true longitudes must share frame and epoch.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: cheshta
+meaning: The planet’s motion may add a different emphasis to a familiar theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: An alternative omits separate luminary Cheshta when the Kala terms have already been doubled. Motion-state
+    tables also differ from the continuous kendra method.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 18, 21–25
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_cheshta.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The planet’s motion may add a different emphasis to a familiar theme.
+  kn: ಗ್ರಹದ ಚಲನೆಯಿಂದ ಪರಿಚಿತ ವಿಷಯದ ಮತ್ತೊಂದು ಅಂಶ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: ग्रह की गति से किसी परिचित विषय का दूसरा पहलू उभर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  inner:
+  - mercury
+  - venus

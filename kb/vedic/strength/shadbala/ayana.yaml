@@ -1,0 +1,50 @@
+id: vedic.strength-shadbala.ayana
+system: vedic
+topic: strength/shadbala
+title: Ayana bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use geocentric signed tropical declination in degrees. Keep north positive for Sun, Mars, Jupiter and Venus,
+  reverse it for Moon and Saturn, and use its absolute value for Mercury. Bound the adjusted value to ±24. Return
+  (24 + adjusted value) × 1.25.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: ayana
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This bounded linear approximation uses undoubled solar strength. Other methods use sidereal-to-tropical
+    arc tables or double the solar term.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 14–18
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  south:
+  - moon
+  - saturn

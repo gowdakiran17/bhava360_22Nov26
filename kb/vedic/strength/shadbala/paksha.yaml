@@ -1,0 +1,59 @@
+id: vedic.strength-shadbala.paksha
+system: vedic
+topic: strength/shadbala
+title: Paksha bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Let L be the shorter Sun–Moon arc divided by three. Award L to Moon, Mercury, Jupiter and Venus, and sixty
+  minus L to Sun, Mars and Saturn. Use the undoubled Moon amount here and in Cheshta.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: paksha
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some implementations double the lunar award or reclassify Moon and Mercury by phase or association. Keep
+    the selected convention throughout.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 10–11, 18
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_kala.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  bright:
+  - moon
+  - mercury
+  - jupiter
+  - venus

@@ -1,0 +1,53 @@
+id: vedic.strength-shadbala.dig
+system: vedic
+topic: strength/shadbala
+title: Dig bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Take the shorter arc from the longitude of the weakest angle to the graha and divide by three. Use the actual
+  sidereal Ascendant and MC. Descendant and IC are their respective opposites.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: dig
+meaning: You may notice where the planet’s themes find an outlet in daily life.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: A whole-sign-house shortcut loses angular distance within the house.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 7–8
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: You may notice where the planet’s themes find an outlet in daily life.
+  kn: ಗ್ರಹಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯಗಳು ದಿನನಿತ್ಯದ ಬದುಕಿನಲ್ಲಿ ಎಲ್ಲಿ ವ್ಯಕ್ತವಾಗುತ್ತವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि ग्रह से जुड़े विषय रोज़मर्रा की ज़िंदगी में कहाँ व्यक्त होते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  weak_angle:
+    sun: ic
+    moon: mc
+    mars: ic
+    mercury: dsc
+    jupiter: dsc
+    venus: mc
+    saturn: asc

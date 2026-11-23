@@ -20,3 +20,30 @@ minimum_rupas:
 aggregate: Compare total to the planet-specific minimum. Withhold a qualitative label until reference arithmetic passes.
 ishta_kashta: For a verified 0–60 uccha bala U and cheshta bala C, Ishta = sqrt(U*C), Kashta = sqrt((60-U)*(60-C)). Use the
   chosen luminary substitutions.
+numeric_access: [admin, tester]
+public_projection: Only the localized qualitative phrase may leave the strength calculation context.
+approved_public_phrases:
+- en: This planet may lend support to the topics it represents.
+  kn: ಈ ಗ್ರಹವು ಸೂಚಿಸುವ ವಿಷಯಗಳಿಗೆ ಬೆಂಬಲ ಸಿಗಬಹುದು.
+  hi: इस ग्रह से जुड़े विषयों को सहारा मिल सकता है।
+- en: The planet’s placement may help you explore where its themes feel familiar.
+  kn: ಗ್ರಹದ ಸ್ಥಾನವು ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯಗಳು ನಿಮಗೆ ಎಲ್ಲಿ ಪರಿಚಿತವಾಗಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: ग्रह की स्थिति से आप देख सकते हैं कि उससे जुड़े विषय आपको कहाँ परिचित लगते हैं।
+- en: You may notice where the planet’s themes find an outlet in daily life.
+  kn: ಗ್ರಹಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯಗಳು ದಿನನಿತ್ಯದ ಬದುಕಿನಲ್ಲಿ ಎಲ್ಲಿ ವ್ಯಕ್ತವಾಗುತ್ತವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि ग्रह से जुड़े विषय रोज़मर्रा की ज़िंदगी में कहाँ व्यक्त होते हैं।
+- en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+- en: The planet’s motion may add a different emphasis to a familiar theme.
+  kn: ಗ್ರಹದ ಚಲನೆಯಿಂದ ಪರಿಚಿತ ವಿಷಯದ ಮತ್ತೊಂದು ಅಂಶ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: ग्रह की गति से किसी परिचित विषय का दूसरा पहलू उभर सकता है।
+- en: The planet’s traditional character may offer a starting point for reflection.
+  kn: ಗ್ರಹದ ಸಾಂಪ್ರದಾಯಿಕ ಸ್ವಭಾವವು ಚಿಂತನೆಗೆ ಆರಂಭದ ಬಿಂದುವಾಗಬಹುದು.
+  hi: ग्रह का पारंपरिक स्वभाव मनन का आधार बन सकता है।
+- en: Other planets may help explain why this theme feels different in different settings.
+  kn: ಬೇರೆ ಬೇರೆ ಸಂದರ್ಭಗಳಲ್ಲಿ ಈ ವಿಷಯ ವಿಭಿನ್ನವಾಗಿ ಅನಿಸಲು ಕಾರಣವೇನು ಎಂಬುದನ್ನು ತಿಳಿಯಲು ಇತರ ಗ್ರಹಗಳು ನೆರವಾಗಬಹುದು.
+  hi: दूसरे ग्रह यह समझने में मदद कर सकते हैं कि अलग परिस्थितियों में यह विषय अलग क्यों लगता है।
+- en: Taken together, these indications may help you put this part of your chart in context.
+  kn: ಈ ಸೂಚನೆಗಳನ್ನು ಒಟ್ಟಿಗೆ ನೋಡಿದಾಗ ನಿಮ್ಮ ಕುಂಡಲಿಯ ಈ ಭಾಗವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: इन संकेतों को साथ देखने से कुंडली के इस हिस्से को समझने में मदद मिल सकती है।

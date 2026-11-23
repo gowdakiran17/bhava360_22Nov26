@@ -17,6 +17,12 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  strength.shadbala.selected_component:
+    type: enum
+    producer: vedic.strength
+    origin: Bound completed admin/tester calculation under parashari-strength-v1.
+    unknown_if: Unauthorized role, missing inputs or unresolved dependent component.
+    values: [uchcha, saptavargaja, ojayugma, kendradi, drekkana, sthana, dig, nathonnata, paksha, tribhaga, abda, masa, vara, hora, ayana, yuddha, kala, cheshta, naisargika, drik, totals]
   dosha.mars.house_list:
     type: enum
     producer: vedic.doshas

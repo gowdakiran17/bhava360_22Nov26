@@ -130,3 +130,9 @@ vedic_varga_entries:
   seed_order: Aries is odd. Parity runs odd/even, modality movable/fixed/dual, element fire/earth/air/water.
   reading: Count houses from the divisional Lagna. Recompute it throughout the stated birth-time uncertainty. Use each method's existing read_access setting.
   weights: Absolute Vimshopaka points within each 20-point scheme. Zero marks a chart outside the ten-chart scheme. These are weights for planetary dignity aggregation.
+vedic_shadbala_entries:
+  extension: calculation
+  numeric_roles: [admin, tester]
+  public_fields: [user_text]
+  public_copy: Select a complete locale map from the reviewed qualitative phrase list in vedic/strength/shadbala/components.yaml. Do not interpolate any input, component, threshold or result into public text.
+  units: Sixty virupas (shashtiamsas of strength) make one rupa. Keep full precision until an authorized diagnostic display.

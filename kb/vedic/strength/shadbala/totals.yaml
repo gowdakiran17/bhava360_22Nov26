@@ -1,0 +1,88 @@
+id: vedic.strength-shadbala.totals
+system: vedic
+topic: strength/shadbala
+title: Shadbala totals and Ishta/Kashta phala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Sum the six signed components in virupas and divide by sixty for rupas. Compare the unrounded result with
+  the graha minimum using greater-than-or-equal. Separately compute Ishta = sqrt(U × C) and Kashta = sqrt((60
+  − U) × (60 − C)), where U is Uchcha and C is the selected undoubled Cheshta in [0,60]. Neither phala enters
+  the total. If any required input is unknown, withhold the dependent result.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: totals
+meaning: Taken together, these indications may help you put this part of your chart in context.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The library uses its geometric-mean Ishta/Kashta convention. BPHS also distinguishes ray-based results
+    and sign-based awards. The minimum measures capacity within this tradition.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 25, 32–33
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 28
+  verse: 2–9
+  other_locator: null
+  supports: Alternative ray and dignity treatments of phala.
+  verification: verified
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/strength/shadbala/components.yaml · ishta_kashta
+  supports: Existing library geometric-mean formula.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_summary.html
+  supports: Minimum rupas for each of the seven grahas.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: Taken together, these indications may help you put this part of your chart in context.
+  kn: ಈ ಸೂಚನೆಗಳನ್ನು ಒಟ್ಟಿಗೆ ನೋಡಿದಾಗ ನಿಮ್ಮ ಕುಂಡಲಿಯ ಈ ಭಾಗವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: इन संकेतों को साथ देखने से कुंडली के इस हिस्से को समझने में मदद मिल सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  terms:
+  - sthana
+  - dig
+  - kala
+  - cheshta
+  - naisargika
+  - drik
+  minimum_rupas:
+    sun: 6.5
+    moon: 6
+    mars: 5
+    mercury: 7
+    jupiter: 6.5
+    venus: 5.5
+    saturn: 5
+  virupas_per_rupa: 60

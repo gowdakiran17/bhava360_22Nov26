@@ -1,0 +1,57 @@
+id: vedic.strength-shadbala.abda
+system: vedic
+topic: strength/shadbala
+title: Abda bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use the weekday lord of the first sunrise of the active 360-day year. For completed sunrise days d from
+  a bound cycle epoch, the zero-based weekday is (epoch weekday + span × floor(d/span)) modulo seven, Sunday first.
+  Award points only to that lord.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: abda
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This arithmetic savana epoch must be recorded. Solar-ingress, lunar-month and civil-calendar starts may
+    give different lords.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '13'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_kala.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  span: 360
+  award: 15

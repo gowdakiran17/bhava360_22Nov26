@@ -1,0 +1,63 @@
+id: vedic.strength-shadbala.kala
+system: vedic
+topic: strength/shadbala
+title: Kala bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Sum all temporal contributions, including the signed planetary-war transfer. Retain fractional and negative
+  terms until the total has been formed.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: kala
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Profile choices for calendars, luminaries, declination and war are specified in their component files.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: 8–20
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_kala.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  terms:
+  - nathonnata
+  - paksha
+  - tribhaga
+  - abda
+  - masa
+  - vara
+  - hora
+  - ayana
+  - yuddha

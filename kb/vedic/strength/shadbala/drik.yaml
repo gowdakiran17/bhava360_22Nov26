@@ -1,0 +1,94 @@
+id: vedic.strength-shadbala.drik
+system: vedic
+topic: strength/shadbala
+title: Drik bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For each other classical graha compute (target longitude − caster longitude) modulo 360. Interpolate the
+  common aspect between consecutive knots. At the start and end of each special-aspect interval use the selected
+  caster’s special peak at the indicated knot, interpolating between adjacent knot values. Add benefic aspects
+  and subtract malefic aspects, then divide by four. Jupiter and Venus are benefic. Moon is benefic for elongation
+  in (0,180]; Mercury is benefic unless sharing a natal sign with Sun, Mars, Saturn or a dark Moon.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: drik
+meaning: Other planets may help explain why this theme feels different in different settings.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This profile interpolates between full special-aspect peaks. Implementations also use segment bonuses
+    or alternative treatment of Mercury and Jupiter.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '19'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: PyJHora
+  work_id: pyjhora-vargas
+  edition: pyjhora-vargas-pinned
+  chapter: null
+  verse: null
+  other_locator: horoscope/chart/strength.py · _drik_bala
+  supports: Signed quarter of received aspects as a numerical comparator. Interpolation between the listed peaks
+    is the selected KB profile.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: Other planets may help explain why this theme feels different in different settings.
+  kn: ಬೇರೆ ಬೇರೆ ಸಂದರ್ಭಗಳಲ್ಲಿ ಈ ವಿಷಯ ವಿಭಿನ್ನವಾಗಿ ಅನಿಸಲು ಕಾರಣವೇನು ಎಂಬುದನ್ನು ತಿಳಿಯಲು ಇತರ ಗ್ರಹಗಳು ನೆರವಾಗಬಹುದು.
+  hi: दूसरे ग्रह यह समझने में मदद कर सकते हैं कि अलग परिस्थितियों में यह विषय अलग क्यों लगता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  knots_degrees:
+  - 0
+  - 30
+  - 60
+  - 90
+  - 120
+  - 150
+  - 180
+  - 210
+  - 240
+  - 270
+  - 300
+  - 360
+  common:
+  - 0
+  - 0
+  - 15
+  - 45
+  - 30
+  - 0
+  - 60
+  - 45
+  - 30
+  - 15
+  - 0
+  - 0
+  special:
+    mars:
+    - 90
+    - 210
+    jupiter:
+    - 120
+    - 240
+    saturn:
+    - 60
+    - 270

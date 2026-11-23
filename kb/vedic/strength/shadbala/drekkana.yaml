@@ -1,0 +1,63 @@
+id: vedic.strength-shadbala.drekkana
+system: vedic
+topic: strength/shadbala
+title: Drekkana bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Split the natal sign at ten and twenty degrees, including each lower boundary. Award fifteen to a graha
+  belonging to the group for its occupied third, otherwise zero.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: drekkana
+meaning: The planet’s placement may help you explore where its themes feel familiar.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The selected Sanskrit reading orders masculine, neuter, feminine. Some modern tables interchange the last
+    two groups.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '6'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_sthana.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The planet’s placement may help you explore where its themes feel familiar.
+  kn: ಗ್ರಹದ ಸ್ಥಾನವು ಅದಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯಗಳು ನಿಮಗೆ ಎಲ್ಲಿ ಪರಿಚಿತವಾಗಿವೆ ಎಂಬುದನ್ನು ಗಮನಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: ग्रह की स्थिति से आप देख सकते हैं कि उससे जुड़े विषय आपको कहाँ परिचित लगते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  groups:
+  - - sun
+    - mars
+    - jupiter
+  - - mercury
+    - saturn
+  - - moon
+    - venus
+  award: 15

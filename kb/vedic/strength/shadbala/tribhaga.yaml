@@ -1,0 +1,62 @@
+id: vedic.strength-shadbala.tribhaga
+system: vedic
+topic: strength/shadbala
+title: Tribhaga bala
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Select the current sunrise-to-sunset or sunset-to-next-sunrise interval. Divide its actual duration into
+  thirds, lower edge inclusive. Give sixty to the ruler of the active third and sixty to Jupiter.
+conditions:
+  all:
+  - fact: strength.shadbala.selected_component
+    op: eq
+    value: tribhaga
+meaning: The timing in your chart may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Equal civil clock divisions differ from seasonal day and night thirds.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '12'
+  other_locator: null
+  supports: Classical component or strength principle. Operational choices are identified in the calculation profile.
+  verification: verified
+- book: Maitreya Shadbala documentation
+  work_id: maitreya-shadbala
+  edition: maitreya-shadbala-web
+  chapter: null
+  verse: null
+  other_locator: https://saravali.github.io/astrology/bala_kala.html
+  supports: Modern comparison of the selected component and school variants.
+  verification: verified
+confidence: medium
+review_notes: Draft numerical convention. Native-language review pending.
+user_text:
+  en: The timing in your chart may add context to this theme.
+  kn: ನಿಮ್ಮ ಕುಂಡಲಿಯಲ್ಲಿನ ಕಾಲಸೂಚನೆ ಈ ವಿಷಯವನ್ನು ಅರ್ಥಮಾಡಿಕೊಳ್ಳಲು ನೆರವಾಗಬಹುದು.
+  hi: आपकी कुंडली में समय से जुड़े संकेत इस विषय को समझने में मदद कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+calculation:
+  profile: parashari-strength-v1
+  access:
+  - admin
+  - tester
+  unit: virupa (shashtiamsa of one rupa)
+  day:
+  - mercury
+  - sun
+  - saturn
+  night:
+  - moon
+  - venus
+  - mars
+  always: jupiter
