@@ -1,35 +1,32 @@
-# Bhava360 cloud development
+# Bhava360 development environment
 
-Use the existing checkout at `/workspace/bhava360_22Nov26`. The managed Linux image supplies Bash, npm, GCC/G++ and Python 3. On a minimal Debian or Ubuntu image, include `python3`, `python3-venv`, `python3-dev`, `build-essential` and `npm` during image provisioning.
+Use the repository root as the working directory for Codex cloud and local agent sessions.
 
-## Setup phase
+## Cloud settings
 
-Allow network access only for package installation. Configure the cloud setup command as follows.
+Set the setup command to `bash scripts/codex-setup.sh`. Allow outbound access during setup only for package installation through apt, official Node distributions, the npm/pnpm registry and PyPI. Turn internet access off during implementation, or use the closest available outbound restriction. If a dependency is missing, rerun setup. Keep product sign-in, production scraping, live bhava360.com, hosted databases and payment, OTP and AI providers outside both phases.
+
+Leave the environment secret store empty. If the platform requires a binding, use an empty placeholder. Document variable names only, such as `DATABASE_URL` and `ADMIN_BOOTSTRAP_OWNER_EMAIL`. Never put credential values or a real owner email in the repository or Codex memory. Setup copies a names-only `.env.example` when present and preserves an existing `.env`. Use only the synthetic fixtures in [AGENTS.md](../AGENTS.md).
+
+## Toolchain
+
+Start with Bash and Python 3 on Linux. On a minimal Debian or Ubuntu image, install missing prerequisites during setup with apt: `python3`, `python3-venv`, `python3-pip`, `python3-dev`, `build-essential`, `ca-certificates`, `curl` and `xz-utils`. The script creates a repository-local `.venv` and installs the development requirements from PyPI. PyYAML provides the `yaml` module and pyswisseph provides `swisseph`.
+
+Setup uses the installed Node and pnpm when available. On Linux x64 and arm64, it can bootstrap Node 22 LTS from the official nodejs.org tarball, checking its SHA-256 against the release manifest before extraction. When pnpm is missing it installs major 10 with npm into the virtual environment. New shells can use these tools by activating the environment.
+
+## Before each PR
+
+From the repository root, run:
 
 ```bash
-cd /workspace/bhava360_22Nov26
-./scripts/codex-setup.sh
+source .venv/bin/activate
+export XDG_DATA_HOME="${XDG_DATA_HOME:-$VIRTUAL_ENV/share}"
+export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$VIRTUAL_ENV/cache}"
+export PYTHONDONTWRITEBYTECODE=1
+python3 -c "import yaml, swisseph"
+(cd kb/governance/validation && python3 check.py)
 ```
 
-The script prepares Node 24 LTS, pnpm and a Python virtual environment with the pinned development requirements. It can run repeatedly. Once a root package manifest exists, it installs the workspace dependencies, using the frozen lockfile when available. The default tool directory is outside the checkout. Set `BHAVA_TOOLS_DIR` to an absolute writable directory to override it.
+Once issue 01 adds the root `package.json`, also run `pnpm test` and `pnpm build` from the root. These local checks replace cloud CI for now. Do not add GitHub Actions. The validators under `kb/` remain authoritative for YAML. Preserve them during setup.
 
-## Agent phase
-
-Disable internet access after setup. Development and validation run locally, with synthetic fixtures from [AGENTS.md](../AGENTS.md). Setup requires no secrets or environment file. Swiss Ephemeris is a development dependency for future reference tests. The owner decides licensing before public launch.
-
-Activate the installed tools in each new task shell.
-
-```bash
-cd /workspace/bhava360_22Nov26
-tools_dir="${BHAVA_TOOLS_DIR:-/workspace/.bhava360-tools}"
-export PATH="$tools_dir/bin:$PATH"
-export XDG_DATA_HOME="${XDG_DATA_HOME:-$tools_dir/share}"
-export XDG_CACHE_HOME="${XDG_CACHE_HOME:-$tools_dir/cache}"
-. "$tools_dir/venv/bin/activate"
-node --version
-pnpm --version
-python3 -c 'import yaml, swisseph'
-(cd kb/governance/validation && PYTHONDONTWRITEBYTECODE=1 python3 check.py)
-```
-
-Once the root package manifest exists, also run `pnpm test` and `pnpm build` from the checkout root. Use local or ephemeral Postgres for future database checks. The migration CLI must refuse hosted URLs. Kiran approves hosted migrations separately.
+If set, `DATABASE_URL` may point only to local or ephemeral Postgres. Migration commands must refuse non-local URLs. Kiran approves hosted migrations separately.

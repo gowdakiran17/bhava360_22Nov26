@@ -1,2 +1,4 @@
-PyYAML==6.0.3
-pyswisseph==2.10.3.2
+# Python deps for KB validators and later Swiss Ephemeris golden tests.
+# Install only in dev / Codex setup. Do not commit secrets or ephemeris binaries.
+pyyaml>=6.0
+pyswisseph>=2.10.0
