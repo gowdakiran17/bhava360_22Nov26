@@ -18,6 +18,7 @@ aliases:
 - sixfold planetary strength
 reference_rules: []
 used_by:
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-shadbala.abda
 - vedic.strength-shadbala.ayana
 - vedic.strength-shadbala.cheshta

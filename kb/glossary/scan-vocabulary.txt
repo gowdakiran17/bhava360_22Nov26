@@ -58,6 +58,7 @@
 0c3955341eb1508502bb45b2c3f3ba26aebc3d9c80bf88f03579f4fc555ac434
 0c3b39737197d146038c95b7421f6737d910f1467813446bf34eb884fe9bcc47
 0c543c02d4b8ea1f0173337ff403795b02ae12cfe6ef912076963650506fb3b1
+0e
 0e78a99a0f68b43100fbdf08dff44983d1b27b2ef8d3e7b0d5556ff3ae81a2ab
 0eb029e6b6136bc239354d8516f7591568e1d2e882e8800e771fd4974cbc1475
 0f36368048d2fbffd0c7b296ec199d0d881401a3f13db872a5d0cdb281ee9780
@@ -151,6 +152,7 @@
 1d87fbed93c7cbfd5a46b667d5b7ffc7442057b707d258dce39983a5bf9b4d5b
 1d89811ab4eb351346c64baf2d7b22341e76bab0c7d43e77f382cbd34fa614dd
 1dd9b4e39641218715a1289c938528f72acd54182fd63b6676282232dad59404
+1e
 1e85ffd39effde1596f6325c7dddbddc6a97d5d75fec0efa6482e41af71b4aa7
 1e9eafecb03dd5ec9de55a9eeba6e981ad2e40f6bf1196a8567c61083b90186f
 1eb3bb30dfca45a472ac2b16cb924d62c315852f173acc58a54fdf1325f0dfe9
@@ -719,6 +721,7 @@ adhika
 adhipathi
 adi
 aditi
+adj
 adjacent
 adjust
 adjusted
@@ -858,6 +861,7 @@ anniversary
 annotate
 annual
 anomalies
+anonymous
 another
 answer
 answering
@@ -944,6 +948,7 @@ array
 arrival
 arthur
 articles
+artificial
 artwork
 arudha
 arudhas
@@ -980,6 +985,7 @@ aspecting
 aspects
 aspirations
 assembled
+assert
 asserted
 assertions
 assess
@@ -1048,6 +1054,7 @@ away
 awkwardly
 axes
 axis
+ayan
 ayana
 ayanam
 ayanamsa
@@ -1097,6 +1104,7 @@ baladi
 balance
 balanced
 balancing
+balas
 balava
 band
 bands
@@ -1157,6 +1165,7 @@ benefit
 bengaluru
 benham
 beside
+best
 better
 between
 bf0c3b34eb26e23e4da131e5d68c857fe541c5b8fc1acfb78faeef1ebce8ac29
@@ -1177,6 +1186,7 @@ bhanga
 bharani
 bhava
 bhava360
+bhavadhipati
 bhavam
 bhavas
 bhavat
@@ -1371,6 +1381,7 @@ cases
 cast
 caste
 caster
+casters
 casting
 casts
 cat
@@ -1527,6 +1538,7 @@ clearest
 clearly
 clinician
 clip
+clipping
 clock
 clocks
 clockwise
@@ -1837,6 +1849,7 @@ cusp6
 cusp7
 cusp8
 cusp9
+cuspal
 cusps
 custom
 customs
@@ -2001,6 +2014,7 @@ deliberate
 delimited
 delivery
 delta
+deltat
 demanding
 demands
 demoli
@@ -2222,6 +2236,7 @@ dsign
 dst
 du
 dual
+dump
 duplicate
 duplicates
 durable
@@ -2428,10 +2443,12 @@ ephemeris
 epoch
 epsilon
 eq
+equ
 equal
 equality
 equally
 equals
+equatorial
 equinox
 equivalence
 equivalent
@@ -2556,6 +2573,7 @@ extensions
 extent
 extra
 extrapolate
+extrema
 f
 f0dae37064b27d3598ea5a79773a59530ef6889d6fbba21223c69100394ca6d2
 f27464192faf1748ec00fb65a27b92b48d4e38700fd0807484731cb3fce64a08
@@ -2589,6 +2607,7 @@ factors
 facts
 fadc7be91c21432532f5c92f6fc0bce14d50351336a4ddcc3da8a523eb688562
 fades
+fail
 failed
 failing
 fails
@@ -2704,6 +2723,7 @@ flat
 flats
 flesh
 flexible
+flg
 float
 floor
 flourish
@@ -2808,6 +2828,7 @@ gap
 gaps
 gara
 gate
+gated
 gates
 gather
 gathering
@@ -2825,6 +2846,7 @@ generated
 generation
 generational
 generations
+generator
 generosity
 generous
 genital
@@ -2878,6 +2900,7 @@ governance
 governing
 governs
 gpy
+grade
 gradual
 gradually
 graha
@@ -2978,6 +3001,7 @@ heartfelt
 helctr
 held
 heliacal
+heliocentric
 help
 helped
 helpers
@@ -3156,6 +3180,7 @@ inferred
 influence
 influences
 information
+infrastructure
 ingestion
 ingress
 ingresses
@@ -3293,8 +3318,10 @@ ix
 iyer
 j
 j108
+j2000
 ja
 jaimini
+jalachara
 janma
 january
 japa
@@ -3374,6 +3401,7 @@ ke
 keep
 keeping
 keeps
+keeta
 kem
 kemadruma
 kendra
@@ -3808,6 +3836,7 @@ metrics
 mi
 microsecond
 microseconds
+mid
 middle
 midnight
 midpoint
@@ -3893,6 +3922,7 @@ mriga
 mrigashira
 mrita
 mrityu
+mt
 mu
 much
 muhurat
@@ -3953,6 +3983,7 @@ names
 namespaces
 namietamodi
 naming
+nara
 naraka
 narasimha
 narayana
@@ -4001,6 +4032,7 @@ neither
 neptune
 nested
 net
+network
 networks
 neuter
 neutral
@@ -4039,6 +4071,7 @@ noncentral
 none
 nonempty
 nonnegative
+nonpositive
 nonut
 nonzero
 noon
@@ -4081,6 +4114,7 @@ nurturing
 nw
 ny
 o
+obj
 object
 objection
 obligation
@@ -4094,6 +4128,7 @@ observations
 observe
 observed
 observer
+observing
 obsolete
 obstructed
 obstructing
@@ -4156,6 +4191,7 @@ opportunities
 opportunity
 oppose
 opposed
+opposes
 opposing
 opposite
 opposites
@@ -4169,6 +4205,7 @@ options
 opts
 or
 orb
+orbital
 orbs
 order
 ordered
@@ -4231,6 +4268,7 @@ p
 pa
 pace
 pack
+package
 pad
 pada
 padas
@@ -4613,6 +4651,7 @@ pwnejyvl
 py
 pycache
 pyjhora
+pypi
 pyramid
 pyramids
 pythagorean
@@ -4720,6 +4759,7 @@ rat
 rates
 rath
 rather
+ratio
 rational
 ratnas
 ravi
@@ -4826,6 +4866,7 @@ reflects
 refraction
 reframing
 refs
+regenerate
 region
 regional
 register
@@ -5098,6 +5139,7 @@ sake
 salaried
 sale
 sales
+sama
 sambandha
 same
 samhita
@@ -5285,6 +5327,7 @@ shashtiamsas
 shashtyamsa
 shastra
 shatabhisha
+shatru
 sheep
 sheet
 sheets
@@ -5324,6 +5367,7 @@ shula
 si
 sibling
 siblings
+sid
 siddha
 siddhamsa
 siddhanta
@@ -5336,6 +5380,7 @@ sidm
 sign
 signal
 signals
+signature
 signchart
 signed
 significations
@@ -6048,6 +6093,7 @@ unnecessary
 unobstructed
 unordered
 unproved
+unpublished
 unqualified
 unrecognised
 unrecorded
@@ -6072,6 +6118,7 @@ untested
 until
 untranslated
 untraversed
+unverified
 unweighted
 unwind
 unwrapped
@@ -6389,6 +6436,7 @@ yates
 ye
 year
 years
+yes
 yi
 yield
 yields
@@ -6796,6 +6844,7 @@ zones
 गोल
 गौर
 ग्रह
+ग्रहों
 घ
 घर
 घरों
@@ -7039,6 +7088,7 @@ zones
 दृढ़ता
 दृष्टि
 दृष्टिकोण
+दृष्टियाँ
 दृष्टियों
 दे
 दें
@@ -7458,6 +7508,7 @@ zones
 यदि
 यन्त्र
 यह
+यहाँ
 यही
 या
 यात्रा
@@ -8186,6 +8237,7 @@ zones
 ಇರುವವರಿಗೆ
 ಇರುವಾಗಲೇ
 ಇಲ್ಲ
+ಇಲ್ಲಿ
 ಇಷ್ಟ
 ಇಷ್ಟಪಡುತ್ತಾರೆ
 ಇಷ್ಟಪಡುತ್ತೀರಿ
@@ -8205,6 +8257,7 @@ zones
 ಉಂಗುರದ
 ಉಂಟುಮಾಡಿದರೆ
 ಉಚಿತ
+ಉತ್ತಮ
 ಉತ್ತರ
 ಉತ್ತರಿಸುವ
 ಉತ್ಪನ್ನ
@@ -8580,8 +8633,10 @@ zones
 ಗೌಪ್ಯತೆಗೆ
 ಗ್ರಹ
 ಗ್ರಹಕ್ಕೆ
+ಗ್ರಹಗಳ
 ಗ್ರಹಗಳು
 ಗ್ರಹದ
+ಗ್ರಹದೃಷ್ಟಿಗಳು
 ಗ್ರಹವನ್ನು
 ಗ್ರಹವು
 ಘ
@@ -9530,6 +9585,7 @@ zones
 ಲಭ್ಯ
 ಲಭ್ಯವಿದೆ
 ಲಭ್ಯವಿರುವ
+ಲಭ್ಯವಿಲ್ಲ
 ಲಯ
 ಲೆಕ್ಕ
 ಲೆಕ್ಕಪತ್ರದಿಂದ
@@ -9600,6 +9656,7 @@ zones
 ವಿವರಕ್ಕೆ
 ವಿವರಗಳನ್ನು
 ವಿವರಗಳಿಗೆ
+ವಿವರಗಳು
 ವಿವರಣೆ
 ವಿವರಣೆಗಳನ್ನು
 ವಿವರಣೆಯಿಂದ
@@ -9723,11 +9780,13 @@ zones
 ಸಂತೃಪ್ತಿ
 ಸಂತೋಷ
 ಸಂತೋಷಕ್ಕಾಗಿಯೇ
+ಸಂದರ್ಭ
 ಸಂದರ್ಭಕ್ಕೆ
 ಸಂದರ್ಭಗಳನ್ನು
 ಸಂದರ್ಭಗಳಲ್ಲಿ
 ಸಂದರ್ಭದಲ್ಲಿ
 ಸಂದರ್ಭದಲ್ಲಿಯೂ
+ಸಂದರ್ಭವನ್ನು
 ಸಂದೇಶ
 ಸಂದೇಶದಿಂದ
 ಸಂದೇಶವನ್ನು

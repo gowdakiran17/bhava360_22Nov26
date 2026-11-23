@@ -6,7 +6,7 @@ doctrine_profile: kp-editorial-v1
 approval: draft
 rule: Use UT Julian day, geographical latitude and east-positive longitude. Set sidereal mode 5 and call swe_houses_ex2
   with SEFLG_SIDEREAL and P. Require success and twelve distinct, cyclically ordered cusps. House n spans cusp
-  n inclusive to cusp n+1 exclusive with zodiac wrap; a polar fallback is unknown.
+  n inclusive to cusp n+1 exclusive with zodiac wrap; if Placidus fails, withhold cuspal sub lords, house significators and KP Prashna. Keep planetary star and sub lords and independent Parashari calculations available. The success status governs even near the polar circle.
 conditions:
   all:
   - fact: kp.cusps.placidus_ready

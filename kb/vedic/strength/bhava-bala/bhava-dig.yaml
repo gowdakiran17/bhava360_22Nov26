@@ -1,0 +1,47 @@
+id: vedic.strength-bhava-bala.bhava-dig
+system: vedic
+topic: strength/bhava-bala
+title: Directional support of a house
+doctrine_profile: parashari-strength-v1
+approval: draft
+rule: From the strongest reference house count zero at equality. Use the shorter cyclic distance in houses, d, from
+  zero to six. Award 60 minus 10 times d.
+conditions:
+  all:
+  - fact: strength.bhava.selected_component
+    op: eq
+    value: bhava-dig
+meaning: The house’s direction may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-strength-v1
+  note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/strength/bhava-bala/components.yaml#dig
+  supports: Bhava360 operational convention for this component.
+  verification: verified
+- book: PyJHora
+  work_id: pyjhora-house-strength
+  edition: pyjhora-house-strength-506
+  chapter: null
+  verse: null
+  other_locator: jhora/const.py sign-class constants and jhora/horoscope/chart/strength.py _bhava_dig_bala
+  supports: The four groups of zodiac segments and strongest house for each group.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: The house’s direction may add context to this theme.
+  kn: ಭಾವದ ದಿಕ್ಕು ಈ ವಿಷಯಕ್ಕೆ ಸಂದರ್ಭ ನೀಡಬಹುದು.
+  hi: भाव की दिशा इस विषय को समझने में सहायक हो सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

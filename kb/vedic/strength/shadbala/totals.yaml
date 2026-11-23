@@ -86,3 +86,4 @@ calculation:
     venus: 5.5
     saturn: 5
   virupas_per_rupa: 60
+  wording_table: vedic/strength/user-words.yaml

@@ -1,0 +1,39 @@
+id: vedic.strength-bhava-bala.bhava-drik
+system: vedic
+topic: strength/bhava-bala
+title: Aspects to the house midpoint
+doctrine_profile: parashari-strength-v1
+approval: draft
+rule: Interpolate the caster's aspect from the base table. Multiply by its weight and by +1 for a benefic or -1
+  for a malefic. Sum the seven signed terms. Nodes qualify Mercury but do not cast an aspect in this table.
+conditions:
+  all:
+  - fact: strength.bhava.selected_component
+    op: eq
+    value: bhava-drik
+meaning: Planetary aspects may add context to this area.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-strength-v1
+  note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
+sources:
+- book: Bhava360 engine and reading conventions
+  work_id: bhava360-engine-and-reading-conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/strength/bhava-bala/components.yaml#drik
+  supports: Bhava360 operational convention for this component.
+  verification: verified
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: Planetary aspects may add context to this area.
+  kn: ಗ್ರಹದೃಷ್ಟಿಗಳು ಈ ವಿಷಯಕ್ಕೆ ಸಂದರ್ಭ ನೀಡಬಹುದು.
+  hi: ग्रह दृष्टियाँ इस विषय को समझने में सहायक हो सकती हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

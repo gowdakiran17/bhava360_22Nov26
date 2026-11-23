@@ -32,3 +32,12 @@ instants:
   display_zone: selected-city-iana-zone
   display_unit_seconds: 60
   display_rounding: nearest-minute-ties-earlier
+default_sunrise: apparent-upper-limb-with-refraction
+sunrise_variants:
+  sunrise.traditional-disc-centre:
+    body: SE_SUN
+    limb: centre
+    refraction: false
+    flags: [SE_CALC_RISE, SE_BIT_DISC_CENTER, SE_BIT_NO_REFRACTION]
+    rsmi: 769
+    use: Override only sunrise event bits. Record the method on the day and its dependent windows. Tithi-at-sunrise selection and Rahu kaal timing can differ on edge days, even for a one-to-two-minute shift. The actual shift depends on place and date.

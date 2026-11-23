@@ -4,7 +4,7 @@ topic: strength/bhava-bala
 title: House Support
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: A validated house-strength profile classifies this specific bhava as supported.
+rule: Use the supported band from vedic/strength/user-words.yaml after all twelve house totals are available.
 conditions:
   all:
   - fact: strength.bhava.qualitative_support

@@ -22,6 +22,8 @@ def corpus(root):
         rel = path.relative_to(root)
         if not path.is_file() or rel.parts[0] in ('glossary','export','dist-json') or '__pycache__' in rel.parts:
             continue
+        if rel.as_posix() == 'requirements-dev.txt':
+            continue  # Python package requirements are infrastructure.
         if path.suffix not in ('', '.md', '.py', '.csv', '.yaml', '.svg'):
             raise ValueError(f'Classify new KB file type for glossary scan: {rel}')
         yield rel, path.read_text()

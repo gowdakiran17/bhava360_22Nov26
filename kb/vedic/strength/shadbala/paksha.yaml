@@ -57,3 +57,4 @@ calculation:
   - mercury
   - jupiter
   - venus
+  scope_note: Fixed phase awards are component weights. General benefic classification is in vedic/planets/benefic-profile.yaml.

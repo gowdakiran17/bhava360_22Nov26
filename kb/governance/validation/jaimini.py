@@ -9,7 +9,8 @@ CLASSICAL = 'sun moon mars mercury jupiter venus saturn'.split()
 RULERS = 'mars venus mercury moon sun mercury venus mars jupiter saturn saturn jupiter'.split()
 
 
-def ranked(positions, method, scheme):
+def ranked(positions, method, scheme=None):
+    scheme = method['default_scheme'] if scheme is None else scheme
     roles = method['schemes'][scheme]
     bodies = list(method['classical_candidates'])
     if scheme == 'eight':
@@ -49,6 +50,18 @@ def validate_jaimini(rules,read,evaluate,require):
     fixture = read('examples/jaimini-reference.yaml')
     require(fixture['synthetic'] and set(fixture['cases'])=={'Asha','Ravi'},'Jaimini fixtures')
     method = read(PREFIX+'chara-karakas/methods.yaml')
+    period = read('jaimini/chara-dasha/periods.yaml')
+    require(method['default_scheme']=='seven' and method['optional_scheme']=='eight'
+            and period['modifier_grade_bounds']==[-1,1] and period['default_variant']==
+            read('vedic/dashas/chara/periods.yaml')['profile'],'Jaimini owner defaults')
+    def modifier(ids, grade):
+        if not ids or set(ids)!={period['default_variant']} or grade is None:
+            return None
+        low,high = period['modifier_grade_bounds']
+        return min(high,max(low,grade))
+    chosen=period['default_variant']
+    require([modifier([chosen,chosen],g) for g in (-2,-1,0,1,2)]==[-1,-1,0,1,1]
+            and modifier([chosen,'different'],1) is None and modifier([],1) is None,'one variant and bounded grade')
     require(method['classical_candidates']==CLASSICAL and method['eight_addition']=='rahu'
             and method['sign_width_arcsec']==108000, 'karaka inputs')
     require(method['schemes']=={'seven':'AK AmK BK MK PK GK DK'.split(),
@@ -107,6 +120,7 @@ def validate_jaimini(rules,read,evaluate,require):
                 fire('rashi-drishti.sign-contact','jaimini.sign_aspect',hit)
     p = fixture['cases']['Asha']['positions'].copy()
     p['moon'] = [3,p['sun'][1]]
+    require(ranked(p,method)==ranked(p,method,'seven'),'seven default roles')
     ties = ranked(p,method,'seven')
     require(ties['AK'] is ties['AmK'] is None and ties['BK']=='mars','exact tie affects only tied slots')
     p['moon'] = [3,p['sun'][1]+Fraction(1,100)]

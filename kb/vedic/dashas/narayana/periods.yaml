@@ -1,6 +1,6 @@
 version: 1
 approval: draft
-clock: vedic/dashas/vimshottari/periods.yaml
+clock: system-specific
 even_footed:
 - cancer
 - leo
@@ -56,7 +56,10 @@ dual_lords: Scorpio uses Mars/Ketu and Aquarius Saturn/Rahu. If just one occupie
   dispositor by occupation or rashi drishti, exaltation, modality, then longer candidate duration. Withhold unresolved
   ties. Use the classical dispositor for this comparison to avoid recursion.
 simultaneous_exceptions: Saturn precedence when both Saturn and Ketu occupy the seed (KB choice).
-clock_policy: Use one fixed year length from the KB-14 clock throughout each tree. The draft default is 365.2425
+clock_policy: Use one fixed year length from the KB-14 clock throughout each tree. The system-specific default for the existing dated reference is 365.2425
   days and the savana variant is 360. Use exact UTC offsets from the full parent start and half-open boundaries.
 first_pass_max_years: 12
 complement_convention: Cap the first pass at twelve before computing its complement. This handles a ruler simultaneously in its own and exaltation sign.
+default_year: mean-gregorian
+year_days: {mean-gregorian: 365.2425, savana: 360}
+clock_reason: Preserve this system’s dated references independently of the Vimshottari default.

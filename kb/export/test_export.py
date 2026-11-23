@@ -24,6 +24,17 @@ class EngineExport(unittest.TestCase):
         cls.aliases = aliases['evidence_aliases']
         cls.copies = aliases['copy_aliases']
 
+    def test_strength_words_have_only_localized_labels(self):
+        path = 'vedic/strength/user-words.yaml'
+        for band, row in self.source[path]['labels'].items():
+            name = f'{path}#labels/{band}'
+            public = self.docs['public/catalog.json']['entries'][token('p',name)]
+            self.assertEqual(set(public), {'label'})
+            self.assertIn(row['tone'], ['Supportive','Steady','Take care'])
+            for locale in ('en','kn','hi'):
+                word = self.docs[f'public/locales/{locale}.json']['messages'][public['label']]
+                self.assertEqual(word,row[locale])
+                self.assertNotRegex(word, r'\d|%|weak|rank')
     def test_manifest_integrity_and_schemas(self):
         inventory = self.manifest['files']
         self.assertEqual(set(self.files),set(inventory)|{'manifest.json'})

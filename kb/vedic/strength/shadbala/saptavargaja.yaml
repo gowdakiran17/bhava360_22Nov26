@@ -63,13 +63,7 @@ calculation:
   - 9
   - 12
   - 30
-  temporary_friends:
-  - 2
-  - 3
-  - 4
-  - 10
-  - 11
-  - 12
+  relationship_table: vedic/dignity/relationships.yaml
   relationship_awards:
   - 2
   - 4

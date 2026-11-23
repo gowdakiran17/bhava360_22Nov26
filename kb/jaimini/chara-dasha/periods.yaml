@@ -4,5 +4,7 @@ start: Use natal Lagna sign in the candidate profile. Store direction by sign gr
   direct/reverse convention.
 duration: Subtract one from the inclusive sign count; use twelve years when ruler occupies the sign itself. Dual-lord, exaltation
   and debility adjustments depend on selected school.
-hold: K.N. Rao or alternate variant and worked example must be explicitly pinned before dated output.
+default_variant: pyjhora-kn-rao-candidate-v1
+variant_policy: Store the resolved ID on every period. Reject a reading combining distinct variant IDs.
+modifier_grade_bounds: [-1, 1]
 dual_lord_profile: jaimini/lordship/dual-lords.yaml

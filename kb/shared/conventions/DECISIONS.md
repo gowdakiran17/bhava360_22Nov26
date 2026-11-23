@@ -1,10 +1,10 @@
-# Calculation decisions awaiting Kiran
+# Owner-selected calculation defaults
 
-All four recommendations are drafts. Each needs Kiran’s decision before the dependent engine step.
+The owner selected these methods for KB-33. Entry approval remains draft.
 
-| Decision | Recommended default | Trade-off |
+| Area | Default | Effect |
 |---|---|---|
-| D60 placement | Use the existing parashari-d60-v1 candidate, starting in the natal sign and advancing one sign per half degree. Require a stable division. | Other seeds and even-sign reversals can assign a different sign. |
-| Jaimini chara karakas | Use the seven classical grahas. | The eight-karaka scheme includes reverse-counted Rahu and a paternal karaka and can change ranks. |
-| Chara dasha | Review the existing pyjhora-kn-rao-candidate-v1 against dated reference cases. | It gives a reproducible sequence but other schools differ on direction and durations. |
-| KP polar fallback | Return unknown for unavailable Placidus cusps. | KP cusp results then have gaps at high latitudes. Substituting another house system changes their meaning. |
+| D60 | BPHS forward half-degree divisions from the natal sign, modulo twelve. | Reverse the deity index in even signs. Cap confidence at low for unverified birth time and withhold unstable facts. Deity names stay outside user copy. |
+| Chara karakas | Seven. Record the scheme on every result. | The optional eight scheme adds Rahu ranked by 30° minus its degree. |
+| Chara dasha | K.N. Rao, stored as pyjhora-kn-rao-candidate-v1 for existing records. | Bind all periods to one variant. Jaimini contributes at most one grade in either direction. |
+| KP polar cusps | Withhold cusp-based results if Placidus fails. | Planetary star and sub lords and the separate Parashari chart can still be computed. |

@@ -1,0 +1,16 @@
+version: 1
+approval: draft
+profile: parashari-natural-v1
+always_benefic: [jupiter, venus]
+always_malefic: [sun, mars, saturn, rahu, ketu]
+moon:
+  angle: (sidereal moon minus sun) modulo 360
+  default: shukla
+  variants:
+    shukla: {lower_deg: 0, lower_inclusive: false, upper_deg: 180, upper_inclusive: true}
+    bright-72: {lower_deg: 72, lower_inclusive: true, upper_deg: 180, upper_inclusive: true}
+  note: The alternative uses measured elongation. A 72-degree threshold is distinct from the start of Ashtami at 84 degrees.
+mercury:
+  malefic_if_same_d1_sign_as: [sun, mars, saturn, rahu, ketu, malefic-moon]
+  otherwise: benefic
+unknown_if: A missing longitude or unresolved Moon class could change the requested classification.

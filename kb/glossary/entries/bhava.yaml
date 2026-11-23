@@ -623,6 +623,9 @@ used_by:
 - vedic.states.combustion
 - vedic.states.vargottama
 - vedic.states.yuti
+- vedic.strength-bhava-bala.bhava-dig
+- vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-bhava-bala.house-support
 - vedic.strength-shadbala.dig
 - vedic.strength-shadbala.kendradi

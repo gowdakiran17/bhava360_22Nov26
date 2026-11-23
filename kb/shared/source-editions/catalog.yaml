@@ -30,6 +30,7 @@ works:
   pyjhora-chara: PyJHora Chara calculations
   rao-integrated: Vedic Astrology, An Integrated Approach
   maitreya-shadbala: Maitreya Shadbala documentation
+  pyjhora-house-strength: PyJHora house strength implementation
   pyjhora-vargas: PyJHora divisional chart methods and weights
   sgs-panchangam: SGS Panchangam
   raman-muhurtha: Muhurtha (Electional Astrology)
@@ -309,6 +310,14 @@ editions:
     - https://enjoylearningsanskrit.com/scriptures/parashara/chapter-6/
     - https://enjoylearningsanskrit.com/scriptures/parashara/chapter-7/
     verified_by: Compared numbered Sanskrit passages with the selected mappings and numerical reference.
+  pyjhora-house-strength-506:
+    work_id: pyjhora-house-strength
+    edition_id: pyjhora-house-strength-506
+    title_as_printed: PyJHora
+    language: Python
+    publication_details: PyPI wheel 5.0.6
+    text: [https://pypi.org/project/PyJHora/5.0.6/]
+    verified_by: Inspected the four longitude constants in jhora/const.py and reference houses in _bhava_dig_bala in jhora/horoscope/chart/strength.py.
   pyjhora-vargas-pinned:
     work_id: pyjhora-vargas
     edition_id: pyjhora-vargas-pinned

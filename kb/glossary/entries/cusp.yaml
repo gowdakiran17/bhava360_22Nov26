@@ -49,5 +49,8 @@ used_by:
 - vedic.houses.house-8
 - vedic.houses.house-9
 - vedic.prashna.kp-horary
+- vedic.strength-bhava-bala.bhava-dig
+- vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-shadbala.kendradi
 - western.houses.polar-fallback

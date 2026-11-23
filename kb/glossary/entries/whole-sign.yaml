@@ -657,6 +657,9 @@ used_by:
 - vedic.states.vakri
 - vedic.states.vargottama
 - vedic.states.yuti
+- vedic.strength-bhava-bala.bhava-dig
+- vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-shadbala.dig
 - vedic.transits.double-transit
 - vedic.transits.over-dasha-lord

@@ -46,10 +46,18 @@ calculation_profiles:
     presentation_flags: [modern_outer]
     zodiac: sidereal
     houses: placidus
+    node: {default: true-node, mixing: forbidden}
     ayanamsa_family: KP
     sidereal_mode: 5
     exact_variant: Swiss Ephemeris SE_SIDM_KRISHNAMURTI (5), traditional sidereal house algorithm
     polar_fallback: unknown
+    on_cusp_failure:
+      withhold: [cuspal-sub-lords, house-significators, kp-prashna]
+      retain: [planet-star-lords, planet-sub-lords, independent-parashari]
+      note:
+        en: House details are unavailable here. You can still explore the planetary context.
+        kn: ಇಲ್ಲಿ ಭಾವದ ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ. ಗ್ರಹಗಳ ಸಂದರ್ಭವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+        hi: यहाँ भाव विवरण उपलब्ध नहीं हैं। आप ग्रहों का संदर्भ देख सकते हैं।
   western-tropical-v1:
     zodiac: tropical
     house_options: [placidus, whole-sign]
@@ -105,7 +113,8 @@ doctrine_profiles:
   face-reading-editorial-v1:
     system: face-reading
     approval: draft
-  parashari-strength-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: shadbala}
+  parashari-natural-v1: {system: vedic, approval: draft, calculation: vedic-lahiri-v1, table: vedic/planets/benefic-profile.yaml}
+  parashari-strength-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: planetary-and-house-strength}
   moon-based-gochara-candidate-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: moon-based-vedha}
   pyjhora-kn-rao-candidate-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: candidate-chara-dasha}
   bhava360-jaimini-dual-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: dual-lordship}
@@ -114,10 +123,7 @@ doctrine_profiles:
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:
   bphs-seven-graha-337: {system: vedic, approval: draft, scope: seven-graha-ashtakavarga}
-open_decisions:
-- kp-polar-fallback
-- jaimini-karaka-scheme
-- chara-dasha-variant
-- d60-method
+open_decisions: []
+owner_defaults: {kp-polar-fallback: withhold-cusps, jaimini-karaka-scheme: seven, chara-dasha-variant: pyjhora-kn-rao-candidate-v1, d60-method: parashari-d60-v1}
 runtime_record: Record engine version and resolved parameter values for each calculation. An alternative setting produces
   a distinct convention record.

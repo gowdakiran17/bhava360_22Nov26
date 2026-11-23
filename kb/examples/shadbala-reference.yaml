@@ -6,6 +6,8 @@ fixtures:
   Asha:
     inputs:
       longitude:
+        rahu: 85
+        ketu: 265
         sun: 10
         moon: 100
         mars: 200
@@ -70,6 +72,8 @@ fixtures:
   Ravi:
     inputs:
       longitude:
+        rahu: 85
+        ketu: 265
         sun: 355
         moon: 295
         mars: 24

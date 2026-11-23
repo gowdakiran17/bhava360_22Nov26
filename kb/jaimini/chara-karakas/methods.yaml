@@ -7,7 +7,9 @@ eight: Add Rahu using 30° minus its intra-sign longitude; insert paternal karak
 karakamsa: Read the sign of the ranked Atmakaraka in D9. Keep D9 reference and any projection to D1 explicitly
   labelled.
 access: admin
-selection: Require an explicit scheme on the chart.
+default_scheme: seven
+optional_scheme: eight
+selection: Record the resolved scheme on the chart.
 schemes:
   seven:
   - AK

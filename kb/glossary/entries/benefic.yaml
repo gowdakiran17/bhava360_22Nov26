@@ -24,7 +24,9 @@ used_by:
 - vedic.planets.mercury
 - vedic.planets.moon
 - vedic.planets.venus
+- vedic.strength-bhava-bala.bhava-drik
 - vedic.strength-shadbala.drik
+- vedic.strength-shadbala.paksha
 - vedic.yogas.adhi
 - vedic.yogas.amala
 - vedic.yogas.vasumati

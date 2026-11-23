@@ -19,3 +19,4 @@ reference_rules:
 - vedic.matching.nadi
 used_by:
 - vedic.matching.nadi
+- vedic.strength-bhava-bala.bhavadhipati
