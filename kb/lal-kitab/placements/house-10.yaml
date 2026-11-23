@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might reflect on responsibilities at work when exploring this house.
+  en: "You may reflect on responsibilities at work when exploring this house."
   kn: ಈ ಭಾವವನ್ನು ನೋಡುವಾಗ “ಕೆಲಸದ ಜವಾಬ್ದಾರಿ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस भाव को देखते समय “काम की ज़िम्मेदारियाँ” पर विचार कर सकते हैं।
 native_review:

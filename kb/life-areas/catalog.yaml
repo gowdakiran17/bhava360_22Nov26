@@ -1,17 +1,17 @@
 version: 1
 # Keys are stable. English display names follow PRD 8.10 and can be revised independently.
 areas:
-  career: {en: Career & work, release: MVP}
-  love-marriage: {en: Love & marriage, release: MVP}
-  money: {en: Money & wealth, release: MVP}
-  health: {en: Health & energy, release: MVP}
-  family-home: {en: Family & home, release: MVP}
-  learning: {en: Learning & growth, release: MVP}
-  travel-relocation: {en: Travel & abroad, release: R2}
-  property-vehicles: {en: Property & vehicles, release: R2}
-  children: {en: Children, release: R2}
-  business: {en: Business, release: R2}
-  spirituality: {en: Spirituality, release: R2}
+  career: {en: Career & work, kn: ವೃತ್ತಿ ಮತ್ತು ಕೆಲಸ, hi: करियर और काम, release: MVP}
+  love-marriage: {en: Love & marriage, kn: ಪ್ರೀತಿ ಮತ್ತು ವಿವಾಹ, hi: प्रेम और विवाह, release: MVP}
+  money: {en: Money & wealth, kn: ಹಣ ಮತ್ತು ಸಂಪತ್ತು, hi: धन और संपत्ति, release: MVP}
+  health: {en: Health & energy, kn: ಆರೋಗ್ಯ ಮತ್ತು ಚೈತನ್ಯ, hi: स्वास्थ्य और ऊर्जा, release: MVP}
+  family-home: {en: Family & home, kn: ಕುಟುಂಬ ಮತ್ತು ಮನೆ, hi: परिवार और घर, release: MVP}
+  learning: {en: Learning & growth, kn: ಕಲಿಕೆ ಮತ್ತು ಬೆಳವಣಿಗೆ, hi: सीखना और विकास, release: MVP}
+  travel-relocation: {en: Travel & abroad, kn: ಪ್ರಯಾಣ ಮತ್ತು ವಿದೇಶ, hi: यात्रा और विदेश, release: R2}
+  property-vehicles: {en: Property & vehicles, kn: ಆಸ್ತಿ ಮತ್ತು ವಾಹನಗಳು, hi: संपत्ति और वाहन, release: R2}
+  children: {en: Children, kn: ಮಕ್ಕಳು, hi: संतान, release: R2}
+  business: {en: Business, kn: ವ್ಯಾಪಾರ, hi: व्यवसाय, release: R2}
+  spirituality: {en: Spirituality, kn: ಆಧ್ಯಾತ್ಮಿಕತೆ, hi: आध्यात्मिकता, release: R2}
 detail_slots: [present-situation, upcoming-periods, concerns-to-watch, what-you-can-do]
 checker_ids: [business-name, mobile-number, personal-baby-name, house-relocation, vehicle-number, big-decision-muhurta]
 tag_availability: All keys are available for tagging independently of the area screen release.

@@ -437,7 +437,7 @@ def main():
             require(all(c['verification']=='verified' for c in data['sources']),rid)
             require(profiles[data['doctrine_profile']]['approval']=='approved',rid)
         require('fact' not in data['conditions'],rid)
-        require(data['confidence']!='disputed' or data['traditions_differ'],rid)
+        require(data['confidence'] not in ('low','disputed') or any(t.get('note','').strip() for t in data['traditions_differ']),rid)
         require(all(e['effect'] in ('cancel','soften') for e in data['exceptions']),rid)
         check_predicate(data['conditions'],facts)
         for modifier in data['exceptions']+data['strength_notes']:
@@ -509,6 +509,8 @@ def main():
     validate_tarot(rules,read,require,ROOT)
     from palmistry import validate_palmistry
     validate_palmistry(rules,read,require,ROOT,evaluate)
+    from consistency import validate_consistency
+    validate_consistency(rules,read,require,ROOT)
     from glossary import validate_glossary
     validate_glossary(rules,read,require,ROOT)
     from shadbala import validate_shadbala
@@ -586,6 +588,7 @@ def main():
     require(evaluate(kem['conditions'],{'d1.moon.eligible_flank':False}) is True,'Kemadruma positive')
     require(evaluate(kem['exceptions'][0]['when'],{'d1.moon.distance_from_lagna':4}) is True,'Kemadruma cancellation')
     for case in read('examples/asha.yaml')['cases']:
+        require(case['entry']['id'] in rules, 'synthetic example must reference a current rule')
         check_predicate(case['entry']['conditions'],facts)
         require(evaluate(case['entry']['conditions'],case['assumed_facts']) is True,'synthetic example')
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')

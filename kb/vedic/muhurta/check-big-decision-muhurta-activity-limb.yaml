@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The calendar factor shown here fits the selected activity.
-  kn: ತೋರಿಸಿದ ಪಂಚಾಂಗದ ಅಂಶವು ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ಹೊಂದುತ್ತದೆ.
-  hi: दिखाया गया पंचांग कारक चुने काम के अनुकूल है।
+  en: "This calendar detail may suit the activity you selected."
+  kn: "ಈ ಪಂಚಾಂಗದ ಅಂಶವು ನೀವು ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ಹೊಂದಬಹುದು."
+  hi: "पंचांग का यह पहलू आपके चुने काम के अनुकूल हो सकता है।"
 native_review:
   kn: pending
   hi: pending

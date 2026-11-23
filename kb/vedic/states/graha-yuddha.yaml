@@ -66,6 +66,6 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: Give each priority a turn in the conversation.
+    en: "You can give each priority a turn in the conversation."
     kn: ಎರಡೂ ವಿಷಯಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.
     hi: बातचीत में दोनों विषयों के लिए समय रख सकते हैं।

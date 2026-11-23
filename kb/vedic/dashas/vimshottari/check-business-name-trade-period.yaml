@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The current chapter touches a house used for business questions.
-  kn: ವ್ಯಾಪಾರದ ಪ್ರಶ್ನೆಗೆ ಸಂಬಂಧಿಸಿದ ಭಾವವು ಈಗಿನ ದಶೆಯೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಿದೆ.
-  hi: वर्तमान दशा का संबंध व्यवसाय से जुड़े भाव से है।
+  en: "You can use this period to reflect on a business question."
+  kn: "ಈ ಅವಧಿಯಲ್ಲಿ ವ್ಯಾಪಾರದ ಪ್ರಶ್ನೆಯ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು."
+  hi: "आप इस अवधि में कारोबार से जुड़े सवाल पर विचार कर सकते हैं।"
 native_review:
   kn: pending
   hi: pending

@@ -75,9 +75,9 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: If you like, ask each other which shared commitment matters most this week.
+    en: "You can ask each other which shared commitment matters most this week."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಈ ವಾರ ಯಾವ ಜಂಟಿ ಬದ್ಧತೆ ಹೆಚ್ಚು ಮುಖ್ಯ ಎಂದು ಪರಸ್ಪರ ಕೇಳಿಕೊಳ್ಳಬಹುದು.
-    hi: चाहें तो एक-दूसरे से पूछें कि इस हफ़्ते कौन सी साझा प्रतिबद्धता सबसे अहम है।
+    hi: "चाहें तो एक-दूसरे से पूछ सकते हैं कि इस हफ़्ते कौन सी साझा प्रतिबद्धता सबसे अहम है।"
 varga:
   method_id: parashari-d9-v1
   calculation:

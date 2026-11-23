@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The two totals share a root in this number system.
-  kn: ಈ ಸಂಖ್ಯಾ ಪದ್ಧತಿಯಲ್ಲಿ ಎರಡು ಮೊತ್ತಗಳ ಮೂಲ ಸಂಖ್ಯೆ ಒಂದೇ ಆಗಿದೆ.
-  hi: इस अंक पद्धति में दोनों योगों का मूल अंक एक है।
+  en: "You can notice a shared number theme when comparing this option with your birthday."
+  kn: "ಈ ಆಯ್ಕೆಯನ್ನು ನಿಮ್ಮ ಜನ್ಮದಿನದೊಂದಿಗೆ ಹೋಲಿಸುವಾಗ ಸಾಮಾನ್ಯ ಅಂಶವನ್ನು ಗಮನಿಸಬಹುದು."
+  hi: "इस विकल्प की अपने जन्मदिन से तुलना में आप एक साझा पहलू देख सकते हैं।"
 native_review:
   kn: pending
   hi: pending

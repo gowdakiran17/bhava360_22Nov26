@@ -6,7 +6,7 @@ A rule lives once under its system and topic. Checkers, life areas and reports r
 
 ## Foundation registers
 
-Authors allocate rule IDs using [identifiers](governance/review/identifiers.yaml), select tags from the [area catalogue](life-areas/catalog.yaml), and bind predicates to the [fact dictionary](shared/fact-dictionary/catalog.yaml) and [convention profiles](shared/conventions/profiles.yaml). Citations resolve through the [edition register](shared/source-editions/catalog.yaml). Use the [core glossary](glossary/terms/core.yaml) and [privacy and copy policy](shared/boundaries/policy.yaml) when drafting. Registry version 1 covers the existing examples. Add typed facts and verified editions as later topics need them.
+Authors allocate rule IDs using [identifiers](governance/review/identifiers.yaml), select tags from the [area catalogue](life-areas/catalog.yaml), and bind predicates to the [fact dictionary](shared/fact-dictionary/catalog.yaml) and [convention profiles](shared/conventions/profiles.yaml). Citations resolve through the [edition register](shared/source-editions/catalog.yaml). Use the [trilingual glossary](glossary/README.md) and [privacy and copy policy](shared/boundaries/policy.yaml) when drafting. The [consistency review](governance/REVIEW-REPORT.md) records the checks on this edition. Add typed facts and verified editions as later topics need them.
 
 ## Folder map
 

@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider accepting support when comparing this name.
+  en: "You may consider accepting support when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಬೆಂಬಲ ಸ್ವೀಕಾರ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “सहयोग स्वीकारना” पर विचार कर सकते हैं।
 native_review:

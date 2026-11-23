@@ -16,7 +16,7 @@ conditions:
   single_leaf: Wrap one typed fact predicate in an all list.
   nested_leaves: Use fact, op and value.
 confidence: [high, medium, low, disputed]
-traditions_differ: A disputed entry records the profile and the point of disagreement.
+traditions_differ: A low-confidence or disputed entry records the profile and the point of disagreement.
 exceptions: Store cancellations here with a when predicate, a cancel or soften effect, and a reason.
 life_areas:
   catalogue: life-areas/catalog.yaml

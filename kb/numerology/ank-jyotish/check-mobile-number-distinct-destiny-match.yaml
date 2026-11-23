@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The root also connects this option with your full birth-date number.
-  kn: ಈ ಆಯ್ಕೆಯ ಮೂಲ ಸಂಖ್ಯೆ ಪೂರ್ಣ ಜನ್ಮದಿನಾಂಕದ ಸಂಖ್ಯೆಗೆ ಹೊಂದುತ್ತದೆ.
-  hi: इस विकल्प का मूल अंक आपकी पूरी जन्मतिथि के अंक से मिलता है।
+  en: "You may notice a similar theme when you consider your full birth date."
+  kn: "ಪೂರ್ಣ ಜನ್ಮದಿನಾಂಕವನ್ನು ಪರಿಗಣಿಸಿದಾಗ ಒಂದೇ ರೀತಿಯ ವಿಷಯವನ್ನು ಗಮನಿಸಬಹುದು."
+  hi: "पूरी जन्मतिथि पर विचार करने पर आपको मिलता-जुलता संकेत दिख सकता है।"
 native_review:
   kn: pending
   hi: pending

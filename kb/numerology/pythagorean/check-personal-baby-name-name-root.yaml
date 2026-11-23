@@ -28,9 +28,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This spelling and the birth date share a number in the selected system.
-  kn: ಆಯ್ಕೆಯ ಪದ್ಧತಿಯಲ್ಲಿ ಈ ಕಾಗುಣಿತ ಮತ್ತು ಜನ್ಮದಿನಾಂಕದ ಸಂಖ್ಯೆ ಹೊಂದುತ್ತವೆ.
-  hi: चुनी पद्धति में इस वर्तनी और जन्मतिथि का अंक मेल खाता है।
+  en: "You may notice a shared theme between this spelling and the birth date."
+  kn: "ಹೆಸರಿನ ಈ ಬರವಣಿಗೆ ಮತ್ತು ಜನ್ಮದಿನಾಂಕದಲ್ಲಿ ಒಂದೇ ರೀತಿಯ ವಿಷಯವನ್ನು ಗಮನಿಸಬಹುದು."
+  hi: "इस वर्तनी और जन्मतिथि में आप एक साझा पहलू देख सकते हैं।"
 native_review:
   kn: pending
   hi: pending

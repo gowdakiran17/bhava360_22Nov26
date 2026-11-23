@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The house number and birth-day number share a root.
-  kn: ಮನೆಯ ಸಂಖ್ಯೆ ಮತ್ತು ಜನ್ಮದಿನದ ಸಂಖ್ಯೆಯ ಮೂಲ ಒಂದೇ ಆಗಿದೆ.
-  hi: घर और जन्मदिन की संख्या का मूल अंक एक है।
+  en: "You can compare how the house number feels alongside your birth date."
+  kn: "ಮನೆಯ ಸಂಖ್ಯೆಯನ್ನು ನಿಮ್ಮ ಜನ್ಮದಿನಾಂಕದೊಂದಿಗೆ ಹೋಲಿಸಿ ನೋಡಬಹುದು."
+  hi: "आप घर के अंक की तुलना अपनी जन्मतिथि से कर सकते हैं।"
 native_review:
   kn: pending
   hi: pending

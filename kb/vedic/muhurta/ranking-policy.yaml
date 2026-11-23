@@ -82,7 +82,7 @@ aggregation: 'For each channel retain directional evidence as a set; preserve pa
   partner results. Deduplicate correlated evidence: do not count Panchaka as an additional independent reason
   alongside its component limbs and lagna. Limit evidence if fewer than three independent reason channels are
   available (complete neutral observations can explain a channel).'
-tone: 'After named reliefs: only supportive directions gives Supportive; only caution directions gives Take
+tone_resolution: 'After named reliefs: only supportive directions gives Supportive; only caution directions gives Take
   care; mixed or all neutral gives Steady. No points, weights or tally of favourable signals.'
 ranking:
 - Supportive

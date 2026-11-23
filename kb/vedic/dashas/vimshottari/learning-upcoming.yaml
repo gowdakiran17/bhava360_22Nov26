@@ -28,7 +28,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might return to a learning goal in this period.
+  en: "You may return to a learning goal in this period."
   kn: ಈ ಅವಧಿಯಲ್ಲಿ ಕಲಿಕೆಯ ಗುರಿಯನ್ನು ಮತ್ತೆ ಕೈಗೆತ್ತಿಕೊಳ್ಳಬಹುದು.
   hi: इस अवधि में पढ़ाई के किसी लक्ष्य की ओर लौट सकते हैं।
 native_review:

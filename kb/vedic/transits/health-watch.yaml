@@ -29,7 +29,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might leave time between commitments for rest.
+  en: "You may leave time between commitments for rest."
   kn: ಕೆಲಸಗಳ ನಡುವೆ ವಿಶ್ರಾಂತಿಗೆ ಸಮಯ ಬಿಡಬಹುದು.
   hi: कामों के बीच आराम के लिए समय रख सकते हैं।
 native_review:

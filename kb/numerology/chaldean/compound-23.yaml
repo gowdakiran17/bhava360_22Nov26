@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider drawing on helpful contacts when comparing this name.
+  en: "You may consider drawing on helpful contacts when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಪರಿಚಯದವರ ನೆರವು” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “परिचितों की मदद” पर विचार कर सकते हैं।
 native_review:

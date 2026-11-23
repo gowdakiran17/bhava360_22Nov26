@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider rebuilding a routine when comparing this name.
+  en: "You may consider rebuilding a routine when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ದಿನಚರಿಯ ಮರುನಿರ್ಮಾಣ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “दिनचर्या फिर बनाना” पर विचार कर सकते हैं।
 native_review:

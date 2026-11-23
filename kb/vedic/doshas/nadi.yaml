@@ -57,9 +57,9 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: If you like, give each person a turn to speak before deciding together.
+    en: "You can give each person a turn to speak before deciding together."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
-    hi: चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दें।
+    hi: "चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।"
 reference_paths:
 - vedic/matching/shared-star-class.yaml
 - vedic/matching/north-profile.yaml

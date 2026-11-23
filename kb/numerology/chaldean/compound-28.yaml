@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider making agreements explicit when comparing this name.
+  en: "You may consider making agreements explicit when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಒಪ್ಪಂದದ ಸ್ಪಷ್ಟತೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “सहमति स्पष्ट करना” पर विचार कर सकते हैं।
 native_review:

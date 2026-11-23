@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The proposed spelling shares the root you chose for comparison.
-  kn: ನೀವು ಆಯ್ದ ಮೂಲ ಸಂಖ್ಯೆಗೆ ಈ ಕಾಗುಣಿತದ ಮೂಲ ಸಂಖ್ಯೆ ಹೊಂದುತ್ತದೆ.
-  hi: प्रस्तावित वर्तनी का मूल अंक आपके चुने अंक से मेल खाता है।
+  en: "You can compare this spelling with the number theme you selected."
+  kn: "ಈ ಹೆಸರಿನ ಬರವಣಿಗೆಯನ್ನು ನೀವು ಆಯ್ದ ಸಂಖ್ಯೆಯ ವಿಷಯದೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು."
+  hi: "आप नाम की इस वर्तनी की तुलना चुने हुए अंक के संकेत से कर सकते हैं।"
 native_review:
   kn: pending
   hi: pending

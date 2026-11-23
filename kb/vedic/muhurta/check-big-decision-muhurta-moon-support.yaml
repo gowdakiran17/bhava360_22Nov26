@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The Moon’s position also supports this time in your chart.
-  kn: ನಿಮ್ಮ ಚಕ್ರದಲ್ಲಿ ಚಂದ್ರನ ಸ್ಥಾನವೂ ಈ ಸಮಯಕ್ಕೆ ಬೆಂಬಲ ನೀಡುತ್ತದೆ.
-  hi: आपकी कुंडली में चंद्रमा की स्थिति भी इस समय का समर्थन करती है।
+  en: "The Moon’s position may support this time for your chosen activity."
+  kn: "ನೀವು ಆಯ್ದ ಕೆಲಸಕ್ಕೆ ಈ ಸಮಯದಲ್ಲಿ ಚಂದ್ರನ ಸ್ಥಾನ ಬೆಂಬಲ ನೀಡಬಹುದು."
+  hi: "चंद्रमा की स्थिति आपके चुने काम के लिए इस समय सहायक हो सकती है।"
 native_review:
   kn: pending
   hi: pending

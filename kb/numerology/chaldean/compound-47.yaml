@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider building trust gradually when comparing this name.
+  en: "You may consider building trust gradually when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ತಾಳ್ಮೆಯಿಂದ ವಿಶ್ವಾಸ ಬೆಳೆಸುವುದು” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “धीरे विश्वास बनाना” पर विचार कर सकते हैं।
 native_review:

@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The relocated chart gives this planet a work-related house placement.
-  kn: ಹೊಸ ಸ್ಥಳದ ಚಕ್ರದಲ್ಲಿ ಈ ಗ್ರಹ ಕೆಲಸಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಭಾವದಲ್ಲಿದೆ.
-  hi: नए स्थान की कुंडली में यह ग्रह काम से जुड़े भाव में है।
+  en: "You can explore how work fits into your plans for the new place."
+  kn: "ಹೊಸ ಸ್ಥಳದ ಯೋಜನೆಗಳಲ್ಲಿ ಕೆಲಸಕ್ಕೆ ಯಾವ ಸ್ಥಾನವಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು."
+  hi: "आप सोच सकते हैं कि नई जगह की योजना में काम की क्या भूमिका है।"
 native_review:
   kn: pending
   hi: pending

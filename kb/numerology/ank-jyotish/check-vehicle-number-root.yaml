@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This registration shares a number theme with your birth date.
-  kn: ಈ ನೋಂದಣಿ ಮತ್ತು ಜನ್ಮದಿನಾಂಕದಲ್ಲಿ ಒಂದೇ ಸಂಖ್ಯಾ ವಿಷಯ ಕಾಣಿಸುತ್ತದೆ.
-  hi: इस पंजीकरण और जन्मतिथि में एक अंक विषय साझा है।
+  en: "You may notice a similar theme in this registration and your birth date."
+  kn: "ಈ ನೋಂದಣಿ ಮತ್ತು ನಿಮ್ಮ ಜನ್ಮದಿನಾಂಕದಲ್ಲಿ ಒಂದೇ ರೀತಿಯ ವಿಷಯವನ್ನು ಗಮನಿಸಬಹುದು."
+  hi: "इस पंजीकरण और अपनी जन्मतिथि में आप मिलता-जुलता पहलू देख सकते हैं।"
 native_review:
   kn: pending
   hi: pending

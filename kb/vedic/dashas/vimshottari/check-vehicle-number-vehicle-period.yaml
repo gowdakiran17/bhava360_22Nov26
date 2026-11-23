@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The current period connects with the house traditionally used for vehicles.
-  kn: ಈಗಿನ ದಶೆಯು ವಾಹನಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ಭಾವದೊಂದಿಗೆ ಸಂಪರ್ಕ ಹೊಂದಿದೆ.
-  hi: मौजूदा दशा वाहन से जुड़े भाव से संबंधित है।
+  en: "This period may give you an occasion to consider your transport needs."
+  kn: "ಈ ಅವಧಿಯಲ್ಲಿ ನಿಮ್ಮ ಪ್ರಯಾಣದ ಅಗತ್ಯಗಳ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು."
+  hi: "इस अवधि में आप अपनी यात्रा की ज़रूरतों पर विचार कर सकते हैं।"
 native_review:
   kn: pending
   hi: pending

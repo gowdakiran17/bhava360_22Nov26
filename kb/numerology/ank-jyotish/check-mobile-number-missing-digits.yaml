@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: The detail shows which digits are absent from this option.
+  en: "You can explore which digits are absent from this option."
   kn: ಈ ಆಯ್ಕೆಯಲ್ಲಿ ಕಾಣದ ಅಂಕಗಳನ್ನು ವಿವರದಲ್ಲಿ ನೋಡಬಹುದು.
   hi: इस विकल्प में अनुपस्थित अंक विवरण में देख सकते हैं।
 native_review:

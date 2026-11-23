@@ -15,6 +15,7 @@ calculation_profiles:
     ephemeris: SEFLG_SWIEPH
     zodiac: sidereal
     ayanamsa: Lahiri
+    sidereal_mode: 1
     houses: whole-sign
     node:
       proposed_default: mean
@@ -33,12 +34,14 @@ calculation_profiles:
     zodiac: sidereal
     houses: placidus
     ayanamsa_family: KP
+    sidereal_mode: 5
     exact_variant: Swiss Ephemeris SE_SIDM_KRISHNAMURTI (5), traditional sidereal house algorithm
     polar_fallback: unknown
   western-tropical-v1:
     zodiac: tropical
-    house_options: [placidus, whole-sign, koch, equal]
+    house_options: [placidus, whole-sign]
     houses: placidus
+    reference_only_house_terms: [koch, equal]
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:

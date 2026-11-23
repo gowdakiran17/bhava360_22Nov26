@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might reflect on home routines when exploring this house.
+  en: "You may reflect on home routines when exploring this house."
   kn: ಈ ಭಾವವನ್ನು ನೋಡುವಾಗ “ಮನೆಯ ದಿನಚರಿ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस भाव को देखते समय “घर की दिनचर्या” पर विचार कर सकते हैं।
 native_review:

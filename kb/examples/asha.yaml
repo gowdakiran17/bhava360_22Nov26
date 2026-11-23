@@ -9,7 +9,7 @@ cases:
 - assumed_facts:
     d1.jupiter.house_from_lagna: 10
   entry:
-    id: vedic.houses.jupiter-in-tenth
+    id: vedic.planets-in-houses.jupiter-house-10
     system: vedic
     topic: houses
     title: Jupiter in the tenth house
@@ -51,7 +51,7 @@ cases:
 - assumed_facts:
     d1.jupiter.sign_distance_from_moon_inclusive: 4
   entry:
-    id: vedic.yogas.gaja-kesari-moon-angular
+    id: vedic.yogas.gaja-kesari
     system: vedic
     topic: yogas
     title: Gaja Kesari yoga (Moon-based candidate)

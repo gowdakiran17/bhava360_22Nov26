@@ -29,7 +29,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might clarify who owns a task before accepting it.
+  en: "You may clarify who owns a task before accepting it."
   kn: ಕೆಲಸ ಒಪ್ಪಿಕೊಳ್ಳುವ ಮುನ್ನ ಅದರ ಹೊಣೆ ಯಾರದ್ದು ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
   hi: काम स्वीकारने से पहले ज़िम्मेदारी स्पष्ट कर सकते हैं।
 native_review:

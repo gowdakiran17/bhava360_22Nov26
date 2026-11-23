@@ -58,6 +58,7 @@
 0e78a99a0f68b43100fbdf08dff44983d1b27b2ef8d3e7b0d5556ff3ae81a2ab
 0eb029e6b6136bc239354d8516f7591568e1d2e882e8800e771fd4974cbc1475
 0f36368048d2fbffd0c7b296ec199d0d881401a3f13db872a5d0cdb281ee9780
+0f5a39a7658fbe770577c74f3991bcbaec6e4ab5
 0fd8a4fc0811ee25063d419beb5c9d964758d7b885b7ddb72ca75f8b6f537288
 109cb0c32b5413c960fce761bbc0cfa5b3b10716d8ed298b411aa4d70d39b94b
 10abe6c08463f36e80e77adce51994a7663d5116088a3f004d0be6b6b5240079
@@ -776,6 +777,7 @@ algebraically
 algorithm
 algorithms
 alias
+aliased
 aliases
 alignment
 all
@@ -887,6 +889,7 @@ approaches
 approaching
 appropriate
 approval
+approvals
 approved
 approximate
 approximates
@@ -961,6 +964,7 @@ aspects
 aspirations
 assembled
 asserted
+assertions
 assess
 assessed
 assessment
@@ -1077,8 +1081,10 @@ balava
 band
 bands
 banned
+bare
 base
 based
+baseline
 basic
 basis
 basket
@@ -1240,6 +1246,7 @@ budhaya
 budhnya
 buffalo
 build
+builders
 building
 buildings
 built
@@ -1383,6 +1390,7 @@ centuries
 ceremonial
 ceremonies
 ceremony
+certified
 cf09f6d84c46ce67498ef0a8cc590e022dea004585dbfcfe21b90bb057f933ff
 cf1e13e75693d885ca98889d698f94f89c53f3bc89775dc8ba16c278ad113c68
 cf346bf2d5288900746ab18c03f9a9df277b4ce9393e3d32a62c28ad1ec5ebe4
@@ -1393,6 +1401,7 @@ ch
 ch3
 cha
 chain
+chained
 chains
 chaitra
 chaldean
@@ -1489,6 +1498,7 @@ classified
 classifies
 classify
 clear
+cleared
 clearer
 clearest
 clearly
@@ -1518,6 +1528,7 @@ coincident
 collaboration
 collapse
 colleagues
+collecting
 collection
 collections
 collective
@@ -1548,6 +1559,7 @@ commencing
 commentary
 commentators
 commerce
+commit
 commitment
 commitments
 committed
@@ -1613,6 +1625,7 @@ confidence
 config
 configs
 configuration
+configurations
 configured
 confined
 confinement
@@ -1654,6 +1667,7 @@ consonants
 const
 constant
 constellations
+constitute
 constrained
 constraint
 constructed
@@ -1709,6 +1723,7 @@ cooperation
 cooperative
 coordinates
 coords
+copied
 copies
 copy
 copyright
@@ -1716,6 +1731,7 @@ core
 corner
 corpus
 correct
+corrected
 correction
 corrections
 correlated
@@ -1768,6 +1784,7 @@ crosswalk
 crosswalks
 cryptographic
 crystals
+csafeloader
 csprng
 csv
 ctx
@@ -1781,6 +1798,7 @@ curiosity
 curly
 current
 curs
+curse
 cursor
 cusp
 cusp1
@@ -1955,6 +1973,7 @@ delete
 deletion
 delhi
 deliberate
+delimited
 delivery
 delta
 demanding
@@ -2058,6 +2077,7 @@ directionally
 directions
 directly
 directory
+directs
 disabled
 disagreement
 disagreements
@@ -2069,6 +2089,7 @@ disc
 discard
 discernment
 discover
+discoverable
 discovery
 discrete
 discs
@@ -2104,6 +2125,7 @@ distributes
 distribution
 district
 diti
+divergent
 divide
 divided
 divides
@@ -2127,6 +2149,7 @@ docs
 doctor
 doctrinal
 doctrine
+doctrines
 document
 documentation
 documented
@@ -2161,6 +2184,7 @@ draws
 dream
 drekkana
 drew
+drift
 drik
 drikpanchang
 drishti
@@ -2382,6 +2406,7 @@ equality
 equally
 equals
 equinox
+equivalence
 equivalent
 equivalents
 errand
@@ -2409,6 +2434,7 @@ evening
 evenings
 event
 events
+eventual
 every
 everyday
 everyone
@@ -2429,6 +2455,7 @@ examines
 examining
 example
 examples
+exceed
 exceeding
 except
 exception
@@ -2494,6 +2521,7 @@ expressions
 expressly
 ext
 extend
+extended
 extends
 extension
 extensions
@@ -2533,6 +2561,8 @@ factors
 facts
 fadc7be91c21432532f5c92f6fc0bce14d50351336a4ddcc3da8a523eb688562
 fades
+failed
+failing
 fails
 failure
 fair
@@ -2598,8 +2628,10 @@ fifteenth
 fifth
 figure
 file
+filename
 files
 fill
+filled
 fills
 filter
 filtering
@@ -2610,6 +2642,7 @@ financial
 find
 findall
 finding
+finditer
 fine
 finer
 finger
@@ -2753,6 +2786,7 @@ ge
 gem
 gemini
 gems
+gemstones
 gendarz
 gender
 general
@@ -2772,6 +2806,7 @@ geometric
 geometry
 gesture
 get
+getattr
 getroot
 gets
 getting
@@ -2840,6 +2875,7 @@ grows
 growth
 gu
 guarantee
+guaranteed
 guarantees
 guard
 guardian
@@ -3120,6 +3156,7 @@ instants
 instead
 instruction
 instructional
+instructions
 insufficient
 insurance
 int
@@ -3178,6 +3215,7 @@ invalidate
 invariant
 invent
 invented
+inventories
 inventory
 invitation
 invite
@@ -3515,6 +3553,7 @@ lives
 lo
 load
 loader
+loc
 local
 locale
 locales
@@ -3597,6 +3636,7 @@ m92
 m93
 m95
 ma
+machine
 madhya
 magha
 magician
@@ -3648,6 +3688,8 @@ march
 marga
 margashirsha
 mark
+markdown
+marked
 marker
 market
 marking
@@ -3764,6 +3806,7 @@ ml
 mo
 mobile
 mod
+modal
 modality
 mode
 model
@@ -3866,6 +3909,7 @@ nambudhiri
 name
 named
 names
+namespaces
 namietamodi
 naming
 naraka
@@ -4007,6 +4051,7 @@ observation
 observations
 observe
 observed
+obsolete
 obstructed
 obstructing
 obstruction
@@ -4014,6 +4059,7 @@ obstructions
 obstructs
 obtain
 obtained
+occasion
 occult
 occupancy
 occupant
@@ -4096,6 +4142,7 @@ oriented
 origin
 original
 origins
+orphan
 orthographic
 os
 other
@@ -4172,6 +4219,7 @@ parameter
 parameters
 params
 paraphrase
+paraphrases
 parashara
 parashari
 parent
@@ -4239,6 +4287,9 @@ pentacles
 people
 per
 perceived
+percent
+percentage
+percentages
 perfection
 period
 periods
@@ -4275,6 +4326,7 @@ photo
 php
 phrase
 phrases
+phrasing
 physical
 pi
 pick
@@ -4303,6 +4355,7 @@ pk
 place
 placed
 placeholder
+placeholders
 placement
 placements
 places
@@ -4333,6 +4386,7 @@ policy
 pooja
 poojas
 pop
+populated
 portion
 portions
 porutham
@@ -4469,6 +4523,7 @@ proportional
 proportions
 propose
 proposed
+prose
 protecting
 protective
 provenance
@@ -4625,11 +4680,13 @@ raw
 ray
 re
 reach
+reachability
 reached
 reaches
 reaching
 read
 readable
+reader
 readers
 readily
 readiness
@@ -4701,6 +4758,7 @@ reduces
 reducing
 reduction
 reductions
+redundant
 reentry
 ref
 refer
@@ -4732,6 +4790,7 @@ regular
 rehearsal
 reinforce
 reject
+rejects
 rejoining
 rekha
 rel
@@ -4759,6 +4818,7 @@ rely
 remain
 remainder
 remainders
+remained
 remaining
 remains
 remedies
@@ -4767,6 +4827,7 @@ remember
 reminder
 reminders
 remove
+removed
 removeprefix
 removes
 render
@@ -4857,6 +4918,7 @@ retained
 retaining
 retains
 retention
+retired
 retrace
 retrieval
 retro
@@ -4979,6 +5041,7 @@ sa
 sade
 sadhya
 safe
+safeloader
 sagittarius
 sahaja
 sahitya
@@ -5037,6 +5100,7 @@ scalar
 scale
 scaled
 scan
+scans
 scattered
 scenario
 scenarios
@@ -5050,7 +5114,9 @@ schwa
 science
 scientific
 scope
+scopes
 score
+scored
 scores
 scoring
 scorpio
@@ -5091,6 +5157,7 @@ seflg
 segment
 segments
 select
+selectable
 selected
 selecting
 selection
@@ -5100,6 +5167,7 @@ selector
 selects
 self
 sell
+semantic
 semi
 semicircle
 send
@@ -5109,6 +5177,7 @@ sense
 sensitive
 sensitivity
 sentence
+sentences
 separate
 separated
 separately
@@ -5187,6 +5256,7 @@ shorter
 shortest
 shortlist
 shortlists
+should
 show
 showing
 shown
@@ -5243,6 +5313,7 @@ simultaneously
 since
 sindhu
 single
+singleton
 sister
 sit
 site
@@ -5336,6 +5407,7 @@ special
 specific
 specifically
 specified
+specifies
 specs
 speech
 speed
@@ -5373,6 +5445,7 @@ stage
 stages
 staircase
 stairs
+stale
 stamp
 stance
 stand
@@ -5456,6 +5529,7 @@ submitted
 subperiod
 subrahmanya
 subs
+subsequent
 subset
 substance
 substantial
@@ -5566,6 +5640,7 @@ tackle
 tag
 tagging
 tags
+tail
 taitila
 taittiriya
 tajaka
@@ -5574,6 +5649,7 @@ take
 taken
 takes
 taking
+talismans
 talk
 talking
 talks
@@ -5726,6 +5802,7 @@ traceable
 traces
 tracing
 track
+tracks
 trade
 traders
 tradition
@@ -5776,6 +5853,7 @@ treatments
 treats
 tree
 tri
+triage
 triangle
 triangular
 tribhaga
@@ -5910,7 +5988,9 @@ unobstructed
 unordered
 unqualified
 unrecognised
+unrecorded
 unreduced
+unreferenced
 unresearched
 unresolved
 unrounded
@@ -5922,6 +6002,7 @@ unspecified
 unsplit
 unspoken
 unstable
+unstructured
 unsuitable
 unsupported
 unsure
@@ -5939,6 +6020,7 @@ upapada
 upbringing
 upcoming
 update
+updated
 updating
 uploads
 upper
@@ -5984,6 +6066,7 @@ validate
 validated
 validation
 validator
+validators
 value
 valued
 valueerror
@@ -6355,6 +6438,7 @@ zones
 अवश्य
 अवसर
 अष्टम
+असंगत
 असमान
 असर
 असहमति
@@ -6388,6 +6472,7 @@ zones
 आधा
 आधार
 आध्यात्मिक
+आध्यात्मिकता
 आनंद
 आनंददायक
 आना
@@ -6515,6 +6600,7 @@ zones
 करते
 करना
 करने
+करियर
 करीबी
 करुणा
 करे
@@ -6543,6 +6629,7 @@ zones
 कारक
 कारकांश
 कारण
+कारोबार
 कार्ड
 कार्य
 कार्यक्रम
@@ -6769,6 +6856,7 @@ zones
 जुड़ा
 जुड़ी
 जुड़े
+जुलता
 जैसा
 जैसी
 जो
@@ -6794,6 +6882,7 @@ zones
 ठहरने
 ड
 डर
+डरावन
 डालने
 डिलीवरी
 डॉक्टर
@@ -6915,6 +7004,7 @@ zones
 दोहराया
 दौरान
 ध
+धन
 धनलाभ
 धनु
 धन्यवाद
@@ -7076,6 +7166,7 @@ zones
 प्रतिबद्ध
 प्रतिबद्धता
 प्रतिबद्धताएँ
+प्रतिशत
 प्रदान
 प्रबंधन
 प्रभाव
@@ -7093,6 +7184,7 @@ zones
 प्रार्थना
 प्रासंगिक
 प्रिय
+प्रेम
 प्रेरक
 प्रोत्साहन
 फ
@@ -7123,6 +7215,7 @@ zones
 बता
 बताते
 बताने
+बदकिस्मत
 बदल
 बदलकर
 बदलता
@@ -7423,6 +7516,7 @@ zones
 विकल्प
 विकल्पों
 विकसित
+विकास
 विचार
 विचारों
 वित्तीय
@@ -7436,6 +7530,7 @@ zones
 विराम
 विरासत
 विवरण
+विवाह
 विवाहों
 विवेक
 विवेकपूर्ण
@@ -7502,6 +7597,7 @@ zones
 संकेतों
 संख्या
 संगति
+संतान
 संतुलन
 संतोष
 संदर्भ
@@ -7779,6 +7875,7 @@ zones
 ಅದು
 ಅದೃಷ್ಟ
 ಅದೃಷ್ಟದ
+ಅದೃಷ್ಟಶಾಲಿ
 ಅಧಿಕಾರ
 ಅಧಿಪತಿ
 ಅಧಿಪತಿಯ
@@ -7907,6 +8004,7 @@ zones
 ಆಧಾರ
 ಆಧಾರವಿದೆ
 ಆಧ್ಯಾತ್ಮಿಕ
+ಆಧ್ಯಾತ್ಮಿಕತೆ
 ಆನಂದಿಸಬಹುದು
 ಆಯುಷ್ಯ
 ಆಯುಷ್ಯದ
@@ -7972,6 +8070,7 @@ zones
 ಆಸಕ್ತಿಯಿಂದ
 ಆಸಕ್ತಿಯಿದ್ದರೆ
 ಆಸೆಗಳನ್ನು
+ಆಸ್ತಿ
 ಆಸ್ತಿಯ
 ಆಸ್ತಿಯೂ
 ಆಹ್ವಾನ
@@ -8021,6 +8120,7 @@ zones
 ಇರುವ
 ಇರುವವರಿಗೆ
 ಇರುವಾಗಲೇ
+ಇಲ್ಲ
 ಇಷ್ಟ
 ಇಷ್ಟಪಡುತ್ತಾರೆ
 ಇಷ್ಟಪಡುತ್ತೀರಿ
@@ -8474,9 +8574,13 @@ zones
 ಜನ್ಮಗ್ರಹದ
 ಜನ್ಮದ
 ಜನ್ಮದಿನದ
+ಜನ್ಮದಿನದೊಂದಿಗೆ
 ಜನ್ಮದಿನಾಂಕದ
 ಜನ್ಮದಿನಾಂಕದಲ್ಲಿ
+ಜನ್ಮದಿನಾಂಕದೊಂದಿಗೆ
+ಜನ್ಮದಿನಾಂಕವನ್ನು
 ಜನ್ಮನಕ್ಷತ್ರದ
+ಜನ್ಮನಕ್ಷತ್ರವು
 ಜನ್ಮಸಮಯ
 ಜಪಿಸಬಹುದು
 ಜವಾಬ್ದಾರಿ
@@ -8811,6 +8915,7 @@ zones
 ಪರಸ್ಪರ
 ಪರಿಗಣಿಸಬಹುದು
 ಪರಿಗಣಿಸಲು
+ಪರಿಗಣಿಸಿದಾಗ
 ಪರಿಗಣಿಸುತ್ತಿರುವ
 ಪರಿಚಯದವರ
 ಪರಿಚಯವಿಲ್ಲದ
@@ -8973,6 +9078,8 @@ zones
 ಬಯಸುವವರ
 ಬಯಸುವವರೊಂದಿಗೆ
 ಬರಬಹುದು
+ಬರವಣಿಗೆ
+ಬರವಣಿಗೆಯನ್ನು
 ಬರುತ್ತದೆ
 ಬರುವ
 ಬರುವುದು
@@ -8997,7 +9104,9 @@ zones
 ಬಳಿ
 ಬಳಿಕ
 ಬಳಿಗೆ
+ಬಹುದ
 ಬಹುದು
+ಬಹುದೇ
 ಬಾಕಿ
 ಬಾಗಿದ
 ಬಾಗಿಲಿನ
@@ -9116,6 +9225,7 @@ zones
 ಮಂತ್ರವನ್ನು
 ಮಕರ
 ಮಕ್ಕಳ
+ಮಕ್ಕಳು
 ಮಗು
 ಮಗುವಿಗೆ
 ಮಗುವಿನ
@@ -9383,6 +9493,7 @@ zones
 ವಾಸ್ತವಿಕ
 ವಾಹನ
 ವಾಹನಗಳಿಗೆ
+ವಾಹನಗಳು
 ವಾಹನದ
 ವಿಂಗಡಿಸಬಹುದು
 ವಿಂಗಡಿಸಿ
@@ -9395,6 +9506,7 @@ zones
 ವಿಚಾರವನ್ನು
 ವಿಚಾರಿಸಬಹುದು
 ವಿತರಣಾ
+ವಿದೇಶ
 ವಿದೇಶಕ್ಕೆ
 ವಿದ್ಯೆ
 ವಿಧಾನ
@@ -9436,6 +9548,7 @@ zones
 ವಿವರಿಸುವಾಗ
 ವಿವರಿಸುವುದರಲ್ಲಿ
 ವಿವರಿಸುವುದು
+ವಿವಾಹ
 ವಿವಿಧ
 ವಿವೇಚನೆಯ
 ವಿಶಾಲ
@@ -9493,6 +9606,7 @@ zones
 ವ್ಯವಸ್ಥೆಯೊಂದು
 ವ್ಯಾಕುಲತೆಯನ್ನು
 ವ್ಯಾಖ್ಯಾನ
+ವ್ಯಾಪಾರ
 ವ್ಯಾಪಾರದ
 ಶ
 ಶಕ್ತಿ
@@ -9510,6 +9624,7 @@ zones
 ಶುಕ್ರ
 ಶುಕ್ರವಾರ
 ಶುಕ್ರಾಯ
+ಶೇಕಡಾ
 ಶೈಲಿ
 ಶೈಲಿಯಲ್ಲಿ
 ಶ್ರಮವನ್ನು
@@ -9561,6 +9676,7 @@ zones
 ಸಂಪರ್ಕಗಳನ್ನು
 ಸಂಪರ್ಕಗಳು
 ಸಂಪರ್ಕದಲ್ಲಿರುವುದು
+ಸಂಪರ್ಕಿಸಬಹುದು
 ಸಂಪರ್ಕಿಸಿ
 ಸಂಪರ್ಕಿಸುವ
 ಸಂಪ್ರದಾಯಗಳು
@@ -9738,6 +9854,7 @@ zones
 ಸೌಜನ್ಯದೊಂದಿಗೆ
 ಸೌಭಾಗ್ಯ
 ಸೌಮ್ಯ
+ಸ್ಕೋರ್
 ಸ್ಥಳ
 ಸ್ಥಳಗಳನ್ನು
 ಸ್ಥಳದ
@@ -9746,11 +9863,13 @@ zones
 ಸ್ಥಳಾಂತರ
 ಸ್ಥಳಾಂತರಕ್ಕೆ
 ಸ್ಥಳೀಯ
+ಸ್ಥಾನ
 ಸ್ಥಾನಗಳನ್ನು
 ಸ್ಥಾನದಲ್ಲಿ
 ಸ್ಥಾನದಲ್ಲಿರುವವರಿಂದ
 ಸ್ಥಾನದಿಂದ
 ಸ್ಥಾನವನ್ನು
+ಸ್ಥಾನವಿದೆ
 ಸ್ಥಾನವು
 ಸ್ಥಾನವೂ
 ಸ್ಥಿರ
@@ -9869,6 +9988,7 @@ zones
 ಹೆಬ್ಬೆರಳು
 ಹೆಸರನ್ನು
 ಹೆಸರಿದೆ
+ಹೆಸರಿನ
 ಹೆಸರಿನೊಂದಿಗೆ
 ಹೆಸರು
 ಹೆಸರುಕಾಳು

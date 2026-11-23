@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider checking a fragile assumption when comparing this name.
+  en: "You may consider checking a fragile assumption when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಊಹೆಯ ಪರಿಶೀಲನೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “धारणा की जाँच” पर विचार कर सकते हैं।
 native_review:

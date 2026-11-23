@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider independent reflection when comparing this name.
+  en: "You may consider independent reflection when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಸ್ವತಂತ್ರ ಚಿಂತನೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “स्वतंत्र चिंतन” पर विचार कर सकते हैं।
 native_review:

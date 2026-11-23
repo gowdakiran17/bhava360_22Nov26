@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might consider responding to change when comparing this name.
+  en: "You may consider responding to change when comparing this name."
   kn: ಈ ಹೆಸರನ್ನು ಹೋಲಿಸುವಾಗ “ಬದಲಾವಣೆಗೆ ಸ್ಪಂದನೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस नाम की तुलना करते समय “बदलाव का सामना” पर विचार कर सकते हैं।
 native_review:

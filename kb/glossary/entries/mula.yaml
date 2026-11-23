@@ -17,10 +17,6 @@ aliases: []
 reference_rules:
 - vedic.nakshatras.mula
 used_by:
-- numerology.ank-jyotish.check-house-relocation-dwelling-root
-- numerology.ank-jyotish.check-mobile-number-birth-root
-- numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
-- numerology.chaldean.check-business-name-brand-root
 - vedic.muhurta.griha-pravesha
 - vedic.muhurta.marriage
 - vedic.muhurta.travel

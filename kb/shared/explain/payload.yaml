@@ -23,3 +23,6 @@ key:
 - place
 - convention
 unavailable: Show the reason when precision or evidence is insufficient.
+alias_registry: governance/review/rule-aliases.yaml
+evidence_identity: After matching, resolve evidence_aliases before collecting evidence for the same chart, person, placement and dated interval. Prefer the canonical reading when both IDs match. Keep the requested ID, applicable life area and historical wording in the audit record.
+copy_identity: Resolve copy_aliases only for the identical localized user_text. Keep the matched school's rule, conditions, calculations and provenance.

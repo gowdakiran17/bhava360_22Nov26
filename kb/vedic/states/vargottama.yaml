@@ -61,6 +61,6 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: Recall two settings in which the same skill helped you.
+    en: "You can recall two settings in which the same skill helped you."
     kn: ಒಂದೇ ಕೌಶಲ ನಿಮಗೆ ನೆರವಾದ ಎರಡು ಸಂದರ್ಭಗಳನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: दो ऐसे मौके याद कर सकते हैं जब एक ही हुनर आपके काम आया था।

@@ -33,6 +33,4 @@ method: Use shortest circular separation. Accept absolute deviation ≤ orb. Min
 houses:
 - Placidus
 - Whole Sign
-- Koch
-- Equal
 bodies: Sun through Pluto, optional Chiron, nodes and Part of Fortune, plus Ascendant and MC.

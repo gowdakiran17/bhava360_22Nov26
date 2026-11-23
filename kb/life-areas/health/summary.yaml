@@ -39,6 +39,6 @@ scope: Everyday wellbeing and routines only. Suppress disease, diagnosis, and li
   doctor line with every tone.
 always_append:
   user_text:
-    en: Please see a doctor for anything that worries you.
-    kn: ನಿಮಗೆ ಯಾವುದಾದರೂ ವಿಷಯ ಚಿಂತೆ ಉಂಟುಮಾಡಿದರೆ ದಯವಿಟ್ಟು ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.
-    hi: अगर कोई बात आपको परेशान करे, तो कृपया डॉक्टर से मिलें।
+    en: "You can see a doctor for anything that worries you."
+    kn: "ನಿಮಗೆ ಯಾವುದಾದರೂ ವಿಷಯ ಚಿಂತೆ ಉಂಟುಮಾಡಿದರೆ ವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಬಹುದು."
+    hi: "अगर कोई बात आपको परेशान करे, तो आप डॉक्टर से मिल सकते हैं।"

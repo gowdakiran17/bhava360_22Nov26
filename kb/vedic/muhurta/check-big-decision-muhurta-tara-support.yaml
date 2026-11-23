@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: Your birth-star count supports this window under the chosen method.
-  kn: ಆಯ್ದ ಪದ್ಧತಿಯಲ್ಲಿ ನಿಮ್ಮ ಜನ್ಮನಕ್ಷತ್ರದ ಎಣಿಕೆ ಈ ಅವಧಿಗೆ ಬೆಂಬಲ ನೀಡುತ್ತದೆ.
-  hi: चुनी विधि में आपके जन्म नक्षत्र की गिनती इस समय का समर्थन करती है।
+  en: "Your birth star may support this window under the chosen method."
+  kn: "ಆಯ್ದ ಪದ್ಧತಿಯಲ್ಲಿ ನಿಮ್ಮ ಜನ್ಮನಕ್ಷತ್ರವು ಈ ಸಮಯಕ್ಕೆ ಬೆಂಬಲ ನೀಡಬಹುದು."
+  hi: "चुनी विधि में आपका जन्म नक्षत्र इस समय के लिए सहायक हो सकता है।"
 native_review:
   kn: pending
   hi: pending

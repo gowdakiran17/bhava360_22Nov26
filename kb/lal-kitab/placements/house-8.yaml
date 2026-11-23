@@ -27,7 +27,7 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You might reflect on responding to change when exploring this house.
+  en: "You may reflect on responding to change when exploring this house."
   kn: ಈ ಭಾವವನ್ನು ನೋಡುವಾಗ “ಬದಲಾವಣೆಗೆ ಸ್ಪಂದನೆ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस भाव को देखते समय “बदलाव पर प्रतिक्रिया” पर विचार कर सकते हैं।
 native_review:
