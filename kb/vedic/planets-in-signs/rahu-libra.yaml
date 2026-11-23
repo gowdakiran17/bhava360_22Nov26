@@ -1,0 +1,85 @@
+id: vedic.planets-in-signs.rahu-libra
+system: vedic
+topic: planets-in-signs
+title: Rahu in Libra
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Rahu when its stable sidereal sign is Libra.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: rahu
+  - fact: d1.selected_point.sign
+    op: eq
+    value: libra
+placement:
+  dignity:
+    sign_class: disputed
+    ruler: venus
+    natural_relation_to_ruler: unassigned
+  themes:
+  - exploring the unfamiliar
+  - reciprocity
+meaning: Rahu in Libra can bring exploring the unfamiliar into situations that call for reciprocity. The sign
+  ruler’s placement can help locate this theme in the chart.
+life_areas:
+- learning
+- travel-relocation
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Venus rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: '3'
+  other_locator: Planetary classifications
+  supports: Identity of the lunar nodes.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 2
+  verse: 33–35
+  other_locator: Planetary classifications
+  supports: Traditional descriptions of the nodes; reflective themes and mythic imagery are editorial context.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Traditional ruler of the occupied sign.
+  verification: verified
+confidence: disputed
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When an unfamiliar possibility draws you in, you may find it helpful to hear what a fair exchange would
+    mean to the other person.
+  kn: ಪರಿಚಯವಿಲ್ಲದ ಅವಕಾಶ ನಿಮ್ಮ ಗಮನ ಸೆಳೆದಾಗ ನ್ಯಾಯವಾದ ವಿನಿಮಯವೆಂದರೆ ಇನ್ನೊಬ್ಬರಿಗೆ ಏನು ಅರ್ಥ ಎಂದು ಕೇಳುವುದು ನೆರವಾಗಬಹುದು.
+  hi: जब कोई अनजानी संभावना आपको आकर्षित करे, यह सुनना मददगार हो सकता है कि दूसरे व्यक्ति के लिए निष्पक्ष लेन-देन
+    का क्या अर्थ है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can check one assumption before trying something new.
+    kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: कुछ नया आज़माने से पहले एक अनुमान जाँच सकते हैं।

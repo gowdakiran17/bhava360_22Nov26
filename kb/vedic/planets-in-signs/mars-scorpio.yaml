@@ -1,0 +1,85 @@
+id: vedic.planets-in-signs.mars-scorpio
+system: vedic
+topic: planets-in-signs
+title: Mars in Scorpio
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Mars when its stable sidereal sign is Scorpio.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mars
+  - fact: d1.selected_point.sign
+    op: eq
+    value: scorpio
+placement:
+  dignity:
+    sign_class: own
+    ruler: mars
+    natural_relation_to_ruler: self
+    own_sign_degrees:
+    - 0
+    - 30
+  themes:
+  - directing effort
+  - patient inquiry
+meaning: Mars in Scorpio can bring directing effort into situations that call for patient inquiry.
+life_areas:
+- career
+- learning
+strength_notes:
+- when:
+    fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Mars rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '5'
+  other_locator: Mars in Scorpio, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you are ready to act, you can give an unanswered question time before pressing for a response.
+  kn: ನೀವು ಹೆಜ್ಜೆ ಇಡಲು ಸಿದ್ಧರಾದಾಗ ಉತ್ತರ ಸಿಗದ ಪ್ರಶ್ನೆಗೆ ತಕ್ಷಣ ಉತ್ತರ ಬಯಸದೆ ಸ್ವಲ್ಪ ಸಮಯ ಕೊಡಬಹುದು.
+  hi: जब आप कदम उठाने को तैयार हों, आप किसी अनसुलझे सवाल पर तुरंत जवाब माँगने से पहले थोड़ा समय दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can pause to hear another view before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
+    hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।

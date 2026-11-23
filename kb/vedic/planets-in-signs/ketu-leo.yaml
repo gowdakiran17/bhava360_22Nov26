@@ -1,0 +1,85 @@
+id: vedic.planets-in-signs.ketu-leo
+system: vedic
+topic: planets-in-signs
+title: Ketu in Leo
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Ketu when its stable sidereal sign is Leo.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: ketu
+  - fact: d1.selected_point.sign
+    op: eq
+    value: leo
+placement:
+  dignity:
+    sign_class: disputed
+    ruler: sun
+    natural_relation_to_ruler: unassigned
+  themes:
+  - letting go selectively
+  - visible leadership
+meaning: Ketu in Leo can bring letting go selectively into situations that call for visible leadership. The sign
+  ruler’s placement can help locate this theme in the chart.
+life_areas:
+- learning
+- spirituality
+strength_notes:
+- when:
+    fact: d1.sun.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Sun rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: '3'
+  other_locator: Planetary classifications
+  supports: Identity of the lunar nodes.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 2
+  verse: 33–35
+  other_locator: Planetary classifications
+  supports: Traditional descriptions of the nodes; reflective themes and mythic imagery are editorial context.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Traditional ruler of the occupied sign.
+  verification: verified
+confidence: disputed
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you feel ready to simplify something, you can make clear which part you are willing to take responsibility
+    for.
+  kn: ಏನನ್ನಾದರೂ ಸರಳಗೊಳಿಸಬೇಕೆನಿಸಿದಾಗ ಯಾವ ಭಾಗದ ಹೊಣೆ ವಹಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಿ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+  hi: जब आपको लगे कि किसी चीज़ को सरल बनाया जा सकता है, आप स्पष्ट कर सकते हैं कि कौन सी ज़िम्मेदारी लेने के लिए
+    आप तैयार हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can set aside a few quiet minutes for reflection.
+    kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
+    hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।

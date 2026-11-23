@@ -1,0 +1,92 @@
+id: vedic.planets-in-signs.jupiter-capricorn
+system: vedic
+topic: planets-in-signs
+title: Jupiter in Capricorn
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Jupiter when its stable sidereal sign is Capricorn.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: jupiter
+  - fact: d1.selected_point.sign
+    op: eq
+    value: capricorn
+placement:
+  dignity:
+    sign_class: debilitated
+    ruler: saturn
+    natural_relation_to_ruler: neutral
+    debilitation_peak_degrees: 5
+  themes:
+  - offering guidance
+  - sustained work
+meaning: Jupiter in Capricorn can bring offering guidance into situations that call for sustained work. The sign-level
+  debility calls for checking the condition of the sign ruler before drawing a conclusion.
+life_areas:
+- learning
+- spirituality
+strength_notes:
+- when:
+    fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Saturn rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions:
+- when:
+    fact: d1.dignity.debility_lord_angular
+    op: eq
+    value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Apply the cancellation screen to this Jupiter placement. An angular dispositor can qualify the debility
+    reading.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '13'
+  other_locator: Jupiter in Capricorn, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When someone asks for your guidance, you can decide what can reasonably be done this week.
+  kn: ಯಾರಾದರೂ ನಿಮ್ಮ ಮಾರ್ಗದರ್ಶನ ಕೇಳಿದಾಗ ಈ ವಾರ ಎಷ್ಟು ಕೆಲಸ ಮಾಡುವುದು ಸಾಧ್ಯ ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+  hi: जब कोई आपसे मार्गदर्शन माँगे, आप तय कर सकते हैं कि इस सप्ताह कितना काम करना व्यावहारिक है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can share a useful explanation when someone asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಉಪಯುಕ್ತ ವಿವರಣೆ ನೀಡಬಹುದು.
+    hi: किसी के पूछने पर उपयोगी जानकारी साझा कर सकते हैं।

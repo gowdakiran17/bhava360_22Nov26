@@ -1,0 +1,84 @@
+id: vedic.planets-in-signs.mars-capricorn
+system: vedic
+topic: planets-in-signs
+title: Mars in Capricorn
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Mars when its stable sidereal sign is Capricorn.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mars
+  - fact: d1.selected_point.sign
+    op: eq
+    value: capricorn
+placement:
+  dignity:
+    sign_class: exalted
+    ruler: saturn
+    natural_relation_to_ruler: neutral
+    exaltation_peak_degrees: 28
+  themes:
+  - directing effort
+  - sustained work
+meaning: Mars in Capricorn can bring directing effort into situations that call for sustained work. The traditional
+  exaltation is most pronounced at 28° in this sign.
+life_areas:
+- career
+- learning
+strength_notes:
+- when:
+    fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Saturn rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '7'
+  other_locator: Mars in Capricorn, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you are ready to act, you can decide what can reasonably be done this week.
+  kn: ನೀವು ಹೆಜ್ಜೆ ಇಡಲು ಸಿದ್ಧರಾದಾಗ ಈ ವಾರ ಎಷ್ಟು ಕೆಲಸ ಮಾಡುವುದು ಸಾಧ್ಯ ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+  hi: जब आप कदम उठाने को तैयार हों, आप तय कर सकते हैं कि इस सप्ताह कितना काम करना व्यावहारिक है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can pause to hear another view before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
+    hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।

@@ -1,0 +1,83 @@
+id: vedic.planets-in-signs.venus-cancer
+system: vedic
+topic: planets-in-signs
+title: Venus in Cancer
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Venus when its stable sidereal sign is Cancer.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: venus
+  - fact: d1.selected_point.sign
+    op: eq
+    value: cancer
+placement:
+  dignity:
+    sign_class: enemy
+    ruler: moon
+    natural_relation_to_ruler: enemy
+  themes:
+  - making room for agreement
+  - care and belonging
+meaning: Venus in Cancer can bring making room for agreement into situations that call for care and belonging.
+life_areas:
+- love-marriage
+- family-home
+strength_notes:
+- when:
+    fact: d1.moon.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Moon rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '16'
+  other_locator: Venus in Cancer, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you work out a preference with someone, you can ask what would help the people involved feel at home.
+  kn: ಇನ್ನೊಬ್ಬರೊಂದಿಗೆ ಆಯ್ಕೆಗಳನ್ನು ಚರ್ಚಿಸುವಾಗ ಭಾಗಿಯಾದವರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಲು ಏನು ನೆರವಾಗುತ್ತದೆ ಎಂದು ಕೇಳಬಹುದು.
+  hi: जब आप किसी के साथ अपनी पसंद पर बात करें, आप पूछ सकते हैं कि साथ जुड़े लोगों को किस चीज़ से अपनापन महसूस
+    होगा।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for someone else’s preference today.
+    kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.
+    hi: आज किसी और की पसंद को भी जगह दे सकते हैं।

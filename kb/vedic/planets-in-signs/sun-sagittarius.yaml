@@ -1,0 +1,82 @@
+id: vedic.planets-in-signs.sun-sagittarius
+system: vedic
+topic: planets-in-signs
+title: Sun in Sagittarius
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Sun when its stable sidereal sign is Sagittarius.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: sun
+  - fact: d1.selected_point.sign
+    op: eq
+    value: sagittarius
+placement:
+  dignity:
+    sign_class: friend
+    ruler: jupiter
+    natural_relation_to_ruler: friend
+  themes:
+  - taking responsibility
+  - guiding principles
+meaning: Sun in Sagittarius can bring taking responsibility into situations that call for guiding principles.
+life_areas:
+- career
+- business
+strength_notes:
+- when:
+    fact: d1.jupiter.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Jupiter rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '3'
+  other_locator: Sun in Sagittarius, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When a decision falls to you, you can ask which principle you would still stand by in a different setting.
+  kn: ತೀರ್ಮಾನದ ಹೊಣೆ ನಿಮ್ಮ ಮೇಲಿದ್ದಾಗ ಬೇರೆ ಸಂದರ್ಭದಲ್ಲಿಯೂ ಯಾವ ತತ್ವವನ್ನು ಪಾಲಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: जब फ़ैसले की ज़िम्मेदारी आप पर हो, आप सोच सकते हैं कि बदली हुई परिस्थिति में भी आप किस सिद्धांत को अपनाएँगे।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can give credit to someone who helped you lead a task.
+    kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: काम सँभालने में मदद करने वाले को श्रेय दे सकते हैं।

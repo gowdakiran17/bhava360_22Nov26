@@ -1,0 +1,82 @@
+id: vedic.planets-in-signs.mercury-aquarius
+system: vedic
+topic: planets-in-signs
+title: Mercury in Aquarius
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Mercury when its stable sidereal sign is Aquarius.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mercury
+  - fact: d1.selected_point.sign
+    op: eq
+    value: aquarius
+placement:
+  dignity:
+    sign_class: neutral
+    ruler: saturn
+    natural_relation_to_ruler: neutral
+  themes:
+  - exchanging ideas
+  - shared systems
+meaning: Mercury in Aquarius can bring exchanging ideas into situations that call for shared systems.
+life_areas:
+- learning
+- business
+strength_notes:
+- when:
+    fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Saturn rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '11'
+  other_locator: Mercury in Aquarius, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you explain a new idea, you may learn something by asking who else relies on the same arrangement.
+  kn: ನೀವು ಹೊಸ ವಿಚಾರವನ್ನು ವಿವರಿಸುವಾಗ ಇದೇ ವ್ಯವಸ್ಥೆಯನ್ನು ಇನ್ನಾರು ಅವಲಂಬಿಸಿದ್ದಾರೆ ಎಂದು ಕೇಳುವುದರಿಂದ ಹೊಸದನ್ನು ತಿಳಿಯಬಹುದು.
+  hi: जब आप कोई नया विचार समझाएँ, यही व्यवस्था और किसके काम आती है, यह पूछने से आपको कुछ नया समझ आ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can clarify an instruction for someone who asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+    hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।

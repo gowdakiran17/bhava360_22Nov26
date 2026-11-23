@@ -1,0 +1,92 @@
+id: vedic.planets-in-signs.mercury-pisces
+system: vedic
+topic: planets-in-signs
+title: Mercury in Pisces
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Mercury when its stable sidereal sign is Pisces.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mercury
+  - fact: d1.selected_point.sign
+    op: eq
+    value: pisces
+placement:
+  dignity:
+    sign_class: debilitated
+    ruler: jupiter
+    natural_relation_to_ruler: neutral
+    debilitation_peak_degrees: 15
+  themes:
+  - exchanging ideas
+  - imaginative reflection
+meaning: Mercury in Pisces can bring exchanging ideas into situations that call for imaginative reflection. The
+  sign-level debility calls for checking the condition of the sign ruler before drawing a conclusion.
+life_areas:
+- learning
+- business
+strength_notes:
+- when:
+    fact: d1.jupiter.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Jupiter rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions:
+- when:
+    fact: d1.dignity.debility_lord_angular
+    op: eq
+    value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Apply the cancellation screen to this Mercury placement. An angular dispositor can qualify the debility
+    reading.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '11'
+  other_locator: Mercury in Pisces, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you explain a new idea, you can leave room for an idea that is still taking shape.
+  kn: ನೀವು ಹೊಸ ವಿಚಾರವನ್ನು ವಿವರಿಸುವಾಗ ಇನ್ನೂ ರೂಪುಗೊಳ್ಳುತ್ತಿರುವ ಕಲ್ಪನೆಗೆ ಅವಕಾಶ ಕೊಡಬಹುದು.
+  hi: जब आप कोई नया विचार समझाएँ, आप ऐसे विचार को थोड़ा समय दे सकते हैं जो अभी आकार ले रहा है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can clarify an instruction for someone who asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+    hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।

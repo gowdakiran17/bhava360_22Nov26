@@ -99,3 +99,9 @@ vedic_state_entries:
     - distinct_pair
     - comparison
     - orb_degrees
+vedic_planets_in_signs:
+  extension: placement
+  fields: [dignity, themes]
+  sign_class: Sign-level exaltation, debilitation or ownership takes precedence over the natural relationship to the ruler. Unassigned nodal dignity is disputed.
+  degree_sensitive: Retain the KB-01/02 limits for moolatrikona and own sign, and the exact peak for exaltation or debilitation. A sign-only match cannot establish an exact degree state.
+  cancellation: A debility exception references a candidate rule and applies only to the same selected graha.

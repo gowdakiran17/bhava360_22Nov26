@@ -136,6 +136,50 @@ def validate_states(rules, facts):
         require(combustion_match(combustion, graha, 0, 0, 1) is False, graha + ' ineligible')
 
 
+def validate_planets_in_signs(rules, grahas, signs):
+    prefix = 'vedic.planets-in-signs.'
+    expected = {prefix + g + '-' + s['id'] for g in grahas for s in signs}
+    actual = {r['id'] for r in rules.values() if r['system'] == 'vedic' and r['topic'] == 'planets-in-signs'}
+    require(actual == expected and len(actual) == 108, 'planet-in-sign grid is incomplete or unexpected')
+    for graha in grahas:
+        planet = rules['vedic.planets.' + graha]['graha']
+        relations = planet['natural_friendships']
+        for item in signs:
+            sign = item['id']
+            rasi = rules['vedic.signs.' + sign]['rasi']
+            rid = prefix + graha + '-' + sign
+            entry = rules[rid]
+            require(entry['conditions'] == {'all': [
+                {'fact': 'd1.selected_point.graha', 'op': 'eq', 'value': graha},
+                {'fact': 'd1.selected_point.sign', 'op': 'eq', 'value': sign}]}, rid + ' chart binding')
+            ruler = rasi['ruler']
+            relationship = 'self' if graha == ruler else 'unassigned'
+            for key, label in [('neutral', 'neutral'), ('friends', 'friend'), ('enemies', 'enemy')]:
+                if ruler in relations[key]:
+                    relationship = label
+            dignity = {'ruler': ruler, 'natural_relation_to_ruler': relationship}
+            status = relationship
+            if graha == ruler:
+                status = 'own'
+                dignity['own_sign_degrees'] = [0, 30]
+            for key, label in [('exaltation_peak_degrees', 'exalted'), ('debilitation_peak_degrees', 'debilitated')]:
+                if graha in rasi[key]:
+                    dignity[key] = rasi[key][graha]
+                    status = label
+            if graha in rasi['moolatrikona_degree_limits']:
+                dignity['moolatrikona_degree_limits'] = rasi['moolatrikona_degree_limits'][graha]
+            if relations['status'] == 'unassigned':
+                require(entry['confidence'] == 'disputed', rid + ' node doctrine')
+                status = 'disputed'
+            dignity['sign_class'] = status
+            require(entry['placement']['dignity'] == dignity, rid + ' dignity disagrees with KB-01/02')
+            require(entry['placement']['themes'] and entry['life_areas'] and entry['strength_notes'], rid + ' content')
+            if status == 'debilitated':
+                pointer = 'vedic.yogas.neecha-bhanga'
+                require(any(e.get('rule_id') == pointer and e['when'] in rules[pointer]['conditions']['all']
+                            and e['effect'] == 'soften' for e in entry['exceptions']), rid + ' cancellation')
+
+
 def validate_houses(rules, areas):
     groups = {
         'kendra': {1, 4, 7, 10},
@@ -262,7 +306,7 @@ def main():
         if system_dir in VEDIC_SYSTEMS:
             if 'rule' in data:
                 inputs = [data['conditions'], *[m['when'] for m in data['strength_notes'] + data['exceptions']]]
-                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state') if k in data)
+                inputs.extend(data[k] for k in ('graha', 'bhava', 'rasi', 'nakshatra', 'state', 'placement') if k in data)
             else:
                 # Calculation tables include candidate lists, weights and lord assignments.
                 inputs = data
@@ -271,6 +315,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system'] == 'vedic' and data['topic'] == 'planets-in-signs':
+            expected_fields.add('placement')
         if data['system'] == 'vedic' and data['topic'] == 'states':
             expected_fields.add('state')
         if rid in {'western.planets.' + name for name in OUTER_BODIES}:
@@ -310,6 +356,8 @@ def main():
             require(cite['work_id'] in sources['works'],rid)
             if cite['edition'] is not None:
                 require(sources['editions'][cite['edition']]['work_id']==cite['work_id'],rid)
+            if data['topic'] == 'planets-in-signs' and cite['work_id'] == 'brihat-jataka' and cite['chapter'] == 18:
+                require(cite['verification'] == ('verified' if cite['verse'] else 'chapter-only'), rid + ' chapter 18 locator')
             if cite['verification']=='verified':
                 require(cite['edition'] and (cite['verse'] or cite['other_locator']),rid)
         require(evaluate(data['conditions'],{}) is None,rid)
@@ -337,6 +385,7 @@ def main():
                     expected[field][name] = attributes[field][graha]
             require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
         require(dignity == expected, graha + ' dignity disagrees with sign entries')
+    validate_planets_in_signs(rules, grahas, signs)
     validate_nakshatras(rules, signs)
     validate_houses(rules, areas['areas'])
     validate_outer_profiles(rules)

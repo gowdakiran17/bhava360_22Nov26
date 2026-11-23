@@ -39,3 +39,4 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, us
 # The twelve bhava reference entries also carry the bhava mapping defined in SCHEMA.yaml.
 # Western outer-planet entries carry the outer_planet mapping defined in SCHEMA.yaml.
 # Vedic planetary state entries carry the state mapping defined in SCHEMA.yaml.
+# Vedic planet-in-sign entries carry the placement mapping defined in SCHEMA.yaml.

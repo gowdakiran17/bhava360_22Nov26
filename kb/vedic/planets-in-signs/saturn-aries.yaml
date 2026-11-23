@@ -1,0 +1,92 @@
+id: vedic.planets-in-signs.saturn-aries
+system: vedic
+topic: planets-in-signs
+title: Saturn in Aries
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Saturn when its stable sidereal sign is Aries.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: saturn
+  - fact: d1.selected_point.sign
+    op: eq
+    value: aries
+placement:
+  dignity:
+    sign_class: debilitated
+    ruler: mars
+    natural_relation_to_ruler: enemy
+    debilitation_peak_degrees: 20
+  themes:
+  - sustaining a commitment
+  - initiative
+meaning: Saturn’s concern with keeping a commitment can meet Aries’s impulse to begin quickly. A smaller first
+  promise may be easier to sustain once the initial push has passed.
+life_areas:
+- career
+- learning
+strength_notes:
+- when:
+    fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Mars rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions:
+- when:
+    fact: d1.dignity.debility_lord_angular
+    op: eq
+    value: true
+  effect: soften
+  rule_id: vedic.yogas.neecha-bhanga
+  reason: Apply the cancellation screen to this Saturn placement. An angular dispositor can qualify the debility
+    reading.
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '17'
+  other_locator: Saturn in Aries, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you take on a lasting commitment, you can choose a first step small enough to repeat tomorrow.
+  kn: ದೀರ್ಘಕಾಲದ ಹೊಣೆ ವಹಿಸಿಕೊಳ್ಳುವಾಗ ನಾಳೆಯೂ ಮುಂದುವರಿಸಬಹುದಾದ ಸಣ್ಣ ಹೆಜ್ಜೆಯನ್ನು ಆರಿಸಬಹುದು.
+  hi: जब आप लंबे समय की ज़िम्मेदारी लें, आप ऐसा छोटा पहला कदम चुन सकते हैं जिसे कल भी दोहरा सकें।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can follow through on a small promise to someone who relies on you.
+    kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: जो आप पर भरोसा करता है, उससे किया कोई छोटा वादा निभा सकते हैं।

@@ -1,0 +1,82 @@
+id: vedic.planets-in-signs.moon-gemini
+system: vedic
+topic: planets-in-signs
+title: Moon in Gemini
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Moon when its stable sidereal sign is Gemini.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: moon
+  - fact: d1.selected_point.sign
+    op: eq
+    value: gemini
+placement:
+  dignity:
+    sign_class: friend
+    ruler: mercury
+    natural_relation_to_ruler: friend
+  themes:
+  - responding to a need
+  - comparing perspectives
+meaning: Moon in Gemini can bring responding to a need into situations that call for comparing perspectives.
+life_areas:
+- family-home
+- love-marriage
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Mercury rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 17
+  verse: null
+  other_locator: Moon in Gemini, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: pending
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When someone turns to you for comfort, you can compare two explanations before settling on one.
+  kn: ಯಾರಾದರೂ ನೆಮ್ಮದಿ ಅರಸಿ ನಿಮ್ಮ ಬಳಿಗೆ ಬಂದಾಗ ಎರಡು ವಿವರಣೆಗಳನ್ನು ಹೋಲಿಸಿ ಒಂದನ್ನು ಆರಿಸಬಹುದು.
+  hi: जब कोई सहारे के लिए आपके पास आए, आप एक राय बनाने से पहले दो व्याख्याओं की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can ask someone close what support they would welcome.
+    kn: ಆತ್ಮೀಯರಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
+    hi: किसी करीबी से पूछ सकते हैं कि उन्हें कैसी मदद चाहिए।

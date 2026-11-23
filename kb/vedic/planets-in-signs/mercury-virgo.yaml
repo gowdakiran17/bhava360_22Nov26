@@ -1,0 +1,90 @@
+id: vedic.planets-in-signs.mercury-virgo
+system: vedic
+topic: planets-in-signs
+title: Mercury in Virgo
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected natal D1 Mercury when its stable sidereal sign is Virgo.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mercury
+  - fact: d1.selected_point.sign
+    op: eq
+    value: virgo
+placement:
+  dignity:
+    sign_class: exalted
+    ruler: mercury
+    natural_relation_to_ruler: self
+    own_sign_degrees:
+    - 0
+    - 30
+    exaltation_peak_degrees: 15
+    moolatrikona_degree_limits:
+    - 15
+    - 20
+  themes:
+  - exchanging ideas
+  - careful adjustment
+meaning: Mercury in Virgo can bring exchanging ideas into situations that call for careful adjustment. Its moolatrikona
+  range runs from 15° to 20° within the sign. Check the actual longitude and any shared exaltation boundary.
+life_areas:
+- learning
+- business
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: Mercury rules the sign. Its own or exalted placement may support the expression of this placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 15–17
+  other_locator: Natural relationships
+  supports: Directed relationship of the graha to the sign ruler.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign ownership, dignity peaks and degree-limited moolatrikona.
+  verification: verified
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 18
+  verse: '10'
+  other_locator: Mercury in Virgo, planetary placement discussion
+  supports: Classical placement context. The practical reflection is an editorial interpretation.
+  verification: verified
+confidence: medium
+review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
+  review pending.
+user_text:
+  en: When you explain a new idea, you can check one detail that might change your approach.
+  kn: ನೀವು ಹೊಸ ವಿಚಾರವನ್ನು ವಿವರಿಸುವಾಗ ನಿಮ್ಮ ವಿಧಾನವನ್ನು ಬದಲಿಸಬಹುದಾದ ಒಂದು ವಿವರವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: जब आप कोई नया विचार समझाएँ, आप ऐसी एक बारीकी जाँच सकते हैं जिससे आपका तरीका बदल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can clarify an instruction for someone who asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+    hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।
