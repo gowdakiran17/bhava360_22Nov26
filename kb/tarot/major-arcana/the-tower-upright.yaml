@@ -13,11 +13,16 @@ conditions:
   - fact: draw.orientation
     op: eq
     value: upright
-meaning: The card offers a reflection on an assumption under review.
-life_areas: []
+meaning: A plan may rest on an assumption you have outgrown. You can name what still holds and reconsider one part
+  of the plan.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: Golden Dawn assigns this trump to a planet; the single element shown is an editorial association, not a
+    second planetary attribution.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,13 +40,35 @@ sources:
   other_locator: The Tower
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Major trumps, the tower
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to reflect on an assumption under review. What comes to mind in this position?
-  kn: “ಊಹೆಯ ಮರುಪರಿಶೀಲನೆ” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
-  hi: आप “धारणा की समीक्षा” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+  en: A plan may rest on an assumption you have outgrown. You can name what still holds and reconsider one part
+    of the plan.
+  kn: ಯೋಜನೆ ರೂಪಿಸಿದಾಗಿನ ಒಂದು ಊಹೆ ಈಗ ನಿಮಗೆ ಹೊಂದದಿರಬಹುದು. ಇನ್ನೂ ಸರಿಹೊಂದುವುದನ್ನು ಗುರುತಿಸಿ, ಯೋಜನೆಯ ಒಂದು ಭಾಗವನ್ನು ಮರುಪರಿಶೀಲಿಸಬಹುದು.
+  hi: किसी योजना के पीछे की धारणा अब आपको पुरानी लग सकती है। आप देख सकते हैं कि अभी क्या काम करता है और एक हिस्से
+    पर फिर विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: the-tower
+  orientation: upright
+  element: fire
+  golden_dawn:
+    kind: planet
+    value: mars
+  keywords:
+  - an assumption under review
+  - revision
+  tone: Take care

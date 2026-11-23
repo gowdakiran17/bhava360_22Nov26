@@ -1,0 +1,163 @@
+positions:
+  reflection:
+    name: reflection
+    user_text:
+      en: You can choose a detail in the card that speaks to today’s question.
+      kn: ಇಂದಿನ ಪ್ರಶ್ನೆಗೆ ಹೊಂದುವ ಒಂದು ವಿವರವನ್ನು ಕಾರ್ಡ್‌ನಲ್ಲಿ ಆರಿಸಬಹುದು.
+      hi: आप कार्ड में ऐसा विवरण चुन सकते हैं जो आज के सवाल से जुड़ता हो।
+  prior-context:
+    name: prior context
+    user_text: &id001
+      en: You can recall an experience that still shapes how you see this question.
+      kn: ಈ ಪ್ರಶ್ನೆಯನ್ನು ನೋಡುವ ರೀತಿಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುವ ಹಿಂದಿನ ಅನುಭವವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+      hi: आप कोई पिछला अनुभव याद कर सकते हैं जो इस सवाल को देखने का आपका नज़रिया बनाता है।
+  current-situation:
+    name: current situation
+    user_text: &id002
+      en: You can name what has your attention right now.
+      kn: ಈಗ ನಿಮ್ಮ ಗಮನ ಸೆಳೆಯುತ್ತಿರುವ ವಿಷಯವನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप पहचान सकते हैं कि इस समय आपका ध्यान किस बात पर है।
+  next-step:
+    name: next step
+    user_text:
+      en: You can choose one small action within your control.
+      kn: ನಿಮ್ಮ ಕೈಯಲ್ಲಿರುವ ಒಂದು ಸಣ್ಣ ಕೆಲಸವನ್ನು ಆಯ್ದುಕೊಳ್ಳಬಹುದು.
+      hi: आप अपने हाथ में मौजूद एक छोटा कदम चुन सकते हैं।
+  possible-direction:
+    name: possible direction
+    user_text: &id003
+      en: You can explore a direction you might like to try.
+      kn: ನೀವು ಪ್ರಯತ್ನಿಸಲು ಬಯಸುವ ದಿಕ್ಕನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+      hi: आप उस दिशा पर विचार कर सकते हैं जिसे आप आज़माना चाहें।
+  situation:
+    name: situation
+    user_text:
+      en: You can describe the question in your own words.
+      kn: ಪ್ರಶ್ನೆಯನ್ನು ನಿಮ್ಮದೇ ಮಾತಿನಲ್ಲಿ ವಿವರಿಸಬಹುದು.
+      hi: आप सवाल को अपने शब्दों में बता सकते हैं।
+  choice-of-action:
+    name: choice of action
+    user_text:
+      en: You can compare actions open to you.
+      kn: ನಿಮಗೆ ಲಭ್ಯವಿರುವ ಕ್ರಮಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+      hi: आप अपने लिए उपलब्ध कदमों की तुलना कर सकते हैं।
+  possible-outcome:
+    name: possible outcome
+    user_text:
+      en: You can describe what you hope your choice makes possible.
+      kn: ನಿಮ್ಮ ಆಯ್ಕೆಯಿಂದ ಯಾವುದಕ್ಕೆ ಅವಕಾಶ ಸಿಗಬೇಕೆಂದು ಬಯಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ವಿವರಿಸಬಹುದು.
+      hi: आप बता सकते हैं कि अपने चुनाव से किस संभावना को जगह देना चाहते हैं।
+  own-perspective:
+    name: own perspective
+    user_text:
+      en: You can explore what the relationship means to you.
+      kn: ಸಂಬಂಧವು ನಿಮಗೆ ಏನರ್ಥ ಎಂದು ಯೋಚಿಸಬಹುದು.
+      hi: आप सोच सकते हैं कि यह रिश्ता आपके लिए क्या मायने रखता है।
+  other-perspective-to-explore:
+    name: other perspective to explore
+    user_text:
+      en: You can choose a question to ask the other person about their experience.
+      kn: ಅವರ ಅನುಭವದ ಬಗ್ಗೆ ಕೇಳಲು ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ಆಯ್ದುಕೊಳ್ಳಬಹುದು.
+      hi: आप सामने वाले से उनके अनुभव के बारे में पूछने के लिए एक सवाल चुन सकते हैं।
+  shared-question:
+    name: shared question
+    user_text:
+      en: You can identify a topic to discuss together.
+      kn: ಒಟ್ಟಿಗೆ ಚರ್ಚಿಸಲು ಒಂದು ವಿಷಯವನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप साथ मिलकर चर्चा करने का विषय चुन सकते हैं।
+  current-task:
+    name: current task
+    user_text:
+      en: You can identify the work that needs your attention today.
+      kn: ಇಂದು ಗಮನ ನೀಡಬೇಕಾದ ಕೆಲಸವನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप पहचान सकते हैं कि आज किस काम को ध्यान देने की ज़रूरत है।
+  skill-to-use:
+    name: skill to use
+    user_text:
+      en: You can recall a skill that has helped with similar work.
+      kn: ಇಂತಹ ಕೆಲಸದಲ್ಲಿ ನೆರವಾದ ಕೌಶಲವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+      hi: आप कोई हुनर याद कर सकते हैं जो ऐसे काम में पहले मदद कर चुका है।
+  common-context:
+    name: common context
+    user_text:
+      en: You can name a consideration that both options share.
+      kn: ಎರಡೂ ಆಯ್ಕೆಗಳಿಗೆ ಸಂಬಂಧಿಸಿದ ವಿಷಯವನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप ऐसा पहलू पहचान सकते हैं जो दोनों विकल्पों में समान है।
+  path-a:
+    name: path A
+    user_text:
+      en: You can explore what the first option would ask of you.
+      kn: ಮೊದಲ ಆಯ್ಕೆಗೆ ನಿಮ್ಮಿಂದ ಏನು ಬೇಕಾಗಬಹುದು ಎಂದು ಯೋಚಿಸಬಹುದು.
+      hi: आप सोच सकते हैं कि पहले विकल्प के लिए आपको क्या करना होगा।
+  path-b:
+    name: path B
+    user_text:
+      en: You can explore what the second option would ask of you.
+      kn: ಎರಡನೇ ಆಯ್ಕೆಗೆ ನಿಮ್ಮಿಂದ ಏನು ಬೇಕಾಗಬಹುದು ಎಂದು ಯೋಚಿಸಬಹುದು.
+      hi: आप सोच सकते हैं कि दूसरे विकल्प के लिए आपको क्या करना होगा।
+  crossing-influence:
+    name: crossing influence
+    user_text:
+      en: You can notice a pressure or resource affecting the question.
+      kn: ಪ್ರಶ್ನೆಯ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರುವ ಒತ್ತಡ ಅಥವಾ ನೆರವನ್ನು ಗಮನಿಸಬಹುದು.
+      hi: आप किसी दबाव या सहारे पर ध्यान दे सकते हैं जो इस सवाल को प्रभावित करता है।
+  foundation:
+    name: foundation
+    user_text:
+      en: You can examine an assumption beneath the situation.
+      kn: ಪರಿಸ್ಥಿತಿಯ ಹಿಂದಿರುವ ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+      hi: आप स्थिति के पीछे की किसी धारणा को परख सकते हैं।
+  conscious-aim:
+    name: conscious aim
+    user_text:
+      en: You can put your intention into words.
+      kn: ನಿಮ್ಮ ಉದ್ದೇಶವನ್ನು ಮಾತಿನಲ್ಲಿ ಹೇಳಬಹುದು.
+      hi: आप अपने इरादे को शब्द दे सकते हैं।
+  own-stance:
+    name: own stance
+    user_text:
+      en: You can notice how you are approaching the issue.
+      kn: ಈ ವಿಷಯವನ್ನು ನೀವು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತಿದ್ದೀರಿ ಎಂದು ಗಮನಿಸಬಹುದು.
+      hi: आप देख सकते हैं कि आप इस मुद्दे को कैसे देख रहे हैं।
+  environment:
+    name: environment
+    user_text:
+      en: You can consider the circumstances around you.
+      kn: ನಿಮ್ಮ ಸುತ್ತಲಿನ ಪರಿಸ್ಥಿತಿಯನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+      hi: आप आसपास की परिस्थितियों पर विचार कर सकते हैं।
+  hopes-or-worries:
+    name: hopes or worries
+    user_text:
+      en: You can name a hope and a concern you bring to the question.
+      kn: ಪ್ರಶ್ನೆಗೆ ಸಂಬಂಧಿಸಿದ ಒಂದು ಆಶೆ ಮತ್ತು ಒಂದು ಕಾಳಜಿಯನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप इस सवाल से जुड़ी एक आशा और एक चिंता को पहचान सकते हैं।
+  work-constraint:
+    name: work constraint
+    user_text:
+      en: You can identify a limit on your time or resources.
+      kn: ನಿಮ್ಮ ಸಮಯ ಅಥವಾ ಸಂಪನ್ಮೂಲಗಳ ಮಿತಿಯನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप अपने समय या साधनों की कोई सीमा पहचान सकते हैं।
+  available-support:
+    name: available support
+    user_text:
+      en: You can name help you feel comfortable asking for.
+      kn: ಕೇಳಲು ನಿಮಗೆ ಹಿತವೆನಿಸುವ ನೆರವನ್ನು ಗುರುತಿಸಬಹುದು.
+      hi: आप सोच सकते हैं कि कौन सी मदद माँगना आपको सहज लगता है।
+  personal-boundary:
+    name: personal boundary
+    user_text:
+      en: You can put a personal boundary into words.
+      kn: ನಿಮ್ಮ ಮಿತಿಯನ್ನು ಮಾತಿನಲ್ಲಿ ತಿಳಿಸಬಹುದು.
+      hi: आप अपनी किसी सीमा को शब्दों में रख सकते हैं।
+  past:
+    name: past
+    user_text: *id001
+  present:
+    name: present
+    user_text: *id002
+  recent-past:
+    name: recent past
+    user_text: *id001
+  near-direction:
+    name: near direction
+    user_text: *id003

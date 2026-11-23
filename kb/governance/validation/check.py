@@ -380,6 +380,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system']=='tarot':
+            expected_fields.add('card_profile')
         if data['system']=='vastu' and 'vastu' in data:
             expected_fields.add('vastu')
         if data['topic']=='matching' and 'matching' in data:
@@ -501,6 +503,8 @@ def main():
         for orientation in ('upright','reversed'):
             matched=[r for r in rules.values() if r['system']=='tarot' and evaluate(r['conditions'],{'draw.card':card,'draw.orientation':orientation})]
             require(len(matched)==1,(card,orientation))
+    from tarot_cards import validate_tarot
+    validate_tarot(rules,read,require,ROOT)
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
     from muhurta import validate_muhurta

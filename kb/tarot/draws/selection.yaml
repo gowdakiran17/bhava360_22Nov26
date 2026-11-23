@@ -1,5 +1,29 @@
-version: 1
+version: 2
 approval: draft
-shuffle: Unbiased Fisher–Yates using a cryptographic uniform integer in [0,i] for each descending index. Optional cut rotates
-  the permutation. Choose unique positions without replacement.
+shuffle: Unbiased Fisher–Yates using a cryptographic uniform integer in [0,i] for each descending index. Optional
+  cut rotates the permutation. Choose unique positions without replacement.
 reversals: Independent fair orientation when enabled, otherwise upright. Preserve the stored draw on reopen.
+algorithm: hmac-sha256-fy-v1
+deck: draws/deck.yaml
+reversals_enabled_default: true
+seed: Generate 32 random bytes with the OS CSPRNG per new reading. Admin replay takes the same 64 hex characters.
+  Store the seed only with the access-controlled replay record.
+stream: For each purpose (shuffle or orientation), HMAC-SHA256 keyed by the seed. Message = ASCII bhava360-tarot-v1/
+  + purpose + slash + unsigned 64-bit big-endian counter starting at zero. Consume each digest as eight consecutive
+  unsigned 32-bit big-endian words.
+uniform: For bound n, discard words >= 2^32 - (2^32 mod n); accept word mod n. Shuffle from i=77 down to 1 swapping
+  i with uniform(i+1). Rotate the shuffled deck left by cut positions (0 through 77).
+slots: 'Take the first N indices unless the user explicitly picks N distinct zero-based indices from the cut deck
+  in slot order. Orientation stream in slot order: 0 upright, 1 reversed, using uniform(2); disabled always yields
+  upright.'
+replay:
+- algorithm
+- deck version
+- seed
+- spread id and ordered position IDs
+- cut
+- picked indices
+- reversals enabled
+- bound card and orientation IDs
+public: Render the named card, its position, localized tone and the localized reflection. Attach the shared reflection
+  footer. Restrict interpretation to drawn cards. Stored readings reopen using their saved bindings and text version.

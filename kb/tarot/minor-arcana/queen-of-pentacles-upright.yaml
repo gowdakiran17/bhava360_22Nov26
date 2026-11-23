@@ -14,10 +14,15 @@ conditions:
     op: eq
     value: upright
 meaning: The card offers a reflection on practical care.
-life_areas: []
+life_areas:
+- money
+- career
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: This profile maps RWS King to the Golden Dawn mounted King, Knight to Prince, Queen to Queen, and Page to
+    Princess. Other rank crosswalks exist.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,6 +40,15 @@ sources:
   other_locator: Queen of Pentacles
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Court cards, pentacles / queen
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
@@ -45,3 +59,19 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: queen-of-pentacles
+  orientation: upright
+  element: earth
+  golden_dawn:
+    kind: court-span
+    rank: queen
+    subelement: water
+    from_sign: sagittarius
+    from_degree: 20
+    to_sign: capricorn
+    end_exclusive_degree: 20
+  keywords:
+  - practical care
+  - receptivity
+  tone: Steady

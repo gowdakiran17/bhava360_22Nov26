@@ -13,11 +13,15 @@ conditions:
   - fact: draw.orientation
     op: eq
     value: reversed
-meaning: The card offers a reflection on reclaiming choice.
-life_areas: []
+meaning: You may find room to choose differently when a familiar habit appears.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: This reading uses the RWS image and the Golden Dawn correspondence. Reversed reflections are an optional
+    editorial reading.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,13 +39,33 @@ sources:
   other_locator: The Devil
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Major trumps, the devil
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to reflect on reclaiming choice. What comes to mind in this position?
-  kn: “ಆಯ್ಕೆಯನ್ನು ಮರಳಿ ಪಡೆಯುವುದು” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
-  hi: आप “चुनाव वापस पाना” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+  en: You may find room to choose differently when a familiar habit appears.
+  kn: ಪರಿಚಿತ ಅಭ್ಯಾಸ ಎದುರಾದಾಗ ಬೇರೊಂದು ಆಯ್ಕೆಗೆ ಅವಕಾಶ ಕಾಣಬಹುದು.
+  hi: जब कोई परिचित आदत उभरे, तो आपको दूसरा विकल्प चुनने की गुंजाइश दिख सकती है।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: the-devil
+  orientation: reversed
+  element: earth
+  golden_dawn:
+    kind: sign
+    value: capricorn
+  keywords:
+  - reclaiming choice
+  - awareness
+  tone: Supportive

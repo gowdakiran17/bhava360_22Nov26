@@ -1,0 +1,7 @@
+id: single-card
+version: 1
+positions:
+- reflection
+position_catalog: positions/catalog.yaml
+interpretation: Read each drawn orientation through its own position question. The last position invites reflection
+  or an action the person can choose.

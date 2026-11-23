@@ -14,10 +14,15 @@ conditions:
     op: eq
     value: upright
 meaning: The card offers a reflection on direct action.
-life_areas: []
+life_areas:
+- learning
+- career
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: This profile maps RWS King to the Golden Dawn mounted King, Knight to Prince, Queen to Queen, and Page to
+    Princess. Other rank crosswalks exist.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,6 +40,15 @@ sources:
   other_locator: Knight of Swords
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Court cards, swords / prince
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
@@ -45,3 +59,19 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: knight-of-swords
+  orientation: upright
+  element: air
+  golden_dawn:
+    kind: court-span
+    rank: prince
+    subelement: air
+    from_sign: capricorn
+    from_degree: 20
+    to_sign: aquarius
+    end_exclusive_degree: 20
+  keywords:
+  - direct action
+  - action
+  tone: Steady

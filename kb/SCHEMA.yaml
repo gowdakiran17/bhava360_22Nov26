@@ -200,3 +200,11 @@ vastu_layout_entries:
   public_fields: [localized_tone, user_text]
   technical_fields_access: [admin]
   projection: Resolve the localized tone and the matched room's user_text independently using the existing locale fallback. Render only the unit's observed rooms and reversible suggestions.
+tarot_card_entries:
+  extension: card_profile
+  deck: tarot/draws/deck.yaml
+  replay: tarot/draws/selection.yaml
+  spreads: tarot/spreads/positions.yaml
+  position_dictionary: tarot/positions/catalog.yaml
+  public: Canonical RWS title, position prompt, localized tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply to interpretive text in every locale.
+  conventions: Aces have elemental roots; pages have polar quadrants; other courts use the specified rank crosswalk. Element tags for planetary trumps are editorial. No birth chart inference from the draw.

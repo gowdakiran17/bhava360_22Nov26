@@ -13,11 +13,16 @@ conditions:
   - fact: draw.orientation
     op: eq
     value: reversed
-meaning: The card offers a reflection on a gradual adjustment.
-life_areas: []
+meaning: You may already sense a change in your thinking. You can try a small adjustment before making a larger
+  choice.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: Golden Dawn assigns this trump to a planet; the single element shown is an editorial association, not a
+    second planetary attribution.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,13 +40,34 @@ sources:
   other_locator: The Tower
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Major trumps, the tower
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to reflect on a gradual adjustment. What comes to mind in this position?
-  kn: “ಹಂತ ಹಂತದ ಹೊಂದಾಣಿಕೆ” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
-  hi: आप “धीरे-धीरे बदलाव” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+  en: You may already sense a change in your thinking. You can try a small adjustment before making a larger choice.
+  kn: ನಿಮ್ಮ ಆಲೋಚನೆಯಲ್ಲಿ ಬದಲಾವಣೆ ಆಗುತ್ತಿರುವುದು ನಿಮಗೆ ಈಗಾಗಲೇ ಅನಿಸಬಹುದು. ದೊಡ್ಡ ನಿರ್ಧಾರಕ್ಕೂ ಮುನ್ನ ಸಣ್ಣ ಬದಲಾವಣೆಯನ್ನು
+    ಪ್ರಯತ್ನಿಸಬಹುದು.
+  hi: आपको अपने सोचने के ढंग में बदलाव महसूस हो सकता है। बड़ा फैसला लेने से पहले आप एक छोटा बदलाव आज़मा सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: the-tower
+  orientation: reversed
+  element: fire
+  golden_dawn:
+    kind: planet
+    value: mars
+  keywords:
+  - a gradual adjustment
+  - revision
+  tone: Steady

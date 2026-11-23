@@ -1,5 +1,6 @@
 version: 1
 works:
+  golden-dawn-book-t: Book T, The Tarot
   vastu-building-plan: Building Planning and Design
   vastu-direction-table: Planets and Deities of the Directions
   astrowiki-return: Solar Return Chart
@@ -68,6 +69,13 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  golden-dawn-book-t-transcript:
+    work_id: golden-dawn-book-t
+    edition_id: golden-dawn-book-t-transcript
+    title_as_printed: Book T
+    language: English
+    text: https://benebellwen.com/wp-content/uploads/2013/02/mathers-and-felkin-golden-dawn-book-t-the-tarot-1888.pdf
+    publication_details: Transcription of the Golden Dawn instructional text. Court rank aliases are specified by the Bhava360 profile.
   vastu-building-plan-web:
     work_id: vastu-building-plan
     edition_id: vastu-building-plan-web

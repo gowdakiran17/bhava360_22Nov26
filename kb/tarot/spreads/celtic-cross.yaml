@@ -1,0 +1,16 @@
+id: celtic-cross
+version: 1
+positions:
+- present
+- crossing-influence
+- foundation
+- recent-past
+- conscious-aim
+- near-direction
+- own-stance
+- environment
+- hopes-or-worries
+- possible-outcome
+position_catalog: positions/catalog.yaml
+interpretation: Read each drawn orientation through its own position question. The last position invites reflection
+  or an action the person can choose.

@@ -13,11 +13,15 @@ conditions:
   - fact: draw.orientation
     op: eq
     value: upright
-meaning: The card offers a reflection on an ending and a transition.
-life_areas: []
+meaning: You can thank an old routine for what it gave you and decide what to carry forward.
+life_areas:
+- spirituality
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tarot-editorial-v1
+  note: This reading uses the RWS image and the Golden Dawn correspondence. Reversed reflections are an optional
+    editorial reading.
 sources:
 - book: Bhava360 original tarot reflections
   work_id: bhava360-original-tarot-reflections
@@ -35,13 +39,33 @@ sources:
   other_locator: Death
   supports: Historical card identity. The trilingual reflection is original editorial text.
   verification: pending
+- book: Book T
+  work_id: golden-dawn-book-t
+  edition: golden-dawn-book-t-transcript
+  chapter: null
+  verse: null
+  other_locator: Major trumps, death
+  supports: Golden Dawn correspondence. RWS rank crosswalk and planetary element tags follow the declared editorial
+    convention.
+  verification: chapter-only
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to reflect on an ending and a transition. What comes to mind in this position?
-  kn: “ಮುಕ್ತಾಯ ಮತ್ತು ಬದಲಾವಣೆ” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
-  hi: आप “समापन और बदलाव” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+  en: You can thank an old routine for what it gave you and decide what to carry forward.
+  kn: ಹಳೆಯ ದಿನಚರಿಯಿಂದ ಪಡೆದದ್ದನ್ನು ಸ್ಮರಿಸಿ, ಮುಂದಕ್ಕೆ ಏನನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬೇಕು ಎಂದು ನಿರ್ಧರಿಸಬಹುದು.
+  hi: आप पुरानी दिनचर्या से मिली सीख को याद करके तय कर सकते हैं कि आगे क्या साथ रखना है।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+card_profile:
+  card: death
+  orientation: upright
+  element: water
+  golden_dawn:
+    kind: sign
+    value: scorpio
+  keywords:
+  - an ending and a transition
+  - release
+  tone: Steady

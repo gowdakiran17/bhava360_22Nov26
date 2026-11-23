@@ -1,4 +1,4 @@
-version: 1
+version: 2
 approval: draft
 spreads:
   daily:
@@ -34,4 +34,35 @@ spreads:
   - environment
   - hopes or worries
   - possible outcome
-custom: Persist user-defined ordered positions with the draw. Each meaning references its own card, orientation and position.
+  single-card:
+  - reflection
+  three-card:
+  - past
+  - present
+  - next step
+  career-five:
+  - current task
+  - skill to use
+  - work constraint
+  - available support
+  - next step
+  relationship-five:
+  - own perspective
+  - other perspective to explore
+  - shared question
+  - personal boundary
+  - next step
+custom: Persist user-defined ordered positions with the draw. Each meaning references its own card, orientation
+  and position.
+definitions:
+  daily: spreads/daily.yaml
+  past-present-future: spreads/past-present-future.yaml
+  situation-action-outcome: spreads/situation-action-outcome.yaml
+  relationship: spreads/relationship.yaml
+  career: spreads/career.yaml
+  decision: spreads/decision.yaml
+  celtic-cross: spreads/celtic-cross.yaml
+  single-card: spreads/single-card.yaml
+  three-card: spreads/three-card.yaml
+  career-five: spreads/career-five.yaml
+  relationship-five: spreads/relationship-five.yaml

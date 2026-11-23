@@ -1,0 +1,9 @@
+id: career
+version: 1
+positions:
+- current-task
+- skill-to-use
+- next-step
+position_catalog: positions/catalog.yaml
+interpretation: Read each drawn orientation through its own position question. The last position invites reflection
+  or an action the person can choose.
