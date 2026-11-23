@@ -208,7 +208,9 @@ def junction(outgoing,incoming,query_start,query_end):
 def validate_other_dashas(rules, read, evaluate, require):
     fixtures = read('examples/other-dashas-reference.yaml')
     require(fixtures['synthetic'] is True and set(fixtures['charts'])=={'Asha','Ravi'},'synthetic dasha fixtures')
-    clocks = read(ROOT+'vimshottari/periods.yaml')['year_days']
+    year_days = read(ROOT+'vimshottari/periods.yaml')['year_days']
+    # These five systems use the two clocks in their existing reference tables.
+    clocks = {name: year_days[name] for name in ('mean-gregorian', 'savana')}
     require(sum(read(ROOT+'ashtottari/periods.yaml')['years'])==108 and
             sum(read(ROOT+'yogini/periods.yaml')['sequence'].values())==36,'lunar cycle totals')
     checked = 0

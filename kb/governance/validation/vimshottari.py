@@ -58,8 +58,9 @@ def validate_vimshottari(rules, read, evaluate, require):
             and sum(seq.values())==table['cycle_years']==120,'Vimshottari cycle')
     cal = read('shared/conventions/profiles.yaml')['calculation_profiles']['vedic-lahiri-v1']['vimshottari_year_days']
     years = table['year_days']
-    require(float(years[table['default_year']])==cal['proposed_default']==365.2425
-            and int(years['savana'])==cal['alternative']==360,'Vimshottari clocks')
+    require(table['default_year']==cal['default']=='julian-365.25'
+            and years=={'julian-365.25':'365.25','mean-gregorian':'365.2425','savana':'360'}
+            and cal['days']==365.25 and cal['alternatives']=={'mean-gregorian':365.2425,'savana':360},'Vimshottari clocks')
     require(table['levels']==['maha','antar','pratyantar','sookshma'],'Vimshottari levels')
     stars = read('vedic/nakshatras/catalog.yaml')
     width = table['star_width_arcseconds']
@@ -120,4 +121,4 @@ def validate_vimshottari(rules, read, evaluate, require):
             require(selected==[PREFIX+maha+'-'+child+'-antar'],'bound pair')
             del facts[FACT+'pair_context_ready']
             require(evaluate(rules[selected[0]]['conditions'],facts) is None,'unbound natal context')
-    print('Vimshottari passed: 4 reference timelines, 16 nested intervals, 27 star boundaries and 81 ordered lord pairs.')
+    print('Vimshottari passed: 6 reference timelines, 24 nested intervals, 27 star boundaries and 81 ordered lord pairs.')

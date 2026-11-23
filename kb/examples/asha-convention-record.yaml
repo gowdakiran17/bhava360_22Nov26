@@ -1,0 +1,32 @@
+synthetic: true
+fixture: Asha
+profile: vedic-lahiri-v1
+engine_version: 0.0.0-example
+calendar: proleptic-gregorian
+birth_local: '1992-03-12T05:40:00'
+birth_place: Bengaluru
+birth_time_precision: exact
+iana_zone: Asia/Kolkata
+tzdb_version: 2026c
+resolved_utc_offset: '+05:30'
+resolution: unique
+ephemeris_flag: runtime-backend
+allowed_backends: [SEFLG_SWIEPH, SEFLG_MOSEPH]
+actual_backend: SEFLG_MOSEPH
+position_flags: [SEFLG_MOSEPH, SEFLG_SIDEREAL, SEFLG_SPEED]
+position_frame: apparent-geocentric
+ayanamsa_mode: SE_SIDM_LAHIRI
+ayanamsa_mode_number: 1
+ayanamsa_definition: true ayanamsa, Swiss default
+node: mean
+ketu: rahu-plus-180-degrees-modulo-360
+lagna_method: swe_houses_ex
+lagna_flags: [SEFLG_SIDEREAL]
+house_system: whole-sign
+sunrise_method: apparent-upper-limb-with-refraction
+observer_elevation_m: 0
+observer_elevation_source: city-elevation-unavailable
+pressure_hpa: 1013.25
+temperature_c: 15
+dasha_year: julian-365.25
+dasha_year_days: 365.25

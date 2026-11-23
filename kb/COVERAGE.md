@@ -29,3 +29,7 @@ The raw Ashtakavarga distribution was checked against the published worked value
 A verified citation supports the claim named in its `supports` field. The 1950 Sastri edition of *Phaladeepika*, for example, supports the Sakata formation and its angular-Moon cancellation. The practical prompts are original editorial adaptations. Many historical passages and regional variants still need edition-level review. The curated personal-name lexicon starts with five meanings and returns an unavailable meaning for unlisted names.
 
 Production release requires native Kannada/Hindi review, approval of rule interpretations and doctrine variants, and integration tests against the actual chart and timing engines. The KB does not contain the Swiss Ephemeris engine, the app UI, licensed card artwork or a production support directory. The selected conventions for D60, the node and dasha-year defaults, and regional activity rules remain subject to product review. Nakshatra Nadi and gift purchase retain their PRD hold.
+
+## KB-32 calculation conventions
+
+The 1,812 rules and 401 fact keys are unchanged. Seven referenced profiles and one named Ashtakavarga variant now have registry entries. Two parameter tables cover civil time and rise/set. One synthetic convention record identifies the effective ephemeris. Vimshottari has six reference timelines across three year lengths and four levels (24 nested intervals).
