@@ -1,0 +1,53 @@
+id: kp.cusps.cusp-11
+system: kp
+topic: cusps
+title: Cusp 11 · receipt of income
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: For a receipt of income question, resolve Placidus cusp 11 to its sub lord. Use the four ranked house-significator
+  levels of that graha. A link to any of houses 2, 11 supplies one piece of topic evidence. Record the matched
+  houses and levels. A date requires separate period and transit evidence.
+conditions:
+  all:
+  - fact: kp.cusp11.links_event
+    op: eq
+    value: true
+meaning: You can review the income you expect before making plans for it.
+life_areas:
+- money
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Some schools seek coverage of the entire event group before judging fulfilment. This rule identifies a
+    topic link. Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart.
+    Recompute cusps, grahas and every dependent lord together when changing the offset.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Order of the four house-significator levels and use of the relevant cusp.
+  verification: verified
+- book: House Grouping
+  work_id: kp-grouping
+  edition: kp-grouping-online
+  chapter: null
+  verse: null
+  other_locator: House Grouping, opening paragraphs
+  supports: Primary and supporting houses as an event group; individual editorial groups are identified in the
+    profile.
+  verification: verified
+confidence: medium
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
+user_text:
+  en: You can review the income you expect before making plans for it.
+  kn: ನಿರೀಕ್ಷಿತ ಆದಾಯವನ್ನು ಹೇಗೆ ಬಳಸಬೇಕು ಎಂದು ಯೋಜಿಸುವ ಮುನ್ನ ಅದರ ವಿವರ ನೋಡಬಹುದು.
+  hi: आय के उपयोग की योजना से पहले अपेक्षित रकम की समीक्षा कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

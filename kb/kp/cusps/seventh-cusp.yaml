@@ -1,35 +1,60 @@
 id: kp.cusps.seventh-cusp
 system: kp
 topic: cusps
-title: Seventh Cusp
+title: Cusp 7 · marriage
 doctrine_profile: kp-editorial-v1
 approval: draft
-rule: The computed seventh cusp sub lord signifies one or more of houses 2, 7 and 11 under the stated KP method.
+rule: For a marriage question, resolve Placidus cusp 7 to its sub lord. Use the four ranked house-significator
+  levels of that graha. A link to any of houses 2, 7, 11 supplies one piece of topic evidence. Record the matched
+  houses and levels. A date requires separate period and transit evidence.
 conditions:
   all:
   - fact: kp.cusp7.links_2_7_11
     op: eq
     value: true
-meaning: This factor can add context to a partnership question.
-life_areas: []
+meaning: You may find it easier to talk with your partner about the future you want together.
+life_areas:
+- love-marriage
+- family-home
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Some schools seek coverage of the entire event group before judging fulfilment. This rule identifies a
+    topic link. Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart.
+    Recompute cusps, grahas and every dependent lord together when changing the offset.
 sources:
-- book: KP Readers
-  work_id: kp-readers
-  edition: null
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
   chapter: null
   verse: null
-  other_locator: Cusp sub-lord and significator rules
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Order of the four house-significator levels and use of the relevant cusp.
+  verification: verified
+- book: House Grouping
+  work_id: kp-grouping
+  edition: kp-grouping-online
+  chapter: null
+  verse: null
+  other_locator: House Grouping, opening paragraphs
+  supports: Primary and supporting houses as an event group; individual editorial groups are identified in the
+    profile.
+  verification: verified
+- book: Four Step Theory
+  work_id: kp-four-step
+  edition: kp-four-step-online
+  chapter: null
+  verse: null
+  other_locator: Practical Application and marriage example
+  supports: Cusp and supporting houses for the question.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
 user_text:
-  en: This factor can add context to a partnership question.
-  kn: ಸಹಭಾಗಿತ್ವದ ಪ್ರಶ್ನೆಗೆ ಈ ಅಂಶವು ಹಿನ್ನೆಲೆ ನೀಡಬಹುದು.
-  hi: यह संकेत साझेदारी के प्रश्न को संदर्भ दे सकता है।
+  en: You may find it easier to talk with your partner about the future you want together.
+  kn: ಒಟ್ಟಿನ ಭವಿಷ್ಯದ ಬಗ್ಗೆ ಸಂಗಾತಿಯೊಂದಿಗೆ ಮಾತನಾಡುವುದು ಸುಲಭವಾಗಬಹುದು.
+  hi: साथी के साथ अपने साझा भविष्य की बात करना सहज लग सकता है।
 native_review:
   kn: pending
   hi: pending

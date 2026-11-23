@@ -5,3 +5,11 @@ method: Each 800 arcminute nakshatra is divided in Vimshottari order beginning w
 horary: Split the 243 star-sub arcs at the six additional sign boundaries to form 249 ordered intervals. Preserve half-open
   intersections.
 cusps: Compute all twelve Placidus cusps with a pinned KP ayanamsa. An unavailable cusp gives unknown for its dependent result.
+visibility: admin
+star_width_arcseconds: 48000
+sign_width_arcseconds: 108000
+cycle_years: 120
+lord_years_in_order: {ketu: 7, venus: 20, sun: 6, moon: 10, mars: 7, rahu: 18, jupiter: 16, saturn: 19, mercury: 17}
+split_at_degrees: [30, 90, 150, 210, 270, 330]
+precision: Use exact fractional offsets for finer divisions; never round a longitude up to select a row. The parent for sub-sub lookup retains its full width across a sign cut.
+source: kp-dutta-online, introductory subdivision rule.

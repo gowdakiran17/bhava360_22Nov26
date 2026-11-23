@@ -1,5 +1,10 @@
 version: 1
 works:
+  kp-dutta: Lecture Note on Krishnamurti Paddhati
+  kp-four-step: Four Step Theory
+  kp-grouping: House Grouping
+  swiss-programming: Swiss Ephemeris programming interface
+  kp-events: The Krishnamurti Paddhati Explained
   rath-narayana: Narayana Dasa
   pyjhora-chara: PyJHora Chara calculations
   rao-integrated: Vedic Astrology, An Integrated Approach
@@ -46,6 +51,36 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  kp-dutta-online:
+    work_id: kp-dutta
+    edition_id: kp-dutta-online
+    title_as_printed: Lecture Note on Krishnamurti Paddhati
+    language: English
+    text: https://kpastrologeronline.com/wp-content/uploads/2021/09/Lecture-Note-on-Krishnamurti-Paddhati.pdf
+  kp-four-step-online:
+    work_id: kp-four-step
+    edition_id: kp-four-step-online
+    title_as_printed: Four Step Theory
+    language: English
+    text: https://kpastrology.astrosage.com/kp-learning-home/related-systems/four-step-theory
+  kp-grouping-online:
+    work_id: kp-grouping
+    edition_id: kp-grouping-online
+    title_as_printed: House Grouping
+    language: English
+    text: https://kpastrology.astrosage.com/kp-learning-home/house-grouping
+  swiss-programming-online:
+    work_id: swiss-programming
+    edition_id: swiss-programming-online
+    title_as_printed: Swiss Ephemeris programming interface
+    language: English
+    text: https://www.astro.com/swisseph/swephprg.htm
+  kp-events-online:
+    work_id: kp-events
+    edition_id: kp-events-online
+    title_as_printed: The Krishnamurti Paddhati Explained
+    language: English
+    text: https://www.dashagochar.com/en/learn/kp-astrology-krishnamurti-paddhati
   rath-narayana-pdf:
     work_id: rath-narayana
     edition_id: rath-narayana-pdf

@@ -1,0 +1,50 @@
+id: kp.cusps.placidus
+system: kp
+topic: cusps
+title: Placidus cusp frame
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Use UT Julian day, geographical latitude and east-positive longitude. Set sidereal mode 5 and call swe_houses_ex2
+  with SEFLG_SIDEREAL and P. Require success and twelve distinct, cyclically ordered cusps. House n spans cusp
+  n inclusive to cusp n+1 exclusive with zodiac wrap; a polar fallback is unknown.
+conditions:
+  all:
+  - fact: kp.cusps.placidus_ready
+    op: eq
+    value: true
+meaning: You can use the recorded time and place to put this question in context.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart. Recompute
+    cusps, grahas and every dependent lord together when changing the offset.
+sources:
+- book: Swiss Ephemeris programming interface
+  work_id: swiss-programming
+  edition: swiss-programming-online
+  chapter: null
+  verse: null
+  other_locator: Sidereal Modes; House cusp calculation (swe_houses_ex2)
+  supports: Krishnamurti sidereal mode, Placidus selector and error handling.
+  verification: verified
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Introduction, subdivisions and house division
+  supports: Vimshottari subdivision and six additional sign cuts.
+  verification: verified
+confidence: medium
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
+user_text:
+  en: You can use the recorded time and place to put this question in context.
+  kn: ಈ ಪ್ರಶ್ನೆಗೆ ಹಿನ್ನೆಲೆ ತಿಳಿಯಲು ದಾಖಲಿಸಿದ ಸಮಯ ಮತ್ತು ಸ್ಥಳವನ್ನು ಬಳಸಬಹುದು.
+  hi: इस सवाल का संदर्भ समझने के लिए दर्ज समय और स्थान का उपयोग कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

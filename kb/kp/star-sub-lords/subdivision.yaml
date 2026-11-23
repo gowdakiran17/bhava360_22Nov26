@@ -1,35 +1,40 @@
 id: kp.star-sub-lords.subdivision
 system: kp
 topic: star-sub-lords
-title: Subdivision
+title: Star and sub lookup
 doctrine_profile: kp-editorial-v1
 approval: draft
-rule: A point lies within a uniquely identified star and sub interval under the pinned KP ayanamsa.
+rule: Normalize unrounded sidereal longitude modulo one turn. Select the half-open row in number-horary/249-divisions.yaml.
+  For sub-sub use the original unsplit sub and the same nine proportional weights starting with its sub lord.
 conditions:
   all:
   - fact: kp.sub.known
     op: eq
     value: true
-meaning: You can inspect which small segment contains this point.
-life_areas: []
+meaning: You can return to this detail when reflecting on your question.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart. Recompute
+    cusps, grahas and every dependent lord together when changing the offset.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
   chapter: null
   verse: null
-  other_locator: kp.star-sub-lords.subdivision
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Introduction, subdivisions and house division
+  supports: Vimshottari subdivision and six additional sign cuts.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
 user_text:
-  en: You can inspect which small segment contains this point.
-  kn: ಈ ಬಿಂದು ಯಾವ ಸಣ್ಣ ವಿಭಾಗದಲ್ಲಿದೆ ಎಂದು ನೋಡಬಹುದು.
-  hi: यह बिंदु किस छोटे भाग में है, आप देख सकते हैं।
+  en: You can return to this detail when reflecting on your question.
+  kn: ಪ್ರಶ್ನೆಯ ಬಗ್ಗೆ ಯೋಚಿಸುವಾಗ ಈ ವಿವರವನ್ನು ಮತ್ತೆ ಗಮನಿಸಬಹುದು.
+  hi: अपने सवाल पर विचार करते समय इस पहलू को फिर देख सकते हैं।
 native_review:
   kn: pending
   hi: pending

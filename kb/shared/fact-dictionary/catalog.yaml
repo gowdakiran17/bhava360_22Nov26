@@ -17,6 +17,102 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  kp.cusp1.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a daily wellbeing question, resolve Placidus cusp 1 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 1, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp2.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a savings question, resolve Placidus cusp 2 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp3.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a short journey question, resolve Placidus cusp 3 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 3, 9 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp4.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a property purchase question, resolve Placidus cusp 4 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 4, 11, 12 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp5.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a family growth question, resolve Placidus cusp 5 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 5, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp6.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a salaried service question, resolve Placidus cusp 6 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 6, 10, 11 supplies one piece of topic evidence. Record the
+      matched houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp8.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a shared inheritance question, resolve Placidus cusp 8 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 8, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp9.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a higher study question, resolve Placidus cusp 9 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 4, 9, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp10.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a employment question, resolve Placidus cusp 10 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 6, 10, 11 supplies one piece of topic evidence. Record the
+      matched houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp11.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a receipt of income question, resolve Placidus cusp 11 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 2, 11 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusp12.links_event:
+    type: boolean
+    producer: kp.cusps
+    origin: For a residence abroad question, resolve Placidus cusp 12 to its sub lord. Use the four ranked house-significator
+      levels of that graha. A link to any of houses 3, 9, 12 supplies one piece of topic evidence. Record the matched
+      houses and levels. A date requires separate period and transit evidence.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.cusps.placidus_ready:
+    type: boolean
+    producer: kp.cusps
+    origin: Use UT Julian day, geographical latitude and east-positive longitude. Set sidereal mode 5 and call swe_houses_ex2
+      with SEFLG_SIDEREAL and P. Require success and twelve distinct, cyclically ordered cusps. House n spans cusp
+      n inclusive to cusp n+1 exclusive with zodiac wrap; a polar fallback is unknown.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.significators.levels_ready:
+    type: boolean
+    producer: kp.significators
+    origin: For the selected graha return the houses occupied by its star lord, occupied by itself, owned by its
+      star lord, and owned by itself, in that order. Keep an empty ownership list as known.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
+  kp.significators.four_steps_ready:
+    type: boolean
+    producer: kp.significators
+    origin: Resolve the four actors and their primary and secondary house evidence under significators/bhava360.yaml
+      for the selected graha. Record node representatives separately.
+    unknown_if: Missing or unstable required evidence, or an incompatible calculation profile.
   transit.sun.distance_from_natal_moon:
     type: integer
     producer: vedic.transits

@@ -1,35 +1,41 @@
 id: kp.ruling-planets.repeated-lord
 system: kp
 topic: ruling-planets
-title: Repeated Lord
+title: Repeated ruling planet
 doctrine_profile: kp-editorial-v1
 approval: draft
-rule: One identified ruling planet fills more than one recorded role at question time.
+rule: At judgment time and place derive the five roles in significators/bhava360.yaml. Match when a graha fills
+  at least two distinct roles. Keep its event-house overlap separately.
 conditions:
   all:
   - fact: kp.ruling.repeated_lord
     op: eq
     value: true
-meaning: You can explore why the same planet appears twice in this question.
-life_areas: []
+meaning: A recurring theme may help you focus your question.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Earlier lists omit the ascendant star lord. Weekday changes at local sunrise in this profile. Bhava360
+    pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart. Recompute cusps,
+    grahas and every dependent lord together when changing the offset.
 sources:
-- book: KP Readers
-  work_id: kp-readers
-  edition: null
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
   chapter: null
   verse: null
-  other_locator: Ruling planets
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: Introduction, ruling planets
+  supports: Four early roles plus the ascendant star lord in the expanded set.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
 user_text:
-  en: You can explore why the same planet appears twice in this question.
-  kn: ಈ ಪ್ರಶ್ನೆಯಲ್ಲಿ ಒಂದೇ ಗ್ರಹ ಎರಡು ಬಾರಿ ಕಾಣಿಸುವ ಕಾರಣ ನೋಡಬಹುದು.
-  hi: इस प्रश्न में एक ही ग्रह दो बार क्यों आया है, यह देख सकते हैं।
+  en: A recurring theme may help you focus your question.
+  kn: ಪದೇಪದೇ ಕಾಣುವ ವಿಷಯವು ಪ್ರಶ್ನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಲು ನೆರವಾಗಬಹುದು.
+  hi: बार-बार उभरता विषय सवाल को स्पष्ट करने में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending

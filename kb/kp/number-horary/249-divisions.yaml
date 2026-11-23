@@ -2,6 +2,9 @@ version: 1
 approval: draft
 unit: sidereal arcseconds from zero Aries
 bounds: inclusive start, exclusive end; wrap full turn to zero
+visibility: admin
+calculation: kp/star-sub-lords/divisions.yaml
+source: kp-dutta-online, introduction to the stellar subdivisions and sign crossings
 intervals:
 - number: 1
   start_arcsec: 0

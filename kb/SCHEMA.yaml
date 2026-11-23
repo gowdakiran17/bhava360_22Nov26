@@ -148,3 +148,7 @@ vedic_saturn_transit_labels:
   public_fields: [user_text, remedy.user_text]
   technical_fields_access: [admin]
   projection: Render localized copy only. Titles, phase names, identifiers, fact chains and timing evidence are administrative metadata.
+kp_entries:
+  public_fields: [user_text, remedy.user_text]
+  technical_fields_access: [admin]
+  projection: Only render the localized reflection after evaluation. Keep titles, cusp degrees, numbered intervals, house groups, ruling roles and significator chains in administrative evidence.

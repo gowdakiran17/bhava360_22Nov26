@@ -33,7 +33,8 @@ calculation_profiles:
     zodiac: sidereal
     houses: placidus
     ayanamsa_family: KP
-    exact_variant: pending
+    exact_variant: Swiss Ephemeris SE_SIDM_KRISHNAMURTI (5), traditional sidereal house algorithm
+    polar_fallback: unknown
   western-tropical-v1:
     zodiac: tropical
     houses: placidus

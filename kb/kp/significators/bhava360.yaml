@@ -1,11 +1,52 @@
 version: 1
 approval: draft
 method: Bhava360 KP method
-per_planet: Track the house occupied by the star lord, the planet’s own occupied house, the houses owned by the star lord
-  and then by the planet. Retain levels and distinct evidence.
-cusp: Use the cusp sub lord and its significations for the question’s house group. Require dasha and transit dates for a time
-  window.
-ruling_planets: At the actual local question instant list weekday lord, Moon sign/star lords and ascendant sign/star lords.
-  Retain overlaps with the question significators.
-number_horary: Accept an integer 1–249, select its zodiac interval and apply the stated number-horary cusp method at the question
-  place.
+per_planet: Track the house occupied by the star lord, the planet’s own occupied house, the houses owned by the
+  star lord and then by the planet. Retain levels and distinct evidence.
+cusp: Use the cusp sub lord and its significations for the question’s house group. Require dasha and transit dates
+  for a time window.
+ruling_planets: At the actual local question instant list weekday lord, Moon sign/star lords and ascendant sign/star
+  lords. Retain overlaps with the question significators.
+number_horary: Accept an integer 1–249, select its zodiac interval and apply the stated number-horary cusp method
+  at the question place.
+visibility: admin
+ranked_levels:
+- star_occupied
+- planet_occupied
+- star_owned
+- planet_owned
+ownership: Use the classical ruler of each cusp sign. A repeated sign may own several cusps; an intercepted sign
+  may own none. Nodes occupy houses and can be star/sub lords; they own no signs.
+four_step:
+  actors:
+  - planet
+  - star_of_planet
+  - sub_of_planet
+  - star_of_sub
+  evidence: For each actor record its occupied house and all houses whose cusp it owns. Preserve duplicate actors
+    by step.
+  primary: At steps 2 and 4 residence is primary. At steps 1 and 3 it is primary if the actor occupies its own
+    star or no other graha occupies its stars. Owned houses are primary only for a primary residence actor and
+    an empty house. Remaining links are secondary.
+  node_agent: Record the node’s sign ruler as a separate representative with the node’s priority at that step;
+    keep agent houses distinct from direct ownership.
+  scope: Core four-step profile; conjunction/aspect extensions vary by school. Keep its testimony separate from
+    the ranked-level cusp predicate.
+weekday_lords:
+- sun
+- moon
+- mars
+- mercury
+- jupiter
+- venus
+- saturn
+weekday_boundary: Local sunrise to next sunrise. Use previous weekday before local sunrise; missing sunrise gives
+  unknown.
+ruling_roles:
+- weekday_lord
+- moon_sign_lord
+- moon_star_lord
+- ascendant_sign_lord
+- ascendant_star_lord
+ruling_context: Use the actual judgment instant and place, including for numbered horary. Count distinct roles
+  per graha and retain any intersection with the selected event significators.

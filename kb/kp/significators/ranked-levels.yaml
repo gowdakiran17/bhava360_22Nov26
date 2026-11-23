@@ -1,0 +1,41 @@
+id: kp.significators.ranked-levels
+system: kp
+topic: significators
+title: House significator levels
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: For the selected graha return the houses occupied by its star lord, occupied by itself, owned by its star
+  lord, and owned by itself, in that order. Keep an empty ownership list as known.
+conditions:
+  all:
+  - fact: kp.significators.levels_ready
+    op: eq
+    value: true
+meaning: You may find connections between different parts of your life.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart. Recompute
+    cusps, grahas and every dependent lord together when changing the offset.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Order of the four house-significator levels and use of the relevant cusp.
+  verification: verified
+confidence: medium
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
+user_text:
+  en: You may find connections between different parts of your life.
+  kn: ಜೀವನದ ಬೇರೆ ಬೇರೆ ಭಾಗಗಳ ನಡುವೆ ಸಂಬಂಧ ಕಾಣಬಹುದು.
+  hi: जीवन के अलग-अलग पहलुओं के बीच संबंध दिख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

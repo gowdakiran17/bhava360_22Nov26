@@ -1,0 +1,42 @@
+id: kp.significators.four-step
+system: kp
+topic: significators
+title: Four-step testimony
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Resolve the four actors and their primary and secondary house evidence under significators/bhava360.yaml
+  for the selected graha. Record node representatives separately.
+conditions:
+  all:
+  - fact: kp.significators.four_steps_ready
+    op: eq
+    value: true
+meaning: A second reading may draw your attention to a different part of the question.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Gondhalekar’s four-step variant has its own priority rules. The ranked cusp method remains the Bhava360
+    default. Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart.
+    Recompute cusps, grahas and every dependent lord together when changing the offset.
+sources:
+- book: Four Step Theory
+  work_id: kp-four-step
+  edition: kp-four-step-online
+  chapter: null
+  verse: null
+  other_locator: First through Fourth Step
+  supports: Four distinct actors, occupied and owned houses, tenanted stars and empty houses.
+  verification: verified
+confidence: medium
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
+user_text:
+  en: A second reading may draw your attention to a different part of the question.
+  kn: ಎರಡನೇ ಓದಿನಲ್ಲಿ ಪ್ರಶ್ನೆಯ ಇನ್ನೊಂದು ಭಾಗ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: दूसरे ढंग से देखने पर सवाल का कोई और पहलू ध्यान में आ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

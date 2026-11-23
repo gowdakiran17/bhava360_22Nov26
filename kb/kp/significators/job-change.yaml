@@ -15,7 +15,11 @@ life_areas:
 - career
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: This existing work-context screen covers 6, 10 or 11. For the employment event route to kp.cusps.cusp-10
+    and include house 2 for income. Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate
+    comparison chart. Recompute cusps, grahas and every dependent lord together when changing the offset.
 sources:
 - book: Bhava360 engine and reading conventions
   work_id: bhava360-engine-and-reading-conventions
@@ -23,8 +27,17 @@ sources:
   chapter: null
   verse: null
   other_locator: kp.significators.job-change
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own
+    evidence.
   verification: pending
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Order of the four house-significator levels and use of the relevant cusp.
+  verification: verified
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

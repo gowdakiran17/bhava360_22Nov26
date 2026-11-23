@@ -3,5 +3,12 @@ approval: draft
 range:
 - 1
 - 249
-binding: Bind chosen number to the corresponding ascendant arc and record the local question instant, city and KP ayanamsa.
-  Evaluate the relevant cusps using the same method. An invalid number produces no chart.
+binding: Bind chosen number to the corresponding ascendant arc and record the local question instant, city and
+  KP ayanamsa. Evaluate the relevant cusps using the same method. An invalid number produces no chart.
+ascendant: Use the exact lower bound of the selected row; add the judgment-instant KP offset to obtain the tropical
+  rising longitude.
+remaining_cusps: At the judgment latitude and obliquity solve for ARMC for which the tropical eastern ascendant
+  is the target. Compute Placidus cusps with that ARMC and subtract the same KP offset once. Check cusp 1 against
+  the selected longitude. Leave unsolved or polar cusps unknown.
+planets: Use actual judgment-time longitudes; the synthetic ARMC changes only the numbered house frame.
+ruling_planets: Use the actual judgment ascendant for ruling planets.

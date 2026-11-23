@@ -1,35 +1,48 @@
 id: kp.number-horary.arc
 system: kp
 topic: number-horary
-title: Arc
+title: Numbered horary
 doctrine_profile: kp-editorial-v1
 approval: draft
-rule: An accepted integer 1–249 selects exactly one interval in the number-horary table.
+rule: Accept an integer from 1 through 249 and use the corresponding row in numerical order. Its start gives the
+  selected sidereal ascendant. Solve the other Placidus cusps at the judgment latitude as specified in input.yaml.
 conditions:
   all:
   - fact: kp.question.arc_selected
     op: eq
     value: true
-meaning: You can view the chart factors linked to the number you selected.
-life_areas: []
+meaning: Your chosen number can give you a starting point for exploring the question.
+life_areas:
+- learning
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Bhava360 pins Swiss Ephemeris Krishnamurti mode 5. Lahiri (mode 1) is a separate comparison chart. Recompute
+    cusps, grahas and every dependent lord together when changing the offset.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
   chapter: null
   verse: null
-  other_locator: kp.number-horary.arc
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: Introduction, subdivisions and house division
+  supports: Vimshottari subdivision and six additional sign cuts.
+  verification: verified
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 2, horary number 248 and first cusp
+  supports: Worked example of the lower-bound ascendant.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Administrative evidence only. Kannada and Hindi await native review.
 user_text:
-  en: You can view the chart factors linked to the number you selected.
-  kn: ನೀವು ಆಯ್ದ ಸಂಖ್ಯೆಗೆ ಸಂಬಂಧಿಸಿದ ಚಕ್ರದ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
-  hi: चुनी संख्या से जुड़े कुंडली के कारक देख सकते हैं।
+  en: Your chosen number can give you a starting point for exploring the question.
+  kn: ಆಯ್ದ ಸಂಖ್ಯೆಯಿಂದ ಪ್ರಶ್ನೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಆರಂಭಿಸಬಹುದು.
+  hi: चुनी हुई संख्या सवाल पर विचार करने की शुरुआत बन सकती है।
 native_review:
   kn: pending
   hi: pending

@@ -1,0 +1,3 @@
+# KP engine verification
+
+During engine integration, verify live Placidus cusp generation against Swiss Ephemeris. Compare all twelve cusp longitudes for the same UT instant, location and Krishnamurti sidereal mode (5). Check the sign, star and sub on both sides of a boundary and confirm that a polar calculation error leaves dependent readings unknown. The KB-17 fixtures start from supplied cusp longitudes.
