@@ -1,0 +1,42 @@
+id: vedic.panchang.adhika-masa
+system: vedic
+topic: panchang
+title: Adhika masa
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Within the selected new-moon interval classify the month using calendar-profiles.yaml. Match exactly
+  zero solar ingresses. Label using the sign of the next ingress; keep a two-ingress month separately flagged.
+conditions:
+  all:
+  - fact: panchang.adhika_masa.active
+    op: eq
+    value: true
+meaning: You can note the extra lunar month when comparing calendars.
+life_areas:
+- spirituality
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Amanta counts new moon to new moon. Purnimanta changes the displayed dark-fortnight name at full moon;
+    region-specific festival eligibility is separate.
+sources:
+- book: The Hindu Calendar
+  work_id: hindu-calendar-months
+  edition: hindu-calendar-months-online
+  chapter: null
+  verse: null
+  other_locator: Articles 14–15, Adhika and kshaya masas
+  supports: Ingress-based month naming and intercalation.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can note the extra lunar month when comparing calendars.
+  kn: ಪಂಚಾಂಗಗಳನ್ನು ಹೋಲಿಸುವಾಗ ಹೆಚ್ಚುವರಿ ಚಾಂದ್ರ ತಿಂಗಳನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: पंचांगों की तुलना करते समय अतिरिक्त चंद्र मास पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

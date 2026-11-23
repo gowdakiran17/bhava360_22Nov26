@@ -1,0 +1,42 @@
+id: vedic.panchang.rahu-kalam
+system: vedic
+topic: panchang
+title: Rahu Kalam
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.rahu. Let D = (sunset
+  − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+conditions:
+  all:
+  - fact: panchang.rahu_kalam.active
+    op: eq
+    value: true
+meaning: You may prefer this part of the day for familiar tasks.
+life_areas:
+- career
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This profile uses the daytime interval. Seasonal day length changes the clock times; a fixed ninety-minute
+    timetable applies only to a twelve-hour day.
+sources:
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You may prefer this part of the day for familiar tasks.
+  kn: ದಿನದ ಈ ಭಾಗದಲ್ಲಿ ಪರಿಚಿತ ಕೆಲಸಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
+  hi: दिन के इस हिस्से में आप परिचित काम चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

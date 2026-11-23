@@ -1,0 +1,42 @@
+id: vedic.panchang.hora
+system: vedic
+topic: panchang
+title: Planetary hora
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Divide daylight and night independently into twelve. Day slot one has the vara lord. Advance in the seven-lord
+  hora_cycle for each slot without restarting at sunset; night slot one is the thirteenth from the day start.
+conditions:
+  all:
+  - fact: panchang.hora.active
+    op: eq
+    value: true
+meaning: You can compare shorter intervals within the day for a task.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some schools use uniform clock hours. This seasonal profile fits twelve horas to each actual daylight
+    and night interval.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 1
+  verse: null
+  other_locator: 1.3.11–12
+  supports: Sunrise day and hour lords; seasonal subdivision is the product convention.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can compare shorter intervals within the day for a task.
+  kn: ಒಂದು ಕೆಲಸಕ್ಕಾಗಿ ದಿನದ ಚಿಕ್ಕ ಅವಧಿಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: किसी काम के लिए दिन के छोटे समयखंडों की तुलना कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

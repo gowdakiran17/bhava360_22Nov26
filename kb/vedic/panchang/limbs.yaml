@@ -5,10 +5,10 @@ vara: Weekday of the most recent local sunrise.
 tithi: 1 + floor(((Moon − Sun) mod 360) / 12). First 15 waxing, next 15 waning.
 nakshatra: 1 + floor(sidereal Moon / (40/3)).
 yoga: 1 + floor(((sidereal Moon + sidereal Sun) mod 360) / (40/3)).
-karana: Index lunar elongation in 6° half-tithis from zero. Index 0 Kimstughna; 1..56 cycle Bava, Balava, Kaulava, Taitila,
-  Gara, Vanija, Vishti; 57..59 Shakuni, Chatushpada, Naga.
-sunrise_rules: Repeated tithi at successive sunrises and a tithi entirely between sunrises need separate festival rules. Keep
-  regional amanta/purnimanta profiles.
+karana: Index lunar elongation in 6° half-tithis from zero. Index 0 Kimstughna; 1..56 cycle Bava, Balava, Kaulava,
+  Taitila, Gara, Vanija, Vishti; 57..59 Shakuni, Chatushpada, Naga.
+sunrise_rules: Repeated tithi at successive sunrises and a tithi entirely between sunrises need separate festival
+  rules. Keep regional amanta/purnimanta profiles.
 day_eighths_sunday_first:
   rahu:
   - 8
@@ -43,3 +43,17 @@ other_intervals:
   durmuhurta: Use weekday-specific muhurta indexes, including separate night rules.
   varjyam-amrit: Use nakshatra-specific offsets scaled to the actual nakshatra interval.
 polar: No daylight-derived window when the required sunrise or sunset is unavailable.
+tables: vedic/panchang/limb-tables.yaml
+location: Use the selected current city, timezone and apparent upper-limb sunrise with refraction. Compute
+  neighboring local sunrise and sunset as instants. Angular limbs do not depend on the availability of sunrise.
+boundaries: For tithi, karana, nakshatra and yoga solve the bracketing crossings of the continuously unwrapped
+  angle (Moon minus Sun, Moon minus Sun, Moon, Moon plus Sun respectively) through integer multiples of its
+  width. Retain the actual instants. At a crossing select the new interval; do not extrapolate a fixed lunar
+  speed.
+width_arcseconds:
+  tithi: 43200
+  karana: 21600
+  nakshatra: 48000
+  yoga: 48000
+sunrise_anomalies: 'Compare unwrapped tithi indices at consecutive sunrises: equal means repeated; a jump exceeding
+  one skips every intervening index in the sunrise labels. Each intervening angular interval still exists.'

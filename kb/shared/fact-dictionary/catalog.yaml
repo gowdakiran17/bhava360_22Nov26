@@ -17,6 +17,123 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  panchang.pradosh.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Trayodashi has a positive intersection with the local evening window.
+    unknown_if: Missing tithi or horizon data.
+  panchang.tithi.number:
+    type: integer
+    producer: vedic.panchang
+    origin: At the query instant compute E = (Moon − Sun) modulo 1296000 arcseconds. The public number is 1 +
+      floor(E / 43200); use the zero-based quotient for indexing only. Resolve name and paksha in limb-tables.yaml
+      and bracket the two true crossings as specified in limbs.yaml.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+    range:
+    - 1
+    - 30
+  panchang.vara.index:
+    type: integer
+    producer: vedic.panchang
+    origin: Take the civil weekday at the most recent local sunrise. Sunday is index zero. Look up the seven
+      weekday lords in limb-tables.yaml.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+    range:
+    - 0
+    - 6
+  panchang.nakshatra.number:
+    type: integer
+    producer: vedic.panchang
+    origin: Use 1 + floor((sidereal Moon modulo a turn) / 48000 arcseconds). Resolve that numbered KB-03 catalog
+      row and its rule ID. Solve start and end on the Moon’s unwrapped longitude.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+    range:
+    - 1
+    - 27
+  panchang.yoga.number:
+    type: integer
+    producer: vedic.panchang
+    origin: Use 1 + floor(((sidereal Moon + sidereal Sun) modulo a turn) / 48000 arcseconds). Select the ordered
+      yoga and solve the bracketing sum-angle crossings.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+    range:
+    - 1
+    - 27
+  panchang.karana.index:
+    type: integer
+    producer: vedic.panchang
+    origin: Use floor(((Moon − Sun) modulo a turn) / 21600 arcseconds). Use the fixed index map at 0 and 57–59;
+      for 1–56 use movable[(index−1) modulo 7]. Solve the flanking 6° crossings.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+    range:
+    - 0
+    - 59
+  panchang.rahu_kalam.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.rahu. Let D = (sunset
+      − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.yamaganda.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.yamaganda. Let D
+      = (sunset − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.gulika_kalam.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.gulika. Let D = (sunset
+      − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.abhijit_muhurta.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Use daytime slot 8 of 15 in day-night.yaml; its midpoint is halfway between sunrise and sunset.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.brahma_muhurta.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Before the specified sunrise select slot 14 of 15 of the night beginning at the previous sunset;
+      endpoints are two and one seasonal night muhurtas before sunrise.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.choghadiya.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Use eight equal elapsed slots of day or night. Starting at the weekday’s first label in day-night.yaml
+      advance one position in the matching seven-label cycle per slot; sunset begins night slot one.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.hora.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Divide daylight and night independently into twelve. Day slot one has the vara lord. Advance in the
+      seven-lord hora_cycle for each slot without restarting at sunset; night slot one is the thirteenth from
+      the day start.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.adhika_masa.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Within the selected new-moon interval classify the month using calendar-profiles.yaml. Match exactly
+      zero solar ingresses. Label using the sign of the next ingress; keep a two-ingress month separately flagged.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.ugadi.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Match the selected local date to the Ugadi selector in calendar-profiles.yaml after resolving the
+      amanta Chaitra month and both adjacent sunrises.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.deepavali.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Match the local date selected by the Deepavali evening rule in calendar-profiles.yaml. Bind the ritual,
+      regional month name, tithi interval and candidate evenings.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
+  panchang.sankranti.active:
+    type: boolean
+    producer: vedic.panchang
+    origin: Match the sunrise day containing a solved forward sidereal solar crossing of an integer multiple
+      of 30 degrees. Bind the entered sign and crossing instant.
+    unknown_if: Required city, instant, ephemeris, calendar profile or interval boundaries are missing or unstable.
   jaimini.raja.ak_amk_together:
     type: boolean
     producer: jaimini.raja-yogas

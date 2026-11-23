@@ -1,0 +1,50 @@
+id: vedic.panchang.deepavali
+system: vedic
+topic: panchang
+title: Deepavali · evening Lakshmi Puja
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Match the local date selected by the Deepavali evening rule in calendar-profiles.yaml. Bind the ritual,
+  regional month name, tithi interval and candidate evenings.
+conditions:
+  all:
+  - fact: panchang.deepavali.active
+    op: eq
+    value: true
+meaning: You can check the local evening for lighting lamps together.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This is the Lakshmi Puja evening. Some southern households emphasize Naraka Chaturdashi before dawn.
+    Where neither evening qualifies, regional authorities use additional yama tests.
+sources:
+- book: Dipavali Nirnaya
+  work_id: diwali-determination
+  edition: diwali-determination-online
+  chapter: null
+  verse: null
+  other_locator: Ashvina-masa determination, Pradosha and Yama comparison
+  supports: Evening observance and competing date rules; the regional profile below states its window and fallback.
+  verification: verified
+- book: How Diwali and Lakshmi Puja Are Dated
+  work_id: diwali-pradosha-profile
+  edition: diwali-pradosha-online
+  chapter: null
+  verse: null
+  other_locator: Lakshmi Puja in pradosh; both evenings
+  supports: Later-evening choice when both qualify in this profile.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can check the local evening for lighting lamps together.
+  kn: ಒಟ್ಟಿಗೆ ದೀಪ ಹಚ್ಚಲು ಸ್ಥಳೀಯ ಸಂಜೆಯ ಸಮಯವನ್ನು ನೋಡಬಹುದು.
+  hi: साथ मिलकर दीप जलाने के लिए स्थानीय संध्या का समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

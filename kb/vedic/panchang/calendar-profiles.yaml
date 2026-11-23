@@ -1,0 +1,71 @@
+zone: Use the selected city’s time zone and local date.
+amanta_months_by_entered_sign:
+- chaitra
+- vaishakha
+- jyeshtha
+- ashadha
+- shravana
+- bhadrapada
+- ashvina
+- kartika
+- margashirsha
+- pausha
+- magha
+- phalguna
+month_bounds: New moon inclusive to next new moon exclusive. Count solved forward sidereal solar sign ingresses
+  inside. One names an ordinary month; zero takes the following ingress name and marks adhika; two record both
+  ingress names and flag kshaya for regional handling.
+purnimanta: Bright fortnight uses the same month name as amanta. During the dark fortnight label by the next
+  bright fortnight; preserve intercalary status and profile. An unresolved exceptional month mapping suppresses
+  a dated festival.
+pradosha: For this evening profile use the first fifth of sunset-to-next-sunrise; require strictly positive
+  overlap. Other authorities measure evening in ghatis.
+ugadi: Use the first Chaitra lunation of the amanta year (including adhika Chaitra in this profile). Select
+  the sunrise in Shukla Pratipada. For two matching sunrises use the earlier. For none use the sunrise immediately
+  preceding the start of Pratipada.
+deepavali: For Lakshmi Puja use regular Ashvina Amavasya in amanta (Kartika Krishna in purnimanta). Choose
+  the local date whose pradosha intersects the tithi; if both qualify choose later. If neither qualifies, withhold
+  this profile’s date and request the applicable regional yama-based determination.
+sankranti: An ingress instant belongs to the sunrise-to-sunrise day containing it. This is a transit-day marker;
+  ritual observance may move to another civil date.
+sources:
+- book: The Hindu Calendar
+  work_id: hindu-calendar-months
+  edition: hindu-calendar-months-online
+  chapter: null
+  verse: null
+  other_locator: Articles 14–15, Adhika and kshaya masas
+  supports: Ingress-based month naming and intercalation.
+  verification: verified
+- book: Dharma Sindhu, Chaitra observances
+  work_id: dharma-sindhu-chaitra
+  edition: dharma-sindhu-chaitra-online
+  chapter: null
+  verse: null
+  other_locator: Chaitra Shukla Pratipada
+  supports: Calendar new year in Chaitra, including intercalary Chaitra in this tradition.
+  verification: verified
+- book: Hindu New Year Determination
+  work_id: ugadi-determination
+  edition: ugadi-determination-online
+  chapter: null
+  verse: null
+  other_locator: Udayavyapini Pratipada
+  supports: Choice of date when one, both or neither sunrise carries Pratipada.
+  verification: verified
+- book: Dipavali Nirnaya
+  work_id: diwali-determination
+  edition: diwali-determination-online
+  chapter: null
+  verse: null
+  other_locator: Ashvina-masa determination, Pradosha and Yama comparison
+  supports: Evening observance and competing date rules; the regional profile below states its window and fallback.
+  verification: verified
+- book: How Diwali and Lakshmi Puja Are Dated
+  work_id: diwali-pradosha-profile
+  edition: diwali-pradosha-online
+  chapter: null
+  verse: null
+  other_locator: Lakshmi Puja in pradosh; both evenings
+  supports: Later-evening choice when both qualify in this profile.
+  verification: verified

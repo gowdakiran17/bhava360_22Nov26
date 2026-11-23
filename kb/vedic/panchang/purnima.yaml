@@ -1,0 +1,44 @@
+id: vedic.panchang.purnima
+system: vedic
+topic: panchang
+title: Purnima
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Identify the instantaneous tithi by its one-based number in [15]. For the ordinary calendar day label
+  query that number at local sunrise. Retain every actual matching sunrise and the exact interval even when
+  it falls between sunrises.
+conditions:
+  all:
+  - fact: panchang.tithi.number
+    op: in
+    value:
+    - 15
+meaning: You may enjoy marking this part of the lunar cycle with your family.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This rule labels the phase. Smarta and Vaishnava vrata decisions may use different dawn-purity and
+    Dvadashi rules; the label alone sets no fasting or breaking time.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 1
+  verse: null
+  other_locator: 1.3.8.1, Table 3
+  supports: Elongation, fortnight and lunar-day names.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You may enjoy marking this part of the lunar cycle with your family.
+  kn: ಚಂದ್ರಚಕ್ರದ ಈ ಭಾಗವನ್ನು ಕುಟುಂಬದೊಂದಿಗೆ ಆಚರಿಸಬಹುದು.
+  hi: चंद्र चक्र के इस हिस्से को परिवार के साथ मना सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

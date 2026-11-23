@@ -1,0 +1,42 @@
+id: vedic.panchang.pradosh
+system: vedic
+topic: panchang
+title: Pradosh observance
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Intersect the local evening window in calendar-profiles.yaml with either Trayodashi interval (tithi 13
+  or 28). Show the positive-length intersection on its local evening date.
+conditions:
+  all:
+  - fact: panchang.pradosh.active
+    op: eq
+    value: true
+meaning: You can check the evening interval for a quiet observance.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The calculation uses the local evening overlap. Regional practice may use a different twilight length
+    or a temple calendar.
+sources:
+- book: Drik Panchang Pradosh Days
+  work_id: drik-pradosh
+  edition: drik-pradosh-online
+  chapter: null
+  verse: null
+  other_locator: Pradosh Vrat, Pradosham
+  supports: Both Trayodashis and local evening overlap.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can check the evening interval for a quiet observance.
+  kn: ಶಾಂತ ಆಚರಣೆಗೆ ಸಂಜೆಯ ಸಮಯವನ್ನು ನೋಡಬಹುದು.
+  hi: शांत उपासना के लिए संध्या का समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

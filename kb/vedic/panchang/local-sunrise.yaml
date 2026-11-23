@@ -1,35 +1,40 @@
 id: vedic.panchang.local-sunrise
 system: vedic
 topic: panchang
-title: Local Sunrise
+title: Sunrise-based day
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: A valid local sunrise anchors the displayed vara at the selected city.
+rule: Use the most recent apparent upper-limb sunrise with refraction at the selected city, including equality.
+  Until the following local sunrise retain its local civil weekday, even after midnight.
 conditions:
   all:
   - fact: panchang.vara.local
     op: eq
     value: true
-meaning: You can see where the local Panchang day begins.
-life_areas: []
+meaning: You can see where the local calendar day begins.
+life_areas:
+- spirituality
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Sunrise definitions vary across almanacs. Record the chosen horizon model and city; missing anchors
+    leave day-dependent timings unknown.
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 1
   verse: null
-  other_locator: vedic.panchang.local-sunrise
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: 1.3.11–12
+  supports: Sunrise day and hour lords; seasonal subdivision is the product convention.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
 user_text:
-  en: You can see where the local Panchang day begins.
+  en: You can see where the local calendar day begins.
   kn: ಸ್ಥಳೀಯ ಪಂಚಾಂಗದ ದಿನ ಯಾವಾಗ ಆರಂಭವಾಗುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
-  hi: स्थानीय पंचांग का दिन कब शुरू होता है, यह देख सकते हैं।
+  hi: आप देख सकते हैं कि स्थानीय पंचांग का दिन कब शुरू होता है।
 native_review:
   kn: pending
   hi: pending

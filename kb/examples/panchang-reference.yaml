@@ -1,0 +1,62 @@
+synthetic: true
+description: Invented local horizon events and geocentric angles for arithmetic tests. These dates are independent test scenarios, not published observance dates.
+zone: Asia/Kolkata
+# At each listed sunrise the synthetic Sun advances 1 degree/day and Moon 13 degrees/day.
+rates_deg_per_day: {sun: 1, moon: 13}
+cities:
+  Bengaluru:
+    coordinates: [12.97, 77.59]
+    date: '2032-03-15'
+    anchors: ['18:12', '06:12', '18:12', '06:12']
+    degrees: [351, 352]
+    limbs: [monday, 1, revati, Indra, kimstughna]
+    tithi_bounds_hours_from_rise: [-2, 22]
+    windows:
+      rahu: ['07:42','09:12']
+      yamaganda: ['10:42','12:12']
+      gulika: ['13:42','15:12']
+      abhijit: ['11:48','12:36']
+      brahma: ['04:36','05:24']
+    day_choghadiya: [amrit, kaal, shubh, rog, udveg, char, labh, amrit]
+    night_choghadiya: [char, rog, kaal, labh, udveg, shubh, amrit, char]
+    day_first_hora: moon
+    night_first_hora: venus
+  Delhi:
+    coordinates: [28.61, 77.21]
+    date: '2032-10-26'
+    anchors: ['17:42', '06:30', '17:42', '06:30']
+    degrees: [200, 194]
+    limbs: [tuesday, 30, swati, Ayushman, naga]
+    tithi_bounds_hours_from_rise: [-12, 12]
+    windows:
+      rahu: ['14:54','16:18']
+      yamaganda: ['09:18','10:42']
+      gulika: ['12:06','13:30']
+      abhijit: ['11:43:36','12:28:24']
+      brahma: ['04:47:36','05:38:48']
+    day_choghadiya: [rog, udveg, char, labh, amrit, kaal, shubh, rog]
+    night_choghadiya: [kaal, labh, udveg, shubh, amrit, char, rog, kaal]
+    day_first_hora: mars
+    night_first_hora: saturn
+  Mumbai:
+    coordinates: [19.08, 72.88]
+    date: '2032-06-12'
+    anchors: ['19:12', '06:00', '19:12', '06:00']
+    degrees: [70, 190]
+    limbs: [saturday, 11, swati, Shiva, vanija]
+    tithi_bounds_hours_from_rise: [0, 24]
+    windows:
+      rahu: ['09:18','10:57']
+      yamaganda: ['14:15','15:54']
+      gulika: ['06:00','07:39']
+      abhijit: ['12:09:36','13:02:24']
+      brahma: ['04:33:36','05:16:48']
+    day_choghadiya: [kaal, shubh, rog, udveg, char, labh, amrit, kaal]
+    night_choghadiya: [labh, udveg, shubh, amrit, char, rog, kaal, labh]
+    day_first_hora: saturn
+    night_first_hora: mercury
+# Solar ingress time/sign pairs. Only events in the half-open lunation count.
+months:
+  - {city: Bengaluru, start: '2032-03-15T04:12', end: '2032-04-14T04:12', ingresses: [['2032-03-24T06:12',0]], expected: [ordinary,chaitra]}
+  - {city: Mumbai, start: '2032-06-01T07:00', end: '2032-06-30T16:00', ingresses: [['2032-06-30T16:00',3]], expected: [adhika,ashadha]}
+  - {city: Delhi, start: '2032-10-01T12:00', end: '2032-10-31T10:00', ingresses: [['2032-10-01T12:00',6],['2032-10-31T09:00',7]], expected: [kshaya,ashvina,kartika]}

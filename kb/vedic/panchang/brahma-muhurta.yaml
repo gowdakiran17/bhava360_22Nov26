@@ -1,0 +1,42 @@
+id: vedic.panchang.brahma-muhurta
+system: vedic
+topic: panchang
+title: Brahma muhurta
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Before the specified sunrise select slot 14 of 15 of the night beginning at the previous sunset; endpoints
+  are two and one seasonal night muhurtas before sunrise.
+conditions:
+  all:
+  - fact: panchang.brahma_muhurta.active
+    op: eq
+    value: true
+meaning: You may enjoy quiet time before sunrise for study or reflection.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: A fixed 96 to 48 minutes before sunrise is a separate convention. Here each unit is one fifteenth of
+    the actual night.
+sources:
+- book: The Thirty Muhurtas of Day and Night
+  work_id: day-muhurtas
+  edition: day-muhurtas-online
+  chapter: null
+  verse: null
+  other_locator: Day and night tables
+  supports: Seasonal day and night division and the named slots.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You may enjoy quiet time before sunrise for study or reflection.
+  kn: ಸೂರ್ಯೋದಯಕ್ಕೂ ಮುನ್ನ ಶಾಂತ ಸಮಯದಲ್ಲಿ ಓದಬಹುದು ಅಥವಾ ಚಿಂತಿಸಬಹುದು.
+  hi: सूर्योदय से पहले शांत समय में अध्ययन या मनन कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

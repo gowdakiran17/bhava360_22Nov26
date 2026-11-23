@@ -1,0 +1,42 @@
+id: vedic.panchang.sankranti
+system: vedic
+topic: panchang
+title: Sankranti · solar ingress
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Match the sunrise day containing a solved forward sidereal solar crossing of an integer multiple of 30
+  degrees. Bind the entered sign and crossing instant.
+conditions:
+  all:
+  - fact: panchang.sankranti.active
+    op: eq
+    value: true
+meaning: You can check when the Sun enters the next sign in your local calendar.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Regional solar-month beginnings and ritual windows may use a different assignment for evening or nighttime
+    ingress.
+sources:
+- book: The Hindu Calendar
+  work_id: hindu-calendar-months
+  edition: hindu-calendar-months-online
+  chapter: null
+  verse: null
+  other_locator: Articles 14–15, Adhika and kshaya masas
+  supports: Ingress-based month naming and intercalation.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can check when the Sun enters the next sign in your local calendar.
+  kn: ನಿಮ್ಮ ಪಂಚಾಂಗದಲ್ಲಿ ಸೂರ್ಯ ಮುಂದಿನ ರಾಶಿಗೆ ಬರುವ ಸಮಯವನ್ನು ನೋಡಬಹುದು.
+  hi: अपने पंचांग में सूर्य के अगली राशि में प्रवेश का समय देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

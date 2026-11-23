@@ -1,5 +1,14 @@
 version: 1
 works:
+  diwali-pradosha-profile: How Diwali and Lakshmi Puja Are Dated
+  drik-pradosh: Drik Panchang Pradosh Days
+  drik-code: Drik Panchanga routines
+  drik-choghadiya: Choghadiya Muhurat
+  day-muhurtas: The Thirty Muhurtas of Day and Night
+  ugadi-determination: Hindu New Year Determination
+  dharma-sindhu-chaitra: Dharma Sindhu, Chaitra observances
+  diwali-determination: Dipavali Nirnaya
+  hindu-calendar-months: The Hindu Calendar
   kp-dutta: Lecture Note on Krishnamurti Paddhati
   kp-four-step: Four Step Theory
   kp-grouping: House Grouping
@@ -51,6 +60,58 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  diwali-pradosha-online:
+    work_id: diwali-pradosha-profile
+    edition_id: diwali-pradosha-online
+    title_as_printed: How Diwali and Lakshmi Puja Are Dated
+    text: https://panchangtime.com/methodology/diwali-lakshmi-puja
+  drik-pradosh-online:
+    work_id: drik-pradosh
+    edition_id: drik-pradosh-online
+    title_as_printed: Pradosh Days
+    text: https://www.drikpanchang.com/vrats/pradoshdates.html
+  drik-code-online:
+    work_id: drik-code
+    edition_id: drik-code-online
+    title_as_printed: Drik Panchanga routines
+    language: English
+    text: https://github.com/webresh/drik-panchanga/blob/master/panchanga.py
+  drik-choghadiya-online:
+    work_id: drik-choghadiya
+    edition_id: drik-choghadiya-online
+    title_as_printed: Choghadiya Muhurat
+    language: English
+    text: https://www.drikpanchang.com/tutorials/muhurat/daily/choghadiya-muhurat.html
+  day-muhurtas-online:
+    work_id: day-muhurtas
+    edition_id: day-muhurtas-online
+    title_as_printed: The Thirty Muhurtas of Day and Night
+    language: English
+    text: https://www.panchangguru.com/learn/thirty-muhurtas-and-abhijit
+  ugadi-determination-online:
+    work_id: ugadi-determination
+    edition_id: ugadi-determination-online
+    title_as_printed: Hindu New Year Determination
+    language: English
+    text: https://www.hindupriestcouncilofaustralia.com/panchang-calendar/hindu-new-year-determination
+  dharma-sindhu-chaitra-online:
+    work_id: dharma-sindhu-chaitra
+    edition_id: dharma-sindhu-chaitra-online
+    title_as_printed: Dharma Sindhu, Chaitra observances
+    language: English
+    text: https://www.kamakoti.org/kamakoti/dharmasindhu/bookview.php?chapnum=6
+  diwali-determination-online:
+    work_id: diwali-determination
+    edition_id: diwali-determination-online
+    title_as_printed: Dipavali Nirnaya
+    language: English
+    text: https://www.mypanchang.com/newsite/diwalinirnaya.php
+  hindu-calendar-months-online:
+    work_id: hindu-calendar-months
+    edition_id: hindu-calendar-months-online
+    title_as_printed: The Hindu Calendar
+    language: English
+    text: https://ignca.gov.in/Asi_data/34958.pdf
   jaimini-rath-upadesa:
     work_id: jaimini-sutras
     edition_id: jaimini-rath-upadesa

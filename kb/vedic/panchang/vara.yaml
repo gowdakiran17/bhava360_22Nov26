@@ -1,0 +1,48 @@
+id: vedic.panchang.vara
+system: vedic
+topic: panchang
+title: Vara · weekday
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Take the civil weekday at the most recent local sunrise. Sunday is index zero. Look up the seven weekday
+  lords in limb-tables.yaml.
+conditions:
+  all:
+  - fact: panchang.vara.index
+    op: in
+    value:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+meaning: You can check which weekday tradition applies before dawn.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Civil weekdays turn at midnight; vara follows local sunrise.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 1
+  verse: null
+  other_locator: 1.3.11–12
+  supports: Sunrise day and hour lords; seasonal subdivision is the product convention.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can check which weekday tradition applies before dawn.
+  kn: ಬೆಳಗಾಗುವ ಮೊದಲು ಯಾವ ವಾರದ ಆಚರಣೆ ಅನ್ವಯಿಸುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: भोर से पहले किस वार की परंपरा लागू होती है, यह देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,41 @@
+id: vedic.panchang.choghadiya
+system: vedic
+topic: panchang
+title: Choghadiya
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use eight equal elapsed slots of day or night. Starting at the weekday’s first label in day-night.yaml
+  advance one position in the matching seven-label cycle per slot; sunset begins night slot one.
+conditions:
+  all:
+  - fact: panchang.choghadiya.active
+    op: eq
+    value: true
+meaning: You can compare the day and evening intervals when planning an errand.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Day and night have separate sequences; regional activity preferences can differ.
+sources:
+- book: Choghadiya Muhurat
+  work_id: drik-choghadiya
+  edition: drik-choghadiya-online
+  chapter: null
+  verse: null
+  other_locator: Day and Night Choghadiya Tables
+  supports: Weekday starting labels and distinct day and night sequences.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can compare the day and evening intervals when planning an errand.
+  kn: ಕೆಲಸವನ್ನು ಯೋಜಿಸುವಾಗ ಹಗಲು ಮತ್ತು ಸಂಜೆಯ ಅವಧಿಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: किसी काम की योजना बनाते समय दिन और शाम के समयखंड देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

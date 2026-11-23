@@ -1,0 +1,41 @@
+id: vedic.panchang.abhijit-muhurta
+system: vedic
+topic: panchang
+title: Abhijit muhurta
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Use daytime slot 8 of 15 in day-night.yaml; its midpoint is halfway between sunrise and sunset.
+conditions:
+  all:
+  - fact: panchang.abhijit_muhurta.active
+    op: eq
+    value: true
+meaning: You can reserve a little time near the middle of the day for a chosen task.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some electional traditions restrict Wednesday use. Calculation returns the interval independently of
+    activity eligibility.
+sources:
+- book: The Thirty Muhurtas of Day and Night
+  work_id: day-muhurtas
+  edition: day-muhurtas-online
+  chapter: null
+  verse: null
+  other_locator: Day and night tables
+  supports: Seasonal day and night division and the named slots.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can reserve a little time near the middle of the day for a chosen task.
+  kn: ದಿನದ ಮಧ್ಯದಲ್ಲಿ ಒಂದು ಕೆಲಸಕ್ಕಾಗಿ ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+  hi: दिन के मध्य में किसी चुने हुए काम के लिए समय रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

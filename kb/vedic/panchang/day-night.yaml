@@ -34,5 +34,47 @@ night_first_sun_through_sat:
 - rog
 - labh
 night_step: 1
-clock: Day = sunrise to sunset; night = sunset to next local sunrise. Divide each into eight equal elapsed-time intervals.
-  End boundary belongs to the following interval.
+clock: Day = sunrise to sunset; night = sunset to next local sunrise. Divide each into eight equal elapsed-time
+  intervals. End boundary belongs to the following interval.
+hora_cycle:
+- saturn
+- jupiter
+- mars
+- sun
+- venus
+- mercury
+- moon
+abhijit:
+- 8
+- 15
+brahma:
+- 14
+- 15
+window_formula: For anchors A,B and one-based slot j of n return [A+(j-1)(B-A)/n, A+j(B-A)/n). Use elapsed
+  time, then convert to local display. For Brahma preceding a sunrise use the preceding sunset as A and that
+  sunrise as B.
+sources:
+- book: Choghadiya Muhurat
+  work_id: drik-choghadiya
+  edition: drik-choghadiya-online
+  chapter: null
+  verse: null
+  other_locator: Day and Night Choghadiya Tables
+  supports: Weekday starting labels and distinct day and night sequences.
+  verification: verified
+- book: The Thirty Muhurtas of Day and Night
+  work_id: day-muhurtas
+  edition: day-muhurtas-online
+  chapter: null
+  verse: null
+  other_locator: Day and night tables
+  supports: Seasonal day and night division and the named slots.
+  verification: verified
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 1
+  verse: null
+  other_locator: 1.3.11–12
+  supports: Sunrise day and hour lords; seasonal subdivision is the product convention.
+  verification: verified

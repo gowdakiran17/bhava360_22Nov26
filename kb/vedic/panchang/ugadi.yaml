@@ -1,0 +1,51 @@
+id: vedic.panchang.ugadi
+system: vedic
+topic: panchang
+title: Ugadi · Chaitra new year
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Match the selected local date to the Ugadi selector in calendar-profiles.yaml after resolving the amanta
+  Chaitra month and both adjacent sunrises.
+conditions:
+  all:
+  - fact: panchang.ugadi.active
+    op: eq
+    value: true
+meaning: You can plan a family gathering for the locally observed new year.
+life_areas:
+- spirituality
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The selected Kannada/Telugu profile begins with the first Chaitra, including adhika. Some calendars
+    distinguish the start of the year from celebrations in regular Chaitra. Gudi Padwa is the related Maharashtrian
+    observance.
+sources:
+- book: Dharma Sindhu, Chaitra observances
+  work_id: dharma-sindhu-chaitra
+  edition: dharma-sindhu-chaitra-online
+  chapter: null
+  verse: null
+  other_locator: Chaitra Shukla Pratipada
+  supports: Calendar new year in Chaitra, including intercalary Chaitra in this tradition.
+  verification: verified
+- book: Hindu New Year Determination
+  work_id: ugadi-determination
+  edition: ugadi-determination-online
+  chapter: null
+  verse: null
+  other_locator: Udayavyapini Pratipada
+  supports: Choice of date when one, both or neither sunrise carries Pratipada.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can plan a family gathering for the locally observed new year.
+  kn: ಸ್ಥಳೀಯ ಹೊಸ ವರ್ಷದ ದಿನ ಕುಟುಂಬದ ಕೂಟವನ್ನು ಯೋಜಿಸಬಹುದು.
+  hi: स्थानीय नववर्ष के दिन परिवार के साथ मिलने की योजना बना सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

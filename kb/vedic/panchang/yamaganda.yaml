@@ -1,0 +1,42 @@
+id: vedic.panchang.yamaganda
+system: vedic
+topic: panchang
+title: Yamaganda
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.yamaganda. Let D = (sunset
+  − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+conditions:
+  all:
+  - fact: panchang.yamaganda.active
+    op: eq
+    value: true
+meaning: You can use this interval to review a plan already in progress.
+life_areas:
+- career
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This profile uses the daytime interval. Seasonal day length changes the clock times; a fixed ninety-minute
+    timetable applies only to a twelve-hour day.
+sources:
+- book: Drik Panchanga routines
+  work_id: drik-code
+  edition: drik-code-online
+  chapter: null
+  verse: null
+  other_locator: trikalam
+  supports: Weekday offsets and proportional daylight length.
+  verification: verified
+confidence: medium
+review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+user_text:
+  en: You can use this interval to review a plan already in progress.
+  kn: ಈ ಅವಧಿಯಲ್ಲಿ ನಡೆಯುತ್ತಿರುವ ಯೋಜನೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: इस समय आप पहले से चल रही योजना की समीक्षा कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
