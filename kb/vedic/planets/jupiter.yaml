@@ -1,0 +1,171 @@
+id: vedic.planets.jupiter
+system: vedic
+topic: planets
+title: Jupiter (Guru)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Jupiter when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: jupiter
+graha:
+  karakatvas:
+  - learning
+  - counsel
+  - teaching
+  nature:
+    class: benefic
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 9
+        - 12
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 8
+        - 11
+        yogakaraka: false
+      gemini:
+        houses_ruled:
+        - 7
+        - 10
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 6
+        - 9
+        yogakaraka: false
+      leo:
+        houses_ruled:
+        - 5
+        - 8
+        yogakaraka: false
+      virgo:
+        houses_ruled:
+        - 4
+        - 7
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 3
+        - 6
+        yogakaraka: false
+      scorpio:
+        houses_ruled:
+        - 2
+        - 5
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 1
+        - 4
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 3
+        - 12
+        yogakaraka: false
+      aquarius:
+        houses_ruled:
+        - 2
+        - 11
+        yogakaraka: false
+      pisces:
+        houses_ruled:
+        - 1
+        - 10
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      sagittarius:
+      - 0
+      - 30
+      pisces:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      cancer: 5
+    debilitation_peak_degrees:
+      capricorn: 5
+    moolatrikona_degree_limits:
+      sagittarius:
+      - 0
+      - 10
+  natural_friendships:
+    status: assigned
+    friends:
+    - sun
+    - moon
+    - mars
+    enemies:
+    - mercury
+    - venus
+    neutral:
+    - saturn
+  directional_strength:
+    status: assigned
+    direction: east
+    peak_house: 1
+  symbolic_body_parts:
+  - flesh
+meaning: Jupiter can connect a question with guidance, study or the chance to pass on experience.
+life_areas:
+- learning
+- children
+- spirituality
+strength_notes:
+- when:
+    fact: d1.jupiter.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.jupiter.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may benefit from discussing what you learned with a teacher.
+  kn: ಕಲಿತದ್ದನ್ನು ಶಿಕ್ಷಕರೊಂದಿಗೆ ಚರ್ಚಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: सीखी हुई बात शिक्षक से साझा करना उपयोगी हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can share a useful explanation when someone asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಉಪಯುಕ್ತ ವಿವರಣೆ ನೀಡಬಹುದು.
+    hi: किसी के पूछने पर उपयोगी जानकारी साझा कर सकते हैं।

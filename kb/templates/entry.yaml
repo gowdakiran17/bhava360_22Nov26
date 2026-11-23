@@ -33,3 +33,4 @@ user_text:
 native_review: {kn: pending, hi: pending}
 remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, user_text: {en: ..., kn: ..., hi: ...}}
 # Vedic sign entries also carry the rasi mapping defined in SCHEMA.yaml.
+# Vedic planet entries also carry the graha mapping defined in SCHEMA.yaml.

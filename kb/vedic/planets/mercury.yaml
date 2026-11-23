@@ -1,0 +1,172 @@
+id: vedic.planets.mercury
+system: vedic
+topic: planets
+title: Mercury (Budha)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Mercury when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mercury
+graha:
+  karakatvas:
+  - speech
+  - reasoning
+  - calculation
+  nature:
+    class: conditional
+    qualification: Normally benefic; a malefic association may modify the classification. Keep the specific companion
+      as evidence.
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 3
+        - 6
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 2
+        - 5
+        yogakaraka: false
+      gemini:
+        houses_ruled:
+        - 1
+        - 4
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 3
+        - 12
+        yogakaraka: false
+      leo:
+        houses_ruled:
+        - 2
+        - 11
+        yogakaraka: false
+      virgo:
+        houses_ruled:
+        - 1
+        - 10
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 9
+        - 12
+        yogakaraka: false
+      scorpio:
+        houses_ruled:
+        - 8
+        - 11
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 7
+        - 10
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 6
+        - 9
+        yogakaraka: false
+      aquarius:
+        houses_ruled:
+        - 5
+        - 8
+        yogakaraka: false
+      pisces:
+        houses_ruled:
+        - 4
+        - 7
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      gemini:
+      - 0
+      - 30
+      virgo:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      virgo: 15
+    debilitation_peak_degrees:
+      pisces: 15
+    moolatrikona_degree_limits:
+      virgo:
+      - 15
+      - 20
+  natural_friendships:
+    status: assigned
+    friends:
+    - sun
+    - venus
+    enemies:
+    - moon
+    neutral:
+    - mars
+    - jupiter
+    - saturn
+  directional_strength:
+    status: assigned
+    direction: east
+    peak_house: 1
+  symbolic_body_parts:
+  - skin
+meaning: Mercury can connect understanding with the words or examples used to explain an idea.
+life_areas:
+- learning
+- business
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.mercury.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You might understand an idea better by explaining it in your own words.
+  kn: ವಿಚಾರವನ್ನು ನಿಮ್ಮದೇ ಮಾತಿನಲ್ಲಿ ವಿವರಿಸಿದರೆ ಅದು ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟವಾಗಬಹುದು.
+  hi: किसी विचार को अपने शब्दों में समझाने से वह और स्पष्ट हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can clarify an instruction for someone who asks.
+    kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+    hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।

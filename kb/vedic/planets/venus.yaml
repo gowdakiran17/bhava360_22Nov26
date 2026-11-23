@@ -1,0 +1,170 @@
+id: vedic.planets.venus
+system: vedic
+topic: planets
+title: Venus (Shukra)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Venus when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: venus
+graha:
+  karakatvas:
+  - affection
+  - enjoyment
+  - agreement
+  nature:
+    class: benefic
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 2
+        - 7
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 1
+        - 6
+        yogakaraka: false
+      gemini:
+        houses_ruled:
+        - 5
+        - 12
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 4
+        - 11
+        yogakaraka: false
+      leo:
+        houses_ruled:
+        - 3
+        - 10
+        yogakaraka: false
+      virgo:
+        houses_ruled:
+        - 2
+        - 9
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 1
+        - 8
+        yogakaraka: false
+      scorpio:
+        houses_ruled:
+        - 7
+        - 12
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 6
+        - 11
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 5
+        - 10
+        yogakaraka: true
+      aquarius:
+        houses_ruled:
+        - 4
+        - 9
+        yogakaraka: true
+      pisces:
+        houses_ruled:
+        - 3
+        - 8
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      taurus:
+      - 0
+      - 30
+      libra:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      pisces: 27
+    debilitation_peak_degrees:
+      virgo: 27
+    moolatrikona_degree_limits:
+      libra:
+      - 0
+      - 5
+  natural_friendships:
+    status: assigned
+    friends:
+    - mercury
+    - saturn
+    enemies:
+    - sun
+    - moon
+    neutral:
+    - mars
+    - jupiter
+  directional_strength:
+    status: assigned
+    direction: north
+    peak_house: 4
+  symbolic_body_parts:
+  - reproductive fluid
+meaning: Venus can show where preferences meet, what feels worth sharing and how an agreement is reached.
+life_areas:
+- love-marriage
+- family-home
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.venus.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may enjoy asking what makes a shared space comfortable for both of you.
+  kn: ಇಬ್ಬರಿಗೂ ಹಿತವಾಗುವ ಸ್ಥಳ ಹೇಗಿರಬೇಕು ಎಂದು ಚರ್ಚಿಸುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+  hi: आप दोनों को कैसी जगह आरामदेह लगती है, इस पर बात करना अच्छा लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can make room for someone else’s preference today.
+    kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.
+    hi: आज किसी और की पसंद को भी जगह दे सकते हैं।

@@ -1,0 +1,172 @@
+id: vedic.planets.saturn
+system: vedic
+topic: planets
+title: Saturn (Shani)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Saturn when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: saturn
+graha:
+  karakatvas:
+  - service
+  - limits
+  - sustained responsibility
+  nature:
+    class: malefic
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 10
+        - 11
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 9
+        - 10
+        yogakaraka: true
+      gemini:
+        houses_ruled:
+        - 8
+        - 9
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 7
+        - 8
+        yogakaraka: false
+      leo:
+        houses_ruled:
+        - 6
+        - 7
+        yogakaraka: false
+      virgo:
+        houses_ruled:
+        - 5
+        - 6
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 4
+        - 5
+        yogakaraka: true
+      scorpio:
+        houses_ruled:
+        - 3
+        - 4
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 2
+        - 3
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 1
+        - 2
+        yogakaraka: false
+      aquarius:
+        houses_ruled:
+        - 1
+        - 12
+        yogakaraka: false
+      pisces:
+        houses_ruled:
+        - 11
+        - 12
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      capricorn:
+      - 0
+      - 30
+      aquarius:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      libra: 20
+    debilitation_peak_degrees:
+      aries: 20
+    moolatrikona_degree_limits:
+      aquarius:
+      - 0
+      - 20
+  natural_friendships:
+    status: assigned
+    friends:
+    - mercury
+    - venus
+    enemies:
+    - sun
+    - moon
+    - mars
+    neutral:
+    - jupiter
+  directional_strength:
+    status: assigned
+    direction: west
+    peak_house: 7
+  symbolic_body_parts:
+  - muscles
+meaning: Saturn can bring attention to work that continues after the initial enthusiasm fades. Its house and lordships
+  give that responsibility a specific setting.
+life_areas:
+- career
+- family-home
+- learning
+strength_notes:
+- when:
+    fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.saturn.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may find a demanding commitment easier to keep if you give it a regular place in your week.
+  kn: ಕಷ್ಟದ ಜವಾಬ್ದಾರಿಗೆ ವಾರದಲ್ಲಿ ನಿಗದಿತ ಸಮಯ ಕೊಟ್ಟರೆ ಅದನ್ನು ನಿಭಾಯಿಸುವುದು ಸುಲಭವಾಗಬಹುದು.
+  hi: किसी कठिन ज़िम्मेदारी के लिए हफ़्ते में समय तय करने से उसे निभाना आसान लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can follow through on a small promise to someone who relies on you.
+    kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: जो आप पर भरोसा करता है, उससे किया कोई छोटा वादा निभा सकते हैं।

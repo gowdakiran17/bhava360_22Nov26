@@ -21,3 +21,11 @@ vedic_sign_entries:
   dignity: Peak degrees are measured within this sign. Empty collections mean no assignment among the seven classical grahas. Moolatrikona sign membership alone cannot establish a degree-specific dignity.
   glossary: Movable, fixed and dual describe modes of expression. Krura and saumya are traditional forceful and gentle sign classes. Gender and body correspondences are symbolic.
   degree_limits: Pairs give the degree boundaries in Phaladeepika I.7. Preserve exact exaltation peaks at shared boundaries; confirm endpoint precedence before emitting a single dignity label.
+vedic_planet_entries:
+  extension: graha
+  fields: [karakatvas, nature, dignity, natural_friendships, directional_strength, symbolic_body_parts]
+  own_sign_degrees: Sign membership spans 0 inclusive to 30 exclusive. Retain overlapping dignity flags and use the KB-01 degree limits for moolatrikona.
+  natural_friendships: Directed natal relationships from the selected graha to the other six classical grahas. Keep temporary relationships separate.
+  directional_strength: Peak house identifies the angle for maximum dig bala. Exact strength depends on angular distance.
+  nodes: Empty dignity tables and unassigned friendships and dig bala denote a deliberate doctrine choice.
+  functional_nature: For each whole-sign Lagna list houses owned. The strict single-graha yogakaraka flag requires ownership of both an angle (4, 7 or 10) and a trine (5 or 9). Nodes rule no houses in this profile.

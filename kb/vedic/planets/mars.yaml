@@ -1,0 +1,171 @@
+id: vedic.planets.mars
+system: vedic
+topic: planets
+title: Mars (Mangala)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Mars when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: mars
+graha:
+  karakatvas:
+  - effort
+  - initiative
+  - courage
+  nature:
+    class: malefic
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 1
+        - 8
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 7
+        - 12
+        yogakaraka: false
+      gemini:
+        houses_ruled:
+        - 6
+        - 11
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 5
+        - 10
+        yogakaraka: true
+      leo:
+        houses_ruled:
+        - 4
+        - 9
+        yogakaraka: true
+      virgo:
+        houses_ruled:
+        - 3
+        - 8
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 2
+        - 7
+        yogakaraka: false
+      scorpio:
+        houses_ruled:
+        - 1
+        - 6
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 5
+        - 12
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 4
+        - 11
+        yogakaraka: false
+      aquarius:
+        houses_ruled:
+        - 3
+        - 10
+        yogakaraka: false
+      pisces:
+        houses_ruled:
+        - 2
+        - 9
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      aries:
+      - 0
+      - 30
+      scorpio:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      capricorn: 28
+    debilitation_peak_degrees:
+      cancer: 28
+    moolatrikona_degree_limits:
+      aries:
+      - 0
+      - 12
+  natural_friendships:
+    status: assigned
+    friends:
+    - sun
+    - moon
+    - jupiter
+    enemies:
+    - mercury
+    neutral:
+    - venus
+    - saturn
+  directional_strength:
+    status: assigned
+    direction: south
+    peak_house: 10
+  symbolic_body_parts:
+  - bone marrow
+meaning: Mars can describe how effort becomes action. The occupied house and the houses it rules help identify where
+  that effort may go.
+life_areas:
+- career
+- property-vehicles
+strength_notes:
+- when:
+    fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.mars.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may prefer a task with a clear first step.
+  kn: ಸ್ಪಷ್ಟವಾದ ಮೊದಲ ಹೆಜ್ಜೆ ಇರುವ ಕೆಲಸ ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.
+  hi: जिस काम का पहला कदम स्पष्ट हो वह आपको पसंद आ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can pause to hear another view before acting.
+    kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
+    hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।

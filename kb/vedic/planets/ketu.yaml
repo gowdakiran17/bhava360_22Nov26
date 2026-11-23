@@ -1,0 +1,117 @@
+id: vedic.planets.ketu
+system: vedic
+topic: planets
+title: Ketu
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Ketu when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: ketu
+graha:
+  karakatvas:
+  - separation
+  - inward attention
+  - release
+  nature:
+    class: malefic
+    functional_nature:
+      aries:
+        houses_ruled: []
+        yogakaraka: false
+      taurus:
+        houses_ruled: []
+        yogakaraka: false
+      gemini:
+        houses_ruled: []
+        yogakaraka: false
+      cancer:
+        houses_ruled: []
+        yogakaraka: false
+      leo:
+        houses_ruled: []
+        yogakaraka: false
+      virgo:
+        houses_ruled: []
+        yogakaraka: false
+      libra:
+        houses_ruled: []
+        yogakaraka: false
+      scorpio:
+        houses_ruled: []
+        yogakaraka: false
+      sagittarius:
+        houses_ruled: []
+        yogakaraka: false
+      capricorn:
+        houses_ruled: []
+        yogakaraka: false
+      aquarius:
+        houses_ruled: []
+        yogakaraka: false
+      pisces:
+        houses_ruled: []
+        yogakaraka: false
+  dignity:
+    own_sign_degrees: {}
+    exaltation_peak_degrees: {}
+    debilitation_peak_degrees: {}
+    moolatrikona_degree_limits: {}
+  natural_friendships:
+    status: unassigned
+    friends: []
+    enemies: []
+    neutral: []
+  directional_strength:
+    status: unassigned
+    direction: null
+    peak_house: null
+  symbolic_body_parts:
+  - headless trunk (mythic image)
+meaning: The descending node can frame a question about what can be simplified or set aside so a quieter interest
+  receives attention.
+life_areas:
+- spirituality
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: '3'
+  other_locator: Planetary classifications
+  supports: Identity of the lunar nodes.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 2
+  verse: 33–35
+  other_locator: Planetary classifications
+  supports: Traditional descriptions of the nodes; reflective themes and mythic imagery are editorial context.
+  verification: verified
+confidence: disputed
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may want to leave one distraction aside and return to a question that matters to you.
+  kn: ಒಂದು ವ್ಯಾಕುಲತೆಯನ್ನು ಬದಿಗಿಟ್ಟು ನಿಮಗೆ ಮುಖ್ಯವಾದ ಪ್ರಶ್ನೆಯತ್ತ ಮರಳಬಹುದು.
+  hi: आप किसी एक भटकाव को अलग रखकर अपने लिए अहम सवाल पर लौट सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can set aside a few quiet minutes for reflection.
+    kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
+    hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।

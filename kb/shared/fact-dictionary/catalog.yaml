@@ -1303,3 +1303,9 @@ facts:
     values: [aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces]
     origin: Stable sidereal sign of the selected natal graha or Lagna. Bind the point and profile in the explain payload.
     unknown_if: Point is absent or changes sign over the supported birth interval; Lagna also requires a known birth time.
+  d1.selected_point.graha:
+    type: enum
+    producer: vedic.d1
+    values: [sun, moon, mars, mercury, jupiter, venus, saturn, rahu, ketu]
+    origin: Identity of the graha bound to the selected computed D1 placement and profile.
+    unknown_if: No computed placement is bound, or the selected point is Lagna.

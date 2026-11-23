@@ -59,6 +59,7 @@ def main():
     profiles=read('shared/conventions/profiles.yaml')['doctrine_profiles']
     sources=read('shared/source-editions/catalog.yaml')
     areas=read('life-areas/catalog.yaml')
+    graha_fields=set(read('SCHEMA.yaml')['vedic_planet_entries']['fields'])
     counts=Counter()
     rules={}
     for path in sorted(ROOT.rglob('*.yaml')):
@@ -71,6 +72,9 @@ def main():
             expected_fields.add('rasi')
             require(set(data['rasi'])=={'element','modality','ruler','traditional_gender','nature',
                     'kalapurusha_body_parts','exaltation_peak_degrees','debilitation_peak_degrees','moolatrikona_sign_for','moolatrikona_degree_limits'},rid)
+        if data['system']=='vedic' and data['topic']=='planets':
+            expected_fields.add('graha')
+            require(set(data['graha'])==graha_fields,rid)
         require(set(data)==expected_fields and rid not in rules,rid)
         rules[rid]=data
         require(re.fullmatch(r'[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*',rid),rid)
@@ -98,6 +102,29 @@ def main():
                 require(cite['edition'] and (cite['verse'] or cite['other_locator']),rid)
         require(evaluate(data['conditions'],{}) is None,rid)
         counts[data['system']]+=1
+    grahas = read('vedic/planets/catalog.yaml')['grahas']
+    signs = read('vedic/signs/catalog.yaml')['signs']
+    for graha in grahas:
+        record = rules['vedic.planets.' + graha]
+        require(record['conditions'] == {'all':[{'fact':'d1.selected_point.graha','op':'eq','value':graha}]}, graha)
+        functional = record['graha']['nature']['functional_nature']
+        require(set(functional)=={s['id'] for s in signs},graha)
+        for lagna in signs:
+            houses = sorted(1+(s['number']-lagna['number'])%12 for s in signs if s['lord']==graha)
+            qualifies = bool(set(houses) & {4,7,10} and set(houses) & {5,9})
+            require(functional[lagna['id']]=={'houses_ruled':houses,'yogakaraka':qualifies},(graha,lagna['id']))
+        dignity = record['graha']['dignity']
+        expected = {k:{} for k in ('own_sign_degrees','exaltation_peak_degrees','debilitation_peak_degrees','moolatrikona_degree_limits')}
+        for sign in signs:
+            name = sign['id']
+            attributes = rules['vedic.signs.' + name]['rasi']
+            if attributes['ruler'] == graha:
+                expected['own_sign_degrees'][name] = [0,30]
+            for field in ('exaltation_peak_degrees','debilitation_peak_degrees','moolatrikona_degree_limits'):
+                if graha in attributes[field]:
+                    expected[field][name] = attributes[field][graha]
+            require((graha in attributes['moolatrikona_sign_for']) == (graha in attributes['moolatrikona_degree_limits']),name)
+        require(dignity == expected, graha + ' dignity disagrees with sign entries')
     for area in areas['areas']:
         recipe=read(f'life-areas/{area}/reading.yaml')
         require(set(recipe['slots'])==set(recipe['slot_bindings'])==set(areas['detail_slots']),area)

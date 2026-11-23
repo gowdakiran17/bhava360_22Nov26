@@ -1,0 +1,116 @@
+id: vedic.planets.rahu
+system: vedic
+topic: planets
+title: Rahu
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Rahu when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: rahu
+graha:
+  karakatvas:
+  - eclipse symbolism
+  - fascination
+  - unfamiliar experiences
+  nature:
+    class: malefic
+    functional_nature:
+      aries:
+        houses_ruled: []
+        yogakaraka: false
+      taurus:
+        houses_ruled: []
+        yogakaraka: false
+      gemini:
+        houses_ruled: []
+        yogakaraka: false
+      cancer:
+        houses_ruled: []
+        yogakaraka: false
+      leo:
+        houses_ruled: []
+        yogakaraka: false
+      virgo:
+        houses_ruled: []
+        yogakaraka: false
+      libra:
+        houses_ruled: []
+        yogakaraka: false
+      scorpio:
+        houses_ruled: []
+        yogakaraka: false
+      sagittarius:
+        houses_ruled: []
+        yogakaraka: false
+      capricorn:
+        houses_ruled: []
+        yogakaraka: false
+      aquarius:
+        houses_ruled: []
+        yogakaraka: false
+      pisces:
+        houses_ruled: []
+        yogakaraka: false
+  dignity:
+    own_sign_degrees: {}
+    exaltation_peak_degrees: {}
+    debilitation_peak_degrees: {}
+    moolatrikona_degree_limits: {}
+  natural_friendships:
+    status: unassigned
+    friends: []
+    enemies: []
+    neutral: []
+  directional_strength:
+    status: unassigned
+    direction: null
+    peak_house: null
+  symbolic_body_parts:
+  - head (mythic image)
+meaning: The ascending node can be used as a prompt to explore what feels unfamiliar and especially absorbing.
+life_areas:
+- learning
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Nodal dignities and friendships vary by school. This profile leaves both unassigned and uses seven-graha
+    directional strength.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: '3'
+  other_locator: Planetary classifications
+  supports: Identity of the lunar nodes.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 2
+  verse: 33–35
+  other_locator: Planetary classifications
+  supports: Traditional descriptions of the nodes; reflective themes and mythic imagery are editorial context.
+  verification: verified
+confidence: disputed
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may wish to ask what draws you toward an unfamiliar option.
+  kn: ಪರಿಚಯವಿಲ್ಲದ ಆಯ್ಕೆಯತ್ತ ನಿಮ್ಮನ್ನು ಯಾವುದು ಸೆಳೆಯುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि किसी अनजान विकल्प में आपको क्या आकर्षित करता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can check one assumption before trying something new.
+    kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: कुछ नया आज़माने से पहले एक अनुमान जाँच सकते हैं।

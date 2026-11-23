@@ -1,0 +1,156 @@
+id: vedic.planets.sun
+system: vedic
+topic: planets
+title: Sun (Surya)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match Sun when the selected D1 chart point is its computed natal placement.
+conditions:
+  all:
+  - fact: d1.selected_point.graha
+    op: eq
+    value: sun
+graha:
+  karakatvas:
+  - authority
+  - purpose
+  - public responsibility
+  nature:
+    class: malefic
+    functional_nature:
+      aries:
+        houses_ruled:
+        - 5
+        yogakaraka: false
+      taurus:
+        houses_ruled:
+        - 4
+        yogakaraka: false
+      gemini:
+        houses_ruled:
+        - 3
+        yogakaraka: false
+      cancer:
+        houses_ruled:
+        - 2
+        yogakaraka: false
+      leo:
+        houses_ruled:
+        - 1
+        yogakaraka: false
+      virgo:
+        houses_ruled:
+        - 12
+        yogakaraka: false
+      libra:
+        houses_ruled:
+        - 11
+        yogakaraka: false
+      scorpio:
+        houses_ruled:
+        - 10
+        yogakaraka: false
+      sagittarius:
+        houses_ruled:
+        - 9
+        yogakaraka: false
+      capricorn:
+        houses_ruled:
+        - 8
+        yogakaraka: false
+      aquarius:
+        houses_ruled:
+        - 7
+        yogakaraka: false
+      pisces:
+        houses_ruled:
+        - 6
+        yogakaraka: false
+  dignity:
+    own_sign_degrees:
+      leo:
+      - 0
+      - 30
+    exaltation_peak_degrees:
+      aries: 10
+    debilitation_peak_degrees:
+      libra: 10
+    moolatrikona_degree_limits:
+      leo:
+      - 0
+      - 20
+  natural_friendships:
+    status: assigned
+    friends:
+    - moon
+    - mars
+    - jupiter
+    enemies:
+    - venus
+    - saturn
+    neutral:
+    - mercury
+  directional_strength:
+    status: assigned
+    direction: south
+    peak_house: 10
+  symbolic_body_parts:
+  - bones
+meaning: The Sun can frame a question about whose judgement guides a decision, especially when the chart connects
+  it to a public role.
+life_areas:
+- career
+- business
+strength_notes:
+- when:
+    fact: d1.sun.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: D1 sign dignity can reinforce this graha’s themes. Evaluate the other strength components separately.
+- when:
+    fact: d1.sun.debilitated
+    op: eq
+    value: true
+  effect: weaker
+  reason: Debilitation can qualify expression; check separately matched cancellation rules.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Brihat Jataka II.15 records an alternative friendship list. This profile uses the directed relationships
+    in II.16–17.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 2
+  verse: 1, 5, 11, 15–17, 19
+  other_locator: Planetary classifications
+  supports: Classical planetary themes, natural classification, tissue symbolism, directed natural relationships
+    and directional strength.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7
+  other_locator: Sign definitions
+  supports: Sign rulership, exaltation and opposite debilitation points, and moolatrikona portions.
+  verification: verified
+confidence: medium
+review_notes: Body imagery is symbolic. House rulerships require a stable Lagna. Native-language review pending.
+user_text:
+  en: You may find it helpful to name the decision you are responsible for.
+  kn: ನೀವು ಯಾವ ನಿರ್ಧಾರದ ಹೊಣೆ ಹೊತ್ತಿದ್ದೀರಿ ಎಂದು ಗುರುತಿಸುವುದು ನೆರವಾಗಬಹುದು.
+  hi: आपके ज़िम्मे कौन सा निर्णय है, यह स्पष्ट करना मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can give credit to someone who helped you lead a task.
+    kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: काम सँभालने में मदद करने वाले को श्रेय दे सकते हैं।
