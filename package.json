@@ -1,0 +1,22 @@
+{
+  "name": "@bhava360/workspace",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@10.32.1",
+  "engines": {
+    "node": "22.x || >=24"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "check:i18n": "vitest run tests/i18n.test.ts",
+    "build": "pnpm check:i18n && pnpm typecheck && pnpm --filter @bhava360/api build && pnpm --filter @bhava360/web build && pnpm --filter @bhava360/admin build"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@bhava360/engine-palmistry",
+  "version": "0.0.0",
+  "private": true,
+  "exports": "./src/index.ts",
+  "type": "module",
+  "dependencies": {
+    "@bhava360/core": "workspace:*"
+  }
+}
