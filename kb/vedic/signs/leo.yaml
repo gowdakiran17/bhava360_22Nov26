@@ -1,0 +1,85 @@
+id: vedic.signs.leo
+system: vedic
+topic: signs
+title: Leo (Simha)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Simha.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: leo
+rasi:
+  element: fire
+  modality: fixed
+  ruler: sun
+  traditional_gender: masculine
+  nature: krura
+  kalapurusha_body_parts:
+  - belly
+  exaltation_peak_degrees: {}
+  debilitation_peak_degrees: {}
+  moolatrikona_sign_for:
+  - sun
+  moolatrikona_degree_limits:
+    sun:
+    - 0
+    - 20
+meaning: Fixed fire can suggest sustaining a purpose once it is visible to others. The Sun brings responsibility
+  for how that purpose is expressed.
+life_areas:
+- career
+- learning
+strength_notes:
+- when:
+    fact: d1.sun.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Sun can lend additional support through its own placement.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You may enjoy giving steady attention to a project that carries your name.
+  kn: ನಿಮ್ಮ ಹೆಸರಿನೊಂದಿಗೆ ಗುರುತಿಸಿಕೊಂಡಿರುವ ಕೆಲಸಕ್ಕೆ ಸತತ ಗಮನ ನೀಡುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+  hi: जिस काम से आपका नाम जुड़ा है, उसे लगातार समय देना आपको अच्छा लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may acknowledge someone else’s contribution to a shared task.
+    kn: ಒಟ್ಟಿನ ಕೆಲಸದಲ್ಲಿ ಮತ್ತೊಬ್ಬರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: साझे काम में किसी और के योगदान की सराहना कर सकते हैं।

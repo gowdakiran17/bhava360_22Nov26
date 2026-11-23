@@ -1,0 +1,89 @@
+id: vedic.signs.virgo
+system: vedic
+topic: signs
+title: Virgo (Kanya)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Kanya.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: virgo
+rasi:
+  element: earth
+  modality: dual
+  ruler: mercury
+  traditional_gender: feminine
+  nature: saumya
+  kalapurusha_body_parts:
+  - navel
+  exaltation_peak_degrees:
+    mercury: 15
+  debilitation_peak_degrees:
+    venus: 27
+  moolatrikona_sign_for:
+  - mercury
+  moolatrikona_degree_limits:
+    mercury:
+    - 15
+    - 20
+meaning: Dual earth can suggest improving something by comparing a method with its result. Mercury brings attention
+  to detail and explanation.
+life_areas:
+- learning
+- career
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Mercury can lend additional support through its own placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some schools assign sign dignities to Rahu and Ketu. This profile leaves node dignities unassigned.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You might understand a task better by checking one detail and trying again.
+  kn: ಒಂದು ವಿವರವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿದರೆ ಕೆಲಸ ಇನ್ನಷ್ಟು ಸ್ಪಷ್ಟವಾಗಬಹುದು.
+  hi: एक बारीकी जाँचकर फिर कोशिश करने से काम बेहतर समझ में आ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can help someone check a detail if they ask.
+    kn: ಕೇಳಿದರೆ ಒಂದು ವಿವರ ಪರಿಶೀಲಿಸಲು ನೆರವಾಗಬಹುದು.
+    hi: किसी के पूछने पर एक बारीकी जाँचने में मदद कर सकते हैं।

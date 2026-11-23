@@ -1,0 +1,87 @@
+id: vedic.signs.libra
+system: vedic
+topic: signs
+title: Libra (Tula)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Tula.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: libra
+rasi:
+  element: air
+  modality: movable
+  ruler: venus
+  traditional_gender: masculine
+  nature: krura
+  kalapurusha_body_parts:
+  - lower abdomen
+  exaltation_peak_degrees:
+    saturn: 20
+  debilitation_peak_degrees:
+    sun: 10
+  moolatrikona_sign_for:
+  - venus
+  moolatrikona_degree_limits:
+    venus:
+    - 0
+    - 5
+meaning: Movable air can suggest opening a discussion when two needs differ. Venus gives the exchange a theme of
+  mutual consideration.
+life_areas:
+- love-marriage
+- business
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Venus can lend additional support through its own placement.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You may find it helpful to ask what a fair arrangement would look like to each of you.
+  kn: ಇಬ್ಬರಿಗೂ ನ್ಯಾಯಯುತವೆನಿಸುವ ಹೊಂದಾಣಿಕೆ ಹೇಗಿರಬಹುದು ಎಂದು ಕೇಳುವುದು ನೆರವಾಗಬಹುದು.
+  hi: आप दोनों के लिए उचित समझौता कैसा होगा, इस पर बात करना मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may give each person time to speak before a shared decision.
+    kn: ಒಟ್ಟಿನ ನಿರ್ಧಾರಕ್ಕೂ ಮೊದಲು ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.
+    hi: साझा निर्णय से पहले हर व्यक्ति को बोलने का समय दे सकते हैं।

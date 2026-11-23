@@ -28,6 +28,14 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  saravali-vedicpupil-ch3:
+    work_id: saravali
+    edition_id: saravali-vedicpupil-ch3
+    title_as_printed: Saravali
+    language: Sanskrit/English
+    publication_details: Kalyanavarman, VedicPupil digital presentation, chapter 3.
+    verified_by: Chapter overview checked for the sign classification; no specific Sanskrit verse asserted for the overview.
+    text: https://vedicpupil.in/library/books/saravali/chapter-3
   brihat-jataka-iyer-brihatjataka00varaiala:
     work_id: brihat-jataka
     edition_id: brihat-jataka-iyer-brihatjataka00varaiala

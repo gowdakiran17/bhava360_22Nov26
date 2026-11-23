@@ -1,0 +1,86 @@
+id: vedic.signs.scorpio
+system: vedic
+topic: signs
+title: Scorpio (Vrischika)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Vrischika.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: scorpio
+rasi:
+  element: water
+  modality: fixed
+  ruler: mars
+  traditional_gender: feminine
+  nature: saumya
+  kalapurusha_body_parts:
+  - genital region
+  exaltation_peak_degrees: {}
+  debilitation_peak_degrees:
+    moon: 3
+  moolatrikona_sign_for: []
+  moolatrikona_degree_limits: {}
+meaning: Fixed water can suggest staying with a question that matters personally. Mars adds the possibility of acting
+  once the concern is clear.
+life_areas:
+- love-marriage
+- learning
+strength_notes:
+- when:
+    fact: d1.mars.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Mars can lend additional support through its own placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some schools assign sign dignities to Rahu and Ketu. This profile leaves node dignities unassigned.
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some Jaimini timing methods consider a node as a co-lord. Use the seven-graha ruler for this D1 meaning.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You can take time to name a concern before deciding how to respond.
+  kn: ಹೇಗೆ ಸ್ಪಂದಿಸಬೇಕೆಂದು ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ನಿಮಗೆ ಕಳವಳ ತಂದ ವಿಷಯವನ್ನು ಗುರುತಿಸಲು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: जवाब तय करने से पहले आप अपनी चिंता को शब्द देने के लिए समय ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can pause before answering a sensitive question.
+    kn: ಸೂಕ್ಷ್ಮ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸುವ ಮುನ್ನ ಸ್ವಲ್ಪ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+    hi: किसी संवेदनशील सवाल का जवाब देने से पहले थोड़ा ठहर सकते हैं।

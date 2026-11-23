@@ -1,0 +1,83 @@
+id: vedic.signs.cancer
+system: vedic
+topic: signs
+title: Cancer (Karkataka)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Karkataka.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: cancer
+rasi:
+  element: water
+  modality: movable
+  ruler: moon
+  traditional_gender: feminine
+  nature: saumya
+  kalapurusha_body_parts:
+  - heart
+  exaltation_peak_degrees:
+    jupiter: 5
+  debilitation_peak_degrees:
+    mars: 28
+  moolatrikona_sign_for: []
+  moolatrikona_degree_limits: {}
+meaning: Movable water can frame care as a response to changing needs. The Moon supplies the theme of familiarity
+  and belonging.
+life_areas:
+- family-home
+- children
+strength_notes:
+- when:
+    fact: d1.moon.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Moon can lend additional support through its own placement.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You can ask someone at home what would make today a little easier for them.
+  kn: ಇಂದು ಏನು ಮಾಡಿದರೆ ಸ್ವಲ್ಪ ಅನುಕೂಲವಾಗುತ್ತದೆ ಎಂದು ಮನೆಯವರನ್ನು ಕೇಳಬಹುದು.
+  hi: आप घर में किसी से पूछ सकते हैं कि आज उनका दिन थोड़ा आसान कैसे हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can check in on someone who might appreciate company.
+    kn: ಜೊತೆ ಬಯಸುವವರೊಂದಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಕಳೆಯಬಹುದು.
+    hi: जिसे साथ अच्छा लगे उसके पास कुछ समय बिता सकते हैं।

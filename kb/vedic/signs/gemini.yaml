@@ -1,0 +1,83 @@
+id: vedic.signs.gemini
+system: vedic
+topic: signs
+title: Gemini (Mithuna)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Mithuna.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: gemini
+rasi:
+  element: air
+  modality: dual
+  ruler: mercury
+  traditional_gender: masculine
+  nature: krura
+  kalapurusha_body_parts:
+  - chest
+  exaltation_peak_degrees: {}
+  debilitation_peak_degrees: {}
+  moolatrikona_sign_for: []
+  moolatrikona_degree_limits: {}
+meaning: An airy dual sign can suggest exploring an idea from two sides. Mercury gives conversation and comparison
+  a place in that process.
+life_areas:
+- learning
+- career
+strength_notes:
+- when:
+    fact: d1.mercury.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Mercury can lend additional support through its own placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some schools assign sign dignities to Rahu and Ketu. This profile leaves node dignities unassigned.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: A conversation may help you see another way to understand what you are learning.
+  kn: ಒಂದು ಸಂಭಾಷಣೆಯಿಂದ ನೀವು ಕಲಿಯುತ್ತಿರುವ ವಿಷಯವನ್ನು ಇನ್ನೊಂದು ರೀತಿಯಲ್ಲಿ ಅರ್ಥಮಾಡಿಕೊಳ್ಳಬಹುದು.
+  hi: बातचीत से आप जो सीख रहे हैं उसे समझने का दूसरा तरीका मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You may listen to someone’s explanation before offering your own.
+    kn: ನಿಮ್ಮ ವಿವರಣೆ ನೀಡುವ ಮುನ್ನ ಇನ್ನೊಬ್ಬರ ಮಾತನ್ನು ಆಲಿಸಬಹುದು.
+    hi: अपनी बात रखने से पहले दूसरे की बात सुन सकते हैं।

@@ -1297,3 +1297,9 @@ facts:
     origin: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible
       set. Reference = lagna.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.selected_point.sign:
+    type: enum
+    producer: vedic.d1
+    values: [aries, taurus, gemini, cancer, leo, virgo, libra, scorpio, sagittarius, capricorn, aquarius, pisces]
+    origin: Stable sidereal sign of the selected natal graha or Lagna. Bind the point and profile in the explain payload.
+    unknown_if: Point is absent or changes sign over the supported birth interval; Lagna also requires a known birth time.

@@ -66,7 +66,12 @@ def main():
         if 'rule' not in data or path.parent.name=='templates':
             continue
         rid=data['id']
-        require(set(data)==set(template) and rid not in rules,rid)
+        expected_fields = set(template)
+        if data['system']=='vedic' and data['topic']=='signs':
+            expected_fields.add('rasi')
+            require(set(data['rasi'])=={'element','modality','ruler','traditional_gender','nature',
+                    'kalapurusha_body_parts','exaltation_peak_degrees','debilitation_peak_degrees','moolatrikona_sign_for','moolatrikona_degree_limits'},rid)
+        require(set(data)==expected_fields and rid not in rules,rid)
         rules[rid]=data
         require(re.fullmatch(r'[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*\.[a-z][a-z0-9-]*',rid),rid)
         require(path.parent==ROOT/data['system']/data['topic'],rid)

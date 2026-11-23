@@ -1,0 +1,83 @@
+id: vedic.signs.capricorn
+system: vedic
+topic: signs
+title: Capricorn (Makara)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Makara.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: capricorn
+rasi:
+  element: earth
+  modality: movable
+  ruler: saturn
+  traditional_gender: feminine
+  nature: saumya
+  kalapurusha_body_parts:
+  - knees
+  exaltation_peak_degrees:
+    mars: 28
+  debilitation_peak_degrees:
+    jupiter: 5
+  moolatrikona_sign_for: []
+  moolatrikona_degree_limits: {}
+meaning: Movable earth can suggest turning an intention into a workable structure. Saturn adds attention to time
+  and responsibility.
+life_areas:
+- career
+- money
+strength_notes:
+- when:
+    fact: d1.saturn.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Saturn can lend additional support through its own placement.
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You can break a long commitment into smaller tasks and decide which comes first.
+  kn: ದೀರ್ಘಕಾಲದ ಜವಾಬ್ದಾರಿಯನ್ನು ಸಣ್ಣ ಕೆಲಸಗಳಾಗಿ ವಿಂಗಡಿಸಿ ಯಾವುದನ್ನು ಮೊದಲು ಮಾಡಬೇಕೆಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
+  hi: आप लंबी ज़िम्मेदारी को छोटे कामों में बाँटकर पहला कदम तय कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can follow through on a small promise today.
+    kn: ಇಂದು ಕೊಟ್ಟ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: आज अपना कोई छोटा वादा पूरा कर सकते हैं।

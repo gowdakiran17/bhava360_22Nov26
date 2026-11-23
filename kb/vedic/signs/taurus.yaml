@@ -1,0 +1,88 @@
+id: vedic.signs.taurus
+system: vedic
+topic: signs
+title: Taurus (Vrishabha)
+doctrine_profile: parashari-lahiri-whole-sign-draft-v1
+approval: draft
+rule: Match the selected D1 graha or ascendant when its stable sidereal sign is Vrishabha.
+conditions:
+  all:
+  - fact: d1.selected_point.sign
+    op: eq
+    value: taurus
+rasi:
+  element: earth
+  modality: fixed
+  ruler: venus
+  traditional_gender: feminine
+  nature: saumya
+  kalapurusha_body_parts:
+  - face
+  exaltation_peak_degrees:
+    moon: 3
+  debilitation_peak_degrees: {}
+  moolatrikona_sign_for:
+  - moon
+  moolatrikona_degree_limits:
+    moon:
+    - 3
+    - 30
+meaning: A fixed earth sign can draw attention to what is worth maintaining. Venus adds questions of comfort and
+  value.
+life_areas:
+- money
+- family-home
+strength_notes:
+- when:
+    fact: d1.venus.own_or_exalted
+    op: eq
+    value: true
+  effect: stronger
+  reason: The ruler Venus can lend additional support through its own placement.
+exceptions: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: Some schools assign sign dignities to Rahu and Ketu. This profile leaves node dignities unassigned.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: 1
+  verse: 4, 6, 13–14
+  other_locator: Kalapurusha correspondences, sign rulers and planetary dignities
+  supports: Symbolic body correspondence and seven-graha sign dignities.
+  verification: verified
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 1
+  verse: 6–7, 9
+  other_locator: Sign definitions
+  supports: Rulership, degree-sensitive moolatrikona, modality, traditional gender and krura/saumya classification.
+  verification: verified
+- book: Saravali
+  work_id: saravali
+  edition: saravali-vedicpupil-ch3
+  chapter: 3
+  verse: null
+  other_locator: Rashi Classification, chapter overview
+  supports: Element triplicities in the edition’s editorial overview.
+  verification: verified
+confidence: medium
+review_notes: Body and gender terms describe the traditional sign symbolism. Dignity belongs to the named occupant;
+  moolatrikona needs its degree range. The reading is an editorial reflection. Native review pending.
+user_text:
+  en: You may want to keep one familiar routine that makes home feel comfortable.
+  kn: ಮನೆಗೆ ನೆಮ್ಮದಿ ತರುವ ಪರಿಚಿತ ದಿನಚರಿಯೊಂದನ್ನು ಮುಂದುವರಿಸಲು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+  hi: घर में सुकून देने वाली किसी परिचित आदत को बनाए रखना आपको अच्छा लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy:
+  type: conduct
+  optional: true
+  free: true
+  user_text:
+    en: You can take a moment to thank someone who helps at home.
+    kn: ಮನೆಯಲ್ಲಿ ಸಹಾಯ ಮಾಡುವವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಬಹುದು.
+    hi: घर में मदद करने वाले किसी व्यक्ति को धन्यवाद दे सकते हैं।
