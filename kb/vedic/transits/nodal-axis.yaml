@@ -1,0 +1,51 @@
+id: vedic.transits.nodal-axis
+system: vedic
+topic: transits
+title: Rahu and Ketu across opposite houses
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind Rahu and Ketu from the same mean-node or true-node model and instant. Require longitudes opposite modulo
+  a full circle to the stored arcsecond, then count both signs from the natal Moon. Combine the corresponding house
+  readings once per axis and window.
+conditions:
+  all:
+  - fact: transit.nodes.opposed
+    op: eq
+    value: true
+meaning: You can explore a new interest while deciding what to simplify in the opposite area.
+life_areas:
+- learning
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: This profile follows the Saturn analogy for Rahu and Mars analogy for Ketu given after Table 59. Schools
+    differ on independent node results. Read the two ends together once.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, note following Table 59
+  supports: Node analogies; paired delivery is editorial.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: disputed
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You can explore a new interest while deciding what to simplify in the opposite area.
+  kn: ಹೊಸ ಆಸಕ್ತಿಯನ್ನು ಗಮನಿಸುತ್ತಾ ಇನ್ನೊಂದು ಕ್ಷೇತ್ರದಲ್ಲಿ ಏನನ್ನು ಸರಳಗೊಳಿಸಬಹುದು ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: नई रुचि तलाशते हुए आप दूसरे क्षेत्र में कुछ सरल करने पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

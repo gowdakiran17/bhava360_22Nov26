@@ -143,3 +143,8 @@ vedic_ashtakavarga_entries:
   public_projection: Render only localized qualitative text. Keep offset tables, contributor bits, sign counts, reductions and pinda out of public evidence.
   input: Raw prastara is indexed by target graha, contributor and sidereal sign. Each supportive mark contributes one.
   reduction: Preserve raw BAV and SAV. Apply the named occupancy and weight profiles only to the separate reduced rows.
+vedic_saturn_transit_labels:
+  applies_to: [vedic/transits, vedic/doshas]
+  public_fields: [user_text, remedy.user_text]
+  technical_fields_access: [admin]
+  projection: Render localized copy only. Titles, phase names, identifiers, fact chains and timing evidence are administrative metadata.

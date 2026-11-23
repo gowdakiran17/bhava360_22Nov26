@@ -1,0 +1,42 @@
+id: vedic.transits.venus-moon-house-3
+system: vedic
+topic: transits
+title: Venus in house 3 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Venus occupies sign 3 counted inclusively from the natal Moon within its solved transit
+  window. This is a traditionally supportive position before modifiers.
+conditions:
+  all:
+  - fact: transit.venus.distance_from_natal_moon
+    op: eq
+    value: 3
+meaning: A kind message may strengthen a familiar connection.
+life_areas:
+- family-home
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 58
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A kind message may strengthen a familiar connection.
+  kn: ಆತ್ಮೀಯ ಸಂದೇಶದಿಂದ ಪರಿಚಿತರೊಂದಿಗೆ ಒಡನಾಟ ಗಟ್ಟಿಯಾಗಬಹುದು.
+  hi: स्नेह भरा संदेश परिचित रिश्ते को मज़बूत कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

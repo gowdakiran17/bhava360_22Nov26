@@ -1,0 +1,42 @@
+id: vedic.transits.saturn-moon-house-4
+system: vedic
+topic: transits
+title: Saturn in house 4 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Saturn occupies sign 4 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.saturn.distance_from_natal_moon
+    op: eq
+    value: 4
+meaning: Sharing household duties may leave more room for rest.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 59
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: Sharing household duties may leave more room for rest.
+  kn: ಮನೆಯ ಕೆಲಸವನ್ನು ಹಂಚಿಕೊಂಡರೆ ವಿಶ್ರಾಂತಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
+  hi: घर के काम बाँटने से आराम के लिए समय मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

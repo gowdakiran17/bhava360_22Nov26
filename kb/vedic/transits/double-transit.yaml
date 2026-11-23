@@ -1,0 +1,52 @@
+id: vedic.transits.double-transit
+system: vedic
+topic: transits
+title: Jupiter and Saturn reach the same natal house
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind a selected natal whole-sign house from Lagna. At one instant both Jupiter and Saturn must each occupy
+  its sign or cast a full graha aspect to it, using vedic/aspects/full-graha.yaml. Intersect their windows.
+conditions:
+  all:
+  - fact: transit.double.common_target
+    op: eq
+    value: true
+meaning: A topic highlighted by both transits may be worth sustained attention.
+life_areas:
+- career
+- love-marriage
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Some schools also test the target lord or divisional charts. This profile requires the same natal sign and
+    uses whole-sign full aspects.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.3, Other Natal References
+  supports: Transit occupation and aspect to natal targets. Combining two simultaneous hits is the selected editorial
+    profile.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A topic highlighted by both transits may be worth sustained attention.
+  kn: ಎರಡೂ ಸಂಚಾರಗಳು ಸೂಚಿಸುವ ವಿಷಯಕ್ಕೆ ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಗಮನ ಕೊಡಬಹುದು.
+  hi: दोनों गोचरों से जुड़े विषय पर कुछ समय ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

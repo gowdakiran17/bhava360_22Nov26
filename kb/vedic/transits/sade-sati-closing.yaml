@@ -1,0 +1,51 @@
+id: vedic.transits.sade-sati-closing
+system: vedic
+topic: transits
+title: Sade Sati · closing phase
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Within a solved Saturn sign window the inclusive distance from the natal Moon is 2. End the phase at the exit;
+  a return starts another window.
+conditions:
+  all:
+  - fact: transit.saturn.distance_from_natal_moon
+    op: eq
+    value: 2
+meaning: You can review what your household needs to maintain.
+life_areas:
+- money
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Degree-centred phase boundaries
+    vary by school.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 59
+  supports: House-specific Saturn transit basis; phase naming follows the KB-10 transit profile.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You can review what your household needs to maintain.
+  kn: ಮನೆಯ ಅಗತ್ಯಗಳನ್ನು ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: आप घर की ज़रूरतों की फिर से समीक्षा कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

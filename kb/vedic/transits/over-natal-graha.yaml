@@ -1,0 +1,51 @@
+id: vedic.transits.over-natal-graha
+system: vedic
+topic: transits
+title: Over Natal Graha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant the selected transit graha occupies the sidereal sign containing the selected natal graha.
+  Bind both identities and the sign interval.
+conditions:
+  all:
+  - fact: transit.contact.natal
+    op: eq
+    value: true
+meaning: A familiar theme may return while this transit shares a natal sign.
+life_areas:
+- career
+- family-home
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Whole-sign contact is the selected convention. A degree conjunction requires its own orb and timing. The
+    graha being crossed and the moving graha have distinct roles.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2–25.3
+  supports: Dasha context and transit occupation of natal signs. Active maha/antar filtering is editorial.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A familiar theme may return while this transit shares a natal sign.
+  kn: ಸಂಚಾರವು ಜನ್ಮಗ್ರಹದ ರಾಶಿಯಲ್ಲಿದ್ದಾಗ ಪರಿಚಿತ ವಿಷಯ ಮತ್ತೆ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: गोचर जब जन्म ग्रह की राशि में हो तो कोई परिचित विषय फिर ध्यान में आ सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

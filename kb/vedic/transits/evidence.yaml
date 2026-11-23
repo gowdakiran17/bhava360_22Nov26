@@ -24,5 +24,21 @@ phases:
   - 8
   kantaka-shani-fourth-house-profile:
   - 4
-windows: Solve all sign crossings, including retrograde exits and returns; attach start/end instants to each continuous phase.
-modifiers: Evaluate Vedha obstruction under its own planet/house table and bindus from raw BAV on separate evidence chips.
+windows: Solve all sign crossings, including retrograde exits and returns; attach start/end instants to each continuous
+  phase.
+modifiers: Evaluate Vedha obstruction under its own planet/house table and bindus from raw BAV on separate evidence
+  chips.
+kb16:
+  reference: One sidereal profile per chart. For index 0..11 use 1 + (transit sign - natal reference sign) modulo
+    12, applying modulo before adding one. Evaluate each body only inside its dated sign window.
+  vedha: vedic/transits/vedha.yaml
+  raw_bav: vedic/strength/ashtakavarga/bindu.yaml
+  kakshya: vedic/strength/ashtakavarga/kakshya.yaml
+  aspects: vedic/aspects/full-graha.yaml
+  timing: vedic/dashas/vimshottari/periods.yaml
+  phase_links:
+  - vedic.doshas.sade-sati
+  - vedic.doshas.ashtama-shani
+  delivery: Attach area modifiers only to the bound target topic. Phase names annotate the existing Saturn house
+    reading. Emit a single nodal-axis reading. Display the raw BAV band and kakshya support separately; numerical
+    details are admin/tester-only.

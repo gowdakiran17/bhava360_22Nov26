@@ -1,0 +1,42 @@
+id: vedic.transits.jupiter-moon-house-10
+system: vedic
+topic: transits
+title: Jupiter in house 10 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Jupiter occupies sign 10 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.jupiter.distance_from_natal_moon
+    op: eq
+    value: 10
+meaning: You may want to review how a work role fits your values.
+life_areas:
+- career
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 57
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You may want to review how a work role fits your values.
+  kn: ನಿಮ್ಮ ಕೆಲಸವು ನಿಮ್ಮ ಮೌಲ್ಯಗಳಿಗೆ ಹೇಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: आप देख सकते हैं कि आपका काम आपके मूल्यों से कैसे मेल खाता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

@@ -1,0 +1,42 @@
+id: vedic.transits.moon-moon-house-4
+system: vedic
+topic: transits
+title: Moon in house 4 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Moon occupies sign 4 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.moon.distance_from_natal_moon
+    op: eq
+    value: 4
+meaning: A quiet corner at home may help you unwind.
+life_areas:
+- family-home
+- property-vehicles
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 54
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A quiet corner at home may help you unwind.
+  kn: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+  hi: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

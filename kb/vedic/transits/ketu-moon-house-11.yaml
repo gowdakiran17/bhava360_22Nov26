@@ -1,0 +1,45 @@
+id: vedic.transits.ketu-moon-house-11
+system: vedic
+topic: transits
+title: Ketu in house 11 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Ketu occupies sign 11 counted inclusively from the natal Moon within its solved transit
+  window. This is a traditionally supportive position before modifiers.
+conditions:
+  all:
+  - fact: transit.ketu.distance_from_natal_moon
+    op: eq
+    value: 11
+meaning: Simplifying one commitment around group goals may help you focus.
+life_areas:
+- money
+- career
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. This profile follows the Saturn
+    analogy for Rahu and Mars analogy for Ketu given after Table 59. Schools differ on independent node results.
+    Read the two ends together once.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 55 and note after Table 59
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: disputed
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: Simplifying one commitment around group goals may help you focus.
+  kn: ತಂಡದ ಯೋಜನೆಯಲ್ಲಿ ಅಗತ್ಯವಿರುವುದಕ್ಕೆ ಹೆಚ್ಚು ಗಮನ ಕೊಡಬಹುದು.
+  hi: समूह की योजना में आप ज़रूरी बात पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

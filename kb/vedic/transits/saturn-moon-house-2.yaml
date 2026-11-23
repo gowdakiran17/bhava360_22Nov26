@@ -1,0 +1,42 @@
+id: vedic.transits.saturn-moon-house-2
+system: vedic
+topic: transits
+title: Saturn in house 2 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Saturn occupies sign 2 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.saturn.distance_from_natal_moon
+    op: eq
+    value: 2
+meaning: You can pace spending around the needs of your household.
+life_areas:
+- money
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 59
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You can pace spending around the needs of your household.
+  kn: ಮನೆಯ ಅಗತ್ಯಗಳಿಗೆ ತಕ್ಕಂತೆ ಖರ್ಚನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: घर की ज़रूरतों के अनुसार आप खर्च बाँट सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

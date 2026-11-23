@@ -321,6 +321,8 @@ def validate_outer_profiles(rules):
 # Check display copy at any depth, including examples, remedies and non-rule catalogues.
 BANNED_USER_TERMS = re.compile(
     r'\b(?:deaths?|accidents?|fears?|feared|fearing|fearful)\b'
+    r'|(?:ka[nṇ][tṭ]aka|a[sṣ]h?[tṭ]ama)[ -]*(?:s[hś]ani)|s[aā][dḍ][eē][ -]*s[aā]t[iī]'
+    r'|(?:कंटक|कण्टक|अष्टम)\s*शनि|साढ़े\s*साती|(?:ಕಂಟಕ|ಅಷ್ಟಮ)\s*ಶನಿ|ಸಾಡೇ\s*ಸಾತಿ'
     r'|मृत्यु|मौत|दुर्घटना|हादस[ाे]|भय|(?<![ऀ-ॿ])डर'
     r'|ಮರಣ|ಸಾವು|ಸಾವಿನ|ಮೃತ್ಯು|ಅಪಘಾತ|ಭಯ|ಹೆದರ', re.I)
 
@@ -485,6 +487,8 @@ def main():
             require(len(matched)==1,(card,orientation))
     from shadbala import validate_shadbala
     validate_shadbala(rules, read, require)
+    from gochara import validate_gochara
+    validate_gochara(rules,read,evaluate,require)
     from other_dashas import validate_other_dashas
     validate_other_dashas(rules,read,evaluate,require)
     from vimshottari import validate_vimshottari

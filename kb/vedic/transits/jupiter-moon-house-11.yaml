@@ -1,0 +1,43 @@
+id: vedic.transits.jupiter-moon-house-11
+system: vedic
+topic: transits
+title: Jupiter in house 11 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Jupiter occupies sign 11 counted inclusively from the natal Moon within its solved transit
+  window. This is a traditionally supportive position before modifiers.
+conditions:
+  all:
+  - fact: transit.jupiter.distance_from_natal_moon
+    op: eq
+    value: 11
+meaning: A mentor or group may help you resume a longer-term goal.
+life_areas:
+- money
+- career
+- family-home
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 57
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A mentor or group may help you resume a longer-term goal.
+  kn: ದೀರ್ಘಕಾಲದ ಗುರಿಯನ್ನು ಮತ್ತೆ ಕೈಗೆತ್ತಿಕೊಳ್ಳಲು ಮಾರ್ಗದರ್ಶಿ ಅಥವಾ ತಂಡ ನೆರವಾಗಬಹುದು.
+  hi: कोई मार्गदर्शक या समूह पुराने दीर्घकालीन लक्ष्य पर लौटने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

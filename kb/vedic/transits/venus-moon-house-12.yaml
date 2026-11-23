@@ -1,0 +1,45 @@
+id: vedic.transits.venus-moon-house-12
+system: vedic
+topic: transits
+title: Venus in house 12 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Venus occupies sign 12 counted inclusively from the natal Moon within its solved transit
+  window. Mixed indications in this source.
+conditions:
+  all:
+  - fact: transit.venus.distance_from_natal_moon
+    op: eq
+    value: 12
+meaning: You may enjoy private time while keeping spending in view.
+life_areas:
+- money
+- health
+- spirituality
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Table 58 marks this position as
+    difficult, while Table 63 includes it among the positions subject to vedha. Keep the reading mixed and the vedha
+    lookup independent.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 58
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: disputed
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You may enjoy private time while keeping spending in view.
+  kn: ಖರ್ಚನ್ನು ಗಮನದಲ್ಲಿಟ್ಟುಕೊಂಡು ಏಕಾಂತದ ಸಮಯವನ್ನು ಆನಂದಿಸಬಹುದು.
+  hi: खर्च का ध्यान रखते हुए निजी समय का आनंद ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

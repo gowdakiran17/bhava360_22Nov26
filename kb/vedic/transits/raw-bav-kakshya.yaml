@@ -1,0 +1,44 @@
+id: vedic.transits.raw-bav-kakshya
+system: vedic
+topic: transits
+title: Raw bindus and kakshya
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: For one of the seven BAV grahas, read its unreduced natal BAV at its transit sign and apply bindu.yaml bands.
+  In the same sign select the KB-13 kakshya lord and its raw contributor bit. Fire this supporting detail only for
+  bit one; preserve the sign band even for bit zero. Keep numerical evidence admin/tester-only.
+conditions:
+  all:
+  - fact: transit.av.contributor_mark
+    op: eq
+    value: true
+meaning: This part of the transit may offer a little extra support.
+life_areas:
+- career
+- learning
+- money
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use KB-13 raw individual BAV and prastara. Other approaches also consult SAV; reduced tables serve a different
+    calculation.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.5 and 25.5.2, Table 60
+  supports: Sign bindus and the subdivision contributor.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: This part of the transit may offer a little extra support.
+  kn: ಸಂಚಾರದ ಈ ಭಾಗದಲ್ಲಿ ಸ್ವಲ್ಪ ಹೆಚ್ಚುವರಿ ಬೆಂಬಲ ಸಿಗಬಹುದು.
+  hi: गोचर के इस हिस्से में थोड़ा अतिरिक्त सहारा मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

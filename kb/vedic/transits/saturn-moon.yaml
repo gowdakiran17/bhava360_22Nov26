@@ -1,35 +1,40 @@
 id: vedic.transits.saturn-moon
 system: vedic
 topic: transits
-title: Saturn Moon
+title: Saturn in house 1 from the natal Moon
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Saturn occupies the natal Moon sign within a solved ingress-to-egress interval.
+rule: At the query instant Saturn occupies sign 1 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
 conditions:
   all:
   - fact: transit.saturn.over_moon_sign
     op: eq
     value: true
-meaning: You may prefer a steady routine during this period.
-life_areas: []
+meaning: A steady routine may help you settle into new responsibilities.
+life_areas:
+- health
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
 sources:
-- book: Bhava360 transit conventions
-  work_id: bhava360-transit-conventions
-  edition: bhava360-transit-conventions-v1
-  chapter: null
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
   verse: null
-  other_locator: vedic.transits.saturn-moon
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  other_locator: 25.2, Table 59
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
 user_text:
-  en: You may prefer a steady routine during this period.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಸ್ಥಿರ ದಿನಚರಿ ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.
-  hi: इस अवधि में स्थिर दिनचर्या आपको सहज लग सकती है।
+  en: A steady routine may help you settle into new responsibilities.
+  kn: ಹೊಸ ಹೊಣೆಗಳಿಗೆ ಹೊಂದಿಕೊಳ್ಳಲು ಸ್ಥಿರ ದಿನಚರಿ ನೆರವಾಗಬಹುದು.
+  hi: नियमित दिनचर्या नई ज़िम्मेदारियाँ सँभालने में मदद कर सकती है।
 native_review:
   kn: pending
   hi: pending

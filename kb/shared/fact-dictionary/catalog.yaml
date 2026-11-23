@@ -17,6 +17,129 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  transit.sun.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated sun sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.moon.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated moon sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.mars.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated mars sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.mercury.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated mercury sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.jupiter.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated jupiter sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.venus.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated venus sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.rahu.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated rahu sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.ketu.distance_from_natal_moon:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (dated ketu sign index minus natal Moon sign index) modulo twelve. Use a single sidereal profile
+      and the active half-open sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+    range:
+    - 1
+    - 12
+  transit.vedha.blocked:
+    type: boolean
+    producer: vedic.transits
+    origin: Look up the selected graha and Moon-relative house in vedha.yaml. At the same instant find other eligible
+      occupants of the paired house. Remove mutual exceptions individually. Any remaining blocker softens the supportive
+      indication. A missing row means inapplicable.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.av.contributor_mark:
+    type: boolean
+    producer: vedic.transits
+    origin: For one of the seven BAV grahas, read its unreduced natal BAV at its transit sign and apply bindu.yaml
+      bands. In the same sign select the KB-13 kakshya lord and its raw contributor bit. Fire this supporting detail
+      only for bit one; preserve the sign band even for bit zero. Keep numerical evidence admin/tester-only.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.double.common_target:
+    type: boolean
+    producer: vedic.transits
+    origin: Bind a selected natal whole-sign house from Lagna. At one instant both Jupiter and Saturn must each occupy
+      its sign or cast a full graha aspect to it, using vedic/aspects/full-graha.yaml. Intersect their windows.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.nodes.opposed:
+    type: boolean
+    producer: vedic.transits
+    origin: Bind Rahu and Ketu from the same mean-node or true-node model and instant. Require longitudes opposite
+      modulo a full circle to the stored arcsecond, then count both signs from the natal Moon. Combine the corresponding
+      house readings once per axis and window.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.motion.retrograde:
+    type: boolean
+    producer: vedic.transits
+    origin: Within the selected motion interval, signed geocentric longitude speed is negative. At zero do not fire
+      retrograde merely from the instantaneous speed.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.motion.station:
+    type: boolean
+    producer: vedic.transits
+    origin: At a solved instant with zero longitudinal speed, the signs of the neighboring nonzero speeds must differ.
+      A small nonzero speed alone does not qualify.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.contact.natal:
+    type: boolean
+    producer: vedic.transits
+    origin: At the query instant the selected transit graha occupies the sidereal sign containing the selected natal
+      graha. Bind both identities and the sign interval.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
+  transit.contact.active_lord:
+    type: boolean
+    producer: vedic.transits
+    origin: Require the same sign contact with a natal graha whose identity equals the active Vimshottari maha or
+      antar lord at the same instant. Intersect contact and dated dasha intervals; deduplicate coincident lords.
+    unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
   dasha.yogini.work_topic:
     type: boolean
     producer: vedic.dashas/yogini

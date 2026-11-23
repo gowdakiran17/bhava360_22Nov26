@@ -1,0 +1,44 @@
+id: vedic.transits.rahu-moon-house-5
+system: vedic
+topic: transits
+title: Rahu in house 5 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Rahu occupies sign 5 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.rahu.distance_from_natal_moon
+    op: eq
+    value: 5
+meaning: An unfamiliar option in creative work may merit a closer look.
+life_areas:
+- children
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. This profile follows the Saturn
+    analogy for Rahu and Mars analogy for Ketu given after Table 59. Schools differ on independent node results.
+    Read the two ends together once.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 59 and note after Table 59
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: disputed
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: An unfamiliar option in creative work may merit a closer look.
+  kn: ಸೃಜನಶೀಲ ಕೆಲಸದಲ್ಲಿ ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಸಾವಧಾನವಾಗಿ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: रचनात्मक काम में आप नए विकल्प को परख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

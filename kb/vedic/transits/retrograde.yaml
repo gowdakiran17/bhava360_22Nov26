@@ -1,0 +1,50 @@
+id: vedic.transits.retrograde
+system: vedic
+topic: transits
+title: Retrograde
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Within the selected motion interval, signed geocentric longitude speed is negative. At zero do not fire retrograde
+  merely from the instantaneous speed.
+conditions:
+  all:
+  - fact: transit.motion.retrograde
+    op: eq
+    value: true
+meaning: You may find a second look at an earlier decision worthwhile.
+life_areas:
+- career
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Apply to Mercury, Venus, Mars, Jupiter and Saturn. Node models have different motion conventions. An unresolved
+    station time stays unknown.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Motional strength
+  supports: Retrogression as a source of motional strength.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You may find a second look at an earlier decision worthwhile.
+  kn: ಹಿಂದಿನ ನಿರ್ಧಾರವನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: किसी पुराने निर्णय पर फिर विचार करना सहायक हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

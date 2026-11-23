@@ -1,0 +1,43 @@
+id: vedic.transits.venus-moon-house-9
+system: vedic
+topic: transits
+title: Venus in house 9 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Venus occupies sign 9 counted inclusively from the natal Moon within its solved transit
+  window. This is a traditionally supportive position before modifiers.
+conditions:
+  all:
+  - fact: transit.venus.distance_from_natal_moon
+    op: eq
+    value: 9
+meaning: A shared interest may make a journey more enjoyable.
+life_areas:
+- learning
+- spirituality
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 58
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: A shared interest may make a journey more enjoyable.
+  kn: ಒಂದೇ ಆಸಕ್ತಿಯಿದ್ದರೆ ಒಟ್ಟಿನ ಪ್ರಯಾಣ ಹೆಚ್ಚು ಹಿತವಾಗಬಹುದು.
+  hi: साझी रुचि से यात्रा अधिक आनंददायक हो सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

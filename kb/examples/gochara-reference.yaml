@@ -1,0 +1,39 @@
+synthetic: true
+description: Invented sidereal sign windows and event instants for boundary tests. These are not ephemeris positions.
+sweep:
+  person: Ravi
+  start_utc: '2032-01-01T00:00:00Z'
+  window_days: 30
+  natal_moon_sign: 10
+  natal_lagna_sign: 4
+  # Each row is an independent trajectory for testing the given graha.
+  transit_signs: [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+  expected_moon_houses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
+snapshot:
+  person: Asha
+  instant: '2032-06-15T12:00:00Z'
+  start: '2032-06-01T00:00:00Z'
+  end: '2032-07-01T00:00:00Z'
+  natal_signs: {sun: 0, moon: 11, mars: 6, mercury: 1, jupiter: 2, venus: 5, saturn: 3, lagna: 4}
+  # Longitude in sidereal degrees at the fixture instant.
+  longitude: {sun: 300, moon: 90, mars: 321, mercury: 180, jupiter: 270, venus: 90, saturn: 30, rahu: 75, ketu: 255}
+  target_sign: 1
+  contact: {moving: saturn, natal: mercury}
+  active_maha: saturn
+  active_antar: mercury
+  next_antar: venus
+  antar_end: '2032-06-16T00:00:00Z'
+  expected_saturn_house: 3
+  expected_vedha_blockers: [mars]
+  expected_kakshya: saturn
+  expected_kakshya_bit: 1
+  expected_bav_band: Supportive
+station:
+  person: Meera
+  graha: mercury
+  samples:
+    - ['2032-10-01T12:00:00Z', 0.01, direct]
+    - ['2032-10-02T12:00:00Z', 0, station]
+    - ['2032-10-03T12:00:00Z', -0.01, retrograde]
+    - ['2032-10-04T12:00:00Z', 0, station]
+    - ['2032-10-05T12:00:00Z', 0.01, direct]

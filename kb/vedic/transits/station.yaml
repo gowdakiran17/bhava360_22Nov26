@@ -1,0 +1,50 @@
+id: vedic.transits.station
+system: vedic
+topic: transits
+title: Station
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At a solved instant with zero longitudinal speed, the signs of the neighboring nonzero speeds must differ.
+  A small nonzero speed alone does not qualify.
+conditions:
+  all:
+  - fact: transit.motion.station
+    op: eq
+    value: true
+meaning: You may want to pause before changing direction.
+life_areas:
+- career
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Apply to Mercury, Venus, Mars, Jupiter and Saturn. Node models have different motion conventions. An unresolved
+    station time stays unknown.
+sources:
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 4
+  verse: '2'
+  other_locator: Motional strength
+  supports: Retrogression as a source of motional strength.
+  verification: verified
+- book: Bhava360 transit conventions
+  work_id: bhava360-transit-conventions
+  edition: bhava360-transit-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: vedic/transits/evidence.yaml
+  supports: Bhava360 selection, calculation boundaries and original reflective wording.
+  verification: pending
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You may want to pause before changing direction.
+  kn: ದಿಕ್ಕು ಬದಲಿಸುವ ಮೊದಲು ಸ್ವಲ್ಪ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: दिशा बदलने से पहले थोड़ा ठहर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

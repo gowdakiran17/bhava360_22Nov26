@@ -1,0 +1,45 @@
+id: vedic.transits.vedha-obstruction
+system: vedic
+topic: transits
+title: Vedha on a Moon-relative transit
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Look up the selected graha and Moon-relative house in vedha.yaml. At the same instant find other eligible
+  occupants of the paired house. Remove mutual exceptions individually. Any remaining blocker softens the supportive
+  indication. A missing row means inapplicable.
+conditions:
+  all:
+  - fact: transit.vedha.blocked
+    op: eq
+    value: true
+meaning: You may need more time or help to make use of an opening.
+life_areas:
+- career
+- money
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. This profile limits blockers to
+    the seven grahas in the table.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 26
+  verse: null
+  other_locator: 26.3, Table 63 and the two exceptions below it
+  supports: Moon-relative house pairs and mutual exemptions.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You may need more time or help to make use of an opening.
+  kn: ಅವಕಾಶವನ್ನು ಬಳಸಿಕೊಳ್ಳಲು ಹೆಚ್ಚು ಸಮಯ ಅಥವಾ ನೆರವು ಬೇಕಾಗಬಹುದು.
+  hi: किसी अवसर का उपयोग करने के लिए थोड़ा और समय या सहयोग लग सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

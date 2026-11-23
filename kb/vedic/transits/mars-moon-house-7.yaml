@@ -1,0 +1,42 @@
+id: vedic.transits.mars-moon-house-7
+system: vedic
+topic: transits
+title: Mars in house 7 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Mars occupies sign 7 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.mars.distance_from_natal_moon
+    op: eq
+    value: 7
+meaning: Agreeing on a pause may keep a disagreement constructive.
+life_areas:
+- love-marriage
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 55
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: Agreeing on a pause may keep a disagreement constructive.
+  kn: ಭಿನ್ನಾಭಿಪ್ರಾಯ ಬಂದಾಗ ಒಪ್ಪಿಗೆಯಿಂದ ಸ್ವಲ್ಪ ವಿರಾಮ ಪಡೆಯಬಹುದು.
+  hi: असहमति के दौरान मिलकर थोड़ा विराम लेना मददगार हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

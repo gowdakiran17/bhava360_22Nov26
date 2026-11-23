@@ -1,9 +1,17 @@
-version: 1
+version: 2
 approval: draft
 profile: moon-based-gochara-candidate-v1
-source: Phaladeepika, transit chapter; exact verse and planetary exceptions pending review.
-meaning: Pair each supportive relative house with a possible obstructing relative house measured from natal Moon. Inspect
-  other transiting occupants; preserve the named Vedha pair as evidence.
+source:
+  book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 26
+  verse: null
+  other_locator: 26.3, Table 63 and the two exceptions below it
+  supports: Moon-relative house pairs and mutual exemptions.
+  verification: verified
+meaning: Pair each supportive relative house with a possible obstructing relative house measured from natal Moon.
+  Inspect other transiting occupants; preserve the named Vedha pair as evidence.
 support_to_obstruction:
   sun:
     3: 9
@@ -48,5 +56,21 @@ support_to_obstruction:
     3: 12
     6: 9
     11: 5
-exception: Candidate Sun/Saturn and Moon/Mercury mutual exceptions require profile verification. Hold automatic obstruction
-  wording until reviewed.
+exception: Remove each exempt occupant before deciding whether another occupant still obstructs.
+mutual_exemptions:
+- - sun
+  - saturn
+- - moon
+  - mercury
+eligible_blockers:
+- sun
+- moon
+- mars
+- mercury
+- jupiter
+- venus
+- saturn
+bounds: Same instant in overlapping start-inclusive, end-exclusive transit windows. Unknown occupancy stays unknown
+  unless an eligible blocker is already known.
+scope: Seven-graha profile. The source supplies no independent node rows. A listed supportive house is a candidate
+  before obstruction. Read only in the forward direction.

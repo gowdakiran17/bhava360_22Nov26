@@ -1,0 +1,41 @@
+id: vedic.transits.moon-moon-house-1
+system: vedic
+topic: transits
+title: Moon in house 1 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Moon occupies sign 1 counted inclusively from the natal Moon within its solved transit
+  window. This is a traditionally supportive position before modifiers.
+conditions:
+  all:
+  - fact: transit.moon.distance_from_natal_moon
+    op: eq
+    value: 1
+meaning: Familiar routines may feel especially comforting.
+life_areas:
+- health
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 54
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: Familiar routines may feel especially comforting.
+  kn: ಪರಿಚಿತ ದಿನಚರಿ ಮನಸ್ಸಿಗೆ ನೆಮ್ಮದಿ ನೀಡಬಹುದು.
+  hi: जानी-पहचानी दिनचर्या सुकून दे सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

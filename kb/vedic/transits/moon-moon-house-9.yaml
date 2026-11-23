@@ -1,0 +1,43 @@
+id: vedic.transits.moon-moon-house-9
+system: vedic
+topic: transits
+title: Moon in house 9 from the natal Moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: At the query instant Moon occupies sign 9 counted inclusively from the natal Moon within its solved transit
+  window. This position invites attention to adjustments in the relevant area.
+conditions:
+  all:
+  - fact: transit.moon.distance_from_natal_moon
+    op: eq
+    value: 9
+meaning: You can give an unsettled question time to develop.
+life_areas:
+- learning
+- spirituality
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
+    (§25.3). Moon-relative classifications and vedha belong to the Moon reading.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 25
+  verse: null
+  other_locator: 25.2, Table 54
+  supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
+  verification: verified
+confidence: medium
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+user_text:
+  en: You can give an unsettled question time to develop.
+  kn: ಇನ್ನೂ ಉತ್ತರ ಸಿಗದ ಪ್ರಶ್ನೆಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಕೊಡಬಹುದು.
+  hi: किसी अनसुलझे सवाल को थोड़ा समय दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
