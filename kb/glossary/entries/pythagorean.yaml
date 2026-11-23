@@ -19,6 +19,10 @@ used_by:
 - numerology.pythagorean.birthday
 - numerology.pythagorean.check-personal-baby-name-name-root
 - numerology.pythagorean.expression
+- numerology.pythagorean.karmic-debt-13
+- numerology.pythagorean.karmic-debt-14
+- numerology.pythagorean.karmic-debt-16
+- numerology.pythagorean.karmic-debt-19
 - numerology.pythagorean.life-path
 - numerology.pythagorean.master-11
 - numerology.pythagorean.master-22

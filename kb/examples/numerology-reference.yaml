@@ -51,3 +51,18 @@ tone_cases:
 - {indices: [1, 1, 1], expected: Steady}
 - {indices: [0, 1, 2], approved: false, expected: Steady}
 - {check: vehicle-number, indices: [1, 2, 3], expected: Take care}
+kavya_rao:
+  name: Kavya Rao
+  synthetic_date: '1992-03-12'
+  letter_weights: [2,1,4,7,1,9,1,6]
+  mobile: '9000000001'
+  mobile_chain: [10,1]
+  moolank: 3
+  direction: support
+  components: {life-path-month: [3], life-path-day: [12,3], life-path-year: [1992,21,3], life-path-final: [9], birthday: [12,3], expression: [31,4], soul-urge: [9], personality: [22]}
+  full-digit-sum: {life-path-final: [27,9], birthday: [12,3], expression: [31,4], soul-urge: [9], personality: [22]}
+  maturity: [13,4]
+  debt_hits: []
+  interpretation: Maturity is outside the eligible stage set. Jupiter (birth) to Sun (candidate) is friendly; equality does not match. The directional reason alone does not establish an overall fit.
+  cycle_target: '2026-11-23'
+  cycle_chains: {target_year: [2026,10,1], personal_year: [7], personal_month: [18,9], personal_day: [32,5]}

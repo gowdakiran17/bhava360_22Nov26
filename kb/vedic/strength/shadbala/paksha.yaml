@@ -17,6 +17,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
+  note: BPHS 27.18. Keep the Moon phase and solar Ayana terms undoubled in Kala; luminary Cheshta supplies the second contribution.
+- profile: vedic-editorial-v1
   note: Some implementations double the lunar award or reclassify Moon and Mercury by phase or association. Keep
     the selected convention throughout.
 sources:

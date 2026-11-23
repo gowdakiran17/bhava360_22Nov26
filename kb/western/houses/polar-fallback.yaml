@@ -5,6 +5,7 @@ title: Polar Fallback
 doctrine_profile: western-editorial-v1
 approval: draft
 rule: The chosen quadrant system could not produce cusps and the engine explicitly used Whole Sign.
+  For Western Placidus or Koch failure use the labelled whole-sign recomputation in western/profile.yaml; withhold houses without a stable Ascendant.
 conditions:
   all:
   - fact: western.polar-fallback-used

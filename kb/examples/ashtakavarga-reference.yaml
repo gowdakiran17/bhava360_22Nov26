@@ -1,6 +1,6 @@
 synthetic: true
 numeric_access: [admin, tester]
-provenance: Expected BAV cells independently tallied by destination sign from Rao Tables 19–25. Remaining rows
+provenance: Expected BAV cells independently tallied by destination sign from Rao Tables 19–25 with the KB-34 Raman/Santhanam Moon row substitutions. Remaining rows
   are a separate arithmetic worksheet for the KB seven-occupant and Virgo-five profile.
 sign_index: Aries = 0 through Pisces = 11
 pinda_order: [rashi, graha, shodhya]
@@ -17,16 +17,16 @@ fixtures:
       lagna: 3
     bav:
       sun: [6, 7, 4, 3, 2, 5, 4, 5, 4, 3, 3, 2]
-      moon: [4, 3, 2, 4, 4, 5, 4, 4, 6, 4, 5, 4]
+      moon: [4, 3, 3, 4, 4, 5, 4, 4, 7, 4, 4, 3]
       mars: [4, 5, 3, 3, 3, 4, 3, 4, 3, 3, 2, 2]
       mercury: [6, 5, 4, 4, 7, 4, 5, 3, 4, 3, 6, 3]
       jupiter: [5, 5, 2, 6, 5, 1, 7, 6, 3, 7, 4, 5]
       venus: [2, 4, 4, 4, 5, 6, 6, 5, 2, 3, 4, 7]
       saturn: [4, 5, 2, 3, 1, 3, 4, 3, 6, 3, 3, 2]
-    sav: [31, 34, 21, 27, 27, 28, 33, 30, 28, 26, 27, 25]
+    sav: [31, 34, 22, 27, 27, 28, 33, 30, 29, 26, 26, 24]
     after_trikona:
       sun: [4, 4, 1, 1, 0, 2, 1, 3, 2, 0, 0, 0]
-      moon: [0, 0, 0, 0, 0, 2, 2, 0, 2, 1, 3, 0]
+      moon: [0, 0, 0, 1, 0, 2, 1, 1, 3, 1, 1, 0]
       mars: [1, 2, 1, 1, 0, 1, 1, 2, 0, 0, 0, 0]
       mercury: [2, 2, 0, 1, 3, 1, 1, 0, 0, 0, 2, 0]
       jupiter: [2, 4, 0, 1, 2, 0, 5, 1, 0, 6, 2, 0]
@@ -34,7 +34,7 @@ fixtures:
       saturn: [3, 2, 0, 1, 0, 0, 2, 1, 5, 0, 1, 0]
     after_ekadhipatya:
       sun: [4, 4, 1, 1, 0, 1, 1, 0, 2, 0, 0, 0]
-      moon: [0, 0, 0, 0, 0, 2, 2, 0, 2, 1, 1, 0]
+      moon: [0, 0, 0, 1, 0, 2, 1, 1, 3, 1, 0, 0]
       mars: [1, 2, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0]
       mercury: [2, 2, 0, 1, 3, 1, 1, 0, 0, 0, 2, 0]
       jupiter: [2, 4, 0, 1, 2, 0, 5, 0, 0, 6, 0, 0]
@@ -42,7 +42,7 @@ fixtures:
       saturn: [3, 2, 0, 1, 0, 0, 2, 0, 5, 0, 1, 0]
     pinda:
       sun: [110, 60, 170]
-      moon: [58, 26, 84]
+      moon: [61, 23, 84]
       mars: [54, 35, 89]
       mercury: [102, 48, 150]
       jupiter: [143, 145, 288]
@@ -60,16 +60,16 @@ fixtures:
       lagna: 1
     bav:
       sun: [4, 2, 5, 3, 4, 4, 4, 4, 5, 4, 5, 4]
-      moon: [2, 4, 5, 4, 4, 6, 4, 4, 2, 6, 4, 4]
+      moon: [2, 4, 5, 5, 4, 4, 4, 4, 3, 6, 4, 4]
       mars: [1, 5, 4, 5, 4, 2, 3, 3, 1, 4, 5, 2]
       mercury: [4, 4, 6, 5, 5, 2, 4, 5, 4, 5, 6, 4]
       jupiter: [5, 6, 3, 4, 4, 5, 5, 6, 3, 6, 5, 4]
       venus: [3, 4, 6, 4, 4, 5, 2, 2, 6, 5, 5, 6]
       saturn: [2, 1, 4, 2, 3, 4, 2, 2, 3, 6, 4, 6]
-    sav: [21, 26, 33, 27, 28, 28, 24, 26, 24, 36, 34, 30]
+    sav: [21, 26, 33, 28, 28, 26, 24, 26, 25, 36, 34, 30]
     after_trikona:
       sun: [0, 0, 1, 0, 0, 2, 0, 1, 1, 2, 1, 1]
-      moon: [0, 0, 1, 0, 2, 2, 0, 0, 0, 2, 0, 0]
+      moon: [0, 0, 1, 1, 2, 0, 0, 0, 1, 2, 0, 0]
       mars: [0, 3, 1, 3, 3, 0, 0, 1, 0, 2, 2, 0]
       mercury: [0, 2, 2, 1, 1, 0, 0, 1, 0, 3, 2, 0]
       jupiter: [2, 1, 0, 0, 1, 0, 2, 2, 0, 1, 2, 0]
@@ -77,7 +77,7 @@ fixtures:
       saturn: [0, 0, 2, 0, 1, 3, 0, 0, 1, 5, 2, 4]
     after_ekadhipatya:
       sun: [0, 0, 1, 0, 0, 1, 0, 1, 0, 2, 0, 1]
-      moon: [0, 0, 1, 0, 2, 1, 0, 0, 0, 2, 0, 0]
+      moon: [0, 0, 1, 1, 2, 0, 0, 0, 1, 2, 0, 0]
       mars: [0, 3, 1, 3, 3, 0, 0, 1, 0, 2, 0, 0]
       mercury: [0, 2, 2, 1, 1, 0, 0, 1, 0, 3, 0, 0]
       jupiter: [2, 1, 0, 0, 1, 0, 1, 2, 0, 1, 1, 0]
@@ -85,7 +85,7 @@ fixtures:
       saturn: [0, 0, 2, 0, 1, 2, 0, 0, 0, 5, 0, 4]
     pinda:
       sun: [43, 27, 70]
-      moon: [43, 30, 73]
+      moon: [51, 30, 81]
       mars: [98, 45, 143]
       mercury: [73, 30, 103]
       jupiter: [73, 51, 124]

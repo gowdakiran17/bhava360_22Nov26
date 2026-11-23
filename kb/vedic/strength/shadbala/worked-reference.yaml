@@ -10,7 +10,8 @@ sun_sthana_components:
   kendra: 60
   drekkana: 15
 expected_virupas: 198
-scope: This benchmark checks a position-strength subtotal. The full synthetic component worksheet for the library profile is examples/shadbala-reference.yaml.
+scope: This benchmark checks a position-strength subtotal. The full synthetic component worksheet for the library
+  profile is examples/shadbala-reference.yaml.
 published_raman:
   verification: unverified-pending-source
   work: B.V. Raman, Graha and Bhava Balas
@@ -18,16 +19,13 @@ published_raman:
   locator: null
   source_ayanamsa_and_inputs: null
   expected_7_by_6: null
-  completion: Supply the edition, pages, component units, reference frame and anonymous calculation inputs before enabling a published comparison.
+  completion: Supply the edition, pages, component units, reference frame and anonymous calculation inputs
+    before enabling a published comparison.
 scenario:
   name: Scenario S1
   verification: unverified-pending-source
   synthetic: true
   jd_ut: 2451545.0
-  observer_east_north_m:
-  - 15
-  - 12
-  - 0
   profile: parashari-strength-v1
   ayanamsa: SE_SIDM_LAHIRI
   backend: SEFLG_MOSEPH
@@ -78,6 +76,7 @@ scenario:
     solar_hour: 12.945245739072561
     epoch_weekday: 6
     completed_days: 0
+    solar_altitude_deg: 52.316997614692184
   absolute_tolerance_virupas:
     sthana: 1.0e-06
     dig: 1.0e-06
@@ -135,3 +134,48 @@ scenario:
       cheshta: 41.57866484533292
       naisargika: 8.571428571428571
       drik: -30.399862750641944
+  observer:
+    longitude_deg_east: 15
+    latitude_deg_north: 12
+    elevation_m: 0
+weekday_probes:
+  1:
+    abda: saturn
+    masa: saturn
+    vara: sun
+    sun_kala: 206.25733156
+  2:
+    abda: saturn
+    masa: saturn
+    vara: moon
+    sun_kala: 165.02498984
+  3:
+    abda: saturn
+    masa: saturn
+    vara: mars
+    sun_kala: 168.78737143
+  4:
+    abda: saturn
+    masa: saturn
+    vara: mercury
+    sun_kala: 172.55815432
+  5:
+    abda: saturn
+    masa: saturn
+    vara: jupiter
+    sun_kala: 176.3490194
+  6:
+    abda: saturn
+    masa: saturn
+    vara: venus
+    sun_kala: 234.78367986
+  31:
+    abda: saturn
+    masa: moon
+    vara: mars
+    sun_kala: 169.78606245
+  361:
+    abda: mars
+    masa: mars
+    vara: mercury
+    sun_kala: 169.53864185

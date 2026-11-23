@@ -35,6 +35,15 @@ class EngineExport(unittest.TestCase):
                 word = self.docs[f'public/locales/{locale}.json']['messages'][public['label']]
                 self.assertEqual(word,row[locale])
                 self.assertNotRegex(word, r'\d|%|weak|rank')
+    def test_new_reflections_only_expose_public_copy(self):
+        ids = [key for key in self.rules if 'karmic-debt-' in key or key.endswith('ruler-compatibility')]
+        self.assertEqual(len(ids),7)
+        for key in ids:
+            rendered=self.docs['public/numerology.json']['readings'][self.rows[key]['public_key']]
+            self.assertEqual(set(rendered),{'user_text','tone','remedy'})
+            for locale in ('en','kn','hi'):
+                text=self.docs[f'public/locales/{locale}.json']['messages'][rendered['user_text']]
+                self.assertNotRegex(text,r'\d|%|must pay|house [0-9]')
     def test_manifest_integrity_and_schemas(self):
         inventory = self.manifest['files']
         self.assertEqual(set(self.files),set(inventory)|{'manifest.json'})

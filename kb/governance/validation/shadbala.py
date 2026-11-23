@@ -13,14 +13,23 @@ def arc(a, b):
     return abs((a-b+180) % 360-180)
 
 
-def aspect(table, planet, angle):
+def aspect(table, planet, angle, method="interpolated-peak"):
+    if angle is None:
+        return None
+    angle %= 360
     knots = table['knots_degrees']
-    weights = [60 if k in table['special'].get(planet, []) else v for k,v in zip(knots,table['common'])]
+    weights = [60 if method=='interpolated-peak' and k in table['special'].get(planet, []) else v for k,v in zip(knots,table['common'])]
     i = bisect_right(knots,angle)-1
-    return weights[i] + (weights[i+1]-weights[i])*(angle-knots[i])/(knots[i+1]-knots[i])
+    bonus = 0
+    if method=='fixed-segment':
+        if any(k<=angle<k+table['segment_width_degrees'] for k in table['special'].get(planet,[])):
+            bonus=table['fixed_segment_bonus'][planet]
+    elif method!='interpolated-peak':
+        raise ValueError('Unknown special aspect convention')
+    return bonus + weights[i] + (weights[i+1]-weights[i])*(angle-knots[i])/(knots[i+1]-knots[i])
 
 
-def recompute(chart, tables, rules, signs):
+def recompute(chart, tables, rules, signs, war_method="modern-kala-transfer", drik_method="interpolated-peak"):
     from varga_charts import calculate
     lon = chart['longitude']
     sign = {g:int(lon[g]//30) for g in GRAHAS}
@@ -99,7 +108,7 @@ def recompute(chart, tables, rules, signs):
             midpoint = slow+((lon[g]-slow+180)%360-180)/2
             r['cheshta'] = arc(midpoint,fast)/3
         r['naisargika'] = (1+tables['naisargika']['ascending'].index(g))*60/7
-        r['drik'] = sum(aspect(tables['drik'],p,(lon[g]-lon[p])%360)*(1 if nature[p] else -1)
+        r['drik'] = sum(aspect(tables['drik'],p,(lon[g]-lon[p])%360,drik_method)*(1 if nature[p] else -1)
                         for p in GRAHAS if p!=g)/4 if all(nature[p] is not None for p in GRAHAS if p!=g) else None
     war = rules[tables['yuddha']['winner_rule']]['state']
     pairs = [(a,b) for a,b in combinations(war['eligible'],2) if arc(lon[a],lon[b])<war['maximum_exclusive_degrees']]
@@ -110,7 +119,17 @@ def recompute(chart, tables, rules, signs):
             out[a]['yuddha']=out[b]['yuddha']=None
             continue
         pre = [sum(out[g][k] for k in tables['kala']['terms'] if k!='yuddha') for g in (a,b)]
-        transfer = abs(pre[0]-pre[1])*(1 if chart['latitude'][a]>chart['latitude'][b] else -1)
+        divisor = 1
+        if war_method=='classical-disc-difference':
+            diameters = chart.get('disc_arcminutes',{})
+            if any(diameters.get(g,0)<=0 for g in (a,b)) or diameters[a]==diameters[b]:
+                out[a]['yuddha']=out[b]['yuddha']=None
+                continue
+            divisor=abs(diameters[a]-diameters[b])
+            pre=[v+out[g]['sthana']+out[g]['dig'] for g,v in zip((a,b),pre)]
+        elif war_method!='modern-kala-transfer':
+            raise ValueError('Unknown war method')
+        transfer = abs(pre[0]-pre[1])/divisor*(1 if chart['latitude'][a]>chart['latitude'][b] else -1)
         out[a]['yuddha'],out[b]['yuddha'] = transfer,-transfer
     for g,r in out.items():
         r['kala'] = None if r['yuddha'] is None else sum(r[k] for k in tables['kala']['terms'])
@@ -180,4 +199,26 @@ def validate_shadbala(rules,read,require):
         require(tied[g]['kala'] is None and tied[g]['totals'] is None and tied[g]['ishta'] is not None,
                 g+' unresolved planetary war')
         require(outside[g]['yuddha']==0,g+' exclusive war threshold')
+    # Hold the D1 and divisional longitudes fixed. Altering only the MT endpoint
+    # isolates the Virgo/Libra-style 45 versus 30 D1 award from other varga awards.
+    from copy import deepcopy
+    former = deepcopy(rules)
+    former['vedic.planets.venus']['graha']['dignity']['moolatrikona_degree_limits']['libra']=[0,5]
+    for deg,expected in [(4.99,0),(5,15),(14.99,15),(15,0)]:
+        probe=dict(inputs,longitude=dict(inputs['longitude'],venus=180+deg))
+        now=recompute(probe,tables,rules,signs)['venus']['saptavargaja']
+        prior=recompute(probe,tables,former,signs)['venus']['saptavargaja']
+        require(now-prior==expected,'Venus D1 award boundary')
+    for g,start,bonus in [('mars',90,15),('jupiter',120,30),('saturn',60,45)]:
+        table=tables['drik']
+        for deg,extra in [(start-.01,0),(start,bonus),(start+15,bonus),(start+30,0)]:
+            base=aspect(table,'sun',deg)
+            require(isclose(aspect(table,g,deg,'fixed-segment'),base+extra),'BPHS aspect segment')
+    for diameters,known in [({},False),({'mars':1,'mercury':1},False),({'mars':1,'mercury':3},True)]:
+        res=recompute(dict(inputs,disc_arcminutes=diameters),tables,rules,signs,'classical-disc-difference')
+        require((res['mars']['yuddha'] is not None)==known,'war diameter availability')
+        if known:
+            a,b=(res[g] for g in ('mars','mercury'))
+            pre=lambda r:r['sthana']+r['dig']+r['kala']-r['yuddha']
+            require(isclose(abs(a['yuddha']),abs(pre(a)-pre(b))/2) and a['yuddha']==-b['yuddha'],'war transfer')
     print(f'{count} synthetic Shadbala reference values passed across both fixtures.')

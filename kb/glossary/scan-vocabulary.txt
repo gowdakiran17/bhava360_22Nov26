@@ -735,6 +735,7 @@ administrators
 admins
 admit
 admits
+adopts
 adult
 adults
 advance
@@ -759,6 +760,7 @@ affected
 affecting
 affection
 affects
+affinities
 affinity
 afflicted
 affliction
@@ -817,9 +819,11 @@ alphabetic
 already
 also
 alter
+altering
 alternate
 alternative
 alternatives
+altitude
 always
 ama
 amala
@@ -946,6 +950,7 @@ arrangements
 arranging
 array
 arrival
+arrows
 arthur
 articles
 artificial
@@ -994,11 +999,13 @@ assessment
 assets
 assign
 assigned
+assigning
 assignment
 assignments
 assigns
 associate
 associated
+associates
 association
 associations
 assumed
@@ -1037,6 +1044,8 @@ authority
 authorized
 authors
 automatic
+automatically
+auxiliary
 av
 availability
 available
@@ -1061,6 +1070,7 @@ ayanamsa
 ayanamsha
 ayu
 ayushman
+azalt
 b
 b009b20c895a1a4ac9154c4b8bfcd51c37feae1e8e5d370a1fc05085502301e9
 b03422772d383f9f27ee604d743c1d64227748542d29bce762f0f13f396b11e6
@@ -1220,6 +1230,7 @@ bkr
 bkt
 black
 blade
+blank
 blob
 block
 blocked
@@ -1231,6 +1242,7 @@ bodies
 body
 bone
 bones
+bonus
 bonuses
 book
 books
@@ -1553,6 +1565,7 @@ cluster
 clusters
 co
 code
+codes
 codex
 coherent
 cohort
@@ -1605,6 +1618,7 @@ communicating
 communication
 community
 companion
+companions
 companionship
 company
 comparable
@@ -1618,6 +1632,7 @@ comparison
 comparisons
 compass
 compassion
+compat
 compatibility
 compatible
 compete
@@ -1714,6 +1729,7 @@ consultation
 consulted
 consulting
 consume
+consumer
 consuming
 contact
 contacts
@@ -1765,6 +1781,7 @@ copy
 copyright
 core
 corner
+corners
 corpus
 correct
 corrected
@@ -1976,6 +1993,7 @@ declarations
 declared
 declares
 declination
+declined
 ded3411833784552ff5eda55e9e83e1acf583b1451eadb582b94d6ad6c0e7fb8
 ded66f5441d4f0206ef8652a08f0b7007016c646eaae1a15159873f95f177017
 deduplicate
@@ -1985,6 +2003,7 @@ deep
 deepa
 deepam
 deepavali
+deepcopy
 deer
 deergha
 def
@@ -1992,6 +2011,7 @@ default
 defaultdict
 defaults
 defect
+deferred
 defined
 defining
 definite
@@ -2052,6 +2072,7 @@ destiny
 detail
 detailed
 details
+detection
 determination
 deterministic
 dev
@@ -2081,6 +2102,8 @@ di
 diagnosis
 diagnostic
 diagram
+diameter
+diameters
 dict
 dictionary
 dictreader
@@ -2158,6 +2181,7 @@ distinct
 distinction
 distinctions
 distinguish
+distinguishable
 distinguishes
 distraction
 distractions
@@ -2173,6 +2197,7 @@ dividing
 division
 divisional
 divisions
+divisor
 divmod
 divyachadhava
 diwali
@@ -2321,6 +2346,7 @@ ec99bba8b694a48bfb045295ef067c05bf0ab5ce5fd05094589ff60d3da4513e
 ecbd57c7c9435148183a09ff0f7dd31cfef383232f605d73dec10bb7c43a5b3e
 ecc98e
 ece75e970d8286e567f538de9f3bc65a8eb148834c8d9ca9798c1cb635195d4a
+ecl2hor
 eclipse
 ecliptic
 ed
@@ -2381,6 +2407,7 @@ emblem
 embodiment
 emergency
 emit
+emits
 emitting
 emotional
 empathetic
@@ -2396,6 +2423,7 @@ empty
 en
 enable
 enabled
+enablement
 enables
 enabling
 enclosing
@@ -2757,6 +2785,7 @@ formation
 formations
 formatting
 formed
+former
 forms
 formula
 formulations
@@ -2913,6 +2942,7 @@ greater
 green
 gregorian
 grid
+grids
 griha
 grip
 groom
@@ -3008,6 +3038,7 @@ helpers
 helpful
 helping
 helps
+herbert
 here
 hermit
 hesitant
@@ -3064,6 +3095,7 @@ households
 houses
 housewarming
 how
+hp
 hpa
 hqz
 hs
@@ -3084,6 +3116,8 @@ id
 id001
 id002
 id003
+id004
+id005
 idea
 ideal
 ideals
@@ -3241,6 +3275,7 @@ interior
 intermediate
 internal
 interpolate
+interpolated
 interpolates
 interpolating
 interpolation
@@ -3299,6 +3334,7 @@ island
 iso
 isoformat
 isolated
+isolates
 isolation
 isspace
 issue
@@ -3329,6 +3365,7 @@ jataka
 jayanta
 jd
 je
+jenkins
 jewel
 jh
 jha
@@ -3387,13 +3424,16 @@ karakas
 karakatvas
 karana
 karanas
+kardinal
 karkataka
 karma
 karmaguna
+karmic
 kartika
 kashinatha
 kashta
 kaulava
+kavya
 kb
 kb10
 kb16
@@ -3634,6 +3674,7 @@ logging
 logic
 logs
 lon
+london
 long
 longer
 longevity
@@ -3652,6 +3693,7 @@ lord
 lords
 lordship
 lordships
+loser
 loses
 loss
 lost
@@ -3703,6 +3745,7 @@ m95
 ma
 machine
 madhya
+madhyas
 magha
 magician
 magnetic
@@ -3718,6 +3761,7 @@ maintaining
 maitreya
 maitri
 major
+majority
 makara
 make
 makes
@@ -3822,6 +3866,7 @@ mentors
 mentorship
 mercury
 merely
+meridian
 merit
 mesha
 message
@@ -4240,6 +4285,7 @@ outgrown
 outlet
 outline
 outlines
+outnumber
 output
 outputs
 outside
@@ -4252,6 +4298,7 @@ overlap
 overlapping
 overlaps
 overlay
+overlays
 overlooked
 override
 overrides
@@ -4443,6 +4490,7 @@ places
 placidus
 plain
 plan
+planes
 planet
 planetary
 planets
@@ -4516,6 +4564,7 @@ predicate
 predicates
 prediction
 predictions
+predominance
 pref
 prefer
 preference
@@ -4553,6 +4602,7 @@ principle
 principles
 print
 printed
+printing
 prior
 priorities
 priority
@@ -4647,6 +4697,7 @@ putra
 putrakaraka
 putting
 pvr
+pwke
 pwnejyvl
 py
 pycache
@@ -4821,6 +4872,7 @@ recognizing
 recommendation
 recommendations
 recommended
+recomputation
 recompute
 recomputed
 reconciled
@@ -4962,6 +5014,7 @@ required
 requirement
 requirements
 requires
+res
 research
 reserve
 reserved
@@ -5155,6 +5208,7 @@ sankata
 sankranti
 sanskrit
 sanskritdocuments
+santhanam
 sap
 saptami
 saptamsa
@@ -5230,6 +5284,7 @@ secondary
 seconds
 secrecy
 secrets
+sect
 section
 sections
 sector
@@ -5307,6 +5362,7 @@ sgspanchangam
 sh
 sha
 sha256
+shad
 shadbala
 shakata
 shakuni
@@ -5503,6 +5559,7 @@ specifically
 specified
 specifies
 specs
+speculative
 speech
 speed
 speeds
@@ -5536,6 +5593,7 @@ ssw
 stability
 stable
 stacking
+staff
 stage
 stages
 staircase
@@ -5629,7 +5687,9 @@ subset
 substance
 substantial
 substitute
+substituted
 substituting
+substitution
 substitutions
 subtle
 subtotal
@@ -5664,6 +5724,7 @@ sum
 summaries
 summary
 summation
+summed
 sums
 sun
 sunapha
@@ -5775,6 +5836,7 @@ tear
 teardrop
 technical
 technique
+techniques
 telugu
 temp
 temperamental
@@ -5839,6 +5901,7 @@ thirteenth
 thirty
 this
 those
+though
 thought
 thoughtfully
 three
@@ -5870,6 +5933,7 @@ tips
 tissue
 tithi
 tithis
+tithyamsha
 title
 titles
 to
@@ -5972,7 +6036,9 @@ trine
 trines
 trip
 triplicities
+trisect
 tritiya
+trop
 tropical
 true
 truepos
@@ -6228,6 +6294,7 @@ verses
 version
 versioned
 versions
+versus
 vertical
 very
 vesi
@@ -6273,6 +6340,7 @@ voice
 volume
 volunteered
 vosi
+vote
 votes
 vowel
 vowels
@@ -6285,6 +6353,7 @@ vrischika
 vrishabha
 vs
 vu
+vv
 vyaghata
 vyatipata
 vyaya
@@ -6350,6 +6419,7 @@ what
 wheat
 wheel
 when
+whenever
 where
 whether
 which
@@ -6363,6 +6433,7 @@ whom
 whose
 why
 wide
+widening
 wider
 width
 widths
@@ -7893,6 +7964,7 @@ zones
 स्वभाव
 स्वामी
 स्वास्थ्य
+स्वीकार
 स्वीकारना
 स्वीकारने
 ह
@@ -8197,6 +8269,7 @@ zones
 ಇಂದಿಗೂ
 ಇಂದಿನ
 ಇಂದು
+ಇಚ್ಛೆಗೆ
 ಇಚ್ಛೆಯಿದ್ದರೆ
 ಇಟ್ಟುಕೊಳ್ಳಬಹುದು
 ಇಡದೆ
@@ -8340,6 +8413,7 @@ zones
 ಏನು
 ಏನೆಂದು
 ಐ
+ಐಚ್ಛಿಕ
 ಒ
 ಒಂದಕ್ಕಿಂತ
 ಒಂದಕ್ಕೊಂದು
@@ -8538,6 +8612,7 @@ zones
 ಕೊಡುಗೆ
 ಕೊಡುಗೆಯನ್ನು
 ಕೊಡುತ್ತದೆ
+ಕೊಡುವ
 ಕೊಡುವುದು
 ಕೊನೆಗೊಳ್ಳುವ
 ಕೊನೆಯದಾಗಿ
@@ -8575,6 +8650,7 @@ zones
 ಖರ್ಚುಗಳನ್ನು
 ಖಾತರಿ
 ಖಾತರಿಯಲ್ಲ
+ಖಾಲಿ
 ಖಾಸಗಿ
 ಖಾಸಗಿತನ
 ಖುಷಿ
@@ -8861,6 +8937,7 @@ zones
 ದೃಷ್ಟಿಕೋನವನ್ನು
 ದೃಷ್ಟಿಗಳ
 ದೃಷ್ಟಿಯ
+ದೃಷ್ಟಿಯನ್ನು
 ದೃಷ್ಟಿಯಿಂದ
 ದೇವಾಲಯದಲ್ಲಿ
 ದೈನಂದಿನ
@@ -8979,6 +9056,7 @@ zones
 ನೆನಪು
 ನೆಮ್ಮದಿ
 ನೆರವನ್ನು
+ನೆರವನ್ನೂ
 ನೆರವಾಗದ
 ನೆರವಾಗಬಹುದು
 ನೆರವಾಗುತ್ತದೆ
@@ -9587,8 +9665,10 @@ zones
 ಲಭ್ಯವಿರುವ
 ಲಭ್ಯವಿಲ್ಲ
 ಲಯ
+ಲಯವನ್ನು
 ಲೆಕ್ಕ
 ಲೆಕ್ಕಪತ್ರದಿಂದ
+ಲೆಕ್ಕವನ್ನು
 ಳ
 ವ
 ವಕೀಲರೊಂದಿಗೆ
@@ -9871,6 +9951,7 @@ zones
 ಸಹಜವಾಗಿ
 ಸಹಭಾಗಿತ್ವ
 ಸಹಭಾಗಿತ್ವದ
+ಸಹವಾಸವು
 ಸಹಾನುಭೂತಿ
 ಸಹಾನುಭೂತಿಯಿಂದ
 ಸಹಾಯ
@@ -10029,6 +10110,7 @@ zones
 ಸ್ವಯಂ
 ಸ್ವಲ್ಪ
 ಸ್ವಾವಲಂಬನೆ
+ಸ್ವೀಕರಿಸಬಹುದು
 ಸ್ವೀಕರಿಸುವಾಗ
 ಸ್ವೀಕರಿಸುವುದು
 ಸ್ವೀಕಾರ
@@ -10106,6 +10188,7 @@ zones
 ಹೆಚ್ಚುತ್ತದೆ
 ಹೆಚ್ಚುವರಿ
 ಹೆಜ್ಜೆ
+ಹೆಜ್ಜೆಗಳಿಂದ
 ಹೆಜ್ಜೆಯನ್ನು
 ಹೆಜ್ಜೆಯಿಂದ
 ಹೆದರ

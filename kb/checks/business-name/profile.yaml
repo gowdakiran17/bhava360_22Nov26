@@ -8,7 +8,9 @@ steps:
   resolve the compound, master or root meaning only in that school.
 - Bind any compatible comparison IDs below only when their inputs and predicates hold. Deduplicate the evidence
   and use the parent recipe for a full-profile tone.
+compatibility_table: numerology/ank-jyotish/compatibility.yaml
 numerology_ids:
+- numerology.ank-jyotish.check-business-name-ruler-compatibility
 - numerology.chaldean.expression
 - numerology.pythagorean.expression
 - numerology.chaldean.check-business-name-brand-root

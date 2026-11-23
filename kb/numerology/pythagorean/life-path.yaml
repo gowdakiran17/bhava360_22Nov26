@@ -16,6 +16,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: numerology-editorial-v1
+  note: The full-digit-sum alternative retains masters in the combined chain only.
+- profile: numerology-editorial-v1
   note: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
     Schools can differ on which stages preserve masters.
 sources:

@@ -19,6 +19,10 @@ reference_rules: []
 used_by:
 - numerology.pythagorean.birthday
 - numerology.pythagorean.expression
+- numerology.pythagorean.karmic-debt-13
+- numerology.pythagorean.karmic-debt-14
+- numerology.pythagorean.karmic-debt-16
+- numerology.pythagorean.karmic-debt-19
 - numerology.pythagorean.life-path
 - numerology.pythagorean.maturity
 - numerology.pythagorean.personal-day

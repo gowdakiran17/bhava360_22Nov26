@@ -1,0 +1,38 @@
+id: vedic.strength-bhava-bala.bhava-occupants
+system: vedic
+topic: strength/bhava-bala
+title: bhava-occupants
+doctrine_profile: parashari-strength-v1
+approval: draft
+rule: Sum the per-occupant virupas in the whole-sign house; Moon, Venus and nodes contribute zero.
+conditions:
+  all:
+  - fact: strength.bhava.selected_component
+    op: eq
+    value: bhava-occupants
+meaning: Planetary company may add context to this theme.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: parashari-strength-v1
+  note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-strength-web
+  chapter: 27
+  verse: '30'
+  other_locator: null
+  supports: Classical Bhava Bala term. Edition locator supplied by review.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: Planetary company may add context to this theme.
+  kn: ಗ್ರಹಗಳ ಸಹವಾಸವು ಈ ವಿಷಯಕ್ಕೆ ಸಂದರ್ಭ ನೀಡಬಹುದು.
+  hi: ग्रहों का साथ इस विषय को समझने में सहायक हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

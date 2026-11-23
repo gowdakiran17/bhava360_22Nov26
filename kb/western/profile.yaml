@@ -4,10 +4,15 @@ longitude: Geocentric apparent ecliptic longitude of date. Normalize to [0,360).
   starting at the March equinox.
 houses:
   default: placidus
-  option: whole-sign
-  assignment: Follow forward zodiacal order from each cusp, inclusive, to the next cusp, exclusive. Whole-sign house
-    one begins at zero degrees of the tropical rising sign. At polar Placidus failure use whole sign only with a
-    valid Ascendant and label the fallback.
+  systems:
+    placidus: {code: P, admin_label: Placidus}
+    whole-sign: {code: W, admin_label: Whole sign}
+    koch: {code: K, admin_label: Koch}
+    equal: {code: E, admin_label: Equal from Ascendant}
+  assignment: Normalize to a turn. Include the start cusp and exclude the next cusp in zodiac order. Whole sign begins at zero of the rising sign. Equal begins at the Ascendant degree.
+  polar_failure: For failed Placidus or Koch discard any automatically substituted cusps. Recompute whole sign from a valid stable tropical rising sign. Otherwise withhold house-dependent results.
+  fallback_labels: {placidus: Whole sign (Placidus unavailable), koch: Whole sign (Koch unavailable)}
+  record: [requested_system, effective_system, effective_code, fallback_used, admin_label]
 planets:
 - western.planets.sun
 - western.planets.moon
@@ -26,7 +31,7 @@ natal_aspects:
 - trine
 - opposition
 - quincunx
-natal_orbs: aspects/orbs.yaml#draft_natal_orbs
+natal_orbs: aspects/orbs.yaml#natal
 quincunx: Enable the minor aspect for stand-alone quincunx or Yod queries.
 patterns: Distinct natal bodies from the ten-planet list only; apply all required edges to the same instant. Canonicalize
   by member set and apex. A maximal sign cluster counts once.
@@ -80,3 +85,11 @@ pattern_edge_order:
 - second-base-to-third
 phase_index: For secondary lunar phases take floor(((progressed Moon minus progressed Sun) mod 360)/45). Index zero
   begins at conjunction. A change is a solved crossing of a sector boundary.
+auxiliary_points:
+  interpretation: Display only. Exclude these points from natal pattern and placement rules.
+  chiron: Compute geocentric tropical Chiron only when local ephemeris data are available; otherwise unknown.
+  nodes: Compute mean ascending node; descending node is opposite modulo 360.
+  mc_ic: Use actual meridian MC from Swiss angles and IC opposite even in equal and whole-sign charts.
+  fortune: Day uses (ASC + Moon - Sun) modulo 360. Night uses (ASC + Sun - Moon) modulo 360. Use solar centre geometric altitude at the observer, day at or above zero. Missing sect or Ascendant withholds Fortune.
+technique_orbs: aspects/orbs.yaml
+point_interpretation: Ascendant is computed when time and place are resolved and available as the reference for houses. Standalone interpretations for Chiron, nodes, Fortune and angles are deferred. Point labels and raw geometry are staff evidence.

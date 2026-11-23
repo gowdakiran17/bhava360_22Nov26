@@ -6,6 +6,7 @@ doctrine_profile: western-editorial-v1
 approval: draft
 rule: Use a dated transiting tropical body against a fixed tropical natal body. Test the configured aspect and separate
   transit orb. Track applying, exact and separating passes by UTC instant; retain repeat passes across a station.
+  Use the transit table. See western/aspects/orbs.yaml.
 conditions:
   all:
   - fact: western.transits.natal-contact

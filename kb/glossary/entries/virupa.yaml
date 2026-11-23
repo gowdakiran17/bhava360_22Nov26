@@ -17,6 +17,7 @@ aliases:
 - Virupas
 reference_rules: []
 used_by:
+- vedic.strength-bhava-bala.bhava-occupants
 - vedic.strength-bhava-bala.bhavadhipati
 - vedic.strength-shadbala.abda
 - vedic.strength-shadbala.ayana

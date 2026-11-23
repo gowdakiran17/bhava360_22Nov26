@@ -5,6 +5,7 @@ title: Midpoint
 doctrine_profile: western-editorial-v1
 approval: draft
 rule: Use the circular midpoint for corresponding points in two consenting charts; ambiguous antipodes require a convention.
+  Use the composite table. See western/aspects/orbs.yaml.
 conditions:
   all:
   - fact: western.composite-midpoint

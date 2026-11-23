@@ -1,0 +1,37 @@
+id: numerology.pythagorean.karmic-debt-19
+system: numerology
+topic: pythagorean
+title: Reflection on a reduction stage
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Match compound 19 before a reduction step in an eligible named stage. Keep the stage and reduction trace
+  in staff evidence.
+conditions:
+  all:
+  - fact: number.pythagorean.stage-compound
+    op: eq
+    value: 19
+meaning: You may balance working independently with accepting help.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- work_id: bhava360-engine-and-reading-conventions
+  book: Bhava360 engine and reading conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology/pythagorean/karmic-debt-19.yaml
+  supports: Product stage binding and editorial reflection.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You may balance working independently with accepting help.
+  kn: ಸ್ವತಂತ್ರ ಕೆಲಸದ ಜೊತೆಗೆ ನೆರವನ್ನೂ ಸ್ವೀಕರಿಸಬಹುದು.
+  hi: आप स्वतंत्र प्रयास के साथ सहायता भी स्वीकार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

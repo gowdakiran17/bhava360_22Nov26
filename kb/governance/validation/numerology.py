@@ -104,6 +104,42 @@ def date_metrics(birth, target, keep):
             'personal-year':year,'personal-month':cycle_month,'personal-day':reduced(cycle_month+target.day)}
 
 
+def pythagorean_stages(birth, spelling, spec, method='components'):
+    keep = spec['preserve_at_each_reduction']
+    stages = {}
+    if method=='components':
+        for label,n in [('month',birth.month),('day',birth.day),('year',birth.year)]:
+            stages['life-path-'+label] = reduction(n,keep)
+        combined = sum(chain[-1] for chain in stages.values())
+    elif method=='full-digit-sum':
+        combined = digit_sum(birth.year)+digit_sum(birth.month)+digit_sum(birth.day)
+    else:
+        raise InputError('Unknown Life Path convention')
+    stages['life-path-final'] = reduction(combined,keep)
+    stages['birthday'] = reduction(birth.day,keep)
+    stages.update({m:r['chain'] for m,r in name_metrics(spelling,spec).items()})
+    hits = [(stage,i,n) for stage,chain in stages.items() for i,n in enumerate(chain[:-1])
+            if n in spec['debt_detection']['compounds']]
+    return stages,hits
+
+
+def compat(table, birth_root, candidate):
+    if type(birth_root) is not int or type(candidate) is not int or not (1<=birth_root<=9 and 1<=candidate<=9):
+        return None
+    relation = table['cells'][birth_root][candidate-1]
+    return relation,table['direction'][relation]
+
+
+def kua(year, opted_in, convention):
+    if opted_in is not True or convention not in ('male-convention','female-convention') or not 1900<=year<=2099:
+        return None
+    reduced = reduction(year%100,[])[-1]
+    male = convention=='male-convention'
+    raw = (10-int(year>=2000))-reduced if male else 5+int(year>=2000)+reduced
+    result = reduction(raw or 9,[])[-1]
+    return (2 if male else 8) if result==5 else result
+
+
 def identifier_digits(value, adapter):
     s = ''.join(str(unicodedata.decimal(c)) if c.isdecimal() else c for c in value.strip())
     if adapter=='phone':
@@ -138,7 +174,12 @@ def fit_tone(recipe, matched):
     channels = {}
     for row in matched:
         if row['rule_id'] in directions and row['approved'] and row['matches'] and row['channel']:
-            channels.setdefault(row['channel'],set()).add(directions[row['rule_id']])
+            direction = directions[row['rule_id']]
+            if direction=='ruler-matrix':
+                direction = row.get('derived_direction')
+                if direction not in ('support','neutral','caution'):
+                    continue
+            channels.setdefault(row['channel'],set()).add(direction)
     if len(channels)<3:
         return 'Steady'
     votes = set.union(*channels.values()) - {'context'}
@@ -147,7 +188,7 @@ def fit_tone(recipe, matched):
 
 
 def calculate(tool, value, school, specs, labels, locale='en', *, confirmed_latin=None,
-              recipe=None, matched=(), mode=None):
+              recipe=None, matched=(), mode=None, birth_root=None, compatibility=None):
     if mode=='city' and tool['adapter']=='dwelling':
         return {'delegate':tool['parent_recipe'],'mode':'city'}
 
@@ -165,6 +206,19 @@ def calculate(tool, value, school, specs, labels, locale='en', *, confirmed_lati
             counts = Counter(digits)
             audit['repeated'] = sorted(d for d,count in counts.items() if count>1)
             audit['absent'] = sorted(set(range(10))-counts.keys())
+    if compatibility is not None and 'compatibility_table' in tool:
+        candidate = reduction(chain[-1],[])[-1]
+        pair = compat(compatibility,birth_root,candidate)
+        if pair is not None:
+            rid = next(r for r in tool['numerology_ids'] if r.endswith('-ruler-compatibility'))
+            audit['ruler_reason'] = dict(rule_id=rid,relation=pair[0],derived_direction=pair[1],channel='birth-root-comparison')
+            audit['rule_ids'].append(rid)
+            # Only caller-approved matches participate. Derive direction here from the actual pair.
+            matched = [dict(row,**audit['ruler_reason']) if row['rule_id']==rid else
+                       dict(row,channel='birth-root-comparison') if row['rule_id'].endswith(('birth-root','brand-root','vehicle-number-root')) else row
+                       for row in matched]
+    if compatibility is None or 'ruler_reason' not in audit:
+        matched = [row for row in matched if not row['rule_id'].endswith('-ruler-compatibility')]
     tone = fit_tone(recipe,matched) if recipe is not None else 'Steady'
     label = next(row for row in labels if row['en']==tone)
     words = tool['public']['user_text']
@@ -267,6 +321,52 @@ def validate_numerology(rules,read,evaluate,require,root):
                 for i in case['indices']]
         result = calculate(tool,value,'chaldean',specs,labels,recipe=recipe,matched=rows)
         require(result['public']['localized_tone']==case['expected'],'independent evidence tone')
+    case = ref['kavya_rao']
+    for method in ('components','full-digit-sum'):
+        stages,hits = pythagorean_stages(date(1992,3,12),case['name'],specs['pythagorean'],method)
+        require(stages==case[method] and hits==[],method+' synthetic stages')
+    dated = date_metrics(date.fromisoformat(case['synthetic_date']),date.fromisoformat(case['cycle_target']),[11,22,33])
+    require(all(dated[key.replace('_','-')]==case['cycle_chains'][key][-1]
+                for key in ('personal_year','personal_month','personal_day')), 'Kavya calendar cycles')
+    for raw,chain in [(29,[29,11]),(1999,[1999,28,10,1]),(11,[11])]:
+        require(reduction(raw,[11,22,33])==chain,'master stage edge')
+    edge = date(1999,11,29)
+    component = pythagorean_stages(edge,'A',specs['pythagorean'])[0]
+    full = pythagorean_stages(edge,'A',specs['pythagorean'],'full-digit-sum')[0]
+    require(component['life-path-month']==[11] and component['life-path-day']==[29,11]
+            and component['life-path-year']==[1999,28,10,1] and full['life-path-final']==[41,5],'date variant edges')
+    # Exercise a calendar boundary independently of a fixture identity.
+    distinct = date(1999,11,3)
+    first = pythagorean_stages(distinct,'A',specs['pythagorean'])[0]['life-path-final'][-1]
+    second = pythagorean_stages(distinct,'A',specs['pythagorean'],'full-digit-sum')[0]['life-path-final'][-1]
+    require(first!=second,'distinguishable life path variants')
+    for n in [13,14,16,19]:
+        _,hits = pythagorean_stages(date(2000,1,n),'A',specs['pythagorean'])
+        require(('birthday',0,n) in hits and ('life-path-day',0,n) in hits,'stage binding')
+    matrix = read('numerology/ank-jyotish/compatibility.yaml')
+    for a in range(1,10):
+        require(len(matrix['cells'][a])==9 and all(compat(matrix,a,b)[1] in ('support','neutral','caution') for b in range(1,10)),'complete root matrix')
+    require(compat(matrix,None,1) is None and compat(matrix,1,0) is None,'unknown compatibility')
+    result = calculate(profiles['mobile-number'],case['mobile'],'pythagorean',specs,labels,birth_root=3,compatibility=matrix)
+    require(result['admin']['ruler_reason']['derived_direction']==case['direction'] and 'ruler_reason' not in result['public'],'mobile reason')
+    require(kua(1992,False,'female-convention') is None and kua(1992,True,None) is None
+            and kua(1992,True,'male-convention')==8 and kua(1899,True,'male-convention') is None,'optional Kua')
+    grid = read('numerology/lo-shu/grid.yaml')
+    require(grid['default_fill']=='birth-digits-only' and grid['derived_additions']==[]
+            and grid['arrows_and_planes']=='deferred','Lo Shu school boundary')
+    kp = read('numerology/kua/profile.yaml')['input_policy']
+    require(kp['requires_explicit_opt_in'] and kp['default_gender'] is None and
+            not kp['inferred_from_name_or_chart'] and kp['missing_or_declined']=='withhold','Kua consent')
+    for slug in ('mobile-number','vehicle-number','business-name'):
+        profile = profiles[slug]
+        sample = next(x['equivalent'][0] for x in ref['tools'] if x['check']==slug)
+        recipe = read(profile['parent_recipe'])
+        for birth_root in (None,1,3,8):
+            computed = calculate(profile,sample,'chaldean',specs,labels,recipe=recipe,birth_root=birth_root,compatibility=matrix)
+            candidate = reduction(computed['admin']['chain'][-1],[])[-1]
+            reason = computed['admin'].get('ruler_reason')
+            require(reason is None if birth_root is None else
+                    reason['derived_direction']==compat(matrix,birth_root,candidate)[1],slug+' matrix integration')
     for term in ('lucky','unlucky','fortune','fortunate','misfortune','भाग्य','ಅದೃಷ್ಟ'):
         require(PROHIBITED.search(term), 'missing prohibited term '+term)
     for slug,value in ref['reject']:

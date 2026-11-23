@@ -45,7 +45,7 @@ def validate_consistency(rules, read, require, root):
             ('sidereal','placidus','KP',5),'KP convention')
     west = read('western/profile.yaml')
     require(west['zodiac']==western['zodiac']=='tropical' and west['houses']['default']==western['houses']=='placidus'
-            and western['house_options']==['placidus',west['houses']['option']],'Western convention')
+            and western['house_options']==list(west['houses']['systems']),'Western convention')
     require(set(read('SCHEMA.yaml')['user_tones'])==TONES,'tone registry')
     doctrines = read('shared/conventions/profiles.yaml')['doctrine_profiles']
     ids = set()

@@ -1,0 +1,40 @@
+id: numerology.ank-jyotish.check-business-name-ruler-compatibility
+system: numerology
+topic: ank-jyotish
+title: Root-ruler relationship
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Resolve the bound root pair through the declared ruler matrix. Preserve its direction and deduplicate
+  equality evidence.
+conditions:
+  all:
+  - fact: checker.business-name.ruler-relation
+    op: in
+    value:
+    - friendly
+    - neutral
+    - challenging
+meaning: You can consider how this option fits your own preferences.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- work_id: bhava360-engine-and-reading-conventions
+  book: Bhava360 engine and reading conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology/ank-jyotish/check-business-name-ruler-compatibility.yaml
+  supports: Product stage binding and editorial reflection.
+  verification: pending
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You can consider how this option fits your own preferences.
+  kn: ಈ ಆಯ್ಕೆ ನಿಮ್ಮ ಇಚ್ಛೆಗೆ ಹೇಗೆ ಹೊಂದಬಹುದು ಎಂದು ನೋಡಬಹುದು.
+  hi: आप विचार कर सकते हैं कि यह विकल्प आपकी पसंद से कैसे मेल खाता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

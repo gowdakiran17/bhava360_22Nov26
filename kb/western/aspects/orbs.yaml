@@ -1,6 +1,8 @@
-version: 1
+version: 2
 approval: draft
-draft_natal_orbs:
+method: Deviation from shortest circular separation is inclusive. Minor aspects require explicit enablement.
+  Luminary widening is zero in all six techniques.
+natal:
   conjunction:
     angle: 0
     orb: 8
@@ -28,9 +30,101 @@ draft_natal_orbs:
   sesquiquadrate:
     angle: 135
     orb: 2
-method: Use shortest circular separation. Accept absolute deviation ≤ orb. Minor aspects opt-in. Proposed editorial orbs require
-  review; transits, directions and synastry each need separate orb profiles.
-houses:
-- Placidus
-- Whole Sign
-bodies: Sun through Pluto, optional Chiron, nodes and Part of Fortune, plus Ascendant and MC.
+transit:
+  conjunction:
+    angle: 0
+    orb: 1
+  sextile:
+    angle: 60
+    orb: 1
+  square:
+    angle: 90
+    orb: 1
+  trine:
+    angle: 120
+    orb: 1
+  opposition:
+    angle: 180
+    orb: 1
+  quincunx:
+    angle: 150
+    orb: 1
+progression:
+  conjunction:
+    angle: 0
+    orb: 1
+  sextile:
+    angle: 60
+    orb: 1
+  square:
+    angle: 90
+    orb: 1
+  trine:
+    angle: 120
+    orb: 1
+  opposition:
+    angle: 180
+    orb: 1
+  quincunx:
+    angle: 150
+    orb: 1
+solar-arc:
+  conjunction:
+    angle: 0
+    orb: 1
+  sextile:
+    angle: 60
+    orb: 1
+  square:
+    angle: 90
+    orb: 1
+  trine:
+    angle: 120
+    orb: 1
+  opposition:
+    angle: 180
+    orb: 1
+  quincunx:
+    angle: 150
+    orb: 1
+synastry:
+  conjunction:
+    angle: 0
+    orb: 6
+  sextile:
+    angle: 60
+    orb: 3
+  square:
+    angle: 90
+    orb: 5
+  trine:
+    angle: 120
+    orb: 5
+  opposition:
+    angle: 180
+    orb: 6
+  quincunx:
+    angle: 150
+    orb: 2
+composite:
+  conjunction:
+    angle: 0
+    orb: 6
+  sextile:
+    angle: 60
+    orb: 3
+  square:
+    angle: 90
+    orb: 5
+  trine:
+    angle: 120
+    orb: 5
+  opposition:
+    angle: 180
+    orb: 6
+  quincunx:
+    angle: 150
+    orb: 2
+provenance:
+  synastry: Bhava360 editorial convention
+  composite: Bhava360 editorial convention

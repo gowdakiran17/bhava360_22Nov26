@@ -40,4 +40,12 @@ preserve_at_each_reduction:
 - 33
 convention: Preserve a master input or intermediate digit sum at every component and final reduction, including cycles.
   Schools can differ on which stages preserve masters.
-letter_reference: https://namietamodi.com/numerology-alphabet-chart/
+letter_reference: Cyclic Latin alphabet in nine columns; ordinal A=1 through Z=26 reduced modulo nine.
+life_path_methods:
+  default: components
+  components: Reduce month, day and year separately, retaining masters at each reduction; then reduce their sum with the same master stops.
+  full-digit-sum: Add all Gregorian birth-date digits before the single reduction chain; retain 11, 22 or 33 whenever reached in that chain.
+debt_detection:
+  eligible_stages: [life-path-month, life-path-day, life-path-year, life-path-final, expression, soul-urge, personality, birthday]
+  compounds: [13, 14, 16, 19]
+  method: Inspect each compound immediately before its digits are summed. Store stage, reduction index and matched value. Full-digit-sum emits only the final Life Path stage. Omit maturity and calendar cycles.

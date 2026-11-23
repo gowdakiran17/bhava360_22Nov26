@@ -312,7 +312,7 @@ def validate_outer_profiles(rules):
         require(record['conditions'] == {'all': [{'fact': 'western.natal.selected_outer',
                  'op': 'eq', 'value': body}]}, rid + ' selection')
         policy = attributes['orbs']
-        require(policy['profile'] == 'western/aspects/orbs.yaml' and policy['table'] == 'draft_natal_orbs'
+        require(policy['profile'] == 'western/aspects/orbs.yaml' and policy['table'] == 'natal'
                 and policy['boundary'] == 'inclusive', rid + ' natal orb profile')
         major = {'conjunction', 'opposition', 'square', 'trine', 'sextile'}
         table = read(policy['profile'])[policy['table']]
@@ -575,6 +575,7 @@ def main():
     expected=check['expected_sav']
     computed=[0]*12
     for graha,contributors in bindu['offsets'].items():
+        if graha=='moon': contributors=bindu['variants'][check['moon_table_variant']]['moon']
         row=[0]*12
         for key,origin in zip(check['contributor_order'],check['origin_indices_zero_based']):
             for h in contributors[key]:

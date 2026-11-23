@@ -27,7 +27,7 @@ rasi:
   moolatrikona_degree_limits:
     venus:
     - 0
-    - 5
+    - 15
 meaning: Movable air can suggest opening a discussion when two needs differ. Venus gives the exchange a theme of
   mutual consideration.
 life_areas:
@@ -41,8 +41,18 @@ strength_notes:
   effect: stronger
   reason: The ruler Venus can lend additional support through its own placement.
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: parashari-lahiri-whole-sign-draft-v1
+  note: CLASSICAL. BPHS 3.54 (tithyamsha) is the default to 15 degrees exclusive; Saravali 1.21–24 and Phaladeepika 1.7 use the five-degree variant. Brihat Jataka I.13–14 identifies the sign only. Edition locators supplied for review.
 sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: bphs-80
+  chapter: 3
+  verse: '54'
+  other_locator: tithyamsha
+  supports: Owner-selected fifteen-degree Venus range; edition correspondence awaits inspection.
+  verification: pending
 - book: Brihat Jataka
   work_id: brihat-jataka
   edition: brihat-jataka-iyer-brihatjataka00varaiala

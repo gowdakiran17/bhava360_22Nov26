@@ -1,0 +1,37 @@
+id: numerology.pythagorean.karmic-debt-13
+system: numerology
+topic: pythagorean
+title: Reflection on a reduction stage
+doctrine_profile: numerology-editorial-v1
+approval: draft
+rule: Match compound 13 before a reduction step in an eligible named stage. Keep the stage and reduction trace
+  in staff evidence.
+conditions:
+  all:
+  - fact: number.pythagorean.stage-compound
+    op: eq
+    value: 13
+meaning: You can build a habit with small, regular steps.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- work_id: bhava360-engine-and-reading-conventions
+  book: Bhava360 engine and reading conventions
+  edition: bhava360-engine-and-reading-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: numerology/pythagorean/karmic-debt-13.yaml
+  supports: Product stage binding and editorial reflection.
+  verification: pending
+confidence: medium
+review_notes: Editorial metric profile; native review pending.
+user_text:
+  en: You can build a habit with small, regular steps.
+  kn: ಸಣ್ಣ ಹೆಜ್ಜೆಗಳಿಂದ ಅಭ್ಯಾಸವನ್ನು ಬೆಳೆಸಬಹುದು.
+  hi: आप छोटे कदमों से नियमित अभ्यास बना सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null

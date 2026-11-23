@@ -25,7 +25,7 @@ outer_planet:
     the other chart point.
   orbs:
     profile: western/aspects/orbs.yaml
-    table: draft_natal_orbs
+    table: natal
     personal_aspects:
     - conjunction
     - sextile

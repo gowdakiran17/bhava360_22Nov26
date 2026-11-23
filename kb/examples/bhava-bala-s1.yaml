@@ -1,9 +1,10 @@
 synthetic: true
 name: Scenario S1
-scope: Artificial S1 epoch and observer. Use the longitudes and unrounded seven lord
-  totals of the S1 Shadbala matrix.
+scope: Artificial S1 epoch and observer. Use the longitudes and unrounded seven lord totals of the S1 Shadbala
+  matrix.
 inputs:
   asc: 6.167739092330319
+  mc: 269.7414408512491
   longitude:
     sun: 256.51569718931427
     moon: 199.47055295238047
@@ -14,6 +15,7 @@ inputs:
     saturn: 16.542416469972864
     rahu: 101.18742357058703
     ketu: 281.18742357058704
+  solar_altitude_deg: 52.316997614692184
 lord_totals:
   sun: 444.9889263648969
   moon: 385.27129039479735
@@ -23,18 +25,18 @@ lord_totals:
   venus: 347.729192032727
   saturn: 311.30368077512315
 twelve_totals:
-- 379.8727219584927
-- 350.225199019466
-- 313.42960234710233
-- 429.50639429217637
-- 433.1685044045121
-- 341.39541856693864
-- 380.3720806766841
-- 485.5214966858064
+- 425.9448270014095
+- 378.0809889336324
+- 441.4656548685607
+- 512.5424468136348
+- 501.2045569259705
+- 379.431471088397
+- 395.3720806766841
+- 500.5214966858064
 - 622.0881699403121
-- 296.84670934310213
-- 327.2882400712293
-- 513.2716782375401
+- 303.8106568216437
+- 326.2161350283125
+- 596.3077307589984
 house_ten:
   house: 10
   madhya: 285
@@ -46,15 +48,25 @@ house_ten:
     sun: -0.0
     moon: -10.132361761904882
     mars: -0.0
-    mercury: -3.4819737392707992
+    mercury: 3.4819737392707992
     jupiter: 8.199903911696339
     venus: 5.571856039965098
     saturn: -14.614395882506784
-  drik: -14.456971432021028
-  total: 296.84670934310213
+  drik: -7.49302395347943
+  occupants: 0
+  birth_time: 0
+  total: 303.8106568216437
 label: modest
 public_words:
   en: modest
   kn: ಮಿತವಾದ ಬೆಂಬಲ
   hi: सीमित सहारा
   tone: Take care
+mercury_comparison:
+  source: Five known-time synthetic Lahiri mean-node fixtures from tests/golden/vedic.json; Dev noon counted once.
+  cases:
+    Asha: {strict_benefic: true, majority_benefic: true}
+    Ravi: {strict_benefic: false, majority_benefic: false}
+    Meera: {strict_benefic: false, majority_benefic: false}
+    Kabir: {strict_benefic: false, majority_benefic: false}
+    Dev: {strict_benefic: true, majority_benefic: true}

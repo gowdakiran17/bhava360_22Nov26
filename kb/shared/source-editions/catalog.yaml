@@ -543,6 +543,13 @@ editions:
     publication_details: Arthur Edward Waite, William Rider & Son, 1910. Wikisource scan and transcription.
     verified_by: Title and part structure checked against Wikisource.
     text: https://en.wikisource.org/wiki/The_Pictorial_Key_to_the_Tarot
+  cheiro-numbers-herbert-jenkins:
+    work_id: cheiro-s-book-of-numbers
+    edition_id: cheiro-numbers-herbert-jenkins
+    title_as_printed: Cheiro's Book of Numbers
+    language: English
+    publication_details: Herbert Jenkins, London. Printing and page awaiting inspection.
+    verification: pending
   cheiro-pg20480:
     work_id: cheiro-palmistry
     edition_id: cheiro-pg20480

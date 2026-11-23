@@ -17,12 +17,15 @@ aliases:
 - Ank Jyotish
 reference_rules: []
 used_by:
+- numerology.ank-jyotish.check-business-name-ruler-compatibility
 - numerology.ank-jyotish.check-house-relocation-dwelling-root
 - numerology.ank-jyotish.check-mobile-number-birth-root
 - numerology.ank-jyotish.check-mobile-number-distinct-destiny-match
 - numerology.ank-jyotish.check-mobile-number-missing-digits
 - numerology.ank-jyotish.check-mobile-number-repeats
+- numerology.ank-jyotish.check-mobile-number-ruler-compatibility
 - numerology.ank-jyotish.check-vehicle-number-root
+- numerology.ank-jyotish.check-vehicle-number-ruler-compatibility
 - numerology.ank-jyotish.check-vehicle-number-vehicle-total
 - numerology.ank-jyotish.mobile-digit-total
 - numerology.ank-jyotish.root-1
@@ -99,6 +102,10 @@ used_by:
 - numerology.pythagorean.birthday
 - numerology.pythagorean.check-personal-baby-name-name-root
 - numerology.pythagorean.expression
+- numerology.pythagorean.karmic-debt-13
+- numerology.pythagorean.karmic-debt-14
+- numerology.pythagorean.karmic-debt-16
+- numerology.pythagorean.karmic-debt-19
 - numerology.pythagorean.life-path
 - numerology.pythagorean.master-11
 - numerology.pythagorean.master-22

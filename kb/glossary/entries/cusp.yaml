@@ -51,6 +51,8 @@ used_by:
 - vedic.prashna.kp-horary
 - vedic.strength-bhava-bala.bhava-dig
 - vedic.strength-bhava-bala.bhava-drik
+- vedic.strength-bhava-bala.bhava-occupants
 - vedic.strength-bhava-bala.bhavadhipati
+- vedic.strength-bhava-bala.birth-time
 - vedic.strength-shadbala.kendradi
 - western.houses.polar-fallback

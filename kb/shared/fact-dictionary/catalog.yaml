@@ -820,8 +820,7 @@ facts:
     type: boolean
     producer: vedic.doshas
     origin: Use vedic/planets/benefic-profile.yaml. A natural benefic joins Mars by sign or fully aspects its sign. Use Jupiter, Venus, waxing Moon,
-      and Mercury when unassociated with natural malefics. For Mercury consider Sun, Mars, Saturn, nodes and
-      waning Moon.
+      and Mercury under the selected predominance rule including the nodes.
     unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
   dosha.mars.pair_balanced:
     type: boolean
@@ -1963,12 +1962,61 @@ facts:
     producer: vedic.strength/shadbala
     origin: All six components are available and the selected graha meets its reference minimum.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  number.pythagorean.stage-compound:
+    type: integer
+    producer: numerology.pythagorean
+    origin: Bound unreduced compound in the eligible named stage trace.
+    dependencies:
+    - stage
+    - raw compound
+    values:
+    - 13
+    - 14
+    - 16
+    - 19
+    unknown_if: Withhold for absent, invalid or unbound inputs.
+  checker.mobile-number.ruler-relation:
+    type: enum
+    producer: numerology.ank-jyotish
+    origin: Look up the directed root pair in numerology/ank-jyotish/compatibility.yaml.
+    dependencies:
+    - Moolank
+    - candidate root
+    values:
+    - friendly
+    - neutral
+    - challenging
+    unknown_if: Withhold for absent, invalid or unbound inputs.
+  checker.vehicle-number.ruler-relation:
+    type: enum
+    producer: numerology.ank-jyotish
+    origin: Look up the directed root pair in numerology/ank-jyotish/compatibility.yaml.
+    dependencies:
+    - Moolank
+    - candidate root
+    values:
+    - friendly
+    - neutral
+    - challenging
+    unknown_if: Withhold for absent, invalid or unbound inputs.
+  checker.business-name.ruler-relation:
+    type: enum
+    producer: numerology.ank-jyotish
+    origin: Look up the directed root pair in numerology/ank-jyotish/compatibility.yaml.
+    dependencies:
+    - Moolank
+    - candidate root
+    values:
+    - friendly
+    - neutral
+    - challenging
+    unknown_if: Withhold for absent, invalid or unbound inputs.
   strength.bhava.selected_component:
     type: enum
     producer: vedic.strength
     origin: Bound completed component in vedic/strength/bhava-bala/components.yaml for the selected house.
     dependencies: [stable rising sign, classical lord total, house midpoint, signed aspects]
-    values: [bhavadhipati, bhava-dig, bhava-drik]
+    values: [bhavadhipati, bhava-dig, bhava-drik, bhava-occupants, birth-time]
     unknown_if: Missing or unstable inputs to the selected component or unauthorized evidence access.
   strength.bhava.qualitative_support:
     type: boolean
