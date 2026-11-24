@@ -86,7 +86,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: 'Yoga links require their own predicates on the same lord pair. Native review pending. BPHS ch.24 and Phaladeepika
+  ch.15: difficult-house ownership qualifies the placement.'
 user_text:
   en: When sorting out an obligation, you can ask the other person what they understood you to be offering.
   kn: ಒಂದು ಜವಾಬ್ದಾರಿಯನ್ನು ನಿಭಾಯಿಸುವಾಗ ನೀವು ಏನು ನೀಡಲು ಮುಂದಾಗಿದ್ದೀರಿ ಎಂದು ಇನ್ನೊಬ್ಬರು ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡರು ಎಂಬುದನ್ನು
@@ -105,7 +106,7 @@ remedy:
     kn: ಜೊತೆಯಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಒಪ್ಪಂದವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
     hi: साथ मिलकर फैसला लेने से पहले आप बात कर सकते हैं कि समझौते को दोनों ने कैसे समझा।
 evidence:
-  direction: support
+  direction: caution
   weight_class: primary
   time_scope: natal
   reference: lagna

@@ -1,0 +1,10 @@
+version: 1
+approval: draft
+profile: moon-daily-v1
+reference: Natal Moon. Split intervals at ingress, vedha changes and local month boundaries. Use elapsed duration including any time withheld. A stance requires more than half the full month; otherwise use neutral.
+fast_movers: [sun, mars, mercury, venus]
+sun: Record sankranti date and the new inclusive house. Evaluate the Sun over the whole month by duration like the other fast movers.
+tone_policy: Sun and at least two others supportive gives Supportive. Sun and at least two others caution gives Take care. Otherwise Steady. Blocked favourable means neutral.
+tag: MODERN/POPULAR
+background: Jupiter and Saturn have no month vote. Saturn in the twelfth, first or second sign from natal Moon uses only the gentle phase copy in copy.yaml. Add the support qualifier at Saturn-sign SAV of at least 28 and the timing qualifier for a functionally Benefic or Yogakaraka Antar.
+coming_up: Distinct dated sankranti, fast-mover ingress/station and Antar boundaries inside the month. Sort by local date then this category order, maximum three.

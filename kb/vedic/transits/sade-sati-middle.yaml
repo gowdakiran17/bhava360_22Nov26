@@ -39,11 +39,11 @@ sources:
   supports: Bhava360 selection, calculation boundaries and original reflective wording.
   verification: pending
 confidence: medium
-review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+review_notes: Phase boundaries are local to this rule. Public wording follows modules/home/copy.yaml (phase-2) and its month policy. Kannada and Hindi await native review.
 user_text:
-  en: A familiar rhythm may help you carry current responsibilities.
-  kn: ಪರಿಚಿತ ದಿನಚರಿಯಿಂದ ಈಗಿನ ಹೊಣೆಗಳನ್ನು ನಿಭಾಯಿಸಬಹುದು.
-  hi: परिचित दिनचर्या मौजूदा ज़िम्मेदारियाँ सँभालने में मदद कर सकती है।
+  en: You may notice a slower, steadier phase.
+  kn: ನಿಧಾನವಾದ, ಸ್ಥಿರವಾದ ಹಂತವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप एक धीमा और स्थिर दौर महसूस कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

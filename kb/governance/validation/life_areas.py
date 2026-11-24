@@ -44,7 +44,7 @@ def validate_life_areas(rules, read, require, root):
         recipe = read(path+'reading.yaml')
         require(recipe.get('summary_profile') == 'summary.yaml', area+' summary discovery')
         summary = read(path+recipe['summary_profile'])
-        require(summary['area'] == area and summary['weighting_order'] == ['natal-promise','dasha','transit'],
+        require(summary['area'] == area and summary['pipeline'] == 'life-areas/pipeline.yaml',
                 area+' evidence order')
         feeds = summary['feeds']
         groups = dict(FEEDS)
@@ -73,6 +73,8 @@ def validate_life_areas(rules, read, require, root):
     kinds = set()
     planets = set()
     for path in sorted((root/'remedies').glob('*.yaml')):
+        if path.name=='selection.yaml':
+            continue
         record = read(path.relative_to(root))
         require(record['id']=='remedies.conduct.'+path.stem and record['id'] not in rules, str(path))
         target = record['linked_to']
@@ -85,10 +87,14 @@ def validate_life_areas(rules, read, require, root):
             for name, option in options.items():
                 check_remedy(option, str(path)+'.'+name, require)
             for name,kind in [('japa','mantra-japa'),('charity','charity')]:
-                require(options[name]['type']==kind and all(x['url'] and x['locator'] for x in options[name]['sources']) and options[name]['sources'], str(path)+' sources')
+                require(options[name]['type']==kind and all(x['locator'] and (x.get('url') or x.get('work_id')) for x in options[name]['sources']) and options[name]['sources'], str(path)+' sources')
             require(options['japa']['weekday'] in 'Monday Tuesday Wednesday Thursday Friday Saturday Sunday'.split(), str(path)+' weekday')
         kinds.add(practice)
         planets.add(target)
     require(kinds==KINDS and all('vedic.planets.'+g in planets for g in read('vedic/planets/catalog.yaml')['grahas']),
             'remedy coverage')
     print('KB-23 passed: ten life areas, all feed IDs, three localized tones and six free practice types.')
+    from synthesis import validate as validate_synthesis
+    from home import validate as validate_home
+    validate_synthesis(read,require)
+    validate_home(read,require)

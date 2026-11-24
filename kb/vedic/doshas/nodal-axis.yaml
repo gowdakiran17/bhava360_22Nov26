@@ -35,8 +35,8 @@ sources:
   supports: Contemporary nodal-enclosure comparator. The library selects one arc and longitude-based endpoints.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
-  pending.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
+  formation contributes only to an established indication.
 user_text:
   en: You can explore the placements inside the arc one at a time.
   kn: ಚಾಪದೊಳಗಿನ ಸ್ಥಾನಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಗಮನಿಸಬಹುದು.
@@ -55,7 +55,7 @@ remedy:
     hi: आज आप किसी एक विषय पर विचार कर सकते हैं।
 evidence:
   direction: caution
-  weight_class: primary
+  weight_class: modifier
   time_scope: natal
   reference: none
   area_strength: {}

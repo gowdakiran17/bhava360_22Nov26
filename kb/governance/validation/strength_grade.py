@@ -12,6 +12,7 @@ def band(total, policy):
 def worksheet(x, p, cancellation, full_aspects, natural):
     graha = x.get('graha')
     flags = ('lagna_withheld','combust','war_loser','retrograde','vargottama')
+    flags = tuple(k for k in flags if not (k=="war_loser" and graha in ("sun","moon","rahu","ketu") or k=="combust" and graha in ("rahu","ketu")))
     if graha not in GRAHAS or any(type(x.get(key)) is not bool for key in flags):
         return None
     h = x.get('house_moon' if x['lagna_withheld'] else 'house_lagna')
@@ -26,7 +27,14 @@ def worksheet(x, p, cancellation, full_aspects, natural):
         matches = [facts.get(test['fact']) for test in cancellation['conditions']['any']]
         if any(value is not None and type(value) is not bool for value in matches):
             return None
-        lo = matches.count(True)
+        # Predicates may attest the same actual lord/angular contact.
+        identities = x.get('relief_identity', {})
+        angular={'d1.dignity.debility_lord_angular','d1.dignity.exaltation_lord_angular','d1.dignity.exaltee_angular'}
+        matched_angular={k for k in angular if facts.get(k) is True}
+        if len(matched_angular)>1 and not matched_angular.issubset(identities):
+            return None
+        lo = len({identities.get(t['fact'],t['fact']) for t, matched in
+                  zip(cancellation['conditions']['any'],matches) if matched})
         hi = lo + matches.count(None)
         awards = p['cancellation_awards']
         if awards[min(2,lo)] != awards[min(2,hi)]:
@@ -63,10 +71,15 @@ def worksheet(x, p, cancellation, full_aspects, natural):
         return None
     cap = p['aspect_net_cap']
     terms = dict(d1=dignity[0], house=house, aspects=max(-cap,min(cap,net)),
-                 combust=p['combust'].get(graha,p['combust']['other']) if x['combust'] else 0,
-                 war=p['war_loser'] if x['war_loser'] else 0,
+                 combust=p['combust'].get(graha,p['combust']['other']) if not node and x['combust'] else 0,
+                 war=p['war_loser'] if not node and graha not in ('sun','moon') and x['war_loser'] else 0,
                  retrograde=p['retrograde_benefic'] if x['retrograde'] and kind=='benefic' else 0,
                  d9=dignity[1]*p['d9_factor'], vargottama=p['vargottama'] if x['vargottama'] else 0)
+    if graha == 'moon':
+        phase = x.get('paksha')
+        if phase not in p['moon_paksha']:
+            return None
+        terms['paksha'] = p['moon_paksha'][phase]
     total = sum(terms.values())
     return dict(terms=terms,total=total,grade=band(total,p))
 
@@ -106,8 +119,12 @@ def validate(read,require):
     require(run(dict(x,aspects={'venus':[7,'benefic'],'jupiter':[9,'benefic'],'moon':[7,'benefic']}))['terms']['aspects']==1,
             'benefic aspect cap')
     for graha in GRAHAS:
-        require(run(dict(x,graha=graha,aspects={},retrograde=False)) is not None,graha+' eligible')
+        require(run(dict(x,graha=graha,aspects={},retrograde=False,paksha='waxing')) is not None,graha+' eligible')
     require(run(dict(x,shadbala=0)) == run(dict(x,shadbala=100)), 'Shadbala independence')
     require(read('vedic/strength/user-words.yaml')['planet_grade']==
             {'Strong':'supported','Moderate':'steady','Weak':'modest'}, 'planet words')
+    same = {key:'shared-angular-lord' for key,value in relief.items() if value}
+    require(run(dict(cases['P3'], relief_facts=relief, relief_identity=same))['terms']['d1']==0,'overlapping relief')
+    require(run(dict(x,graha='rahu',combust=True,war_loser=True,aspects={}))['terms']['war']==0,'node penalties')
+    require(run(dict(cases['P3'],paksha='waning',war_loser=True))['total']==0.5,'waning and luminary war')
     print('Planet strength: P1 3 Strong, P2 -0.5 Weak, P3 1 Moderate; edges and unknowns passed.')

@@ -87,7 +87,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: 'Yoga links require their own predicates on the same lord pair. Native review pending. BPHS ch.24 and Phaladeepika
+  ch.15: difficult-house ownership qualifies the placement.'
 user_text:
   en: When shared responsibilities change, you can identify who depends on the next task being finished.
   kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳು ಬದಲಾಗುವಾಗ ಮುಂದಿನ ಕೆಲಸ ಪೂರ್ಣಗೊಳ್ಳುವುದನ್ನು ಯಾರು ಅವಲಂಬಿಸಿದ್ದಾರೆ ಎಂದು ಗುರುತಿಸಬಹುದು.
@@ -105,7 +106,7 @@ remedy:
     kn: ನಿಮ್ಮ ಮುಂದಿನ ಕೆಲಸದ ಫಲ ಯಾರಿಗೆ ಬೇಕು ಎಂಬುದನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप पता कर सकते हैं कि आपके अगले काम के नतीजे की ज़रूरत किसे है।
 evidence:
-  direction: support
+  direction: caution
   weight_class: primary
   time_scope: natal
   reference: lagna

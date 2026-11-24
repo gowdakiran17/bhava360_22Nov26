@@ -59,6 +59,9 @@ def validate(rules, read, require, root):
         if row['topic']=='house-lords':
             target=row['house_pair']['occupied_house']
             want='support' if target in (1,4,5,7,9,10) else 'caution' if target in (6,8,12) else 'neutral'
+            owner=row['house_pair']['source_house']
+            if owner in (6,8,12) and target in (1,4,5,7,9,10): want='caution'
+            if (owner,target) in ((2,11),(11,2),(1,11),(5,11),(9,11)): want='support'
             require(row['evidence']['direction']==want,key+' lord placement')
     require(gochara==108,'complete transit classifications')
     for path in (root/'checkers').glob('*/recipe.yaml'):

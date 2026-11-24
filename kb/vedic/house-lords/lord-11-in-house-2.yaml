@@ -82,7 +82,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending. Wealth-house linkage under
+  BPHS ch.24 and ch.41.
 user_text:
   en: When a goal is within reach, you can ask what the household can comfortably set aside.
   kn: ಗುರಿಯೊಂದು ಕೈಗೆಟುಕುವಾಗ ಮನೆಯವರು ಎಷ್ಟು ಸುಲಭವಾಗಿ ಮೀಸಲಿಡಬಹುದು ಎಂದು ಕೇಳಬಹುದು.
@@ -100,7 +101,7 @@ remedy:
     kn: ನಿಮ್ಮ ಅಭ್ಯಾಸಗಳ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರಿದ ಮನೆಯ ಮಾತೊಂದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप घर की कोई ऐसी कहावत याद कर सकते हैं जिसने आपकी आदतों को आकार दिया हो।
 evidence:
-  direction: neutral
+  direction: support
   weight_class: primary
   time_scope: natal
   reference: lagna

@@ -4,10 +4,13 @@ topic: transits
 title: Jupiter and Saturn reach the same natal house
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Bind a selected natal whole-sign house from Lagna. At one instant both Jupiter and Saturn must each occupy
-  its sign or cast a full graha aspect to it, using vedic/aspects/full-graha.yaml. Intersect their windows.
+rule: Bind the area house and its lord separately from Lagna and Moon. At one instant both Jupiter and Saturn must each occupy
+  the house or lord sign or cast a full graha aspect to either target, using vedic/aspects/full-graha.yaml. Intersect their windows.
 conditions:
-  all:
+  any:
+  - fact: transit.double.moon_target
+    op: eq
+    value: true
   - fact: transit.double.common_target
     op: eq
     value: true
@@ -20,8 +23,7 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Some schools also test the target lord or divisional charts. This profile requires the same natal sign and
-    uses whole-sign full aspects.
+  note: Keep the two reference results distinct through rung six. Only the Lagna result can establish an event trigger.
 sources:
 - book: 'Vedic Astrology: An Integrated Approach'
   work_id: rao-integrated

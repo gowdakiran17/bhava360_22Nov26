@@ -1,0 +1,55 @@
+version: 1
+approval: draft
+synthetic: true
+scope: Invented Career recipe. Taurus Lagna, Leo Moon. Saturn rules Aquarius and occupies Taurus. Jupiter in Libra aspects Aquarius. Saturn in Pisces aspects Taurus. Pisces is eleventh from Lagna and eighth from Moon. From the Moon the career targets are Taurus and its lord in Virgo.
+base:
+  today: '2032-03-01'
+  area: career
+  tier: A
+  unstable: []
+  lagna: {lord: Strong, occupants: [[Benefic, Moderate]], aspects: [Yogakaraka, Benefic, Malefic]}
+  moon: {lord: Moderate, occupants: [], aspects: [Malefic]}
+  karakas: [Strong, Moderate, Moderate, Weak]
+  d9: own
+  vargottama: false
+  topic_varga: D10
+  topic_pass: true
+  period: {maha: venus, antar: saturn, direct: [saturn, sun, mercury, jupiter], star_lords: {mars: mercury, rahu: mars}, negating: [ketu], interval: ['2032-02-15','2032-06-01'], subinterval: ['2032-03-10','2032-04-22']}
+  lagna_targets: [10,1]
+  moon_targets: [1,5]
+  segments:
+  - interval: ['2032-03-05','2032-05-02']
+    signs: {jupiter: 6, saturn: 11}
+    av: [[28,4],[26,4]]
+    peaks: {'2032-03-15': {sun: 10, moon: 1}}
+  yoga: {id: ruchaka, active: false, participants: [Strong]}
+cases:
+  C3:
+    expect: {band: Strong, state: active, grade: Strong, card: Supportive, pace: slower, yoga: background, remedy_graha: null}
+    first: {start: '2032-03-10', end: '2032-04-22', moon: false, pace: slower, peaks: {months: ['2032-03'], days: ['2032-03-15']}}
+    chips: [career-chip, season-chip, timing-chip]
+    walkthrough: Strong natal support; Saturn Antar owns the target; only Lagna confirms; intersect the fine period and transit; preserve grade despite slower pace. Ladder passes promise, sets inactive yoga aside, uses functional aspects, has no weak participant evidence, retains the D9 result, separates experience, ignores disabled systems and finds no tie.
+  C1: {input: {unstable: [promise-occupants, promise-house-aspects, promise-significator, promise-varga-lagna]}, expect: {band: Weak, state: no-promise, windows: []}}
+  C2: {input: {unstable: [promise-occupants, promise-house-aspects, promise-varga-lagna]}, expect: {band: Moderate, card: Steady, remedy_graha: saturn}}
+  C4: {input: {period: {maha: sun, antar: venus}}, expect: {state: background}}
+  C5: {input: {period: {antar: rahu}}, expect: {state: not-now}}
+  C6: {input: {period: {antar: ketu}}, expect: {state: delay}}
+  C7: {input: {period: {antar: mars}}, expect: {state: active}}
+  C8: {input: {period: {antar: null}}, expect: {state: unknown-period}}
+  C9: {input: {segments: []}, expect: {state: no-window, windows: []}}
+  C10: {input: {tier: B}, expect: {grade: Moderate, card: Steady}, first: {start: '2032-03', end: '2032-05', moon: false, pace: slower, peaks: {}}}
+  C11: {input: {tier: C}, expect: {state: no-promise, windows: []}}
+  C12: {input: {yoga: {active: true, participants: [Weak, Moderate]}}, expect: {yoga: mild}}
+  C13: {input: {yoga: {active: true, participants: [Weak]}}, expect: {yoga: omitted}}
+  C14: {input: {d9: enemy}, expect: {grade: Moderate}}
+  C15: {input: {moon_targets: [10,1], d9: enemy}, expect: {grade: Strong}}
+  C16: {input: {systems: {western: -1, numerology: -1, kp: -1}}, expect: {grade: Strong}}
+  C17: {input: {systems: {jaimini: -1, kp: -1}, flags: {kp: true, jaimini: true}}, expect: {grade: Moderate}}
+  C18: {input: {remaining_primary: [support, caution], qualified_challenge: true, sensitive: true}, expect: {grade: Moderate, card: Take care, remedy_graha: null}}
+  C19: {input: {yoga: {active: true, cancelled: true}}, expect: {yoga: omitted}}
+  C20: {input: {today: '2020-01-01'}, expect: {state: no-window}}
+  C21: {input: {segments: [{interval: ['2032-03-10','2032-03-11'], signs: {jupiter: 6, saturn: 11}, av: [[28,4],[28,4]]}]}, expect: {pace: supported}}
+  C22: {input: {segments: [{interval: ['2032-04-22','2032-04-23'], signs: {jupiter: 6, saturn: 11}, av: [[28,4],[28,4]]}]}, expect: {state: no-window}}
+  C23: {input: {unstable: [promise-significator, promise-varga-lagna], yoga_only_factors: [promise-occupants, promise-house-aspects], yoga: {active: true, cancelled: true}}, expect: {band: Weak, state: no-promise}}
+  C24: {input: {lagna: {lord: Weak}, d9: exalted, unstable: [promise-varga-lagna, promise-significator]}, expect: {band: Moderate, grade: Moderate}}
+  C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: Moderate, state: withheld}}

@@ -29,11 +29,10 @@ options:
     optional: true
     label: traditional-practice
     weekday: Tuesday
+    tradition: Navagraha name mantra
     form: nama
     sources:
-    - title: Navagraha Mantra · Name mantras and weekdays
-      url: https://kundlinaksha.com/blog/navagraha-mantra
-      locator: ketu
+    - {work_id: bphs, edition: null, locator: Graha shanti chapters (individual verse pending), verification: pending}
     user_text:
       en: If you like, on Tuesday you can quietly repeat “Om Ketave Namah.”
       kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಮಂಗಳವಾರ “ಓಂ ಕೇತವೇ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
@@ -52,3 +51,5 @@ options:
       en: If you already have horse gram to spare, you can share some with someone who would welcome it.
       kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಹುರಳಿಕಾಳು ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
       hi: यदि आपके पास अतिरिक्त कुल्थी हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।
+fast_ref: remedies/optional-fast.yaml
+framing: Traditionally believed to help; free and optional.

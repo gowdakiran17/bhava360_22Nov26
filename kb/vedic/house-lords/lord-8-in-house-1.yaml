@@ -85,7 +85,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: 'Yoga links require their own predicates on the same lord pair. Native review pending. BPHS ch.24 and Phaladeepika
+  ch.15: difficult-house ownership qualifies the placement.'
 user_text:
   en: When shared responsibilities change, you can check which choice leaves you with enough energy.
   kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳು ಬದಲಾಗುವಾಗ ಯಾವ ಆಯ್ಕೆ ನಿಮಗೆ ಸಾಕಷ್ಟು ಚೈತನ್ಯ ಉಳಿಸುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
@@ -103,7 +104,7 @@ remedy:
     kn: ನಿಮ್ಮ ಚೈತನ್ಯಕ್ಕೆ ಯಾವ ದಿನಚರಿ ಹೊಂದುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
     hi: आप देख सकते हैं कि कौन सी दिनचर्या आपकी ऊर्जा के अनुकूल है।
 evidence:
-  direction: support
+  direction: caution
   weight_class: primary
   time_scope: natal
   reference: lagna

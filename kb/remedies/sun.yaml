@@ -29,11 +29,10 @@ options:
     optional: true
     label: traditional-practice
     weekday: Sunday
+    tradition: Navagraha name mantra
     form: nama
     sources:
-    - title: Navagraha Mantra · Name mantras and weekdays
-      url: https://kundlinaksha.com/blog/navagraha-mantra
-      locator: sun
+    - {work_id: bphs, edition: null, locator: Graha shanti chapters (individual verse pending), verification: pending}
     user_text:
       en: If you like, on Sunday you can quietly repeat “Om Suryaya Namah.”
       kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಭಾನುವಾರ “ಓಂ ಸೂರ್ಯಾಯ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
@@ -51,3 +50,5 @@ options:
       en: If you already have wheat to spare, you can share some with someone who would welcome it.
       kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಗೋಧಿ ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
       hi: यदि आपके पास अतिरिक्त गेहूँ हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।
+fast_ref: remedies/optional-fast.yaml
+framing: Traditionally believed to help; free and optional.

@@ -1,0 +1,8 @@
+version: 1
+approval: draft
+mapping: {Strong: Supportive, Moderate: Steady, Weak: no-event-card}
+qualified_challenge: A primary area-specific caution in the active window can change Moderate to Take care. Weak never produces an event card.
+no_window: Distinguish background season, not now, delay, insufficient data, and a completed search without a window. Delay uses Steady.
+mixed_variant: Mixed influences is an alternative to mixed signals.
+copy: modules/home/copy.yaml
+render: Use no-window after a complete search. Use the limited message when the promise is insufficient; delay is a Steady status. For a Take care card render a practical action and localized phase-end date before any optional practice.

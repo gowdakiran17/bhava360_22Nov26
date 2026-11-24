@@ -1,0 +1,41 @@
+version: 1
+approval: draft
+profile: moon-daily-v1
+scope: Bind active person, local civil date and timing city. Apply KB-48 stability to each dependency independently. Unknown inputs have no adverse vote.
+factors:
+  chandra: {source: vedic/transits/vedha.yaml, direction: conditional, weight_class: primary, method: Count signs inclusively from natal Moon. Eligible obstruction neutralises a favourable Moon house.}
+  tara: {source: vedic/muhurta/ranking-policy.yaml, direction: conditional, weight_class: primary, janma: neutral, method: Reuse inclusive nine-star cycle. Janma neutrality is the daily editorial default.}
+  sav: {source: vedic/strength/ashtakavarga/bindu.yaml, direction: support, weight_class: modifier, minimum: 28, method: Use per-sign raw SAV with the Raman/Santhanam Moon contributor row. Below threshold is neutral.}
+  antar: {direction: context, weight_class: context, method: If the Antar lord owns or fully aspects the transit Moon sign then its owned life areas lead activity choices. Withheld lord or owned areas give no focus.}
+  tithi: {direction: context, weight_class: secondary, classes: [Nanda, Bhadra, Jaya, Rikta, Purna]}
+  vishti: {direction: caution, weight_class: modifier, role: exclude local interval}
+  rahu_yama_gulika: {direction: caution, weight_class: modifier, role: exclude local intervals}
+  fast_ingress_station: {direction: context, weight_class: secondary, bodies: [sun, mercury, venus, mars], events: [ingress, direct-station, retrograde-station]}
+  moon_over_natal: {direction: context, weight_class: modifier, role: personalise reflection on occupied sign}
+  slow_phase_boundary: {direction: context, weight_class: context, role: mark phase change only}
+tone_resolution:
+- [support, support, any, Supportive]
+- [caution, caution, any, Take care]
+- [support, neutral, support, Supportive]
+- [neutral, support, support, Supportive]
+- [any, any, any, Steady]
+activities:
+  source: vedic/muhurta/activity-factors.yaml
+  catalogue: vedic/muhurta/selection.yaml
+  eligible: [travel, starting-work, important-talk, family-visit, focused-work]
+  focus: {career: starting-work, learning: focused-work, travel-relocation: travel, family-home: family-visit, love-marriage: important-talk}
+  tithi: {Nanda: family-visit, Bhadra: focused-work, Jaya: starting-work, Rikta: focused-work, Purna: important-talk}
+  selection: Rank leading-area choices then compatible star group then tithi preference. Under adverse Tara or Rikta defer starting-work and travel ahead of other suggestions. Exclude duplicates between lists. Offer only matched activities.
+  limits: {good: 3, easy: 2}
+best_time:
+  candidates: [abhijit, amrit, shubh, labh, supportive-hora]
+  selection: Clip to local sunrise and sunset, omit Wednesday Abhijit, subtract every hard exclusion and keep spans of at least fifteen minutes. Prefer candidate order then longest span then earliest start.
+  exclusions: [rahu, yama, gulika, vishti]
+  minimum_minutes: 15
+  polar: Withhold sunrise-dependent times when sunrise or sunset is absent. Independently resolved Vishti still appears in the civil-day exclusions.
+tomorrow: One sentence if the tone changes or a fast ingress or station occurs. Otherwise omit.
+provenance: Classical Chandra, Tara and SAV inputs. Direction aggregation and activity ordering are MODERN/POPULAR editorial policy.
+sources:
+- {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Chapter 26 gochara, verification: pending}
+- {work_id: bphs, edition: null, locator: Santhanam chapter 66 Ashtakavarga, verification: pending}
+- {work_id: muhurta-chintamani, edition: null, locator: Tarabala and Chandrabala sections, verification: pending}

@@ -2,3 +2,8 @@ version: 1
 approval: draft
 inputs: Bind active person, local date, current timing city, day/week/month and consent.
 output: Order headline, tone, actions, local windows, active chapter, checkers, all areas, week and personal changes.
+day: modules/home/day.yaml
+week: modules/home/week.yaml
+month: modules/home/month.yaml
+copy: modules/home/copy.yaml
+personalisation: Derive each person's Chandra and Tara independently. Equal tones or identical evidence can legitimately give the same wording; never manufacture differences.

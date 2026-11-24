@@ -96,10 +96,13 @@ class EngineExport(unittest.TestCase):
         for phrase in ('curse', 'doomed', 'danger', 'bad luck', '31 of 36', '31 points',
                        '७०%', 'Raman: 28 bindus', 'ninth house', 'भाव ९', '೯ನೇ ಭಾವ',
                        'மரணம்', 'దురదృష్టం', 'അപകടം', 'mala suerte', 'malédiction',
-                       'Death', 'Transformation (Death card)', '', None):
+                       'not compatible', 'lucky', 'gemstone', 'crystal', 'sapphire', 'रत्न', 'ರತ್ನ', 'paid puja',
+                       'lifespan', 'longevity', 'die', 'widow', 'आयु', 'ಆಯುಷ್ಯ', 'मृत', 'risk', 'जोखिम',
+                       'ಅಪಾಯ', 'immediately', 'disaster', 'terrible', 'seventh lord', 'lord of the 7th',
+                       'सातवाँ घर', 'ಏಳನೇ ಮನೆ', '8 out of 10', 'Death', 'Transformation (Death card)', '', None):
             with self.subTest(phrase=phrase), self.assertRaises(ValueError):
                 check_text(phrase, 'probe', 'en')
-        for phrase in ('household', 'compare the two house placements', '36 days'):
+        for phrase in ('household', 'compare the two house placements', '36 days', 'स्मरण', 'ಸ್ಮರಣೆ'):
             check_text(phrase, 'probe', 'en')
         check_text('Transformation (Death card)', TAROT_FIELD, 'en')
         with self.assertRaises(ValueError):

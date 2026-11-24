@@ -13,7 +13,7 @@ NUMBER = r'\d+(?:st|nd|rd|th)?|one|two|three|four|five|six|seven|eight|nine|ten|
 HOUSE = r'houses?|bhavas?'
 POLICIES = {
     'sensitive term': r'\b(?:m[aā]raka|deaths?|shrapit|guru[- ]?chand[aā]l|chand[aā]l[ae]?|pitru[- ]?dosha|grahan)\b'
-                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|चंडाल|चण्डाल|श्रापित|पितृदोष|मौत|मरण|ಮಾರಕ|ಮೃತ್ಯು|ಮರಣ|ಸಾವು|ಚಾಂಡಾಲ|ಚಾಣ್ಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
+                      r'|मारक|मृत्यु|चांडाल|चाण्डाल|चंडाल|चण्डाल|श्रापित|पितृदोष|मौत|(?<![\u0900-\u097f])मरण|ಮಾರಕ|ಮೃತ್ಯು|(?<![\u0c80-\u0cff])ಮರಣ|ಸಾವು|ಚಾಂಡಾಲ|ಚಾಣ್ಡಾಲ|ಶ್ರಾಪಿತ|ಪಿತೃದೋಷ',
     'fear or judgment': r'\b(?:weak(?:ly|er|est|ness)?|curs(?:e[ds]?|ing)|doom(?:ed|s)?|danger(?:s|ous|ously)?|bad[- ]luck)\b'
                         r'|कमज़ोर|कमजोर|अभिशाप|दुर्भाग्य|खतर|बदकिस्मती|श्राप|शापित|ದುರ್ಬಲ|ದುರದೃಷ್ಟ|ಶಾಪ|ಕೆಟ್ಟ ಅದೃಷ್ಟ|ಅಪಾಯ'
                         r'|\b(?:maldici[oó]n|d[eé]bil|peligro|mala suerte|malédiction|maudit[e]?|mort|muerte|faible|malchance|fatalidad|perdición|perdition)\b'
@@ -30,6 +30,12 @@ POLICIES = {
                     r'|(?:36|३६|೩೬)\s*(?:ರಲ್ಲಿ|में से)|\d+\s*(?:गुण|ಗುಣ)\s*(?:मिले|अंक|ಅಂಕ)'
                     r'|(?:score|points?|bindus?|अंक|ಅಂಕ)\s*[:=]\s*\d+',
 }
+POLICIES.update({
+    'commercial or fearful': r'\b(?:lucky|not compatible|gem(?:stones?)?|crystals?|sapphires?|paid puja|lifespan|longevity|die|widow(?:ed)?|immediately|disasters?|terrible|risks?)\b|रत्न|ರತ್ನ|जोखिम|आयु(?!र्वेद|ष्मान)|ಆಯುಷ್ಯ|(?<![\u0900-\u097f])मृत(?:\s|$)',
+    'ordinal lord': rf'\b(?:{ORDINAL}) lord\b|\blord of (?:the )?(?:{NUMBER})\b',
+    'house ordinal': r'(?:पहला|पहले|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ांे]+|छठ[ाे]|सातव[ााँें]+|आठव[ाें]+|नौव[ाें]+|दसव[ाें]+|ग्यारहव[ाें]+|बारहव[ाें]+|\d+व[ााँें]+)\s*घर|(?:ಮೊದಲ|ಎರಡನೇ|ಮೂರನೇ|ನಾಲ್ಕನೇ|ಐದನೇ|ಆರನೇ|ಏಳನೇ|ಎಂಟನೇ|ಒಂಬತ್ತನೇ|ಹತ್ತನೇ|ಹನ್ನೊಂದನೇ|ಹನ್ನೆರಡನೇ|\d+ನೇ)\s*ಮನೆ',
+    'rating': r'\b\d+\s+out of\s+10\b',
+})
 PATTERNS = {name: re.compile(pattern, re.I) for name, pattern in POLICIES.items()}
 
 

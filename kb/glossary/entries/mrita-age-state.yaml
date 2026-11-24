@@ -22,3 +22,4 @@ used_by:
 - vedic.states.baladi
 systems:
 - vedic
+visibility: admin-only

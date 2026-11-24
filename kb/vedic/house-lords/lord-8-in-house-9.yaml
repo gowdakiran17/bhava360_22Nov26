@@ -86,7 +86,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: 'Yoga links require their own predicates on the same lord pair. Native review pending. BPHS ch.24 and Phaladeepika
+  ch.15: difficult-house ownership qualifies the placement.'
 user_text:
   en: When shared responsibilities change, you can consider which piece of advice fits the situation.
   kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳು ಬದಲಾಗುವಾಗ ಯಾವ ಸಲಹೆ ಈ ಸಂದರ್ಭಕ್ಕೆ ಹೊಂದುತ್ತದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
@@ -104,7 +105,7 @@ remedy:
     kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप कोई ऐसी सीख याद कर सकते हैं जिस पर आप आज भी अमल करते हैं।
 evidence:
-  direction: support
+  direction: caution
   weight_class: primary
   time_scope: natal
   reference: lagna

@@ -1,0 +1,258 @@
+version: 1
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+messages:
+  Supportive-1:
+    en: A small step may come easily today.
+    kn: ಇಂದು ಸಣ್ಣ ಹೆಜ್ಜೆ ಇಡುವುದು ಸುಲಭವಾಗಬಹುದು.
+    hi: आज छोटा कदम उठाना सहज लग सकता है।
+  Supportive-2:
+    en: You may find room for a fresh start.
+    kn: ಹೊಸದಾಗಿ ಆರಂಭಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+    hi: नई शुरुआत की गुंजाइश मिल सकती है।
+  Supportive-3:
+    en: Working together may feel easier.
+    kn: ಒಟ್ಟಿಗೆ ಕೆಲಸ ಮಾಡುವುದು ಸುಲಭವಾಗಬಹುದು.
+    hi: साथ काम करना सहज लग सकता है।
+  Steady-1:
+    en: A familiar routine may suit today.
+    kn: ಇಂದು ಪರಿಚಿತ ದಿನಚರಿ ಹೊಂದಬಹುದು.
+    hi: आज परिचित दिनचर्या अनुकूल लग सकती है।
+  Steady-2:
+    en: You can take things at your own pace.
+    kn: ನಿಮ್ಮದೇ ಗತಿಯಲ್ಲಿ ಸಾಗಬಹುದು.
+    hi: आप अपनी गति से आगे बढ़ सकते हैं।
+  Steady-3:
+    en: A little planning may help today.
+    kn: ಇಂದು ಕೊಂಚ ಯೋಜನೆ ನೆರವಾಗಬಹುದು.
+    hi: आज थोड़ी तैयारी मदद कर सकती है।
+  Take care-1:
+    en: You can leave room to pause today.
+    kn: ಇಂದು ವಿರಾಮಕ್ಕೆ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: आज ठहरने का समय रख सकते हैं।
+  Take care-2:
+    en: You may prefer a lighter schedule.
+    kn: ಹಗುರವಾದ ವೇಳಾಪಟ್ಟಿ ನಿಮಗೆ ಹೊಂದಬಹುದು.
+    hi: हल्की दिनचर्या आपको भा सकती है।
+  Take care-3:
+    en: Taking your time may help.
+    kn: ನಿಧಾನವಾಗಿ ಸಾಗುವುದು ನೆರವಾಗಬಹುದು.
+    hi: थोड़ा समय लेकर चलना मदद कर सकता है।
+  phase-1:
+    en: This may be a slower, steadier phase.
+    kn: ಇದು ನಿಧಾನವಾಗಿ, ಸ್ಥಿರವಾಗಿ ಸಾಗುವ ಹಂತವಾಗಬಹುದು.
+    hi: यह धीमा और स्थिर दौर हो सकता है।
+  phase-2:
+    en: You may notice a slower, steadier phase.
+    kn: ನಿಧಾನವಾದ, ಸ್ಥಿರವಾದ ಹಂತವನ್ನು ಗಮನಿಸಬಹುದು.
+    hi: आप एक धीमा और स्थिर दौर महसूस कर सकते हैं।
+  phase-3:
+    en: A slower, steadier phase may be taking shape.
+    kn: ನಿಧಾನವಾದ, ಸ್ಥಿರವಾದ ಹಂತ ಆರಂಭವಾಗುತ್ತಿರಬಹುದು.
+    hi: एक धीमा और स्थिर दौर उभर सकता है।
+  good-travel-1:
+    en: You can make time for a journey.
+    kn: ಪ್ರಯಾಣ ಮಾಡಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आप इसके लिए समय निकाल सकते हैं — यात्रा।
+  good-travel-2:
+    en: Today may suit a journey.
+    kn: ಇಂದು ಪ್ರಯಾಣ ಮಾಡಲು ಅನುಕೂಲವಾಗಬಹುದು.
+    hi: आज इसके लिए जगह बन सकती है — यात्रा।
+  good-travel-3:
+    en: You may feel ready for a journey.
+    kn: ಪ್ರಯಾಣ ಮಾಡಲು ಸಿದ್ಧತೆ ಅನಿಸಬಹುದು.
+    hi: आज आप इस ओर कदम बढ़ा सकते हैं — यात्रा।
+  easy-travel-1:
+    en: You can leave extra time for a journey.
+    kn: ಪ್ರಯಾಣ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: इसके लिए थोड़ा और समय रख सकते हैं — यात्रा।
+  easy-travel-2:
+    en: You may prefer to postpone a journey.
+    kn: ಪ್ರಯಾಣ ಮಾಡಲು ಸ್ವಲ್ಪ ಕಾಯಬಹುದು.
+    hi: इसे कुछ देर टाल सकते हैं — यात्रा।
+  easy-travel-3:
+    en: You can keep plans flexible for a journey.
+    kn: ಪ್ರಯಾಣ ಮಾಡುವ ಯೋಜನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.
+    hi: इसके लिए योजना लचीली रख सकते हैं — यात्रा।
+  good-starting-work-1:
+    en: You can make time for a new task.
+    kn: ಹೊಸ ಕೆಲಸ ಮಾಡಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आप इसके लिए समय निकाल सकते हैं — नया काम।
+  good-starting-work-2:
+    en: Today may suit a new task.
+    kn: ಇಂದು ಹೊಸ ಕೆಲಸ ಮಾಡಲು ಅನುಕೂಲವಾಗಬಹುದು.
+    hi: आज इसके लिए जगह बन सकती है — नया काम।
+  good-starting-work-3:
+    en: You may feel ready for a new task.
+    kn: ಹೊಸ ಕೆಲಸ ಮಾಡಲು ಸಿದ್ಧತೆ ಅನಿಸಬಹುದು.
+    hi: आज आप इस ओर कदम बढ़ा सकते हैं — नया काम।
+  easy-starting-work-1:
+    en: You can leave extra time for a new task.
+    kn: ಹೊಸ ಕೆಲಸ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: इसके लिए थोड़ा और समय रख सकते हैं — नया काम।
+  easy-starting-work-2:
+    en: You may prefer to postpone a new task.
+    kn: ಹೊಸ ಕೆಲಸ ಮಾಡಲು ಸ್ವಲ್ಪ ಕಾಯಬಹುದು.
+    hi: इसे कुछ देर टाल सकते हैं — नया काम।
+  easy-starting-work-3:
+    en: You can keep plans flexible for a new task.
+    kn: ಹೊಸ ಕೆಲಸ ಮಾಡುವ ಯೋಜನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.
+    hi: इसके लिए योजना लचीली रख सकते हैं — नया काम।
+  good-important-talk-1:
+    en: You can make time for a conversation.
+    kn: ಮಾತುಕತೆ ಮಾಡಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आप इसके लिए समय निकाल सकते हैं — बातचीत।
+  good-important-talk-2:
+    en: Today may suit a conversation.
+    kn: ಇಂದು ಮಾತುಕತೆ ಮಾಡಲು ಅನುಕೂಲವಾಗಬಹುದು.
+    hi: आज इसके लिए जगह बन सकती है — बातचीत।
+  good-important-talk-3:
+    en: You may feel ready for a conversation.
+    kn: ಮಾತುಕತೆ ಮಾಡಲು ಸಿದ್ಧತೆ ಅನಿಸಬಹುದು.
+    hi: आज आप इस ओर कदम बढ़ा सकते हैं — बातचीत।
+  easy-important-talk-1:
+    en: You can leave extra time for a conversation.
+    kn: ಮಾತುಕತೆ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: इसके लिए थोड़ा और समय रख सकते हैं — बातचीत।
+  easy-important-talk-2:
+    en: You may prefer to postpone a conversation.
+    kn: ಮಾತುಕತೆ ಮಾಡಲು ಸ್ವಲ್ಪ ಕಾಯಬಹುದು.
+    hi: इसे कुछ देर टाल सकते हैं — बातचीत।
+  easy-important-talk-3:
+    en: You can keep plans flexible for a conversation.
+    kn: ಮಾತುಕತೆ ಮಾಡುವ ಯೋಜನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.
+    hi: इसके लिए योजना लचीली रख सकते हैं — बातचीत।
+  good-family-visit-1:
+    en: You can make time for a family visit.
+    kn: ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आप इसके लिए समय निकाल सकते हैं — परिवार से मुलाकात।
+  good-family-visit-2:
+    en: Today may suit a family visit.
+    kn: ಇಂದು ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡಲು ಅನುಕೂಲವಾಗಬಹುದು.
+    hi: आज इसके लिए जगह बन सकती है — परिवार से मुलाकात।
+  good-family-visit-3:
+    en: You may feel ready for a family visit.
+    kn: ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡಲು ಸಿದ್ಧತೆ ಅನಿಸಬಹುದು.
+    hi: आज आप इस ओर कदम बढ़ा सकते हैं — परिवार से मुलाकात।
+  easy-family-visit-1:
+    en: You can leave extra time for a family visit.
+    kn: ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: इसके लिए थोड़ा और समय रख सकते हैं — परिवार से मुलाकात।
+  easy-family-visit-2:
+    en: You may prefer to postpone a family visit.
+    kn: ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡಲು ಸ್ವಲ್ಪ ಕಾಯಬಹುದು.
+    hi: इसे कुछ देर टाल सकते हैं — परिवार से मुलाकात।
+  easy-family-visit-3:
+    en: You can keep plans flexible for a family visit.
+    kn: ಕುಟುಂಬದ ಭೇಟಿ ಮಾಡುವ ಯೋಜನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.
+    hi: इसके लिए योजना लचीली रख सकते हैं — परिवार से मुलाकात।
+  good-focused-work-1:
+    en: You can make time for quiet work.
+    kn: ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आप इसके लिए समय निकाल सकते हैं — एकाग्रता से काम।
+  good-focused-work-2:
+    en: Today may suit quiet work.
+    kn: ಇಂದು ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡಲು ಅನುಕೂಲವಾಗಬಹುದು.
+    hi: आज इसके लिए जगह बन सकती है — एकाग्रता से काम।
+  good-focused-work-3:
+    en: You may feel ready for quiet work.
+    kn: ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡಲು ಸಿದ್ಧತೆ ಅನಿಸಬಹುದು.
+    hi: आज आप इस ओर कदम बढ़ा सकते हैं — एकाग्रता से काम।
+  easy-focused-work-1:
+    en: You can leave extra time for quiet work.
+    kn: ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಸಮಯ ಬಿಡಬಹುದು.
+    hi: इसके लिए थोड़ा और समय रख सकते हैं — एकाग्रता से काम।
+  easy-focused-work-2:
+    en: You may prefer to postpone quiet work.
+    kn: ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡಲು ಸ್ವಲ್ಪ ಕಾಯಬಹುದು.
+    hi: इसे कुछ देर टाल सकते हैं — एकाग्रता से काम।
+  easy-focused-work-3:
+    en: You can keep plans flexible for quiet work.
+    kn: ಏಕಾಗ್ರತೆಯ ಕೆಲಸ ಮಾಡುವ ಯೋಜನೆಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.
+    hi: इसके लिए योजना लचीली रख सकते हैं — एकाग्रता से काम।
+  phase-support:
+    en: You may find good support around you.
+    kn: ಸುತ್ತಮುತ್ತ ಒಳ್ಳೆಯ ಬೆಂಬಲ ಸಿಗಬಹುದು.
+    hi: आसपास अच्छा सहयोग मिल सकता है।
+  phase-timing:
+    en: The timing may also help.
+    kn: ಸಮಯವೂ ನೆರವಾಗಬಹುದು.
+    hi: समय भी सहायक हो सकता है।
+  tomorrow-tone:
+    en: Tomorrow may have a different rhythm.
+    kn: ನಾಳೆ ದಿನದ ಗತಿ ಬದಲಾಗಬಹುದು.
+    hi: कल दिन की लय अलग लग सकती है।
+  tomorrow-change:
+    en: You may notice a change of pace tomorrow.
+    kn: ನಾಳೆ ಗತಿಯಲ್ಲಿ ಬದಲಾವಣೆ ಗಮನಿಸಬಹುದು.
+    hi: कल गति में बदलाव महसूस कर सकते हैं।
+  week-period:
+    en: This week may open a new chapter.
+    kn: ಈ ವಾರ ಹೊಸ ಅಧ್ಯಾಯ ಆರಂಭವಾಗಬಹುದು.
+    hi: इस सप्ताह नया अध्याय शुरू हो सकता है।
+  week-movement:
+    en: The pace may shift during the week.
+    kn: ವಾರದಲ್ಲಿ ಗತಿ ಬದಲಾಗಬಹುದು.
+    hi: सप्ताह में गति बदल सकती है।
+  week-continuity:
+    en: You may find a familiar rhythm this week.
+    kn: ಈ ವಾರ ಪರಿಚಿತ ಗತಿ ಅನುಭವವಾಗಬಹುದು.
+    hi: इस सप्ताह परिचित लय महसूस हो सकती है।
+  moon-chip:
+    en: Moon movement
+    kn: ಚಂದ್ರನ ಚಲನೆ
+    hi: चंद्रमा की चाल
+  star-chip:
+    en: Daily star pattern
+    kn: ದಿನದ ನಕ್ಷತ್ರ ವಿನ್ಯಾಸ
+    hi: दिन का नक्षत्र क्रम
+  season-chip:
+    en: Current chapter
+    kn: ಪ್ರಸ್ತುತ ಅಧ್ಯಾಯ
+    hi: वर्तमान अध्याय
+  career-chip:
+    en: Work and responsibilities
+    kn: ಕೆಲಸ ಮತ್ತು ಜವಾಬ್ದಾರಿ
+    hi: काम और जिम्मेदारियाँ
+  timing-chip:
+    en: Timing patterns
+    kn: ಸಮಯದ ವಿನ್ಯಾಸ
+    hi: समय के संकेत
+  slower:
+    en: This may unfold more gradually.
+    kn: ಇದು ನಿಧಾನವಾಗಿ ಸಾಗಬಹುದು.
+    hi: यह धीरे आगे बढ़ सकता है।
+  no-window:
+    en: A clear window may take time to emerge. You can keep building on your efforts.
+    kn: ಸ್ಪಷ್ಟ ಅವಧಿ ಕಾಣಲು ಸಮಯ ಹಿಡಿಯಬಹುದು. ನಿಮ್ಮ ಪ್ರಯತ್ನ ಮುಂದುವರಿಸಬಹುದು.
+    hi: स्पष्ट अवसर उभरने में समय लग सकता है। आप प्रयास जारी रख सकते हैं।
+  action:
+    en: You can set aside time to review your next step.
+    kn: ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಸಮಯ ಬಿಡಬಹುದು.
+    hi: अगले कदम पर विचार के लिए समय निकाल सकते हैं।
+  mixed:
+    en: The signals may be mixed.
+    kn: ಸೂಚನೆಗಳು ಮಿಶ್ರವಾಗಿರಬಹುದು.
+    hi: संकेत मिले-जुले हो सकते हैं।
+  limited:
+    en: There may be little to go on for this topic just now.
+    kn: ಈ ವಿಷಯಕ್ಕೆ ಈಗ ಕಡಿಮೆ ಸೂಚನೆಗಳು ಸಿಗಬಹುದು.
+    hi: इस विषय पर अभी कम संकेत मिल सकते हैं।
+  delay:
+    en: You can give this plan more time.
+    kn: ಈ ಯೋಜನೆಗೆ ಇನ್ನಷ್ಟು ಸಮಯ ನೀಡಬಹುದು.
+    hi: इस योजना को थोड़ा और समय दे सकते हैं।
+  sustain:
+    en: This may start smoothly and benefit from steady attention.
+    kn: ಆರಂಭ ಸುಗಮವಾಗಬಹುದು; ಮುಂದೆಯೂ ಗಮನ ನೀಡುವುದು ನೆರವಾಗಬಹುದು.
+    hi: शुरुआत सहज हो सकती है और आगे नियमित ध्यान मदद कर सकता है।
+  improve:
+    en: Things may improve with time.
+    kn: ಕಾಲಕ್ರಮೇಣ ಸುಧಾರಣೆ ಕಾಣಬಹುದು.
+    hi: समय के साथ सुधार हो सकता है।
+  phase-end:
+    en: This phase may ease by {date}.
+    kn: '{date} ವೇಳೆಗೆ ಈ ಹಂತ ಸರಾಗವಾಗಬಹುದು.'
+    hi: '{date} तक इस दौर में सहजता आ सकती है।'

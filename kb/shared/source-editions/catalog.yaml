@@ -33,6 +33,8 @@ works:
   pyjhora-house-strength: PyJHora house strength implementation
   pyjhora-vargas: PyJHora divisional chart methods and weights
   sgs-panchangam: SGS Panchangam
+  raman-ashtakavarga: Ashtakavarga System of Prediction
+  kn-rao-double-transit: K.N. Rao double-transit method (edition pending)
   raman-muhurtha: Muhurtha (Electional Astrology)
   rath-mangala: Mangalika Dosha
   pyjhora-doshas: PyJHora dosha.py

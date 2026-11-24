@@ -51,6 +51,7 @@ def validate_consistency(rules, read, require, root):
     ids = set()
     incoming = defaultdict(set)
     facts = read('shared/fact-dictionary/catalog.yaml')['facts']
+    producers = {f.get("producer") for f in facts.values()}
     namespaces = {r['system'] for r in rules.values()} | {'glossary','remedies'}
     literal = re.compile(r'(?<![\w.-])(?:'+'|'.join(sorted(namespaces))+r')(?:\.[a-z0-9][a-z0-9_-]*){2,}(?![\w-])')
     paths = [p for p in sorted(root.rglob('*')) if p.is_file() and '__pycache__' not in p.parts and
@@ -96,7 +97,7 @@ def validate_consistency(rules, read, require, root):
             if key in ids:
                 if (not owner or owner[1]!=key) and p.suffix != '.py':
                     incoming[key].add(p)
-            elif key not in facts:
+            elif key not in facts and key not in producers:
                 # Finite ID patterns in schema/engine code are expanded by their module validators.
                 tail=s[m.end():m.end()+1]
                 prefix=key.endswith('-') or key=='vedic.vargas.d'

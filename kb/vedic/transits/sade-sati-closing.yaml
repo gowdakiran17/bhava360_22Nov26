@@ -40,11 +40,11 @@ sources:
   supports: Bhava360 selection, calculation boundaries and original reflective wording.
   verification: pending
 confidence: medium
-review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+review_notes: Phase boundaries are local to this rule. Public wording follows modules/home/copy.yaml (phase-3) and its month policy. Kannada and Hindi await native review.
 user_text:
-  en: You can review what your household needs to maintain.
-  kn: ಮನೆಯ ಅಗತ್ಯಗಳನ್ನು ಮತ್ತೊಮ್ಮೆ ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: आप घर की ज़रूरतों की फिर से समीक्षा कर सकते हैं।
+  en: A slower, steadier phase may be taking shape.
+  kn: ನಿಧಾನವಾದ, ಸ್ಥಿರವಾದ ಹಂತ ಆರಂಭವಾಗುತ್ತಿರಬಹುದು.
+  hi: एक धीमा और स्थिर दौर उभर सकता है।
 native_review:
   kn: pending
   hi: pending

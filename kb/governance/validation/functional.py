@@ -7,11 +7,19 @@ MT_DISPUTES = {
     ('leo','jupiter'): 'The fifth can receive more weight than the eighth.',
     ('gemini','saturn'): 'The ninth can receive more weight than the eighth.',
     ('aquarius','mercury'): 'The eighth can receive more weight than the fifth.',
-    ('sagittarius','mars'): 'Prioritising the fifth reinforces the default despite twelfth ownership.',
+    ('taurus','venus'): 'The MT sign weighs sixth ownership against ascendant ownership.',
+    ('scorpio','mars'): 'The MT sign weighs sixth ownership against ascendant ownership.',
 }
 
 
-def cell(lagna, graha, dignity):
+CLASSICAL = {
+    **dict.fromkeys([('aries','venus'), ('taurus','venus'), ('gemini','jupiter'), ('virgo','jupiter'),
+                     ('libra','mars'), ('scorpio','venus'), ('capricorn','moon'), ('pisces','mercury')], 'Malefic'),
+    **dict.fromkeys([('leo','jupiter'), ('taurus','sun'), ('scorpio','sun')], 'Benefic'),
+}
+
+
+def cell(lagna, graha, dignity, profile="functional-lordship-v1"):
     houses = {(i-SIGNS.index(lagna)) % 12 + 1 for i, owner in enumerate(OWNERS) if owner == graha}
     yoga = bool(houses & {4,7,10} and houses & {5,9})
     exempt = 8 in houses and graha in ('sun','moon')
@@ -21,9 +29,9 @@ def cell(lagna, graha, dignity):
                 kendradhipati=kendra and benefic,
                 strong=kendra and graha in ('jupiter','venus') and lagna in SIGNS[2::3],
                 eighth_lord_exempt=exempt, eleventh_least_malefic_for_wealth=11 in houses,
-                maraka=bool(houses & {2,7}), mt_tiebreak=len(houses)==2)
+                maraka=bool(houses & {2,7}), has_dual_lordship=len(houses)==2)
     if not houses:
-        return dict(data, polarity=None, rule='dispositor')
+        return dict(data, polarity=None, rule='occupied-association-dispositor')
     if 1 in houses:
         nature = 'Benefic'
     elif yoga:
@@ -36,7 +44,7 @@ def cell(lagna, graha, dignity):
         nature = 'Malefic'
     else:
         nature = 'Neutral'
-    data['polarity'] = nature
+    data['polarity'] = nature if profile == 'generic-lordship-order' else CLASSICAL.get((lagna,graha), nature)
     if len(houses)==2:
         data['mt_house'] = (SIGNS.index(dignity[graha]['moolatrikona_sign'])-SIGNS.index(lagna))%12+1
     if (lagna,graha) in MT_DISPUTES:
@@ -44,11 +52,14 @@ def cell(lagna, graha, dignity):
     return data
 
 
-def resolve(table, lagna, graha, node_sign=None):
+def resolve(table, lagna, graha, node_sign=None, occupied=None, associated=None):
     if lagna not in table or graha not in table[lagna]:
         return None
     row = table[lagna][graha]
-    if row.get('rule') == 'dispositor':
+    if row.get('rule') == 'occupied-association-dispositor':
+        for testimony in (occupied, associated):
+            if testimony in ('Benefic','Neutral','Malefic','Yogakaraka'):
+                return 'Benefic' if testimony == 'Yogakaraka' else testimony
         if node_sign not in SIGNS:
             return None
         nature = table[lagna][OWNERS[SIGNS.index(node_sign)]]['polarity']
@@ -60,8 +71,7 @@ def validate(read, require):
     table = read('vedic/lordships/functional.yaml')['cells']
     dignity = read('vedic/dignity/sign-dignities.yaml')['grahas']
     # Independent expected rows from the reviewed first-match worksheet.
-    expected = ('BNBMBNM NMNBMBY MNMBNBN NBYMBMM BNYMNMM NMMBNBB '
-                'MNNBMBY NBBMBNM BNBNBMM NNMBMYB NMMNMYB MBBNBMM').split()
+    expected = 'BNBMBMM BMNBMMY MNMBMBN NBYMBMM BNYMBMM NMMBMBB MNMBMBY BBBMBMM BNBNBMM NMMBMYB NMMNMYB MBBMBMM'.split()
     require(list(table)==SIGNS,'functional Lagna rows')
     for lagna, letters in zip(SIGNS, expected, strict=True):
         row = table[lagna]
@@ -78,4 +88,8 @@ def validate(read, require):
     require(sum(c['yogakaraka'] for r in table.values() for c in r.values())==6,'six Yogakarakas')
     require(resolve(table,'cancer','rahu','aries')=='Benefic' and resolve(table,'aries','ketu') is None
             and resolve(table,None,'sun') is None,'dispositor and unknowns')
-    print('Functional nature: 108 cells, six Yogakarakas, five disputed MT cells passed.')
+    require(resolve(table,'aries','rahu','aries',occupied='Malefic',associated='Benefic')=='Malefic' and
+            resolve(table,'aries','ketu','aries',associated='Neutral')=='Neutral','occupied house then association')
+    for key,want in CLASSICAL.items():
+        require(cell(*key,dignity)['polarity']==want and cell(*key,dignity,profile='generic-lordship-order')['polarity']!=want,key)
+    print('Functional nature: 108 cells, six Yogakarakas, six disputed MT cells passed.')
