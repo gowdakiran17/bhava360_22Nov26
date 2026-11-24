@@ -9,23 +9,20 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Count full aspects inclusively. All classical grahas reach the seventh; Mars also reaches the fourth and eighth,
-  Jupiter the fifth and ninth, Saturn the third and tenth.
+rule: Count full aspects inclusively. All seven planetary grahas reach the seventh; Mars also reaches the fourth
+  and eighth, Jupiter the fifth and ninth, Saturn the third and tenth. Nodes cast none.
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
 meaning: Count full aspects inclusively.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Keep only the opposition cast by a node. The alternative image includes additional aspects. For node agency
-    judge incoming planetary aspects.
+  note: Nodes cast no aspects. Count same-sign conjunctions and incoming sign-count aspects from the seven grahas.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi

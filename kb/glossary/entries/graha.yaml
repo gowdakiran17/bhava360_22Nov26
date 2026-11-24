@@ -59,9 +59,9 @@ used_by:
 - lal-kitab.placements.house-7
 - lal-kitab.placements.house-8
 - lal-kitab.placements.house-9
+- nadi.nakshatra-nadi.node-combination
 - nadi.nakshatra-nadi.planet-aspects
 - nadi.nakshatra-nadi.planet-house-combination
-- nadi.nakshatra-nadi.three-line-chain-per-planet
 - remedies.conduct.jupiter
 - remedies.conduct.ketu
 - remedies.conduct.mars

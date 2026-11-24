@@ -7,32 +7,27 @@ approval: draft
 tag: MODERN/POPULAR
 feature_gate: nakshatra-nadi
 visibility: admin-only
-status: blocked
+status: held
 native_review_needed: true
 rule: Intersect the running testimony with the supporting and challenging houses for the selected area. Keep contradictory
   witnesses together.
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
-  - any:
-    - fact: kp.cusps.placidus_ready
-      op: eq
-      value: true
-    - fact: nadi.nn.profile
-      op: eq
-      value: lahiri-whole-sign
+    op: eq
+    value: kp-placidus
+  - fact: kp.cusps.placidus_ready
+    op: eq
+    value: true
 meaning: Intersect the running testimony with the supporting and challenging houses for the selected area.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
-    fails.
+  note: Use KP Placidus cusps. Withhold house testimony if polar cusps fail. Jyoti reports that file 2, PDF pp.
+    45–49 agrees with whole signs in 35/35 combinations and with Placidus in 16/35. File 4, PDF p. 2 and the owner
+    demonstration support the selected cusp method.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
@@ -44,7 +39,7 @@ sources:
   verification: verified_locator
   to_verify: false
 confidence: high
-review_notes: Internal study only. Resolve house-frame, planet-line, node-association.
+review_notes: 'Resolved 2026-11-24: house-frame, planet-line, node-association. Internal review only.'
 user_text:
   en: This period may offer openings alongside delays. You can take decisions at your own pace.
   kn: ಈ ಸಮಯದಲ್ಲಿ ಅವಕಾಶಗಳ ಜೊತೆಗೆ ವಿಳಂಬವೂ ಇರಬಹುದು. ನಿಮ್ಮ ಗತಿಯಲ್ಲಿ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.

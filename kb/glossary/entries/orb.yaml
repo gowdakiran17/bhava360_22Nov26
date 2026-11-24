@@ -17,6 +17,7 @@ aliases:
 - Orbs
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.node-combination
 - vedic.annual-chart.ishrafa
 - vedic.annual-chart.ithasala
 - vedic.conjunctions.jupiter-ketu

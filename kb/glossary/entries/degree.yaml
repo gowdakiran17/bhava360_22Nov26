@@ -19,6 +19,7 @@ reference_rules: []
 used_by:
 - jaimini.rashi-drishti.sign-contact
 - kp.significators.job-change
+- nadi.nakshatra-nadi.node-combination
 - tarot.minor-arcana.eight-of-cups-reversed
 - tarot.minor-arcana.eight-of-cups-upright
 - tarot.minor-arcana.eight-of-pentacles-reversed

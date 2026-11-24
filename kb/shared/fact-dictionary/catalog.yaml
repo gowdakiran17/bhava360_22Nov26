@@ -7,6 +7,7 @@ value_types:
 - instant
 - interval
 - array
+- object
 instant_format: ISO 8601 with explicit UTC offset
 interval_bounds: start-inclusive-end-exclusive
 operators:
@@ -27,7 +28,6 @@ facts:
     unknown_if: The bound inputs or the applicable convention are unresolved.
     values:
     - kp-placidus
-    - lahiri-whole-sign
   nadi.nn.planet.combination:
     type: array
     producer: nadi.nakshatra-nadi
@@ -104,15 +104,78 @@ facts:
     dependencies:
     - Stable Antar or Pratyantar lord and selected area
     unknown_if: The bound inputs or the applicable convention are unresolved.
-  nadi.nn.power_position:
-    type: enum
+  nadi.nn.planet.circle:
+    type: integer
     producer: nadi.nakshatra-nadi
-    origin: Withheld pending a definition of circle and power
+    origin: Occupied Placidus house of the bound body
     dependencies:
-    - Owner definition of power and circle
-    unknown_if: Always withheld until the definition is reviewed.
-    values:
-    - unresolved
+    - Stable body and cusp longitudes
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+    range:
+    - 1
+    - 12
+  nadi.nn.planet.line_circles:
+    type: object
+    producer: nadi.nakshatra-nadi
+    origin: Occupied houses of the body, its star lord and its sub lord
+    dependencies:
+    - KP star/sub identity and the three occupancies
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+    fields:
+      pl: house 1–12
+      nl: house 1–12
+      sl: house 1–12
+  nadi.nn.planet.power_position:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Distinct NL and SL circles
+    dependencies:
+    - Stable line circles
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+    items: unique houses 1–12
+    length:
+    - 1
+    - 2
+  nadi.nn.planet.full_power:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: True when NL and SL occupy the same house
+    dependencies:
+    - Stable NL and SL circles
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+  nadi.nn.planet.hit_pair:
+    type: object
+    producer: nadi.nakshatra-nadi
+    origin: Private area lookup coordinates
+    dependencies:
+    - Stable line circles
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+    fields:
+      row_sl: SL house
+      col_nl: NL house
+  nadi.nn.planet.hit_count:
+    type: object
+    producer: nadi.nakshatra-nadi
+    origin: Count distinct lines carrying each house
+    dependencies:
+    - Three house combinations
+    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+      tolerance.
+    visibility: admin-only
+    keys: house 1–12
+    values_range:
+    - 1
+    - 3
   checker.relocation.travel_house:
     type: integer
     producer: vedic.relocation

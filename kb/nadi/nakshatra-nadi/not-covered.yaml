@@ -14,10 +14,8 @@ rule: Ignore outer planets with a diagnostic. Exclude retrograde motion, combust
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
 meaning: Ignore outer planets with a diagnostic.
 life_areas: []
 strength_notes: []

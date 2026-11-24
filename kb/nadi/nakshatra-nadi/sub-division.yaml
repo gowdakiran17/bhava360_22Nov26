@@ -14,10 +14,8 @@ rule: Resolve the half-open KP sub interval at the longitude. Each star starts w
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
   - fact: kp.sub.known
     op: eq
     value: true
@@ -27,7 +25,7 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Use KP mode 5. The course leaves its software setting unstated; compare Lahiri only in a separate record.
+  note: The owner selected KP sidereal mode 5 for every chart.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi

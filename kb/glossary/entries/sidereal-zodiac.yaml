@@ -20,6 +20,7 @@ used_by:
 - kp.cusps.placidus
 - kp.number-horary.arc
 - kp.star-sub-lords.subdivision
+- nadi.nakshatra-nadi.sub-division
 - nadi.nakshatra-nadi.zodiac-stars-and-quarters
 - vedic.annual-chart.solar-return
 - vedic.dashas-ashtottari.conditional-cycle

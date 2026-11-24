@@ -115,4 +115,8 @@ The 1952 Nagpal Hindi PDF provides primary locators for 108 graha placements, tw
 
 ## Batch 14 held Nakshatra Nadi module
 
-[Method index](nadi/nakshatra-nadi/module.yaml) · [60 synthetic review cases](examples/nakshatra-nadi.yaml). The 22 draft rules add 12 scoped internal facts, bringing the registry to 968. The five charts cover both house frames, two year clocks, unknown time and qualitative preview filtering.
+[Method index](nadi/nakshatra-nadi/module.yaml) · [60 synthetic review cases](examples/nakshatra-nadi.yaml). The 22 draft rules add 12 scoped internal facts, bringing the registry to 968. The five charts cover period clocks, unknown time and qualitative preview filtering. The KP frame is locked in Batch 15.
+
+## Batch 15 Nakshatra Nadi blocker review
+
+Four owner answers move twelve rules from blocked to held. Of the 22 draft rules, twenty are held and two remain blocked on private grid data and unset node dignity. Replacing one unresolved fact with six typed internal facts brings coverage to 973 facts across 2,754 rules. Nine of the 60 synthetic cases now check KP-only circles, power, withholding and a sign boundary. All module readings remain private.
