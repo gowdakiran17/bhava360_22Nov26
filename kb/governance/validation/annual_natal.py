@@ -173,3 +173,58 @@ def advanced_points(read, require):
     kerala=read('vedic/prashna/kerala-study.yaml')
     require(kerala['visibility']=='admin-only' and all(k in kerala for k in ('trisphuta','badhaka','ashtamangala')),
             'Kerala private observation profiles')
+
+
+def check_state_witnesses(read, require):
+    """Exercise independent causes, including conjunction and aspect overlaps."""
+    def waking(dignity):
+        if dignity in ('own','exalted','moolatrikona'):
+            return 'jagrat'
+        if dignity in ('friend','great-friend','neutral'):
+            return 'swapna'
+        if dignity in ('enemy','great-enemy','debilitated'):
+            return 'sushupti'
+        return None
+
+    def brilliance(dignity, with_malefic, combust):
+        state = {'exalted':'deepta','own':'swastha','great-friend':'pramudita','friend':'shanta',
+                 'neutral':'dina','enemy':'duhkita','great-enemy':'khala'}.get(dignity)
+        if None in (dignity,with_malefic,combust):
+            return None
+        result = {state} if state else set()
+        if with_malefic:
+            result.add('vikala')
+        if combust:
+            result.add('kopa')
+        return result
+
+    def disposition(dignity, house, water, joins, enemy_contact, enemy_aspect, benefic_aspect, friend_contact):
+        if None in (dignity,house,water,joins,enemy_contact,enemy_aspect,benefic_aspect,friend_contact):
+            return None
+        causes = {'lajjita':house==5 and bool(joins & {'rahu','ketu','saturn','mars'}),
+                  'garvita':dignity in ('exalted','moolatrikona'),
+                  'kshudhita':dignity=='enemy' or enemy_contact or 'saturn' in joins,
+                  'trishita':water and enemy_aspect and not benefic_aspect,
+                  'mudita':dignity=='friend' or friend_contact or 'jupiter' in joins,
+                  'kshobhita':'sun' in joins and (enemy_aspect or enemy_contact)}
+        return {k for k, present in causes.items() if present}
+
+    def numbered_state(star,graha,division,moon_star,ghati,rising):
+        if None in (star,graha,division,moon_star,ghati,rising):
+            return None
+        return 1+(star*graha*division + moon_star + int(ghati) + rising - 1)%12
+
+    require(waking('own')=='jagrat' and waking('neutral')=='swapna' and waking('debilitated')=='sushupti'
+            and waking(None) is None,'waking states and unbound dignity')
+    tested=set()
+    for dignity in ('exalted','own','great-friend','friend','neutral','enemy','great-enemy'):
+        tested.update(brilliance(dignity,True,True))
+    require(tested==set(read('vedic/avasthas/deeptadi.yaml')['states']) and brilliance('own',False,False)=={'swastha'}
+            and brilliance(None,False,True) is None,'independent brilliance witnesses')
+    require(disposition('exalted',5,True,{'saturn','sun','jupiter'},False,True,False,False)==
+            set(read('vedic/avasthas/lajjitadi.yaml')['states']) and
+            disposition('neutral',1,False,set(),False,False,False,False)==set() and
+            disposition(None,1,False,set(),False,False,False,False) is None,'overlapping disposition causes')
+    require({numbered_state(1,1,1,1,h,1) for h in range(12)}==
+            set(read('vedic/avasthas/shayanadi.yaml')['states'].values()) and numbered_state(1,1,1,1,9,1)==12 and
+            numbered_state(1,1,1,1,10,1)==1 and numbered_state(1,1,1,1,None,1) is None,'Shayanadi remainder')

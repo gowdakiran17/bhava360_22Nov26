@@ -344,7 +344,7 @@ cases:
     - 97.75
     - 0.2
     mars:
-    - 210
+    - 240
     - 1
   expected:
   - current-question
@@ -355,7 +355,6 @@ cases:
   day: '2032-03-19'
   reasons:
   - moon-support
-  - querent-support
   worksheet:
     moon_saturn_separation_deg: 69.75
     aspect_deg: 60

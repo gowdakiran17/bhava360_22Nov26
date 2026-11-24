@@ -7982,6 +7982,7 @@ wait
 waite
 wakeful
 wakefulness
+waking
 walk
 walkthrough
 wall
