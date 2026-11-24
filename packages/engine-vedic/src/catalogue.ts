@@ -1,3 +1,4 @@
+import { prepareMethods } from './vargas';
 import { readFileSync } from 'node:fs';
 
 export interface Nakshatra {
@@ -6,7 +7,7 @@ export interface Nakshatra {
   number: number;
   lord: string;
 }
-export function loadNakshatras(): Nakshatra[] {
+export function loadCatalogue() {
   const source = new URL(
     '../../../kb/dist-json/admin/vedic.json',
     import.meta.url,
@@ -15,7 +16,7 @@ export function loadNakshatras(): Nakshatra[] {
   const entries: { id: string; number: number; vimshottari_lord: string }[] =
     data.resources['vedic/nakshatras/catalog.yaml'].nakshatras;
   if (entries.length !== 27) throw new Error('Expected 27 nakshatras');
-  return [...entries]
+  const nakshatras: Nakshatra[] = [...entries]
     .sort((a, b) => a.number - b.number)
     .map((entry, i) => {
       const id = 'vedic.nakshatras.' + entry.id;
@@ -35,4 +36,10 @@ export function loadNakshatras(): Nakshatra[] {
         lord: entry.vimshottari_lord,
       };
     });
+  return {
+    nakshatras,
+    methods: prepareMethods(
+      data.resources['vedic/vargas/methods.yaml'].methods,
+    ),
+  };
 }

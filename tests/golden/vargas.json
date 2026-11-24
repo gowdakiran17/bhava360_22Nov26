@@ -1,0 +1,1614 @@
+{
+  "provenance": {
+    "binding": "2.10.3.2",
+    "library": "2.10.03",
+    "flag": "SEFLG_MOSEPH",
+    "siderealMode": 1,
+    "node": "mean",
+    "methodResource": "vedic/vargas/methods.yaml",
+    "methodIds": {
+      "D1": "parashari-d1-v1",
+      "D2": "parashari-d2-v1",
+      "D3": "parashari-d3-v1",
+      "D4": "parashari-d4-v1",
+      "D7": "parashari-d7-v1",
+      "D9": "parashari-d9-v1",
+      "D10": "parashari-d10-v1",
+      "D12": "parashari-d12-v1",
+      "D16": "parashari-d16-v1",
+      "D20": "parashari-d20-v1",
+      "D24": "parashari-d24-v1",
+      "D27": "parashari-d27-v1",
+      "D30": "parashari-d30-v1",
+      "D40": "parashari-d40-v1",
+      "D45": "parashari-d45-v1",
+      "D60": "parashari-d60-v1"
+    },
+    "source": "generate_vargas.py"
+  },
+  "fixtures": [
+    {
+      "name": "Asha",
+      "precision": "known",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 11,
+            "moon": 2,
+            "mercury": 12,
+            "venus": 11,
+            "mars": 10,
+            "jupiter": 5,
+            "saturn": 10,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 11
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 4,
+            "moon": 5,
+            "mercury": 5,
+            "venus": 5,
+            "mars": 5,
+            "jupiter": 5,
+            "saturn": 5,
+            "rahu": 5,
+            "ketu": 5,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 7,
+            "moon": 10,
+            "mercury": 4,
+            "venus": 11,
+            "mars": 6,
+            "jupiter": 9,
+            "saturn": 6,
+            "rahu": 1,
+            "ketu": 7,
+            "lagna": 3
+          },
+          "unstable": []
+        },
+        "D4": {
+          "signs": {
+            "sun": 8,
+            "moon": 11,
+            "mercury": 6,
+            "venus": 11,
+            "mars": 7,
+            "jupiter": 8,
+            "saturn": 4,
+            "rahu": 12,
+            "ketu": 6,
+            "lagna": 2
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 5,
+            "moon": 2,
+            "mercury": 9,
+            "venus": 11,
+            "mars": 9,
+            "jupiter": 8,
+            "saturn": 8,
+            "rahu": 11,
+            "ketu": 5,
+            "lagna": 1
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D9": {
+          "signs": {
+            "sun": 3,
+            "moon": 5,
+            "mercury": 8,
+            "venus": 8,
+            "mars": 5,
+            "jupiter": 5,
+            "saturn": 4,
+            "rahu": 4,
+            "ketu": 10,
+            "lagna": 10
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D10": {
+          "signs": {
+            "sun": 8,
+            "moon": 6,
+            "mercury": 1,
+            "venus": 12,
+            "mars": 1,
+            "jupiter": 9,
+            "saturn": 12,
+            "rahu": 1,
+            "ketu": 7,
+            "lagna": 3
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D12": {
+          "signs": {
+            "sun": 10,
+            "moon": 12,
+            "mercury": 6,
+            "venus": 12,
+            "mars": 7,
+            "jupiter": 10,
+            "saturn": 6,
+            "rahu": 1,
+            "ketu": 7,
+            "lagna": 3
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D16": {
+          "signs": {
+            "sun": 7,
+            "moon": 7,
+            "mercury": 5,
+            "venus": 7,
+            "mars": 1,
+            "jupiter": 12,
+            "saturn": 11,
+            "rahu": 3,
+            "ketu": 3,
+            "lagna": 11
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D20": {
+          "signs": {
+            "sun": 3,
+            "moon": 2,
+            "mercury": 3,
+            "venus": 11,
+            "mars": 4,
+            "jupiter": 6,
+            "saturn": 2,
+            "rahu": 1,
+            "ketu": 1,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D24": {
+          "signs": {
+            "sun": 3,
+            "moon": 1,
+            "mercury": 4,
+            "venus": 8,
+            "mars": 11,
+            "jupiter": 4,
+            "saturn": 8,
+            "rahu": 2,
+            "ketu": 2,
+            "lagna": 2
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D27": {
+          "signs": {
+            "sun": 8,
+            "moon": 3,
+            "mercury": 12,
+            "venus": 10,
+            "mars": 1,
+            "jupiter": 1,
+            "saturn": 10,
+            "rahu": 12,
+            "ketu": 6,
+            "lagna": 6
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 7,
+            "moon": 8,
+            "mercury": 12,
+            "venus": 1,
+            "mars": 10,
+            "jupiter": 9,
+            "saturn": 10,
+            "rahu": 9,
+            "ketu": 9,
+            "lagna": 9
+          },
+          "unstable": []
+        },
+        "D40": {
+          "signs": {
+            "sun": 2,
+            "moon": 6,
+            "mercury": 4,
+            "venus": 6,
+            "mars": 2,
+            "jupiter": 8,
+            "saturn": 10,
+            "rahu": 5,
+            "ketu": 5,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D45": {
+          "signs": {
+            "sun": 10,
+            "moon": 8,
+            "mercury": 8,
+            "venus": 10,
+            "mars": 12,
+            "jupiter": 2,
+            "saturn": 7,
+            "rahu": 3,
+            "ketu": 3,
+            "lagna": 11
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D60": {
+          "signs": {
+            "sun": 6,
+            "moon": 7,
+            "mercury": 7,
+            "venus": 6,
+            "mars": 9,
+            "jupiter": 9,
+            "saturn": 2,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 11
+          },
+          "unstable": [
+            "lagna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Ravi",
+      "precision": "known",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 4,
+            "moon": 11,
+            "mercury": 4,
+            "venus": 3,
+            "mars": 4,
+            "jupiter": 10,
+            "saturn": 7,
+            "rahu": 1,
+            "ketu": 7,
+            "lagna": 8
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 5,
+            "moon": 4,
+            "mercury": 5,
+            "venus": 5,
+            "mars": 4,
+            "jupiter": 5,
+            "saturn": 4,
+            "rahu": 4,
+            "ketu": 4,
+            "lagna": 4
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 8,
+            "moon": 3,
+            "mercury": 12,
+            "venus": 3,
+            "mars": 8,
+            "jupiter": 2,
+            "saturn": 3,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 12
+          },
+          "unstable": []
+        },
+        "D4": {
+          "signs": {
+            "sun": 10,
+            "moon": 5,
+            "mercury": 1,
+            "venus": 3,
+            "mars": 7,
+            "jupiter": 4,
+            "saturn": 4,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 11
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 2,
+            "moon": 2,
+            "mercury": 4,
+            "venus": 4,
+            "mars": 12,
+            "jupiter": 8,
+            "saturn": 1,
+            "rahu": 5,
+            "ketu": 11,
+            "lagna": 4
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D9": {
+          "signs": {
+            "sun": 9,
+            "moon": 12,
+            "mercury": 12,
+            "venus": 9,
+            "mars": 7,
+            "jupiter": 3,
+            "saturn": 3,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 7
+          },
+          "unstable": []
+        },
+        "D10": {
+          "signs": {
+            "sun": 5,
+            "moon": 4,
+            "mercury": 9,
+            "venus": 5,
+            "mars": 4,
+            "jupiter": 12,
+            "saturn": 4,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 7
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D12": {
+          "signs": {
+            "sun": 10,
+            "moon": 5,
+            "mercury": 3,
+            "venus": 5,
+            "mars": 8,
+            "jupiter": 5,
+            "saturn": 6,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 12
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D16": {
+          "signs": {
+            "sun": 10,
+            "moon": 2,
+            "mercury": 4,
+            "venus": 12,
+            "mars": 7,
+            "jupiter": 10,
+            "saturn": 3,
+            "rahu": 11,
+            "ketu": 11,
+            "lagna": 11
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D20": {
+          "signs": {
+            "sun": 12,
+            "moon": 8,
+            "mercury": 8,
+            "venus": 9,
+            "mars": 9,
+            "jupiter": 1,
+            "saturn": 7,
+            "rahu": 2,
+            "ketu": 2,
+            "lagna": 4
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D24": {
+          "signs": {
+            "sun": 5,
+            "moon": 6,
+            "mercury": 3,
+            "venus": 10,
+            "mars": 1,
+            "jupiter": 6,
+            "saturn": 3,
+            "rahu": 9,
+            "ketu": 9,
+            "lagna": 1
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D27": {
+          "signs": {
+            "sun": 1,
+            "moon": 10,
+            "mercury": 12,
+            "venus": 1,
+            "mars": 9,
+            "jupiter": 8,
+            "saturn": 8,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 8
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 12,
+            "moon": 9,
+            "mercury": 8,
+            "venus": 11,
+            "mars": 12,
+            "jupiter": 12,
+            "saturn": 7,
+            "rahu": 3,
+            "ketu": 3,
+            "lagna": 6
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D40": {
+          "signs": {
+            "sun": 6,
+            "moon": 11,
+            "mercury": 10,
+            "venus": 10,
+            "mars": 11,
+            "jupiter": 7,
+            "saturn": 2,
+            "rahu": 3,
+            "ketu": 3,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D45": {
+          "signs": {
+            "sun": 2,
+            "moon": 6,
+            "mercury": 9,
+            "venus": 8,
+            "mars": 7,
+            "jupiter": 4,
+            "saturn": 6,
+            "rahu": 7,
+            "ketu": 7,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D60": {
+          "signs": {
+            "sun": 2,
+            "moon": 9,
+            "mercury": 3,
+            "venus": 5,
+            "mars": 4,
+            "jupiter": 11,
+            "saturn": 2,
+            "rahu": 5,
+            "ketu": 11,
+            "lagna": 7
+          },
+          "unstable": [
+            "lagna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Meera",
+      "precision": "known",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 9,
+            "moon": 11,
+            "mercury": 9,
+            "venus": 9,
+            "mars": 11,
+            "jupiter": 3,
+            "saturn": 2,
+            "rahu": 3,
+            "ketu": 9,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 5,
+            "moon": 4,
+            "mercury": 4,
+            "venus": 5,
+            "mars": 4,
+            "jupiter": 4,
+            "saturn": 5,
+            "rahu": 5,
+            "ketu": 5,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 9,
+            "moon": 7,
+            "mercury": 1,
+            "venus": 9,
+            "mars": 3,
+            "jupiter": 7,
+            "saturn": 6,
+            "rahu": 3,
+            "ketu": 9,
+            "lagna": 9
+          },
+          "unstable": []
+        },
+        "D4": {
+          "signs": {
+            "sun": 9,
+            "moon": 8,
+            "mercury": 3,
+            "venus": 9,
+            "mars": 5,
+            "jupiter": 9,
+            "saturn": 8,
+            "rahu": 3,
+            "ketu": 9,
+            "lagna": 8
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 10,
+            "moon": 4,
+            "mercury": 12,
+            "venus": 9,
+            "mars": 2,
+            "jupiter": 7,
+            "saturn": 11,
+            "rahu": 3,
+            "ketu": 9,
+            "lagna": 7
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D9": {
+          "signs": {
+            "sun": 2,
+            "moon": 2,
+            "mercury": 5,
+            "venus": 1,
+            "mars": 11,
+            "jupiter": 12,
+            "saturn": 2,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 4
+          },
+          "unstable": [
+            "moon"
+          ]
+        },
+        "D10": {
+          "signs": {
+            "sun": 11,
+            "moon": 6,
+            "mercury": 2,
+            "venus": 9,
+            "mars": 4,
+            "jupiter": 9,
+            "saturn": 3,
+            "rahu": 4,
+            "ketu": 10,
+            "lagna": 9
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D12": {
+          "signs": {
+            "sun": 11,
+            "moon": 8,
+            "mercury": 3,
+            "venus": 9,
+            "mars": 5,
+            "jupiter": 10,
+            "saturn": 8,
+            "rahu": 4,
+            "ketu": 10,
+            "lagna": 9
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D16": {
+          "signs": {
+            "sun": 12,
+            "moon": 5,
+            "mercury": 5,
+            "venus": 9,
+            "mars": 1,
+            "jupiter": 6,
+            "saturn": 1,
+            "rahu": 10,
+            "ketu": 10,
+            "lagna": 11
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D20": {
+          "signs": {
+            "sun": 9,
+            "moon": 12,
+            "mercury": 3,
+            "venus": 5,
+            "mars": 7,
+            "jupiter": 5,
+            "saturn": 7,
+            "rahu": 7,
+            "ketu": 7,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D24": {
+          "signs": {
+            "sun": 9,
+            "moon": 11,
+            "mercury": 5,
+            "venus": 5,
+            "mars": 5,
+            "jupiter": 7,
+            "saturn": 4,
+            "rahu": 7,
+            "ketu": 7,
+            "lagna": 2
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D27": {
+          "signs": {
+            "sun": 6,
+            "moon": 4,
+            "mercury": 2,
+            "venus": 1,
+            "mars": 8,
+            "jupiter": 11,
+            "saturn": 6,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 11
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 11,
+            "moon": 3,
+            "mercury": 9,
+            "venus": 1,
+            "mars": 9,
+            "jupiter": 3,
+            "saturn": 12,
+            "rahu": 1,
+            "ketu": 1,
+            "lagna": 9
+          },
+          "unstable": []
+        },
+        "D40": {
+          "signs": {
+            "sun": 9,
+            "moon": 8,
+            "mercury": 9,
+            "venus": 1,
+            "mars": 9,
+            "jupiter": 1,
+            "saturn": 4,
+            "rahu": 5,
+            "ketu": 5,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D45": {
+          "signs": {
+            "sun": 6,
+            "moon": 4,
+            "mercury": 8,
+            "venus": 9,
+            "mars": 4,
+            "jupiter": 12,
+            "saturn": 5,
+            "rahu": 1,
+            "ketu": 1,
+            "lagna": 11
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D60": {
+          "signs": {
+            "sun": 9,
+            "moon": 9,
+            "mercury": 3,
+            "venus": 9,
+            "mars": 5,
+            "jupiter": 3,
+            "saturn": 10,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Kabir",
+      "precision": "known",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 2,
+            "moon": 4,
+            "mercury": 2,
+            "venus": 3,
+            "mars": 5,
+            "jupiter": 3,
+            "saturn": 5,
+            "rahu": 6,
+            "ketu": 12,
+            "lagna": 3
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 5,
+            "moon": 4,
+            "mercury": 5,
+            "venus": 4,
+            "mars": 5,
+            "jupiter": 4,
+            "saturn": 5,
+            "rahu": 4,
+            "ketu": 4,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 10,
+            "moon": 4,
+            "mercury": 6,
+            "venus": 11,
+            "mars": 5,
+            "jupiter": 7,
+            "saturn": 5,
+            "rahu": 6,
+            "ketu": 12,
+            "lagna": 7
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D4": {
+          "signs": {
+            "sun": 11,
+            "moon": 4,
+            "mercury": 8,
+            "venus": 12,
+            "mars": 5,
+            "jupiter": 9,
+            "saturn": 5,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 6
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 1,
+            "moon": 10,
+            "mercury": 12,
+            "venus": 9,
+            "mars": 5,
+            "jupiter": 7,
+            "saturn": 5,
+            "rahu": 2,
+            "ketu": 8,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D9": {
+          "signs": {
+            "sun": 5,
+            "moon": 4,
+            "mercury": 3,
+            "venus": 3,
+            "mars": 2,
+            "jupiter": 12,
+            "saturn": 1,
+            "rahu": 12,
+            "ketu": 6,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D10": {
+          "signs": {
+            "sun": 6,
+            "moon": 12,
+            "mercury": 3,
+            "venus": 12,
+            "mars": 6,
+            "jupiter": 8,
+            "saturn": 5,
+            "rahu": 4,
+            "ketu": 10,
+            "lagna": 6
+          },
+          "unstable": []
+        },
+        "D12": {
+          "signs": {
+            "sun": 11,
+            "moon": 4,
+            "mercury": 9,
+            "venus": 2,
+            "mars": 6,
+            "jupiter": 9,
+            "saturn": 5,
+            "rahu": 9,
+            "ketu": 3,
+            "lagna": 7
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D16": {
+          "signs": {
+            "sun": 5,
+            "moon": 1,
+            "mercury": 2,
+            "venus": 11,
+            "mars": 6,
+            "jupiter": 6,
+            "saturn": 5,
+            "rahu": 1,
+            "ketu": 1,
+            "lagna": 2
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D20": {
+          "signs": {
+            "sun": 1,
+            "moon": 1,
+            "mercury": 8,
+            "venus": 11,
+            "mars": 11,
+            "jupiter": 4,
+            "saturn": 10,
+            "rahu": 10,
+            "ketu": 10,
+            "lagna": 12
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D24": {
+          "signs": {
+            "sun": 11,
+            "moon": 4,
+            "mercury": 6,
+            "venus": 3,
+            "mars": 7,
+            "jupiter": 6,
+            "saturn": 6,
+            "rahu": 10,
+            "ketu": 10,
+            "lagna": 1
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D27": {
+          "signs": {
+            "sun": 1,
+            "moon": 10,
+            "mercury": 7,
+            "venus": 8,
+            "mars": 4,
+            "jupiter": 10,
+            "saturn": 2,
+            "rahu": 11,
+            "ketu": 5,
+            "lagna": 4
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 10,
+            "moon": 2,
+            "mercury": 12,
+            "venus": 7,
+            "mars": 1,
+            "jupiter": 9,
+            "saturn": 1,
+            "rahu": 6,
+            "ketu": 6,
+            "lagna": 9
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D40": {
+          "signs": {
+            "sun": 3,
+            "moon": 7,
+            "mercury": 6,
+            "venus": 2,
+            "mars": 5,
+            "jupiter": 12,
+            "saturn": 3,
+            "rahu": 6,
+            "ketu": 6,
+            "lagna": 3
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D45": {
+          "signs": {
+            "sun": 5,
+            "moon": 1,
+            "mercury": 7,
+            "venus": 2,
+            "mars": 10,
+            "jupiter": 10,
+            "saturn": 7,
+            "rahu": 9,
+            "ketu": 9,
+            "lagna": 1
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D60": {
+          "signs": {
+            "sun": 2,
+            "moon": 4,
+            "mercury": 1,
+            "venus": 10,
+            "mars": 12,
+            "jupiter": 1,
+            "saturn": 8,
+            "rahu": 11,
+            "ketu": 5,
+            "lagna": 12
+          },
+          "unstable": [
+            "lagna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dev",
+      "precision": "known",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 9,
+            "moon": 11,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 5,
+            "jupiter": 8,
+            "saturn": 11,
+            "rahu": 7,
+            "ketu": 1,
+            "lagna": 12
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 4,
+            "moon": 5,
+            "mercury": 4,
+            "venus": 4,
+            "mars": 5,
+            "jupiter": 4,
+            "saturn": 5,
+            "rahu": 4,
+            "ketu": 4,
+            "lagna": 5
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 5,
+            "moon": 3,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 5,
+            "jupiter": 12,
+            "saturn": 3,
+            "rahu": 11,
+            "ketu": 5,
+            "lagna": 8
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D4": {
+          "signs": {
+            "sun": 3,
+            "moon": 2,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 8,
+            "jupiter": 11,
+            "saturn": 2,
+            "rahu": 1,
+            "ketu": 7,
+            "lagna": 6
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 1,
+            "moon": 1,
+            "mercury": 4,
+            "venus": 2,
+            "mars": 7,
+            "jupiter": 4,
+            "saturn": 2,
+            "rahu": 11,
+            "ketu": 5,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D9": {
+          "signs": {
+            "sun": 7,
+            "moon": 10,
+            "mercury": 11,
+            "venus": 5,
+            "mars": 3,
+            "jupiter": 7,
+            "saturn": 11,
+            "rahu": 12,
+            "ketu": 6,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D10": {
+          "signs": {
+            "sun": 3,
+            "moon": 2,
+            "mercury": 7,
+            "venus": 5,
+            "mars": 7,
+            "jupiter": 7,
+            "saturn": 3,
+            "rahu": 12,
+            "ketu": 6,
+            "lagna": 2
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D12": {
+          "signs": {
+            "sun": 5,
+            "moon": 3,
+            "mercury": 11,
+            "venus": 9,
+            "mars": 8,
+            "jupiter": 12,
+            "saturn": 4,
+            "rahu": 2,
+            "ketu": 8,
+            "lagna": 8
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D16": {
+          "signs": {
+            "sun": 8,
+            "moon": 10,
+            "mercury": 2,
+            "venus": 7,
+            "mars": 9,
+            "jupiter": 11,
+            "saturn": 12,
+            "rahu": 10,
+            "ketu": 10,
+            "lagna": 8
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D20": {
+          "signs": {
+            "sun": 6,
+            "moon": 4,
+            "mercury": 3,
+            "venus": 11,
+            "mars": 2,
+            "jupiter": 4,
+            "saturn": 6,
+            "rahu": 12,
+            "ketu": 12,
+            "lagna": 6
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D24": {
+          "signs": {
+            "sun": 9,
+            "moon": 1,
+            "mercury": 6,
+            "venus": 7,
+            "mars": 12,
+            "jupiter": 1,
+            "saturn": 4,
+            "rahu": 7,
+            "ketu": 7,
+            "lagna": 8
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D27": {
+          "signs": {
+            "sun": 7,
+            "moon": 4,
+            "mercury": 7,
+            "venus": 1,
+            "mars": 8,
+            "jupiter": 8,
+            "saturn": 8,
+            "rahu": 10,
+            "ketu": 4,
+            "lagna": 4
+          },
+          "unstable": [
+            "moon",
+            "lagna"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 3,
+            "moon": 9,
+            "mercury": 2,
+            "venus": 2,
+            "mars": 11,
+            "jupiter": 6,
+            "saturn": 9,
+            "rahu": 9,
+            "ketu": 9,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D40": {
+          "signs": {
+            "sun": 4,
+            "moon": 3,
+            "mercury": 11,
+            "venus": 12,
+            "mars": 12,
+            "jupiter": 10,
+            "saturn": 8,
+            "rahu": 12,
+            "ketu": 12,
+            "lagna": 10
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D45": {
+          "signs": {
+            "sun": 3,
+            "moon": 9,
+            "mercury": 6,
+            "venus": 11,
+            "mars": 6,
+            "jupiter": 10,
+            "saturn": 2,
+            "rahu": 3,
+            "ketu": 3,
+            "lagna": 4
+          },
+          "unstable": [
+            "lagna"
+          ]
+        },
+        "D60": {
+          "signs": {
+            "sun": 2,
+            "moon": 9,
+            "mercury": 5,
+            "venus": 4,
+            "mars": 10,
+            "jupiter": 7,
+            "saturn": 4,
+            "rahu": 6,
+            "ketu": 12,
+            "lagna": 5
+          },
+          "unstable": [
+            "lagna"
+          ]
+        }
+      }
+    },
+    {
+      "name": "Dev",
+      "precision": "unknown",
+      "charts": {
+        "D1": {
+          "signs": {
+            "sun": 9,
+            "moon": 11,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 5,
+            "jupiter": 8,
+            "saturn": 11,
+            "rahu": 7,
+            "ketu": 1
+          },
+          "unstable": []
+        },
+        "D2": {
+          "signs": {
+            "sun": 4,
+            "moon": 5,
+            "mercury": 4,
+            "venus": 4,
+            "mars": 5,
+            "jupiter": 4,
+            "saturn": 5,
+            "rahu": 4,
+            "ketu": 4
+          },
+          "unstable": []
+        },
+        "D3": {
+          "signs": {
+            "sun": 5,
+            "moon": 3,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 5,
+            "jupiter": 12,
+            "saturn": 3,
+            "rahu": 11,
+            "ketu": 5
+          },
+          "unstable": []
+        },
+        "D4": {
+          "signs": {
+            "sun": 3,
+            "moon": 2,
+            "mercury": 10,
+            "venus": 8,
+            "mars": 8,
+            "jupiter": 11,
+            "saturn": 2,
+            "rahu": 1,
+            "ketu": 7
+          },
+          "unstable": []
+        },
+        "D7": {
+          "signs": {
+            "sun": 1,
+            "moon": 1,
+            "mercury": 4,
+            "venus": 2,
+            "mars": 7,
+            "jupiter": 4,
+            "saturn": 2,
+            "rahu": 11,
+            "ketu": 5
+          },
+          "unstable": []
+        },
+        "D9": {
+          "signs": {
+            "sun": 7,
+            "moon": 10,
+            "mercury": 11,
+            "venus": 5,
+            "mars": 3,
+            "jupiter": 7,
+            "saturn": 11,
+            "rahu": 12,
+            "ketu": 6
+          },
+          "unstable": []
+        },
+        "D10": {
+          "signs": {
+            "sun": 3,
+            "moon": 2,
+            "mercury": 7,
+            "venus": 5,
+            "mars": 7,
+            "jupiter": 7,
+            "saturn": 3,
+            "rahu": 12,
+            "ketu": 6
+          },
+          "unstable": []
+        },
+        "D12": {
+          "signs": {
+            "sun": 5,
+            "moon": 3,
+            "mercury": 11,
+            "venus": 9,
+            "mars": 8,
+            "jupiter": 12,
+            "saturn": 4,
+            "rahu": 2,
+            "ketu": 8
+          },
+          "unstable": []
+        },
+        "D16": {
+          "signs": {
+            "sun": 8,
+            "moon": 10,
+            "mercury": 2,
+            "venus": 7,
+            "mars": 9,
+            "jupiter": 11,
+            "saturn": 12,
+            "rahu": 10,
+            "ketu": 10
+          },
+          "unstable": []
+        },
+        "D20": {
+          "signs": {
+            "sun": 6,
+            "moon": 4,
+            "mercury": 3,
+            "venus": 11,
+            "mars": 2,
+            "jupiter": 4,
+            "saturn": 6,
+            "rahu": 12,
+            "ketu": 12
+          },
+          "unstable": []
+        },
+        "D24": {
+          "signs": {
+            "sun": 9,
+            "moon": 1,
+            "mercury": 6,
+            "venus": 7,
+            "mars": 12,
+            "jupiter": 1,
+            "saturn": 4,
+            "rahu": 7,
+            "ketu": 7
+          },
+          "unstable": []
+        },
+        "D27": {
+          "signs": {
+            "sun": 7,
+            "moon": 4,
+            "mercury": 7,
+            "venus": 1,
+            "mars": 8,
+            "jupiter": 8,
+            "saturn": 8,
+            "rahu": 10,
+            "ketu": 4
+          },
+          "unstable": [
+            "moon"
+          ]
+        },
+        "D30": {
+          "signs": {
+            "sun": 3,
+            "moon": 9,
+            "mercury": 2,
+            "venus": 2,
+            "mars": 11,
+            "jupiter": 6,
+            "saturn": 9,
+            "rahu": 9,
+            "ketu": 9
+          },
+          "unstable": []
+        },
+        "D40": {
+          "signs": {
+            "sun": 4,
+            "moon": 3,
+            "mercury": 11,
+            "venus": 12,
+            "mars": 12,
+            "jupiter": 10,
+            "saturn": 8,
+            "rahu": 12,
+            "ketu": 12
+          },
+          "unstable": []
+        },
+        "D45": {
+          "signs": {
+            "sun": 3,
+            "moon": 9,
+            "mercury": 6,
+            "venus": 11,
+            "mars": 6,
+            "jupiter": 10,
+            "saturn": 2,
+            "rahu": 3,
+            "ketu": 3
+          },
+          "unstable": []
+        },
+        "D60": {
+          "signs": {
+            "sun": 2,
+            "moon": 9,
+            "mercury": 5,
+            "venus": 4,
+            "mars": 10,
+            "jupiter": 7,
+            "saturn": 4,
+            "rahu": 6,
+            "ketu": 12
+          },
+          "unstable": []
+        }
+      }
+    }
+  ]
+}
