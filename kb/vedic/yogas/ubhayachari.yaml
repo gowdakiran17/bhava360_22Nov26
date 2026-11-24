@@ -53,8 +53,41 @@ conditions:
 meaning: You may wish to choose one practical next step at work.
 life_areas:
 - career
-strength_notes: []
-exceptions: []
+strength_notes:
+- when:
+    fact: vedic.yoga.ubhayachari.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.ubhayachari.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.mixed_nature_witness
+    op: eq
+    value: true
+  effect: soften
+  reason: Resolve the actual contributing grahas. A mixed benefic and malefic witness does not support an unqualified
+    positive reading.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ: []
 sources:
 - book: Phaladeepika
@@ -66,7 +99,8 @@ sources:
   supports: Both solar flanks occupied; classifications vary.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Review exact locator, convention and native copy before release. Resolve the actual participants before assigning
+  a direction.
 user_text:
   en: You may wish to choose one practical next step at work.
   kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
@@ -75,9 +109,14 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.yogas.activation
+participants:
+- sun
+- flanking-grahas
 evidence:
-  direction: support
-  weight_class: primary
+  direction: context
+  weight_class: context
   time_scope: natal
   reference: sun
   area_strength:

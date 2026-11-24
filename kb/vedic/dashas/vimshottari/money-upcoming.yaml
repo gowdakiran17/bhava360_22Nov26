@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: money · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 2 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for money. Run the KB-36 promise, period and transit pipeline. Return at most three
+  qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_2
+  - fact: dasha.upcoming.money_window
     op: eq
     value: true
 meaning: This period may suit a review of shared and personal resources.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may suit a review of shared and personal resources.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಹಂಚಿದ ಮತ್ತು ಸ್ವಂತ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस अवधि में साझा और निजी संसाधन देख सकते हैं।
+  en: You can review how incoming resources fit your savings plans.
+  kn: ಆದಾಯವು ಉಳಿತಾಯದ ಯೋಜನೆಗೆ ಹೇಗೆ ಹೊಂದುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: आमदनी और बचत की योजनाओं को साथ रखकर देख सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

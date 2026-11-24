@@ -256,3 +256,19 @@ messages:
     en: This phase may ease by {date}.
     kn: '{date} ವೇಳೆಗೆ ಈ ಹಂತ ಸರಾಗವಾಗಬಹುದು.'
     hi: '{date} तक इस दौर में सहजता आ सकती है।'
+  pair-easier:
+    en: Things can flow together during this period.
+    kn: ಈ ಅವಧಿಯಲ್ಲಿ ಕೆಲಸಗಳು ಹೊಂದಿಕೊಂಡು ಸಾಗಬಹುದು.
+    hi: इस दौरान बातें सहजता से साथ चल सकती हैं।
+  pair-harder:
+    en: You may feel some pull between what you want and what circumstances allow.
+    kn: ನಿಮ್ಮ ಬಯಕೆ ಮತ್ತು ಸಂದರ್ಭಕ್ಕೆ ಹೊಂದುವ ಆಯ್ಕೆಗಳ ನಡುವೆ ಎಳೆತ ಅನಿಸಬಹುದು.
+    hi: अपनी चाह और परिस्थिति की गुंजाइश के बीच खिंचाव महसूस हो सकता है।
+  yoga-mild:
+    en: A gentle support may show in small ways.
+    kn: ಪುಟ್ಟ ಸಂಗತಿಗಳಲ್ಲಿ ಸೌಮ್ಯ ಬೆಂಬಲ ಕಾಣಬಹುದು.
+    hi: छोटी बातों में हल्का सहयोग महसूस हो सकता है।
+  yoga-background:
+    en: This quality may show more in its own periods.
+    kn: ಇದಕ್ಕೆ ಹೊಂದುವ ಅವಧಿಯಲ್ಲಿ ಈ ಗುಣ ಹೆಚ್ಚು ಕಾಣಬಹುದು.
+    hi: इससे जुड़े दौर में यह गुण अधिक दिख सकता है।

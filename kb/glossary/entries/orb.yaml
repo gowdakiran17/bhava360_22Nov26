@@ -28,6 +28,13 @@ used_by:
 - vedic.states.yuti
 - vedic.transits.over-dasha-lord
 - vedic.transits.over-natal-graha
+- vedic.yogas.activation
+- vedic.yogas.bhadra
+- vedic.yogas.budhaditya
+- vedic.yogas.hamsa
+- vedic.yogas.malavya
+- vedic.yogas.ruchaka
+- vedic.yogas.shasha
 - western.aspects.conjunction
 - western.aspects.opposition
 - western.aspects.quincunx

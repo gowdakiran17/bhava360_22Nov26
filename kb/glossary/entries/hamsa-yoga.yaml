@@ -17,6 +17,7 @@ aliases:
 reference_rules:
 - vedic.yogas.hamsa
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.hamsa
 systems:
 - vedic

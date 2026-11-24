@@ -18,6 +18,2577 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  d1.yoga.mixed_nature_witness:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Among the distinct grahas supplying the flanking or positional testimony, at least one is naturally benefic
+      and one malefic under the configured Moon/Mercury scheme.
+    dependencies:
+    - actual matched grahas
+    - natural benefic profile
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.vosi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.vimala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.vesi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.vasumati.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.ubhayachari.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.sunapha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.sreenatha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.sreenatha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.shubha-kartari-moon.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.shubha-kartari-moon.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.shubha-kartari-lagna.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.shubha-kartari-lagna.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.shasha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.shankha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.shankha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.saraswati.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.sarala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.sakata.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.ruchaka.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.raja.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.pravrajya.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.pravrajya.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.parvata.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parvata.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.parivartana-maha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parivartana-khala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parivartana-dainya.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parivartana.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parijata.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.parijata.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.papa-kartari-moon.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.papa-kartari-moon.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.papa-kartari-lagna.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.papa-kartari-lagna.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.neecha-bhanga-raja.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.neecha-bhanga.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-yupa.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-yupa.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-yuga.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-yuga.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-yava.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-yava.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-vihaga.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-vihaga.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-veena.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-veena.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-vapi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-vapi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-vajra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-vajra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-shula.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-shula.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-shringataka.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-shringataka.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-shara.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-shara.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-shakti.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-shakti.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-shakata.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-shakata.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-sarpa.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-sarpa.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-samudra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-samudra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-rajju.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-rajju.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-pasha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-pasha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-nauka.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-nauka.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-nala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-nala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-musala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-musala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-mala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-mala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-kuta.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-kuta.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-kedara.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-kedara.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-kamala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-kamala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-hala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-hala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-gola.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-gola.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-gada.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-gada.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-danda.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-danda.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.specific_shape_precedes:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Suppress the general count when a more specific eligible Nabhasa pattern supplies the reading.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-dama.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-dama.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-chatra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-chatra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-chapa.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-chapa.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-chakra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-chakra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.nabhasa-ardha-chandra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.nabhasa-ardha-chandra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.malavya.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.mahabhagya.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.mahabhagya.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.lakshmi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.lagnadhi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.lagnadhi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.kusuma.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.kusuma.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.kemadruma.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.kalanidhi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.kalanidhi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.kahala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.kahala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.other_lord_association:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Strict Viparita school excludes conjunction or mutual full aspect with a distinct unrelated house lord.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.harsha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.hamsa.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.guru-mangala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.guru-mangala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.jupiter_afflicted:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Strict dignity-and-affliction school softens when Jupiter is combust, in an enemy sign or receives an unrelieved
+      full malefic aspect.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.gaja-kesari.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.durudhara.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.dharma-karmadhipati.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.dharma-karmadhipati.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.forming_lord_owns_eighth:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: A participating eighth lord qualifies the promise.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.dhana.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.chandra-mangala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.chamara.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.chamara.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.mercury_combust:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Measure Mercury–Sun separation using the inclusive direct or retrograde combustion orb.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.budhaditya.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.bheri.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.bheri.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.luminary_conjunction:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Selected school softens an anchor joined by Sun or Moon.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.anchor_d9_debilitated:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: Debilitation in D9 qualifies the angular D1 formation.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.anchor_war_loser:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: The forming planet loses planetary war under the selected strict school.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.anchor_combust:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: The anchor is within its motion-specific combustion orb.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.bhadra.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.anapha.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  vedic.yoga.amala.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  d1.yoga.foundation_cancelled:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+      an unrelated match.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.participant_afflicted:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+      pending school review.
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  vedic.yoga.adhi.gate:
+    type: enum
+    producer: vedic.yogas.activation
+    origin: 'Read all participant grades: all capable is full; mixed is mild; all Weak is hidden.'
+    dependencies:
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - full
+    - mild
+    - hidden
+  d1.yoga.pravrajya_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Four or more classical grahas share one sign. Staff-only historical pattern; no personal or religious prediction.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/pravrajya.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.parijata_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Follow the Lagna lord, its dispositor, and that dispositor’s D1 and D9 sign lords. All distinct participants
+      occupy angles, trines or exaltation in D1.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/parijata.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.kusuma_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: A fixed Lagna, angular Venus, Moon joined by a benefic in a trine and Saturn in the tenth coincide.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/kusuma.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.mahabhagya_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: For the explicitly chosen classical male branch require daytime and odd signs for Lagna, Sun and Moon; for
+      the female branch require night and even signs. Missing consent or day/night withholds.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/mahabhagya.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.sreenatha_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The exalted seventh lord occupies the tenth; the ninth and tenth lords join.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/sreenatha.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.kalanidhi_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Jupiter occupies the second or fifth and receives conjunction or full aspect from both Mercury and Venus.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/kalanidhi.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.guru_mangala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Mars and Jupiter conjoin or oppose by sign.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/guru-mangala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.lagnadhi_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Mercury, Venus and Jupiter occupy houses six through eight from Lagna, with no malefic in the fourth.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/lagnadhi.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.bheri_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: With a capable ninth lord, the first, second, seventh and twelfth are occupied, or Jupiter, Venus and the
+      Lagna lord occupy mutual angles.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/bheri.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.shankha_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The fifth and sixth lords occupy mutual angles and the Lagna lord grades Moderate or Strong.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/shankha.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.chamara_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: An exalted Lagna lord in an angle receives Jupiter’s full aspect, or two benefics join in the seventh, ninth
+      or tenth.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/chamara.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.kahala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The fourth lord and Jupiter occupy mutual angles and the Lagna lord has at least Moderate strength.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/kahala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.parvata_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: At least one angle contains a benefic; all angular grahas are benefic and the seventh and eighth contain
+      no malefic.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/parvata.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.dharma_karmadhipati_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Distinct ninth and tenth lords conjoin, exchange their houses or mutually aspect one another.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/dharma-karmadhipati.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.papa_kartari_moon_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Both signs flanking the moon contain only natural malefics; each side must be occupied.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/papa-kartari-moon.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.papa_kartari_lagna_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Both signs flanking the lagna contain only natural malefics; each side must be occupied.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/papa-kartari-lagna.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.shubha_kartari_moon_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Both signs flanking the moon contain only natural benefics; each side must be occupied.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/shubha-kartari-moon.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.shubha_kartari_lagna_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Both signs flanking the lagna contain only natural benefics; each side must be occupied.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/shubha-kartari-lagna.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_veena_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 7 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-veena.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_dama_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 6 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-dama.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_pasha_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 5 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-pasha.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_kedara_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 4 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-kedara.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_shula_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 3 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-shula.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_yuga_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 2 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-yuga.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_gola_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Seven classical grahas occupy exactly 1 distinct signs. A more specific Nabhasa shape takes display precedence.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-gola.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_samudra_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-samudra.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_chakra_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-chakra.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_ardha_chandra_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-ardha-chandra.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_chapa_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-chapa.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_chatra_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-chatra.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_kuta_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-kuta.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_nauka_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-nauka.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_danda_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-danda.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_shakti_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-shakti.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_shara_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-shara.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_yupa_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-yupa.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_vapi_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-vapi.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_kamala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-kamala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_yava_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Malefics occupy both first and seventh houses; the opposite class occupies fourth and tenth. Require all
+      seven in these angles.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-yava.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_vajra_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: Benefics occupy both first and seventh houses; the opposite class occupies fourth and tenth. Require all
+      seven in these angles.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-vajra.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_hala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-hala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_shringataka_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-shringataka.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_vihaga_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-vihaga.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_shakata_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-shakata.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_gada_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: The seven classical grahas occupy exactly one listed whole-sign house set, with each listed house occupied.
+      See formation.patterns.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-gada.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_sarpa_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: At least three distinct angles are occupied exclusively by natural malefics.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-sarpa.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_mala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: At least three distinct angles are occupied exclusively by natural benefics.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-mala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_nala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: All seven classical grahas occupy dual signs.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-nala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_musala_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: All seven classical grahas occupy fixed signs.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-musala.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.yoga.nabhasa_rajju_formed:
+    type: boolean
+    producer: vedic.yogas.formation
+    origin: All seven classical grahas occupy movable signs.
+    dependencies:
+    - stable D1 signs and Lagna
+    - formation operands and convention in vedic/yogas/nabhasa-rajju.yaml
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.vimshottari.sookshma_lord:
+    type: enum
+    producer: vedic.timing
+    origin: Actual lord of the stable half-open fine period within the active Antar.
+    dependencies:
+    - Vimshottari bounds
+    - confidence.tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - ketu
+    - venus
+    - sun
+    - moon
+    - mars
+    - rahu
+    - jupiter
+    - saturn
+    - mercury
+  dasha.vimshottari.pratyantar_lord:
+    type: enum
+    producer: vedic.timing
+    origin: Actual lord of the stable half-open fine period within the active Antar.
+    dependencies:
+    - Vimshottari bounds
+    - confidence.tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - ketu
+    - venus
+    - sun
+    - moon
+    - mars
+    - rahu
+    - jupiter
+    - saturn
+    - mercury
+  dasha.pair.has_weaker_note:
+    type: boolean
+    producer: vedic.timing
+    origin: At least one pair predicate in modulation.yaml resolves to weaker. Return the matched reasons; uncertainty
+      never counts as caution.
+    dependencies:
+    - bound lord and relationship predicates
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.pair.has_stronger_note:
+    type: boolean
+    producer: vedic.timing
+    origin: At least one pair predicate in modulation.yaml resolves to stronger. Return the matched reasons; uncertainty
+      never counts as caution.
+    dependencies:
+    - bound lord and relationship predicates
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.lord.has_weaker_note:
+    type: boolean
+    producer: vedic.timing
+    origin: At least one lord predicate in modulation.yaml resolves to weaker. Return the matched reasons; uncertainty
+      never counts as caution.
+    dependencies:
+    - bound lord and relationship predicates
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.lord.has_stronger_note:
+    type: boolean
+    producer: vedic.timing
+    origin: At least one lord predicate in modulation.yaml resolves to stronger. Return the matched reasons; uncertainty
+      never counts as caution.
+    dependencies:
+    - bound lord and relationship predicates
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.active_lord.owns_house_12:
+    type: boolean
+    producer: vedic.timing
+    origin: Active major lord is classical owner of house 12 from stable Lagna.
+    dependencies:
+    - Maha lord
+    - stable Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.active_lord.owns_house_3:
+    type: boolean
+    producer: vedic.timing
+    origin: Active major lord is classical owner of house 3 from stable Lagna.
+    dependencies:
+    - Maha lord
+    - stable Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.pair.shared_ownership:
+    type: boolean
+    producer: vedic.timing
+    origin: The two period roles hold a common natal house; count the topic once.
+    dependencies:
+    - Maha and Antar D1 signs
+    - directed friendships
+    - classical whole-sign ownership
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.pair.compound:
+    type: enum
+    producer: vedic.timing
+    origin: Compound enmity qualifies cooperation.
+    dependencies:
+    - Maha and Antar D1 signs
+    - directed friendships
+    - classical whole-sign ownership
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - adhi-mitra
+    - mitra
+    - sama
+    - shatru
+    - adhi-shatru
+  dasha.pair.natural:
+    type: enum
+    producer: vedic.timing
+    origin: The directed natural relationship adds friction.
+    dependencies:
+    - Maha and Antar D1 signs
+    - directed friendships
+    - classical whole-sign ownership
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - friend
+    - neutral
+    - enemy
+  dasha.pair.distance:
+    type: integer
+    producer: vedic.timing
+    origin: The two periods can pull in different directions.
+    dependencies:
+    - Maha and Antar D1 signs
+    - directed friendships
+    - classical whole-sign ownership
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.moon_support:
+    type: boolean
+    producer: vedic.timing
+    origin: The occupied house counted from the stable Moon supports this area recipe.
+    dependencies:
+    - D1 positions
+    - bound area recipe
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.star_signifies:
+    type: boolean
+    producer: vedic.timing
+    origin: Period lord occupies the star of a direct area significator; follow this link once.
+    dependencies:
+    - D1 positions
+    - bound area recipe
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.viparita:
+    type: boolean
+    producer: vedic.timing
+    origin: A resolved reversal softens the difficult-house note; it does not create an event.
+    dependencies:
+    - Harsha, Sarala or Vimala
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.unrelieved_dusthana:
+    type: boolean
+    producer: vedic.timing
+    origin: Difficult placement can complicate the period after checking all applicable reversal exceptions.
+    dependencies:
+    - occupied house
+    - Viparita formation and exceptions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.polarity:
+    type: enum
+    producer: vedic.timing
+    origin: Read functional lordship from the actual Lagna.
+    dependencies:
+    - d1.lordship.functional_polarity
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - Benefic
+    - Neutral
+    - Malefic
+    - Yogakaraka
+  dasha.modulation.vargottama:
+    type: boolean
+    producer: vedic.timing
+    origin: Explain vargottama from the grade breakdown; annotation only, never adjust the grade again.
+    dependencies:
+    - strength.planet.grade
+    - bound motion and dignity
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.war_loser:
+    type: boolean
+    producer: vedic.timing
+    origin: Explain war_loser from the grade breakdown; annotation only, never adjust the grade again.
+    dependencies:
+    - strength.planet.grade
+    - bound motion and dignity
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.retrograde:
+    type: boolean
+    producer: vedic.timing
+    origin: Explain retrograde from the grade breakdown; annotation only, never adjust the grade again.
+    dependencies:
+    - strength.planet.grade
+    - bound motion and dignity
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.combust:
+    type: boolean
+    producer: vedic.timing
+    origin: Explain combust from the grade breakdown; annotation only, never adjust the grade again.
+    dependencies:
+    - strength.planet.grade
+    - bound motion and dignity
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.modulation.grade:
+    type: enum
+    producer: vedic.timing
+    origin: Use the bound lord’s final KB-35 grade once.
+    dependencies:
+    - strength.planet.grade
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - Strong
+    - Moderate
+    - Weak
+  dasha.upcoming.spirituality_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the spirituality recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.family_home_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the family-home recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.business_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the business recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.property_vehicles_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the property-vehicles recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.travel_relocation_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the travel-relocation recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.learning_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the learning recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.children_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the children recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.health_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the health recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.money_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the money recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.career_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the career recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.upcoming.love_marriage_window:
+    type: boolean
+    producer: vedic.timing
+    origin: Apply the KB-36 pipeline to the love-marriage recipe; true only for a qualified dated event window.
+    dependencies:
+    - bound recipe
+    - active period
+    - independent transit references
+    - confidence tier
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   transit.double.moon_target:
     type: boolean
     producer: vedic.transits
@@ -32,259 +2603,355 @@ facts:
   vedic.yoga.adhi.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.adhi
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.amala.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.amala
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.anapha.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.anapha
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.bhadra.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.bhadra
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.budhaditya.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.budhaditya
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.chandra-mangala.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.chandra-mangala
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.dhana.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.dhana
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.durudhara.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.durudhara
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.gaja-kesari.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.gaja-kesari
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.hamsa.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.hamsa
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.harsha.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.harsha
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.kemadruma.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.kemadruma
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.lakshmi.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.lakshmi
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.malavya.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.malavya
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.neecha-bhanga-raja.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.neecha-bhanga-raja
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.neecha-bhanga.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.neecha-bhanga
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.parivartana-dainya.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.parivartana-dainya
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.parivartana-khala.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.parivartana-khala
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.parivartana-maha.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.parivartana-maha
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.parivartana.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.parivartana
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.raja.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.raja
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.ruchaka.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.ruchaka
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.sakata.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.sakata
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.sarala.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.sarala
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.saraswati.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.saraswati
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.shasha.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.shasha
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.sunapha.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.sunapha
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.ubhayachari.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.ubhayachari
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.vasumati.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.vasumati
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.vesi.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.vesi
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.vimala.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.vimala
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   vedic.yoga.vosi.active:
     type: boolean
     producer: vedic.yogas.activation
-    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    origin: After cancellation and visibility gating, match any actual participant or forming house lord to Maha or
+      Antar. Unknown periods stay unknown.
     dependencies:
-    - vedic.yogas.vosi
-    - Maha and Antar lords
-    unknown_if: not-yet-defined
+    - bound formation
+    - actual participants and forming lords
+    - KB-35 grades
+    - Maha and Antar
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   day.chandra:
     type: enum
     producer: vedic.home

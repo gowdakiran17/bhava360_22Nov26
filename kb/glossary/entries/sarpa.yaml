@@ -19,3 +19,5 @@ reference_rules:
 used_by:
 - vedic.doshas.nodal-axis
 - vedic.nakshatras.ashlesha
+- vedic.yogas.activation
+- vedic.yogas.nabhasa-sarpa

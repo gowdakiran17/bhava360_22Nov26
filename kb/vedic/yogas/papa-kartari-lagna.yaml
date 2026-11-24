@@ -1,0 +1,86 @@
+id: vedic.yogas.papa-kartari-lagna
+system: vedic
+topic: yogas
+title: Papa Kartari Lagna
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Both signs flanking the lagna contain only natural malefics; each side must be occupied.
+conditions:
+  all:
+  - fact: d1.yoga.papa_kartari_lagna_formed
+    op: eq
+    value: true
+meaning: You can make a little space before responding to competing requests.
+life_areas: []
+strength_notes:
+- when:
+    fact: vedic.yoga.papa-kartari-lagna.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.papa-kartari-lagna.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the stated candidate formation; extra branches in other schools need separate review.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Named yoga chapters, papa-kartari-lagna
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapters; edition locator pending
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft interpretation; classical locator and native-language review pending.
+user_text:
+  en: You can make a little space before responding to competing requests.
+  kn: ಹಲವು ಕೋರಿಕೆಗಳಿಗೆ ಉತ್ತರಿಸುವ ಮುನ್ನ ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: अलग-अलग अनुरोधों का उत्तर देने से पहले कुछ समय ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+formation:
+  method: flanks
+  reference: lagna
+  nature: malefic
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-formation-grahas
+evidence:
+  direction: caution
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength: {}

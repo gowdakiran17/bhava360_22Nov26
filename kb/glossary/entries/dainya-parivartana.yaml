@@ -17,6 +17,7 @@ aliases:
 - Dainya
 reference_rules: []
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.parivartana-dainya
 approval: draft
 native_review:

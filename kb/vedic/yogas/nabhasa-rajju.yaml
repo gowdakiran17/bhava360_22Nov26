@@ -1,0 +1,96 @@
+id: vedic.yogas.nabhasa-rajju
+system: vedic
+topic: yogas
+title: Nabhasa Rajju
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: All seven classical grahas occupy movable signs.
+conditions:
+  all:
+  - fact: d1.yoga.nabhasa_rajju_formed
+    op: eq
+    value: true
+meaning: You can leave room to change your approach as you learn.
+life_areas: []
+strength_notes:
+- when:
+    fact: vedic.yoga.nabhasa-rajju.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.nabhasa-rajju.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Selected draft whole-sign formulation. Exact-occupancy patterns require each listed house; the seven classical
+    grahas exclude nodes.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Nabhasa chapter
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapters; edition locator pending
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: PyJHora yoga implementation
+  work_id: pyjhora-yoga
+  edition: pyjhora-yoga-506
+  chapter: null
+  verse: null
+  other_locator: jhora/horoscope/chart/yoga.py, rajju_yoga
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
+    copy follow the declared KB policy.
+  verification: verified
+confidence: medium
+review_notes: Draft interpretation; classical locator and native-language review pending.
+user_text:
+  en: You can leave room to change your approach as you learn.
+  kn: ಕಲಿಯುತ್ತಾ ನಿಮ್ಮ ವಿಧಾನ ಬದಲಿಸಲು ಅವಕಾಶ ಬಿಡಬಹುದು.
+  hi: सीखते हुए अपना तरीका बदलने की गुंजाइश रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+formation:
+  method: modality
+  index: 0
+  group: ashraya
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-formation-grahas
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

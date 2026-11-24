@@ -8,9 +8,9 @@ sanskrit:
   kannada: ತನುಭಾವ
   usage: traditional term
 meaning:
-  en: The part of a birth chart used to explore self and personal presence.
-  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ವ್ಯಕ್ತಿತ್ವ ಮತ್ತು ಇರುವಿಕೆ ಕುರಿತು ನೋಡುವ ಭಾಗ.
-  hi: जन्मपत्री में व्यक्तित्व और उपस्थिति से जुड़ा हिस्सा।
+  en: A chart theme for reflecting on body, vitality and temperament.
+  kn: ದೇಹ, ಚೈತನ್ಯ ಮತ್ತು ಸ್ವಭಾವ ಕುರಿತು ಯೋಚಿಸಲು ಬಳಸುವ ಜಾತಕದ ಭಾಗ.
+  hi: शरीर, स्फूर्ति और स्वभाव पर विचार करने से जुड़ा कुंडली का क्षेत्र।
 admin_note: Count from the rising sign under the default whole-sign method. This house lists embodiment, appearance,
   personal presence among its subjects.
 aliases:
@@ -21,7 +21,6 @@ used_by:
 - jaimini.arudha-padas.arudha-lagna
 - lal-kitab.placements.house-1
 - vedic.dashas-vimshottari.health-house-lord
-- vedic.dashas-vimshottari.health-upcoming
 - vedic.doshas.mars-partnership
 - vedic.house-lords.lord-1-in-house-1
 - vedic.house-lords.lord-1-in-house-10
@@ -111,9 +110,9 @@ used_by:
 - western.natal.uranus-house-1
 - western.natal.venus-house-1
 public_label:
-  en: Identity and self-expression
-  kn: ವ್ಯಕ್ತಿತ್ವ ಮತ್ತು ಅಭಿವ್ಯಕ್ತಿ
-  hi: पहचान और अभिव्यक्ति
+  en: Body, vitality and temperament
+  kn: ದೇಹ, ಚೈತನ್ಯ ಮತ್ತು ಸ್ವಭಾವ
+  hi: शरीर, स्फूर्ति और स्वभाव
 approval: draft
 native_review:
   kn: pending

@@ -8,11 +8,11 @@ sanskrit:
   kannada: ಮಾರಕ
   usage: traditional term
 meaning:
-  en: A historical house classification associated especially with the second and seventh places.
-  kn: ಮುಖ್ಯವಾಗಿ ಎರಡು ಮತ್ತು ಏಳನೇ ಸ್ಥಾನಗಳಿಗೆ ಬಳಸುವ ಐತಿಹಾಸಿಕ ವರ್ಗ.
-  hi: मुख्यतः दूसरे और सातवें स्थान की पारंपरिक श्रेणी।
-admin_note: Use this label for a historical house classification associated especially with the second and seventh places.
-  Read the linked entries for the applicable conditions and differences between methods.
+  en: A historical category covering the lords and occupants of the second and seventh houses and planets conjoined
+    with those lords.
+  kn: ಎರಡು ಮತ್ತು ಏಳನೇ ಭಾವಗಳ ಅಧಿಪತಿಗಳು, ನಿವಾಸಿಗಳು ಮತ್ತು ಆ ಅಧಿಪತಿಗಳೊಂದಿಗೆ ಸೇರಿದ ಗ್ರಹಗಳ ಐತಿಹಾಸಿಕ ವರ್ಗ.
+  hi: दूसरे और सातवें भाव के स्वामी, उनमें स्थित ग्रह और उन स्वामियों के साथ स्थित ग्रहों की पारंपरिक श्रेणी।
+admin_note: Historical staff terminology only. BPHS chapter 44 and Laghu Parashari; edition-level verification pending.
 aliases: []
 reference_rules: []
 used_by:

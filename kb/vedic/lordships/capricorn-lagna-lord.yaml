@@ -27,9 +27,12 @@ sources:
 confidence: high
 review_notes: Sign rulership is categorical. Personal effects require separate evidence. Native review pending.
 user_text:
-  en: Your rising sign is Capricorn. You can look at Saturn when reflecting on how you express yourself.
-  kn: ನಿಮ್ಮ ಲಗ್ನ ಮಕರ. ನಿಮ್ಮ ಅಭಿವ್ಯಕ್ತಿಯ ಶೈಲಿಯನ್ನು ತಿಳಿಯಲು ಅದರ ಅಧಿಪತಿಯ ಸ್ಥಾನವನ್ನು ನೋಡಬಹುದು. ಈ ಲಗ್ನದ ಅಧಿಪತಿ ಶನಿ.
-  hi: आपका लग्न मकर है। अपनी अभिव्यक्ति को समझने के लिए आप उसके स्वामी की स्थिति देख सकते हैं। इस लग्न के स्वामी शनि हैं।
+  en: Your rising sign is Capricorn. You can look at Saturn when reflecting on how you express yourself. You can also
+    reflect on vitality and temperament.
+  kn: ನಿಮ್ಮ ಲಗ್ನ ಮಕರ. ನಿಮ್ಮ ಅಭಿವ್ಯಕ್ತಿಯ ಶೈಲಿಯನ್ನು ತಿಳಿಯಲು ಅದರ ಅಧಿಪತಿಯ ಸ್ಥಾನವನ್ನು ನೋಡಬಹುದು. ಈ ಲಗ್ನದ ಅಧಿಪತಿ ಶನಿ. ಚೈತನ್ಯ
+    ಮತ್ತು ಸ್ವಭಾವದ ಬಗ್ಗೆಯೂ ಯೋಚಿಸಬಹುದು.
+  hi: आपका लग्न मकर है। अपनी अभिव्यक्ति को समझने के लिए आप उसके स्वामी की स्थिति देख सकते हैं। इस लग्न के स्वामी शनि
+    हैं। स्फूर्ति और स्वभाव पर भी विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

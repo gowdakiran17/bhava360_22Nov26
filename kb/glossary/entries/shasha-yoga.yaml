@@ -17,6 +17,7 @@ aliases:
 reference_rules:
 - vedic.yogas.shasha
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.shasha
 systems:
 - vedic

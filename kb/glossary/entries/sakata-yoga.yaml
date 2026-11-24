@@ -17,6 +17,8 @@ aliases:
 reference_rules:
 - vedic.yogas.sakata
 used_by:
+- vedic.yogas.activation
+- vedic.yogas.nabhasa-shakata
 - vedic.yogas.sakata
 systems:
 - vedic

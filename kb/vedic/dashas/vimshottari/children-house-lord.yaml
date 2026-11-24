@@ -10,7 +10,7 @@ conditions:
   - fact: dasha.active_lord.owns_house_5
     op: eq
     value: true
-meaning: The period connects the active lord to house 5; use the dated period as context for children.
+meaning: You may enjoy making space to listen to a child you care for.
 life_areas:
 - children
 strength_notes: []
@@ -25,12 +25,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring creativity and children into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ಸೃಜನಶೀಲತೆ ಮತ್ತು ಮಕ್ಕಳು.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: रचनात्मकता और बच्चे।'
+  en: You may enjoy making space to listen to a child you care for.
+  kn: ಮಗುವಿನ ಮಾತು ಕೇಳಲು ಸಮಯ ಕೊಡುವುದು ಸಂತಸ ನೀಡಬಹುದು.
+  hi: बच्चे की बात सुनने के लिए समय निकालना अच्छा लग सकता है।
 native_review:
   kn: pending
   hi: pending

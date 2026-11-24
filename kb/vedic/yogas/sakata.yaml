@@ -18,11 +18,17 @@ life_areas:
 - family-home
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.sakata.gate
     op: eq
-    value: true
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.sakata.gate
+    op: eq
+    value: mild
   effect: weaker
-  reason: When both the Moon and Jupiter meet their strength minima, give less weight to the variability reading.
+  reason: Use only the softened reading for mixed participant strength.
 exceptions:
 - when:
     fact: d1.moon.distance_from_lagna
@@ -34,6 +40,20 @@ exceptions:
     - 10
   effect: cancel
   reason: Moon angular from Lagna in this cancellation profile.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This is the lunar Shakata, distinct from the Nabhasa formation of the same name.
@@ -65,6 +85,11 @@ remedy:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
     hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- moon
+- jupiter
 evidence:
   direction: caution
   weight_class: primary

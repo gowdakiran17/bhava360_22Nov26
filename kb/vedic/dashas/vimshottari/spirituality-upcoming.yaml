@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: spirituality · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 9 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for spirituality. Run the KB-36 promise, period and transit pipeline. Return at
+  most three qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_9
+  - fact: dasha.upcoming.spirituality_window
     op: eq
     value: true
 meaning: You may wish to revisit a practice or a teacher’s advice.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to revisit a practice or a teacher’s advice.
-  kn: ಅಭ್ಯಾಸ ಅಥವಾ ಗುರುಗಳ ಸಲಹೆಯನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: किसी अभ्यास या शिक्षक की सीख पर फिर विचार कर सकते हैं।
+  en: A teacher may help you reflect on dharma and the opportunities that come your way.
+  kn: ಧರ್ಮ ಮತ್ತು ದೊರೆಯುವ ಅವಕಾಶಗಳ ಬಗ್ಗೆ ಯೋಚಿಸಲು ಗುರುಗಳು ನೆರವಾಗಬಹುದು.
+  hi: धर्म और सौभाग्य से मिले अवसरों पर विचार करने में शिक्षक सहायक हो सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

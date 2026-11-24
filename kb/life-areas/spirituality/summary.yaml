@@ -11,7 +11,7 @@ feeds:
   - vedic.planets.jupiter
   - vedic.planets.ketu
   vargas:
-  - vedic.vargas.d20-placement
+  - vedic.vargas.d9-placement
   dashas:
   - vedic.dashas-vimshottari.spirituality-house-lord
   - vedic.dashas-vimshottari.spirituality-upcoming

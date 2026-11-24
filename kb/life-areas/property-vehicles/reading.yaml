@@ -3,6 +3,7 @@ approval: draft
 houses:
 - 4
 - 11
+- 2
 varga: D4
 karakas:
 - mars
@@ -10,10 +11,10 @@ karakas:
 intent: purchase
 checker: vehicle-number
 slots:
-  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
-    active period. Cite the actual graha and house.
-  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
-    when KP is enabled; display an honest absence when no supported date exists.
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
+    in the active period. Cite the actual graha and house.
+  upcoming-periods: Apply this area recipe to the KB-36 pipeline. Keep the earliest qualifying window and up to two
+    further windows, retaining each tone and pace.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
   what-you-can-do:
     en: You can list practical requirements before choosing.
@@ -49,3 +50,4 @@ checker_routes:
   dwelling-fit: house-relocation
   vehicle: vehicle-number
 summary_profile: summary.yaml
+recipe_ref: life-areas/recipes.yaml#property-vehicles

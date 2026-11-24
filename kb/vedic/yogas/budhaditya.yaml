@@ -16,16 +16,37 @@ life_areas:
 - learning
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.budhaditya.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.budhaditya.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.mercury_combust
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for Mercury and Sun in this match before giving the reading greater
-    weight.
-exceptions: []
+  effect: soften
+  reason: Measure Mercury–Sun separation using the inclusive direct or retrograde combustion orb.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: The shared-sign screen includes close conjunctions. Assess Mercury’s combustion separately.
+- profile: budhaditya-close-orb
+  note: A tighter editorial variant softens at separation up to 3 degrees inclusive instead of the full combustion
+    orb.
 sources:
 - book: Brihat Jataka
   work_id: brihat-jataka
@@ -54,6 +75,11 @@ remedy:
     en: You may find it helpful to talk through an idea before acting.
     kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
     hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+related_rules:
+- vedic.yogas.activation
+participants:
+- sun
+- mercury
 evidence:
   direction: support
   weight_class: primary

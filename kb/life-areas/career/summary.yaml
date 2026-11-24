@@ -5,12 +5,12 @@ pipeline: life-areas/pipeline.yaml
 feeds:
   houses:
   - vedic.houses.house-10
-  - vedic.houses.house-6
   - vedic.houses.house-2
+  - vedic.houses.house-6
   - vedic.houses.house-11
   karakas:
-  - vedic.planets.sun
   - vedic.planets.saturn
+  - vedic.planets.sun
   - vedic.planets.mercury
   - vedic.planets.jupiter
   vargas:

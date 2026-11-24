@@ -17,6 +17,7 @@ aliases:
 - Khala
 reference_rules: []
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.parivartana-khala
 approval: draft
 native_review:

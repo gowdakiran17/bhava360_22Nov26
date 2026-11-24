@@ -16,8 +16,41 @@ conditions:
 meaning: You may wish to review which resources support your longer-term plans.
 life_areas:
 - money
-strength_notes: []
-exceptions: []
+strength_notes:
+- when:
+    fact: vedic.yoga.vasumati.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.vasumati.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.mixed_nature_witness
+    op: eq
+    value: true
+  effect: soften
+  reason: Resolve the actual contributing grahas. A mixed benefic and malefic witness does not support an unqualified
+    positive reading.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ: []
 sources:
 - book: Phaladeepika
@@ -38,6 +71,10 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-benefics
 evidence:
   direction: support
   weight_class: primary

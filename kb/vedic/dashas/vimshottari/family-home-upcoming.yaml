@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: family-home · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 4 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for family-home. Run the KB-36 promise, period and transit pipeline. Return at most
+  three qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_4
+  - fact: dasha.upcoming.family_home_window
     op: eq
     value: true
 meaning: Home responsibilities may draw your attention in this period.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: Home responsibilities may draw your attention in this period.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಮನೆಯ ಹೊಣೆಗಾರಿಕೆಗಳತ್ತ ಗಮನ ಹರಿಯಬಹುದು.
-  hi: इस अवधि में घर की ज़िम्मेदारियों पर ध्यान जा सकता है।
+  en: You may find time for a familiar routine with family.
+  kn: ಕುಟುಂಬದೊಂದಿಗೆ ಪರಿಚಿತ ದಿನಚರಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
+  hi: परिवार के साथ परिचित दिनचर्या के लिए समय मिल सकता है।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

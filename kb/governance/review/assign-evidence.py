@@ -89,6 +89,14 @@ def classify(r, recipes, slow):
     elif topic in ('yogas','raja-yogas','doshas'):
         caution=topic=='doshas' or slug in ('sakata','kemadruma','parivartana-dainya')
         direction,weight=('caution' if caution else 'support'),'primary'
+        if topic=='yogas':
+            if slug in ('sunapha','anapha','durudhara','vesi','vosi','ubhayachari','parivartana'):
+                direction,weight='context','context'
+                note='Resolve the actual participants before assigning a direction.'
+            if slug=='parivartana-khala': direction='neutral'
+            if slug=='chandra-mangala': weight='secondary'
+            if slug.startswith('nabhasa-') or slug=='pravrajya': direction,weight='context','context'
+            if slug.startswith('papa-kartari-'): direction,weight='caution','secondary'
         if topic=='doshas' and (r['confidence']=='disputed' or slug in ('shrapit','pitru','guru-chandal','grahan','nodal-axis')):
             weight='modifier'
             note='School-dependent formation contributes only to an established indication.'

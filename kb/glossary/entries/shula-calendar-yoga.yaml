@@ -27,5 +27,7 @@ used_by:
 - vedic.muhurta.travel
 - vedic.muhurta.vehicle-purchase
 - vedic.panchang.yoga
+- vedic.yogas.activation
+- vedic.yogas.nabhasa-shula
 systems:
 - vedic

@@ -213,16 +213,18 @@ def compile_files(docs, commit):
             owner = copy.get(key,key)
             public_id = token('p',key)
             text_key = token('m',owner)
-            if key==owner:
+            internal = doc.get('visibility') == 'admin-only'
+            if key==owner and not internal:
                 messages.add(key,doc['user_text'])
-            tones = [v['tone'] for v in doc.values() if isinstance(v,dict) and 'tone' in v]
-            public[public_id] = {'user_text':text_key, 'tone':tones[0] if tones else None,
-                                 'remedy':practice(messages,key+'/remedy',doc['remedy']) if doc['remedy'] else None}
-            if 'public_label' in doc:
-                public[public_id]['label'] = messages.add(key+'/label',doc['public_label'])
+            if not internal:
+                tones = [v['tone'] for v in doc.values() if isinstance(v,dict) and 'tone' in v]
+                public[public_id] = {'user_text':text_key, 'tone':tones[0] if tones else None,
+                                     'remedy':practice(messages,key+'/remedy',doc['remedy']) if doc['remedy'] else None}
+                if 'public_label' in doc:
+                    public[public_id]['label'] = messages.add(key+'/label',doc['public_label'])
             record = {k:v for k,v in doc.items() if k not in ('id','user_text','remedy')}
             record['life_areas'] = sorted(set(doc['life_areas']).union(*(by_id[a]['life_areas'] for a in grouped[key])))
-            admin[key] = {'aliases':sorted(grouped[key]),'copy_owner':owner,'public_key':public_id,
+            admin[key] = {'aliases':sorted(grouped[key]),'copy_owner':owner,'public_key':None if internal else public_id,
                           'rule':canonical_refs(record,evidence)}
         for path,doc in docs.items():
             if path.startswith(system+'/') and path not in rule_paths:
@@ -279,7 +281,7 @@ def validate_outputs(outputs, manifest, docs):
     for system in SYSTEMS:
         rows = outputs[f'admin/{system}.json']['rules']
         public = outputs[f'public/{system}.json']['readings']
-        if set(public)!={r['public_key'] for r in rows.values()}:
+        if set(public)!={r['public_key'] for r in rows.values() if r['rule'].get('visibility')!='admin-only'}:
             raise ValueError(system+' public projection mismatch')
         if canonical & rows.keys() or public_ids & public.keys():
             raise ValueError(system+' duplicate identity')
@@ -291,6 +293,9 @@ def validate_outputs(outputs, manifest, docs):
             if historical.intersection(row['aliases']):
                 raise ValueError(key+' repeated evidence alias')
             historical.update(row['aliases'])
+            if row['rule'].get('visibility')=='admin-only':
+                if row['public_key'] is not None: raise ValueError(key+' sensitive projection')
+                continue
             if public[row['public_key']]['user_text']!=public[rows[row['copy_owner']]['public_key']]['user_text']:
                 raise ValueError(key+' shared wording mismatch')
     source = {r['id'] for r in docs.values() if isinstance(r,dict) and 'rule' in r and 'system' in r}
@@ -300,7 +305,8 @@ def validate_outputs(outputs, manifest, docs):
     for name,ids in routes.items():
         if set(ids)-canonical or ids!=sorted(set(ids)):
             raise ValueError('Invalid route '+name)
-    if set().union(*(ids for name,ids in routes.items() if name!='screen/admin-tester'))!=canonical:
+    private={r['id'] for r in docs.values() if isinstance(r,dict) and r.get('visibility')=='admin-only' and r.get('id') in canonical}
+    if set().union(*(ids for name,ids in routes.items() if name!='screen/admin-tester'))!=canonical-private:
         raise ValueError('Missing non-admin route')
 
     def collect(value):

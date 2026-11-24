@@ -10,7 +10,7 @@ conditions:
   - fact: dasha.active_lord.owns_house_4
     op: eq
     value: true
-meaning: The period connects the active lord to house 4; use the dated period as context for family-home.
+meaning: You may find time for a familiar routine with family.
 life_areas:
 - family-home
 strength_notes: []
@@ -25,12 +25,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring home and learning into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ಮನೆ ಮತ್ತು ಕಲಿಕೆ.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: घर और शिक्षा।'
+  en: You may find time for a familiar routine with family.
+  kn: ಕುಟುಂಬದೊಂದಿಗೆ ಪರಿಚಿತ ದಿನಚರಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
+  hi: परिवार के साथ परिचित दिनचर्या के लिए समय मिल सकता है।
 native_review:
   kn: pending
   hi: pending

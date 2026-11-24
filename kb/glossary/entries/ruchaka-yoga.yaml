@@ -17,6 +17,7 @@ aliases:
 reference_rules:
 - vedic.yogas.ruchaka
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.ruchaka
 systems:
 - vedic

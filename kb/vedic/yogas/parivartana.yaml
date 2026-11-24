@@ -15,13 +15,32 @@ meaning: A reciprocal exchange may make each house’s concerns depend on decisi
 life_areas: []
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.parivartana.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.parivartana.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for the two exchanging lords in this match before giving the reading
-    greater weight.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Classify the specific house pair. A graha owning both houses cannot exchange with itself.
@@ -35,8 +54,8 @@ sources:
   supports: Reciprocal exchange and its three classes.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada and Hindi
+  await native review. Resolve the actual participants before assigning a direction.
 user_text:
   en: You can consider what each side of an exchange needs from the other.
   kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
@@ -53,9 +72,13 @@ remedy:
     en: You can consider what each side of an exchange needs from the other.
     kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
     hi: आप सोच सकते हैं कि लेन-देन में दोनों पक्षों को एक-दूसरे से क्या चाहिए।
+related_rules:
+- vedic.yogas.activation
+participants:
+- exchanging-lords
 evidence:
-  direction: support
-  weight_class: primary
+  direction: context
+  weight_class: context
   time_scope: natal
   reference: none
   area_strength: {}

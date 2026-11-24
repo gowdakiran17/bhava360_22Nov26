@@ -1,9 +1,7 @@
-scope: Synthetic placements in sidereal degrees from Aries, independent scenarios.
-  House pairs bind exchanges; shadbala is a supplied fixture measurement. No birth
-  data.
+scope: Synthetic placements in sidereal degrees from Aries, independent scenarios. House pairs bind exchanges; shadbala
+  is a supplied fixture measurement. No birth data.
 cases:
 - id: scenario-1
-  fixture: Asha
   longitude:
     lagna: 350
     sun: 177
@@ -56,7 +54,6 @@ cases:
     sakata:
     - 0
 - id: scenario-2
-  fixture: Ravi
   longitude:
     lagna: 177
     sun: 203
@@ -87,7 +84,6 @@ cases:
     - 1
     - 2
 - id: scenario-3
-  fixture: Meera
   longitude:
     lagna: 31
     sun: 125
@@ -110,7 +106,6 @@ cases:
     - 0
     - 2
 - id: scenario-4
-  fixture: Kabir
   longitude:
     lagna: 258
     sun: 337
@@ -129,7 +124,6 @@ cases:
   - amala
   - dhana
 - id: scenario-5
-  fixture: Dev
   longitude:
     lagna: 319
     sun: 338
@@ -150,7 +144,6 @@ cases:
   misses:
   - raja
 - id: scenario-6
-  fixture: Asha
   longitude:
     lagna: 207
     sun: 182
@@ -169,7 +162,6 @@ cases:
   - harsha
   - shasha
 - id: scenario-7
-  fixture: Ravi
   longitude:
     lagna: 354
     sun: 156
@@ -187,7 +179,6 @@ cases:
   matches:
   - chandra-mangala
 - id: scenario-8
-  fixture: Meera
   longitude:
     lagna: 310
     sun: 64
@@ -206,7 +197,6 @@ cases:
   - lakshmi
   - malavya
 - id: scenario-9
-  fixture: Kabir
   longitude:
     lagna: 275
     sun: 129
@@ -224,7 +214,6 @@ cases:
   matches:
   - vimala
 - id: scenario-10
-  fixture: Dev
   longitude:
     lagna: 353
     sun: 101
@@ -245,7 +234,6 @@ cases:
   matches:
   - neecha-bhanga
 - id: scenario-11
-  fixture: Asha
   longitude:
     lagna: 246
     sun: 88
@@ -263,7 +251,6 @@ cases:
   matches:
   - hamsa
 - id: scenario-12
-  fixture: Ravi
   longitude:
     lagna: 9
     sun: 330
@@ -281,7 +268,6 @@ cases:
   matches:
   - ruchaka
 - id: scenario-13
-  fixture: Meera
   longitude:
     lagna: 106
     sun: 181
@@ -299,7 +285,6 @@ cases:
   matches:
   - neecha-bhanga-raja
 - id: scenario-14
-  fixture: Kabir
   longitude:
     lagna: 87
     sun: 4
@@ -317,7 +302,6 @@ cases:
   matches:
   - vasumati
 - id: scenario-15
-  fixture: Dev
   longitude:
     lagna: 62
     sun: 89
@@ -335,7 +319,6 @@ cases:
   matches:
   - saraswati
 - id: scenario-16
-  fixture: Asha
   longitude:
     lagna: 241
     sun: 102
@@ -352,7 +335,6 @@ cases:
   jupiter_shadbala_rupas: 5
   sole_relief_branch: d1.dignity.debility_lord_angular
 - id: scenario-17
-  fixture: Ravi
   longitude:
     lagna: 203
     sun: 269
@@ -370,7 +352,6 @@ cases:
   exceptions:
     kemadruma: []
 - id: scenario-18
-  fixture: Meera
   longitude:
     lagna: 166
     sun: 189
@@ -387,7 +368,6 @@ cases:
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exalted_navamsha
 - id: scenario-19
-  fixture: Kabir
   longitude:
     lagna: 120
     sun: 337
@@ -402,9 +382,10 @@ cases:
   - 9
   - 5
   jupiter_shadbala_rupas: 5
-  multiple_relief_branches: [d1.dignity.exaltation_lord_angular, d1.dignity.exchange_with_dispositor]
+  multiple_relief_branches:
+  - d1.dignity.exaltation_lord_angular
+  - d1.dignity.exchange_with_dispositor
 - id: scenario-20
-  fixture: Dev
   longitude:
     lagna: 170
     sun: 217
@@ -423,7 +404,6 @@ cases:
   - parivartana
   - parivartana-khala
 - id: scenario-21
-  fixture: Asha
   longitude:
     lagna: 239
     sun: 297
@@ -441,7 +421,6 @@ cases:
   matches:
   - parivartana-maha
 - id: scenario-22
-  fixture: Ravi
   longitude:
     lagna: 321
     sun: 338
@@ -458,7 +437,6 @@ cases:
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.mutual_kendras
 - id: scenario-23
-  fixture: Meera
   longitude:
     lagna: 317
     sun: 287
@@ -476,7 +454,6 @@ cases:
   matches:
   - parivartana-dainya
 - id: scenario-24
-  fixture: Kabir
   longitude:
     lagna: 320
     sun: 92
@@ -491,9 +468,10 @@ cases:
   - 6
   - 10
   jupiter_shadbala_rupas: 7
-  multiple_relief_branches: [d1.dignity.dispositor_aspect, d1.dignity.exchange_with_dispositor]
+  multiple_relief_branches:
+  - d1.dignity.dispositor_aspect
+  - d1.dignity.exchange_with_dispositor
 - id: scenario-25
-  fixture: Dev
   longitude:
     lagna: 287
     sun: 121
@@ -510,7 +488,6 @@ cases:
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.navamsha_lord_support
 - id: scenario-26
-  fixture: Asha
   longitude:
     lagna: 164
     sun: 208
@@ -526,8 +503,7 @@ cases:
   - 3
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exaltee_angular
-- id: dispositor-exchange-only
-  fixture: Dev
+- id: scenario-dispositor-exchange-only
   longitude:
     lagna: 73
     sun: 279
@@ -546,7 +522,6 @@ cases:
   matches:
   - neecha-bhanga
 - id: scenario-19-isolated
-  fixture: Kabir
   longitude:
     lagna: 104
     sun: 338
@@ -563,7 +538,6 @@ cases:
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exaltation_lord_angular
 - id: scenario-24-isolated
-  fixture: Kabir
   longitude:
     lagna: 224
     sun: 324
@@ -579,3 +553,1207 @@ cases:
   - 5
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.dispositor_aspect
+approval: draft
+shape_defaults:
+  benefics:
+  - moon
+  - mercury
+  - jupiter
+  - venus
+  grades:
+    sun: Moderate
+    moon: Moderate
+    mars: Moderate
+    mercury: Moderate
+    jupiter: Moderate
+    venus: Moderate
+    saturn: Moderate
+  exaltation:
+    sun: 0
+    moon: 1
+    mars: 9
+    mercury: 5
+    jupiter: 3
+    venus: 11
+    saturn: 6
+  d9:
+    sun: 0
+    moon: 0
+    mars: 0
+    mercury: 0
+    jupiter: 0
+    venus: 0
+    saturn: 0
+  opt_in_branch: male-day
+  day_birth: true
+gate_cases:
+  adhi:
+    positive: scenario-3
+    negative: scenario-1
+  amala:
+    positive: scenario-4
+    negative: scenario-1
+  anapha:
+    positive: scenario-1
+    negative: scenario-2
+  bhadra:
+    positive: scenario-1
+    negative: scenario-2
+  bheri:
+    negative:
+      lagna: 6
+      signs:
+        sun: 5
+        moon: 3
+        mars: 2
+        mercury: 6
+        jupiter: 9
+        venus: 11
+        saturn: 4
+    positive:
+      lagna: 8
+      signs:
+        sun: 4
+        moon: 6
+        mars: 11
+        mercury: 9
+        jupiter: 0
+        venus: 3
+        saturn: 10
+  budhaditya:
+    positive: scenario-1
+    negative: scenario-2
+  chamara:
+    negative:
+      lagna: 0
+      signs:
+        sun: 7
+        moon: 2
+        mars: 2
+        mercury: 11
+        jupiter: 5
+        venus: 2
+        saturn: 4
+    positive:
+      lagna: 7
+      signs:
+        sun: 2
+        moon: 8
+        mars: 10
+        mercury: 0
+        jupiter: 1
+        venus: 1
+        saturn: 2
+  chandra-mangala:
+    positive: scenario-7
+    negative: scenario-1
+  dhana:
+    positive: scenario-4
+    negative: scenario-1
+  dharma-karmadhipati:
+    negative:
+      lagna: 11
+      signs:
+        sun: 2
+        moon: 0
+        mars: 4
+        mercury: 5
+        jupiter: 3
+        venus: 9
+        saturn: 0
+    positive:
+      lagna: 9
+      signs:
+        sun: 9
+        moon: 2
+        mars: 6
+        mercury: 0
+        jupiter: 4
+        venus: 6
+        saturn: 2
+  durudhara:
+    positive: scenario-5
+    negative: scenario-1
+  gaja-kesari:
+    positive: scenario-2
+    negative: scenario-1
+  guru-mangala:
+    negative:
+      lagna: 1
+      signs:
+        sun: 10
+        moon: 1
+        mars: 6
+        mercury: 0
+        jupiter: 10
+        venus: 10
+        saturn: 7
+    positive:
+      lagna: 6
+      signs:
+        sun: 3
+        moon: 0
+        mars: 1
+        mercury: 2
+        jupiter: 1
+        venus: 7
+        saturn: 11
+  hamsa:
+    positive: scenario-11
+    negative: scenario-1
+  harsha:
+    positive: scenario-6
+    negative: scenario-1
+  kahala:
+    negative:
+      lagna: 6
+      signs:
+        sun: 6
+        moon: 8
+        mars: 11
+        mercury: 4
+        jupiter: 8
+        venus: 0
+        saturn: 0
+    positive:
+      lagna: 11
+      signs:
+        sun: 10
+        moon: 1
+        mars: 10
+        mercury: 11
+        jupiter: 2
+        venus: 6
+        saturn: 10
+  kalanidhi:
+    negative:
+      lagna: 11
+      signs:
+        sun: 11
+        moon: 1
+        mars: 9
+        mercury: 8
+        jupiter: 6
+        venus: 9
+        saturn: 1
+    positive:
+      lagna: 8
+      signs:
+        sun: 0
+        moon: 10
+        mars: 1
+        mercury: 0
+        jupiter: 0
+        venus: 6
+        saturn: 3
+  kemadruma:
+    positive: scenario-2
+    negative: scenario-1
+  kusuma:
+    negative:
+      lagna: 0
+      signs:
+        sun: 9
+        moon: 5
+        mars: 6
+        mercury: 3
+        jupiter: 4
+        venus: 11
+        saturn: 10
+    positive:
+      lagna: 4
+      signs:
+        sun: 0
+        moon: 8
+        mars: 0
+        mercury: 11
+        jupiter: 8
+        venus: 1
+        saturn: 1
+  lagnadhi:
+    negative:
+      lagna: 11
+      signs:
+        sun: 11
+        moon: 9
+        mars: 3
+        mercury: 8
+        jupiter: 2
+        venus: 7
+        saturn: 4
+    positive:
+      lagna: 2
+      signs:
+        sun: 6
+        moon: 7
+        mars: 8
+        mercury: 9
+        jupiter: 9
+        venus: 7
+        saturn: 3
+  lakshmi:
+    positive: scenario-8
+    negative: scenario-1
+  mahabhagya:
+    negative:
+      lagna: 6
+      signs:
+        sun: 10
+        moon: 11
+        mars: 3
+        mercury: 3
+        jupiter: 10
+        venus: 11
+        saturn: 10
+    positive:
+      lagna: 6
+      signs:
+        sun: 6
+        moon: 8
+        mars: 7
+        mercury: 5
+        jupiter: 10
+        venus: 1
+        saturn: 11
+  malavya:
+    positive: scenario-8
+    negative: scenario-1
+  nabhasa-ardha-chandra:
+    positive:
+      lagna: 3
+      signs:
+        sun: 4
+        moon: 5
+        mars: 6
+        mercury: 7
+        jupiter: 8
+        venus: 9
+        saturn: 10
+    negative:
+      lagna: 0
+      signs:
+        sun: 7
+        moon: 7
+        mars: 8
+        mercury: 4
+        jupiter: 5
+        venus: 4
+        saturn: 5
+  nabhasa-chakra:
+    positive:
+      lagna: 7
+      signs:
+        sun: 7
+        moon: 9
+        mars: 11
+        mercury: 1
+        jupiter: 3
+        venus: 5
+        saturn: 7
+    negative:
+      lagna: 6
+      signs:
+        sun: 10
+        moon: 9
+        mars: 1
+        mercury: 2
+        jupiter: 11
+        venus: 2
+        saturn: 9
+  nabhasa-chapa:
+    positive:
+      lagna: 11
+      signs:
+        sun: 8
+        moon: 9
+        mars: 10
+        mercury: 11
+        jupiter: 0
+        venus: 1
+        saturn: 2
+    negative:
+      lagna: 8
+      signs:
+        sun: 7
+        moon: 5
+        mars: 0
+        mercury: 9
+        jupiter: 4
+        venus: 9
+        saturn: 8
+  nabhasa-chatra:
+    positive:
+      lagna: 2
+      signs:
+        sun: 8
+        moon: 9
+        mars: 10
+        mercury: 11
+        jupiter: 0
+        venus: 1
+        saturn: 2
+    negative:
+      lagna: 3
+      signs:
+        sun: 3
+        moon: 10
+        mars: 2
+        mercury: 0
+        jupiter: 6
+        venus: 6
+        saturn: 7
+  nabhasa-dama:
+    positive:
+      lagna: 1
+      signs:
+        sun: 0
+        moon: 1
+        mars: 2
+        mercury: 3
+        jupiter: 4
+        venus: 5
+        saturn: 0
+    negative:
+      lagna: 4
+      signs:
+        sun: 10
+        moon: 3
+        mars: 8
+        mercury: 7
+        jupiter: 11
+        venus: 7
+        saturn: 3
+  nabhasa-danda:
+    positive:
+      lagna: 11
+      signs:
+        sun: 8
+        moon: 9
+        mars: 10
+        mercury: 11
+        jupiter: 8
+        venus: 9
+        saturn: 10
+    negative:
+      lagna: 10
+      signs:
+        sun: 10
+        moon: 4
+        mars: 10
+        mercury: 4
+        jupiter: 8
+        venus: 9
+        saturn: 9
+  nabhasa-gada:
+    positive:
+      lagna: 7
+      signs:
+        sun: 7
+        moon: 10
+        mars: 7
+        mercury: 10
+        jupiter: 7
+        venus: 10
+        saturn: 7
+    negative:
+      lagna: 2
+      signs:
+        sun: 9
+        moon: 3
+        mars: 4
+        mercury: 11
+        jupiter: 10
+        venus: 3
+        saturn: 0
+  nabhasa-gola:
+    positive:
+      lagna: 9
+      signs:
+        sun: 0
+        moon: 0
+        mars: 0
+        mercury: 0
+        jupiter: 0
+        venus: 0
+        saturn: 0
+    negative:
+      lagna: 0
+      signs:
+        sun: 7
+        moon: 11
+        mars: 4
+        mercury: 7
+        jupiter: 8
+        venus: 5
+        saturn: 5
+  nabhasa-hala:
+    positive:
+      lagna: 10
+      signs:
+        sun: 11
+        moon: 3
+        mars: 7
+        mercury: 11
+        jupiter: 3
+        venus: 7
+        saturn: 11
+    negative:
+      lagna: 2
+      signs:
+        sun: 8
+        moon: 11
+        mars: 9
+        mercury: 11
+        jupiter: 2
+        venus: 5
+        saturn: 10
+  nabhasa-kamala:
+    positive:
+      lagna: 11
+      signs:
+        sun: 11
+        moon: 2
+        mars: 5
+        mercury: 8
+        jupiter: 11
+        venus: 2
+        saturn: 5
+    negative:
+      lagna: 2
+      signs:
+        sun: 0
+        moon: 1
+        mars: 4
+        mercury: 6
+        jupiter: 5
+        venus: 2
+        saturn: 4
+  nabhasa-kedara:
+    positive:
+      lagna: 7
+      signs:
+        sun: 0
+        moon: 1
+        mars: 2
+        mercury: 3
+        jupiter: 0
+        venus: 1
+        saturn: 2
+    negative:
+      lagna: 5
+      signs:
+        sun: 1
+        moon: 10
+        mars: 6
+        mercury: 0
+        jupiter: 11
+        venus: 2
+        saturn: 7
+  nabhasa-kuta:
+    positive:
+      lagna: 3
+      signs:
+        sun: 6
+        moon: 7
+        mars: 8
+        mercury: 9
+        jupiter: 10
+        venus: 11
+        saturn: 0
+    negative:
+      lagna: 4
+      signs:
+        sun: 9
+        moon: 10
+        mars: 10
+        mercury: 3
+        jupiter: 10
+        venus: 3
+        saturn: 7
+  nabhasa-mala:
+    positive:
+      lagna: 2
+      signs:
+        sun: 3
+        moon: 2
+        mars: 4
+        mercury: 5
+        jupiter: 8
+        venus: 2
+        saturn: 6
+    negative:
+      lagna: 1
+      signs:
+        sun: 1
+        moon: 6
+        mars: 6
+        mercury: 11
+        jupiter: 0
+        venus: 1
+        saturn: 11
+  nabhasa-musala:
+    positive:
+      lagna: 0
+      signs:
+        sun: 1
+        moon: 4
+        mars: 7
+        mercury: 10
+        jupiter: 1
+        venus: 4
+        saturn: 7
+    negative:
+      lagna: 2
+      signs:
+        sun: 1
+        moon: 1
+        mars: 8
+        mercury: 11
+        jupiter: 9
+        venus: 5
+        saturn: 11
+  nabhasa-nala:
+    positive:
+      lagna: 0
+      signs:
+        sun: 2
+        moon: 5
+        mars: 8
+        mercury: 11
+        jupiter: 2
+        venus: 5
+        saturn: 8
+    negative:
+      lagna: 9
+      signs:
+        sun: 8
+        moon: 11
+        mars: 4
+        mercury: 9
+        jupiter: 11
+        venus: 3
+        saturn: 2
+  nabhasa-nauka:
+    positive:
+      lagna: 1
+      signs:
+        sun: 1
+        moon: 2
+        mars: 3
+        mercury: 4
+        jupiter: 5
+        venus: 6
+        saturn: 7
+    negative:
+      lagna: 0
+      signs:
+        sun: 1
+        moon: 5
+        mars: 8
+        mercury: 0
+        jupiter: 4
+        venus: 2
+        saturn: 0
+  nabhasa-pasha:
+    positive:
+      lagna: 10
+      signs:
+        sun: 0
+        moon: 1
+        mars: 2
+        mercury: 3
+        jupiter: 4
+        venus: 0
+        saturn: 1
+    negative:
+      lagna: 6
+      signs:
+        sun: 8
+        moon: 7
+        mars: 1
+        mercury: 0
+        jupiter: 1
+        venus: 0
+        saturn: 1
+  nabhasa-rajju:
+    positive:
+      lagna: 6
+      signs:
+        sun: 0
+        moon: 3
+        mars: 6
+        mercury: 9
+        jupiter: 0
+        venus: 3
+        saturn: 6
+    negative:
+      lagna: 1
+      signs:
+        sun: 7
+        moon: 8
+        mars: 11
+        mercury: 9
+        jupiter: 9
+        venus: 6
+        saturn: 6
+  nabhasa-samudra:
+    positive:
+      lagna: 5
+      signs:
+        sun: 6
+        moon: 8
+        mars: 10
+        mercury: 0
+        jupiter: 2
+        venus: 4
+        saturn: 6
+    negative:
+      lagna: 6
+      signs:
+        sun: 8
+        moon: 0
+        mars: 8
+        mercury: 0
+        jupiter: 0
+        venus: 8
+        saturn: 4
+  nabhasa-sarpa:
+    positive:
+      lagna: 0
+      signs:
+        sun: 0
+        moon: 1
+        mars: 3
+        mercury: 2
+        jupiter: 4
+        venus: 5
+        saturn: 6
+    negative:
+      lagna: 5
+      signs:
+        sun: 9
+        moon: 10
+        mars: 7
+        mercury: 0
+        jupiter: 2
+        venus: 6
+        saturn: 4
+  nabhasa-shakata:
+    positive:
+      lagna: 6
+      signs:
+        sun: 6
+        moon: 0
+        mars: 6
+        mercury: 0
+        jupiter: 6
+        venus: 0
+        saturn: 6
+    negative:
+      lagna: 2
+      signs:
+        sun: 3
+        moon: 1
+        mars: 9
+        mercury: 0
+        jupiter: 1
+        venus: 8
+        saturn: 5
+  nabhasa-shakti:
+    positive:
+      lagna: 0
+      signs:
+        sun: 6
+        moon: 7
+        mars: 8
+        mercury: 9
+        jupiter: 6
+        venus: 7
+        saturn: 8
+    negative:
+      lagna: 1
+      signs:
+        sun: 0
+        moon: 7
+        mars: 10
+        mercury: 9
+        jupiter: 11
+        venus: 9
+        saturn: 7
+  nabhasa-shara:
+    positive:
+      lagna: 3
+      signs:
+        sun: 6
+        moon: 7
+        mars: 8
+        mercury: 9
+        jupiter: 6
+        venus: 7
+        saturn: 8
+    negative:
+      lagna: 4
+      signs:
+        sun: 10
+        moon: 1
+        mars: 11
+        mercury: 6
+        jupiter: 1
+        venus: 7
+        saturn: 2
+  nabhasa-shringataka:
+    positive:
+      lagna: 0
+      signs:
+        sun: 0
+        moon: 4
+        mars: 8
+        mercury: 0
+        jupiter: 4
+        venus: 8
+        saturn: 0
+    negative:
+      lagna: 2
+      signs:
+        sun: 7
+        moon: 6
+        mars: 10
+        mercury: 5
+        jupiter: 4
+        venus: 5
+        saturn: 7
+  nabhasa-shula:
+    positive:
+      lagna: 2
+      signs:
+        sun: 0
+        moon: 1
+        mars: 2
+        mercury: 0
+        jupiter: 1
+        venus: 2
+        saturn: 0
+    negative:
+      lagna: 1
+      signs:
+        sun: 7
+        moon: 5
+        mars: 4
+        mercury: 6
+        jupiter: 11
+        venus: 10
+        saturn: 4
+  nabhasa-vajra:
+    positive:
+      lagna: 9
+      signs:
+        sun: 0
+        moon: 9
+        mars: 6
+        mercury: 3
+        jupiter: 9
+        venus: 3
+        saturn: 0
+    negative:
+      lagna: 4
+      signs:
+        sun: 7
+        moon: 8
+        mars: 6
+        mercury: 8
+        jupiter: 0
+        venus: 2
+        saturn: 10
+  nabhasa-vapi:
+    positive:
+      lagna: 1
+      signs:
+        sun: 2
+        moon: 5
+        mars: 8
+        mercury: 11
+        jupiter: 2
+        venus: 5
+        saturn: 8
+    negative:
+      lagna: 8
+      signs:
+        sun: 9
+        moon: 7
+        mars: 11
+        mercury: 0
+        jupiter: 9
+        venus: 6
+        saturn: 2
+  nabhasa-veena:
+    positive:
+      lagna: 2
+      signs:
+        sun: 0
+        moon: 1
+        mars: 2
+        mercury: 3
+        jupiter: 4
+        venus: 5
+        saturn: 6
+    negative:
+      lagna: 2
+      signs:
+        sun: 7
+        moon: 7
+        mars: 7
+        mercury: 11
+        jupiter: 0
+        venus: 6
+        saturn: 5
+  nabhasa-vihaga:
+    positive:
+      lagna: 8
+      signs:
+        sun: 11
+        moon: 5
+        mars: 11
+        mercury: 5
+        jupiter: 11
+        venus: 5
+        saturn: 11
+    negative:
+      lagna: 6
+      signs:
+        sun: 1
+        moon: 11
+        mars: 11
+        mercury: 3
+        jupiter: 8
+        venus: 9
+        saturn: 4
+  nabhasa-yava:
+    positive:
+      lagna: 10
+      signs:
+        sun: 10
+        moon: 1
+        mars: 4
+        mercury: 7
+        jupiter: 1
+        venus: 7
+        saturn: 10
+    negative:
+      lagna: 1
+      signs:
+        sun: 7
+        moon: 10
+        mars: 2
+        mercury: 5
+        jupiter: 4
+        venus: 1
+        saturn: 3
+  nabhasa-yuga:
+    positive:
+      lagna: 3
+      signs:
+        sun: 0
+        moon: 1
+        mars: 0
+        mercury: 1
+        jupiter: 0
+        venus: 1
+        saturn: 0
+    negative:
+      lagna: 1
+      signs:
+        sun: 11
+        moon: 8
+        mars: 4
+        mercury: 7
+        jupiter: 8
+        venus: 11
+        saturn: 4
+  nabhasa-yupa:
+    positive:
+      lagna: 3
+      signs:
+        sun: 3
+        moon: 4
+        mars: 5
+        mercury: 6
+        jupiter: 3
+        venus: 4
+        saturn: 5
+    negative:
+      lagna: 11
+      signs:
+        sun: 8
+        moon: 0
+        mars: 0
+        mercury: 10
+        jupiter: 4
+        venus: 4
+        saturn: 0
+  neecha-bhanga-raja:
+    positive: scenario-13
+    negative: scenario-1
+  neecha-bhanga:
+    positive: scenario-10
+    negative: scenario-1
+  papa-kartari-lagna:
+    negative:
+      lagna: 0
+      signs:
+        sun: 2
+        moon: 7
+        mars: 7
+        mercury: 3
+        jupiter: 5
+        venus: 7
+        saturn: 0
+    positive:
+      lagna: 3
+      signs:
+        sun: 2
+        moon: 6
+        mars: 4
+        mercury: 7
+        jupiter: 0
+        venus: 11
+        saturn: 8
+  papa-kartari-moon:
+    negative:
+      lagna: 1
+      signs:
+        sun: 8
+        moon: 4
+        mars: 11
+        mercury: 5
+        jupiter: 4
+        venus: 7
+        saturn: 1
+    positive:
+      lagna: 5
+      signs:
+        sun: 2
+        moon: 10
+        mars: 9
+        mercury: 1
+        jupiter: 10
+        venus: 1
+        saturn: 11
+  parijata:
+    positive:
+      lagna: 9
+      signs:
+        sun: 2
+        moon: 4
+        mars: 1
+        mercury: 11
+        jupiter: 8
+        venus: 0
+        saturn: 9
+    negative:
+      lagna: 4
+      signs:
+        sun: 4
+        moon: 3
+        mars: 6
+        mercury: 3
+        jupiter: 10
+        venus: 11
+        saturn: 9
+  parivartana-dainya:
+    positive: scenario-23
+    negative: scenario-1
+  parivartana-khala:
+    positive: scenario-20
+    negative: scenario-1
+  parivartana-maha:
+    positive: scenario-21
+    negative: scenario-1
+  parivartana:
+    positive: scenario-20
+    negative: scenario-1
+  parvata:
+    negative:
+      lagna: 7
+      signs:
+        sun: 9
+        moon: 8
+        mars: 2
+        mercury: 2
+        jupiter: 0
+        venus: 9
+        saturn: 2
+    positive:
+      lagna: 11
+      signs:
+        sun: 10
+        moon: 3
+        mars: 3
+        mercury: 10
+        jupiter: 1
+        venus: 5
+        saturn: 9
+  pravrajya:
+    negative:
+      lagna: 7
+      signs:
+        sun: 9
+        moon: 1
+        mars: 5
+        mercury: 6
+        jupiter: 9
+        venus: 10
+        saturn: 7
+    positive:
+      lagna: 1
+      signs:
+        sun: 3
+        moon: 3
+        mars: 7
+        mercury: 3
+        jupiter: 3
+        venus: 8
+        saturn: 10
+  raja:
+    positive: scenario-1
+    negative: scenario-5
+  ruchaka:
+    positive: scenario-12
+    negative: scenario-1
+  sakata:
+    positive: scenario-1
+    negative: scenario-2
+  sarala:
+    positive: scenario-1
+    negative: scenario-2
+  saraswati:
+    positive: scenario-15
+    negative: scenario-1
+  shankha:
+    positive:
+      lagna: 6
+      signs:
+        sun: 9
+        moon: 3
+        mars: 6
+        mercury: 10
+        jupiter: 1
+        venus: 10
+        saturn: 4
+    negative:
+      lagna: 3
+      signs:
+        sun: 3
+        moon: 2
+        mars: 7
+        mercury: 6
+        jupiter: 6
+        venus: 0
+        saturn: 1
+  shasha:
+    positive: scenario-6
+    negative: scenario-1
+  shubha-kartari-lagna:
+    negative:
+      lagna: 8
+      signs:
+        sun: 10
+        moon: 4
+        mars: 4
+        mercury: 4
+        jupiter: 5
+        venus: 8
+        saturn: 11
+    positive:
+      lagna: 1
+      signs:
+        sun: 6
+        moon: 0
+        mars: 3
+        mercury: 2
+        jupiter: 1
+        venus: 2
+        saturn: 5
+  shubha-kartari-moon:
+    negative:
+      lagna: 5
+      signs:
+        sun: 0
+        moon: 5
+        mars: 2
+        mercury: 8
+        jupiter: 11
+        venus: 0
+        saturn: 3
+    positive:
+      lagna: 6
+      signs:
+        sun: 5
+        moon: 3
+        mars: 3
+        mercury: 2
+        jupiter: 3
+        venus: 4
+        saturn: 7
+  sreenatha:
+    positive:
+      lagna: 8
+      signs:
+        sun: 5
+        moon: 4
+        mars: 9
+        mercury: 5
+        jupiter: 7
+        venus: 6
+        saturn: 8
+    negative:
+      lagna: 6
+      signs:
+        sun: 7
+        moon: 4
+        mars: 0
+        mercury: 4
+        jupiter: 6
+        venus: 2
+        saturn: 0
+  sunapha:
+    positive: scenario-5
+    negative: scenario-1
+  ubhayachari:
+    positive: scenario-3
+    negative: scenario-1
+  vasumati:
+    positive: scenario-14
+    negative: scenario-1
+  vesi:
+    positive: scenario-2
+    negative: scenario-1
+  vimala:
+    positive: scenario-9
+    negative: scenario-1
+  vosi:
+    positive: scenario-1
+    negative: scenario-2
+lifecycle_probes:
+  active: Use a participating Antar and Moderate grades.
+  background: Both lords outside the actual witness.
+  unknown: Withhold one period lord and leave the other outside.
+  cancelled: Apply a matched cancel exception before gating.
+  mild: One Weak and one capable participant. For singleton formations this mixed-grade branch is impossible; test
+    softened copy separately.
+  hidden: All actual participants Weak.
+Scenario Y4:
+  sun_deg: 120
+  mercury_deg: 126
+  motion: direct
+  grades:
+    sun: Strong
+    mercury: Moderate
+  expected:
+    mercury:
+    - full
+    - true
+    - yoga-mild
+    saturn:
+    - full
+    - false
+    - yoga-background

@@ -18,13 +18,31 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.harsha.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.harsha.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.other_lord_association
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for the lord of house 6 in this match before giving the reading greater
-    weight.
-exceptions: []
+  effect: cancel
+  reason: Strict Viparita school excludes conjunction or mutual full aspect with a distinct unrelated house lord.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Includes the ruler in its own dusthana. Stricter viparita readings restrict other associations and
@@ -57,6 +75,10 @@ remedy:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
     hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- lord:6
 evidence:
   direction: support
   weight_class: primary

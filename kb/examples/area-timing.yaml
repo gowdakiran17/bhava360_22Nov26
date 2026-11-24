@@ -1,0 +1,29 @@
+approval: draft
+synthetic: true
+scope: Scenario T2 has Aries Lagna, Venus in its own Libra sign and Jupiter in Pisces in a Mercury star. Mercury aspects Libra. The Antar is relevant by a single star-lord hop. Jupiter transits Libra and Saturn in Leo aspects Libra. All dates and graha positions are invented.
+base:
+  lagna: 0
+  signs: {sun: 2, moon: 2, mars: 3, mercury: 0, jupiter: 11, venus: 6, saturn: 9, rahu: 8, ketu: 2}
+  grades: {sun: Moderate, moon: Moderate, mars: Moderate, mercury: Strong, jupiter: Moderate, venus: Strong, saturn: Moderate, rahu: Moderate, ketu: Moderate}
+  window_inputs:
+    today: '2032-03-01'
+    tier: A
+    unstable: []
+    d9: own
+    vargottama: false
+    yoga: {active: false, participants: []}
+    topic_lord: {house: 4, dignity: own}
+    segments: [{interval: ['2032-03-10','2032-04-12'], signs: {jupiter: 6, saturn: 4}, av: [[28,4],[28,4]]}]
+period: {maha: venus, antar: jupiter, star_lords: {jupiter: mercury}, interval: ['2032-03-01','2032-05-01']}
+cases:
+  Scenario T2: {state: active, facts: {dasha.pair.distance: 6, dasha.pair.has_weaker_note: true}, window: {start: '2032-03-10', end: '2032-04-12', tone: Supportive, pace: supported}}
+  Scenario T3: {period: {antar: mars}, chart: {lagna: 0, signs: {mars: 7}}, state: background}
+  Scenario T4: {chart: {window_inputs: {unstable: [promise-house-lord, promise-occupants, promise-house-aspects, promise-moon-relative, promise-varga-lagna]}}, state: no-promise}
+  Scenario T5: {lord: {combust: true, grade: Moderate}, facts: {dasha.modulation.combust: true}}
+  Scenario T6: {lord: {occupied_house: 8, viparita: true}, facts: {dasha.modulation.unrelieved_dusthana: false}}
+  Scenario T7: {period: {antar: ketu}, chart: {signs: {ketu: 11}}, state: delay}
+  Scenario T8: {area: property-vehicles, topic_varga: null, chart: {window_inputs: {topic_lord: {house: 8, dignity: enemy}}}}
+  Scenario T9: {chart: {window_inputs: {segments: []}}, state: no-window, window: null}
+  Scenario T10: {chart: {lagna: null, window_inputs: {tier: C}}, window: null}
+  Scenario T11: {chart: {window_inputs: {d9: enemy}}, window: {start: '2032-03-10', end: '2032-04-12', tone: Steady, pace: supported}}
+  Scenario T12: {lord: {occupied_house: 6, viparita: false}, facts: {dasha.modulation.unrelieved_dusthana: true}}

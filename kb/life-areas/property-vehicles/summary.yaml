@@ -6,6 +6,7 @@ feeds:
   houses:
   - vedic.houses.house-4
   - vedic.houses.house-11
+  - vedic.houses.house-2
   karakas:
   - vedic.planets.mars
   - vedic.planets.venus

@@ -34,6 +34,7 @@ used_by:
 - vedic.dashas-vimshottari.mars-rahu-antar
 - vedic.dashas-vimshottari.mercury-rahu-antar
 - vedic.dashas-vimshottari.moon-rahu-antar
+- vedic.dashas-vimshottari.pratyantar-rahu
 - vedic.dashas-vimshottari.rahu-jupiter-antar
 - vedic.dashas-vimshottari.rahu-ketu-antar
 - vedic.dashas-vimshottari.rahu-maha
@@ -45,6 +46,7 @@ used_by:
 - vedic.dashas-vimshottari.rahu-sun-antar
 - vedic.dashas-vimshottari.rahu-venus-antar
 - vedic.dashas-vimshottari.saturn-rahu-antar
+- vedic.dashas-vimshottari.sookshma-rahu
 - vedic.dashas-vimshottari.sun-rahu-antar
 - vedic.dashas-vimshottari.venus-rahu-antar
 - vedic.doshas.grahan

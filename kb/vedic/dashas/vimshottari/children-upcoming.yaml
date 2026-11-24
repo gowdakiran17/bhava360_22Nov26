@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: children · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 5 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for children. Run the KB-36 promise, period and transit pipeline. Return at most
+  three qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_5
+  - fact: dasha.upcoming.children_window
     op: eq
     value: true
 meaning: This period may prompt a conversation about care and learning.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may prompt a conversation about care and learning.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಆರೈಕೆ ಮತ್ತು ಕಲಿಕೆ ಕುರಿತು ಮಾತುಕತೆಗೆ ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: इस अवधि में देखभाल और सीखने पर बातचीत कर सकते हैं।
+  en: You may enjoy making space to listen to a child you care for.
+  kn: ಮಗುವಿನ ಮಾತು ಕೇಳಲು ಸಮಯ ಕೊಡುವುದು ಸಂತಸ ನೀಡಬಹುದು.
+  hi: बच्चे की बात सुनने के लिए समय निकालना अच्छा लग सकता है।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

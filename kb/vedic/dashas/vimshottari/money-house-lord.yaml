@@ -10,7 +10,7 @@ conditions:
   - fact: dasha.active_lord.owns_house_2
     op: eq
     value: true
-meaning: The period connects the active lord to house 2; use the dated period as context for money.
+meaning: You can review how incoming resources fit your savings plans.
 life_areas:
 - money
 strength_notes: []
@@ -25,12 +25,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring family and resources into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ಕುಟುಂಬ ಮತ್ತು ಸಂಪನ್ಮೂಲಗಳು.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: परिवार और संसाधन।'
+  en: You can review how incoming resources fit your savings plans.
+  kn: ಆದಾಯವು ಉಳಿತಾಯದ ಯೋಜನೆಗೆ ಹೇಗೆ ಹೊಂದುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+  hi: आमदनी और बचत की योजनाओं को साथ रखकर देख सकते हैं।
 native_review:
   kn: pending
   hi: pending

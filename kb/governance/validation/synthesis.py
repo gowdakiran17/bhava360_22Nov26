@@ -158,6 +158,8 @@ def evaluate(x, policy, ladder, matrix, aspects):
     yoga=x['yoga']
     yoga_display='background'
     if yoga.get('cancelled'): yoga_display='omitted'
+    elif yoga.get('active') is True and 'gate' in yoga:
+        yoga_display={'full':'mild' if yoga.get('softened') else 'active','mild':'mild','hidden':'omitted'}.get(yoga['gate'],'unknown')
     elif yoga.get('active') is True:
         participants=yoga['participants']
         yoga_display=('unknown' if not participants or None in participants else

@@ -89,13 +89,13 @@ def fixture_facts(chart, tables):
 def validate_yoga_charts(rules, read, evaluate, require):
     yogas = {r['id'].split('.')[-1]: r for r in rules.values() if (r['system'], r['topic']) == ('vedic', 'yogas')}
     tables = references(read)
-    observed = {key: set() for key in yogas}
+    observed = {key: set() for key,r in yogas.items() if 'formation' not in r}
     exceptions = set()
     relief_keys = {leaf['fact'] for leaf in yogas['neecha-bhanga']['conditions']['any']}
     tested_relief = set()
     uncancelled_kemadruma = False
     for case in read('examples/yoga-charts.yaml')['cases']:
-        require(case['fixture'] in {'Asha', 'Ravi', 'Meera', 'Kabir', 'Dev'}, 'synthetic fixture name')
+        require(case['id'].startswith('scenario-') and 'fixture' not in case, 'synthetic fixture name')
         facts = fixture_facts(case, tables)
         if 'multiple_relief_branches' in case:
             require({k for k in relief_keys if facts[k]} == set(case['multiple_relief_branches']), case['id'])
@@ -113,11 +113,15 @@ def validate_yoga_charts(rules, read, evaluate, require):
             if key == 'kemadruma' and not indices:
                 uncancelled_kemadruma = True
             for i, item in enumerate(yogas[key]['exceptions']):
+                if item['when'].get('fact','').startswith('d1.yoga.'):
+                    continue  # Bound exception probes run below for every yoga.
                 require(evaluate(item['when'], facts) is (i in indices), key + ' exception case')
                 if i in indices:
                     exceptions.add((key,i))
     require(tested_relief == relief_keys, 'missing isolated neecha bhanga branch')
     require(uncancelled_kemadruma, 'missing uncancelled Kemadruma chart')
     require(all(results == {True, False} for results in observed.values()), 'missing positive/negative yoga chart')
-    require(exceptions == {(k,i) for k,r in yogas.items() for i in range(len(r['exceptions']))},
+    require(exceptions == {(k,i) for k,r in yogas.items() for i,e in enumerate(r['exceptions']) if not e['when'].get('fact','').startswith('d1.yoga.')},
             'missing yoga exception chart')
+    import yoga_activation
+    yoga_activation.validate(yogas,read,evaluate,require,tables,fixture_facts)

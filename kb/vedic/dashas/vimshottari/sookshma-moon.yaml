@@ -1,0 +1,54 @@
+id: vedic.dashas-vimshottari.sookshma-moon
+system: vedic
+topic: dashas/vimshottari
+title: Sookshma lord · moon
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the actual fine-period lord to its stable natal topic and resolved interval inside the active Antar. Only
+  Tier A can narrow an existing window.
+conditions:
+  all:
+  - fact: confidence.tier
+    op: eq
+    value: A
+  - fact: dasha.vimshottari.sookshma_lord
+    op: eq
+    value: moon
+  - fact: dasha.vimshottari.selected_level
+    op: eq
+    value: sookshma
+meaning: You may be paying closer attention to what helps you feel settled.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The default Julian year is 365.25 days. Alternatives are mean Gregorian (365.2425 days) and savana (360 days).
+    Apply one convention to the entire tree and label it on every dated result.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: Section 16.3
+  supports: Subperiod order and proportional subdivision through finer levels.
+  verification: verified
+confidence: medium
+review_notes: Synthetic timing checks cover the calculation profile. Interpretive prompts are editorial. Native-language
+  review pending.
+user_text:
+  en: You may be paying closer attention to what helps you feel settled. This theme may come into focus for a shorter
+    part of the current period.
+  kn: ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುವ ಸಂಗತಿಗಳತ್ತ ಹೆಚ್ಚು ಗಮನ ಹರಿಸಬಹುದು. ಪ್ರಸ್ತುತ ಅವಧಿಯ ಸಣ್ಣ ಭಾಗದಲ್ಲಿ ಈ ವಿಷಯ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: आप देख सकते हैं कि किससे आपको सुकून मिलता है। मौजूदा दौर के एक छोटे हिस्से में इस विषय पर ध्यान जा सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: dasha
+  reference: none
+  area_strength: {}

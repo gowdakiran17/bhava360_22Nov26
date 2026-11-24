@@ -7,14 +7,13 @@ houses:
 varga: D9
 karakas:
 - venus
-- jupiter
 intent: marriage-timing
 checker: big-decision-muhurta
 slots:
-  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
-    active period. Cite the actual graha and house.
-  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
-    when KP is enabled; display an honest absence when no supported date exists.
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
+    in the active period. Cite the actual graha and house.
+  upcoming-periods: Apply this area recipe to the KB-36 pipeline. Keep the earliest qualifying window and up to two
+    further windows, retaining each tone and pace.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
   what-you-can-do:
     en: You can talk about one shared expectation.
@@ -46,3 +45,4 @@ slot_bindings:
     requires: at least one matched area fact
     checker: big-decision-muhurta
 summary_profile: summary.yaml
+recipe_ref: life-areas/recipes.yaml#love-marriage

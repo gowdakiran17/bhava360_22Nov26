@@ -47,13 +47,32 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.saraswati.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.saraswati.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for Jupiter, Mercury and Venus in this match before giving the reading
-    greater weight.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: The text calls for strength. This profile operationalises it using Jupiter’s shadbala minimum and
@@ -86,6 +105,12 @@ remedy:
     en: You can try explaining an idea through a story, a sketch or a worked example.
     kn: ಒಂದು ವಿಚಾರವನ್ನು ಕಥೆ, ಚಿತ್ರ ಅಥವಾ ಉದಾಹರಣೆಯ ಮೂಲಕ ವಿವರಿಸಬಹುದು.
     hi: आप कोई विचार कहानी, चित्र या हल किए हुए उदाहरण से समझा सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- mercury
+- jupiter
+- venus
 evidence:
   direction: support
   weight_class: primary

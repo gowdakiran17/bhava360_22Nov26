@@ -4,14 +4,16 @@ approval: draft
 pipeline: life-areas/pipeline.yaml
 feeds:
   houses:
-  - vedic.houses.house-4
+  - vedic.houses.house-3
   - vedic.houses.house-9
   - vedic.houses.house-12
-  - vedic.houses.house-10
+  - vedic.houses.house-7
   karakas:
+  - vedic.planets.rahu
   - vedic.planets.moon
   vargas:
   - vedic.vargas.d4-placement
+  - vedic.vargas.d9-placement
   dashas:
   - vedic.dashas-vimshottari.travel-relocation-house-lord
   - vedic.dashas-vimshottari.travel-relocation-upcoming
