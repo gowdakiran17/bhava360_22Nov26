@@ -13,6 +13,21 @@ availability: shared/confidence/output-matrix.yaml
 promise:
   tradition: CLASSICAL Parashari lordship, occupants, aspects, karakas and divisional confirmation.
   arithmetic: MODERN/POPULAR Bhava360 bands, counted without rescaling for absent evidence.
+  house_priority: The first recipe house supplies the primary house, its lord and direct testimony. Start with the lord's
+    grade. Compare the qualifying factor band to that grade and combine its direction with one net supporting-house
+    direction (Strong supports, Moderate is neutral, Weak challenges). A split preserves the starting grade. All
+    qualifiers together move at most one step. Withhold when the primary Lagna evidence is missing. Wealth needs
+    both resources and gains; a weak or unknown gains lord cannot confirm the highest band.
+  difficulty_roles:
+    health: {6: resistance}
+    career: {6: service and problem-solving}
+    business: {6: managing competition}
+    travel-relocation: {12: residence away}
+    spirituality: {12: retreat}
+  difficulty_policy: Read the sixth in health as capacity to meet difficulties only; it cannot establish good health.
+    Interpret the eighth as change and shared obligations, the twelfth as outlay, retreat or residence away according
+    to context. Without a bound area role, difficult houses supply context only.
+  source_note: BPHS bhava chapters and Phaladeepika ch.15 (edition locators pending). The grading arithmetic is editorial.
   factors:
   - - promise-house-lord
     - Area lord Strong or Moderate in the KB-35 grade.

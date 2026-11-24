@@ -18,7 +18,7 @@ period: {maha: venus, antar: jupiter, star_lords: {jupiter: mercury}, interval: 
 cases:
   Scenario T2: {state: active, facts: {dasha.pair.distance: 6, dasha.pair.has_weaker_note: true}, window: {start: '2032-03-10', end: '2032-04-12', tone: Supportive, pace: supported}}
   Scenario T3: {period: {antar: mars}, chart: {lagna: 0, signs: {mars: 7}}, state: active}
-  Scenario T4: {chart: {window_inputs: {unstable: [promise-house-lord, promise-occupants, promise-house-aspects, promise-moon-relative, promise-varga-lagna]}}, state: no-promise}
+  Scenario T4: {chart: {window_inputs: {unstable: [promise-house-lord, promise-occupants, promise-house-aspects, promise-moon-relative, promise-varga-lagna]}}, state: withheld}
   Scenario T5: {lord: {combust: true, grade: Moderate}, facts: {dasha.modulation.combust: true}}
   Scenario T6: {lord: {occupied_house: 8, viparita: true}, facts: {dasha.modulation.unrelieved_dusthana: false}}
   Scenario T7: {period: {antar: ketu}, chart: {signs: {ketu: 11}}, state: delay}

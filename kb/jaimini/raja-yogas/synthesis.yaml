@@ -27,3 +27,9 @@ modifier:
   default: false
   requires: Existing card, bound active period, stable corroborating or contradicting witness. Share one net step
     with KP.
+sthira_karaka_source_review:
+  work: BPHS
+  chapter: 32
+  claim: Fixed significators and strength selection
+  verification: pending
+  edition: null

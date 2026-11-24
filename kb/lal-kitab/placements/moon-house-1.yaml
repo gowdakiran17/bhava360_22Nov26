@@ -35,7 +35,7 @@ review_notes: Review exact locator, convention and native copy before release. C
 user_text:
   en: When considering how you approach a task, you may find a chance to listen.
   kn: ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ನಿಲುವು ಕುರಿತು ಆಲಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: काम करने का तरीका पर विचार करते हुए सुनने का अवसर मिल सकता है।
+  hi: काम करने के तरीके पर विचार करते हुए सुनने का अवसर मिल सकता है।
 native_review:
   kn: pending
   hi: pending
@@ -48,3 +48,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
+placement_source_status: pending_source

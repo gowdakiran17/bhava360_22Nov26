@@ -343,6 +343,7 @@ consultation:
         - Benefic
         - null
         - null
+        primary_house: 10
         houses:
           10:
             lord: Weak
@@ -363,6 +364,7 @@ consultation:
             - null
             - null
             - null
+            area_role: service and problem-solving
           11:
             lord: Moderate
             occupants:
@@ -401,6 +403,7 @@ consultation:
         aspects: &id005
         - null
         - null
+        primary_house: 7
         houses:
           7:
             lord: Moderate
@@ -452,6 +455,7 @@ consultation:
         - Benefic
         - Benefic
         - null
+        primary_house: 2
         houses:
           2:
             lord: Moderate
@@ -510,6 +514,7 @@ consultation:
           - Strong
         aspects: &id011
         - null
+        primary_house: 1
         houses:
           1:
             lord: Strong
@@ -522,6 +527,7 @@ consultation:
             - null
             - null
             - null
+            area_role: resistance
       challenge_resolution: null
       card: null
       modulation: {}
@@ -552,6 +558,7 @@ consultation:
         - null
         - Benefic
         - null
+        primary_house: 4
         houses:
           4:
             lord: Moderate
@@ -595,6 +602,7 @@ consultation:
         - null
         - Benefic
         - null
+        primary_house: 4
         houses:
           4:
             lord: Moderate

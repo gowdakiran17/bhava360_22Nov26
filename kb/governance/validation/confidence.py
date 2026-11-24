@@ -193,6 +193,16 @@ def validate(read, require):
             traces[row['dates']] = trace(b1['antar_bounds_before'])
     traces['antar-bounds'] = trace(b1['antar_bounds_before'], (60,b1['antar_bounds_after']))
     traces['d10-lagna']=trace('aries',(b1['d10_crossing_seconds_after_working_instant'],'taurus'))
+    for key in ('d24','d27','d40','d45','d60'):
+        for precision in ('±5 min','±15 min','±1 h','unknown'):
+            result = run(precision,traces,key)
+            require(key in result['withheld'] and 'promise-varga-lagna' in result['withheld'],
+                    key+' chart hidden even with stable inputs at '+precision)
+            planet = key+'-planet-sign'
+            dep = rows[planet]['requires'][0]
+            for proof in (trace('aries',(5,'taurus')),trace(None)):
+                require(planet in run(precision,dict(traces,**{dep:proof}),key)['withheld'],
+                        key+' independent planet sign needs certified stability')
     b=run(b1['precision'],traces,b1['bound_varga'])
     check_example(b,b1)
     require(b['outputs']['event-window']['bounds']==('2026-11','2027-02')

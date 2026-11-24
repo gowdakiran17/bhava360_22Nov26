@@ -64,8 +64,8 @@ confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
   en: A pause between requests may help you notice how you feel.
-  kn: ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
-  hi: मन की बात सुनना आपके लिए उपयोगी हो सकता है।
+  kn: ಒಂದು ಕೋರಿಕೆಯಿಂದ ಮತ್ತೊಂದಕ್ಕೆ ಸಾಗುವ ಮುನ್ನ ವಿರಾಮ ಪಡೆದರೆ ನಿಮ್ಮ ಭಾವನೆ ಅರಿವಾಗಬಹುದು.
+  hi: एक अनुरोध और अगले के बीच ठहरने से अपनी भावना पहचानने में मदद मिल सकती है।
 native_review:
   kn: pending
   hi: pending

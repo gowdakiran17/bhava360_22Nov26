@@ -33,6 +33,23 @@ class EngineExport(unittest.TestCase):
         key = 'lal-kitab.placements.saturn-house-3'
         source = deepcopy(self.source)
         source['shared/conventions/profiles.yaml']['calculation_profiles']['modern-study-v1']['enabled'] = True
+        with self.assertRaisesRegex(ValueError, 'verified annual edition'):
+            compile_files(source, '0'*40)
+        # Synthetic in-memory edition exercises the release path without publishing unsourced placements.
+        table = source['lal-kitab/varshphal/annual.yaml']
+        table.update(edition='test-edition',verification='verified',edition_rows={
+            i:dict(edition='test-edition',locator=str(i),verification='verified',houses=list(range(1,13)))
+            for i in range(1,121)})
+        with self.assertRaisesRegex(ValueError,'placement lacks'):
+            compile_files(source, '0'*40)
+        for d in source.values():
+            if isinstance(d,dict) and d.get('system')=='lal-kitab' and d.get('topic')=='placements':
+                d['placement_source_status']='verified'
+                d['sources'].append(dict(edition='test-edition',verification='verified',other_locator='test row'))
+        table['edition_rows'][120]['edition']='other-edition'
+        with self.assertRaisesRegex(ValueError,'annual row lacks'):
+            compile_files(source, '0'*40)
+        table['edition_rows'][120]['edition']='test-edition'
         files, _ = compile_files(source, '0'*40)
         readings = files['public/lal-kitab.json']['readings']
         self.assertEqual(readings[token('p',key)]['remedy']['cost'],'free')

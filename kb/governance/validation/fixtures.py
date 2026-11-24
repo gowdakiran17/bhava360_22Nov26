@@ -49,12 +49,20 @@ def validate(rules, read, require, root):
                     all(not entry['windows'] for entry in record['areas'].values()),'Dev changing lunar star')
         else:
             require(data['tier']=='A' and len(record['transits']['lagna'])==9 and len(record['grades'])==9,name+' known-time coverage')
+        bands={row['promise'] for row in record['areas'].values()}
+        require(bands=={None} if name=='Dev' else len(bands)>1, name+' differentiated or withheld promises')
+        for lang in ('en','kn','hi'):
+            month=read('modules/home/copy.yaml')['messages']['month-'+record['month_tone']][lang]
+            require(record['public_'+lang]['month']==month,name+' month copy binding')
         profiles[name]=record
     require(profiles['Asha']['today']['tone']!=profiles['Ravi']['today']['tone'] and
             profiles['Asha']['month_tone']!=profiles['Ravi']['month_tone'],'same-date persona difference')
     require({'six-eight','two-twelve','angle-trine'}<=pair_groups,'three period relationship groups')
     yoga_copy=[r['user_text'] for r in rules.values() if r['system']=='vedic' and r['topic']=='yogas']
     require(all(len({text[locale] for text in yoga_copy})==82 for locale in ('en','kn','hi')),'distinct yoga readings')
+    for locale in ('kn','hi'):
+        endings=[' '.join(row[locale].split()[-4:]) for row in yoga_copy]
+        require(max(endings.count(e) for e in endings) < len(endings)//2,locale+' repeated yoga template')
     edge=read('examples/fixtures/boundaries.yaml')
     require(edge['venus_libra']=={4.99:'moolatrikona',5:'moolatrikona',14.99:'moolatrikona',15:'own-sign'},
             'four frozen Venus endpoints')

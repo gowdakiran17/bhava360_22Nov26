@@ -194,17 +194,16 @@ def work(name,month_segments):
     segments=[(a,b,{g:(s-pos['moon'])%12+1 for g,s in signs.items()}) for a,b,signs in month_segments]
     monthly=month(segments,VEDHA,[],segments[0][0],segments[-1][1])[0]
     lunar=read('vedic/transits/'+trans['moon'][1].split('.')[-1]+'.yaml')['user_text']['en']
-    public=dict(today=lunar,month={'Supportive':'You may find room to move a plan forward this month.','Steady':'You can balance familiar commitments with a little room to adjust this month.','Take care':'You can leave extra time for changes in your plans this month.'}[monthly])
+    month_copy=read('modules/home/copy.yaml')['messages']['month-'+monthly]
+    public=dict(today=lunar,month=month_copy['en'])
     if tier=='C':public['confidence']=read('shared/confidence/copy.yaml')['messages']['moon-unknown']['en']
     for area,row in areas.items():
         if row['windows']:
             public[area]=read('vedic/dashas/vimshottari/'+area+'-upcoming.yaml')['user_text']['en']
     locales = {}
     for lang in ('kn','hi'):
-        months = {'kn':{'Supportive':'ಈ ತಿಂಗಳು ಯೋಜನೆಯೊಂದನ್ನು ಮುಂದಕ್ಕೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಬಹುದು.','Steady':'ಈ ತಿಂಗಳು ದಿನಚರಿಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಸ್ವಲ್ಪ ಅವಕಾಶ ಇಡಬಹುದು.','Take care':'ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.'},
-                  'hi':{'Supportive':'इस महीने किसी योजना में आगे बढ़ने का अवसर मिल सकता है।','Steady':'इस महीने दिनचर्या में बदलाव की थोड़ी गुंजाइश रख सकते हैं।','Take care':'इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।'}}
         translated={'today':read('vedic/transits/'+trans['moon'][1].split('.')[-1]+'.yaml')['user_text'][lang],
-                    'month':months[lang][monthly]}
+                    'month':month_copy[lang]}
         if tier=='C': translated['confidence']=read('shared/confidence/copy.yaml')['messages']['moon-unknown'][lang]
         for area in areas:
             if area in public: translated[area]=read('vedic/dashas/vimshottari/'+area+'-upcoming.yaml')['user_text'][lang]

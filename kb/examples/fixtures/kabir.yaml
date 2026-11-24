@@ -233,6 +233,7 @@ consultation:
   - vedic.yogas.vesi
   - vedic.dashas-vimshottari.venus-maha
   - vedic.dashas-vimshottari.venus-venus-antar
+  - vedic.dashas-vimshottari.career-upcoming
   - vedic.dashas-vimshottari.love-marriage-upcoming
   - vedic.dashas-vimshottari.money-house-lord
   - vedic.dashas-vimshottari.learning-house-lord
@@ -517,10 +518,14 @@ consultation:
   areas:
     career:
       lord: jupiter
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
@@ -530,6 +535,7 @@ consultation:
         aspects: &id002
         - Malefic
         - Benefic
+        primary_house: 10
         houses:
           10:
             lord: Moderate
@@ -548,6 +554,7 @@ consultation:
             - Malefic
             - Benefic
             - Benefic
+            area_role: service and problem-solving
           11:
             lord: Moderate
             occupants: []
@@ -556,6 +563,7 @@ consultation:
         lord: Moderate
         occupants: &id003 []
         aspects: &id004 []
+        primary_house: 10
         houses:
           10:
             lord: Moderate
@@ -576,6 +584,7 @@ consultation:
             aspects:
             - Benefic
             - Benefic
+            area_role: service and problem-solving
           11:
             lord: Strong
             occupants:
@@ -585,8 +594,8 @@ consultation:
               - Weak
             aspects:
             - Neutral
-      challenge_resolution: null
-      card: null
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha: []
         antar: []
@@ -595,19 +604,19 @@ consultation:
       - vedic.yogas.durudhara
       - vedic.yogas.raja
       - vedic.yogas.vesi
-      practice_lord: null
+      practice_lord: venus
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id005
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     love-marriage:
       lord: jupiter
-      promise: Moderate
+      promise: Strong
       state:
       - active
       windows:
@@ -622,6 +631,7 @@ consultation:
         aspects: &id007
         - Benefic
         - Benefic
+        primary_house: 7
         houses:
           7:
             lord: Moderate
@@ -642,6 +652,7 @@ consultation:
         occupants: &id008 []
         aspects: &id009
         - Neutral
+        primary_house: 7
         houses:
           7:
             lord: Weak
@@ -665,15 +676,15 @@ consultation:
               - Weak
             aspects:
             - Neutral
-      challenge_resolution: Moderate
+      challenge_resolution: Strong
       card: Steady
       modulation:
         maha: []
         antar: []
       active_yogas: &id010 []
-      practice_lord: venus
+      practice_lord: null
       conflict_ladder:
-        promise: Moderate
+        promise: Strong
         activated_yogas: *id010
         functional_lord: Malefic
         participant_gate: see yoga witnesses
@@ -694,6 +705,7 @@ consultation:
         - - Neutral
           - Strong
         aspects: &id012 []
+        primary_house: 2
         houses:
           2:
             lord: Strong
@@ -725,6 +737,7 @@ consultation:
           - Weak
         aspects: &id014
         - Neutral
+        primary_house: 2
         houses:
           2:
             lord: Weak
@@ -787,6 +800,7 @@ consultation:
           - Strong
         aspects: &id017
         - Neutral
+        primary_house: 1
         houses:
           1:
             lord: Weak
@@ -799,12 +813,14 @@ consultation:
             - Malefic
             - Benefic
             - Benefic
+            area_role: resistance
       moon_witnesses:
         lord: Strong
         occupants: &id018
         - - Neutral
           - Strong
         aspects: &id019 []
+        primary_house: 1
         houses:
           1:
             lord: Strong
@@ -816,6 +832,7 @@ consultation:
             aspects:
             - Benefic
             - Benefic
+            area_role: resistance
       challenge_resolution: null
       card: null
       modulation:
@@ -834,9 +851,9 @@ consultation:
         final: null
     family-home:
       lord: mercury
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
+      - no-window
       windows: []
       availability: known-time
       witnesses:
@@ -847,6 +864,7 @@ consultation:
         aspects: &id022
         - Neutral
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -864,6 +882,7 @@ consultation:
         aspects: &id024
         - Malefic
         - Neutral
+        primary_house: 4
         houses:
           4:
             lord: Strong
@@ -886,7 +905,7 @@ consultation:
       active_yogas: &id025 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id025
         functional_lord: Benefic
         participant_gate: see yoga witnesses
@@ -909,6 +928,7 @@ consultation:
         aspects: &id027
         - Neutral
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -933,6 +953,7 @@ consultation:
         aspects: &id029
         - Malefic
         - Neutral
+        primary_house: 4
         houses:
           4:
             lord: Strong
@@ -1014,18 +1035,21 @@ consultation:
     today: Being with a familiar group may feel sustaining.
     month: You can balance familiar commitments with a little room to adjust this
       month.
+    career: You may find it useful to review your responsibilities at work.
     love-marriage: You can make room for a conversation about life together.
     traditional_practice: If you like, you can pause at a freely accessible temple
       along your usual route, or spend a quiet moment at home.
   public_kn:
     today: ಪರಿಚಿತ ಗುಂಪಿನ ಒಡನಾಟ ಬೆಂಬಲ ನೀಡಬಹುದು.
     month: ಈ ತಿಂಗಳು ದಿನಚರಿಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಸ್ವಲ್ಪ ಅವಕಾಶ ಇಡಬಹುದು.
+    career: ಕೆಲಸದ ಹೊಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸುವುದು ನೆರವಾಗಬಹುದು.
     love-marriage: ಒಟ್ಟಿನ ಬದುಕಿನ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ನೀಡಬಹುದು.
     traditional_practice: ಇಚ್ಛೆಯಿದ್ದರೆ ನಿಮ್ಮ ಎಂದಿನ ದಾರಿಯಲ್ಲಿ ಉಚಿತ ಪ್ರವೇಶವಿರುವ ದೇವಾಲಯದಲ್ಲಿ
       ಸ್ವಲ್ಪ ಕಾಲ ಕಳೆಯಬಹುದು ಅಥವಾ ಮನೆಯಲ್ಲೇ ಶಾಂತವಾಗಿ ಕುಳಿತುಕೊಳ್ಳಬಹುದು.
   public_hi:
     today: परिचित समूह की संगति सहारा दे सकती है।
     month: इस महीने दिनचर्या में बदलाव की थोड़ी गुंजाइश रख सकते हैं।
+    career: काम की जिम्मेदारियों पर विचार करना मददगार हो सकता है।
     love-marriage: साथ बिताए जीवन पर बातचीत के लिए समय रख सकते हैं।
     traditional_practice: चाहें तो अपने सामान्य रास्ते में निःशुल्क प्रवेश वाले मंदिर
       में ठहर सकते हैं या घर पर कुछ शांत समय बिता सकते हैं।
@@ -1282,6 +1306,11 @@ consultation:
         op: eq
         value: venus
       - fact: dasha.vimshottari.pair_context_ready
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.career-upcoming:
+      all:
+      - fact: dasha.upcoming.career_window
         op: eq
         value: true
     vedic.dashas-vimshottari.love-marriage-upcoming:

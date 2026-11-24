@@ -44,3 +44,7 @@ year_days:
   julian-365.25: 365.25
   mean-gregorian: 365.2425
   savana: 360
+exclude_rahu_in_natal_lagna: true
+traditions_differ: Distance one is relative to the occupied sign of the Lagna lord. It can qualify only away from the natal
+  Lagna. The fortnight and universal gates are separately selected school variants. BPHS ch.47 (review locator;
+  numbering varies by edition).

@@ -209,7 +209,7 @@ pair_relationship_examples:
     end: '2030-05-24T18:21:54.377348Z'
 sade_sati: leaving
 consultation:
-  optional_practice: null
+  optional_practice: mars
   rule_chain:
   - vedic.planets-in-signs.sun-sagittarius
   - vedic.planets-in-signs.moon-aquarius
@@ -231,7 +231,9 @@ consultation:
   - vedic.yogas.raja
   - vedic.dashas-vimshottari.saturn-maha
   - vedic.dashas-vimshottari.saturn-mars-antar
+  - vedic.dashas-vimshottari.love-marriage-upcoming
   - vedic.dashas-vimshottari.love-marriage-house-lord
+  - vedic.dashas-vimshottari.family-home-upcoming
   - vedic.dashas-vimshottari.learning-upcoming
   - vedic.transits.sun-moon-house-10
   - vedic.transits.moon-moon-house-4
@@ -499,6 +501,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 10
         houses:
           10:
             lord: Weak
@@ -516,6 +519,7 @@ consultation:
             occupants: []
             aspects:
             - Yogakaraka
+            area_role: service and problem-solving
           11:
             lord: Weak
             occupants:
@@ -537,6 +541,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 10
         houses:
           10:
             lord: Strong
@@ -557,6 +562,7 @@ consultation:
             - Benefic
             - Benefic
             - Malefic
+            area_role: service and problem-solving
           11:
             lord: Weak
             occupants:
@@ -602,10 +608,14 @@ consultation:
         final: null
     love-marriage:
       lord: saturn
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
@@ -618,6 +628,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Benefic
+        primary_house: 7
         houses:
           7:
             lord: Moderate
@@ -652,6 +663,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 7
         houses:
           7:
             lord: Moderate
@@ -683,8 +695,8 @@ consultation:
             - Malefic
             - Malefic
             - Benefic
-      challenge_resolution: null
-      card: null
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -697,16 +709,16 @@ consultation:
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
       active_yogas: &id010 []
-      practice_lord: null
+      practice_lord: mars
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id010
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     money:
       lord: mercury
       promise: Weak
@@ -721,6 +733,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 2
         houses:
           2:
             lord: Weak
@@ -772,6 +785,7 @@ consultation:
         - Benefic
         - Malefic
         - Benefic
+        primary_house: 2
         houses:
           2:
             lord: Weak
@@ -855,6 +869,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 1
         houses:
           1:
             lord: Moderate
@@ -865,6 +880,7 @@ consultation:
             occupants: []
             aspects:
             - Yogakaraka
+            area_role: resistance
       moon_witnesses:
         lord: Moderate
         occupants: &id018
@@ -876,6 +892,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Benefic
+        primary_house: 1
         houses:
           1:
             lord: Moderate
@@ -888,6 +905,7 @@ consultation:
             - Benefic
             - Benefic
             - Malefic
+            area_role: resistance
       challenge_resolution: Strong
       card: null
       modulation:
@@ -914,10 +932,14 @@ consultation:
         final: null
     family-home:
       lord: mars
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Strong
@@ -926,6 +948,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Strong
@@ -947,6 +970,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -960,8 +984,8 @@ consultation:
             - Benefic
             - Malefic
             - Benefic
-      challenge_resolution: null
-      card: null
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -974,16 +998,16 @@ consultation:
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
       active_yogas: &id025 []
-      practice_lord: null
+      practice_lord: mars
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id025
         functional_lord: Yogakaraka
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     learning:
       lord: mars
       promise: Strong
@@ -1002,6 +1026,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Strong
@@ -1040,6 +1065,7 @@ consultation:
         - Yogakaraka
         - Benefic
         - Malefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -1134,15 +1160,26 @@ consultation:
   public_en:
     today: A quiet corner at home may help you unwind.
     month: You can leave extra time for changes in your plans this month.
+    love-marriage: You can make room for a conversation about life together.
+    family-home: You may find time for a familiar routine with family.
     learning: You can explore a subject more deeply with a teacher.
+    traditional_practice: If you like, you can ask someone whether they would welcome
+      a hand with a task.
   public_kn:
     today: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
     month: ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+    love-marriage: ಒಟ್ಟಿನ ಬದುಕಿನ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ನೀಡಬಹುದು.
+    family-home: ಕುಟುಂಬದೊಂದಿಗೆ ಪರಿಚಿತ ದಿನಚರಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
     learning: ಶಿಕ್ಷಕರೊಂದಿಗೆ ಒಂದು ವಿಷಯವನ್ನು ಆಳವಾಗಿ ಕಲಿಯಬಹುದು.
+    traditional_practice: ಇಚ್ಛೆಯಿದ್ದರೆ ಯಾರಿಗಾದರೂ ಕೆಲಸದಲ್ಲಿ ನೆರವು ಬೇಕೇ ಎಂದು ಕೇಳಬಹುದು.
   public_hi:
     today: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
     month: इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
+    love-marriage: साथ बिताए जीवन पर बातचीत के लिए समय रख सकते हैं।
+    family-home: परिवार के साथ परिचित दिनचर्या के लिए समय मिल सकता है।
     learning: शिक्षक के साथ किसी विषय को गहराई से समझ सकते हैं।
+    traditional_practice: चाहें तो आप किसी से पूछ सकते हैं कि किसी काम में उन्हें
+      मदद चाहिए या नहीं।
   confidence:
     lagna: show
     bav: show
@@ -1296,6 +1333,11 @@ consultation:
       - fact: dasha.vimshottari.pair_context_ready
         op: eq
         value: true
+    vedic.dashas-vimshottari.love-marriage-upcoming:
+      all:
+      - fact: dasha.upcoming.love_marriage_window
+        op: eq
+        value: true
     vedic.dashas-vimshottari.love-marriage-house-lord:
       any:
       - fact: dasha.active_lord.owns_house_7
@@ -1305,6 +1347,11 @@ consultation:
         op: eq
         value: true
       - fact: dasha.active_lord.owns_house_11
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.family-home-upcoming:
+      all:
+      - fact: dasha.upcoming.family_home_window
         op: eq
         value: true
     vedic.dashas-vimshottari.learning-upcoming:

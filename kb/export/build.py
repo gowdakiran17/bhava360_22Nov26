@@ -190,7 +190,29 @@ def public_resources(docs, messages):
     return catalog,bindings
 
 
+def check_lal_kitab_gate(docs):
+    enabled = docs['shared/conventions/profiles.yaml']['calculation_profiles']['modern-study-v1']['enabled']
+    if not enabled:
+        return
+    table = docs['lal-kitab/varshphal/annual.yaml']
+    rows = table['edition_rows']
+    edition = table['edition']
+    if not edition or table['verification'] != 'verified' or set(rows) != set(range(1,121)):
+        raise ValueError('Lal Kitab requires a verified annual edition and all age rows')
+    for row in rows.values():
+        if (row.get('edition') != edition or not row.get('locator') or row.get('verification') != 'verified'
+                or sorted(row.get('houses', [])) != list(range(1,13))):
+            raise ValueError('Lal Kitab annual row lacks matching edition evidence')
+    for d in docs.values():
+        if isinstance(d,dict) and d.get('system')=='lal-kitab' and d.get('topic')=='placements':
+            if d.get('placement_source_status')!='verified' or not any(
+                    s.get('edition')==edition and s.get('verification')=='verified' and
+                    (s.get('verse') or s.get('other_locator')) for s in d['sources']):
+                raise ValueError('Lal Kitab placement lacks matching edition evidence')
+
+
 def compile_files(docs, commit):
+    check_lal_kitab_gate(docs)
     settings = docs['SCHEMA.yaml']['supported_locales']
     messages = Messages(settings)
     aliases = docs['governance/review/rule-aliases.yaml']

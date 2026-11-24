@@ -17,6 +17,7 @@ aliases: []
 reference_rules: []
 used_by:
 - kp.cusps.placidus
+- lal-kitab.fixed-houses.house-reference
 - vedic.houses.house-1
 - vedic.houses.house-10
 - vedic.houses.house-11

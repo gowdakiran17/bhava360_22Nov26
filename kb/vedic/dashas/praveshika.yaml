@@ -2,3 +2,5 @@ approval: draft
 release: out-of-scope
 reason: Period-entry chart readings await a source-checked ingress convention. Do not substitute a solar return or
   add a timing vote.
+unimplemented_clocks: [Moola, Sthira, Shoola, Niryana]
+scope_note: These clocks have no runtime or user reading. Any future study is admin-only and excludes longevity output.

@@ -54,8 +54,13 @@ public_copy:
   - 8 out of 10
   - You may find room to cooperate.
 regression_checks:
-  sandhi: governance/validation/other_dashas.py
+  dasha sandhi: governance/validation/other_dashas.py
   combustion and sign cusp: governance/validation/strength_grade.py
   nakshatra edge: governance/validation/annual_natal.py
   polar KP: governance/validation/kp.py
   tier edges: governance/validation/confidence.py
+sandhi_grade_probes:
+  - {boundary: sign, before: aries, after: taurus, expected: withheld}
+  - {boundary: house, before: 1, after: 2, expected: withheld}
+  - {boundary: sign, before: aries, after: aries, expected: unchanged}
+  - {boundary: house, before: 1, after: 1, expected: unchanged}
