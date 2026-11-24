@@ -227,6 +227,7 @@ consultation:
   - vedic.yogas.kahala
   - vedic.yogas.kemadruma
   - vedic.yogas.nabhasa-pasha
+  - vedic.yogas.neecha-bhanga
   - vedic.yogas.raja
   - vedic.yogas.ubhayachari
   - vedic.yogas.vesi
@@ -421,7 +422,7 @@ consultation:
       - venus
       vedic.yoga.bheri.gate: full
       vedic.yoga.bheri.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
     vedic.yogas.gaja-kesari:
     - participants:
@@ -438,7 +439,7 @@ consultation:
       - venus
       vedic.yoga.kahala.gate: full
       vedic.yoga.kahala.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
     vedic.yogas.kemadruma:
     - participants:
@@ -459,6 +460,21 @@ consultation:
       vedic.yoga.nabhasa-pasha.gate: null
       vedic.yoga.nabhasa-pasha.active: null
       display: withheld
+      period_evidence: false
+    vedic.yogas.neecha-bhanga:
+    - participants:
+      - jupiter
+      - mercury
+      vedic.yoga.neecha-bhanga.gate: full
+      vedic.yoga.neecha-bhanga.active: true
+      display: normal
+      period_evidence: true
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.neecha-bhanga.gate: full
+      vedic.yoga.neecha-bhanga.active: false
+      display: yoga-background
       period_evidence: false
     vedic.yogas.raja:
     - participants:
@@ -539,7 +555,8 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id001 []
+      active_yogas: &id001
+      - vedic.yogas.neecha-bhanga
       practice_lord: null
       conflict_ladder:
         promise: Strong
@@ -771,6 +788,7 @@ consultation:
         - Directed compound friendship supports cooperation.
       active_yogas: &id006
       - vedic.yogas.gaja-kesari
+      - vedic.yogas.neecha-bhanga
       practice_lord: moon
       conflict_ladder:
         promise: Moderate
@@ -949,6 +967,32 @@ consultation:
     vedic.yogas.nabhasa-pasha:
       all:
       - fact: d1.yoga.nabhasa_pasha_formed
+        op: eq
+        value: true
+    vedic.yogas.neecha-bhanga:
+      any:
+      - fact: d1.dignity.exchange_with_dispositor
+        op: eq
+        value: true
+      - fact: d1.dignity.debility_lord_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.exaltation_lord_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.mutual_kendras
+        op: eq
+        value: true
+      - fact: d1.dignity.dispositor_aspect
+        op: eq
+        value: true
+      - fact: d1.dignity.exaltee_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.exalted_navamsha
+        op: eq
+        value: true
+      - fact: d1.dignity.navamsha_lord_support
         op: eq
         value: true
     vedic.yogas.raja:
@@ -1203,6 +1247,295 @@ consultation:
       - fact: transit.ketu.distance_from_lagna
         op: eq
         value: 7
+  yoga_exceptions:
+    vedic.yogas.amala:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.bheri:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.gaja-kesari:
+    - when:
+        fact: d1.jupiter.debilitated
+        op: eq
+        value: true
+      effect: soften
+      reason: Jupiter occupies its debilitation sign under the dignity register.
+    - when:
+        fact: d1.yoga.jupiter_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: Strict dignity-and-affliction school softens when Jupiter is combust,
+        in an enemy sign or receives an unrelieved full malefic aspect.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.kahala:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.kemadruma:
+    - when:
+        fact: d1.moon.distance_from_lagna
+        op: in
+        value:
+        - 1
+        - 4
+        - 7
+        - 10
+      effect: cancel
+      reason: Moon is angular from Lagna.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.mercury.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.jupiter.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.venus.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.saturn.distance_from_moon
+          op: eq
+          value: 1
+      effect: cancel
+      reason: An eligible graha shares the lunar sign.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+      effect: cancel
+      reason: An eligible graha occupies another angle from the Moon.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    - when:
+        fact: d1.yoga.kemadruma_angular
+        op: eq
+        value: true
+      effect: cancel
+      reason: At least one classical graha besides Moon occupies an angle from Lagna.
+    - when:
+        fact: d1.yoga.moon_benefic_aspect
+        op: eq
+        value: true
+      effect: cancel
+      reason: A natural benefic casts a full graha aspect to the Moon.
+    vedic.yogas.nabhasa-pasha:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.neecha-bhanga:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.raja:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.ubhayachari:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vesi:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vimala:
+    - when:
+        fact: d1.yoga.other_lord_association
+        op: eq
+        value: true
+      effect: cancel
+      reason: Strict Viparita school excludes conjunction or mutual full aspect with
+        a distinct unrelated house lord.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vosi:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
   matrix_applications:
     varga_planets:
       d9:

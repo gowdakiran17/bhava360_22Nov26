@@ -226,6 +226,8 @@ consultation:
   - vedic.yogas.dhana
   - vedic.yogas.kemadruma
   - vedic.yogas.nabhasa-kedara
+  - vedic.yogas.parivartana-maha
+  - vedic.yogas.parivartana
   - vedic.yogas.raja
   - vedic.dashas-vimshottari.saturn-maha
   - vedic.dashas-vimshottari.saturn-mars-antar
@@ -421,7 +423,7 @@ consultation:
       - moon
       vedic.yoga.chandra-mangala.gate: full
       vedic.yoga.chandra-mangala.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
     vedic.yogas.dhana:
     - participants:
@@ -430,20 +432,6 @@ consultation:
       vedic.yoga.dhana.gate: mild
       vedic.yoga.dhana.active: false
       display: yoga-background
-      period_evidence: false
-    - participants:
-      - mercury
-      - sun
-      vedic.yoga.dhana.gate: mild
-      vedic.yoga.dhana.active: false
-      display: yoga-background
-      period_evidence: false
-    - participants:
-      - jupiter
-      - mercury
-      vedic.yoga.dhana.gate: hidden
-      vedic.yoga.dhana.active: false
-      display: staff-only
       period_evidence: false
     - participants:
       - jupiter
@@ -472,12 +460,28 @@ consultation:
       vedic.yoga.nabhasa-kedara.active: null
       display: withheld
       period_evidence: false
+    vedic.yogas.parivartana-maha:
+    - participants:
+      - jupiter
+      - mercury
+      vedic.yoga.parivartana-maha.gate: hidden
+      vedic.yoga.parivartana-maha.active: false
+      display: staff-only
+      period_evidence: false
+    vedic.yogas.parivartana:
+    - participants:
+      - jupiter
+      - mercury
+      vedic.yoga.parivartana.gate: hidden
+      vedic.yoga.parivartana.active: false
+      display: staff-only
+      period_evidence: false
     vedic.yogas.raja:
     - participants:
       - mars
       vedic.yoga.raja.gate: full
       vedic.yoga.raja.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
   areas:
     career:
@@ -940,6 +944,19 @@ consultation:
       - fact: d1.yoga.nabhasa_kedara_formed
         op: eq
         value: true
+    vedic.yogas.parivartana-maha:
+      all:
+      - fact: d1.lords.reciprocal_exchange
+        op: eq
+        value: true
+      - fact: d1.lords.exchange_class
+        op: eq
+        value: maha
+    vedic.yogas.parivartana:
+      all:
+      - fact: d1.lords.reciprocal_exchange
+        op: eq
+        value: true
     vedic.yogas.raja:
       all:
       - fact: d1.lords.kendra_trikona_link
@@ -1075,6 +1092,227 @@ consultation:
       - fact: transit.ketu.distance_from_lagna
         op: eq
         value: 1
+  yoga_exceptions:
+    vedic.yogas.bheri:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.budhaditya:
+    - when:
+        fact: d1.yoga.mercury_combust
+        op: eq
+        value: true
+      effect: soften
+      reason: Measure Mercury–Sun separation using the inclusive direct or retrograde
+        combustion orb.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    - when:
+        fact: d1.yoga.mercury_deep_combust
+        op: eq
+        value: true
+      effect: cancel
+      reason: Mercury within three degrees of Sun, inclusive; operational threshold.
+    - when:
+        fact: d1.yoga.mercury_gate_miss
+        op: eq
+        value: true
+      effect: cancel
+      reason: Mercury below Moderate and outside natal angles and trines.
+    vedic.yogas.chandra-mangala:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.dhana:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.kemadruma:
+    - when:
+        fact: d1.moon.distance_from_lagna
+        op: in
+        value:
+        - 1
+        - 4
+        - 7
+        - 10
+      effect: cancel
+      reason: Moon is angular from Lagna.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.mercury.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.jupiter.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.venus.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.saturn.distance_from_moon
+          op: eq
+          value: 1
+      effect: cancel
+      reason: An eligible graha shares the lunar sign.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+      effect: cancel
+      reason: An eligible graha occupies another angle from the Moon.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    - when:
+        fact: d1.yoga.kemadruma_angular
+        op: eq
+        value: true
+      effect: cancel
+      reason: At least one classical graha besides Moon occupies an angle from Lagna.
+    - when:
+        fact: d1.yoga.moon_benefic_aspect
+        op: eq
+        value: true
+      effect: cancel
+      reason: A natural benefic casts a full graha aspect to the Moon.
+    vedic.yogas.nabhasa-kedara:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.parivartana-maha:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.parivartana:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.raja:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
   matrix_applications:
     varga_planets:
       d9:

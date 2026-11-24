@@ -32,7 +32,7 @@ The table below binds each period, yoga and transit to this chart before the six
 |---|---|
 | Period | Mercury / Mercury |
 | Strength | Sun Moderate, Moon Weak, Mars Weak, Mercury Weak, Jupiter Weak, Venus Weak, Saturn Moderate, Rahu Weak, Ketu Weak |
-| Yoga | anapha staff-only; budhaditya yoga-mild; dhana staff-only; guru-mangala staff-only; nabhasa-pasha withheld; vimala withheld; vosi yoga-background |
+| Yoga | anapha staff-only; budhaditya yoga-mild; dhana staff-only; guru-mangala staff-only; nabhasa-pasha withheld; neecha-bhanga staff-only; vimala withheld; vosi yoga-background |
 | Transit from Moon | vedic.transits.sun-moon-house-10, vedic.transits.moon-moon-house-4 |
 | Transit from Lagna | vedic.transits.sun-lagna-house-1, vedic.transits.moon-lagna-house-7 |
 | Practice | None selected |

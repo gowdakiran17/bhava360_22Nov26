@@ -1,6 +1,7 @@
 """Authoring command for the fixed-date KB consultation. Requires the generate.py Swiss data."""
 from generate import (ROOT, AT, PEOPLE, SIGNS, chart, labels, read, datetime, timedelta,
                       swe, os, yaml, Path)
+from itertools import combinations
 from functional import OWNERS, resolve
 from bhava_bala import benefic, relationship, dignity_label
 from strength_grade import worksheet
@@ -47,9 +48,9 @@ def work(name,month_segments):
     data=dict(longitude={g:lon[g] for g in GRAHAS},house_pair=(1,7),jupiter_shadbala_rupas=0,selected_graha='moon')
     tables=references(read)
     if asc:data['longitude']['lagna']=asc['longitude']
-    def facts(g):
+    def facts(g,pair=(1,7)):
         if not asc:return {}
-        f=fixture_facts(dict(data,selected_graha=g),tables)
+        f=fixture_facts(dict(data,selected_graha=g,house_pair=pair),tables)
         f.pop('d1.jupiter.saraswati_strength') # no independent Shadbala for this fixture
         return f
     grades={}
@@ -111,24 +112,41 @@ def work(name,month_segments):
               'd1.yoga.moon_benefic_aspect':any(nature[g]=='benefic' and (pos['moon']-pos[g])%12+1 in ASPECTS[g] for g in GRAHAS if g!='moon')})
     for path in sorted((ROOT/'vedic/yogas').glob('*.yaml')):
         rule=read('vedic/yogas/'+path.name)
-        if 'conditions' not in rule or 'participants' not in rule or not asc:continue
+        if 'conditions' not in rule or 'participants' not in rule:continue
         slug=path.stem
+        candidates=[]
         if 'formation' in rule:
-            group=participants(slug,rule['formation'],dict(charts,signs={g:pos[g] for g in GRAHAS},
-                benefics=[g for g in GRAHAS if nature[g]=='benefic'],full_aspects=ASPECTS,
-                exaltation={g:SIGNS.index(DIGNITY['grahas'][g]['exaltation']) for g in GRAHAS},d9=d9pos))
-            groups=[group] if group else []
-        elif evaluate(rule['conditions'],f) is True:
-            groups=existing_participants(slug,rule,data,tables,f)
-        else:groups=[]
-        for group in groups:
-            if group:
-                result=project(rule,True,group,f,grades,md,ad,evaluate)
-                matched.setdefault(rule['id'],[]).append(dict(participants=sorted(group),**result))
+            # A sign-count or Moon-based formation can survive a withheld Lagna.
+            if asc or all('sign' not in bodies[g]['unstable'] for g in GRAHAS):
+                group=participants(slug,rule['formation'],dict(charts,signs={g:pos[g] for g in GRAHAS},
+                    benefics=[g for g in GRAHAS if nature[g]=='benefic'],full_aspects=ASPECTS,
+                    exaltation={g:SIGNS.index(DIGNITY['grahas'][g]['exaltation']) for g in GRAHAS},d9=d9pos))
+                if group:candidates.append((group,f))
+        elif asc:
+            bindings=[('moon',(1,7))]
+            if slug.startswith('neecha-bhanga'):bindings=[(g,(1,7)) for g in GRAHAS]
+            if slug.startswith('parivartana'):bindings=[('moon',pair) for pair in combinations(range(1,13),2)]
+            for g,pair in bindings:
+                witness=dict(f,**facts(g,pair))
+                if evaluate(rule['conditions'],witness) is True:
+                    case=dict(data,selected_graha=g,house_pair=pair)
+                    candidates.extend((group,witness) for group in existing_participants(slug,rule,case,tables,witness))
+        for group,witness in candidates:
+            if not group:continue
+            witness=dict(witness)
+            witness['d1.yoga.participant_afflicted']=any(bodies[g]['combust'] or
+                (details[g]['worksheet'] or {}).get('terms',{}).get('war',0)<0 for g in group)
+            if asc:
+                witness['d1.yoga.forming_lord_owns_eighth']=OWNERS[(lagna+7)%12] in group
+            result=project(rule,True,group,witness,grades,md,ad,evaluate)
+            row=dict(participants=sorted(group),**result)
+            rows=matched.setdefault(rule['id'],[])
+            if row not in rows:rows.append(row)
     current=chart(AT)
     transit={g:int(x//30) for g,(x,_) in current.items()}
     trans={ref:[f'vedic.transits.{g}-{ref}-house-{(s-origin)%12+1}' for g,s in transit.items()]
            if origin is not None else [] for ref,origin in [('moon',pos['moon']),('lagna',lagna)]}
+    trans['moon']=['vedic.transits.saturn-moon' if rid.endswith('saturn-moon-house-1') else rid for rid in trans['moon']]
     bav={}
     if asc:
         for g,table in read('vedic/strength/ashtakavarga/bindu.yaml')['offsets'].items():
@@ -237,6 +255,8 @@ def main():
             folder='dashas/vimshottari' if topic=='dashas-vimshottari' else topic
             predicates[rid]=read(f'{system}/{folder}/{slug}.yaml')['conditions']
         rec['matched_predicates']=predicates
+        rec['yoga_exceptions']={rid:read('vedic/yogas/'+rid.split('.')[-1]+'.yaml')['exceptions']
+                                for rid in rec['yogas']}
         rec['matrix_applications']={
             'varga_planets':{key:{g:p[key] for g,p in read('examples/fixtures/'+name.lower()+'.yaml')['grahas'].items()
                                  if key not in p['unstable']} for key in ('d9','d10')},

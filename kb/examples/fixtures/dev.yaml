@@ -175,6 +175,7 @@ consultation:
   - vedic.planets-in-signs.saturn-aquarius
   - vedic.planets-in-signs.rahu-libra
   - vedic.planets-in-signs.ketu-aries
+  - vedic.yogas.nabhasa-pasha
   - vedic.transits.sun-moon-house-10
   - vedic.transits.moon-moon-house-4
   - vedic.transits.mars-moon-house-7
@@ -307,7 +308,20 @@ consultation:
       d1: null
       d9: null
       functional: null
-  yogas: {}
+  yogas:
+    vedic.yogas.nabhasa-pasha:
+    - participants:
+      - jupiter
+      - mars
+      - mercury
+      - moon
+      - saturn
+      - sun
+      - venus
+      vedic.yoga.nabhasa-pasha.gate: null
+      vedic.yoga.nabhasa-pasha.active: null
+      display: withheld
+      period_evidence: false
   areas:
     career:
       lord: null
@@ -614,6 +628,11 @@ consultation:
       - fact: d1.selected_point.sign
         op: eq
         value: aries
+    vedic.yogas.nabhasa-pasha:
+      all:
+      - fact: d1.yoga.nabhasa_pasha_formed
+        op: eq
+        value: true
     vedic.transits.sun-moon-house-10:
       all:
       - fact: transit.sun.distance_from_natal_moon
@@ -659,6 +678,22 @@ consultation:
       - fact: transit.ketu.distance_from_natal_moon
         op: eq
         value: 7
+  yoga_exceptions:
+    vedic.yogas.nabhasa-pasha:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
   matrix_applications:
     varga_planets:
       d9:

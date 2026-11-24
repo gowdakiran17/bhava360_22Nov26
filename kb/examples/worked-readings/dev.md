@@ -33,7 +33,7 @@ The table below binds each period, yoga and transit to this chart before the six
 |---|---|
 | Period | Withheld |
 | Strength | Sun Moderate, Moon withheld, Mars Weak, Mercury withheld, Jupiter Moderate, Venus Moderate, Saturn Strong, Rahu Weak, Ketu Weak |
-| Yoga | No resolved Lagna-based witness |
+| Yoga | nabhasa-pasha withheld |
 | Transit from Moon | vedic.transits.sun-moon-house-10, vedic.transits.moon-moon-house-4 |
 | Transit from Lagna | Withheld |
 | Practice | None selected |

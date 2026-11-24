@@ -225,6 +225,8 @@ consultation:
   - vedic.yogas.dhana
   - vedic.yogas.durudhara
   - vedic.yogas.nabhasa-kedara
+  - vedic.yogas.parivartana-dainya
+  - vedic.yogas.parivartana
   - vedic.yogas.parvata
   - vedic.yogas.raja
   - vedic.yogas.sunapha
@@ -455,13 +457,29 @@ consultation:
       vedic.yoga.nabhasa-kedara.active: null
       display: withheld
       period_evidence: false
+    vedic.yogas.parivartana-dainya:
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.parivartana-dainya.gate: mild
+      vedic.yoga.parivartana-dainya.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.parivartana:
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.parivartana.gate: mild
+      vedic.yoga.parivartana.active: true
+      display: yoga-mild
+      period_evidence: true
     vedic.yogas.parvata:
     - participants:
       - jupiter
       - venus
       vedic.yoga.parvata.gate: full
       vedic.yoga.parvata.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
     vedic.yogas.raja:
     - participants:
@@ -476,21 +494,7 @@ consultation:
       - venus
       vedic.yoga.raja.gate: full
       vedic.yoga.raja.active: true
-      display: yoga-mild
-      period_evidence: true
-    - participants:
-      - mercury
-      - venus
-      vedic.yoga.raja.gate: mild
-      vedic.yoga.raja.active: true
-      display: yoga-mild
-      period_evidence: true
-    - participants:
-      - jupiter
-      - venus
-      vedic.yoga.raja.gate: full
-      vedic.yoga.raja.active: true
-      display: yoga-mild
+      display: normal
       period_evidence: true
     vedic.yogas.sunapha:
     - participants:
@@ -976,6 +980,19 @@ consultation:
       - fact: d1.yoga.nabhasa_kedara_formed
         op: eq
         value: true
+    vedic.yogas.parivartana-dainya:
+      all:
+      - fact: d1.lords.reciprocal_exchange
+        op: eq
+        value: true
+      - fact: d1.lords.exchange_class
+        op: eq
+        value: dainya
+    vedic.yogas.parivartana:
+      all:
+      - fact: d1.lords.reciprocal_exchange
+        op: eq
+        value: true
     vedic.yogas.parvata:
       all:
       - fact: d1.yoga.parvata_formed
@@ -1171,6 +1188,210 @@ consultation:
       - fact: transit.ketu.distance_from_lagna
         op: eq
         value: 3
+  yoga_exceptions:
+    vedic.yogas.anapha:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.budhaditya:
+    - when:
+        fact: d1.yoga.mercury_combust
+        op: eq
+        value: true
+      effect: soften
+      reason: Measure Mercury–Sun separation using the inclusive direct or retrograde
+        combustion orb.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    - when:
+        fact: d1.yoga.mercury_deep_combust
+        op: eq
+        value: true
+      effect: cancel
+      reason: Mercury within three degrees of Sun, inclusive; operational threshold.
+    - when:
+        fact: d1.yoga.mercury_gate_miss
+        op: eq
+        value: true
+      effect: cancel
+      reason: Mercury below Moderate and outside natal angles and trines.
+    vedic.yogas.dhana:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.durudhara:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.nabhasa-kedara:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.parivartana-dainya:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.parivartana:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.parvata:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.raja:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.sunapha:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vesi:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
   matrix_applications:
     varga_planets:
       d9:

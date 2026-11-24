@@ -22,6 +22,8 @@ def validate(rules, read, require, root):
         require(record['rule_chain'] and all(rid in rules for rid in record['rule_chain']), name+' unresolved reading')
         for rid,signature in record['matched_predicates'].items():
             require(rules[rid]['conditions']==signature,name+' formation changed for '+rid)
+        for rid,exceptions in record['yoga_exceptions'].items():
+            require(rules[rid]['exceptions']==exceptions,name+' cancellation drift '+rid)
         for ref,chain in record['transits'].items():
             require(all(rule in record['rule_chain'] for rule in chain),name+' transit chain')
         for output,mode in record['confidence'].items():

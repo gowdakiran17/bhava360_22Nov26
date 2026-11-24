@@ -33,7 +33,7 @@ The table below binds each period, yoga and transit to this chart before the six
 |---|---|
 | Period | Venus / Venus |
 | Strength | Sun Weak, Moon Strong, Mars Moderate, Mercury Weak, Jupiter Moderate, Venus Strong, Saturn Weak, Rahu Weak, Ketu Weak |
-| Yoga | anapha yoga-mild; budhaditya omitted; dhana yoga-mild; durudhara yoga-mild; nabhasa-kedara withheld; parvata yoga-mild; raja yoga-mild; sunapha yoga-background; vesi yoga-mild |
+| Yoga | anapha yoga-mild; budhaditya omitted; dhana yoga-mild; durudhara yoga-mild; nabhasa-kedara withheld; parivartana-dainya yoga-mild; parivartana yoga-mild; parvata normal; raja yoga-mild; sunapha yoga-background; vesi yoga-mild |
 | Transit from Moon | vedic.transits.sun-moon-house-5, vedic.transits.moon-moon-house-11 |
 | Transit from Lagna | vedic.transits.sun-lagna-house-6, vedic.transits.moon-lagna-house-12 |
 | Practice | None selected |

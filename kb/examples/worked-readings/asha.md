@@ -36,7 +36,7 @@ The table below binds each period, yoga and transit to this chart before the six
 |---|---|
 | Period | Jupiter / Moon |
 | Strength | Sun Moderate, Moon Strong, Mars Moderate, Mercury Moderate, Jupiter Moderate, Venus Strong, Saturn Moderate, Rahu Moderate, Ketu Weak |
-| Yoga | amala yoga-background; bheri yoga-mild; gaja-kesari yoga-mild; kahala yoga-mild; kemadruma omitted; nabhasa-pasha withheld; raja yoga-background; ubhayachari yoga-background; vesi yoga-background; vimala withheld; vosi yoga-background |
+| Yoga | amala yoga-background; bheri normal; gaja-kesari yoga-mild; kahala normal; kemadruma omitted; nabhasa-pasha withheld; neecha-bhanga normal; raja yoga-background; ubhayachari yoga-background; vesi yoga-background; vimala withheld; vosi yoga-background |
 | Transit from Moon | vedic.transits.sun-moon-house-7, vedic.transits.moon-moon-house-1 |
 | Transit from Lagna | vedic.transits.sun-lagna-house-10, vedic.transits.moon-lagna-house-4 |
 | Practice | moon |
