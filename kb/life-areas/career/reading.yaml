@@ -23,7 +23,7 @@ slots:
     en: Choose one work responsibility to discuss.
     kn: ಕೆಲಸದ ಒಂದು ಜವಾಬ್ದಾರಿ ಕುರಿತು ಚರ್ಚಿಸಬಹುದು.
     hi: काम की किसी एक ज़िम्मेदारी पर बात कर सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.career-house-lord

@@ -20,7 +20,7 @@ slots:
     en: You may enjoy a few minutes of quiet reflection.
     kn: ಕೆಲವು ನಿಮಿಷ ಶಾಂತವಾಗಿ ಚಿಂತಿಸಬಹುದು.
     hi: कुछ समय शांत चिंतन में बिताना अच्छा लग सकता है।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.spirituality-house-lord

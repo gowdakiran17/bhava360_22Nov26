@@ -48,3 +48,7 @@ Added nine draft rules and four fact keys. The KB now holds 1,824 reading rules 
 ## KB-35 synthesis inputs (draft)
 
 All 1,824 reading rules across ten systems carry internal evidence metadata. The Lagna table covers 108 cells and six strict Yogakarakas. The grade worksheet covers all nine grahas, with P1, P2 and P3 checking both inclusive band edges. The fact dictionary now contains 409 keys. The 660-entry public glossary and eight KB-51 locale bundles retain their existing copy.
+
+## KB-48 birth-time confidence (draft)
+
+Five declared precisions map to three tiers and 46 output rows. Four explanations cover exact, approximate, Moon-chart approximate, and time-unknown readings. The three internal confidence fields bring the fact dictionary to 412 keys. The 1,824 reading rules and 661 staff glossary entries retain their KB-35 counts.

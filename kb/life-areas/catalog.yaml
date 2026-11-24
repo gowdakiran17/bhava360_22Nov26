@@ -15,3 +15,4 @@ areas:
 detail_slots: [present-situation, upcoming-periods, concerns-to-watch, what-you-can-do]
 checker_ids: [business-name, mobile-number, personal-baby-name, house-relocation, vehicle-number, big-decision-muhurta]
 tag_availability: All keys are available for tagging independently of the area screen release.
+birth_time_availability: shared/confidence/output-matrix.yaml

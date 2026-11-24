@@ -1,0 +1,20 @@
+version: 1
+approval: draft
+native_review: {kn: pending, hi: pending}
+messages:
+  full:
+    en: Your birth time can support a detailed reading. Some details may be left out if they change around that time.
+    kn: ನಿಮ್ಮ ಜನನ ಸಮಯದ ಆಧಾರದಲ್ಲಿ ವಿವರವಾದ ಓದನ್ನು ನೀಡಬಹುದು. ಆ ಸಮಯದ ಸುತ್ತ ಬದಲಾಗುವ ಕೆಲವು ವಿವರಗಳನ್ನು ಬಿಡಬಹುದು.
+    hi: आपके जन्म समय के आधार पर विस्तृत पाठ दिया जा सकता है। उस समय के आसपास बदलने वाले कुछ विवरण छोड़े जा सकते हैं।
+  approximate:
+    en: Your birth time is approximate. You can explore the parts of the reading that stay the same across that time.
+    kn: ನಿಮ್ಮ ಜನನ ಸಮಯ ಅಂದಾಜಿನದು. ಆ ಅವಧಿಯಲ್ಲಿ ಒಂದೇ ರೀತಿ ಉಳಿಯುವ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+    hi: आपका जन्म समय अनुमानित है। आप पाठ के उन हिस्सों को देख सकते हैं जो उस अवधि में एक जैसे रहते हैं।
+  moon-approximate:
+    en: With an approximate birth time, you can explore the parts of a Moon-sign reading that stay consistent around that time.
+    kn: ಅಂದಾಜು ಜನನ ಸಮಯದ ಸುತ್ತ ಸ್ಥಿರವಾಗಿರುವ ಚಂದ್ರರಾಶಿ ಆಧಾರಿತ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+    hi: अनुमानित जन्म समय के आसपास चंद्र राशि पर आधारित जो बातें एक जैसी रहती हैं, आप उन पर विचार कर सकते हैं।
+  moon-unknown:
+    en: Without a birth time, you can explore the parts of a Moon-sign reading that stay consistent through the day.
+    kn: ಜನನ ಸಮಯ ತಿಳಿದಿಲ್ಲದಿದ್ದರೆ, ದಿನವಿಡೀ ಸ್ಥಿರವಾಗಿರುವ ಚಂದ್ರರಾಶಿ ಆಧಾರಿತ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+    hi: जन्म समय मालूम न होने पर आप चंद्र राशि पर आधारित वे बातें देख सकते हैं जो पूरे दिन एक जैसी रहती हैं।

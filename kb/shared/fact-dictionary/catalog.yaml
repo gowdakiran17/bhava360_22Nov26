@@ -6,6 +6,7 @@ value_types:
 - enum
 - instant
 - interval
+- array
 instant_format: ISO 8601 with explicit UTC offset
 interval_bounds: start-inclusive-end-exclusive
 operators:
@@ -17,6 +18,26 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  confidence.tier:
+    type: enum
+    values: [A, B, C]
+    producer: shared.confidence
+    origin: Selected from the approved precision mapping in shared/confidence/birth-time-tiers.yaml.
+    dependencies: [declared birth-time precision]
+    unknown_if: Declared precision is missing or unrecognized.
+  confidence.rectified:
+    type: boolean
+    producer: shared.confidence
+    origin: Persist false on each MVP confidence record. Future acceptance belongs to KB-47.
+    dependencies: [confidence record]
+    unknown_if: No confidence record exists.
+  confidence.withheld:
+    type: array
+    items: output-matrix row ID
+    producer: shared.confidence
+    origin: Sorted unique internal IDs withheld for the bound chart and query after tier and stability checks.
+    dependencies: [confidence.tier, output matrix, complete interval evidence]
+    unknown_if: No assessment has run. Missing proof within an assessment withholds its dependent output.
   prashna.category:
     type: enum
     producer: vedic.prashna

@@ -34,7 +34,7 @@ def evaluate(node, values):
 def check_predicate(node, facts):
     if 'fact' in node:
         spec = facts[node['fact']]
-        require(node['op'] in ('eq','in'), str(node))
+        require(spec['type'] != 'array' and node['op'] in ('eq','in'), str(node))
         values = node['value'] if node['op']=='in' else [node['value']]
         require(isinstance(values,list) and values, str(node))
         for value in values:
@@ -613,6 +613,8 @@ def main():
     validate_functional(read, require)
     strength_grade.validate(read, require)
     evidence_checks.validate(rules, read, require, ROOT)
+    from confidence import validate as validate_confidence
+    validate_confidence(read, require)
     check_distribution(ROOT)
     print("Public copy passed across eight locale bundles.")
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')

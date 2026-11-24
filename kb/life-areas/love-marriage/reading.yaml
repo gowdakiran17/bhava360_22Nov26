@@ -20,7 +20,7 @@ slots:
     en: You can talk about one shared expectation.
     kn: ಒಂದು ಸಾಮಾನ್ಯ ನಿರೀಕ್ಷೆಯ ಬಗ್ಗೆ ಮಾತನಾಡಬಹುದು.
     hi: एक साझा अपेक्षा पर बात कर सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.love-marriage-house-lord

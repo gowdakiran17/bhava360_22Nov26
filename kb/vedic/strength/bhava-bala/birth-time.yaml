@@ -17,6 +17,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: parashari-strength-v1
+  note: MODERN civil twilight operationalizes the classical time term. A sunrise or sunset interval can change the award by 15 virupas. Withhold an unstable internal tie-break under the KB-48 matrix.
+- profile: parashari-strength-v1
   note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
 sources:
 - book: Brihat Parashara Hora Shastra

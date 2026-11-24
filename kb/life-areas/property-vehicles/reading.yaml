@@ -19,7 +19,7 @@ slots:
     en: You can list practical requirements before choosing.
     kn: ಆಯ್ಕೆಗೂ ಮೊದಲು ಅಗತ್ಯಗಳ ಪಟ್ಟಿಯನ್ನು ಮಾಡಬಹುದು.
     hi: चुनने से पहले अपनी ज़रूरतें लिख सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.property-vehicles-house-lord

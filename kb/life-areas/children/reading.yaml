@@ -18,7 +18,7 @@ slots:
     en: You can set aside time to listen to a child.
     kn: ಮಗುವಿನ ಮಾತು ಕೇಳಲು ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
     hi: बच्चे की बात सुनने के लिए समय निकाल सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.children-house-lord

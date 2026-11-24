@@ -19,7 +19,7 @@ slots:
     en: You can clarify the next decision with a partner.
     kn: ಪಾಲುದಾರರೊಂದಿಗೆ ಮುಂದಿನ ನಿರ್ಧಾರವನ್ನು ಚರ್ಚಿಸಬಹುದು.
     hi: साझेदार से अगले निर्णय पर बात कर सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.business-house-lord

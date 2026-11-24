@@ -23,3 +23,4 @@ precision:
   "±1 h": {radius_seconds: 3600, retain: stable-throughout-interval}
   unknown: {working_time: local-noon, interval: entire-local-civil-date, withhold: [lagna, houses-from-lagna, lagna-derived-facts, exact-birth-dependent-times], retain: stable-throughout-date}
 stability: For a nonzero uncertainty interval include both endpoints and every intervening transition. Withhold precise birth-dependent event instants and any changing or unproved classification, including sign, house, nakshatra, pada, varga and period lord. Noon positions are working estimates only. Missing place or unresolved civil time withholds all instant-dependent facts.
+confidence_policy: shared/confidence/birth-time-tiers.yaml

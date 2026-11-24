@@ -32,3 +32,4 @@ sources:
 - {work_id: bphs, edition: null, locator: Dignity and Shadbala chapters, verification: pending}
 - {work_id: saravali, edition: null, locator: Planetary strength discussion (exact passage pending), verification: pending}
 - {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Ch.7 cancellation and avastha discussion (locator pending), verification: pending}
+birth_time_availability: shared/confidence/output-matrix.yaml

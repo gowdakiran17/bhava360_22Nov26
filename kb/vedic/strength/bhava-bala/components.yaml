@@ -106,5 +106,6 @@ birth_time:
   - capricorn
   twilight:
   - pisces
+  window_tag: MODERN
   window: 'Operational civil twilight: geometric solar centre at or above -6 degrees and below zero. Day at
     or above zero; night below -6.'

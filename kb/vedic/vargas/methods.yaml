@@ -3,8 +3,7 @@ approval: draft
 reference: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/horoscope/chart/charts.py
 interval: For equal divisions use floor(unrounded degrees within sign × N / 30), starting at zero. Step forward by that many
   signs from the seed. D2, D3, D4 and D30 use their specified mappings.
-sensitivity: Recalculate through ±5 minutes and the actual birth-time uncertainty interval. Suppress any unstable interpreting
-  fact.
+sensitivity: shared/confidence/output-matrix.yaml
 methods:
 - chart: D1
   id: parashari-d1-v1
