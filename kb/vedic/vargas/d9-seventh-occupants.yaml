@@ -1,0 +1,49 @@
+id: vedic.vargas.d9-seventh-occupants
+system: vedic
+topic: vargas
+title: D9 seventh occupants
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'D9 seventh-occupants: functional benefic occupant and no impaired malefic occupant. Apply shared/confidence/output-matrix.yaml
+  to all inputs.'
+conditions:
+  all:
+  - fact: varga.d9.seventh_occupants
+    op: eq
+    value: true
+meaning: You may find it easier to discuss a commitment when you can name the values you share.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: '12'
+  other_locator: null
+  supports: Divisional calculation background. The topic and interpretive selection are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You may find it easier to discuss a commitment when you can name the values you share.
+  kn: ನಿಮ್ಮಿಬ್ಬರಿಗೂ ಮುಖ್ಯವಾದ ಮೌಲ್ಯಗಳನ್ನು ಗುರುತಿಸಿದಾಗ ಬದ್ಧತೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು ಸುಲಭವಾಗಬಹುದು.
+  hi: आप दोनों के साझा मूल्यों को पहचानने से प्रतिबद्धता पर बात करना आसान हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+release: mvp

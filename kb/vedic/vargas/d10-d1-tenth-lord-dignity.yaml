@@ -1,0 +1,53 @@
+id: vedic.vargas.d10-d1-tenth-lord-dignity
+system: vedic
+topic: vargas
+title: D10 d1 tenth lord dignity
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'D10 d1-tenth-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+  to all inputs.'
+conditions:
+  all:
+  - fact: varga.d10.d1_tenth_lord_dignity
+    op: eq
+    value: true
+meaning: You may notice which responsibilities suit you by comparing your daily work with the role others rely on
+  you to fill.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 13–14
+  other_locator: null
+  supports: Divisional calculation background. The topic and interpretive selection are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You may notice which responsibilities suit you by comparing your daily work with the role others rely on you
+    to fill.
+  kn: ದಿನನಿತ್ಯದ ಕೆಲಸ ಮತ್ತು ಇತರರು ನಿಮ್ಮಿಂದ ನಿರೀಕ್ಷಿಸುವ ಪಾತ್ರವನ್ನು ಹೋಲಿಸಿದಾಗ ಯಾವ ಜವಾಬ್ದಾರಿಗಳು ನಿಮಗೆ ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ
+    ಎಂದು ತಿಳಿಯಬಹುದು.
+  hi: रोज़ के काम और दूसरों की आपसे अपेक्षाओं को साथ देखकर आप समझ सकते हैं कि कौन सी ज़िम्मेदारियाँ आपको अनुकूल लगती
+    हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+release: mvp

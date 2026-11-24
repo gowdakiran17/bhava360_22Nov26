@@ -18,4 +18,7 @@ aliases:
 reference_rules:
 - vedic.vargas.d10-placement
 used_by:
+- vedic.vargas.d10-d1-tenth-lord-dignity
+- vedic.vargas.d10-lagna-lord-placement
 - vedic.vargas.d10-placement
+- vedic.vargas.d10-tenth-lord-placement

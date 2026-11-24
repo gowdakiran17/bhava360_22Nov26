@@ -66,6 +66,13 @@ def double(signs, targets, aspects):
     return all(any((t-signs[g])%12+1 in [1,*aspects[g]] for t in targets) for g in ('jupiter','saturn'))
 
 
+def transit_pace(av, limits):
+    if len(av)!=2 or any(len(pair)!=2 or None in pair for pair in av):
+        return 'unknown'
+    return ('supported' if all(sav>=limits['minimum_sav_each'] and bav>=limits['minimum_own_bav_each']
+                               for sav,bav in av) else 'slower')
+
+
 def collect_windows(x, tier, aspects, policy, limits, significators, weights):
     start=date.fromisoformat(x['today'])
     year=start.year+policy['horizon_years']
@@ -86,8 +93,7 @@ def collect_windows(x, tier, aspects, policy, limits, significators, weights):
         if a>=b:
             continue
         av=segment['av']
-        pace=('unknown' if any(v is None for pair in av for v in pair) else
-              'supported' if all(sav>=limits['minimum_sav_each'] and bav>=limits['minimum_own_bav_each'] for sav,bav in av) else 'slower')
+        pace=transit_pace(av,limits)
         peaks={}
         for at, bodies in segment.get('peaks',{}).items():
             dt=date.fromisoformat(at)

@@ -1,0 +1,57 @@
+id: vedic.aspects.venus-aspects-house-11
+system: vedic
+topic: aspects
+title: Venus aspects house 11
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read venus's full aspect on receipts, fulfilment of aims; use the bound graha's nature and strength before synthesis.
+conditions:
+  all:
+  - fact: d1.aspect.venus.house_11
+    op: eq
+    value: true
+meaning: In matters of community ties, finding common ground may help you decide what to do next.
+life_areas:
+- money
+- career
+- family-home
+strength_notes: []
+exceptions:
+- when:
+    fact: d1.aspect.source_impaired
+    op: eq
+    value: true
+  effect: soften
+  reason: Debilitation or combustion reduces the confidence placed in this contact.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: null
+  verse: null
+  other_locator: II.13 full aspects; XIV paired planets
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of community ties, finding common ground may help you decide what to do next.
+  kn: ಸಮುದಾಯದ ಸಂಬಂಧಗಳು ವಿಷಯದಲ್ಲಿ ಸಹಮತವನ್ನು ಕಂಡುಕೊಳ್ಳುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: सामुदायिक संबंध के मामलों में सहमति खोजना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    career: related
+    family-home: related

@@ -17,6 +17,12 @@ aliases:
 - Doshas
 reference_rules: []
 used_by:
+- vedic.conjunctions.jupiter-ketu
+- vedic.conjunctions.jupiter-rahu
+- vedic.conjunctions.moon-ketu
+- vedic.conjunctions.moon-rahu
+- vedic.conjunctions.sun-ketu
+- vedic.conjunctions.sun-rahu
 - vedic.doshas.ashtama-shani
 - vedic.doshas.bhakoot
 - vedic.doshas.grahan

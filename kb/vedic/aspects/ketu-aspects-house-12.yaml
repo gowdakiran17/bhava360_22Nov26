@@ -1,0 +1,57 @@
+id: vedic.aspects.ketu-aspects-house-12
+system: vedic
+topic: aspects
+title: Ketu aspects house 12
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Read ketu's full aspect on outgoings, rest; use the bound graha's nature and strength before synthesis.
+conditions:
+  all:
+  - fact: d1.aspect.ketu.house_12
+    op: eq
+    value: true
+meaning: In matters of rest and reflection, making space to reflect may help you decide what to do next.
+life_areas:
+- money
+- health
+- spirituality
+strength_notes: []
+exceptions:
+- when:
+    fact: d1.aspect.source_impaired
+    op: eq
+    value: true
+  effect: soften
+  reason: Debilitation or combustion reduces the confidence placed in this contact.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: null
+  verse: null
+  other_locator: II.13 full aspects; XIV paired planets
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of rest and reflection, making space to reflect may help you decide what to do next.
+  kn: ವಿಶ್ರಾಂತಿ ಮತ್ತು ಚಿಂತನೆ ವಿಷಯದಲ್ಲಿ ಚಿಂತನೆಗೆ ಸಮಯ ಕೊಡುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: विश्राम और मनन के मामलों में मनन के लिए समय निकालना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: caution
+  weight_class: modifier
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    health: related
+    spirituality: related

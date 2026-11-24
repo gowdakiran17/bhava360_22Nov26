@@ -5,7 +5,7 @@ scope: Bind active person, local civil date and timing city. Apply KB-48 stabili
 factors:
   chandra: {source: vedic/transits/vedha.yaml, direction: conditional, weight_class: primary, method: Count signs inclusively from natal Moon. Eligible obstruction neutralises a favourable Moon house.}
   tara: {source: vedic/muhurta/ranking-policy.yaml, direction: conditional, weight_class: primary, janma: neutral, method: Reuse inclusive nine-star cycle. Janma neutrality is the daily editorial default.}
-  sav: {source: vedic/strength/ashtakavarga/bindu.yaml, direction: support, weight_class: modifier, minimum: 28, method: Use per-sign raw SAV with the Raman/Santhanam Moon contributor row. Below threshold is neutral.}
+  sav: {source: vedic/strength/ashtakavarga/bindu.yaml, direction: support, weight_class: modifier, minimum: 28, method: Withhold at Tier C and whenever KB-48 withholds SAV. Use per-sign raw SAV with the Raman/Santhanam Moon contributor row. Below threshold is neutral.}
   antar: {direction: context, weight_class: context, method: If the Antar lord owns or fully aspects the transit Moon sign then its owned life areas lead activity choices. Withheld lord or owned areas give no focus.}
   tithi: {direction: context, weight_class: secondary, classes: [Nanda, Bhadra, Jaya, Rikta, Purna]}
   vishti: {direction: caution, weight_class: modifier, role: exclude local interval}
@@ -25,7 +25,7 @@ activities:
   eligible: [travel, starting-work, important-talk, family-visit, focused-work]
   focus: {career: starting-work, learning: focused-work, travel-relocation: travel, family-home: family-visit, love-marriage: important-talk}
   tithi: {Nanda: family-visit, Bhadra: focused-work, Jaya: starting-work, Rikta: focused-work, Purna: important-talk}
-  selection: Rank leading-area choices then compatible star group then tithi preference. Under adverse Tara or Rikta defer starting-work and travel ahead of other suggestions. Exclude duplicates between lists. Offer only matched activities.
+  selection: Rank leading-area choices then compatible star group then tithi preference. Under Chandrashtama, Janma or adverse Tara, or Rikta defer starting-work and travel ahead of other suggestions. Exclude duplicates between lists. Offer only matched activities.
   limits: {good: 3, easy: 2}
 best_time:
   candidates: [abhijit, amrit, shubh, labh, supportive-hora]

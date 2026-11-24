@@ -77,7 +77,7 @@ def houses(c, totals, read, method="whole-sign-middle"):
     altitude = c.get('solar_altitude_deg')
     if altitude is None or c.get('asc') is None:
         return None
-    period = 'day' if altitude >= 0 else 'twilight' if altitude >= -6 else 'night'
+    period = 'day' if c.get('sun_above_apparent_horizon', altitude >= -0.83) else 'twilight' if altitude >= -6 else 'night'
     if method == 'sripati':
         if c.get('mc') is None:
             return None
@@ -186,11 +186,11 @@ def validate_bhava(read, require):
     require(houses(dict(s['inputs'],asc=None),s['lord_totals'],read) is None,'missing Lagna')
     for degree,label in [(4.99,'moolatrikona'),(5,'moolatrikona'),(14.99,'moolatrikona'),(15,'own-sign')]:
         require(dignity_label(dignity,'venus','libra',degree,True,None)==label,'Venus Libra boundary')
-    for altitude,period in [(0,'day'),(-.001,'twilight'),(-6,'twilight'),(-6.001,'night')]:
+    for altitude,period in [(-.83,'day'),(-.831,'twilight'),(-6,'twilight'),(-6.001,'night')]:
         rows=houses(dict(s['inputs'],solar_altitude_deg=altitude),s['lord_totals'],read)
         require(sum(x['birth_time'] for x in rows)==15*len(table['birth_time'][period]),'rising classes')
     require(table['birth_time']['window_tag']=='MODERN','civil twilight provenance')
-    sides=[houses(dict(s['inputs'],solar_altitude_deg=a),s['lord_totals'],read) for a in (-.001,0)]
+    sides=[houses(dict(s['inputs'],solar_altitude_deg=a),s['lord_totals'],read) for a in (-.831,-.83)]
     require(any(abs(left['birth_time']-right['birth_time'])==15 for left,right in zip(*sides)),
             'sunrise or sunset can flip the internal time term')
     occupied=next(x for x in rows if x['occupants']!=0)

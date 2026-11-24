@@ -5,8 +5,25 @@ window:
   city: Bengaluru
   sunrise: '2032-03-18T06:00:00+05:30'
   sunset: '2032-03-18T18:00:00+05:30'
-  start: '2032-03-18T09:00:00+05:30'
-  end: '2032-03-18T09:12:00+05:30'
+  start: '2032-03-18T09:12:00+05:30'
+  end: '2032-03-18T09:24:00+05:30'
+  occupied_houses:
+  - 1
+  - 2
+  - 3
+  - 5
+  - 11
+  adhika: false
+  star_interval:
+  - '2032-03-18T05:30:00+05:30'
+  - '2032-03-19T05:30:00+05:30'
+  star_vedha: false
+  malefic_star_indices:
+    sun: 1
+    mars: 6
+    saturn: 10
+    rahu: 15
+    ketu: 2
 rahu_overlap:
   start: '2032-03-18T13:29:00+05:30'
   end: '2032-03-18T13:31:00+05:30'
@@ -199,11 +216,11 @@ probes:
       Asha: 30
       Ravi: 48
   result:
-  - true
-  - Steady
+  - false
+  - Take care
   reasons:
-    tara/Ravi: avoid
-    tara/Asha: support
+    blocked:
+    - partner_tara_or_chandra_unsupportive
 - activity: education-start
   override:
     natal_moons:
@@ -243,9 +260,12 @@ probes:
   override:
     sunrise: '2032-03-16T06:00:00+05:30'
     sunset: '2032-03-16T18:00:00+05:30'
-    start: '2032-03-16T09:00:00+05:30'
-    end: '2032-03-16T09:12:00+05:30'
+    start: '2032-03-16T09:12:00+05:30'
+    end: '2032-03-16T09:24:00+05:30'
     birth_date: '2032-03-07'
+    star_interval:
+    - '2032-03-16T05:30:00+05:30'
+    - '2032-03-17T05:30:00+05:30'
   result:
   - true
   - Supportive
@@ -255,9 +275,12 @@ probes:
   override:
     sunrise: '2032-03-16T06:00:00+05:30'
     sunset: '2032-03-16T18:00:00+05:30'
-    start: '2032-03-16T09:00:00+05:30'
-    end: '2032-03-16T09:12:00+05:30'
+    start: '2032-03-16T09:12:00+05:30'
+    end: '2032-03-16T09:24:00+05:30'
     birth_date: '2032-03-08'
+    star_interval:
+    - '2032-03-16T05:30:00+05:30'
+    - '2032-03-17T05:30:00+05:30'
   result:
   - true
   - Steady
@@ -276,22 +299,22 @@ probes:
 - activity: vehicle-purchase
   override:
     vishti_intervals:
-    - - '2032-03-18T09:12:00+05:30'
-      - '2032-03-18T09:20:00+05:30'
+    - - '2032-03-18T09:24:00+05:30'
+      - '2032-03-18T09:32:00+05:30'
   result:
   - true
   - Supportive
 - activity: vehicle-purchase
   override:
     vishti_intervals:
-    - - '2032-03-18T09:11:59+05:30'
-      - '2032-03-18T09:12:00+05:30'
+    - - '2032-03-18T09:23:59+05:30'
+      - '2032-03-18T09:24:00+05:30'
   result:
   - false
   - Take care
 ranking:
   input:
-  - - '2032-03-18T09:00:00+05:30'
+  - - '2032-03-18T09:12:00+05:30'
     - '2032-03-18T09:01:00+05:30'
     - true
     - Steady
@@ -326,7 +349,7 @@ ranking:
   - - '2032-03-18T09:02:00+05:30'
     - '2032-03-18T09:03:00+05:30'
     - Supportive
-  - - '2032-03-18T09:00:00+05:30'
+  - - '2032-03-18T09:12:00+05:30'
     - '2032-03-18T09:01:00+05:30'
     - Steady
   - - '2032-03-18T09:03:00+05:30'

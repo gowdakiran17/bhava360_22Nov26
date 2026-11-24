@@ -114,8 +114,8 @@ remedy:
     kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
     hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
 evidence:
-  direction: caution
-  weight_class: primary
+  direction: neutral
+  weight_class: modifier
   time_scope: natal
   reference: lagna
   area_strength:

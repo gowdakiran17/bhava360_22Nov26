@@ -1,0 +1,156 @@
+approval: draft
+sources:
+- work_id: pyjhora-panchanga
+  edition: pyjhora-panchanga-506
+  locator: jhora/const.py amrita_gadiya_varjyam_star_map; sarvartha_siddha_yoga; amrita_siddha_yoga_dict; disha_shool_map;
+    jhora/panchanga/drik.py durmuhurtam
+  verification: verified
+duration_ghatis: 4
+scale: Use actual end minus beginning of the nakshatra. One ghati is one sixtieth of that duration. Use half-open
+  intervals; Mula has two exclusions.
+stars:
+  ashwini:
+    varjyam:
+    - 50
+    amrit: 42
+  bharani:
+    varjyam:
+    - 24
+    amrit: 48
+  krittika:
+    varjyam:
+    - 30
+    amrit: 54
+  rohini:
+    varjyam:
+    - 40
+    amrit: 52
+  mrigashira:
+    varjyam:
+    - 14
+    amrit: 38
+  ardra:
+    varjyam:
+    - 21
+    amrit: 35
+  punarvasu:
+    varjyam:
+    - 30
+    amrit: 54
+  pushya:
+    varjyam:
+    - 20
+    amrit: 44
+  ashlesha:
+    varjyam:
+    - 32
+    amrit: 56
+  magha:
+    varjyam:
+    - 30
+    amrit: 54
+  purva-phalguni:
+    varjyam:
+    - 20
+    amrit: 44
+  uttara-phalguni:
+    varjyam:
+    - 18
+    amrit: 42
+  hasta:
+    varjyam:
+    - 21
+    amrit: 45
+  chitra:
+    varjyam:
+    - 20
+    amrit: 44
+  swati:
+    varjyam:
+    - 14
+    amrit: 38
+  vishakha:
+    varjyam:
+    - 14
+    amrit: 38
+  anuradha:
+    varjyam:
+    - 10
+    amrit: 34
+  jyeshtha:
+    varjyam:
+    - 14
+    amrit: 38
+  mula:
+    varjyam:
+    - 20
+    - 56
+    amrit: 44
+  purva-ashadha:
+    varjyam:
+    - 24
+    amrit: 48
+  uttara-ashadha:
+    varjyam:
+    - 20
+    amrit: 44
+  shravana:
+    varjyam:
+    - 10
+    amrit: 34
+  dhanishta:
+    varjyam:
+    - 10
+    amrit: 34
+  shatabhisha:
+    varjyam:
+    - 18
+    amrit: 42
+  purva-bhadrapada:
+    varjyam:
+    - 16
+    amrit: 40
+  uttara-bhadrapada:
+    varjyam:
+    - 24
+    amrit: 48
+  revati:
+    varjyam:
+    - 30
+    amrit: 54
+durmuhurta:
+  sunday:
+    day:
+    - 14
+    night: []
+  monday:
+    day:
+    - 9
+    - 12
+    night: []
+  tuesday:
+    day:
+    - 4
+    night:
+    - 5
+  wednesday:
+    day:
+    - 8
+    night: []
+  thursday:
+    day:
+    - 4
+    - 7
+    night: []
+  friday:
+    day:
+    - 2
+    - 9
+    night: []
+  saturday:
+    day:
+    - 1
+    - 2
+    night: []
+indexing: One-based fifteenths of actual daytime or following night. PyJHora 5.0.6 index convention; other almanacs
+  differ.

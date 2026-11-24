@@ -75,3 +75,10 @@ bounds: Same instant in overlapping start-inclusive, end-exclusive transit windo
 scope: Seven-graha profile. The source supplies no independent node rows. A listed supportive house is a candidate
   before obstruction. Read only in the forward direction.
 venus_pair_source: {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Chapter 26 verse 8 (also Prasna Marga 22.42 and 22.50), verification: pending}
+reverse_variant:
+  label: Vipareeta vedha
+  default: false
+  method: Invert each favourable-to-obstruction pair for the same graha. An eligible occupant of the corresponding
+    favourable place can relieve the adverse place. Preserve mutual exemptions.
+  source: Prasna Marga ch.22 v.35; locator pending.
+  variant_id: vipareeta-vedha

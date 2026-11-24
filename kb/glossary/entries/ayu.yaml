@@ -16,6 +16,15 @@ admin_note: Historical terminology in the eighth-house source list. Public healt
 aliases: []
 reference_rules: []
 used_by:
+- vedic.aspects.jupiter-aspects-house-8
+- vedic.aspects.ketu-aspects-house-8
+- vedic.aspects.mars-aspects-house-8
+- vedic.aspects.mercury-aspects-house-8
+- vedic.aspects.moon-aspects-house-8
+- vedic.aspects.rahu-aspects-house-8
+- vedic.aspects.saturn-aspects-house-8
+- vedic.aspects.sun-aspects-house-8
+- vedic.aspects.venus-aspects-house-8
 - vedic.houses.house-8
 - vedic.planets-in-houses.jupiter-house-8
 - vedic.planets-in-houses.ketu-house-8
@@ -26,4 +35,13 @@ used_by:
 - vedic.planets-in-houses.saturn-house-8
 - vedic.planets-in-houses.sun-house-8
 - vedic.planets-in-houses.venus-house-8
+- vedic.transits.jupiter-lagna-house-8
+- vedic.transits.ketu-lagna-house-8
+- vedic.transits.mars-lagna-house-8
+- vedic.transits.mercury-lagna-house-8
+- vedic.transits.moon-lagna-house-8
+- vedic.transits.rahu-lagna-house-8
+- vedic.transits.saturn-lagna-house-8
+- vedic.transits.sun-lagna-house-8
+- vedic.transits.venus-lagna-house-8
 visibility: admin-only

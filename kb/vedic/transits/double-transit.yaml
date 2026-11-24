@@ -42,8 +42,16 @@ sources:
   other_locator: vedic/transits/evidence.yaml
   supports: Bhava360 selection, calculation boundaries and original reflective wording.
   verification: pending
+- book: K.N. Rao double-transit method (edition pending)
+  work_id: kn-rao-double-transit
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Double-transit timing; edition pending
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
-review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+review_notes: MODERN/POPULAR K.N. Rao double-transit method.
 user_text:
   en: A topic highlighted by both transits may be worth sustained attention.
   kn: ಎರಡೂ ಸಂಚಾರಗಳು ಸೂಚಿಸುವ ವಿಷಯಕ್ಕೆ ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಗಮನ ಕೊಡಬಹುದು.

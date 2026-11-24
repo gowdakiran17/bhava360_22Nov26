@@ -1,0 +1,49 @@
+id: vedic.vargas.d24-mercury-dignity
+system: vedic
+topic: vargas
+title: D24 mercury dignity
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'D24 mercury-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+  to all inputs.'
+conditions:
+  all:
+  - fact: varga.d24.mercury_dignity
+    op: eq
+    value: true
+meaning: You can compare the ways you learn a new idea and remember it later.
+life_areas:
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 22–23
+  other_locator: null
+  supports: Divisional calculation background. The topic and interpretive selection are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You can compare the ways you learn a new idea and remember it later.
+  kn: ಹೊಸ ವಿಷಯವನ್ನು ಕಲಿಯುವ ಮತ್ತು ನಂತರ ನೆನಪಿಸಿಕೊಳ್ಳುವ ವಿಧಾನಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: आप तुलना कर सकते हैं कि कोई नई बात कैसे सीखते हैं और बाद में उसे कैसे याद करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+release: post-mvp

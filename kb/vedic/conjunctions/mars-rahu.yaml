@@ -1,0 +1,46 @@
+id: vedic.conjunctions.mars-rahu
+system: vedic
+topic: conjunctions
+title: Mars rahu
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Mars and Rahu share a sign under vedic.states.yuti; the sign rule has no degree orb. No close-pair overlay for
+  this pair.
+conditions:
+  all:
+  - fact: d1.conjunction.mars_rahu
+    op: eq
+    value: true
+meaning: You may consider how initiative and exploration fit together.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: null
+  verse: null
+  other_locator: II.13 full aspects; XIV paired planets
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You may consider how initiative and exploration fit together.
+  kn: ಪ್ರಯತ್ನ ಮತ್ತು ಅನ್ವೇಷಣೆ ಹೇಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि पहल और खोज साथ कैसे काम करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

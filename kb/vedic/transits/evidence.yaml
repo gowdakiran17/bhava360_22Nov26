@@ -22,7 +22,7 @@ phases:
   - 2
   ashtama-shani:
   - 8
-  kantaka-shani-fourth-house-profile:
+  ardhashtama:
   - 4
 windows: Solve all sign crossings, including retrograde exits and returns; attach start/end instants to each continuous
   phase.
@@ -39,7 +39,31 @@ kb16:
   phase_links:
   - vedic.doshas.sade-sati
   - vedic.doshas.ashtama-shani
-  delivery: Attach area modifiers only to the bound target topic. Phase names annotate the existing Saturn house
-    reading. Emit a single nodal-axis reading. Display the raw BAV band and kakshya support separately; numerical
-    details are admin/tester-only.
+  delivery: Attach area modifiers only to the bound target topic. Phase names annotate the existing Saturn house reading.
+    Emit a single nodal-axis reading. Display the raw BAV band and kakshya support separately; numerical details are
+    admin/tester-only.
 birth_time_availability: shared/confidence/output-matrix.yaml
+phase_variants:
+  kantaka:
+    admin_only: true
+    moon_distances:
+    - 1
+    - 4
+    - 7
+    - 10
+  degree_based: 'Start Saturn at natal Moon longitude minus 45 degrees; split into three successive 30-degree intervals.
+    Sign-based default; withhold if natal Moon crosses a sign boundary and the phase changes. Wording: modules/home/month.yaml.'
+  kantaka_variant_id: kantaka-kendras
+  degree_variant_id: saturn-degree-phase
+contact_modifiers:
+  reentry: Split each retrograde exit and return into distinct windows; attach repeated-contact emphasis without a
+    second vote.
+  station: A speed reversal within one degree of the natal point extends emphasis; editorial orb, shortest angular
+    distance.
+  dignity: Own or exalted sign supports expression, debilitation qualifies it. Bind the moving body and its transit
+    sign.
+  tara: Inclusive nakshatra distances 1, 10 and 19 are Janma, Anujanma and Trijanma contacts. Mark repetition; no
+    standalone vote.
+phase_reading: Use vedic.doshas.sade-sati for the formation and modules/home/month.yaml for the reading and gentle
+  phase wording.
+optional_study: Murti nirnaya, Latta and node Vedha as standalone transit readings are deferred.

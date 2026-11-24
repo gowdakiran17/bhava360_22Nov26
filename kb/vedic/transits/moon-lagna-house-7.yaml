@@ -1,0 +1,50 @@
+id: vedic.transits.moon-lagna-house-7
+system: vedic
+topic: transits
+title: Moon lagna house 7
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Locate moon in the current whole-sign chart relative to the stable natal Lagna. Highlight committed partnership,
+  agreements during this sign interval. Judge Moon-relative comfort separately.
+conditions:
+  all:
+  - fact: transit.moon.distance_from_lagna
+    op: eq
+    value: 7
+meaning: In matters of partnerships, attending to feelings may help you decide what to do next.
+life_areas:
+- love-marriage
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Vedic Astrology, An Integrated Approach
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: null
+  verse: null
+  other_locator: §25.3, other natal references
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of partnerships, attending to feelings may help you decide what to do next.
+  kn: ಪಾಲುದಾರಿಕೆ ವಿಷಯದಲ್ಲಿ ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: साझेदारी के मामलों में भावनाओं पर ध्यान देना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: transit
+  reference: lagna
+  area_strength:
+    love-marriage: related
+    business: related

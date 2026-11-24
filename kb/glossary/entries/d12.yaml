@@ -17,4 +17,6 @@ aliases:
 reference_rules:
 - vedic.vargas.d12-placement
 used_by:
+- vedic.vargas.d12-moon-dignity
 - vedic.vargas.d12-placement
+- vedic.vargas.d12-sun-dignity

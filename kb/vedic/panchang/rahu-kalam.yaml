@@ -31,7 +31,7 @@ sources:
   supports: Weekday offsets and proportional daylight length.
   verification: verified
 confidence: medium
-review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+review_notes: MODERN/POPULAR timing convention. Draft calendar explanation. Kannada and Hindi native review pending.
 user_text:
   en: You may prefer this part of the day for familiar tasks.
   kn: ದಿನದ ಈ ಭಾಗದಲ್ಲಿ ಪರಿಚಿತ ಕೆಲಸಗಳನ್ನು ಆಯ್ಕೆ ಮಾಡಿಕೊಳ್ಳಬಹುದು.

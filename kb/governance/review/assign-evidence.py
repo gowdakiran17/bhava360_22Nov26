@@ -59,6 +59,8 @@ def classify(r, recipes, slow):
             note='KB-35 selects support before modifiers; the source documents mixed indications.'
         if slug=='jupiter-moon-house-5':
             relevance['learning']='core'
+    elif system=='vedic' and ('-lagna-house-' in slug or topic in ('aspects','conjunctions') or (topic=='vargas' and 'release' in r)):
+        return r['evidence'], None, None
     elif topic=='planets-in-signs':
         kind = r['placement']['dignity']['sign_class']
         ref = 'none'
@@ -80,10 +82,11 @@ def classify(r, recipes, slow):
         if owner in (6,8,12) and h in (1,4,5,7,9,10):
             direction='caution'
             note='BPHS ch.24 and Phaladeepika ch.15: difficult-house ownership qualifies the placement.'
-        if (owner,h) in ((2,11),(11,2),(1,11),(5,11),(9,11)):
+        if (owner,h) in ((2,11),(11,2),(1,11),(5,11),(9,11),(2,2),(5,2),(9,2),(2,5),(2,9),(10,11),(11,11)):
             direction='support'
             note='Wealth-house linkage under BPHS ch.24 and ch.41.'
         if h in (6,8,12) and r['house_pair']['source_house'] in (6,8,12):
+            direction,weight='neutral','modifier'
             yoga={6:'harsha',8:'sarala',12:'vimala'}[r['house_pair']['source_house']]
             note='Test vedic.yogas.'+yoga+' before synthesizing this dusthana placement.'
     elif topic in ('yogas','raja-yogas','doshas'):
@@ -120,7 +123,7 @@ def classify(r, recipes, slow):
     elif system=='western' and (topic=='aspects' or topic in ('transits','progressions') and '-contact-' in slug) and (slug=='saturn-square-sun' or slug.split('-')[-1] in ('square','opposition','trine','sextile')):
         direction='support' if slug.split('-')[-1] in ('trine','sextile') else 'caution'
         weight='secondary'
-    elif topic=='transits' and slug in ('vedha-obstruction','ashtama-shani','kantaka-shani','sade-sati-rising','sade-sati-middle','sade-sati-closing'):
+    elif topic=='transits' and slug in ('vedha-obstruction','ashtama-shani','ardhashtama-shani','sade-sati-rising','sade-sati-middle','sade-sati-closing'):
         direction,weight,ref='caution','modifier','moon'
     if direction=='context' and scope=='natal' and topic in ('natal','planets-in-houses','placements'):
         reason='Chart placement supplies a theme; a single direction requires chart-specific corroboration.'

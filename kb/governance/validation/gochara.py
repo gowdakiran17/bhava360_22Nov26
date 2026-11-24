@@ -39,6 +39,69 @@ def blocked(profile, graha, positions):
     return None
 
 
+def bound_qualifiers(area, graha, reference, inputs, config, aspects, vedha, limits, evaluate):
+    """Resolve the two predicates for one testimony, reference and dated area target."""
+    from synthesis import double, transit_pace
+    origin=inputs.get(reference)
+    if (origin is None or graha not in config['grahas'] or
+        (reference=='lagna' and inputs.get('tier')=='C')):
+        return dict(challenge=None,support=None)
+    moving=inputs['signs'].get(graha)
+    if moving is None:
+        return dict(challenge=None,support=None)
+    targets=[(origin+h-1)%12 for h in config['areas'][area]['houses']]
+    lords=[inputs.get('lord_signs',{}).get(t) for t in targets]
+    known_targets=targets+[s for s in lords if s is not None]
+    contact=any(house(t,moving) in (1,*aspects[graha]) for t in known_targets)
+    values={'transit.contact.area_target':contact if contact or None not in lords else None}
+    if reference=='moon':
+        positions={g:house(sign,origin) for g,sign in inputs['signs'].items() if sign is not None}
+        h=positions[graha]
+        support=h in vedha['support_to_obstruction'].get(graha,{3,6,11})
+        blockers=blocked(vedha,graha,positions) if support and graha not in NODES else []
+        values.update({'transit.moon.house_stance':'support' if support else 'caution',
+                       'transit.vedha.blocked':bool(blockers) if blockers is not None else None,
+                       'transit.saturn.phase_challenge':graha=='saturn' and h in (12,1,2,4,8)})
+    if inputs.get('av_available') and inputs.get('tier')!='C' and graha not in NODES:
+        band=inputs.get('bav_band')
+        values.update({'transit.bav.band':band,'transit.bav.supportive':band=='Supportive' if band else None})
+        if graha in ('jupiter','saturn'):
+            qualified=double(inputs['signs'],known_targets,aspects)
+            if not qualified and None in lords: qualified=None
+            pace=transit_pace(inputs.get('av',[]),limits)
+            values['transit.double.'+('common_target' if reference=='lagna' else 'moon_target')]=qualified
+            values['transit.double.pace_supported']=None if pace=='unknown' else pace=='supported'
+    return {kind:evaluate(node,values) for kind,node in config['predicates'].items()}
+
+
+def saturn_phase(saturn, moon, *, degree_based=False):
+    if saturn is None or moon is None:
+        return None
+    if degree_based:
+        arc=(saturn-moon+45)%360
+        return 1+int(arc//30) if arc<90 else 0
+    return {12:1,1:2,2:3}.get(house(int(saturn%360//30),int(moon%360//30)),0)
+
+
+def relief_sources(profile, graha, positions):
+    """Inverse pairs are a multimap: several favoured places can have one blocker."""
+    adverse=positions.get(graha)
+    if adverse is None:
+        return None
+    result=set()
+    incomplete=False
+    for fav,obstruction in profile['support_to_obstruction'].get(graha,{}).items():
+        if obstruction!=adverse:
+            continue
+        eligible=set(profile['eligible_blockers'])-{graha}
+        for pair in profile['mutual_exemptions']:
+            if graha in pair:
+                eligible.difference_update(pair)
+        result.update(p for p in eligible if positions.get(p)==fav)
+        incomplete |= any(positions.get(p) is None for p in eligible)
+    return sorted(result) if result or not incomplete else None
+
+
 def validate_gochara(rules, read, evaluate, require):
     fixture = read('examples/gochara-reference.yaml')
     require(fixture['synthetic'] is True, 'synthetic transit fixtures')
@@ -62,7 +125,7 @@ def validate_gochara(rules, read, evaluate, require):
     step = timedelta(days=s['window_days'])
     require(step.days > 0 and s['expected_moon_houses'] == list(range(1,13)), 'dated house sweep')
     phase = {12:'sade-sati-rising', 1:'sade-sati-middle', 2:'sade-sati-closing',
-             4:'kantaka-shani', 8:'ashtama-shani'}
+             4:'ardhashtama-shani', 8:'ashtama-shani'}
     for g in PLANETS + NODES:
         slugs = ['saturn-moon' if (g,h)==('saturn',1) else f'{g}-moon-house-{h}' for h in range(1,13)]
         key = f'transit.{g}.distance_from_natal_moon'
@@ -137,3 +200,40 @@ def validate_gochara(rules, read, evaluate, require):
         turn = speed==0 and 0<i<len(samples)-1 and samples[i-1][1]*samples[i+1][1]<0
         check('station','motion.station',turn,expected=='station')
         check('retrograde','motion.retrograde',speed<0,expected=='retrograde')
+
+    # G1: Cancer Saturn viewed from Capricorn rising and Libra Moon.
+    for graha in PLANETS + NODES:
+        key=f'transit.{graha}.distance_from_lagna'
+        for sign in range(12):
+            h=house(sign,9)
+            slug=f'{graha}-lagna-house-{h}'
+            require(fires(slug,{key:h}) and fires(slug,{}) is None and
+                    rules[PREFIX+slug]['evidence']['reference']=='lagna',slug)
+    require((house(3,9),house(3,6))==(7,10),'G1 independent reference chips')
+    require([house(i,9) for i in [3,4,3]]==[7,8,7],'retrograde exit and re-entry')
+    require(len({house(3,int(deg//30)) for deg in [29.8,30.2]})==2,'withhold ambiguous Moon phase')
+    qualifiers=read('vedic/transits/qualifiers.yaml')['areas']
+    require(len(qualifiers)==11,'area coverage')
+    for area,row in qualifiers.items():
+        for kind,node in read('vedic/transits/qualifiers.yaml')['predicates'].items():
+            require(evaluate(node,{}) is None and evaluate(node,{'transit.contact.area_target':False}) is False,area)
+            trigger='transit.vedha.blocked' if kind=='challenge' else 'transit.bav.supportive'
+            require(evaluate(node,{'transit.contact.area_target':True,trigger:True}),area)
+
+    config=read('vedic/transits/qualifiers.yaml')
+    limits=read('life-areas/pipeline.yaml')['transit']['pace']
+    inputs=dict(lagna=9,moon=6,signs={'saturn':3,'jupiter':3},tier='C',
+                av_available=True,bav_band='Supportive',av=[(40,6),(40,6)])
+    require(bound_qualifiers('love-marriage','saturn','lagna',inputs,config,aspects,vedha,limits,evaluate)
+            ==dict(challenge=None,support=None),'Tier C withholds Lagna reference')
+    moon=bound_qualifiers('career','saturn','moon',inputs,config,aspects,vedha,limits,evaluate)
+    require(moon['challenge'] is True and moon['support'] is not True,'Tier C Moon without AV inheritance')
+
+    require([saturn_phase(v,0,degree_based=True) for v in (314.99,315,345,15,45)]==[0,1,2,3,0]
+            and saturn_phase(None,0) is None,'degree-phase edges and wrap')
+    require(saturn_phase(0,29.99)==2 and saturn_phase(0,30)==1,'Moon-sign phase changes')
+    positions=dict.fromkeys(PLANETS,2)
+    for adverse,fav in [(3,11),(6,12)]:
+        positions.update(venus=adverse,mars=fav)
+        require(relief_sources(vedha,'venus',positions)==['mars'],'inverse Venus vedha')
+    require(relief_sources(vedha,'venus',{'venus':3}) is None,'unknown reverse blocker')

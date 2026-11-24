@@ -57,3 +57,12 @@ width_arcseconds:
   yoga: 48000
 sunrise_anomalies: 'Compare unwrapped tithi indices at consecutive sunrises: equal means repeated; a jump exceeding
   one skips every intervening index in the sunrise labels. Each intervening angular interval still exists.'
+election_tables:
+- vedic/panchang/election-intervals.yaml
+- vedic/panchang/election-yogas.yaml
+tithi_binding: Local day labels use the tithi at apparent sunrise. Festival-specific observance rules may bind another
+  limb/time. Elections use the actual instantaneous tithi throughout each candidate interval.
+later_tables:
+- Samvatsara
+- Ritu
+- Ayana

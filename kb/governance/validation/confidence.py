@@ -158,7 +158,7 @@ def validate(read, require):
             'required confidence explanations')
     for key,row in rows.items():
         require(all(row[t] in matrix['actions'] for t in 'ABC'), key+' invalid matrix cell')
-    vargas = [key for key,v in rows.items() if v.get('varga')]
+    vargas = [key for key,v in rows.items() if v.get('varga') and v.get('scope')=='Lagna/houses']
     require(set(vargas)=={'d'+str(n) for n in (2,3,4,7,9,10,12,16,20,24,27,30,40,45,60)},'divisional coverage')
     require(all(rows[k]['B']=='hide' and rows[k]['C']=='hide' for k in
                 ('d24','d60','kp-cuspal-sub-lords','kp-house-significators','kp-cuspal-prashna',
@@ -246,6 +246,10 @@ def validate(read, require):
         data=dict(traces, **{'moon-nakshatra':trace(23,(0,24))})
         require(all(key in run(precision,data)['withheld'] for key in ('maha-name','antar-name','maha-dates','antar-dates')),'dasha boundary')
     c=run('unknown',traces)
+    require(all(k in c['withheld'] for k in ('bav','sav','kakshya','d9')) and
+            c['outputs']['d9-planet-sign']['action']=='show','planet-only evidence independent of Lagna')
+    boundary=dict(traces, **{'local-sunrise-vara-hora':trace('night', (0,'day'))})
+    require({'birth-panchanga','shadbala-kala'}<=set(run('exact',boundary)['withheld']),'sunrise-sensitive natal factors')
     require(all(c['outputs'][key]['action']=='show' for key in ('maha-name','antar-name','kp-planet-star-lord','kp-planet-sub-lord'))
             and c['outputs']['kp-cuspal-prashna']['action']=='hide','stable dasha and independent KP planet results')
     require('antar-name' in run('unknown',dict(traces,**{'antar-lord':trace('venus',(0,'sun'))}))['withheld'],

@@ -1,0 +1,52 @@
+id: vedic.transits.mars-lagna-house-9
+system: vedic
+topic: transits
+title: Mars lagna house 9
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Locate mars in the current whole-sign chart relative to the stable natal Lagna. Highlight teachers, ethical
+  commitments during this sign interval. Judge Moon-relative comfort separately.
+conditions:
+  all:
+  - fact: transit.mars.distance_from_lagna
+    op: eq
+    value: 9
+meaning: In matters of study and travel, taking initiative may help you decide what to do next.
+life_areas:
+- learning
+- spirituality
+- travel-relocation
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Vedic Astrology, An Integrated Approach
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: null
+  verse: null
+  other_locator: §25.3, other natal references
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of study and travel, taking initiative may help you decide what to do next.
+  kn: ಅಧ್ಯಯನ ಮತ್ತು ಪ್ರಯಾಣ ವಿಷಯದಲ್ಲಿ ಮುಂದಾಗಿ ಪ್ರಯತ್ನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: अध्ययन और यात्रा के मामलों में पहल करना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: transit
+  reference: lagna
+  area_strength:
+    learning: related
+    spirituality: related
+    travel-relocation: related

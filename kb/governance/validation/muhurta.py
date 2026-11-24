@@ -47,7 +47,8 @@ def election(c,profile,policy,limbs,stars,eighths,orbs):
     if karana=='vishti' or crosses_vishti:
         gates.add('vishti')
     unresolved = False
-    for body in profile['combustion']:
+    angular_asta = c.get('asta_method')!='visibility-days' and c.get('region_switches',{}).get('asta',True)
+    for body in (profile['combustion'] if angular_asta else []):
         if body not in c:
             unresolved=True
             continue
@@ -98,6 +99,13 @@ def election(c,profile,policy,limbs,stars,eighths,orbs):
         if 'chandra' in reliefs and house==8 and tara in policy['tara']['support']:
             chandra='neutral'
         evidence['chandra/'+person]=chandra
+    from election_factors import classify_extra
+    blocked, missing, soft = classify_extra(c, profile, policy, values, evidence, (rise,setting,start,end), DAYS, stars)
+    if blocked:
+        return False,'Take care',{'blocked':blocked}
+    if missing:
+        return None,None,{'missing':missing}
+    evidence.update(soft)
     return True,classify(set(evidence.values())-{'neutral'}),evidence
 
 
@@ -113,6 +121,7 @@ def validate_muhurta(rules,read,evaluate,require):
     expected='marriage griha-pravesha vehicle-purchase business-start naming travel education-start property-registration'.split()
     require(set(selection['activity_profiles'])==set(expected),'eight activity profiles')
     require(policy['ranking']==['Supportive','Steady','Take care'],'tone order')
+    policy.update(interval_table=read('vedic/panchang/election-intervals.yaml'),day_yoga_table=read('vedic/panchang/election-yogas.yaml'),regions=read('vedic/muhurta/region-policy.yaml')['toggles'])
     tables=read('vedic/panchang/limb-tables.yaml')
     stars=[s['id'] for s in read(tables['nakshatra_catalog'])['nakshatras']]
     eighths=read('vedic/panchang/limbs.yaml')['day_eighths_sunday_first']['rahu']
@@ -171,3 +180,55 @@ def validate_muhurta(rules,read,evaluate,require):
     require(classify(set())=='Steady' and classify({'avoid'})=='Take care' and
             classify({'avoid','support'})=='Steady', 'tone decision matrix')
     print('Muhurta passed: eight dated activity profiles, personal reliefs, hard exclusions, and qualitative tones.')
+
+    marriage=rules[selection['activity_profiles']['marriage']]['activity_profile']
+    avoid=set(marriage['factors']['yoga']['avoid'])
+    require(avoid<=set('Vishkambha Atiganda Shula Ganda Vyaghata Vajra Vyatipata Parigha Vaidhriti'.split())
+            and 'Dhruva' in marriage['factors']['yoga']['support'],'marriage nitya yoga')
+    base={**fixture['window'],**fixture['cases']['marriage']}
+    def blocked(patch, reason):
+        ok,_,info=run({**base,**patch},marriage)
+        return ok is False and reason in info['blocked']
+    for patch,reason in [
+        ({'occupied_houses':[7]},'seventh_occupied'),({'occupied_houses':[8]},'eighth_occupied'),
+        ({'star_vedha':True},'star_obstructed'),({'adhika':True},'adhika'),
+        ({'sun':240,'moon':270},'kharmas'),({'sun':359.99,'moon':29.99},'kharmas'),
+        ({'moon':55},'rikta_or_new'),({'moon':15},'rikta_or_new'),
+        ({'region_switches':{'chaturmas':True},'chaturmas':True},'chaturmas'),
+        ({'region_switches':{'holashtak':True},'holashtak':True},'holashtak'),
+        ({'asta_method':'visibility-days','invisible_luminary':True},'asta'),
+        ({'vishti_intervals':[[base['sunrise'],base['end']]]},'vishti'),
+    ]:
+        require(blocked(patch,reason),(reason,patch))
+    require(run(dict(base,occupied_houses=None),marriage)[0] is None,'missing house testimony')
+    require(run(dict(base,star_interval=None),marriage)[0] is None,'unbracketed star')
+    require(run(dict(base,chaturmas=True,holashtak=True),marriage)[0] is True,'regional opt-in')
+    sample=read('examples/transits-vargas-elections.yaml')['M5']
+    winners=[]
+    for date,start,end,expected in sample['candidates']:
+        c=dict(base)
+        def at(hhmm): return date+'T'+hhmm+':00+05:30'
+        c.update(sunrise=at('06:00'),sunset=at('18:00'),start=at(start),end=at(end),
+                 star_interval=[at('05:30'),(datetime.fromisoformat(at('05:30'))+timedelta(days=1)).isoformat()])
+        ok,tone,info=run(c,marriage)
+        require((tone if ok else info['blocked'][0])==expected,(date,start,expected,tone,info))
+        winners.append((c['start'],c['end'],ok,tone))
+    require(len(recommendations(winners,policy['ranking']))==3,'M5 survivors')
+    travel=rules[selection['activity_profiles']['travel']]['activity_profile']
+    departure=dict(base, participants=['Asha'], direction='south',region_switches={'panchaka':True},sun=270)
+    for moon,expected in [(299.99,False),(300,True),(359.99,True),(0,False)]:
+        # Keep elongation fixed so that an independent Vishti interval cannot mask this gate.
+        ok,_,info=run(dict(departure,moon=moon,sun=(moon-30)%360),travel)
+        require(('panchaka' in info.get('blocked',[]))==expected,(moon,info))
+    for location,zone,offset in [('Honolulu','Pacific/Honolulu','-10:00'),('Delhi','Asia/Kolkata','+05:30'),
+                                  ('Bengaluru','Asia/Kolkata','+05:30')]:
+        from zoneinfo import ZoneInfo
+        # Invented short winter daylight, Friday Rahu is the fourth of eight equal intervals.
+        def local(value): return '2032-12-17T'+value+':00'+offset
+        c=dict(base,city=location,sunrise=local('07:00'),sunset=local('17:00'),start=local('10:45'),end=local('10:46'))
+        require(datetime.fromisoformat(c['start']).astimezone(ZoneInfo(zone)).hour==10,location)
+        require('rahu-kalam' in run(c,marriage)[2]['blocked'],location+' short winter Rahu interval')
+        c.update(start=local('07:00'),end=local('07:01'),vishti_intervals=[[local('06:50'),local('07:01')]])
+        require('vishti' in run(c,marriage)[2]['blocked'],location+' Vishti spanning sunrise')
+    require([(a[:10],a[11:16],b[11:16],t) for a,b,t in recommendations(winners,policy['ranking'])]==
+            [tuple(row) for row in sample['ranked_survivors']],'M5 ranked display')

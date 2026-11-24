@@ -4,8 +4,8 @@ topic: transits
 title: love-marriage · watch
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area house.
-  Bind graha, reference house, interval and qualifying rule ID.
+rule: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+  Withhold unavailable branches.
 conditions:
   all:
   - fact: transit.love-marriage.qualified_challenge

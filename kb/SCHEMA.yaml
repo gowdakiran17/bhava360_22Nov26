@@ -237,3 +237,9 @@ period_and_yoga_bindings:
   modulation: Resolve the shared lord and pair note sets in vedic/dashas/vimshottari/modulation.yaml for each named period. Upcoming records link to existing transit predicates.
   yoga: Every individual yoga references the shared activation record, binds the actual grahas of its formation, applies exceptions, then the participant grade and period gates.
   sensitive: An admin-only rule has a null public key and no reading, translation, alias or consumer route.
+vedic_area_varga_entries:
+  release:
+  - mvp
+  - post-mvp
+  scope: Topic readings use a typed condition for the bound factor; calculation entries retain the varga method block.
+    Only MVP topic readings feed synthesis.

@@ -66,6 +66,7 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  indian-election-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: general election gates with regional switches}
   parashari-synthesis-v1: {approval: draft, calculation: vedic-lahiri-v1}
   moon-daily-v1: {approval: draft, calculation: vedic-lahiri-v1}
   birth-time-confidence-v1: {approval: draft, scope: output-availability, source: shared/confidence/birth-time-tiers.yaml}
@@ -128,6 +129,10 @@ doctrine_profiles:
   bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:
+  vipareeta-vedha: {system: vedic, approval: draft, scope: reverse Moon-relative obstruction}
+  saturn-degree-phase: {system: vedic, approval: draft, scope: degree-centred Saturn passage}
+  kantaka-kendras: {system: vedic, approval: draft, scope: private regional kendra reading}
+  asta-visibility-days: {system: vedic, approval: draft, scope: observed local visibility intervals}
   mutual-full-aspect: {system: vedic, approval: draft, scope: alternate mutual full aspect for qualifying yoga lords}
   budhaditya-close-orb: {system: vedic, approval: draft, scope: narrow Mercury conjunction qualification}
   gender-specific-marriage-karaka: {system: vedic, approval: draft, scope: opt-in classical karaka split pending owner review}

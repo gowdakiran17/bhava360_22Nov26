@@ -30,7 +30,7 @@ sources:
   supports: Weekday starting labels and distinct day and night sequences.
   verification: verified
 confidence: medium
-review_notes: Draft calendar explanation. Kannada and Hindi native review pending.
+review_notes: MODERN/POPULAR timing convention. Draft calendar explanation. Kannada and Hindi native review pending.
 user_text:
   en: You can compare the day and evening intervals when planning an errand.
   kn: ಕೆಲಸವನ್ನು ಯೋಜಿಸುವಾಗ ಹಗಲು ಮತ್ತು ಸಂಜೆಯ ಅವಧಿಗಳನ್ನು ಹೋಲಿಸಬಹುದು.

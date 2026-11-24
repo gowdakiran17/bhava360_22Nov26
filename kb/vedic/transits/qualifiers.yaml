@@ -1,0 +1,119 @@
+approval: draft
+binding: Bind one target and one reference. Moon stance, vedha and Saturn phases apply only to Moon. BAV requires
+  a stable Lagna; node BAV has no row. Missing facts are unknown. Support and challenge are separate chips. Forward
+  Vedha is unblocked by convention on the node Moon rows because nodes have no forward pairs. Traditional BAV rows
+  require their own availability; non-applicable factors do not vote.
+areas:
+  career:
+    houses:
+    - 10
+    - 2
+    - 6
+    - 11
+  love-marriage:
+    houses:
+    - 7
+    - 2
+    - 11
+  money:
+    houses:
+    - 2
+    - 11
+    - 5
+    - 9
+  health:
+    houses:
+    - 1
+    - 6
+  family-home:
+    houses:
+    - 4
+    - 2
+  learning:
+    houses:
+    - 4
+    - 5
+    - 9
+  travel-relocation:
+    houses:
+    - 3
+    - 9
+    - 12
+  property-vehicles:
+    houses:
+    - 4
+    - 11
+    - 2
+  children:
+    houses:
+    - 5
+    - 9
+  business:
+    houses:
+    - 10
+    - 2
+    - 6
+    - 11
+    - 7
+    - 3
+  spirituality:
+    houses:
+    - 9
+    - 12
+    - 5
+predicates:
+  challenge:
+    all:
+    - fact: transit.contact.area_target
+      op: eq
+      value: true
+    - any:
+      - fact: transit.vedha.blocked
+        op: eq
+        value: true
+      - fact: transit.bav.band
+        op: eq
+        value: Take care
+      - fact: transit.saturn.phase_challenge
+        op: eq
+        value: true
+      - fact: transit.moon.house_stance
+        op: eq
+        value: caution
+  support:
+    all:
+    - fact: transit.contact.area_target
+      op: eq
+      value: true
+    - any:
+      - all:
+        - fact: transit.moon.house_stance
+          op: eq
+          value: support
+        - fact: transit.vedha.blocked
+          op: eq
+          value: false
+      - fact: transit.bav.supportive
+        op: eq
+        value: true
+      - all:
+        - any:
+          - fact: transit.double.common_target
+            op: eq
+            value: true
+          - fact: transit.double.moon_target
+            op: eq
+            value: true
+        - fact: transit.double.pace_supported
+          op: eq
+          value: true
+grahas:
+- sun
+- moon
+- mars
+- mercury
+- jupiter
+- venus
+- saturn
+- rahu
+- ketu

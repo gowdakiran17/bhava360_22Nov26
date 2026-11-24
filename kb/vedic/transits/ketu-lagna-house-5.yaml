@@ -1,0 +1,50 @@
+id: vedic.transits.ketu-lagna-house-5
+system: vedic
+topic: transits
+title: Ketu lagna house 5
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Locate ketu in the current whole-sign chart relative to the stable natal Lagna. Highlight children, discernment
+  during this sign interval. Judge Moon-relative comfort separately.
+conditions:
+  all:
+  - fact: transit.ketu.distance_from_lagna
+    op: eq
+    value: 5
+meaning: In matters of creative learning, making space to reflect may help you decide what to do next.
+life_areas:
+- children
+- learning
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Vedic Astrology, An Integrated Approach
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: null
+  verse: null
+  other_locator: §25.3, other natal references
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of creative learning, making space to reflect may help you decide what to do next.
+  kn: ಸೃಜನಶೀಲ ಕಲಿಕೆ ವಿಷಯದಲ್ಲಿ ಚಿಂತನೆಗೆ ಸಮಯ ಕೊಡುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: रचनात्मक सीख के मामलों में मनन के लिए समय निकालना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: transit
+  reference: lagna
+  area_strength:
+    children: related
+    learning: related
