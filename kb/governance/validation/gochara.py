@@ -39,6 +39,41 @@ def blocked(profile, graha, positions):
     return None
 
 
+def bound_qualifiers(area, graha, reference, inputs, config, aspects, vedha, limits, evaluate):
+    """Resolve the two predicates for one testimony, reference and dated area target."""
+    from synthesis import double, transit_pace
+    origin=inputs.get(reference)
+    if (origin is None or graha not in config['grahas'] or
+        (reference=='lagna' and inputs.get('tier')=='C')):
+        return dict(challenge=None,support=None)
+    moving=inputs['signs'].get(graha)
+    if moving is None:
+        return dict(challenge=None,support=None)
+    targets=[(origin+h-1)%12 for h in config['areas'][area]['houses']]
+    lords=[inputs.get('lord_signs',{}).get(t) for t in targets]
+    known_targets=targets+[s for s in lords if s is not None]
+    contact=any(house(t,moving) in (1,*aspects[graha]) for t in known_targets)
+    values={'transit.contact.area_target':contact if contact or None not in lords else None}
+    if reference=='moon':
+        positions={g:house(sign,origin) for g,sign in inputs['signs'].items() if sign is not None}
+        h=positions[graha]
+        support=h in vedha['support_to_obstruction'].get(graha,{3,6,11})
+        blockers=blocked(vedha,graha,positions) if support and graha not in NODES else []
+        values.update({'transit.moon.house_stance':'support' if support else 'caution',
+                       'transit.vedha.blocked':bool(blockers) if blockers is not None else None,
+                       'transit.saturn.phase_challenge':graha=='saturn' and h in (12,1,2,4,8)})
+    if inputs.get('av_available') and inputs.get('tier')!='C' and graha not in NODES:
+        band=inputs.get('bav_band')
+        values.update({'transit.bav.band':band,'transit.bav.supportive':band=='Supportive' if band else None})
+        if graha in ('jupiter','saturn'):
+            qualified=double(inputs['signs'],known_targets,aspects)
+            if not qualified and None in lords: qualified=None
+            pace=transit_pace(inputs.get('av',[]),limits)
+            values['transit.double.'+('common_target' if reference=='lagna' else 'moon_target')]=qualified
+            values['transit.double.pace_supported']=None if pace=='unknown' else pace=='supported'
+    return {kind:evaluate(node,values) for kind,node in config['predicates'].items()}
+
+
 def validate_gochara(rules, read, evaluate, require):
     fixture = read('examples/gochara-reference.yaml')
     require(fixture['synthetic'] is True, 'synthetic transit fixtures')
@@ -156,3 +191,12 @@ def validate_gochara(rules, read, evaluate, require):
             require(evaluate(node,{}) is None and evaluate(node,{'transit.contact.area_target':False}) is False,area)
             trigger='transit.vedha.blocked' if kind=='challenge' else 'transit.bav.supportive'
             require(evaluate(node,{'transit.contact.area_target':True,trigger:True}),area)
+
+    config=read('vedic/transits/qualifiers.yaml')
+    limits=read('life-areas/pipeline.yaml')['transit']['pace']
+    inputs=dict(lagna=9,moon=6,signs={'saturn':3,'jupiter':3},tier='C',
+                av_available=True,bav_band='Supportive',av=[(40,6),(40,6)])
+    require(bound_qualifiers('love-marriage','saturn','lagna',inputs,config,aspects,vedha,limits,evaluate)
+            ==dict(challenge=None,support=None),'Tier C withholds Lagna reference')
+    moon=bound_qualifiers('career','saturn','moon',inputs,config,aspects,vedha,limits,evaluate)
+    require(moon['challenge'] is True and moon['support'] is not True,'Tier C Moon without AV inheritance')

@@ -3641,12 +3641,14 @@ kalachakra
 kalam
 kalamrita
 kalanidhi
+kalaprakashika
 kalapurusha
 kalidasa
 kalpadruma
 kalyanavarman
 kamakoti
 kamala
+kanda
 kannada
 kantaka
 kanya
@@ -7026,6 +7028,7 @@ xiv
 xix
 xml
 xmlns
+xv
 y
 y4
 ya

@@ -246,6 +246,10 @@ def validate(read, require):
         data=dict(traces, **{'moon-nakshatra':trace(23,(0,24))})
         require(all(key in run(precision,data)['withheld'] for key in ('maha-name','antar-name','maha-dates','antar-dates')),'dasha boundary')
     c=run('unknown',traces)
+    require(all(k in c['withheld'] for k in ('bav','sav','kakshya','d9')) and
+            c['outputs']['d9-planet-sign']['action']=='show','planet-only evidence independent of Lagna')
+    boundary=dict(traces, **{'local-sunrise-vara-hora':trace('night', (0,'day'))})
+    require({'birth-panchanga','shadbala-kala'}<=set(run('exact',boundary)['withheld']),'sunrise-sensitive natal factors')
     require(all(c['outputs'][key]['action']=='show' for key in ('maha-name','antar-name','kp-planet-star-lord','kp-planet-sub-lord'))
             and c['outputs']['kp-cuspal-prashna']['action']=='hide','stable dasha and independent KP planet results')
     require('antar-name' in run('unknown',dict(traces,**{'antar-lord':trace('venus',(0,'sun'))}))['withheld'],

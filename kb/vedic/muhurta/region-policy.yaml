@@ -1,4 +1,5 @@
 approval: draft
+profile: indian-election-v1
 selection: General Indian draft. Opt-in northern regional seasons and local Panchaka restrictions; store chosen switches
   with each query.
 toggles:

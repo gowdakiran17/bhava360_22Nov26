@@ -1,6 +1,6 @@
 # Bhava360 knowledge base edition 1
 
-This is a reviewable authoring edition. It contains 1,812 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 1,812 rules have English, Kannada and Hindi user text and retain draft status.
+This is a reviewable authoring edition. It contains 2,175 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,175 rules have English, Kannada and Hindi user text and retain draft status.
 
 ## Where to start
 

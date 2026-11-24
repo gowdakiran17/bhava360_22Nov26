@@ -62,3 +62,7 @@ election_tables:
 - vedic/panchang/election-yogas.yaml
 tithi_binding: Local day labels use the tithi at apparent sunrise. Festival-specific observance rules may bind another
   limb/time. Elections use the actual instantaneous tithi throughout each candidate interval.
+later_tables:
+- Samvatsara
+- Ritu
+- Ayana

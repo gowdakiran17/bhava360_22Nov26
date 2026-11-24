@@ -74,7 +74,9 @@ def classify_extra(c, profile, policy, election, evidence, bounds, days, stars):
         elif name=='kharmas':
             gates[name]=int(c['sun']%360//30) in (8,11)
         elif name=='panchaka':
-            gates[name]=c['moon']%360>=300 and (profile['activity']!='travel' or c.get('direction')=='south')
+            gates[name]=c['moon']%360>=300
+            if gates[name] and profile['activity']=='travel':
+                gates[name]=None if c.get('direction') is None else c['direction']=='south'
         else:
             gates[name]=c.get(name)
         active.add(name)

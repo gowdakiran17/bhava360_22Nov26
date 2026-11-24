@@ -16,7 +16,13 @@ life_areas:
 - love-marriage
 - business
 strength_notes: []
-exceptions: []
+exceptions:
+- when:
+    fact: d1.aspect.source_impaired
+    op: eq
+    value: true
+  effect: soften
+  reason: Reduced strength of the bound source qualifies this aspect.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected

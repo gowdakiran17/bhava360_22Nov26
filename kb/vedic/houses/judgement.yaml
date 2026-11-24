@@ -312,3 +312,12 @@ reading_index:
   - vedic.vargas.d24-mercury-dignity
 scope: Aspect pairs deliberately cover Jupiter, Saturn and Mars to Moon, Venus and partnership/career lords. Other
   pairs enter the general full-aspect test. The six promise factors and their count are owned by life-areas/pipeline.yaml.
+karaka_traditions:
+  default_source: Uttara Kalamrita, Kanda V (edition and precise locator pending). Use house-specific significators
+    in the house catalogue.
+  variant: Phaladeepika XV includes alternative significators. Some traditions require another affliction to apply
+    the caution.
+  examples:
+  - Jupiter in fifth
+  - Venus in seventh
+  effect: Soften the corresponding karaka testimony. Do not increment a separate promise factor.

@@ -47,7 +47,8 @@ def election(c,profile,policy,limbs,stars,eighths,orbs):
     if karana=='vishti' or crosses_vishti:
         gates.add('vishti')
     unresolved = False
-    for body in profile['combustion'] if c.get("asta_method")!="visibility-days" and c.get("region_switches",{}).get("asta",True) else []:
+    angular_asta = c.get('asta_method')!='visibility-days' and c.get('region_switches',{}).get('asta',True)
+    for body in (profile['combustion'] if angular_asta else []):
         if body not in c:
             unresolved=True
             continue

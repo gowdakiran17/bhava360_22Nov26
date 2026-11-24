@@ -197,6 +197,13 @@ def validate(read, require):
             result['upcoming']==[(4,'sankranti','sun'),(5,'antar','mars'),(6,'station','venus')],
             'actual sankranti house, deduplication, slow events outside list and three-item limit')
     require(phase(12,28,'Benefic')==['phase','phase-support','phase-timing'] and not phase(3,30,'Benefic'),'phase')
+    require(phase(1,20,None,'taurus',2)==['phase','phase-support'] and
+            phase(2,20,None,'aries',4)==['phase','phase-support'] and
+            phase(1,35,None,'taurus',6,'C')==['phase'],'Saturn background qualifications and Tier C')
+    for patch in ({'birth_moon':7,'birth_star':0,'transit_star':0},{'birth_moon':0}):
+        local=dict(fixture['base'],tithi='Bhadra',**patch)
+        require(day_result(local,policy,vedha,ranking,activity,aspects,OWNERS)['easy']==['starting-work','travel'],
+                'Janma and Chandrashtama qualify new starts independently of Rikta')
     messages=read('modules/home/copy.yaml')['messages']
     for i,segment in enumerate(('rising','middle','closing'),1):
         rule=read(f'vedic/transits/sade-sati-{segment}.yaml')

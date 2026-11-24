@@ -66,6 +66,7 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  indian-election-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: general election gates with regional switches}
   parashari-synthesis-v1: {approval: draft, calculation: vedic-lahiri-v1}
   moon-daily-v1: {approval: draft, calculation: vedic-lahiri-v1}
   birth-time-confidence-v1: {approval: draft, scope: output-availability, source: shared/confidence/birth-time-tiers.yaml}

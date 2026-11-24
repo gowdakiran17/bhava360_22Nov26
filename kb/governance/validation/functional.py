@@ -67,7 +67,18 @@ def resolve(table, lagna, graha, node_sign=None, occupied=None, associated=None)
     return row['polarity']
 
 
+def node_yoga(house, associate_lordships):
+    if house is None or associate_lordships is None:
+        return None
+    kendra, trikona={1,4,7,10},{1,5,9}
+    return any((house in kendra and bool(trikona.intersection(owned))) or
+               (house in trikona and bool(kendra.intersection(owned))) for owned in associate_lordships)
+
+
 def validate(read, require):
+    require(node_yoga(4,[[5,12]]) and node_yoga(9,[[10,11]]) and not node_yoga(6,[[5,9]])
+            and node_yoga(None,[[1]]) is None,'conditional node yoga without ownership')
+
     table = read('vedic/lordships/functional.yaml')['cells']
     dignity = read('vedic/dignity/sign-dignities.yaml')['grahas']
     # Independent expected rows from the reviewed first-match worksheet.
