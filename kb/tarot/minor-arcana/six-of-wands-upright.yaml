@@ -73,3 +73,11 @@ card_profile:
   - recognition
   - reciprocity
   tone: Supportive
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    career: related
+    learning: related

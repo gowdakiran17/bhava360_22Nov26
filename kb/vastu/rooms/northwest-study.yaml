@@ -59,3 +59,11 @@ vastu:
   tone: Steady
   reason: The selected modern reading favours north or east for study. Seating and available light guide the practical
     suggestion. The selected profile gives a contextual reading for this placement.
+evidence:
+  direction: neutral
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

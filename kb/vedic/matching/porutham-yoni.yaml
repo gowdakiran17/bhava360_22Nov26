@@ -60,3 +60,10 @@ matching:
     - 2
   - - 5
     - 6
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

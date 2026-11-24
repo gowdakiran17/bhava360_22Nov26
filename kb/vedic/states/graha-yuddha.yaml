@@ -69,3 +69,9 @@ remedy:
     en: "You can give each priority a turn in the conversation."
     kn: ಎರಡೂ ವಿಷಯಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.
     hi: बातचीत में दोनों विषयों के लिए समय रख सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

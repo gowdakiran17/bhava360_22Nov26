@@ -176,3 +176,11 @@ activity_profile:
   reliefs:
   - chandra
   - naming-tuesday
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    children: related
+    family-home: related

@@ -17,6 +17,7 @@ graha:
   - release
   nature:
     class: malefic
+    functional_table: vedic/lordships/functional.yaml
     functional_nature:
       aries:
         houses_ruled: []
@@ -116,3 +117,11 @@ remedy:
     en: You can set aside a few quiet minutes for reflection.
     kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
     hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    spirituality: related
+    learning: related

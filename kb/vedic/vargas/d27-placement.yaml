@@ -99,3 +99,11 @@ varga:
     shodasavarga: 0.5
     dashavarga: 0
   purpose: personal capacities
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    health: related

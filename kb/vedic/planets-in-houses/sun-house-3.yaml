@@ -87,8 +87,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When practising a skill, you can be clear about what you are willing to stand behind.
   kn: ಕೌಶಲವೊಂದನ್ನು ಅಭ್ಯಾಸ ಮಾಡುವಾಗ ಯಾವುದಕ್ಕೆ ಹೊಣೆ ವಹಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಿ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
@@ -105,3 +105,11 @@ remedy:
     en: You can give credit to someone who helped you lead a task.
     kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: काम सँभालने में मदद करने वाले को श्रेय दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    family-home: related
+    learning: related

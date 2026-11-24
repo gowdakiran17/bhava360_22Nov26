@@ -102,3 +102,11 @@ remedy:
     en: If you like, you can listen without interrupting today.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಇಂದು ಮಧ್ಯೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
     hi: चाहें तो आज बिना टोके सुनने का अभ्यास कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    spirituality: related
+    learning: related

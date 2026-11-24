@@ -60,3 +60,10 @@ remedy:
     en: You may notice what helps people feel welcome.
     kn: ಜನರಿಗೆ ಆತ್ಮೀಯತೆ ಮೂಡಿಸುವ ವಿಷಯಗಳನ್ನು ನೀವು ಗಮನಿಸಬಹುದು.
     hi: आप देख सकते हैं कि लोगों को अपनापन किससे मिलता है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: core

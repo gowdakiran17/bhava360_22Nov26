@@ -40,7 +40,8 @@ sources:
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
 confidence: medium
-review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review. Chart placement supplies a theme; a single
+  direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: People born around the same time may share a theme of experimentation expressed through improving the details.
   kn: ಸುಮಾರು ಒಂದೇ ಅವಧಿಯಲ್ಲಿ ಹುಟ್ಟಿದವರಲ್ಲಿ “ಪ್ರಯೋಗಶೀಲತೆ” ಮತ್ತು “ಸಣ್ಣ ವಿವರಗಳನ್ನು ಸುಧಾರಿಸುವುದು” ಎಂಬ ವಿಷಯಗಳು ಸಾಮಾನ್ಯವಾಗಿರಬಹುದು.
@@ -49,3 +50,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

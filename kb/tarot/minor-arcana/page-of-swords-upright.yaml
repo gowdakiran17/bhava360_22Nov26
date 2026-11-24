@@ -72,3 +72,11 @@ card_profile:
   - careful inquiry
   - curiosity
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    learning: related
+    career: related

@@ -55,3 +55,9 @@ remedy:
     en: You may find that a small rehearsal helps both sides of an agreement.
     kn: ಒಂದು ಸಣ್ಣ ಅಭ್ಯಾಸ ಒಪ್ಪಂದದ ಎರಡೂ ಕಡೆಯವರಿಗೆ ನೆರವಾಗಬಹುದು.
     hi: थोड़ा अभ्यास समझौते के दोनों पक्षों के लिए मददगार हो सकता है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

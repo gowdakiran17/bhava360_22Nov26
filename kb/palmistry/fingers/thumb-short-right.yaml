@@ -77,3 +77,10 @@ guided:
   choice: fingers-thumb-short
   tone: Steady
   reason: This confirmed choice on the right hand selects the editorial prompt about taking time before a commitment.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

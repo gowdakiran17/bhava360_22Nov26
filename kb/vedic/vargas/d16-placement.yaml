@@ -98,3 +98,11 @@ varga:
     shodasavarga: 2
     dashavarga: 1.5
   purpose: comfort and transport
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    property-vehicles: related
+    travel-relocation: related

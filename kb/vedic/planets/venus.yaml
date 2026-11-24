@@ -17,6 +17,7 @@ graha:
   - agreement
   nature:
     class: benefic
+    functional_table: vedic/lordships/functional.yaml
     functional_nature:
       aries:
         houses_ruled:
@@ -179,3 +180,11 @@ remedy:
     en: You can make room for someone else’s preference today.
     kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.
     hi: आज किसी और की पसंद को भी जगह दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    family-home: related

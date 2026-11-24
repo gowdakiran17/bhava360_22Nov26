@@ -98,3 +98,10 @@ varga:
     shodasavarga: 0.5
     dashavarga: 0
   purpose: spiritual practice
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    spirituality: core

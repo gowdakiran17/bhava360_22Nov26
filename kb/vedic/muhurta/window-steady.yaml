@@ -35,3 +35,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: neutral
+  weight_class: primary
+  time_scope: event
+  reference: none
+  area_strength: {}

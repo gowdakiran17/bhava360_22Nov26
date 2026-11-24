@@ -36,3 +36,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength: {}

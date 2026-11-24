@@ -91,6 +91,16 @@ class EngineExport(unittest.TestCase):
             if path.startswith('public/'):
                 inspect(doc)
 
+    def test_synthesis_metadata_stays_internal(self):
+        internal = self.docs['admin/vedic.json']['resources']
+        self.assertEqual(internal['vedic/strength/grade.yaml']['bands'], {'Strong':3,'Moderate':1})
+        self.assertIn('cells', internal['vedic/lordships/functional.yaml'])
+        for key,row in self.rows.items():
+            self.assertEqual(row['rule']['evidence'], self.rules[key]['evidence'], key)
+        for path in ('vedic/strength/grade.yaml','vedic/lordships/functional.yaml',
+                     'shared/explain/tone-contribution.yaml'):
+            self.assertNotIn(token('p',path), self.docs['public/catalog.json']['entries'])
+
     def test_manifest_integrity_and_schemas(self):
         inventory = self.manifest['files']
         self.assertEqual(set(self.files),set(inventory)|{'manifest.json'})
@@ -140,7 +150,7 @@ class EngineExport(unittest.TestCase):
             self.assertEqual(expected,set(self.routes['screen/'+system]))
 
     def test_public_boundary_and_locales(self):
-        blocked = {'rule','rules','aliases','copy_owner','fact','conditions','points','score','sources','approval',
+        blocked = {'evidence','direction','weight_class','time_scope','area_strength','maraka','polarity','grade','total','terms','lord_total','rule','rules','aliases','copy_owner','fact','conditions','points','score','sources','approval',
                    'native_review','strength_notes','exceptions','traditions_differ','confidence','admin','reason'}
         def inspect(obj):
             if isinstance(obj,dict):

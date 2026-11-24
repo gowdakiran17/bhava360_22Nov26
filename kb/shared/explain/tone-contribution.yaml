@@ -1,0 +1,13 @@
+version: 1
+approval: draft
+visibility: admin-only
+policy: Bhava360 editorial evidence routing. Evaluate on the same chart, person, area, precision and time window before synthesis.
+order:
+- Resolve the matched rule and its exceptions. Drop cancellations and unavailable facts. Deduplicate evidence aliases.
+- Apply the direction for the matched technique. A variable checker relation comes from its approved recipe; sign placement friendship uses the directed fivefold D1 relationship.
+- At KB-36 rung 3 replace the generic direction of evidence specifically about a graha's lordship with the functional polarity for this Lagna. Preserve the replaced direction in staff provenance. Unresolved polarity contributes context.
+- Use area_strength to select relevance. Primary indications can anchor a reading; secondary indications corroborate; a modifier needs its parent. Context cannot establish a tone, even if repeated.
+- Present the resolved qualitative tone only after the pipeline's required checks. No rule-level points, polarity flags or grade arithmetic cross the public boundary.
+functional_direction: {Benefic: support, Yogakaraka: support, Neutral: neutral, Malefic: caution}
+compound_direction: {adhi-mitra: support, mitra: support, sama: neutral, shatru: caution, adhi-shatru: caution}
+excluded: [maraka, raw grade, grade terms, evidence metadata]

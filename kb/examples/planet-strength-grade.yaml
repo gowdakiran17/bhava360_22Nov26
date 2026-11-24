@@ -1,0 +1,40 @@
+approval: draft
+scope: Synthetic component inputs; complete aspect lists and natural classifications for each worksheet.
+cases:
+  P1:
+    graha: saturn
+    d1: exaltation-sign
+    d9: debilitation-sign
+    house_lagna: 4
+    lagna_withheld: false
+    combust: false
+    war_loser: false
+    retrograde: false
+    vargottama: false
+    aspects: {jupiter: [7, benefic], mars: [4, malefic]}
+    expected: [3, Strong]
+  P2:
+    graha: mercury
+    d1: mitra
+    d9: sama
+    house_lagna: 12
+    lagna_withheld: false
+    combust: true
+    war_loser: false
+    retrograde: false
+    vargottama: false
+    aspects: {}
+    expected: [-0.5, Weak]
+  P3:
+    graha: moon
+    d1: debilitation-sign
+    d9: debilitation-sign
+    house_lagna: 10
+    lagna_withheld: false
+    combust: false
+    war_loser: false
+    retrograde: false
+    vargottama: true
+    aspects: {}
+    matched_relief: [d1.dignity.debility_lord_angular]
+    expected: [1, Moderate]

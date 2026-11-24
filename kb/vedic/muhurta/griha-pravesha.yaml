@@ -178,3 +178,11 @@ activity_profile:
   reliefs:
   - chandra
   - entry-navamsa
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: related

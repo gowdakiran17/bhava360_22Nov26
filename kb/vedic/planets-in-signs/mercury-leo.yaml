@@ -64,7 +64,7 @@ sources:
   verification: verified
 confidence: medium
 review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
-  review pending.
+  review pending. Compound friendship requires the D1 sign of the occupied sign lord. Retain context pending resolution.
 user_text:
   en: When you explain a new idea, you can make clear which part you are willing to take responsibility for.
   kn: ನೀವು ಹೊಸ ವಿಚಾರವನ್ನು ವಿವರಿಸುವಾಗ ಯಾವ ಭಾಗದ ಹೊಣೆ ವಹಿಸಲು ಸಿದ್ಧರಿದ್ದೀರಿ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
@@ -81,3 +81,11 @@ remedy:
     en: You can clarify an instruction for someone who asks.
     kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
     hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    business: related

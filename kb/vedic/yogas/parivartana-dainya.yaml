@@ -55,3 +55,9 @@ remedy:
     en: You can clarify which shared obligation needs attention first.
     kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳಲ್ಲಿ ಯಾವುದಕ್ಕೆ ಮೊದಲು ಗಮನ ಕೊಡಬೇಕು ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
     hi: आप स्पष्ट कर सकते हैं कि किस साझी ज़िम्मेदारी पर पहले ध्यान देना है।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

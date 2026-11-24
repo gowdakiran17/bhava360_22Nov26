@@ -59,3 +59,11 @@ vastu:
   tone: Supportive
   reason: The northeast is the prayer sector in the chapter 53 layout. The selected layout profile favours this
     location for the recorded use.
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

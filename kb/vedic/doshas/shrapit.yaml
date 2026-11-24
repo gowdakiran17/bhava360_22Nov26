@@ -59,3 +59,11 @@ public_label:
   en: Saturn with Rahu
   kn: ರಾಹುವಿನೊಂದಿಗೆ ಶನಿ
   hi: राहु के साथ शनि
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    learning: related

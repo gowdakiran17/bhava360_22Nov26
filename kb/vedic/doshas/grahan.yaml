@@ -69,3 +69,10 @@ public_label:
   en: Sun or Moon near a lunar node
   kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನ ಬಳಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ
   hi: चंद्र पथ के कटान के पास सूर्य या चंद्रमा
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: core

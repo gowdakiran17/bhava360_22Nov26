@@ -55,3 +55,9 @@ calculation:
   input: after_ekadhipatya
   weights: vedic/strength/ashtakavarga/reductions.yaml
   rashi_weight_profile: alternative
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

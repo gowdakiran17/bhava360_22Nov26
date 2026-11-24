@@ -77,3 +77,10 @@ guided:
   choice: mounts-mercury
   tone: Supportive
   reason: This confirmed choice on the left hand selects the editorial prompt about clarifying a conversation.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

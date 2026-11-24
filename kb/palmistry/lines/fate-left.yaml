@@ -77,3 +77,10 @@ guided:
   choice: lines-fate
   tone: Steady
   reason: This confirmed choice on the left hand selects the editorial prompt about revisiting a chosen direction.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

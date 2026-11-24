@@ -88,3 +88,11 @@ remedy:
     en: You can give credit to someone who helped you lead a task.
     kn: ಕೆಲಸವನ್ನು ಮುನ್ನಡೆಸಲು ನೆರವಾದವರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: काम सँभालने में मदद करने वाले को श्रेय दे सकते हैं।
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    business: related

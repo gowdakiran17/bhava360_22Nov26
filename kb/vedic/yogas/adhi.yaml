@@ -71,3 +71,10 @@ remedy:
     en: You may wish to choose one practical next step at work.
     kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
     hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: moon
+  area_strength:
+    career: core

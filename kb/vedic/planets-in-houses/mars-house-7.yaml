@@ -89,8 +89,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: Before acting on a shared decision, you can ask your partner which step each of you wants to take.
   kn: ಒಟ್ಟಾಗಿ ತೆಗೆದುಕೊಂಡ ತೀರ್ಮಾನವನ್ನು ಜಾರಿಗೆ ತರುವ ಮೊದಲು ಯಾರು ಯಾವ ಹೆಜ್ಜೆ ಇಡಲು ಬಯಸುತ್ತಾರೆ ಎಂದು ಸಂಗಾತಿಯೊಂದಿಗೆ ಚರ್ಚಿಸಬಹುದು.
@@ -107,3 +107,11 @@ remedy:
     en: You can pause to hear another view before acting.
     kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
     hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    love-marriage: related
+    business: related

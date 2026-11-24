@@ -65,7 +65,7 @@ sources:
   verification: verified
 confidence: disputed
 review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
-  review pending.
+  review pending. Node sign dignity is disputed and unassigned. Retain context pending resolution.
 user_text:
   en: When you feel ready to simplify something, you can decide what can reasonably be done this week.
   kn: ಏನನ್ನಾದರೂ ಸರಳಗೊಳಿಸಬೇಕೆನಿಸಿದಾಗ ಈ ವಾರ ಎಷ್ಟು ಕೆಲಸ ಮಾಡುವುದು ಸಾಧ್ಯ ಎಂದು ತೀರ್ಮಾನಿಸಬಹುದು.
@@ -83,3 +83,11 @@ remedy:
     en: You can set aside a few quiet minutes for reflection.
     kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
     hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    spirituality: related

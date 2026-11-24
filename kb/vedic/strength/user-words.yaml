@@ -1,9 +1,9 @@
 version: 1
 approval: draft
 authority: Bhava360 editorial policy for qualitative wording.
-shadbala: {ratio: total_virupas / (60 * required_minimum_rupas), steady_from: 1, supported_from: 1.25}
+planet_grade: {Strong: supported, Moderate: steady, Weak: modest}
 bhava: {rank: one plus the count of strictly greater unrounded totals among all twelve houses, supported_through: 4, steady_through: 8, all_equal: steady}
-missing: Withhold the label for missing inputs, incomplete ranks or nonpositive minimum.
+missing: Withhold the label for missing inputs, incomplete ranks or an unresolved planet grade.
 labels:
   supported: {en: well supported, kn: ಉತ್ತಮ ಬೆಂಬಲ, hi: अच्छा सहारा, tone: Supportive}
   steady: {en: steady, kn: ಸ್ಥಿರ, hi: स्थिर, tone: Steady}

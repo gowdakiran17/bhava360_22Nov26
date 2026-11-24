@@ -17,6 +17,7 @@ graha:
   - teaching
   nature:
     class: benefic
+    functional_table: vedic/lordships/functional.yaml
     functional_nature:
       aries:
         houses_ruled:
@@ -170,3 +171,12 @@ remedy:
     en: You can share a useful explanation when someone asks.
     kn: ಕೇಳಿದವರಿಗೆ ಉಪಯುಕ್ತ ವಿವರಣೆ ನೀಡಬಹುದು.
     hi: किसी के पूछने पर उपयोगी जानकारी साझा कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    children: related
+    spirituality: related

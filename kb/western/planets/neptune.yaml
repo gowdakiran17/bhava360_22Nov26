@@ -97,3 +97,11 @@ remedy:
     en: "You can write down one hope and a question you still have about it."
     kn: ಒಂದು ಆಶೆ ಮತ್ತು ಅದರ ಬಗ್ಗೆ ನಿಮಗಿರುವ ಒಂದು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡಬಹುದು.
     hi: एक उम्मीद और उससे जुड़ा अपना एक सवाल लिख सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    spirituality: related

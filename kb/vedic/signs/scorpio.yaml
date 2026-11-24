@@ -85,3 +85,11 @@ remedy:
     en: You can pause before answering a sensitive question.
     kn: ಸೂಕ್ಷ್ಮ ಪ್ರಶ್ನೆಗೆ ಉತ್ತರಿಸುವ ಮುನ್ನ ಸ್ವಲ್ಪ ವಿರಾಮ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
     hi: किसी संवेदनशील सवाल का जवाब देने से पहले थोड़ा ठहर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    learning: related

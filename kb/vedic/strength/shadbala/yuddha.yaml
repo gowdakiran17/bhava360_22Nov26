@@ -59,3 +59,9 @@ calculation:
   winner_rule: vedic.states.graha-yuddha
   default_method: modern-kala-transfer
   alternative: classical-disc-difference
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

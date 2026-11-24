@@ -57,3 +57,10 @@ remedy:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
     hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: core

@@ -97,3 +97,11 @@ remedy:
     en: "You can list two ways of doing a routine task."
     kn: ದಿನನಿತ್ಯದ ಒಂದು ಕೆಲಸವನ್ನು ಮಾಡುವ ಎರಡು ವಿಧಾನಗಳನ್ನು ಬರೆಯಬಹುದು.
     hi: रोज़ के किसी काम को करने के दो तरीके लिख सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    career: related

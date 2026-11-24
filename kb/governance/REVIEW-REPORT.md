@@ -427,3 +427,13 @@ The planted message `weakly placed` fails the public scanner in each locale. The
 Scenario N1 uses the test alphabet ABCDEF. For S1 the optional Sripati method uses Mercury for the home-area midpoint and Jupiter for the work-area midpoint. The default whole-sign worksheet and its “modest” label remain the baseline.
 
 Setup follow-up outside the KB: `scripts/codex-setup.sh` should also install `kb/requirements-dev.txt`.
+
+## KB-35 evidence, lordship and internal grade (draft)
+
+The migration covers 1,824 source rules, including aliases. Zero new readings. Added three derived facts, two doctrine profiles and the mercury-strict variant. Re-run governance/review/assign-evidence.py to refresh the metadata. The direction-review YAML alongside it enumerates each conditional or disputed placement by canonical ID. Technical evidence stays in the staff export. Functional polarity replaces the generic lordship contribution at rung 3; the maraka flag cannot contribute. Staff may inspect uncertainty; dependent readings wait for chart evidence.
+
+The 108 first-match cells reproduce the six classical Yogakarakas. Virgo Saturn remains Benefic, Leo Jupiter Neutral, Gemini Saturn Neutral, Aquarius Mercury Neutral, and Sagittarius Mars Benefic. Each records its MT-house alternative. Nodes inherit from the D1 sign owner, with association recorded as a variant. Venus transits in 8 and 12 from Moon use support while the Rao source's mixed reading and independent Vedha lookup are preserved.
+
+Scenario P1 adds Saturn’s exaltation (+3), angle (+1), cancelling received aspects (0) and D9 debility (−1): 3.0, Strong. P2 totals −0.5, Weak; P3 totals 1.0, Moderate. The public vocabulary remains well supported, steady and modest. Cancellation uses distinct branches of the canonical Neecha Bhanga candidate, including exchange with the same planet’s dispositor. The grading arithmetic is Bhava360 practitioner convention.
+
+Sources for the synthesis are BPHS (lordship and strength), Laghu Parashari (lordship and MT practice), Saravali and Phaladeepika (strength and cancellation), the existing KB dignity and natural-nature profiles, and the cited Rao transit tables. Newly listed classical passages await edition/locator verification. The existing all-quarter planetary Drik formula is labelled MODERN; BPHS's full Mercury/Jupiter treatment is a separate reading. The published Raman worksheet remains pending. Bhava Dig retains the Raman/PyJHora water classification for Cancer and records BPHS's grouping with Scorpio.

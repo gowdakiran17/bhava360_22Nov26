@@ -102,3 +102,13 @@ remedy:
     en: You may find it easier to address one manageable task at a time.
     kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
     hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    children: related
+    learning: related
+    money: related
+    health: related

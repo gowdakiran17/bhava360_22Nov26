@@ -95,7 +95,8 @@ sources:
   supports: Names of the house-based yogas. The broad three-house screen follows the library profile.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending. Test vedic.yogas.sarala
+  before synthesizing this dusthana placement.
 user_text:
   en: When shared responsibilities change, you can leave room for rest when deciding what you can give.
   kn: ಹಂಚಿಕೊಂಡ ಹೊಣೆಗಳು ಬದಲಾಗುವಾಗ ಎಷ್ಟು ನೀಡಬಹುದು ಎಂದು ತೀರ್ಮಾನಿಸುವಾಗ ವಿಶ್ರಾಂತಿಗೂ ಅವಕಾಶ ಕೊಡಬಹುದು.
@@ -112,3 +113,13 @@ remedy:
     en: You may notice where you would like to leave a little room for rest.
     kn: ವಿಶ್ರಾಂತಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಎಲ್ಲಿ ಮೀಸಲಿಡಬಹುದು ಎಂದು ಗಮನಿಸಬಹುದು.
     hi: आप देख सकते हैं कि आराम के लिए थोड़ा समय कहाँ निकाला जा सकता है।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related

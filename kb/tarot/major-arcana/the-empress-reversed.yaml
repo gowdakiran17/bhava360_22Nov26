@@ -69,3 +69,10 @@ card_profile:
   - your own needs
   - nurture
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    family-home: core

@@ -19,6 +19,7 @@ graha:
     class: conditional
     qualification: Waxing light is read as benefic and waning light as malefic in the simple phase profile. Verify
       the phase before using this distinction.
+    functional_table: vedic/lordships/functional.yaml
     functional_nature:
       aries:
         houses_ruled:
@@ -157,3 +158,11 @@ remedy:
     en: You can ask someone close what support they would welcome.
     kn: ಆತ್ಮೀಯರಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
     hi: किसी करीबी से पूछ सकते हैं कि उन्हें कैसी मदद चाहिए।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: related
+    health: related

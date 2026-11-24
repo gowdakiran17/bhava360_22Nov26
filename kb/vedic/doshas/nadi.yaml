@@ -63,3 +63,10 @@ remedy:
 reference_paths:
 - vedic/matching/shared-star-class.yaml
 - vedic/matching/north-profile.yaml
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: event
+  reference: moon
+  area_strength:
+    love-marriage: core

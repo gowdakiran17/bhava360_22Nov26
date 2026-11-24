@@ -55,3 +55,10 @@ remedy: null
 matching:
   matrix: yoni
   class_index: yoni_star
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

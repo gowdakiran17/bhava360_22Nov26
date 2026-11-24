@@ -57,3 +57,10 @@ matching:
     - false
     - true
   partial_when_column_class: rakshasa with different row
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

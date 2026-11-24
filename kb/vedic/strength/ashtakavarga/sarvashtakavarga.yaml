@@ -53,3 +53,9 @@ calculation:
   - tester
   input: raw_bav
   expected_total: 337
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

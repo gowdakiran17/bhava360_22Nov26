@@ -87,8 +87,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When helping someone learn, you can decide what you can keep doing on a difficult week.
   kn: ಕಲಿಯುತ್ತಿರುವವರಿಗೆ ನೆರವಾಗುವಾಗ ಕಷ್ಟದ ವಾರದಲ್ಲಿಯೂ ಯಾವುದನ್ನು ಮುಂದುವರಿಸಬಹುದು ಎಂದು ಯೋಚಿಸಬಹುದು.
@@ -105,3 +105,11 @@ remedy:
     en: You can follow through on a small promise to someone who relies on you.
     kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: जो आप पर भरोसा करता है, उससे किया कोई छोटा वादा निभा सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    children: related
+    learning: related

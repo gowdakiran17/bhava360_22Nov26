@@ -76,3 +76,9 @@ remedy:
     en: "You can consider two responsibilities that affect one another."
     kn: ಒಂದರ ಮೇಲೊಂದು ಪರಿಣಾಮ ಬೀರುವ ಎರಡು ಜವಾಬ್ದಾರಿಗಳನ್ನು ಪರಿಗಣಿಸಬಹುದು.
     hi: एक-दूसरे पर असर डालने वाली दो ज़िम्मेदारियों पर विचार कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

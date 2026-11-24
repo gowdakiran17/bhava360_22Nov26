@@ -77,3 +77,10 @@ guided:
   choice: mounts-mars
   tone: Steady
   reason: This confirmed choice on the right hand selects the editorial prompt about trying again.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

@@ -50,3 +50,11 @@ remedy: null
 vastu:
   deity: Nirriti
   graha: rahu
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: related

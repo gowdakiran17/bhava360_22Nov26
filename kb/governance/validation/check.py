@@ -607,6 +607,12 @@ def main():
         require(case['entry']['id'] in rules, 'synthetic example must reference a current rule')
         check_predicate(case['entry']['conditions'],facts)
         require(evaluate(case['entry']['conditions'],case['assumed_facts']) is True,'synthetic example')
+    from functional import validate as validate_functional
+    import strength_grade
+    import evidence as evidence_checks
+    validate_functional(read, require)
+    strength_grade.validate(read, require)
+    evidence_checks.validate(rules, read, require, ROOT)
     check_distribution(ROOT)
     print("Public copy passed across eight locale bundles.")
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')

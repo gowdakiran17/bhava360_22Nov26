@@ -104,3 +104,11 @@ varga:
     shodasavarga: 0.5
     dashavarga: 1.5
   purpose: professional responsibilities
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    business: related

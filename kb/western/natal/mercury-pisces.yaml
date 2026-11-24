@@ -39,7 +39,8 @@ sources:
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
 confidence: medium
-review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review. Chart placement supplies a theme; a single
+  direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When considering communication, you may find it useful to try leaving space for imagination.
   kn: “ಸಂವಹನ” ಕುರಿತು ಯೋಚಿಸುವಾಗ “ಕಲ್ಪನೆಗೆ ಅವಕಾಶ ಕೊಡುವುದು” ಎಂಬ ವಿಧಾನವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -48,3 +49,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

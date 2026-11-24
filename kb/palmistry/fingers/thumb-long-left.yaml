@@ -77,3 +77,10 @@ guided:
   choice: fingers-thumb-long
   tone: Supportive
   reason: This confirmed choice on the left hand selects the editorial prompt about following through on a commitment.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

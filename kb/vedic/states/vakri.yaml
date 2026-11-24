@@ -57,3 +57,9 @@ remedy:
     en: "You can revisit a note you set aside."
     kn: ಬದಿಗಿಟ್ಟ ಟಿಪ್ಪಣಿಯೊಂದನ್ನು ಮತ್ತೆ ಓದಬಹುದು.
     hi: पहले अलग रखे किसी नोट को फिर से पढ़ सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

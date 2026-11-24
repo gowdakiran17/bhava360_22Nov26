@@ -46,3 +46,9 @@ calculation:
   - tester
   tone: Take care
   band_table: vedic/strength/ashtakavarga/bindu.yaml
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

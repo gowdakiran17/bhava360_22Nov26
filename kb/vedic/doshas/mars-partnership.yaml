@@ -240,3 +240,10 @@ remedy:
     en: "You can give each person a turn to speak before deciding together."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
     hi: "चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।"
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: core

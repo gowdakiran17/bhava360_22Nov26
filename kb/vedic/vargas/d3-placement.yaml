@@ -93,3 +93,10 @@ varga:
     shodasavarga: 1
     dashavarga: 1.5
   purpose: sibling relationships
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: core

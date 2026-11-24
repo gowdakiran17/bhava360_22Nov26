@@ -88,3 +88,11 @@ remedy:
     en: You can help someone check a detail if they ask.
     kn: ಕೇಳಿದರೆ ಒಂದು ವಿವರ ಪರಿಶೀಲಿಸಲು ನೆರವಾಗಬಹುದು.
     hi: किसी के पूछने पर एक बारीकी जाँचने में मदद कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    career: related

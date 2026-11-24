@@ -99,3 +99,12 @@ remedy:
     en: You can name a goal before deciding how to use a new resource.
     kn: ಹೊಸ ಸಂಪನ್ಮೂಲವನ್ನು ಹೇಗೆ ಬಳಸಬೇಕೆಂದು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಒಂದು ಗುರಿಯನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: कोई नया साधन कैसे इस्तेमाल करें, यह तय करने से पहले आप अपना लक्ष्य पहचान सकते हैं।
+evidence:
+  direction: neutral
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    family-home: related
+    career: related

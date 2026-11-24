@@ -100,3 +100,12 @@ remedy:
     en: You can notice one feature of home that helps you settle.
     kn: ಮನೆಯಲ್ಲಿ ಯಾವುದು ನಿಮಗೆ ನೆಮ್ಮದಿ ನೀಡುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
     hi: आप गौर कर सकते हैं कि घर की कौन सी बात आपको सुकून देती है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    family-home: related
+    property-vehicles: related

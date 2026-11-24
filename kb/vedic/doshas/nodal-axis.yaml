@@ -53,3 +53,9 @@ remedy:
     en: "You may choose one chart theme to reflect on today."
     kn: ಇಂದು ಒಂದು ವಿಷಯವನ್ನು ಆರಿಸಿ ಚಿಂತಿಸಬಹುದು.
     hi: आज आप किसी एक विषय पर विचार कर सकते हैं।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

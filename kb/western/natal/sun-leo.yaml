@@ -36,7 +36,8 @@ sources:
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a single
+  direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: You may explore purpose through expressing creativity.
   kn: “ಉದ್ದೇಶ” ಕುರಿತು “ಸೃಜನಾತ್ಮಕ ಅಭಿವ್ಯಕ್ತಿ” ಎಂಬ ದೃಷ್ಟಿಯಿಂದ ಯೋಚಿಸಬಹುದು.
@@ -45,3 +46,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

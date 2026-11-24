@@ -213,3 +213,10 @@ matching:
     - 0
     - 7
   related_rule: vedic.doshas.bhakoot
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

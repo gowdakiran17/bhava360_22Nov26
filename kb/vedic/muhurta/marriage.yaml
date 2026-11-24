@@ -206,3 +206,11 @@ activity_profile:
     - 4
   reliefs:
   - chandra
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: related
+    family-home: related

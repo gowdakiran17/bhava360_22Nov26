@@ -65,8 +65,8 @@ sources:
   supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
   verification: verified
 confidence: disputed
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When a goal comes within reach, you can check what you know about an unfamiliar option before trying it.
   kn: ಒಂದು ಗುರಿ ಕೈಗೆಟುಕುವಂತಾದಾಗ ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಅದರ ಬಗ್ಗೆ ನಿಮಗೆ ತಿಳಿದಿರುವುದನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -84,3 +84,12 @@ remedy:
     en: You can check one assumption before trying something new.
     kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: कुछ नया आज़माने से पहले एक अनुमान जाँच सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    career: related
+    family-home: related

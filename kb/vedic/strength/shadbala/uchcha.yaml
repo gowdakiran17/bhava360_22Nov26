@@ -43,3 +43,9 @@ calculation:
   - admin
   - tester
   unit: virupa (shashtiamsa of one rupa)
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

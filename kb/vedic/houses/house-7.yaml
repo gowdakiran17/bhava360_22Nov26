@@ -98,3 +98,11 @@ remedy:
     en: You can ask a partner what each of you understood before deciding together.
     kn: ಜೊತೆಯಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಒಪ್ಪಂದವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ಅರ್ಥಮಾಡಿಕೊಂಡಿದ್ದೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
     hi: साथ मिलकर फैसला लेने से पहले आप बात कर सकते हैं कि समझौते को दोनों ने कैसे समझा।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    business: related

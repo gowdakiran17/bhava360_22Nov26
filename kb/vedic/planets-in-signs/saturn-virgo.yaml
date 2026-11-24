@@ -64,7 +64,7 @@ sources:
   verification: verified
 confidence: medium
 review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
-  review pending.
+  review pending. Compound friendship requires the D1 sign of the occupied sign lord. Retain context pending resolution.
 user_text:
   en: When you take on a lasting commitment, you can check one detail that might change your approach.
   kn: ದೀರ್ಘಕಾಲದ ಹೊಣೆ ವಹಿಸಿಕೊಳ್ಳುವಾಗ ನಿಮ್ಮ ವಿಧಾನವನ್ನು ಬದಲಿಸಬಹುದಾದ ಒಂದು ವಿವರವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -81,3 +81,11 @@ remedy:
     en: You can follow through on a small promise to someone who relies on you.
     kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: जो आप पर भरोसा करता है, उससे किया कोई छोटा वादा निभा सकते हैं।
+evidence:
+  direction: context
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    learning: related

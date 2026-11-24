@@ -60,3 +60,10 @@ remedy:
     en: You may prefer responsibilities that reward patience.
     kn: ತಾಳ್ಮೆ ಬೇಡುವ ಹೊಣೆಗಾರಿಕೆಗಳು ನಿಮಗೆ ಹಿಡಿಸಬಹುದು.
     hi: धैर्य माँगने वाली ज़िम्मेदारियाँ आपको पसंद आ सकती हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: core

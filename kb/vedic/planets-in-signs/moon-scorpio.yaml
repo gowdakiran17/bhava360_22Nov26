@@ -90,3 +90,11 @@ remedy:
     en: You can ask someone close what support they would welcome.
     kn: ಆತ್ಮೀಯರಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
     hi: किसी करीबी से पूछ सकते हैं कि उन्हें कैसी मदद चाहिए।
+evidence:
+  direction: caution
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: related
+    love-marriage: related

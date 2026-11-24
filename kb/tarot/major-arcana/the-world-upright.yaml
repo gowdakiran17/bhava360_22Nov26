@@ -69,3 +69,10 @@ card_profile:
   - completion
   - integration
   tone: Supportive
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    travel-relocation: core

@@ -44,3 +44,7 @@ Added nine draft rules and four fact keys. The KB now holds 1,824 reading rules 
 ## KB-51 public copy
 
 1,824 rules, 406 fact keys, and 661 staff glossary entries. The public glossary exposes 660 entries. Eleven Vimshottari and twelve rising-sign readings use life-area wording. Four dosha entries have localized display names; all ten standalone remedy records and their options use the shared practice label. Public copy is checked in eight locale bundles, including English fallback.
+
+## KB-35 synthesis inputs (draft)
+
+All 1,824 reading rules across ten systems carry internal evidence metadata. The Lagna table covers 108 cells and six strict Yogakarakas. The grade worksheet covers all nine grahas, with P1, P2 and P3 checking both inclusive band edges. The fact dictionary now contains 409 keys. The 660-entry public glossary and eight KB-51 locale bundles retain their existing copy.

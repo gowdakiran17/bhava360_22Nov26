@@ -58,3 +58,10 @@ remedy:
     en: You may reflect on how you carry responsibility in public.
     kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
     hi: सार्वजनिक ज़िम्मेदारी निभाने के अपने तरीके पर विचार कर सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: core

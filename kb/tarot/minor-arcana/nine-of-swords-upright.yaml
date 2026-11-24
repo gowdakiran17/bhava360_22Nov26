@@ -73,3 +73,11 @@ card_profile:
   - a persistent worry
   - persistence
   tone: Take care
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    learning: related
+    career: related

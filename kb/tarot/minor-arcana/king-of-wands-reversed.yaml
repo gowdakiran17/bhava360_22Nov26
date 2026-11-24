@@ -75,3 +75,11 @@ card_profile:
   - listening before leading
   - stewardship
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    career: related
+    learning: related
