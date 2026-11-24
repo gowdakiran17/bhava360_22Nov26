@@ -15,6 +15,7 @@ promise:
   - [promise-moon-relative, Repeat the first three tests in the Moon chart; at least two pass. Functional polarity still requires the actual Lagna.]
   - [promise-varga-lagna, The D9 lord has own/exalted/MT/friendly dignity or vargottama. For career also require the D10 lord in an angle/trine or own/exalted sign.]
   thresholds: {Strong: 3, Moderate: 2}
+  varga_gate: Require at least Moderate D1 promise before divisional confirmation can contribute.
   missing: Drop withheld or undecidable factors. Never count them as adverse. Weak stops here before searching dates.
 period:
   tradition: CLASSICAL Vimshottari dasha phala

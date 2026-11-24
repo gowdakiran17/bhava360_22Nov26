@@ -11,7 +11,7 @@ conditions:
   - fact: transit.rahu.distance_from_lagna
     op: eq
     value: 9
-meaning: In matters of study and travel, exploring another approach may help you decide what to do next.
+meaning: In matters of purpose, opportunity and long journeys, exploring another approach may help you decide what to do next.
 life_areas:
 - learning
 - spirituality
@@ -34,9 +34,9 @@ sources:
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
-  en: In matters of study and travel, exploring another approach may help you decide what to do next.
-  kn: ಅಧ್ಯಯನ ಮತ್ತು ಪ್ರಯಾಣ ವಿಷಯದಲ್ಲಿ ಬೇರೆ ವಿಧಾನವನ್ನು ಪರಿಶೀಲಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
-  hi: अध्ययन और यात्रा के मामलों में दूसरा तरीका आज़माना अगला कदम चुनने में मदद कर सकता है।
+  en: In matters of purpose, opportunity and long journeys, exploring another approach may help you decide what to do next.
+  kn: ಧರ್ಮ, ಅವಕಾಶ ಮತ್ತು ದೂರ ಪ್ರಯಾಣ ವಿಷಯದಲ್ಲಿ ಬೇರೆ ವಿಧಾನವನ್ನು ಪರಿಶೀಲಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: धर्म, अवसर और लंबी यात्राओं के मामलों में दूसरा तरीका आज़माना अगला कदम चुनने में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending

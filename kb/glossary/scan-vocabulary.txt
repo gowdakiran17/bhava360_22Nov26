@@ -9,11 +9,14 @@
 01t14
 01t19
 01t23
+022893z
 024e7c15a1d09ea11e00bc6fe8b5355706a07aac14afd9c562391ae9ee27fa23
 02b
 02d
 02t00
+02t07
 02t08
+02t11
 02t12
 02t13
 02t21
@@ -22,12 +25,19 @@
 03e7a3e7b02e90b9672493ef6c87eafeeb469c6063e6c58de13d76f60ffe237e
 03t00
 03t01
+03t06
+03t08
 03t12
+03t14
+03t16
+03t20
+03t22
 0447ee81463b228922cec8134b6af07c32b61a996574a7bba25d5d2d27125822
 0472d7fb347167cc4d4dee117cfa464fd728291fc883925c2319227062972d3b
 047a4eaecace7a5247f080c0a4c009b627b561eb68097d72103374576eb32ece
 04cefe3152edbe2f2f616ae298156fd1cd2d6d22e51d1a15ad2fe2a064e9837c
 04d76ce63484eea0124da72df3617bcc903a994175cfc329f87c2bef8f04721f
+04t10
 04t12
 050a23af79e1be3bf13e2832d956349aa4ce842c60e042e99bfee4d04a549032
 052fb05d06fb8512b678b707b7cda90103f0033b638c3ff0fa9a77e5c4cf38e2
@@ -36,7 +46,12 @@
 05b44722766982acfef15dea2b29ac1d95d9d140a3a6cdeeadc8652fb68db942
 05f5a37e6b457f426b1b300abb5ac5e472e15268c68bc9af6c5e9fb0b1d8db9e
 05t00
+05t01
+05t06
+05t07
 05t12
+05t19
+05t20
 061fc00359e74e18c76227a9320986d33aab70545a146167c54f149a0beb8e67
 06e21439a031a1cf8e41f8b3004b75e37cd1878807194b27331823107714eba3
 06t00
@@ -44,11 +59,17 @@
 06z
 070daa8a8dd6742fed6082597c808f78abe398ea68901da13a43e6b6c99d204f
 0729914dca691972c4495aaddb0e70b004e3dc28fb993ba45397cb2c5d763433
+07t22
 086e3db8d181a76f4d0508b3a5aef9bddf5aca67bc4c121d9577a23b1dd8a21a
 08a99c89fdfd0203d159296c64dd15c2dd77c3b253384386a6f1cef7286498bb
 08t00
+08t02
 08t15
+08t23
 093bf2ffb228ebe96524d349432c3fd0b971554fc362f36f576a3f08180d8159
+09t01
+09t06
+09t07
 0a5c2bc5a1cfa91b7c2afd2b9a3760607d76769ff84d13c5a9724516c4d65522
 0bf568aa37120f7ef2e31142a43aa5f631f4d1fed8abbf4dbac5e93aa9dbefc2
 0c0a927c714ce2baa26da07c8a6a3a660fccccb18f5bae28c1743119bcd27f00
@@ -69,6 +90,9 @@
 10e9052f5835e00604e03345b448842506e972599decf8197298d13e862f68ef
 10t00
 10t02
+10t06
+10t12
+10t18
 10t19
 10t20
 10t21
@@ -84,6 +108,7 @@
 11t04
 11t08
 11t10
+11t11
 11t18
 11t19
 11t21
@@ -92,6 +117,7 @@
 12b3
 12t00
 12t05
+12t06
 12t12
 12t13
 12t19
@@ -107,6 +133,7 @@
 14a2882c7469993fc7db1fd4b2d1ea80acbafa9f29105b9c2d04cd51108cb88c
 14c50df3cdaaf4c8701fa9475e67c32073255715824e0124b60ab831f984ac6b
 14c80d861c85a45f9f57cfb61da72d4a6aee9dec2f81d8eddada0909b6916cbb
+14t00
 14t04
 151e07f9c9fa8c712aa22fc9e732a1c9fb6d38f7d946f6d6892ccffb00d691f6
 151f8b795120cf246a2ad73fae7a1c962348f727cfe02442e54b494b63342364
@@ -115,6 +142,7 @@
 15t05
 15t06
 15t12
+15t15
 1620824944karalakkhanapraphullakumarmodi
 16470f17031f40acfc4a39faf2c565988e6acf67a9f5f8a4e54958d924301bc3
 16a448f0248466588867a7d3ae1eaae48c70d5f3162ae55281ac496ff71fe7cb
@@ -124,23 +152,30 @@
 16t05
 16t06
 16t09
+16t15
 16t18
 17t
 17t00
+17t03
 17t05
+17t15
 17t16
+17t21
 184270db08738319b14d4ddc885aecef54f6b2b0728b17564b74e290315a1f75
 1851d9ef4d64d0aa0b5621c4af3a83ab70baaba9e904f97f1102423a0d7301cb
 185a85352ee152af15d90e609d8556c9871229704cbe9c761113e8b2d6fd948a
 1868b1f1167676a5066f7ac7acbb05102c9f2c201d6838da987a902dc2dd429e
 18c869810cc48b41fffd0b7d5b4b2f7ea67a3fdd8214f7694bd082e3170bb978
 18d577b9876b7a990f48e18c0aa61e111f8833bb18a56c34d21bb1b196d4a248
+18t03
 18t04
 18t05
 18t06
 18t09
 18t13
+18t15
 18t18
+18t19
 19t00
 19t03
 19t05
@@ -152,6 +187,7 @@
 1bf8d3d920bb601cfa3cdd30372f5a87a7d28833bbfe5a155b6c27122d4719ae
 1c50509a40d00229746b9ee813a00d155c43478d455cfdf76e2b7a5b95685649
 1c57703b9ffcd43c0fdaa728e3bab865357b1ac77c9277a1a07a8797b4b8d94e
+1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7
 1d64ae5db8d503bba3156ad12acf469e16eb5d9f7fe032d3f8d92d84c3d83d69
 1d7a643dc7f199cddc702ff924ff568c6fdd7078453d955ede32476d3f6905d8
 1d87fbed93c7cbfd5a46b667d5b7ffc7442057b707d258dce39983a5bf9b4d5b
@@ -174,12 +210,17 @@
 20in
 20t00
 20t15
+20t19
 2118f989b14b0be15bcb48977dea72e26f9a628d9a97704665d272091559670a
 219a7da91e7464b2ee006ea1b000ec27e3651a28995337becf4000d4783dc4c0
 21b7619e9ffdb4481c4711f7ce97fb8d2aef6dc395836b06dafacd41a089372d
 21t00
+21t01
 21t03
+21t07
 21t09
+21t17
+21t22
 228727825df18ca63a2e6afb1b9614a69825c25ab560bfd1e765ccd7d94e2b58
 22t00
 22t21
@@ -188,8 +229,11 @@
 23cdbb1d20ad9010d8f5c1dc73d83ccfdd403424f75222df992cbd8b74e824d3
 23t00
 23t09
+23t12
 23t14
 24t06
+24t12
+24t18
 24z
 252d4c5a0d2025892862b5cb46856e0f35bb72d3142baa4434c90d2b2549a23d
 254000z
@@ -197,6 +241,8 @@
 25e9a39159ad9f5e919d7d20bb258c397b9a4e461413c953ecfb5905103ce5aa
 25ed4c03e4e4a19dd04c1499d1445de2c7da0cfaa45c4a1452b3510b7ddc0be1
 25t00
+25t01
+25t07
 25t23
 265e6c86ca126a3faaeffb568c9c9eb136bbfc46afcf89d7e9b585a8b0036761
 266eff70906068b4ea3bf8cc3f67346b2de6ccb534f971516124bf6b2aa3eb94
@@ -209,6 +255,9 @@
 273586409329a7611cb05c6d13cc4369e102dd6bd3d7c146e92801e005184276
 27s
 27t08
+27t09
+27t12
+27t17
 2807366a339d06a0a58e59a6aa486da15122f49120746ba006c0634ba5d8a25b
 2827b7c68ce45220a884c327c8dfa11529e59f279ede57e19bb5736b3e189bc1
 28562f9eb98baed0a3f2cb3ce92a202967d5c57c138c14fa0b8a16c206796709
@@ -219,10 +268,13 @@
 28t05
 28t06
 28t07
+28t09
+28t11
 28t12
 28t13
 28t16
 28t17
+28t18
 28t19
 28t20
 28t22
@@ -248,10 +300,13 @@
 30a92251baa79be734dd74f09780d1e99b3969603097cfbac572de69205a495d
 30t00
 30t03
+30t07
 30t10
 30t16
 30t20
+30t22
 30z
+312513z
 314da5157be0e07ae0922973a690dc499e7531f4743f09f8a976f05f6d120cfb
 318ac5093f310f7902df9be9802858210235c92b02bd3a777c563f78268668f6
 31ec6def90c62814d02d03ac45fe473967ca51f6049accf128d7a9f1ca9128dc
@@ -278,6 +333,7 @@
 36z
 372dbc322289b634913ed53433338d6f8ce945f660d47a8c7ba1b8fb609b2eba
 375b2396bc7dc75af5d8eb94b24d02003598315601f4c63e25f8f72a8b0a63cd
+377348z
 37ac7beae8220a3dfdbc03921290c1534b170a5bbae12f5cc06ee6967b564160
 37ce9b70207aa025758cc8d0fef80748a6858d83919333474e64e5c6ef8529a8
 380000z
@@ -315,6 +371,7 @@
 412f5001e322aa69fc5e564fdb31acd3018741f822f11e03f27f06eebc3dbbd3
 41533b32da744cad8741b53e138517620eaf28861ca97dc1f5280cac0bf3ea10
 4168eaa814f42c7e916b05b27bedabf4073d29caf04a781c22fcc22361198598
+4175470700678966e
 42073e6231683128df8bac789a68d84b56c7d9c6bcb65dd702a62736846fe44c
 421a634cc0ce7e47f2bafd2a1417a74259fe93d81fc05224544ae592390e644b
 423ecdf6f647813dc987f10d079e4da4dfe6045b3c7e65e0b0feab67b99edaec
@@ -356,6 +413,7 @@
 50758083e9901cdbcafd9223c762f41668d104395969bfad8d9b4cfb5094b1cf
 508d151823e51f0266ce5bde14f406fd24476b917e8eac16fbe5b647672a05c2
 50a04063eae4262e76ffa4542e6dcf197b994341a0e0786c8930cee95fcea5a1
+5109669187924346e
 516df8c4188d81467bd42de3d8bbd3e3a2659b4882d631d335fce751139eff43
 520a80370da0bf807e3e0cd66c66b375210a3f72ec7cce0485131b64b87c0b38
 5218ae04724f25e2b643dff0fb02eddc441b21c39a3c1fd7273472248bcd3110
@@ -415,6 +473,7 @@
 63f8290a981b49bf01ee6f5485cf01b2fc5d4eb21a2f3c1a517fe44043b55fe6
 64338686fc5cdc97d07006c9afb9971ff8446f7133b40597777e09d81ced47b9
 644c93f0baa75f58c55eab6952efb3f5bee6e5755fe3c61a35472ade47b68ba0
+646190203350243e
 6499bb0a25c781e774905ac06b3a370e8f707cde732120a5ded40de9e651450f
 657cd02141efc399bc7bc999406df18b299d7504d8ee9865d067170dc294fe30
 658555175db9e8e09ed2886c173cefee4ef62020a71e13bdec98473909ccf71e
@@ -498,6 +557,7 @@
 801ac25044eed5fc74521d9ac1da18cccfd02a7b40584171dac7fafed1b3a3e4
 8047ed4789333be910096ca0b8f5a26878441b96a5e33d88eacf47718a1c204a
 805e9fcc0cbae7071b19819164d683b27b164e7605bffe3cf4fc312c7beb7df9
+812513z
 819eff514fdeb5d37d2722f319bb6f59d75308314b79c710bcbe27fb89777468
 81d31c83f6a71303a1ebb55183706dbbe6733c3de30b280f08e0e5ed78d871e0
 81e001b288e3ab01bfe4323c22a280bb7ebc8e6715d000105ecb2d970893c527
@@ -519,6 +579,7 @@
 865f58fec8d0e64b4201d9dceb5c94a225d79434f89068c90e2270b2c5b8fd69
 8661364d43e7a83cd07bce7d4b7d09024c56359ca698054ed072da5a272fa70c
 870bd30c24fa4980a796f81706b5beb54071eea586e3cb7b05a1ed30658f05c5
+877348z
 879aa2313147517377a5772c5262cce0b9b0b0e7ee54a78ce888a65825fae7b3
 87bc65ccbd406eb4d646c3711dd662b883616d619f38dfd34555affcb5dab785
 87c9ac086bfebb31c2b127dbd71b59a34899c71e6fcabe6817b7e76ea9810b81
@@ -526,6 +587,7 @@
 8828c45805fb074a51b676f3b791240e782dd31ff742d11c9c0ce726d706e8de
 88c6062675310c89d07cd7036e88bf2c26d0c8d66a19782c3a0c23f9c5c61f1d
 892c85b295f3f4d08bf4f0dc337453f5ff93cc40d4faecb4008aef9dc2acfb7d
+895263z
 89c6ec52f68484904a2a1b1c7a282f032cf9156342d983f0e462a3452cf675c0
 8a22d25bce85aca0e3df33d7311d9800b29e7b13442caa4c36c09d5793ee65f8
 8a9c419887ceea027f1f8b4ba63459d3ec4f87cca57f73a9c74a215cdf65424a
@@ -726,9 +788,11 @@ actors
 acts
 actual
 actually
+ad
 ad0fde5ffe4e1e38cef59921ee522d587370fbff60b69bc72de223acad5f1f7b
 ad3a95a7dbabe014342ab2393ad8cdc49513b3e499fe95171210d1a21171b7bb
 ada3fd8d9b3b9c739e41927e3f33982a03f665439c67af98441a24f004e3a0ba
+adapt
 adaptability
 adaptation
 adaptations
@@ -990,6 +1054,7 @@ appropriate
 approval
 approvals
 approved
+approx
 approximate
 approximates
 approximation
@@ -1035,6 +1100,7 @@ arrival
 arrive
 arrows
 art
+artefacts
 arthur
 articles
 artificial
@@ -1172,6 +1238,7 @@ awards
 aware
 awareness
 away
+awkward
 awkwardly
 axes
 axis
@@ -1266,6 +1333,7 @@ beans
 bearing
 bearings
 beautiful
+beauty
 because
 become
 becomes
@@ -1297,12 +1365,14 @@ benebellwen
 benefic
 benefics
 benefit
+benefits
 bengaluru
 benham
 bereavement
 berger
 bergerpaints
 beside
+besides
 best
 better
 between
@@ -1421,6 +1491,7 @@ bounds
 bphs
 bracket
 bracketing
+brackets
 brahma
 brahmana
 brahmasthan
@@ -1432,6 +1503,7 @@ break
 breakdown
 breaking
 breaks
+breathing
 bride
 bridge
 brief
@@ -1466,6 +1538,7 @@ bundles
 burden
 burgess
 business
+busy
 but
 buy
 buyer
@@ -1532,6 +1605,7 @@ c8a86587c64ffa07bf2a3605124a29f65c1e5f235e974b92773eb6c18c44a120
 c8d409a0f0d4b847332dbc9611f3695e15fe98bdf08de403eabae779c05d7a1e
 c9
 c9187d7aa7035e76904ced579e27611f5f47baa99e4ebb6347de1481120e18f8
+ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66
 ca9f2b6fdcdc081dc1abf64e9c33d07d3fe80137380d4a705322d01a46cceaec
 cache
 cadent
@@ -1585,6 +1659,7 @@ caregiving
 caring
 carries
 carry
+carrying
 cart
 casa
 case
@@ -1845,6 +1920,8 @@ comforting
 comforts
 coming
 comma
+command
+commands
 commencing
 commentary
 commentators
@@ -1888,6 +1965,7 @@ complement
 complementary
 complete
 completed
+completing
 completion
 complicate
 complicated
@@ -1908,6 +1986,7 @@ compute
 computed
 computing
 concatenate
+concentrated
 concentrating
 concern
 concerns
@@ -1993,6 +2072,7 @@ contemplation
 contemporary
 content
 contentment
+contents
 context
 contexts
 contextual
@@ -2029,6 +2109,7 @@ coop
 cooperate
 cooperation
 cooperative
+coordinate
 coordinates
 coords
 copied
@@ -2075,6 +2156,7 @@ covering
 covers
 cow
 cowrie
+craft
 crease
 create
 creates
@@ -2103,6 +2185,7 @@ csprng
 csv
 ctx
 cuckoo
+cultivate
 cultivation
 culture
 cumulative
@@ -2195,6 +2278,7 @@ d979e8b9bc5e96082c29fca8044f6895dc94a906ae6142c9980ecba4805cfbbe
 d985fabb0634317daab0b1947ff8eccfe96f17d1345d0a7eb40fbd78e1fd3ef3
 d9bae6947107ab691dcec3a29fadc3cf42a184d8db8972567a893708ad124067
 d9c6b4c5479d98d2bd7c8d81d829b07f0f8f8d3744d49aab576d5bb0650cfaa8
+d9pos
 da
 da14daa1881866859923d64af9c1176d9633aeef5381afd80c9cc230b2ae471c
 da9232406c48e07bc68c536bc46738397d262be2d536f8caa07af43444967714
@@ -2335,6 +2419,7 @@ demands
 demoli
 demolish
 demolition
+demonstrations
 denial
 denied
 denote
@@ -2344,6 +2429,7 @@ departure
 departures
 depend
 dependable
+dependence
 dependencies
 dependency
 dependent
@@ -2376,6 +2462,7 @@ detailed
 details
 detection
 determination
+determine
 deterministic
 dev
 deva
@@ -2808,11 +2895,13 @@ entry
 enum
 enumerate
 enumerates
+environ
 environment
 envisioned
 envy
 enw
 ep
+ephe
 ephemeris
 epoch
 epsilon
@@ -2852,6 +2941,7 @@ evaluate
 evaluated
 evaluates
 evaluation
+evaluations
 evaluator
 even
 evening
@@ -2881,6 +2971,7 @@ examines
 examining
 example
 examples
+exc
 exceed
 exceeding
 except
@@ -2961,10 +3052,13 @@ extension
 extensions
 extent
 extra
+extract
+extracted
 extrapolate
 extrema
 eye
 f
+f0
 f0dae37064b27d3598ea5a79773a59530ef6889d6fbba21223c69100394ca6d2
 f27464192faf1748ec00fb65a27b92b48d4e38700fd0807484731cb3fce64a08
 f306936c093ec9d5a5ece25cec90abd060cb613111bea82eb885b478eaebceeb
@@ -3020,6 +3114,7 @@ farther
 fascination
 fast
 faster
+fastest
 fasting
 fastrack
 fatal
@@ -3106,6 +3201,7 @@ fire
 fired
 fires
 firm
+firmer
 first
 fish
 fisher
@@ -3127,6 +3223,7 @@ flanks
 flat
 flats
 flesh
+flexibility
 flexible
 flg
 flip
@@ -3174,6 +3271,7 @@ forms
 formula
 formulation
 formulations
+forth
 fortnight
 fortun
 fortunate
@@ -3216,6 +3314,7 @@ from
 fromhex
 fromisoformat
 fromkeys
+fromtimestamp
 front
 frozen
 frozenset
@@ -3242,6 +3341,7 @@ gada
 gadaa
 gadiya
 gain
+gained
 gains
 gaja
 gambling
@@ -3270,6 +3370,7 @@ geeta
 gem
 gemini
 gems
+gemstone
 gemstones
 gendarz
 gender
@@ -3443,6 +3544,7 @@ harsh
 harsha
 harshana
 has
+hashes
 hashlib
 hasta
 hastingscommons
@@ -3480,6 +3582,7 @@ helping
 helps
 hemant
 hemanta
+her
 herbert
 here
 hermit
@@ -3536,6 +3639,7 @@ horse
 hospitality
 host
 hosted
+hosts
 hour
 hourlord
 hours
@@ -3575,6 +3679,7 @@ id002
 id003
 id004
 id005
+id006
 idea
 ideal
 ideals
@@ -3698,6 +3803,7 @@ inherited
 inherits
 init
 initial
+initially
 initiative
 injects
 inline
@@ -3716,7 +3822,9 @@ inspected
 inspection
 inspiration
 install
+installation
 installations
+installed
 instant
 instantaneous
 instants
@@ -4058,6 +4166,7 @@ kuja
 kumara
 kumbha
 kundlinaksha
+kuntay
 kush
 kusha
 kusum
@@ -4208,6 +4317,7 @@ light
 lighter
 lightforcenetwork
 lighting
+lightly
 lightning
 like
 likes
@@ -4273,6 +4383,7 @@ longevity
 longitude
 longitudes
 longitudinal
+longs
 look
 looking
 looks
@@ -4394,6 +4505,7 @@ malefics
 malini
 mallige
 man
+manage
 manageable
 managed
 manana
@@ -4528,6 +4640,7 @@ mid
 middle
 midnight
 midpoint
+midpoints
 might
 migration
 mihir
@@ -4902,6 +5015,7 @@ nourishment
 nov
 november
 now
+npm
 nsa
 nsha
 nshumaan
@@ -4972,6 +5086,8 @@ offer
 offered
 offering
 offers
+offices
+offline
 offset
 offsets
 often
@@ -5247,6 +5363,7 @@ persist
 persistence
 persistent
 person
+persona
 personal
 personalisation
 personalise
@@ -5517,6 +5634,7 @@ progressions
 prohibited
 project
 projected
+projecting
 projection
 projections
 projects
@@ -5547,6 +5665,7 @@ prosperity
 protected
 protecting
 protective
+protects
 proved
 provenance
 provide
@@ -5602,6 +5721,7 @@ puujana
 puujita
 puurnah
 pvr
+pwd
 pwke
 pwnejyvl
 py
@@ -5610,6 +5730,7 @@ pyjhora
 pypi
 pyramid
 pyramids
+pyswisseph
 pythagorean
 python
 pyyaml
@@ -5771,8 +5892,10 @@ reasonably
 reasoned
 reasoning
 reasons
+reassurance
 rebuild
 rebuilding
+rec
 recalculate
 recall
 recast
@@ -5865,6 +5988,7 @@ registered
 registers
 registration
 registry
+regression
 regular
 rehearsal
 reinforce
@@ -5955,6 +6079,7 @@ reproduce
 reproduced
 reproducibility
 reproducible
+reproduction
 reproductive
 request
 requested
@@ -6201,6 +6326,7 @@ sandalwood
 sandesh
 sandesha
 sandhi
+sandhis
 sandhya
 sangeeta
 sanjay
@@ -6295,6 +6421,7 @@ scriptures
 sculpted
 sculptor
 se
+se1
 sea
 seam
 seams
@@ -6344,6 +6471,7 @@ sell
 semantic
 semi
 semicircle
+semo
 send
 sending
 seniority
@@ -6362,6 +6490,7 @@ separating
 separation
 separators
 sepharial
+sepl
 seq
 sequence
 sequences
@@ -6576,6 +6705,7 @@ smr
 smriti
 snap
 snapshot
+snapshots
 sneh
 sneha
 snow
@@ -6650,12 +6780,14 @@ spelling
 spellings
 spend
 spending
+spent
 spirits
 spiritual
 spirituality
 split
 splitlines
 splits
+splitting
 spoken
 spot
 spotlight
@@ -6889,6 +7021,7 @@ swati
 swe
 sweep
 sweetness
+sweph
 swephprg
 swept
 swieph
@@ -6906,11 +7039,13 @@ symbolic
 symbolism
 symbols
 symmetric
+symmetry
 synastry
 synthesis
 synthesize
 synthesizing
 synthetic
+sys
 system
 systems
 t
@@ -6956,6 +7091,7 @@ tanishq
 tank
 tantra
 tanu
+tar
 tara
 tarabala
 target
@@ -7000,6 +7136,7 @@ temporal
 temporary
 ten
 tenanted
+tend
 tendencies
 tending
 tension
@@ -7023,6 +7160,7 @@ text
 textbook
 texts
 textual
+tgz
 th
 tha
 than
@@ -7080,6 +7218,7 @@ timedelta
 timeline
 timelines
 times
+timestamp
 timestamps
 timetable
 timezone
@@ -7190,6 +7329,7 @@ treats
 tree
 tri
 triage
+trial
 triangle
 triangular
 tribhaga
@@ -7242,6 +7382,7 @@ tutorials
 tvashtar
 tvs
 tvsmotor
+tw
 twelfth
 twelve
 twenty
@@ -7334,6 +7475,7 @@ unhelpful
 unicode
 unicodedata
 uniform
+unimplemented
 unindexed
 uninterrupted
 union
@@ -7476,6 +7618,7 @@ variability
 variable
 variant
 variants
+varied
 varies
 variyan
 varjyam
@@ -7512,6 +7655,7 @@ veenaa
 vehicle
 vehicles
 venus
+venv
 ver
 verdict
 verdicts
@@ -7636,6 +7780,7 @@ war
 warm
 warmth
 warning
+warriors
 wartime
 was
 watch
@@ -7667,6 +7812,7 @@ weighted
 weighting
 weights
 welcome
+welcoming
 well
 wellbeing
 were
@@ -7690,6 +7836,7 @@ whom
 whose
 why
 wide
+widely
 widening
 wider
 widow
@@ -7761,6 +7908,7 @@ wsw
 www
 x
 x27
+xf
 xiv
 xix
 xml
@@ -8034,6 +8182,7 @@ zones
 उदारता
 उदाहरण
 उद्देश्य
+उद्देश्यों
 उन
 उनका
 उनकी
@@ -8123,6 +8272,7 @@ zones
 करें
 करेगा
 कर्क
+कर्तव्य
 कल
 कला
 कलाई
@@ -8133,6 +8283,7 @@ zones
 कवि
 कस्प
 कह
+कहना
 कहने
 कहाँ
 कहानी
@@ -8219,6 +8370,7 @@ zones
 खर्च
 खर्चों
 ख़रीद
+ख़र्च
 ख़र्चों
 ख़ुशी
 खा
@@ -8420,6 +8572,7 @@ zones
 जीवनकाल
 जुटा
 जुटाते
+जुटाना
 जुड़ता
 जुड़ती
 जुड़ते
@@ -8437,6 +8590,7 @@ zones
 जोखिमों
 जोड़
 जोड़ते
+जोड़ना
 ज्ञात
 ज्ञान
 झ
@@ -8449,6 +8603,7 @@ zones
 टकराव
 टाल
 टिकता
+टिकाना
 टीम
 टोके
 ठ
@@ -8480,6 +8635,7 @@ zones
 तरीका
 तरीके
 तरीकों
+तर्क
 तर्जनी
 तलाश
 तलाशते
@@ -8527,6 +8683,7 @@ zones
 दसव
 दस्तावेज़
 दायित्व
+दायित्वों
 दाल
 दिख
 दिखता
@@ -8660,6 +8817,7 @@ zones
 निर्बाध
 निर्भयता
 निर्भर
+निर्भरता
 निर्मल
 निर्माण
 निवास
@@ -8676,6 +8834,7 @@ zones
 नेत्र
 नोट
 नौव
+नौवां
 प
 पंक्तियों
 पंचांग
@@ -8764,6 +8923,7 @@ zones
 पूछें
 पूजन
 पूजित
+पूरक
 पूरा
 पूरी
 पूरे
@@ -8833,6 +8993,7 @@ zones
 बँटकर
 बँटे
 बचत
+बचाना
 बचाने
 बची
 बच्चे
@@ -8904,6 +9065,7 @@ zones
 बारीकियों
 बारीकी
 बारे
+बाहर
 बाहरी
 बिंदु
 बिखरा
@@ -9129,6 +9291,8 @@ zones
 रिश्ते
 रिश्तेदार
 रुचि
+रुचियाँ
+रुचियों
 रूप
 रूपरेखा
 रेखा
@@ -9153,6 +9317,7 @@ zones
 लगाने
 लगे
 लग्न
+लचीलापन
 लचीली
 लता
 लय
@@ -9161,6 +9326,7 @@ zones
 ला
 लागत
 लागू
+लाना
 लाभ
 लिए
 लिख
@@ -9221,6 +9387,7 @@ zones
 विजय
 वित्तीय
 विदेश
+विदेशवास
 विद्या
 विद्यार्थी
 विधि
@@ -9257,6 +9424,7 @@ zones
 व्यक्त
 व्यक्ति
 व्यक्तिगत
+व्यय
 व्यवसाय
 व्यवस्था
 व्याख्या
@@ -9347,6 +9515,7 @@ zones
 सकता
 सकती
 सकते
+सकने
 सके
 सकें
 सक्रिय
@@ -9405,6 +9574,7 @@ zones
 सहमत
 सहमति
 सहयोग
+सहयोगियों
 सहानुभूति
 सहायक
 सहायता
@@ -9603,6 +9773,7 @@ zones
 ಅಂಚುಗಳನ್ನು
 ಅಂತರ
 ಅಂತರಿಕ್ಷ
+ಅಂದಗೊಳಿಸುವುದು
 ಅಂದಾಜಿನದು
 ಅಂದಾಜು
 ಅಂಶ
@@ -9668,6 +9839,7 @@ zones
 ಅನುಕೂಲವಾಗುವ
 ಅನುಕೂಲವಾದ
 ಅನುಕೂಲವೆಂದು
+ಅನುಭವ
 ಅನುಭವಕ್ಕೆ
 ಅನುಭವಗಳನ್ನು
 ಅನುಭವದ
@@ -9693,6 +9865,7 @@ zones
 ಅಭಿವೃದ್ಧಿ
 ಅಭಿವ್ಯಕ್ತಿ
 ಅಭಿವ್ಯಕ್ತಿಯ
+ಅಭ್ಯಸಿಸುವುದು
 ಅಭ್ಯಾಸ
 ಅಭ್ಯಾಸಕ್ಕೆ
 ಅಭ್ಯಾಸಗಳ
@@ -9708,6 +9881,7 @@ zones
 ಅಮೃತ
 ಅರಸ
 ಅರಸಿ
+ಅರಿಯುವುದು
 ಅರಿವು
 ಅರ್ಜುನ
 ಅರ್ಥ
@@ -9745,6 +9919,7 @@ zones
 ಅವನ್ನು
 ಅವರ
 ಅವರಿಗೆ
+ಅವಲಂಬನೆ
 ಅವಲಂಬಿಸಿದ್ದಾರೆ
 ಅವಲಂಬಿಸಿರುವ
 ಅವಲೋಕನ
@@ -9779,6 +9954,7 @@ zones
 ಆತ್ಮೀಯತೆಯ
 ಆತ್ಮೀಯರಿಗೆ
 ಆದರ್ಶಗಳು
+ಆದಾಯ
 ಆದಾಯದ
 ಆದಾಯವನ್ನು
 ಆದಾಯವು
@@ -9786,6 +9962,7 @@ zones
 ಆದ್ಯತೆಗಳ
 ಆದ್ಯತೆಗಳನ್ನು
 ಆದ್ಯತೆಗಳಿಗೂ
+ಆದ್ಯತೆಗಳಿಗೆ
 ಆದ್ಯತೆಗಳು
 ಆದ್ಯತೆಗಳೊಂದಿಗೆ
 ಆದ್ಯತೆಗೆ
@@ -9866,10 +10043,15 @@ zones
 ಆಶೆಯನ್ನು
 ಆಶ್ರಯ
 ಆಸಕ್ತಿ
+ಆಸಕ್ತಿಗಳ
+ಆಸಕ್ತಿಗಳನ್ನು
+ಆಸಕ್ತಿಗಳಿಗೆ
 ಆಸಕ್ತಿಯ
 ಆಸಕ್ತಿಯನ್ನು
 ಆಸಕ್ತಿಯಿಂದ
 ಆಸಕ್ತಿಯಿದ್ದರೆ
+ಆಸರೆ
+ಆಸರೆಯ
 ಆಸೆಗಳನ್ನು
 ಆಸ್ತಿ
 ಆಸ್ತಿಯ
@@ -9965,6 +10147,7 @@ zones
 ಉದ್ದಿನ
 ಉದ್ದೇಶ
 ಉದ್ದೇಶಕ್ಕೆ
+ಉದ್ದೇಶಗಳನ್ನು
 ಉದ್ದೇಶದ
 ಉದ್ದೇಶವನ್ನು
 ಉದ್ಯೋಗದಾತರಿಗೆ
@@ -9977,6 +10160,7 @@ zones
 ಉಪಸ್ವಾಮಿ
 ಉಪಾಧಿಪತಿ
 ಉಬ್ಬು
+ಉಳಿತಾಯ
 ಉಳಿತಾಯದ
 ಉಳಿದ
 ಉಳಿದಿದೆ
@@ -9992,6 +10176,7 @@ zones
 ಉಳಿಸಿಕೊಳ್ಳುವುದು
 ಉಳಿಸುತ್ತದೆ
 ಉಳಿಸುತ್ತಿರುವ
+ಉಳಿಸುವುದು
 ಊ
 ಊಟ
 ಊಹೆ
@@ -10031,6 +10216,7 @@ zones
 ಏಕಾಂತ
 ಏಕಾಂತದ
 ಏಕಾಂತದಲ್ಲಿ
+ಏಕಾಗ್ರತೆ
 ಏಕಾಗ್ರತೆಗೆ
 ಏಕಾಗ್ರತೆಯ
 ಏಕೆ
@@ -10121,9 +10307,11 @@ zones
 ಕರೆಗೆ
 ಕರ್ಕಾಟಕ
 ಕರ್ತವ್ಯ
+ಕರ್ತವ್ಯಕ್ಕೆ
 ಕರ್ತವ್ಯಗಳು
 ಕರ್ತವ್ಯವನ್ನು
 ಕಲಿಕೆ
+ಕಲಿಕೆಗೆ
 ಕಲಿಕೆಯ
 ಕಲಿತ
 ಕಲಿತದ್ದನ್ನು
@@ -10165,18 +10353,24 @@ zones
 ಕಾಣಿಸುತ್ತದೆಯೇ
 ಕಾಣಿಸುವ
 ಕಾಣುವ
+ಕಾಣುವುದು
 ಕಾನೂನು
 ಕಾಪಾಡುವುದು
 ಕಾಮದೇವ
 ಕಾಯಬಹುದು
 ಕಾಯಲು
+ಕಾಯುವುದು
+ಕಾಯ್ದುಕೊಳ್ಳುವುದು
 ಕಾರಕಾಂಶ
+ಕಾರಣ
 ಕಾರಣಗಳನ್ನು
 ಕಾರಣಗಳು
 ಕಾರಣವೇನು
 ಕಾರ್ಡ್
 ಕಾರ್ಮಿಕರಿಗೆ
 ಕಾರ್ಯ
+ಕಾರ್ಯಕ್ಕೂ
+ಕಾರ್ಯಕ್ಕೆ
 ಕಾರ್ಯಸಾಧ್ಯವಾದ
 ಕಾಲ
 ಕಾಲಕ್ರಮದಲ್ಲಿ
@@ -10226,6 +10420,7 @@ zones
 ಕೆಲಸಗಳನ್ನು
 ಕೆಲಸಗಳಲ್ಲಿ
 ಕೆಲಸಗಳಾಗಿ
+ಕೆಲಸಗಳಿಗೆ
 ಕೆಲಸಗಳು
 ಕೆಲಸದ
 ಕೆಲಸದಲ್ಲಿ
@@ -10299,6 +10494,7 @@ zones
 ಕ್ರಮಬದ್ಧ
 ಕ್ರಮವನ್ನು
 ಕ್ರಾಂತಿ
+ಕ್ರಿಯೆಗೆ
 ಕ್ಷಣ
 ಕ್ಷಣದಲ್ಲಿ
 ಕ್ಷಣವನ್ನು
@@ -10325,6 +10521,7 @@ zones
 ಗ
 ಗಂಗೆಯ
 ಗಟ್ಟಿಯಾಗಬಹುದು
+ಗಡಿ
 ಗತಿ
 ಗತಿಯನ್ನು
 ಗತಿಯಲ್ಲಿ
@@ -10418,6 +10615,7 @@ zones
 ಚರ್ಚಿಸಿದರೆ
 ಚರ್ಚಿಸುವಾಗ
 ಚರ್ಚಿಸುವುದು
+ಚರ್ಚೆಯೊಂದಿಗೆ
 ಚಲನೆ
 ಚಲನೆಯನ್ನು
 ಚಲನೆಯಿಂದ
@@ -10498,6 +10696,7 @@ zones
 ಜೊತೆಯಲ್ಲಿ
 ಜೊತೆಯಾಗಿ
 ಜೋಡಿಸಬಹುದು
+ಜೋಡಿಸುವುದು
 ಜೋರಾಗಿ
 ಜ್ಞಾನ
 ಝ
@@ -10519,12 +10718,15 @@ zones
 ತಂದೆ
 ತಂದೆಯ
 ತಂಪು
+ತಕ್ಕ
 ತಕ್ಕಂತೆ
 ತಕ್ಷಣ
 ತಗ್ಗಿಸುವುದು
 ತಜ್ಞರಿಂದ
 ತಡೆದರೆ
 ತಡೆದು
+ತತ್ವ
+ತತ್ವಕ್ಕೆ
 ತತ್ವದ
 ತತ್ವವನ್ನು
 ತನ್ನ
@@ -10536,6 +10738,8 @@ zones
 ತರಲು
 ತರುತ್ತದೆ
 ತರುವ
+ತರುವುದು
+ತರ್ಕ
 ತಲುಪಲು
 ತಾಯಿ
 ತಾಳ್ಮೆ
@@ -10580,6 +10784,7 @@ zones
 ತೆರೆಯುವ
 ತೇಜಸ್ಸು
 ತೊಗರಿ
+ತೊಡಕು
 ತೋರಬಹುದು
 ತೋರಿಸಬಹುದು
 ತೋರಿಸಲು
@@ -10643,6 +10848,7 @@ zones
 ದುರದೃಷ್ಟ
 ದುರಾದೃಷ್ಟ
 ದುರ್ಬಲ
+ದೂರ
 ದೂರದ
 ದೃಢ
 ದೃಢತೆ
@@ -10660,6 +10866,7 @@ zones
 ದೇವಾಲಯದಲ್ಲಿ
 ದೇವಿ
 ದೇವೇಶ
+ದೇಹ
 ದೇಹದ
 ದೈನಂದಿನ
 ದೈಹಿಕ
@@ -10713,6 +10920,7 @@ zones
 ನಿಗದಿತ
 ನಿಗದಿಪಡಿಸಬಹುದು
 ನಿಗದಿಪಡಿಸುವ
+ನಿಗದಿಪಡಿಸುವುದು
 ನಿತ್ಯ
 ನಿತ್ಯದ
 ನಿಧಾನವಾಗಿ
@@ -10798,6 +11006,7 @@ zones
 ನೆನಪಿಸಿಕೊಳ್ಳುವುದು
 ನೆನಪು
 ನೆಮ್ಮದಿ
+ನೆಮ್ಮದಿಗೆ
 ನೆಯ
 ನೆರಳು
 ನೆರವನ್ನು
@@ -10811,6 +11020,7 @@ zones
 ನೆರವಾದ
 ನೆರವಾದರೆ
 ನೆರವಾದವರ
+ನೆರವಿಗೆ
 ನೆರವಿನ
 ನೆರವು
 ನೆಲೆ
@@ -10821,6 +11031,7 @@ zones
 ನೇರ
 ನೇರವಾಗಿ
 ನೋಂದಣಿ
+ನೋಟ
 ನೋಟದಲ್ಲಿ
 ನೋಡಬಹುದು
 ನೋಡಬೇಕು
@@ -10921,6 +11132,7 @@ zones
 ಪುನರಾವರ್ತಿಸಬಹುದು
 ಪೂಜಿತ
 ಪೂಜೆ
+ಪೂರಕ
 ಪೂರೈಸಲು
 ಪೂರೈಸಿದಾಗ
 ಪೂರ್ಣ
@@ -11030,6 +11242,7 @@ zones
 ಬದಲಾವಣೆಗೆ
 ಬದಲಾವಣೆಯ
 ಬದಲಾವಣೆಯನ್ನು
+ಬದಲಾವಣೆಯಲ್ಲಿ
 ಬದಲಿಸಬಹುದಾದ
 ಬದಲಿಸಬೇಕಾಗಬಹುದು
 ಬದಲಿಸಲು
@@ -11101,8 +11314,10 @@ zones
 ಬಿಂದುವಾಗಬಹುದು
 ಬಿಂದುವಿನಲ್ಲಿ
 ಬಿಟ್ಟು
+ಬಿಡಬಹುದಾದ
 ಬಿಡಬಹುದು
 ಬಿಡಿ
+ಬಿಡುವಿನ
 ಬಿಡುವಿರುವ
 ಬಿಡುವು
 ಬಿಡುವುದರಿಂದ
@@ -11157,6 +11372,7 @@ zones
 ಬೇಕೆಂದು
 ಬೇಕೆನಿಸಬಹುದು
 ಬೇಕೇ
+ಬೇಡಿಕೆ
 ಬೇಡಿಕೆಗಳ
 ಬೇಡಿಕೆಗಳನ್ನು
 ಬೇಡಿಕೆಗಳು
@@ -11340,11 +11556,13 @@ zones
 ಮೀರಿದ
 ಮೀಸಲಿಡಬಹುದು
 ಮೀಸಲಿಡುವಾಗ
+ಮುಂಚಿತವಾಗಿ
 ಮುಂಜಾನೆ
 ಮುಂದಕ್ಕೆ
 ಮುಂದಾಗಿ
 ಮುಂದಾಗಿದ್ದೀರಿ
 ಮುಂದಾಳತ್ವ
+ಮುಂದಾಳತ್ವಕ್ಕೆ
 ಮುಂದಿನ
 ಮುಂದುವರಿಯಲು
 ಮುಂದುವರಿಯುವ
@@ -11378,6 +11596,7 @@ zones
 ಮುತ್ತು
 ಮುನ್ನ
 ಮುನ್ನಡೆಯಬಹುದು
+ಮುನ್ನಡೆಯುವ
 ಮುನ್ನಡೆಸಲು
 ಮುನ್ನಡೆಸುವ
 ಮೂಡಲು
@@ -11411,6 +11630,7 @@ zones
 ಮೌಲ್ಯಗಳು
 ಮೌಲ್ಯದೊಂದಿಗೆ
 ಮೌಲ್ಯವನ್ನು
+ಮೌಲ್ಯಾಧಾರಿತ
 ಯ
 ಯಂತ್ರ
 ಯಶಸ್ಸಿನ
@@ -11452,6 +11672,7 @@ zones
 ಯೋಜಿಸಲು
 ಯೋಜಿಸುವ
 ಯೋಜಿಸುವಾಗ
+ಯೋಜಿಸುವುದು
 ಯೌವನದ
 ರ
 ರಕ್ಷಿತ
@@ -11499,6 +11720,7 @@ zones
 ಲಯ
 ಲಯವನ್ನು
 ಲಲಿತ
+ಲಾಭ
 ಲೆಕ್ಕ
 ಲೆಕ್ಕಪತ್ರದಿಂದ
 ಲೆಕ್ಕವನ್ನು
@@ -11550,6 +11772,7 @@ zones
 ವಿತರಣಾ
 ವಿದೇಶ
 ವಿದೇಶಕ್ಕೆ
+ವಿದೇಶವಾಸ
 ವಿದ್ಯೆ
 ವಿದ್ಯೆಯ
 ವಿಧಾನ
@@ -11563,6 +11786,7 @@ zones
 ವಿನಾಯಿತಿಗಳನ್ನು
 ವಿನಾಶ
 ವಿನಿಮಯ
+ವಿನಿಮಯಕ್ಕೆ
 ವಿನಿಮಯದಲ್ಲಿ
 ವಿನಿಮಯವೆಂದರೆ
 ವಿನೋದ
@@ -11610,6 +11834,7 @@ zones
 ವಿಶ್ರಾಂತಿಯ
 ವಿಶ್ವಾಸ
 ವಿಶ್ವಾಸದ
+ವಿಶ್ವಾಸಾರ್ಹ
 ವಿಷಯ
 ವಿಷಯಕ್ಕೆ
 ವಿಷಯಗಳ
@@ -11697,6 +11922,8 @@ zones
 ಶೈಲಿಯನ್ನು
 ಶೈಲಿಯಲ್ಲಿ
 ಶ್ರದ್ಧೆ
+ಶ್ರಮ
+ಶ್ರಮದ
 ಶ್ರಮವನ್ನು
 ಶ್ರಾಪಿತ
 ಶ್ರೀಗಂಧ
@@ -11719,6 +11946,7 @@ zones
 ಸಂಗಾತಿಯು
 ಸಂಗಾತಿಯೊಂದಿಗೆ
 ಸಂಗೀತ
+ಸಂಘಟಿಸುವುದು
 ಸಂಘರ್ಷದ
 ಸಂಚಾರ
 ಸಂಚಾರಗಳು
@@ -11752,6 +11980,7 @@ zones
 ಸಂಪನ್ಮೂಲಗಳು
 ಸಂಪನ್ಮೂಲವನ್ನು
 ಸಂಪರ್ಕ
+ಸಂಪರ್ಕಕ್ಕೆ
 ಸಂಪರ್ಕಗಳನ್ನು
 ಸಂಪರ್ಕಗಳು
 ಸಂಪರ್ಕದಲ್ಲಿರುವುದು
@@ -11826,6 +12055,8 @@ zones
 ಸಲಹೆಯಲ್ಲ
 ಸಲಹೆಯಾಗಿ
 ಸವಾಲಿಗೆ
+ಸವಾಲಿನ
+ಸಹಕರಿಸುವುದು
 ಸಹಕಾರ
 ಸಹಕಾರದ
 ಸಹಕಾರವು
@@ -11837,6 +12068,7 @@ zones
 ಸಹಾನುಭೂತಿ
 ಸಹಾನುಭೂತಿಯಿಂದ
 ಸಹಾಯ
+ಸಹಾಯಕರನ್ನು
 ಸಹಾಯವಾಗಬಹುದು
 ಸಹಿಯ
 ಸಹೋದರ
@@ -11856,6 +12088,7 @@ zones
 ಸಾಗುವುದು
 ಸಾಡೇ
 ಸಾತಿ
+ಸಾಧನ
 ಸಾಧನೆ
 ಸಾಧನೆಯನ್ನು
 ಸಾಧಿಸಲು
@@ -11871,6 +12104,7 @@ zones
 ಸಾಮಾನುಗಳನ್ನು
 ಸಾಮಾನ್ಯ
 ಸಾಮಾನ್ಯವಾಗಿರಬಹುದು
+ಸಾಮೂಹಿಕ
 ಸಾರ್ವಜನಿಕ
 ಸಾಲಿನಲ್ಲಿ
 ಸಾವಧಾನವಾಗಿ
@@ -11883,7 +12117,9 @@ zones
 ಸಿಗುತ್ತದೆ
 ಸಿಗುವ
 ಸಿದ್ಧತೆ
+ಸಿದ್ಧತೆಗೂ
 ಸಿದ್ಧತೆಗೆ
+ಸಿದ್ಧಪಡಿಸುವುದು
 ಸಿದ್ಧರಾಗಿರಬಹುದು
 ಸಿದ್ಧರಾದಾಗ
 ಸಿದ್ಧರಿದ್ದೀರಿ
@@ -11960,6 +12196,7 @@ zones
 ಸ್ಥಳಗಳನ್ನು
 ಸ್ಥಳದ
 ಸ್ಥಳದಲ್ಲಿ
+ಸ್ಥಳಬದಲಾವಣೆಗೆ
 ಸ್ಥಳವನ್ನು
 ಸ್ಥಳಾಂತರ
 ಸ್ಥಳಾಂತರಕ್ಕೆ
@@ -12031,6 +12268,7 @@ zones
 ಹಂಚಿಕೊಳ್ಳುವುದು
 ಹಂಚಿದ
 ಹಂಚುವ
+ಹಂಚುವುದು
 ಹಂತ
 ಹಂತಕ್ಕೆ
 ಹಂತಗಳಲ್ಲಿ
@@ -12130,6 +12368,7 @@ zones
 ಹೇಳಲು
 ಹೇಳಿ
 ಹೇಳುವ
+ಹೇಳುವುದು
 ಹೊಂದದಿದ್ದಾಗ
 ಹೊಂದದಿರಬಹುದು
 ಹೊಂದಬಹುದು
@@ -12145,10 +12384,12 @@ zones
 ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆಯೇ
 ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ
 ಹೊಂದಿಕೊಳ್ಳುವಾಗ
+ಹೊಂದಿಕೊಳ್ಳುವುದು
 ಹೊಂದಿದರೆ
 ಹೊಂದಿದೆ
 ಹೊಂದಿಸಿಕೊಳ್ಳಬಹುದು
 ಹೊಂದಿಸಿಕೊಳ್ಳಲು
+ಹೊಂದಿಸುವುದು
 ಹೊಂದುತ್ತದೆ
 ಹೊಂದುತ್ತದೆಯೇ
 ಹೊಂದುತ್ತವೆ
@@ -12160,6 +12401,7 @@ zones
 ಹೊಣೆಗಳಲ್ಲಿ
 ಹೊಣೆಗಳಿಗೆ
 ಹೊಣೆಗಳು
+ಹೊಣೆಗಾಗಿ
 ಹೊಣೆಗಾರಿಕೆ
 ಹೊಣೆಗಾರಿಕೆಗಳ
 ಹೊಣೆಗಾರಿಕೆಗಳತ್ತ
@@ -12168,11 +12410,13 @@ zones
 ಹೊಣೆಗೂ
 ಹೊಣೆಯ
 ಹೊಣೆಯನ್ನು
+ಹೊಣೆಯಲ್ಲಿ
 ಹೊಣೆಯಿಂದ
 ಹೊತ್ತಿದ್ದೀರಿ
 ಹೊತ್ತಿನಲ್ಲಿ
 ಹೊತ್ತು
 ಹೊರ
+ಹೊರಗೆ
 ಹೊರಡುವ
 ಹೊರಡುವುದು
 ಹೊರುವ

@@ -73,8 +73,10 @@ def existing_participants(slug,row,case,tables,facts):
         group.update(lord(h) for h in case['house_pair'])
     elif slug in ('raja','dhana'):
         # Keep distinct lord-pair matches distinct for both activation and cancellation.
-        pairs=[{lord(a),lord(b)} for a in ([2,11] if slug=='dhana' else sorted(ANGLES))
-               for b in [5,9] if witness(lord(a),lord(b))]
+        offices = [(a,b) for a in ANGLES for b in (5,9)] if slug=='raja' else [
+            (a,b) for i,a in enumerate((1,2,5,9,11)) for b in (1,2,5,9,11)[i+1:]]
+        pairs=[{lord(a),lord(b)} for a,b in offices if witness(lord(a),lord(b)) or
+               slug=='raja' and a!=1 and lord(a)==lord(b)]
         return pairs
     elif slug in ('amala','vasumati'):
         acceptable=[10] if slug=='amala' else [3,6,10,11]

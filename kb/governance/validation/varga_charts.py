@@ -32,7 +32,7 @@ def validate_vargas(rules, read, require):
     fixture = read('examples/varga-sweep.yaml')
     signs = [r['id'] for r in read('vedic/signs/catalog.yaml')['signs']]
     grid = range(fixture['start_degree'], fixture['stop_degree_exclusive'], fixture['step_degree'])
-    require(fixture['synthetic'] is True and fixture['fixture']=='Asha' and grid==range(360), 'synthetic degree grid')
+    require(fixture['synthetic'] is True and fixture['fixture']=='Scenario 1' and grid==range(360), 'synthetic degree grid')
     epsilon = Fraction(fixture['boundary_offset_arcseconds'], 3600)
     require(epsilon == Fraction(1,3600), 'one arcsecond boundary probe')
     factors = [1,2,3,4,7,9,10,12,16,20,24,27,30,40,45,60]

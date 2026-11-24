@@ -4,8 +4,8 @@ topic: yogas
 title: Lakshmi
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Both Venus and the ninth lord occupy an own or exaltation sign in an angle or trine from Lagna. When
-  Venus rules the ninth, evaluate its single placement.
+rule: Both Venus and the ninth lord occupy an own or exaltation sign in an angle or trine from Lagna. When Venus
+  rules the ninth, evaluate its single placement.
 conditions:
   all:
   - fact: d1.lord_9.dignified_in_angle_or_trine
@@ -53,8 +53,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This is Mantreswara’s Venus-and-ninth-lord definition. Other definitions give greater weight to Lagna-lord
@@ -69,12 +69,12 @@ sources:
   supports: Venus and the ninth lord independently occupy angles or trines in own or exaltation signs.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may find it useful to connect a financial choice with a value you want to practise.
-  kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯದೊಂದಿಗೆ ಜೋಡಿಸಬಹುದು.
-  hi: आप किसी आर्थिक चुनाव को उस मूल्य से जोड़ सकते हैं जिस पर आप अमल करना चाहते हैं।
+  en: A value you want to live by may guide a choice about resources.
+  kn: ಸಂಪನ್ಮೂಲಗಳ ಬಗ್ಗೆ ಮೌಲ್ಯಾಧಾರಿತ ಆಯ್ಕೆ ಮಾಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: संसाधनों का सोचकर चुनाव करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

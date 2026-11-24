@@ -1,8 +1,8 @@
 synthetic: true
 provenance: Invented sidereal Moon positions. Independent decimal worksheet uses explicit cumulative lord weights
-  for each reference path. Julian expectations scale the exact savana offsets from the same worksheet anchor by 365.25/360. The legacy Ravi epoch is a period-boundary test anchor. UTC timestamps are rounded only for output, to nearest microsecond, ties to even.
+  for each reference path. Julian expectations scale the exact savana offsets from the same worksheet anchor by 365.25/360. The legacy Scenario 2 epoch is a period-boundary test anchor. UTC timestamps are rounded only for output, to nearest microsecond, ties to even.
 fixtures:
-  Asha:
+  Scenario 1:
     sample_context:
       lagna: cancer
       natal_signs: {saturn: leo, rahu: libra, venus: gemini}
@@ -75,7 +75,7 @@ fixtures:
             lord: saturn
             start: '1996-09-21T03:31:36Z'
             end: '1996-10-12T19:22:00Z'
-  Ravi:
+  Scenario 2:
     birth: '2000-02-29T00:00:00+00:00'
     moon_arcseconds: 48000
     expected:

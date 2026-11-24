@@ -36,11 +36,11 @@ cases:
     moon: 48
     asc: 71
     natal_moons:
-      Asha: 30
-      Ravi: 346
+      Scenario 1: 30
+      Scenario 2: 346
     participants:
-    - Asha
-    - Ravi
+    - Scenario 1
+    - Scenario 2
     venus:
     - 38
     - 1
@@ -51,114 +51,114 @@ cases:
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: neutral
   griha-pravesha:
     sun: 18
     moon: 48
     asc: 41
     natal_moons:
-      Asha: 30
+      Scenario 1: 30
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: support
   vehicle-purchase:
     sun: 58
     moon: 88
     asc: 11
     natal_moons:
-      Asha: 14
+      Scenario 1: 14
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: support
   business-start:
     sun: 18
     moon: 48
     asc: 41
     natal_moons:
-      Asha: 30
+      Scenario 1: 30
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: support
   naming:
     sun: 43
     moon: 61
     asc: 41
     natal_moons:
-      Asha: 14
+      Scenario 1: 14
     participants:
-    - Asha
+    - Scenario 1
     birth_date: '2032-03-09'
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: support
   travel:
     sun: 43
     moon: 61
     asc: 11
     natal_moons:
-      Asha: 14
+      Scenario 1: 14
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: neutral
   education-start:
     sun: 315
     moon: 8
     asc: 11
     natal_moons:
-      Asha: 14
+      Scenario 1: 14
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: support
   property-registration:
     sun: 291
     moon: 8
     asc: 41
     natal_moons:
-      Asha: 14
+      Scenario 1: 14
     participants:
-    - Asha
+    - Scenario 1
     expected_tone: Supportive
     expected_reasons:
       nakshatra: support
       lagna: support
-      tara/Asha: support
-      chandra/Asha: support
+      tara/Scenario 1: support
+      chandra/Scenario 1: support
       panchaka: neutral
 probes:
 - activity: marriage
@@ -204,8 +204,8 @@ probes:
 - activity: marriage
   override:
     participants:
-    - Asha
-    - Asha
+    - Scenario 1
+    - Scenario 1
   result:
   - null
   - null
@@ -213,8 +213,8 @@ probes:
 - activity: marriage
   override:
     natal_moons:
-      Asha: 30
-      Ravi: 48
+      Scenario 1: 30
+      Scenario 2: 48
   result:
   - false
   - Take care
@@ -224,30 +224,30 @@ probes:
 - activity: education-start
   override:
     natal_moons:
-      Asha: 8
+      Scenario 1: 8
   result:
   - true
   - Supportive
   reasons:
-    tara/Asha: neutral
+    tara/Scenario 1: neutral
 - activity: property-registration
   override:
     natal_moons:
-      Asha: 8
+      Scenario 1: 8
   result:
   - true
   - Supportive
   reasons:
-    tara/Asha: neutral
+    tara/Scenario 1: neutral
 - activity: vehicle-purchase
   override:
     natal_moons:
-      Asha: 88
+      Scenario 1: 88
   result:
   - true
   - Steady
   reasons:
-    tara/Asha: avoid
+    tara/Scenario 1: avoid
 - activity: griha-pravesha
   override:
     asc: 4
@@ -289,13 +289,13 @@ probes:
 - activity: travel
   override:
     natal_moons:
-      Asha: 210
+      Scenario 1: 210
   result:
   - true
   - Supportive
   reasons:
-    chandra/Asha: neutral
-    tara/Asha: support
+    chandra/Scenario 1: neutral
+    tara/Scenario 1: support
 - activity: vehicle-purchase
   override:
     vishti_intervals:

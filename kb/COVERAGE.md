@@ -72,3 +72,7 @@ Classical locators awaiting edition checks retain pending status. Election offse
 The corpus now contains 2,540 draft reading rules across ten systems and 916 registered facts. The 365 new readings comprise five KP judgements, 198 Western natal pair readings, 105 transit pair readings, 42 synastry readings, twelve MC signs, two return readings and one Papasamya comparison. The confidence matrix covers 71 outputs. Six checker worksheets cover complete, limited and private input paths. The lookup tables contain 319 name spellings and 52 Indian-market brands.
 
 The Western point adjustments, the matching summary bands and the Papasamya unit weights are editorial conventions. KP retains true node, Krishnamurti mode 5 and Placidus without fallback. Koota totals and sensitive evidence remain internal. Native Kannada/Hindi review and first-party brand spelling checks remain pending; Sanskrit dictionary senses are distinguished from name usage.
+
+## KB-46 · Synthetic end-to-end acceptance
+
+Five Swiss-file natal charts and five worked readings cover thirty MVP area evaluations on a common date. The corpus has 2,540 draft reading rules and 922 registered fact keys across ten systems. All 82 yoga readings have distinct EN, KN and HI text. The 71-row birth-time matrix governs the references. [Charts and reproduction](examples/fixtures/README.md)

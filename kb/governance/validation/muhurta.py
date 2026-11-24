@@ -215,7 +215,7 @@ def validate_muhurta(rules,read,evaluate,require):
         winners.append((c['start'],c['end'],ok,tone))
     require(len(recommendations(winners,policy['ranking']))==3,'M5 survivors')
     travel=rules[selection['activity_profiles']['travel']]['activity_profile']
-    departure=dict(base, participants=['Asha'], direction='south',region_switches={'panchaka':True},sun=270)
+    departure=dict(base, participants=['Scenario 1'], direction='south',region_switches={'panchaka':True},sun=270)
     for moon,expected in [(299.99,False),(300,True),(359.99,True),(0,False)]:
         # Keep elongation fixed so that an independent Vishti interval cannot mask this gate.
         ok,_,info=run(dict(departure,moon=moon,sun=(moon-30)%360),travel)

@@ -4,10 +4,16 @@ topic: dashas/vimshottari
 title: spirituality and the active house lord
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Current major period lord owns natal house 9.
+rule: 'Current major lord owns any of the recipe houses: 9, 12, 5.'
 conditions:
-  all:
+  any:
   - fact: dasha.active_lord.owns_house_9
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_12
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_5
     op: eq
     value: true
 meaning: A teacher may help you reflect on dharma and the opportunities that come your way.

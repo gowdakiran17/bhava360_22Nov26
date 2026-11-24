@@ -63,7 +63,7 @@ def validate_kp(rules, read, evaluate, require):
             and set(failure['withhold'])=={'cuspal-sub-lords','house-significators','kp-prashna'}
             and set(failure['note'])=={'en','kn','hi'},'polar failure preserves independent planetary rows')
     fixture = read('examples/kp-reference.yaml')
-    require(fixture['synthetic'] and set(fixture['cases'])=={'Asha','Ravi'}, 'synthetic KP charts')
+    require(fixture['synthetic'] and set(fixture['cases'])=={'Scenario 1','Scenario 2'}, 'synthetic KP charts')
     division = read('kp/star-sub-lords/divisions.yaml')
     require(list(division['lord_years_in_order'].items())==list(zip(ORDER,YEARS)) and
             (division['star_width_arcseconds'],division['sign_width_arcseconds'],division['cycle_years'])==

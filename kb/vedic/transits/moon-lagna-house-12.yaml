@@ -11,7 +11,7 @@ conditions:
   - fact: transit.moon.distance_from_lagna
     op: eq
     value: 12
-meaning: In matters of rest and reflection, attending to feelings may help you decide what to do next.
+meaning: In matters of expenses and time abroad, attending to feelings may help you decide what to do next.
 life_areas:
 - money
 - health
@@ -34,9 +34,9 @@ sources:
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
-  en: In matters of rest and reflection, attending to feelings may help you decide what to do next.
-  kn: ವಿಶ್ರಾಂತಿ ಮತ್ತು ಚಿಂತನೆ ವಿಷಯದಲ್ಲಿ ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
-  hi: विश्राम और मनन के मामलों में भावनाओं पर ध्यान देना अगला कदम चुनने में मदद कर सकता है।
+  en: In matters of expenses and time abroad, attending to feelings may help you decide what to do next.
+  kn: ವೆಚ್ಚ ಮತ್ತು ವಿದೇಶವಾಸ ವಿಷಯದಲ್ಲಿ ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: व्यय और विदेशवास के मामलों में भावनाओं पर ध्यान देना अगला कदम चुनने में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending

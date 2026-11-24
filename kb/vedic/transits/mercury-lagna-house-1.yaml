@@ -11,7 +11,7 @@ conditions:
   - fact: transit.mercury.distance_from_lagna
     op: eq
     value: 1
-meaning: In matters of personal routines, asking clear questions may help you decide what to do next.
+meaning: In matters of your body and vitality, asking clear questions may help you decide what to do next.
 life_areas:
 - health
 strength_notes: []
@@ -32,9 +32,9 @@ sources:
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
-  en: In matters of personal routines, asking clear questions may help you decide what to do next.
-  kn: ದಿನಚರಿ ವಿಷಯದಲ್ಲಿ ಸ್ಪಷ್ಟ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
-  hi: दिनचर्या के मामलों में स्पष्ट सवाल पूछना अगला कदम चुनने में मदद कर सकता है।
+  en: In matters of your body and vitality, asking clear questions may help you decide what to do next.
+  kn: ದೇಹ ಮತ್ತು ಚೈತನ್ಯ ವಿಷಯದಲ್ಲಿ ಸ್ಪಷ್ಟ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: शरीर और स्फूर्ति के मामलों में स्पष्ट सवाल पूछना अगला कदम चुनने में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending

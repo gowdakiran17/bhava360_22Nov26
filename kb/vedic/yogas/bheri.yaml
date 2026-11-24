@@ -4,8 +4,8 @@ topic: yogas
 title: Bheri
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: With a capable ninth lord, the first, second, seventh and twelfth are occupied, or Jupiter, Venus and the Lagna
-  lord occupy mutual angles.
+rule: With a capable ninth lord, the first, second, seventh and twelfth are occupied, or Jupiter, Venus and the
+  Lagna lord occupy mutual angles.
 conditions:
   all:
   - fact: d1.yoga.bheri_formed
@@ -39,8 +39,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
@@ -67,15 +67,15 @@ sources:
   chapter: null
   verse: null
   other_locator: jhora/horoscope/chart/yoga.py, bheri_yoga
-  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
-    copy follow the declared KB policy.
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and
+    public copy follow the declared KB policy.
   verification: verified
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: Moving between different responsibilities may help you see what needs attention.
-  kn: ವಿವಿಧ ಹೊಣೆಗಳನ್ನು ಗಮನಿಸಿದಾಗ ಯಾವುದಕ್ಕೆ ಸಮಯ ಬೇಕು ಎಂಬುದು ತಿಳಿಯಬಹುದು.
-  hi: अलग-अलग जिम्मेदारियों पर ध्यान देने से अगला काम चुनना सहज हो सकता है।
+  en: A shared resource may help you bring different commitments together.
+  kn: ಸಂಪನ್ಮೂಲ ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: संसाधन साझा करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

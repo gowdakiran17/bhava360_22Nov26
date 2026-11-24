@@ -1,13 +1,13 @@
 synthetic: true
 charts:
-  Asha:
+  Scenario 1:
     # Invented tropical degrees, including a wraparound quadrant cusp.
     ascendant: 350
     placidus: [350, 18, 50, 82, 114, 147, 170, 198, 230, 262, 294, 327]
     positions: {sun: 355, saturn: 85, venus: 185}
     venus_house: {placidus: 7, whole-sign: 8}
     sun_saturn_square: true
-  Ravi:
+  Scenario 2:
     ascendant: 15
     placidus: [15, 43, 71, 100, 132, 165, 195, 223, 251, 280, 312, 345]
     positions: {sun: 3, saturn: 100, venus: 195}

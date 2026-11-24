@@ -1,6 +1,6 @@
 synthetic: true
-# Asha is a synthetic point swept around the zodiac, independent of any ephemeris.
-fixture: Asha
+# Scenario 1 is a synthetic point swept around the zodiac, independent of any ephemeris.
+fixture: Scenario 1
 start_degree: 0
 stop_degree_exclusive: 360
 step_degree: 1

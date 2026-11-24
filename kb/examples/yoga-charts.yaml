@@ -20,7 +20,6 @@ cases:
   - adhi
   - amala
   - chandra-mangala
-  - dhana
   - durudhara
   - gaja-kesari
   - hamsa
@@ -42,14 +41,15 @@ cases:
   - vasumati
   - vesi
   - vimala
+  - dhana
   matches:
   - anapha
   - bhadra
   - budhaditya
-  - raja
   - sakata
   - sarala
   - vosi
+  - raja
   exceptions:
     sakata:
     - 0
@@ -79,6 +79,8 @@ cases:
   - gaja-kesari
   - kemadruma
   - vesi
+  - raja
+  - dhana
   exceptions:
     kemadruma:
     - 1
@@ -101,10 +103,13 @@ cases:
   matches:
   - adhi
   - ubhayachari
+  - raja
   exceptions:
     kemadruma:
     - 0
     - 2
+  misses:
+  - dhana
 - id: scenario-4
   longitude:
     lagna: 258
@@ -122,6 +127,7 @@ cases:
   jupiter_shadbala_rupas: 5
   matches:
   - amala
+  - raja
   - dhana
 - id: scenario-5
   longitude:
@@ -141,8 +147,9 @@ cases:
   matches:
   - durudhara
   - sunapha
-  misses:
   - raja
+  misses:
+  - dhana
 - id: scenario-6
   longitude:
     lagna: 207
@@ -161,6 +168,8 @@ cases:
   matches:
   - harsha
   - shasha
+  - raja
+  - dhana
 - id: scenario-7
   longitude:
     lagna: 354
@@ -178,6 +187,8 @@ cases:
   jupiter_shadbala_rupas: 7
   matches:
   - chandra-mangala
+  - raja
+  - dhana
 - id: scenario-8
   longitude:
     lagna: 310
@@ -196,6 +207,8 @@ cases:
   matches:
   - lakshmi
   - malavya
+  - raja
+  - dhana
 - id: scenario-9
   longitude:
     lagna: 275
@@ -213,6 +226,8 @@ cases:
   jupiter_shadbala_rupas: 5
   matches:
   - vimala
+  - raja
+  - dhana
 - id: scenario-10
   longitude:
     lagna: 353
@@ -233,6 +248,8 @@ cases:
     - 0
   matches:
   - neecha-bhanga
+  - raja
+  - dhana
 - id: scenario-11
   longitude:
     lagna: 246
@@ -250,6 +267,8 @@ cases:
   jupiter_shadbala_rupas: 5
   matches:
   - hamsa
+  - raja
+  - dhana
 - id: scenario-12
   longitude:
     lagna: 9
@@ -267,6 +286,8 @@ cases:
   jupiter_shadbala_rupas: 7
   matches:
   - ruchaka
+  - raja
+  - dhana
 - id: scenario-13
   longitude:
     lagna: 106
@@ -284,6 +305,8 @@ cases:
   jupiter_shadbala_rupas: 7
   matches:
   - neecha-bhanga-raja
+  - raja
+  - dhana
 - id: scenario-14
   longitude:
     lagna: 87
@@ -301,6 +324,8 @@ cases:
   jupiter_shadbala_rupas: 7
   matches:
   - vasumati
+  - raja
+  - dhana
 - id: scenario-15
   longitude:
     lagna: 62
@@ -318,6 +343,8 @@ cases:
   jupiter_shadbala_rupas: 7
   matches:
   - saraswati
+  - raja
+  - dhana
 - id: scenario-16
   longitude:
     lagna: 241
@@ -334,6 +361,9 @@ cases:
   - 3
   jupiter_shadbala_rupas: 5
   sole_relief_branch: d1.dignity.debility_lord_angular
+  matches:
+  - raja
+  - dhana
 - id: scenario-17
   longitude:
     lagna: 203
@@ -351,6 +381,9 @@ cases:
   jupiter_shadbala_rupas: 5
   exceptions:
     kemadruma: []
+  matches:
+  - raja
+  - dhana
 - id: scenario-18
   longitude:
     lagna: 166
@@ -367,6 +400,9 @@ cases:
   - 9
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exalted_navamsha
+  misses:
+  - raja
+  - dhana
 - id: scenario-19
   longitude:
     lagna: 120
@@ -385,6 +421,9 @@ cases:
   multiple_relief_branches:
   - d1.dignity.exaltation_lord_angular
   - d1.dignity.exchange_with_dispositor
+  matches:
+  - raja
+  - dhana
 - id: scenario-20
   longitude:
     lagna: 170
@@ -403,6 +442,8 @@ cases:
   matches:
   - parivartana
   - parivartana-khala
+  - raja
+  - dhana
 - id: scenario-21
   longitude:
     lagna: 239
@@ -420,6 +461,8 @@ cases:
   jupiter_shadbala_rupas: 5
   matches:
   - parivartana-maha
+  - raja
+  - dhana
 - id: scenario-22
   longitude:
     lagna: 321
@@ -436,6 +479,9 @@ cases:
   - 11
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.mutual_kendras
+  matches:
+  - raja
+  - dhana
 - id: scenario-23
   longitude:
     lagna: 317
@@ -453,6 +499,8 @@ cases:
   jupiter_shadbala_rupas: 5
   matches:
   - parivartana-dainya
+  - raja
+  - dhana
 - id: scenario-24
   longitude:
     lagna: 320
@@ -471,6 +519,9 @@ cases:
   multiple_relief_branches:
   - d1.dignity.dispositor_aspect
   - d1.dignity.exchange_with_dispositor
+  matches:
+  - raja
+  - dhana
 - id: scenario-25
   longitude:
     lagna: 287
@@ -487,6 +538,9 @@ cases:
   - 11
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.navamsha_lord_support
+  matches:
+  - raja
+  - dhana
 - id: scenario-26
   longitude:
     lagna: 164
@@ -503,6 +557,10 @@ cases:
   - 3
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exaltee_angular
+  matches:
+  - raja
+  misses:
+  - dhana
 - id: scenario-dispositor-exchange-only
   longitude:
     lagna: 73
@@ -521,6 +579,9 @@ cases:
   sole_relief_branch: d1.dignity.exchange_with_dispositor
   matches:
   - neecha-bhanga
+  misses:
+  - raja
+  - dhana
 - id: scenario-19-isolated
   longitude:
     lagna: 104
@@ -537,6 +598,9 @@ cases:
   - 5
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exaltation_lord_angular
+  matches:
+  - raja
+  - dhana
 - id: scenario-24-isolated
   longitude:
     lagna: 224
@@ -553,6 +617,10 @@ cases:
   - 5
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.dispositor_aspect
+  matches:
+  - raja
+  misses:
+  - dhana
 approval: draft
 shape_defaults:
   benefics:
@@ -648,7 +716,7 @@ gate_cases:
     positive: scenario-7
     negative: scenario-1
   dhana:
-    positive: scenario-4
+    positive: scenario-2
     negative: scenario-1
   dharma-karmadhipati:
     negative:
@@ -1615,7 +1683,7 @@ gate_cases:
         saturn: 10
   raja:
     positive: scenario-1
-    negative: scenario-5
+    negative: scenario-18
   ruchaka:
     positive: scenario-12
     negative: scenario-1

@@ -1,7 +1,7 @@
 synthetic: true
 description: Invented sidereal sign windows and event instants for boundary tests. These are not ephemeris positions.
 sweep:
-  person: Ravi
+  person: Scenario 2
   start_utc: '2032-01-01T00:00:00Z'
   window_days: 30
   natal_moon_sign: 10
@@ -10,7 +10,7 @@ sweep:
   transit_signs: [10, 11, 0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
   expected_moon_houses: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
 snapshot:
-  person: Asha
+  person: Scenario 1
   instant: '2032-06-15T12:00:00Z'
   start: '2032-06-01T00:00:00Z'
   end: '2032-07-01T00:00:00Z'
@@ -29,7 +29,7 @@ snapshot:
   expected_kakshya_bit: 1
   expected_bav_band: Supportive
 station:
-  person: Meera
+  person: Scenario 3
   graha: mercury
   samples:
     - ['2032-10-01T12:00:00Z', 0.01, direct]

@@ -37,8 +37,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
@@ -62,9 +62,9 @@ sources:
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: You can reflect on how your responsibilities fit the values you want to practise.
-  kn: ನಿಮ್ಮ ಹೊಣೆಗಳು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯಗಳಿಗೆ ಹೇಗೆ ಹೊಂದುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
-  hi: आप विचार कर सकते हैं कि जिम्मेदारियाँ आपके मूल्यों से कैसे जुड़ती हैं।
+  en: A principle you learned from a teacher may guide a decision at work.
+  kn: ಕೆಲಸದಲ್ಲಿ ಕಲಿತ ತತ್ವ ಬಳಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: काम पर सीखा सिद्धांत अपनाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

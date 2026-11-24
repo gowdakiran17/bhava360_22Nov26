@@ -1,0 +1,1207 @@
+synthetic: true
+approval: draft
+fixture: Kabir
+local: '1978-06-09T07:15:00+05:30'
+city: Mumbai
+latitude: 19.08
+longitude: 72.88
+utc: '1978-06-09T01:45:00+00:00'
+julian_day: 2443668.5729166665
+stable_birth_panchanga:
+  vara: Friday
+  tithi: null
+  nakshatra: punarvasu
+  yoga: 11
+  karana_half: null
+sunrise_local: '1978-06-09T06:00:05.168523+05:30'
+precision: exact
+tier: A
+rectified: false
+reading_at: '2026-11-24T12:00:00+05:30'
+provenance:
+  binding: 2.10.3.2
+  swiss_version: 2.10.03
+  files_sha256:
+    sepl_18.se1: ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66
+    semo_18.se1: 1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7
+  package: '@kuntay/swisseph-data@0.2.2'
+  flags: 65794
+  actual_backend: SEFLG_SWIEPH
+  sidereal_mode: 1
+  node: mean
+  houses: whole-sign
+  dasha_year_days: 365.25
+  command: Set SWEPH_PATH to the extracted ephe directory; run python kb/examples/fixtures/generate.py
+    then python kb/examples/fixtures/workflow.py
+lagna:
+  longitude: 70.85446091154505
+  sign: gemini
+  degree: 10.854460911545047
+  nakshatra: ardra
+  pada: 2
+  d9: capricorn
+  d10: virgo
+  unstable:
+  - d9
+grahas:
+  sun:
+    sign: taurus
+    degree: 24.32991987605609
+    nakshatra: mrigashira
+    pada: 1
+    d9: leo
+    d10: virgo
+    longitude: 54.32991987605609
+    speed: 0.9566489575359698
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -0.00015708829832791372
+  moon:
+    sign: cancer
+    degree: 0.3412515818887982
+    nakshatra: punarvasu
+    pada: 4
+    d9: cancer
+    d10: pisces
+    longitude: 90.3412515818888
+    speed: 11.842604048541816
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -4.676712033031099
+  mars:
+    sign: leo
+    degree: 3.709514102107505
+    nakshatra: magha
+    pada: 2
+    d9: taurus
+    d10: virgo
+    longitude: 123.7095141021075
+    speed: 0.5382804823119725
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 1.306448528487101
+  mercury:
+    sign: taurus
+    degree: 17.68312268418348
+    nakshatra: rohini
+    pada: 3
+    d9: gemini
+    d10: gemini
+    longitude: 47.68312268418348
+    speed: 2.1430938263384434
+    retrograde: false
+    combust: true
+    unstable: []
+    latitude: 0.03465359578476565
+  jupiter:
+    sign: gemini
+    degree: 17.289522807362786
+    nakshatra: ardra
+    pada: 4
+    d9: pisces
+    d10: scorpio
+    longitude: 77.28952280736279
+    speed: 0.21652824114197056
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 0.09670729616280353
+  venus:
+    sign: gemini
+    degree: 27.93828470861763
+    nakshatra: punarvasu
+    pada: 3
+    d9: gemini
+    d10: pisces
+    longitude: 87.93828470861763
+    speed: 1.186839297248282
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 1.883703853980463
+  saturn:
+    sign: leo
+    degree: 1.7832161788872156
+    nakshatra: magha
+    pada: 1
+    d9: aries
+    d10: leo
+    longitude: 121.78321617888722
+    speed: 0.07237075400981965
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 1.4659772236091981
+  rahu:
+    sign: virgo
+    degree: 8.57522572059844
+    nakshatra: uttara-phalguni
+    pada: 4
+    d9: pisces
+    d10: cancer
+    longitude: 158.57522572059844
+    speed: -0.05299204194663591
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: -1.5109669187924346e-16
+  ketu:
+    sign: pisces
+    degree: 8.57522572059844
+    nakshatra: uttara-bhadrapada
+    pada: 2
+    d9: virgo
+    d10: capricorn
+    longitude: 338.57522572059844
+    speed: -0.05299204194663591
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: 1.5109669187924346e-16
+working_instant_periods:
+  birth:
+    maha:
+      lord: jupiter
+      start: '1966-01-10T12:03:22.895263Z'
+      end: '1982-01-10T12:03:22.895263Z'
+    antar:
+      lord: moon
+      start: '1977-05-12T00:03:22.895263Z'
+      end: '1978-09-11T00:03:22.895263Z'
+    pratyantar:
+      lord: venus
+      start: '1978-05-28T11:39:22.895263Z'
+      end: '1978-08-17T15:39:22.895263Z'
+  reading:
+    maha:
+      lord: venus
+      start: '2025-01-10T06:03:22.895263Z'
+      end: '2045-01-10T06:03:22.895263Z'
+    antar:
+      lord: venus
+      start: '2025-01-10T06:03:22.895263Z'
+      end: '2028-05-11T18:03:22.895263Z'
+    pratyantar:
+      lord: jupiter
+      start: '2026-09-21T03:33:22.895263Z'
+      end: '2027-03-02T11:33:22.895263Z'
+pair_relationship_examples:
+  angle-trine:
+    maha: venus
+    antar: venus
+    distance: 1
+    start: '2025-01-10T06:03:22.895263Z'
+    end: '2028-05-11T18:03:22.895263Z'
+  two-twelve:
+    maha: venus
+    antar: sun
+    distance: 12
+    start: '2028-05-11T18:03:22.895263Z'
+    end: '2029-05-12T00:03:22.895263Z'
+  other:
+    maha: venus
+    antar: mars
+    distance: 3
+    start: '2031-01-10T18:03:22.895263Z'
+    end: '2032-03-11T21:03:22.895263Z'
+sade_sati: outside
+consultation:
+  optional_practice: null
+  rule_chain:
+  - vedic.planets-in-signs.sun-taurus
+  - vedic.planets-in-signs.moon-cancer
+  - vedic.planets-in-signs.mars-leo
+  - vedic.planets-in-signs.mercury-taurus
+  - vedic.planets-in-signs.jupiter-gemini
+  - vedic.planets-in-signs.venus-gemini
+  - vedic.planets-in-signs.saturn-leo
+  - vedic.planets-in-signs.rahu-virgo
+  - vedic.planets-in-signs.ketu-pisces
+  - vedic.yogas.anapha
+  - vedic.yogas.budhaditya
+  - vedic.yogas.dhana
+  - vedic.yogas.durudhara
+  - vedic.yogas.nabhasa-kedara
+  - vedic.yogas.parvata
+  - vedic.yogas.raja
+  - vedic.yogas.sunapha
+  - vedic.yogas.vesi
+  - vedic.dashas-vimshottari.venus-maha
+  - vedic.dashas-vimshottari.venus-venus-antar
+  - vedic.dashas-vimshottari.love-marriage-upcoming
+  - vedic.dashas-vimshottari.money-house-lord
+  - vedic.dashas-vimshottari.learning-house-lord
+  - vedic.transits.sun-moon-house-5
+  - vedic.transits.moon-moon-house-11
+  - vedic.transits.mars-moon-house-2
+  - vedic.transits.mercury-moon-house-4
+  - vedic.transits.jupiter-moon-house-2
+  - vedic.transits.venus-moon-house-4
+  - vedic.transits.saturn-moon-house-9
+  - vedic.transits.rahu-moon-house-8
+  - vedic.transits.ketu-moon-house-2
+  - vedic.transits.sun-lagna-house-6
+  - vedic.transits.moon-lagna-house-12
+  - vedic.transits.mars-lagna-house-3
+  - vedic.transits.mercury-lagna-house-5
+  - vedic.transits.jupiter-lagna-house-3
+  - vedic.transits.venus-lagna-house-5
+  - vedic.transits.saturn-lagna-house-10
+  - vedic.transits.rahu-lagna-house-9
+  - vedic.transits.ketu-lagna-house-3
+  grades:
+    sun:
+      worksheet:
+        terms:
+          d1: 0
+          house: -1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 1.25
+          vargottama: 0
+        total: -0.25
+        grade: Weak
+      d1: sama
+      d9: moolatrikona
+      functional: Malefic
+    moon:
+      worksheet:
+        terms:
+          d1: 2
+          house: 0
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 1.0
+          vargottama: 1
+          paksha: -0.2999370460787072
+        total: 3.700062953921293
+        grade: Strong
+      d1: own-sign
+      d9: own-sign
+      functional: Neutral
+    mars:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.5
+          vargottama: 0
+        total: 2.5
+        grade: Moderate
+      d1: adhi-mitra
+      d9: mitra
+      functional: Malefic
+    mercury:
+      worksheet:
+        terms:
+          d1: 1
+          house: -1
+          aspects: -0.5
+          combust: -0.5
+          war: 0
+          retrograde: 0
+          d9: 1.0
+          vargottama: 0
+        total: 0.0
+        grade: Weak
+      d1: adhi-mitra
+      d9: own-sign
+      functional: Benefic
+    jupiter:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 1.0
+          vargottama: 0
+        total: 2.0
+        grade: Moderate
+      d1: sama
+      d9: own-sign
+      functional: Malefic
+    venus:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 1
+        total: 3.0
+        grade: Strong
+      d1: adhi-mitra
+      d9: sama
+      functional: Benefic
+    saturn:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: -1.0
+          vargottama: 0
+        total: 0.0
+        grade: Weak
+      d1: sama
+      d9: debilitation-sign
+      functional: Neutral
+    rahu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 0.5
+        grade: Weak
+      d1: null
+      d9: null
+      functional: Benefic
+    ketu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -1
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 0.0
+        grade: Weak
+      d1: null
+      d9: null
+      functional: Malefic
+  yogas:
+    vedic.yogas.anapha:
+    - participants:
+      - jupiter
+      - moon
+      - venus
+      vedic.yoga.anapha.gate: full
+      vedic.yoga.anapha.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.budhaditya:
+    - participants:
+      - mercury
+      - sun
+      vedic.yoga.budhaditya.gate: null
+      vedic.yoga.budhaditya.active: false
+      display: omitted
+      period_evidence: false
+    vedic.yogas.dhana:
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.dhana.gate: mild
+      vedic.yoga.dhana.active: true
+      display: yoga-mild
+      period_evidence: true
+    - participants:
+      - mars
+      - saturn
+      vedic.yoga.dhana.gate: mild
+      vedic.yoga.dhana.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.durudhara:
+    - participants:
+      - jupiter
+      - mars
+      - moon
+      - saturn
+      - venus
+      vedic.yoga.durudhara.gate: mild
+      vedic.yoga.durudhara.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.nabhasa-kedara:
+    - participants:
+      - jupiter
+      - mars
+      - mercury
+      - moon
+      - saturn
+      - sun
+      - venus
+      vedic.yoga.nabhasa-kedara.gate: null
+      vedic.yoga.nabhasa-kedara.active: null
+      display: withheld
+      period_evidence: false
+    vedic.yogas.parvata:
+    - participants:
+      - jupiter
+      - venus
+      vedic.yoga.parvata.gate: full
+      vedic.yoga.parvata.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.raja:
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.raja.gate: mild
+      vedic.yoga.raja.active: true
+      display: yoga-mild
+      period_evidence: true
+    - participants:
+      - jupiter
+      - venus
+      vedic.yoga.raja.gate: full
+      vedic.yoga.raja.active: true
+      display: yoga-mild
+      period_evidence: true
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.raja.gate: mild
+      vedic.yoga.raja.active: true
+      display: yoga-mild
+      period_evidence: true
+    - participants:
+      - jupiter
+      - venus
+      vedic.yoga.raja.gate: full
+      vedic.yoga.raja.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.sunapha:
+    - participants:
+      - mars
+      - moon
+      - saturn
+      vedic.yoga.sunapha.gate: mild
+      vedic.yoga.sunapha.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.vesi:
+    - participants:
+      - jupiter
+      - sun
+      - venus
+      vedic.yoga.vesi.gate: mild
+      vedic.yoga.vesi.active: true
+      display: yoga-mild
+      period_evidence: true
+  areas:
+    career:
+      lord: jupiter
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants:
+        - - Malefic
+          - Weak
+        aspects:
+        - Malefic
+        - Benefic
+      moon_witnesses:
+        lord: Moderate
+        occupants: []
+        aspects: []
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id001
+      - vedic.yogas.anapha
+      - vedic.yogas.durudhara
+      - vedic.yogas.raja
+      - vedic.yogas.vesi
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id001
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    love-marriage:
+      lord: jupiter
+      promise: Strong
+      state:
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - Benefic
+        - Benefic
+      moon_witnesses:
+        lord: Weak
+        occupants: []
+        aspects:
+        - Neutral
+      challenge_resolution: Strong
+      card: Steady
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id002 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Strong
+        activated_yogas: *id002
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: Steady
+    money:
+      lord: moon
+      promise: Moderate
+      state:
+      - no-window
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Strong
+        occupants:
+        - - Neutral
+          - Strong
+        aspects: []
+      moon_witnesses:
+        lord: Weak
+        occupants:
+        - - Malefic
+          - Moderate
+        - - Neutral
+          - Weak
+        aspects:
+        - Neutral
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id003
+      - vedic.yogas.dhana
+      practice_lord: null
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id003
+        functional_lord: Neutral
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    health:
+      lord: mercury
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Weak
+        occupants:
+        - - Malefic
+          - Moderate
+        - - Benefic
+          - Strong
+        aspects:
+        - Neutral
+      moon_witnesses:
+        lord: Strong
+        occupants:
+        - - Neutral
+          - Strong
+        aspects: []
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id004 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id004
+        functional_lord: Benefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    family-home:
+      lord: mercury
+      promise: Moderate
+      state:
+      - no-window
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Weak
+        occupants:
+        - - Benefic
+          - Weak
+        aspects:
+        - Neutral
+        - Malefic
+      moon_witnesses:
+        lord: Strong
+        occupants: []
+        aspects:
+        - Malefic
+        - Neutral
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id005 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id005
+        functional_lord: Benefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    learning:
+      lord: mercury
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Weak
+        occupants:
+        - - Benefic
+          - Weak
+        aspects:
+        - Neutral
+        - Malefic
+      moon_witnesses:
+        lord: Strong
+        occupants: []
+        aspects:
+        - Malefic
+        - Neutral
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - The two period roles hold a common natal house; count the topic once.
+      active_yogas: &id006 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id006
+        functional_lord: Benefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+  transits:
+    moon:
+    - vedic.transits.sun-moon-house-5
+    - vedic.transits.moon-moon-house-11
+    - vedic.transits.mars-moon-house-2
+    - vedic.transits.mercury-moon-house-4
+    - vedic.transits.jupiter-moon-house-2
+    - vedic.transits.venus-moon-house-4
+    - vedic.transits.saturn-moon-house-9
+    - vedic.transits.rahu-moon-house-8
+    - vedic.transits.ketu-moon-house-2
+    lagna:
+    - vedic.transits.sun-lagna-house-6
+    - vedic.transits.moon-lagna-house-12
+    - vedic.transits.mars-lagna-house-3
+    - vedic.transits.mercury-lagna-house-5
+    - vedic.transits.jupiter-lagna-house-3
+    - vedic.transits.venus-lagna-house-5
+    - vedic.transits.saturn-lagna-house-10
+    - vedic.transits.rahu-lagna-house-9
+    - vedic.transits.ketu-lagna-house-3
+  today:
+    context:
+      fast_events: []
+      moon_contacts: []
+      slow_phase_boundaries: []
+    tithi: Purna
+    tone: Supportive
+    moon_house: 11
+    tara: 6
+    chandra: support
+    focus: []
+    good:
+    - important-talk
+    easy: []
+    best: null
+    exclusions: []
+    chips:
+    - moon-chip
+    - star-chip
+  month_tone: Steady
+  public_en:
+    today: Being with a familiar group may feel sustaining.
+    month: You can balance familiar commitments with a little room to adjust this
+      month.
+    love-marriage: You can make room for a conversation about life together.
+  confidence:
+    lagna: show
+    bav: show
+    sav: show
+    kakshya: show
+    d9: show
+    d10: show
+    d9-planet-sign: show
+    d10-planet-sign: show
+    birth-panchanga: show
+    shadbala-kala: show
+  matched_predicates:
+    vedic.planets-in-signs.sun-taurus:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: sun
+      - fact: d1.selected_point.sign
+        op: eq
+        value: taurus
+    vedic.planets-in-signs.moon-cancer:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: moon
+      - fact: d1.selected_point.sign
+        op: eq
+        value: cancer
+    vedic.planets-in-signs.mars-leo:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mars
+      - fact: d1.selected_point.sign
+        op: eq
+        value: leo
+    vedic.planets-in-signs.mercury-taurus:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mercury
+      - fact: d1.selected_point.sign
+        op: eq
+        value: taurus
+    vedic.planets-in-signs.jupiter-gemini:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: jupiter
+      - fact: d1.selected_point.sign
+        op: eq
+        value: gemini
+    vedic.planets-in-signs.venus-gemini:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: venus
+      - fact: d1.selected_point.sign
+        op: eq
+        value: gemini
+    vedic.planets-in-signs.saturn-leo:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: saturn
+      - fact: d1.selected_point.sign
+        op: eq
+        value: leo
+    vedic.planets-in-signs.rahu-virgo:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: rahu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: virgo
+    vedic.planets-in-signs.ketu-pisces:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: ketu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: pisces
+    vedic.yogas.anapha:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 12
+    vedic.yogas.budhaditya:
+      all:
+      - fact: d1.mercury.distance_from_sun
+        op: in
+        value:
+        - 1
+    vedic.yogas.dhana:
+      all:
+      - fact: d1.lords.wealth_trine_link
+        op: eq
+        value: true
+    vedic.yogas.durudhara:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 2
+      - any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 12
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 12
+    vedic.yogas.nabhasa-kedara:
+      all:
+      - fact: d1.yoga.nabhasa_kedara_formed
+        op: eq
+        value: true
+    vedic.yogas.parvata:
+      all:
+      - fact: d1.yoga.parvata_formed
+        op: eq
+        value: true
+    vedic.yogas.raja:
+      all:
+      - fact: d1.lords.kendra_trikona_link
+        op: eq
+        value: true
+    vedic.yogas.sunapha:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 2
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 2
+    vedic.yogas.vesi:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.mercury.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.jupiter.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.venus.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.saturn.distance_from_sun
+          op: in
+          value:
+          - 2
+    vedic.dashas-vimshottari.venus-maha:
+      all:
+      - fact: dasha.vimshottari.maha_lord
+        op: eq
+        value: venus
+      - fact: dasha.vimshottari.maha_context_ready
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.venus-venus-antar:
+      all:
+      - fact: dasha.vimshottari.maha_lord
+        op: eq
+        value: venus
+      - fact: dasha.vimshottari.antar_lord
+        op: eq
+        value: venus
+      - fact: dasha.vimshottari.pair_context_ready
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.love-marriage-upcoming:
+      all:
+      - fact: dasha.upcoming.love_marriage_window
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.money-house-lord:
+      any:
+      - fact: dasha.active_lord.owns_house_2
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_11
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_5
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_9
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.learning-house-lord:
+      any:
+      - fact: dasha.active_lord.owns_house_4
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_5
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_9
+        op: eq
+        value: true
+    vedic.transits.sun-moon-house-5:
+      all:
+      - fact: transit.sun.distance_from_natal_moon
+        op: eq
+        value: 5
+    vedic.transits.moon-moon-house-11:
+      all:
+      - fact: transit.moon.distance_from_natal_moon
+        op: eq
+        value: 11
+    vedic.transits.mars-moon-house-2:
+      all:
+      - fact: transit.mars.distance_from_natal_moon
+        op: eq
+        value: 2
+    vedic.transits.mercury-moon-house-4:
+      all:
+      - fact: transit.mercury.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.jupiter-moon-house-2:
+      all:
+      - fact: transit.jupiter.distance_from_natal_moon
+        op: eq
+        value: 2
+    vedic.transits.venus-moon-house-4:
+      all:
+      - fact: transit.venus.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.saturn-moon-house-9:
+      all:
+      - fact: transit.saturn.distance_from_natal_moon
+        op: eq
+        value: 9
+    vedic.transits.rahu-moon-house-8:
+      all:
+      - fact: transit.rahu.distance_from_natal_moon
+        op: eq
+        value: 8
+    vedic.transits.ketu-moon-house-2:
+      all:
+      - fact: transit.ketu.distance_from_natal_moon
+        op: eq
+        value: 2
+    vedic.transits.sun-lagna-house-6:
+      all:
+      - fact: transit.sun.distance_from_lagna
+        op: eq
+        value: 6
+    vedic.transits.moon-lagna-house-12:
+      all:
+      - fact: transit.moon.distance_from_lagna
+        op: eq
+        value: 12
+    vedic.transits.mars-lagna-house-3:
+      all:
+      - fact: transit.mars.distance_from_lagna
+        op: eq
+        value: 3
+    vedic.transits.mercury-lagna-house-5:
+      all:
+      - fact: transit.mercury.distance_from_lagna
+        op: eq
+        value: 5
+    vedic.transits.jupiter-lagna-house-3:
+      all:
+      - fact: transit.jupiter.distance_from_lagna
+        op: eq
+        value: 3
+    vedic.transits.venus-lagna-house-5:
+      all:
+      - fact: transit.venus.distance_from_lagna
+        op: eq
+        value: 5
+    vedic.transits.saturn-lagna-house-10:
+      all:
+      - fact: transit.saturn.distance_from_lagna
+        op: eq
+        value: 10
+    vedic.transits.rahu-lagna-house-9:
+      all:
+      - fact: transit.rahu.distance_from_lagna
+        op: eq
+        value: 9
+    vedic.transits.ketu-lagna-house-3:
+      all:
+      - fact: transit.ketu.distance_from_lagna
+        op: eq
+        value: 3
+  matrix_applications:
+    varga_planets:
+      d9:
+        sun: leo
+        moon: cancer
+        mars: taurus
+        mercury: gemini
+        jupiter: pisces
+        venus: gemini
+        saturn: aries
+        rahu: pisces
+        ketu: virgo
+      d10:
+        sun: virgo
+        moon: pisces
+        mars: virgo
+        mercury: gemini
+        jupiter: scorpio
+        venus: pisces
+        saturn: leo
+        rahu: cancer
+        ketu: capricorn
+    birth_panchanga:
+      vara: Friday
+      tithi: null
+      nakshatra: punarvasu
+      yoga: 11
+      karana_half: null
+    kala_bala: eligible with resolved rise/set
+    twilight:
+      lower_deg: -6
+      upper_approx_deg: -0.83
+      upper_exclusive: true
+      variant: classical ghatika sandhya

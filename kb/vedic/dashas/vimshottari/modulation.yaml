@@ -96,12 +96,18 @@ pair_notes:
     fact: dasha.pair.distance
     op: in
     value:
-    - 2
-    - 12
     - 6
     - 8
   effect: weaker
   reason: The two periods can pull in different directions.
+- when:
+    fact: dasha.pair.distance
+    op: in
+    value:
+    - 2
+    - 12
+  effect: soften
+  reason: Resource priorities may differ. Read the second/twelfth link more lightly than the sixth/eighth.
 - when:
     fact: dasha.pair.natural
     op: eq
@@ -136,9 +142,16 @@ pair_notes:
     value: true
   effect: stronger
   reason: The two period roles hold a common natal house; count the topic once.
+- when:
+    fact: dasha.pair.angle_trine_lords
+    op: eq
+    value: true
+  effect: stronger
+  reason: Complementary angular and trinal lordships can carry a shared theme; this qualifies an existing promise.
 copy_refs:
   easier: pair-easier
   harder: pair-harder
+  adjustment: pair-adjust
 sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
@@ -156,6 +169,8 @@ sources:
   other_locator: Dasha phala
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
-annotation_policy: Combustion, retrograde, war and vargottama explain terms already included in the KB-35 grade. They
-  have zero additional grading effect. A Viparita exception removes the ordinary dusthana warning. Relate each Moon
-  position and star lord to the bound area.
+annotation_policy: Combustion, retrograde, war and vargottama explain terms already included in the KB-35 grade.
+  They have zero additional grading effect. A Viparita exception removes the ordinary dusthana warning. Relate each
+  Moon position and star lord to the bound area.
+relationship_policy: 'Laghu Parashari: related lords of angles and trines can cooperate within a promised topic;
+  actual functional ownership qualifies the natural friendship.'

@@ -11,7 +11,7 @@ conditions:
   - fact: transit.moon.distance_from_lagna
     op: eq
     value: 11
-meaning: In matters of community ties, attending to feelings may help you decide what to do next.
+meaning: In matters of gains and income, attending to feelings may help you decide what to do next.
 life_areas:
 - money
 - career
@@ -34,9 +34,9 @@ sources:
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
-  en: In matters of community ties, attending to feelings may help you decide what to do next.
-  kn: ಸಮುದಾಯದ ಸಂಬಂಧಗಳು ವಿಷಯದಲ್ಲಿ ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
-  hi: सामुदायिक संबंध के मामलों में भावनाओं पर ध्यान देना अगला कदम चुनने में मदद कर सकता है।
+  en: In matters of gains and income, attending to feelings may help you decide what to do next.
+  kn: ಲಾಭ ಮತ್ತು ಆದಾಯ ವಿಷಯದಲ್ಲಿ ಭಾವನೆಗಳನ್ನು ಗಮನಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: लाभ और आय के मामलों में भावनाओं पर ध्यान देना अगला कदम चुनने में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending

@@ -4,14 +4,14 @@ topic: yogas
 title: Neecha Bhanga Raja candidate
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: 'For the same debilitated classical graha, match any listed relief branch: It exchanges signs with its distinct dispositor. The dispositor occupies a
-  kendra from Lagna or Moon. The ruler of the selected graha’s exaltation sign occupies a kendra from Lagna
-  or Moon. The distinct rulers of the debilitation and exaltation signs occupy mutual kendras. The dispositor
-  casts a full graha aspect on the selected debilitated graha. Under the alternate reading of tunganatha,
-  a classical planet exalted in the occupied sign is angular from Lagna or Moon. The selected graha is debilitated
-  in D1 but occupies its exaltation sign in D9. The ruler of the selected graha’s D9 sign occupies a D1 angle
-  or trine and either Lagna is movable or the Lagna lord occupies a movable navamsha. Also require the recovered
-  graha in a D1 kendra from Lagna.'
+rule: 'For the same debilitated classical graha, match any listed relief branch: It exchanges signs with its distinct
+  dispositor. The dispositor occupies a kendra from Lagna or Moon. The ruler of the selected graha’s exaltation
+  sign occupies a kendra from Lagna or Moon. The distinct rulers of the debilitation and exaltation signs occupy
+  mutual kendras. The dispositor casts a full graha aspect on the selected debilitated graha. Under the alternate
+  reading of tunganatha, a classical planet exalted in the occupied sign is angular from Lagna or Moon. The selected
+  graha is debilitated in D1 but occupies its exaltation sign in D9. The ruler of the selected graha’s D9 sign occupies
+  a D1 angle or trine and either Lagna is movable or the Lagna lord occupies a movable navamsha. Also require the
+  recovered graha in a D1 kendra from Lagna.'
 conditions:
   all:
   - any:
@@ -72,8 +72,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: The alternate exaltee reading and the navamsha branches are identified separately. Retrogression is a strength
@@ -115,12 +115,12 @@ sources:
   supports: Retrograde debility as a distinct motional-strength reading.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may wish to choose one practical next step at work.
-  kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
-  hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+  en: Experience gained while adapting may help you take on a visible responsibility.
+  kn: ಹೊಂದಾಣಿಕೆಯ ಅನುಭವ ಬಳಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: बदलाव का अनुभव अपनाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

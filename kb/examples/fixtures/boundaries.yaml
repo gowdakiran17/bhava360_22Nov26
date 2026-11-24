@@ -1,0 +1,55 @@
+approval: draft
+venus_libra:
+  4.99: moolatrikona
+  5: moolatrikona
+  14.99: moolatrikona
+  15: own-sign
+moon_bav:
+  moon:
+  - 1
+  - 3
+  - 6
+  - 7
+  - 10
+  - 11
+  mars:
+  - 2
+  - 3
+  - 5
+  - 6
+  - 9
+  - 10
+  - 11
+  jupiter:
+  - 1
+  - 4
+  - 7
+  - 8
+  - 10
+  - 11
+  - 12
+chara_cycle_two:
+  status: pending-KB-55
+  expected: null
+public_copy:
+- - fear or judgment
+  - It may bring bad luck.
+  - You can choose a familiar routine.
+- - commercial or fearful
+  - Buy a gemstone immediately.
+  - You can reflect at your own pace.
+- - ordinal lord
+  - The ninth lord changes.
+  - Learning may take a different direction.
+- - house ordinal
+  - नौवां घर
+  - आप सीखने के लिए समय रख सकते हैं।
+- - house ordinal
+  - ಐದನೇ ಮನೆ
+  - ಕಲಿಕೆಗೆ ಸಮಯ ಕೊಡಬಹುದು.
+- - private phase name
+  - Sade Sati
+  - You can plan a steady routine.
+- - rating
+  - 8 out of 10
+  - You may find room to cooperate.

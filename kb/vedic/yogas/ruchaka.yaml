@@ -17,8 +17,8 @@ conditions:
   - fact: d1.mars.own_or_exalted
     op: eq
     value: true
-meaning: An angular, dignified Mars may make taking initiative and directing effort more prominent in the
-  house it occupies.
+meaning: An angular, dignified Mars may make taking initiative and directing effort more prominent in the house
+  it occupies.
 life_areas:
 - career
 strength_notes:
@@ -64,8 +64,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use Lagna as the origin. A parallel lunar-origin reading requires a separately labelled chart reference.
@@ -79,12 +79,12 @@ sources:
   supports: Five angular dignity formations and their individual grahas.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may enjoy taking the initiative when a task needs action.
-  kn: ಕೆಲಸಕ್ಕೆ ಚಾಲನೆ ನೀಡಲು ನೀವು ಆಸಕ್ತಿ ತೋರಬಹುದು.
-  hi: काम शुरू करने में आप पहल कर सकते हैं।
+  en: A task that calls for initiative may benefit from a clear plan of action.
+  kn: ಕ್ರಿಯೆಗೆ ಯೋಜನೆ ರೂಪಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: पहल की योजना बनाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

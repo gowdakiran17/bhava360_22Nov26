@@ -58,8 +58,8 @@ def fixture_facts(chart, tables):
     values['d1.lords.reciprocal_exchange'] = ex
     if ex:
         values['d1.lords.exchange_class'] = ('dainya' if {a,b} & {6,8,12} else 'khala' if 3 in (a,b) else 'maha')
-    values['d1.lords.kendra_trikona_link'] = any(link(a,b) for a in ANGLES for b in (5,9))
-    values['d1.lords.wealth_trine_link'] = any(link(a,b) for a in (2,11) for b in (5,9))
+    values['d1.lords.kendra_trikona_link'] = any(link(a,b) or lord(a)==lord(b) for a in (4,7,10) for b in (5,9)) or any(link(1,b) for b in (5,9))
+    values['d1.lords.wealth_trine_link'] = any(link(a,b) for i,a in enumerate((1,2,5,9,11)) for b in (1,2,5,9,11)[i+1:])
     values['d1.lord_9.dignified_in_angle_or_trine'] = (distance(pos[lord(9)], lagna) in ANGLES | {5,9}
                                                       and values[f'd1.{lord(9)}.own_or_exalted'])
     j = planets['jupiter']

@@ -4,10 +4,19 @@ topic: dashas/vimshottari
 title: money and the active house lord
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Current major period lord owns natal house 2.
+rule: 'Current major lord owns any of the recipe houses: 2, 11, 5, 9.'
 conditions:
-  all:
+  any:
   - fact: dasha.active_lord.owns_house_2
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_11
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_5
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_9
     op: eq
     value: true
 meaning: You can review how incoming resources fit your savings plans.

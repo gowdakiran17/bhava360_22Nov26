@@ -20,7 +20,7 @@ cases:
   one_occupied: Retain occupied value. Empty value becomes zero if less than or equal to occupied, otherwise reduce it to
     the occupied value.
 worked_example:
-  fixture: Asha
+  fixture: Scenario 1
   target: saturn
   signs: [aries, scorpio]
   occupants: [[sun], []]

@@ -2,48 +2,48 @@ synthetic: true
 # Invented whole-sign chart inputs. Longitudes are sidereal degrees.
 # Exception indices follow the selected rule's YAML order.
 charts:
-  Asha: {lagna: 10, sun: 71, moon: 85, mars: 198, mercury: 67, jupiter: 165, venus: 104, saturn: 277, rahu: 143}
-  Ravi: {lagna: 12, sun: 72, moon: 83, mars: 195, mercury: 65, jupiter: 163, venus: 106, saturn: 275, rahu: 145}
+  Scenario 1: {lagna: 10, sun: 71, moon: 85, mars: 198, mercury: 67, jupiter: 165, venus: 104, saturn: 277, rahu: 143}
+  Scenario 2: {lagna: 12, sun: 72, moon: 83, mars: 195, mercury: 65, jupiter: 163, venus: 106, saturn: 275, rahu: 145}
 cases:
-  - {entry: mars-partnership, chart: Asha, formed: true}
-  - {entry: mars-partnership, chart: Asha, positions: {mars: 67}, formed: false}
-  - {entry: mars-partnership, chart: Asha, positions: {venus: 198}, formed: true, exceptions: [0]}
-  - {entry: mars-partnership, chart: Asha, partner: Ravi, consent: true, formed: true, exceptions: [1]}
-  - {entry: mars-partnership, chart: Asha, partner: Ravi, partner_positions: {venus: 198}, consent: true, formed: true}
-  - {entry: mars-partnership, chart: Asha, positions: {mars: 9}, formed: true, exceptions: [6], strength: [weaker]}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman}, positions: {lagna: 40, mars: 65}, formed: true, exceptions: [2, 4]}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman}, positions: {lagna: 100, mars: 134}, formed: true, exceptions: [3, 5]}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: lagna_five, relief: regional-lagna}, positions: {mars: 9}, formed: true, strength: []}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: four, relief: regional-lagna}, positions: {mars: 9}, formed: false}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: rath}, positions: {mars: 35}, formed: true}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: lagna_five, relief: rath, reference: moon}, positions: {mars: 85}, formed: true}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman, reference: venus}, formed: true}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: sgs}, positions: {mars: 10}, formed: true, exceptions: [7]}
-  - {entry: nodal-axis, chart: Asha, formed: false}
-  - {entry: nodal-axis, chart: Asha, positions: {rahu: 330, mars: 30, jupiter: 60, saturn: 150}, formed: true, strength: []}
-  - {entry: nodal-axis, chart: Asha, positions: {rahu: 330, mars: 30, jupiter: 60, saturn: 149.9}, formed: true, strength: [stronger]}
-  - {entry: pitru, chart: Asha, formed: false}
-  - {entry: pitru, chart: Asha, positions: {rahu: 70, sun: 250}, formed: true, strength: [stronger]}
-  - {entry: guru-chandal, chart: Asha, formed: false}
-  - {entry: guru-chandal, chart: Asha, positions: {jupiter: 324}, formed: true, strength: [stronger]}
-  - {entry: grahan, chart: Asha, formed: false}
-  - {entry: grahan, chart: Asha, positions: {moon: 323}, formed: true, strength: [stronger]}
-  - {entry: grahan, chart: Asha, positions: {sun: 130}, formed: true, strength: []}
-  - {entry: shrapit, chart: Asha, positions: {saturn: 323}, formed: false}
-  - {entry: shrapit, chart: Asha, positions: {saturn: 143}, formed: true, strength: [stronger]}
-  - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, parihara: true, formed: true, exceptions: [0]}
-  - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, raman: true, formed: true, exceptions: [1]}
-  - {entry: bhakoot, chart: Asha, partner: Ravi, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, raman: true, formed: true, exceptions: [1]}
-  - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 15}, consent: true, formed: false}
-  - {entry: nadi, chart: Asha, partner: Ravi, consent: false, formed: null}
-  - {entry: bhakoot, chart: Asha, partner: Ravi, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, parihara: true, formed: true, exceptions: [0]}
-  - {entry: bhakoot, chart: Asha, partner: Ravi, consent: true, formed: false}
-  - {entry: bhakoot, chart: Asha, formed: null}
-  - {entry: sade-sati, chart: Asha, transit: {start: 0, at: 0, end: 5, saturn: 45}, formed: true}
-  - {entry: sade-sati, chart: Asha, transit: {start: 0, at: 2, end: 5, saturn: 85, reentry: true}, formed: true, strength: [stronger]}
-  - {entry: sade-sati, chart: Asha, transit: {start: 0, at: 2, end: 5, saturn: 95}, formed: true}
-  - {entry: sade-sati, chart: Asha, transit: {start: 0, at: 2, end: 5, saturn: 125}, formed: false}
-  - {entry: sade-sati, chart: Asha, transit: {start: 0, at: 5, end: 5, saturn: 95}, formed: null}
-  - {entry: ashtama-shani, chart: Asha, transit: {start: 0, at: 2, end: 5, saturn: 272}, formed: true}
-  - {entry: ashtama-shani, chart: Asha, transit: {start: 0, at: 2, end: 5, saturn: 240}, formed: false}
-  - {entry: ashtama-shani, chart: Asha, formed: null}
+  - {entry: mars-partnership, chart: Scenario 1, formed: true}
+  - {entry: mars-partnership, chart: Scenario 1, positions: {mars: 67}, formed: false}
+  - {entry: mars-partnership, chart: Scenario 1, positions: {venus: 198}, formed: true, exceptions: [0]}
+  - {entry: mars-partnership, chart: Scenario 1, partner: Scenario 2, consent: true, formed: true, exceptions: [1]}
+  - {entry: mars-partnership, chart: Scenario 1, partner: Scenario 2, partner_positions: {venus: 198}, consent: true, formed: true}
+  - {entry: mars-partnership, chart: Scenario 1, positions: {mars: 9}, formed: true, exceptions: [6], strength: [weaker]}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: family_five, relief: raman}, positions: {lagna: 40, mars: 65}, formed: true, exceptions: [2, 4]}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: family_five, relief: raman}, positions: {lagna: 100, mars: 134}, formed: true, exceptions: [3, 5]}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: lagna_five, relief: regional-lagna}, positions: {mars: 9}, formed: true, strength: []}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: four, relief: regional-lagna}, positions: {mars: 9}, formed: false}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: family_five, relief: rath}, positions: {mars: 35}, formed: true}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: lagna_five, relief: rath, reference: moon}, positions: {mars: 85}, formed: true}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: family_five, relief: raman, reference: venus}, formed: true}
+  - {entry: mars-partnership, chart: Scenario 1, config: {house_list: family_five, relief: sgs}, positions: {mars: 10}, formed: true, exceptions: [7]}
+  - {entry: nodal-axis, chart: Scenario 1, formed: false}
+  - {entry: nodal-axis, chart: Scenario 1, positions: {rahu: 330, mars: 30, jupiter: 60, saturn: 150}, formed: true, strength: []}
+  - {entry: nodal-axis, chart: Scenario 1, positions: {rahu: 330, mars: 30, jupiter: 60, saturn: 149.9}, formed: true, strength: [stronger]}
+  - {entry: pitru, chart: Scenario 1, formed: false}
+  - {entry: pitru, chart: Scenario 1, positions: {rahu: 70, sun: 250}, formed: true, strength: [stronger]}
+  - {entry: guru-chandal, chart: Scenario 1, formed: false}
+  - {entry: guru-chandal, chart: Scenario 1, positions: {jupiter: 324}, formed: true, strength: [stronger]}
+  - {entry: grahan, chart: Scenario 1, formed: false}
+  - {entry: grahan, chart: Scenario 1, positions: {moon: 323}, formed: true, strength: [stronger]}
+  - {entry: grahan, chart: Scenario 1, positions: {sun: 130}, formed: true, strength: []}
+  - {entry: shrapit, chart: Scenario 1, positions: {saturn: 323}, formed: false}
+  - {entry: shrapit, chart: Scenario 1, positions: {saturn: 143}, formed: true, strength: [stronger]}
+  - {entry: nadi, chart: Scenario 1, partner: Scenario 2, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, parihara: true, formed: true, exceptions: [0]}
+  - {entry: nadi, chart: Scenario 1, partner: Scenario 2, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, raman: true, formed: true, exceptions: [1]}
+  - {entry: bhakoot, chart: Scenario 1, partner: Scenario 2, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, raman: true, formed: true, exceptions: [1]}
+  - {entry: nadi, chart: Scenario 1, partner: Scenario 2, positions: {moon: 1}, partner_positions: {moon: 15}, consent: true, formed: false}
+  - {entry: nadi, chart: Scenario 1, partner: Scenario 2, consent: false, formed: null}
+  - {entry: bhakoot, chart: Scenario 1, partner: Scenario 2, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, parihara: true, formed: true, exceptions: [0]}
+  - {entry: bhakoot, chart: Scenario 1, partner: Scenario 2, consent: true, formed: false}
+  - {entry: bhakoot, chart: Scenario 1, formed: null}
+  - {entry: sade-sati, chart: Scenario 1, transit: {start: 0, at: 0, end: 5, saturn: 45}, formed: true}
+  - {entry: sade-sati, chart: Scenario 1, transit: {start: 0, at: 2, end: 5, saturn: 85, reentry: true}, formed: true, strength: [stronger]}
+  - {entry: sade-sati, chart: Scenario 1, transit: {start: 0, at: 2, end: 5, saturn: 95}, formed: true}
+  - {entry: sade-sati, chart: Scenario 1, transit: {start: 0, at: 2, end: 5, saturn: 125}, formed: false}
+  - {entry: sade-sati, chart: Scenario 1, transit: {start: 0, at: 5, end: 5, saturn: 95}, formed: null}
+  - {entry: ashtama-shani, chart: Scenario 1, transit: {start: 0, at: 2, end: 5, saturn: 272}, formed: true}
+  - {entry: ashtama-shani, chart: Scenario 1, transit: {start: 0, at: 2, end: 5, saturn: 240}, formed: false}
+  - {entry: ashtama-shani, chart: Scenario 1, formed: null}

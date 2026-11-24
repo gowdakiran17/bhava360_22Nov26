@@ -2,7 +2,7 @@
 import re
 
 
-def contribution(block, policy, *, has_parent=False, about_lord=False, polarity=None, compound=None, checker_direction=None):
+def contribution(block, policy, *, has_parent=False, about_lord=False, polarity=None, own_house_aspect=False, compound=None, checker_direction=None):
     """Return an internal direction or None when the observation cannot vote."""
     direction = block['direction']
     if compound is not None:
@@ -11,6 +11,8 @@ def contribution(block, policy, *, has_parent=False, about_lord=False, polarity=
         direction = checker_direction if checker_direction in ('support','neutral','caution') else 'context'
     if about_lord:
         direction = policy['functional_direction'].get(polarity,'context')
+    if own_house_aspect:
+        direction = 'support'
     if block['weight_class']=='context' or direction=='context':
         return None
     if block['weight_class']=='modifier' and not has_parent:
@@ -75,6 +77,10 @@ def validate(rules, read, require, root):
           'vedic.planets-in-signs.saturn-aries':'caution','vedic.planets-in-signs.sun-aries':'support'}
     for key,expected in spot.items():
         require(rules[key]['evidence']['direction']==expected,key)
+    aspect=rules['vedic.aspects.saturn-aspects-house-4']['evidence']
+    require(contribution(aspect,policy,about_lord=True,polarity='Yogakaraka',has_parent=True)=='support' and
+            contribution(aspect,policy,about_lord=True,polarity='Malefic',own_house_aspect=True,has_parent=True)=='support' and
+            contribution(aspect,policy,about_lord=True,has_parent=True) is None,'functional house aspect gates')
     b=rules['vedic.yogas.harsha']['evidence']
     require(contribution(b,policy,about_lord=True,polarity='Malefic')=='caution' and
             contribution(b,policy,about_lord=True) is None and

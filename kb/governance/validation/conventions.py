@@ -77,13 +77,13 @@ def validate_conventions(read, require, root):
                                   owner_confirmation='confirmed-by-PRD-v1.2')
             and example['node'] == 'mean' and frame['ketu'] == '(rahu_longitude_deg + 180) modulo 360',
             'node convention')
-    require(example['actual_backend'] == 'SEFLG_MOSEPH', 'Asha development backend')
+    require(example['actual_backend'] == 'SEFLG_SWIEPH', 'Asha reference backend')
     for policy in (rise, frame):
         require(backend_ok(policy, example), 'Asha provenance')
         for flag in BACKENDS:
             record = dict(example, actual_backend=flag, position_flags=[flag, 'SEFLG_SIDEREAL', 'SEFLG_SPEED'])
             require(backend_ok(policy, record), 'valid effective backend')
-        for flag in (None, 'runtime-backend', 'SEFLG_SWIEPH'):
+        for flag in (None, 'runtime-backend', 'SEFLG_MOSEPH'):
             require(not backend_ok(policy, dict(example, actual_backend=flag)), 'unknown or conflicting backend')
     limits = frame['tolerances_inclusive']
     require(limits == dict(longitude_deg=.002, ayanamsa_deg=.001, lagna_deg=.01, sunrise_seconds=60),

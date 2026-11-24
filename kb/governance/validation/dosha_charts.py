@@ -1,7 +1,7 @@
 """Exercise the draft dosha predicates with invented sidereal positions in degrees."""
 
 BODIES = 'sun moon mars mercury jupiter venus saturn'.split()
-NAMES = {'Asha', 'Ravi', 'Meera', 'Kabir', 'Dev'}
+NAMES = {'Scenario 1', 'Scenario 2', 'Scenario 3', 'Scenario 4', 'Scenario 5'}
 
 
 def sign(longitude):

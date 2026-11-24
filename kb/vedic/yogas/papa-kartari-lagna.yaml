@@ -38,8 +38,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
@@ -63,9 +63,9 @@ sources:
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: You can make a little space before responding to competing requests.
-  kn: ಹಲವು ಕೋರಿಕೆಗಳಿಗೆ ಉತ್ತರಿಸುವ ಮುನ್ನ ಸ್ವಲ್ಪ ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
-  hi: अलग-अलग अनुरोधों का उत्तर देने से पहले कुछ समय ले सकते हैं।
+  en: You can leave time for your own needs between competing demands.
+  kn: ಸ್ವಂತ ಅಗತ್ಯಗಳಿಗೆ ಸಮಯ ಕೊಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: अपनी ज़रूरतों के लिए समय रखना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

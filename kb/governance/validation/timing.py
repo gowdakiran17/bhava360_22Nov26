@@ -10,6 +10,9 @@ def pair_facts(maha, antar, signs, lagna, read):
     distance=(signs[antar]-signs[maha])%12+1
     result={'dasha.pair.distance':distance}
     if lagna is not None:
+        offices = {g:{(i-lagna)%12+1 for i,owner in enumerate(OWNERS) if owner==g} for g in (maha,antar)}
+        result['dasha.pair.angle_trine_lords'] = bool(
+            offices[maha]&{4,7,10} and offices[antar]&{5,9} or offices[antar]&{4,7,10} and offices[maha]&{5,9})
         result['dasha.pair.shared_ownership']=maha==antar and maha in OWNERS
     friends=read(f'vedic/planets/{antar}.yaml')['graha']['natural_friendships']
     if maha!=antar and antar in OWNERS and maha in OWNERS:
@@ -133,7 +136,7 @@ def period_notes(chart, area, period, read):
         if star is not None:testimony['star_signifies']=star in direct
         notes,facts=modulation(testimony,pair,read)
         distance=pair.get('dasha.pair.distance')
-        phrase=None if distance is None or level=='maha' else ('pair-harder' if distance in (2,6,8,12) else 'pair-easier')
+        phrase=None if distance is None or level=='maha' else ('pair-harder' if distance in (6,8) else 'pair-adjust' if distance in (2,12) else 'pair-easier')
         results[level]={'notes':notes,'facts':facts,'copy_key':phrase}
     return results
 

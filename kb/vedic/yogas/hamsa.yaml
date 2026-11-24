@@ -64,8 +64,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use Lagna as the origin. A parallel lunar-origin reading requires a separately labelled chart reference.
@@ -79,12 +79,12 @@ sources:
   supports: Five angular dignity formations and their individual grahas.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may find meaning in sharing what you learn.
-  kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.
-  hi: सीखी हुई बात बाँटना आपको सार्थक लग सकता है।
+  en: Sharing what you have learned may strengthen your own judgement.
+  kn: ಕಲಿತದ್ದನ್ನು ಹಂಚುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: सीख साझा करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

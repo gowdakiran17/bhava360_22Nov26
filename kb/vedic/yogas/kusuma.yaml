@@ -38,8 +38,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
@@ -66,15 +66,15 @@ sources:
   chapter: null
   verse: null
   other_locator: jhora/horoscope/chart/yoga.py, kusuma_yoga
-  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
-    copy follow the declared KB policy.
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and
+    public copy follow the declared KB policy.
   verification: verified
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: Moving between different responsibilities may help you see what needs attention.
-  kn: ವಿವಿಧ ಹೊಣೆಗಳನ್ನು ಗಮನಿಸಿದಾಗ ಯಾವುದಕ್ಕೆ ಸಮಯ ಬೇಕು ಎಂಬುದು ತಿಳಿಯಬಹುದು.
-  hi: अलग-अलग जिम्मेदारियों पर ध्यान देने से अगला काम चुनना सहज हो सकता है।
+  en: Care in presentation may help creative work find a practical place in your day.
+  kn: ಸೃಜನಶೀಲ ಕೆಲಸಕ್ಕೆ ಜಾಗ ಕೊಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: रचनात्मक काम के लिए जगह बनाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

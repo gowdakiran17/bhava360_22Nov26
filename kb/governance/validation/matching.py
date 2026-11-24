@@ -106,7 +106,7 @@ def validate_matching(rules, read, evaluate, require, root):
         require([moon(sign*108000+54000+k,t)['vashya'] for k in (-1,0)] == expected,'Vashya half-sign edge')
     fixture = read('examples/matching-reference.yaml')
     require(fixture['synthetic'] and [(c['row'],c['column']) for c in fixture['pairs']]
-            == [('Asha','Ravi'),('Meera','Kabir')], 'synthetic matching identities')
+            == [('Scenario 1','Scenario 2'),('Scenario 3','Scenario 4')], 'synthetic matching identities')
     matching_rules = {k:v for k,v in rules.items() if k.startswith('vedic.matching.')}
     for case in fixture['pairs']:
         a,b = [moon(d*3600,t) for d in case['moon_degrees']]

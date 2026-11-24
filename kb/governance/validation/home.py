@@ -175,7 +175,7 @@ def validate(read, require):
         result=day_result(day,policy,vedha,ranking,activity,aspects,OWNERS)
         require(all(result[k]==v for k,v in case['expect'].items()),(name,result,case['expect']))
         cases[name]=result
-    require(all(cases['Asha'][k]!=cases['Ravi'][k] for k in ('tara','moon_house')), 'personal Moon references')
+    require(all(cases['Scenario A'][k]!=cases['Scenario R'][k] for k in ('tara','moon_house')), 'personal Moon references')
     require(tomorrow('Steady','Steady',[]) is None and tomorrow('Steady','Supportive',[])
             and tomorrow('Steady','Steady',['retrograde-station']), 'tomorrow conditional')
     days,headline=week([cases['D1']]*7,[1,1,2,2,2,2,2],['antar'])

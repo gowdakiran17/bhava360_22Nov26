@@ -39,8 +39,20 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
+- when:
+    fact: d1.yoga.mercury_deep_combust
+    op: eq
+    value: true
+  effect: cancel
+  reason: Mercury within three degrees of Sun, inclusive; operational threshold.
+- when:
+    fact: d1.yoga.mercury_gate_miss
+    op: eq
+    value: true
+  effect: cancel
+  reason: Mercury below Moderate and outside natal angles and trines.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: The shared-sign screen includes close conjunctions. Assess Mercury’s combustion separately.
@@ -56,13 +68,22 @@ sources:
   other_locator: Named yoga or graha combination
   supports: Sun and Mercury in one sign; the later name is used as a catalogue label.
   verification: verified
+- work_id: phaladeepika
+  book: Phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: 6
+  verse: null
+  other_locator: Chapter 6
+  supports: Interpret planetary capacity before projecting a formation. Three-degree deep combustion is an editorial
+    threshold.
+  verification: pending
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may find it helpful to talk through an idea before acting.
-  kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
-  hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+  en: You can test a decision by explaining the reasoning aloud.
+  kn: ನಿರ್ಧಾರದ ಕಾರಣ ವಿವರಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: निर्णय का कारण समझाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

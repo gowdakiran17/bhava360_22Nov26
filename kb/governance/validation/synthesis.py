@@ -42,7 +42,7 @@ def bind_reference(origin, area_house, chart, table, aspects):
             occupants.append((nature,grades.get(graha)))
         for destination in {target,lord_sign} - {None}:
             if (destination-sign)%12+1 in aspects[graha]:
-                testimony.append(nature)
+                testimony.append('Benefic' if OWNERS[destination]==graha else nature)
     return dict(lord=grades.get(lord), occupants=occupants,
                 aspects=testimony if lord_sign is not None else None)
 
@@ -143,6 +143,8 @@ def evaluate(x, policy, ladder, matrix, aspects):
         if key in x.get('yoga_only_factors',[]) and (x['yoga'].get('cancelled') or x['yoga'].get('active') is not True):
             counts[index]=None
     count=counts.count(True)
+    if counts[:-1].count(True) < policy['promise']['thresholds']['Moderate']:
+        count=counts[:-1].count(True)
     thresholds=policy['promise']['thresholds']
     grade=2 if count>=thresholds['Strong'] else int(count>=thresholds['Moderate'])
     result=dict(band=GRADES[grade],card=None,windows=[],remedy_graha=None)
@@ -172,9 +174,9 @@ def evaluate(x, policy, ladder, matrix, aspects):
                       'omitted' if all(g=='Weak' for g in participants) else
                       'mild' if 'Weak' in participants else 'active')
     lord=x['lagna']['lord']
-    if lord=='Strong' and d9 in ('debilitated','enemy','great-enemy') and not x['vargottama']:
+    if counts[-1] is not None and lord=='Strong' and d9 in ('debilitated','enemy','great-enemy') and not x['vargottama']:
         grade=max(0,grade-1)
-    elif lord=='Weak' and (d9 in ('own','exalted') or x['vargottama']):
+    elif counts[-1] is not None and lord=='Weak' and (d9 in ('own','exalted') or x['vargottama']):
         grade=max(grade,min(grade+1,1))
     directions=x.get('directions',{'lagna':'support','moon':'support'})
     if wins[0]['moon'] is True and directions.get('lagna') in ('support','caution') and directions['lagna']==directions.get('moon'):
@@ -244,6 +246,8 @@ def validate(read,require):
     bound=bind_reference(0,1,chart,funcs,aspects)
     require(bound['aspects']==['Malefic'] and bound['lord']=='Strong' and
             reference_tests(bound)==[True,True,False],'functional testimony and seventh-only nodes')
+    own=bind_reference(0,10,dict(lagna='aries',signs={'saturn':3},grades={'saturn':'Moderate'}),funcs,aspects)
+    require(own['aspects']==['Benefic'],'aspect to own Capricorn protects despite Saturn functional nature')
     require(bind_reference(None,1,chart,funcs,aspects)=={},'missing reference')
     base=fixtures['base']
     sample=base['segments'][0]

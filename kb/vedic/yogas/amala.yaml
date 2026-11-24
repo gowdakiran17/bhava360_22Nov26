@@ -4,8 +4,8 @@ topic: yogas
 title: Amala
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: At least one graha classified as benefic under the selected profile occupies the tenth sign from the
-  named reference.
+rule: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named
+  reference.
 conditions:
   any:
   - fact: d1.moon.tenth_has_benefic
@@ -50,12 +50,11 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Record which origin matches. This profile admits a benefic even where another graha also occupies
-    the sign.
+  note: Record which origin matches. This profile admits a benefic even where another graha also occupies the sign.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -66,12 +65,12 @@ sources:
   supports: Tenth from Moon or Lagna and the associated conduct theme.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may reflect on how you carry responsibility in public.
-  kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
-  hi: सार्वजनिक ज़िम्मेदारी निभाने के अपने तरीके पर विचार कर सकते हैं।
+  en: Your conduct at work may express a value you care about.
+  kn: ಕೆಲಸದ ಮೌಲ್ಯಗಳನ್ನು ಗುರುತಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: काम के मूल्यों को पहचानना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

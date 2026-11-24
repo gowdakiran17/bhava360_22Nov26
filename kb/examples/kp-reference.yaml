@@ -1,5 +1,5 @@
 synthetic: true
-description: Constructed unequal cusp arcs, independent of any person's birth data. All inputs use one sidereal frame. Ravi rotates the frame and every body by four signs, preserving the star sequence and changing cusp ownership.
+description: Constructed unequal cusp arcs, independent of any person's birth data. All inputs use one sidereal frame. Scenario 2 rotates the frame and every body by four signs, preserving the star sequence and changing cusp ownership.
 cusps_deg: [350, 19, 48, 81, 114, 146, 170, 199, 228, 261, 294, 326]
 longitude_deg: {sun: 0, moon: 42, mars: 81, mercury: 149, jupiter: 200, venus: 239, saturn: 327, rahu: 95, ketu: 275}
 expected_residence: {sun: 1, moon: 2, mars: 4, mercury: 6, jupiter: 8, venus: 9, saturn: 12, rahu: 4, ketu: 10}
@@ -8,16 +8,16 @@ expected_sub: {sun: ketu, moon: rahu, mars: jupiter, mercury: mars, jupiter: jup
 expected_cusp_sub: [venus, rahu, mercury, jupiter, mars, ketu, ketu, moon, mercury, jupiter, mars, ketu]
 expected_primary_direct_actors: [moon, mars, jupiter, venus, rahu]
 cases:
-  Asha:
+  Scenario 1:
     rotation_deg: 0
     expected_cusp_owners: [jupiter, mars, venus, mercury, moon, sun, mercury, venus, mars, jupiter, saturn, saturn]
     expected_marriage_link: false
-  Ravi:
+  Scenario 2:
     rotation_deg: 120
     expected_cusp_owners: [moon, sun, mercury, venus, mars, jupiter, saturn, saturn, jupiter, mars, venus, mercury]
     expected_marriage_link: true
 judgment:
-  person: Asha
+  person: Scenario 1
   local_sunrise: '2032-06-15T06:00:00+05:30'
   moon_deg: 42
   actual_asc_deg: 350

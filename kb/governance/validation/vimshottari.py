@@ -66,7 +66,7 @@ def validate_vimshottari(rules, read, evaluate, require):
     width = table['star_width_arcseconds']
     require(width==stars['width_arcseconds']==48000,'star width')
     fixture = read('examples/vimshottari-reference.yaml')
-    require(fixture['synthetic'] is True and set(fixture['fixtures'])=={'Asha','Ravi'},'synthetic dates')
+    require(fixture['synthetic'] is True and set(fixture['fixtures'])=={'Scenario 1','Scenario 2'},'synthetic dates')
     for name,case in fixture['fixtures'].items():
         birth = case['birth']
         moon = case['moon_arcseconds']
@@ -84,9 +84,9 @@ def validate_vimshottari(rules, read, evaluate, require):
                         and active_path(table,birth,moon,convention,right)[level][1]==right,name+' interval ownership')
             # The full parent governs subdivision even if only the post-birth portion is displayed.
             at_birth = active_path(table,birth,moon,convention,instant(birth))
-            require(at_birth['maha']==(first,start,end) and at_birth['antar'][0]==('venus' if name=='Asha' else first),name+' birth Antar')
+            require(at_birth['maha']==(first,start,end) and at_birth['antar'][0]==('venus' if name=='Scenario 1' else first),name+' birth Antar')
     # Resolve the selected sample against actual KB-06/07/08 IDs, including the node's ruler.
-    ctx = fixture['fixtures']['Asha']['sample_context']
+    ctx = fixture['fixtures']['Scenario 1']['sample_context']
     signs = read('vedic/signs/catalog.yaml')['signs']
     names = [s['id'] for s in signs]
     rulers = [s['lord'] for s in signs]
@@ -106,7 +106,7 @@ def validate_vimshottari(rules, read, evaluate, require):
                          dispositor_sign=ctx['natal_signs'][dispositor]))
         require(refs==expected and all(ref in rules for ref in refs),'sample natal context '+lord)
     for i,star in enumerate(stars['nakshatras']):
-        birth = fixture['fixtures']['Asha']['birth']
+        birth = fixture['fixtures']['Scenario 1']['birth']
         at_edge = birth_period(table,birth,i*width,table['default_year'])
         before = birth_period(table,birth,i*width-Fraction(1,1000),table['default_year'])
         require(at_edge[0]==star['vimshottari_lord'] and at_edge[1]==instant(birth)

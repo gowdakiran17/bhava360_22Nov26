@@ -34,7 +34,7 @@ sources:
 - {work_id: saravali, edition: null, locator: Planetary strength discussion (exact passage pending), verification: pending}
 - {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Ch.7 cancellation and avastha discussion (locator pending), verification: pending}
 birth_time_availability: shared/confidence/output-matrix.yaml
-moon_paksha: {waxing: 0.5, waning: -0.5, exact-boundary: 0}
-paksha_notes: BPHS chapter 3 distinguishes waxing and waning. These signed weights and neutral exact conjunction/opposition are editorial.
+moon_paksha: {input: elongation_degrees, conjunction: -0.5, opposition: 0.5, interpolation: linear-shortest-arc}
+paksha_notes: CLASSICAL phase dependence (BPHS chapters 3 and 27, Phaladeepika chapter 2). The symmetric linear signed scale is editorial.
 grade_variants: [Combust exalted dignity retained by default, Retrograde debilitated uplift per Uttara Kalamrita 2.6 is optional, Debilitated vargottama retains D9 dignity and repetition separately]
 limits: Rashi and bhava sandhi are not modelled. Repeated cancellation predicates attesting one physical contact share one evidence identity.

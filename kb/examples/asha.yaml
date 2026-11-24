@@ -1,10 +1,6 @@
 fixture:
-  name: Asha
-  date: '1992-03-12'
-  local_time: 05:40
-  place: Bengaluru
-  zone: Asia/Kolkata
-  ayanamsa: Lahiri
+  name: Scenario 1
+  description: Independent assumed facts for schema demonstrations; legacy file path retained.
 cases:
 - assumed_facts:
     d1.jupiter.house_from_lagna: 10
@@ -41,9 +37,9 @@ cases:
     confidence: medium
     review_notes: Editorial prompt about conduct; placement is hypothetical. Native review pending.
     user_text:
-      en: Asha, you may want to consider which values guide your decisions at work.
-      kn: ಆಶಾ, ಕೆಲಸದಲ್ಲಿ ನಿಮ್ಮ ನಿರ್ಧಾರಗಳಿಗೆ ಯಾವ ಮೌಲ್ಯಗಳು ದಾರಿ ತೋರಿಸುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
-      hi: आशा, आप सोच सकती हैं कि काम में कौन से मूल्य आपके निर्णयों को दिशा देते हैं।
+      en: you may want to consider which values guide your decisions at work.
+      kn: ಕೆಲಸದಲ್ಲಿ ನಿಮ್ಮ ನಿರ್ಧಾರಗಳಿಗೆ ಯಾವ ಮೌಲ್ಯಗಳು ದಾರಿ ತೋರಿಸುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+      hi: आप सोच सकती हैं कि काम में कौन से मूल्य आपके निर्णयों को दिशा देते हैं।
     native_review:
       kn: pending
       hi: pending
@@ -57,8 +53,8 @@ cases:
     title: Gaja Kesari yoga (Moon-based candidate)
     doctrine_profile: parashari-moon-kendra-screen-draft-v1
     approval: draft
-    rule: Count signs from the Moon with its sign as one. Flag Jupiter in the first, fourth, seventh or tenth sign for review
-      under this Moon-based definition.
+    rule: Count signs from the Moon with its sign as one. Flag Jupiter in the first, fourth, seventh or tenth sign
+      for review under this Moon-based definition.
     conditions:
       all:
       - fact: d1.jupiter.sign_distance_from_moon_inclusive
@@ -87,12 +83,12 @@ cases:
       supports: Moon/Jupiter angularity called Kesari in this edition. Reflection prompt is an editorial adaptation.
       verification: verified
     confidence: disputed
-    review_notes: Verified angular formation in VI.14. Other Gaja Kesari formulations have additional requirements; name,
-      qualifiers and native copy require review.
+    review_notes: Verified angular formation in VI.14. Other Gaja Kesari formulations have additional requirements;
+      name, qualifiers and native copy require review.
     user_text:
-      en: Asha, when someone asks for advice, you may find it helpful to think back to what you have learned.
-      kn: ಆಶಾ, ಯಾರಾದರೂ ಸಲಹೆ ಕೇಳಿದಾಗ ನೀವು ಕಲಿತದ್ದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಸಹಾಯವಾಗಬಹುದು.
-      hi: आशा, जब कोई आपसे सलाह माँगे, तो आपने जो सीखा है उसे याद करना आपके लिए मददगार हो सकता है।
+      en: when someone asks for advice, you may find it helpful to think back to what you have learned.
+      kn: ಯಾರಾದರೂ ಸಲಹೆ ಕೇಳಿದಾಗ ನೀವು ಕಲಿತದ್ದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಸಹಾಯವಾಗಬಹುದು.
+      hi: जब कोई आपसे सलाह माँगे, तो आपने जो सीखा है उसे याद करना आपके लिए मददगार हो सकता है।
     native_review:
       kn: pending
       hi: pending

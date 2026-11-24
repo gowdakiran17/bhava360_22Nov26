@@ -4,8 +4,8 @@ topic: yogas
 title: Adhi
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Under this candidate profile Mercury, Venus and Jupiter each occupy one of the sixth, seventh or eighth
-  signs from Moon.
+rule: Under this candidate profile Mercury, Venus and Jupiter each occupy one of the sixth, seventh or eighth signs
+  from Moon.
 conditions:
   all:
   - fact: d1.mercury.distance_from_moon
@@ -26,8 +26,8 @@ conditions:
     - 6
     - 7
     - 8
-meaning: Several benefic influences across the Moon’s sixth through eighth signs may emphasise support in
-  handling responsibilities.
+meaning: Several benefic influences across the Moon’s sixth through eighth signs may emphasise support in handling
+  responsibilities.
 life_areas:
 - career
 strength_notes:
@@ -63,12 +63,12 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: All three named grahas must fall within the group. They may share a sign. Other readings distinguish
-    partial formations.
+  note: All three named grahas must fall within the group. They may share a sign. Other readings distinguish partial
+    formations.
 sources:
 - book: Brihat Jataka
   work_id: brihat-jataka
@@ -79,12 +79,12 @@ sources:
   supports: Benefic placements in the sixth through eighth from the Moon.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may wish to choose one practical next step at work.
-  kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
-  hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+  en: When several demands arrive together, you may find a steady source of help.
+  kn: ನೆರವು ಹುಡುಕುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: सहारा खोजना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

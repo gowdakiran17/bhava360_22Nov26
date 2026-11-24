@@ -71,15 +71,15 @@ def worksheet(x, p, cancellation, full_aspects, natural):
         return None
     cap = p['aspect_net_cap']
     terms = dict(d1=dignity[0], house=house, aspects=max(-cap,min(cap,net)),
-                 combust=p['combust'].get(graha,p['combust']['other']) if not node and x['combust'] else 0,
+                 combust=p['combust'].get(graha,p['combust']['other']) if graha not in ('sun','rahu','ketu') and x['combust'] else 0,
                  war=p['war_loser'] if not node and graha not in ('sun','moon') and x['war_loser'] else 0,
                  retrograde=p['retrograde_benefic'] if x['retrograde'] and kind=='benefic' else 0,
                  d9=dignity[1]*p['d9_factor'], vargottama=p['vargottama'] if x['vargottama'] else 0)
     if graha == 'moon':
-        phase = x.get('paksha')
-        if phase not in p['moon_paksha']:
+        angle = x.get('elongation')
+        if not isinstance(angle,(int,float)) or not 0 <= angle < 360:
             return None
-        terms['paksha'] = p['moon_paksha'][phase]
+        terms['paksha'] = min(angle,360-angle)/180 - 0.5
     total = sum(terms.values())
     return dict(terms=terms,total=total,grade=band(total,p))
 
@@ -119,12 +119,14 @@ def validate(read,require):
     require(run(dict(x,aspects={'venus':[7,'benefic'],'jupiter':[9,'benefic'],'moon':[7,'benefic']}))['terms']['aspects']==1,
             'benefic aspect cap')
     for graha in GRAHAS:
-        require(run(dict(x,graha=graha,aspects={},retrograde=False,paksha='waxing')) is not None,graha+' eligible')
+        require(run(dict(x,graha=graha,aspects={},retrograde=False,elongation=90)) is not None,graha+' eligible')
     require(run(dict(x,shadbala=0)) == run(dict(x,shadbala=100)), 'Shadbala independence')
     require(read('vedic/strength/user-words.yaml')['planet_grade']==
             {'Strong':'supported','Moderate':'steady','Weak':'modest'}, 'planet words')
     same = {key:'shared-angular-lord' for key,value in relief.items() if value}
     require(run(dict(cases['P3'], relief_facts=relief, relief_identity=same))['terms']['d1']==0,'overlapping relief')
     require(run(dict(x,graha='rahu',combust=True,war_loser=True,aspects={}))['terms']['war']==0,'node penalties')
-    require(run(dict(cases['P3'],paksha='waning',war_loser=True))['total']==0.5,'waning and luminary war')
+    require(run(dict(cases['P3'],elongation=0,war_loser=True))['total']==0.5,'waning and luminary war')
+    require([run(dict(cases['P3'],elongation=a))['terms']['paksha'] for a in (0,90,180,270)] == [-.5,0,.5,0], 'lunar symmetry')
+    require(run(dict(x,graha='sun',combust=True))['terms']['combust']==0,'Sun excluded')
     print('Planet strength: P1 3 Strong, P2 -0.5 Weak, P3 1 Moderate; edges and unknowns passed.')

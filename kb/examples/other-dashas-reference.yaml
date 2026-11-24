@@ -2,7 +2,7 @@ synthetic: true
 units: Invented sidereal D1 signs indexed from Aries = 0. Expected UTC dates are independent worksheet values
   rounded once to nearest microsecond.
 charts:
-  Asha:
+  Scenario 1:
     birth: '1992-03-12T05:40:00+05:30'
     lagna: 0
     moon_arcseconds: 360000
@@ -112,7 +112,7 @@ charts:
           - - libra
             - '1992-03-12T00:10:00Z'
             - '1995-03-27T08:50:28.915663Z'
-  Ravi:
+  Scenario 2:
     birth: '2000-02-29T00:00:00+00:00'
     lagna: 1
     moon_arcseconds: 48000

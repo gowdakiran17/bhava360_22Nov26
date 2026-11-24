@@ -7,7 +7,7 @@ rungs:
 - {id: active-yoga, effect: Only an uncancelled yoga activated by the Maha or Antar participates; inactive or unproved activation is background.}
 - {id: functional, effect: Use the KB-35 chart-specific polarity for lordship; keep natural nature separate.}
 - {id: participant-strength, effect: Some Weak participants make the yoga mild; all Weak removes it.}
-- {id: navamsa, effect: Strong D1 plus debilitated/enemy D9 and no vargottama steps down. Weak D1 plus own/exalted D9 or vargottama steps up to Moderate at most.}
+- {id: navamsa, effect: Strong D1 plus debilitated/enemy D9 and no vargottama steps down. A Weak individual lord can receive limited confirmation only after the area passes the D1 promise floor. A Weak D1 area never produces a card from divisional evidence.}
 - {id: references, effect: Agreeing directional Lagna and Moon testimonies raise one step. In disagreement Lagna governs events and Moon experience. Missing testimony cannot confirm.}
 - {id: enabled-systems, effect: Combine confirming and contradicting KP/Jaimini votes to at most one net step. No standalone card.}
 - {id: tie, effect: Remaining equally primary support and caution yield Moderate with mixed signals.}

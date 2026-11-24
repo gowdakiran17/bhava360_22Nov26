@@ -4517,6 +4517,12 @@ facts:
     - Maha lord
     - stable Lagna
     unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  dasha.pair.angle_trine_lords:
+    type: boolean
+    producer: vedic.dasha
+    origin: The bound Maha and Antar lords hold complementary angular and trinal offices.
+    dependencies: [stable Lagna, whole-sign lordship, active period pair]
+    unknown_if: Lagna or either period lord is unresolved.
   dasha.pair.shared_ownership:
     type: boolean
     producer: vedic.timing
@@ -6683,12 +6689,12 @@ facts:
   d1.lords.kendra_trikona_link:
     type: boolean
     producer: vedic.d1
-    origin: Two distinct lords, one owning an angle and the other house 5 or 9, conjoin or exchange signs.
+    origin: An angle lord and a trine lord conjoin or exchange, or one graha owns both a non-Lagna angle and a trine.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
   d1.lords.wealth_trine_link:
     type: boolean
     producer: vedic.d1
-    origin: Distinct qualifying lords form the stated conjunction or exchange.
+    origin: Distinct lords of the Lagna, resource and trinal houses form a conjunction or exchange, including direct resource-resource and trine-trine pairs.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
   d1.lordship.functional_polarity:
     type: enum
@@ -6870,6 +6876,41 @@ facts:
     origin: The active Vimshottari lord owns this numbered natal whole-sign house. Requires stable Lagna and a verified active
       period.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  dasha.active_lord.owns_house_11:
+    type: boolean
+    producer: vedic.dasha
+    origin: Stable period lord owns natal house 11.
+    dependencies:
+    - stable natal positions and applicable period or grade
+    unknown_if: A required input is unstable or unavailable.
+  d1.yoga.kemadruma_angular:
+    type: boolean
+    producer: vedic.yoga
+    origin: At least one classical graha besides Moon occupies an angle from Lagna.
+    dependencies:
+    - stable natal positions and applicable period or grade
+    unknown_if: A required input is unstable or unavailable.
+  d1.yoga.moon_benefic_aspect:
+    type: boolean
+    producer: vedic.yoga
+    origin: A natural benefic casts a full graha aspect to the Moon.
+    dependencies:
+    - stable natal positions and applicable period or grade
+    unknown_if: A required input is unstable or unavailable.
+  d1.yoga.mercury_deep_combust:
+    type: boolean
+    producer: vedic.yoga
+    origin: Mercury within three degrees of Sun, inclusive; operational threshold.
+    dependencies:
+    - stable natal positions and applicable period or grade
+    unknown_if: A required input is unstable or unavailable.
+  d1.yoga.mercury_gate_miss:
+    type: boolean
+    producer: vedic.yoga
+    origin: Mercury below Moderate and outside natal angles and trines.
+    dependencies:
+    - stable natal positions and applicable period or grade
+    unknown_if: A required input is unstable or unavailable.
   dasha.active_lord.owns_house_2:
     type: boolean
     producer: vedic.dasha

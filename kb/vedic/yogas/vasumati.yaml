@@ -4,7 +4,8 @@ topic: yogas
 title: Vasumati
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible set.
+rule: Every eligible benefic is in house 3, 6, 10 or 11 from the same specified reference; reject an empty eligible
+  set.
 conditions:
   any:
   - fact: d1.moon.benefics_all_in_upachaya
@@ -49,8 +50,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ: []
 sources:
 - book: Phaladeepika
@@ -64,9 +65,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to review which resources support your longer-term plans.
-  kn: ದೀರ್ಘಕಾಲದ ಯೋಜನೆಗಳಿಗೆ ನೆರವಾಗುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: दीर्घकालीन योजनाओं में सहायक संसाधनों की समीक्षा कर सकते हैं।
+  en: Steady cultivation of resources may support a longer-term plan.
+  kn: ದೀರ್ಘ ಯೋಜನೆಗೆ ಸಂಪನ್ಮೂಲ ಬೆಳೆಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: लंबी योजना के साधन बढ़ाना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending
