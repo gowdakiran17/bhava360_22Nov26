@@ -144,6 +144,8 @@ def public_resources(docs, messages):
         for key, translations in docs[copy_path]['messages'].items():
             name = f'{copy_path}#messages/{key}'
             bind(name, {'user_text':messages.add(name, translations)})
+    brand_label = 'checkers/business-name/recipe.yaml#display_name'
+    bind(brand_label, {'label':messages.add(brand_label, docs['checkers/business-name/recipe.yaml']['display_name'])})
     for area, labels in docs['life-areas/catalog.yaml']['areas'].items():
         name = 'life-areas/catalog.yaml#'+area
         bind(name,{'label':messages.add(name,labels)})

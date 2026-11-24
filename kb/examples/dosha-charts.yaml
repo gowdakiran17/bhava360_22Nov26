@@ -32,6 +32,8 @@ cases:
   - {entry: shrapit, chart: Asha, positions: {saturn: 323}, formed: false}
   - {entry: shrapit, chart: Asha, positions: {saturn: 143}, formed: true, strength: [stronger]}
   - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, parihara: true, formed: true, exceptions: [0]}
+  - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 5}, consent: true, raman: true, formed: true, exceptions: [1]}
+  - {entry: bhakoot, chart: Asha, partner: Ravi, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, raman: true, formed: true, exceptions: [1]}
   - {entry: nadi, chart: Asha, partner: Ravi, positions: {moon: 1}, partner_positions: {moon: 15}, consent: true, formed: false}
   - {entry: nadi, chart: Asha, partner: Ravi, consent: false, formed: null}
   - {entry: bhakoot, chart: Asha, partner: Ravi, positions: {moon: 10}, partner_positions: {moon: 218}, consent: true, parihara: true, formed: true, exceptions: [0]}
