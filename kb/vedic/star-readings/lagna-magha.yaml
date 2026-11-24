@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: magha
-meaning: When you approach something new, you may want to ask which family tradition still matters to you.
+meaning: A new occasion may invite you to choose a family custom that still feels meaningful.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 8
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may want to ask which family tradition still matters to you.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಕುಟುಂಬದ ಯಾವ ಪದ್ಧತಿ ಈಗಲೂ ಮುಖ್ಯವೆಂದು ಯೋಚಿಸಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: परिवार की कौन सी परंपरा आज भी मायने रखती है, इस पर सोच सकते हैं।'
+  en: A new occasion may invite you to choose a family custom that still feels meaningful.
+  kn: ಹೊಸ ಸಂದರ್ಭದಲ್ಲಿ ಯಾವ ಕೌಟುಂಬಿಕ ಪದ್ಧತಿ ಅರ್ಥಪೂರ್ಣವೆಂದು ಯೋಚಿಸಬಹುದು.
+  hi: नए मौके पर सोच सकते हैं कि परिवार की किस परंपरा का आज भी अर्थ है।
 native_review:
   kn: pending
   hi: pending

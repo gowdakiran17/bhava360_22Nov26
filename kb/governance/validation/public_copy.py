@@ -78,3 +78,15 @@ def check_distribution(root):
             raise ValueError(f'Missing public bundle for {locale}')
     for path in sorted((root / 'dist-json/public').rglob('*.json')):
         check_public_file(path.relative_to(root / 'dist-json').as_posix(), json.loads(path.read_text()))
+
+
+def check_distinct_translations(rows):
+    """Distinct source prompts in a reading family need distinct translations."""
+    for lang in ('kn','hi'):
+        seen = {}
+        for key, words in rows.items():
+            text = ' '.join(words[lang].split())
+            if not text or seen.setdefault(text, words['en']) != words['en']:
+                raise ValueError(f'{key}: missing or repeated {lang} rendering')
+            check_text(text,key,lang)
+            check_text(words['en'],key,'en')

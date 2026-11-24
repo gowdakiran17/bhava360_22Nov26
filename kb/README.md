@@ -103,3 +103,14 @@ The [Parashari D1 guide](vedic/D1.md) explains how to combine the registers, ide
 ### Matching table convention
 
 For Bhakoot, the Aquarius row and Cancer column form a 6/8 pair when counted inclusively. Bhava360 overrides the pinned PyJHora cell with the distance-rule value of zero in both directions. The matching reference grid tests this cell. Raw points are visible only to admins and testers.
+
+## Run the knowledge-base checks locally
+
+From the repository root, install the validator dependencies in a virtual environment. The annual reference checks import the Python module `swisseph` supplied by `pyswisseph`.
+
+```sh
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r kb/requirements-dev.txt
+python kb/governance/validation/check.py
+```

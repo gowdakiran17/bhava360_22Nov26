@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: revati
-meaning: When you approach something new, you can check what someone needs before they set out or return home.
+meaning: You can ask what would help someone prepare for a departure or a return.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -27,9 +27,9 @@ sources:
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can check what someone needs before they set out or return home.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಯಾರಾದರೂ ಹೊರಡುವ ಮೊದಲು ಅಥವಾ ಮನೆಗೆ ಮರಳುವಾಗ ಅವರಿಗೆ ಏನು ಬೇಕೆಂದು ಕೇಳಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: किसी के निकलने या घर लौटने से पहले पूछ सकते हैं कि उन्हें क्या चाहिए।'
+  en: You can ask what would help someone prepare for a departure or a return.
+  kn: ಹೊರಡುವ ಅಥವಾ ಮರಳುವ ವ್ಯಕ್ತಿಗೆ ಏನು ಬೇಕೆಂದು ಕೇಳಿ ಸಿದ್ಧತೆ ಮಾಡಬಹುದು.
+  hi: किसी के निकलने या लौटने से पहले उनकी ज़रूरत पूछकर तैयारी कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

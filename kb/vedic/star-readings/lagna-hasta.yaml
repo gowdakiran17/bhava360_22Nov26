@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: hasta
-meaning: When you approach something new, you may learn more by trying one small part of a task yourself.
+meaning: Trying a small part yourself may help you find your way into unfamiliar work.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 9
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may learn more by trying one small part of a task yourself.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಕೆಲಸದ ಒಂದು ಸಣ್ಣ ಭಾಗವನ್ನು ನೀವೇ ಮಾಡಿ ಹೆಚ್ಚು ಕಲಿಯಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: काम का छोटा हिस्सा खुद आज़माकर अधिक सीख सकते हैं।'
+  en: Trying a small part yourself may help you find your way into unfamiliar work.
+  kn: ಹೊಸ ಕೆಲಸದ ಸಣ್ಣ ಭಾಗವನ್ನು ಕೈಯಾರೆ ಮಾಡಿ ಕಲಿಯಬಹುದು.
+  hi: नए काम का एक छोटा हिस्सा खुद आज़माकर सीख सकते हैं।
 native_review:
   kn: pending
   hi: pending

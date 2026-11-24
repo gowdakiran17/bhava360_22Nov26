@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: pushya
-meaning: When you approach something new, you may enjoy helping someone practise a skill at their own pace.
+meaning: When someone is learning, you can let their pace guide the help you offer.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 9
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may enjoy helping someone practise a skill at their own pace.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಯಾರಾದರೂ ತಮ್ಮದೇ ವೇಗದಲ್ಲಿ ಕಲಿಯಲು ನೆರವಾಗುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: किसी को अपनी गति से अभ्यास करने में मदद देना आपको अच्छा लग सकता है।'
+  en: When someone is learning, you can let their pace guide the help you offer.
+  kn: ಹೊಸ ಕೌಶಲ ಅಭ್ಯಾಸ ಮಾಡುವವರಿಗೆ ಅವರದೇ ಗತಿಯಲ್ಲಿ ನೆರವಾಗಬಹುದು.
+  hi: नया हुनर सीख रहे साथी को उनकी गति से अभ्यास करने में मदद दे सकते हैं।
 native_review:
   kn: pending
   hi: pending

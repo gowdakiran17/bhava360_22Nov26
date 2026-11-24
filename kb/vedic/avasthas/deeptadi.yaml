@@ -23,9 +23,42 @@ states:
 fact_key: d1.avastha.deeptadi
 method: Evaluate all named causes. Preserve overlaps as separate state witnesses; never sum them.
 copy:
-  en: You can adapt the pace of a task to the attention it needs.
-  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
-  hi: काम के अनुसार गति चुन सकते हैं।
+  deepta:
+    en: You can put a well-practised skill to use.
+    kn: ಅಭ್ಯಾಸದ ಕೌಶಲ ಬಳಸಬಹುದು.
+    hi: अभ्यास में आए हुनर को काम में ला सकते हैं।
+  swastha:
+    en: You may feel at home with a familiar task.
+    kn: ಪರಿಚಿತ ಕೆಲಸದಲ್ಲಿ ನೆಮ್ಮದಿ ಸಿಗಬಹುದು.
+    hi: परिचित काम में सहजता मिल सकती है।
+  pramudita:
+    en: You can build on encouragement from a close ally.
+    kn: ಆಪ್ತರ ಪ್ರೋತ್ಸಾಹದಿಂದ ಮುಂದುವರಿಯಬಹುದು.
+    hi: करीबी साथी के प्रोत्साहन से आगे बढ़ सकते हैं।
+  shanta:
+    en: You can choose an unhurried pace.
+    kn: ಅವಸರವಿಲ್ಲದ ಗತಿ ಆರಿಸಬಹುದು.
+    hi: आरामदायक गति चुन सकते हैं।
+  dina:
+    en: You can begin with a manageable task.
+    kn: ನಿಭಾಯಿಸಲು ಸಾಧ್ಯವಾದ ಕೆಲಸದಿಂದ ಆರಂಭಿಸಬಹುದು.
+    hi: संभव लगने वाले काम से शुरुआत कर सकते हैं।
+  vikala:
+    en: You can set distractions aside for a while.
+    kn: ಸ್ವಲ್ಪ ಹೊತ್ತು ಗಮನ ಬೇರೆಡೆ ಸೆಳೆಯುವ ಸಂಗತಿಗಳನ್ನು ಬದಿಗಿಡಬಹುದು.
+    hi: कुछ देर ध्यान भटकाने वाली चीजें अलग रख सकते हैं।
+  duhkita:
+    en: You can ask for help with a difficult step.
+    kn: ಕಷ್ಟದ ಹೆಜ್ಜೆಗೆ ನೆರವು ಕೇಳಬಹುದು.
+    hi: कठिन कदम पर मदद माँग सकते हैं।
+  khala:
+    en: You can ease a disagreement by clarifying expectations.
+    kn: ನಿರೀಕ್ಷೆಗಳನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿ ಭಿನ್ನಾಭಿಪ್ರಾಯ ತಗ್ಗಿಸಬಹುದು.
+    hi: अपेक्षाएँ स्पष्ट करके मतभेद कम कर सकते हैं।
+  kopa:
+    en: You can pause before responding under pressure.
+    kn: ಒತ್ತಡದಲ್ಲಿ ಉತ್ತರಿಸುವ ಮೊದಲು ವಿರಾಮ ಪಡೆಯಬಹುದು.
+    hi: दबाव में जवाब देने से पहले ठहर सकते हैं।
 native_review:
   kn: pending
   hi: pending

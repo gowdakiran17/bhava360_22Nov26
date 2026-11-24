@@ -75,6 +75,14 @@ def testimony(chart, case, profile, querent, topic, category):
     return profile['leaning'][kinds[frozenset(evidence)]], delay, reasons
 
 
+def intent_redirect(intent, routing, messages):
+    canonical = routing['fixed_intent_aliases'].get(intent,intent)
+    key = routing['fixed_intent_redirects'].get(canonical)
+    if key is None:
+        return None
+    return {'message': messages[key], 'support_flow': key == 'immediate-support'}
+
+
 def validate_prashna(rules, read, evaluate, require):
     routing = read('vedic/prashna/questions.yaml')
     profile = read('vedic/prashna/judgment.yaml')
@@ -92,9 +100,23 @@ def validate_prashna(rules, read, evaluate, require):
             'unstable question D9 is withheld')
     require(chart_context(0,'mars','moon',{'mars':(1,1),'moon':(40,13)},True)['lord_navamsha']=='own',
             'stable question D9 dignity')
+    fixed = set(read('shared/boundaries/policy.yaml')['copy']['fixed_response_topics'])
+    require(set(routing['fixed_intent_redirects']) == fixed - {'diagnosis','legal-outcomes'}, 'sensitive intent coverage')
+    require(intent_redirect(None,routing,boundaries) is None, 'ordinary question proceeds')
+    for intent,key in routing['fixed_intent_redirects'].items():
+        result = intent_redirect(intent,routing,boundaries)
+        require(result['message']==boundaries[key] and set(result['message'])=={'en','kn','hi'} and
+                result['support_flow']==(intent=='self-harm'), 'localized redirect '+intent)
+    for alias, canonical in routing['fixed_intent_aliases'].items():
+        require(intent_redirect(alias,routing,boundaries)==intent_redirect(canonical,routing,boundaries),
+                'sensitive alias '+alias)
     covered = set()
     for case in ref['cases']:
         require(case['person'] in ('Scenario 1', 'Scenario 2', 'Scenario 3', 'Scenario 4', 'Scenario 5'), 'synthetic identity')
+        redirect = intent_redirect(case.get('intent'),routing,boundaries)
+        if redirect is not None:
+            require(redirect['message']==boundaries[case['redirect']] and not case['expected'], 'intent precedes chart binding')
+            continue
         chart = ref['charts'][case['chart']]
         site = ref['sites'][chart['site']]
         instant = datetime.fromisoformat(chart['instant'])
@@ -155,4 +177,4 @@ def validate_prashna(rules, read, evaluate, require):
             require(reasons == set(case['reasons']), 'Prashna reason selection')
         covered.update(fired)
     require(covered == set(entries), 'missing Prashna predicate coverage')
-    print(f"Prashna passed: {len(ref['cases'])} dated cases covering {len(covered)} rules.")
+    print(f"Prashna passed: {len(ref['cases'])} routing and dated cases covering {len(covered)} rules.")

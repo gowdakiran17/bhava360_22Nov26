@@ -89,5 +89,5 @@ class_names:
   swift: Kshipra
   gentle: Mridu
   sharp: Tikshna
-source_locator: Muhurta Chintamani, chapter 1, star classes (edition pending). Abhijit is excluded from the 27-star
-  frame.
+source_locator: Muhurta Chintamani, chapter 1, star classes (edition pending). Abhijit is Kshipra in the optional muhurta count.
+additional_muhurta_stars: {abhijit: swift}

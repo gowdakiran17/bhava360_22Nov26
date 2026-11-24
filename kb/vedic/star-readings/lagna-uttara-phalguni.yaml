@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: uttara-phalguni
-meaning: When you approach something new, you can clarify a shared commitment before making plans around it.
+meaning: You can clarify what each person is taking on before planning together.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 6
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can clarify a shared commitment before making plans around it.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಒಟ್ಟಿನ ಯೋಜನೆಗೂ ಮೊದಲು ಹಂಚಿಕೊಂಡ ಹೊಣೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: साझी योजना बनाने से पहले आपसी ज़िम्मेदारी तय कर सकते हैं।'
+  en: You can clarify what each person is taking on before planning together.
+  kn: ಒಟ್ಟಿನ ಯೋಜನೆಗೆ ಮುನ್ನ ಪರಸ್ಪರ ಹೊಣೆಗಳನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
+  hi: साझा योजना से पहले आपसी जिम्मेदारियाँ स्पष्ट कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

@@ -4,6 +4,10 @@ native_review:
   kn: pending
   hi: pending
 messages:
+  personal-limits:
+    en: A chart cannot answer that question. You can talk about what is on your mind with someone you trust.
+    kn: ಈ ಪ್ರಶ್ನೆಗೆ ಜಾತಕದಿಂದ ಉತ್ತರ ಸಿಗುವುದಿಲ್ಲ. ನಿಮ್ಮ ಮನಸ್ಸಿನಲ್ಲಿರುವುದನ್ನು ನಂಬಿಕೆಯ ವ್ಯಕ್ತಿಯೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+    hi: कुंडली इस सवाल का जवाब नहीं दे सकती। मन की बात किसी भरोसेमंद व्यक्ति से साझा कर सकते हैं।
   health:
     en: For health questions, a qualified clinician can help you decide what care you need.
     kn: ಆರೋಗ್ಯದ ಪ್ರಶ್ನೆಗಳಿಗೆ ಅರ್ಹ ವೈದ್ಯರು ಸೂಕ್ತ ಆರೈಕೆ ಆರಿಸಲು ನೆರವಾಗಬಹುದು.

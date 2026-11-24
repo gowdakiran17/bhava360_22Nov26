@@ -6,7 +6,7 @@ sources:
   edition: null
   chapter: null
   verse: null
-  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  other_locator: Samjna Tantra vv.60–65 and Varsha Tantra ch.7 (review locator)
   supports: Traditional calculation or classification. Reflective wording is editorial.
   verification: pending
 profile: tajika-annual-v1
@@ -50,9 +50,11 @@ triplicity:
   - mars
   - jupiter
   - moon
-selection: Deduplicate candidates; retain those aspecting the annual ascendant by Tajika sign aspect (including occupation).
-  Select highest Panchavargiya; tie or missing strength is unresolved. If none aspects, take Muntha ruler as labelled
-  fallback.
+selection: Retain the office holders with a permitted sign aspect to the annual Lagna. If none aspects, rank all five.
+  Rank by Panchavargiya, then aspect strength, then prefer the Muntha lord. An unresolved tie withholds the lord.
+  If the winner is the Moon substitute its applying ithasala partner, otherwise its sign ruler. Never return the Moon.
+aspect_strength: For this profile rank permitted rays by closeness to exact degree (smaller absolute residual wins).
+  Where the Moon has several applications, use the earliest projected perfection; withhold a simultaneous tie.
 traditions_differ: Some schools prioritize friendly aspects or the sect luminary ruler in an inconclusive election.
   Select one convention throughout.
 yogas:

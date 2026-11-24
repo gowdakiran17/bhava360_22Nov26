@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: swati
-meaning: When you approach something new, you can leave room in a plan for an unexpected change.
+meaning: When making a plan, you can leave room for circumstances to change.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 11
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can leave room in a plan for an unexpected change.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಯೋಜನೆಯಲ್ಲಿ ಅನಿರೀಕ್ಷಿತ ಬದಲಾವಣೆಗೆ ಅವಕಾಶ ಬಿಡಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: योजना में अचानक बदलाव के लिए थोड़ी जगह रख सकते हैं।'
+  en: When making a plan, you can leave room for circumstances to change.
+  kn: ಯೋಜನೆ ರೂಪಿಸುವಾಗ ಬದಲಾವಣೆಗೆ ಸ್ವಲ್ಪ ಅವಕಾಶ ಇಡಬಹುದು.
+  hi: योजना बनाते समय बदलाव के लिए थोड़ी गुंजाइश रख सकते हैं।
 native_review:
   kn: pending
   hi: pending

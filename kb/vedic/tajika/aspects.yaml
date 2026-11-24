@@ -6,7 +6,7 @@ sources:
   edition: null
   chapter: null
   verse: null
-  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  other_locator: Samjna Tantra vv.77–78 (review locator)
   supports: Traditional calculation or classification. Reflective wording is editorial.
   verification: pending
 orb_degrees:
@@ -18,14 +18,15 @@ orb_degrees:
   venus: 7
   saturn: 9
 angles:
-  0: context
+  0: support
   60: support
   90: friction
   120: support
   180: friction
 orb: Inclusive arithmetic mean of the two planetary orbs.
-geometry: Use the nearest directed aspect ray on the longitude circle. Residual = signed distance from that ray. Test
-  both orientations; sign boundaries do not interrupt contact.
+geometry: Count signs first. Zero-based sign offsets 0, 2 or 10, 3 or 9, 4 or 8 and 6 select conjunction, sextile, square,
+  trine and opposition respectively. All other offsets have no aspect. Test the signed degree residual of that ray
+  against the inclusive mean orb. Applying conjunction is ithasala.
 motion: 'Residual times relative signed longitude speed: negative applying (faster body closes the gap), positive
   separating, zero residual exact. Equal speeds away from exact are stationary.'
 transfer: 'Nakta: a faster intermediary separates from one principal and next applies to the other, before interruption.

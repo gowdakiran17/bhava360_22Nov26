@@ -17,9 +17,18 @@ states:
 fact_key: d1.avastha.jagradadi
 method: Prefer exaltation, own, debilitation before ordinary compound relationships.
 copy:
-  en: You can adapt the pace of a task to the attention it needs.
-  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
-  hi: काम के अनुसार गति चुन सकते हैं।
+  jagrat:
+    en: You can give a task your full attention.
+    kn: ಕೆಲಸಕ್ಕೆ ಪೂರ್ಣ ಗಮನ ಕೊಡಬಹುದು.
+    hi: किसी काम पर पूरा ध्यान दे सकते हैं।
+  swapna:
+    en: You can sketch an idea before testing it.
+    kn: ವಿಚಾರವನ್ನು ಪ್ರಯೋಗಿಸುವ ಮೊದಲು ರೂಪರೇಖೆ ಬರೆಯಬಹುದು.
+    hi: विचार आज़माने से पहले उसकी रूपरेखा बना सकते हैं।
+  sushupti:
+    en: You can let a decision rest for a while.
+    kn: ನಿರ್ಧಾರಕ್ಕೆ ಸ್ವಲ್ಪ ಕಾಲಾವಕಾಶ ಕೊಡಬಹುದು.
+    hi: फैसले को कुछ समय दे सकते हैं।
 native_review:
   kn: pending
   hi: pending

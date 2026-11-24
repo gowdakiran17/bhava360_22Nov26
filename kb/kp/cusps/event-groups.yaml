@@ -8,11 +8,13 @@ events:
     event: daily-wellbeing
     houses:
     - 1
+    - 5
     - 11
     fact: kp.cusp1.links_event
     entry: kp.cusps.cusp-1
     basis: documented group
     negating_houses:
+    - 4
     - 6
     - 8
     - 10
@@ -170,8 +172,10 @@ events:
     basis: Bhava360 editorial grouping
     negating_houses:
     - 2
+    - 4
     - 8
     - 11
-    classical_denial: []
+    classical_denial:
+    - 4
 negation: Twelfth-from and named denial sets, excluding supporting houses. Mixed requires distinct support and denial
   testimony.

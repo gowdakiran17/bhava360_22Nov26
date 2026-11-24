@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: dhanishta
-meaning: When you approach something new, you can check whether your pace fits the people working with you.
+meaning: You can agree on a workable pace as a team begins a task.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 11
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can check whether your pace fits the people working with you.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ನಿಮ್ಮ ವೇಗ ಜೊತೆಯಲ್ಲಿ ಕೆಲಸ ಮಾಡುವವರಿಗೆ ಹೊಂದುತ್ತದೆಯೇ ಎಂದು ನೋಡಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: आप देख सकते हैं कि साथ काम करने वालों के साथ आपकी गति बैठती है या नहीं।'
+  en: You can agree on a workable pace as a team begins a task.
+  kn: ತಂಡದೊಂದಿಗೆ ಆರಂಭಿಸುವಾಗ ಎಲ್ಲರಿಗೂ ಹೊಂದುವ ಗತಿಯನ್ನು ಹುಡುಕಬಹುದು.
+  hi: साथ काम शुरू करते समय ऐसी गति तलाश सकते हैं जो सबको जँचे।
 native_review:
   kn: pending
   hi: pending

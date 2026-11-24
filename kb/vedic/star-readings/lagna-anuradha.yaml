@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: anuradha
-meaning: When you approach something new, you can renew a connection by asking how a shared task is going.
+meaning: A new team task may offer a reason to check in with a familiar colleague.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 10
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can renew a connection by asking how a shared task is going.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಹಂಚಿಕೊಂಡ ಕೆಲಸ ಹೇಗೆ ಸಾಗುತ್ತಿದೆ ಎಂದು ಕೇಳಿ ಸಂಪರ್ಕ ಬೆಳೆಸಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: किसी साझे काम का हाल पूछकर संपर्क फिर बना सकते हैं।'
+  en: A new team task may offer a reason to check in with a familiar colleague.
+  kn: ಹೊಸ ತಂಡದಲ್ಲಿ ಒಟ್ಟಿನ ಕೆಲಸದ ಪ್ರಗತಿ ವಿಚಾರಿಸುವುದು ಸಂಪರ್ಕ ಬೆಳೆಸಲು ನೆರವಾಗಬಹುದು.
+  hi: नई टीम में साझा काम का हाल पूछने से परिचय बढ़ सकता है।
 native_review:
   kn: pending
   hi: pending

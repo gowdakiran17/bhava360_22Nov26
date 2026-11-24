@@ -4,7 +4,7 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: 7
   verse: null
   other_locator: Divisional dignity and planetary states chapters
   supports: Traditional calculation or classification. Reflective wording is editorial.
@@ -22,10 +22,10 @@ weights:
     1: 5
     2: 2
     3: 3
-    7: 1
-    9: 2.5
-    12: 4.5
-    30: 2
+    7: 2.5
+    9: 4.5
+    12: 2
+    30: 1
   dashavarga:
     1: 3
     2: 1.5
