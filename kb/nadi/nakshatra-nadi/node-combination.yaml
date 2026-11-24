@@ -16,8 +16,8 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-placidus
-  - fact: kp.cusps.placidus_ready
+    value: kp-whole-sign
+  - fact: nadi.nn.houses.ready
     op: eq
     value: true
 meaning: A node represents its own occupancy and its planetary agents.

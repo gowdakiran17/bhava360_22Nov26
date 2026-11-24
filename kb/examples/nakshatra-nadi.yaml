@@ -3,7 +3,7 @@ approval: draft
 native_review_needed: true
 reference_date: '2026-11-24'
 scope: 'PL is the planet itself. Node association: same-sign conjunction and incoming sign-count aspects; nodes
-  cast none. Houses: KP Placidus only.'
+  cast none. Houses: whole-sign, with KP ayanamsa (mode 5) and the true node.'
 area_sets:
   career_money:
     supportive:
@@ -76,9 +76,9 @@ cases:
   fixture: Asha
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Placidus cusp signs and planet houses
+  case: Whole-sign house signs and planet houses
   expected:
-    cusp_signs:
+    house_signs:
     - Aquarius
     - Pisces
     - Aries
@@ -95,12 +95,12 @@ cases:
       Sun: 1
       Moon: 4
       Mars: 12
-      Mercury: 1
+      Mercury: 2
       Jupiter: 7
-      Venus: 12
+      Venus: 1
       Saturn: 12
-      Rahu: 10
-      Ketu: 4
+      Rahu: 11
+      Ketu: 5
     owned:
       Sun:
       - 7
@@ -140,7 +140,7 @@ cases:
       - 10
       - 12
       Mercury:
-      - 1
+      - 2
       - 5
       - 8
       Jupiter:
@@ -148,20 +148,18 @@ cases:
       - 7
       - 11
       Venus:
+      - 1
       - 4
       - 9
-      - 12
       Saturn:
       - 1
       - 12
       Rahu:
       - 2
       - 7
-      - 10
       - 11
       Ketu:
-      - 1
-      - 4
+      - 2
       - 5
       - 8
     node_basis:
@@ -228,13 +226,13 @@ cases:
       - 7
       - 11
       NL:
+      - 1
       - 4
       - 9
-      - 12
       SL:
+      - 1
       - 4
       - 9
-      - 12
     antar:
       lord: Moon
       PL:
@@ -456,9 +454,9 @@ cases:
   fixture: Ravi
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Placidus cusp signs and planet houses
+  case: Whole-sign house signs and planet houses
   expected:
-    cusp_signs:
+    house_signs:
     - Scorpio
     - Sagittarius
     - Capricorn
@@ -475,9 +473,9 @@ cases:
       Sun: 9
       Moon: 4
       Mars: 9
-      Mercury: 9
+      Mercury: 10
       Jupiter: 3
-      Venus: 7
+      Venus: 8
       Saturn: 12
       Rahu: 6
       Ketu: 12
@@ -521,7 +519,7 @@ cases:
       - 9
       Mercury:
       - 8
-      - 9
+      - 10
       - 11
       Jupiter:
       - 2
@@ -529,6 +527,7 @@ cases:
       - 5
       Venus:
       - 7
+      - 8
       - 12
       Saturn:
       - 3
@@ -547,6 +546,7 @@ cases:
       - 4
       - 6
       - 7
+      - 8
       - 9
       - 12
     node_basis:
@@ -611,7 +611,7 @@ cases:
       lord: Mercury
       PL:
       - 8
-      - 9
+      - 10
       - 11
       NL:
       - 1
@@ -619,6 +619,7 @@ cases:
       - 4
       - 6
       - 7
+      - 8
       - 9
       - 12
       SL:
@@ -627,6 +628,7 @@ cases:
       - 4
       - 6
       - 7
+      - 8
       - 9
       - 12
     antar:
@@ -637,6 +639,7 @@ cases:
       - 4
       - 6
       - 7
+      - 8
       - 9
       - 12
       NL:
@@ -651,6 +654,7 @@ cases:
       lord: Venus
       PL:
       - 7
+      - 8
       - 12
       NL:
       - 1
@@ -682,6 +686,7 @@ cases:
     - 5
     - 6
     - 7
+    - 8
     - 9
     - 12
     supportive_hits:
@@ -689,6 +694,7 @@ cases:
     - 6
     challenging_hits:
     - 5
+    - 8
     - 12
     label: mixed
     must_not_contain:
@@ -713,6 +719,7 @@ cases:
     - 5
     - 6
     - 7
+    - 8
     - 9
     - 12
     supportive_hits:
@@ -746,6 +753,7 @@ cases:
     - 5
     - 6
     - 7
+    - 8
     - 9
     - 12
     supportive_hits:
@@ -756,6 +764,7 @@ cases:
     challenging_hits:
     - 3
     - 6
+    - 8
     - 12
     label: mixed
     must_not_contain:
@@ -780,6 +789,7 @@ cases:
     - 5
     - 6
     - 7
+    - 8
     - 9
     - 12
     supportive_hits:
@@ -811,6 +821,7 @@ cases:
     - 5
     - 6
     - 7
+    - 8
     - 9
     - 12
     supportive_hits:
@@ -836,7 +847,7 @@ cases:
     level: pratyantar
     lord: Venus
     line_circles:
-      pl: 7
+      pl: 8
       nl: 6
       sl: 6
     power_position:
@@ -865,9 +876,9 @@ cases:
   fixture: Meera
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Placidus cusp signs and planet houses
+  case: Whole-sign house signs and planet houses
   expected:
-    cusp_signs:
+    house_signs:
     - Leo
     - Virgo
     - Libra
@@ -881,15 +892,15 @@ cases:
     - Gemini
     - Cancer
     occupied:
-      Sun: 4
+      Sun: 5
       Moon: 7
       Mars: 7
       Mercury: 5
       Jupiter: 11
-      Venus: 4
+      Venus: 5
       Saturn: 10
-      Rahu: 10
-      Ketu: 4
+      Rahu: 11
+      Ketu: 5
     owned:
       Sun:
       - 1
@@ -920,7 +931,7 @@ cases:
     combination:
       Sun:
       - 1
-      - 4
+      - 5
       Moon:
       - 7
       - 12
@@ -938,7 +949,7 @@ cases:
       - 11
       Venus:
       - 3
-      - 4
+      - 5
       - 10
       Saturn:
       - 6
@@ -948,7 +959,6 @@ cases:
       - 1
       - 2
       - 3
-      - 4
       - 5
       - 8
       - 10
@@ -957,7 +967,6 @@ cases:
       - 1
       - 2
       - 3
-      - 4
       - 5
       - 8
       - 10
@@ -990,15 +999,15 @@ cases:
     lord: Mars
     line_circles:
       pl: 7
-      nl: 10
-      sl: 4
+      nl: 11
+      sl: 5
     power_position:
-    - 4
-    - 10
+    - 5
+    - 11
     full_power: false
     hit_pair:
-      row_sl: 4
-      col_nl: 10
+      row_sl: 5
+      col_nl: 11
 - id: NN-T29
   fixture: Meera
   rules:
@@ -1049,14 +1058,13 @@ cases:
       - 1
       - 2
       - 3
-      - 4
       - 5
       - 8
       - 10
       - 11
       SL:
       - 3
-      - 4
+      - 5
       - 10
     pratyantar:
       lord: Mercury
@@ -1066,11 +1074,11 @@ cases:
       - 11
       NL:
       - 3
-      - 4
+      - 5
       - 10
       SL:
       - 3
-      - 4
+      - 5
       - 10
 - id: NN-T31
   fixture: Meera
@@ -1260,9 +1268,9 @@ cases:
   fixture: Kabir
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Placidus cusp signs and planet houses
+  case: Whole-sign house signs and planet houses
   expected:
-    cusp_signs:
+    house_signs:
     - Gemini
     - Cancer
     - Leo
@@ -1277,12 +1285,12 @@ cases:
     - Taurus
     occupied:
       Sun: 12
-      Moon: 1
+      Moon: 2
       Mars: 3
       Mercury: 12
       Jupiter: 1
       Venus: 1
-      Saturn: 2
+      Saturn: 3
       Rahu: 4
       Ketu: 10
     owned:
@@ -1317,7 +1325,6 @@ cases:
       - 3
       - 12
       Moon:
-      - 1
       - 2
       Mars:
       - 3
@@ -1336,7 +1343,7 @@ cases:
       - 5
       - 12
       Saturn:
-      - 2
+      - 3
       - 8
       - 9
       Rahu:

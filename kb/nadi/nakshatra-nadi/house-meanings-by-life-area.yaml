@@ -15,8 +15,8 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-placidus
-  - fact: kp.cusps.placidus_ready
+    value: kp-whole-sign
+  - fact: nadi.nn.houses.ready
     op: eq
     value: true
 meaning: Choose a life area before interpreting a house.
@@ -25,9 +25,9 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Use KP Placidus cusps. Withhold house testimony if polar cusps fail. Jyoti reports that file 2, PDF pp.
-    45–49 agrees with whole signs in 35/35 combinations and with Placidus in 16/35. File 4, PDF p. 2 and the owner
-    demonstration support the selected cusp method.
+  note: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026 at 7:04 PM
+    IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under whole signs and
+    16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp method.'
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi

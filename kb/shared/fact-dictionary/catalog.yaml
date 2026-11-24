@@ -27,13 +27,21 @@ facts:
     - Selected review convention
     unknown_if: The bound inputs or the applicable convention are unresolved.
     values:
-    - kp-placidus
+    - kp-whole-sign
+  nadi.nn.houses.ready:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: True when exact, stable birth timing supplies a computable sidereal Lagna sign for whole-sign houses.
+    dependencies:
+    - Declared birth-time precision
+    - Stable KP sidereal Lagna sign
+    unknown_if: Birth time is unknown or unstable, or the sidereal Lagna cannot be computed.
   nadi.nn.planet.combination:
     type: array
     producer: nadi.nakshatra-nadi
     origin: Houses owned and occupied by the bound graha
     dependencies:
-    - Cusp signs and occupied house
+    - Whole-sign house signs and occupied house
     unknown_if: The bound inputs or the applicable convention are unresolved.
   nadi.nn.node.combination:
     type: array
@@ -107,10 +115,10 @@ facts:
   nadi.nn.planet.circle:
     type: integer
     producer: nadi.nakshatra-nadi
-    origin: Occupied Placidus house of the bound body
+    origin: Occupied whole-sign house of the bound body
     dependencies:
-    - Stable body and cusp longitudes
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    - Stable body sign and sidereal Lagna sign
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     range:
@@ -122,7 +130,7 @@ facts:
     origin: Occupied houses of the body, its star lord and its sub lord
     dependencies:
     - KP star/sub identity and the three occupancies
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     fields:
@@ -135,7 +143,7 @@ facts:
     origin: Distinct NL and SL circles
     dependencies:
     - Stable line circles
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     items: unique houses 1–12
@@ -148,7 +156,7 @@ facts:
     origin: True when NL and SL occupy the same house
     dependencies:
     - Stable NL and SL circles
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
   nadi.nn.planet.hit_pair:
@@ -157,7 +165,7 @@ facts:
     origin: Private area lookup coordinates
     dependencies:
     - Stable line circles
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     fields:
@@ -169,7 +177,7 @@ facts:
     origin: Count distinct lines carrying each house
     dependencies:
     - Three house combinations
-    unknown_if: Unknown or unstable birth time, unavailable or polar-failed cusps, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     keys: house 1–12
