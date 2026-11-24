@@ -58,9 +58,15 @@ sources:
 - basis: Bhava360 product review
   locator: Vedic Astrologer item 7 (23 Nov 2026)
   verification: supplied-in-brief
-- basis: Consultation method
-  locator: Section 2.2 C-VER-01 through C-VER-03
-  verification: pending
+- book: null
+  work_id: null
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 - basis: Product requirements
   locator: Section 8.4.2 divisional sign stability
   verification: supplied-in-brief

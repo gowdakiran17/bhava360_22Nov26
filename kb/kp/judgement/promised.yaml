@@ -18,14 +18,17 @@ traditions_differ:
 - profile: kp-editorial-v1
   note: Keep ranked testimony separate from the four-step method.
 sources:
-- book: Lecture Note on Krishnamurti Paddhati
-  work_id: kp-dutta
-  edition: kp-dutta-online
-  chapter: null
+- book: 'KP Reader VI: Horary Astrology (K.S. Krishnamurti)'
+  work_id: kp-readers
+  edition: null
+  chapter: cuspal sub-lord promise and denial chapters (to verify)
   verse: null
-  other_locator: Example 1, General Significator – Cusp and L1 through L4
-  supports: Background method; the application and reflective wording are editorial.
-  verification: pending
+  other_locator: null
+  supports: Primary KP text; the current Dutta online lecture note is secondary. Reader IV (marriage, children) for area cusps.
+  verification: locator_medium
+  tag: MODERN/POPULAR
+  translator_edition: Krishnamurti Publications
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
 user_text:

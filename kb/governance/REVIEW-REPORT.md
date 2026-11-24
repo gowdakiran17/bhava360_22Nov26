@@ -571,3 +571,9 @@ The profile uses a three-degree inclusive KP node conjunction orb. The year-lord
 The eleven review items revise existing material. Rule and fact counts remain 2,732 and 955. Each known-time fixture now has distinct area bands. Dev’s six Lagna-based promises remain withheld. The health worksheet records resistance separately from the primary constitution reading. Wealth requires both resources and gains to confirm its highest band. The one-step limit and tie handling are editorial.
 
 All 82 yoga entries have revised Kannada and Hindi text, pending native review. Eight conditional dasha messages are distinct in each required locale. All 120 Lal Kitab placement readings are marked pending_source. The public gate requires a single verified edition for both placements and all 120 annual rows. Joshi 1952 remains a candidate. The source register tracks 1,185 pending blocks and 304 chapter-only blocks; suggested books are leads for review. Chara Antar order and Sthira karakas still await edition checks.
+
+## Batch 10 source review
+
+Across 5,386 authored citation blocks, 241 have a high-confidence chapter locator, 485 have an edition-dependent locator, and 62 await verification. The latter include nine nested japa citations and the primary Mula edition candidate. There are 451 newly classified editorial blocks, 959 earlier editorial attributions, 305 chapter-only citations, two supplied in the brief and 2,881 previously verified blocks. Run the source audit to reproduce the breakdown. Every pending block has an explicit verification task.
+
+The review used Jyoti’s supplied map. Chapter-location confidence does not establish that an edition or verse was independently inspected. Lal Kitab remains gated on the single Joshi 1952 edition. Nadi remains held.

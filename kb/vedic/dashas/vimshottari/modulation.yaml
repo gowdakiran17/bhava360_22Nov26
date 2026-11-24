@@ -157,19 +157,25 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: Vimshottari dasha-phala chapters (KB cites 47-48; Santhanam numbering)
   verse: null
-  other_locator: Vimshottari chapters 47–48
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Results of house-lord periods; find the exact chapter for this edition.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  to_verify: true
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
+  edition: phaladeepika-sastri-1950
+  chapter: ch.19-20 dasha and antardasha results
   verse: null
-  other_locator: Dasha phala
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 annotation_policy: Combustion, retrograde, war and vargottama explain terms already included in the KB-35 grade. They
   have zero additional grading effect. A Viparita exception removes the ordinary dusthana warning. Relate each Moon
   position and star lord to the bound area.

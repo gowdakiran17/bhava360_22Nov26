@@ -18,14 +18,15 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Bhava360 area composition
-  work_id: bhava360-area-composition
+- book: null
+  work_id: null
   edition: null
   chapter: null
   verse: null
-  other_locator: PRD 8.10, original editorial prompt linked to computed facts.
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

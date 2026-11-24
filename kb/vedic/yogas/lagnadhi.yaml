@@ -44,22 +44,28 @@ traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
-  chapter: null
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: phaladeepika-sastri-1950
+  chapter: ch.6 (yogas)
   verse: null
-  other_locator: Named yoga chapters, lagnadhi
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Not sure BPHS names this yoga; Phaladeepika ch.6 is the likelier home. Drop the BPHS block if it is absent.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  to_verify: true
 - book: Saravali
   work_id: saravali
   edition: null
-  chapter: null
+  chapter: yoga chapters (chapter number to verify)
   verse: null
-  other_locator: Yoga chapters; edition locator pending
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications
+  to_verify: true
 - book: PyJHora yoga implementation
   work_id: pyjhora-yoga
   edition: pyjhora-yoga-506

@@ -47,19 +47,25 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: 35
+  chapter: ch.35 Nabhasa yogas (Santhanam numbering)
   verse: null
-  other_locator: Nabhasa Yogas, Santhanam chapter numbering; individual formation locator pending
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
-- book: Saravali
-  work_id: saravali
-  edition: null
-  chapter: null
+  other_locator: null
+  supports: Formation definition only; the reflection text is editorial.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: ch.12 Nabhasa yogas
   verse: null
-  other_locator: Yoga chapters; edition locator pending
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Replace the open-ended Saravali block with Brihat Jataka ch.12, the earlier and more direct definition. Saravali
+    Nabhasa chapter number not confirmed.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
 - book: PyJHora yoga implementation
   work_id: pyjhora-yoga
   edition: pyjhora-yoga-506

@@ -4,11 +4,16 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: 7
+  chapter: ch.7 Vimshopaka (Santhanam numbering)
   verse: null
-  other_locator: Divisional dignity and planetary states chapters
-  supports: Traditional calculation or classification. Reflective wording is editorial.
-  verification: pending
+  other_locator: null
+  supports: The saptavarga weights are still open (Batch 6 finding).
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+  prior_review_locator:
+    chapter: 7
 visibility: admin-only
 weights:
   shadvarga:

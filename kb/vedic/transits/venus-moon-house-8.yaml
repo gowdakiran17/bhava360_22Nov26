@@ -25,7 +25,7 @@ traditions_differ:
     (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Table 58 marks this position as
     difficult, while Table 63 includes it among the positions subject to vedha. This source variant remains mixed. The selected direction is support; evaluate vedha independently.
 sources:
-- {work_id: phaladeepika, book: Phaladeepika, edition: phaladeepika-sastri-1950, chapter: 26, verse: null, other_locator: Venus gochara, verification: pending}
+- {book: Phaladeepika, work_id: phaladeepika, edition: phaladeepika-sastri-1950, chapter: ch.26 Gochara, verse: null, other_locator: null, supports: Named calculation or classification., verification: verified_locator, tag: CLASSICAL, translator_edition: 'V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)'}
 - book: 'Vedic Astrology: An Integrated Approach'
   work_id: rao-integrated
   edition: rao-integrated-online

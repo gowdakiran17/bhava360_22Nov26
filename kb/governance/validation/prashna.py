@@ -76,6 +76,8 @@ def testimony(chart, case, profile, querent, topic, category):
 
 
 def intent_redirect(intent, routing, messages):
+    if isinstance(intent,str):
+        intent = ' '.join(intent.casefold().replace('’', "'").split()).rstrip('?')
     canonical = routing['fixed_intent_aliases'].get(intent,intent)
     key = routing['fixed_intent_redirects'].get(canonical)
     if key is None:
@@ -110,6 +112,15 @@ def validate_prashna(rules, read, evaluate, require):
     for alias, canonical in routing['fixed_intent_aliases'].items():
         require(intent_redirect(alias,routing,boundaries)==intent_redirect(canonical,routing,boundaries),
                 'sensitive alias '+alias)
+    for aliases, key in [
+        (['longevity','ayurdaya','When will I die?'],'personal-limits'),
+        (['miscarriage','termination',"baby’s gender"],'life-or-pregnancy'),
+        (['lottery','betting','speculation','crypto'],'money-verdict'),
+        (['suicidal','self-injury'],'immediate-support'),
+    ]:
+        for alias in aliases:
+            require(intent_redirect(alias,routing,boundaries)==dict(message=boundaries[key],
+                    support_flow=key=='immediate-support'),'boundary before chart: '+alias)
     covered = set()
     for case in ref['cases']:
         require(case['person'] in ('Scenario 1', 'Scenario 2', 'Scenario 3', 'Scenario 4', 'Scenario 5'), 'synthetic identity')

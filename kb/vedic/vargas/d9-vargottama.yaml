@@ -22,14 +22,17 @@ traditions_differ:
   note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
     convention.
 sources:
-- work_id: bphs
-  edition: bphs-varga-web
-  book: Brihat Parashara Hora Shastra
-  chapter: 6
-  verse: '12'
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: ch.6 sixteen divisions (Santhanam numbering)
+  verse: null
   other_locator: null
-  supports: Divisional calculation background. The topic and interpretive selection are editorial.
-  verification: pending
+  supports: The KB verse refers to a web edition and is not confirmed, so verse is null.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:

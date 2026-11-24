@@ -16,14 +16,18 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Cheiro’s Book of Numbers
+- book: Cheiro's Book of Numbers (Cheiro)
   work_id: cheiro-s-book-of-numbers
   edition: null
-  chapter: null
+  chapter: compound numbers 10-52 section
   verse: null
-  other_locator: Compound number 13, edition check pending.
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: null
+  supports: The book is the right source; edition and year still need fixing.
+  verification: locator_medium
+  tag: MODERN/POPULAR
+  translator_edition: null
+  edition_to_verify: true
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

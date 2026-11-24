@@ -24,6 +24,7 @@ sources:
     other_locator: null
     supports: "<formation, meaning, modifier or exception>"
     verification: pending
+    to_verify: true
 confidence: medium  # high | medium | low | disputed
 review_notes: "<open questions and verification needed>"
 # Both user_text maps follow supported_locales in SCHEMA.yaml. Omit untranslated optional keys.

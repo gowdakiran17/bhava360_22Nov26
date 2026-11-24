@@ -56,14 +56,17 @@ sources:
   supports: Classical wealth combinations. The KB’s Lagna, resource and trinal lord association screen is an editorial subset
     of the broader tradition.
   verification: verified
-- work_id: bphs
-  book: Brihat Parashara Hora Shastra
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
   edition: null
-  chapter: 41
+  chapter: ch.41 wealth combinations (Santhanam numbering)
   verse: null
-  other_locator: Chapter 41
+  other_locator: null
   supports: Additional Lagna, resource-resource and trine-trine links; edition verification pending.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
   and Hindi await native review.

@@ -54,12 +54,20 @@ traditions_differ:
 sources:
 - book: Brihat Samhita
   work_id: brihat-samhita
+  edition: null
+  chapter: 98
+  verse: null
+  other_locator: Nakshatra deity list, Mula
+  supports: Primary candidate for the selected Nirriti reading. Check the edition against the printed Iyer variant.
+  verification: pending
+  to_verify: true
+- book: Brihat Samhita
+  work_id: brihat-samhita
   edition: brihat-samhita-iyer-1884
   chapter: 98
   verse: 3–5, 7
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Iyer edition variant for Prajapati and the indicated activity classification.
   verification: verified
 - book: Phaladeepika
   work_id: phaladeepika

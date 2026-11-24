@@ -17,14 +17,15 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- work_id: bhava360-engine-and-reading-conventions
-  book: Bhava360 engine and reading conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: null
+  work_id: null
+  edition: null
   chapter: null
   verse: null
-  other_locator: numerology/pythagorean/karmic-debt-14.yaml
-  supports: Product stage binding and editorial reflection.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 confidence: medium
 review_notes: Editorial metric profile; native review pending.
 user_text:

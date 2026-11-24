@@ -103,6 +103,13 @@ def check_annual(read, rules, require):
         require(replacement==expected and year_lord(['moon'],{},dict(moon=9),'moon',replacement)==expected,
                 'Moon application or sign ruler substitution')
     require(year_lord(['moon'],{},dict(moon=9),'moon','moon') is None, 'Moon never wins')
+    quiet_cancer = dict.fromkeys(core['orb_degrees'], (40,1))
+    quiet_cancer['moon'] = (95,1)
+    successor = moon_successor(core,quiet_cancer)
+    require(successor=='moon' and year_lord(['moon',*pair],{'moon':2},dict(moon=15,sun=8,mars=9),
+            'venus',successor)=='mars', 'Cancer Moon without application: next office holder')
+    require(year_lord(['moon',*pair],{'moon':2},dict(moon=15,sun=8,mars=8),'venus',successor) is None,
+            'Cancer Moon fallback still withholds a tie')
     a,b=v['selected_contact']
     hit=contact(core,a,b,pos)
     require(hit['state']==v['aspect']['state']=='applying' and

@@ -44,10 +44,18 @@ toggles:
     - griha-pravesha
     default: false
 sources:
-- work_id: muhurta-chintamani
+- book: Muhurta Chintamani (Daivajna Rama)
+  work_id: muhurta-chintamani
   edition: muhurta-chintamani-miu
-  locator: Vivaha and Shubhashubha prakaranas; regional rules require review.
+  chapter: 'Yatra (travel) and Nakshatra prakaranas: Dhanishta panchaka (to verify)'
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: KB edition muhurta-chintamani-miu
+  locator: 'Yatra (travel) and Nakshatra prakaranas: Dhanishta panchaka (to verify)'
+  to_verify: true
 visibility_variant_id: asta-visibility-days
 gandanta: Withhold an auspicious recommendation when election Moon or Lagna crosses the selected gandanta interval.
   Use vedic/vargas/advanced.yaml; unresolved interval is unknown.

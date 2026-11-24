@@ -96,3 +96,7 @@ The corpus contains 2,732 draft rules and 955 registered facts. This review revi
 ## Batch 9 review corrections
 
 The corpus contains 2,732 draft rules and 955 registered facts. Eleven area recipes use the primary house and its lord first. Thirty fixture area traces cover four known-time charts and Dev’s unknown-time chart. Updated copy covers 82 yoga readings in Kannada and Hindi and eight optional dasha periods in all three required languages. The source-gap register counts individual rule citations by review area.
+
+## Batch 10 source locators
+
+The review map matches 1,229 authored top-level blocks and nine nested remedy citations. One template block is excluded. The Moon in Cancer succession probe and the optional Abhijit election arc include boundary and unresolved cases. The retired opposite-node conjunction remains an admin guard.

@@ -204,6 +204,16 @@ used_by:
 - vedic.nakshatras.uttara-bhadrapada
 - vedic.nakshatras.uttara-phalguni
 - vedic.nakshatras.vishakha
+- vedic.star-readings.lord-jupiter
+- vedic.star-readings.lord-ketu
+- vedic.star-readings.lord-mars
+- vedic.star-readings.lord-mercury
+- vedic.star-readings.lord-moon
+- vedic.star-readings.lord-rahu
+- vedic.star-readings.lord-saturn
+- vedic.star-readings.lord-sun
+- vedic.star-readings.lord-venus
+- vedic.transits.double-transit
 - vedic.transits.over-dasha-lord
 - vedic.transits.over-natal-graha
 - vedic.yogas.activation

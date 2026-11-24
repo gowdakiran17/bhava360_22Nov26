@@ -431,3 +431,9 @@ optional_rule_metadata:
   placement_source_status: Lal Kitab placement edition review (pending_source or verified). Private metadata.
   feature_gate: Registered explicit product gate; disabled entries have no public payload or route.
   aspect_direction: 'House-specific modifier: own target protects; otherwise use resolved chart-specific polarity.'
+source_verification:
+  verified_locator: The review map identifies the work and chapter. Textual verification requires a separate edition check.
+  locator_medium: The chapter or section is edition-dependent. Include a locator note.
+  pending: A candidate awaiting verification must carry to_verify set to true.
+  editorial: Editorial material has tag EDITORIAL and null bibliographic fields.
+  scope: These statuses supplement existing source statuses. Only verified satisfies the approved-entry gate.

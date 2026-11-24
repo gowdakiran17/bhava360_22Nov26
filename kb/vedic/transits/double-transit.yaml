@@ -34,22 +34,27 @@ sources:
   supports: Transit occupation and aspect to natal targets. Combining two simultaneous hits is the selected editorial
     profile.
   verification: verified
-- book: Bhava360 transit conventions
-  work_id: bhava360-transit-conventions
-  edition: bhava360-transit-conventions-v1
-  chapter: null
-  verse: null
-  other_locator: vedic/transits/evidence.yaml
-  supports: Bhava360 selection, calculation boundaries and original reflective wording.
-  verification: pending
-- book: K.N. Rao double-transit method (edition pending)
-  work_id: kn-rao-double-transit
+- book: null
+  work_id: null
   edition: null
   chapter: null
   verse: null
-  other_locator: Double-transit timing; edition pending
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
+- book: Timing Events through Vimshottari Dasha (K.N. Rao)
+  work_id: rao-timing-events
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: null
+  supports: Confirm the book sets out double transit; otherwise cite the actual K.N. Rao article or book.
   verification: pending
+  tag: MODERN/POPULAR
+  translator_edition: null
+  edition_to_verify: true
+  to_verify: true
 confidence: medium
 review_notes: MODERN/POPULAR K.N. Rao double-transit method.
 user_text:

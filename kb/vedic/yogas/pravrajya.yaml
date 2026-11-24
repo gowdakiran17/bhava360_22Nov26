@@ -45,22 +45,26 @@ traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
-  chapter: null
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: ch.15 Pravrajya yoga
   verse: null
-  other_locator: Named yoga chapters, pravrajya
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
-- book: Saravali
-  work_id: saravali
-  edition: null
-  chapter: null
+  other_locator: null
+  supports: Replace the generic bphs block with Brihat Jataka ch.15, the defining text.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: ch.15 Pravrajya yoga
   verse: null
-  other_locator: Yoga chapters; edition locator pending
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Replace the generic saravali block with Brihat Jataka ch.15, the defining text.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:

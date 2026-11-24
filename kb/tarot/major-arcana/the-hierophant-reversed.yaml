@@ -31,14 +31,16 @@ sources:
   other_locator: tarot.major-arcana.the-hierophant-reversed
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: editorial-no-classical-claim
-- book: The Pictorial Key to the Tarot
+- book: The Pictorial Key to the Tarot (A.E. Waite)
   work_id: waite-pictorial-key
   edition: waite-1910
-  chapter: Part III
+  chapter: 'Part III: divinatory meanings, card section'
   verse: null
-  other_locator: The Hierophant
-  supports: Historical card identity. The trilingual reflection is original editorial text.
-  verification: pending
+  other_locator: null
+  supports: Cite for card identity and upright/reversed keywords; the reflection is editorial.
+  verification: verified_locator
+  tag: MODERN/POPULAR
+  translator_edition: Rider 1910/1911 (KB edition waite-1910)
 - book: Book T
   work_id: golden-dawn-book-t
   edition: golden-dawn-book-t-transcript

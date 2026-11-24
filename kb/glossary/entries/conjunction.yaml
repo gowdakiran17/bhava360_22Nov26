@@ -85,6 +85,10 @@ used_by:
 - vedic.yogas.shasha
 - vedic.yogas.vimala
 - western.aspects.conjunction
+- western.aspects.opposition
+- western.aspects.sextile
+- western.aspects.square
+- western.aspects.trine
 - western.natal-pairs.asc-mc-conjunction
 - western.natal-pairs.jupiter-asc-conjunction
 - western.natal-pairs.jupiter-mc-conjunction

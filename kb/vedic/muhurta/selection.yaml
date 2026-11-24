@@ -21,7 +21,7 @@ activities:
 - education-start
 - property-registration
 partition: Partition the requested range at all relevant sunrise, sunset, limb, exclusion and participant-strength
-  boundaries. Use half-open windows.
+  boundaries. When use_abhijit is enabled, also split at the limits of abhijit_span in activity-factors.yaml. Use half-open windows.
 hard_exclusions:
 - Vishti/Bhadra
 - Rahu Kaal

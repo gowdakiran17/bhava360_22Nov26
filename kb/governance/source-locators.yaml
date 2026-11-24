@@ -1,0 +1,3976 @@
+# Bhava360 pending-source locator map. Locators only; contains no book text.
+meta:
+  generated: '2026-11-24'
+  base_sha: 3223a6154a0491db2977583ceb77ff9161762f63
+  repo: gowdakiran17/bhava360_22Nov26
+  scope: 'Every top-level sources[] block with verification: pending in kb/**/*.yaml (excluding dist-json and glossary).
+    9 further pending blocks sit in nested sources lists; they are listed under nested_pending_not_counted.'
+  pending_total: 1230
+  covered_blocks: 1230
+  unmapped_blocks: 0
+  partial_areas: []
+  counts_by_area:
+    vedic/yogas: 105
+    vedic/aspects: 120
+    vedic/conjunctions: 36
+    vedic/planets-in-signs: 15
+    vedic/transits: 132
+    vedic/dashas: 46
+    vedic/star-readings: 34
+    vedic/vargas-avasthas-special-lagnas-upagrahas: 27
+    vedic/strength: 9
+    vedic/life-areas-lordships: 13
+    vedic/tajika: 22
+    vedic/prashna: 3
+    vedic/matching: 2
+    vedic/muhurta-panchang: 5
+    kp: 5
+    lal-kitab: 1
+    western: 368
+    numerology: 50
+    palmistry: 79
+    tarot: 156
+    governance-templates: 2
+  vedic_total: 569
+  counts_by_confidence:
+    vedic/yogas:
+      to_verify: 24
+      medium: 47
+      high: 34
+    vedic/aspects:
+      medium: 96
+      to_verify: 24
+    vedic/conjunctions:
+      to_verify: 14
+      high: 22
+    vedic/planets-in-signs:
+      high: 12
+      medium: 3
+    vedic/transits:
+      high: 23
+      to_verify: 1
+      medium: 108
+    vedic/dashas:
+      to_verify: 12
+      medium: 12
+      high: 22
+    vedic/star-readings:
+      medium: 34
+    vedic/vargas-avasthas-special-lagnas-upagrahas:
+      medium: 25
+      to_verify: 2
+    vedic/strength:
+      medium: 8
+      to_verify: 1
+    vedic/life-areas-lordships:
+      medium: 7
+      to_verify: 6
+    vedic/tajika:
+      medium: 22
+    vedic/prashna:
+      to_verify: 3
+    vedic/matching:
+      to_verify: 1
+      medium: 1
+    vedic/muhurta-panchang:
+      high: 1
+      medium: 3
+      to_verify: 1
+    kp:
+      medium: 5
+    lal-kitab:
+      to_verify: 1
+    western:
+      medium: 16
+      high: 350
+      to_verify: 2
+    numerology:
+      high: 7
+      medium: 43
+    palmistry:
+      medium: 79
+    tarot:
+      high: 156
+    governance-templates:
+      high: 2
+  confidence_totals:
+    to_verify: 92
+    medium: 509
+    high: 629
+  tag_totals:
+    CLASSICAL: 390
+    MODERN/POPULAR: 797
+    EDITORIAL: 43
+  decisions:
+    western:
+      re-tag editorial: 363
+      cite: 5
+    numerology:
+      re-tag editorial: 7
+      cite: 43
+    palmistry:
+      cite: 71
+      re-tag editorial: 8
+    tarot:
+      cite: 156
+  legend:
+    confidence:
+      high: Book and chapter certain; chapter numbering stable across editions
+      medium: Book certain; chapter is right for the named edition but numbering varies, or the section is named
+        rather than numbered
+      to_verify: Plausible source or chapter that is not confirmed; check before citing
+    tag:
+      CLASSICAL: Pre-modern Jyotisha or Hellenistic/medieval text
+      MODERN/POPULAR: 20th-century or popular system or author (KP, Lal Kitab, Cheiro, Waite, PVR, K.N. Rao) or
+        modern interpretive practice
+      EDITORIAL: Bhava360 house-style or product convention; set verification to editorial-no-classical-claim with
+        book null
+    decision:
+      cite: Fill the locator from the named source
+      re-tag editorial: Convert the block to editorial-no-classical-claim
+      replace work: Swap the current work_id for the more direct source named
+      retire rule: The rule cannot fire; remove it or keep it as a guard
+      exclude from audit: Template, not content
+    verse: Filled only when certain; otherwise null. No book text is quoted anywhere.
+  notes:
+  - Santhanam BPHS chapter numbers can differ from G.C. Sharma (Sagar) and from online editions; recheck the chapter
+    if switching editions.
+  - No Jaimini or Nadi blocks are pending.
+  nested_pending_not_counted:
+  - path: kb/remedies/jupiter.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/ketu.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/mars.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/mercury.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/moon.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/rahu.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/saturn.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/sun.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+  - path: kb/remedies/venus.yaml
+    at: .options.japa
+    current_work_id: bphs
+    current_locator: Graha shanti chapters (individual verse pending)
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: graha-shanti chapter (Santhanam numbering; number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Japa option only; the bans on paid remedies, gems and objects still apply.
+areas:
+- area: vedic/yogas
+  pending_blocks: 105
+  entries:
+  - path: kb/vedic/yogas/activation.yaml
+    rule_id: vedic.yogas.activation
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: dasha-phala chapters (Santhanam ~ch.47-48; numbering varies)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Results of a yoga in the periods of the forming planets; find the exact passage.
+  - path: kb/vedic/yogas/activation.yaml
+    rule_id: vedic.yogas.activation
+    blocks: 1
+    current_work_id: laghu-parashari
+    book: Laghu Parashari (Jataka Chandrika)
+    translator_edition: null
+    chapter: raja-yoga and dasha chapters (ch.2 onward; numbering varies by edition)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Periods of related lords giving yoga results.
+  - path: kb/vedic/yogas/activation.yaml
+    rule_id: vedic.yogas.activation
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.7 (raja yogas)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/
+    paths:
+    - bheri.yaml
+    - chamara.yaml
+    - kahala.yaml
+    - kalanidhi.yaml
+    - kusuma.yaml
+    - parijata.yaml
+    - parvata.yaml
+    - shankha.yaml
+    - sreenatha.yaml
+    rule_ids:
+    - vedic.yogas.bheri
+    - vedic.yogas.chamara
+    - vedic.yogas.kahala
+    - vedic.yogas.kalanidhi
+    - vedic.yogas.kusuma
+    - vedic.yogas.parijata
+    - vedic.yogas.parvata
+    - vedic.yogas.shankha
+    - vedic.yogas.sreenatha
+    blocks: 9
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.36 other yogas (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/
+    paths:
+    - bheri.yaml
+    - chamara.yaml
+    - kahala.yaml
+    - kalanidhi.yaml
+    - kusuma.yaml
+    - parijata.yaml
+    - parvata.yaml
+    - shankha.yaml
+    - sreenatha.yaml
+    rule_ids:
+    - vedic.yogas.bheri
+    - vedic.yogas.chamara
+    - vedic.yogas.kahala
+    - vedic.yogas.kalanidhi
+    - vedic.yogas.kusuma
+    - vedic.yogas.parijata
+    - vedic.yogas.parvata
+    - vedic.yogas.shankha
+    - vedic.yogas.sreenatha
+    blocks: 9
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: miscellaneous yoga chapter (chapter number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/budhaditya.yaml
+    rule_id: vedic.yogas.budhaditya
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.6 (yogas)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Confirm Sun–Mercury (Nipuna/Budhaditya) is named here; the combustion qualifier is a Bhava360 rule.
+  - path: kb/vedic/yogas/dhana.yaml
+    rule_id: vedic.yogas.dhana
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.41 wealth combinations (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/dharma-karmadhipati.yaml
+    rule_id: vedic.yogas.dharma-karmadhipati
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.39 raja yogas (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/dharma-karmadhipati.yaml
+    rule_id: vedic.yogas.dharma-karmadhipati
+    blocks: 1
+    current_work_id: saravali
+    book: Laghu Parashari (Jataka Chandrika)
+    translator_edition: null
+    chapter: ch.2 yoga chapter
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    decision: replace work
+    note: Replace the Saravali block; the 9th–10th lord rule is stated most directly in Laghu Parashari.
+  - path: kb/vedic/yogas/kemadruma.yaml
+    rule_id: vedic.yogas.kemadruma
+    blocks: 1
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: ch.13 lunar yogas (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: 'Cross-check: Brihat Jataka ch.13 (Chandra yogas).'
+  - path: kb/vedic/yogas/lagnadhi.yaml
+    rule_id: vedic.yogas.lagnadhi
+    blocks: 1
+    current_work_id: bphs
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.6 (yogas)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    decision: replace work
+    note: Not sure BPHS names this yoga; Phaladeepika ch.6 is the likelier home. Drop the BPHS block if it is absent.
+  - path: kb/vedic/yogas/mahabhagya.yaml
+    rule_id: vedic.yogas.mahabhagya
+    blocks: 1
+    current_work_id: bphs
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.6 (yogas)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    decision: replace work
+    note: Not sure BPHS names this yoga; Phaladeepika ch.6 is the likelier home. Drop the BPHS block if it is absent.
+  - path: kb/vedic/yogas/lagnadhi.yaml
+    rule_id: vedic.yogas.lagnadhi
+    blocks: 1
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: yoga chapters (chapter number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/mahabhagya.yaml
+    rule_id: vedic.yogas.mahabhagya
+    blocks: 1
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: yoga chapters (chapter number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/yogas/
+    paths:
+    - nabhasa-ardha-chandra.yaml
+    - nabhasa-chakra.yaml
+    - nabhasa-chapa.yaml
+    - nabhasa-chatra.yaml
+    - nabhasa-dama.yaml
+    - nabhasa-danda.yaml
+    - nabhasa-gada.yaml
+    - nabhasa-gola.yaml
+    - nabhasa-hala.yaml
+    - nabhasa-kamala.yaml
+    - nabhasa-kedara.yaml
+    - nabhasa-kuta.yaml
+    - nabhasa-mala.yaml
+    - nabhasa-musala.yaml
+    - nabhasa-nala.yaml
+    - nabhasa-nauka.yaml
+    - nabhasa-pasha.yaml
+    - nabhasa-rajju.yaml
+    - nabhasa-samudra.yaml
+    - nabhasa-sarpa.yaml
+    - nabhasa-shakata.yaml
+    - nabhasa-shakti.yaml
+    - nabhasa-shara.yaml
+    - nabhasa-shringataka.yaml
+    - nabhasa-shula.yaml
+    - nabhasa-vajra.yaml
+    - nabhasa-vapi.yaml
+    - nabhasa-veena.yaml
+    - nabhasa-vihaga.yaml
+    - nabhasa-yava.yaml
+    - nabhasa-yuga.yaml
+    - nabhasa-yupa.yaml
+    rule_ids:
+    - vedic.yogas.nabhasa-ardha-chandra
+    - vedic.yogas.nabhasa-chakra
+    - vedic.yogas.nabhasa-chapa
+    - vedic.yogas.nabhasa-chatra
+    - vedic.yogas.nabhasa-dama
+    - vedic.yogas.nabhasa-danda
+    - vedic.yogas.nabhasa-gada
+    - vedic.yogas.nabhasa-gola
+    - vedic.yogas.nabhasa-hala
+    - vedic.yogas.nabhasa-kamala
+    - vedic.yogas.nabhasa-kedara
+    - vedic.yogas.nabhasa-kuta
+    - vedic.yogas.nabhasa-mala
+    - vedic.yogas.nabhasa-musala
+    - vedic.yogas.nabhasa-nala
+    - vedic.yogas.nabhasa-nauka
+    - vedic.yogas.nabhasa-pasha
+    - vedic.yogas.nabhasa-rajju
+    - vedic.yogas.nabhasa-samudra
+    - vedic.yogas.nabhasa-sarpa
+    - vedic.yogas.nabhasa-shakata
+    - vedic.yogas.nabhasa-shakti
+    - vedic.yogas.nabhasa-shara
+    - vedic.yogas.nabhasa-shringataka
+    - vedic.yogas.nabhasa-shula
+    - vedic.yogas.nabhasa-vajra
+    - vedic.yogas.nabhasa-vapi
+    - vedic.yogas.nabhasa-veena
+    - vedic.yogas.nabhasa-vihaga
+    - vedic.yogas.nabhasa-yava
+    - vedic.yogas.nabhasa-yuga
+    - vedic.yogas.nabhasa-yupa
+    blocks: 32
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.35 Nabhasa yogas (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Formation definition only; the reflection text is editorial.
+  - path: kb/vedic/yogas/
+    paths:
+    - nabhasa-ardha-chandra.yaml
+    - nabhasa-chakra.yaml
+    - nabhasa-chapa.yaml
+    - nabhasa-chatra.yaml
+    - nabhasa-dama.yaml
+    - nabhasa-danda.yaml
+    - nabhasa-gada.yaml
+    - nabhasa-gola.yaml
+    - nabhasa-hala.yaml
+    - nabhasa-kamala.yaml
+    - nabhasa-kedara.yaml
+    - nabhasa-kuta.yaml
+    - nabhasa-mala.yaml
+    - nabhasa-musala.yaml
+    - nabhasa-nala.yaml
+    - nabhasa-nauka.yaml
+    - nabhasa-pasha.yaml
+    - nabhasa-rajju.yaml
+    - nabhasa-samudra.yaml
+    - nabhasa-sarpa.yaml
+    - nabhasa-shakata.yaml
+    - nabhasa-shakti.yaml
+    - nabhasa-shara.yaml
+    - nabhasa-shringataka.yaml
+    - nabhasa-shula.yaml
+    - nabhasa-vajra.yaml
+    - nabhasa-vapi.yaml
+    - nabhasa-veena.yaml
+    - nabhasa-vihaga.yaml
+    - nabhasa-yava.yaml
+    - nabhasa-yuga.yaml
+    - nabhasa-yupa.yaml
+    rule_ids:
+    - vedic.yogas.nabhasa-ardha-chandra
+    - vedic.yogas.nabhasa-chakra
+    - vedic.yogas.nabhasa-chapa
+    - vedic.yogas.nabhasa-chatra
+    - vedic.yogas.nabhasa-dama
+    - vedic.yogas.nabhasa-danda
+    - vedic.yogas.nabhasa-gada
+    - vedic.yogas.nabhasa-gola
+    - vedic.yogas.nabhasa-hala
+    - vedic.yogas.nabhasa-kamala
+    - vedic.yogas.nabhasa-kedara
+    - vedic.yogas.nabhasa-kuta
+    - vedic.yogas.nabhasa-mala
+    - vedic.yogas.nabhasa-musala
+    - vedic.yogas.nabhasa-nala
+    - vedic.yogas.nabhasa-nauka
+    - vedic.yogas.nabhasa-pasha
+    - vedic.yogas.nabhasa-rajju
+    - vedic.yogas.nabhasa-samudra
+    - vedic.yogas.nabhasa-sarpa
+    - vedic.yogas.nabhasa-shakata
+    - vedic.yogas.nabhasa-shakti
+    - vedic.yogas.nabhasa-shara
+    - vedic.yogas.nabhasa-shringataka
+    - vedic.yogas.nabhasa-shula
+    - vedic.yogas.nabhasa-vajra
+    - vedic.yogas.nabhasa-vapi
+    - vedic.yogas.nabhasa-veena
+    - vedic.yogas.nabhasa-vihaga
+    - vedic.yogas.nabhasa-yava
+    - vedic.yogas.nabhasa-yuga
+    - vedic.yogas.nabhasa-yupa
+    blocks: 32
+    current_work_id: saravali
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.12 Nabhasa yogas
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    decision: replace work
+    note: Replace the open-ended Saravali block with Brihat Jataka ch.12, the earlier and more direct definition.
+      Saravali Nabhasa chapter number not confirmed.
+  - path: kb/vedic/yogas/
+    paths:
+    - papa-kartari-lagna.yaml
+    - papa-kartari-moon.yaml
+    - shubha-kartari-lagna.yaml
+    - shubha-kartari-moon.yaml
+    rule_ids:
+    - vedic.yogas.papa-kartari-lagna
+    - vedic.yogas.papa-kartari-moon
+    - vedic.yogas.shubha-kartari-lagna
+    - vedic.yogas.shubha-kartari-moon
+    blocks: 4
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.36 other yogas (Santhanam numbering)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Shubha/Papa yoga by flanking; confirm the passage.
+  - path: kb/vedic/yogas/
+    paths:
+    - papa-kartari-lagna.yaml
+    - papa-kartari-moon.yaml
+    - shubha-kartari-lagna.yaml
+    - shubha-kartari-moon.yaml
+    rule_ids:
+    - vedic.yogas.papa-kartari-lagna
+    - vedic.yogas.papa-kartari-moon
+    - vedic.yogas.shubha-kartari-lagna
+    - vedic.yogas.shubha-kartari-moon
+    blocks: 4
+    current_work_id: saravali
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.6 (yogas)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    decision: replace work
+    note: Saravali chapter not confirmed; Phaladeepika ch.6 also defines flanking yogas.
+  - path: kb/vedic/yogas/pravrajya.yaml
+    rule_id: vedic.yogas.pravrajya
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.15 Pravrajya yoga
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    decision: replace work
+    note: Replace the generic bphs block with Brihat Jataka ch.15, the defining text.
+  - path: kb/vedic/yogas/pravrajya.yaml
+    rule_id: vedic.yogas.pravrajya
+    blocks: 1
+    current_work_id: saravali
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.15 Pravrajya yoga
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    decision: replace work
+    note: Replace the generic saravali block with Brihat Jataka ch.15, the defining text.
+  - path: kb/vedic/yogas/raja.yaml
+    rule_id: vedic.yogas.raja
+    blocks: 1
+    current_work_id: laghu-parashari
+    book: Laghu Parashari (Jataka Chandrika)
+    translator_edition: null
+    chapter: ch.2 yoga chapter (numbering varies)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+- area: vedic/aspects
+  pending_blocks: 120
+  entries:
+  - path: kb/vedic/aspects/
+    paths:
+    - jupiter-aspects-house-1.yaml
+    - jupiter-aspects-house-10.yaml
+    - jupiter-aspects-house-11.yaml
+    - jupiter-aspects-house-12.yaml
+    - jupiter-aspects-house-2.yaml
+    - jupiter-aspects-house-3.yaml
+    - jupiter-aspects-house-4.yaml
+    - jupiter-aspects-house-5.yaml
+    - jupiter-aspects-house-6.yaml
+    - jupiter-aspects-house-7.yaml
+    - jupiter-aspects-house-8.yaml
+    - jupiter-aspects-house-9.yaml
+    - jupiter-aspects-moon.yaml
+    - jupiter-aspects-seventh-lord.yaml
+    - jupiter-aspects-tenth-lord.yaml
+    - jupiter-aspects-venus.yaml
+    - mars-aspects-house-1.yaml
+    - mars-aspects-house-10.yaml
+    - mars-aspects-house-11.yaml
+    - mars-aspects-house-12.yaml
+    - mars-aspects-house-2.yaml
+    - mars-aspects-house-3.yaml
+    - mars-aspects-house-4.yaml
+    - mars-aspects-house-5.yaml
+    - mars-aspects-house-6.yaml
+    - mars-aspects-house-7.yaml
+    - mars-aspects-house-8.yaml
+    - mars-aspects-house-9.yaml
+    - mars-aspects-moon.yaml
+    - mars-aspects-seventh-lord.yaml
+    - mars-aspects-tenth-lord.yaml
+    - mars-aspects-venus.yaml
+    - saturn-aspects-house-1.yaml
+    - saturn-aspects-house-10.yaml
+    - saturn-aspects-house-11.yaml
+    - saturn-aspects-house-12.yaml
+    - saturn-aspects-house-2.yaml
+    - saturn-aspects-house-3.yaml
+    - saturn-aspects-house-4.yaml
+    - saturn-aspects-house-5.yaml
+    - saturn-aspects-house-6.yaml
+    - saturn-aspects-house-7.yaml
+    - saturn-aspects-house-8.yaml
+    - saturn-aspects-house-9.yaml
+    - saturn-aspects-moon.yaml
+    - saturn-aspects-seventh-lord.yaml
+    - saturn-aspects-tenth-lord.yaml
+    - saturn-aspects-venus.yaml
+    rule_ids:
+    - vedic.aspects.jupiter-aspects-house-1
+    - vedic.aspects.jupiter-aspects-house-10
+    - vedic.aspects.jupiter-aspects-house-11
+    - vedic.aspects.jupiter-aspects-house-12
+    - vedic.aspects.jupiter-aspects-house-2
+    - vedic.aspects.jupiter-aspects-house-3
+    - vedic.aspects.jupiter-aspects-house-4
+    - vedic.aspects.jupiter-aspects-house-5
+    - vedic.aspects.jupiter-aspects-house-6
+    - vedic.aspects.jupiter-aspects-house-7
+    - vedic.aspects.jupiter-aspects-house-8
+    - vedic.aspects.jupiter-aspects-house-9
+    - vedic.aspects.jupiter-aspects-moon
+    - vedic.aspects.jupiter-aspects-seventh-lord
+    - vedic.aspects.jupiter-aspects-tenth-lord
+    - vedic.aspects.jupiter-aspects-venus
+    - vedic.aspects.mars-aspects-house-1
+    - vedic.aspects.mars-aspects-house-10
+    - vedic.aspects.mars-aspects-house-11
+    - vedic.aspects.mars-aspects-house-12
+    - vedic.aspects.mars-aspects-house-2
+    - vedic.aspects.mars-aspects-house-3
+    - vedic.aspects.mars-aspects-house-4
+    - vedic.aspects.mars-aspects-house-5
+    - vedic.aspects.mars-aspects-house-6
+    - vedic.aspects.mars-aspects-house-7
+    - vedic.aspects.mars-aspects-house-8
+    - vedic.aspects.mars-aspects-house-9
+    - vedic.aspects.mars-aspects-moon
+    - vedic.aspects.mars-aspects-seventh-lord
+    - vedic.aspects.mars-aspects-tenth-lord
+    - vedic.aspects.mars-aspects-venus
+    - vedic.aspects.saturn-aspects-house-1
+    - vedic.aspects.saturn-aspects-house-10
+    - vedic.aspects.saturn-aspects-house-11
+    - vedic.aspects.saturn-aspects-house-12
+    - vedic.aspects.saturn-aspects-house-2
+    - vedic.aspects.saturn-aspects-house-3
+    - vedic.aspects.saturn-aspects-house-4
+    - vedic.aspects.saturn-aspects-house-5
+    - vedic.aspects.saturn-aspects-house-6
+    - vedic.aspects.saturn-aspects-house-7
+    - vedic.aspects.saturn-aspects-house-8
+    - vedic.aspects.saturn-aspects-house-9
+    - vedic.aspects.saturn-aspects-moon
+    - vedic.aspects.saturn-aspects-seventh-lord
+    - vedic.aspects.saturn-aspects-tenth-lord
+    - vedic.aspects.saturn-aspects-venus
+    blocks: 48
+    current_work_id: brihat-jataka
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.2 (special full aspects of Mars, Jupiter, Saturn)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: The aspect rule only; interpretation is editorial. The KB locator II.13 needs confirming, so verse is
+      left null. Cross-cite BPHS ch.26 (Santhanam).
+  - path: kb/vedic/aspects/
+    paths:
+    - ketu-aspects-house-1.yaml
+    - ketu-aspects-house-10.yaml
+    - ketu-aspects-house-11.yaml
+    - ketu-aspects-house-12.yaml
+    - ketu-aspects-house-2.yaml
+    - ketu-aspects-house-3.yaml
+    - ketu-aspects-house-4.yaml
+    - ketu-aspects-house-5.yaml
+    - ketu-aspects-house-6.yaml
+    - ketu-aspects-house-7.yaml
+    - ketu-aspects-house-8.yaml
+    - ketu-aspects-house-9.yaml
+    - rahu-aspects-house-1.yaml
+    - rahu-aspects-house-10.yaml
+    - rahu-aspects-house-11.yaml
+    - rahu-aspects-house-12.yaml
+    - rahu-aspects-house-2.yaml
+    - rahu-aspects-house-3.yaml
+    - rahu-aspects-house-4.yaml
+    - rahu-aspects-house-5.yaml
+    - rahu-aspects-house-6.yaml
+    - rahu-aspects-house-7.yaml
+    - rahu-aspects-house-8.yaml
+    - rahu-aspects-house-9.yaml
+    rule_ids:
+    - vedic.aspects.ketu-aspects-house-1
+    - vedic.aspects.ketu-aspects-house-10
+    - vedic.aspects.ketu-aspects-house-11
+    - vedic.aspects.ketu-aspects-house-12
+    - vedic.aspects.ketu-aspects-house-2
+    - vedic.aspects.ketu-aspects-house-3
+    - vedic.aspects.ketu-aspects-house-4
+    - vedic.aspects.ketu-aspects-house-5
+    - vedic.aspects.ketu-aspects-house-6
+    - vedic.aspects.ketu-aspects-house-7
+    - vedic.aspects.ketu-aspects-house-8
+    - vedic.aspects.ketu-aspects-house-9
+    - vedic.aspects.rahu-aspects-house-1
+    - vedic.aspects.rahu-aspects-house-10
+    - vedic.aspects.rahu-aspects-house-11
+    - vedic.aspects.rahu-aspects-house-12
+    - vedic.aspects.rahu-aspects-house-2
+    - vedic.aspects.rahu-aspects-house-3
+    - vedic.aspects.rahu-aspects-house-4
+    - vedic.aspects.rahu-aspects-house-5
+    - vedic.aspects.rahu-aspects-house-6
+    - vedic.aspects.rahu-aspects-house-7
+    - vedic.aspects.rahu-aspects-house-8
+    - vedic.aspects.rahu-aspects-house-9
+    blocks: 24
+    current_work_id: brihat-jataka
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Node aspects are not in Brihat Jataka; some BPHS editions add Rahu aspects, but the reading is disputed.
+      Re-tag editorial or cite a named modern convention.
+  - path: kb/vedic/aspects/
+    paths:
+    - mercury-aspects-house-1.yaml
+    - mercury-aspects-house-10.yaml
+    - mercury-aspects-house-11.yaml
+    - mercury-aspects-house-12.yaml
+    - mercury-aspects-house-2.yaml
+    - mercury-aspects-house-3.yaml
+    - mercury-aspects-house-4.yaml
+    - mercury-aspects-house-5.yaml
+    - mercury-aspects-house-6.yaml
+    - mercury-aspects-house-7.yaml
+    - mercury-aspects-house-8.yaml
+    - mercury-aspects-house-9.yaml
+    - moon-aspects-house-1.yaml
+    - moon-aspects-house-10.yaml
+    - moon-aspects-house-11.yaml
+    - moon-aspects-house-12.yaml
+    - moon-aspects-house-2.yaml
+    - moon-aspects-house-3.yaml
+    - moon-aspects-house-4.yaml
+    - moon-aspects-house-5.yaml
+    - moon-aspects-house-6.yaml
+    - moon-aspects-house-7.yaml
+    - moon-aspects-house-8.yaml
+    - moon-aspects-house-9.yaml
+    - sun-aspects-house-1.yaml
+    - sun-aspects-house-10.yaml
+    - sun-aspects-house-11.yaml
+    - sun-aspects-house-12.yaml
+    - sun-aspects-house-2.yaml
+    - sun-aspects-house-3.yaml
+    - sun-aspects-house-4.yaml
+    - sun-aspects-house-5.yaml
+    - sun-aspects-house-6.yaml
+    - sun-aspects-house-7.yaml
+    - sun-aspects-house-8.yaml
+    - sun-aspects-house-9.yaml
+    - venus-aspects-house-1.yaml
+    - venus-aspects-house-10.yaml
+    - venus-aspects-house-11.yaml
+    - venus-aspects-house-12.yaml
+    - venus-aspects-house-2.yaml
+    - venus-aspects-house-3.yaml
+    - venus-aspects-house-4.yaml
+    - venus-aspects-house-5.yaml
+    - venus-aspects-house-6.yaml
+    - venus-aspects-house-7.yaml
+    - venus-aspects-house-8.yaml
+    - venus-aspects-house-9.yaml
+    rule_ids:
+    - vedic.aspects.mercury-aspects-house-1
+    - vedic.aspects.mercury-aspects-house-10
+    - vedic.aspects.mercury-aspects-house-11
+    - vedic.aspects.mercury-aspects-house-12
+    - vedic.aspects.mercury-aspects-house-2
+    - vedic.aspects.mercury-aspects-house-3
+    - vedic.aspects.mercury-aspects-house-4
+    - vedic.aspects.mercury-aspects-house-5
+    - vedic.aspects.mercury-aspects-house-6
+    - vedic.aspects.mercury-aspects-house-7
+    - vedic.aspects.mercury-aspects-house-8
+    - vedic.aspects.mercury-aspects-house-9
+    - vedic.aspects.moon-aspects-house-1
+    - vedic.aspects.moon-aspects-house-10
+    - vedic.aspects.moon-aspects-house-11
+    - vedic.aspects.moon-aspects-house-12
+    - vedic.aspects.moon-aspects-house-2
+    - vedic.aspects.moon-aspects-house-3
+    - vedic.aspects.moon-aspects-house-4
+    - vedic.aspects.moon-aspects-house-5
+    - vedic.aspects.moon-aspects-house-6
+    - vedic.aspects.moon-aspects-house-7
+    - vedic.aspects.moon-aspects-house-8
+    - vedic.aspects.moon-aspects-house-9
+    - vedic.aspects.sun-aspects-house-1
+    - vedic.aspects.sun-aspects-house-10
+    - vedic.aspects.sun-aspects-house-11
+    - vedic.aspects.sun-aspects-house-12
+    - vedic.aspects.sun-aspects-house-2
+    - vedic.aspects.sun-aspects-house-3
+    - vedic.aspects.sun-aspects-house-4
+    - vedic.aspects.sun-aspects-house-5
+    - vedic.aspects.sun-aspects-house-6
+    - vedic.aspects.sun-aspects-house-7
+    - vedic.aspects.sun-aspects-house-8
+    - vedic.aspects.sun-aspects-house-9
+    - vedic.aspects.venus-aspects-house-1
+    - vedic.aspects.venus-aspects-house-10
+    - vedic.aspects.venus-aspects-house-11
+    - vedic.aspects.venus-aspects-house-12
+    - vedic.aspects.venus-aspects-house-2
+    - vedic.aspects.venus-aspects-house-3
+    - vedic.aspects.venus-aspects-house-4
+    - vedic.aspects.venus-aspects-house-5
+    - vedic.aspects.venus-aspects-house-6
+    - vedic.aspects.venus-aspects-house-7
+    - vedic.aspects.venus-aspects-house-8
+    - vedic.aspects.venus-aspects-house-9
+    blocks: 48
+    current_work_id: brihat-jataka
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.26 planetary aspects (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    decision: replace work
+    note: Seventh-house aspect rule; interpretation is editorial. Brihat Jataka ch.2 is an alternative.
+- area: vedic/conjunctions
+  pending_blocks: 36
+  entries:
+  - path: kb/vedic/conjunctions/
+    paths:
+    - jupiter-ketu.yaml
+    - jupiter-rahu.yaml
+    - mars-ketu.yaml
+    - mars-rahu.yaml
+    - mercury-ketu.yaml
+    - mercury-rahu.yaml
+    - moon-ketu.yaml
+    - moon-rahu.yaml
+    - saturn-ketu.yaml
+    - saturn-rahu.yaml
+    - sun-ketu.yaml
+    - sun-rahu.yaml
+    - venus-ketu.yaml
+    - venus-rahu.yaml
+    rule_ids:
+    - vedic.conjunctions.jupiter-ketu
+    - vedic.conjunctions.jupiter-rahu
+    - vedic.conjunctions.mars-ketu
+    - vedic.conjunctions.mars-rahu
+    - vedic.conjunctions.mercury-ketu
+    - vedic.conjunctions.mercury-rahu
+    - vedic.conjunctions.moon-ketu
+    - vedic.conjunctions.moon-rahu
+    - vedic.conjunctions.saturn-ketu
+    - vedic.conjunctions.saturn-rahu
+    - vedic.conjunctions.sun-ketu
+    - vedic.conjunctions.sun-rahu
+    - vedic.conjunctions.venus-ketu
+    - vedic.conjunctions.venus-rahu
+    blocks: 14
+    current_work_id: brihat-jataka
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Node pairs are not in Brihat Jataka ch.14; re-tag editorial.
+  - path: kb/vedic/conjunctions/
+    paths:
+    - jupiter-saturn.yaml
+    - jupiter-venus.yaml
+    - mars-jupiter.yaml
+    - mars-mercury.yaml
+    - mars-saturn.yaml
+    - mars-venus.yaml
+    - mercury-jupiter.yaml
+    - mercury-saturn.yaml
+    - mercury-venus.yaml
+    - moon-jupiter.yaml
+    - moon-mars.yaml
+    - moon-mercury.yaml
+    - moon-saturn.yaml
+    - moon-venus.yaml
+    - sun-jupiter.yaml
+    - sun-mars.yaml
+    - sun-mercury.yaml
+    - sun-moon.yaml
+    - sun-saturn.yaml
+    - sun-venus.yaml
+    - venus-saturn.yaml
+    rule_ids:
+    - vedic.conjunctions.jupiter-saturn
+    - vedic.conjunctions.jupiter-venus
+    - vedic.conjunctions.mars-jupiter
+    - vedic.conjunctions.mars-mercury
+    - vedic.conjunctions.mars-saturn
+    - vedic.conjunctions.mars-venus
+    - vedic.conjunctions.mercury-jupiter
+    - vedic.conjunctions.mercury-saturn
+    - vedic.conjunctions.mercury-venus
+    - vedic.conjunctions.moon-jupiter
+    - vedic.conjunctions.moon-mars
+    - vedic.conjunctions.moon-mercury
+    - vedic.conjunctions.moon-saturn
+    - vedic.conjunctions.moon-venus
+    - vedic.conjunctions.sun-jupiter
+    - vedic.conjunctions.sun-mars
+    - vedic.conjunctions.sun-mercury
+    - vedic.conjunctions.sun-moon
+    - vedic.conjunctions.sun-saturn
+    - vedic.conjunctions.sun-venus
+    - vedic.conjunctions.venus-saturn
+    blocks: 21
+    current_work_id: brihat-jataka
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.14 two-planet combinations
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    note: Brihat Jataka chapter numbering is stable across editions.
+  - path: kb/vedic/conjunctions/rahu-ketu.yaml
+    rule_id: vedic.conjunctions.rahu-ketu
+    blocks: 1
+    current_work_id: brihat-jataka
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: retire rule
+    note: A Rahu–Ketu conjunction cannot occur; retire the rule or keep it as a guard.
+- area: vedic/planets-in-signs
+  pending_blocks: 15
+  entries:
+  - path: kb/vedic/planets-in-signs/
+    paths:
+    - moon-aquarius.yaml
+    - moon-aries.yaml
+    - moon-cancer.yaml
+    - moon-capricorn.yaml
+    - moon-gemini.yaml
+    - moon-leo.yaml
+    - moon-libra.yaml
+    - moon-pisces.yaml
+    - moon-sagittarius.yaml
+    - moon-scorpio.yaml
+    - moon-taurus.yaml
+    - moon-virgo.yaml
+    rule_ids:
+    - vedic.planets-in-signs.moon-aquarius
+    - vedic.planets-in-signs.moon-aries
+    - vedic.planets-in-signs.moon-cancer
+    - vedic.planets-in-signs.moon-capricorn
+    - vedic.planets-in-signs.moon-gemini
+    - vedic.planets-in-signs.moon-leo
+    - vedic.planets-in-signs.moon-libra
+    - vedic.planets-in-signs.moon-pisces
+    - vedic.planets-in-signs.moon-sagittarius
+    - vedic.planets-in-signs.moon-scorpio
+    - vedic.planets-in-signs.moon-taurus
+    - vedic.planets-in-signs.moon-virgo
+    blocks: 12
+    current_work_id: brihat-jataka
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.17 Moon in the signs
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    note: The KB has one row per sign; verse left null.
+  - path: kb/vedic/planets-in-signs/venus-libra.yaml
+    rule_id: vedic.planets-in-signs.venus-libra
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.3 planetary nature, exaltation/moolatrikona ranges (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Venus moolatrikona range in Libra. The KB locator "3.54 tithyamsha" does not look right; confirm the verse.
+  - path: kb/vedic/planets/venus.yaml
+    rule_id: vedic.planets.venus
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.3 planetary nature, exaltation/moolatrikona ranges (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Venus moolatrikona range in Libra. The KB locator "3.54 tithyamsha" does not look right; confirm the verse.
+  - path: kb/vedic/signs/libra.yaml
+    rule_id: vedic.signs.libra
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.3 planetary nature, exaltation/moolatrikona ranges (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Venus moolatrikona range in Libra. The KB locator "3.54 tithyamsha" does not look right; confirm the verse.
+- area: vedic/transits
+  pending_blocks: 132
+  entries:
+  - path: kb/vedic/transits/
+    paths:
+    - ardhashtama-shani.yaml
+    - ashtama-shani.yaml
+    - double-transit.yaml
+    - nodal-axis.yaml
+    - over-dasha-lord.yaml
+    - over-natal-graha.yaml
+    - retrograde.yaml
+    - sade-sati-closing.yaml
+    - sade-sati-middle.yaml
+    - sade-sati-rising.yaml
+    - station.yaml
+    rule_ids:
+    - vedic.transits.ardhashtama-shani
+    - vedic.transits.ashtama-shani
+    - vedic.transits.double-transit
+    - vedic.transits.nodal-axis
+    - vedic.transits.over-dasha-lord
+    - vedic.transits.over-natal-graha
+    - vedic.transits.retrograde
+    - vedic.transits.sade-sati-closing
+    - vedic.transits.sade-sati-middle
+    - vedic.transits.sade-sati-rising
+    - vedic.transits.station
+    blocks: 11
+    current_work_id: bhava360-transit-conventions
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: House selection rule. For sade sati and ashtama Shani, cite Phaladeepika ch.26 (Saturn from the Moon)
+      as the classical support.
+  - path: kb/vedic/transits/
+    paths:
+    - business-watch.yaml
+    - career-watch.yaml
+    - children-watch.yaml
+    - family-home-watch.yaml
+    - health-watch.yaml
+    - learning-watch.yaml
+    - love-marriage-watch.yaml
+    - money-watch.yaml
+    - property-vehicles-watch.yaml
+    - spirituality-watch.yaml
+    - travel-relocation-watch.yaml
+    rule_ids:
+    - vedic.transits.business-watch
+    - vedic.transits.career-watch
+    - vedic.transits.children-watch
+    - vedic.transits.family-home-watch
+    - vedic.transits.health-watch
+    - vedic.transits.learning-watch
+    - vedic.transits.love-marriage-watch
+    - vedic.transits.money-watch
+    - vedic.transits.property-vehicles-watch
+    - vedic.transits.spirituality-watch
+    - vedic.transits.travel-relocation-watch
+    blocks: 11
+    current_work_id: bhava360-area-composition
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Area-composition prompt from the product requirements; there is no classical claim to make.
+  - path: kb/vedic/transits/double-transit.yaml
+    rule_id: vedic.transits.double-transit
+    blocks: 1
+    current_work_id: kn-rao-double-transit
+    book: Timing Events through Vimshottari Dasha (K.N. Rao)
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Confirm the book sets out double transit; otherwise cite the actual K.N. Rao article or book.
+  - path: kb/vedic/transits/
+    paths:
+    - jupiter-lagna-house-1.yaml
+    - jupiter-lagna-house-10.yaml
+    - jupiter-lagna-house-11.yaml
+    - jupiter-lagna-house-12.yaml
+    - jupiter-lagna-house-2.yaml
+    - jupiter-lagna-house-3.yaml
+    - jupiter-lagna-house-4.yaml
+    - jupiter-lagna-house-5.yaml
+    - jupiter-lagna-house-6.yaml
+    - jupiter-lagna-house-7.yaml
+    - jupiter-lagna-house-8.yaml
+    - jupiter-lagna-house-9.yaml
+    - ketu-lagna-house-1.yaml
+    - ketu-lagna-house-10.yaml
+    - ketu-lagna-house-11.yaml
+    - ketu-lagna-house-12.yaml
+    - ketu-lagna-house-2.yaml
+    - ketu-lagna-house-3.yaml
+    - ketu-lagna-house-4.yaml
+    - ketu-lagna-house-5.yaml
+    - ketu-lagna-house-6.yaml
+    - ketu-lagna-house-7.yaml
+    - ketu-lagna-house-8.yaml
+    - ketu-lagna-house-9.yaml
+    - mars-lagna-house-1.yaml
+    - mars-lagna-house-10.yaml
+    - mars-lagna-house-11.yaml
+    - mars-lagna-house-12.yaml
+    - mars-lagna-house-2.yaml
+    - mars-lagna-house-3.yaml
+    - mars-lagna-house-4.yaml
+    - mars-lagna-house-5.yaml
+    - mars-lagna-house-6.yaml
+    - mars-lagna-house-7.yaml
+    - mars-lagna-house-8.yaml
+    - mars-lagna-house-9.yaml
+    - mercury-lagna-house-1.yaml
+    - mercury-lagna-house-10.yaml
+    - mercury-lagna-house-11.yaml
+    - mercury-lagna-house-12.yaml
+    - mercury-lagna-house-2.yaml
+    - mercury-lagna-house-3.yaml
+    - mercury-lagna-house-4.yaml
+    - mercury-lagna-house-5.yaml
+    - mercury-lagna-house-6.yaml
+    - mercury-lagna-house-7.yaml
+    - mercury-lagna-house-8.yaml
+    - mercury-lagna-house-9.yaml
+    - moon-lagna-house-1.yaml
+    - moon-lagna-house-10.yaml
+    - moon-lagna-house-11.yaml
+    - moon-lagna-house-12.yaml
+    - moon-lagna-house-2.yaml
+    - moon-lagna-house-3.yaml
+    - moon-lagna-house-4.yaml
+    - moon-lagna-house-5.yaml
+    - moon-lagna-house-6.yaml
+    - moon-lagna-house-7.yaml
+    - moon-lagna-house-8.yaml
+    - moon-lagna-house-9.yaml
+    - rahu-lagna-house-1.yaml
+    - rahu-lagna-house-10.yaml
+    - rahu-lagna-house-11.yaml
+    - rahu-lagna-house-12.yaml
+    - rahu-lagna-house-2.yaml
+    - rahu-lagna-house-3.yaml
+    - rahu-lagna-house-4.yaml
+    - rahu-lagna-house-5.yaml
+    - rahu-lagna-house-6.yaml
+    - rahu-lagna-house-7.yaml
+    - rahu-lagna-house-8.yaml
+    - rahu-lagna-house-9.yaml
+    - saturn-lagna-house-1.yaml
+    - saturn-lagna-house-10.yaml
+    - saturn-lagna-house-11.yaml
+    - saturn-lagna-house-12.yaml
+    - saturn-lagna-house-2.yaml
+    - saturn-lagna-house-3.yaml
+    - saturn-lagna-house-4.yaml
+    - saturn-lagna-house-5.yaml
+    - saturn-lagna-house-6.yaml
+    - saturn-lagna-house-7.yaml
+    - saturn-lagna-house-8.yaml
+    - saturn-lagna-house-9.yaml
+    - sun-lagna-house-1.yaml
+    - sun-lagna-house-10.yaml
+    - sun-lagna-house-11.yaml
+    - sun-lagna-house-12.yaml
+    - sun-lagna-house-2.yaml
+    - sun-lagna-house-3.yaml
+    - sun-lagna-house-4.yaml
+    - sun-lagna-house-5.yaml
+    - sun-lagna-house-6.yaml
+    - sun-lagna-house-7.yaml
+    - sun-lagna-house-8.yaml
+    - sun-lagna-house-9.yaml
+    - venus-lagna-house-1.yaml
+    - venus-lagna-house-10.yaml
+    - venus-lagna-house-11.yaml
+    - venus-lagna-house-12.yaml
+    - venus-lagna-house-2.yaml
+    - venus-lagna-house-3.yaml
+    - venus-lagna-house-4.yaml
+    - venus-lagna-house-5.yaml
+    - venus-lagna-house-6.yaml
+    - venus-lagna-house-7.yaml
+    - venus-lagna-house-8.yaml
+    - venus-lagna-house-9.yaml
+    rule_ids:
+    - vedic.transits.jupiter-lagna-house-1
+    - vedic.transits.jupiter-lagna-house-10
+    - vedic.transits.jupiter-lagna-house-11
+    - vedic.transits.jupiter-lagna-house-12
+    - vedic.transits.jupiter-lagna-house-2
+    - vedic.transits.jupiter-lagna-house-3
+    - vedic.transits.jupiter-lagna-house-4
+    - vedic.transits.jupiter-lagna-house-5
+    - vedic.transits.jupiter-lagna-house-6
+    - vedic.transits.jupiter-lagna-house-7
+    - vedic.transits.jupiter-lagna-house-8
+    - vedic.transits.jupiter-lagna-house-9
+    - vedic.transits.ketu-lagna-house-1
+    - vedic.transits.ketu-lagna-house-10
+    - vedic.transits.ketu-lagna-house-11
+    - vedic.transits.ketu-lagna-house-12
+    - vedic.transits.ketu-lagna-house-2
+    - vedic.transits.ketu-lagna-house-3
+    - vedic.transits.ketu-lagna-house-4
+    - vedic.transits.ketu-lagna-house-5
+    - vedic.transits.ketu-lagna-house-6
+    - vedic.transits.ketu-lagna-house-7
+    - vedic.transits.ketu-lagna-house-8
+    - vedic.transits.ketu-lagna-house-9
+    - vedic.transits.mars-lagna-house-1
+    - vedic.transits.mars-lagna-house-10
+    - vedic.transits.mars-lagna-house-11
+    - vedic.transits.mars-lagna-house-12
+    - vedic.transits.mars-lagna-house-2
+    - vedic.transits.mars-lagna-house-3
+    - vedic.transits.mars-lagna-house-4
+    - vedic.transits.mars-lagna-house-5
+    - vedic.transits.mars-lagna-house-6
+    - vedic.transits.mars-lagna-house-7
+    - vedic.transits.mars-lagna-house-8
+    - vedic.transits.mars-lagna-house-9
+    - vedic.transits.mercury-lagna-house-1
+    - vedic.transits.mercury-lagna-house-10
+    - vedic.transits.mercury-lagna-house-11
+    - vedic.transits.mercury-lagna-house-12
+    - vedic.transits.mercury-lagna-house-2
+    - vedic.transits.mercury-lagna-house-3
+    - vedic.transits.mercury-lagna-house-4
+    - vedic.transits.mercury-lagna-house-5
+    - vedic.transits.mercury-lagna-house-6
+    - vedic.transits.mercury-lagna-house-7
+    - vedic.transits.mercury-lagna-house-8
+    - vedic.transits.mercury-lagna-house-9
+    - vedic.transits.moon-lagna-house-1
+    - vedic.transits.moon-lagna-house-10
+    - vedic.transits.moon-lagna-house-11
+    - vedic.transits.moon-lagna-house-12
+    - vedic.transits.moon-lagna-house-2
+    - vedic.transits.moon-lagna-house-3
+    - vedic.transits.moon-lagna-house-4
+    - vedic.transits.moon-lagna-house-5
+    - vedic.transits.moon-lagna-house-6
+    - vedic.transits.moon-lagna-house-7
+    - vedic.transits.moon-lagna-house-8
+    - vedic.transits.moon-lagna-house-9
+    - vedic.transits.rahu-lagna-house-1
+    - vedic.transits.rahu-lagna-house-10
+    - vedic.transits.rahu-lagna-house-11
+    - vedic.transits.rahu-lagna-house-12
+    - vedic.transits.rahu-lagna-house-2
+    - vedic.transits.rahu-lagna-house-3
+    - vedic.transits.rahu-lagna-house-4
+    - vedic.transits.rahu-lagna-house-5
+    - vedic.transits.rahu-lagna-house-6
+    - vedic.transits.rahu-lagna-house-7
+    - vedic.transits.rahu-lagna-house-8
+    - vedic.transits.rahu-lagna-house-9
+    - vedic.transits.saturn-lagna-house-1
+    - vedic.transits.saturn-lagna-house-10
+    - vedic.transits.saturn-lagna-house-11
+    - vedic.transits.saturn-lagna-house-12
+    - vedic.transits.saturn-lagna-house-2
+    - vedic.transits.saturn-lagna-house-3
+    - vedic.transits.saturn-lagna-house-4
+    - vedic.transits.saturn-lagna-house-5
+    - vedic.transits.saturn-lagna-house-6
+    - vedic.transits.saturn-lagna-house-7
+    - vedic.transits.saturn-lagna-house-8
+    - vedic.transits.saturn-lagna-house-9
+    - vedic.transits.sun-lagna-house-1
+    - vedic.transits.sun-lagna-house-10
+    - vedic.transits.sun-lagna-house-11
+    - vedic.transits.sun-lagna-house-12
+    - vedic.transits.sun-lagna-house-2
+    - vedic.transits.sun-lagna-house-3
+    - vedic.transits.sun-lagna-house-4
+    - vedic.transits.sun-lagna-house-5
+    - vedic.transits.sun-lagna-house-6
+    - vedic.transits.sun-lagna-house-7
+    - vedic.transits.sun-lagna-house-8
+    - vedic.transits.sun-lagna-house-9
+    - vedic.transits.venus-lagna-house-1
+    - vedic.transits.venus-lagna-house-10
+    - vedic.transits.venus-lagna-house-11
+    - vedic.transits.venus-lagna-house-12
+    - vedic.transits.venus-lagna-house-2
+    - vedic.transits.venus-lagna-house-3
+    - vedic.transits.venus-lagna-house-4
+    - vedic.transits.venus-lagna-house-5
+    - vedic.transits.venus-lagna-house-6
+    - vedic.transits.venus-lagna-house-7
+    - vedic.transits.venus-lagna-house-8
+    - vedic.transits.venus-lagna-house-9
+    blocks: 108
+    current_work_id: rao-integrated
+    book: 'Vedic Astrology: An Integrated Approach (P.V.R. Narasimha Rao)'
+    translator_edition: Sagar Publications 2000 / free online edition (KB rao-integrated-online)
+    chapter: ch.25 Transits, §25.3 other natal references
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    note: Classical gochara is counted from the Moon (Phaladeepika ch.26); reading transits from Lagna is a modern
+      application.
+  - path: kb/vedic/transits/venus-moon-house-8.yaml
+    rule_id: vedic.transits.venus-moon-house-8
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.26 Gochara
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+- area: vedic/dashas
+  pending_blocks: 46
+  entries:
+  - path: kb/vedic/dashas/vimshottari/
+    paths:
+    - business-house-lord.yaml
+    - career-house-lord.yaml
+    - children-house-lord.yaml
+    - family-home-house-lord.yaml
+    - health-house-lord.yaml
+    - learning-house-lord.yaml
+    - love-marriage-house-lord.yaml
+    - modulation.yaml
+    - money-house-lord.yaml
+    - property-vehicles-house-lord.yaml
+    - spirituality-house-lord.yaml
+    - travel-relocation-house-lord.yaml
+    rule_ids:
+    - vedic.dashas-vimshottari.business-house-lord
+    - vedic.dashas-vimshottari.career-house-lord
+    - vedic.dashas-vimshottari.children-house-lord
+    - vedic.dashas-vimshottari.family-home-house-lord
+    - vedic.dashas-vimshottari.health-house-lord
+    - vedic.dashas-vimshottari.learning-house-lord
+    - vedic.dashas-vimshottari.love-marriage-house-lord
+    - (file-level; no id)
+    - vedic.dashas-vimshottari.money-house-lord
+    - vedic.dashas-vimshottari.property-vehicles-house-lord
+    - vedic.dashas-vimshottari.spirituality-house-lord
+    - vedic.dashas-vimshottari.travel-relocation-house-lord
+    blocks: 12
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: Vimshottari dasha-phala chapters (KB cites 47-48; Santhanam numbering)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: Results of house-lord periods; find the exact chapter for this edition.
+  - path: kb/vedic/dashas/vimshottari/
+    paths:
+    - business-house-lord.yaml
+    - career-house-lord.yaml
+    - children-house-lord.yaml
+    - family-home-house-lord.yaml
+    - health-house-lord.yaml
+    - learning-house-lord.yaml
+    - love-marriage-house-lord.yaml
+    - money-house-lord.yaml
+    - property-vehicles-house-lord.yaml
+    - spirituality-house-lord.yaml
+    - travel-relocation-house-lord.yaml
+    rule_ids:
+    - vedic.dashas-vimshottari.business-house-lord
+    - vedic.dashas-vimshottari.career-house-lord
+    - vedic.dashas-vimshottari.children-house-lord
+    - vedic.dashas-vimshottari.family-home-house-lord
+    - vedic.dashas-vimshottari.health-house-lord
+    - vedic.dashas-vimshottari.learning-house-lord
+    - vedic.dashas-vimshottari.love-marriage-house-lord
+    - vedic.dashas-vimshottari.money-house-lord
+    - vedic.dashas-vimshottari.property-vehicles-house-lord
+    - vedic.dashas-vimshottari.spirituality-house-lord
+    - vedic.dashas-vimshottari.travel-relocation-house-lord
+    blocks: 11
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.11 judgement of houses (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/dashas/vimshottari/
+    paths:
+    - business-house-lord.yaml
+    - career-house-lord.yaml
+    - children-house-lord.yaml
+    - family-home-house-lord.yaml
+    - health-house-lord.yaml
+    - learning-house-lord.yaml
+    - love-marriage-house-lord.yaml
+    - money-house-lord.yaml
+    - property-vehicles-house-lord.yaml
+    - spirituality-house-lord.yaml
+    - travel-relocation-house-lord.yaml
+    rule_ids:
+    - vedic.dashas-vimshottari.business-house-lord
+    - vedic.dashas-vimshottari.career-house-lord
+    - vedic.dashas-vimshottari.children-house-lord
+    - vedic.dashas-vimshottari.family-home-house-lord
+    - vedic.dashas-vimshottari.health-house-lord
+    - vedic.dashas-vimshottari.learning-house-lord
+    - vedic.dashas-vimshottari.love-marriage-house-lord
+    - vedic.dashas-vimshottari.money-house-lord
+    - vedic.dashas-vimshottari.property-vehicles-house-lord
+    - vedic.dashas-vimshottari.spirituality-house-lord
+    - vedic.dashas-vimshottari.travel-relocation-house-lord
+    blocks: 11
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: 'ch.1 (definitions: house significations)'
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+  - path: kb/vedic/dashas/vimshottari/
+    paths:
+    - business-upcoming.yaml
+    - career-upcoming.yaml
+    - children-upcoming.yaml
+    - family-home-upcoming.yaml
+    - health-upcoming.yaml
+    - learning-upcoming.yaml
+    - love-marriage-upcoming.yaml
+    - money-upcoming.yaml
+    - property-vehicles-upcoming.yaml
+    - spirituality-upcoming.yaml
+    - travel-relocation-upcoming.yaml
+    rule_ids:
+    - vedic.dashas-vimshottari.business-upcoming
+    - vedic.dashas-vimshottari.career-upcoming
+    - vedic.dashas-vimshottari.children-upcoming
+    - vedic.dashas-vimshottari.family-home-upcoming
+    - vedic.dashas-vimshottari.health-upcoming
+    - vedic.dashas-vimshottari.learning-upcoming
+    - vedic.dashas-vimshottari.love-marriage-upcoming
+    - vedic.dashas-vimshottari.money-upcoming
+    - vedic.dashas-vimshottari.property-vehicles-upcoming
+    - vedic.dashas-vimshottari.spirituality-upcoming
+    - vedic.dashas-vimshottari.travel-relocation-upcoming
+    blocks: 11
+    current_work_id: bhava360-area-composition
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Upcoming-period prompt from the product requirements.
+  - path: kb/vedic/dashas/vimshottari/modulation.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.19-20 dasha and antardasha results
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+- area: vedic/star-readings
+  pending_blocks: 34
+  entries:
+  - path: kb/vedic/nakshatras/reading-policy.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Samhita (Varahamihira)
+    translator_edition: M. Ramakrishna Bhat tr., Motilal Banarsidass
+    chapter: ch.98 nakshatra classes and deities
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    decision: replace work
+    note: Replaces the generic BPHS block; reuse the Brihat Samhita source already verified elsewhere in the KB.
+  - path: kb/vedic/star-readings/
+    paths:
+    - lagna-quarter-aquarius.yaml
+    - lagna-quarter-aries.yaml
+    - lagna-quarter-cancer.yaml
+    - lagna-quarter-capricorn.yaml
+    - lagna-quarter-gemini.yaml
+    - lagna-quarter-leo.yaml
+    - lagna-quarter-libra.yaml
+    - lagna-quarter-pisces.yaml
+    - lagna-quarter-sagittarius.yaml
+    - lagna-quarter-scorpio.yaml
+    - lagna-quarter-taurus.yaml
+    - lagna-quarter-virgo.yaml
+    - moon-quarter-aquarius.yaml
+    - moon-quarter-aries.yaml
+    - moon-quarter-cancer.yaml
+    - moon-quarter-capricorn.yaml
+    - moon-quarter-gemini.yaml
+    - moon-quarter-leo.yaml
+    - moon-quarter-libra.yaml
+    - moon-quarter-pisces.yaml
+    - moon-quarter-sagittarius.yaml
+    - moon-quarter-scorpio.yaml
+    - moon-quarter-taurus.yaml
+    - moon-quarter-virgo.yaml
+    rule_ids:
+    - vedic.star-readings.lagna-quarter-aquarius
+    - vedic.star-readings.lagna-quarter-aries
+    - vedic.star-readings.lagna-quarter-cancer
+    - vedic.star-readings.lagna-quarter-capricorn
+    - vedic.star-readings.lagna-quarter-gemini
+    - vedic.star-readings.lagna-quarter-leo
+    - vedic.star-readings.lagna-quarter-libra
+    - vedic.star-readings.lagna-quarter-pisces
+    - vedic.star-readings.lagna-quarter-sagittarius
+    - vedic.star-readings.lagna-quarter-scorpio
+    - vedic.star-readings.lagna-quarter-taurus
+    - vedic.star-readings.lagna-quarter-virgo
+    - vedic.star-readings.moon-quarter-aquarius
+    - vedic.star-readings.moon-quarter-aries
+    - vedic.star-readings.moon-quarter-cancer
+    - vedic.star-readings.moon-quarter-capricorn
+    - vedic.star-readings.moon-quarter-gemini
+    - vedic.star-readings.moon-quarter-leo
+    - vedic.star-readings.moon-quarter-libra
+    - vedic.star-readings.moon-quarter-pisces
+    - vedic.star-readings.moon-quarter-sagittarius
+    - vedic.star-readings.moon-quarter-scorpio
+    - vedic.star-readings.moon-quarter-taurus
+    - vedic.star-readings.moon-quarter-virgo
+    blocks: 24
+    current_work_id: bphs
+    book: Brihat Jataka
+    translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+    chapter: ch.1 (signs, navamsha from star quarters)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    decision: replace work
+    note: Replaces the generic BPHS block. Cite only the quarter-to-navamsha mapping; the reflection is editorial.
+  - path: kb/vedic/star-readings/
+    paths:
+    - lord-jupiter.yaml
+    - lord-ketu.yaml
+    - lord-mars.yaml
+    - lord-mercury.yaml
+    - lord-moon.yaml
+    - lord-rahu.yaml
+    - lord-saturn.yaml
+    - lord-sun.yaml
+    - lord-venus.yaml
+    rule_ids:
+    - vedic.star-readings.lord-jupiter
+    - vedic.star-readings.lord-ketu
+    - vedic.star-readings.lord-mars
+    - vedic.star-readings.lord-mercury
+    - vedic.star-readings.lord-moon
+    - vedic.star-readings.lord-rahu
+    - vedic.star-readings.lord-saturn
+    - vedic.star-readings.lord-sun
+    - vedic.star-readings.lord-venus
+    blocks: 9
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: 'ch.46 dashas: star lords for Vimshottari (Santhanam numbering)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+- area: vedic/vargas-avasthas-special-lagnas-upagrahas
+  pending_blocks: 27
+  entries:
+  - path: kb/vedic/avasthas/
+    paths:
+    - deeptadi.yaml
+    - jagradadi.yaml
+    - lajjitadi.yaml
+    - shayanadi.yaml
+    rule_ids:
+    - (file-level; no id)
+    - (file-level; no id)
+    - (file-level; no id)
+    - (file-level; no id)
+    blocks: 4
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.45 avasthas (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/special-lagnas/calculations.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: special ascendants chapter (Santhanam ~ch.4-5)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/upagrahas/points.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.3 upagraha calculations (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/vargas/advanced.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: varga chapters ch.6-7; Sudarshana chakra chapter (number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: The block mixes gandanta, pushkara, Sudarshana and Sripati; split it into one source per topic.
+  - path: kb/vedic/vargas/
+    paths:
+    - d10-d1-tenth-lord-dignity.yaml
+    - d10-lagna-lord-placement.yaml
+    - d10-tenth-lord-placement.yaml
+    - d12-moon-dignity.yaml
+    - d12-sun-dignity.yaml
+    - d2-lunar-hora-majority.yaml
+    - d2-solar-hora-majority.yaml
+    - d24-fourth-lord-dignity.yaml
+    - d24-mercury-dignity.yaml
+    - d4-fourth-lord-dignity.yaml
+    - d4-moon-dignity.yaml
+    - d7-fifth-lord-dignity.yaml
+    - d7-jupiter-dignity.yaml
+    - d9-d1-seventh-lord-dignity.yaml
+    - d9-jupiter-dignity.yaml
+    - d9-lagna-lord-placement.yaml
+    - d9-seventh-occupants.yaml
+    - d9-vargottama.yaml
+    - d9-venus-dignity.yaml
+    rule_ids:
+    - vedic.vargas.d10-d1-tenth-lord-dignity
+    - vedic.vargas.d10-lagna-lord-placement
+    - vedic.vargas.d10-tenth-lord-placement
+    - vedic.vargas.d12-moon-dignity
+    - vedic.vargas.d12-sun-dignity
+    - vedic.vargas.d2-lunar-hora-majority
+    - vedic.vargas.d2-solar-hora-majority
+    - vedic.vargas.d24-fourth-lord-dignity
+    - vedic.vargas.d24-mercury-dignity
+    - vedic.vargas.d4-fourth-lord-dignity
+    - vedic.vargas.d4-moon-dignity
+    - vedic.vargas.d7-fifth-lord-dignity
+    - vedic.vargas.d7-jupiter-dignity
+    - vedic.vargas.d9-d1-seventh-lord-dignity
+    - vedic.vargas.d9-jupiter-dignity
+    - vedic.vargas.d9-lagna-lord-placement
+    - vedic.vargas.d9-seventh-occupants
+    - vedic.vargas.d9-vargottama
+    - vedic.vargas.d9-venus-dignity
+    blocks: 19
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.6 sixteen divisions (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: The KB verse refers to a web edition and is not confirmed, so verse is null.
+  - path: kb/vedic/vargas/d60-deities.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: 'ch.6 sixteen divisions: shashtiamsha deities (Santhanam numbering)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+- area: vedic/strength
+  pending_blocks: 9
+  entries:
+  - path: kb/vedic/strength/ashtakavarga/moon-bav.yaml
+    rule_id: vedic.strength-ashtakavarga.moon-bav
+    blocks: 1
+    current_work_id: raman-ashtakavarga
+    book: Ashtakavarga System of Prediction (B.V. Raman)
+    translator_edition: null
+    chapter: Moon contributor table
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/ashtakavarga/moon-bav.yaml
+    rule_id: vedic.strength-ashtakavarga.moon-bav
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.66 Ashtakavarga (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/bhava-bala/bhava-occupants.yaml
+    rule_id: vedic.strength-bhava-bala.bhava-occupants
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: 'ch.27 strength: Bhava bala (Santhanam numbering)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/bhava-bala/birth-time.yaml
+    rule_id: vedic.strength-bhava-bala.birth-time
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: 'ch.27 strength: Bhava bala (Santhanam numbering)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/grade.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: uttara-kalamrita
+    book: Uttara Kalamrita (Kalidasa)
+    translator_edition: P.S. Sastri tr., Ranjan (confirm)
+    chapter: ch.2
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: KB cites v.6, unconfirmed, so verse is null.
+  - path: kb/vedic/strength/grade.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.3 dignities; ch.27 Shadbala (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/grade.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: planetary strength chapter (number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/strength/grade.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.4 strength; ch.7 neecha-bhanga
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/strength/vimshopaka/weights.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.7 Vimshopaka (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: The saptavarga weights are still open (Batch 6 finding).
+- area: vedic/life-areas-lordships
+  pending_blocks: 13
+  entries:
+  - path: kb/life-areas/pipeline.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.11 judgement of houses; ch.34 functional lords (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/life-areas/recipes.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.11 judgement of houses; ch.34 functional lords (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/life-areas/pipeline.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: laghu-parashari
+    book: Laghu Parashari (Jataka Chandrika)
+    translator_edition: null
+    chapter: ch.1-2 lordship and yoga
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/life-areas/pipeline.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.1 definitions; ch.15 bhava judgement; ch.19-20 dashas
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/life-areas/recipes.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.1 definitions; ch.15 bhava judgement; ch.19-20 dashas
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/life-areas/pipeline.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: jataka-parijata
+    book: Jataka Parijata (Vaidyanatha Dikshita)
+    translator_edition: V. Subrahmanya Sastri tr.
+    chapter: house-results chapters (number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/life-areas/recipes.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: jataka-parijata
+    book: Jataka Parijata (Vaidyanatha Dikshita)
+    translator_edition: V. Subrahmanya Sastri tr.
+    chapter: house-results chapters (number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/life-areas/pipeline.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: kn-rao-double-transit
+    book: Timing Events through Vimshottari Dasha (K.N. Rao)
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Double-transit timing; confirm the title.
+  - path: kb/life-areas/recipes.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: kn-rao-double-transit
+    book: Timing Events through Vimshottari Dasha (K.N. Rao)
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Double-transit timing; confirm the title.
+  - path: kb/life-areas/recipes.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: saravali
+    book: Saravali
+    translator_edition: R. Santhanam tr., Ranjan Publications
+    chapter: house-results chapters (number to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/lordships/functional.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.34 yogakarakas by Lagna (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/lordships/functional.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: laghu-parashari
+    book: Laghu Parashari (Jataka Chandrika)
+    translator_edition: null
+    chapter: 'ch.1 samjna: functional lordship rules (numbering varies)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/lordships/functional.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: functional lordship passage (chapter to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+- area: vedic/tajika
+  pending_blocks: 22
+  entries:
+  - path: kb/vedic/annual-chart/conventions.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: Samjna Tantra (definitions); Varsha Tantra (year lord)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Moon cannot be year lord (Samjna Tantra vv.60-65 in Saxena numbering; open Batch 8 item).
+  - path: kb/vedic/annual-chart/
+    paths:
+    - duphali-kuttha.yaml
+    - durapha.yaml
+    - dutthottha-davira.yaml
+    - gairi-kamboola.yaml
+    - ikkabala.yaml
+    - induvara.yaml
+    - ishrafa.yaml
+    - ithasala.yaml
+    - kamboola.yaml
+    - khallasara.yaml
+    - kuttha.yaml
+    - manau.yaml
+    - nakta.yaml
+    - radda.yaml
+    - tambira.yaml
+    - yamaya.yaml
+    rule_ids:
+    - vedic.annual-chart.duphali-kuttha
+    - vedic.annual-chart.durapha
+    - vedic.annual-chart.dutthottha-davira
+    - vedic.annual-chart.gairi-kamboola
+    - vedic.annual-chart.ikkabala
+    - vedic.annual-chart.induvara
+    - vedic.annual-chart.ishrafa
+    - vedic.annual-chart.ithasala
+    - vedic.annual-chart.kamboola
+    - vedic.annual-chart.khallasara
+    - vedic.annual-chart.kuttha
+    - vedic.annual-chart.manau
+    - vedic.annual-chart.nakta
+    - vedic.annual-chart.radda
+    - vedic.annual-chart.tambira
+    - vedic.annual-chart.yamaya
+    blocks: 16
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Samjna Tantra: sixteen yogas section'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Section names are stable; chapter numbers vary by translation.
+  - path: kb/vedic/annual-chart/periods.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Varsha Tantra: Mudda dasha section'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: 'Cross-check: B.V. Raman, Varshaphal or the Hindu Progressed Horoscope.'
+  - path: kb/vedic/annual-chart/sahams.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Samjna Tantra: sahams section'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/annual-chart/solar-return.yaml
+    rule_id: vedic.annual-chart.solar-return
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Varsha Tantra: varsha pravesha'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/annual-chart/strength.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Samjna Tantra: Panchavargiya bala section'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/tajika/aspects.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: tajika-neelakanthi
+    book: Tajika Neelakanthi
+    translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+    chapter: 'Samjna Tantra: aspects section (vv.77-78 in the Saxena numbering)'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+    note: Sign-count aspects (open Batch 6/8 finding).
+- area: vedic/prashna
+  pending_blocks: 3
+  entries:
+  - path: kb/vedic/prashna/exam.yaml
+    rule_id: vedic.prashna.exam
+    blocks: 1
+    current_work_id: prasna-tantra
+    book: Prasna Tantra (Neelakantha)
+    translator_edition: B.V. Raman tr.
+    chapter: 'bhava-wise queries: education (chapter to verify)'
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/prashna/kerala-study.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: prashna-marga
+    book: Prasna Marga
+    translator_edition: B.V. Raman tr., Part I
+    chapter: Ashtamangala, Trisphuta and Badhaka chapters (numbers to verify)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/prashna/return-person.yaml
+    rule_id: vedic.prashna.return-person
+    blocks: 1
+    current_work_id: prasna-tantra
+    book: Prasna Tantra (Neelakantha)
+    translator_edition: B.V. Raman tr.
+    chapter: 'bhava-wise queries: return of an absent person (chapter to verify)'
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+- area: vedic/matching
+  pending_blocks: 2
+  entries:
+  - path: kb/vedic/doshas/mars-partnership.yaml
+    rule_id: vedic.doshas.mars-partnership
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.80 female horoscopy (Santhanam numbering)
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+    note: The classical root of Kuja dosha is disputed. KB verses 47-49 are unconfirmed, so verse is null; the expanded
+      house list stays MODERN.
+  - path: kb/vedic/matching/papasamya.yaml
+    rule_id: vedic.matching.papasamya
+    blocks: 1
+    current_work_id: raman-muhurtha
+    book: Muhurtha (Electional Astrology) (B.V. Raman)
+    translator_edition: null
+    chapter: Marriage chapter
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    note: Papasamya is a regional South Indian practice that Raman records; equal weights are a Bhava360 choice.
+- area: vedic/muhurta-panchang
+  pending_blocks: 5
+  entries:
+  - path: kb/modules/home/day.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: phaladeepika
+    book: Phaladeepika
+    translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+    chapter: ch.26 Gochara
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+  - path: kb/modules/home/day.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: bphs
+    book: Brihat Parashara Hora Shastra
+    translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+    chapter: ch.66 Ashtakavarga (Santhanam numbering)
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/modules/home/day.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: muhurta-chintamani
+    book: Muhurta Chintamani (Daivajna Rama)
+    translator_edition: KB edition muhurta-chintamani-miu
+    chapter: 'Shubhashubha prakarana: Tarabala and Chandrabala'
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+  - path: kb/vedic/muhurta/region-policy.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: muhurta-chintamani
+    book: Muhurta Chintamani (Daivajna Rama)
+    translator_edition: KB edition muhurta-chintamani-miu
+    chapter: 'Yatra (travel) and Nakshatra prakaranas: Dhanishta panchaka (to verify)'
+    verse: null
+    confidence: to_verify
+    tag: CLASSICAL
+  - path: kb/vedic/panchang/election-yogas.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    current_work_id: muhurta-chintamani
+    book: Muhurta Chintamani (Daivajna Rama)
+    translator_edition: KB edition muhurta-chintamani-miu
+    chapter: Shubhashubha prakarana
+    verse: null
+    confidence: medium
+    tag: CLASSICAL
+- area: kp
+  pending_blocks: 5
+  entries:
+  - path: kb/kp/judgement/
+    paths:
+    - cusp-unavailable.yaml
+    - denied.yaml
+    - mixed-signals.yaml
+    - mixed.yaml
+    - promised.yaml
+    rule_ids:
+    - kp.judgement.cusp-unavailable
+    - kp.judgement.denied
+    - kp.judgement.mixed-signals
+    - kp.judgement.mixed
+    - kp.judgement.promised
+    blocks: 5
+    current_work_id: kp-dutta
+    book: 'KP Reader VI: Horary Astrology (K.S. Krishnamurti)'
+    translator_edition: Krishnamurti Publications
+    chapter: cuspal sub-lord promise and denial chapters (to verify)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: replace work
+    note: Primary KP text; the current Dutta online lecture note is secondary. Reader IV (marriage, children) for
+      area cusps.
+- area: jaimini
+  pending_blocks: 0
+  note: 'No pending blocks: the 63 Jaimini sources are verified and 1 is editorial. Still open, admin-only: the
+    Chara antardasha order. Candidate: K.N. Rao, Predicting through Jaimini''s Chara Dasha (Vani Publications),
+    confidence medium.'
+  entries: []
+- area: lal-kitab
+  pending_blocks: 1
+  entries:
+  - path: kb/lal-kitab/fixed-houses/house-reference.yaml
+    rule_id: lal-kitab.fixed-houses.house-reference
+    blocks: 1
+    current_work_id: lal-kitab
+    book: Lal Kitab (Pt. Roop Chand Joshi)
+    translator_edition: 1952 edition (one edition only)
+    chapter: fixed-house framework (locator to verify)
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Confirm the 1952 edition states the fixed-house, Aries = house 1 convention.
+  supplementary_not_in_pending_count:
+  - path: kb/lal-kitab/varshphal/annual.yaml
+    current_status: unverified-pending-source; edition_rows {} (120 age rows)
+    book: Lal Kitab (Pt. Roop Chand Joshi)
+    translator_edition: 1952 edition
+    chapter: Varshphal 120-year house-rotation table (locator to verify)
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Transcribe from one edition only; the tables differ between the 1941 and 1952 editions.
+  - path: kb/lal-kitab/placements/
+    files: 120
+    current_status: editorial-no-classical-claim (Bhava360 fixed-house prompts)
+    book: Lal Kitab (Pt. Roop Chand Joshi)
+    translator_edition: 1952 edition
+    chapter: planet-in-house sections (locator to verify)
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    decision: keep editorial until edition rows exist; then cite per planet-house
+    note: Pakka ghar list matches the common tradition. U.C. Mahajan's commentary (Pustak Mahal) is a possible secondary
+      source; confirm it. Do not use Arun Samhita.
+  - path: kb/lal-kitab/fixed-houses/house-reference.yaml
+    current_status: pending (counted above)
+    note: Add the explicit Aries = house 1 convention when the source is set.
+- area: nadi
+  pending_blocks: 0
+  note: 'No pending blocks: Nakshatra Nadi is held and nothing cites Nadi.'
+  entries: []
+  candidates_if_unheld:
+  - topic: Bhrigu Nandi Nadi progression method
+    book: Bhrigu Nandi Nadi (R.G. Rao)
+    translator_edition: Ranjan Publications (confirm)
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+  - topic: Saptarishi Nadi
+    book: Saptarishi Nadi
+    translator_edition: Madras Government Oriental Manuscripts Library Sanskrit edition; J.N. Sharma English translation
+      (both to confirm)
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    note: Leaf-reading Nadi cannot be computed; keep it excluded.
+- area: western
+  pending_blocks: 368
+  entries:
+  - path: kb/western/angles/
+    paths:
+    - mc-aquarius.yaml
+    - mc-aries.yaml
+    - mc-cancer.yaml
+    - mc-capricorn.yaml
+    - mc-gemini.yaml
+    - mc-leo.yaml
+    - mc-libra.yaml
+    - mc-pisces.yaml
+    - mc-sagittarius.yaml
+    - mc-scorpio.yaml
+    - mc-taurus.yaml
+    - mc-virgo.yaml
+    rule_ids:
+    - western.angles.mc-aquarius
+    - western.angles.mc-aries
+    - western.angles.mc-cancer
+    - western.angles.mc-capricorn
+    - western.angles.mc-gemini
+    - western.angles.mc-leo
+    - western.angles.mc-libra
+    - western.angles.mc-pisces
+    - western.angles.mc-sagittarius
+    - western.angles.mc-scorpio
+    - western.angles.mc-taurus
+    - western.angles.mc-virgo
+    blocks: 12
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: MC-in-sign reflections are modern. If a source is wanted, Lilly, Christian Astrology Book I (10th house)
+      is background only.
+  - path: kb/western/aspects/
+    paths:
+    - conjunction.yaml
+    - opposition.yaml
+    - sextile.yaml
+    - square.yaml
+    - trine.yaml
+    rule_ids:
+    - western.aspects.conjunction
+    - western.aspects.opposition
+    - western.aspects.sextile
+    - western.aspects.square
+    - western.aspects.trine
+    blocks: 5
+    current_work_id: sepharial-astrology
+    book: Tetrabiblos (Ptolemy)
+    translator_edition: F.E. Robbins tr., Loeb Classical Library 1940
+    chapter: Book I ch.13 aspects of the signs
+    verse: null
+    confidence: high
+    tag: CLASSICAL
+    decision: cite
+    note: Cites the aspect definition only; the reflection is editorial. Strictly, Ptolemy treats the conjunction
+      as a configuration rather than an aspect.
+  - path: kb/western/aspects/
+    paths:
+    - quincunx.yaml
+    - semi-sextile.yaml
+    - semi-square.yaml
+    - sesquiquadrate.yaml
+    rule_ids:
+    - western.aspects.quincunx
+    - western.aspects.semi-sextile
+    - western.aspects.semi-square
+    - western.aspects.sesquiquadrate
+    blocks: 4
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Minor aspects (quincunx, sesquiquadrate, semi-sextile, semi-square) are Keplerian or modern; there is
+      no Ptolemaic source.
+  - path: kb/western/natal-pairs/
+    paths:
+    - asc-mc-conjunction.yaml
+    - asc-mc-harmonious.yaml
+    - asc-mc-tension.yaml
+    - jupiter-asc-conjunction.yaml
+    - jupiter-asc-harmonious.yaml
+    - jupiter-asc-tension.yaml
+    - jupiter-mc-conjunction.yaml
+    - jupiter-mc-harmonious.yaml
+    - jupiter-mc-tension.yaml
+    - jupiter-neptune-conjunction.yaml
+    - jupiter-neptune-harmonious.yaml
+    - jupiter-neptune-tension.yaml
+    - jupiter-pluto-conjunction.yaml
+    - jupiter-pluto-harmonious.yaml
+    - jupiter-pluto-tension.yaml
+    - jupiter-saturn-conjunction.yaml
+    - jupiter-saturn-harmonious.yaml
+    - jupiter-saturn-tension.yaml
+    - jupiter-uranus-conjunction.yaml
+    - jupiter-uranus-harmonious.yaml
+    - jupiter-uranus-tension.yaml
+    - mars-asc-conjunction.yaml
+    - mars-asc-harmonious.yaml
+    - mars-asc-tension.yaml
+    - mars-jupiter-conjunction.yaml
+    - mars-jupiter-harmonious.yaml
+    - mars-jupiter-tension.yaml
+    - mars-mc-conjunction.yaml
+    - mars-mc-harmonious.yaml
+    - mars-mc-tension.yaml
+    - mars-neptune-conjunction.yaml
+    - mars-neptune-harmonious.yaml
+    - mars-neptune-tension.yaml
+    - mars-pluto-conjunction.yaml
+    - mars-pluto-harmonious.yaml
+    - mars-pluto-tension.yaml
+    - mars-saturn-conjunction.yaml
+    - mars-saturn-harmonious.yaml
+    - mars-saturn-tension.yaml
+    - mars-uranus-conjunction.yaml
+    - mars-uranus-harmonious.yaml
+    - mars-uranus-tension.yaml
+    - mercury-asc-conjunction.yaml
+    - mercury-asc-harmonious.yaml
+    - mercury-asc-tension.yaml
+    - mercury-jupiter-conjunction.yaml
+    - mercury-jupiter-harmonious.yaml
+    - mercury-jupiter-tension.yaml
+    - mercury-mars-conjunction.yaml
+    - mercury-mars-harmonious.yaml
+    - mercury-mars-tension.yaml
+    - mercury-mc-conjunction.yaml
+    - mercury-mc-harmonious.yaml
+    - mercury-mc-tension.yaml
+    - mercury-neptune-conjunction.yaml
+    - mercury-neptune-harmonious.yaml
+    - mercury-neptune-tension.yaml
+    - mercury-pluto-conjunction.yaml
+    - mercury-pluto-harmonious.yaml
+    - mercury-pluto-tension.yaml
+    - mercury-saturn-conjunction.yaml
+    - mercury-saturn-harmonious.yaml
+    - mercury-saturn-tension.yaml
+    - mercury-uranus-conjunction.yaml
+    - mercury-uranus-harmonious.yaml
+    - mercury-uranus-tension.yaml
+    - mercury-venus-conjunction.yaml
+    - mercury-venus-harmonious.yaml
+    - mercury-venus-tension.yaml
+    - moon-asc-conjunction.yaml
+    - moon-asc-harmonious.yaml
+    - moon-asc-tension.yaml
+    - moon-jupiter-conjunction.yaml
+    - moon-jupiter-harmonious.yaml
+    - moon-jupiter-tension.yaml
+    - moon-mars-conjunction.yaml
+    - moon-mars-harmonious.yaml
+    - moon-mars-tension.yaml
+    - moon-mc-conjunction.yaml
+    - moon-mc-harmonious.yaml
+    - moon-mc-tension.yaml
+    - moon-mercury-conjunction.yaml
+    - moon-mercury-harmonious.yaml
+    - moon-mercury-tension.yaml
+    - moon-neptune-conjunction.yaml
+    - moon-neptune-harmonious.yaml
+    - moon-neptune-tension.yaml
+    - moon-pluto-conjunction.yaml
+    - moon-pluto-harmonious.yaml
+    - moon-pluto-tension.yaml
+    - moon-saturn-conjunction.yaml
+    - moon-saturn-harmonious.yaml
+    - moon-saturn-tension.yaml
+    - moon-uranus-conjunction.yaml
+    - moon-uranus-harmonious.yaml
+    - moon-uranus-tension.yaml
+    - moon-venus-conjunction.yaml
+    - moon-venus-harmonious.yaml
+    - moon-venus-tension.yaml
+    - neptune-asc-conjunction.yaml
+    - neptune-asc-harmonious.yaml
+    - neptune-asc-tension.yaml
+    - neptune-mc-conjunction.yaml
+    - neptune-mc-harmonious.yaml
+    - neptune-mc-tension.yaml
+    - neptune-pluto-conjunction.yaml
+    - neptune-pluto-harmonious.yaml
+    - neptune-pluto-tension.yaml
+    - pluto-asc-conjunction.yaml
+    - pluto-asc-harmonious.yaml
+    - pluto-asc-tension.yaml
+    - pluto-mc-conjunction.yaml
+    - pluto-mc-harmonious.yaml
+    - pluto-mc-tension.yaml
+    - saturn-asc-conjunction.yaml
+    - saturn-asc-harmonious.yaml
+    - saturn-asc-tension.yaml
+    - saturn-mc-conjunction.yaml
+    - saturn-mc-harmonious.yaml
+    - saturn-mc-tension.yaml
+    - saturn-neptune-conjunction.yaml
+    - saturn-neptune-harmonious.yaml
+    - saturn-neptune-tension.yaml
+    - saturn-pluto-conjunction.yaml
+    - saturn-pluto-harmonious.yaml
+    - saturn-pluto-tension.yaml
+    - saturn-uranus-conjunction.yaml
+    - saturn-uranus-harmonious.yaml
+    - saturn-uranus-tension.yaml
+    - sun-asc-conjunction.yaml
+    - sun-asc-harmonious.yaml
+    - sun-asc-tension.yaml
+    - sun-jupiter-conjunction.yaml
+    - sun-jupiter-harmonious.yaml
+    - sun-jupiter-tension.yaml
+    - sun-mars-conjunction.yaml
+    - sun-mars-harmonious.yaml
+    - sun-mars-tension.yaml
+    - sun-mc-conjunction.yaml
+    - sun-mc-harmonious.yaml
+    - sun-mc-tension.yaml
+    - sun-mercury-conjunction.yaml
+    - sun-mercury-harmonious.yaml
+    - sun-mercury-tension.yaml
+    - sun-moon-conjunction.yaml
+    - sun-moon-harmonious.yaml
+    - sun-moon-tension.yaml
+    - sun-neptune-conjunction.yaml
+    - sun-neptune-harmonious.yaml
+    - sun-neptune-tension.yaml
+    - sun-pluto-conjunction.yaml
+    - sun-pluto-harmonious.yaml
+    - sun-pluto-tension.yaml
+    - sun-saturn-conjunction.yaml
+    - sun-saturn-harmonious.yaml
+    - sun-saturn-tension.yaml
+    - sun-uranus-conjunction.yaml
+    - sun-uranus-harmonious.yaml
+    - sun-uranus-tension.yaml
+    - sun-venus-conjunction.yaml
+    - sun-venus-harmonious.yaml
+    - sun-venus-tension.yaml
+    - uranus-asc-conjunction.yaml
+    - uranus-asc-harmonious.yaml
+    - uranus-asc-tension.yaml
+    - uranus-mc-conjunction.yaml
+    - uranus-mc-harmonious.yaml
+    - uranus-mc-tension.yaml
+    - uranus-neptune-conjunction.yaml
+    - uranus-neptune-harmonious.yaml
+    - uranus-neptune-tension.yaml
+    - uranus-pluto-conjunction.yaml
+    - uranus-pluto-harmonious.yaml
+    - uranus-pluto-tension.yaml
+    - venus-asc-conjunction.yaml
+    - venus-asc-harmonious.yaml
+    - venus-asc-tension.yaml
+    - venus-jupiter-conjunction.yaml
+    - venus-jupiter-harmonious.yaml
+    - venus-jupiter-tension.yaml
+    - venus-mars-conjunction.yaml
+    - venus-mars-harmonious.yaml
+    - venus-mars-tension.yaml
+    - venus-mc-conjunction.yaml
+    - venus-mc-harmonious.yaml
+    - venus-mc-tension.yaml
+    - venus-neptune-conjunction.yaml
+    - venus-neptune-harmonious.yaml
+    - venus-neptune-tension.yaml
+    - venus-pluto-conjunction.yaml
+    - venus-pluto-harmonious.yaml
+    - venus-pluto-tension.yaml
+    - venus-saturn-conjunction.yaml
+    - venus-saturn-harmonious.yaml
+    - venus-saturn-tension.yaml
+    - venus-uranus-conjunction.yaml
+    - venus-uranus-harmonious.yaml
+    - venus-uranus-tension.yaml
+    rule_ids:
+    - western.natal-pairs.asc-mc-conjunction
+    - western.natal-pairs.asc-mc-harmonious
+    - western.natal-pairs.asc-mc-tension
+    - western.natal-pairs.jupiter-asc-conjunction
+    - western.natal-pairs.jupiter-asc-harmonious
+    - western.natal-pairs.jupiter-asc-tension
+    - western.natal-pairs.jupiter-mc-conjunction
+    - western.natal-pairs.jupiter-mc-harmonious
+    - western.natal-pairs.jupiter-mc-tension
+    - western.natal-pairs.jupiter-neptune-conjunction
+    - western.natal-pairs.jupiter-neptune-harmonious
+    - western.natal-pairs.jupiter-neptune-tension
+    - western.natal-pairs.jupiter-pluto-conjunction
+    - western.natal-pairs.jupiter-pluto-harmonious
+    - western.natal-pairs.jupiter-pluto-tension
+    - western.natal-pairs.jupiter-saturn-conjunction
+    - western.natal-pairs.jupiter-saturn-harmonious
+    - western.natal-pairs.jupiter-saturn-tension
+    - western.natal-pairs.jupiter-uranus-conjunction
+    - western.natal-pairs.jupiter-uranus-harmonious
+    - western.natal-pairs.jupiter-uranus-tension
+    - western.natal-pairs.mars-asc-conjunction
+    - western.natal-pairs.mars-asc-harmonious
+    - western.natal-pairs.mars-asc-tension
+    - western.natal-pairs.mars-jupiter-conjunction
+    - western.natal-pairs.mars-jupiter-harmonious
+    - western.natal-pairs.mars-jupiter-tension
+    - western.natal-pairs.mars-mc-conjunction
+    - western.natal-pairs.mars-mc-harmonious
+    - western.natal-pairs.mars-mc-tension
+    - western.natal-pairs.mars-neptune-conjunction
+    - western.natal-pairs.mars-neptune-harmonious
+    - western.natal-pairs.mars-neptune-tension
+    - western.natal-pairs.mars-pluto-conjunction
+    - western.natal-pairs.mars-pluto-harmonious
+    - western.natal-pairs.mars-pluto-tension
+    - western.natal-pairs.mars-saturn-conjunction
+    - western.natal-pairs.mars-saturn-harmonious
+    - western.natal-pairs.mars-saturn-tension
+    - western.natal-pairs.mars-uranus-conjunction
+    - western.natal-pairs.mars-uranus-harmonious
+    - western.natal-pairs.mars-uranus-tension
+    - western.natal-pairs.mercury-asc-conjunction
+    - western.natal-pairs.mercury-asc-harmonious
+    - western.natal-pairs.mercury-asc-tension
+    - western.natal-pairs.mercury-jupiter-conjunction
+    - western.natal-pairs.mercury-jupiter-harmonious
+    - western.natal-pairs.mercury-jupiter-tension
+    - western.natal-pairs.mercury-mars-conjunction
+    - western.natal-pairs.mercury-mars-harmonious
+    - western.natal-pairs.mercury-mars-tension
+    - western.natal-pairs.mercury-mc-conjunction
+    - western.natal-pairs.mercury-mc-harmonious
+    - western.natal-pairs.mercury-mc-tension
+    - western.natal-pairs.mercury-neptune-conjunction
+    - western.natal-pairs.mercury-neptune-harmonious
+    - western.natal-pairs.mercury-neptune-tension
+    - western.natal-pairs.mercury-pluto-conjunction
+    - western.natal-pairs.mercury-pluto-harmonious
+    - western.natal-pairs.mercury-pluto-tension
+    - western.natal-pairs.mercury-saturn-conjunction
+    - western.natal-pairs.mercury-saturn-harmonious
+    - western.natal-pairs.mercury-saturn-tension
+    - western.natal-pairs.mercury-uranus-conjunction
+    - western.natal-pairs.mercury-uranus-harmonious
+    - western.natal-pairs.mercury-uranus-tension
+    - western.natal-pairs.mercury-venus-conjunction
+    - western.natal-pairs.mercury-venus-harmonious
+    - western.natal-pairs.mercury-venus-tension
+    - western.natal-pairs.moon-asc-conjunction
+    - western.natal-pairs.moon-asc-harmonious
+    - western.natal-pairs.moon-asc-tension
+    - western.natal-pairs.moon-jupiter-conjunction
+    - western.natal-pairs.moon-jupiter-harmonious
+    - western.natal-pairs.moon-jupiter-tension
+    - western.natal-pairs.moon-mars-conjunction
+    - western.natal-pairs.moon-mars-harmonious
+    - western.natal-pairs.moon-mars-tension
+    - western.natal-pairs.moon-mc-conjunction
+    - western.natal-pairs.moon-mc-harmonious
+    - western.natal-pairs.moon-mc-tension
+    - western.natal-pairs.moon-mercury-conjunction
+    - western.natal-pairs.moon-mercury-harmonious
+    - western.natal-pairs.moon-mercury-tension
+    - western.natal-pairs.moon-neptune-conjunction
+    - western.natal-pairs.moon-neptune-harmonious
+    - western.natal-pairs.moon-neptune-tension
+    - western.natal-pairs.moon-pluto-conjunction
+    - western.natal-pairs.moon-pluto-harmonious
+    - western.natal-pairs.moon-pluto-tension
+    - western.natal-pairs.moon-saturn-conjunction
+    - western.natal-pairs.moon-saturn-harmonious
+    - western.natal-pairs.moon-saturn-tension
+    - western.natal-pairs.moon-uranus-conjunction
+    - western.natal-pairs.moon-uranus-harmonious
+    - western.natal-pairs.moon-uranus-tension
+    - western.natal-pairs.moon-venus-conjunction
+    - western.natal-pairs.moon-venus-harmonious
+    - western.natal-pairs.moon-venus-tension
+    - western.natal-pairs.neptune-asc-conjunction
+    - western.natal-pairs.neptune-asc-harmonious
+    - western.natal-pairs.neptune-asc-tension
+    - western.natal-pairs.neptune-mc-conjunction
+    - western.natal-pairs.neptune-mc-harmonious
+    - western.natal-pairs.neptune-mc-tension
+    - western.natal-pairs.neptune-pluto-conjunction
+    - western.natal-pairs.neptune-pluto-harmonious
+    - western.natal-pairs.neptune-pluto-tension
+    - western.natal-pairs.pluto-asc-conjunction
+    - western.natal-pairs.pluto-asc-harmonious
+    - western.natal-pairs.pluto-asc-tension
+    - western.natal-pairs.pluto-mc-conjunction
+    - western.natal-pairs.pluto-mc-harmonious
+    - western.natal-pairs.pluto-mc-tension
+    - western.natal-pairs.saturn-asc-conjunction
+    - western.natal-pairs.saturn-asc-harmonious
+    - western.natal-pairs.saturn-asc-tension
+    - western.natal-pairs.saturn-mc-conjunction
+    - western.natal-pairs.saturn-mc-harmonious
+    - western.natal-pairs.saturn-mc-tension
+    - western.natal-pairs.saturn-neptune-conjunction
+    - western.natal-pairs.saturn-neptune-harmonious
+    - western.natal-pairs.saturn-neptune-tension
+    - western.natal-pairs.saturn-pluto-conjunction
+    - western.natal-pairs.saturn-pluto-harmonious
+    - western.natal-pairs.saturn-pluto-tension
+    - western.natal-pairs.saturn-uranus-conjunction
+    - western.natal-pairs.saturn-uranus-harmonious
+    - western.natal-pairs.saturn-uranus-tension
+    - western.natal-pairs.sun-asc-conjunction
+    - western.natal-pairs.sun-asc-harmonious
+    - western.natal-pairs.sun-asc-tension
+    - western.natal-pairs.sun-jupiter-conjunction
+    - western.natal-pairs.sun-jupiter-harmonious
+    - western.natal-pairs.sun-jupiter-tension
+    - western.natal-pairs.sun-mars-conjunction
+    - western.natal-pairs.sun-mars-harmonious
+    - western.natal-pairs.sun-mars-tension
+    - western.natal-pairs.sun-mc-conjunction
+    - western.natal-pairs.sun-mc-harmonious
+    - western.natal-pairs.sun-mc-tension
+    - western.natal-pairs.sun-mercury-conjunction
+    - western.natal-pairs.sun-mercury-harmonious
+    - western.natal-pairs.sun-mercury-tension
+    - western.natal-pairs.sun-moon-conjunction
+    - western.natal-pairs.sun-moon-harmonious
+    - western.natal-pairs.sun-moon-tension
+    - western.natal-pairs.sun-neptune-conjunction
+    - western.natal-pairs.sun-neptune-harmonious
+    - western.natal-pairs.sun-neptune-tension
+    - western.natal-pairs.sun-pluto-conjunction
+    - western.natal-pairs.sun-pluto-harmonious
+    - western.natal-pairs.sun-pluto-tension
+    - western.natal-pairs.sun-saturn-conjunction
+    - western.natal-pairs.sun-saturn-harmonious
+    - western.natal-pairs.sun-saturn-tension
+    - western.natal-pairs.sun-uranus-conjunction
+    - western.natal-pairs.sun-uranus-harmonious
+    - western.natal-pairs.sun-uranus-tension
+    - western.natal-pairs.sun-venus-conjunction
+    - western.natal-pairs.sun-venus-harmonious
+    - western.natal-pairs.sun-venus-tension
+    - western.natal-pairs.uranus-asc-conjunction
+    - western.natal-pairs.uranus-asc-harmonious
+    - western.natal-pairs.uranus-asc-tension
+    - western.natal-pairs.uranus-mc-conjunction
+    - western.natal-pairs.uranus-mc-harmonious
+    - western.natal-pairs.uranus-mc-tension
+    - western.natal-pairs.uranus-neptune-conjunction
+    - western.natal-pairs.uranus-neptune-harmonious
+    - western.natal-pairs.uranus-neptune-tension
+    - western.natal-pairs.uranus-pluto-conjunction
+    - western.natal-pairs.uranus-pluto-harmonious
+    - western.natal-pairs.uranus-pluto-tension
+    - western.natal-pairs.venus-asc-conjunction
+    - western.natal-pairs.venus-asc-harmonious
+    - western.natal-pairs.venus-asc-tension
+    - western.natal-pairs.venus-jupiter-conjunction
+    - western.natal-pairs.venus-jupiter-harmonious
+    - western.natal-pairs.venus-jupiter-tension
+    - western.natal-pairs.venus-mars-conjunction
+    - western.natal-pairs.venus-mars-harmonious
+    - western.natal-pairs.venus-mars-tension
+    - western.natal-pairs.venus-mc-conjunction
+    - western.natal-pairs.venus-mc-harmonious
+    - western.natal-pairs.venus-mc-tension
+    - western.natal-pairs.venus-neptune-conjunction
+    - western.natal-pairs.venus-neptune-harmonious
+    - western.natal-pairs.venus-neptune-tension
+    - western.natal-pairs.venus-pluto-conjunction
+    - western.natal-pairs.venus-pluto-harmonious
+    - western.natal-pairs.venus-pluto-tension
+    - western.natal-pairs.venus-saturn-conjunction
+    - western.natal-pairs.venus-saturn-harmonious
+    - western.natal-pairs.venus-saturn-tension
+    - western.natal-pairs.venus-uranus-conjunction
+    - western.natal-pairs.venus-uranus-harmonious
+    - western.natal-pairs.venus-uranus-tension
+    blocks: 198
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Pair delineations (natal, transit or synastry) are modern interpretive copy, and Sepharial does not supply
+      them pair by pair.
+  - path: kb/western/return-readings/mars-cycle.yaml
+    rule_id: western.return-readings.mars-cycle
+    blocks: 1
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Sun and Mars return reflections are editorial. Abu Ma'shar on solar revolutions (Dykes translation) is
+      a possible historical root; confirm before citing.
+  - path: kb/western/return-readings/sun-cycle.yaml
+    rule_id: western.return-readings.sun-cycle
+    blocks: 1
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: to_verify
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Sun and Mars return reflections are editorial. Abu Ma'shar on solar revolutions (Dykes translation) is
+      a possible historical root; confirm before citing.
+  - path: kb/western/synastry-pairs/
+    paths:
+    - asc-asc-conjunction.yaml
+    - asc-asc-harmonious.yaml
+    - asc-asc-tension.yaml
+    - asc-mars-conjunction.yaml
+    - asc-mars-harmonious.yaml
+    - asc-mars-tension.yaml
+    - asc-mercury-conjunction.yaml
+    - asc-mercury-harmonious.yaml
+    - asc-mercury-tension.yaml
+    - asc-moon-conjunction.yaml
+    - asc-moon-harmonious.yaml
+    - asc-moon-tension.yaml
+    - asc-sun-conjunction.yaml
+    - asc-sun-harmonious.yaml
+    - asc-sun-tension.yaml
+    - asc-venus-conjunction.yaml
+    - asc-venus-harmonious.yaml
+    - asc-venus-tension.yaml
+    - moon-moon-conjunction.yaml
+    - moon-moon-harmonious.yaml
+    - moon-moon-tension.yaml
+    - saturn-mars-conjunction.yaml
+    - saturn-mars-harmonious.yaml
+    - saturn-mars-tension.yaml
+    - saturn-mercury-conjunction.yaml
+    - saturn-mercury-harmonious.yaml
+    - saturn-mercury-tension.yaml
+    - saturn-moon-conjunction.yaml
+    - saturn-moon-harmonious.yaml
+    - saturn-moon-tension.yaml
+    - saturn-sun-conjunction.yaml
+    - saturn-sun-harmonious.yaml
+    - saturn-sun-tension.yaml
+    - saturn-venus-conjunction.yaml
+    - saturn-venus-harmonious.yaml
+    - saturn-venus-tension.yaml
+    - sun-moon-conjunction.yaml
+    - sun-moon-harmonious.yaml
+    - sun-moon-tension.yaml
+    - venus-mars-conjunction.yaml
+    - venus-mars-harmonious.yaml
+    - venus-mars-tension.yaml
+    rule_ids:
+    - western.synastry-pairs.asc-asc-conjunction
+    - western.synastry-pairs.asc-asc-harmonious
+    - western.synastry-pairs.asc-asc-tension
+    - western.synastry-pairs.asc-mars-conjunction
+    - western.synastry-pairs.asc-mars-harmonious
+    - western.synastry-pairs.asc-mars-tension
+    - western.synastry-pairs.asc-mercury-conjunction
+    - western.synastry-pairs.asc-mercury-harmonious
+    - western.synastry-pairs.asc-mercury-tension
+    - western.synastry-pairs.asc-moon-conjunction
+    - western.synastry-pairs.asc-moon-harmonious
+    - western.synastry-pairs.asc-moon-tension
+    - western.synastry-pairs.asc-sun-conjunction
+    - western.synastry-pairs.asc-sun-harmonious
+    - western.synastry-pairs.asc-sun-tension
+    - western.synastry-pairs.asc-venus-conjunction
+    - western.synastry-pairs.asc-venus-harmonious
+    - western.synastry-pairs.asc-venus-tension
+    - western.synastry-pairs.moon-moon-conjunction
+    - western.synastry-pairs.moon-moon-harmonious
+    - western.synastry-pairs.moon-moon-tension
+    - western.synastry-pairs.saturn-mars-conjunction
+    - western.synastry-pairs.saturn-mars-harmonious
+    - western.synastry-pairs.saturn-mars-tension
+    - western.synastry-pairs.saturn-mercury-conjunction
+    - western.synastry-pairs.saturn-mercury-harmonious
+    - western.synastry-pairs.saturn-mercury-tension
+    - western.synastry-pairs.saturn-moon-conjunction
+    - western.synastry-pairs.saturn-moon-harmonious
+    - western.synastry-pairs.saturn-moon-tension
+    - western.synastry-pairs.saturn-sun-conjunction
+    - western.synastry-pairs.saturn-sun-harmonious
+    - western.synastry-pairs.saturn-sun-tension
+    - western.synastry-pairs.saturn-venus-conjunction
+    - western.synastry-pairs.saturn-venus-harmonious
+    - western.synastry-pairs.saturn-venus-tension
+    - western.synastry-pairs.sun-moon-conjunction
+    - western.synastry-pairs.sun-moon-harmonious
+    - western.synastry-pairs.sun-moon-tension
+    - western.synastry-pairs.venus-mars-conjunction
+    - western.synastry-pairs.venus-mars-harmonious
+    - western.synastry-pairs.venus-mars-tension
+    blocks: 42
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Pair delineations (natal, transit or synastry) are modern interpretive copy, and Sepharial does not supply
+      them pair by pair.
+  - path: kb/western/transit-pairs/
+    paths:
+    - jupiter-asc-conjunction.yaml
+    - jupiter-asc-harmonious.yaml
+    - jupiter-asc-tension.yaml
+    - jupiter-mars-conjunction.yaml
+    - jupiter-mars-harmonious.yaml
+    - jupiter-mars-tension.yaml
+    - jupiter-mc-conjunction.yaml
+    - jupiter-mc-harmonious.yaml
+    - jupiter-mc-tension.yaml
+    - jupiter-mercury-conjunction.yaml
+    - jupiter-mercury-harmonious.yaml
+    - jupiter-mercury-tension.yaml
+    - jupiter-moon-conjunction.yaml
+    - jupiter-moon-harmonious.yaml
+    - jupiter-moon-tension.yaml
+    - jupiter-sun-conjunction.yaml
+    - jupiter-sun-harmonious.yaml
+    - jupiter-sun-tension.yaml
+    - jupiter-venus-conjunction.yaml
+    - jupiter-venus-harmonious.yaml
+    - jupiter-venus-tension.yaml
+    - neptune-asc-conjunction.yaml
+    - neptune-asc-harmonious.yaml
+    - neptune-asc-tension.yaml
+    - neptune-mars-conjunction.yaml
+    - neptune-mars-harmonious.yaml
+    - neptune-mars-tension.yaml
+    - neptune-mc-conjunction.yaml
+    - neptune-mc-harmonious.yaml
+    - neptune-mc-tension.yaml
+    - neptune-mercury-conjunction.yaml
+    - neptune-mercury-harmonious.yaml
+    - neptune-mercury-tension.yaml
+    - neptune-moon-conjunction.yaml
+    - neptune-moon-harmonious.yaml
+    - neptune-moon-tension.yaml
+    - neptune-sun-conjunction.yaml
+    - neptune-sun-harmonious.yaml
+    - neptune-sun-tension.yaml
+    - neptune-venus-conjunction.yaml
+    - neptune-venus-harmonious.yaml
+    - neptune-venus-tension.yaml
+    - pluto-asc-conjunction.yaml
+    - pluto-asc-harmonious.yaml
+    - pluto-asc-tension.yaml
+    - pluto-mars-conjunction.yaml
+    - pluto-mars-harmonious.yaml
+    - pluto-mars-tension.yaml
+    - pluto-mc-conjunction.yaml
+    - pluto-mc-harmonious.yaml
+    - pluto-mc-tension.yaml
+    - pluto-mercury-conjunction.yaml
+    - pluto-mercury-harmonious.yaml
+    - pluto-mercury-tension.yaml
+    - pluto-moon-conjunction.yaml
+    - pluto-moon-harmonious.yaml
+    - pluto-moon-tension.yaml
+    - pluto-sun-conjunction.yaml
+    - pluto-sun-harmonious.yaml
+    - pluto-sun-tension.yaml
+    - pluto-venus-conjunction.yaml
+    - pluto-venus-harmonious.yaml
+    - pluto-venus-tension.yaml
+    - saturn-asc-conjunction.yaml
+    - saturn-asc-harmonious.yaml
+    - saturn-asc-tension.yaml
+    - saturn-mars-conjunction.yaml
+    - saturn-mars-harmonious.yaml
+    - saturn-mars-tension.yaml
+    - saturn-mc-conjunction.yaml
+    - saturn-mc-harmonious.yaml
+    - saturn-mc-tension.yaml
+    - saturn-mercury-conjunction.yaml
+    - saturn-mercury-harmonious.yaml
+    - saturn-mercury-tension.yaml
+    - saturn-moon-conjunction.yaml
+    - saturn-moon-harmonious.yaml
+    - saturn-moon-tension.yaml
+    - saturn-sun-conjunction.yaml
+    - saturn-sun-harmonious.yaml
+    - saturn-sun-tension.yaml
+    - saturn-venus-conjunction.yaml
+    - saturn-venus-harmonious.yaml
+    - saturn-venus-tension.yaml
+    - uranus-asc-conjunction.yaml
+    - uranus-asc-harmonious.yaml
+    - uranus-asc-tension.yaml
+    - uranus-mars-conjunction.yaml
+    - uranus-mars-harmonious.yaml
+    - uranus-mars-tension.yaml
+    - uranus-mc-conjunction.yaml
+    - uranus-mc-harmonious.yaml
+    - uranus-mc-tension.yaml
+    - uranus-mercury-conjunction.yaml
+    - uranus-mercury-harmonious.yaml
+    - uranus-mercury-tension.yaml
+    - uranus-moon-conjunction.yaml
+    - uranus-moon-harmonious.yaml
+    - uranus-moon-tension.yaml
+    - uranus-sun-conjunction.yaml
+    - uranus-sun-harmonious.yaml
+    - uranus-sun-tension.yaml
+    - uranus-venus-conjunction.yaml
+    - uranus-venus-harmonious.yaml
+    - uranus-venus-tension.yaml
+    rule_ids:
+    - western.transit-pairs.jupiter-asc-conjunction
+    - western.transit-pairs.jupiter-asc-harmonious
+    - western.transit-pairs.jupiter-asc-tension
+    - western.transit-pairs.jupiter-mars-conjunction
+    - western.transit-pairs.jupiter-mars-harmonious
+    - western.transit-pairs.jupiter-mars-tension
+    - western.transit-pairs.jupiter-mc-conjunction
+    - western.transit-pairs.jupiter-mc-harmonious
+    - western.transit-pairs.jupiter-mc-tension
+    - western.transit-pairs.jupiter-mercury-conjunction
+    - western.transit-pairs.jupiter-mercury-harmonious
+    - western.transit-pairs.jupiter-mercury-tension
+    - western.transit-pairs.jupiter-moon-conjunction
+    - western.transit-pairs.jupiter-moon-harmonious
+    - western.transit-pairs.jupiter-moon-tension
+    - western.transit-pairs.jupiter-sun-conjunction
+    - western.transit-pairs.jupiter-sun-harmonious
+    - western.transit-pairs.jupiter-sun-tension
+    - western.transit-pairs.jupiter-venus-conjunction
+    - western.transit-pairs.jupiter-venus-harmonious
+    - western.transit-pairs.jupiter-venus-tension
+    - western.transit-pairs.neptune-asc-conjunction
+    - western.transit-pairs.neptune-asc-harmonious
+    - western.transit-pairs.neptune-asc-tension
+    - western.transit-pairs.neptune-mars-conjunction
+    - western.transit-pairs.neptune-mars-harmonious
+    - western.transit-pairs.neptune-mars-tension
+    - western.transit-pairs.neptune-mc-conjunction
+    - western.transit-pairs.neptune-mc-harmonious
+    - western.transit-pairs.neptune-mc-tension
+    - western.transit-pairs.neptune-mercury-conjunction
+    - western.transit-pairs.neptune-mercury-harmonious
+    - western.transit-pairs.neptune-mercury-tension
+    - western.transit-pairs.neptune-moon-conjunction
+    - western.transit-pairs.neptune-moon-harmonious
+    - western.transit-pairs.neptune-moon-tension
+    - western.transit-pairs.neptune-sun-conjunction
+    - western.transit-pairs.neptune-sun-harmonious
+    - western.transit-pairs.neptune-sun-tension
+    - western.transit-pairs.neptune-venus-conjunction
+    - western.transit-pairs.neptune-venus-harmonious
+    - western.transit-pairs.neptune-venus-tension
+    - western.transit-pairs.pluto-asc-conjunction
+    - western.transit-pairs.pluto-asc-harmonious
+    - western.transit-pairs.pluto-asc-tension
+    - western.transit-pairs.pluto-mars-conjunction
+    - western.transit-pairs.pluto-mars-harmonious
+    - western.transit-pairs.pluto-mars-tension
+    - western.transit-pairs.pluto-mc-conjunction
+    - western.transit-pairs.pluto-mc-harmonious
+    - western.transit-pairs.pluto-mc-tension
+    - western.transit-pairs.pluto-mercury-conjunction
+    - western.transit-pairs.pluto-mercury-harmonious
+    - western.transit-pairs.pluto-mercury-tension
+    - western.transit-pairs.pluto-moon-conjunction
+    - western.transit-pairs.pluto-moon-harmonious
+    - western.transit-pairs.pluto-moon-tension
+    - western.transit-pairs.pluto-sun-conjunction
+    - western.transit-pairs.pluto-sun-harmonious
+    - western.transit-pairs.pluto-sun-tension
+    - western.transit-pairs.pluto-venus-conjunction
+    - western.transit-pairs.pluto-venus-harmonious
+    - western.transit-pairs.pluto-venus-tension
+    - western.transit-pairs.saturn-asc-conjunction
+    - western.transit-pairs.saturn-asc-harmonious
+    - western.transit-pairs.saturn-asc-tension
+    - western.transit-pairs.saturn-mars-conjunction
+    - western.transit-pairs.saturn-mars-harmonious
+    - western.transit-pairs.saturn-mars-tension
+    - western.transit-pairs.saturn-mc-conjunction
+    - western.transit-pairs.saturn-mc-harmonious
+    - western.transit-pairs.saturn-mc-tension
+    - western.transit-pairs.saturn-mercury-conjunction
+    - western.transit-pairs.saturn-mercury-harmonious
+    - western.transit-pairs.saturn-mercury-tension
+    - western.transit-pairs.saturn-moon-conjunction
+    - western.transit-pairs.saturn-moon-harmonious
+    - western.transit-pairs.saturn-moon-tension
+    - western.transit-pairs.saturn-sun-conjunction
+    - western.transit-pairs.saturn-sun-harmonious
+    - western.transit-pairs.saturn-sun-tension
+    - western.transit-pairs.saturn-venus-conjunction
+    - western.transit-pairs.saturn-venus-harmonious
+    - western.transit-pairs.saturn-venus-tension
+    - western.transit-pairs.uranus-asc-conjunction
+    - western.transit-pairs.uranus-asc-harmonious
+    - western.transit-pairs.uranus-asc-tension
+    - western.transit-pairs.uranus-mars-conjunction
+    - western.transit-pairs.uranus-mars-harmonious
+    - western.transit-pairs.uranus-mars-tension
+    - western.transit-pairs.uranus-mc-conjunction
+    - western.transit-pairs.uranus-mc-harmonious
+    - western.transit-pairs.uranus-mc-tension
+    - western.transit-pairs.uranus-mercury-conjunction
+    - western.transit-pairs.uranus-mercury-harmonious
+    - western.transit-pairs.uranus-mercury-tension
+    - western.transit-pairs.uranus-moon-conjunction
+    - western.transit-pairs.uranus-moon-harmonious
+    - western.transit-pairs.uranus-moon-tension
+    - western.transit-pairs.uranus-sun-conjunction
+    - western.transit-pairs.uranus-sun-harmonious
+    - western.transit-pairs.uranus-sun-tension
+    - western.transit-pairs.uranus-venus-conjunction
+    - western.transit-pairs.uranus-venus-harmonious
+    - western.transit-pairs.uranus-venus-tension
+    blocks: 105
+    current_work_id: sepharial-astrology
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Pair delineations (natal, transit or synastry) are modern interpretive copy, and Sepharial does not supply
+      them pair by pair.
+- area: numerology
+  pending_blocks: 50
+  entries:
+  - path: kb/numerology/ank-jyotish/check-business-name-ruler-compatibility.yaml
+    rule_id: numerology.ank-jyotish.check-business-name-ruler-compatibility
+    blocks: 1
+    current_work_id: bhava360-engine-and-reading-conventions
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Bhava360 convention (karmic debt numbers, compatibility checks); no classical source.
+  - path: kb/numerology/ank-jyotish/check-mobile-number-ruler-compatibility.yaml
+    rule_id: numerology.ank-jyotish.check-mobile-number-ruler-compatibility
+    blocks: 1
+    current_work_id: bhava360-engine-and-reading-conventions
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Bhava360 convention (karmic debt numbers, compatibility checks); no classical source.
+  - path: kb/numerology/ank-jyotish/check-vehicle-number-ruler-compatibility.yaml
+    rule_id: numerology.ank-jyotish.check-vehicle-number-ruler-compatibility
+    blocks: 1
+    current_work_id: bhava360-engine-and-reading-conventions
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Bhava360 convention (karmic debt numbers, compatibility checks); no classical source.
+  - path: kb/numerology/chaldean/
+    paths:
+    - compound-10.yaml
+    - compound-11.yaml
+    - compound-12.yaml
+    - compound-13.yaml
+    - compound-14.yaml
+    - compound-15.yaml
+    - compound-16.yaml
+    - compound-17.yaml
+    - compound-18.yaml
+    - compound-19.yaml
+    - compound-20.yaml
+    - compound-21.yaml
+    - compound-22.yaml
+    - compound-23.yaml
+    - compound-24.yaml
+    - compound-25.yaml
+    - compound-26.yaml
+    - compound-27.yaml
+    - compound-28.yaml
+    - compound-29.yaml
+    - compound-30.yaml
+    - compound-31.yaml
+    - compound-32.yaml
+    - compound-33.yaml
+    - compound-34.yaml
+    - compound-35.yaml
+    - compound-36.yaml
+    - compound-37.yaml
+    - compound-38.yaml
+    - compound-39.yaml
+    - compound-40.yaml
+    - compound-41.yaml
+    - compound-42.yaml
+    - compound-43.yaml
+    - compound-44.yaml
+    - compound-45.yaml
+    - compound-46.yaml
+    - compound-47.yaml
+    - compound-48.yaml
+    - compound-49.yaml
+    - compound-50.yaml
+    - compound-51.yaml
+    - compound-52.yaml
+    rule_ids:
+    - numerology.chaldean.compound-10
+    - numerology.chaldean.compound-11
+    - numerology.chaldean.compound-12
+    - numerology.chaldean.compound-13
+    - numerology.chaldean.compound-14
+    - numerology.chaldean.compound-15
+    - numerology.chaldean.compound-16
+    - numerology.chaldean.compound-17
+    - numerology.chaldean.compound-18
+    - numerology.chaldean.compound-19
+    - numerology.chaldean.compound-20
+    - numerology.chaldean.compound-21
+    - numerology.chaldean.compound-22
+    - numerology.chaldean.compound-23
+    - numerology.chaldean.compound-24
+    - numerology.chaldean.compound-25
+    - numerology.chaldean.compound-26
+    - numerology.chaldean.compound-27
+    - numerology.chaldean.compound-28
+    - numerology.chaldean.compound-29
+    - numerology.chaldean.compound-30
+    - numerology.chaldean.compound-31
+    - numerology.chaldean.compound-32
+    - numerology.chaldean.compound-33
+    - numerology.chaldean.compound-34
+    - numerology.chaldean.compound-35
+    - numerology.chaldean.compound-36
+    - numerology.chaldean.compound-37
+    - numerology.chaldean.compound-38
+    - numerology.chaldean.compound-39
+    - numerology.chaldean.compound-40
+    - numerology.chaldean.compound-41
+    - numerology.chaldean.compound-42
+    - numerology.chaldean.compound-43
+    - numerology.chaldean.compound-44
+    - numerology.chaldean.compound-45
+    - numerology.chaldean.compound-46
+    - numerology.chaldean.compound-47
+    - numerology.chaldean.compound-48
+    - numerology.chaldean.compound-49
+    - numerology.chaldean.compound-50
+    - numerology.chaldean.compound-51
+    - numerology.chaldean.compound-52
+    blocks: 43
+    current_work_id: cheiro-s-book-of-numbers
+    book: Cheiro's Book of Numbers (Cheiro)
+    translator_edition: null
+    chapter: compound numbers 10-52 section
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: The book is the right source; edition and year still need fixing.
+  - path: kb/numerology/pythagorean/
+    paths:
+    - karmic-debt-13.yaml
+    - karmic-debt-14.yaml
+    - karmic-debt-16.yaml
+    - karmic-debt-19.yaml
+    rule_ids:
+    - numerology.pythagorean.karmic-debt-13
+    - numerology.pythagorean.karmic-debt-14
+    - numerology.pythagorean.karmic-debt-16
+    - numerology.pythagorean.karmic-debt-19
+    blocks: 4
+    current_work_id: bhava360-engine-and-reading-conventions
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Bhava360 convention (karmic debt numbers, compatibility checks); no classical source.
+- area: palmistry
+  pending_blocks: 79
+  entries:
+  - path: kb/palmistry/fingers/
+    paths:
+    - long-left.yaml
+    - long-right.yaml
+    - long.yaml
+    - short-left.yaml
+    - short-right.yaml
+    - short.yaml
+    - thumb-long-left.yaml
+    - thumb-long-right.yaml
+    - thumb-short-left.yaml
+    - thumb-short-right.yaml
+    rule_ids:
+    - palmistry.fingers.long-left
+    - palmistry.fingers.long-right
+    - palmistry.fingers.long
+    - palmistry.fingers.short-left
+    - palmistry.fingers.short-right
+    - palmistry.fingers.short
+    - palmistry.fingers.thumb-long-left
+    - palmistry.fingers.thumb-long-right
+    - palmistry.fingers.thumb-short-left
+    - palmistry.fingers.thumb-short-right
+    blocks: 10
+    current_work_id: cheiro-palmistry
+    book: Palmistry for All (Cheiro)
+    translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+    chapter: Part II (KB section heading to confirm)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative
+      source.
+  - path: kb/palmistry/hands/
+    paths:
+    - air-left.yaml
+    - air-right.yaml
+    - earth-left.yaml
+    - earth-right.yaml
+    - fire-left.yaml
+    - fire-right.yaml
+    - water-left.yaml
+    - water-right.yaml
+    rule_ids:
+    - palmistry.hands.air-left
+    - palmistry.hands.air-right
+    - palmistry.hands.earth-left
+    - palmistry.hands.earth-right
+    - palmistry.hands.fire-left
+    - palmistry.hands.fire-right
+    - palmistry.hands.water-left
+    - palmistry.hands.water-right
+    blocks: 8
+    current_work_id: cheiro-palmistry
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: re-tag editorial
+    note: Elemental hand types are a later modern scheme; Cheiro uses seven hand types.
+  - path: kb/palmistry/lines/
+    paths:
+    - fate-left.yaml
+    - fate-right.yaml
+    - head-left.yaml
+    - head-right.yaml
+    - heart-left.yaml
+    - heart-right.yaml
+    - life-broken-left.yaml
+    - life-broken-right.yaml
+    - life-left.yaml
+    - life-right.yaml
+    - life-short-left.yaml
+    - life-short-right.yaml
+    - mercury-left.yaml
+    - mercury-right.yaml
+    - sun-left.yaml
+    - sun-right.yaml
+    - union-left.yaml
+    - union-right.yaml
+    rule_ids:
+    - palmistry.lines.fate-left
+    - palmistry.lines.fate-right
+    - palmistry.lines.head-left
+    - palmistry.lines.head-right
+    - palmistry.lines.heart-left
+    - palmistry.lines.heart-right
+    - palmistry.lines.life-broken-left
+    - palmistry.lines.life-broken-right
+    - palmistry.lines.life-left
+    - palmistry.lines.life-right
+    - palmistry.lines.life-short-left
+    - palmistry.lines.life-short-right
+    - palmistry.lines.mercury-left
+    - palmistry.lines.mercury-right
+    - palmistry.lines.sun-left
+    - palmistry.lines.sun-right
+    - palmistry.lines.union-left
+    - palmistry.lines.union-right
+    blocks: 18
+    current_work_id: cheiro-palmistry
+    book: Palmistry for All (Cheiro)
+    translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+    chapter: Part II (KB section heading to confirm)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative
+      source.
+  - path: kb/palmistry/lines/
+    paths:
+    - fate.yaml
+    - head.yaml
+    - heart.yaml
+    - life.yaml
+    - sun.yaml
+    - union.yaml
+    rule_ids:
+    - palmistry.lines.fate
+    - palmistry.lines.head
+    - palmistry.lines.heart
+    - palmistry.lines.life
+    - palmistry.lines.sun
+    - palmistry.lines.union
+    blocks: 6
+    current_work_id: cheiro-palmistry
+    book: Palmistry for All (Cheiro)
+    translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+    chapter: Part I (KB section heading to confirm)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative
+      source.
+  - path: kb/palmistry/marks/
+    paths:
+    - cross-left.yaml
+    - cross-right.yaml
+    - grid-left.yaml
+    - grid-right.yaml
+    - island-left.yaml
+    - island-right.yaml
+    - square-left.yaml
+    - square-right.yaml
+    - star-left.yaml
+    - star-right.yaml
+    - triangle-left.yaml
+    - triangle-right.yaml
+    rule_ids:
+    - palmistry.marks.cross-left
+    - palmistry.marks.cross-right
+    - palmistry.marks.grid-left
+    - palmistry.marks.grid-right
+    - palmistry.marks.island-left
+    - palmistry.marks.island-right
+    - palmistry.marks.square-left
+    - palmistry.marks.square-right
+    - palmistry.marks.star-left
+    - palmistry.marks.star-right
+    - palmistry.marks.triangle-left
+    - palmistry.marks.triangle-right
+    blocks: 12
+    current_work_id: cheiro-palmistry
+    book: Palmistry for All (Cheiro)
+    translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+    chapter: Part II (KB section heading to confirm)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative
+      source.
+  - path: kb/palmistry/mounts/
+    paths:
+    - apollo-left.yaml
+    - apollo-right.yaml
+    - apollo.yaml
+    - jupiter-left.yaml
+    - jupiter-right.yaml
+    - jupiter.yaml
+    - luna-left.yaml
+    - luna-right.yaml
+    - luna.yaml
+    - mars-left.yaml
+    - mars-lower-left.yaml
+    - mars-lower-right.yaml
+    - mars-right.yaml
+    - mars-upper-left.yaml
+    - mars-upper-right.yaml
+    - mars.yaml
+    - mercury-left.yaml
+    - mercury-right.yaml
+    - mercury.yaml
+    - saturn-left.yaml
+    - saturn-right.yaml
+    - saturn.yaml
+    - venus-left.yaml
+    - venus-right.yaml
+    - venus.yaml
+    rule_ids:
+    - palmistry.mounts.apollo-left
+    - palmistry.mounts.apollo-right
+    - palmistry.mounts.apollo
+    - palmistry.mounts.jupiter-left
+    - palmistry.mounts.jupiter-right
+    - palmistry.mounts.jupiter
+    - palmistry.mounts.luna-left
+    - palmistry.mounts.luna-right
+    - palmistry.mounts.luna
+    - palmistry.mounts.mars-left
+    - palmistry.mounts.mars-lower-left
+    - palmistry.mounts.mars-lower-right
+    - palmistry.mounts.mars-right
+    - palmistry.mounts.mars-upper-left
+    - palmistry.mounts.mars-upper-right
+    - palmistry.mounts.mars
+    - palmistry.mounts.mercury-left
+    - palmistry.mounts.mercury-right
+    - palmistry.mounts.mercury
+    - palmistry.mounts.saturn-left
+    - palmistry.mounts.saturn-right
+    - palmistry.mounts.saturn
+    - palmistry.mounts.venus-left
+    - palmistry.mounts.venus-right
+    - palmistry.mounts.venus
+    blocks: 25
+    current_work_id: cheiro-palmistry
+    book: Palmistry for All (Cheiro)
+    translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+    chapter: Part II (KB section heading to confirm)
+    verse: null
+    confidence: medium
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative
+      source.
+- area: tarot
+  pending_blocks: 156
+  entries:
+  - path: kb/tarot/major-arcana/
+    paths:
+    - death-reversed.yaml
+    - death-upright.yaml
+    - judgement-reversed.yaml
+    - judgement-upright.yaml
+    - justice-reversed.yaml
+    - justice-upright.yaml
+    - strength-reversed.yaml
+    - strength-upright.yaml
+    - temperance-reversed.yaml
+    - temperance-upright.yaml
+    - the-chariot-reversed.yaml
+    - the-chariot-upright.yaml
+    - the-devil-reversed.yaml
+    - the-devil-upright.yaml
+    - the-emperor-reversed.yaml
+    - the-emperor-upright.yaml
+    - the-empress-reversed.yaml
+    - the-empress-upright.yaml
+    - the-fool-reversed.yaml
+    - the-fool-upright.yaml
+    - the-hanged-man-reversed.yaml
+    - the-hanged-man-upright.yaml
+    - the-hermit-reversed.yaml
+    - the-hermit-upright.yaml
+    - the-hierophant-reversed.yaml
+    - the-hierophant-upright.yaml
+    - the-high-priestess-reversed.yaml
+    - the-high-priestess-upright.yaml
+    - the-lovers-reversed.yaml
+    - the-lovers-upright.yaml
+    - the-magician-reversed.yaml
+    - the-magician-upright.yaml
+    - the-moon-reversed.yaml
+    - the-moon-upright.yaml
+    - the-star-reversed.yaml
+    - the-star-upright.yaml
+    - the-sun-reversed.yaml
+    - the-sun-upright.yaml
+    - the-tower-reversed.yaml
+    - the-tower-upright.yaml
+    - the-world-reversed.yaml
+    - the-world-upright.yaml
+    - wheel-of-fortune-reversed.yaml
+    - wheel-of-fortune-upright.yaml
+    rule_ids:
+    - tarot.major-arcana.death-reversed
+    - tarot.major-arcana.death-upright
+    - tarot.major-arcana.judgement-reversed
+    - tarot.major-arcana.judgement-upright
+    - tarot.major-arcana.justice-reversed
+    - tarot.major-arcana.justice-upright
+    - tarot.major-arcana.strength-reversed
+    - tarot.major-arcana.strength-upright
+    - tarot.major-arcana.temperance-reversed
+    - tarot.major-arcana.temperance-upright
+    - tarot.major-arcana.the-chariot-reversed
+    - tarot.major-arcana.the-chariot-upright
+    - tarot.major-arcana.the-devil-reversed
+    - tarot.major-arcana.the-devil-upright
+    - tarot.major-arcana.the-emperor-reversed
+    - tarot.major-arcana.the-emperor-upright
+    - tarot.major-arcana.the-empress-reversed
+    - tarot.major-arcana.the-empress-upright
+    - tarot.major-arcana.the-fool-reversed
+    - tarot.major-arcana.the-fool-upright
+    - tarot.major-arcana.the-hanged-man-reversed
+    - tarot.major-arcana.the-hanged-man-upright
+    - tarot.major-arcana.the-hermit-reversed
+    - tarot.major-arcana.the-hermit-upright
+    - tarot.major-arcana.the-hierophant-reversed
+    - tarot.major-arcana.the-hierophant-upright
+    - tarot.major-arcana.the-high-priestess-reversed
+    - tarot.major-arcana.the-high-priestess-upright
+    - tarot.major-arcana.the-lovers-reversed
+    - tarot.major-arcana.the-lovers-upright
+    - tarot.major-arcana.the-magician-reversed
+    - tarot.major-arcana.the-magician-upright
+    - tarot.major-arcana.the-moon-reversed
+    - tarot.major-arcana.the-moon-upright
+    - tarot.major-arcana.the-star-reversed
+    - tarot.major-arcana.the-star-upright
+    - tarot.major-arcana.the-sun-reversed
+    - tarot.major-arcana.the-sun-upright
+    - tarot.major-arcana.the-tower-reversed
+    - tarot.major-arcana.the-tower-upright
+    - tarot.major-arcana.the-world-reversed
+    - tarot.major-arcana.the-world-upright
+    - tarot.major-arcana.wheel-of-fortune-reversed
+    - tarot.major-arcana.wheel-of-fortune-upright
+    blocks: 44
+    current_work_id: waite-pictorial-key
+    book: The Pictorial Key to the Tarot (A.E. Waite)
+    translator_edition: Rider 1910/1911 (KB edition waite-1910)
+    chapter: 'Part III: divinatory meanings, card section'
+    verse: null
+    confidence: high
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for card identity and upright/reversed keywords; the reflection is editorial.
+  - path: kb/tarot/minor-arcana/
+    paths:
+    - ace-of-cups-reversed.yaml
+    - ace-of-cups-upright.yaml
+    - ace-of-pentacles-reversed.yaml
+    - ace-of-pentacles-upright.yaml
+    - ace-of-swords-reversed.yaml
+    - ace-of-swords-upright.yaml
+    - ace-of-wands-reversed.yaml
+    - ace-of-wands-upright.yaml
+    - eight-of-cups-reversed.yaml
+    - eight-of-cups-upright.yaml
+    - eight-of-pentacles-reversed.yaml
+    - eight-of-pentacles-upright.yaml
+    - eight-of-swords-reversed.yaml
+    - eight-of-swords-upright.yaml
+    - eight-of-wands-reversed.yaml
+    - eight-of-wands-upright.yaml
+    - five-of-cups-reversed.yaml
+    - five-of-cups-upright.yaml
+    - five-of-pentacles-reversed.yaml
+    - five-of-pentacles-upright.yaml
+    - five-of-swords-reversed.yaml
+    - five-of-swords-upright.yaml
+    - five-of-wands-reversed.yaml
+    - five-of-wands-upright.yaml
+    - four-of-cups-reversed.yaml
+    - four-of-cups-upright.yaml
+    - four-of-pentacles-reversed.yaml
+    - four-of-pentacles-upright.yaml
+    - four-of-swords-reversed.yaml
+    - four-of-swords-upright.yaml
+    - four-of-wands-reversed.yaml
+    - four-of-wands-upright.yaml
+    - king-of-cups-reversed.yaml
+    - king-of-cups-upright.yaml
+    - king-of-pentacles-reversed.yaml
+    - king-of-pentacles-upright.yaml
+    - king-of-swords-reversed.yaml
+    - king-of-swords-upright.yaml
+    - king-of-wands-reversed.yaml
+    - king-of-wands-upright.yaml
+    - knight-of-cups-reversed.yaml
+    - knight-of-cups-upright.yaml
+    - knight-of-pentacles-reversed.yaml
+    - knight-of-pentacles-upright.yaml
+    - knight-of-swords-reversed.yaml
+    - knight-of-swords-upright.yaml
+    - knight-of-wands-reversed.yaml
+    - knight-of-wands-upright.yaml
+    - nine-of-cups-reversed.yaml
+    - nine-of-cups-upright.yaml
+    - nine-of-pentacles-reversed.yaml
+    - nine-of-pentacles-upright.yaml
+    - nine-of-swords-reversed.yaml
+    - nine-of-swords-upright.yaml
+    - nine-of-wands-reversed.yaml
+    - nine-of-wands-upright.yaml
+    - page-of-cups-reversed.yaml
+    - page-of-cups-upright.yaml
+    - page-of-pentacles-reversed.yaml
+    - page-of-pentacles-upright.yaml
+    - page-of-swords-reversed.yaml
+    - page-of-swords-upright.yaml
+    - page-of-wands-reversed.yaml
+    - page-of-wands-upright.yaml
+    - queen-of-cups-reversed.yaml
+    - queen-of-cups-upright.yaml
+    - queen-of-pentacles-reversed.yaml
+    - queen-of-pentacles-upright.yaml
+    - queen-of-swords-reversed.yaml
+    - queen-of-swords-upright.yaml
+    - queen-of-wands-reversed.yaml
+    - queen-of-wands-upright.yaml
+    - seven-of-cups-reversed.yaml
+    - seven-of-cups-upright.yaml
+    - seven-of-pentacles-reversed.yaml
+    - seven-of-pentacles-upright.yaml
+    - seven-of-swords-reversed.yaml
+    - seven-of-swords-upright.yaml
+    - seven-of-wands-reversed.yaml
+    - seven-of-wands-upright.yaml
+    - six-of-cups-reversed.yaml
+    - six-of-cups-upright.yaml
+    - six-of-pentacles-reversed.yaml
+    - six-of-pentacles-upright.yaml
+    - six-of-swords-reversed.yaml
+    - six-of-swords-upright.yaml
+    - six-of-wands-reversed.yaml
+    - six-of-wands-upright.yaml
+    - ten-of-cups-reversed.yaml
+    - ten-of-cups-upright.yaml
+    - ten-of-pentacles-reversed.yaml
+    - ten-of-pentacles-upright.yaml
+    - ten-of-swords-reversed.yaml
+    - ten-of-swords-upright.yaml
+    - ten-of-wands-reversed.yaml
+    - ten-of-wands-upright.yaml
+    - three-of-cups-reversed.yaml
+    - three-of-cups-upright.yaml
+    - three-of-pentacles-reversed.yaml
+    - three-of-pentacles-upright.yaml
+    - three-of-swords-reversed.yaml
+    - three-of-swords-upright.yaml
+    - three-of-wands-reversed.yaml
+    - three-of-wands-upright.yaml
+    - two-of-cups-reversed.yaml
+    - two-of-cups-upright.yaml
+    - two-of-pentacles-reversed.yaml
+    - two-of-pentacles-upright.yaml
+    - two-of-swords-reversed.yaml
+    - two-of-swords-upright.yaml
+    - two-of-wands-reversed.yaml
+    - two-of-wands-upright.yaml
+    rule_ids:
+    - tarot.minor-arcana.ace-of-cups-reversed
+    - tarot.minor-arcana.ace-of-cups-upright
+    - tarot.minor-arcana.ace-of-pentacles-reversed
+    - tarot.minor-arcana.ace-of-pentacles-upright
+    - tarot.minor-arcana.ace-of-swords-reversed
+    - tarot.minor-arcana.ace-of-swords-upright
+    - tarot.minor-arcana.ace-of-wands-reversed
+    - tarot.minor-arcana.ace-of-wands-upright
+    - tarot.minor-arcana.eight-of-cups-reversed
+    - tarot.minor-arcana.eight-of-cups-upright
+    - tarot.minor-arcana.eight-of-pentacles-reversed
+    - tarot.minor-arcana.eight-of-pentacles-upright
+    - tarot.minor-arcana.eight-of-swords-reversed
+    - tarot.minor-arcana.eight-of-swords-upright
+    - tarot.minor-arcana.eight-of-wands-reversed
+    - tarot.minor-arcana.eight-of-wands-upright
+    - tarot.minor-arcana.five-of-cups-reversed
+    - tarot.minor-arcana.five-of-cups-upright
+    - tarot.minor-arcana.five-of-pentacles-reversed
+    - tarot.minor-arcana.five-of-pentacles-upright
+    - tarot.minor-arcana.five-of-swords-reversed
+    - tarot.minor-arcana.five-of-swords-upright
+    - tarot.minor-arcana.five-of-wands-reversed
+    - tarot.minor-arcana.five-of-wands-upright
+    - tarot.minor-arcana.four-of-cups-reversed
+    - tarot.minor-arcana.four-of-cups-upright
+    - tarot.minor-arcana.four-of-pentacles-reversed
+    - tarot.minor-arcana.four-of-pentacles-upright
+    - tarot.minor-arcana.four-of-swords-reversed
+    - tarot.minor-arcana.four-of-swords-upright
+    - tarot.minor-arcana.four-of-wands-reversed
+    - tarot.minor-arcana.four-of-wands-upright
+    - tarot.minor-arcana.king-of-cups-reversed
+    - tarot.minor-arcana.king-of-cups-upright
+    - tarot.minor-arcana.king-of-pentacles-reversed
+    - tarot.minor-arcana.king-of-pentacles-upright
+    - tarot.minor-arcana.king-of-swords-reversed
+    - tarot.minor-arcana.king-of-swords-upright
+    - tarot.minor-arcana.king-of-wands-reversed
+    - tarot.minor-arcana.king-of-wands-upright
+    - tarot.minor-arcana.knight-of-cups-reversed
+    - tarot.minor-arcana.knight-of-cups-upright
+    - tarot.minor-arcana.knight-of-pentacles-reversed
+    - tarot.minor-arcana.knight-of-pentacles-upright
+    - tarot.minor-arcana.knight-of-swords-reversed
+    - tarot.minor-arcana.knight-of-swords-upright
+    - tarot.minor-arcana.knight-of-wands-reversed
+    - tarot.minor-arcana.knight-of-wands-upright
+    - tarot.minor-arcana.nine-of-cups-reversed
+    - tarot.minor-arcana.nine-of-cups-upright
+    - tarot.minor-arcana.nine-of-pentacles-reversed
+    - tarot.minor-arcana.nine-of-pentacles-upright
+    - tarot.minor-arcana.nine-of-swords-reversed
+    - tarot.minor-arcana.nine-of-swords-upright
+    - tarot.minor-arcana.nine-of-wands-reversed
+    - tarot.minor-arcana.nine-of-wands-upright
+    - tarot.minor-arcana.page-of-cups-reversed
+    - tarot.minor-arcana.page-of-cups-upright
+    - tarot.minor-arcana.page-of-pentacles-reversed
+    - tarot.minor-arcana.page-of-pentacles-upright
+    - tarot.minor-arcana.page-of-swords-reversed
+    - tarot.minor-arcana.page-of-swords-upright
+    - tarot.minor-arcana.page-of-wands-reversed
+    - tarot.minor-arcana.page-of-wands-upright
+    - tarot.minor-arcana.queen-of-cups-reversed
+    - tarot.minor-arcana.queen-of-cups-upright
+    - tarot.minor-arcana.queen-of-pentacles-reversed
+    - tarot.minor-arcana.queen-of-pentacles-upright
+    - tarot.minor-arcana.queen-of-swords-reversed
+    - tarot.minor-arcana.queen-of-swords-upright
+    - tarot.minor-arcana.queen-of-wands-reversed
+    - tarot.minor-arcana.queen-of-wands-upright
+    - tarot.minor-arcana.seven-of-cups-reversed
+    - tarot.minor-arcana.seven-of-cups-upright
+    - tarot.minor-arcana.seven-of-pentacles-reversed
+    - tarot.minor-arcana.seven-of-pentacles-upright
+    - tarot.minor-arcana.seven-of-swords-reversed
+    - tarot.minor-arcana.seven-of-swords-upright
+    - tarot.minor-arcana.seven-of-wands-reversed
+    - tarot.minor-arcana.seven-of-wands-upright
+    - tarot.minor-arcana.six-of-cups-reversed
+    - tarot.minor-arcana.six-of-cups-upright
+    - tarot.minor-arcana.six-of-pentacles-reversed
+    - tarot.minor-arcana.six-of-pentacles-upright
+    - tarot.minor-arcana.six-of-swords-reversed
+    - tarot.minor-arcana.six-of-swords-upright
+    - tarot.minor-arcana.six-of-wands-reversed
+    - tarot.minor-arcana.six-of-wands-upright
+    - tarot.minor-arcana.ten-of-cups-reversed
+    - tarot.minor-arcana.ten-of-cups-upright
+    - tarot.minor-arcana.ten-of-pentacles-reversed
+    - tarot.minor-arcana.ten-of-pentacles-upright
+    - tarot.minor-arcana.ten-of-swords-reversed
+    - tarot.minor-arcana.ten-of-swords-upright
+    - tarot.minor-arcana.ten-of-wands-reversed
+    - tarot.minor-arcana.ten-of-wands-upright
+    - tarot.minor-arcana.three-of-cups-reversed
+    - tarot.minor-arcana.three-of-cups-upright
+    - tarot.minor-arcana.three-of-pentacles-reversed
+    - tarot.minor-arcana.three-of-pentacles-upright
+    - tarot.minor-arcana.three-of-swords-reversed
+    - tarot.minor-arcana.three-of-swords-upright
+    - tarot.minor-arcana.three-of-wands-reversed
+    - tarot.minor-arcana.three-of-wands-upright
+    - tarot.minor-arcana.two-of-cups-reversed
+    - tarot.minor-arcana.two-of-cups-upright
+    - tarot.minor-arcana.two-of-pentacles-reversed
+    - tarot.minor-arcana.two-of-pentacles-upright
+    - tarot.minor-arcana.two-of-swords-reversed
+    - tarot.minor-arcana.two-of-swords-upright
+    - tarot.minor-arcana.two-of-wands-reversed
+    - tarot.minor-arcana.two-of-wands-upright
+    blocks: 112
+    current_work_id: waite-pictorial-key
+    book: The Pictorial Key to the Tarot (A.E. Waite)
+    translator_edition: Rider 1910/1911 (KB edition waite-1910)
+    chapter: 'Part III: divinatory meanings, card section'
+    verse: null
+    confidence: high
+    tag: MODERN/POPULAR
+    decision: cite
+    note: Cite for card identity and upright/reversed keywords; the reflection is editorial.
+- area: governance-templates
+  pending_blocks: 2
+  entries:
+  - path: kb/shared/confidence/birth-time-tiers.yaml
+    rule_id: (file-level; no id)
+    blocks: 1
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: re-tag editorial
+    note: Product consultation-method spec; not a classical claim.
+  - path: kb/templates/entry.yaml
+    rule_id: <system>.<topic-key>.<stable-slug>
+    blocks: 1
+    current_work_id: <registered work ID>
+    book: null
+    translator_edition: null
+    chapter: null
+    verse: null
+    confidence: high
+    tag: EDITORIAL
+    decision: exclude from audit
+    note: Template placeholder, not a real source; exclude templates/ from the audit.

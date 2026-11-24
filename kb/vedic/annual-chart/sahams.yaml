@@ -4,11 +4,14 @@ sources:
 - book: Tajika Neelakanthi
   work_id: tajika-neelakanthi
   edition: null
-  chapter: null
+  chapter: 'Samjna Tantra: sahams section'
   verse: null
-  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  other_locator: null
   supports: Traditional calculation or classification. Reflective wording is editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: D.P. Saxena tr., Ranjan Publications (confirm before citing)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 visibility: admin-only
 day_operands:
   punya:

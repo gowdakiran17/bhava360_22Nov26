@@ -24,6 +24,9 @@ def validate_aspects(rules, read, evaluate, require):
     for a,b in combinations(table,2):
         row=rules[f'vedic.conjunctions.{a}-{b}']
         key=f'd1.conjunction.{a}_{b}'
+        if row.get('retired'):
+            require((a,b)==('rahu','ketu') and row['visibility']=='admin-only', 'retired node-axis guard')
+            continue
         for x,y,want in [(29.99,29.999,True),(29.99,30,False),(0,180,False),(None,0,None)]:
             actual=None if x is None else int(x//30)==int(y//30)
             require(evaluate(row['conditions'],{key:actual}) is want,key)

@@ -19,14 +19,17 @@ traditions_differ:
 - profile: western-editorial-v1
   note: Orbs vary by school. This tropical geometric profile is separate from Parashari graha drishti.
 sources:
-- book: 'Astrology: How to Make and Read Your Own Horoscope'
-  work_id: sepharial-astrology
-  edition: sepharial-1920-pg46963
-  chapter: null
+- book: Tetrabiblos (Ptolemy)
+  work_id: ptolemy-tetrabiblos
+  edition: null
+  chapter: Book I ch.13 aspects of the signs
   verse: null
-  other_locator: Aspect interpretation; exact passage pending.
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
-  verification: pending
+  other_locator: null
+  supports: Cites the aspect definition only; the reflection is editorial. Strictly, Ptolemy treats the conjunction as a configuration
+    rather than an aspect.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: F.E. Robbins tr., Loeb Classical Library 1940
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

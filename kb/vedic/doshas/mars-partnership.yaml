@@ -208,11 +208,15 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: 80
-  verse: 47–49
-  other_locator: Stri Jataka
-  supports: Classical root only; expanded modern house list is separate.
+  chapter: ch.80 female horoscopy (Santhanam numbering)
+  verse: null
+  other_locator: null
+  supports: The classical root of Kuja dosha is disputed. KB verses 47-49 are unconfirmed, so verse is null; the expanded house
+    list stays MODERN.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  to_verify: true
 confidence: disputed
 review_notes: MODERN/POPULAR. Compare like references; never infer a relationship outcome from this factor alone.
 user_text:

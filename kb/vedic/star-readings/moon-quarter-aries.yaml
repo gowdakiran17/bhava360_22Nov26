@@ -16,19 +16,22 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
-  chapter: null
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: ch.1 (signs, navamsha from star quarters)
   verse: null
-  other_locator: Divisional dignity and planetary states chapters
-  supports: Traditional calculation or classification. Reflective wording is editorial.
-  verification: pending
+  other_locator: null
+  supports: Replaces the generic BPHS block. Cite only the quarter-to-navamsha mapping; the reflection is editorial.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
   en: When noticing what feels familiar, you can try a direct first step.
-  kn: ಪರಿಚಿತವೆನಿಸುವುದನ್ನು ಗಮನಿಸುವಾಗ ನೇರವಾಗಿ ಆರಂಭಿಸಲು ಗಮನ ಕೊಡಬಹುದು.
+  kn: ಪರಿಚಿತವೆನಿಸುವುದನ್ನು ಗಮನಿಸುವಾಗ ನೇರವಾಗಿ ಮೊದಲ ಹೆಜ್ಜೆ ಇಟ್ಟು ನೋಡಬಹುದು.
   hi: जो अपना सा लगे उस पर ध्यान देते समय सीधी शुरुआत करने पर ध्यान दे सकते हैं।
 native_review:
   kn: pending

@@ -397,6 +397,9 @@ def main():
         if 'feature_gate' in data:
             require(data['feature_gate'] in profile_ids,rid+' unknown feature gate')
             expected_fields.add('feature_gate')
+        if rid=='vedic.conjunctions.rahu-ketu':
+            require(data.get('retired') is True and data.get('visibility')=='admin-only',rid+' retired guard')
+            expected_fields.add('retired')
         if data.get('visibility')=='admin-only':
             expected_fields.add('visibility')
         if rid.startswith('vedic.aspects.') and 'aspect_direction' in data:
@@ -479,7 +482,10 @@ def main():
             check_predicate(modifier['when'],facts)
         require(data['sources'],rid)
         for cite in data['sources']:
-            require(cite['work_id'] in sources['works'],rid)
+            if cite['verification']=='editorial' and cite.get('tag')=='EDITORIAL':
+                require(all(cite.get(k) is None for k in ('book','work_id','edition','chapter','verse','other_locator')),rid)
+            else:
+                require(cite['work_id'] in sources['works'],rid)
             if cite['edition'] is not None:
                 require(sources['editions'][cite['edition']]['work_id']==cite['work_id'],rid)
             if data['topic'] == 'planets-in-signs' and cite['work_id'] == 'brihat-jataka' and cite['chapter'] == 18:

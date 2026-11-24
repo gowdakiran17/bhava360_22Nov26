@@ -22,6 +22,11 @@ aliases:
 reference_rules: []
 used_by:
 - kp.cusps.placidus
+- kp.judgement.cusp-unavailable
+- kp.judgement.denied
+- kp.judgement.mixed
+- kp.judgement.mixed-signals
+- kp.judgement.promised
 - kp.number-horary.arc
 - kp.significators.job-change
 - kp.star-sub-lords.subdivision

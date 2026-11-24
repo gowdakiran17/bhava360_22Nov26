@@ -67,7 +67,9 @@ def year_lord(candidates, aspects, scores, muntha_lord, moon_replacement=None):
         return None
     winner = winners[0]
     if winner=='moon':
-        return moon_replacement if moon_replacement!='moon' else None
+        if moon_replacement=='moon':
+            return year_lord([g for g in candidates if g!='moon'], aspects, scores, muntha_lord)
+        return moon_replacement
     return winner
 
 
@@ -81,7 +83,7 @@ def moon_successor(core, pos):
         partners = [g for t,g in hits if t==first]
         return partners[0] if len(partners)==1 else None
     ruler = RULERS[int(pos['moon'][0]%360//30)]
-    return ruler if ruler!='moon' else None
+    return ruler
 
 
 def saham(a,b,c):

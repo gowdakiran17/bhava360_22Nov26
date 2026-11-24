@@ -24,14 +24,15 @@ traditions_differ:
 - profile: western-editorial-v1
   note: Use the tropical chart and technique-specific orbs.
 sources:
-- book: 'Astrology: How to Make and Read Your Own Horoscope'
-  work_id: sepharial-astrology
-  edition: sepharial-1920-pg46963
+- book: null
+  work_id: null
+  edition: null
   chapter: null
   verse: null
-  other_locator: The Signs of the Zodiac; The Planets; The Houses
-  supports: Background method; the application and reflective wording are editorial.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 confidence: medium
 review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
 user_text:

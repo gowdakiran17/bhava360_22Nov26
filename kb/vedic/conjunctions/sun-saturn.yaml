@@ -23,11 +23,13 @@ sources:
 - book: Brihat Jataka
   work_id: brihat-jataka
   edition: brihat-jataka-iyer-brihatjataka00varaiala
-  chapter: null
+  chapter: ch.14 two-planet combinations
   verse: null
-  other_locator: II.13 full aspects; XIV paired planets
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Brihat Jataka chapter numbering is stable across editions.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
