@@ -13,29 +13,44 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: venus
-meaning: When considering everyday communication, you may find a chance to make room for others.
+meaning: With siblings or other relatives, you can make room for another view.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: House 3 theme: KB uses everyday communication; the edition frames house
+    3 around brothers/kin and the route of departure from life (with illness), not communication.'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Shukra chapter, house 3 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 490-495
   verse: null
-  other_locator: lal-kitab.placements.venus-house-3
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 506-509 (printed 439-442)
+  pdf_page: 506-509
+  printed_page: 439-442
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 463
+  pdf_page: '463'
+  locator_note: heading
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering everyday communication, you may find a chance to make room for others.
-  kn: ದಿನನಿತ್ಯದ ಸಂವಹನ ಕುರಿತು ಇತರರಿಗೆ ಅವಕಾಶ ಕೊಡಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: रोज़ का संवाद पर विचार करते हुए दूसरों को जगह देने का अवसर मिल सकता है।
+  en: With siblings or other relatives, you can make room for another view.
+  kn: ಒಡಹುಟ್ಟಿದವರು ಅಥವಾ ಬಂಧುಗಳ ಜೊತೆ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯಕ್ಕೂ ಅವಕಾಶ ಕೊಡಬಹುದು.
+  hi: भाई-बहनों या रिश्तेदारों के साथ आप दूसरे नज़रिये को जगह दे सकते हैं।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +64,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

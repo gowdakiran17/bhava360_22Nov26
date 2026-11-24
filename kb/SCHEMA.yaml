@@ -428,8 +428,8 @@ glossary_approval: 'Glossary records omit approval; they remain review material.
   approval: draft until owner approval.'
 optional_rule_metadata:
   tag: CLASSICAL, MODERN, or MODERN/POPULAR lineage label.
-  native_review_needed: Private review flag for gated Lal Kitab placement copy awaiting a native speaker.
-  placement_source_status: Lal Kitab placement edition review (pending_source or verified). Private metadata.
+  native_review_needed: Private review flag for gated Lal Kitab copy awaiting a native speaker.
+  placement_source_status: Lal Kitab placement edition review (pending_source, verified_locator or verified). Private metadata.
   feature_gate: Registered explicit product gate; disabled entries have no public payload or route.
   aspect_direction: 'House-specific modifier: own target protects; otherwise use resolved chart-specific polarity.'
 source_verification:

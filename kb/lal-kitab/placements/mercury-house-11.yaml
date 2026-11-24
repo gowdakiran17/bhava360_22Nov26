@@ -13,29 +13,44 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: mercury
-meaning: When considering community support, you may find a chance to ask a question.
+meaning: When discussing fair pay, you can ask a question to understand the details.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: House 11 theme: KB uses community support; the edition frames house 11
+    as the seat of justice and the foundation of income/own earnings (Saturn owns, Jupiter pakka).'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Budh chapter, house 11 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 598-608
   verse: null
-  other_locator: lal-kitab.placements.mercury-house-11
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 644-646 (printed 574-576)
+  pdf_page: 644-646
+  printed_page: 574-576
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 548
+  pdf_page: '548'
+  locator_note: heading
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering community support, you may find a chance to ask a question.
-  kn: ಸಮುದಾಯದ ನೆರವು ಕುರಿತು ಪ್ರಶ್ನೆ ಕೇಳಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: समुदाय का सहारा पर विचार करते हुए सवाल पूछने का अवसर मिल सकता है।
+  en: When discussing fair pay, you can ask a question to understand the details.
+  kn: ನ್ಯಾಯವಾದ ಪ್ರತಿಫಲದ ಬಗ್ಗೆ ಮಾತನಾಡುವಾಗ ವಿವರ ತಿಳಿಯಲು ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು.
+  hi: उचित मेहनताने पर बात करते समय आप बात समझने के लिए सवाल पूछ सकते हैं।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +64,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

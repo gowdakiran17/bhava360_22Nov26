@@ -21,6 +21,8 @@ used_by:
 - jaimini.argala.intervention
 - jaimini.argala.obstruction
 - jaimini.argala.special-third
+- lal-kitab.placements.house-6
+- lal-kitab.placements.jupiter-house-6
 - lal-kitab.placements.ketu-house-1
 - lal-kitab.placements.ketu-house-10
 - lal-kitab.placements.ketu-house-11
@@ -33,6 +35,14 @@ used_by:
 - lal-kitab.placements.ketu-house-7
 - lal-kitab.placements.ketu-house-8
 - lal-kitab.placements.ketu-house-9
+- lal-kitab.placements.mars-house-6
+- lal-kitab.placements.mercury-house-6
+- lal-kitab.placements.moon-house-6
+- lal-kitab.placements.rahu-house-6
+- lal-kitab.placements.saturn-house-3
+- lal-kitab.placements.saturn-house-6
+- lal-kitab.placements.sun-house-6
+- lal-kitab.placements.venus-house-6
 - remedies.conduct.ketu
 - vastu.directions.centre
 - vedic.aspects.ketu-aspects-house-1

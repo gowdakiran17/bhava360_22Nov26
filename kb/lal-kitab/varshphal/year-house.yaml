@@ -16,16 +16,30 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Bhava360 engine and reading conventions
-  work_id: bhava360-engine-and-reading-conventions
-  edition: bhava360-engine-and-reading-conventions-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: 'Farman 13, varshphal method: general annual effect, timing by the Sun''s annual house and month/day/hour
+    charts'
   verse: null
-  other_locator: lal-kitab.varshphal.year-house
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 238-242 (printed 217-221)
+  pdf_page: 238-242
+  printed_page: 217-221
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: locator_medium
+  locator_note: General annual comparison method; specificity of support for this reading needs review.
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 232-237
+  pdf_page: 232-237
+  locator_note: heading (Chapter 12, annual predictions)
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
   en: You can compare this annual house with its natal reference.
   kn: ವಾರ್ಷಿಕ ಭಾವವನ್ನು ಅದರ ಜನ್ಮದ ಭಾವದೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
@@ -42,3 +56,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
+native_review_needed: true

@@ -1,8 +1,8 @@
 version: 1
 approval: draft
-frame: Match a graha to its fixed house in the selected Lal Kitab method. Use source-specific traits only. Optional
-  conduct prompts stay free.
-edition: Lal Kitab has several historical editions. Bind the exact edition before activating a trait.
+frame: Match a graha to its fixed house in the selected Lal Kitab method. Use source-specific traits only. Optional conduct
+  prompts stay free.
+edition: lal-kitab-joshi-1952-nagpal-2016
 tag: MODERN
 feature_gate: modern-study-v1
 readings:
@@ -128,6 +128,7 @@ pakka_ghar:
   - 2
   - 5
   - 9
+  - 11
   - 12
   venus:
   - 7
@@ -138,7 +139,7 @@ pakka_ghar:
   - 12
   ketu:
   - 6
-pakka_status: Candidate edition table; multiple rulers and editions differ. Admin study until locator checked.
+pakka_status: edition-located
 soya: A planet without a qualifying aspect to another planet under the selected Lal Kitab edition is a sleeping-planet
   candidate. Missing edition-specific aspect table means unknown. Do not substitute Parashari drishti.
 nadi:
@@ -155,3 +156,42 @@ accepted_conduct:
     en: If you like, you can listen without interrupting.
     kn: ಇಷ್ಟವಿದ್ದರೆ ನಡುವೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
     hi: चाहें तो बिना टोके सुन सकते हैं।
+  attribution: editorial
+sources:
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 6 kundli chart of pakka houses (image); Rahu/Ketu note; Farman 10 sign-owner vs pakka-house table;
+    Farman 15 general rule example for house 11; empty-house ownership note
+  verse: null
+  other_locator: Hindi PDF 50; 51; 185; 254; 113 (printed 29; 30; 164; 232; 92)
+  pdf_page: 50; 51; 185; 254; 113
+  printed_page: 29; 30; 164; 232; 92
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 106
+  pdf_page: '106'
+  locator_note: 'heading (Chapter 3 master chart: sign lord, exaltation, debilitation, fixed-house lord per house)'
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
+native_review_needed: true
+native_review:
+  kn: pending
+  hi: pending
+traditions_differ:
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: Jupiter: the edition''s chart (page 50), the sign table (page 185) and
+    the house 11 example (page 254) all make house 11 a Jupiter pakka house. The KB list has Jupiter 2, 5, 9, 12 and
+    omits 11. Mercury: the text (pages 113, 185, 652) also counts house 6 as jointly held by Mercury with Ketu, though
+    the chart shows Ketu alone; KB lists Mercury 7 only (minor). The English master chart (page 106) also gives Jupiter
+    as the fixed-house lord of 11 and lists Mercury with Ketu in the effect columns for 6. All other entries agree: Sun
+    1, Moon 4, Mars 3 and 8, Venus 7, Saturn 8 and 10, Rahu 12 (Jupiter shares 12 per page 51), Ketu 6.'
+edition_note: Use the chart and table for fixed houses. The worked example on Hindi PDF page 65 uses this term for sign
+  ownership.
+gaps:
+- 'Exaltation and debilitation by fixed house: Hindi PDF 78 and English PDF 106. Table reserved for later review.'

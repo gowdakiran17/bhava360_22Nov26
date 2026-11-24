@@ -13,29 +13,44 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: sun
-meaning: When considering shared duties, you may find a chance to take responsibility.
+meaning: When someone quietly offers help, you can choose a responsibility you can take on.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: House 6 theme: KB uses shared duties; the edition frames house 6 as the
+    underground/patala realm of hidden help and mercy, held by Ketu with Mercury, not duty-sharing.'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Suraj chapter, house 6 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 368-379
   verse: null
-  other_locator: lal-kitab.placements.sun-house-6
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 396-400 (printed 331-335)
+  pdf_page: 396-400
+  printed_page: 331-335
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 397
+  pdf_page: '397'
+  locator_note: heading
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering shared duties, you may find a chance to take responsibility.
-  kn: ಹಂಚಿಕೊಂಡ ಕೆಲಸ ಕುರಿತು ಜವಾಬ್ದಾರಿ ವಹಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: साझी ज़िम्मेदारियाँ पर विचार करते हुए जिम्मेदारी लेने का अवसर मिल सकता है।
+  en: When someone quietly offers help, you can choose a responsibility you can take on.
+  kn: ಯಾರಾದರೂ ಸದ್ದಿಲ್ಲದೆ ನೆರವು ನೀಡಿದಾಗ ನೀವು ವಹಿಸಬಹುದಾದ ಜವಾಬ್ದಾರಿಯನ್ನು ಆರಿಸಬಹುದು.
+  hi: जब कोई चुपचाप मदद करे, तब आप अपनी एक ज़िम्मेदारी तय कर सकते हैं।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +64,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

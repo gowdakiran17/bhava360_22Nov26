@@ -1,7 +1,7 @@
 version: 1
 approval: draft
-frame: Use the age-year placement table from the chosen Lal Kitab edition. Preserve year index and natal house as
-  inputs. Keep this annual chart distinct from the Tajika solar return.
+frame: Use the age-year placement table from the chosen Lal Kitab edition. Preserve year index and natal house as inputs.
+  Keep this annual chart distinct from the Tajika solar return.
 tag: MODERN
 feature_gate: modern-study-v1
 ages:
@@ -125,9 +125,36 @@ ages:
 - 118
 - 119
 - 120
-lookup: Use completed years + 1 and natal house 1..12. Require a transcribed row from a single edition and verified
-  locator. No cyclic extrapolation.
+lookup: Use completed years + 1 and natal house 1..12. Require a transcribed row from a single edition and verified locator.
+  No cyclic extrapolation.
 edition_rows: {}
-verification: unverified-pending-source
-edition: null
-edition_candidate: Pt. Roop Chand Joshi, Lal Kitab (1952); awaiting one authenticated edition and individual locators.
+verification: pending-double-entry
+edition: lal-kitab-joshi-1952-nagpal-2016
+sources:
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: 'Farman 13, varshphal table: ages 1-120 (rows) by natal house 1-12 (columns); the cell gives the annual house'
+  verse: null
+  other_locator: Hindi PDF 243-247 (printed 222-225A)
+  pdf_page: 243-247
+  printed_page: 222-225A
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 759-761
+  pdf_page: 759-761
+  locator_note: heading (appendix table for the annual chart)
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
+native_review_needed: true
+native_review:
+  kn: pending
+  hi: pending
+review_notes: Two readers must independently transcribe every permutation from the Hindi page images and reconcile differences.
+  The text layer is unreliable for ages 21, 78 and 86–107. Check ages 17 and 67 against images because Hindi and English
+  text layers disagree.

@@ -13,29 +13,45 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: ketu
-meaning: When considering an interest you enjoy, you may find a chance to simplify a routine.
+meaning: You can ask a child what they would like to see on a journey.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: House 5 theme: KB uses an interest you enjoy; the edition frames house
+    5 primarily as progeny and the future era of children. Planet theme: KB uses simplify a routine; the edition treats
+    Ketu as sons/nephews, travel and movement, dogs and the feet, and offers no simplification theme.'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Ketu chapter, house 5 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 760-765
   verse: null
-  other_locator: lal-kitab.placements.ketu-house-5
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 777-779 (printed 706-708)
+  pdf_page: 777-779
+  printed_page: 706-708
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 623
+  pdf_page: '623'
+  locator_note: heading
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering an interest you enjoy, you may find a chance to simplify a routine.
-  kn: ನಿಮ್ಮ ನೆಚ್ಚಿನ ಆಸಕ್ತಿ ಕುರಿತು ದಿನಚರಿ ಸರಳಗೊಳಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: अपनी पसंद की रुचि पर विचार करते हुए दिनचर्या सरल बनाने का अवसर मिल सकता है।
+  en: You can ask a child what they would like to see on a journey.
+  kn: ಪ್ರಯಾಣದಲ್ಲಿ ಏನು ನೋಡಲು ಇಷ್ಟ ಎಂದು ಮಗುವನ್ನು ಕೇಳಬಹುದು.
+  hi: आप किसी बच्चे से पूछ सकते हैं कि वह सफ़र में क्या देखना चाहेगा।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +65,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator
