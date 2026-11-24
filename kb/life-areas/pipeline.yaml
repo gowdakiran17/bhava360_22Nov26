@@ -108,6 +108,5 @@ sources:
   edition: null
   locator: Double-transit timing method (edition pending)
   verification: pending
-multi_house: Evaluate each recipe house and its lord. Pool one vote per factor by strict majority over the complete
-  house set; ties and incomplete majorities remain unknown. Missing Lagna at Tier C with insufficient independent
-  evidence withholds natal promise.
+multi_house: Bind the full recipe house set for both references. Use promise.house_priority for the natal band and retain
+  every bound house for period and transit checks. Missing Lagna withholds its natal promise.
