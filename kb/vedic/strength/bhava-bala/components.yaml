@@ -107,5 +107,10 @@ birth_time:
   twilight:
   - pisces
   window_tag: MODERN
-  window: 'Operational civil twilight: geometric solar centre at or above -6 degrees and below zero. Day at
-    or above zero; night below -6.'
+  window: Use observed apparent upper-limb sunrise/set from the rise-set convention; at standard sea-level conditions
+    the geometric centre is about -0.83°. Twilight extends from -6° to the apparent boundary, exclusive at its upper
+    end.
+  traditions_differ: CLASSICAL ghatika-based sandhya in Muhurta Chintamani / BPHS 27.31 and Raman, Bhava Bala. Operational
+    civil lower bound is MODERN.
+sunrise_binding: Prefer actual apparent upper-limb horizon status from the rise-set solver at the site over the standard
+  sea-level approximation.

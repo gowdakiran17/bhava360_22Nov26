@@ -1,0 +1,50 @@
+id: vedic.transits.rahu-lagna-house-10
+system: vedic
+topic: transits
+title: Rahu lagna house 10
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Locate rahu in the current whole-sign chart relative to the stable natal Lagna. Highlight livelihood, public
+  responsibilities during this sign interval. Judge Moon-relative comfort separately.
+conditions:
+  all:
+  - fact: transit.rahu.distance_from_lagna
+    op: eq
+    value: 10
+meaning: In matters of work responsibilities, exploring another approach may help you decide what to do next.
+life_areas:
+- career
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Vedic Astrology, An Integrated Approach
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: null
+  verse: null
+  other_locator: §25.3, other natal references
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: In matters of work responsibilities, exploring another approach may help you decide what to do next.
+  kn: ಕೆಲಸದ ಹೊಣೆಗಾರಿಕೆಗಳು ವಿಷಯದಲ್ಲಿ ಬೇರೆ ವಿಧಾನವನ್ನು ಪರಿಶೀಲಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
+  hi: काम की ज़िम्मेदारियाँ के मामलों में दूसरा तरीका आज़माना अगला कदम चुनने में मदद कर सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: transit
+  reference: lagna
+  area_strength:
+    career: related
+    business: related

@@ -17,6 +17,16 @@ aliases:
 - planetary war
 reference_rules: []
 used_by:
+- vedic.conjunctions.jupiter-saturn
+- vedic.conjunctions.jupiter-venus
+- vedic.conjunctions.mars-jupiter
+- vedic.conjunctions.mars-mercury
+- vedic.conjunctions.mars-saturn
+- vedic.conjunctions.mars-venus
+- vedic.conjunctions.mercury-jupiter
+- vedic.conjunctions.mercury-saturn
+- vedic.conjunctions.mercury-venus
+- vedic.conjunctions.venus-saturn
 - vedic.states.graha-yuddha
 - vedic.strength-shadbala.kala
 - vedic.strength-shadbala.yuddha

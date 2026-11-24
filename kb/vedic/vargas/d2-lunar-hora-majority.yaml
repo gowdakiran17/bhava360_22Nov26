@@ -1,0 +1,49 @@
+id: vedic.vargas.d2-lunar-hora-majority
+system: vedic
+topic: vargas
+title: D2 lunar hora majority
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'D2 lunar-hora-majority: more of the seven grahas in this hora than the other. Apply shared/confidence/output-matrix.yaml
+  to all inputs.'
+conditions:
+  all:
+  - fact: varga.d2.lunar_hora_majority
+    op: eq
+    value: true
+meaning: The two horas may help you reflect on how you gather and use resources.
+life_areas:
+- money
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 5–6
+  other_locator: null
+  supports: Divisional calculation background. The topic and interpretive selection are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: The two horas may help you reflect on how you gather and use resources.
+  kn: ಸಂಪನ್ಮೂಲಗಳನ್ನು ಹೇಗೆ ಒಗ್ಗೂಡಿಸಿ ಬಳಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप विचार कर सकते हैं कि आप संसाधन कैसे जुटाते और इस्तेमाल करते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength:
+    money: related
+release: post-mvp

@@ -127,7 +127,7 @@ class EngineExport(unittest.TestCase):
 
     def test_personal_calendar_projection(self):
         admin=self.docs['admin/catalog.json']
-        for hidden in ('ayu','mrita-age-state'):
+        for hidden in ('ayu','mrita-age-state','sade-sati','ashtama-shani','kantaka-shani'):
             path=f'glossary/entries/{hidden}.yaml'
             self.assertIn(path,admin['resources'])
             self.assertNotIn(path,admin['public_keys'])

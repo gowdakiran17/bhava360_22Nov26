@@ -121,10 +121,13 @@
 16b6e9c74ee8461d397a5c70730bd2afd1534140c679e16322e909307d20cd9f
 16c6063898b76ce95a0f030c51837e6aec164a128eb7d8f5578ee2798572c101
 16t00
+16t05
 16t06
 16t09
 16t18
+17t
 17t00
+17t05
 17t16
 184270db08738319b14d4ddc885aecef54f6b2b0728b17564b74e290315a1f75
 1851d9ef4d64d0aa0b5621c4af3a83ab70baaba9e904f97f1102423a0d7301cb
@@ -133,12 +136,14 @@
 18c869810cc48b41fffd0b7d5b4b2f7ea67a3fdd8214f7694bd082e3170bb978
 18d577b9876b7a990f48e18c0aa61e111f8833bb18a56c34d21bb1b196d4a248
 18t04
+18t05
 18t06
 18t09
 18t13
 18t18
 19t00
 19t03
+19t05
 19t16
 19t21
 1b4258b4a92d1d9c8e8f734e4886391def545dbccc38740881b36ab1eb9617dd
@@ -852,6 +857,7 @@ among
 amount
 amounts
 amrit
+amrita
 amulet
 amulets
 an
@@ -892,6 +898,7 @@ antars
 antipode
 antipodes
 antya
+anujanma
 anuradha
 any
 anything
@@ -944,6 +951,7 @@ arcsec
 arcsecond
 arcseconds
 ardha
+ardhashtama
 ardra
 are
 area
@@ -1061,6 +1069,7 @@ attribution
 au
 audience
 audit
+auspicious
 author
 authored
 authoring
@@ -1268,6 +1277,7 @@ block
 blocked
 blocker
 blockers
+blocking
 blocks
 blog
 blood
@@ -1543,6 +1553,7 @@ chandal
 chandala
 chandra
 chandrabala
+chandrashtama
 chandraya
 chandrika
 change
@@ -1565,6 +1576,7 @@ chart
 charts
 chatra
 chaturdashi
+chaturmas
 chaturthamsa
 chaturthi
 chaturvimsamsa
@@ -1834,6 +1846,7 @@ consuming
 contact
 contacts
 contain
+contained
 containing
 containment
 contains
@@ -2152,6 +2165,7 @@ deleting
 deletion
 delhi
 deliberate
+deliberately
 delimited
 delivery
 delta
@@ -2165,6 +2179,7 @@ denote
 dental
 dep
 departure
+departures
 depend
 dependable
 dependencies
@@ -2285,6 +2300,7 @@ discusses
 discussing
 discussion
 disease
+disha
 disjoint
 display
 displayed
@@ -2396,6 +2412,7 @@ duration
 durations
 during
 durmuhurta
+durmuhurtam
 durudhara
 dusk
 dusthana
@@ -2406,6 +2423,7 @@ dvadashi
 dvitiya
 dwadasamsa
 dwelling
+dwi
 dying
 e
 e09a4e8f2b3542b6bb6100436f9e452be8227617e6adbfa0f81a73dd2e7216e5
@@ -2499,6 +2517,7 @@ ef3733d5442cf7345afdb20d91a6cda1c0a9b1f8453f3fa042579fd5ebb0f580
 ef722c57bad9e634f52728d117c25c752e5aa41834d934c29e32cee64a324812
 effect
 effective
+effectively
 effects
 effort
 efforts
@@ -2516,6 +2535,7 @@ elapsed
 elders
 election
 electional
+elections
 electronic
 element
 elemental
@@ -2599,6 +2619,7 @@ enumerate
 enumerates
 environment
 enw
+ep
 ephemeris
 epoch
 epsilon
@@ -2720,8 +2741,10 @@ explaining
 explains
 explanation
 explanations
+explanatory
 explicit
 explicitly
+exploration
 explore
 exploring
 export
@@ -2769,6 +2792,7 @@ f9870b85e65f90c937bc75beb759e34d2a45ef7772de4ca4dc779d21435ac3da
 f9d23a7c762dfacca709128f746584a2a0c9d35f2537234d596c435175ed1767
 fa4398d2edb15b96dfca7f5f160351602b85e34fbd8ec001404ce99cde2c3a4a
 fa95ad7e6dc8a292a94d280528d16fbb64f8db1ad41a125340b631f809b6a40a
+fabricated
 face
 faces
 facing
@@ -2847,6 +2871,7 @@ fields
 fierce
 fifteen
 fifteenth
+fifteenths
 fifth
 figure
 file
@@ -3003,9 +3028,11 @@ further
 future
 fy
 g
+g1
 ga
 gada
 gadaa
+gadiya
 gain
 gains
 gaja
@@ -3048,6 +3075,7 @@ gently
 geocentric
 geographical
 geometric
+geometrically
 geometry
 gesture
 get
@@ -3057,6 +3085,8 @@ gets
 getting
 gh
 gha
+ghati
+ghatika
 ghatis
 gi
 gift
@@ -3105,6 +3135,7 @@ grahas
 grain
 gram
 grand
+grants
 great
 greater
 green
@@ -3148,6 +3179,7 @@ h14
 h16
 h28
 h43
+h7
 ha
 habit
 habits
@@ -3213,6 +3245,7 @@ hermit
 hesitant
 hex
 hexdigest
+hhmm
 hi
 hidden
 hide
@@ -3220,6 +3253,7 @@ hierophant
 high
 higher
 highest
+highlight
 highlighted
 hindi
 hindu
@@ -3233,12 +3267,14 @@ hit
 hits
 hmac
 ho
+holashtak
 hold
 holding
 holds
 home
 homes
 honest
+honolulu
 hop
 hope
 hopes
@@ -3295,6 +3331,7 @@ ideal
 ideals
 ideas
 identical
+identification
 identified
 identifier
 identifiers
@@ -3326,6 +3363,7 @@ imaginative
 img
 immediate
 immediately
+impaired
 impatience
 implementation
 implementations
@@ -3391,6 +3429,7 @@ inference
 inferred
 influence
 influences
+info
 information
 infrastructure
 ing
@@ -3492,6 +3531,9 @@ invent
 invented
 inventories
 inventory
+invert
+invisibility
+invisible
 invitation
 invite
 invites
@@ -3652,6 +3694,7 @@ keys
 keywords
 kh
 khala
+kharmas
 khavedamsa
 ki
 kimstughna
@@ -3762,6 +3805,8 @@ later
 latin
 latitude
 latitudes
+latta
+latter
 launch
 law
 laws
@@ -3929,6 +3974,7 @@ m133
 m149
 m153
 m47
+m5
 m51
 m54
 m56
@@ -4222,6 +4268,7 @@ multiplier
 multipliers
 multiply
 mumbai
+murti
 musala
 muscles
 must
@@ -4278,6 +4325,7 @@ narrower
 narrowing
 narrows
 nasa
+nashaya
 nat
 natal
 nathonnata
@@ -4585,6 +4633,7 @@ p3
 pa
 paasa
 pace
+pacific
 pack
 package
 pad
@@ -4688,6 +4737,7 @@ peer
 peetham
 peligro
 penalties
+penalty
 pending
 pentacles
 people
@@ -4703,6 +4753,7 @@ period
 periodic
 periods
 peripheral
+permanent
 permeable
 permission
 permit
@@ -4841,6 +4892,7 @@ pradosham
 pradoshdates
 prajapati
 prakarana
+prakaranas
 prashna
 prasna
 prastara
@@ -4859,6 +4911,7 @@ precious
 precise
 precision
 precisions
+precludes
 predicate
 predicates
 prediction
@@ -5002,6 +5055,7 @@ purva
 push
 pusha
 pushan
+pushkar
 pushya
 put
 putra
@@ -5167,6 +5221,7 @@ receipt
 receipts
 receive
 received
+receiver
 receives
 receiving
 recent
@@ -5207,6 +5262,7 @@ recovery
 rectangular
 rectification
 rectified
+recurrence
 recurring
 recursion
 recursive
@@ -5243,6 +5299,7 @@ regards
 regenerate
 region
 regional
+regions
 register
 registered
 registers
@@ -5270,12 +5327,14 @@ relatives
 relax
 release
 released
+releases
 relevance
 relevant
 reliable
 relief
 reliefs
 relies
+relieve
 religion
 religious
 relocated
@@ -5383,6 +5442,7 @@ restore
 restoring
 restrict
 restricted
+restriction
 restrictions
 result
 resulting
@@ -5448,6 +5508,7 @@ rises
 rising
 risk
 risks
+ritu
 ritual
 rituals
 rm
@@ -5544,8 +5605,10 @@ samples
 samudaaya
 samudra
 samudrika
+samvatsara
 sanatan
 sandhi
+sandhya
 sanjay
 sankata
 sankha
@@ -5566,6 +5629,7 @@ saraswati
 saravali
 sarp
 sarpa
+sarvartha
 sarvashtakavarga
 sastri
 sat
@@ -5615,11 +5679,13 @@ scores
 scoring
 scorpio
 screen
+screening
 screens
 script
 scripts
 scriptures
 se
+sea
 seam
 seams
 search
@@ -5755,6 +5821,8 @@ shodasamsa
 shodasavarga
 shodhana
 shodhya
+shool
+shoola
 shoot
 short
 shortcut
@@ -5774,6 +5842,7 @@ shringataka
 shu
 shubh
 shubha
+shubhashubha
 shuffle
 shuffled
 shukla
@@ -5837,6 +5906,7 @@ six
 sixteen
 sixteenth
 sixth
+sixtieth
 sixty
 sixtyfold
 sizes
@@ -5885,6 +5955,7 @@ solitude
 solution
 solve
 solved
+solver
 solving
 soma
 some
@@ -5903,6 +5974,7 @@ source
 sourced
 sources
 south
+southbound
 southeast
 southern
 southwest
@@ -6132,6 +6204,8 @@ surroundings
 survive
 survives
 surviving
+survivor
+survivors
 surya
 suryanarain
 suryaya
@@ -6158,6 +6232,7 @@ swift
 swing
 swiss
 swisseph
+switches
 swords
 syllable
 syllables
@@ -6217,6 +6292,7 @@ tanu
 tara
 tarabala
 target
+targeted
 targets
 tarot
 task
@@ -6342,6 +6418,7 @@ titles
 to
 today
 together
+toggles
 toilet
 token
 tokens
@@ -6436,6 +6513,7 @@ tribhaga
 trie
 tried
 trigger
+trijanma
 trikalam
 trikona
 trilingual
@@ -6483,6 +6561,7 @@ twin
 twins
 two
 txt
+tyajyam
 type
 typed
 typeerror
@@ -6519,7 +6598,9 @@ unassociated
 unauthorized
 unavailable
 unbiased
+unblocked
 unbound
+unbracketed
 uncancelled
 uncertain
 uncertainty
@@ -6579,6 +6660,7 @@ unordered
 unproved
 unpublished
 unqualified
+unreachable
 unrecognised
 unrecognized
 unrecorded
@@ -6601,6 +6683,7 @@ unstable
 unstructured
 unsuitable
 unsupported
+unsupportive
 unsure
 untested
 until
@@ -6734,6 +6817,7 @@ victory
 vidya
 view
 viewbox
+viewed
 viewer
 viewpoints
 views
@@ -6886,8 +6970,10 @@ wind
 window
 windows
 winner
+winners
 winnowing
 wins
+winter
 wisdomlib
 wish
 with
@@ -6936,6 +7022,7 @@ wsw
 www
 x
 x27
+xiv
 xix
 xml
 xmlns
@@ -7071,6 +7158,7 @@ zones
 अर्जित
 अर्थ
 अर्थपूर्ण
+अर्धाष्टम
 अलग
 अवधि
 अवलोकन
@@ -7388,6 +7476,7 @@ zones
 ग्रहों
 घ
 घर
+घरेलू
 घरों
 घिरा
 घेरानुमा
@@ -8004,6 +8093,7 @@ zones
 भाव
 भावना
 भावनाएँ
+भावनाओं
 भावनात्मक
 भावों
 भी
@@ -8418,6 +8508,7 @@ zones
 सामने
 सामान
 सामान्य
+सामुदायिक
 सामूहिक
 सार्थक
 सार्वजनिक
@@ -8679,6 +8770,7 @@ zones
 ಅರ್ಥವಾಗುವ
 ಅರ್ಧದಲ್ಲೇ
 ಅರ್ಧಭಾಗ
+ಅರ್ಧಾಷ್ಟಮ
 ಅರ್ಹ
 ಅವಕಾಶ
 ಅವಕಾಶಗಳ
@@ -9048,6 +9140,7 @@ zones
 ಕರೆಗೆ
 ಕರ್ಕಾಟಕ
 ಕರ್ತವ್ಯ
+ಕರ್ತವ್ಯಗಳು
 ಕರ್ತವ್ಯವನ್ನು
 ಕಲಿಕೆ
 ಕಲಿಕೆಯ
@@ -9249,6 +9342,7 @@ zones
 ಗಮನಿಸಿದಾಗ
 ಗಮನಿಸುತ್ತಾ
 ಗಮನಿಸುವುದರಿಂದ
+ಗಮನಿಸುವುದು
 ಗರ್ಭಧಾರಣೆ
 ಗಳನ್ನು
 ಗಳಿಸಿದ
@@ -9381,6 +9475,7 @@ zones
 ಜಾಗದಿಂದ
 ಜಾಗವನ್ನು
 ಜಾರಿಗೆ
+ಜೀವನ
 ಜೀವನದ
 ಜೀವನದಲ್ಲಿ
 ಜೀವಿತಾವಧಿ
@@ -9428,6 +9523,7 @@ zones
 ತಾಳ್ಮೆ
 ತಾಳ್ಮೆಯ
 ತಾಳ್ಮೆಯಿಂದ
+ತಾಳ್ಮೆಯಿಂದಿರುವುದು
 ತಿಂಗಳನ್ನು
 ತಿಂಗಳು
 ತಿಥಿ
@@ -9816,6 +9912,7 @@ zones
 ಪ್ರವೇಶವಿರುವ
 ಪ್ರಶ್ನಿಸುವುದು
 ಪ್ರಶ್ನೆ
+ಪ್ರಶ್ನೆಗಳನ್ನು
 ಪ್ರಶ್ನೆಗಳಿಗೆ
 ಪ್ರಶ್ನೆಗಳು
 ಪ್ರಶ್ನೆಗೆ
@@ -10016,6 +10113,7 @@ zones
 ಭಾವದೊಂದಿಗೆ
 ಭಾವನಾತ್ಮಕ
 ಭಾವನೆ
+ಭಾವನೆಗಳನ್ನು
 ಭಾವನೆಗಳು
 ಭಾವನೆಯನ್ನು
 ಭಾವವನ್ನು
@@ -10149,6 +10247,7 @@ zones
 ಮೀಸಲಿಡಬಹುದು
 ಮೀಸಲಿಡುವಾಗ
 ಮುಂದಕ್ಕೆ
+ಮುಂದಾಗಿ
 ಮುಂದಾಗಿದ್ದೀರಿ
 ಮುಂದಾಳತ್ವ
 ಮುಂದಿನ
@@ -10306,6 +10405,7 @@ zones
 ವಹಿಸಿಕೊಳ್ಳುವಾಗ
 ವಹಿಸಿದರೆ
 ವಹಿಸುವ
+ವಹಿಸುವುದು
 ವಾತ್ಸಲ್ಯ
 ವಾರ
 ವಾರದ
@@ -10587,6 +10687,7 @@ zones
 ಸಹಜವಾಗಿ
 ಸಹಭಾಗಿತ್ವ
 ಸಹಭಾಗಿತ್ವದ
+ಸಹಮತವನ್ನು
 ಸಹವಾಸವು
 ಸಹಾನುಭೂತಿ
 ಸಹಾನುಭೂತಿಯಿಂದ

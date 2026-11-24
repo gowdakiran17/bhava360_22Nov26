@@ -1,0 +1,50 @@
+id: vedic.aspects.saturn-aspects-tenth-lord
+system: vedic
+topic: aspects
+title: Saturn aspects tenth lord
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind tenth-lord as receiver of the full saturn aspect. Use the target as a significator, without counting occupation
+  as an aspect.
+conditions:
+  all:
+  - fact: d1.aspect.saturn.tenth_lord
+    op: eq
+    value: true
+meaning: You can clarify who needs the result of your next task.
+life_areas:
+- career
+- business
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- book: Brihat Jataka
+  work_id: brihat-jataka
+  edition: brihat-jataka-iyer-brihatjataka00varaiala
+  chapter: null
+  verse: null
+  other_locator: II.13 full aspects; XIV paired planets
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You can clarify who needs the result of your next task.
+  kn: ನಿಮ್ಮ ಮುಂದಿನ ಕೆಲಸದ ಫಲ ಯಾರಿಗೆ ಬೇಕು ಎಂಬುದನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿಕೊಳ್ಳಬಹುದು.
+  hi: आप पता कर सकते हैं कि आपके अगले काम के नतीजे की ज़रूरत किसे है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    business: related

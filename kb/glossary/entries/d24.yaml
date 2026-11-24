@@ -17,4 +17,6 @@ aliases:
 reference_rules:
 - vedic.vargas.d24-placement
 used_by:
+- vedic.vargas.d24-fourth-lord-dignity
+- vedic.vargas.d24-mercury-dignity
 - vedic.vargas.d24-placement

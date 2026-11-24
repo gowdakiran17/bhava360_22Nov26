@@ -1,0 +1,68 @@
+approval: draft
+synthetic: true
+G1:
+  lagna: Capricorn
+  natal_moon: Libra
+  moving_saturn: Cancer
+  chips:
+  - reference: lagna
+    house: 7
+    reading: vedic.transits.saturn-lagna-house-7
+    topic: Responsibilities in agreements and partnership.
+  - reference: moon
+    house: 10
+    reading: vedic.transits.saturn-moon-house-10
+    experience: Clarifying priorities may help as work responsibilities change.
+H7:
+  lagna: Pisces
+  placements:
+    mars: Virgo
+    venus: Virgo 15 degrees
+    mercury: Capricorn
+    jupiter: Taurus
+  worksheet:
+  - Pisces rising, Virgo partnership house with Mars and Venus; Mercury in Capricorn (eleventh); Jupiter in Taurus
+    aspects Virgo by its fifth.
+  - Inspect Mercury dignity and grade if known. Check Mars and Venus as occupants, then Jupiter full aspect, then
+    the Venus karaka.
+  - Bhavat-bhavam is explanatory. Venus in mid Virgo can be in its own Taurus navamsa. This corroborates dignity only;
+    missing lord grade or SAV stays unknown. Use the shared promise count.
+  - The partnership lord reaches gains and networks. Venus in Taurus D9 qualifies the D1 debilitation. Check the bound
+    grade and other factors before giving a band.
+M5:
+  city: Bengaluru
+  range:
+  - '2032-03-18'
+  - '2032-03-20'
+  timezone: Asia/Kolkata
+  inputs: Boundary-stable, invented local windows. Partner Moon longitudes 30 and 346 degrees. Same fabricated limb
+    values isolate weekday and exclusion effects; these are not sky predictions.
+  candidates:
+  - - '2032-03-18'
+    - 09:00
+    - 09:12
+    - durmuhurta
+  - &id001
+    - '2032-03-18'
+    - 09:12
+    - 09:24
+    - Supportive
+  - &id002
+    - '2032-03-19'
+    - 09:12
+    - 09:24
+    - Supportive
+  - - '2032-03-20'
+    - 06:00
+    - 06:12
+    - durmuhurta
+  - &id003
+    - '2032-03-20'
+    - '10:48'
+    - '11:00'
+    - Steady
+  ranking: Rank survivors by shared tone order, then earliest start and end. See validated survivor tones.
+  ranked_survivors:
+  - *id001
+  - *id002
+  - *id003

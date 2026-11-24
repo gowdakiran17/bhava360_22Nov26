@@ -422,7 +422,7 @@ def main():
         if data['topic'] == 'planets-in-houses' and 'related_rules' in data:
             expected_fields.add('related_rules')
         if data['system'] == 'vedic' and data['topic'] == 'vargas':
-            expected_fields.add('varga')
+            expected_fields.add('varga' if rid.endswith('-placement') and 'varga' in data else 'release')
         if data['system'] == 'vedic' and data['topic'] == 'states':
             expected_fields.add('state')
         if data['topic'] == 'doshas' and rid.split('.')[-1] in ('nadi','bhakoot','ashtama-shani','sade-sati'):
@@ -558,6 +558,8 @@ def main():
     validate_vimshottari(rules,read,evaluate,require)
     from varga_charts import validate_vargas
     validate_vargas(rules, read, require)
+    from aspects import validate_aspects
+    validate_aspects(rules, read, evaluate, require)
     from ashtakavarga import validate_ashtakavarga
     validate_ashtakavarga(rules,read,evaluate,require)
     bindu=read('vedic/strength/ashtakavarga/bindu.yaml')

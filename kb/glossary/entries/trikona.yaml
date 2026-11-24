@@ -111,6 +111,9 @@ used_by:
 - vedic.planets-in-houses.venus-house-5
 - vedic.planets-in-houses.venus-house-9
 - vedic.strength-ashtakavarga.shodhana
+- vedic.vargas.d10-lagna-lord-placement
+- vedic.vargas.d10-tenth-lord-placement
+- vedic.vargas.d9-lagna-lord-placement
 - vedic.yogas.raja
 approval: draft
 native_review:

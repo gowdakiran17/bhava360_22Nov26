@@ -1,6 +1,7 @@
 version: 1
 approval: draft
-scope: Internal policy worksheets. Scenario B1 supplies invented component traces to isolate a crossing; it is not an ephemeris chart. For Dev, the query and post-ladder result are test inputs, not a personal prediction.
+scope: Internal policy worksheets. Scenario B1 supplies invented component traces to isolate a crossing; it is not
+  an ephemeris chart. For Dev, the query and post-ladder result are test inputs, not a personal prediction.
 dev:
   fixture: Dev
   local: '1995-01-05T12:00:00'
@@ -13,10 +14,18 @@ dev:
   moon_provenance:
     backend: Swiss Ephemeris 2.10.03, Moshier, Lahiri mode 1, apparent geocentric
     interval: Chennai local civil date, elapsed seconds from midnight
-    longitude_start_noon_end_deg: [304.327828288, 311.094229178, 317.742913385]
-    method: The Moon advances prograde through the date in Aquarius. Bracket the sole nakshatra crossing between these bounding longitudes by bisection on calc_ut; the first whole second after the crossing is 14847.
-    nakshatra_crossing_bracket_seconds: [14846, 14847]
-    sun_start_end_deg: [260.144209786, 261.163747618]
+    longitude_start_noon_end_deg:
+    - 304.327828288
+    - 311.094229178
+    - 317.742913385
+    method: The Moon advances prograde through the date in Aquarius. Bracket the sole nakshatra crossing between these
+      bounding longitudes by bisection on calc_ut; the first whole second after the crossing is 14847.
+    nakshatra_crossing_bracket_seconds:
+    - 14846
+    - 14847
+    sun_start_end_deg:
+    - 260.144209786
+    - 261.163747618
   stable:
     moon-sign: aquarius
     moon-house-term: 1
@@ -27,19 +36,53 @@ dev:
     post-ladder-grade: Strong
   expected_default: hide
   expected_changes:
-    show: [moon-transits, daily-panchang, promise-significator, promise-moon-relative, strength-house-term]
-    cap-moderate: [final-card-grade]
+    show:
+    - moon-transits
+    - daily-panchang
+    - promise-significator
+    - promise-moon-relative
+    - strength-house-term
+    cap-moderate:
+    - final-card-grade
 b1:
   label: Scenario B1 (synthetic component test)
-  precision: "±15 min"
+  precision: ±15 min
   rectified: false
   bound_varga: d10
-  notes: Every required result in this test has a complete constant trace except the specified D10 crossing and moving period bounds. Both possible boundary dates lie in the same respective months.
+  notes: Every required result in this test has a complete constant trace except the specified D10 crossing and moving
+    period bounds. Both possible boundary dates lie in the same respective months.
   d10_crossing_seconds_after_working_instant: 180
-  antar_bounds_before: ['2026-11-04', '2027-02-12']
-  antar_bounds_after: ['2026-11-06', '2027-02-16']
+  antar_bounds_before:
+  - '2026-11-04'
+  - '2027-02-12'
+  antar_bounds_after:
+  - '2026-11-06'
+  - '2027-02-16'
   expected_default: show
   expected_changes:
-    hide: [d10, d24, d60, kp-cuspal-sub-lords, kp-house-significators, kp-cuspal-prashna, pratyantar-windows, sookshma-windows, peak-month, peak-day, promise-varga-lagna]
-    month-resolution: [maha-dates, antar-dates, event-window]
-    cap-moderate: [final-card-grade]
+    hide:
+    - d10
+    - d24
+    - d60
+    - kp-cuspal-sub-lords
+    - kp-house-significators
+    - kp-cuspal-prashna
+    - pratyantar-windows
+    - sookshma-windows
+    - peak-month
+    - peak-day
+    - promise-varga-lagna
+    - d27
+    - d40
+    - d45
+    - d24-planet-sign
+    - d27-planet-sign
+    - d40-planet-sign
+    - d45-planet-sign
+    - d60-planet-sign
+    month-resolution:
+    - maha-dates
+    - antar-dates
+    - event-window
+    cap-moderate:
+    - final-card-grade

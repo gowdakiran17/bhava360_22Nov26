@@ -16,6 +16,10 @@ admin_note: 'Application in vedic.doshas.grahan: The natal Sun or Moon shares a 
 aliases: []
 reference_rules: []
 used_by:
+- vedic.conjunctions.moon-ketu
+- vedic.conjunctions.moon-rahu
+- vedic.conjunctions.sun-ketu
+- vedic.conjunctions.sun-rahu
 - vedic.doshas.grahan
 public_label:
   en: Sun or Moon near a lunar node

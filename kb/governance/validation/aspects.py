@@ -1,0 +1,30 @@
+"""Full graha aspects and distinct same-sign pairs on the whole-sign D1 chart."""
+from itertools import combinations
+
+
+def reaches(source, target, distances):
+    if source is None or target is None:
+        return None
+    return 1+(target-source)%12 in distances
+
+
+def validate_aspects(rules, read, evaluate, require):
+    table=read('vedic/aspects/full-graha.yaml')['inclusive_distances']
+    for graha, offsets in table.items():
+        for h in range(1,13):
+            row=rules[f'vedic.aspects.{graha}-aspects-house-{h}']
+            key=f'd1.aspect.{graha}.house_{h}'
+            for source in [None,*range(12)]:
+                v=reaches(source,h-1,offsets)
+                require(evaluate(row['conditions'],{key:v}) is v, row['id'])
+            require(row['exceptions'][0]['when']['fact']=='d1.aspect.source_impaired',row['id'])
+    for body in ('mars','jupiter','saturn'):
+        for target in ('moon','venus','seventh-lord','tenth-lord'):
+            require(f'vedic.aspects.{body}-aspects-{target}' in rules,target)
+    for a,b in combinations(table,2):
+        row=rules[f'vedic.conjunctions.{a}-{b}']
+        key=f'd1.conjunction.{a}_{b}'
+        for x,y,want in [(29.99,29.999,True),(29.99,30,False),(0,180,False),(None,0,None)]:
+            actual=None if x is None else int(x//30)==int(y//30)
+            require(evaluate(row['conditions'],{key:actual}) is want,key)
+    require(reaches(2,6,table['jupiter']) and not reaches(2,6,table['rahu']),'H7 full fifth aspect')

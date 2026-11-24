@@ -40,7 +40,7 @@ def validate_vargas(rules, read, require):
     ten = [3,1.5,1.5,0,1.5,1.5,1.5,1.5,1.5,0,0,0,1.5,0,0,5]
     require(sum(sixteen)==sum(ten)==20, 'Vimshopaka normalization')
     require([m['chart'] for m in methods]==[f'D{n}' for n in factors], 'sixteen method rows')
-    records = {r['id']:r for r in rules.values() if r['system']=='vedic' and r['topic']=='vargas'}
+    records = {r['id']:r for r in rules.values() if r['system']=='vedic' and r['topic']=='vargas' and 'varga' in r}
     require(set(records)=={f'vedic.vargas.d{n}-placement' for n in factors}, 'sixteen varga entries')
     checked = 0
     for n,m,w16,w10 in zip(factors, methods, sixteen, ten):
@@ -81,3 +81,8 @@ def validate_vargas(rules, read, require):
                 checked += len(probes)
         require(calculate(calc,Fraction(360),signs)==m['sign_lookup'][signs[0]][0],rid+' zodiac wrap')
     print(f'{checked} synthetic varga sign comparisons passed across 16 charts, including every whole degree and division boundary.')
+    area=[r for r in rules.values() if r['topic']=='vargas' and 'release' in r]
+    for row in area:
+        division=row['id'].split('.')[-1].split('-')[0]
+        require(row['release']==('mvp' if division in ('d9','d10') else 'post-mvp'),row['id'])
+    require(len(area)==19,'area varga readings')

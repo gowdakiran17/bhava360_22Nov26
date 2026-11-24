@@ -1,0 +1,104 @@
+approval: draft
+sources:
+- work_id: pyjhora-panchanga
+  edition: pyjhora-panchanga-506
+  locator: jhora/const.py amrita_gadiya_varjyam_star_map; sarvartha_siddha_yoga; amrita_siddha_yoga_dict; disha_shool_map;
+    jhora/panchanga/drik.py durmuhurtam
+  verification: verified
+- work_id: muhurta-chintamani
+  edition: muhurta-chintamani-miu
+  locator: Shubhashubha prakarana; regional combinations
+  verification: pending
+tag: CLASSICAL / POPULAR
+sarvartha:
+  sunday:
+  - hasta
+  - mula
+  - uttara-ashadha
+  - uttara-phalguni
+  - uttara-bhadrapada
+  - ashwini
+  - pushya
+  monday:
+  - shravana
+  - rohini
+  - mrigashira
+  - pushya
+  - anuradha
+  tuesday:
+  - ashwini
+  - uttara-bhadrapada
+  - krittika
+  - ashlesha
+  wednesday:
+  - rohini
+  - anuradha
+  - hasta
+  - krittika
+  - mrigashira
+  thursday:
+  - revati
+  - anuradha
+  - ashwini
+  - punarvasu
+  - pushya
+  friday:
+  - revati
+  - anuradha
+  - ashwini
+  - punarvasu
+  - shravana
+  saturday:
+  - shravana
+  - rohini
+  - swati
+amrita_siddhi:
+  sunday: hasta
+  monday: mrigashira
+  tuesday: ashwini
+  wednesday: anuradha
+  thursday: pushya
+  friday: revati
+  saturday: rohini
+pushkar:
+  weekdays:
+  - sunday
+  - tuesday
+  - saturday
+  paksha_tithis:
+  - 2
+  - 7
+  - 12
+  dwi:
+  - mrigashira
+  - chitra
+  - dhanishta
+  tri:
+  - krittika
+  - punarvasu
+  - uttara-phalguni
+  - vishakha
+  - uttara-ashadha
+  - purva-bhadrapada
+ravi:
+  inclusive_star_distances_from_sun:
+  - 4
+  - 6
+  - 9
+  - 10
+  - 13
+  - 20
+pushya:
+  guru: thursday
+  ravi: sunday
+  star: pushya
+chandrashtama: Eighth sign inclusively from participant Moon, caution for new starts and travel.
+disha_shoola:
+  sunday: west
+  monday: east
+  tuesday: north
+  wednesday: north
+  thursday: south
+  friday: west
+  saturday: east
+role: Soft context only; auspicious combinations never override a hard exclusion.

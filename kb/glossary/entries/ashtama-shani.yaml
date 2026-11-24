@@ -18,3 +18,4 @@ reference_rules: []
 used_by:
 - vedic.doshas.ashtama-shani
 - vedic.transits.ashtama-shani
+visibility: admin-only

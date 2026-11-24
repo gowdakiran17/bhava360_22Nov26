@@ -34,6 +34,7 @@ POLICIES.update({
     'commercial or fearful': r'\b(?:lucky|not compatible|gem(?:stones?)?|crystals?|sapphires?|paid puja|lifespan|longevity|die|widow(?:ed)?|immediately|disasters?|terrible|risks?)\b|रत्न|ರತ್ನ|जोखिम|आयु(?!र्वेद|ष्मान)|ಆಯುಷ್ಯ|(?<![\u0900-\u097f])मृत(?:\s|$)',
     'ordinal lord': rf'\b(?:{ORDINAL}) lord\b|\blord of (?:the )?(?:{NUMBER})\b',
     'house ordinal': r'(?:पहला|पहले|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ांे]+|छठ[ाे]|सातव[ााँें]+|आठव[ाें]+|नौव[ाें]+|दसव[ाें]+|ग्यारहव[ाें]+|बारहव[ाें]+|\d+व[ााँें]+)\s*घर|(?:ಮೊದಲ|ಎರಡನೇ|ಮೂರನೇ|ನಾಲ್ಕನೇ|ಐದನೇ|ಆರನೇ|ಏಳನೇ|ಎಂಟನೇ|ಒಂಬತ್ತನೇ|ಹತ್ತನೇ|ಹನ್ನೊಂದನೇ|ಹನ್ನೆರಡನೇ|\d+ನೇ)\s*ಮನೆ',
+    'private phase name': r's[aā][dḍ]e[ -]*s[aā]ti|(?:kantaka|ardhashtama|ashtama)[ -]*shani|साढ़े\s*साती|(?:कंटक|अष्टम|अर्धाष्टम)\s*शनि|ಸಾಡೇ\s*ಸಾತಿ|(?:ಕಂಟಕ|ಅಷ್ಟಮ|ಅರ್ಧಾಷ್ಟಮ)\s*ಶನಿ',
     'rating': r'\b\d+\s+out of\s+10\b',
 })
 PATTERNS = {name: re.compile(pattern, re.I) for name, pattern in POLICIES.items()}

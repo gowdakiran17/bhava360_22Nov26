@@ -6,7 +6,7 @@ scope: Classical per-Lagna lists (BPHS chapter 34 and Laghu Parashari chapter 2)
 precedence: [lagna-lord, kendra-and-trikona, luminary-eighth, trikona-with-eighth-exception, eighth, three-six-eleven, pure-kendra, two-or-twelve]
 kendradhipati_policy: The flag indicates eligibility. Apply to a naturally benefic Mercury or waxing Moon under the natural profile; a naturally malefic pure kendra lord also resolves Neutral. Strong qualifies Jupiter or Venus in a dual Lagna.
 mt_policy: On dual ownership keep the MT house for commentary. The MT annotation does not override the selected per-Lagna list.
-node_policy: Use the resolved occupied-house testimony first, then association, then sign dispositor. A node never acquires a yoga flag. Missing chart data is unknown.
+node_policy: Use the resolved occupied-house testimony first, then association, then sign dispositor. Node ownership is always empty. Evaluate the separate conditional association flag for the current chart. Missing chart data is unknown.
 traditions_differ: Generic ownership and dispositor-only node readings remain alternatives. The default gives priority to the individual classical Lagna lists.
 maraka_policy: Staff metadata only. Excluded from tone, public copy and longevity assessment.
 sources:
@@ -134,3 +134,8 @@ cells:
     saturn: {houses_ruled: [11, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, has_dual_lordship: true, polarity: Malefic, mt_house: 12}
     rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, has_dual_lordship: false, polarity: null, rule: occupied-association-dispositor}
     ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, has_dual_lordship: false, polarity: null, rule: occupied-association-dispositor}
+conditional_flags:
+  node_yogakaraka: 'BPHS ch.34: a node in a kendra associated with a trikona lord, or in a trikona associated with
+    a kendra lord, can participate in yoga. This chart-dependent flag grants no permanent sign ownership.'
+  eighth_lord: 'Laghu Parashari: Aries Mars and Libra Venus own both Lagna and the eighth; do not apply a separate
+    eighth-lord penalty.'

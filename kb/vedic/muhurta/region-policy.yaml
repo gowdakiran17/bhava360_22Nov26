@@ -1,0 +1,46 @@
+approval: draft
+selection: General Indian draft. Opt-in northern regional seasons and local Panchaka restrictions; store chosen switches
+  with each query.
+toggles:
+  kharmas:
+    when: Sidereal Sun in Sagittarius or Pisces.
+    activities:
+    - marriage
+    - griha-pravesha
+    default: true
+  asta:
+    when: Guru or Shukra combust under the selected profile. Regional alternative uses observed local invisibility
+      days instead.
+    activities:
+    - marriage
+    default: true
+  adhika:
+    when: Intercalary lunar month (no ingress between consecutive new moons).
+    activities:
+    - marriage
+    - griha-pravesha
+    default: true
+  chaturmas:
+    when: Ashadha Shukla Ekadashi through Kartika Shukla Ekadashi, ending at the latter observance.
+    activities:
+    - marriage
+    default: false
+  holashtak:
+    when: Phalguna Shukla Ashtami through Purnima inclusive.
+    activities:
+    - marriage
+    - griha-pravesha
+    default: false
+  panchaka:
+    when: Sidereal Moon in [300,360) degrees, Dhanishta second half through Revati. Regional travel restriction applies
+      to southbound departures.
+    activities:
+    - travel
+    - griha-pravesha
+    default: false
+sources:
+- work_id: muhurta-chintamani
+  edition: muhurta-chintamani-miu
+  locator: Vivaha and Shubhashubha prakaranas; regional rules require review.
+  verification: pending
+visibility_variant_id: asta-visibility-days

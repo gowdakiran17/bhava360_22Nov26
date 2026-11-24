@@ -1,0 +1,49 @@
+id: vedic.vargas.d7-jupiter-dignity
+system: vedic
+topic: vargas
+title: D7 jupiter dignity
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: 'D7 jupiter-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+  to all inputs.'
+conditions:
+  all:
+  - fact: varga.d7.jupiter_dignity
+    op: eq
+    value: true
+meaning: You may explore how you offer guidance and share the work of caring for others.
+life_areas:
+- children
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
+    convention.
+sources:
+- work_id: bphs
+  edition: bphs-varga-web
+  book: Brihat Parashara Hora Shastra
+  chapter: 6
+  verse: 10–11
+  other_locator: null
+  supports: Divisional calculation background. The topic and interpretive selection are editorial.
+  verification: pending
+confidence: medium
+review_notes: Editorial application. Native Kannada and Hindi review pending.
+user_text:
+  en: You may explore how you offer guidance and share the work of caring for others.
+  kn: ನೀವು ಹೇಗೆ ಮಾರ್ಗದರ್ಶನ ನೀಡುತ್ತೀರಿ ಮತ್ತು ಆರೈಕೆಯ ಕೆಲಸವನ್ನು ಹಂಚಿಕೊಳ್ಳುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि आप मार्गदर्शन कैसे देते हैं और देखभाल की ज़िम्मेदारी कैसे बाँटते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength:
+    children: related
+release: post-mvp

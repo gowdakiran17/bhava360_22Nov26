@@ -60,3 +60,9 @@ Ten summary recipes use the five-stage pipeline. Eight ordered conflict rules, n
 ## KB-38 and KB-41
 
 Eleven area recipes feed the KB-36 pipeline. Nine Maha and 81 Antar readings reference the shared modulation table. Eighteen lord-specific readings cover Pratyantar and Sookshma at Tier A. Eleven timing scenarios exercise period relevance, cancellation, D9 corroboration and window limits. The yoga catalogue now covers 82 formations, including all 32 Nabhasa patterns. Each has a chart hit and miss, cancellation checks, a participant-strength gate and an activation test. The authoring inventory is 1,892 reading rules across ten systems and 685 registered facts. [Area recipes](life-areas/recipes.yaml) · [Yoga activation](vedic/yogas/activation.yaml) · [Scenario charts](examples/yoga-charts.yaml)
+
+## Batch 3 · KB-39, KB-40 and KB-42
+
+The inventory contains 2,175 reading rules across ten systems and 897 registered facts. This batch adds 108 Lagna transit topics, 108 full aspects to houses, 12 targeted aspects, 36 same-sign pairs and 19 area-varga readings. Nine divisional readings are eligible for MVP synthesis. Ten are reserved for later releases. Eleven transit-area predicate maps and eight election activity profiles use the shared confidence and regional gates. The confidence matrix has 66 rows.
+
+Classical locators awaiting edition checks retain pending status. Election offset and weekday tables were checked in the PyJHora 5.0.6 distribution. Murti nirnaya, Latta and node Vedha as independent transit readings, and Samvatsara, Ritu and Ayana names, are deferred. Election-star obstruction is a required input to marriage screening. New copy is draft and awaits Kannada and Hindi native review. [Synthetic worksheets](examples/transits-vargas-elections.yaml)

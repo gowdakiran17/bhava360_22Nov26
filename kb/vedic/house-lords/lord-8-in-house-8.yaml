@@ -103,8 +103,8 @@ remedy:
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನೀವು ಚರ್ಚಿಸಲು ಬಯಸುವ ಒಂದು ಹಂಚಿಕೆಯ ಜವಾಬ್ದಾರಿಯನ್ನು ಬರೆದಿಡಬಹುದು.
     hi: "चाहें तो कोई एक साझी ज़िम्मेदारी लिख सकते हैं जिस पर आप बात करना चाहते हैं।"
 evidence:
-  direction: caution
-  weight_class: primary
+  direction: neutral
+  weight_class: modifier
   time_scope: natal
   reference: lagna
   area_strength:

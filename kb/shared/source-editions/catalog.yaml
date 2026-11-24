@@ -1,5 +1,6 @@
 version: 1
 works:
+  pyjhora-panchanga: PyJHora Panchanga tables and local intervals
   pyjhora-yoga: PyJHora yoga implementation
   modern-elemental-hands: Palmistry handouts
   samudrika-kara: Kara-lakkhana (Samudrika Shastra)
@@ -77,6 +78,7 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  pyjhora-panchanga-506: {work_id: pyjhora-panchanga, edition_id: pyjhora-panchanga-506, title_as_printed: PyJHora, language: Python, publication_details: PyPI 5.0.6 wheel, text: [https://pypi.org/project/PyJHora/5.0.6/], verified_by: Inspected const.py offset and weekday tables and drik.py durmuhurtam.}
   pyjhora-yoga-506: {work_id: pyjhora-yoga, edition_id: pyjhora-yoga-506, title_as_printed: PyJHora, language: Python, publication_details: PyPI wheel 5.0.6, text: [https://pypi.org/project/PyJHora/5.0.6/], verified_by: Inspected named yoga functions in jhora/horoscope/chart/yoga.py for the shape and named-formation comparisons.}
   modern-elemental-hands-web:
     work_id: modern-elemental-hands

@@ -20,3 +20,4 @@ used_by:
 - vedic.transits.sade-sati-closing
 - vedic.transits.sade-sati-middle
 - vedic.transits.sade-sati-rising
+visibility: admin-only

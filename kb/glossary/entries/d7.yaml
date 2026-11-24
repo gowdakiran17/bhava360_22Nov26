@@ -17,4 +17,6 @@ aliases:
 reference_rules:
 - vedic.vargas.d7-placement
 used_by:
+- vedic.vargas.d7-fifth-lord-dignity
+- vedic.vargas.d7-jupiter-dignity
 - vedic.vargas.d7-placement

@@ -11,9 +11,11 @@ meaning:
   en: A traditional label for Saturn’s passage through specified places counted from the Moon.
   kn: ಜನ್ಮದ ಚಂದ್ರನಿಂದ ಕೆಲವು ಸ್ಥಾನಗಳಲ್ಲಿ ಶನಿ ಸಾಗುವುದಕ್ಕೆ ನೀಡುವ ಹೆಸರು.
   hi: जन्म के चंद्रमा से कुछ तय स्थानों में शनि के चलने का पारंपरिक नाम।
-admin_note: 'Application in vedic.transits.kantaka-shani: Within a solved Saturn sign window the inclusive distance from
-  the natal Moon is 4. End the phase at the exit; a return starts another window.'
+admin_note: MODERN/POPULAR regional Kantaka counts the angular signs from the natal Moon. The fourth-only rule is
+  Ardhashtama.
 aliases: []
-reference_rules: []
+reference_rules:
+- vedic.transits.ardhashtama-shani
 used_by:
-- vedic.transits.kantaka-shani
+- vedic.transits.ardhashtama-shani
+visibility: admin-only

@@ -17,4 +17,6 @@ aliases:
 reference_rules:
 - vedic.vargas.d2-placement
 used_by:
+- vedic.vargas.d2-lunar-hora-majority
 - vedic.vargas.d2-placement
+- vedic.vargas.d2-solar-hora-majority

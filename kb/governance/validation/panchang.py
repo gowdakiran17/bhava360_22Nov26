@@ -143,3 +143,19 @@ def validate_panchang(rules,read,evaluate,require):
             require(lamps(['ordinary','ashvina'],(rise,set_),evenings) is None,'no evening overlap')
             require(lamps(['adhika','ashvina'],(rise,set_+HOUR),evenings) is None,'month gate')
     print('Panchang passed: three dated city fixtures, all five limbs, sixty karanas, day/night windows, month and festival cases.')
+
+    from election_factors import slots, star_slots, intersect, combinations
+    offsets = read(P+'election-intervals.yaml')
+    yogas = read(P+'election-yogas.yaml')
+    names=[star['id'] for star in stars]
+    require(list(offsets['stars'])==names and len(offsets['durmuhurta'])==7,'offset coverage')
+    for name in names:
+        spans=star_slots(0,1440,name,offsets)
+        require(all(0<=a<b<=1440 and abs(b-a-96)<1e-8 for group in spans.values() for a,b in group),name)
+        require(star_slots(None,1440,name,offsets)['amrit'] is None,name+' unknown start')
+    require(star_slots(0,600,'mula',offsets)['varjyam']==[(200,240),(560,600)],'Mula two intervals')
+    require(not intersect((240,300),[(200,240)]) and intersect((239,300),[(200,240)]),'half-open contact')
+    require(slots(0,600,15,[3])==[(120,160)] and slots(600,1440,15,[4])==[(824,880)],'short day / Tuesday night')
+    require('guru-pushya' in combinations(yogas,'thursday','pushya',None,3,names),'Guru Pushya')
+    require('tri-pushkar' in combinations(yogas,'sunday','krittika',None,17,names) and
+            'tri-pushkar' not in combinations(yogas,'monday','krittika',None,17,names),'Pushkar weekday')

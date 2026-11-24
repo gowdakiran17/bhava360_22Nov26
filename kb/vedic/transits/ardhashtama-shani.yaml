@@ -1,7 +1,7 @@
-id: vedic.transits.kantaka-shani
+id: vedic.transits.ardhashtama-shani
 system: vedic
 topic: transits
-title: Kantaka Shani · fourth-house profile
+title: Ardhashtama · Saturn fourth from Moon
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Within a solved Saturn sign window the inclusive distance from the natal Moon is 4. End the phase at the exit;
@@ -19,9 +19,7 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
-    (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Some schools extend Kantaka to
-    angular houses. This profile selects the fourth alone.
+  note: Kantaka for Saturn in any kendra from Moon is an admin-only regional variant.
 sources:
 - book: 'Vedic Astrology: An Integrated Approach'
   work_id: rao-integrated
@@ -40,7 +38,7 @@ sources:
   supports: Bhava360 selection, calculation boundaries and original reflective wording.
   verification: pending
 confidence: medium
-review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+review_notes: MODERN/POPULAR terminology; Phaladeepika ch.26 describes results by house.
 user_text:
   en: You may want to make household responsibilities easier to share.
   kn: ಮನೆಯ ಹೊಣೆಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಸುಲಭವಾದ ವಿಧಾನ ಹುಡುಕಬಹುದು.

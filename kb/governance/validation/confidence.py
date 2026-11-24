@@ -158,7 +158,7 @@ def validate(read, require):
             'required confidence explanations')
     for key,row in rows.items():
         require(all(row[t] in matrix['actions'] for t in 'ABC'), key+' invalid matrix cell')
-    vargas = [key for key,v in rows.items() if v.get('varga')]
+    vargas = [key for key,v in rows.items() if v.get('varga') and v.get('scope')=='Lagna/houses']
     require(set(vargas)=={'d'+str(n) for n in (2,3,4,7,9,10,12,16,20,24,27,30,40,45,60)},'divisional coverage')
     require(all(rows[k]['B']=='hide' and rows[k]['C']=='hide' for k in
                 ('d24','d60','kp-cuspal-sub-lords','kp-house-significators','kp-cuspal-prashna',

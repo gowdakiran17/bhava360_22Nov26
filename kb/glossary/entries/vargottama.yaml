@@ -17,3 +17,4 @@ aliases: []
 reference_rules: []
 used_by:
 - vedic.states.vargottama
+- vedic.vargas.d9-vargottama

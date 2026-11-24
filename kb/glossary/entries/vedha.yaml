@@ -18,11 +18,6 @@ reference_rules: []
 used_by:
 - vedic.matching.porutham-vedha
 - vedic.transits.ashtama-shani
-- vedic.transits.business-watch
-- vedic.transits.career-watch
-- vedic.transits.children-watch
-- vedic.transits.family-home-watch
-- vedic.transits.health-watch
 - vedic.transits.jupiter-moon-house-1
 - vedic.transits.jupiter-moon-house-10
 - vedic.transits.jupiter-moon-house-11
@@ -35,7 +30,6 @@ used_by:
 - vedic.transits.jupiter-moon-house-7
 - vedic.transits.jupiter-moon-house-8
 - vedic.transits.jupiter-moon-house-9
-- vedic.transits.kantaka-shani
 - vedic.transits.ketu-moon-house-1
 - vedic.transits.ketu-moon-house-10
 - vedic.transits.ketu-moon-house-11
@@ -48,8 +42,6 @@ used_by:
 - vedic.transits.ketu-moon-house-7
 - vedic.transits.ketu-moon-house-8
 - vedic.transits.ketu-moon-house-9
-- vedic.transits.learning-watch
-- vedic.transits.love-marriage-watch
 - vedic.transits.mars-moon-house-1
 - vedic.transits.mars-moon-house-10
 - vedic.transits.mars-moon-house-11
@@ -74,7 +66,6 @@ used_by:
 - vedic.transits.mercury-moon-house-7
 - vedic.transits.mercury-moon-house-8
 - vedic.transits.mercury-moon-house-9
-- vedic.transits.money-watch
 - vedic.transits.moon-moon-house-1
 - vedic.transits.moon-moon-house-10
 - vedic.transits.moon-moon-house-11
@@ -87,7 +78,6 @@ used_by:
 - vedic.transits.moon-moon-house-7
 - vedic.transits.moon-moon-house-8
 - vedic.transits.moon-moon-house-9
-- vedic.transits.property-vehicles-watch
 - vedic.transits.rahu-moon-house-1
 - vedic.transits.rahu-moon-house-10
 - vedic.transits.rahu-moon-house-11
@@ -115,7 +105,6 @@ used_by:
 - vedic.transits.saturn-moon-house-7
 - vedic.transits.saturn-moon-house-8
 - vedic.transits.saturn-moon-house-9
-- vedic.transits.spirituality-watch
 - vedic.transits.sun-moon-house-1
 - vedic.transits.sun-moon-house-10
 - vedic.transits.sun-moon-house-11
@@ -128,7 +117,6 @@ used_by:
 - vedic.transits.sun-moon-house-7
 - vedic.transits.sun-moon-house-8
 - vedic.transits.sun-moon-house-9
-- vedic.transits.travel-relocation-watch
 - vedic.transits.vedha-obstruction
 - vedic.transits.venus-moon-house-1
 - vedic.transits.venus-moon-house-10

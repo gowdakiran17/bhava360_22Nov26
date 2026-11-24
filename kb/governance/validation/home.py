@@ -46,7 +46,7 @@ def day_result(day, policy, vedha, ranking, activity, aspects, owners):
     tara = None if None in stars else 1 + (stars[0]-stars[1]) % 27 % 9
     tara_dir = None if tara is None else ('neutral' if tara==1 else
                 'support' if tara in ranking['tara']['support'] else 'caution')
-    sav = day.get('moon_sign_sav')
+    sav = None if day.get('tier')=='C' or 'sav' in day.get('withheld',[]) else day.get('moon_sign_sav')
     av = None if sav is None else 'support' if sav >= policy['factors']['sav']['minimum'] else 'neutral'
     tone = next(t for a,b,c,t in policy['tone_resolution']
                 if all(x=='any' or x==y for x,y in zip((a,b,c),(chandra,tara_dir,av))))
@@ -61,7 +61,7 @@ def day_result(day, policy, vedha, ranking, activity, aspects, owners):
     good += [a for a in choices['eligible'] if group in activity['activity_preferences'][a]]
     if day.get('tithi') in choices['tithi']:
         good.append(choices['tithi'][day['tithi']])
-    easy = ['starting-work','travel'] if tara_dir=='caution' or day.get('tithi')=='Rikta' else []
+    easy = ['starting-work','travel'] if positions.get('moon')==8 or tara==1 or tara_dir=='caution' or day.get('tithi')=='Rikta' else []
     good = [a for a in dict.fromkeys(good) if a not in easy][:choices['limits']['good']]
     # Clip independent Vishti to the civil date, including the part before sunrise.
     exclusions=[span for span in (day.get('exclusions') or []) if day.get('daylight') or span[0]=='vishti']
@@ -139,21 +139,21 @@ def month(segments, vedha, events, start, end):
     return tone, upcoming
 
 
-def month_screen(segments, vedha, events, start, end, saturn_house, saturn_sav, antar_nature):
+def month_screen(segments, vedha, events, start, end, saturn_house, saturn_sav, antar_nature, lagna=None, saturn_bav=None, tier=None):
     tone,upcoming=month(segments,vedha,events,start,end)
     sankranti=[]
     for day in sorted({d for d,k,g in events if g=='sun' and k in ('ingress','sankranti') and start<=d<end}):
         positions=next(positions for a,b,positions in segments if a<=day<b)
         sankranti.append((day,positions.get('sun')))
     return dict(tone=tone,upcoming=upcoming,sankranti=sankranti,
-                phase=phase(saturn_house,saturn_sav,antar_nature))
+                phase=phase(saturn_house,saturn_sav,antar_nature,lagna,saturn_bav,tier))
 
 
-def phase(saturn_house, sav, antar_nature):
+def phase(saturn_house, sav, antar_nature, lagna=None, saturn_bav=None, tier=None):
     if saturn_house not in (12,1,2):
         return []
     keys = ['phase']
-    if sav is not None and sav>=28:
+    if tier!='C' and ((sav is not None and sav>=28) or lagna in ('taurus','libra','capricorn','aquarius') or (saturn_bav is not None and saturn_bav>=4)):
         keys.append('phase-support')
     if antar_nature in ('Benefic','Yogakaraka'):
         keys.append('phase-timing')

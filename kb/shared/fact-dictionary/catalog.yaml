@@ -18,6 +18,1869 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  d1.node.conditional_yogakaraka:
+    type: boolean
+    producer: vedic.lordships
+    origin: Node in a kendra joined by a trikona lord, or in a trikona joined by a kendra lord (BPHS ch.34). Chart-specific
+      participation only.
+    dependencies:
+    - stable Lagna
+    - node sign
+    - same-sign associates and their lordships
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.partner_tara_or_chandra_unsupportive:
+    type: boolean
+    producer: vedic.muhurta
+    origin: At least one required partner lacks supportive Tara or Chandra.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.star_obstructed:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Election star receives a malefic Vedha or Latta under selected tradition.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.rikta_or_new:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Instant tithi is 4,9,14,19,24,29 or 30.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.amrit_kalam:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Window is contained in a scaled Amrit Kalam interval.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.varjyam:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Positive overlap with any scaled Tyajyam interval.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.durmuhurta:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Positive overlap with local weekday forbidden muhurta.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.malefic_upachaya:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Natural malefic occupies 3,6 or 11.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.benefic_angle_trine:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Natural benefic occupies 1,4,7,10,5 or 9.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.twelfth_occupied:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Any graha occupies the twelfth; soft caution.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.seventh_occupied:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Any graha occupies the seventh.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  muhurta.gate.eighth_occupied:
+    type: boolean
+    producer: vedic.muhurta
+    origin: Any graha occupies the eighth from election Lagna.
+    dependencies:
+    - bound activity and interval
+    - local election chart
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d24.mercury_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D24 mercury-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d24.fourth_lord_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D24 fourth-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d12.moon_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D12 moon-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d12.sun_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D12 sun-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d7.jupiter_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D7 jupiter-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d7.fifth_lord_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D7 fifth-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d4.moon_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D4 moon-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d4.fourth_lord_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D4 fourth-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d2.lunar_hora_majority:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D2 lunar-hora-majority: more of the seven grahas in this hora than the other. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d2.solar_hora_majority:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D2 solar-hora-majority: more of the seven grahas in this hora than the other. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d10.d1_tenth_lord_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D10 d1-tenth-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d10.tenth_lord_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D10 tenth-lord-placement: placement in a kendra or trikona. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d10.lagna_lord_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D10 lagna-lord-placement: placement in a kendra or trikona. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.vargottama:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 vargottama: same D1 and D9 sign for the bound graha. Apply shared/confidence/output-matrix.yaml to all
+      inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.lagna_lord_placement:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 lagna-lord-placement: placement in a kendra or trikona. Apply shared/confidence/output-matrix.yaml to
+      all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.seventh_occupants:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 seventh-occupants: functional benefic occupant and no impaired malefic occupant. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.jupiter_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 jupiter-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.venus_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 venus-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  varga.d9.d1_seventh_lord_dignity:
+    type: boolean
+    producer: vedic.vargas
+    origin: 'D9 d1-seventh-lord-dignity: own, exalted, moolatrikona or compound-friendly dignity. Apply shared/confidence/output-matrix.yaml
+      to all inputs.'
+    dependencies:
+    - bound divisional placement
+    - availability matrix
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.rahu_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: rahu and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.saturn_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: saturn and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.saturn_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: saturn and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.venus_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: venus and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.venus_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: venus and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.venus_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: venus and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.jupiter_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: jupiter and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.jupiter_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: jupiter and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.jupiter_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: jupiter and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.jupiter_venus:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: jupiter and venus share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mercury_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mercury and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mercury_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mercury and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mercury_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mercury and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mercury_venus:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mercury and venus share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mercury_jupiter:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mercury and jupiter share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_venus:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and venus share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_jupiter:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and jupiter share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.mars_mercury:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: mars and mercury share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_venus:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and venus share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_jupiter:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and jupiter share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_mercury:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and mercury share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.moon_mars:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: moon and mars share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_ketu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and ketu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_rahu:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and rahu share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_saturn:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and saturn share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_venus:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and venus share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_jupiter:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and jupiter share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_mercury:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and mercury share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_mars:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and mars share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.conjunction.sun_moon:
+    type: boolean
+    producer: vedic.conjunctions
+    origin: sun and moon share a D1 sign. Nodes remain opposed in the physical chart.
+    dependencies:
+    - D1 sidereal longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.tenth_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: mars casts a full sign aspect on tenth-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.seventh_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: mars casts a full sign aspect on seventh-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.venus:
+    type: boolean
+    producer: vedic.aspects
+    origin: mars casts a full sign aspect on venus; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.moon:
+    type: boolean
+    producer: vedic.aspects
+    origin: mars casts a full sign aspect on moon; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.tenth_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: saturn casts a full sign aspect on tenth-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.seventh_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: saturn casts a full sign aspect on seventh-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.venus:
+    type: boolean
+    producer: vedic.aspects
+    origin: saturn casts a full sign aspect on venus; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.moon:
+    type: boolean
+    producer: vedic.aspects
+    origin: saturn casts a full sign aspect on moon; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.tenth_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: jupiter casts a full sign aspect on tenth-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.seventh_lord:
+    type: boolean
+    producer: vedic.aspects
+    origin: jupiter casts a full sign aspect on seventh-lord; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.venus:
+    type: boolean
+    producer: vedic.aspects
+    origin: jupiter casts a full sign aspect on venus; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.moon:
+    type: boolean
+    producer: vedic.aspects
+    origin: jupiter casts a full sign aspect on moon; distinct bodies, stable lord binding where required.
+    dependencies:
+    - full-graha table
+    - D1 positions
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.ketu.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from ketu to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.rahu.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from rahu to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.saturn.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from saturn to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.venus.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from venus to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.jupiter.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from jupiter to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mercury.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mercury to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.mars.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from mars to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.moon.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from moon to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_12:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 12 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_11:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 11 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_10:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 10 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_9:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 9 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_8:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 8 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_7:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 7 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_6:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 6 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_5:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 5 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_4:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 4 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_3:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 3 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_2:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 2 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.sun.house_1:
+    type: boolean
+    producer: vedic.aspects
+    origin: Inclusive distance from sun to natal house 1 occurs in its full-graha table row.
+    dependencies:
+    - stable Lagna
+    - D1 sign
+    - full-graha table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  d1.aspect.source_impaired:
+    type: boolean
+    producer: vedic.aspects
+    origin: Bound aspecting graha is debilitated in D1 or combust under KB combustion orbs.
+    dependencies:
+    - D1 dignity
+    - combustion
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.moon.house_stance:
+    type: enum
+    producer: vedic.transits
+    origin: Moon-relative house table only, for the selected moving graha.
+    dependencies:
+    - bound graha
+    - transit interval
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - support
+    - caution
+  transit.double.pace_supported:
+    type: boolean
+    producer: vedic.transits
+    origin: Jupiter/Saturn only; use pace in life-areas/pipeline.yaml for the same bound target.
+    dependencies:
+    - bound graha
+    - transit interval
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.saturn.phase_challenge:
+    type: boolean
+    producer: vedic.transits
+    origin: Bound Saturn from natal Moon in 12,1,2,4 or 8; phase is contextual after contact.
+    dependencies:
+    - bound graha
+    - transit interval
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.contact.area_target:
+    type: boolean
+    producer: vedic.transits
+    origin: Moving graha occupies or fully aspects an area house or its lord sign in the bound reference.
+    dependencies:
+    - bound graha
+    - transit interval
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.spirituality.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.business.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.children.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.property-vehicles.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.travel-relocation.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.learning.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.family-home.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.health.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.money.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.love-marriage.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.career.qualified_support:
+    type: boolean
+    producer: vedic.transits
+    origin: Within one area, graha, reference and interval evaluate the support predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  transit.ketu.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.rahu.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.saturn.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.venus.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.jupiter.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.mercury.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.mars.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.moon.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
+  transit.sun.distance_from_lagna:
+    type: integer
+    producer: vedic.transits
+    origin: One plus (moving sign minus stable natal Lagna sign) modulo twelve. Gate on lagna-transits.
+    dependencies:
+    - transit sign
+    - stable natal Lagna
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    range:
+    - 1
+    - 12
   d1.yoga.mixed_nature_witness:
     type: boolean
     producer: vedic.yogas.formation
@@ -5357,9 +7220,15 @@ facts:
   transit.career.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_7:
     type: boolean
     producer: vedic.dasha
@@ -5368,9 +7237,15 @@ facts:
   transit.love-marriage.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_2:
     type: boolean
     producer: vedic.dasha
@@ -5379,9 +7254,15 @@ facts:
   transit.money.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_1:
     type: boolean
     producer: vedic.dasha
@@ -5390,9 +7271,15 @@ facts:
   transit.health.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_4:
     type: boolean
     producer: vedic.dasha
@@ -5401,27 +7288,51 @@ facts:
   transit.family-home.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   transit.learning.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   transit.travel-relocation.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   transit.property-vehicles.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_5:
     type: boolean
     producer: vedic.dasha
@@ -5430,15 +7341,27 @@ facts:
   transit.children.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   transit.business.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   dasha.next_lord.owns_house_9:
     type: boolean
     producer: vedic.dasha
@@ -5447,9 +7370,15 @@ facts:
   transit.spirituality.qualified_challenge:
     type: boolean
     producer: vedic.transits
-    origin: A separately sourced adverse factor or Vedha obstruction in the selected transit profile affects a listed area
-      house. Bind graha, reference house, interval and qualifying rule ID.
-    unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+    origin: Within one area, graha, reference and interval evaluate the challenge predicate in vedic/transits/qualifiers.yaml.
+      Withhold unavailable branches.
+    dependencies:
+    - bound transit contact
+    - Vedha
+    - BAV band
+    - phase
+    - double transit pace
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
   d1.sun.own_or_exalted:
     type: boolean
     producer: vedic.d1

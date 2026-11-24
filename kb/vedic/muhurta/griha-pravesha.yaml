@@ -178,6 +178,38 @@ activity_profile:
   reliefs:
   - chandra
   - entry-navamsa
+  lagna_and_calendar:
+    region: vedic/muhurta/region-policy.yaml
+    hard:
+    - fact: muhurta.gate.eighth_occupied
+      op: eq
+      value: true
+    - fact: muhurta.gate.durmuhurta
+      op: eq
+      value: true
+    - fact: muhurta.gate.varjyam
+      op: eq
+      value: true
+    soft:
+    - fact: muhurta.gate.twelfth_occupied
+      op: eq
+      value: true
+    - fact: muhurta.gate.benefic_angle_trine
+      op: eq
+      value: true
+    - fact: muhurta.gate.malefic_upachaya
+      op: eq
+      value: true
+    - fact: muhurta.gate.amrit_kalam
+      op: eq
+      value: true
+    calendar_switches:
+    - kharmas
+    - adhika
+    - holashtak
+    - panchaka
+    exceptions: No relief for occupied eighth under this profile. Marriage also requires the seventh empty. Treat
+      twelfth occupancy as a caution only.
 evidence:
   direction: context
   weight_class: context

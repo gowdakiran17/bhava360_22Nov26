@@ -18,6 +18,14 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.argala.special-third
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
 - vedic.planets.ketu
 - vedic.planets.mars
 - vedic.planets.mercury
@@ -26,6 +34,7 @@ used_by:
 - vedic.planets.saturn
 - vedic.planets.sun
 - vedic.strength-shadbala.drik
+- vedic.vargas.d9-seventh-occupants
 - vedic.yogas.adhi
 - vedic.yogas.amala
 - vedic.yogas.anapha

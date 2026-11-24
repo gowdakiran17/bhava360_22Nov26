@@ -62,7 +62,7 @@ def validate_gochara(rules, read, evaluate, require):
     step = timedelta(days=s['window_days'])
     require(step.days > 0 and s['expected_moon_houses'] == list(range(1,13)), 'dated house sweep')
     phase = {12:'sade-sati-rising', 1:'sade-sati-middle', 2:'sade-sati-closing',
-             4:'kantaka-shani', 8:'ashtama-shani'}
+             4:'ardhashtama-shani', 8:'ashtama-shani'}
     for g in PLANETS + NODES:
         slugs = ['saturn-moon' if (g,h)==('saturn',1) else f'{g}-moon-house-{h}' for h in range(1,13)]
         key = f'transit.{g}.distance_from_natal_moon'
@@ -137,3 +137,22 @@ def validate_gochara(rules, read, evaluate, require):
         turn = speed==0 and 0<i<len(samples)-1 and samples[i-1][1]*samples[i+1][1]<0
         check('station','motion.station',turn,expected=='station')
         check('retrograde','motion.retrograde',speed<0,expected=='retrograde')
+
+    # G1: Cancer Saturn viewed from Capricorn rising and Libra Moon.
+    for graha in PLANETS + NODES:
+        key=f'transit.{graha}.distance_from_lagna'
+        for sign in range(12):
+            h=house(sign,9)
+            slug=f'{graha}-lagna-house-{h}'
+            require(fires(slug,{key:h}) and fires(slug,{}) is None and
+                    rules[PREFIX+slug]['evidence']['reference']=='lagna',slug)
+    require((house(3,9),house(3,6))==(7,10),'G1 independent reference chips')
+    require([house(i,9) for i in [3,4,3]]==[7,8,7],'retrograde exit and re-entry')
+    require(len({house(3,int(deg//30)) for deg in [29.8,30.2]})==2,'withhold ambiguous Moon phase')
+    qualifiers=read('vedic/transits/qualifiers.yaml')['areas']
+    require(len(qualifiers)==11,'area coverage')
+    for area,row in qualifiers.items():
+        for kind,node in read('vedic/transits/qualifiers.yaml')['predicates'].items():
+            require(evaluate(node,{}) is None and evaluate(node,{'transit.contact.area_target':False}) is False,area)
+            trigger='transit.vedha.blocked' if kind=='challenge' else 'transit.bav.supportive'
+            require(evaluate(node,{'transit.contact.area_target':True,trigger:True}),area)

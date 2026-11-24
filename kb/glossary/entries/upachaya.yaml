@@ -100,6 +100,14 @@ used_by:
 - vedic.houses.house-11
 - vedic.houses.house-3
 - vedic.houses.house-6
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
+- vedic.muhurta.marriage
+- vedic.muhurta.naming
+- vedic.muhurta.property-registration
+- vedic.muhurta.travel
+- vedic.muhurta.vehicle-purchase
 - vedic.planets-in-houses.jupiter-house-10
 - vedic.planets-in-houses.jupiter-house-11
 - vedic.planets-in-houses.jupiter-house-3
