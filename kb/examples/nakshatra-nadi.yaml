@@ -2,8 +2,8 @@ synthetic: true
 approval: draft
 native_review_needed: true
 reference_date: '2026-11-24'
-scope: 'PL is the planet itself. Node association: same-sign conjunction and incoming sign-count aspects; nodes
-  cast none. Houses: whole-sign, with KP ayanamsa (mode 5) and the true node.'
+scope: Synthetic Sripati bhava occupancy with sign ownership, KP mode 5 and true nodes. Each supportive house in
+  an area set is an alternative event witness. The Antar gate precedes outcome and internal tie-breaks.
 area_sets:
   career_money:
     supportive:
@@ -76,7 +76,7 @@ cases:
   fixture: Asha
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Whole-sign house signs and planet houses
+  case: Sign lordships and Sripati occupancy
   expected:
     house_signs:
     - Aquarius
@@ -132,10 +132,10 @@ cases:
       Sun:
       - 1
       - 7
-      Moon:
+      Moon: &id003
       - 4
       - 6
-      Mars:
+      Mars: &id004
       - 3
       - 10
       - 12
@@ -143,11 +143,11 @@ cases:
       - 2
       - 5
       - 8
-      Jupiter:
+      Jupiter: &id001
       - 2
       - 7
       - 11
-      Venus:
+      Venus: &id002
       - 1
       - 4
       - 9
@@ -185,7 +185,7 @@ cases:
       pl: 4
       nl: 12
       sl: 7
-    power_position:
+    hit_power:
     - 7
     - 12
     full_power: false
@@ -221,45 +221,19 @@ cases:
   expected:
     maha:
       lord: Jupiter
-      PL:
-      - 2
-      - 7
-      - 11
-      NL:
-      - 1
-      - 4
-      - 9
-      SL:
-      - 1
-      - 4
-      - 9
+      PL: *id001
+      NL: *id002
+      SL: *id002
     antar:
       lord: Moon
-      PL:
-      - 4
-      - 6
-      NL:
-      - 3
-      - 10
-      - 12
-      SL:
-      - 2
-      - 7
-      - 11
+      PL: *id003
+      NL: *id004
+      SL: *id001
     pratyantar:
       lord: Mars
-      PL:
-      - 3
-      - 10
-      - 12
-      NL:
-      - 3
-      - 10
-      - 12
-      SL:
-      - 3
-      - 10
-      - 12
+      PL: *id004
+      NL: *id004
+      SL: *id004
 - id: NN-T07
   fixture: Asha
   rules:
@@ -268,29 +242,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'career_money: outlook from the running antar lord (Moon) lines'
   expected:
-    houses_in_lines:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 7
-    - 10
-    - 11
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 2
-    - 6
-    - 10
     - 11
-    challenging_hits:
-    - 12
-    label: mixed
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T08
   fixture: Asha
   rules:
@@ -299,29 +267,16 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'relationship_timing: outlook from the running antar lord (Moon) lines'
   expected:
-    houses_in_lines:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 7
-    - 10
-    - 11
-    - 12
-    supportive_hits:
-    - 2
-    - 7
-    - 11
-    challenging_hits:
-    - 6
-    - 10
-    label: mixed
+    fruit_gate: false
+    self_star: false
+    weights: {}
+    label: unpromised
+    copy_key: quiet
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T09
   fixture: Asha
   rules:
@@ -330,31 +285,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'learning: outlook from the running antar lord (Moon) lines'
   expected:
-    houses_in_lines:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 7
-    - 10
-    - 11
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 2
-    - 4
-    - 10
     - 11
-    challenging_hits:
-    - 3
-    - 6
-    - 12
-    label: mixed
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T10
   fixture: Asha
   rules:
@@ -363,29 +310,22 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'property_vehicle: outlook from the running antar lord (Moon) lines'
   expected:
-    houses_in_lines:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 7
-    - 10
-    - 11
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
-    - 4
     - 11
-    - 12
-    challenging_hits:
-    - 3
-    - 10
-    label: mixed
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T11
   fixture: Asha
   rules:
@@ -394,27 +334,21 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'travel: outlook from the running antar lord (Moon) lines'
   expected:
-    houses_in_lines:
-    - 2
-    - 3
-    - 4
-    - 6
-    - 7
-    - 10
-    - 11
-    - 12
-    supportive_hits:
-    - 3
-    - 12
-    challenging_hits:
-    - 4
-    label: mixed
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
+    supportive_hits: []
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T12
   fixture: Asha
   rules:
@@ -428,7 +362,7 @@ cases:
       pl: 12
       nl: 12
       sl: 12
-    power_position:
+    hit_power:
     - 12
     full_power: true
     hit_pair:
@@ -454,7 +388,7 @@ cases:
   fixture: Ravi
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Whole-sign house signs and planet houses
+  case: Sign lordships and Sripati occupancy
   expected:
     house_signs:
     - Scorpio
@@ -476,7 +410,7 @@ cases:
       Mercury: 10
       Jupiter: 3
       Venus: 8
-      Saturn: 12
+      Saturn: 1
       Rahu: 6
       Ketu: 12
     owned:
@@ -517,30 +451,29 @@ cases:
       - 1
       - 6
       - 9
-      Mercury:
+      Mercury: &id005
       - 8
       - 10
       - 11
-      Jupiter:
+      Jupiter: &id007
       - 2
       - 3
       - 5
-      Venus:
+      Venus: &id008
       - 7
       - 8
       - 12
       Saturn:
+      - 1
       - 3
       - 4
-      - 12
-      Rahu:
+      Rahu: &id009
       - 1
       - 3
       - 4
       - 6
       - 9
-      - 12
-      Ketu:
+      Ketu: &id006
       - 1
       - 3
       - 4
@@ -574,7 +507,7 @@ cases:
       pl: 12
       nl: 3
       sl: 3
-    power_position:
+    hit_power:
     - 3
     full_power: true
     hit_pair:
@@ -609,67 +542,19 @@ cases:
   expected:
     maha:
       lord: Mercury
-      PL:
-      - 8
-      - 10
-      - 11
-      NL:
-      - 1
-      - 3
-      - 4
-      - 6
-      - 7
-      - 8
-      - 9
-      - 12
-      SL:
-      - 1
-      - 3
-      - 4
-      - 6
-      - 7
-      - 8
-      - 9
-      - 12
+      PL: *id005
+      NL: *id006
+      SL: *id006
     antar:
       lord: Ketu
-      PL:
-      - 1
-      - 3
-      - 4
-      - 6
-      - 7
-      - 8
-      - 9
-      - 12
-      NL:
-      - 2
-      - 3
-      - 5
-      SL:
-      - 2
-      - 3
-      - 5
+      PL: *id006
+      NL: *id007
+      SL: *id007
     pratyantar:
       lord: Venus
-      PL:
-      - 7
-      - 8
-      - 12
-      NL:
-      - 1
-      - 3
-      - 4
-      - 6
-      - 9
-      - 12
-      SL:
-      - 1
-      - 3
-      - 4
-      - 6
-      - 9
-      - 12
+      PL: *id008
+      NL: *id009
+      SL: *id009
 - id: NN-T19
   fixture: Ravi
   rules:
@@ -678,31 +563,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'career_money: outlook from the running antar lord (Ketu) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 2
-    - 6
     challenging_hits:
     - 5
-    - 8
-    - 12
     label: mixed
+    copy_key: mixed
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T20
   fixture: Ravi
   rules:
@@ -711,32 +588,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'relationship_timing: outlook from the running antar lord (Ketu) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 2
-    - 7
-    - 9
     challenging_hits:
-    - 1
     - 5
-    - 6
     label: mixed
+    copy_key: mixed
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T21
   fixture: Ravi
   rules:
@@ -745,34 +613,24 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'learning: outlook from the running antar lord (Ketu) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 2
-    - 4
     - 5
-    - 9
     challenging_hits:
     - 3
-    - 6
-    - 8
-    - 12
     label: mixed
+    copy_key: mixed
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T22
   fixture: Ravi
   rules:
@@ -781,30 +639,16 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'property_vehicle: outlook from the running antar lord (Ketu) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 12
-    supportive_hits:
-    - 4
-    - 12
-    challenging_hits:
-    - 3
-    - 5
-    label: mixed
+    fruit_gate: false
+    self_star: false
+    weights: {}
+    label: unpromised
+    copy_key: quiet
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T23
   fixture: Ravi
   rules:
@@ -813,30 +657,22 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'travel: outlook from the running antar lord (Ketu) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 6
-    - 7
-    - 8
-    - 9
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 3
-    - 9
-    - 12
-    challenging_hits:
-    - 4
-    label: mixed
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T24
   fixture: Ravi
   rules:
@@ -850,7 +686,7 @@ cases:
       pl: 8
       nl: 6
       sl: 6
-    power_position:
+    hit_power:
     - 6
     full_power: true
     hit_pair:
@@ -876,7 +712,7 @@ cases:
   fixture: Meera
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Whole-sign house signs and planet houses
+  case: Sign lordships and Sripati occupancy
   expected:
     house_signs:
     - Leo
@@ -932,14 +768,14 @@ cases:
       Sun:
       - 1
       - 5
-      Moon:
+      Moon: &id011
       - 7
       - 12
-      Mars:
+      Mars: &id012
       - 4
       - 7
       - 9
-      Mercury:
+      Mercury: &id015
       - 2
       - 5
       - 11
@@ -947,15 +783,15 @@ cases:
       - 5
       - 8
       - 11
-      Venus:
+      Venus: &id014
       - 3
       - 5
       - 10
-      Saturn:
+      Saturn: &id010
       - 6
       - 7
       - 10
-      Rahu:
+      Rahu: &id013
       - 1
       - 2
       - 3
@@ -1001,7 +837,7 @@ cases:
       pl: 7
       nl: 11
       sl: 5
-    power_position:
+    hit_power:
     - 5
     - 11
     full_power: false
@@ -1037,49 +873,19 @@ cases:
   expected:
     maha:
       lord: Saturn
-      PL:
-      - 6
-      - 7
-      - 10
-      NL:
-      - 7
-      - 12
-      SL:
-      - 6
-      - 7
-      - 10
+      PL: *id010
+      NL: *id011
+      SL: *id010
     antar:
       lord: Mars
-      PL:
-      - 4
-      - 7
-      - 9
-      NL:
-      - 1
-      - 2
-      - 3
-      - 5
-      - 8
-      - 10
-      - 11
-      SL:
-      - 3
-      - 5
-      - 10
+      PL: *id012
+      NL: *id013
+      SL: *id014
     pratyantar:
       lord: Mercury
-      PL:
-      - 2
-      - 5
-      - 11
-      NL:
-      - 3
-      - 5
-      - 10
-      SL:
-      - 3
-      - 5
-      - 10
+      PL: *id015
+      NL: *id014
+      SL: *id014
 - id: NN-T31
   fixture: Meera
   rules:
@@ -1088,31 +894,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'career_money: outlook from the running antar lord (Mars) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
-    - 2
     - 10
-    - 11
     challenging_hits:
     - 5
-    - 8
     label: mixed
+    copy_key: mixed
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T32
   fixture: Meera
   rules:
@@ -1121,33 +919,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'relationship_timing: outlook from the running antar lord (Mars) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    supportive_hits:
-    - 2
-    - 7
-    - 9
-    - 11
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
+    supportive_hits: []
     challenging_hits:
-    - 1
     - 5
     - 10
-    label: mixed
+    label: challenging
+    copy_key: challenging
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T33
   fixture: Meera
   rules:
@@ -1156,34 +944,24 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'learning: outlook from the running antar lord (Mars) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
-    - 2
-    - 4
     - 5
-    - 9
     - 10
-    - 11
     challenging_hits:
     - 3
-    - 8
-    label: mixed
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T34
   fixture: Meera
   rules:
@@ -1192,31 +970,24 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'property_vehicle: outlook from the running antar lord (Mars) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
-    supportive_hits:
-    - 4
-    - 11
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
+    supportive_hits: []
     challenging_hits:
     - 3
     - 5
     - 10
-    label: mixed
+    label: challenging
+    copy_key: challenging
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T35
   fixture: Meera
   rules:
@@ -1225,29 +996,22 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'travel: outlook from the running antar lord (Mars) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
-    - 7
-    - 8
-    - 9
-    - 10
-    - 11
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 3
-    - 9
-    challenging_hits:
-    - 4
-    label: mixed
+    challenging_hits: []
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T36
   fixture: Kabir
   rules:
@@ -1268,7 +1032,7 @@ cases:
   fixture: Kabir
   rules:
   - nadi.nakshatra-nadi.planet-house-combination
-  case: Whole-sign house signs and planet houses
+  case: Sign lordships and Sripati occupancy
   expected:
     house_signs:
     - Gemini
@@ -1289,7 +1053,7 @@ cases:
       Mars: 3
       Mercury: 12
       Jupiter: 1
-      Venus: 1
+      Venus: 2
       Saturn: 3
       Rahu: 4
       Ketu: 10
@@ -1334,19 +1098,19 @@ cases:
       - 1
       - 4
       - 12
-      Jupiter:
+      Jupiter: &id017
       - 1
       - 7
       - 10
-      Venus:
-      - 1
+      Venus: &id016
+      - 2
       - 5
       - 12
       Saturn:
       - 3
       - 8
       - 9
-      Rahu:
+      Rahu: &id018
       - 1
       - 4
       - 12
@@ -1377,14 +1141,15 @@ cases:
     level: antar
     lord: Venus
     line_circles:
-      pl: 1
+      pl: 2
       nl: 1
-      sl: 1
-    power_position:
+      sl: 2
+    hit_power:
     - 1
-    full_power: true
+    - 2
+    full_power: false
     hit_pair:
-      row_sl: 1
+      row_sl: 2
       col_nl: 1
 - id: NN-T40
   fixture: Kabir
@@ -1415,37 +1180,19 @@ cases:
   expected:
     maha:
       lord: Venus
-      PL: &id001
-      - 1
-      - 5
-      - 12
-      NL: &id002
-      - 1
-      - 7
-      - 10
-      SL: &id003
-      - 1
-      - 5
-      - 12
+      PL: *id016
+      NL: *id017
+      SL: *id016
     antar:
       lord: Venus
-      PL: *id001
-      NL: *id002
-      SL: *id003
+      PL: *id016
+      NL: *id017
+      SL: *id016
     pratyantar:
       lord: Jupiter
-      PL:
-      - 1
-      - 7
-      - 10
-      NL:
-      - 1
-      - 4
-      - 12
-      SL:
-      - 1
-      - 5
-      - 12
+      PL: *id017
+      NL: *id018
+      SL: *id016
 - id: NN-T42
   fixture: Kabir
   rules:
@@ -1454,24 +1201,24 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'career_money: outlook from the running antar lord (Venus) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 5
-    - 7
-    - 10
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
-    - 10
+    - 2
     challenging_hits:
     - 5
     - 12
-    label: mixed
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T43
   fixture: Kabir
   rules:
@@ -1480,25 +1227,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'relationship_timing: outlook from the running antar lord (Venus) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 5
-    - 7
-    - 10
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
-    - 7
+    - 2
     challenging_hits:
-    - 1
     - 5
-    - 10
     label: mixed
+    copy_key: mixed
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T44
   fixture: Kabir
   rules:
@@ -1507,24 +1252,24 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'learning: outlook from the running antar lord (Venus) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 5
-    - 7
-    - 10
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
+    - 2
     - 5
-    - 10
     challenging_hits:
     - 12
-    label: mixed
+    label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T45
   fixture: Kabir
   rules:
@@ -1533,24 +1278,23 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'property_vehicle: outlook from the running antar lord (Venus) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 5
-    - 7
-    - 10
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 12
     challenging_hits:
     - 5
-    - 10
-    label: mixed
+    label: challenging
+    copy_key: challenging
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: mixed
 - id: NN-T46
   fixture: Kabir
   rules:
@@ -1559,22 +1303,22 @@ cases:
   - nadi.nakshatra-nadi.period-roles
   case: 'travel: outlook from the running antar lord (Venus) lines'
   expected:
-    houses_in_lines:
-    - 1
-    - 5
-    - 7
-    - 10
-    - 12
+    fruit_gate: true
+    self_star: false
+    weights:
+      sl: 0.5
+      nl: 0.3
+      pl: 0.2
     supportive_hits:
     - 12
     challenging_hits: []
     label: supportive
+    copy_key: supportive
     must_not_contain:
     - '%'
     - score
     - guarantee
     - grade
-    copy_key: supportive
 - id: NN-T47
   fixture: Kabir
   rules:
@@ -1587,13 +1331,13 @@ cases:
     line_circles:
       pl: 1
       nl: 4
-      sl: 1
-    power_position:
-    - 1
+      sl: 2
+    hit_power:
+    - 2
     - 4
     full_power: false
     hit_pair:
-      row_sl: 1
+      row_sl: 2
       col_nl: 4
 - id: NN-T48
   fixture: Dev
@@ -1621,7 +1365,7 @@ cases:
   case: House combinations and lines
   expected:
     result: withheld
-    reason: needs Lagna or cusps
+    reason: Needs a stable Sripati house frame
     facts:
       confidence.withheld: true
 - id: NN-T50
@@ -1658,8 +1402,8 @@ cases:
   case: Unknown time withholds circles and hit coordinates
   expected:
     line_circles: null
-    power_position: null
     hit_pair: null
+    hit_power: null
 - id: NN-T54
   fixture: Asha
   rules:
@@ -1704,7 +1448,7 @@ cases:
   fixture: Kabir
   rules:
   - filters
-  case: 'Natural deliverer: running antar is Venus, so the vehicle theme may be noted even without the combination'
+  case: Venus supplies vehicle context subject to the independent period promise gate
   expected:
     natural_deliverer:
       property_vehicle: true
@@ -1734,3 +1478,180 @@ cases:
   expected:
     result: ignored
     flag: outer_planet_ignored
+- id: NN-T61
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.power-planets
+  - nadi.nakshatra-nadi.line-weight
+  case: Chart power, sandhi flags and event permission for the bound lord
+  lord: Mars
+  event_houses:
+  - 1
+  expected:
+    chart_power:
+      untenanted_planets:
+      - Mercury
+      - Sun
+      self_star_planets:
+      - Mars
+      power_planets:
+      - Mars
+      - Mercury
+      - Sun
+      power_houses:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 7
+      - 8
+      - 10
+      - 12
+    house_boundary_flag:
+      Sun: true
+      Moon: false
+      Mars: false
+      Mercury: false
+      Jupiter: false
+      Venus: false
+      Saturn: false
+      Rahu: false
+      Ketu: false
+    gate:
+      fruit_gate: false
+      self_star: true
+      weights: {}
+- id: NN-T62
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.power-planets
+  - nadi.nakshatra-nadi.line-weight
+  case: Chart power, sandhi flags and event permission for the bound lord
+  lord: Sun
+  event_houses:
+  - 9
+  expected:
+    chart_power:
+      untenanted_planets:
+      - Mars
+      - Sun
+      self_star_planets: []
+      power_planets:
+      - Mars
+      - Sun
+      power_houses:
+      - 1
+      - 6
+      - 9
+      - 10
+    house_boundary_flag:
+      Sun: false
+      Moon: false
+      Mars: false
+      Mercury: false
+      Jupiter: false
+      Venus: false
+      Saturn: true
+      Rahu: false
+      Ketu: false
+    gate:
+      fruit_gate: true
+      self_star: false
+      weights:
+        sl: 0.5
+        nl: 0.3
+        pl: 0.2
+- id: NN-T63
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.power-planets
+  - nadi.nakshatra-nadi.line-weight
+  case: Chart power, sandhi flags and event permission for the bound lord
+  lord: Ketu
+  event_houses:
+  - 2
+  expected:
+    chart_power:
+      untenanted_planets:
+      - Mercury
+      - Saturn
+      - Sun
+      self_star_planets:
+      - Ketu
+      power_planets:
+      - Ketu
+      - Mercury
+      - Saturn
+      - Sun
+      power_houses:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 6
+      - 7
+      - 8
+      - 10
+      - 11
+    house_boundary_flag:
+      Sun: false
+      Moon: false
+      Mars: false
+      Mercury: false
+      Jupiter: false
+      Venus: false
+      Saturn: false
+      Rahu: false
+      Ketu: false
+    gate:
+      fruit_gate: true
+      self_star: true
+      weights:
+        nl: 0.6
+        pl: 0.4
+- id: NN-T64
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.power-planets
+  - nadi.nakshatra-nadi.line-weight
+  case: Chart power, sandhi flags and event permission for the bound lord
+  lord: Sun
+  event_houses:
+  - 1
+  expected:
+    chart_power:
+      untenanted_planets:
+      - Mercury
+      - Venus
+      self_star_planets: []
+      power_planets:
+      - Mercury
+      - Venus
+      power_houses:
+      - 1
+      - 2
+      - 4
+      - 5
+      - 12
+    house_boundary_flag:
+      Sun: true
+      Moon: false
+      Mars: false
+      Mercury: false
+      Jupiter: false
+      Venus: false
+      Saturn: false
+      Rahu: false
+      Ketu: false
+    gate:
+      fruit_gate: false
+      self_star: false
+      weights: {}
+- id: NN-T65
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.line-weight
+  case: Unknown time withholds the event gate before weighting
+  expected:
+    result: withheld
+    copy_key: withheld

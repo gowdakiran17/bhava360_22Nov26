@@ -14,7 +14,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
 meaning: Leave nodal dignity and day/night strength unavailable until the competing source assignments are resolved.
 life_areas: []
 strength_notes: []

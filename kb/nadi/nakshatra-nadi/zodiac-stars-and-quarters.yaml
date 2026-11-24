@@ -14,7 +14,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: kp.sub.known
     op: eq
     value: true

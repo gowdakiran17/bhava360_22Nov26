@@ -27,21 +27,21 @@ facts:
     - Selected review convention
     unknown_if: The bound inputs or the applicable convention are unresolved.
     values:
-    - kp-whole-sign
+    - kp-chalita
   nadi.nn.houses.ready:
     type: boolean
     producer: nadi.nakshatra-nadi
-    origin: True when exact, stable birth timing supplies a computable sidereal Lagna sign for whole-sign houses.
+    origin: True when exact, stable birth timing supplies a computable sidereal Lagna sign for Sripati houses with ordered Asc/MC quadrants.
     dependencies:
     - Declared birth-time precision
-    - Stable KP sidereal Lagna sign
-    unknown_if: Birth time is unknown or unstable, or the sidereal Lagna cannot be computed.
+    - Stable KP sidereal Lagna sign and cyclic Asc/MC quadrants
+    unknown_if: Birth time or Lagna is unstable or unavailable, or the quadrants do not form a usable frame.
   nadi.nn.planet.combination:
     type: array
     producer: nadi.nakshatra-nadi
     origin: Houses owned and occupied by the bound graha
     dependencies:
-    - Whole-sign house signs and occupied house
+    - Sign lordship from Lagna and occupied Sripati house
     unknown_if: The bound inputs or the applicable convention are unresolved.
   nadi.nn.node.combination:
     type: array
@@ -115,10 +115,10 @@ facts:
   nadi.nn.planet.circle:
     type: integer
     producer: nadi.nakshatra-nadi
-    origin: Occupied whole-sign house of the bound body
+    origin: Occupied Sripati house of the bound body
     dependencies:
-    - Stable body sign and sidereal Lagna sign
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    - Body longitude and Sripati boundaries
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     range:
@@ -130,20 +130,20 @@ facts:
     origin: Occupied houses of the body, its star lord and its sub lord
     dependencies:
     - KP star/sub identity and the three occupancies
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     fields:
       pl: house 1–12
       nl: house 1–12
       sl: house 1–12
-  nadi.nn.planet.power_position:
+  nadi.nn.planet.hit_power:
     type: array
     producer: nadi.nakshatra-nadi
     origin: Distinct NL and SL circles
     dependencies:
     - Stable line circles
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     items: unique houses 1–12
@@ -156,7 +156,7 @@ facts:
     origin: True when NL and SL occupy the same house
     dependencies:
     - Stable NL and SL circles
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
   nadi.nn.planet.hit_pair:
@@ -165,7 +165,7 @@ facts:
     origin: Private area lookup coordinates
     dependencies:
     - Stable line circles
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     fields:
@@ -177,13 +177,74 @@ facts:
     origin: Count distinct lines carrying each house
     dependencies:
     - Three house combinations
-    unknown_if: Unknown or unstable birth time, unavailable sidereal Lagna, or ambiguous sub lord within boundary
+    unknown_if: Unknown or unstable birth time, unavailable or unordered Asc/MC quadrants, or ambiguous sub lord within boundary
       tolerance.
     visibility: admin-only
     keys: house 1–12
     values_range:
     - 1
     - 3
+  nadi.nn.house_boundary_flag:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: Bound body lies within one degree of a Sripati sandhi, inclusive.
+    dependencies:
+    - Body longitude
+    - Sripati boundaries
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.chart.untenanted_planets:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Bodies absent from the nine natal star-lord assignments.
+    dependencies:
+    - All nine star lords
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.chart.self_star_planets:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Bodies whose own star lord is the same body.
+    dependencies:
+    - All nine star lords
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.chart.power_planets:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Union of untenanted and self-star bodies.
+    dependencies:
+    - nadi.nn.chart.untenanted_planets
+    - nadi.nn.chart.self_star_planets
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.chart.power_houses:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Union of the house combinations of the power planets, including node agency where applicable.
+    dependencies:
+    - nadi.nn.chart.power_planets
+    - Chalita occupancy and sign lordship
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.planet.fruit_gate:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: Permission for the bound period lord and event-house set; at least one event witness is required.
+    dependencies:
+    - PL and NL houses
+    - Bound event-house set
+    - Tenancy and self-star status
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
+  nadi.nn.planet.self_star:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: The bound body occupies a star it rules.
+    dependencies:
+    - Body identity and stable star lord
+    unknown_if: A required input is absent or unstable.
+    visibility: admin-only
   checker.relocation.travel_house:
     type: integer
     producer: vedic.relocation

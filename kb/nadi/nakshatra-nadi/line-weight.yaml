@@ -9,23 +9,29 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Combine internal line evidence with weights SL 0.50, NL 0.30 and PL 0.20 for every event.
+rule: Require an event-house witness on NL. An untenanted period lord may use PL or NL. A self-star lord requires
+  NL and ignores SL. PL identifies the source; after permission, SL qualifies the outcome, or NL does so for a self-star
+  lord.
 conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: kp.sub.known
     op: eq
     value: true
-meaning: The sub lord has the largest internal contribution.
+  - fact: nadi.nn.planet.fruit_gate
+    op: eq
+    value: true
+meaning: Only a permitted event reaches the internal tie-break (SL 0.5, NL 0.3, PL 0.2). A self-star lord uses NL
+  0.6 and PL 0.4. The loss ordering in file 4, PDF p. 26 is an alternative.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: The owner assigns SL 0.50, NL 0.30 and PL 0.20 internally for all events. File 4, PDF p. 26 gives NL, SL,
-    PL priority for losses.
+  note: Only a permitted event reaches the internal tie-break (SL 0.5, NL 0.3, PL 0.2). A self-star lord uses NL
+    0.6 and PL 0.4. The loss ordering in file 4, PDF p. 26 is an alternative.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
@@ -38,7 +44,7 @@ sources:
   to_verify: false
   locator_note: Locator checked by Jyoti and supplied in the review.
 confidence: high
-review_notes: 'Resolved 2026-11-24: power-and-circle, planet-line. Internal review only.'
+review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.
 user_text:
   en: You can leave this detail open for now.
   kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.

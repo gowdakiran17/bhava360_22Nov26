@@ -17,26 +17,29 @@ calculation_profiles:
     ayanamsa: KP
     sidereal_mode: 5
     node: true-node
-    houses: whole-sign
+    selected_value: kp-chalita
+    houses: bhava-chalita-sripati
     year_days: 365.25
     outer_planets: false
-    polar_policy: lagna-required
+    polar_policy: require-ordered-quadrants
     traditions_differ:
       ayanamsa: The owner selected KP sidereal mode 5 for every chart.
       node: Use the true node throughout, consistent with the locked KP convention.
-      house_system: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026
-        at 7:04 PM IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under
-        whole signs and 16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp
-        method.'
+      house_system: The owner adopted Sripati bhava chalita on 24 Nov 2026 following the live classes. Use chalita
+        for occupancy and the signs counted from Lagna for ownership. Jyoti found 35/35 matches with whole signs,
+        32/35 with chalita and 16/35 with Placidus in file 2, PDF pp. 45–49. Later KP cusp sub-lord work uses its
+        separate Placidus frame.
       outer_planets: Discard outer-body inputs with an internal diagnostic.
       dasha_year: Use Julian years of 365.25 days. Compare the course conversion of 360 days on a separate timeline.
       node_aspects: Nodes cast no aspects. Count same-sign conjunctions and incoming sign-count aspects from the seven
         grahas.
       node_dignity: Leave node dignity unset because the illustrations disagree.
       sun_nature: Treat the Sun as neutral within this method only. This label has no effect on house unions.
-      line_weight: The owner assigns SL 0.50, NL 0.30 and PL 0.20 internally for all events. File 4, PDF p. 26 gives
-        NL, SL, PL priority for losses.
+      line_weight: Only a permitted event reaches the internal tie-break (SL 0.5, NL 0.3, PL 0.2). A self-star lord
+        uses NL 0.6 and PL 0.4. The loss ordering in file 4, PDF p. 26 is an alternative.
     node-association: sign
+    lordship: sign
+    house_profile: nn-sripati-v1
   modern-study-v1: {system: lal-kitab, tag: MODERN, approval: draft, enabled: false, scope: owner-controlled separate optional modern systems}
   vedic-lahiri-v1:
     presentation_flags: [modern_outer]
@@ -95,6 +98,14 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  nn-sripati-v1:
+    system: nadi
+    approval: draft
+    calculation: nakshatra-nadi
+    scope: Held NN occupancy only
+    method: Use sidereal Asc, IC, Desc and MC as the centres of houses one, four, seven and ten. Trisect their forward
+      arcs. Each house starts at the circular midpoint from the previous centre and excludes the next boundary. Flag
+      a body at most one degree from a boundary. Lordship follows the signs starting at Lagna.
   nakshatra-nadi-review-v1:
     system: nadi
     calculation: nakshatra-nadi

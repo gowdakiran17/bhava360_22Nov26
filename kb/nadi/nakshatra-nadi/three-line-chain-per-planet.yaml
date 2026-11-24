@@ -10,12 +10,14 @@ visibility: admin-only
 status: held
 native_review_needed: true
 rule: PL uses the planet’s own combination, NL uses its star lord’s and SL uses its sub lord’s. Nodes use their
-  agency combination on PL.
+  agency combination on PL. Require an event-house witness on NL. An untenanted period lord may use PL or NL. A
+  self-star lord requires NL and ignores SL. PL identifies the source; after permission, SL qualifies the outcome,
+  or NL does so for a self-star lord.
 conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: kp.sub.known
     op: eq
     value: true
@@ -28,9 +30,9 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026 at 7:04 PM
-    IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under whole signs and
-    16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp method.'
+  note: The owner adopted Sripati bhava chalita on 24 Nov 2026 following the live classes. Use chalita for occupancy
+    and the signs counted from Lagna for ownership. Jyoti found 35/35 matches with whole signs, 32/35 with chalita
+    and 16/35 with Placidus in file 2, PDF pp. 45–49. Later KP cusp sub-lord work uses its separate Placidus frame.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
@@ -53,7 +55,7 @@ sources:
   to_verify: false
   locator_note: Locator is approximate in the supplied review map.
 confidence: high
-review_notes: 'Resolved 2026-11-24: house-frame, planet-line, node-association. Internal review only.'
+review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.
 user_text:
   en: This period may offer openings alongside delays. You can take decisions at your own pace.
   kn: ಈ ಸಮಯದಲ್ಲಿ ಅವಕಾಶಗಳ ಜೊತೆಗೆ ವಿಳಂಬವೂ ಇರಬಹುದು. ನಿಮ್ಮ ಗತಿಯಲ್ಲಿ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.

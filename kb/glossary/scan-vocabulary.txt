@@ -1398,6 +1398,7 @@ beginning
 beginnings
 begins
 behavior
+behavioural
 behind
 being
 belaku
@@ -1782,6 +1783,7 @@ center
 central
 centre
 centred
+centres
 centuries
 century
 ceremonial
@@ -1810,6 +1812,7 @@ chaitra
 chakra
 chaldean
 chalit
+chalita
 challenge
 challenges
 challenging
@@ -2518,6 +2521,7 @@ definite
 definition
 definitions
 deg
+degenerate
 degree
 degrees
 deities
@@ -2572,6 +2576,7 @@ derive
 derived
 derives
 deriving
+desc
 descendant
 descending
 describe
@@ -2642,6 +2647,7 @@ diagnostic
 diagram
 diameter
 diameters
+diamond
 dict
 dictall
 dictionaries
@@ -3504,6 +3510,7 @@ fromtimestamp
 front
 frozen
 frozenset
+fruit
 frustrated
 fulfilment
 full
@@ -3664,6 +3671,7 @@ grahas
 grain
 gram
 grand
+grant
 grants
 grass
 great
@@ -3769,6 +3777,7 @@ headline
 headway
 headword
 headwords
+healing
 health
 healthcare
 heap
@@ -4781,6 +4790,7 @@ m19
 m20
 m21
 m22
+m23
 m47
 m5
 m51
@@ -4909,6 +4919,7 @@ maraka
 march
 marga
 margashirsha
+margin
 marico
 mark
 markdown
@@ -5021,6 +5032,7 @@ middle
 midnight
 midpoint
 midpoints
+mids
 might
 migration
 mihir
@@ -5716,6 +5728,7 @@ particularly
 partition
 partitioned
 partitions
+partly
 partner
 partners
 partnership
@@ -5911,6 +5924,7 @@ pop
 popular
 populated
 por
+porphyry
 portion
 portions
 porutham
@@ -6433,6 +6447,7 @@ reconstruction
 record
 recorded
 recording
+recordings
 records
 recovered
 recovery
@@ -6599,6 +6614,7 @@ required
 requirement
 requirements
 requires
+requiring
 res
 rescaling
 research
@@ -7700,6 +7716,11 @@ t58
 t59
 t6
 t60
+t61
+t62
+t63
+t64
+t65
 t7
 t8
 t9
@@ -7781,6 +7802,7 @@ temple
 temporal
 temporary
 ten
+tenancy
 tenanted
 tend
 tendencies
@@ -7828,6 +7850,7 @@ there
 therefore
 these
 they
+thief
 thighs
 thing
 things
@@ -7989,6 +8012,7 @@ tribhaga
 trie
 tried
 trigger
+triggered
 triggers
 trijanma
 trikalam
@@ -8005,6 +8029,7 @@ triplicity
 trips
 tripti
 trisect
+trisection
 trishita
 trisphuta
 tritiya
@@ -8169,6 +8194,7 @@ unnecessary
 unobservable
 unobstructed
 unordered
+unpromised
 unproved
 unpublished
 unqualified
@@ -8203,6 +8229,7 @@ unsupported
 unsupportive
 unsure
 untangle
+untenanted
 untested
 until
 untranscribed
@@ -8600,6 +8627,7 @@ would
 wp
 wrap
 wraparound
+wrapped
 wrapping
 wrist
 write

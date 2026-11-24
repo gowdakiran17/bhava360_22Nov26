@@ -15,7 +15,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
 meaning: Use neutral Sun, supportive Jupiter, Venus, Mercury and waxing Moon, and challenging Mars, Saturn, nodes
   and waning Moon as internal context only.
 life_areas: []

@@ -1,7 +1,7 @@
 id: nadi.nakshatra-nadi.power-position-and-circle
 system: nadi
 topic: nakshatra-nadi
-title: Power position and circle
+title: Hit power and circle
 doctrine_profile: nakshatra-nadi-review-v1
 approval: draft
 tag: MODERN/POPULAR
@@ -9,14 +9,14 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Take one occupied whole-sign house per line. PL follows the planet, NL the star lord and SL the sub lord.
-  The distinct NL and SL circles form the power set. Coincident circles give full power. Index a hit with SL as
-  row and NL as column.
+rule: Take one occupied chalita house per line. PL follows the planet, NL the star lord and SL the sub lord. The
+  distinct NL and SL circles form the power set. Coincident circles give full power. Index a hit with SL as row
+  and NL as column.
 conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: nadi.nn.houses.ready
     op: eq
     value: true
@@ -41,17 +41,17 @@ conditions:
     - true
     - false
 meaning: For a supportive ladder, all required houses must occur and at least one must be circled. A challenging
-  house acts only in power. Evaluate Antar then Pratyantar; Maha supplies background. Rank eligible ladders first,
-  then prefer more distinct power houses and finally the earlier printed entry. Count repeated houses once for matching.
-  Retain the number of contributing lines only for internal inspection.
+  house acts only in hit power. Evaluate Antar then Pratyantar; Maha supplies background. Rank eligible ladders
+  first, then prefer more distinct power houses and finally the earlier printed entry. Count repeated houses once
+  for matching. Retain the number of contributing lines only for internal inspection.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026 at 7:04 PM
-    IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under whole signs and
-    16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp method.'
+  note: The owner adopted Sripati bhava chalita on 24 Nov 2026 following the live classes. Use chalita for occupancy
+    and the signs counted from Lagna for ownership. Jyoti found 35/35 matches with whole signs, 32/35 with chalita
+    and 16/35 with Placidus in file 2, PDF pp. 45–49. Later KP cusp sub-lord work uses its separate Placidus frame.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
