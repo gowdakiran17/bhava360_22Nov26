@@ -5682,6 +5682,7 @@ splits
 spoken
 spot
 spotlight
+spots
 spread
 spreads
 spring

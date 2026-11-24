@@ -68,6 +68,6 @@ evidence:
   direction: context
   weight_class: context
   time_scope: natal
-  reference: none
+  reference: lagna
   area_strength:
     family-home: core

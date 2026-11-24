@@ -50,6 +50,9 @@ def worksheet(x, p, cancellation, full_aspects, natural):
         distance, nature = aspect
         if distance not in full_aspects[caster] or nature not in ('benefic','malefic'):
             return None
+        if (caster in natural['always_benefic'] and nature!='benefic' or
+                caster in natural['always_malefic'] and nature!='malefic'):
+            return None
         net += p['aspect_unit'] if nature=='benefic' else -p['aspect_unit']
     kind = x.get('natural_nature')
     if graha in natural['always_benefic']:
@@ -76,6 +79,9 @@ def validate(read,require):
     cases = read('examples/planet-strength-grade.yaml')['cases']
     def run(x):
         return worksheet(x,p,cancellation,aspects,natural)
+    raja = read('vedic/yogas/neecha-bhanga-raja.yaml')
+    require(raja['conditions']['all'][0] == cancellation['conditions'],
+            'Raja relief branches must match the canonical rule')
     for name,x in cases.items():
         x['relief_facts'] = {leaf['fact']:leaf['fact'] in x.get('matched_relief',[])
                              for leaf in cancellation['conditions']['any']}

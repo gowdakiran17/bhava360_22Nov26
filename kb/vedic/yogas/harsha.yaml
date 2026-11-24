@@ -61,6 +61,6 @@ evidence:
   direction: support
   weight_class: primary
   time_scope: natal
-  reference: none
+  reference: lagna
   area_strength:
     career: core

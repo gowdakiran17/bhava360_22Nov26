@@ -106,6 +106,14 @@ def classify(r, recipes, slow):
         direction,weight,ref='caution','modifier','moon'
     if direction=='context' and scope=='natal' and topic in ('natal','planets-in-houses','placements'):
         reason='Chart placement supplies a theme; a single direction requires chart-specific corroboration.'
+    if system=='vedic' and ref=='none':
+        if topic=='yogas' and slug in ('vesi','vosi','ubhayachari'):
+            ref='sun'
+        elif topic=='yogas' and slug in ('hamsa','bhadra','ruchaka','shasha','malavya','harsha','sarala','vimala','vasumati'):
+            # Vasumati permits either the Lagna or Moon; there is no single fixed origin.
+            ref='none' if slug=='vasumati' else 'lagna'
+        elif topic=='houses' and re.fullmatch(r'(?:house-\d+|\w+-house-\d+)',slug):
+            ref='lagna'
     # An area named by the rule itself is the direct target of this observation.
     for area in areas:
         if slug == area or slug.startswith(area+'-'):

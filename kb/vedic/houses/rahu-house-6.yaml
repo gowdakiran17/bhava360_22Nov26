@@ -49,7 +49,7 @@ evidence:
   direction: context
   weight_class: context
   time_scope: natal
-  reference: none
+  reference: lagna
   area_strength:
     career: related
     health: related

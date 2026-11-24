@@ -70,6 +70,11 @@ def validate(read, require):
             require(row[g]==cell(lagna,g,dignity), f'{lagna}/{g} flags and MT ownership')
             owned=read(f'vedic/planets/{g}.yaml')['graha']['nature']['functional_nature'][lagna]
             require(all(row[g][k]==v for k,v in owned.items()), f'{lagna}/{g} ownership mismatch')
+    require(table['gemini']['jupiter']['strong'] and table['virgo']['jupiter']['strong']
+            and table['pisces']['mercury']['kendradhipati'] and not table['pisces']['mercury']['strong']
+            and table['libra']['mars']['maraka'] and table['capricorn']['sun']['eighth_lord_exempt']
+            and table['sagittarius']['moon']['eighth_lord_exempt'] and table['aries']['saturn']['eleventh_least_malefic_for_wealth'],
+            'reviewed functional flag spots')
     require(sum(c['yogakaraka'] for r in table.values() for c in r.values())==6,'six Yogakarakas')
     require(resolve(table,'cancer','rahu','aries')=='Benefic' and resolve(table,'aries','ketu') is None
             and resolve(table,None,'sun') is None,'dispositor and unknowns')
