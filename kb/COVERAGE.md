@@ -1,6 +1,6 @@
 # Bhava360 knowledge base edition 1
 
-This is a reviewable authoring edition. It contains 2,618 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,618 rules have English, Kannada and Hindi user text and retain draft status.
+This is a reviewable authoring edition. It contains 2,732 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,732 rules have English, Kannada and Hindi user text and retain draft status.
 
 ## Where to start
 
@@ -79,6 +79,12 @@ Five Swiss-file natal charts and five worked readings cover thirty MVP area eval
 
 ## Batch 6 · Annual, stellar and question charts
 
-The 78 additional draft readings comprise 16 annual yogas, 27 Lagna stars, 24 Moon/Lagna quarter modifiers, nine reusable star-lord readings and two question routes. The catalogue contains 2,618 reading rules across ten systems and 952 registered facts. The 27 existing Moon-star entries supply the Moon readings. Four avastha tables and four Vimshopaka schemes have separate private calculation records.
+The 78 additional draft readings comprise 16 annual yogas, 27 Lagna stars, 24 Moon/Lagna quarter modifiers, nine reusable star-lord readings and two question routes. The catalogue contains 2,732 reading rules across ten systems and 952 registered facts. The 27 existing Moon-star entries supply the Moon readings. Four avastha tables and four Vimshopaka schemes have separate private calculation records.
 
 The synthetic examples cover the residence-based sidereal return, natal star and quarter composition, and a job question whose applying aspect crosses the sign boundary. [Annual worksheet](examples/annual-return-v1.yaml) · [Natal worksheet](examples/natal-star-n1.yaml) · [Question worksheet](examples/prashna-reference.yaml)
+
+## Batch 7 coverage
+
+The 114 additional draft reading rules comprise 108 Lal Kitab planet–house placements and six Western R3 readings. The tarot table supplies 312 area and orientation combinations. The confidence matrix covers 82 outputs. There are 955 registered facts. Five chart fixtures cover thirty area traces in English, Kannada and Hindi. Glossary documents follow the separate glossary review convention in SCHEMA.yaml.
+
+The gated annual lookup covers age indices 1–120. The edition-specific Lal Kitab rows await a source. Nadi progression remains held. See the citation audit under governance for the remaining edition checks.

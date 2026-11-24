@@ -105,7 +105,7 @@ def record(person,provenance):
         delta=(moon-sun)%360
         last=max(t for t in (prev_rise,sunrise,next_rise) if t and t<=at)
         return dict(vara=last.strftime('%A'),tithi=int(delta//12)+1,nakshatra=labels(moon)['nakshatra'],
-                    yoga=int((moon+sun)%360*27/360)+1,karana_half=int(delta//6))
+                    yoga=int((moon+sun)%360*27/360)+1,karana_half=int(delta//6)+1)
     all_limbs=[birth_limbs(sample,birth+half*(i/30-1)) for i,sample in enumerate(samples)]
     stable_limbs={k:v if all(sample[k]==v for sample in all_limbs) else None for k,v in all_limbs[30].items()}
     pair_examples = {}

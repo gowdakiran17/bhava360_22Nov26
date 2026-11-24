@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a3
 - lal-kitab.placements.house-3
+- lal-kitab.placements.jupiter-house-3
+- lal-kitab.placements.ketu-house-3
+- lal-kitab.placements.mars-house-3
+- lal-kitab.placements.mercury-house-3
+- lal-kitab.placements.moon-house-3
+- lal-kitab.placements.rahu-house-3
+- lal-kitab.placements.saturn-house-3
+- lal-kitab.placements.sun-house-3
+- lal-kitab.placements.venus-house-3
 - vedic.aspects.jupiter-aspects-house-3
 - vedic.aspects.ketu-aspects-house-3
 - vedic.aspects.mars-aspects-house-3

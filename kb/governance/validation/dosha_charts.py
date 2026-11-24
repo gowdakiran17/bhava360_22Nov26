@@ -82,7 +82,7 @@ def pair_facts(a, b, parihara, signs, rules, raman=False):
     return {'match.nadi.quarter_relief': raman and pattern[quarter_a%6] != pattern[quarter_b%6],
             'match.bhakoot.raman_relief': raman and lord_relief,
             'match.nadi.same': pattern[star_a%6] == pattern[star_b%6],
-            'match.nadi.pada_parihara': parihara and star_a == star_b and int(a*60//200) != int(b*60//200),
+            'match.nadi.pada_parihara': parihara and ((star_a == star_b and quarter_a != quarter_b) or (sign(a)==sign(b) and star_a!=star_b)),
             'match.bhakoot.zero': distance(a,b) in (2,12,5,9,6,8),
             'match.bhakoot.lord_parihara': parihara and lord_relief}
 

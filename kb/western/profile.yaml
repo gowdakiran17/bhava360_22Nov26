@@ -5,14 +5,31 @@ longitude: Geocentric apparent ecliptic longitude of date. Normalize to [0,360).
 houses:
   default: placidus
   systems:
-    placidus: {code: P, admin_label: Placidus}
-    whole-sign: {code: W, admin_label: Whole sign}
-    koch: {code: K, admin_label: Koch}
-    equal: {code: E, admin_label: Equal from Ascendant}
-  assignment: Normalize to a turn. Include the start cusp and exclude the next cusp in zodiac order. Whole sign begins at zero of the rising sign. Equal begins at the Ascendant degree.
-  polar_failure: For failed Placidus or Koch discard any automatically substituted cusps. Recompute whole sign from a valid stable tropical rising sign. Otherwise withhold house-dependent results.
-  fallback_labels: {placidus: Whole sign (Placidus unavailable), koch: Whole sign (Koch unavailable)}
-  record: [requested_system, effective_system, effective_code, fallback_used, admin_label]
+    placidus:
+      code: P
+      admin_label: Placidus
+    whole-sign:
+      code: W
+      admin_label: Whole sign
+    koch:
+      code: K
+      admin_label: Koch
+    equal:
+      code: E
+      admin_label: Equal from Ascendant
+  assignment: Normalize to a turn. Include the start cusp and exclude the next cusp in zodiac order. Whole sign begins
+    at zero of the rising sign. Equal begins at the Ascendant degree.
+  polar_failure: For failed Placidus or Koch discard any automatically substituted cusps. Recompute whole sign from
+    a valid stable tropical rising sign. Otherwise withhold house-dependent results.
+  fallback_labels:
+    placidus: Whole sign (Placidus unavailable)
+    koch: Whole sign (Koch unavailable)
+  record:
+  - requested_system
+  - effective_system
+  - effective_code
+  - fallback_used
+  - admin_label
 planets:
 - western.planets.sun
 - western.planets.moon
@@ -39,8 +56,8 @@ secondary_orb_degrees: 1
 secondary_days_per_year: 365.2425
 timing: Use five major aspects by default, and opt-in quincunx. Solve exact oriented branches and station tangencies.
   Retain all dated passes; withhold when a natal target is unknown.
-outer_planets: Use the existing KB-02b entries and their personal-contact filters; sign placements alone supply
-  cohort context.
+outer_planets: Use the existing KB-02b entries and their personal-contact filters; sign placements alone supply cohort
+  context.
 public:
   label: Western (tropical)
   tones:
@@ -84,12 +101,21 @@ pattern_edge_order:
 phase_index: For secondary lunar phases take floor(((progressed Moon minus progressed Sun) mod 360)/45). Index zero
   begins at conjunction. A change is a solved crossing of a sector boundary.
 auxiliary_points:
-  interpretation: Chiron, nodes and Fortune are display-only. Reliable angles have their own contact rules and remain outside planetary pattern membership.
+  interpretation: Chiron, nodes and Fortune have optional R3 reflective readings when enabled and computable. Reliable
+    angles have their own contact rules and remain outside planetary pattern membership.
   chiron: Compute geocentric tropical Chiron only when local ephemeris data are available; otherwise unknown.
   nodes: Compute mean ascending node; descending node is opposite modulo 360.
   mc_ic: Use actual meridian MC from Swiss angles and IC opposite even in equal and whole-sign charts.
-  fortune: Day uses (ASC + Moon - Sun) modulo 360. Night uses (ASC + Sun - Moon) modulo 360. Use solar centre geometric altitude at the observer, day at or above zero. Missing sect or Ascendant withholds Fortune.
+  fortune: Day uses (ASC + Moon - Sun) modulo 360. Night uses (ASC + Sun - Moon) modulo 360. Use solar centre geometric
+    altitude at the observer, day at or above zero. Missing sect or Ascendant withholds Fortune.
 technique_orbs: aspects/orbs.yaml
 point_interpretation: Stable ASC and MC support personal contacts. MC describes public work and IC private foundations.
-  Chiron, nodes and Fortune remain display-only.
+  Their readings remain gated until R3.
 minor_aspects: Quincunx is opt-in for standalone and Yod queries.
+r3_readings:
+- western.r3-readings.north-node
+- western.r3-readings.south-node
+- western.r3-readings.chiron
+- western.r3-readings.fortune
+- western.r3-readings.composite
+- western.r3-readings.solar-arc

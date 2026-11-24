@@ -21,6 +21,15 @@ used_by:
 - jaimini.arudha-padas.a6
 - kp.significators.job-change
 - lal-kitab.placements.house-6
+- lal-kitab.placements.jupiter-house-6
+- lal-kitab.placements.ketu-house-6
+- lal-kitab.placements.mars-house-6
+- lal-kitab.placements.mercury-house-6
+- lal-kitab.placements.moon-house-6
+- lal-kitab.placements.rahu-house-6
+- lal-kitab.placements.saturn-house-6
+- lal-kitab.placements.sun-house-6
+- lal-kitab.placements.venus-house-6
 - vedic.aspects.jupiter-aspects-house-6
 - vedic.aspects.ketu-aspects-house-6
 - vedic.aspects.mars-aspects-house-6

@@ -18,7 +18,6 @@ reference_rules:
 - vedic.nakshatras.uttara-phalguni
 used_by:
 - vedic.muhurta.business-start
-- vedic.muhurta.griha-pravesha
 - vedic.muhurta.marriage
 - vedic.muhurta.naming
 - vedic.muhurta.property-registration

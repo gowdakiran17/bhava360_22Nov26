@@ -22,6 +22,18 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.marriage-support
 - jaimini.raja-yogas.fifth-from-lord
+- lal-kitab.placements.jupiter-house-1
+- lal-kitab.placements.jupiter-house-10
+- lal-kitab.placements.jupiter-house-11
+- lal-kitab.placements.jupiter-house-12
+- lal-kitab.placements.jupiter-house-2
+- lal-kitab.placements.jupiter-house-3
+- lal-kitab.placements.jupiter-house-4
+- lal-kitab.placements.jupiter-house-5
+- lal-kitab.placements.jupiter-house-6
+- lal-kitab.placements.jupiter-house-7
+- lal-kitab.placements.jupiter-house-8
+- lal-kitab.placements.jupiter-house-9
 - palmistry.mounts.jupiter
 - palmistry.mounts.jupiter-left
 - palmistry.mounts.jupiter-right
@@ -105,7 +117,11 @@ used_by:
 - vedic.houses.jupiter-house-9
 - vedic.lordships.pisces-lagna-lord
 - vedic.lordships.sagittarius-lagna-lord
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
 - vedic.muhurta.marriage
+- vedic.muhurta.property-registration
 - vedic.nakshatras.punarvasu
 - vedic.nakshatras.purva-bhadrapada
 - vedic.nakshatras.pushya

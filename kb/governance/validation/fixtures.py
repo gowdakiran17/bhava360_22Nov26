@@ -29,6 +29,11 @@ def validate(rules, read, require, root):
         for output,mode in record['confidence'].items():
             require(mode==matrix[output][data['tier']],name+' confidence drift '+output)
         markdown=(root/'examples/worked-readings'/(name.lower()+'.md')).read_text()
+        for lang in ('kn','hi'):
+            require(record['public_'+lang].keys()==record['public_en'].keys(),name+' locale coverage')
+            for key,text in record['public_'+lang].items():
+                check_text(text,key,lang)
+                require(text in markdown,name+' localized worksheet')
         for key,phrase in record['public_en'].items():
             check_text(phrase,key,'en')
             require(phrase in markdown and not re.search(r'\d|\b(?:Strong|Weak|Moderate)\b',phrase),name+' visible copy')
@@ -55,7 +60,7 @@ def validate(rules, read, require, root):
             'four frozen Venus endpoints')
     offsets=read('vedic/strength/ashtakavarga/bindu.yaml')['offsets']['moon']
     require(all(offsets[k]==v for k,v in edge['moon_bav'].items()),'Moon contributor cells')
-    require(edge['chara_cycle_two']['expected'] is None,'unimplemented second cycle')
+    require(edge['chara_cycle_two']['expected']==read('examples/jaimini-j2.yaml')['switch_at_year']<70,'second Chara cycle boundary')
     for category,bad,good in edge['public_copy']:
         try:check_text(bad,'planted','en')
         except ValueError as exc:require(category in str(exc),bad)

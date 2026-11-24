@@ -10,8 +10,7 @@ conditions:
   - fact: match.nadi.same
     op: eq
     value: true
-meaning: This is one factor in the northern matching table. Keep its raw score and any parihara explanation
-  separate.
+meaning: This is one factor in the northern matching table. Keep its raw score and any parihara explanation separate.
 life_areas:
 - love-marriage
 strength_notes:
@@ -38,8 +37,11 @@ exceptions:
     Preserve the star-level score.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Parihara varies by matching school. Preserve the raw northern score and use both charts only in the
-    consented matching step.
+  note: Parihara varies by matching school. Preserve the raw northern score and use both charts only in the consented
+    matching step.
+- profile: vedic-editorial-v1
+  note: Selected relief includes same sign/different star and same star/different sign, plus the existing same-star/different-quarter
+    form. Keep raw points private.
 sources:
 - book: PyJHora compatibility.py
   work_id: pyjhora-matching
@@ -65,9 +67,9 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: "You can give each person a turn to speak before deciding together."
+    en: You can give each person a turn to speak before deciding together.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
-    hi: "चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।"
+    hi: चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।
 reference_paths:
 - vedic/matching/shared-star-class.yaml
 - vedic/matching/north-profile.yaml

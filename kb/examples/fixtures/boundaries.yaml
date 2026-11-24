@@ -29,8 +29,8 @@ moon_bav:
   - 11
   - 12
 chara_cycle_two:
-  status: pending-KB-55
-  expected: null
+  expected: 64
+  worksheet: examples/jaimini-j2.yaml
 public_copy:
 - - fear or judgment
   - It may bring bad luck.
@@ -53,3 +53,9 @@ public_copy:
 - - rating
   - 8 out of 10
   - You may find room to cooperate.
+regression_checks:
+  sandhi: governance/validation/other_dashas.py
+  combustion and sign cusp: governance/validation/strength_grade.py
+  nakshatra edge: governance/validation/annual_natal.py
+  polar KP: governance/validation/kp.py
+  tier edges: governance/validation/confidence.py

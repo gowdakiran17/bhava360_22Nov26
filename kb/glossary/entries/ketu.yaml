@@ -21,6 +21,18 @@ used_by:
 - jaimini.argala.intervention
 - jaimini.argala.obstruction
 - jaimini.argala.special-third
+- lal-kitab.placements.ketu-house-1
+- lal-kitab.placements.ketu-house-10
+- lal-kitab.placements.ketu-house-11
+- lal-kitab.placements.ketu-house-12
+- lal-kitab.placements.ketu-house-2
+- lal-kitab.placements.ketu-house-3
+- lal-kitab.placements.ketu-house-4
+- lal-kitab.placements.ketu-house-5
+- lal-kitab.placements.ketu-house-6
+- lal-kitab.placements.ketu-house-7
+- lal-kitab.placements.ketu-house-8
+- lal-kitab.placements.ketu-house-9
 - remedies.conduct.ketu
 - vastu.directions.centre
 - vedic.aspects.ketu-aspects-house-1
@@ -154,3 +166,4 @@ used_by:
 - vedic.transits.rahu-moon-house-7
 - vedic.transits.rahu-moon-house-8
 - vedic.transits.rahu-moon-house-9
+- western.r3-readings.south-node

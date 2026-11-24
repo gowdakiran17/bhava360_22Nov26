@@ -35,8 +35,8 @@ native_review:
   hi: pending
 remedy: null
 evidence:
-  direction: caution
-  weight_class: secondary
+  direction: context
+  weight_class: context
   time_scope: natal
   reference: none
   area_strength: {}

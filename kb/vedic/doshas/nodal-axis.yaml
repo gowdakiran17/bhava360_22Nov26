@@ -4,8 +4,8 @@ topic: doshas
 title: Kaal Sarp · nodal enclosure
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: All seven classical grahas fall on the forward semicircle from natal Rahu to Ketu, endpoints included.
-  Test longitudes modulo 360. Show in detail view only.
+rule: All seven classical grahas fall on the forward semicircle from natal Rahu to Ketu, endpoints included. Test
+  longitudes modulo 360. Show in detail view only.
 conditions:
   all:
   - fact: dosha.axis.confined
@@ -23,8 +23,8 @@ strength_notes:
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: A disputed late tradition. Some schools omit the label, reverse the counted arc or exclude endpoints.
-    Paired benefics or a remedy are not universal cancellations.
+  note: A disputed late tradition. Some schools omit the label, reverse the counted arc or exclude endpoints. Paired
+    benefics or a remedy are not universal cancellations.
 sources:
 - book: PyJHora dosha.py
   work_id: pyjhora-doshas
@@ -35,8 +35,8 @@ sources:
   supports: Contemporary nodal-enclosure comparator. The library selects one arc and longitude-based endpoints.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
+  School-dependent formation contributes only to an established indication.
 user_text:
   en: You can explore the placements inside the arc one at a time.
   kn: ಚಾಪದೊಳಗಿನ ಸ್ಥಾನಗಳನ್ನು ಒಂದೊಂದಾಗಿ ಗಮನಿಸಬಹುದು.
@@ -50,7 +50,7 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: "You may choose one chart theme to reflect on today."
+    en: You may choose one chart theme to reflect on today.
     kn: ಇಂದು ಒಂದು ವಿಷಯವನ್ನು ಆರಿಸಿ ಚಿಂತಿಸಬಹುದು.
     hi: आज आप किसी एक विषय पर विचार कर सकते हैं।
 evidence:
@@ -59,3 +59,4 @@ evidence:
   time_scope: natal
   reference: none
   area_strength: {}
+tag: MODERN/POPULAR

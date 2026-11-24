@@ -85,3 +85,8 @@ approval: draft
 native_review:
   kn: pending
   hi: pending
+source:
+  work_id: bphs
+  edition: null
+  locator: Chapter on maraka lords
+  verification: pending

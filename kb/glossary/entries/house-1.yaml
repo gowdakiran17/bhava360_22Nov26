@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.arudha-lagna
 - lal-kitab.placements.house-1
+- lal-kitab.placements.jupiter-house-1
+- lal-kitab.placements.ketu-house-1
+- lal-kitab.placements.mars-house-1
+- lal-kitab.placements.mercury-house-1
+- lal-kitab.placements.moon-house-1
+- lal-kitab.placements.rahu-house-1
+- lal-kitab.placements.saturn-house-1
+- lal-kitab.placements.sun-house-1
+- lal-kitab.placements.venus-house-1
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.ketu-aspects-house-1
 - vedic.aspects.mars-aspects-house-1

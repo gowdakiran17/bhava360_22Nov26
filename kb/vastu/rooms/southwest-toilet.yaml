@@ -4,9 +4,9 @@ topic: rooms
 title: Toilet · southwest
 doctrine_profile: vastu-editorial-v1
 approval: draft
-rule: Bind the observed toilet and southwest zone to the same room within the dwelling. This modern room profile
-  favours the northwest for this use and treats the northeast as a quiet worship sector. A fixture in the northeast
-  or centre prompts a reversible arrangement suggestion.
+rule: Bind the observed toilet and southwest zone to the same room within the dwelling. This modern room profile favours
+  the northwest for this use and treats the northeast as a quiet worship sector. A fixture in the northeast or centre
+  prompts a reversible arrangement suggestion.
 conditions:
   all:
   - fact: vastu.observed.sector
@@ -42,7 +42,7 @@ sources:
   verse: null
   other_locator: vastu.rooms.southwest-toilet
   supports: Original free arrangement suggestion and tone policy.
-  verification: pending
+  verification: editorial-no-classical-claim
 confidence: medium
 review_notes: Draft; Kannada and Hindi await native review.
 user_text:
@@ -56,13 +56,11 @@ remedy: null
 vastu:
   zone: southwest
   room: toilet
-  score: 0
-  tone: Steady
-  reason: This modern room profile favours the northwest for this use and treats the northeast as a quiet worship
-    sector. A fixture in the northeast or centre prompts a reversible arrangement suggestion. The selected profile
-    gives a contextual reading for this placement.
+  score: -1
+  tone: Take care
+  reason: Selected directional preference; review practical use and available alternatives calmly.
 evidence:
-  direction: neutral
+  direction: caution
   weight_class: secondary
   time_scope: static
   reference: none

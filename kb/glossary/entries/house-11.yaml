@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a11
 - lal-kitab.placements.house-11
+- lal-kitab.placements.jupiter-house-11
+- lal-kitab.placements.ketu-house-11
+- lal-kitab.placements.mars-house-11
+- lal-kitab.placements.mercury-house-11
+- lal-kitab.placements.moon-house-11
+- lal-kitab.placements.rahu-house-11
+- lal-kitab.placements.saturn-house-11
+- lal-kitab.placements.sun-house-11
+- lal-kitab.placements.venus-house-11
 - vedic.aspects.jupiter-aspects-house-11
 - vedic.aspects.ketu-aspects-house-11
 - vedic.aspects.mars-aspects-house-11

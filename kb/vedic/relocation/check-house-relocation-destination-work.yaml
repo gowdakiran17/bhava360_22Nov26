@@ -26,13 +26,14 @@ sources:
   verse: null
   other_locator: vedic.relocation.check-house-relocation-destination-work
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  verification: editorial-no-classical-claim
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Review exact locator, convention and native copy before release. The fourth describes home and belonging
+  at the selected residence.
 user_text:
-  en: "You can explore how work fits into your plans for the new place."
-  kn: "ಹೊಸ ಸ್ಥಳದ ಯೋಜನೆಗಳಲ್ಲಿ ಕೆಲಸಕ್ಕೆ ಯಾವ ಸ್ಥಾನವಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು."
-  hi: "आप सोच सकते हैं कि नई जगह की योजना में काम की क्या भूमिका है।"
+  en: You can explore how work fits into your plans for the new place.
+  kn: ಹೊಸ ಸ್ಥಳದ ಯೋಜನೆಗಳಲ್ಲಿ ಕೆಲಸಕ್ಕೆ ಯಾವ ಸ್ಥಾನವಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप सोच सकते हैं कि नई जगह की योजना में काम की क्या भूमिका है।
 native_review:
   kn: pending
   hi: pending
@@ -43,3 +44,4 @@ evidence:
   time_scope: event
   reference: none
   area_strength: {}
+tag: MODERN

@@ -12,7 +12,7 @@ stable_birth_panchanga:
   tithi: 8
   nakshatra: mrigashira
   yoga: 2
-  karana_half: 14
+  karana_half: 15
 sunrise_local: '1992-03-12T06:29:06.131319+05:30'
 precision: exact
 tier: A
@@ -235,9 +235,12 @@ consultation:
   - vedic.yogas.vosi
   - vedic.dashas-vimshottari.jupiter-maha
   - vedic.dashas-vimshottari.jupiter-moon-antar
+  - vedic.dashas-vimshottari.career-upcoming
+  - vedic.dashas-vimshottari.love-marriage-upcoming
   - vedic.dashas-vimshottari.love-marriage-house-lord
   - vedic.dashas-vimshottari.money-upcoming
   - vedic.dashas-vimshottari.money-house-lord
+  - vedic.dashas-vimshottari.health-upcoming
   - vedic.dashas-vimshottari.family-home-upcoming
   - vedic.dashas-vimshottari.learning-upcoming
   - vedic.transits.sun-moon-house-7
@@ -527,27 +530,92 @@ consultation:
   areas:
     career:
       lord: mars
-      promise: Strong
+      promise: Moderate
       state:
-      - no-window
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id001 []
+        aspects: &id002
         - Malefic
+        houses:
+          10:
+            lord: Moderate
+            occupants: *id001
+            aspects: *id002
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
+          11:
+            lord: Moderate
+            occupants:
+            - - Malefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Benefic
+            - Yogakaraka
+            - Neutral
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id003
         - - Neutral
           - Moderate
         - - Yogakaraka
           - Strong
-        aspects:
+        aspects: &id004
         - Malefic
-      challenge_resolution: null
-      card: null
+        houses:
+          10:
+            lord: Moderate
+            occupants: *id003
+            aspects: *id004
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
+          11:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -555,91 +623,95 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id001
+      active_yogas: &id005
       - vedic.yogas.neecha-bhanga
-      practice_lord: null
+      practice_lord: moon
       conflict_ladder:
-        promise: Strong
-        activated_yogas: *id001
+        promise: Moderate
+        activated_yogas: *id005
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     love-marriage:
       lord: sun
-      promise: Moderate
-      state:
-      - no-window
-      windows: []
-      availability: known-time
-      witnesses:
-        lord: Moderate
-        occupants:
-        - - Malefic
-          - Moderate
-        aspects:
-        - Benefic
-        - Malefic
-        - Malefic
-        - Yogakaraka
-      moon_witnesses:
-        lord: Moderate
-        occupants: []
-        aspects:
-        - Malefic
-      challenge_resolution: null
-      card: null
-      modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-      active_yogas: &id002 []
-      practice_lord: null
-      conflict_ladder:
-        promise: Moderate
-        activated_yogas: *id002
-        functional_lord: Neutral
-        participant_gate: see yoga witnesses
-        divisional: confirm after D1 floor
-        references: Lagna confirms, Moon describes experience
-        other_systems: disabled
-        final: null
-    money:
-      lord: jupiter
       promise: Strong
       state:
       - active
       windows:
       - start: '2026-11-24'
         end: '2026-11-25'
-        tone: Supportive
+        tone: Steady
         pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants:
-        - - Neutral
+        occupants: &id006
+        - - Malefic
           - Moderate
-        aspects:
+        aspects: &id007
         - Benefic
+        - Malefic
         - Malefic
         - Yogakaraka
-        - Benefic
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id006
+            aspects: *id007
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
+          11:
+            lord: Moderate
+            occupants:
+            - - Malefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Benefic
+            - Yogakaraka
+            - Neutral
       moon_witnesses:
         lord: Moderate
-        occupants:
-        - - Neutral
-          - Weak
-        aspects:
-        - Benefic
+        occupants: &id008 []
+        aspects: &id009
         - Malefic
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id008
+            aspects: *id009
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          11:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
       challenge_resolution: Strong
-      card: Supportive
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -647,42 +719,176 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id003 []
+      active_yogas: &id010 []
       practice_lord: null
       conflict_ladder:
         promise: Strong
-        activated_yogas: *id003
+        activated_yogas: *id010
+        functional_lord: Neutral
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: Steady
+    money:
+      lord: jupiter
+      promise: Moderate
+      state:
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants: &id011
+        - - Neutral
+          - Moderate
+        aspects: &id012
+        - Benefic
+        - Malefic
+        - Yogakaraka
+        - Benefic
+        houses:
+          2:
+            lord: Moderate
+            occupants: *id011
+            aspects: *id012
+          11:
+            lord: Moderate
+            occupants:
+            - - Malefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Benefic
+            - Yogakaraka
+            - Neutral
+          5:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          9:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
+      moon_witnesses:
+        lord: Moderate
+        occupants: &id013
+        - - Neutral
+          - Weak
+        aspects: &id014
+        - Benefic
+        - Malefic
+        houses:
+          2:
+            lord: Moderate
+            occupants: *id013
+            aspects: *id014
+          11:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
+          5:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+          9:
+            lord: Moderate
+            occupants:
+            - - Malefic
+              - Moderate
+            - - Benefic
+              - Moderate
+            aspects: []
+      challenge_resolution: Moderate
+      card: Steady
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id015 []
+      practice_lord: moon
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id015
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: Supportive
+        final: Steady
     health:
       lord: saturn
-      promise: Strong
+      promise: Moderate
       state:
-      - no-window
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id016
         - - Neutral
           - Moderate
         - - Yogakaraka
           - Strong
-        aspects:
+        aspects: &id017
         - Malefic
+        houses:
+          1:
+            lord: Moderate
+            occupants: *id016
+            aspects: *id017
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
       moon_witnesses:
         lord: Strong
-        occupants:
+        occupants: &id018
         - - Malefic
           - Strong
-        aspects:
+        aspects: &id019
         - Malefic
-      challenge_resolution: null
-      card: null
+        houses:
+          1:
+            lord: Strong
+            occupants: *id018
+            aspects: *id019
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -690,17 +896,17 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id004 []
+      active_yogas: &id020 []
       practice_lord: null
       conflict_ladder:
-        promise: Strong
-        activated_yogas: *id004
+        promise: Moderate
+        activated_yogas: *id020
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     family-home:
       lord: venus
       promise: Moderate
@@ -714,21 +920,49 @@ consultation:
       availability: known-time
       witnesses:
         lord: Strong
-        occupants:
+        occupants: &id021
         - - Malefic
           - Strong
-        aspects:
+        aspects: &id022
         - Malefic
+        houses:
+          4:
+            lord: Strong
+            occupants: *id021
+            aspects: *id022
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Moderate
+            aspects:
+            - Benefic
+            - Malefic
+            - Yogakaraka
+            - Benefic
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id023
         - - Malefic
           - Moderate
-        aspects:
+        aspects: &id024
         - Benefic
         - Malefic
         - Malefic
         - Yogakaraka
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id023
+            aspects: *id024
+          2:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
       challenge_resolution: Moderate
       card: Steady
       modulation:
@@ -738,11 +972,11 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id005 []
+      active_yogas: &id025 []
       practice_lord: moon
       conflict_ladder:
         promise: Moderate
-        activated_yogas: *id005
+        activated_yogas: *id025
         functional_lord: Yogakaraka
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -762,21 +996,59 @@ consultation:
       availability: known-time
       witnesses:
         lord: Strong
-        occupants:
+        occupants: &id026
         - - Malefic
           - Strong
-        aspects:
+        aspects: &id027
         - Malefic
+        houses:
+          4:
+            lord: Strong
+            occupants: *id026
+            aspects: *id027
+          5:
+            lord: Moderate
+            occupants:
+            - - Neutral
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          9:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Malefic
+            - Benefic
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id028
         - - Malefic
           - Moderate
-        aspects:
+        aspects: &id029
         - Benefic
         - Malefic
         - Malefic
         - Yogakaraka
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id028
+            aspects: *id029
+          5:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+          9:
+            lord: Moderate
+            occupants:
+            - - Malefic
+              - Moderate
+            - - Benefic
+              - Moderate
+            aspects: []
       challenge_resolution: Moderate
       card: Steady
       modulation:
@@ -786,13 +1058,13 @@ consultation:
         antar:
         - Inclusive relative placement can link the period themes.
         - Directed compound friendship supports cooperation.
-      active_yogas: &id006
+      active_yogas: &id030
       - vedic.yogas.gaja-kesari
       - vedic.yogas.neecha-bhanga
       practice_lord: moon
       conflict_ladder:
         promise: Moderate
-        activated_yogas: *id006
+        activated_yogas: *id030
         functional_lord: Yogakaraka
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -843,11 +1115,37 @@ consultation:
   public_en:
     today: Familiar routines may feel especially comforting.
     month: You may find room to move a plan forward this month.
+    career: You may find it useful to review your responsibilities at work.
+    love-marriage: You can make room for a conversation about life together.
     money: You can review how incoming resources fit your savings plans.
+    health: You can notice how your energy, temperament and daily rhythm feel in your
+      body.
     family-home: You may find time for a familiar routine with family.
     learning: You can explore a subject more deeply with a teacher.
     traditional_practice: If you like, you can pause in the evening to notice what
       helped you feel settled.
+  public_kn:
+    today: ಪರಿಚಿತ ದಿನಚರಿ ಮನಸ್ಸಿಗೆ ನೆಮ್ಮದಿ ನೀಡಬಹುದು.
+    month: ಈ ತಿಂಗಳು ಯೋಜನೆಯೊಂದನ್ನು ಮುಂದಕ್ಕೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಬಹುದು.
+    career: ಕೆಲಸದ ಹೊಣೆಗಳನ್ನು ಪರಿಶೀಲಿಸುವುದು ನೆರವಾಗಬಹುದು.
+    love-marriage: ಒಟ್ಟಿನ ಬದುಕಿನ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಸಮಯ ನೀಡಬಹುದು.
+    money: ಆದಾಯವು ಉಳಿತಾಯದ ಯೋಜನೆಗೆ ಹೇಗೆ ಹೊಂದುತ್ತದೆ ಎಂದು ನೋಡಬಹುದು.
+    health: ದೇಹದ ಚೈತನ್ಯ, ಸ್ವಭಾವ ಮತ್ತು ದಿನಚರಿಯನ್ನು ಗಮನಿಸಬಹುದು.
+    family-home: ಕುಟುಂಬದೊಂದಿಗೆ ಪರಿಚಿತ ದಿನಚರಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
+    learning: ಶಿಕ್ಷಕರೊಂದಿಗೆ ಒಂದು ವಿಷಯವನ್ನು ಆಳವಾಗಿ ಕಲಿಯಬಹುದು.
+    traditional_practice: ಇಚ್ಛೆಯಿದ್ದರೆ ಸಂಜೆ ಸ್ವಲ್ಪ ವಿರಾಮ ತೆಗೆದುಕೊಂಡು ಯಾವುದು ನಿಮಗೆ
+      ನೆಮ್ಮದಿ ನೀಡಿತು ಎಂದು ಗಮನಿಸಬಹುದು.
+  public_hi:
+    today: जानी-पहचानी दिनचर्या सुकून दे सकती है।
+    month: इस महीने किसी योजना में आगे बढ़ने का अवसर मिल सकता है।
+    career: काम की जिम्मेदारियों पर विचार करना मददगार हो सकता है।
+    love-marriage: साथ बिताए जीवन पर बातचीत के लिए समय रख सकते हैं।
+    money: आमदनी और बचत की योजनाओं को साथ रखकर देख सकते हैं।
+    health: आप शरीर की स्फूर्ति, स्वभाव और दिनचर्या पर ध्यान दे सकते हैं।
+    family-home: परिवार के साथ परिचित दिनचर्या के लिए समय मिल सकता है।
+    learning: शिक्षक के साथ किसी विषय को गहराई से समझ सकते हैं।
+    traditional_practice: चाहें तो शाम को ठहरकर देख सकते हैं कि किस बात से आपको सुकून
+      मिला।
   confidence:
     lagna: show
     bav: show
@@ -1117,6 +1415,16 @@ consultation:
       - fact: dasha.vimshottari.pair_context_ready
         op: eq
         value: true
+    vedic.dashas-vimshottari.career-upcoming:
+      all:
+      - fact: dasha.upcoming.career_window
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.love-marriage-upcoming:
+      all:
+      - fact: dasha.upcoming.love_marriage_window
+        op: eq
+        value: true
     vedic.dashas-vimshottari.love-marriage-house-lord:
       any:
       - fact: dasha.active_lord.owns_house_7
@@ -1145,6 +1453,11 @@ consultation:
         op: eq
         value: true
       - fact: dasha.active_lord.owns_house_9
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.health-upcoming:
+      all:
+      - fact: dasha.upcoming.health_window
         op: eq
         value: true
     vedic.dashas-vimshottari.family-home-upcoming:
@@ -1563,7 +1876,7 @@ consultation:
       tithi: 8
       nakshatra: mrigashira
       yoga: 2
-      karana_half: 14
+      karana_half: 15
     kala_bala: eligible with resolved rise/set
     twilight:
       lower_deg: -6

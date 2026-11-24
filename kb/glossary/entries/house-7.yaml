@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a7
 - lal-kitab.placements.house-7
+- lal-kitab.placements.jupiter-house-7
+- lal-kitab.placements.ketu-house-7
+- lal-kitab.placements.mars-house-7
+- lal-kitab.placements.mercury-house-7
+- lal-kitab.placements.moon-house-7
+- lal-kitab.placements.rahu-house-7
+- lal-kitab.placements.saturn-house-7
+- lal-kitab.placements.sun-house-7
+- lal-kitab.placements.venus-house-7
 - vedic.aspects.jupiter-aspects-house-7
 - vedic.aspects.ketu-aspects-house-7
 - vedic.aspects.mars-aspects-house-7

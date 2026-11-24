@@ -25,6 +25,22 @@ class EngineExport(unittest.TestCase):
         cls.aliases = aliases['evidence_aliases']
         cls.copies = aliases['copy_aliases']
 
+    def test_optional_modern_study_gate(self):
+        from copy import deepcopy
+        from build import compile_files
+        off = self.docs['public/lal-kitab.json']['readings']
+        self.assertEqual(off, {})
+        key = 'lal-kitab.placements.saturn-house-3'
+        source = deepcopy(self.source)
+        source['shared/conventions/profiles.yaml']['calculation_profiles']['modern-study-v1']['enabled'] = True
+        files, _ = compile_files(source, '0'*40)
+        readings = files['public/lal-kitab.json']['readings']
+        self.assertEqual(readings[token('p',key)]['remedy']['cost'],'free')
+        path = 'lal-kitab/placements/saturn-house-3.yaml'
+        source[path]['remedy']['user_text']['en'] = 'Purchase an object.'
+        with self.assertRaisesRegex(ValueError, 'Unscreened modern practice'):
+            compile_files(source, '0'*40)
+
     def test_confidence_copy_is_the_only_public_confidence_resource(self):
         path = 'shared/confidence/copy.yaml'
         admin = self.docs['admin/catalog.json']
@@ -197,9 +213,10 @@ class EngineExport(unittest.TestCase):
             self.assertTrue(set(keys)<=self.rows.keys(),name)
         routes = [set(keys) for name,keys in self.routes.items()
                   if name not in ('screen/reports','screen/admin-tester','screen/home','screen/life-areas','screen/ask')]
-        self.assertEqual(set.union(*routes),{k for k,r in self.rules.items() if k not in self.aliases and r.get('visibility')!='admin-only'})
+        self.assertEqual(set.union(*routes),{k for k,r in self.rules.items() if k not in self.aliases and self.rows[k]['public_key'] is not None})
         for key,rule in self.rules.items():
             canonical = self.aliases.get(key,key)
+            if self.rows[canonical]['public_key'] is None: continue
             if rule['system'] in ('vedic','jaimini','western','kp','numerology','lal-kitab'):
                 for area in rule['life_areas']:
                     self.assertIn(canonical,self.routes['area/'+area])
@@ -235,7 +252,7 @@ class EngineExport(unittest.TestCase):
             bundle = self.docs[f'public/locales/{loc}.json']['messages']
             for key,row in self.rows.items():
                 src = self.rules[key]
-                if src.get('visibility')=='admin-only':
+                if src.get('visibility')=='admin-only' or (src.get('feature_gate') and not self.manifest['conventions'][src['feature_gate']]['enabled']):
                     self.assertIsNone(row['public_key'])
                     self.assertNotIn(token('p',key),self.docs['public/'+src['system']+'.json']['readings'])
                     self.assertNotIn(token('m',key),bundle)

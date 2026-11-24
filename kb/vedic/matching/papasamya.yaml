@@ -5,9 +5,9 @@ title: Papasamya · comparison of residual testimony
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: POPULAR editorial comparison. On both charts use identical reference, eligible malefics and houses (Sun, Mars,
-  Saturn and nodes in 1/2/4/7/8/12 from stable Lagna). Count distinct residual placements with unit weight after applicable
-  cancellations. Compare equal versus unequal burden only as context, without changing koota totals. Missing either
-  chart withholds.
+  Saturn and nodes in 1/2/4/7/8/12 from each stable reference (Lagna, Moon, Venus), comparing like with like). Count
+  distinct residual placements with unit weight after applicable cancellations. Compare equal versus unequal burden
+  only as context, without changing koota totals. Missing either chart withholds.
 conditions:
   all:
   - fact: match.profile
@@ -26,9 +26,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: MODERN/POPULAR regional Kuja doctrine. Default Lagna 1/2/4/7/8/12; other schools omit the second or compare
-    Moon and Venus as separately labelled references. Resolve natal reliefs before pair balance. Raman, Muhurtha,
-    marriage chapter.
+  note: Compare each reference independently after reliefs. Lagna-only is a labelled alternative. Do not add repeated
+    testimonies from different origins.
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha

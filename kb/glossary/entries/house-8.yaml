@@ -21,6 +21,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a8
 - lal-kitab.placements.house-8
+- lal-kitab.placements.jupiter-house-8
+- lal-kitab.placements.ketu-house-8
+- lal-kitab.placements.mars-house-8
+- lal-kitab.placements.mercury-house-8
+- lal-kitab.placements.moon-house-8
+- lal-kitab.placements.rahu-house-8
+- lal-kitab.placements.saturn-house-8
+- lal-kitab.placements.sun-house-8
+- lal-kitab.placements.venus-house-8
 - vedic.aspects.jupiter-aspects-house-8
 - vedic.aspects.ketu-aspects-house-8
 - vedic.aspects.mars-aspects-house-8

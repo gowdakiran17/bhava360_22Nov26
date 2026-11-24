@@ -114,7 +114,7 @@ def validate_matching(rules, read, evaluate, require, root):
         require(n == case['north'] and s == case['south'],f"{case['row']} independent values: {n} {s}")
         kb10 = pair_facts(*case['moon_degrees'],fixture['apply_kb10_parihara'],
                           read('vedic/signs/catalog.yaml')['signs'],rules)
-        relief = {'nadi': a['star']==b['star'] and a['pada']!=b['pada'],
+        relief = {'nadi': (a['star']==b['star'] and a['pada']!=b['pada']) or (a['sign']==b['sign'] and a['star']!=b['star']),
                   'bhakoot': n[6]==0 and s[6]}
         facts = {'match.pair.ready':all(case['consent']), 'match.moons.stable':True,
                  'match.nadi.same':a['nadi']==b['nadi'], 'match.nadi.pada_parihara':relief['nadi'],

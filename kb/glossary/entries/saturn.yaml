@@ -19,6 +19,18 @@ reference_rules:
 - vedic.planets.saturn
 used_by:
 - jaimini.arudha-padas.marriage-support
+- lal-kitab.placements.saturn-house-1
+- lal-kitab.placements.saturn-house-10
+- lal-kitab.placements.saturn-house-11
+- lal-kitab.placements.saturn-house-12
+- lal-kitab.placements.saturn-house-2
+- lal-kitab.placements.saturn-house-3
+- lal-kitab.placements.saturn-house-4
+- lal-kitab.placements.saturn-house-5
+- lal-kitab.placements.saturn-house-6
+- lal-kitab.placements.saturn-house-7
+- lal-kitab.placements.saturn-house-8
+- lal-kitab.placements.saturn-house-9
 - palmistry.mounts.saturn
 - palmistry.mounts.saturn-left
 - palmistry.mounts.saturn-right

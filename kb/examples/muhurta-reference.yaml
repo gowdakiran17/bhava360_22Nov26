@@ -69,6 +69,12 @@ cases:
       tara/Scenario 1: support
       chandra/Scenario 1: support
       panchaka: support
+    jupiter:
+    - 78
+    - 0.1
+    venus:
+    - 48
+    - 1
   vehicle-purchase:
     sun: 58
     moon: 88
@@ -99,6 +105,12 @@ cases:
       tara/Scenario 1: support
       chandra/Scenario 1: support
       panchaka: support
+    jupiter:
+    - 78
+    - 0.1
+    venus:
+    - 48
+    - 1
   naming:
     sun: 43
     moon: 61
@@ -145,6 +157,12 @@ cases:
       tara/Scenario 1: support
       chandra/Scenario 1: support
       panchaka: support
+    jupiter:
+    - 15
+    - 0.1
+    venus:
+    - 345
+    - 1
   property-registration:
     sun: 291
     moon: 8
@@ -160,6 +178,12 @@ cases:
       tara/Scenario 1: support
       chandra/Scenario 1: support
       panchaka: neutral
+    jupiter:
+    - 351
+    - 0.1
+    venus:
+    - 321
+    - 1
 probes:
 - activity: marriage
   override:

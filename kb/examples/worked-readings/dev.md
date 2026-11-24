@@ -14,12 +14,12 @@ Today resolves to Steady. The calendar month resolves to Take care.
 
 | Area | Natal promise | Dated result |
 |---|---|---|
-| career | Weak | no-promise |
-| love-marriage | Weak | no-promise |
-| money | Weak | no-promise |
-| health | Weak | no-promise |
-| family-home | Weak | no-promise |
-| learning | Weak | no-promise |
+| career | None | withheld |
+| love-marriage | None | withheld |
+| money | None | withheld |
+| health | None | withheld |
+| family-home | None | withheld |
+| learning | None | withheld |
 
 The [reference chart](../fixtures/dev.yaml) records graha positions, precision, strength worksheets, yoga witnesses and cancellations, period modulation, the conflict-ladder outcome, separate transit references and eligible practices. Windows here answer the query for this local day.
 
@@ -37,3 +37,15 @@ The table below binds each period, yoga and transit to this chart before the six
 | Transit from Moon | vedic.transits.sun-moon-house-10, vedic.transits.moon-moon-house-4 |
 | Transit from Lagna | Withheld |
 | Practice | None selected |
+
+## ಕನ್ನಡ
+
+- ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+- ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+- ಜನನ ಸಮಯ ತಿಳಿದಿಲ್ಲದಿದ್ದರೆ, ದಿನವಿಡೀ ಸ್ಥಿರವಾಗಿರುವ ಚಂದ್ರರಾಶಿ ಆಧಾರಿತ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು.
+
+## हिन्दी
+
+- घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+- इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
+- जन्म समय मालूम न होने पर आप चंद्र राशि पर आधारित वे बातें देख सकते हैं जो पूरे दिन एक जैसी रहती हैं।

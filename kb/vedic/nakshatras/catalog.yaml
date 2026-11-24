@@ -2,7 +2,8 @@ approval: draft
 origin: 0 degrees sidereal Aries
 width_arcseconds: 48000
 sequence_source: Nitya Deepam, name syllables table, sidereal span column
-lord_review: Phaladeepika XIX.2, Sastri second edition, begins with the Sun at Krittika; rotated to Ashwini this sequence begins with Ketu.
+lord_review: Phaladeepika XIX.2, Sastri second edition, begins with the Sun at Krittika; rotated to Ashwini this sequence
+  begins with Ketu.
 nakshatras:
 - id: ashwini
   number: 1
@@ -61,6 +62,9 @@ nakshatras:
 - id: mula
   number: 19
   vimshottari_lord: ketu
+  deity: Nirriti
+  deity_variant: Prajapati
+  deity_visibility: admin-only
 - id: purva-ashadha
   number: 20
   vimshottari_lord: venus

@@ -20,13 +20,12 @@ strength_notes:
     op: eq
     value: true
   effect: stronger
-  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
-    convention.
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity convention.
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: This contemporary conjunction label lacks an agreed classical cancellation list. The selected profile
-    uses Rahu only.
+  note: This contemporary conjunction label lacks an agreed classical cancellation list. The selected profile uses
+    Rahu only.
 sources:
 - book: PyJHora dosha.py
   work_id: pyjhora-doshas
@@ -37,8 +36,8 @@ sources:
   supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
+  School-dependent formation contributes only to an established indication.
 user_text:
   en: You can choose a pace you can sustain.
   kn: ಮುಂದುವರಿಸಬಹುದಾದ ವೇಗವನ್ನು ಆರಿಸಬಹುದು.
@@ -67,3 +66,4 @@ evidence:
   area_strength:
     career: related
     learning: related
+tag: MODERN/POPULAR

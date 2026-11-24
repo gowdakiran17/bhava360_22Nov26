@@ -14,6 +14,10 @@ toggles:
       days instead.
     activities:
     - marriage
+    - griha-pravesha
+    - education-start
+    - property-registration
+    - business-start
     default: true
   adhika:
     when: Intercalary lunar month (no ingress between consecutive new moons).
@@ -45,3 +49,5 @@ sources:
   locator: Vivaha and Shubhashubha prakaranas; regional rules require review.
   verification: pending
 visibility_variant_id: asta-visibility-days
+gandanta: Withhold an auspicious recommendation when election Moon or Lagna crosses the selected gandanta interval.
+  Use vedic/vargas/advanced.yaml; unresolved interval is unknown.

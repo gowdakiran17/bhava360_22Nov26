@@ -4,8 +4,8 @@ topic: muhurta
 title: Griha pravesha · housewarming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
-  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the shared
+  ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
 conditions:
   all:
   - fact: muhurta.activity
@@ -25,8 +25,8 @@ exceptions:
     op: eq
     value: true
   effect: soften
-  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
-    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category is supportive.
+    Soften only their eighth-house Chandra caution to neutral.'
 - when:
     fact: muhurta.relief.entry_navamsa
     op: eq
@@ -36,9 +36,8 @@ exceptions:
     caution.'
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
-    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
-    may differ. '
+  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists for
+    yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice may differ. '
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -46,8 +45,8 @@ sources:
   chapter: null
   verse: null
   other_locator: House Building, Entering a New House
-  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
-    Bhava360 preferences.
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared Bhava360
+    preferences.
   verification: verified
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -126,7 +125,6 @@ activity_profile:
       - ashlesha
       - magha
       - purva-phalguni
-      - uttara-phalguni
       - hasta
       - swati
       - vishakha
@@ -151,6 +149,10 @@ activity_profile:
       - Ganda
       - Vyatipata
       - Vaidhriti
+      - Vishkambha
+      - Vyaghata
+      - Vajra
+      - Parigha
     karana:
       support:
       - bava
@@ -171,9 +173,12 @@ activity_profile:
       - libra
       - capricorn
   panchaka_avoid:
+  - 1
   - 2
   - 4
-  combustion: []
+  combustion:
+  - venus
+  - jupiter
   quarter_cautions: {}
   reliefs:
   - chandra
@@ -208,6 +213,7 @@ activity_profile:
     - adhika
     - holashtak
     - panchaka
+    - asta
     exceptions: No relief for occupied eighth under this profile. Marriage also requires the seventh empty. Treat
       twelfth occupancy as a caution only.
 evidence:

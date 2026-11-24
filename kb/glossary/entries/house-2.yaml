@@ -21,6 +21,15 @@ used_by:
 - jaimini.arudha-padas.a2
 - kp.significators.job-change
 - lal-kitab.placements.house-2
+- lal-kitab.placements.jupiter-house-2
+- lal-kitab.placements.ketu-house-2
+- lal-kitab.placements.mars-house-2
+- lal-kitab.placements.mercury-house-2
+- lal-kitab.placements.moon-house-2
+- lal-kitab.placements.rahu-house-2
+- lal-kitab.placements.saturn-house-2
+- lal-kitab.placements.sun-house-2
+- lal-kitab.placements.venus-house-2
 - vedic.aspects.jupiter-aspects-house-2
 - vedic.aspects.ketu-aspects-house-2
 - vedic.aspects.mars-aspects-house-2

@@ -40,3 +40,5 @@ evidence:
   time_scope: natal
   reference: none
   area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

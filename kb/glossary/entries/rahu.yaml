@@ -26,6 +26,18 @@ used_by:
 - jaimini.chara-karakas.matrikaraka
 - jaimini.chara-karakas.pitrikaraka
 - jaimini.chara-karakas.putrakaraka
+- lal-kitab.placements.rahu-house-1
+- lal-kitab.placements.rahu-house-10
+- lal-kitab.placements.rahu-house-11
+- lal-kitab.placements.rahu-house-12
+- lal-kitab.placements.rahu-house-2
+- lal-kitab.placements.rahu-house-3
+- lal-kitab.placements.rahu-house-4
+- lal-kitab.placements.rahu-house-5
+- lal-kitab.placements.rahu-house-6
+- lal-kitab.placements.rahu-house-7
+- lal-kitab.placements.rahu-house-8
+- lal-kitab.placements.rahu-house-9
 - remedies.conduct.rahu
 - vastu.directions.southwest
 - vedic.aspects.rahu-aspects-house-1
@@ -161,3 +173,4 @@ used_by:
 - vedic.transits.rahu-moon-house-7
 - vedic.transits.rahu-moon-house-8
 - vedic.transits.rahu-moon-house-9
+- western.r3-readings.north-node

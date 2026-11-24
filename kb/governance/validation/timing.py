@@ -7,6 +7,8 @@ from check import evaluate, check_predicate
 def pair_facts(maha, antar, signs, lagna, read):
     if not maha or not antar or maha not in signs or antar not in signs:
         return {}
+    if maha==antar:
+        return {}
     distance=(signs[antar]-signs[maha])%12+1
     result={'dasha.pair.distance':distance}
     if lagna is not None:
@@ -54,8 +56,11 @@ def bind(area,chart,period,recipe,read):
     divisions={v['division'] for v in recipe['vargas'] if v['release']=='mvp'}
     bound['topic_varga']='D10' if 'D10' in divisions else None
     for key,origin in [('lagna',lagna),('moon',signs.get('moon'))]:
-        bound[key]=bind_reference(origin,houses[0],dict(chart,lagna=SIGNS[lagna] if lagna is not None else None),functional,aspects)
-        bound[key+'_targets']=[] if origin is None else [(origin+houses[0]-1)%12,signs.get(OWNERS[(origin+houses[0]-1)%12])]
+        rows = [bind_reference(origin,h,dict(chart,lagna=SIGNS[lagna] if lagna is not None else None),functional,aspects)
+                for h in houses]
+        bound[key] = dict(rows[0], houses=dict(zip(houses, rows))) if origin is not None else {}
+        bound[key+'_targets'] = [] if origin is None else list(dict.fromkeys(
+            target for h in houses for target in ((origin+h-1)%12, signs.get(OWNERS[(origin+h-1)%12]))))
     # Production testimony is the KB-41 projection. The legacy KB-36 fixtures may
     # still supply an already-bound witness. A hidden/private witness cannot vote.
     if 'yoga_record' in chart:
@@ -74,8 +79,8 @@ def bind(area,chart,period,recipe,read):
         extra.update(g for g,r in functional[SIGNS[lagna]].items() if r['yogakaraka'])
     if sig.get('yoga_participants'):
         extra.update(chart.get('eligible_yoga_grahas',{}).get(sig['yoga_participants'],[]))
-    bound['period'].update(owners={lord(h) for h in [houses[0],*sig['house_lords'],*sig.get('secondary_lords',[])]},
-        occupants=set.union(at(houses[0]),*(at(h) for h in sig.get('occupant_houses',[]))),
+    bound['period'].update(owners={lord(h) for h in [*houses,*sig['house_lords'],*sig.get('secondary_lords',[])]},
+        occupants=set().union(*(at(h) for h in [*houses,*sig.get('occupant_houses',[])])),
         aspectors={g for g,s in signs.items() if any((t-s)%12+1 in aspects[g] for t in targets)},
         karakas=set(recipe['karakas'])|extra,
         negating={g for h in recipe['delay_houses'] for g in at(h)|{lord(h)}})

@@ -29,7 +29,7 @@ sources:
   other_locator: kp.significators.job-change
   supports: Original product or reflection wording only; any historical or calculation claim requires its own
     evidence.
-  verification: pending
+  verification: editorial-no-classical-claim
 - book: Lecture Note on Krishnamurti Paddhati
   work_id: kp-dutta
   edition: kp-dutta-online

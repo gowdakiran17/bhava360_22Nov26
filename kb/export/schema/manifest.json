@@ -128,12 +128,41 @@
             "houses"
           ],
           "additionalProperties": true
+        },
+        "modern-study-v1": {
+          "type": "object",
+          "properties": {
+            "system": {
+              "const": "lal-kitab"
+            },
+            "tag": {
+              "const": "MODERN"
+            },
+            "approval": {
+              "type": "string"
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "scope": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "system",
+            "tag",
+            "enabled",
+            "scope",
+            "approval"
+          ],
+          "additionalProperties": false
         }
       },
       "required": [
         "vedic-lahiri-v1",
         "kp-placidus-v1",
-        "western-tropical-v1"
+        "western-tropical-v1",
+        "modern-study-v1"
       ],
       "additionalProperties": false
     },

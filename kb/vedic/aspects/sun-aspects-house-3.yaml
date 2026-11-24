@@ -36,7 +36,8 @@ sources:
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
 confidence: medium
-review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial application. Native Kannada and Hindi review pending.
+review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial
+  application. Native Kannada and Hindi review pending.
 user_text:
   en: In matters of everyday communication, taking responsibility may help you decide what to do next.
   kn: ದೈನಂದಿನ ಸಂವಹನ ವಿಷಯದಲ್ಲಿ ಹೊಣೆಗಾರಿಕೆ ವಹಿಸುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
@@ -46,10 +47,14 @@ native_review:
   hi: pending
 remedy: null
 evidence:
-  direction: caution
+  direction: context
   weight_class: modifier
   time_scope: natal
   reference: lagna
   area_strength:
     family-home: related
     learning: related
+aspect_direction:
+  own_target: support
+  other_target: resolve functional polarity for this Lagna; unavailable means context
+  weight: modifier

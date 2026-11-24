@@ -138,12 +138,17 @@ def public_resources(docs, messages):
         else:
             continue
         bind(path,public)
-    for copy_path in ('shared/confidence/copy.yaml', 'modules/home/copy.yaml','vedic/matching/summary.yaml'):
+    for copy_path in ('shared/confidence/copy.yaml', 'modules/home/copy.yaml','vedic/matching/summary.yaml','vedic/dashas/yogini/readings.yaml',
+                      'numerology/lo-shu/planes.yaml', 'palmistry/guided-observations/depth.yaml'):
         if copy_path not in docs:
             continue
         for key, translations in docs[copy_path]['messages'].items():
             name = f'{copy_path}#messages/{key}'
             bind(name, {'user_text':messages.add(name, translations)})
+    for rid, areas in docs['tarot/spreads/area-lines.yaml']['lines'].items():
+        for area, translations in areas.items():
+            name = f'tarot/spreads/area-lines.yaml#{rid}/{area}'
+            bind(name, {'user_text':messages.add(name,translations)})
     brand_label = 'checkers/business-name/recipe.yaml#display_name'
     bind(brand_label, {'label':messages.add(brand_label, docs['checkers/business-name/recipe.yaml']['display_name'])})
     for area, labels in docs['life-areas/catalog.yaml']['areas'].items():
@@ -196,6 +201,13 @@ def compile_files(docs, commit):
             key = doc['id']
             if key in by_id or doc['system'] not in SYSTEMS:
                 raise ValueError('Invalid source rule '+key)
+            gate = doc.get('feature_gate')
+            if gate == 'modern-study-v1' and doc.get('remedy') is not None:
+                screened = docs['lal-kitab/placements/evidence.yaml']['accepted_conduct']
+                if doc['remedy'] not in screened:
+                    raise ValueError('Unscreened modern practice: '+key)
+            if gate and not docs['shared/conventions/profiles.yaml']['calculation_profiles'][gate]['enabled']:
+                doc = dict(doc, visibility='admin-only')
             by_id[key], paths[key] = doc, path
     rule_paths = set(paths.values())
     grouped = defaultdict(list)
@@ -309,7 +321,7 @@ def validate_outputs(outputs, manifest, docs):
     for name,ids in routes.items():
         if set(ids)-canonical or ids!=sorted(set(ids)):
             raise ValueError('Invalid route '+name)
-    private={r['id'] for r in docs.values() if isinstance(r,dict) and r.get('visibility')=='admin-only' and r.get('id') in canonical}
+    private={k for system in SYSTEMS for k,r in outputs[f'admin/{system}.json']['rules'].items() if r['public_key'] is None}
     if set().union(*(ids for name,ids in routes.items() if name!='screen/admin-tester'))!=canonical-private:
         raise ValueError('Missing non-admin route')
 

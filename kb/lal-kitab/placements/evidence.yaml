@@ -1,5 +1,157 @@
 version: 1
 approval: draft
-frame: Match a graha to its fixed house in the selected Lal Kitab method. Use source-specific traits only. Optional conduct
-  prompts stay free.
+frame: Match a graha to its fixed house in the selected Lal Kitab method. Use source-specific traits only. Optional
+  conduct prompts stay free.
 edition: Lal Kitab has several historical editions. Bind the exact edition before activating a trait.
+tag: MODERN
+feature_gate: modern-study-v1
+readings:
+- lal-kitab.placements.sun-house-1
+- lal-kitab.placements.sun-house-2
+- lal-kitab.placements.sun-house-3
+- lal-kitab.placements.sun-house-4
+- lal-kitab.placements.sun-house-5
+- lal-kitab.placements.sun-house-6
+- lal-kitab.placements.sun-house-7
+- lal-kitab.placements.sun-house-8
+- lal-kitab.placements.sun-house-9
+- lal-kitab.placements.sun-house-10
+- lal-kitab.placements.sun-house-11
+- lal-kitab.placements.sun-house-12
+- lal-kitab.placements.moon-house-1
+- lal-kitab.placements.moon-house-2
+- lal-kitab.placements.moon-house-3
+- lal-kitab.placements.moon-house-4
+- lal-kitab.placements.moon-house-5
+- lal-kitab.placements.moon-house-6
+- lal-kitab.placements.moon-house-7
+- lal-kitab.placements.moon-house-8
+- lal-kitab.placements.moon-house-9
+- lal-kitab.placements.moon-house-10
+- lal-kitab.placements.moon-house-11
+- lal-kitab.placements.moon-house-12
+- lal-kitab.placements.mars-house-1
+- lal-kitab.placements.mars-house-2
+- lal-kitab.placements.mars-house-3
+- lal-kitab.placements.mars-house-4
+- lal-kitab.placements.mars-house-5
+- lal-kitab.placements.mars-house-6
+- lal-kitab.placements.mars-house-7
+- lal-kitab.placements.mars-house-8
+- lal-kitab.placements.mars-house-9
+- lal-kitab.placements.mars-house-10
+- lal-kitab.placements.mars-house-11
+- lal-kitab.placements.mars-house-12
+- lal-kitab.placements.mercury-house-1
+- lal-kitab.placements.mercury-house-2
+- lal-kitab.placements.mercury-house-3
+- lal-kitab.placements.mercury-house-4
+- lal-kitab.placements.mercury-house-5
+- lal-kitab.placements.mercury-house-6
+- lal-kitab.placements.mercury-house-7
+- lal-kitab.placements.mercury-house-8
+- lal-kitab.placements.mercury-house-9
+- lal-kitab.placements.mercury-house-10
+- lal-kitab.placements.mercury-house-11
+- lal-kitab.placements.mercury-house-12
+- lal-kitab.placements.jupiter-house-1
+- lal-kitab.placements.jupiter-house-2
+- lal-kitab.placements.jupiter-house-3
+- lal-kitab.placements.jupiter-house-4
+- lal-kitab.placements.jupiter-house-5
+- lal-kitab.placements.jupiter-house-6
+- lal-kitab.placements.jupiter-house-7
+- lal-kitab.placements.jupiter-house-8
+- lal-kitab.placements.jupiter-house-9
+- lal-kitab.placements.jupiter-house-10
+- lal-kitab.placements.jupiter-house-11
+- lal-kitab.placements.jupiter-house-12
+- lal-kitab.placements.venus-house-1
+- lal-kitab.placements.venus-house-2
+- lal-kitab.placements.venus-house-3
+- lal-kitab.placements.venus-house-4
+- lal-kitab.placements.venus-house-5
+- lal-kitab.placements.venus-house-6
+- lal-kitab.placements.venus-house-7
+- lal-kitab.placements.venus-house-8
+- lal-kitab.placements.venus-house-9
+- lal-kitab.placements.venus-house-10
+- lal-kitab.placements.venus-house-11
+- lal-kitab.placements.venus-house-12
+- lal-kitab.placements.saturn-house-1
+- lal-kitab.placements.saturn-house-2
+- lal-kitab.placements.saturn-house-3
+- lal-kitab.placements.saturn-house-4
+- lal-kitab.placements.saturn-house-5
+- lal-kitab.placements.saturn-house-6
+- lal-kitab.placements.saturn-house-7
+- lal-kitab.placements.saturn-house-8
+- lal-kitab.placements.saturn-house-9
+- lal-kitab.placements.saturn-house-10
+- lal-kitab.placements.saturn-house-11
+- lal-kitab.placements.saturn-house-12
+- lal-kitab.placements.rahu-house-1
+- lal-kitab.placements.rahu-house-2
+- lal-kitab.placements.rahu-house-3
+- lal-kitab.placements.rahu-house-4
+- lal-kitab.placements.rahu-house-5
+- lal-kitab.placements.rahu-house-6
+- lal-kitab.placements.rahu-house-7
+- lal-kitab.placements.rahu-house-8
+- lal-kitab.placements.rahu-house-9
+- lal-kitab.placements.rahu-house-10
+- lal-kitab.placements.rahu-house-11
+- lal-kitab.placements.rahu-house-12
+- lal-kitab.placements.ketu-house-1
+- lal-kitab.placements.ketu-house-2
+- lal-kitab.placements.ketu-house-3
+- lal-kitab.placements.ketu-house-4
+- lal-kitab.placements.ketu-house-5
+- lal-kitab.placements.ketu-house-6
+- lal-kitab.placements.ketu-house-7
+- lal-kitab.placements.ketu-house-8
+- lal-kitab.placements.ketu-house-9
+- lal-kitab.placements.ketu-house-10
+- lal-kitab.placements.ketu-house-11
+- lal-kitab.placements.ketu-house-12
+pakka_ghar:
+  sun:
+  - 1
+  moon:
+  - 4
+  mars:
+  - 3
+  - 8
+  mercury:
+  - 7
+  jupiter:
+  - 2
+  - 5
+  - 9
+  - 12
+  venus:
+  - 7
+  saturn:
+  - 8
+  - 10
+  rahu:
+  - 12
+  ketu:
+  - 6
+pakka_status: Candidate edition table; multiple rulers and editions differ. Admin study until locator checked.
+soya: A planet without a qualifying aspect to another planet under the selected Lal Kitab edition is a sleeping-planet
+  candidate. Missing edition-specific aspect table means unknown. Do not substitute Parashari drishti.
+nadi:
+  status: held
+  source: on-hold/nakshatra-nadi
+  permission: No Bhrigu Nandi Nadi progression or authenticity claim until sourced and explicitly released.
+accepted_conduct:
+- type: conduct
+  label: traditional-practice
+  free: true
+  optional: true
+  cost: free
+  user_text:
+    en: If you like, you can listen without interrupting.
+    kn: ಇಷ್ಟವಿದ್ದರೆ ನಡುವೆ ಮಾತಾಡದೆ ಆಲಿಸಬಹುದು.
+    hi: चाहें तो बिना टोके सुन सकते हैं।

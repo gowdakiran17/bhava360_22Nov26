@@ -10,10 +10,12 @@ even_footed:
 - aquarius
 - pisces
 start: Begin at Lagna. If the ninth sign from Lagna is even-footed, visit signs backward, otherwise forward.
-duration: For an even-footed period sign count backward to its lord, otherwise forward. Subtract one from inclusive count;
-  replace zero with twelve. Add one for exalted lord or subtract one for debilitated lord under this implementation. Keep
-  dual-lord selection explicit.
-antardashas: Divide major period into twelve. Start one sign forward for Aries, Leo, Virgo, Libra, Aquarius and Pisces; otherwise
-  start one backward. Continue in the same direction and end with parent sign.
-review: Compare to the intended edition and confirm sign-lord variant. Owner selected this variant. Retain its existing ID for reproducibility.
+duration: For an even-footed period sign count backward to its lord, otherwise forward. Subtract one from inclusive
+  count; replace zero with twelve. Add one for exalted lord or subtract one for debilitated lord under this implementation.
+  Keep dual-lord selection explicit.
+antardashas: Divide major period into twelve. Start one sign forward for Aries, Leo, Virgo, Libra, Aquarius and Pisces;
+  otherwise start one backward. Continue in the same direction and end with parent sign.
+review: Compare to the intended edition and confirm sign-lord variant. Owner selected this variant. Retain its existing
+  ID for reproducibility.
 dual_lord_profile: jaimini/lordship/dual-lords.yaml
+antar_visibility: admin-only pending edition verification; suppress Antar-specific public readings.

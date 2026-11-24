@@ -1,0 +1,84 @@
+approval: draft
+tag: MODERN/POPULAR
+states:
+  full: Each of the three digits occurs.
+  open: All three cells empty.
+  partial: Neither pattern; no plane reading.
+lines:
+- digits:
+  - 4
+  - 9
+  - 2
+  message: plane-492
+- digits:
+  - 3
+  - 5
+  - 7
+  message: plane-357
+- digits:
+  - 8
+  - 1
+  - 6
+  message: plane-816
+- digits:
+  - 4
+  - 3
+  - 8
+  message: plane-438
+- digits:
+  - 9
+  - 5
+  - 1
+  message: plane-951
+- digits:
+  - 2
+  - 7
+  - 6
+  message: plane-276
+- digits:
+  - 4
+  - 5
+  - 6
+  message: plane-456
+- digits:
+  - 2
+  - 5
+  - 8
+  message: plane-258
+policy: Birth digits only. Missing cells are optional questions, never deficiencies.
+messages:
+  plane-492:
+    en: You can make space to think through a plan.
+    kn: ಯೋಜನೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಸಮಯ ಕೊಡಬಹುದು.
+    hi: आप योजना पर विचार करने के लिए समय रख सकते हैं।
+  plane-357:
+    en: You may find it helpful to name a feeling.
+    kn: ಭಾವನೆಯನ್ನು ಗುರುತಿಸುವುದು ನೆರವಾಗಬಹುದು.
+    hi: किसी भावना को नाम देना सहायक हो सकता है।
+  plane-816:
+    en: You can try a practical step.
+    kn: ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಪ್ರಯತ್ನಿಸಬಹುದು.
+    hi: आप एक व्यावहारिक कदम आज़मा सकते हैं।
+  plane-438:
+    en: You can sketch an outline before starting.
+    kn: ಆರಂಭಿಸುವ ಮೊದಲು ರೂಪರೇಖೆ ಬರೆಯಬಹುದು.
+    hi: शुरू करने से पहले आप रूपरेखा बना सकते हैं।
+  plane-951:
+    en: You may choose a small intention to revisit.
+    kn: ಮತ್ತೆ ಗಮನಿಸಬೇಕಾದ ಉದ್ದೇಶವನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+    hi: आप कोई छोटा सा इरादा चुन सकते हैं जिस पर फिर लौटें।
+  plane-276:
+    en: You can notice which action suits the moment.
+    kn: ಈ ಕ್ಷಣಕ್ಕೆ ಹೊಂದುವ ಕ್ರಿಯೆಯನ್ನು ಗಮನಿಸಬಹುದು.
+    hi: आप देख सकते हैं कि अभी कौन सा कदम उचित लगता है।
+  plane-456:
+    en: You can reflect on how you approach a change.
+    kn: ಬದಲಾವಣೆಯನ್ನು ಹೇಗೆ ಎದುರಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
+    hi: आप किसी बदलाव के प्रति अपने रुख पर सोच सकते हैं।
+  plane-258:
+    en: You can compare an idea with your experience.
+    kn: ಒಂದು ವಿಚಾರವನ್ನು ನಿಮ್ಮ ಅನುಭವದೊಂದಿಗೆ ಹೋಲಿಸಬಹುದು.
+    hi: आप किसी विचार की तुलना अपने अनुभव से कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

@@ -20,6 +20,7 @@ reference_rules:
 - vedic.nakshatras.krittika
 - vedic.nakshatras.vishakha
 used_by:
+- vastu.directions.northeast
 - vastu.directions.southeast
 - vastu.rooms.centre-kitchen
 - vastu.rooms.east-kitchen

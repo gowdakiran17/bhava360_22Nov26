@@ -22,6 +22,18 @@ reference_rules:
 - vedic.nakshatras.mrigashira
 used_by:
 - jaimini.raja-yogas.fifth-from-lord
+- lal-kitab.placements.moon-house-1
+- lal-kitab.placements.moon-house-10
+- lal-kitab.placements.moon-house-11
+- lal-kitab.placements.moon-house-12
+- lal-kitab.placements.moon-house-2
+- lal-kitab.placements.moon-house-3
+- lal-kitab.placements.moon-house-4
+- lal-kitab.placements.moon-house-5
+- lal-kitab.placements.moon-house-6
+- lal-kitab.placements.moon-house-7
+- lal-kitab.placements.moon-house-8
+- lal-kitab.placements.moon-house-9
 - palmistry.mounts.mars-upper-left
 - palmistry.mounts.mars-upper-right
 - remedies.conduct.moon

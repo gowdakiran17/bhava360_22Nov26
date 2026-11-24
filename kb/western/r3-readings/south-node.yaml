@@ -1,0 +1,46 @@
+id: western.r3-readings.south-node
+system: western
+topic: r3-readings
+title: south-node
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: R3 only. Bind a computed south-node witness in the selected Western technique; withhold unknown angles or absent
+  ephemeris data.
+conditions:
+  all:
+  - fact: western.r3.selected
+    op: eq
+    value: south-node
+  - fact: western.r3.enabled
+    op: eq
+    value: true
+meaning: You may find a familiar skill worth revisiting.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Bhava360 Western conventions
+  work_id: bhava360-western-conventions
+  edition: bhava360-western-conventions-v1
+  chapter: null
+  verse: null
+  other_locator: western.r3-readings.south-node
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: editorial-no-classical-claim
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release.
+user_text:
+  en: You may find a familiar skill worth revisiting.
+  kn: ಪರಿಚಿತ ಕೌಶಲವನ್ನು ಮತ್ತೆ ಅಭ್ಯಾಸ ಮಾಡಬಹುದು.
+  hi: पुराने हुनर पर फिर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: transit
+  reference: none
+  area_strength: {}

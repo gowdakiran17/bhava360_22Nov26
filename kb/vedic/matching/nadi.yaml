@@ -40,6 +40,9 @@ traditions_differ:
 - profile: vedic-editorial-v1
   note: KB-10 allows same-star, different-pada softening in the selected variant. Raman also describes a separate
     quarter-based Nadi reckoning. Dashakoota omits this factor.
+- profile: vedic-editorial-v1
+  note: Selected relief includes same sign/different star and same star/different sign, plus the existing same-star/different-quarter
+    form. Keep raw points private.
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha

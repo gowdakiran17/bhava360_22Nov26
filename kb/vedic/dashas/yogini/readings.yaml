@@ -1,0 +1,38 @@
+approval: draft
+period_source: vedic/dashas/yogini/periods.yaml
+messages:
+  Mangala:
+    en: You may find comfort in a familiar routine.
+    kn: ಪರಿಚಿತ ದಿನಚರಿ ನೆಮ್ಮದಿ ನೀಡಬಹುದು.
+    hi: परिचित दिनचर्या से सहजता मिल सकती है।
+  Pingala:
+    en: You can choose a responsibility to take on.
+    kn: ಒಂದು ಜವಾಬ್ದಾರಿಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
+    hi: आप कोई जिम्मेदारी चुन सकते हैं।
+  Dhanya:
+    en: You may enjoy sharing something you have learned.
+    kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಇಷ್ಟವಾಗಬಹುದು.
+    hi: सीखी हुई बात साझा करना अच्छा लग सकता है।
+  Bhramari:
+    en: You can put a practical idea to work.
+    kn: ಒಂದು ಉಪಯುಕ್ತ ಉಪಾಯವನ್ನು ಪ್ರಯೋಗಿಸಬಹುದು.
+    hi: किसी व्यावहारिक विचार को आज़मा सकते हैं।
+  Bhadrika:
+    en: You can ask a question before making a plan.
+    kn: ಯೋಜನೆಗೆ ಮುಂಚೆ ಪ್ರಶ್ನೆ ಕೇಳಬಹುದು.
+    hi: योजना बनाने से पहले सवाल पूछ सकते हैं।
+  Ulka:
+    en: You can make space for a task that takes patience.
+    kn: ತಾಳ್ಮೆ ಬೇಕಾದ ಕೆಲಸಕ್ಕೆ ಅವಕಾಶ ಕೊಡಬಹುದು.
+    hi: धैर्य वाले काम के लिए समय रख सकते हैं।
+  Siddha:
+    en: You may enjoy making a shared space welcoming.
+    kn: ಸಾಮಾನ್ಯ ಜಾಗವನ್ನು ಹಿತಕರಗೊಳಿಸಲು ಇಷ್ಟವಾಗಬಹುದು.
+    hi: साझा जगह को सहज बनाने में आनंद मिल सकता है।
+  Sankata:
+    en: You can give yourself time to explore an unfamiliar choice.
+    kn: ಹೊಸ ಆಯ್ಕೆಯನ್ನು ಪರಿಶೀಲಿಸಲು ಕಾಲ ಕೊಡಬಹುದು.
+    hi: नए विकल्प को समझने के लिए समय ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

@@ -20,6 +20,18 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.marriage-support
 - jaimini.raja-yogas.fifth-from-lord
+- lal-kitab.placements.venus-house-1
+- lal-kitab.placements.venus-house-10
+- lal-kitab.placements.venus-house-11
+- lal-kitab.placements.venus-house-12
+- lal-kitab.placements.venus-house-2
+- lal-kitab.placements.venus-house-3
+- lal-kitab.placements.venus-house-4
+- lal-kitab.placements.venus-house-5
+- lal-kitab.placements.venus-house-6
+- lal-kitab.placements.venus-house-7
+- lal-kitab.placements.venus-house-8
+- lal-kitab.placements.venus-house-9
 - palmistry.mounts.venus
 - palmistry.mounts.venus-left
 - palmistry.mounts.venus-right
@@ -99,7 +111,11 @@ used_by:
 - vedic.matching.chart-cross-check
 - vedic.matching.manglik-comparison
 - vedic.matching.papasamya
+- vedic.muhurta.business-start
+- vedic.muhurta.education-start
+- vedic.muhurta.griha-pravesha
 - vedic.muhurta.marriage
+- vedic.muhurta.property-registration
 - vedic.nakshatras.bharani
 - vedic.nakshatras.purva-ashadha
 - vedic.nakshatras.purva-phalguni

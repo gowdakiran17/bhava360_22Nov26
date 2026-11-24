@@ -1,0 +1,29 @@
+approval: draft
+tag: CLASSICAL / MODERN
+sources:
+- Jaimini Upadesa Sutras I.1 and I.3, edition check pending
+- K.N. Rao Chara Dasha practice, calculation locator pending
+strength_anchors:
+  hora-ghati: Check whether the same graha occupies or casts rashi drishti on natal Lagna, Hora Lagna and Ghati Lagna.
+    Require all three stable; bind the participant and area before contributing.
+  methods: vedic/special-lagnas/calculations.yaml
+sthira_karakas:
+  father: stronger Sun or Venus
+  mother: stronger Moon or Mars
+  siblings: Mars
+  maternal-relations: Mercury
+  children: Jupiter
+  spouse: Venus
+  elders: Saturn
+tie: Unresolved relative strength withholds the designation. Do not infer longevity.
+refs:
+- jaimini/karakamsa/d1-projection.yaml
+- jaimini/karakamsa/swamsa.yaml
+- jaimini/arudha-padas/methods.yaml
+modifier:
+  ladder: life-areas/conflict-ladder.yaml
+  rung: enabled-systems
+  flag: jaimini
+  default: false
+  requires: Existing card, bound active period, stable corroborating or contradicting witness. Share one net step
+    with KP.

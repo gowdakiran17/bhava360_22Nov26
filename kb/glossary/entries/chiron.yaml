@@ -15,6 +15,7 @@ admin_note: Use this label for a small body orbiting the Sun that some modern ch
   entries for the applicable conditions and differences between methods.
 aliases: []
 reference_rules: []
-used_by: []
+used_by:
+- western.r3-readings.chiron
 used_in_files:
 - western/aspects/orbs.yaml

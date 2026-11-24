@@ -42,18 +42,20 @@ exceptions:
     op: eq
     value: true
   effect: soften
-  reason: Strict dignity-and-affliction school softens when Jupiter is combust, in an enemy sign or receives an
-    unrelieved full malefic aspect.
+  reason: Strict dignity-and-affliction school softens when Jupiter is combust, in an enemy sign or receives an unrelieved
+    full malefic aspect.
 - when:
     fact: d1.yoga.foundation_cancelled
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
-    cancel an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This is the Moon–Jupiter angular screen. Stricter versions also assess affliction and dignity.
+- profile: vedic-editorial-v1
+  note: Labelled Lagna-origin variant considers angular Jupiter from Lagna; Moon-origin remains the default.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika

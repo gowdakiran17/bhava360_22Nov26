@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a9
 - lal-kitab.placements.house-9
+- lal-kitab.placements.jupiter-house-9
+- lal-kitab.placements.ketu-house-9
+- lal-kitab.placements.mars-house-9
+- lal-kitab.placements.mercury-house-9
+- lal-kitab.placements.moon-house-9
+- lal-kitab.placements.rahu-house-9
+- lal-kitab.placements.saturn-house-9
+- lal-kitab.placements.sun-house-9
+- lal-kitab.placements.venus-house-9
 - vedic.aspects.jupiter-aspects-house-9
 - vedic.aspects.ketu-aspects-house-9
 - vedic.aspects.mars-aspects-house-9

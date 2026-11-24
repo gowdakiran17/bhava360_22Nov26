@@ -1,0 +1,82 @@
+approval: draft
+tag: EDITORIAL
+method:
+- Keep draw order. Count Majors and reversals independently over all cards. At least half marks a theme; smaller shares
+  add context.
+- Find modal minor suit and element independently. Preserve all ties; an all-Major draw has no suit. Repeated pip
+  ranks require two distinct cards.
+- Bind each adjacent pair in draw order. Use the first applicable emphasized position, then the next for a practical
+  reflection. No card supplies a prediction.
+emphasis:
+  career-five:
+  - current-task
+  - skill-to-use
+  - work-constraint
+  - available-support
+  - next-step
+  career:
+  - current-task
+  - skill-to-use
+  - next-step
+  celtic-cross:
+  - present
+  - possible-outcome
+  - crossing-influence
+  - foundation
+  - recent-past
+  - conscious-aim
+  - near-direction
+  - own-stance
+  - environment
+  - hopes-or-worries
+  daily:
+  - reflection
+  decision:
+  - common-context
+  - path-a
+  - path-b
+  past-present-future:
+  - prior-context
+  - current-situation
+  - possible-direction
+  relationship-five:
+  - own-perspective
+  - other-perspective-to-explore
+  - shared-question
+  - personal-boundary
+  - next-step
+  relationship:
+  - own-perspective
+  - other-perspective-to-explore
+  - shared-question
+  single-card:
+  - reflection
+  situation-action-outcome:
+  - situation
+  - choice-of-action
+  - possible-outcome
+  three-card:
+  - past
+  - present
+  - next-step
+pairs:
+  the-hermit|the-star: Quiet reflection followed by renewed perspective.
+  the-fool|the-magician: An idea followed by a first practical experiment.
+  two-of-cups|temperance: Conversation followed by patient adjustment.
+example:
+  draw:
+  - the-hermit upright
+  - two-of-cups reversed
+  - the-star upright
+  positions:
+  - past
+  - present
+  - future
+  majors: 2
+  reversed: 1
+  minor_suit: cups
+  minor_element: water
+  user_text:
+    en: You may have needed quiet earlier. A conversation now can help you see what you want to try next.
+    kn: ಹಿಂದೆ ನೆಮ್ಮದಿ ಬೇಕಾಗಿರಬಹುದು. ಈಗ ಮಾತುಕತೆಯಿಂದ ಮುಂದಿನ ಹೆಜ್ಜೆ ಸ್ಪಷ್ಟವಾಗಬಹುದು.
+    hi: पहले कुछ एकांत सहायक रहा होगा। अब बातचीत से अगला कदम समझ आ सकता है।
