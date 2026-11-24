@@ -1,0 +1,33 @@
+version: 1
+approval: draft
+synthetic: true
+scope: Invented local Tuesday with minute-of-day windows. D1 injects independent factors to exercise the requested mixed row. Its house and Tara combination is not a single astronomical Moon placement. Asha and Ravi use Lahiri Moshier natal Moon sign/star indices (zero based), with the same invented transit Moon in Scorpio / Anuradha.
+base:
+  weekday: Tuesday
+  birth_moon: 0
+  birth_star: 0
+  transit_star: 1
+  star_name: bharani
+  moon_sign_sav: 30
+  tithi: Rikta
+  antar: mars
+  owned_areas: [learning]
+  transits: {sun: 7, moon: 7, mars: 7, mercury: 7, venus: 7, jupiter: 7, saturn: 7}
+  daylight: [360, 1080]
+  candidates: [[abhijit, 690, 740], [shubh, 750, 800]]
+  exclusions: [[vishti, 300, 340], [rahu, 690, 700], [yama, 800, 830], [gulika, 950, 980]]
+cases:
+  D1: {expect: {moon_house: 8, tara: 2, tone: Steady, good: [focused-work], easy: [starting-work, travel], best: [700,740], chips: [moon-chip, star-chip, season-chip]}}
+  D2: {input: {birth_moon: 7}, expect: {tone: Supportive, chandra: support}}
+  D3: {input: {transit_star: 2}, expect: {tone: Take care}}
+  D4: {input: {birth_moon: 7, transit_star: 0, moon_sign_sav: 28}, expect: {tone: Supportive, tara: 1}}
+  D5: {input: {birth_moon: 7, transit_star: 0, moon_sign_sav: 27}, expect: {tone: Steady}}
+  D6: {input: {birth_moon: 7, transits: {sun: 11, moon: 7, mars: 7, mercury: 7, venus: 7, jupiter: 7, saturn: 7}}, expect: {tone: Supportive, chandra: neutral}}
+  D7: {input: {weekday: Wednesday}, expect: {best: [750,800]}}
+  D8: {input: {daylight: null}, expect: {best: null, exclusions: [[vishti, 300, 340]]}}
+  D9: {input: {birth_star: null, antar: null, tier: C}, expect: {tara: null, tone: Steady, focus: []}}
+  D10: {input: {candidates: [[labh, 400, 415]]}, expect: {best: [400,415]}}
+  D11: {input: {candidates: [[labh, 400, 414]]}, expect: {best: null}}
+  D12: {input: {birth_star: 26, transit_star: 0}, expect: {tara: 2}}
+  Asha: {input: {birth_moon: 1, birth_star: 4, transit_star: 16, star_name: anuradha}, expect: {moon_house: 7, tara: 4, tone: Supportive}}
+  Ravi: {input: {birth_moon: 10, birth_star: 23, transit_star: 16, star_name: anuradha}, expect: {moon_house: 10, tara: 3, tone: Steady}}

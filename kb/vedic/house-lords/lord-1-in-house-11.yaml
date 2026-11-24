@@ -84,7 +84,8 @@ sources:
   supports: Two distinct house lords occupy each other’s signs.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending. Wealth-house linkage under
+  BPHS ch.24 and ch.41.
 user_text:
   en: When deciding what fits your own needs, you can name the goal a new resource would serve.
   kn: ನಿಮ್ಮ ಅಗತ್ಯಕ್ಕೆ ಯಾವುದು ಹೊಂದುತ್ತದೆ ಎಂದು ಯೋಚಿಸುವಾಗ ಹೊಸ ಸಂಪನ್ಮೂಲ ಯಾವ ಗುರಿಗೆ ನೆರವಾಗುತ್ತದೆ ಎಂದು ಗುರುತಿಸಬಹುದು.
@@ -102,7 +103,7 @@ remedy:
     kn: ಹೊಸ ಸಂಪನ್ಮೂಲವನ್ನು ಹೇಗೆ ಬಳಸಬೇಕೆಂದು ನಿರ್ಧರಿಸುವ ಮೊದಲು ಒಂದು ಗುರಿಯನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: कोई नया साधन कैसे इस्तेमाल करें, यह तय करने से पहले आप अपना लक्ष्य पहचान सकते हैं।
 evidence:
-  direction: neutral
+  direction: support
   weight_class: primary
   time_scope: natal
   reference: lagna

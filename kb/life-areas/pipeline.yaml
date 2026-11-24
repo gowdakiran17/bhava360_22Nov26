@@ -1,0 +1,42 @@
+version: 1
+approval: draft
+profile: parashari-synthesis-v1
+order: [promise, period, transit, window, card]
+scope: Bind one chart, area recipe and interval. KB-38 supplies production recipes. Apply matched bhanga and softening to the bound graha before counting any factor.
+availability: shared/confidence/output-matrix.yaml
+promise:
+  tradition: CLASSICAL Parashari lordship, occupants, aspects, karakas and divisional confirmation.
+  arithmetic: MODERN/POPULAR Bhava360 bands, counted without rescaling for absent evidence.
+  factors:
+  - [promise-house-lord, Area lord Strong or Moderate in the KB-35 grade.]
+  - [promise-occupants, At least one functional Benefic or Yogakaraka and no functionally Malefic occupant with a Weak grade. Empty is unscored.]
+  - [promise-house-aspects, Full functional benefic aspects to house and lord outnumber malefic aspects. Count each source and distinct target once.]
+  - [promise-significator, Strict majority of the recipe karakas grade Strong or Moderate.]
+  - [promise-moon-relative, Repeat the first three tests in the Moon chart; at least two pass. Functional polarity still requires the actual Lagna.]
+  - [promise-varga-lagna, The D9 lord has own/exalted/MT/friendly dignity or vargottama. For career also require the D10 lord in an angle/trine or own/exalted sign.]
+  thresholds: {Strong: 3, Moderate: 2}
+  missing: Drop withheld or undecidable factors. Never count them as adverse. Weak stops here before searching dates.
+period:
+  tradition: CLASSICAL Vimshottari dasha phala
+  significators: Owners and occupants of the target house, full aspectors of the house or lord, and area karakas. Add grahas in the stars of those direct significators once, without transitive expansion.
+  ordering: {antar: 3, maha: 2, pratyantar: 1}
+  states: {active: Antar signifies area, background: only Maha signifies area, not-now: neither signifies area, delay: Antar signifies only negating houses}
+transit:
+  tradition: MODERN/POPULAR double transit; classical full aspects and Ashtakavarga tables.
+  references: [transit.double.common_target, transit.double.moon_target]
+  method: At each reference test Jupiter and Saturn independently for occupation or full aspect of the area sign or the natal sign of its lord. Keep both reference results; Lagna confirms an event, Moon describes experience. Tier C has no event window.
+  pace: {minimum_sav_each: 28, minimum_own_bav_each: 4, below: slower, otherwise: supported}
+  variant: The older low-bindu grade deduction is inactive. Pace only orders windows.
+window:
+  tag: MODERN/POPULAR
+  horizon_years: 5
+  later_limit: 3
+  bounds: Intersect query horizon, active Antar, eligible Tier A Pratyantar and continuous double-transit segments as half-open intervals. Exclude zero duration.
+  ordering: First card uses earliest start. Later windows put supported before slower, then date; use period weights only to break otherwise equal choices.
+  peaks: In Tier A Mars or Sun occupying either natal target marks the month. The Moon marks days only inside a window starting in the next thirty days. Apply KB-48 stability to every displayed date.
+sources:
+- {work_id: bphs, edition: null, locator: Lordship and dasha results, verification: pending}
+- {work_id: laghu-parashari, edition: null, locator: Chapter 2, verification: pending}
+- {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Dasha phala chapters, verification: pending}
+- {work_id: jataka-parijata, edition: null, locator: Natal promise and period results (passage pending), verification: pending}
+- {work_id: kn-rao-double-transit, edition: null, locator: Double-transit timing method (edition pending), verification: pending}

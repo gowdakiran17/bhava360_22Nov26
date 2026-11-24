@@ -223,7 +223,8 @@ sources:
   supports: Regional aspect-based screen, six ascendant exemptions and pair comparison.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
+  formation contributes only to an established indication.
 user_text:
   en: You can discuss how each of you handles disagreement.
   kn: ಭಿನ್ನಾಭಿಪ್ರಾಯವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.
@@ -242,7 +243,7 @@ remedy:
     hi: "चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।"
 evidence:
   direction: caution
-  weight_class: primary
+  weight_class: modifier
   time_scope: natal
   reference: none
   area_strength:

@@ -18,6 +18,6 @@ copy:
   reading_footer_en: Guidance for reflection, not a guarantee. Not medical, financial or legal advice.
   reflection_line_en: For reflection. You choose what to do.
   reflection_modules: [tarot, palmistry, face-reading]
-  practices: {allowed: [mantra, charity, conduct], optional: true, free: true, label_en: Traditional practice}
+  practices: {allowed: [mantra, mantra-japa, charity, conduct, fasting, routine, service, temple-visit], optional: true, free: true, label_en: Traditional practice}
   excluded: [gems, crystals, lucky-colours, paid-remedies, pujas-as-remedies]
   admin_only: [technical-rule-chain, rule-ids, sources, raw-strengths, bindus, prompts, confidence]

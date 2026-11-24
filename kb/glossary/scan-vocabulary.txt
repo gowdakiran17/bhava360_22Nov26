@@ -670,6 +670,7 @@ access
 accessible
 accident
 accidents
+accompany
 accompanying
 account
 accounts
@@ -678,14 +679,17 @@ ace
 aces
 acknowledge
 acquire
+acquires
 acquiring
 across
 act
 acting
 action
+actionable
 actions
 activate
 activated
+activates
 activating
 activation
 active
@@ -782,6 +786,7 @@ agreed
 agreeing
 agreement
 agreements
+agrees
 ahead
 ahi
 ahir
@@ -868,6 +873,7 @@ ank
 ankles
 anniversary
 annotate
+annotation
 annual
 anomalies
 anonymous
@@ -923,6 +929,7 @@ approved
 approximate
 approximates
 approximation
+april
 aquarius
 aquatic
 arc
@@ -992,12 +999,15 @@ asked
 asking
 asks
 aspect
+aspected
 aspecting
+aspectors
 aspects
 aspirations
 assembled
 assert
 asserted
+asserting
 assertions
 assess
 assessed
@@ -1035,8 +1045,11 @@ atiganda
 atmakaraka
 attach
 attached
+attaches
 attending
 attention
+attest
+attesting
 attractiveness
 attributes
 attribution
@@ -1141,6 +1154,7 @@ battles
 bav
 bava
 bb5832cd0abe10e24be0cebed6ac58570415b8eeffc639acabcc09a3f7b13386
+bbbmbmm
 bbfc156e17874f8336ce822865df6f635e82b1e42d2cd58389344c52f550d7cd
 bc1486e849eb2c5360e24f50276acd8b327b4cec30d020c57e59ce7bf9515d6f
 bc8e09ec0d9f1ff4f6a38447ee4b664f18341adecc98ac69462dec07d000d828
@@ -1168,6 +1182,7 @@ begins
 behavior
 behind
 being
+believed
 belly
 belong
 belonging
@@ -1182,6 +1197,7 @@ benefics
 benefit
 bengaluru
 benham
+bereavement
 beside
 best
 better
@@ -1249,8 +1265,12 @@ blockers
 blocks
 blog
 blood
+blord
+bmnbmmy
+bnbmbmm
 bnbmbnm
 bnbnbmm
+bnymbmm
 bnymnmm
 bodies
 body
@@ -1328,31 +1348,56 @@ c09ceaabd4ef3ace42edb4d90afed9fb7a87581cfc8089d7d70bc163521fb7f0
 c0b6c55c177a2abbabeb1f69e516acbb5d5d79d93e61ef56dc80d10e45871743
 c0b76ebe015a5fab328c53aad2a09f13685808f8d21305d0b05e39051b468c47
 c0dfec18df5f216e9f551af8f3667ee97dd44a4af4bef091cab67c3c38f4a233
+c1
+c10
+c11
 c11f77cef29908e541bf0d25265c83b63b24e70c7792cd228709f806f610800d
+c12
+c13
+c14
 c140c7cc889fcf4e3831072f4fc94bf69b57f0b9e064c18839a7f1a27aa5369c
+c15
+c16
+c17
+c18
+c19
 c1bba89de68dd8f82bfef514a401fd46772fd5d9306e6944dec30e4196fe77ca
 c1ceab6a8650fb2e7ce99d4aa6b872766864becc5a26bf3784dc9a9989302f82
 c1dd5a1472d2263108ed9518438aaf95f1cd4907a457f5dc8371499d7ef1eb28
+c2
+c20
 c20c908fa3996f12d6e17eb19ac6b78a304f1fc94f1dd8595b090b6ed14511f4
+c21
+c22
+c23
 c235fcea6e97e12096f6cadd742394faa7444452284e770e0ef5e42d6a6558b3
+c24
+c25
 c2757c6a4b043cd776a4aed71dd727bfa34b5da22c5c5e16b963e33ab2277fba
 c28ff865ecb460ce3013cc89f5ed6ec1a2fae8b912b037812eb9aeaff0ece4ab
 c2c076ad823ea50e6dd1f748107bc62cf81609045af3c3affbf29754a083a08e
+c3
 c3087d0e1c865409962330a8d2bbb2b75edbdbb83b04e02510f4e46178f50910
 c36b152e82a45111881aed0f3edc53592bb771b924aa258badb889ffcb398785
 c37150099b8e7a8635588bc4d150dff5d721f0bda1c5341990fb066bde359e92
 c395732e7c80a256ecf1df5b50d75b9ba906efb363b52c1d11d542c396f3e2c0
 c3b95a476f2a3c5c6b8b9dd8b3eaee64d9614c0c4f28d854f56d5c1d646484fe
+c4
 c44c53e6b2400c3511f5ac8ed178700c8a9f1f0f6e66a8472f005b3e4e114a27
 c4747bf64b858c44d604b3716216cddfd3313f508072fa7d35b33617ae0a538c
+c5
 c5351867313481cb1c851eacfb6890ec7b6b75105518146adea1cc5983b55646
 c5503b0a5793bf5c455a4bd0f60fc51ea802b669b30c5f05d8ca2045368b6336
+c6
 c662ec27258d0d5f391094158db48510afecbe1c6a2ed66520d8a68835f9b756
+c7
 c72e65a8b164d0d9ce1d99d7680f4ae64b1fe7eeb2f931325bdecdb404230dba
 c779eb13295a11d450edda7c67ac3bdedc929a22316e654c54029d591d8a5fea
+c8
 c88a8ff5e67d55e25b1f0171cf1801177c9a41a370010f82658acd5a6bcd8f70
 c8a86587c64ffa07bf2a3605124a29f65c1e5f235e974b92773eb6c18c44a120
 c8d409a0f0d4b847332dbc9611f3695e15fe98bdf08de403eabae779c05d7a1e
+c9
 c9187d7aa7035e76904ced579e27611f5f47baa99e4ebb6347de1481120e18f8
 ca9f2b6fdcdc081dc1abf64e9c33d07d3fe80137380d4a705322d01a46cceaec
 cache
@@ -1379,6 +1424,7 @@ calmer
 came
 can
 cancel
+cancellable
 cancellation
 cancellations
 cancelled
@@ -1423,6 +1469,8 @@ catastroph
 categorical
 categories
 category
+causative
+causes
 caution
 cautionary
 cautions
@@ -1482,6 +1530,7 @@ chand
 chandal
 chandala
 chandra
+chandrabala
 chandraya
 chandrika
 change
@@ -1527,6 +1576,7 @@ chidambaram
 child
 children
 chintamani
+chip
 chips
 chiron
 chitra
@@ -1559,6 +1609,7 @@ civil
 claim
 claims
 clamp
+clamps
 clarification
 clarify
 clarifying
@@ -1604,6 +1655,7 @@ coincident
 collaboration
 collapse
 colleagues
+collect
 collecting
 collection
 collections
@@ -1635,6 +1687,7 @@ commencing
 commentary
 commentators
 commerce
+commercial
 commit
 commitment
 commitments
@@ -1710,6 +1763,7 @@ confinement
 confirm
 confirmation
 confirmed
+confirming
 confirms
 conflict
 conflicting
@@ -1773,6 +1827,7 @@ contentment
 context
 contexts
 contextual
+contiguous
 continuation
 continue
 continues
@@ -1780,6 +1835,7 @@ continuity
 continuous
 continuously
 contract
+contradicting
 contribute
 contributes
 contributing
@@ -1917,6 +1973,7 @@ d0026619beb7fc381a6670f0560445b8cf2f78611c693e32fc7e07ae67a64bab
 d00ef3b0c4e722ca2a33cf824088a5bb837ed0ae0d67ffb56056c826525f1b1c
 d1
 d10
+d11
 d11b208076b23e10827ca0c0396df29ac5820c84b574f7ff8a36a500fbc7ea01
 d12
 d16
@@ -1944,12 +2001,15 @@ d45
 d45bf568e6992af9c047b3b530b45c75a587b745738623ec06ec3be1147bad1e
 d48bebbe3254f8785e049c0c1e8df84b04e2af245983b0490ccd968a89a17ff7
 d4a862f6ce3722ca272e7b2b37c14e14d49b21fbef8e4c7dd22e311288adb437
+d5
 d521f79c5c99785e4b0b0ddae05405fd9b3df21a4a7922a29a2e92f3e8aa448e
 d5c77a765c965fee65d6ce55dfbff859593fb4509ae96ef13889035f900a1a59
 d5f692ac461a1365f3626538dbb25103fbc8bbc503a877ef492610e156ebbc80
+d6
 d60
 d63670366a45c43c7c365e883cb55a5a673c09dfa6dca138ca477950acfc90ac
 d7
+d8
 d8486dba117af5107cdef4cbba43f75260cfffa0da82ef9a7d63f9a71724e728
 d85ca6c448e287b57bbfe92cb39052019bd139413ec9ac9b2cdfc9f4eb18dcfe
 d865edc766cc2a075c05f4af96ead5ba007b1ec3564276c570cf0ee5e62e7461
@@ -2031,9 +2091,11 @@ declination
 declined
 ded3411833784552ff5eda55e9e83e1acf583b1451eadb582b94d6ad6c0e7fb8
 ded66f5441d4f0206ef8652a08f0b7007016c646eaae1a15159873f95f177017
+deduction
 deduplicate
 deduplicated
 deduplicates
+deduplication
 deep
 deepa
 deepam
@@ -2046,6 +2108,7 @@ default
 defaultdict
 defaults
 defect
+defer
 deferred
 defined
 defining
@@ -2293,6 +2356,7 @@ drik
 drikpanchang
 drishti
 drop
+dropping
 drum
 ds
 dsc
@@ -2425,6 +2489,7 @@ ekadashi
 ekadhipatya
 ekapada
 elapsed
+elders
 election
 electional
 electronic
@@ -2445,6 +2510,7 @@ else
 elsewhere
 emblem
 embodiment
+emerge
 emergency
 emit
 emits
@@ -2606,6 +2672,7 @@ exit
 exits
 expand
 expanded
+expansion
 expect
 expectancy
 expectation
@@ -2726,6 +2793,7 @@ fears
 feature
 features
 february
+fee
 fee095d7f43029633f61b130a7b21ba3be0413aa2615cccad2ffa0e17e2ba05a
 feed
 feeds
@@ -2769,6 +2837,7 @@ find
 findall
 finding
 finditer
+finds
 fine
 finer
 finger
@@ -2812,6 +2881,7 @@ flow
 fluid
 focus
 focused
+focuses
 fold
 folder
 folders
@@ -2831,6 +2901,7 @@ for
 forbidden
 forceful
 forces
+forecast
 forest
 form
 format
@@ -2889,8 +2960,10 @@ fulfilment
 full
 fullmatch
 fully
+funcs
 function
 functional
+functionally
 functions
 functools
 funeral
@@ -2996,6 +3069,7 @@ grahas
 grain
 gram
 grand
+great
 greater
 green
 gregorian
@@ -3198,6 +3272,7 @@ if
 ignca
 ignore
 ignorecase
+ignores
 ii
 iii
 illness
@@ -3224,9 +3299,11 @@ importlib
 impression
 impressions
 imprint
+improve
 improving
 impulse
 in
+inactive
 inapplicable
 inbox
 incidental
@@ -3289,6 +3366,7 @@ inherits
 init
 initial
 initiative
+injects
 inline
 inner
 input
@@ -3403,6 +3481,7 @@ isolated
 isolates
 isolation
 isspace
+issubset
 issue
 issued
 ist
@@ -3428,6 +3507,7 @@ janma
 january
 japa
 jataka
+jaya
 jayanta
 jd
 je
@@ -3598,6 +3678,7 @@ labelledby
 labels
 labh
 labha
+lack
 lacks
 ladder
 lag
@@ -3656,6 +3737,7 @@ lecture
 left
 legacy
 legal
+legitimately
 len
 lend
 length
@@ -3747,6 +3829,7 @@ lon
 london
 long
 longer
+longest
 longevity
 longitude
 longitudes
@@ -3860,6 +3943,7 @@ mantra
 mantras
 mantreswara
 manual
+manufacture
 manuscript
 manushya
 many
@@ -3911,6 +3995,7 @@ maximal
 maximum
 maxsize
 may
+mbbmbmm
 mbbnbmm
 mc
 md
@@ -3944,6 +4029,7 @@ mentors
 mentorship
 mercury
 merely
+merge
 meridian
 merit
 mesha
@@ -3966,6 +4052,7 @@ midpoint
 might
 migration
 miiraa
+mild
 milestone
 min
 mind
@@ -3984,6 +4071,7 @@ mishra
 mismatch
 misplaced
 miss
+missed
 misses
 missing
 mit
@@ -3996,6 +4084,8 @@ mixed
 mixing
 mk
 ml
+mnmbmbn
+mnmbmby
 mnmbnbn
 mnnbmby
 mo
@@ -4005,6 +4095,7 @@ modal
 modality
 mode
 model
+modelled
 models
 moderate
 modern
@@ -4024,6 +4115,7 @@ mongoose
 monier
 monkey
 month
+monthrange
 months
 moolank
 moolatrikona
@@ -4045,7 +4137,10 @@ mounted
 mounts
 movable
 move
+moved
 movement
+mover
+movers
 moves
 moving
 mriga
@@ -4114,6 +4209,7 @@ names
 namespaces
 namietamodi
 naming
+nanda
 nara
 naraka
 narasimha
@@ -4157,6 +4253,7 @@ needed
 needing
 needs
 neelakanta
+negating
 negative
 negotiating
 neighboring
@@ -4172,6 +4269,8 @@ networks
 neuter
 neutral
 neutralisation
+neutralises
+neutrality
 never
 new
 newborn
@@ -4193,6 +4292,8 @@ nirnaya
 nirriti
 nitya
 nityadeepam
+nmmbmbb
+nmmbmyb
 nmmbnbb
 nmmnmyb
 nmnbmby
@@ -4208,6 +4309,7 @@ nodes
 non
 nonblank
 noncentral
+nonconsecutive
 none
 nonempty
 nonnegative
@@ -4272,6 +4374,7 @@ observed
 observer
 observing
 obsolete
+obstacles
 obstructed
 obstructing
 obstruction
@@ -4470,6 +4573,7 @@ partial
 participant
 participants
 participate
+participates
 participation
 particular
 particularly
@@ -4514,6 +4618,7 @@ peas
 peer
 peetham
 peligro
+penalties
 pending
 pentacles
 people
@@ -4541,7 +4646,11 @@ persistence
 persistent
 person
 personal
+personalisation
+personalise
+personalised
 personality
+personalization
 personalized
 personally
 perspective
@@ -4645,6 +4754,7 @@ possibilities
 possibility
 possible
 post
+postpone
 pour
 power
 practical
@@ -4737,6 +4847,7 @@ process
 processing
 produce
 producer
+producers
 produces
 producing
 product
@@ -4806,6 +4917,7 @@ purchase
 purchases
 pure
 purity
+purna
 purnima
 purnimanta
 purpose
@@ -4926,6 +5038,7 @@ ranges
 rank
 ranked
 ranking
+rankings
 ranks
 rao
 rashi
@@ -4937,6 +5050,7 @@ rate
 rates
 rath
 rather
+rating
 ratio
 rational
 ratnas
@@ -5122,6 +5236,7 @@ repeated
 repeatedly
 repeating
 repeats
+repetition
 replace
 replaced
 replacement
@@ -5152,7 +5267,9 @@ requirement
 requirements
 requires
 res
+rescaling
 research
+reservations
 reserve
 reserved
 residence
@@ -5246,6 +5363,7 @@ rider
 right
 rights
 rigid
+rikta
 ring
 rise
 rises
@@ -5305,6 +5423,7 @@ ruling
 rumour
 run
 rung
+rungs
 running
 runs
 runtime
@@ -5339,6 +5458,7 @@ sama
 sambandha
 same
 samhita
+sampat
 sample
 sampled
 samples
@@ -5353,6 +5473,7 @@ sanskrit
 sanskritdocuments
 santhanam
 sap
+sapphires
 saptami
 saptamsa
 saptavargaja
@@ -5419,6 +5540,7 @@ seam
 seams
 search
 searching
+season
 seasonal
 seasons
 seat
@@ -5516,6 +5638,7 @@ shakata
 shakuni
 shanaishcharaya
 shani
+shanti
 shape
 shaped
 shapes
@@ -5581,6 +5704,7 @@ sided
 sidereal
 sides
 sidm
+sig
 sign
 signal
 signals
@@ -5643,6 +5767,7 @@ sloping
 slot
 slots
 slow
+slower
 slowing
 slowly
 slug
@@ -5652,6 +5777,7 @@ smaller
 smallest
 smarta
 smoke
+smoothly
 snap
 snapshot
 so
@@ -5705,6 +5831,7 @@ spec
 special
 specific
 specifically
+specification
 specified
 specifies
 specs
@@ -5752,6 +5879,7 @@ stairs
 stale
 stamp
 stance
+stances
 stand
 standalone
 standard
@@ -5776,6 +5904,7 @@ status
 stay
 staying
 stays
+steadier
 steady
 stellar
 stellium
@@ -5827,6 +5956,7 @@ subdivision
 subdivisions
 subelement
 subgroup
+subinterval
 subject
 subjects
 submitted
@@ -5885,6 +6015,7 @@ sunday
 sunrise
 sunrises
 sunset
+supersede
 superseded
 supersedes
 supplement
@@ -5897,6 +6028,7 @@ supporting
 supportive
 supports
 suppress
+suppressed
 suppresses
 sur
 surface
@@ -5918,6 +6050,7 @@ svg
 sw
 swamsa
 swap
+swapped
 swapping
 swati
 swe
@@ -5975,6 +6108,7 @@ tank
 tantra
 tanu
 tara
+tarabala
 target
 targets
 tarot
@@ -6014,6 +6148,7 @@ term
 terminal
 terminology
 terms
+terrible
 terror
 test
 tested
@@ -6155,8 +6290,10 @@ transiting
 transition
 transitional
 transitions
+transitive
 transits
 translate
+translated
 translation
 translations
 translator
@@ -6246,8 +6383,10 @@ tzinfo
 u
 u0900
 u0963
+u097f
 u0c80
 u0ce3
+u0cff
 u200c
 u200d
 ubhayachari
@@ -6282,6 +6421,7 @@ uncomputed
 unconfirmed
 unconventional
 uncover
+undecidable
 undecided
 undefined
 under
@@ -6298,6 +6438,7 @@ uneven
 unexpected
 unfamiliar
 unfinished
+unfold
 unfolding
 unfolds
 unhelpful
@@ -6332,9 +6473,11 @@ unrecognized
 unrecorded
 unreduced
 unreferenced
+unrelated
 unresearched
 unresolved
 unrounded
+unscored
 unselected
 unsettled
 unsigned
@@ -6364,6 +6507,7 @@ upcoming
 update
 updated
 updating
+uplift
 uploads
 upper
 uppercase
@@ -6543,6 +6687,7 @@ wait
 waite
 wakefulness
 walk
+walkthrough
 wall
 walls
 wands
@@ -6607,6 +6752,7 @@ why
 wide
 widening
 wider
+widow
 width
 widths
 wiki
@@ -6639,6 +6785,7 @@ words
 work
 workable
 worked
+workers
 workflow
 working
 workload
@@ -6682,6 +6829,7 @@ ye
 year
 years
 yes
+yet
 yi
 yield
 yields
@@ -6747,6 +6895,7 @@ zones
 अधूरा
 अधूरे
 अध्ययन
+अध्याय
 अनकही
 अनजान
 अनजानी
@@ -6911,6 +7060,7 @@ zones
 उपासना
 उभर
 उभरता
+उभरने
 उभरा
 उभरे
 उभार
@@ -6933,6 +7083,7 @@ zones
 एक
 एकत्र
 एकांत
+एकाग्रता
 ऐ
 ऐसा
 ऐसी
@@ -6991,6 +7142,7 @@ zones
 कानूनी
 काम
 कामकाज
+कामगारों
 कामों
 कारक
 कारकांश
@@ -7128,6 +7280,7 @@ zones
 चाप
 चार
 चारों
+चाल
 चावल
 चाह
 चाहता
@@ -7218,6 +7371,7 @@ zones
 जिनमें
 जिनसे
 जिन्हें
+जिम्मेदारियाँ
 जिम्मेदारी
 जिस
 जिसका
@@ -7235,6 +7389,7 @@ zones
 जुड़ी
 जुड़े
 जुलता
+जुले
 जैसा
 जैसी
 जैसे
@@ -7252,6 +7407,7 @@ zones
 टकराती
 टकराते
 टकराव
+टाल
 टीम
 टोके
 ठ
@@ -7385,6 +7541,7 @@ zones
 दोहराए
 दोहराता
 दोहराया
+दौर
 दौरान
 ध
 धन
@@ -7393,6 +7550,7 @@ zones
 धन्यवाद
 धारणा
 धारणाओं
+धीमा
 धीमी
 धीरे
 धैर्य
@@ -7598,6 +7756,7 @@ zones
 बढ़ते
 बढ़ना
 बढ़ने
+बढ़ा
 बढ़ाते
 बढ़ाना
 बता
@@ -7666,6 +7825,7 @@ zones
 बीच
 बीत
 बीमारी
+बुज़ुर्गों
 बुध
 बुधवार
 बुधाय
@@ -7694,6 +7854,7 @@ zones
 भरोसेमंद
 भव
 भविष्य
+भा
 भाई
 भाग
 भागों
@@ -7773,6 +7934,7 @@ zones
 मूल
 मूल्य
 मूल्यों
+मृत
 मृत्यु
 में
 मेल
@@ -7851,6 +8013,7 @@ zones
 रोज़
 रोज़मर्रा
 रोशनी
+र्वेद
 ल
 लंबा
 लंबी
@@ -7866,6 +8029,7 @@ zones
 लगाने
 लगे
 लग्न
+लचीली
 लय
 ला
 लागत
@@ -7994,6 +8158,7 @@ zones
 श्रापित
 श्रेय
 ष
+ष्मान
 स
 सँभालते
 सँभालना
@@ -8200,6 +8365,7 @@ zones
 हर
 हल
 हल्का
+हल्की
 हस्ताक्षर
 हाथ
 हादस
@@ -8230,7 +8396,10 @@ zones
 हौसले
 ़
 ा
+ांे
+ााँें
 ाे
+ाें
 ाेें
 ि
 ी
@@ -8297,6 +8466,7 @@ zones
 ಅಧ್ಯಯನ
 ಅಧ್ಯಯನಕ್ಕೆ
 ಅಧ್ಯಯನದ
+ಅಧ್ಯಾಯ
 ಅನಗತ್ಯ
 ಅನಾರೋಗ್ಯ
 ಅನಿರೀಕ್ಷಿತ
@@ -8319,6 +8489,7 @@ zones
 ಅನುಭವದಿಂದ
 ಅನುಭವದೊಂದಿಗೆ
 ಅನುಭವವನ್ನು
+ಅನುಭವವಾಗಬಹುದು
 ಅನುಭವವು
 ಅನ್ವಯಿಸುತ್ತದೆ
 ಅನ್ವಯಿಸುವ
@@ -8446,11 +8617,14 @@ zones
 ಆರಂಭ
 ಆರಂಭದ
 ಆರಂಭದಲ್ಲಿ
+ಆರಂಭವಾಗಬಹುದು
 ಆರಂಭವಾಗಿ
 ಆರಂಭವಾಗುತ್ತದೆ
+ಆರಂಭವಾಗುತ್ತಿರಬಹುದು
 ಆರಂಭವಾಗುವ
 ಆರಂಭವಾಯಿತು
 ಆರಂಭಿಸಬಹುದು
+ಆರಂಭಿಸಲು
 ಆರಂಭಿಸಿ
 ಆರಂಭಿಸಿದ
 ಆರಂಭಿಸುವ
@@ -8639,6 +8813,7 @@ zones
 ಏಕಾಂತದ
 ಏಕಾಂತದಲ್ಲಿ
 ಏಕಾಗ್ರತೆಗೆ
+ಏಕಾಗ್ರತೆಯ
 ಏಕೆ
 ಏನನ್ನಾದರೂ
 ಏನನ್ನು
@@ -8686,6 +8861,7 @@ zones
 ಒಳಅನಿಸಿಕೆಯನ್ನು
 ಒಳಗೆ
 ಒಳಚಾಚುಗಳನ್ನು
+ಒಳ್ಳೆಯ
 ಓ
 ಓಂ
 ಓಡಾಟ
@@ -8756,15 +8932,18 @@ zones
 ಕಾಣುವ
 ಕಾನೂನು
 ಕಾಪಾಡುವುದು
+ಕಾಯಬಹುದು
 ಕಾಯಲು
 ಕಾರಕಾಂಶ
 ಕಾರಣಗಳು
 ಕಾರಣವೇನು
 ಕಾರ್ಡ್
+ಕಾರ್ಮಿಕರಿಗೆ
 ಕಾರ್ಯ
 ಕಾರ್ಯಸಾಧ್ಯವಾದ
 ಕಾಲ
 ಕಾಲಕ್ರಮದಲ್ಲಿ
+ಕಾಲಕ್ರಮೇಣ
 ಕಾಲದ
 ಕಾಲಸೂಚನೆ
 ಕಾಲಸೂಚನೆಯನ್ನು
@@ -8840,6 +9019,7 @@ zones
 ಕೈಗೊಳ್ಳುವ
 ಕೈಗೊಳ್ಳುವುದು
 ಕೈಯಲ್ಲಿರುವ
+ಕೊಂಚ
 ಕೊಂಡೊಯ್ಯಬೇಕೆಂದು
 ಕೊಟ್ಟ
 ಕೊಟ್ಟರೆ
@@ -8894,6 +9074,7 @@ zones
 ಖುಷಿ
 ಗ
 ಗಟ್ಟಿಯಾಗಬಹುದು
+ಗತಿ
 ಗತಿಯನ್ನು
 ಗತಿಯಲ್ಲಿ
 ಗಮನ
@@ -8979,6 +9160,7 @@ zones
 ಚರ್ಚಿಸಿದರೆ
 ಚರ್ಚಿಸುವಾಗ
 ಚರ್ಚಿಸುವುದು
+ಚಲನೆ
 ಚಲನೆಯನ್ನು
 ಚಲನೆಯಿಂದ
 ಚಾಂಡಾಲ
@@ -9225,6 +9407,7 @@ zones
 ನಾಯಕತ್ವ
 ನಾಲ್ಕನೇ
 ನಾಲ್ಕು
+ನಾಳೆ
 ನಾಳೆಯೂ
 ನಿಖರ
 ನಿಖರವಾಗಿ
@@ -9472,6 +9655,7 @@ zones
 ಪ್ರಶ್ನೆಯತ್ತ
 ಪ್ರಶ್ನೆಯನ್ನು
 ಪ್ರಶ್ನೆಯೊಂದಕ್ಕೆ
+ಪ್ರಸ್ತುತ
 ಪ್ರಾದೇಶಿಕ
 ಪ್ರಾಮಾಣಿಕ
 ಪ್ರಾಯೋಗಿಕ
@@ -9786,6 +9970,7 @@ zones
 ಮಿತಿಯ
 ಮಿತಿಯನ್ನು
 ಮಿಥುನ
+ಮಿಶ್ರವಾಗಿರಬಹುದು
 ಮೀನ
 ಮೀರಾ
 ಮೀರಿ
@@ -9803,6 +9988,7 @@ zones
 ಮುಂದುವರಿಸುವುದು
 ಮುಂದೂಡಬಹುದು
 ಮುಂದೆ
+ಮುಂದೆಯೂ
 ಮುಂಬರುವ
 ಮುಕ್ತತೆ
 ಮುಕ್ತಾಯ
@@ -9887,6 +10073,7 @@ zones
 ಯೋಜನೆಯನ್ನು
 ಯೋಜನೆಯಲ್ಲಿ
 ಯೋಜಿಸಬಹುದು
+ಯೋಜಿಸಲು
 ಯೋಜಿಸುವ
 ಯೋಜಿಸುವಾಗ
 ರ
@@ -9982,6 +10169,7 @@ zones
 ವಿನಿಮಯ
 ವಿನಿಮಯದಲ್ಲಿ
 ವಿನಿಮಯವೆಂದರೆ
+ವಿನ್ಯಾಸ
 ವಿನ್ಯಾಸಕ್ಕೆ
 ವಿನ್ಯಾಸದ
 ವಿನ್ಯಾಸವನ್ನು
@@ -9989,6 +10177,7 @@ zones
 ವಿಭಿನ್ನ
 ವಿಭಿನ್ನವಾಗಿ
 ವಿರಾಮ
+ವಿರಾಮಕ್ಕೆ
 ವಿರಾಮವನ್ನು
 ವಿರೂಪ
 ವಿಳಂಬ
@@ -10049,6 +10238,7 @@ zones
 ವೇಗದ
 ವೇಗದಲ್ಲಿ
 ವೇಗವನ್ನು
+ವೇಳಾಪಟ್ಟಿ
 ವೇಳಾಪಟ್ಟಿಯ
 ವೇಳಾಪಟ್ಟಿಯೊಂದಿಗೆ
 ವೇಳೆಗೆ
@@ -10186,6 +10376,7 @@ zones
 ಸಮಯವನ್ನು
 ಸಮಯವನ್ನೂ
 ಸಮಯವು
+ಸಮಯವೂ
 ಸಮಸ್ಯೆ
 ಸಮಸ್ಯೆಯನ್ನು
 ಸಮಾಂತರ
@@ -10199,6 +10390,7 @@ zones
 ಸರಳಗೊಳಿಸಬೇಕೆನಿಸಿದಾಗ
 ಸರಳಗೊಳಿಸುವುದು
 ಸರಳವಾದದ್ದಕ್ಕೆ
+ಸರಾಗವಾಗಬಹುದು
 ಸರಿದು
 ಸರಿಪಡಿಸುವುದು
 ಸರಿಯಾಗಿ
@@ -10275,6 +10467,7 @@ zones
 ಸೀಮಿತಗೊಳಿಸುವ
 ಸುಗಮವಾಗಬಹುದು
 ಸುತ್ತ
+ಸುತ್ತಮುತ್ತ
 ಸುತ್ತಲಿನ
 ಸುತ್ತಲಿನವರು
 ಸುತ್ತುವ
@@ -10347,8 +10540,10 @@ zones
 ಸ್ಥಾನವೂ
 ಸ್ಥಿರ
 ಸ್ಥಿರತೆ
+ಸ್ಥಿರವಾಗಿ
 ಸ್ಥಿರವಾಗಿರುತ್ತದೆ
 ಸ್ಥಿರವಾಗಿರುವ
+ಸ್ಥಿರವಾದ
 ಸ್ನೇಹ
 ಸ್ನೇಹಿತರೊಂದಿಗೆ
 ಸ್ಪಂದನೆ
@@ -10404,11 +10599,13 @@ zones
 ಹಂತಗಳಾಗಿ
 ಹಂತದಲ್ಲಿ
 ಹಂತವನ್ನು
+ಹಂತವಾಗಬಹುದು
 ಹಂತವಾಗಿ
 ಹಂತಹಂತವಾಗಿ
 ಹಗಲಿನ
 ಹಗಲು
 ಹಗುರಗೊಳಿಸಬಹುದು
+ಹಗುರವಾದ
 ಹಚ್ಚಲು
 ಹಣ
 ಹಣಕಾಸಿನ
@@ -10435,6 +10632,7 @@ zones
 ಹಿಂದಿರುವ
 ಹಿಂದೆ
 ಹಿಡಿತ
+ಹಿಡಿಯಬಹುದು
 ಹಿಡಿಸಬಹುದು
 ಹಿತವಾಗಬಹುದು
 ಹಿತವಾಗುವ
@@ -10445,6 +10643,7 @@ zones
 ಹಿನ್ನೆಲೆ
 ಹಿನ್ನೆಲೆಯನ್ನು
 ಹಿನ್ನೆಲೆಯಲ್ಲೇ
+ಹಿರಿಯರಿಗೆ
 ಹುಟ್ಟಿತು
 ಹುಟ್ಟಿದವರಲ್ಲಿ
 ಹುಡುಕಬಹುದು
@@ -10528,6 +10727,7 @@ zones
 ಹೊರೆ
 ಹೊಸ
 ಹೊಸದನ್ನು
+ಹೊಸದಾಗಿ
 ಹೊಸದಾಗಿದೆಯೇ
 ಹೋಗುವ
 ಹೋದ

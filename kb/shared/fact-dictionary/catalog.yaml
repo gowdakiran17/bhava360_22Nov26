@@ -18,6 +18,396 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  transit.double.moon_target:
+    type: boolean
+    producer: vedic.transits
+    origin: Bind the target sign and natal sign of its lord from the Moon independently. Jupiter and Saturn each occupy
+      or fully aspect either target simultaneously.
+    dependencies:
+    - stable natal Moon
+    - area recipe
+    - transit signs
+    - natal lord placement
+    unknown_if: A required input is absent or unstable within the declared interval.
+  vedic.yoga.adhi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.adhi
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.amala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.amala
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.anapha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.anapha
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.bhadra.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.bhadra
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.budhaditya.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.budhaditya
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.chandra-mangala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.chandra-mangala
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.dhana.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.dhana
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.durudhara.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.durudhara
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.gaja-kesari.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.gaja-kesari
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.hamsa.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.hamsa
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.harsha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.harsha
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.kemadruma.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.kemadruma
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.lakshmi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.lakshmi
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.malavya.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.malavya
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.neecha-bhanga-raja.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.neecha-bhanga-raja
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.neecha-bhanga.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.neecha-bhanga
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.parivartana-dainya.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.parivartana-dainya
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.parivartana-khala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.parivartana-khala
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.parivartana-maha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.parivartana-maha
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.parivartana.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.parivartana
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.raja.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.raja
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.ruchaka.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.ruchaka
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.sakata.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.sakata
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.sarala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.sarala
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.saraswati.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.saraswati
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.shasha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.shasha
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.sunapha.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.sunapha
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.ubhayachari.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.ubhayachari
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.vasumati.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.vasumati
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.vesi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.vesi
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.vimala.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.vimala
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  vedic.yoga.vosi.active:
+    type: boolean
+    producer: vedic.yogas.activation
+    origin: KB-41 activation after bound cancellations; synthetic scenarios supply explicit testimony.
+    dependencies:
+    - vedic.yogas.vosi
+    - Maha and Antar lords
+    unknown_if: not-yet-defined
+  day.chandra:
+    type: enum
+    producer: vedic.home
+    origin: Moon house from natal Moon, after vedha.
+    dependencies:
+    - transit Moon
+    - stable natal Moon
+    - eligible blockers
+    unknown_if: A required input is absent or unstable within the declared interval.
+    values:
+    - support
+    - neutral
+    - caution
+  day.tara:
+    type: integer
+    producer: vedic.home
+    origin: Inclusive nine-star cycle from ranking-policy.yaml.
+    dependencies:
+    - birth and query Moon nakshatras
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.moon_sign_sav:
+    type: integer
+    producer: vedic.home
+    origin: Raw per-sign SAV from Raman/Santhanam contributor rows.
+    dependencies:
+    - transit Moon sign
+    - bound natal SAV
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.leading_areas:
+    type: array
+    producer: vedic.home
+    origin: Antar lord ownership or full aspect of the transit Moon sign.
+    dependencies:
+    - Antar
+    - full aspects
+    - owned area labels
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.tithi_class:
+    type: enum
+    producer: vedic.home
+    origin: Cycle of five tithi classes at the query instant.
+    dependencies:
+    - local Panchang tithi
+    unknown_if: A required input is absent or unstable within the declared interval.
+    values:
+    - Nanda
+    - Bhadra
+    - Jaya
+    - Rikta
+    - Purna
+  day.exclusions:
+    type: array
+    producer: vedic.home
+    origin: Local Rahu, Yama, Gulika and Vishti intervals.
+    dependencies:
+    - local daylight
+    - Panchang limbs
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.fast_events:
+    type: array
+    producer: vedic.home
+    origin: Dated fast-mover ingresses and direct or retrograde stations.
+    dependencies:
+    - transit boundaries
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.moon_contacts:
+    type: array
+    producer: vedic.home
+    origin: Natal grahas occupying the transit Moon sign.
+    dependencies:
+    - personal natal signs
+    - transit Moon
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.phase_boundaries:
+    type: array
+    producer: vedic.home
+    origin: Dated slow-transit phase starts and ends.
+    dependencies:
+    - stable natal Moon
+    - transit boundaries
+    unknown_if: A required input is absent or unstable within the declared interval.
+  day.tone:
+    type: enum
+    producer: vedic.home
+    origin: First matching day.yaml tone row.
+    dependencies:
+    - day.chandra
+    - day.tara
+    - day.moon_sign_sav
+    unknown_if: A required input is absent or unstable within the declared interval.
+    values:
+    - Supportive
+    - Steady
+    - Take care
+  month.tone:
+    type: enum
+    producer: vedic.home
+    origin: Sun agrees with at least two fast movers by duration after vedha.
+    dependencies:
+    - month bounds
+    - personal gochara intervals
+    unknown_if: A required input is absent or unstable within the declared interval.
+    values:
+    - Supportive
+    - Steady
+    - Take care
+  month.coming_up:
+    type: array
+    producer: vedic.home
+    origin: First three dated personal-calendar events in local month.
+    dependencies:
+    - sankranti
+    - fast ingress and station dates
+    - Antar bounds
+    unknown_if: A required input is absent or unstable within the declared interval.
+  month.saturn_phase:
+    type: boolean
+    producer: vedic.home
+    origin: Saturn occupies twelfth, first or second sign from Moon.
+    dependencies:
+    - transit Saturn
+    - stable natal Moon
+    unknown_if: A required input is absent or unstable within the declared interval.
   confidence.tier:
     type: enum
     values: [A, B, C]
@@ -621,7 +1011,8 @@ facts:
     type: boolean
     producer: vedic.transits
     origin: Bind a selected natal whole-sign house from Lagna. At one instant both Jupiter and Saturn must each occupy
-      its sign or cast a full graha aspect to it, using vedic/aspects/full-graha.yaml. Intersect their windows.
+      its sign or the sign of its natal lord, or fully aspect either sign. Intersect their windows.
+    dependencies: [stable Lagna, area recipe, natal lord sign, Jupiter and Saturn transits]
     unknown_if: Required bound chart, time, profile or evidence is missing or unstable.
   transit.nodes.opposed:
     type: boolean
@@ -1465,14 +1856,14 @@ facts:
     values: [Benefic, Neutral, Malefic, Yogakaraka]
     producer: vedic.d1
     origin: Internal selected-graha lookup in vedic/lordships/functional.yaml.
-    dependencies: [stable Lagna, selected graha, D1 sign owner for nodes]
-    unknown_if: Missing Lagna or unresolved node dispositor.
+    dependencies: [stable Lagna, selected graha, occupied-house testimony, associated grahas and D1 sign owner for nodes]
+    unknown_if: Missing Lagna or unresolved material node testimony.
   strength.planet.grade:
     type: enum
     values: [Strong, Moderate, Weak]
     producer: vedic.strength
     origin: Internal band on the unrounded vedic/strength/grade.yaml worksheet.
-    dependencies: [D1 and D9 dignity, canonical cancellation branches, house reference, motion and combustion, war, full aspects, vargottama]
+    dependencies: [D1 and D9 dignity, canonical cancellation branches, house reference, motion and combustion, war, full aspects, vargottama, lunar paksha for Moon]
     unknown_if: Material inputs or their selected reference are unresolved.
   d1.dignity.exchange_with_dispositor:
     type: boolean

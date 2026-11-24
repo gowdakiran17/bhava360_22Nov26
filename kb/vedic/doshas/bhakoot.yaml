@@ -42,8 +42,8 @@ sources:
   supports: Computational source for the base factor. Parihara follows the KB matching profile.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
-  pending.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
+  formation contributes only to an established indication.
 user_text:
   en: You can use this factor as a starting point for talking about your preferences.
   kn: ನಿಮ್ಮ ಆದ್ಯತೆಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಈ ಅಂಶವನ್ನು ಆರಂಭವಾಗಿ ಬಳಸಬಹುದು.
@@ -65,7 +65,7 @@ reference_paths:
 - vedic/matching/north-profile.yaml
 evidence:
   direction: caution
-  weight_class: primary
+  weight_class: modifier
   time_scope: event
   reference: moon
   area_strength:

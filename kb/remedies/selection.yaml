@@ -1,0 +1,9 @@
+version: 1
+approval: draft
+tag: MODERN/POPULAR
+label: traditional-practice
+catalogue: One row per graha in remedies/{graha}.yaml. Read options.japa for weekday and mantra, options.charity for the available in-kind item, the primary service or options.service for conduct, and fast_ref for the optional existing fast.
+selection: On a Steady or Take care area or period show a constructive action first. Only then offer at most one free practice per screen, linked to the causative graha or otherwise the running Antar lord. Every caution needs a phase end date.
+sensitive: Suppress every remedy for health, legal, financial-verdict, bereavement and other sensitive topics. Never suggest fasting on a health card.
+framing: Traditionally believed to help. Participation is optional; use only time or items already available. No purchase, offering or fee.
+fast_ref: remedies/optional-fast.yaml

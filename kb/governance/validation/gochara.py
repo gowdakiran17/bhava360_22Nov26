@@ -11,7 +11,7 @@ TABLE_63 = (
     {3:12, 6:9, 11:5},
     {2:5, 4:3, 6:9, 8:1, 10:8, 11:12},
     {2:12, 5:4, 7:3, 9:10, 11:8},
-    {1:8, 2:7, 3:1, 4:10, 5:9, 8:5, 9:11, 11:6, 12:3},
+    {1:8, 2:7, 3:1, 4:10, 5:9, 8:5, 9:11, 11:3, 12:6},
     {3:12, 6:9, 11:5},
 )
 
@@ -46,6 +46,13 @@ def validate_gochara(rules, read, evaluate, require):
     require(vedha['support_to_obstruction'] == dict(zip(PLANETS, TABLE_63)), 'Table 63')
     require(vedha['eligible_blockers'] == PLANETS and vedha['mutual_exemptions'] ==
             [['sun','saturn'],['moon','mercury']], 'vedha exemptions')
+
+    for origin, obstruction in [(11,3),(12,6)]:
+        positions = dict.fromkeys(PLANETS,origin)
+        positions['mars'] = obstruction
+        require(blocked(vedha,'venus',positions)==['mars'],'Venus vedha pair')
+        positions['mars'] = 6 if obstruction==3 else 3
+        require(blocked(vedha,'venus',positions)==[],'Venus swapped blocker')
 
     def fires(slug, values):
         return evaluate(rules[PREFIX + slug]['conditions'], values)
@@ -104,7 +111,7 @@ def validate_gochara(rules, read, evaluate, require):
         hit = all(house(target,signs[g]) in [1,*aspects[g]] for g in ('jupiter','saturn'))
         # Capricorn Jupiter reaches Capricorn, Taurus, Cancer, Virgo.
         # Taurus Saturn reaches Taurus, Cancer, Scorpio, Aquarius.
-        check('double-transit','double.common_target',hit,target in (1,3))
+        require(fires('double-transit',{'transit.double.common_target':hit,'transit.double.moon_target':False}) == (target in (1,3)), 'Lagna double transit')
     for ketu,expected in [(longitudes['ketu'],True),(longitudes['ketu']+1,False)]:
         check('nodal-axis','nodes.opposed',(ketu-longitudes['rahu'])%360==180,expected)
     contact = snap['contact']

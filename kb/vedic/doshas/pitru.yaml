@@ -37,8 +37,8 @@ sources:
   supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
-  pending.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
+  formation contributes only to an established indication.
 user_text:
   en: You may enjoy hearing how a family custom began.
   kn: ಮನೆಯ ಆಚರಣೆಯೊಂದು ಹೇಗೆ ಆರಂಭವಾಯಿತು ಎಂದು ಕೇಳುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
@@ -61,7 +61,7 @@ public_label:
   hi: पारिवारिक परंपराएँ
 evidence:
   direction: caution
-  weight_class: primary
+  weight_class: modifier
   time_scope: natal
   reference: none
   area_strength:

@@ -138,8 +138,9 @@ def public_resources(docs, messages):
         else:
             continue
         bind(path,public)
-    copy_path = 'shared/confidence/copy.yaml'
-    if copy_path in docs:
+    for copy_path in ('shared/confidence/copy.yaml', 'modules/home/copy.yaml'):
+        if copy_path not in docs:
+            continue
         for key, translations in docs[copy_path]['messages'].items():
             name = f'{copy_path}#messages/{key}'
             bind(name, {'user_text':messages.add(name, translations)})

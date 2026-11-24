@@ -7,9 +7,9 @@ remedy:
   label: traditional-practice
   cost: free
   user_text:
-    en: If you like, you can offer someone dependable help with a routine task and follow through at the agreed time.
-    kn: ಇಚ್ಛೆಯಿದ್ದರೆ, ಯಾರಿಗಾದರೂ ದಿನನಿತ್ಯದ ಕೆಲಸದಲ್ಲಿ ನೆರವು ನೀಡುವುದಾಗಿ ಹೇಳಿ, ಒಪ್ಪಿದ ಸಮಯಕ್ಕೆ ಅದನ್ನು ಮಾಡಬಹುದು.
-    hi: चाहें तो आप किसी के रोज़मर्रा के काम में मदद की पेशकश कर सकते हैं और तय समय पर अपना वादा निभा सकते हैं।
+    en: If you like, you can help elders or workers with a routine task at an agreed time.
+    kn: ಇಚ್ಛೆಯಿದ್ದರೆ, ಹಿರಿಯರಿಗೆ ಅಥವಾ ಕಾರ್ಮಿಕರಿಗೆ ದಿನನಿತ್ಯದ ಕೆಲಸದಲ್ಲಿ ಒಪ್ಪಿದ ಸಮಯಕ್ಕೆ ನೆರವಾಗಬಹುದು.
+    hi: चाहें तो आप बुज़ुर्गों या कामगारों को तय समय पर रोज़मर्रा के काम में मदद दे सकते हैं।
 native_review:
   kn: pending
   hi: pending
@@ -20,11 +20,10 @@ options:
     optional: true
     label: traditional-practice
     weekday: Saturday
+    tradition: Navagraha name mantra
     form: nama
     sources:
-    - title: Navagraha Mantra · Name mantras and weekdays
-      url: https://kundlinaksha.com/blog/navagraha-mantra
-      locator: saturn
+    - {work_id: bphs, edition: null, locator: Graha shanti chapters (individual verse pending), verification: pending}
     user_text:
       en: If you like, on Saturday you can quietly repeat “Om Shanaishcharaya Namah.”
       kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಶನಿವಾರ “ಓಂ ಶನೈಶ್ಚರಾಯ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.
@@ -42,3 +41,5 @@ options:
       en: If you already have black sesame to spare, you can share some with someone who would welcome it.
       kn: ನಿಮ್ಮಲ್ಲಿ ಹೆಚ್ಚುವರಿ ಕಪ್ಪು ಎಳ್ಳು ಇದ್ದರೆ, ಬಯಸುವವರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
       hi: यदि आपके पास अतिरिक्त काले तिल हो, तो आप इसे किसी इच्छुक व्यक्ति के साथ बाँट सकते हैं।
+fast_ref: remedies/optional-fast.yaml
+framing: Traditionally believed to help; free and optional.

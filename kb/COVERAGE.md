@@ -52,3 +52,7 @@ All 1,824 reading rules across ten systems carry internal evidence metadata. The
 ## KB-48 birth-time confidence (draft)
 
 Five declared precisions map to three tiers and 46 output rows. Four explanations cover exact, approximate, Moon-chart approximate, and time-unknown readings. The three internal confidence fields bring the fact dictionary to 412 keys. The 1,824 reading rules and 661 staff glossary entries retain their KB-35 counts.
+
+## KB-36 and KB-37 synthesis and personal timing
+
+Ten summary recipes use the five-stage pipeline. Eight ordered conflict rules, nine graha practice rows, and a single practice-selection policy accompany 25 synthesis cases. The personal calendar covers 14 day cases, seven-day composition and duration-weighted months. The localized catalogue adds 63 messages across three required languages. The dictionary now has 458 facts and the reading-rule inventory remains 1,824 across ten systems. Two glossary terms moved to staff-only access. [Synthesis](life-areas/pipeline.yaml) · [Daily policy](modules/home/day.yaml) · [Worked examples and source review](governance/REVIEW-REPORT.md)

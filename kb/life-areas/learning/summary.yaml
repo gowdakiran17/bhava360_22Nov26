@@ -1,10 +1,7 @@
 area: learning
 title: Education
 approval: draft
-weighting_order:
-- natal-promise
-- dasha
-- transit
+pipeline: life-areas/pipeline.yaml
 feeds:
   houses:
   - vedic.houses.house-4

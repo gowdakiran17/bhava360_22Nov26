@@ -26,3 +26,4 @@ used_by:
 - vedic.planets-in-houses.saturn-house-8
 - vedic.planets-in-houses.sun-house-8
 - vedic.planets-in-houses.venus-house-8
+visibility: admin-only

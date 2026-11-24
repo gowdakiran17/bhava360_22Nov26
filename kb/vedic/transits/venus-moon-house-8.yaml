@@ -11,7 +11,7 @@ conditions:
   - fact: transit.venus.distance_from_natal_moon
     op: eq
     value: 8
-meaning: You may want to clarify expectations around shared resources.
+meaning: It may feel easier to plan together around shared resources.
 life_areas:
 - money
 - love-marriage
@@ -25,6 +25,7 @@ traditions_differ:
     (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Table 58 marks this position as
     difficult, while Table 63 includes it among the positions subject to vedha. This source variant remains mixed. The selected direction is support; evaluate vedha independently.
 sources:
+- {work_id: phaladeepika, book: Phaladeepika, edition: phaladeepika-sastri-1950, chapter: 26, verse: null, other_locator: Venus gochara, verification: pending}
 - book: 'Vedic Astrology: An Integrated Approach'
   work_id: rao-integrated
   edition: rao-integrated-online
@@ -37,9 +38,9 @@ confidence: disputed
 review_notes: Interpretive copy is editorial. Kannada and Hindi await native review. KB-35 selects support before modifiers;
   the source documents mixed indications.
 user_text:
-  en: You may want to clarify expectations around shared resources.
-  kn: ಜಂಟಿ ಸಂಪನ್ಮೂಲಗಳ ಬಗ್ಗೆ ನಿರೀಕ್ಷೆಗಳನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
-  hi: साझा संसाधनों को लेकर अपेक्षाएँ स्पष्ट कर सकते हैं।
+  en: It may feel easier to plan together around shared resources.
+  kn: ಹಂಚಿಕೊಂಡ ಸಂಪನ್ಮೂಲಗಳ ಬಗ್ಗೆ ಒಟ್ಟಿಗೆ ಯೋಜಿಸಲು ಅನುಕೂಲವಾಗಬಹುದು.
+  hi: साझा संसाधनों की योजना साथ मिलकर बनाना सहज लग सकता है।
 native_review:
   kn: pending
   hi: pending

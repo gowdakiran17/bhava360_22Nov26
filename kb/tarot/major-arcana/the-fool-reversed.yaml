@@ -13,7 +13,7 @@ conditions:
   - fact: draw.orientation
     op: eq
     value: reversed
-meaning: The card offers a reflection on an overlooked risk.
+meaning: The card offers a reflection on a detail you may have missed.
 life_areas:
 - learning
 strength_notes: []
@@ -51,9 +51,9 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to reflect on an overlooked risk. What comes to mind in this position?
+  en: You may wish to reflect on a detail you may have missed. What comes to mind in this position?
   kn: “ಗಮನಿಸದೆ ಉಳಿದ ವಿಷಯ” ಎಂಬ ವಿಷಯದ ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು. ಈ ಸ್ಥಾನದಲ್ಲಿ ನಿಮಗೆ ಏನು ನೆನಪಾಗುತ್ತದೆ?
-  hi: आप “अनदेखा जोखिम” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
+  hi: आप “छूटा हुआ पहलू” पर विचार कर सकते हैं। इस स्थान पर आपके मन में क्या आता है?
 native_review:
   kn: pending
   hi: pending
@@ -66,7 +66,7 @@ card_profile:
     kind: element
     value: air
   keywords:
-  - an overlooked risk
+  - a detail you may have missed
   - curiosity
   tone: Steady
 evidence:

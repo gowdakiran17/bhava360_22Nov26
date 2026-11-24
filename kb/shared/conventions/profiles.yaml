@@ -66,6 +66,8 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  parashari-synthesis-v1: {approval: draft, calculation: vedic-lahiri-v1}
+  moon-daily-v1: {approval: draft, calculation: vedic-lahiri-v1}
   birth-time-confidence-v1: {approval: draft, scope: output-availability, source: shared/confidence/birth-time-tiers.yaml}
   functional-lordship-v1: {calculation: vedic-lahiri-v1, approval: draft}
   planet-strength-grade-v1: {calculation: vedic-lahiri-v1, approval: draft}
@@ -126,6 +128,7 @@ doctrine_profiles:
   bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:
+  generic-lordship-order: {approval: draft, tag: MODERN, scope: generic first-match functional polarity}
   mercury-strict: {system: vedic, approval: draft, scope: any-malefic-same-sign-associate}
   saravali-five-degrees: {system: vedic, approval: draft, scope: labelled-alternative}
   pvr-table-20: {system: vedic, approval: draft, scope: labelled-alternative}

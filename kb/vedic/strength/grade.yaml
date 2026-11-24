@@ -6,7 +6,7 @@ visibility: admin-only
 basis: Bhava360 practitioner synthesis of classical dignity, house, aspect and avastha considerations. Add the unrounded terms before assigning a band.
 inputs:
   dignity: Use the resolved KB dignity label for each division, with vedic/dignity/sign-dignities.yaml endpoint precedence and vedic/dignity/relationships.yaml directed compound friendship.
-  cancellation: Count distinct true branches of vedic.yogas.neecha-bhanga for the same debilitated D1 graha. An undecided count with multiple possible awards withholds the grade.
+  cancellation: Count distinct physical causes among the true branches of vedic.yogas.neecha-bhanga for the same debilitated D1 graha. An undecided count with multiple possible awards withholds the grade.
   house: From Lagna, or from the Moon only when Lagna is explicitly withheld. Count the angle/trine overlap once.
   combustion: Use the inclusive speed-specific orbs in vedic/states/combustion-orbs.yaml.
   war: Use the resolved planetary-war loser flag.
@@ -29,7 +29,12 @@ traditions_differ:
 - Multiple independent relief conditions earn +1 by Bhava360 choice. No cancellation award in D9.
 - The earlier consultation-method section 8.1 composite includes Shadbala. It is a non-default variant; no Shadbala quantity feeds this grade.
 sources:
+- {work_id: uttara-kalamrita, edition: uttara-kalamrita-strength, locator: Chapter 2 verse 6 on dignity and retrogression, verification: pending}
 - {work_id: bphs, edition: null, locator: Dignity and Shadbala chapters, verification: pending}
 - {work_id: saravali, edition: null, locator: Planetary strength discussion (exact passage pending), verification: pending}
 - {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Ch.7 cancellation and avastha discussion (locator pending), verification: pending}
 birth_time_availability: shared/confidence/output-matrix.yaml
+moon_paksha: {waxing: 0.5, waning: -0.5, exact-boundary: 0}
+paksha_notes: BPHS chapter 3 distinguishes waxing and waning. These signed weights and neutral exact conjunction/opposition are editorial.
+grade_variants: [Combust exalted dignity retained by default, Retrograde debilitated uplift per Uttara Kalamrita 2.6 is optional, Debilitated vargottama retains D9 dignity and repetition separately]
+limits: Rashi and bhava sandhi are not modelled. Repeated cancellation predicates attesting one physical contact share one evidence identity.

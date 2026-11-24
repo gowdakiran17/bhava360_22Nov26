@@ -26,6 +26,7 @@ cases:
     aspects: {}
     expected: [-0.5, Weak]
   P3:
+    paksha: exact-boundary
     graha: moon
     d1: debilitation-sign
     d9: debilitation-sign

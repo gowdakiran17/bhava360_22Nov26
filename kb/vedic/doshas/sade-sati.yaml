@@ -38,12 +38,12 @@ sources:
   supports: Moon-relative Saturn transit basis. The grouped phase names follow the KB transit table.
   verification: verified
 confidence: medium
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+review_notes: Phase wording follows modules/home/month.yaml and modules/home/copy.yaml. Keep the bound chart, reference and convention with the explanation. Native-language review
   pending.
 user_text:
-  en: You may find it useful to leave space between commitments during this period.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಹೊಣೆಗಳ ನಡುವೆ ಸ್ವಲ್ಪ ಬಿಡುವು ಇಡುವುದು ನೆರವಾಗಬಹುದು.
-  hi: इस अवधि में ज़िम्मेदारियों के बीच थोड़ा समय रखना मददगार हो सकता है।
+  en: This may be a slower, steadier phase.
+  kn: ಇದು ನಿಧಾನವಾಗಿ, ಸ್ಥಿರವಾಗಿ ಸಾಗುವ ಹಂತವಾಗಬಹುದು.
+  hi: यह धीमा और स्थिर दौर हो सकता है।
 native_review:
   kn: pending
   hi: pending

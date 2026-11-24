@@ -76,12 +76,22 @@ def classify(r, recipes, slow):
         h=r['house_pair']['occupied_house']
         ref,weight='lagna','primary'
         direction='support' if h in (1,4,5,7,9,10) else 'caution' if h in (6,8,12) else 'neutral'
+        owner = r['house_pair']['source_house']
+        if owner in (6,8,12) and h in (1,4,5,7,9,10):
+            direction='caution'
+            note='BPHS ch.24 and Phaladeepika ch.15: difficult-house ownership qualifies the placement.'
+        if (owner,h) in ((2,11),(11,2),(1,11),(5,11),(9,11)):
+            direction='support'
+            note='Wealth-house linkage under BPHS ch.24 and ch.41.'
         if h in (6,8,12) and r['house_pair']['source_house'] in (6,8,12):
             yoga={6:'harsha',8:'sarala',12:'vimala'}[r['house_pair']['source_house']]
             note='Test vedic.yogas.'+yoga+' before synthesizing this dusthana placement.'
     elif topic in ('yogas','raja-yogas','doshas'):
         caution=topic=='doshas' or slug in ('sakata','kemadruma','parivartana-dainya')
         direction,weight=('caution' if caution else 'support'),'primary'
+        if topic=='doshas' and (r['confidence']=='disputed' or slug in ('shrapit','pitru','guru-chandal','grahan','nodal-axis')):
+            weight='modifier'
+            note='School-dependent formation contributes only to an established indication.'
         if slug in ('sade-sati','ashtama-shani'):
             scope='transit'
         if slug in ('bhakoot','nadi'):
