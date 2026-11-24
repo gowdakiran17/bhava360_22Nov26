@@ -2901,6 +2901,7 @@ for
 forbidden
 forceful
 forces
+forecast
 forest
 form
 format

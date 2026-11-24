@@ -13,8 +13,8 @@ base:
   d9: own
   vargottama: false
   topic_varga: D10
-  topic_pass: true
-  period: {maha: venus, antar: saturn, direct: [saturn, sun, mercury, jupiter], star_lords: {mars: mercury, rahu: mars}, negating: [ketu], interval: ['2032-02-15','2032-06-01'], subinterval: ['2032-03-10','2032-04-22']}
+  topic_lord: {house: 4, dignity: neutral}
+  period: {maha: venus, antar: saturn, owners: [saturn], occupants: [], aspectors: [], karakas: [saturn, sun, mercury, jupiter], star_lords: {mars: mercury, rahu: mars}, negating: [ketu], interval: ['2032-02-15','2032-06-01'], subinterval: ['2032-03-10','2032-04-22']}
   lagna_targets: [10,1]
   moon_targets: [1,5]
   segments:

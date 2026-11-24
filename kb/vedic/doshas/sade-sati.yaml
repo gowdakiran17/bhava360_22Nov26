@@ -38,7 +38,7 @@ sources:
   supports: Moon-relative Saturn transit basis. The grouped phase names follow the KB transit table.
   verification: verified
 confidence: medium
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
+review_notes: Phase wording follows modules/home/month.yaml and modules/home/copy.yaml. Keep the bound chart, reference and convention with the explanation. Native-language review
   pending.
 user_text:
   en: This may be a slower, steadier phase.
@@ -57,8 +57,6 @@ remedy:
     kn: ಒಂದು ಕೆಲಸವನ್ನು ಆರಿಸಿ ಅನುಕೂಲವಾದ ವೇಗದಲ್ಲಿ ಮುಗಿಸಬಹುದು.
     hi: आप एक काम चुनकर उसे सहज गति से पूरा कर सकते हैं।
 reference_paths:
-- modules/home/month.yaml
-- modules/home/copy.yaml
 - vedic/transits/evidence.yaml
 - vedic/transits/reentry.yaml
 - vedic/transits/saturn-moon.yaml

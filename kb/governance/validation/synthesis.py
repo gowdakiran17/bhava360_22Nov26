@@ -119,7 +119,13 @@ def evaluate(x, policy, ladder, matrix, aspects):
     d9=D9_LABELS.get(x.get('d9'),x.get('d9'))
     varga=None if d9 is None else x['vargottama'] or d9 in GOOD_D9
     if x.get('topic_varga') and varga:
-        varga=x.get('topic_pass')
+        varga_lord=x.get('topic_lord',{})
+        placement=varga_lord.get('house')
+        dignity=varga_lord.get('dignity')
+        if placement in (1,4,5,7,9,10) or D9_LABELS.get(dignity,dignity) in ('own','exalted'):
+            varga=True
+        else:
+            varga=False if placement is not None and dignity is not None else None
     counts=[*primary,majority([g in GRADES[1:] if g else None for g in x['karakas']]),
             majority(secondary),varga]
     for i,(key,_) in enumerate(policy['promise']['factors']):
@@ -136,7 +142,7 @@ def evaluate(x, policy, ladder, matrix, aspects):
     result=dict(band=GRADES[grade],card=None,windows=[],remedy_graha=None)
     if not grade: return dict(result,state='no-promise')
     period=x['period']
-    direct=set(period['direct'])
+    direct=set().union(*(period.get(group,[]) for group in ('owners','occupants','aspectors','karakas')))
     sig=direct|{g for g,star in period['star_lords'].items() if star in direct}
     antar=period.get('antar')
     if not antar: return dict(result,state='unknown-period')
@@ -184,6 +190,19 @@ def evaluate(x, policy, ladder, matrix, aspects):
                 remedy_graha=remedy_graha,pace=wins[0]['pace'],phase_end=wins[0]['end'],action='action')
 
 
+def forecast(chart, periods, policy, ladder, matrix, aspects):
+    """Consider each solved period before ordering the event cards over the shared horizon."""
+    candidates=[]
+    for period in periods:
+        record=evaluate(dict(chart,period=period),policy,ladder,matrix,aspects)
+        if record.get('card'):
+            candidates.extend(record['windows'])
+    candidates.sort(key=lambda w:(w['start'],w['pace']!='supported',w['end']))
+    if not candidates:
+        return []
+    return [candidates[0],*sorted(candidates[1:],key=lambda w:(w['pace']!='supported',w['start']))[:policy['window']['later_limit']]]
+
+
 def screen_practice(cards):
     # Caller supplies display order; choose once after actions and phase bounds are present.
     for card in cards:
@@ -229,6 +248,11 @@ def validate(read,require):
     sensitive=evaluate(merge(base,{'tier':'B','area':'health'}),p,ladder,matrix,aspects)
     require(screen_practice([sensitive]) is None and screen_practice([sensitive,practical,practical])=='saturn'
             and screen_practice([dict(practical,phase_end=None)]) is None,'one free practice after action and end')
+    future=dict(base['period'], interval=['2032-04-25','2032-06-01'], subinterval=None)
+    earlier=dict(base['period'], interval=['2032-02-01','2032-03-22'])
+    pending=dict(base['period'], antar='rahu')
+    timed=forecast(base,[future,pending,earlier],p,ladder,matrix,aspects)
+    require([w['start'] for w in timed]==['2032-03-10','2032-04-25'],'search across disjoint Antars')
     require(len(ladder['rungs'])==8 and not any(ladder['flags'].values()),'MVP ladder')
     require(double({'jupiter':6,'saturn':11},[10,1],aspects) and
             not double({'jupiter':6,'saturn':11},[1,5],aspects),'independent reference targets')

@@ -14,7 +14,7 @@ def testimony(planet, positions, vedha):
 
 
 def best_time(day, policy):
-    if day.get('daylight') is None:
+    if any(day.get(key) is None for key in ('daylight','candidates','exclusions')):
         return None
     sunrise, sunset = day['daylight']
     choices = []
@@ -59,13 +59,14 @@ def day_result(day, policy, vedha, ranking, activity, aspects, owners):
     group = next((k for k,v in activity['nakshatra_groups'].items() if day['star_name'] in v),None)
     good = [choices['focus'][area] for area in focus if area in choices['focus']]
     good += [a for a in choices['eligible'] if group in activity['activity_preferences'][a]]
-    good += [choices['tithi'][day['tithi']]]
-    easy = ['starting-work','travel'] if tara_dir=='caution' or day['tithi']=='Rikta' else []
+    if day.get('tithi') in choices['tithi']:
+        good.append(choices['tithi'][day['tithi']])
+    easy = ['starting-work','travel'] if tara_dir=='caution' or day.get('tithi')=='Rikta' else []
     good = [a for a in dict.fromkeys(good) if a not in easy][:choices['limits']['good']]
     # Clip independent Vishti to the civil date, including the part before sunrise.
-    exclusions=[span for span in day['exclusions'] if day.get('daylight') or span[0]=='vishti']
+    exclusions=[span for span in (day.get('exclusions') or []) if day.get('daylight') or span[0]=='vishti']
     context={k:day.get(k,[]) for k in ('fast_events','moon_contacts','slow_phase_boundaries')}
-    return dict(context=context, tithi=day['tithi'], tone=tone, moon_house=positions.get('moon'), tara=tara, chandra=chandra, focus=focus,
+    return dict(context=context, tithi=day.get('tithi'), tone=tone, moon_house=positions.get('moon'), tara=tara, chandra=chandra, focus=focus,
                 good=good, easy=easy, best=best_time(day, policy['best_time']),
                 exclusions=exclusions,
                 chips=[k for k,v in [('moon-chip',chandra),('star-chip',tara),('season-chip',focus)] if v])
