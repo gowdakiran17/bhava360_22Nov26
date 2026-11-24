@@ -72,6 +72,8 @@ used_by:
 - vastu.entrances.check-house-relocation-dwelling-facing
 - vastu.rooms.northeast-pooja
 - vastu.rooms.southeast-kitchen
+- vedic.annual-chart.ikkabala
+- vedic.annual-chart.induvara
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.jupiter-aspects-house-11
@@ -701,6 +703,7 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.prashna.current-question
+- vedic.prashna.exam
 - vedic.prashna.health
 - vedic.prashna.job
 - vedic.prashna.leans-against
@@ -712,6 +715,7 @@ used_by:
 - vedic.prashna.mixed
 - vedic.prashna.moon
 - vedic.prashna.property
+- vedic.prashna.return-person
 - vedic.prashna.timing
 - vedic.prashna.travel
 - vedic.prashna.unclear

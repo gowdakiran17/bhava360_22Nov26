@@ -1,0 +1,186 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+visibility: admin-only
+harsha:
+  favourite_house:
+    sun: 9
+    moon: 3
+    mars: 6
+    mercury: 1
+    jupiter: 11
+    venus: 12
+    saturn: 12
+  day:
+  - sun
+  - mars
+  - jupiter
+  night:
+  - moon
+  - mercury
+  - venus
+  - saturn
+  day_group_houses:
+  - 4
+  - 5
+  - 6
+  - 10
+  - 11
+  - 12
+  night_group_houses:
+  - 1
+  - 2
+  - 3
+  - 7
+  - 8
+  - 9
+  awards: Five each for favourite house, own or exalted sign, group-appropriate house, matching return sect. No rounding.
+panchavargiya:
+  maxima:
+    sign: 30
+    exaltation: 20
+    term: 15
+    decan: 10
+    navamsha: 5
+  relations:
+    own: 1
+    friendly: 0.75
+    neutral: 0.5
+    hostile: 0.25
+  method: For each non-exaltation component assess the host against the planet by annual Tajika sign relations (3/5/9/11
+    friendly, 1/4/7/10 hostile, others neutral). Own host takes precedence. Exaltation units = 20 times shortest arc
+    from deep fall divided by 180. Divide sum by four.
+  term_end_exclusive:
+  - - - jupiter
+      - 6
+    - - venus
+      - 12
+    - - mercury
+      - 20
+    - - mars
+      - 25
+    - - saturn
+      - 30
+  - - - venus
+      - 8
+    - - mercury
+      - 14
+    - - jupiter
+      - 22
+    - - saturn
+      - 27
+    - - mars
+      - 30
+  - - - mercury
+      - 6
+    - - venus
+      - 12
+    - - jupiter
+      - 17
+    - - mars
+      - 24
+    - - saturn
+      - 30
+  - - - mars
+      - 7
+    - - venus
+      - 13
+    - - mercury
+      - 19
+    - - jupiter
+      - 26
+    - - saturn
+      - 30
+  - - - jupiter
+      - 6
+    - - venus
+      - 11
+    - - saturn
+      - 18
+    - - mercury
+      - 24
+    - - mars
+      - 30
+  - - - mercury
+      - 7
+    - - venus
+      - 17
+    - - jupiter
+      - 21
+    - - mars
+      - 28
+    - - saturn
+      - 30
+  - - - saturn
+      - 6
+    - - mercury
+      - 14
+    - - jupiter
+      - 21
+    - - venus
+      - 28
+    - - mars
+      - 30
+  - - - mars
+      - 7
+    - - venus
+      - 11
+    - - mercury
+      - 19
+    - - jupiter
+      - 24
+    - - saturn
+      - 30
+  - - - jupiter
+      - 12
+    - - venus
+      - 17
+    - - mercury
+      - 21
+    - - mars
+      - 26
+    - - saturn
+      - 30
+  - - - mercury
+      - 7
+    - - jupiter
+      - 14
+    - - venus
+      - 22
+    - - saturn
+      - 26
+    - - mars
+      - 30
+  - - - mercury
+      - 7
+    - - venus
+      - 13
+    - - jupiter
+      - 20
+    - - mars
+      - 25
+    - - saturn
+      - 30
+  - - - venus
+      - 12
+    - - jupiter
+      - 16
+    - - mercury
+      - 19
+    - - mars
+      - 28
+    - - saturn
+      - 30
+  decan: Use classical D3 sign lord; labelled variant uses Chaldean faces.
+  navamsha: Use classical D9 sign lord.
+  decan_method: First, fifth and ninth signs from the sign occupied in successive ten-degree intervals; harmonic ninth
+    for navamsha.
+traditions_differ: Term, decan and relationship fractions differ between manuals; these are the pinned worksheet conventions.

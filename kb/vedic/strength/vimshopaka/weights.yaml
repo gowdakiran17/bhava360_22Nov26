@@ -1,0 +1,87 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+visibility: admin-only
+weights:
+  shadvarga:
+    1: 6
+    2: 2
+    3: 4
+    9: 5
+    12: 2
+    30: 1
+  saptavarga:
+    1: 5
+    2: 2
+    3: 3
+    7: 1
+    9: 2.5
+    12: 4.5
+    30: 2
+  dashavarga:
+    1: 3
+    2: 1.5
+    3: 1.5
+    7: 1.5
+    9: 1.5
+    10: 1.5
+    12: 1.5
+    16: 1.5
+    30: 1.5
+    60: 5
+  shodashavarga:
+    1: 3.5
+    2: 1
+    3: 1
+    4: 0.5
+    7: 0.5
+    9: 3
+    10: 0.5
+    12: 0.5
+    16: 2
+    20: 0.5
+    24: 0.5
+    27: 0.5
+    30: 1
+    40: 0.5
+    45: 0.5
+    60: 4
+dignity:
+  own: 20
+  great-friend: 18
+  friend: 15
+  neutral: 10
+  enemy: 7
+  great-enemy: 5
+method: Sum weight times dignity units divided by 20. An unavailable division withholds the result; never renormalize.
+  Classical seven planets only.
+bands:
+  well supported: 15
+  steady: 10
+  modest: 0
+band_policy: Bhava360 editorial qualitative bands inclusive at lower threshold.
+secondary_locator: PyJHora 5.0.6 const.py, four amsa_vimsopaka dictionaries and vimsopaka_planet_position_values.
+labels:
+  well supported:
+    en: well supported
+    kn: ಉತ್ತಮ ಬೆಂಬಲ
+    hi: अच्छा सहयोग
+  steady:
+    en: steady
+    kn: ಸ್ಥಿರ
+    hi: स्थिर
+  modest:
+    en: modest
+    kn: ಮಿತವಾದ
+    hi: सीमित सहारा
+native_review:
+  kn: pending
+  hi: pending

@@ -16,6 +16,7 @@ admin_note: Use this label for measured as seen from the centre of Earth. Read t
 aliases: []
 reference_rules: []
 used_by:
+- vedic.annual-chart.solar-return
 - vedic.states.graha-yuddha
 - vedic.states.vakri
 - vedic.strength-shadbala.ayana

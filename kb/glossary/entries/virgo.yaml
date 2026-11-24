@@ -65,6 +65,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.virgo
+- vedic.star-readings.lagna-quarter-virgo
+- vedic.star-readings.moon-quarter-virgo
 - vedic.strength-ashtakavarga.shodhya-pinda
 - vedic.strength-shadbala.saptavargaja
 - vedic.vargas.d30-placement

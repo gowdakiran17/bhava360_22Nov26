@@ -136,6 +136,9 @@ used_by:
 - vastu.directions.southeast
 - vastu.directions.southwest
 - vastu.directions.west
+- vedic.annual-chart.dutthottha-davira
+- vedic.annual-chart.ikkabala
+- vedic.annual-chart.tambira
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.jupiter-aspects-house-11
@@ -540,6 +543,8 @@ used_by:
 - vedic.strength-shadbala.six-components
 - vedic.strength-shadbala.sthana
 - vedic.strength-shadbala.uchcha
+- vedic.vargas.d2-lunar-hora-majority
+- vedic.vargas.d2-solar-hora-majority
 - vedic.yogas.activation
 - vedic.yogas.bhadra
 - vedic.yogas.hamsa

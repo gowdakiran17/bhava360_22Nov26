@@ -43,6 +43,7 @@ used_by:
 - tarot.minor-arcana.two-of-wands-reversed
 - tarot.minor-arcana.two-of-wands-upright
 - vastu.directions.south
+- vedic.annual-chart.manau
 - vedic.aspects.mars-aspects-house-1
 - vedic.aspects.mars-aspects-house-10
 - vedic.aspects.mars-aspects-house-11
@@ -161,6 +162,7 @@ used_by:
 - vedic.signs.cancer
 - vedic.signs.capricorn
 - vedic.signs.scorpio
+- vedic.star-readings.lord-mars
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -233,6 +235,7 @@ used_by:
 - vedic.transits.rahu-moon-house-9
 - vedic.transits.retrograde
 - vedic.transits.station
+- vedic.vargas.d2-solar-hora-majority
 - vedic.yogas.activation
 - vedic.yogas.anapha
 - vedic.yogas.chandra-mangala

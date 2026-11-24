@@ -1,0 +1,48 @@
+id: vedic.annual-chart.khallasara
+system: vedic
+topic: annual-chart
+title: Khallasara
+doctrine_profile: tajika-annual-v1
+approval: draft
+rule: Significators apply but Moon neither connects with them nor conveys light.
+conditions:
+  all:
+  - fact: annual.yoga.lunar_disconnection
+    op: eq
+    value: true
+meaning: You may want to check who can help with the next practical step.
+life_areas: []
+strength_notes: []
+exceptions:
+- when:
+    fact: annual.yoga.witness_invalid
+    op: eq
+    value: true
+  effect: cancel
+  reason: An effective lunar connection invalidates this isolated application.
+traditions_differ: []
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: You may want to check who can help with the next practical step.
+  kn: ಮುಂದಿನ ಕೆಲಸಕ್ಕೆ ನೆರವು ಕೇಳಬಹುದು.
+  hi: अगले काम में मदद माँग सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength: {}

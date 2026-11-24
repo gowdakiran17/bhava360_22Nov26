@@ -1,0 +1,59 @@
+synthetic: true
+approval: draft
+scenario: Scenario N1
+moon_sidereal_deg: 5
+lagna_sidereal_deg: 42
+moon:
+  star: ashwini
+  pada: 2
+  lord: ketu
+  navamsha: taurus
+  user_text:
+    en: You may enjoy taking the first practical step when someone needs help.
+    kn: ಯಾರಿಗಾದರೂ ನೆರವು ಬೇಕಾದಾಗ ಮೊದಲ ಹೆಜ್ಜೆ ಇಡುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
+    hi: किसी को मदद चाहिए तो पहला कदम उठाना आपको अच्छा लग सकता है।
+  quarter_user_text:
+    en: When noticing what feels familiar, you can build a steady routine.
+    kn: ಸ್ಥಿರ ದಿನಚರಿ ಬೆಳೆಸಲು ಗಮನ ಕೊಡಬಹುದು.
+    hi: नियमित अभ्यास बनाने पर ध्यान दे सकते हैं।
+  star_lord_user_text:
+    en: You may find a way to learn from a wider perspective.
+    kn: ವಿಶಾಲ ದೃಷ್ಟಿಯಿಂದ ಕಲಿಯಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+    hi: व्यापक दृष्टि से सीखने का अवसर मिल सकता है।
+lagna:
+  star: rohini
+  pada: 1
+  lord: moon
+  navamsha: aries
+  user_text:
+    en: When you approach something new, you may enjoy giving one growing project regular attention.
+    kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಬೆಳೆಯುತ್ತಿರುವ ಒಂದು ಕೆಲಸಕ್ಕೆ ಸತತ ಗಮನ ಕೊಡುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.'
+    hi: 'नई शुरुआत पर विचार करते समय: किसी बढ़ते काम को नियमित समय देना आपको अच्छा लग सकता है।'
+  quarter_user_text:
+    en: When starting something new, you can try a direct first step.
+    kn: ನೇರವಾಗಿ ಆರಂಭಿಸಲು ಗಮನ ಕೊಡಬಹುದು.
+    hi: सीधी शुरुआत करने पर ध्यान दे सकते हैं।
+  star_lord_user_text:
+    en: You may find a way to make space for a familiar need.
+    kn: ಪರಿಚಿತ ಅಗತ್ಯಕ್ಕೆ ಅವಕಾಶ ಕೊಡಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+    hi: परिचित ज़रूरत को जगह देने का अवसर मिल सकता है।
+avastha:
+  planet: mars
+  dignity: own
+  jagradadi: jagrat
+shadvarga:
+  1: own
+  2: friend
+  3: neutral
+  9: friend
+  12: neutral
+  30: neutral
+admin_units: 14.75
+user_words: steady
+native_review:
+  kn: pending
+  hi: pending
+user_words_localized:
+  en: steady
+  kn: ಸ್ಥಿರ
+  hi: स्थिर

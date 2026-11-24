@@ -2,27 +2,34 @@ id: vedic.annual-chart.solar-return
 system: vedic
 topic: annual-chart
 title: Solar Return
-doctrine_profile: vedic-editorial-v1
+doctrine_profile: tajika-annual-v1
 approval: draft
-rule: The Sun returns to its pinned natal longitude and a chart exists for the selected annual location and convention.
+rule: Solve the next positive anniversary crossing of the natal apparent geocentric sidereal Sun longitude in Lahiri,
+  then cast angles at the current residence.
 conditions:
   all:
   - fact: annual.return_exact
+    op: eq
+    value: true
+  - fact: annual.lahiri_frame
     op: eq
     value: true
 meaning: You can use this annual chart to reflect on the year ahead.
 life_areas: []
 strength_notes: []
 exceptions: []
-traditions_differ: []
+traditions_differ:
+- profile: tajika-annual-v1
+  note: Birthplace is an explicit location variant. Location affects angles and sect; the geocentric return instant
+    is shared.
 sources:
-- book: Bhava360 annual conventions
-  work_id: bhava360-annual-conventions
-  edition: bhava360-annual-conventions-v1
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
   chapter: null
   verse: null
-  other_locator: vedic.annual-chart.solar-return
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
   verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.

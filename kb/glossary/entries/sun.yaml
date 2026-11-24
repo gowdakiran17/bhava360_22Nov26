@@ -145,6 +145,7 @@ used_by:
 - vedic.signs.aries
 - vedic.signs.leo
 - vedic.signs.libra
+- vedic.star-readings.lord-sun
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -188,6 +189,7 @@ used_by:
 - vedic.transits.sun-moon-house-8
 - vedic.transits.sun-moon-house-9
 - vedic.vargas.d12-sun-dignity
+- vedic.vargas.d2-solar-hora-majority
 - vedic.yogas.bhadra
 - vedic.yogas.budhaditya
 - vedic.yogas.hamsa

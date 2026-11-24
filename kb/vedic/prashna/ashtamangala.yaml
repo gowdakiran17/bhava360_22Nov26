@@ -5,8 +5,9 @@ title: Ashtamangala
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Advanced administrative study. Bind three positive integer cowrie heap counts in the recorded reading order.
-  For each take 1 + ((count − 1) modulo 8); retain the three digits separately and preserve the recorded Arudha
-  if available. Never simulate a ritual input or send this evidence to the public projection.
+  For each take 1 + ((count − 1) modulo 8); retain the three digits separately and preserve the recorded Arudha if
+  available. Never simulate a ritual input or send this evidence to the public projection. Admin study only. Consult
+  vedic/prashna/kerala-study.yaml for independently observed inputs.
 conditions:
   all:
   - fact: prashna.mode
@@ -25,8 +26,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The sign observation and ordered remainders belong to a Kerala consultation. Local ritual sequences and
-    interpretation vary.
+  note: The sign observation and ordered remainders belong to a Kerala consultation. Local ritual sequences and interpretation
+    vary.
 sources:
 - book: Prasna Marga, Part I
   work_id: prashna-marga

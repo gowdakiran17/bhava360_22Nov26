@@ -10,9 +10,11 @@ conditions:
   - fact: varga.d9.vargottama
     op: eq
     value: true
-meaning: You may find it easier to discuss a commitment when you can name the values you share.
+meaning: A familiar quality may help you carry a commitment into work, study or a relationship.
 life_areas:
 - love-marriage
+- career
+- learning
 strength_notes: []
 exceptions: []
 traditions_differ:
@@ -31,9 +33,9 @@ sources:
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:
-  en: You may find it easier to discuss a commitment when you can name the values you share.
-  kn: ನಿಮ್ಮಿಬ್ಬರಿಗೂ ಮುಖ್ಯವಾದ ಮೌಲ್ಯಗಳನ್ನು ಗುರುತಿಸಿದಾಗ ಬದ್ಧತೆಯ ಬಗ್ಗೆ ಮಾತನಾಡುವುದು ಸುಲಭವಾಗಬಹುದು.
-  hi: आप दोनों के साझा मूल्यों को पहचानने से प्रतिबद्धता पर बात करना आसान हो सकता है।
+  en: A familiar quality may help you carry a commitment into work, study or a relationship.
+  kn: ಪರಿಚಿತ ಗುಣವು ಕೆಲಸ, ಕಲಿಕೆ ಅಥವಾ ಸಂಬಂಧದಲ್ಲಿ ನೆರವಾಗಬಹುದು.
+  hi: एक परिचित गुण काम, पढ़ाई या रिश्ते में मदद कर सकता है।
 native_review:
   kn: pending
   hi: pending
@@ -45,4 +47,6 @@ evidence:
   reference: none
   area_strength:
     love-marriage: related
+    career: related
+    learning: related
 release: mvp

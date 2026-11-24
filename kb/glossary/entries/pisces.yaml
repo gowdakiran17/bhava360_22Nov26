@@ -65,6 +65,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.pisces
+- vedic.star-readings.lagna-quarter-pisces
+- vedic.star-readings.moon-quarter-pisces
 - vedic.strength-ashtakavarga.sarvashtakavarga
 - vedic.vargas.d30-placement
 - western.angles.mc-pisces

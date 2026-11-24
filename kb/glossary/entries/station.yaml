@@ -17,6 +17,9 @@ aliases:
 - stationary
 reference_rules: []
 used_by:
+- vedic.annual-chart.ithasala
+- vedic.annual-chart.tambira
+- vedic.prashna.timing
 - vedic.states.combustion
 - vedic.states.vakri
 - vedic.transits.retrograde

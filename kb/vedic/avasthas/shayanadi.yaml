@@ -1,0 +1,37 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+visibility: admin-only
+states:
+  shayana: 1
+  upaveshana: 2
+  netrapani: 3
+  prakashana: 4
+  gamana: 5
+  agamana: 6
+  sabha: 7
+  agama: 8
+  bhojana: 9
+  nrityalipsa: 10
+  kautuka: 11
+  nidra: 12
+fact_key: d1.avastha.shayanadi
+method: Multiply occupied star number by graha ordinal (Sun through Saturn 1..7, nodes 8..9) and occupied navamsha
+  number within sign (1..9). Add birth Moon star number, elapsed ghatis since local sunrise (completed units) and
+  Lagna sign number. Divide modulo 12, mapping zero to 12.
+copy:
+  en: You can adapt the pace of a task to the attention it needs.
+  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
+  hi: काम के अनुसार गति चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+traditions_differ: Additional sub-states and weighting schemes are outside this profile. Baladi remains in vedic/states/baladi.yaml.

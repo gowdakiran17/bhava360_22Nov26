@@ -70,6 +70,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.taurus
+- vedic.star-readings.lagna-quarter-taurus
+- vedic.star-readings.moon-quarter-taurus
 - vedic.vargas.d30-placement
 - western.angles.mc-taurus
 - western.natal.ascendant-taurus

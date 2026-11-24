@@ -147,6 +147,7 @@ used_by:
 - vedic.signs.gemini
 - vedic.signs.pisces
 - vedic.signs.virgo
+- vedic.star-readings.lord-mercury
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -196,6 +197,8 @@ used_by:
 - vedic.transits.mercury-moon-house-9
 - vedic.transits.retrograde
 - vedic.transits.station
+- vedic.vargas.d2-lunar-hora-majority
+- vedic.vargas.d2-solar-hora-majority
 - vedic.vargas.d24-mercury-dignity
 - vedic.yogas.adhi
 - vedic.yogas.anapha

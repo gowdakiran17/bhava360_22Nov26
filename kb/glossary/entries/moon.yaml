@@ -41,6 +41,9 @@ used_by:
 - tarot.minor-arcana.two-of-swords-upright
 - vastu.chart-fit.moon-fourth
 - vastu.directions.northwest
+- vedic.annual-chart.gairi-kamboola
+- vedic.annual-chart.kamboola
+- vedic.annual-chart.khallasara
 - vedic.aspects.jupiter-aspects-moon
 - vedic.aspects.mars-aspects-moon
 - vedic.aspects.moon-aspects-house-1
@@ -443,6 +446,19 @@ used_by:
 - vedic.signs.cancer
 - vedic.signs.scorpio
 - vedic.signs.taurus
+- vedic.star-readings.lord-moon
+- vedic.star-readings.moon-quarter-aquarius
+- vedic.star-readings.moon-quarter-aries
+- vedic.star-readings.moon-quarter-cancer
+- vedic.star-readings.moon-quarter-capricorn
+- vedic.star-readings.moon-quarter-gemini
+- vedic.star-readings.moon-quarter-leo
+- vedic.star-readings.moon-quarter-libra
+- vedic.star-readings.moon-quarter-pisces
+- vedic.star-readings.moon-quarter-sagittarius
+- vedic.star-readings.moon-quarter-scorpio
+- vedic.star-readings.moon-quarter-taurus
+- vedic.star-readings.moon-quarter-virgo
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -689,6 +705,7 @@ used_by:
 - vedic.transits.venus-moon-house-8
 - vedic.transits.venus-moon-house-9
 - vedic.vargas.d12-moon-dignity
+- vedic.vargas.d2-lunar-hora-majority
 - vedic.vargas.d4-moon-dignity
 - vedic.yogas.activation
 - vedic.yogas.adhi

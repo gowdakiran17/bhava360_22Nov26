@@ -1,6 +1,6 @@
 # Bhava360 knowledge base edition 1
 
-This is a reviewable authoring edition. It contains 2,540 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,540 rules have English, Kannada and Hindi user text and retain draft status.
+This is a reviewable authoring edition. It contains 2,618 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,618 rules have English, Kannada and Hindi user text and retain draft status.
 
 ## Where to start
 
@@ -76,3 +76,9 @@ The Western point adjustments, the matching summary bands and the Papasamya unit
 ## KB-46 · Synthetic end-to-end acceptance
 
 Five Swiss-file natal charts and five worked readings cover thirty MVP area evaluations on a common date. The corpus has 2,540 draft reading rules and 922 registered fact keys across ten systems. All 82 yoga readings have distinct EN, KN and HI text. The 71-row birth-time matrix governs the references. [Charts and reproduction](examples/fixtures/README.md)
+
+## Batch 6 · Annual, stellar and question charts
+
+The 78 additional draft readings comprise 16 annual yogas, 27 Lagna stars, 24 Moon/Lagna quarter modifiers, nine reusable star-lord readings and two question routes. The catalogue contains 2,618 reading rules across ten systems and 952 registered facts. The 27 existing Moon-star entries supply the Moon readings. Four avastha tables and four Vimshopaka schemes have separate private calculation records.
+
+The synthetic examples cover the residence-based sidereal return, natal star and quarter composition, and a job question whose applying aspect crosses the sign boundary. [Annual worksheet](examples/annual-return-v1.yaml) · [Natal worksheet](examples/natal-star-n1.yaml) · [Question worksheet](examples/prashna-reference.yaml)

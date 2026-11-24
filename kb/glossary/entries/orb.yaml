@@ -17,6 +17,8 @@ aliases:
 - Orbs
 reference_rules: []
 used_by:
+- vedic.annual-chart.ishrafa
+- vedic.annual-chart.ithasala
 - vedic.conjunctions.jupiter-ketu
 - vedic.conjunctions.jupiter-rahu
 - vedic.conjunctions.jupiter-saturn

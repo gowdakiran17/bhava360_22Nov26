@@ -37,8 +37,20 @@ def occupied(cusps, point):
     return house
 
 
+def node_agents(node, positions, star_lords, aspect_variant=()):
+    if positions.get(node) is None or star_lords.get(node) is None:
+        return None
+    sign = positions[node] % TURN // SIGN
+    close = {g for g, angle in positions.items() if g in RULERS and angle is not None and angle % TURN // SIGN == sign}
+    return ({RULERS[sign], star_lords[node], *aspect_variant} | close) - {node}
+
+
 def validate_kp(rules, read, evaluate, require):
     judgement_checks(rules,read,evaluate,require)
+    positions={'rahu':SIGN,'moon':SIGN,'mars':SIGN-1}
+    require(node_agents('rahu',positions,{'rahu':'jupiter'})=={'jupiter','venus','moon'} and
+            node_agents('rahu',positions,{'rahu':'jupiter'},['mars'])=={'jupiter','venus','moon','mars'} and
+            node_agents('rahu',positions,{}) is None,'KP agency sign boundary, stellar and optional aspect links')
     rows = read('kp/number-horary/249-divisions.yaml')['intervals']
     require(rows == intervals() and len(rows)==249, 'exact KP boundaries, signs, stars, subs and numbers')
     starts = [r['start_arcsec'] for r in rows]
@@ -150,8 +162,8 @@ def event_outcome(group, houses, cusp_solved):
 def event_windows(group, outcome, links, ruling, periods, passages, horizon):
     if outcome not in ('promised','mixed') or ruling is None or len(periods)!=3:
         return []
-    candidates=set(ruling).intersection(g for g,houses in links.items() if houses is not None and set(houses).intersection(group['houses']))
-    if any(lord not in candidates for lord,_,_ in periods):
+    candidates={g for g,houses in links.items() if houses is not None and set(houses).intersection(group['houses'])}
+    if any(lord not in candidates for lord,_,_ in periods) or not set(ruling).intersection(p[0] for p in periods):
         return []
     sensitive={'event-cusp',*(lord for lord,_,_ in periods)}
     hits=set()
@@ -168,7 +180,8 @@ def event_windows(group, outcome, links, ruling, periods, passages, horizon):
 def judgement_checks(rules, read, evaluate, require):
     groups=read('kp/cusps/event-groups.yaml')['events']
     for row in groups.values():
-        require(set(row['negating_houses'])=={(h-2)%12+1 for h in row['houses']},row['event'])
+        require(set(row['negating_houses'])==({(h-2)%12+1 for h in row['houses']}|set(row['classical_denial']))-set(row['houses']),row['event'])
+        require(all(event_outcome(row,[h],True)=='promised' for h in row['houses']),row['event']+' support-only cusp')
     for links,expected in [([2],'promised'),([6],'denied'),([7,10],'mixed'),([8],'unrelated'),(None,None)]:
         require(event_outcome(groups[7],links,True)==expected,'marriage group')
     k2=read('examples/kp-judgement.yaml')
@@ -181,6 +194,6 @@ def judgement_checks(rules, read, evaluate, require):
     require(outcome=='mixed' and event_outcome(g,k2['cusp_links'],False) is None,'actual Placidus failure')
     def windows(ruling):
         return event_windows(g,outcome,k2['significators'],ruling,k2['periods'],k2['passages'],k2['horizon'])
-    require(windows(k2['ruling'])==[tuple(k2['expected_window'])] and not windows(['venus']), 'K2 intersection and ruling filter')
+    require(windows(k2['ruling'])==[tuple(k2['expected_window'])] and windows(['venus'])==windows(k2['ruling']) and not windows(['mars']), 'K2 intersection and ruling filter')
     require(evaluate(rules['kp.judgement.mixed']['conditions'],{'kp.judgement.outcome':outcome}) and
             evaluate(rules['kp.judgement.mixed-signals']['conditions'],{'kp.judgement.conflict':True}),'K2 explanations')

@@ -5,7 +5,8 @@ title: Timing
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Use the local day of the earliest verified future perfection as a review window under judgment.yaml. Require
-  an identified pair, a solved instant, stable reference and an eligible leaning.
+  an identified pair, a solved instant, stable reference and an eligible leaning. Use the shared Tajika mean orb across
+  sign boundaries; re-evaluate if a station or obstruction intervenes.
 conditions:
   all:
   - fact: prashna.mode
@@ -24,8 +25,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Symbolic degrees-to-days or weeks depend on school and question. This version dates only a calculated
-    chart contact.
+  note: Symbolic degrees-to-days or weeks depend on school and question. This version dates only a calculated chart
+    contact.
 sources:
 - book: Prasna Tantra
   work_id: prasna-tantra

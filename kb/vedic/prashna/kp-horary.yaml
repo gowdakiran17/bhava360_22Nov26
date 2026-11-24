@@ -5,8 +5,8 @@ title: KP number horary
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: After the intent gate, require an integer 1–249, current judgment time and place. Delegate to kp/number-horary/input.yaml
-  and kp.number-horary.arc for the selected numbered ascendant, KP ayanamsa and Placidus frame. Use KP-17 evidence
-  only.
+  and kp.number-horary.arc for the selected numbered ascendant, KP ayanamsa and Placidus frame. Follow kp/judgement/chain.yaml
+  for its separate verdict. Preserve disagreement; the natal ladder alone permits a single-grade adjustment.
 conditions:
   all:
   - fact: prashna.mode

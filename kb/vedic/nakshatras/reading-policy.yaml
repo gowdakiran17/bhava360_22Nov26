@@ -1,0 +1,103 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+steps:
+- Read Moon or stable Lagna star.
+- Use its exact quarter row to bind navamsha reflection.
+- Select the one star-lord context; do not add another grade vote.
+reading_ids:
+- vedic.star-readings.lagna-ashwini
+- vedic.nakshatras.ashwini
+- vedic.star-readings.lagna-bharani
+- vedic.nakshatras.bharani
+- vedic.star-readings.lagna-krittika
+- vedic.nakshatras.krittika
+- vedic.star-readings.lagna-rohini
+- vedic.nakshatras.rohini
+- vedic.star-readings.lagna-mrigashira
+- vedic.nakshatras.mrigashira
+- vedic.star-readings.lagna-ardra
+- vedic.nakshatras.ardra
+- vedic.star-readings.lagna-punarvasu
+- vedic.nakshatras.punarvasu
+- vedic.star-readings.lagna-pushya
+- vedic.nakshatras.pushya
+- vedic.star-readings.lagna-ashlesha
+- vedic.nakshatras.ashlesha
+- vedic.star-readings.lagna-magha
+- vedic.nakshatras.magha
+- vedic.star-readings.lagna-purva-phalguni
+- vedic.nakshatras.purva-phalguni
+- vedic.star-readings.lagna-uttara-phalguni
+- vedic.nakshatras.uttara-phalguni
+- vedic.star-readings.lagna-hasta
+- vedic.nakshatras.hasta
+- vedic.star-readings.lagna-chitra
+- vedic.nakshatras.chitra
+- vedic.star-readings.lagna-swati
+- vedic.nakshatras.swati
+- vedic.star-readings.lagna-vishakha
+- vedic.nakshatras.vishakha
+- vedic.star-readings.lagna-anuradha
+- vedic.nakshatras.anuradha
+- vedic.star-readings.lagna-jyeshtha
+- vedic.nakshatras.jyeshtha
+- vedic.star-readings.lagna-mula
+- vedic.nakshatras.mula
+- vedic.star-readings.lagna-purva-ashadha
+- vedic.nakshatras.purva-ashadha
+- vedic.star-readings.lagna-uttara-ashadha
+- vedic.nakshatras.uttara-ashadha
+- vedic.star-readings.lagna-shravana
+- vedic.nakshatras.shravana
+- vedic.star-readings.lagna-dhanishta
+- vedic.nakshatras.dhanishta
+- vedic.star-readings.lagna-shatabhisha
+- vedic.nakshatras.shatabhisha
+- vedic.star-readings.lagna-purva-bhadrapada
+- vedic.nakshatras.purva-bhadrapada
+- vedic.star-readings.lagna-uttara-bhadrapada
+- vedic.nakshatras.uttara-bhadrapada
+- vedic.star-readings.lagna-revati
+- vedic.nakshatras.revati
+- vedic.star-readings.moon-quarter-aries
+- vedic.star-readings.moon-quarter-taurus
+- vedic.star-readings.moon-quarter-gemini
+- vedic.star-readings.moon-quarter-cancer
+- vedic.star-readings.moon-quarter-leo
+- vedic.star-readings.moon-quarter-virgo
+- vedic.star-readings.moon-quarter-libra
+- vedic.star-readings.moon-quarter-scorpio
+- vedic.star-readings.moon-quarter-sagittarius
+- vedic.star-readings.moon-quarter-capricorn
+- vedic.star-readings.moon-quarter-aquarius
+- vedic.star-readings.moon-quarter-pisces
+- vedic.star-readings.lagna-quarter-aries
+- vedic.star-readings.lagna-quarter-taurus
+- vedic.star-readings.lagna-quarter-gemini
+- vedic.star-readings.lagna-quarter-cancer
+- vedic.star-readings.lagna-quarter-leo
+- vedic.star-readings.lagna-quarter-virgo
+- vedic.star-readings.lagna-quarter-libra
+- vedic.star-readings.lagna-quarter-scorpio
+- vedic.star-readings.lagna-quarter-sagittarius
+- vedic.star-readings.lagna-quarter-capricorn
+- vedic.star-readings.lagna-quarter-aquarius
+- vedic.star-readings.lagna-quarter-pisces
+- vedic.star-readings.lord-ketu
+- vedic.star-readings.lord-venus
+- vedic.star-readings.lord-sun
+- vedic.star-readings.lord-moon
+- vedic.star-readings.lord-mars
+- vedic.star-readings.lord-rahu
+- vedic.star-readings.lord-jupiter
+- vedic.star-readings.lord-saturn
+- vedic.star-readings.lord-mercury

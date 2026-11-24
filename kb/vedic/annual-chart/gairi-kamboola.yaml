@@ -1,0 +1,48 @@
+id: vedic.annual-chart.gairi-kamboola
+system: vedic
+topic: annual-chart
+title: Gairi kamboola
+doctrine_profile: tajika-annual-v1
+approval: draft
+rule: A Moon late in its sign enters the next sign and joins a competent significator in application.
+conditions:
+  all:
+  - fact: annual.yoga.lunar_ingress_help
+    op: eq
+    value: true
+meaning: A change of setting may make help easier to find.
+life_areas: []
+strength_notes: []
+exceptions:
+- when:
+    fact: annual.yoga.witness_invalid
+    op: eq
+    value: true
+  effect: cancel
+  reason: The lunar ingress and subsequent application must both occur in sequence.
+traditions_differ: []
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: A change of setting may make help easier to find.
+  kn: ಸ್ಥಳ ಬದಲಾದಾಗ ನೆರವು ಸಿಗಬಹುದು.
+  hi: बदली परिस्थिति में सहारा मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength: {}

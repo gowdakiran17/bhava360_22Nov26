@@ -1,0 +1,66 @@
+synthetic: true
+approval: draft
+scenario: Scenario V1
+method: pyswisseph 2.10.03; Moshier, Lahiri, sidereal solar crossing and Swiss houses at residence. Synthetic inputs.
+target_sidereal_deg: 9
+search_from_jd: 2461042.0
+return_jd: 2461153.8743069167
+return_utc: '2026-04-23T08:59:00.117605+00:00'
+natal_lagna_sign_index: 3
+completed_years: 10
+birthplace: Mysuru
+current_residence: Bengaluru
+coordinates:
+- 12.97
+- 77.59
+sect: day
+ascendant_deg: 129.9768825592302
+planet_longitude_and_daily_speed:
+  sun:
+  - 9.000000000144873
+  - 0.9749593878240594
+  moon:
+  - 89.56798443534556
+  - 14.002758131996348
+  mars:
+  - 346.28486272675957
+  - 0.7712610688428025
+  mercury:
+  - 348.3565425766737
+  - 1.6465463457915748
+  jupiter:
+  - 83.68653464692513
+  - 0.12306899725243448
+  venus:
+  - 34.80695948535381
+  - 1.2167205967325936
+  saturn:
+  - 344.04261129683925
+  - 0.11721919067458995
+muntha_sign_index: 1
+candidates:
+- moon
+- sun
+- venus
+- mars
+- jupiter
+varsheshwara: venus
+selected_contact:
+- moon
+- venus
+aspect:
+  angle: 60
+  error: 5.238975050008236
+  orb: 9.5
+  state: applying
+  days: 0.4097418794180135
+year_section:
+  tone: Supportive
+  basis: Selected annual application without a supplied obstruction.
+  user_text:
+    en: Two plans may be moving toward a useful meeting point.
+    kn: ಎರಡು ಯೋಜನೆಗಳು ಒಂದಾಗಬಹುದು.
+    hi: दो योजनाओं में तालमेल बन सकता है।
+native_review:
+  kn: pending
+  hi: pending

@@ -54,6 +54,13 @@ used_by:
 - kp.significators.four-step
 - kp.significators.job-change
 - kp.significators.ranked-levels
+- vedic.annual-chart.durapha
+- vedic.annual-chart.gairi-kamboola
+- vedic.annual-chart.ithasala
+- vedic.annual-chart.kamboola
+- vedic.annual-chart.khallasara
+- vedic.annual-chart.kuttha
+- vedic.annual-chart.manau
 - vedic.aspects.jupiter-aspects-moon
 - vedic.aspects.jupiter-aspects-seventh-lord
 - vedic.aspects.jupiter-aspects-tenth-lord

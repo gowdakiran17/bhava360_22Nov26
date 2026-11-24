@@ -85,6 +85,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.scorpio
+- vedic.star-readings.lagna-quarter-scorpio
+- vedic.star-readings.moon-quarter-scorpio
 - vedic.strength-bhava-bala.bhava-dig
 - vedic.vargas.d30-placement
 - western.angles.mc-scorpio

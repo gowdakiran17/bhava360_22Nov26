@@ -5277,6 +5277,8 @@ facts:
     origin: Normalized accepted question category before chart analysis.
     unknown_if: Required input, mode or validation of the bound question is missing.
     values:
+    - exam
+    - return-person
     - job
     - marriage
     - health
@@ -8197,3 +8199,320 @@ facts:
     producer: palmistry.guided
     origin: Separate palm consent and manual confirmation for this feature and hand.
     unknown_if: Consent, hand or confirmed illustrated choice is missing.
+  annual.lahiri_frame:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Both Suns use the same Lahiri sidereal frame.
+    dependencies:
+    - Both Suns use the same Lahiri sidereal frame.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.all_angular_or_succedent:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: All seven classical planets occupy angular or succedent houses.
+    dependencies:
+    - All seven classical planets occupy angular or succedent houses.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.witness_invalid:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Earlier obstruction, lost dignity or failure of the defining condition invalidates this bound witness before
+      perfection.
+    dependencies:
+    - Earlier obstruction, lost dignity or failure of the defining condition invalidates this bound witness before perfection.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.all_cadent:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: All seven occupy cadent houses.
+    dependencies:
+    - All seven occupy cadent houses.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.applying:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: A significator closes on a permitted aspect within the mean orb.
+    dependencies:
+    - A significator closes on a permitted aspect within the mean orb.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.separating:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: The in-orb contact has passed perfection and the gap is opening.
+    dependencies:
+    - The in-orb contact has passed perfection and the gap is opening.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.fast_transfer:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: A faster intermediary transfers light between otherwise disconnected principals.
+    dependencies:
+    - A faster intermediary transfers light between otherwise disconnected principals.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.slow_collection:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Both disconnected principals apply to the same slower collector.
+    dependencies:
+    - Both disconnected principals apply to the same slower collector.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.malefic_interception:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Mars or Saturn afflicts the faster significator before its applying contact perfects.
+    dependencies:
+    - Mars or Saturn afflicts the faster significator before its applying contact perfects.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.lunar_application:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Moon joins an application of the two significators by applying to either.
+    dependencies:
+    - Moon joins an application of the two significators by applying to either.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.lunar_ingress_help:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: A Moon late in its sign enters the next sign and joins a competent significator in application.
+    dependencies:
+    - A Moon late in its sign enters the next sign and joins a competent significator in application.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.lunar_disconnection:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: Significators apply but Moon neither connects with them nor conveys light.
+    dependencies:
+    - Significators apply but Moon neither connects with them nor conveys light.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.impaired_receiver:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: An application is frustrated by a debilitated, combust or retrograding recipient.
+    dependencies:
+    - An application is frustrated by a debilitated, combust or retrograding recipient.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.strong_receiver:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: A capable slower recipient receives an application from a less dignified but unimpaired faster body.
+    dependencies:
+    - A capable slower recipient receives an application from a less dignified but unimpaired faster body.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.third_party_support:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: An otherwise impaired pair receives material assistance through a dignified third planet.
+    dependencies:
+    - An otherwise impaired pair receives material assistance through a dignified third planet.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.ingress_application:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: A late-degree faster planet enters the following sign and then applies to a dignified receiver.
+    dependencies:
+    - A late-degree faster planet enters the following sign and then applies to a dignified receiver.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.capable_significator:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: The bound significator is dignified and free of combustion, retrogression and hostile affliction.
+    dependencies:
+    - The bound significator is dignified and free of combustion, retrogression and hostile affliction.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  annual.yoga.impaired_significator:
+    type: boolean
+    producer: vedic.annual-chart
+    origin: The bound significator lacks dignity and is impeded by affliction or combustion.
+    dependencies:
+    - The bound significator lacks dignity and is impeded by affliction or combustion.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  d1.lagna.nakshatra:
+    type: enum
+    producer: vedic.d1
+    origin: Stable Lahiri ascendant star across the birth interval; withhold when Lagna is withheld.
+    dependencies:
+    - Stable Lahiri ascendant star across the birth interval; withhold when Lagna is withheld.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - ashwini
+    - bharani
+    - krittika
+    - rohini
+    - mrigashira
+    - ardra
+    - punarvasu
+    - pushya
+    - ashlesha
+    - magha
+    - purva-phalguni
+    - uttara-phalguni
+    - hasta
+    - chitra
+    - swati
+    - vishakha
+    - anuradha
+    - jyeshtha
+    - mula
+    - purva-ashadha
+    - uttara-ashadha
+    - shravana
+    - dhanishta
+    - shatabhisha
+    - purva-bhadrapada
+    - uttara-bhadrapada
+    - revati
+  d1.moon.pada_navamsha:
+    type: enum
+    producer: vedic.d1
+    origin: Look up the stable star and quarter in its existing nakshatra.padas row. Withhold an unstable quarter.
+    dependencies:
+    - Look up the stable star and quarter in its existing nakshatra.padas row. Withhold an unstable quarter.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  d1.lagna.pada_navamsha:
+    type: enum
+    producer: vedic.d1
+    origin: Look up the stable star and quarter in its existing nakshatra.padas row. Withhold an unstable quarter.
+    dependencies:
+    - Look up the stable star and quarter in its existing nakshatra.padas row. Withhold an unstable quarter.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  d1.bound_star.lord:
+    type: enum
+    producer: vedic.d1
+    origin: Bind a stable Moon, Lagna or period-lord star to the registered Vimshottari ruler.
+    dependencies:
+    - Bind a stable Moon, Lagna or period-lord star to the registered Vimshottari ruler.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - ketu
+    - venus
+    - sun
+    - moon
+    - mars
+    - rahu
+    - jupiter
+    - saturn
+    - mercury
+  d1.avastha.jagradadi:
+    type: enum
+    producer: vedic.d1
+    origin: Bound graha, stable natal inputs and selected jagradadi table; evaluate one state per bound witness.
+    dependencies:
+    - Bound graha, stable natal inputs and selected jagradadi table; evaluate one state per bound witness.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - jagrat
+    - swapna
+    - sushupti
+  d1.avastha.deeptadi:
+    type: enum
+    producer: vedic.d1
+    origin: Bound graha, stable natal inputs and selected deeptadi table; evaluate one state per bound witness.
+    dependencies:
+    - Bound graha, stable natal inputs and selected deeptadi table; evaluate one state per bound witness.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - deepta
+    - swastha
+    - pramudita
+    - shanta
+    - dina
+    - vikala
+    - duhkita
+    - khala
+    - kopa
+  d1.avastha.lajjitadi:
+    type: enum
+    producer: vedic.d1
+    origin: Bound graha, stable natal inputs and selected lajjitadi table; evaluate one state per bound witness.
+    dependencies:
+    - Bound graha, stable natal inputs and selected lajjitadi table; evaluate one state per bound witness.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - lajjita
+    - garvita
+    - kshudhita
+    - trishita
+    - mudita
+    - kshobhita
+  d1.avastha.shayanadi:
+    type: enum
+    producer: vedic.d1
+    origin: Bound graha, stable natal inputs and selected shayanadi table; evaluate one state per bound witness.
+    dependencies:
+    - Bound graha, stable natal inputs and selected shayanadi table; evaluate one state per bound witness.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - shayana
+    - upaveshana
+    - netrapani
+    - prakashana
+    - gamana
+    - agamana
+    - sabha
+    - agama
+    - bhojana
+    - nrityalipsa
+    - kautuka
+    - nidra
+  strength.vimshopaka.band:
+    type: enum
+    producer: vedic.strength
+    origin: Stable complete selected varga set and compound relationship to its sign ruler in every division.
+    dependencies:
+    - Stable complete selected varga set and compound relationship to its sign ruler in every division.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - well supported
+    - steady
+    - modest
+  varga.d2.solar_hora_fit:
+    type: boolean
+    producer: vedic.vargas
+    origin: For the selected planet only, test membership in sun mars jupiter and placement in the solar hora. Mercury
+      is comfortable in either. Withhold unstable D2; counts do not vote.
+    dependencies:
+    - For the selected planet only, test membership in sun mars jupiter and placement in the solar hora. Mercury is
+      comfortable in either. Withhold unstable D2; counts do not vote.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  varga.d2.lunar_hora_fit:
+    type: boolean
+    producer: vedic.vargas
+    origin: For the selected planet only, test membership in moon venus saturn and placement in the lunar hora. Mercury
+      is comfortable in either. Withhold unstable D2; counts do not vote.
+    dependencies:
+    - For the selected planet only, test membership in moon venus saturn and placement in the lunar hora. Mercury is
+      comfortable in either. Withhold unstable D2; counts do not vote.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+  prashna.strength_context:
+    type: array
+    producer: prashna
+    origin: Question Lagna lord in D1 and stable D9, and Moon condition from vedic/prashna/judgment.yaml.
+    dependencies:
+    - Question Lagna lord in D1 and stable D9, and Moon condition from vedic/prashna/judgment.yaml.
+    unknown_if: A required position, stability gate or selected method is unavailable.

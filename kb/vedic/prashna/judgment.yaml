@@ -17,31 +17,11 @@ sources:
   other_locator: 29.1; 29.2.3 Ithasala and preceding Tajaka aspect-orb discussion
   supports: Applying contacts, overlapping planetary orbs and application to Prashna.
   verification: verified
-orb_degrees:
-  sun: 15
-  moon: 12
-  mars: 8
-  mercury: 7
-  jupiter: 9
-  venus: 7
-  saturn: 9
-sign_steps:
-  0: context
-  2: support
-  3: friction
-  4: support
-  6: friction
-  8: support
-  9: friction
-  10: support
-contact: 'For each distinct pair of classical grahas, use d = (target sign − source sign) mod 12. Require a listed
-  d. Compare within-sign degrees: signed error = target degree − source degree. Require abs(error) <= the smaller
-  planetary orb. Applying means error × (target speed − source speed) < 0; equality at zero error is exact. Signed
-  speeds are instantaneous geocentric degrees/day. Conjunction needs additional interpretation and remains context
-  in this profile.'
+contact: Use the shared mean orb and signed angular residual; separating contacts are background. Conjunction stays
+  context in the standalone question method.
 actors: Test question Lagna lord to primary topic lord and Moon to primary topic lord. Deduplicate unordered pairs;
-  omit self-pairs. Context houses explain scope and do not cast independent votes. For lost-item recovery also
-  test the fourth lord occupying the ascendant (Prasna Tantra III.76).
+  omit self-pairs. Context houses explain scope and do not cast independent votes. For lost-item recovery also test
+  the fourth lord occupying the ascendant (Prasna Tantra III.76).
 leaning:
   support_only: leans-toward
   friction_only: leans-against
@@ -49,14 +29,9 @@ leaning:
   neither: unclear
 unknown: Missing primary, Moon, position or motion inputs leaves insufficient evidence. A separating contact alone
   cannot produce a negative verdict.
-timing: Only a one-direction, public, standard reading may carry a review window. Require a future ephemeris-solved
-  exact contact for a contributing applying pair at its stated aspect, before either graha changes sign or stations,
-  within the requested horizon. Choose the earliest verified contact. Show the local civil day containing that
-  instant as a time to revisit the question. Chart contact dates do not establish event dates. No root means no
-  timing hint.
-traditions_differ: This restricted Tajika comparison uses current motion, sign aspects and the smaller orb. Schools
-  also assess reception, obstruction, transferred light and symbolic time units; this profile does not assign
-  those uncomputed testimonies.
+timing: Verify the earliest forward perfection before a station or intervening prohibition, within the query horizon.
+  A sign ingress alone does not end the contact. Report its local civil date as a review date.
+traditions_differ: Use observed motion here. Symbolic sign-modality time units are a separate tradition.
 reason_copy:
   querent-support:
     en: Your plans and the matter you asked about may be coming together.
@@ -78,4 +53,26 @@ reason_copy:
     en: The reading suggests that another search may be worthwhile.
     kn: ಇನ್ನೊಮ್ಮೆ ಹುಡುಕುವುದು ಉಪಯುಕ್ತವಾಗಬಹುದು ಎಂಬ ಸೂಚನೆ ಇದೆ.
     hi: इस संकेत के आधार पर एक बार फिर तलाश करना उपयोगी हो सकता है।
-reason_binding: For a qualifying pair use querent-support or querent-friction when the source is the ascendant lord, otherwise moon-support or moon-friction. The fourth lord in the ascendant supplies recovery-context only on the lost-item route. Emit each reason once.
+  reception:
+    en: Each side may have something useful to offer the other.
+    kn: ಎರಡೂ ಕಡೆ ಪರಸ್ಪರ ನೆರವಾಗಬಹುದು.
+    hi: दोनों पक्ष एक दूसरे की मदद कर सकते हैं।
+  nakta:
+    en: An intermediary may help bring the plans together.
+    kn: ಮಧ್ಯವರ್ತಿಯ ನೆರವು ಯೋಜನೆಗಳನ್ನು ಒಗ್ಗೂಡಿಸಬಹುದು.
+    hi: मध्यस्थ योजनाओं में तालमेल बनाने में मदद कर सकता है।
+  yamaya:
+    en: A shared contact may help coordinate the next step.
+    kn: ಸಾಮಾನ್ಯ ಸಂಪರ್ಕವು ಮುಂದಿನ ಹೆಜ್ಜೆಗೆ ನೆರವಾಗಬಹುದು.
+    hi: साझा संपर्क अगले कदम में मदद कर सकता है।
+reason_binding: For a qualifying pair use querent-support or querent-friction when the source is the ascendant lord,
+  otherwise moon-support or moon-friction. The fourth lord in the ascendant supplies recovery-context only on the
+  lost-item route. Emit each reason once.
+aspect_core: vedic/tajika/aspects.yaml
+strength: Grade Lagna lord in D1 and stable Navamsha separately; note own/exalted, neutral or impaired, combustion
+  and applying Moon contact. Reception or a proven transfer qualifies the outcome; never manufacture a review date.
+reuse: Nakta, Yamaya and mutual reception are bound once using vedic/tajika/aspects.yaml. Incomplete history or an
+  interrupted transfer withholds that testimony.
+strength_context: Read the question Lagna, its ruler in D1, their stable navamsha, and Moon dignity and phase as capacity
+  context. An unstable navamsha is withheld. Mutual reception qualifies an existing leaning. A verified, uninterrupted
+  translation or collection may contribute support. Neither witness supplies a date on its own.

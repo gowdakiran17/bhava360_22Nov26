@@ -25,11 +25,12 @@ predicates:
       fact: kp.judgement.node_agent
       op: eq
       value: true
-    effect: Add represented sign ruler houses with node priority; nodes own no signs.
+    effect: Represent sign lord, star lord and conjoined planets once each. Aspecting planets are a separately labelled
+      optional variant.
 timing:
 - Only promised or mixed admits timing. Keep mixed reasons attached.
-- Each active Dasha, Bhukti and Antara lord must signify a supporting house and belong to the ruling planets at actual
-  judgement.
+- All three period actors must signify support. Rank qualifying chains by count of distinct actors among the ruling
+  planets; one corroborating actor passes this timing filter.
 - Intersect period intervals, search horizon and confirmed Sun, Moon or Jupiter passage through the KP sub interval
   of the event cusp or a qualifying lord. Use inclusive entry and exclusive exit. Discard empty intersections.
 withhold: On actual cusp failure or KB-48 withholding, suppress every cusp-derived result. Independent planetary stars/subs
