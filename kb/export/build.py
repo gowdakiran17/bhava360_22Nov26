@@ -194,10 +194,15 @@ def check_lal_kitab_gate(docs):
     enabled = docs['shared/conventions/profiles.yaml']['calculation_profiles']['modern-study-v1']['enabled']
     if not enabled:
         return
+    for path, item in docs.items():
+        if path.startswith('lal-kitab/'):
+            reviews = item.get('native_review') or {}
+            if item.get('native_review_needed') is not False or any(reviews.get(k)!='approved' for k in ('kn','hi')):
+                raise ValueError('Lal Kitab requires native review sign-off: '+path)
     table = docs['lal-kitab/varshphal/annual.yaml']
     rows = table['edition_rows']
     edition = table['edition']
-    if not edition or table['verification'] != 'verified' or set(rows) != set(range(1,121)):
+    if edition != docs['lal-kitab/placements/evidence.yaml']['edition'] or not edition or table['verification'] != 'verified' or set(rows) != set(range(1,121)):
         raise ValueError('Lal Kitab requires a verified annual edition and all age rows')
     for row in rows.values():
         if (row.get('edition') != edition or not row.get('locator') or row.get('verification') != 'verified'

@@ -4,7 +4,8 @@ topic: fixed-houses
 title: House Reference
 doctrine_profile: lal-kitab-editorial-v1
 approval: draft
-rule: In the fixed-house Lal Kitab frame, slot one carries Aries and each following slot the next zodiac sign through Pisces in slot twelve. Preserve natal house occupancy; do not move planets to houses according to their natal sign.
+rule: In the fixed-house Lal Kitab frame, slot one carries Aries and each following slot the next zodiac sign through
+  Pisces in slot twelve. Preserve natal house occupancy; do not move planets to houses according to their natal sign.
 conditions:
   all:
   - fact: lal-kitab.fixed_house_confirmed
@@ -16,19 +17,29 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Lal Kitab (Pt. Roop Chand Joshi)
+- book: Lal Kitab
   work_id: lal-kitab
-  edition: null
-  chapter: fixed-house framework (locator to verify)
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Opening remarks (Aries always pakka house 1); Farman 5 end (house number means kundli house, not sign; house
+    1 = Lagna); Farman 8 opening (erase sign numbers, keep planets, renumber the Lagna house as 1 for good)
   verse: null
-  other_locator: null
-  supports: Confirm the 1952 edition states the fixed-house, Aries = house 1 convention.
-  verification: pending
-  tag: MODERN/POPULAR
-  translator_edition: 1952 edition (one edition only)
-  to_verify: true
+  other_locator: Hindi PDF 30; 45; 77 (printed 9; 24; 56)
+  pdf_page: 30; 45; 77
+  printed_page: 9; 24; 56
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 87; 106; 110
+  pdf_page: 87; 106; 110
+  locator_note: heading (Chapter 2 house order; Chapter 3 chart; Chapter 4 opening)
+  supports: Secondary comparison of the 1952 work.
+  verification: verified_locator
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
   en: You can explore the planet through its recorded house.
   kn: ದಾಖಲಾದ ಭಾವದ ಮೂಲಕ ಗ್ರಹವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -45,3 +56,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
+native_review_needed: true

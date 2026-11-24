@@ -4,8 +4,8 @@ scenario: Scenario L1
 planet: saturn
 fixed_house: 3
 'off': []
-on_with_pending_edition: blocked
-on_with_verified_edition_and_placements:
+on_with_locators_and_pending_native_review: blocked
+on_with_native_signoff_verified_rows_and_placements:
 - lal-kitab.placements.saturn-house-3
 accepted: Listen without interrupting.
 rejected:

@@ -222,6 +222,7 @@
 21t09
 21t17
 21t22
+225a
 228727825df18ca63a2e6afb1b9614a69825c25ab560bfd1e765ccd7d94e2b58
 22nov26
 22t00
@@ -1054,6 +1055,7 @@ apparent
 appearance
 appears
 append
+appendix
 applicability
 applicable
 application
@@ -1343,6 +1345,7 @@ band
 bandhu
 bands
 banned
+banner
 bans
 bare
 baryctr
@@ -1409,6 +1412,7 @@ benefit
 benefits
 bengaluru
 benham
+beni
 bereavement
 berger
 bergerpaints
@@ -1573,8 +1577,10 @@ britannia
 broad
 broader
 broken
+brothers
 bud
 budget
+budh
 budha
 budhaditya
 budhaya
@@ -2657,6 +2663,7 @@ directly
 directory
 directs
 disabled
+disagree
 disagreement
 disagreements
 disagrees
@@ -2747,6 +2754,7 @@ documented
 documents
 does
 dog
+dogs
 doing
 domain
 domains
@@ -2869,6 +2877,7 @@ earliest
 early
 earn
 earned
+earnings
 earth
 ease
 easier
@@ -3049,6 +3058,8 @@ equivalence
 equivalent
 equivalents
 er
+era
+erase
 errand
 error
 es
@@ -3246,6 +3257,7 @@ familiar
 familiarity
 families
 family
+farman
 farther
 fascination
 fast
@@ -3418,6 +3430,7 @@ fortnight
 fortun
 fortunate
 fortune
+forty
 forward
 found
 foundation
@@ -3596,6 +3609,7 @@ gondhalekar
 good
 goodness
 google
+goswami
 got
 gov
 govern
@@ -3715,6 +3729,7 @@ havishhaa
 hcltech
 he
 head
+header
 headers
 heading
 headless
@@ -4095,6 +4110,7 @@ into
 intra
 introduce
 introduced
+introduces
 introduction
 introductory
 intuition
@@ -4282,6 +4298,7 @@ kanaka
 kanan
 kanda
 kannada
+kant
 kantaka
 kanti
 kanya
@@ -4356,6 +4373,7 @@ khyati
 ki
 kiirtih
 kimstughna
+kin
 kind
 kindness
 kinds
@@ -4377,6 +4395,7 @@ knots
 know
 knowledge
 known
+knows
 knrao
 ko
 koch
@@ -4412,9 +4431,11 @@ kubera
 kuja
 kulaghna
 kulanasha
+kumar
 kumara
 kumbha
 kunda
+kundli
 kundlinaksha
 kuntay
 kush
@@ -4507,6 +4528,9 @@ launch
 law
 laws
 lawyer
+laxmi
+layer
+layers
 layout
 layouts
 lb
@@ -4627,6 +4651,7 @@ localization
 localized
 locally
 locate
+located
 location
 locator
 locators
@@ -4791,6 +4816,7 @@ mandala
 mandatory
 mandi
 mandira
+mangal
 mangala
 mangalaya
 mangalika
@@ -4884,6 +4910,7 @@ measures
 medha
 medhaa
 medical
+medicine
 medieval
 meditation
 medium
@@ -4904,6 +4931,7 @@ mentoring
 mentors
 mentorship
 mercury
+mercy
 merely
 merge
 meridian
@@ -5119,6 +5147,7 @@ nadi
 nadiarray
 nadis
 naga
+nagpal
 naisargika
 nakshathra
 nakshatra
@@ -5214,6 +5243,8 @@ neighboring
 neighbouring
 neighbours
 neither
+nephew
+nephews
 neptune
 ness
 nested
@@ -5625,6 +5656,7 @@ passes
 passing
 past
 pataki
+patala
 patch
 paternal
 path
@@ -5641,6 +5673,7 @@ pausha
 pausing
 pavan
 pavana
+pay
 paying
 payload
 payment
@@ -5928,6 +5961,7 @@ previously
 price
 pricing
 priestess
+primarily
 primary
 primitives
 prince
@@ -5973,6 +6007,7 @@ professional
 profile
 profiles
 profits
+progeny
 prograde
 programming
 progress
@@ -6256,6 +6291,7 @@ reads
 ready
 real
 realistic
+realm
 reapply
 rear
 reason
@@ -6305,6 +6341,7 @@ recompute
 recomputed
 reconcile
 reconciled
+reconciliation
 reconnect
 reconsider
 reconstruct
@@ -6321,6 +6358,7 @@ recurrence
 recurring
 recursion
 recursive
+red
 redefining
 redirect
 redirects
@@ -6410,6 +6448,7 @@ remainders
 remained
 remaining
 remains
+remarks
 remedies
 remedy
 remember
@@ -6430,6 +6469,7 @@ renovat
 renown
 rental
 rented
+renumber
 reopen
 repair
 repairing
@@ -6946,6 +6986,7 @@ shakuni
 shambhu
 shanaishcharaya
 shani
+shanichar
 shankha
 shanta
 shanti
@@ -7057,6 +7098,7 @@ signified
 signifies
 signify
 signing
+signoff
 signs
 silently
 silhouettes
@@ -7160,6 +7202,7 @@ son
 sonata
 sonatawatches
 song
+sons
 sookshma
 soola
 sort
@@ -7196,6 +7239,7 @@ special
 specific
 specifically
 specification
+specificity
 specified
 specifies
 specs
@@ -7433,6 +7477,7 @@ suppress
 suppressed
 suppresses
 sur
+suraj
 sure
 surface
 surname
@@ -7979,6 +8024,7 @@ unrecorded
 unreduced
 unreferenced
 unrelated
+unreliable
 unrelieved
 unresearched
 unresolved
@@ -8002,6 +8048,7 @@ unsure
 untangle
 untested
 until
+untranscribed
 untranslated
 untraversed
 unverified
@@ -8117,6 +8164,7 @@ varuna
 vary
 vasant
 vasanta
+vashisth
 vashya
 vasiyaarray
 vast
@@ -8185,6 +8233,7 @@ vimsopaka
 vinay
 vinaya
 vine
+vineet
 vinod
 vinoda
 vipareeta
@@ -8856,6 +8905,7 @@ zones
 कुंडली
 कुंभ
 कुछ
+कुत्ता
 कुल्थी
 कुश
 कृपया
@@ -8886,6 +8936,7 @@ zones
 क्षेत्रीय
 ख
 खड़ी
+खड़े
 खतर
 खतरा
 खरी
@@ -8980,6 +9031,7 @@ zones
 चल
 चलती
 चलना
+चलने
 चाँदनी
 चांडाल
 चाण्डाल
@@ -8995,6 +9047,7 @@ zones
 चाहिए
 चाहें
 चाहेंगे
+चाहेगा
 चिंगारी
 चिंतन
 चिंता
@@ -9017,6 +9070,7 @@ zones
 चुने
 चुनें
 चुनौती
+चुपचाप
 चेतना
 चेतनामय
 चैतन्य
@@ -9085,6 +9139,7 @@ zones
 जाते
 जानकारी
 जानना
+जानने
 जाना
 जानी
 जाने
@@ -9141,6 +9196,7 @@ zones
 टकराती
 टकराते
 टकराव
+टहलते
 टाल
 टिकता
 टिका
@@ -9171,6 +9227,7 @@ zones
 तक
 तकनीक
 तनाव
+तब
 तबाही
 तय
 तरह
@@ -9246,6 +9303,7 @@ zones
 दिव्य
 दिशा
 दिशाओं
+दी
 दीप
 दीपक
 दीप्तिमान
@@ -9323,6 +9381,7 @@ zones
 नक्षत्र
 नज़र
 नज़रिया
+नज़रिये
 नज़रियों
 नतीजा
 नतीजे
@@ -9489,6 +9548,7 @@ zones
 पेचीदा
 पेशकश
 पैटर्न
+पैरों
 पैसा
 पैसे
 पैसों
@@ -9636,6 +9696,7 @@ zones
 बिठाने
 बिता
 बिताए
+बिताते
 बिताना
 बिताने
 बिना
@@ -9643,6 +9704,7 @@ zones
 बिस्तर
 बीच
 बीत
+बीतता
 बीमारी
 बुज़ुर्गों
 बुध
@@ -9668,6 +9730,7 @@ zones
 भक्ति
 भटकाने
 भटकाव
+भतीजे
 भय
 भर
 भरने
@@ -9782,6 +9845,8 @@ zones
 मेल
 मेष
 मेहनत
+मेहनताना
+मेहनताने
 मेहमान
 मैत्री
 मोती
@@ -9834,9 +9899,11 @@ zones
 रचनात्मकता
 रणनीति
 रत्न
+रफ़्तार
 रवि
 रविवार
 रह
+रहकर
 रहती
 रहते
 रहने
@@ -9861,6 +9928,7 @@ zones
 रिश्ता
 रिश्ते
 रिश्तेदार
+रिश्तेदारों
 रुख
 रुचि
 रुचियाँ
@@ -10224,6 +10292,7 @@ zones
 सुकून
 सुगंध
 सुगंधित
+सुझा
 सुझाए
 सुझाव
 सुधार
@@ -10464,6 +10533,7 @@ zones
 ಅಪಾಯವಿದ್ದರೆ
 ಅಪೂರ್ಣ
 ಅಭಿಪ್ರಾಯ
+ಅಭಿಪ್ರಾಯಕ್ಕೂ
 ಅಭಿಪ್ರಾಯಕ್ಕೆ
 ಅಭಿಪ್ರಾಯವನ್ನು
 ಅಭಿರುಚಿ
@@ -10738,6 +10808,7 @@ zones
 ಇಲ್ಲ
 ಇಲ್ಲಿ
 ಇಷ್ಟ
+ಇಷ್ಟಪಡುತ್ತದೆ
 ಇಷ್ಟಪಡುತ್ತಾರೆ
 ಇಷ್ಟಪಡುತ್ತೀರಿ
 ಇಷ್ಟಪಡುವ
@@ -10892,6 +10963,8 @@ zones
 ಒಡನಾಟ
 ಒಡನಾಟದ
 ಒಡಹುಟ್ಟಿದವರ
+ಒಡಹುಟ್ಟಿದವರಿಗೆ
+ಒಡಹುಟ್ಟಿದವರು
 ಒಡಹುಟ್ಟಿದವರೊಂದಿಗೆ
 ಒಡೆದು
 ಒಡೆಯ
@@ -10991,6 +11064,7 @@ zones
 ಕಳೆದರೆ
 ಕಳೆದಿರಬಹುದು
 ಕಳೆಯಬಹುದು
+ಕಳೆಯುವಾಗ
 ಕವಲಾಗಿ
 ಕವಿ
 ಕಷ್ಟದ
@@ -11412,6 +11486,7 @@ zones
 ಢ
 ಣ
 ತ
+ತಂಗುವಾಗ
 ತಂಡ
 ತಂಡಕ್ಕೆ
 ತಂಡದ
@@ -11464,6 +11539,7 @@ zones
 ತಿಥಿಯ
 ತಿದ್ದಬಹುದು
 ತಿದ್ದಿದರೆ
+ತಿಳಿದವರಿಂದ
 ತಿಳಿದಿದ್ದರೆ
 ತಿಳಿದಿರುವುದನ್ನು
 ತಿಳಿದಿಲ್ಲ
@@ -11545,6 +11621,7 @@ zones
 ದಿನಚರಿಯಿಂದ
 ದಿನಚರಿಯೊಂದನ್ನು
 ದಿನದ
+ದಿನದಲ್ಲಿ
 ದಿನನಿತ್ಯದ
 ದಿನನಿತ್ಯದಲ್ಲಿ
 ದಿನವಿಡೀ
@@ -11618,6 +11695,7 @@ zones
 ನಗರಗಳ
 ನಗರದ
 ನಗರದಲ್ಲಿ
+ನಡಿಗೆಯ
 ನಡುವಿನ
 ನಡುವೆ
 ನಡುವೆಯೇ
@@ -11625,6 +11703,7 @@ zones
 ನಡೆನುಡಿಯಲ್ಲಿ
 ನಡೆಯುತ್ತಿದೆ
 ನಡೆಯುತ್ತಿರುವ
+ನಡೆಯುವಾಗ
 ನದಿ
 ನಮಃ
 ನಲ್ಲಿ
@@ -11633,10 +11712,12 @@ zones
 ನಷ್ಟ
 ನಾಮಕರಣ
 ನಾಯಕತ್ವ
+ನಾಯಿ
 ನಾಲ್ಕನೇ
 ನಾಲ್ಕು
 ನಾಳೆ
 ನಾಳೆಯೂ
+ನಿಂತಿರುತ್ತೀರಿ
 ನಿಂತು
 ನಿಖರ
 ನಿಖರವಾಗಿ
@@ -11715,6 +11796,7 @@ zones
 ನೀಡಿ
 ನೀಡಿತು
 ನೀಡಿದ
+ನೀಡಿದಾಗ
 ನೀಡುತ್ತದೆ
 ನೀಡುತ್ತೀರಿ
 ನೀಡುವ
@@ -11728,6 +11810,7 @@ zones
 ನೀವೇ
 ನೃತ್ಯದ
 ನೆಚ್ಚಿನ
+ನೆನಪಾಗಬಹುದು
 ನೆನಪಾಗುತ್ತದೆ
 ನೆನಪಾಗುವ
 ನೆನಪಿರುವ
@@ -11771,6 +11854,7 @@ zones
 ನೋಟದಲ್ಲಿ
 ನೋಡಬಹುದು
 ನೋಡಬೇಕು
+ನೋಡಲು
 ನೋಡಿ
 ನೋಡಿಕೊಳ್ಳುತ್ತಾರೆ
 ನೋಡಿಕೊಳ್ಳುತ್ತೀರಿ
@@ -11859,6 +11943,7 @@ zones
 ಪಾತ್ರಗಳ
 ಪಾತ್ರವನ್ನು
 ಪಾತ್ರೆಗಳಿಗೆ
+ಪಾದಗಳಿಗೆ
 ಪಾರದರ್ಶಕತೆ
 ಪಾರ್ವತಿಯ
 ಪಾಲನೆ
@@ -11901,6 +11986,8 @@ zones
 ಪ್ರತಿಕ್ರಿಯಿಸುವ
 ಪ್ರತಿಕ್ರಿಯೆಗೆ
 ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು
+ಪ್ರತಿಫಲ
+ಪ್ರತಿಫಲದ
 ಪ್ರತಿಮೆ
 ಪ್ರತಿಯೊಂದಕ್ಕೂ
 ಪ್ರತಿಯೊಂದು
@@ -11931,7 +12018,9 @@ zones
 ಪ್ರಯಾಣಗಳು
 ಪ್ರಯಾಣದ
 ಪ್ರಯಾಣದಲ್ಲಿ
+ಪ್ರಯಾಣವನ್ನು
 ಪ್ರಯಾಣಿಕರೊಂದಿಗೆ
+ಪ್ರಯಾಣಿಸುವ
 ಪ್ರಯೋಗ
 ಪ್ರಯೋಗಗಳು
 ಪ್ರಯೋಗದ
@@ -11942,6 +12031,7 @@ zones
 ಪ್ರಯೋಗಿಸುವುದು
 ಪ್ರಯೋಜನ
 ಪ್ರವಾಸ
+ಪ್ರವಾಸದಲ್ಲಿ
 ಪ್ರವೇಶ
 ಪ್ರವೇಶದ
 ಪ್ರವೇಶವಿರುವ
@@ -11978,6 +12068,8 @@ zones
 ಬ
 ಬಂದ
 ಬಂದಾಗ
+ಬಂಧುಗಳ
+ಬಂಧುವಿಗೆ
 ಬಕುಲ
 ಬಗೆಹರಿಯಬಹುದು
 ಬಗೆಹರಿಸಬಹುದು
@@ -12144,6 +12236,7 @@ zones
 ಬೇಕು
 ಬೇಕೆಂದು
 ಬೇಕೆನಿಸಬಹುದು
+ಬೇಕೆನಿಸುತ್ತದೆ
 ಬೇಕೇ
 ಬೇಡಿಕೆ
 ಬೇಡಿಕೆಗಳ
@@ -12211,8 +12304,10 @@ zones
 ಮಕ್ಕಳ
 ಮಕ್ಕಳು
 ಮಗು
+ಮಗುವನ್ನು
 ಮಗುವಿಗೆ
 ಮಗುವಿನ
+ಮಗುವಿನೊಂದಿಗೆ
 ಮಣಿಕಟ್ಟಿನ
 ಮತ್ತು
 ಮತ್ತೆ
@@ -12542,6 +12637,7 @@ zones
 ವಸಂತಕಾಲ
 ವಸ್ತುಗಳನ್ನು
 ವಸ್ತುವನ್ನು
+ವಹಿಸಬಹುದಾದ
 ವಹಿಸಬೇಕು
 ವಹಿಸಬೇಕೆಂದು
 ವಹಿಸಲು
@@ -12837,6 +12933,7 @@ zones
 ಸತತ
 ಸತ್ಯ
 ಸದಾ
+ಸದ್ದಿಲ್ಲದೆ
 ಸನ್ನಿವೇಶಗಳಿಗೆ
 ಸನ್ನಿವೇಶದಲ್ಲಿ
 ಸಮತೋಲನ
@@ -13026,6 +13123,7 @@ zones
 ಸೇರುವ
 ಸೇವೆ
 ಸೇವೆಯನ್ನು
+ಸೋದರಳಿಯನ
 ಸೋಮವಾರ
 ಸೌಕರ್ಯ
 ಸೌಕರ್ಯಗಳಿಂದ

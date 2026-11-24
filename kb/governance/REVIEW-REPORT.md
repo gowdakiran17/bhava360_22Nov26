@@ -589,3 +589,9 @@ The health witness changes Asha’s health promise to Moderate and her card to S
 Scenario 2 now leans toward the matter with a Take care tone. The Moon closes three degrees on Saturn at twelve degrees per day. Perfection falls six hours later, on 19 March 2032 in Bengaluru. The annual conjunction retains neutral quality. The two Prashna citation candidates await edition checks, bringing the source audit to 66 pending blocks out of 5,390.
 
 The health probes distinguish shared lordship from an independent sixth-lord challenge. They cover own-sign occupation in the sixth and eighth and the retained own-sign twelfth-house default for Saturn. Regenerating the five named consultation fixtures and their worked readings produced identical files.
+
+## Batch 13 Lal Kitab review
+
+Jyoti’s page map identifies 123 high-confidence Hindi locators and one medium-confidence locator for the year-house method. The secondary English translation has 88 heading locators and 36 approximate page references awaiting confirmation. The 49 disputed items carry the comparison in their own records. Jupiter’s pakka list now includes eleven. The primary chart assigns six to Ketu, with Mercury sharing it in the textual reading.
+
+All 124 items remain draft and require Kannada and Hindi native review. The listening practice is a free, optional editorial prompt. The annual table has zero transcribed rows. Its 120 rows require independent double entry from the Hindi page images and reconciliation of the disputed ages. The fixed-house exaltation and debilitation table remains a documented gap. The disabled module has zero public readings.

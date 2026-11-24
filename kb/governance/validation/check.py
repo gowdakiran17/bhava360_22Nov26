@@ -391,10 +391,12 @@ def main():
         if 'tag' in data:
             require(data['tag'] in ('CLASSICAL','MODERN','MODERN/POPULAR'),rid+' tradition tag')
             expected_fields.add('tag')
+        if data['system']=='lal-kitab':
+            expected_fields.add('native_review_needed')
+            require(type(data['native_review_needed']) is bool and data['feature_gate']=='modern-study-v1',rid+' gated native review')
         if data['system']=='lal-kitab' and data['topic']=='placements':
-            expected_fields.update(('placement_source_status','native_review_needed'))
-            require(data['native_review_needed'] is True and data['feature_gate']=='modern-study-v1',rid+' gated native review')
-            require(data.get('placement_source_status') in ('pending_source','verified'),rid+' placement source')
+            expected_fields.add('placement_source_status')
+            require(data.get('placement_source_status') in ('pending_source','verified_locator','verified'),rid+' placement source')
         if 'feature_gate' in data:
             require(data['feature_gate'] in profile_ids,rid+' unknown feature gate')
             expected_fields.add('feature_gate')

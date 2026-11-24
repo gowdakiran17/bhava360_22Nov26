@@ -150,6 +150,8 @@ def validate(rules,read,require):
             and same_graha_at_anchors(2, [2,None,8]) is None, 'one participant across stable anchors')
     require(candidate_minutes(-2, 3, 2) == [-2,0,2,3] and not candidate_minutes(None,3,1),
             'rectification grid covers both boundaries')
+    from lal_kitab import validate as validate_lal_kitab
+    validate_lal_kitab(read,require)
     annual = read('lal-kitab/varshphal/annual.yaml')
     require(annual['ages'] == list(range(1,121)) and annual_houses(annual,0) is None
             and annual_houses(annual,None) is None, 'annual lookup domain')

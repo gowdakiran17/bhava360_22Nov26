@@ -11,9 +11,9 @@ locator_map_baseline:
 counts_by_verification:
   chapter-only: 305
   editorial: 451
-  editorial-no-classical-claim: 959
-  locator_medium: 485
-  pending: 66
+  editorial-no-classical-claim: 838
+  locator_medium: 486
+  pending: 101
   supplied-in-brief: 2
   verified: 2881
-  verified_locator: 241
+  verified_locator: 452

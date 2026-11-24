@@ -1,5 +1,6 @@
 version: 1
 works:
+  lal-kitab-english: Lal Kitab (Red Book of Astrology)
   ptolemy-tetrabiblos: Tetrabiblos (Ptolemy)
   rao-timing-events: Timing Events through Vimshottari Dasha (K.N. Rao)
   pyjhora-panchanga: PyJHora Panchanga tables and local intervals
@@ -81,6 +82,22 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  lal-kitab-joshi-1952-nagpal-2016:
+    work_id: lal-kitab
+    edition_id: lal-kitab-joshi-1952-nagpal-2016
+    title_as_printed: Lal Kitab
+    language: Hindi (Devanagari)
+    publication_details: Pt. Roop Chand Joshi, 1952. Digital Devanagari version prepared by Vineet Kumar Nagpal, 2016.
+      Cite one-based PDF pages.
+    verified_by: Page locators supplied by Jyoti in the Batch 13 map.
+  lal-kitab-goswami-vashisth-english:
+    work_id: lal-kitab-english
+    edition_id: lal-kitab-goswami-vashisth-english
+    title_as_printed: Lal Kitab (Red Book of Astrology)
+    language: English
+    publication_details: Translation of the 1952 work by Pt. Beni Madhav Goswami and Pt. Laxmi Kant Vashisth. English PDF,
+      778 pages. Secondary page comparison only.
+    verified_by: Page locators supplied by Jyoti in the Batch 13 map.
   pyjhora-panchanga-506: {work_id: pyjhora-panchanga, edition_id: pyjhora-panchanga-506, title_as_printed: PyJHora, language: Python, publication_details: PyPI 5.0.6 wheel, text: [https://pypi.org/project/PyJHora/5.0.6/], verified_by: Inspected const.py offset and weekday tables and drik.py durmuhurtam.}
   pyjhora-yoga-506: {work_id: pyjhora-yoga, edition_id: pyjhora-yoga-506, title_as_printed: PyJHora, language: Python, publication_details: PyPI wheel 5.0.6, text: [https://pypi.org/project/PyJHora/5.0.6/], verified_by: Inspected named yoga functions in jhora/horoscope/chart/yoga.py for the shape and named-formation comparisons.}
   modern-elemental-hands-web:

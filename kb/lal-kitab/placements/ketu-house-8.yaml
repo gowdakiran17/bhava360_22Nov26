@@ -13,29 +13,45 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: ketu
-meaning: When considering responding to change, you may find a chance to simplify a routine.
+meaning: When travel plans change, you can leave time to find your way.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: Planet theme: KB uses simplify a routine; the edition treats Ketu as
+    sons/nephews, travel and movement, dogs and the feet, and offers no simplification theme.'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Ketu chapter, house 8 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 760-765
   verse: null
-  other_locator: lal-kitab.placements.ketu-house-8
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 792-796 (printed 721-725)
+  pdf_page: 792-796
+  printed_page: 721-725
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 627
+  pdf_page: '627'
+  locator_note: approx (running header, +/-1)
+  supports: Secondary comparison of the 1952 work.
+  verification: pending
+  to_verify: true
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering responding to change, you may find a chance to simplify a routine.
-  kn: ಬದಲಾವಣೆಗೆ ಸ್ಪಂದನೆ ಕುರಿತು ದಿನಚರಿ ಸರಳಗೊಳಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: बदलाव पर प्रतिक्रिया पर विचार करते हुए दिनचर्या सरल बनाने का अवसर मिल सकता है।
+  en: When travel plans change, you can leave time to find your way.
+  kn: ಪ್ರಯಾಣದ ಯೋಜನೆ ಬದಲಾದಾಗ ದಾರಿ ಹುಡುಕಲು ಸಮಯ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: सफ़र की योजना बदले तो आप रास्ता समझने के लिए थोड़ा समय ले सकते हैं।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +65,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

@@ -19,19 +19,32 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Shanichar chapter, house 12 section; chapter general pages (verse, overview, per-house good/bad
+    summary where present) 656-664
   verse: null
-  other_locator: lal-kitab.placements.saturn-house-12
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 708-711 (printed 637-640)
+  pdf_page: 708-711
+  printed_page: 637-640
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 586
+  pdf_page: '586'
+  locator_note: approx (running header, +/-1)
+  supports: Secondary comparison of the 1952 work.
+  verification: pending
+  to_verify: true
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
   en: When considering time for rest, you may find a chance to practise patience.
   kn: ವಿಶ್ರಾಂತಿಯ ಸಮಯ ಕುರಿತು ತಾಳ್ಮೆ ಬೆಳೆಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
@@ -49,4 +62,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

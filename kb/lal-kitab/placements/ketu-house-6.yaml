@@ -13,29 +13,47 @@ conditions:
   - fact: lal_kitab.planet.bound
     op: eq
     value: ketu
-meaning: When considering shared duties, you may find a chance to simplify a routine.
+meaning: On a journey, you may notice the quiet help that makes a stop easier.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: modern-study-v1
-  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+  note: The placement section is edition-located. The reflection is an editorial reading.
+- profile: modern-study-v1
+  note: 'Expert comparison with the earlier KB: House 6 theme: KB uses shared duties; the edition frames house 6 as the
+    underground/patala realm of hidden help and mercy, held by Ketu with Mercury, not duty-sharing. Planet theme: KB
+    uses simplify a routine; the edition treats Ketu as sons/nephews, travel and movement, dogs and the feet, and offers
+    no simplification theme.'
 sources:
-- book: Bhava360 fixed-house prompts
-  work_id: bhava360-fixed-house-prompts
-  edition: bhava360-fixed-house-prompts-v1
-  chapter: null
+- book: Lal Kitab
+  work_id: lal-kitab
+  edition: lal-kitab-joshi-1952-nagpal-2016
+  chapter: Farman 15, Ketu chapter, house 6 section; chapter general pages (verse, overview, per-house good/bad summary
+    where present) 760-765
   verse: null
-  other_locator: lal-kitab.placements.ketu-house-6
-  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: editorial-no-classical-claim
+  other_locator: Hindi PDF 780-788 (printed 709-717)
+  pdf_page: 780-788
+  printed_page: 709-717
+  supports: 1952 edition section and subject. Reflective wording is editorial.
+  verification: verified_locator
+- book: Lal Kitab (Red Book of Astrology)
+  work_id: lal-kitab-english
+  edition: lal-kitab-goswami-vashisth-english
+  chapter: Corresponding English section
+  verse: null
+  other_locator: English PDF 624
+  pdf_page: '624'
+  locator_note: approx (contents page + local offset, +/-2)
+  supports: Secondary comparison of the 1952 work.
+  verification: pending
+  to_verify: true
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
-  single direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Edition pages identify the topic. Reflective wording awaits native review.
 user_text:
-  en: When considering shared duties, you may find a chance to simplify a routine.
-  kn: ಹಂಚಿಕೊಂಡ ಕೆಲಸ ಕುರಿತು ದಿನಚರಿ ಸರಳಗೊಳಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
-  hi: साझी ज़िम्मेदारियाँ पर विचार करते हुए दिनचर्या सरल बनाने का अवसर मिल सकता है।
+  en: On a journey, you may notice the quiet help that makes a stop easier.
+  kn: ಪ್ರಯಾಣದ ಮಧ್ಯೆ ತಂಗುವಾಗ ಸದ್ದಿಲ್ಲದೆ ಸಿಗುವ ನೆರವನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: सफ़र में किसी पड़ाव पर आप चुपचाप मिली मदद को पहचान सकते हैं।
 native_review_needed: true
 native_review:
   kn: pending
@@ -49,4 +67,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
-placement_source_status: pending_source
+placement_source_status: verified_locator

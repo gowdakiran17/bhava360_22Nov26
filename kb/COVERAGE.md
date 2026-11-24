@@ -108,3 +108,7 @@ All thirty area promises have explicit fixture expectations. Three health routes
 ## Batch 12 review
 
 All 30 Prashna reference cases pass with the restored applying-conjunction vote. Additional position-only probes cover the inclusive orb, separating motion, exact contact, stationary relative motion, missing speed and interrupted timing. Taurus and Scorpio probes exercise the shared-lord health exceptions. The five named consultation goldens reproduce with 30 unchanged area bands. The KB contains 2,732 rules and 956 fact keys.
+
+## Batch 13 Lal Kitab edition coverage
+
+The 1952 Nagpal Hindi PDF provides primary locators for 108 graha placements, twelve house prompts and four method or reference items. The English translation supplies 124 secondary locators, including 36 approximate pages. Forty-eight entries have revised EN/KN/HI reflections. The corpus contains 2,732 reading rules and 956 fact keys.
