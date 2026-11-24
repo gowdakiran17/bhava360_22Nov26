@@ -609,3 +609,7 @@ Four owner answers move twelve rules from blocked to held. Of the 22 draft rules
 ## Batch 16 Nakshatra Nadi house frame
 
 On 24 Nov 2026 at 7:04 PM IST (Asia/Calcutta), Kiran selected whole-sign houses for the held Nadi module with KP ayanamsa and true nodes. The readiness fact brings the registry to 974 facts across 2,754 rules. Eighteen of the 60 synthetic cases have revised expectations. The owner also confirmed the planet line and the circle and power definitions.
+
+## Nakshatra Nadi class-recording review
+
+The held module has 23 draft rules and 65 synthetic cases. The internal registry now has 981 fact keys across 2,755 rules. Sripati occupancy uses the midpoints between consecutive house centres, with lordship counted by sign from Lagna. The one-degree flag retains uncertainty at a boundary. Hit power describes the two line circles; chart power planets come from natal star tenancy. The period gate precedes interpretation and weighting. A denied event remains denied under a transit. The private class locator is supplied by Jyoti. The new preview copy awaits Kannada and Hindi review.

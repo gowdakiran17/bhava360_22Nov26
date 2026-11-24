@@ -16,7 +16,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: nadi.nn.houses.ready
     op: eq
     value: true

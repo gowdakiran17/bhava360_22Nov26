@@ -25,13 +25,13 @@ rule_index:
   NN-M20: nadi.nakshatra-nadi.node-dignity-and-time-strength
   NN-M21: nadi.nakshatra-nadi.lagna-estimate-shortcut
   NN-M22: nadi.nakshatra-nadi.not-covered
+  NN-M23: nadi.nakshatra-nadi.power-planets
 open_questions:
   node-dignity: Q10. Leave nodal dignity unset. No judgement depends on this reference.
   hit-grid-data: The row and column are known. Private grid contents remain unavailable.
 additional_review:
 - Both-absent case of the 11/12 bifurcation (E p15 scenario 4).
 - H p5 (child birth) repeats the marriage wording for house 8, apparently a copy slip; which reading is intended?
-- 'Retrograde, combustion and transit: confirm they are deliberately ignored.'
 - 'Donations: allowed only as optional, no-cost service, or dropped entirely?'
 blocked_by:
   nadi.nakshatra-nadi.hit-grids:
@@ -41,21 +41,25 @@ blocked_by:
 traditions_differ:
   ayanamsa: The owner selected KP sidereal mode 5 for every chart.
   node: Use the true node throughout, consistent with the locked KP convention.
-  house_system: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026 at
-    7:04 PM IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under whole
-    signs and 16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp method.'
+  house_system: The owner adopted Sripati bhava chalita on 24 Nov 2026 following the live classes. Use chalita for
+    occupancy and the signs counted from Lagna for ownership. Jyoti found 35/35 matches with whole signs, 32/35
+    with chalita and 16/35 with Placidus in file 2, PDF pp. 45–49. Later KP cusp sub-lord work uses its separate
+    Placidus frame.
   outer_planets: Discard outer-body inputs with an internal diagnostic.
   dasha_year: Use Julian years of 365.25 days. Compare the course conversion of 360 days on a separate timeline.
   node_aspects: Nodes cast no aspects. Count same-sign conjunctions and incoming sign-count aspects from the seven
     grahas.
   node_dignity: Leave node dignity unset because the illustrations disagree.
   sun_nature: Treat the Sun as neutral within this method only. This label has no effect on house unions.
-  line_weight: The owner assigns SL 0.50, NL 0.30 and PL 0.20 internally for all events. File 4, PDF p. 26 gives
-    NL, SL, PL priority for losses.
+  line_weight: Only a permitted event reaches the internal tie-break (SL 0.5, NL 0.3, PL 0.2). A self-star lord
+    uses NL 0.6 and PL 0.4. The loss ordering in file 4, PDF p. 26 is an alternative.
 held_topics:
 - health
 - litigation
 - childbirth
+- badhaka (internal obstacle only)
+- prashna
+- birth-time rectification
 exclude:
 - products
 - gemstones
@@ -65,6 +69,13 @@ exclude:
 - percentages and grades
 - certainty or fate
 - death, illness and fear
+- maraka and death or longevity signals, including eighth-cusp longevity
+- missing-person outcomes
+- thief identification
+- gender inference from birth time
+- choice of medical or healing system
+- behavioural hit-power remedies
+- fortunate or lucky planet labels
 practice_label:
   en: Traditional practice
   kn: ಸಾಂಪ್ರದಾಯಿಕ ಆಚರಣೆ
@@ -112,26 +123,36 @@ preview_copy:
     en: You may wish to review your vehicle plans.
     kn: ನೀವು ವಾಹನದ ಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: आप वाहन से जुड़ी योजनाओं पर विचार कर सकते हैं।
-internal_line_weights: {sl: 0.50, nl: 0.30, pl: 0.20}
+  quiet:
+    en: You may leave the timing open for now.
+    kn: ಸದ್ಯಕ್ಕೆ ಸಮಯದ ವಿಚಾರವನ್ನು ತೆರೆದಿಡಬಹುದು.
+    hi: आप फिलहाल समय का प्रश्न खुला रख सकते हैं।
+  challenging:
+    en: You can give your plans more time.
+    kn: ನೀವು ನಿಮ್ಮ ಯೋಜನೆಗಳಿಗೆ ಹೆಚ್ಚಿನ ಸಮಯ ನೀಡಬಹುದು.
+    hi: आप अपनी योजनाओं को थोड़ा और समय दे सकते हैं।
+internal_line_weights:
+  sl: 0.5
+  nl: 0.3
+  pl: 0.2
 node-association: sign
 resolved_questions:
   power-and-circle:
-    answer: Each line circles the occupied whole-sign house of its planet. The distinct NL and SL circles supply
-      the power houses. For a hit, use the SL circle as row and the NL circle as column.
+    answer: Each line circles the occupied chalita house of its planet. The distinct NL and SL circles supply the
+      hit-power houses. For a hit, use the SL circle as row and the NL circle as column.
     locators: 4-english-basic-book.pdf pp. 14, 17, 18, 24–28, 31–47; owner software demonstration, 17 Nov 2026 IST;
       Owner confirmation, 24 Nov 2026 IST, Prashna Deep Secrets, Power Position tab
     confidence: high
     answered: '2026-11-24'
     basis: Jyoti’s review and Kiran’s confirmation in the Power Position tab on 24 Nov 2026 IST.
   house-frame:
-    answer: Use KP ayanamsa mode 5 and the true node. Assign the rising sign to the first house and each successive
-      sign to the next house. Use its sign ruler for lordship. Withhold houses when birth time or Lagna is unavailable
-      or unstable.
+    answer: Use sidereal Asc, IC, Desc and MC as the centres of houses one, four, seven and ten. Trisect their forward
+      arcs. Each house starts at the circular midpoint from the previous centre and excludes the next boundary.
+      Flag a body at most one degree from a boundary. Lordship follows the signs starting at Lagna.
     locators: 2-new-file-56pp.pdf pp. 45–49 (worked examples); 4-english-basic-book.pdf p. 2 (alternative cusp method)
     confidence: high
     answered: '2026-11-24'
-    basis: Owner decision, 24 Nov 2026, 7:04 PM IST (Asia/Calcutta). The 35/35 whole-sign match in the worked charts
-      supersedes the Batch 15 Placidus default.
+    basis: Owner decision of 24 Nov 2026 after Jyoti’s review of the live class method.
   planet-line:
     answer: PL uses the planet’s own combination, NL uses its star lord’s and SL uses its sub lord’s. Nodes use
       their agency combination on PL.
@@ -139,8 +160,8 @@ resolved_questions:
     confidence: high
     answered: '2026-11-24'
     basis: Kiran confirmed the line identities on 24 Nov 2026 IST in the Prashna Deep Secrets Power Position tab.
-      PL means Planet Lord Occupancy, NL Nakshatra Lord occupancy and SL Sub Lord occupancy.
-      The leading house is occupied; brackets identify owned houses or node agency.
+      PL means Planet Lord Occupancy, NL Nakshatra Lord occupancy and SL Sub Lord occupancy. The leading house is
+      occupied; brackets identify owned houses or node agency.
   node-association:
     answer: Include the occupied bhava and the combinations of the dispositor, same-sign grahas and grahas aspecting
       the node by sign. Only the seven grahas can be agents.
@@ -148,3 +169,4 @@ resolved_questions:
     confidence: medium
     answered: '2026-11-24'
     basis: owner answer + Jyoti verification
+transits: Held timing trigger requiring a prior period promise. A denied or unavailable event cannot be triggered.

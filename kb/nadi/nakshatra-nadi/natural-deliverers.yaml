@@ -10,12 +10,13 @@ visibility: admin-only
 status: held
 native_review_needed: true
 rule: During Antar or Pratyantar alone, Venus can add relationship or vehicle context, Mars or Saturn property context,
-  and Saturn, Sun or a node travel context. Jupiter’s children theme stays held.
+  and Saturn, Sun or a node travel context. Jupiter’s children theme stays held. The association supplies context
+  only and cannot grant a denied event.
 conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
+    value: kp-chalita
   - fact: dasha.vimshottari.birth_balance_stable
     op: eq
     value: true
@@ -31,9 +32,9 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: 'Whole-sign houses follow the sidereal Lagna sign. The owner adopted this frame on 24 Nov 2026 at 7:04 PM
-    IST (Asia/Calcutta): the worked charts in file 2, PDF pp. 45–49 match 35/35 combinations under whole signs and
-    16/35 under Placidus. File 4, PDF p. 2 and the owner software illustrate the non-adopted cusp method.'
+  note: The owner adopted Sripati bhava chalita on 24 Nov 2026 following the live classes. Use chalita for occupancy
+    and the signs counted from Lagna for ownership. Jyoti found 35/35 matches with whole signs, 32/35 with chalita
+    and 16/35 with Placidus in file 2, PDF pp. 45–49. Later KP cusp sub-lord work uses its separate Placidus frame.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi

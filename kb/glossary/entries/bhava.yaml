@@ -180,12 +180,14 @@ used_by:
 - nadi.nakshatra-nadi.house-meanings-by-life-area
 - nadi.nakshatra-nadi.keyword-layer
 - nadi.nakshatra-nadi.lagna-estimate-shortcut
+- nadi.nakshatra-nadi.line-weight
 - nadi.nakshatra-nadi.mitigation-inside-a-harmful-set
 - nadi.nakshatra-nadi.natural-deliverers
 - nadi.nakshatra-nadi.neutral-house-bifurcation
 - nadi.nakshatra-nadi.node-combination
 - nadi.nakshatra-nadi.period-roles
 - nadi.nakshatra-nadi.planet-house-combination
+- nadi.nakshatra-nadi.power-planets
 - nadi.nakshatra-nadi.power-position-and-circle
 - nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
 - nadi.nakshatra-nadi.three-line-chain-per-planet

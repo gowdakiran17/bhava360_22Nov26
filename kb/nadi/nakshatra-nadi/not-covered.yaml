@@ -9,14 +9,15 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Ignore outer planets with a diagnostic. Exclude retrograde motion, combustion, transits, divisional charts
-  and ruling planets from this method.
+rule: Natal NN excludes combustion and retrograde status. A transit may trigger only an event already promised by
+  the running period. This trigger stays held. Ruling planets and prashna retrograde rules belong to later NN-Prashna
+  work. Continue to omit outer planets and divisional charts.
 conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-whole-sign
-meaning: Ignore outer planets with a diagnostic.
+    value: kp-chalita
+meaning: A transit cannot grant a denied event.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -43,7 +44,7 @@ sources:
   verification: verified_locator
   to_verify: false
 confidence: high
-review_notes: Internal study only. Keep the review convention explicit.
+review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.
 user_text:
   en: You can leave this detail open for now.
   kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.

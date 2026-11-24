@@ -16,6 +16,19 @@ admin_note: Use this label for a way of spacing the centres of houses between fo
 aliases: []
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.area-polarity-sets
+- nadi.nakshatra-nadi.hit-grids
+- nadi.nakshatra-nadi.house-meanings-by-life-area
+- nadi.nakshatra-nadi.keyword-layer
+- nadi.nakshatra-nadi.lagna-estimate-shortcut
+- nadi.nakshatra-nadi.mitigation-inside-a-harmful-set
+- nadi.nakshatra-nadi.natural-deliverers
+- nadi.nakshatra-nadi.neutral-house-bifurcation
+- nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.planet-house-combination
+- nadi.nakshatra-nadi.power-position-and-circle
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+- nadi.nakshatra-nadi.three-line-chain-per-planet
 - vedic.houses.house-1
 - vedic.houses.house-10
 - vedic.houses.house-11

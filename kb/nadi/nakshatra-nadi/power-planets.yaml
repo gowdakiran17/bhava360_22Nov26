@@ -1,0 +1,54 @@
+id: nadi.nakshatra-nadi.power-planets
+system: nadi
+topic: nakshatra-nadi
+title: Power planets
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: Inspect the star lords of all nine bodies. Select every body that no body uses as a star lord, and every body
+  occupying its own star. Take their union and collect the houses in their combinations.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: eq
+    value: kp-chalita
+  - fact: nadi.nn.houses.ready
+    op: eq
+    value: true
+meaning: The selected bodies and their houses provide private chart context.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: The owner app’s diamond marker only partly agrees with this selection.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi class recordings
+  work_id: dinesh-nadi-classes
+  edition: dinesh-nadi-private-classes
+  chapter: Class 4
+  verse: null
+  other_locator: Private recording, parts 1–2
+  supports: Power planet selection
+  verification: supplied-in-brief
+  to_verify: false
+confidence: medium
+review_notes: Recorded from Jyoti’s class review. Held for internal study.
+user_text:
+  en: You may find that the same theme feels different at work and at home.
+  kn: ಒಂದೇ ವಿಷಯವು ಕೆಲಸದಲ್ಲಿ ಮತ್ತು ಮನೆಯಲ್ಲಿ ಬೇರೆ ರೀತಿ ಅನಿಸಬಹುದು.
+  hi: एक ही विषय काम और घर में अलग तरह से महसूस हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}
