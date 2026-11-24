@@ -844,6 +844,7 @@ admins
 admit
 admits
 admitting
+adopted
 adopts
 adult
 adults
@@ -1683,6 +1684,7 @@ calculates
 calculating
 calculation
 calculations
+calcutta
 calendar
 calendars
 call
@@ -3946,6 +3948,7 @@ iii
 iisha
 ikkabala
 illness
+illustrate
 illustrated
 illustration
 illustrations
@@ -5067,6 +5070,7 @@ mnmbnbn
 mnnbmby
 mo
 mobile
+mock
 mod
 modal
 modality
@@ -7700,6 +7704,7 @@ t7
 t8
 t9
 ta
+tab
 table
 tables
 tabular
@@ -8146,6 +8151,7 @@ uniquely
 uniqueness
 unit
 units
+unittest
 universal
 universally
 unknown

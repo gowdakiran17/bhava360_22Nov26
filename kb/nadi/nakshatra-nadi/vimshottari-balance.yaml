@@ -15,7 +15,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-placidus
+    value: kp-whole-sign
   - fact: dasha.vimshottari.birth_balance_stable
     op: eq
     value: true

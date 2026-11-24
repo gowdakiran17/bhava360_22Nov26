@@ -3,10 +3,11 @@ from collections import Counter
 from bisect import bisect_right
 from datetime import datetime
 from zoneinfo import ZoneInfo
+from unittest.mock import patch
 import re
 
 import swisseph as swe
-from kp import RULERS, occupied
+from kp import RULERS
 from public_copy import check_text
 from vimshottari import active_path, instant
 
@@ -31,7 +32,20 @@ def stable_sub_identity(lon, fields, tolerance):
     return lower[2:] == upper[2:]
 
 
-def chart(fixture, kp_rows, stars, periods, tolerance):
+def stable_lagna_sign(fixture, radius_seconds):
+    """Require the same rising sign at the instant and both precision limits."""
+    jd = fixture['julian_day']
+    radius = radius_seconds / 86400
+    try:
+        signs = {int(swe.houses_ex(at, fixture['latitude'], fixture['longitude'],
+                                   b'W', swe.FLG_SIDEREAL)[1][0] // 30)
+                 for at in (jd - radius, jd, jd + radius)}
+    except swe.Error:
+        return None
+    return signs.pop() if len(signs) == 1 else None
+
+
+def chart(fixture, kp_rows, stars, periods, tolerance, radius_seconds):
     pos = positions(fixture['julian_day'])
     starts = [row['start_arcsec'] for row in kp_rows]
 
@@ -41,7 +55,7 @@ def chart(fixture, kp_rows, stars, periods, tolerance):
                 row['star_lord'].title(), row['sub_lord'].title())
 
     details = {g: fields(lon) for g, lon in pos.items()}
-    result = dict(pos=pos, details=details, periods={}, lines={}, combination={}, power={})
+    result = dict(pos=pos, details=details, periods={}, lines={}, combination={}, power={}, houses_ready=None)
     if fixture['precision'] == 'unknown':
         # Local noon is the centre of this particular synthetic civil date.
         samples = [positions(fixture['julian_day'] - .5 + minute / 1440) for minute in range(1441)]
@@ -49,13 +63,20 @@ def chart(fixture, kp_rows, stars, periods, tolerance):
         return result
     if fixture['precision'] != 'exact':
         return result
-    try:
-        cusps = swe.houses_ex(fixture['julian_day'], fixture['latitude'], fixture['longitude'],
-                              b'P', swe.FLG_SIDEREAL)[0]
-    except swe.Error:
+    for clock in ('julian-365.25', 'savana'):
+        path = active_path(periods, fixture['utc'], pos['Moon']*3600, clock, instant(fixture['reading_at']))
+        result['periods'][clock] = {level: path[level][0].title() for level in LEVELS}
+        if clock == 'julian-365.25':
+            for level in LEVELS:
+                _, start, end = path[level]
+                result[level+'_span_ist'] = [datetime.fromtimestamp(float(t), ZoneInfo('Asia/Kolkata')).date().isoformat()
+                                              for t in (start, end)]
+    lagna = stable_lagna_sign(fixture, radius_seconds)
+    if lagna is None:
         return result
-    signs = [int(x // 30) for x in cusps]
-    occupied_by = {g: occupied([x*3600 for x in cusps], lon*3600) for g, lon in pos.items()}
+    result['houses_ready'] = True
+    signs = [(lagna + offset) % 12 for offset in range(12)]
+    occupied_by = {g: (int(lon // 30) - lagna) % 12 + 1 for g, lon in pos.items()}
     owned = {g: [h for h, sign in enumerate(signs, 1) if RULERS[sign].title() == g] for g in PLANETS}
     combo = {g: sorted({occupied_by[g], *owned[g]}) for g in PLANETS}
     basis = {}
@@ -67,23 +88,16 @@ def chart(fixture, kp_rows, stars, periods, tolerance):
         aspect = [g for g, d in distances.items() if d in ASPECTS.get(g, (7,))]
         basis[node] = dict(dispositor=lord, conjoined=joined, aspected_by=aspect)
         combo[node] = sorted({occupied_by[node]}.union(*(combo[g] for g in [lord, *joined, *aspect])))
-    result.update(cusp_signs=[SIGNS[s] for s in signs], occupied=occupied_by, owned=owned,
+    result.update(house_signs=[SIGNS[s] for s in signs], occupied=occupied_by, owned=owned,
                   combination=combo, node_basis=basis)
     for name, lon in pos.items():
         # Compare identities, since a KP interval can also split at a sign edge.
         if stable_sub_identity(lon, fields, tolerance):
             nl, sl = details[name][2:]
             result['power'][name] = power_facts([name, nl, sl], occupied_by, combo)
-    for clock in ('julian-365.25', 'savana'):
-        path = active_path(periods, fixture['utc'], pos['Moon']*3600, clock, instant(fixture['reading_at']))
-        result['periods'][clock] = {level: path[level][0].title() for level in LEVELS}
-        if clock == 'julian-365.25':
-            for level in LEVELS:
-                g, start, end = path[level]
-                name = g.title()
-                result[level+'_span_ist'] = [datetime.fromtimestamp(float(t), ZoneInfo('Asia/Kolkata')).date().isoformat()
-                                              for t in (start, end)]
-                result['lines'][level] = dict(lord=name, PL=combo[name], NL=combo[details[name][2]], SL=combo[details[name][3]])
+    for level, name in result['periods']['julian-365.25'].items():
+        nl, sl = details[name][2:]
+        result['lines'][level] = dict(lord=name, PL=combo[name], NL=combo[nl], SL=combo[sl])
     return result
 
 
@@ -144,8 +158,8 @@ def validate_nadi(rules, read, require):
     registry = read('shared/conventions/profiles.yaml')['calculation_profiles']
     profile = registry['nakshatra-nadi']
     require((profile['enabled'], profile['approval'], profile['houses'], profile['node'], profile['sidereal_mode'])
-            == (False, 'draft', 'placidus', 'true-node', 5) and 'review_variant' not in profile,
-            'Held KP-only frame')
+            == (False, 'draft', 'whole-sign', 'true-node', 5) and 'review_variant' not in profile,
+            'Held whole-sign Nadi frame')
     tolerance = registry['vedic-lahiri-v1']['tolerances_inclusive']['longitude_deg']
     require(module['internal_line_weights'] == {'sl': 0.5, 'nl': 0.3, 'pl': 0.2}, 'Owner line weights')
     for rid in registered:
@@ -156,6 +170,7 @@ def validate_nadi(rules, read, require):
         require(set(localized)=={'en','kn','hi'}, 'Nadi locales')
         for lang, text in localized.items():
             check_text(text,'held review preview',lang)
+    radius_seconds = read('shared/confidence/birth-time-tiers.yaml')['declared_precision']['exact']['assessment_radius_seconds']
     kp_rows=read('kp/number-horary/249-divisions.yaml')['intervals']
     starts = [row['start_arcsec'] for row in kp_rows]
     def boundary_fields(lon):
@@ -173,7 +188,7 @@ def validate_nadi(rules, read, require):
         charts={}
         for name in ('Asha','Ravi','Meera','Kabir','Dev'):
             f=read('examples/fixtures/'+name.lower()+'.yaml')
-            charts[name] = chart(f, kp_rows, stars, periods, tolerance)
+            charts[name] = chart(f, kp_rows, stars, periods, tolerance, radius_seconds)
         probe = power_facts(['A','B','B'], {'A':1,'B':4}, {'A':[1,2],'B':[2,4]})
         require(probe['hit_count']=={1:1,2:3,4:2} and probe['full_power'], 'Repeated lines and houses')
         require(select_ladder([(1,'supportive',[2]), (2,'challenging',[1])], probe) is None,
@@ -182,9 +197,16 @@ def validate_nadi(rules, read, require):
         require(select_ladder(candidates,probe)==1 and select_ladder(candidates,None) is None,
                 'Power witness breaks a rank tie, then source order')
         polar = dict(read('examples/fixtures/asha.yaml'), latitude=89)
-        require(not chart(polar,kp_rows,stars,periods,tolerance)['power'], 'Withhold polar power facts')
+        polar_chart = chart(polar, kp_rows, stars, periods, tolerance, radius_seconds)
+        require(polar_chart['houses_ready'] and polar_chart['power'], 'Whole-sign houses available at high latitude')
+        with patch.object(swe, 'houses_ex', side_effect=swe.Error('Lagna unavailable')):
+            failed = chart(polar, kp_rows, stars, periods, tolerance, radius_seconds)
+        require(failed['houses_ready'] is None and not any(failed[k] for k in ('power','combination','lines'))
+                and failed['periods'] == polar_chart['periods'], 'Lagna failure preserves both period clocks')
+        with patch.object(swe, 'houses_ex', side_effect=[((), (359.99,)), ((), (0.0,)), ((), (0.01,))]):
+            require(stable_lagna_sign(polar, radius_seconds) is None, 'Sign boundary inside exact-time interval')
         unstable = dict(polar,latitude=12.97,precision='approximate')
-        require(not chart(unstable,kp_rows,stars,periods,tolerance)['power'], 'Unstable time withholds circles')
+        require(not chart(unstable,kp_rows,stars,periods,tolerance,radius_seconds)['power'], 'Unstable time withholds circles')
         for i, case in enumerate(cases['cases'],1):
             data=charts.get(case['fixture'],charts['Asha'])
             e=case['expected']
@@ -197,7 +219,7 @@ def validate_nadi(rules, read, require):
                     minutes=int(match[1])*60+int(match[2])
                     require(abs(data['pos'][g]%30*60-minutes)<=1,case['id']+' '+g+' longitude')
                     same(description(data['details'][g]),line.replace(match[0],''))
-            elif 'cusp_signs' in e or 'combination' in e:
+            elif 'house_signs' in e or 'combination' in e:
                 for key, value in e.items(): same(data[key],value)
             elif 'level' in e:
                 name = path[e['level']]

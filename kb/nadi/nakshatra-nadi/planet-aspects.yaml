@@ -15,7 +15,7 @@ conditions:
   all:
   - fact: nadi.nn.profile
     op: eq
-    value: kp-placidus
+    value: kp-whole-sign
 meaning: Count full aspects inclusively.
 life_areas: []
 strength_notes: []

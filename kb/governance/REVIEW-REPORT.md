@@ -600,8 +600,12 @@ All 124 items remain draft and require Kannada and Hindi native review. The list
 
 The corpus contains 2,754 draft rules in eleven systems and 968 fact keys. All 22 new rules await native review. Of the 22, the supplied file/page map places twelve at high confidence and seven at medium confidence. Three need verification. Across multi-file citations this adds seventeen high-confidence locators, nine medium locators and three pending blocks. These statuses describe the supplied map; they do not establish independent examination of the private course files.
 
-The fixture validator compares 60 cases across five synthetic charts. The KP review path uses mode 5, true nodes, Placidus and a Julian year. The 360-day timing comparison changes the running Pratyantar in all four timed fixtures. Dev’s unstable Moon and unknown birth time withhold periods and houses. The module stays disabled, including its glossary label. The four method questions raised in this review are answered in Batch 15.
+The fixture validator compares 60 cases across five synthetic charts. The review path retains mode 5, true nodes and a Julian year. Batch 16 records the current house frame. The 360-day timing comparison changes the running Pratyantar in all four timed fixtures. Dev’s unstable Moon and unknown birth time withhold periods and houses. The module stays disabled, including its glossary label. The four method questions raised in this review are answered in Batch 15.
 
 ## Batch 15 Nakshatra Nadi blocker review
 
 Four owner answers move twelve rules from blocked to held. Of the 22 draft rules, twenty are held and two remain blocked on private grid data and unset node dignity. Replacing one unresolved fact with six typed internal facts brings coverage to 973 facts across 2,754 rules. Nine of the 60 synthetic cases now check KP-only circles, power, withholding and a sign boundary. All module readings remain private.
+
+## Batch 16 Nakshatra Nadi house frame
+
+On 24 Nov 2026 at 7:04 PM IST (Asia/Calcutta), Kiran selected whole-sign houses for the held Nadi module with KP ayanamsa and true nodes. The readiness fact brings the registry to 974 facts across 2,754 rules. Eighteen of the 60 synthetic cases have revised expectations. The owner also confirmed the planet line and the circle and power definitions.
