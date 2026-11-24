@@ -26,6 +26,10 @@ reference_rules: []
 used_by:
 - jaimini.chara-dasha.sign-chapter
 - jaimini.karakamsa.d1-projection
+- nadi.nakshatra-nadi.natural-deliverers
+- nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+- nadi.nakshatra-nadi.vimshottari-balance
 - vedic.dashas-ashtottari.conditional-cycle
 - vedic.dashas-ashtottari.learning-topic
 - vedic.dashas-chara.home-topic

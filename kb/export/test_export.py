@@ -25,6 +25,20 @@ class EngineExport(unittest.TestCase):
         cls.aliases = aliases['evidence_aliases']
         cls.copies = aliases['copy_aliases']
 
+    def test_held_nakshatra_nadi(self):
+        from copy import deepcopy
+        from build import compile_files
+        for name, data in self.files.items():
+            if name.startswith('public/'):
+                for marker in (b'nadi.nakshatra-nadi.', b'Nakshatra Nadi', b'Dr. Dinesh', b'nadi.nn.'):
+                    self.assertNotIn(marker, data, name)
+        held = 'glossary/entries/nakshatra-nadi.yaml'
+        self.assertNotIn(token('p', held), self.docs['public/catalog.json']['entries'])
+        source = deepcopy(self.source)
+        source['shared/conventions/profiles.yaml']['calculation_profiles']['nakshatra-nadi']['enabled'] = True
+        with self.assertRaisesRegex(ValueError, 'held pending method review'):
+            compile_files(source, 'held-gate-probe')
+
     def test_optional_modern_study_gate(self):
         from copy import deepcopy
         from build import compile_files

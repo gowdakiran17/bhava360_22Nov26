@@ -388,6 +388,8 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if data['system']=='nadi':
+            expected_fields.update(('status','native_review_needed'))
         if 'tag' in data:
             require(data['tag'] in ('CLASSICAL','MODERN','MODERN/POPULAR'),rid+' tradition tag')
             expected_fields.add('tag')
@@ -582,6 +584,8 @@ def main():
     validate_jaimini(rules,read,evaluate,require)
     from kp import validate_kp
     validate_kp(rules,read,evaluate,require)
+    from nakshatra_nadi import validate_nadi
+    validate_nadi(rules,read,require)
     from gochara import validate_gochara
     validate_gochara(rules,read,evaluate,require)
     from other_dashas import validate_other_dashas

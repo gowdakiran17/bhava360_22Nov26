@@ -1,0 +1,61 @@
+id: nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+system: nadi
+topic: nakshatra-nadi
+title: Reading quality across a major period and at junctions
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Compare the outgoing and incoming major periods. Treat a simultaneous major and corresponding minor handover
+  as neutral context.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: dasha.vimshottari.birth_balance_stable
+    op: eq
+    value: true
+  - fact: dasha.sandhi.junction
+    op: eq
+    value: true
+meaning: Compare the outgoing and incoming major periods.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 5
+  supports: Method and scope
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator is approximate in the supplied review map.
+confidence: medium
+review_notes: Internal study only. Resolve house-frame, planet-line, node-association.
+user_text:
+  en: You may revisit this theme as your plans unfold.
+  kn: ನಿಮ್ಮ ಯೋಜನೆಗಳು ಮುಂದುವರಿದಂತೆ ನೀವು ಈ ವಿಷಯವನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: अपनी योजनाएँ आगे बढ़ने पर आप इस विषय पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

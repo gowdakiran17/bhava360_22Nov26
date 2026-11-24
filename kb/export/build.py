@@ -217,6 +217,8 @@ def check_lal_kitab_gate(docs):
 
 
 def compile_files(docs, commit):
+    if docs['shared/conventions/profiles.yaml']['calculation_profiles']['nakshatra-nadi']['enabled'] is not False:
+        raise ValueError('Nakshatra Nadi is held pending method review')
     check_lal_kitab_gate(docs)
     settings = docs['SCHEMA.yaml']['supported_locales']
     messages = Messages(settings)

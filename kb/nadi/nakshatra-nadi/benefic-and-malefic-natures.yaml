@@ -1,0 +1,63 @@
+id: nadi.nakshatra-nadi.benefic-and-malefic-natures
+system: nadi
+topic: nakshatra-nadi
+title: Benefic and malefic natures
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: Use neutral Sun, supportive Jupiter, Venus, Mercury and waxing Moon, and challenging Mars, Saturn, nodes and
+  waning Moon as internal context only.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+meaning: Use neutral Sun, supportive Jupiter, Venus, Mercury and waxing Moon, and challenging Mars, Saturn, nodes
+  and waning Moon as internal context only.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Treat the Sun as neutral within this method only. This label has no effect on house unions.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 3
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 1-signature-course.pdf
+  verse: null
+  other_locator: PDF pp. 37
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Keep the review convention explicit.
+user_text:
+  en: You may find that the same theme feels different at work and at home.
+  kn: ಒಂದೇ ವಿಷಯವು ಕೆಲಸದಲ್ಲಿ ಮತ್ತು ಮನೆಯಲ್ಲಿ ಬೇರೆ ರೀತಿ ಅನಿಸಬಹುದು.
+  hi: एक ही विषय काम और घर में अलग तरह से महसूस हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

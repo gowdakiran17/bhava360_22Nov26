@@ -1,6 +1,6 @@
 # Bhava360 knowledge base edition 1
 
-This is a reviewable authoring edition. It contains 2,732 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,732 rules have English, Kannada and Hindi user text and retain draft status.
+This is a reviewable authoring edition. It contains 2,754 individually addressable YAML rules across eleven systems, plus 661 glossary entries, calculation tables and product recipes. All 2,754 rules have English, Kannada and Hindi user text and retain draft status.
 
 ## Where to start
 
@@ -112,3 +112,7 @@ All 30 Prashna reference cases pass with the restored applying-conjunction vote.
 ## Batch 13 Lal Kitab edition coverage
 
 The 1952 Nagpal Hindi PDF provides primary locators for 108 graha placements, twelve house prompts and four method or reference items. The English translation supplies 124 secondary locators, including 36 approximate pages. Forty-eight entries have revised EN/KN/HI reflections. The corpus contains 2,732 reading rules and 956 fact keys.
+
+## Batch 14 held Nakshatra Nadi module
+
+[Method index](nadi/nakshatra-nadi/module.yaml) · [60 synthetic review cases](examples/nakshatra-nadi.yaml). The 22 draft rules add 12 scoped internal facts, bringing the registry to 968. The five charts cover both house frames, two year clocks, unknown time and qualitative preview filtering.

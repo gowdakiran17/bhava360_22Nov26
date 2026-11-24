@@ -1,0 +1,56 @@
+id: nadi.nakshatra-nadi.power-position-and-circle
+system: nadi
+topic: nakshatra-nadi
+title: Power position and circle
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Withhold any claim that needs a power position or a circled witness until both terms have operational definitions.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: nadi.nn.power_position
+    op: eq
+    value: unresolved
+meaning: Withhold any claim that needs a power position or a circled witness until both terms have operational definitions.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 14, 24-26, 31-47
+  supports: Method and scope
+  verification: pending
+  to_verify: true
+confidence: low
+review_notes: Internal study only. Resolve power-and-circle.
+user_text:
+  en: You can leave this detail open for now.
+  kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.
+  hi: आप इस विवरण को फिलहाल खुला रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

@@ -17,5 +17,6 @@ aliases:
 - Sandhi
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
 - vedic.dashas-sandhi.junction
 - vedic.dashas-sandhi.work-handover

@@ -1,0 +1,75 @@
+id: nadi.nakshatra-nadi.three-line-chain-per-planet
+system: nadi
+topic: nakshatra-nadi
+title: Three-line chain per planet
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Keep three separate house witnesses for a graha. PL provisionally uses the graha itself, NL its star lord
+  and SL its sub lord. Use SL as the final filter.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: kp.sub.known
+    op: eq
+    value: true
+  - any:
+    - fact: kp.cusps.placidus_ready
+      op: eq
+      value: true
+    - fact: nadi.nn.profile
+      op: eq
+      value: lahiri-whole-sign
+meaning: Keep three separate house witnesses for a graha.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 2, 4
+  supports: Method and scope
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator is approximate in the supplied review map.
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 2-new-file-56pp.pdf
+  verse: null
+  other_locator: PDF pp. 45-49
+  supports: Method and scope
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator is approximate in the supplied review map.
+confidence: medium
+review_notes: Internal study only. Resolve house-frame, planet-line, node-association.
+user_text:
+  en: This period may offer openings alongside delays. You can take decisions at your own pace.
+  kn: ಈ ಸಮಯದಲ್ಲಿ ಅವಕಾಶಗಳ ಜೊತೆಗೆ ವಿಳಂಬವೂ ಇರಬಹುದು. ನಿಮ್ಮ ಗತಿಯಲ್ಲಿ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.
+  hi: इस समय अवसर के साथ कुछ देरी भी हो सकती है। आप अपनी गति से निर्णय ले सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

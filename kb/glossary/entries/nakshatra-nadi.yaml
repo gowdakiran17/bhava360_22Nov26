@@ -1,4 +1,5 @@
 id: glossary.terms.nakshatra-nadi
+visibility: admin-only
 term:
   en: Nakshatra Nadi
   kn: ನಕ್ಷತ್ರನಾಡೀ
@@ -11,10 +12,32 @@ meaning:
   en: A birth-star classification used in some traditions, with the specific method chosen before comparison.
   kn: ಹೋಲಿಕೆಗೆ ಮೊದಲು ವಿಧಾನ ಆಯ್ದು ಬಳಸುವ ಜನ್ಮನಕ್ಷತ್ರಗಳ ವರ್ಗೀಕರಣ.
   hi: तुलना से पहले विधि चुनकर इस्तेमाल किया जाने वाला जन्म तारों का वर्गीकरण।
-admin_note: This name is reserved by the product plan. It has no active calculation or reading. The Nadi factor in the
+admin_note: Private course method under review. The module and its glossary label are held. The Nadi factor in the
   marriage-matching module has its own glossary entry.
 aliases: []
 reference_rules: []
-used_by: []
+used_by:
+- nadi.nakshatra-nadi.area-polarity-sets
+- nadi.nakshatra-nadi.benefic-and-malefic-natures
+- nadi.nakshatra-nadi.hit-grids
+- nadi.nakshatra-nadi.house-meanings-by-life-area
+- nadi.nakshatra-nadi.keyword-layer
+- nadi.nakshatra-nadi.lagna-estimate-shortcut
+- nadi.nakshatra-nadi.line-weight
+- nadi.nakshatra-nadi.mitigation-inside-a-harmful-set
+- nadi.nakshatra-nadi.natural-deliverers
+- nadi.nakshatra-nadi.neutral-house-bifurcation
+- nadi.nakshatra-nadi.node-combination
+- nadi.nakshatra-nadi.node-dignity-and-time-strength
+- nadi.nakshatra-nadi.not-covered
+- nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.planet-aspects
+- nadi.nakshatra-nadi.planet-house-combination
+- nadi.nakshatra-nadi.power-position-and-circle
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+- nadi.nakshatra-nadi.sub-division
+- nadi.nakshatra-nadi.three-line-chain-per-planet
+- nadi.nakshatra-nadi.vimshottari-balance
+- nadi.nakshatra-nadi.zodiac-stars-and-quarters
 used_in_files:
 - governance/release-flags/phases.yaml

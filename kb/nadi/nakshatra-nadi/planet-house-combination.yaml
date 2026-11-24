@@ -1,0 +1,60 @@
+id: nadi.nakshatra-nadi.planet-house-combination
+system: nadi
+topic: nakshatra-nadi
+title: Planet house combination
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Combine the occupied house with each house whose cusp sign the graha rules. Count each distinct house once.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - any:
+    - fact: kp.cusps.placidus_ready
+      op: eq
+      value: true
+    - fact: nadi.nn.profile
+      op: eq
+      value: lahiri-whole-sign
+meaning: Combine the occupied house with each house whose cusp sign the graha rules.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 2-new-file-56pp.pdf
+  verse: null
+  other_locator: PDF pp. 45-49
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Resolve house-frame.
+user_text:
+  en: You may find that the same theme feels different at work and at home.
+  kn: ಒಂದೇ ವಿಷಯವು ಕೆಲಸದಲ್ಲಿ ಮತ್ತು ಮನೆಯಲ್ಲಿ ಬೇರೆ ರೀತಿ ಅನಿಸಬಹುದು.
+  hi: एक ही विषय काम और घर में अलग तरह से महसूस हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

@@ -33,6 +33,7 @@ stages:
   - festivals-calendar
   - together
 held:
+- nadi/nakshatra-nadi
 - on-hold/nakshatra-nadi
 - on-hold/gift-purchase
 - D60 public interpretation

@@ -1,0 +1,1811 @@
+synthetic: true
+approval: draft
+native_review_needed: true
+reference_date: '2026-11-24'
+scope: Synthetic review hypotheses only. PL uses the planet. Node association uses whole-sign contacts. Antar lines
+  are combined without ranking.
+area_sets:
+  career_money:
+    supportive:
+    - 2
+    - 6
+    - 10
+    - 11
+    challenging:
+    - 5
+    - 8
+    - 12
+  relationship_timing:
+    supportive:
+    - 2
+    - 7
+    - 9
+    - 11
+    challenging:
+    - 1
+    - 5
+    - 6
+    - 10
+  learning:
+    supportive:
+    - 2
+    - 4
+    - 5
+    - 9
+    - 10
+    - 11
+    challenging:
+    - 3
+    - 6
+    - 8
+    - 12
+  property_vehicle:
+    supportive:
+    - 4
+    - 11
+    - 12
+    challenging:
+    - 3
+    - 5
+    - 10
+  travel:
+    supportive:
+    - 3
+    - 9
+    - 12
+    challenging:
+    - 4
+cases:
+- id: NN-T01
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  - nadi.nakshatra-nadi.sub-division
+  case: Planet sign, star, star lord and sub lord (KP profile)
+  expected:
+    Sun: Aquarius 28°01', Purva Bhadrapada, NL Jupiter, SL Venus
+    Moon: Taurus 26°43', Mrigashira, NL Mars, SL Jupiter
+    Mars: Capricorn 23°53', Dhanishta, NL Mars, SL Mars
+    Mercury: Pisces 15°52', Uttara Bhadrapada, NL Saturn, SL Jupiter
+    Jupiter: Leo 14°28', Purva Phalguni, NL Venus, SL Venus
+    Venus: Aquarius 3°53', Dhanishta, NL Mars, SL Venus
+    Saturn: Capricorn 20°23', Shravana, NL Moon, SL Ketu
+    Rahu: Sagittarius 12°53', Mula, NL Ketu, SL Mercury
+    Ketu: Gemini 12°53', Ardra, NL Rahu, SL Mercury
+- id: NN-T02
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: Placidus cusp signs and planet houses
+  expected:
+    cusp_signs:
+    - Aquarius
+    - Pisces
+    - Aries
+    - Taurus
+    - Gemini
+    - Cancer
+    - Leo
+    - Virgo
+    - Libra
+    - Scorpio
+    - Sagittarius
+    - Capricorn
+    occupied:
+      Sun: 1
+      Moon: 4
+      Mars: 12
+      Mercury: 1
+      Jupiter: 7
+      Venus: 12
+      Saturn: 12
+      Rahu: 10
+      Ketu: 4
+    owned:
+      Sun:
+      - 7
+      Moon:
+      - 6
+      Mars:
+      - 3
+      - 10
+      Mercury:
+      - 5
+      - 8
+      Jupiter:
+      - 2
+      - 11
+      Venus:
+      - 4
+      - 9
+      Saturn:
+      - 1
+      - 12
+- id: NN-T03
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  - nadi.nakshatra-nadi.node-combination
+  case: House combinations (seven grahas, then nodes with basis)
+  expected:
+    combination:
+      Sun:
+      - 1
+      - 7
+      Moon:
+      - 4
+      - 6
+      Mars:
+      - 3
+      - 10
+      - 12
+      Mercury:
+      - 1
+      - 5
+      - 8
+      Jupiter:
+      - 2
+      - 7
+      - 11
+      Venus:
+      - 4
+      - 9
+      - 12
+      Saturn:
+      - 1
+      - 12
+      Rahu:
+      - 2
+      - 7
+      - 10
+      - 11
+      Ketu:
+      - 1
+      - 4
+      - 5
+      - 8
+    node_basis:
+      Rahu:
+        dispositor: Jupiter
+        conjoined: []
+        aspected_by:
+        - Jupiter
+      Ketu:
+        dispositor: Mercury
+        conjoined: []
+        aspected_by: []
+- id: NN-T04
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: 'Variant check: Lahiri whole-sign combinations differ'
+  expected:
+    lahiri_whole_sign_combination:
+      Sun:
+      - 1
+      - 7
+      Moon:
+      - 4
+      - 6
+      Mars:
+      - 3
+      - 10
+      - 12
+      Mercury:
+      - 2
+      - 5
+      - 8
+      Jupiter:
+      - 2
+      - 7
+      - 11
+      Venus:
+      - 1
+      - 4
+      - 9
+      Saturn:
+      - 1
+      - 12
+      Rahu:
+      - 2
+      - 7
+      - 11
+      Ketu:
+      - 2
+      - 5
+      - 8
+    differs_for:
+    - Mercury
+    - Venus
+    - Rahu
+    - Ketu
+- id: NN-T05
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.period-roles
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: Running periods on 2026-11-24 (365.25-day year), with 360-day variant
+  expected:
+    maha: Jupiter
+    antar: Moon
+    pratyantar: Mars
+    antar_span_ist:
+    - '2026-09-29'
+    - '2028-01-29'
+    pratyantar_span_ist:
+    - '2026-11-09'
+    - '2026-12-07'
+    variant_360:
+      maha: Jupiter
+      antar: Moon
+      pratyantar: Saturn
+- id: NN-T06
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.three-line-chain-per-planet
+  - nadi.nakshatra-nadi.period-roles
+  case: PL/NL/SL lines of the running lords
+  expected:
+    maha:
+      lord: Jupiter
+      PL:
+      - 2
+      - 7
+      - 11
+      NL:
+      - 4
+      - 9
+      - 12
+      SL:
+      - 4
+      - 9
+      - 12
+    antar:
+      lord: Moon
+      PL:
+      - 4
+      - 6
+      NL:
+      - 3
+      - 10
+      - 12
+      SL:
+      - 2
+      - 7
+      - 11
+    pratyantar:
+      lord: Mars
+      PL:
+      - 3
+      - 10
+      - 12
+      NL:
+      - 3
+      - 10
+      - 12
+      SL:
+      - 3
+      - 10
+      - 12
+- id: NN-T07
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'career_money: outlook from the running antar lord (Moon) lines'
+  expected:
+    houses_in_lines:
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    supportive_hits:
+    - 2
+    - 6
+    - 10
+    - 11
+    challenging_hits:
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T08
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'relationship_timing: outlook from the running antar lord (Moon) lines'
+  expected:
+    houses_in_lines:
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    supportive_hits:
+    - 2
+    - 7
+    - 11
+    challenging_hits:
+    - 6
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T09
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'learning: outlook from the running antar lord (Moon) lines'
+  expected:
+    houses_in_lines:
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    supportive_hits:
+    - 2
+    - 4
+    - 10
+    - 11
+    challenging_hits:
+    - 3
+    - 6
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T10
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'property_vehicle: outlook from the running antar lord (Moon) lines'
+  expected:
+    houses_in_lines:
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    supportive_hits:
+    - 4
+    - 11
+    - 12
+    challenging_hits:
+    - 3
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T11
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'travel: outlook from the running antar lord (Moon) lines'
+  expected:
+    houses_in_lines:
+    - 2
+    - 3
+    - 4
+    - 6
+    - 7
+    - 10
+    - 11
+    - 12
+    supportive_hits:
+    - 3
+    - 12
+    challenging_hits:
+    - 4
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T12
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.sub-division
+  case: 'Ayanamsa sensitivity: lords that change under Lahiri (mean node)'
+  expected:
+    Ketu: NL Rahu, SL Saturn
+- id: NN-T13
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  - nadi.nakshatra-nadi.sub-division
+  case: Planet sign, star, star lord and sub lord (KP profile)
+  expected:
+    Sun: Cancer 17°23', Ashlesha, NL Mercury, SL Mercury
+    Moon: Aquarius 17°11', Shatabhisha, NL Rahu, SL Venus
+    Mars: Cancer 12°22', Pushya, NL Saturn, SL Mars
+    Mercury: Leo 0°04', Magha, NL Ketu, SL Ketu
+    Jupiter: Capricorn 18°37', Shravana, NL Moon, SL Mercury
+    Venus: Gemini 7°33', Ardra, NL Rahu, SL Rahu
+    Saturn: Libra 27°58', Vishakha, NL Jupiter, SL Venus
+    Rahu: Aries 20°15', Bharani, NL Venus, SL Jupiter
+    Ketu: Libra 20°15', Vishakha, NL Jupiter, SL Jupiter
+- id: NN-T14
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: Placidus cusp signs and planet houses
+  expected:
+    cusp_signs:
+    - Scorpio
+    - Sagittarius
+    - Capricorn
+    - Aquarius
+    - Pisces
+    - Aries
+    - Taurus
+    - Gemini
+    - Cancer
+    - Leo
+    - Virgo
+    - Libra
+    occupied:
+      Sun: 9
+      Moon: 4
+      Mars: 9
+      Mercury: 9
+      Jupiter: 3
+      Venus: 7
+      Saturn: 12
+      Rahu: 6
+      Ketu: 12
+    owned:
+      Sun:
+      - 10
+      Moon:
+      - 9
+      Mars:
+      - 1
+      - 6
+      Mercury:
+      - 8
+      - 11
+      Jupiter:
+      - 2
+      - 5
+      Venus:
+      - 7
+      - 12
+      Saturn:
+      - 3
+      - 4
+- id: NN-T15
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  - nadi.nakshatra-nadi.node-combination
+  case: House combinations (seven grahas, then nodes with basis)
+  expected:
+    combination:
+      Sun:
+      - 9
+      - 10
+      Moon:
+      - 4
+      - 9
+      Mars:
+      - 1
+      - 6
+      - 9
+      Mercury:
+      - 8
+      - 9
+      - 11
+      Jupiter:
+      - 2
+      - 3
+      - 5
+      Venus:
+      - 7
+      - 12
+      Saturn:
+      - 3
+      - 4
+      - 12
+      Rahu:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 9
+      - 12
+      Ketu:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 7
+      - 9
+      - 12
+    node_basis:
+      Rahu:
+        dispositor: Mars
+        conjoined: []
+        aspected_by:
+        - Saturn
+      Ketu:
+        dispositor: Venus
+        conjoined:
+        - Saturn
+        aspected_by:
+        - Mars
+- id: NN-T16
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: 'Variant check: Lahiri whole-sign combinations differ'
+  expected:
+    lahiri_whole_sign_combination:
+      Sun:
+      - 9
+      - 10
+      Moon:
+      - 4
+      - 9
+      Mars:
+      - 1
+      - 6
+      - 9
+      Mercury:
+      - 8
+      - 9
+      - 11
+      Jupiter:
+      - 2
+      - 3
+      - 5
+      Venus:
+      - 7
+      - 8
+      - 12
+      Saturn:
+      - 3
+      - 4
+      - 12
+      Rahu:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 9
+      - 12
+      Ketu:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 7
+      - 8
+      - 9
+      - 12
+    differs_for:
+    - Venus
+    - Ketu
+- id: NN-T17
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.period-roles
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: Running periods on 2026-11-24 (365.25-day year), with 360-day variant
+  expected:
+    maha: Mercury
+    antar: Ketu
+    pratyantar: Venus
+    antar_span_ist:
+    - '2026-10-13'
+    - '2027-10-10'
+    pratyantar_span_ist:
+    - '2026-11-03'
+    - '2027-01-03'
+    variant_360:
+      maha: Mercury
+      antar: Ketu
+      pratyantar: Saturn
+- id: NN-T18
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.three-line-chain-per-planet
+  - nadi.nakshatra-nadi.period-roles
+  case: PL/NL/SL lines of the running lords
+  expected:
+    maha:
+      lord: Mercury
+      PL:
+      - 8
+      - 9
+      - 11
+      NL:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 7
+      - 9
+      - 12
+      SL:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 7
+      - 9
+      - 12
+    antar:
+      lord: Ketu
+      PL:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 7
+      - 9
+      - 12
+      NL:
+      - 2
+      - 3
+      - 5
+      SL:
+      - 2
+      - 3
+      - 5
+    pratyantar:
+      lord: Venus
+      PL:
+      - 7
+      - 12
+      NL:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 9
+      - 12
+      SL:
+      - 1
+      - 3
+      - 4
+      - 6
+      - 9
+      - 12
+- id: NN-T19
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'career_money: outlook from the running antar lord (Ketu) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 12
+    supportive_hits:
+    - 2
+    - 6
+    challenging_hits:
+    - 5
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T20
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'relationship_timing: outlook from the running antar lord (Ketu) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 12
+    supportive_hits:
+    - 2
+    - 7
+    - 9
+    challenging_hits:
+    - 1
+    - 5
+    - 6
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T21
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'learning: outlook from the running antar lord (Ketu) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 12
+    supportive_hits:
+    - 2
+    - 4
+    - 5
+    - 9
+    challenging_hits:
+    - 3
+    - 6
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T22
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'property_vehicle: outlook from the running antar lord (Ketu) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 12
+    supportive_hits:
+    - 4
+    - 12
+    challenging_hits:
+    - 3
+    - 5
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T23
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'travel: outlook from the running antar lord (Ketu) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 9
+    - 12
+    supportive_hits:
+    - 3
+    - 9
+    - 12
+    challenging_hits:
+    - 4
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T24
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.sub-division
+  case: 'Ayanamsa sensitivity: lords that change under Lahiri (mean node)'
+  expected:
+    Mercury: NL Mercury, SL Saturn
+- id: NN-T25
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  - nadi.nakshatra-nadi.sub-division
+  case: Planet sign, star, star lord and sub lord (KP profile)
+  expected:
+    Sun: Sagittarius 6°07', Mula, NL Ketu, SL Rahu
+    Moon: Aquarius 23°28', Purva Bhadrapada, NL Jupiter, SL Saturn
+    Mars: Aquarius 15°33', Shatabhisha, NL Rahu, SL Venus
+    Mercury: Sagittarius 15°32', Purva Ashadha, NL Venus, SL Venus
+    Jupiter: Gemini 18°15', Ardra, NL Rahu, SL Moon
+    Venus: Sagittarius 0°25', Mula, NL Ketu, SL Ketu
+    Saturn: Taurus 16°15', Rohini, NL Moon, SL Saturn
+    Rahu: Gemini 3°21', Mrigashira, NL Mars, SL Venus
+    Ketu: Sagittarius 3°21', Mula, NL Ketu, SL Sun
+- id: NN-T26
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: Placidus cusp signs and planet houses
+  expected:
+    cusp_signs:
+    - Leo
+    - Virgo
+    - Libra
+    - Scorpio
+    - Sagittarius
+    - Capricorn
+    - Aquarius
+    - Pisces
+    - Aries
+    - Taurus
+    - Gemini
+    - Cancer
+    occupied:
+      Sun: 4
+      Moon: 7
+      Mars: 7
+      Mercury: 5
+      Jupiter: 11
+      Venus: 4
+      Saturn: 10
+      Rahu: 10
+      Ketu: 4
+    owned:
+      Sun:
+      - 1
+      Moon:
+      - 12
+      Mars:
+      - 4
+      - 9
+      Mercury:
+      - 2
+      - 11
+      Jupiter:
+      - 5
+      - 8
+      Venus:
+      - 3
+      - 10
+      Saturn:
+      - 6
+      - 7
+- id: NN-T27
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  - nadi.nakshatra-nadi.node-combination
+  case: House combinations (seven grahas, then nodes with basis)
+  expected:
+    combination:
+      Sun:
+      - 1
+      - 4
+      Moon:
+      - 7
+      - 12
+      Mars:
+      - 4
+      - 7
+      - 9
+      Mercury:
+      - 2
+      - 5
+      - 11
+      Jupiter:
+      - 5
+      - 8
+      - 11
+      Venus:
+      - 3
+      - 4
+      - 10
+      Saturn:
+      - 6
+      - 7
+      - 10
+      Rahu:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 10
+      - 11
+      Ketu:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 10
+      - 11
+    node_basis:
+      Rahu:
+        dispositor: Mercury
+        conjoined:
+        - Jupiter
+        aspected_by:
+        - Sun
+        - Mercury
+        - Venus
+      Ketu:
+        dispositor: Jupiter
+        conjoined:
+        - Sun
+        - Mercury
+        - Venus
+        aspected_by:
+        - Jupiter
+- id: NN-T28
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: 'Variant check: Lahiri whole-sign combinations differ'
+  expected:
+    lahiri_whole_sign_combination:
+      Sun:
+      - 1
+      - 5
+      Moon:
+      - 7
+      - 12
+      Mars:
+      - 4
+      - 7
+      - 9
+      Mercury:
+      - 2
+      - 5
+      - 11
+      Jupiter:
+      - 5
+      - 8
+      - 11
+      Venus:
+      - 3
+      - 5
+      - 10
+      Saturn:
+      - 6
+      - 7
+      - 10
+      Rahu:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 8
+      - 10
+      - 11
+      Ketu:
+      - 1
+      - 2
+      - 3
+      - 5
+      - 8
+      - 10
+      - 11
+    differs_for:
+    - Sun
+    - Venus
+    - Rahu
+    - Ketu
+- id: NN-T29
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.period-roles
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: Running periods on 2026-11-24 (365.25-day year), with 360-day variant
+  expected:
+    maha: Saturn
+    antar: Mars
+    pratyantar: Mercury
+    antar_span_ist:
+    - '2026-04-27'
+    - '2027-06-06'
+    pratyantar_span_ist:
+    - '2026-11-16'
+    - '2027-01-12'
+    variant_360:
+      maha: Saturn
+      antar: Mars
+      pratyantar: Venus
+- id: NN-T30
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.three-line-chain-per-planet
+  - nadi.nakshatra-nadi.period-roles
+  case: PL/NL/SL lines of the running lords
+  expected:
+    maha:
+      lord: Saturn
+      PL:
+      - 6
+      - 7
+      - 10
+      NL:
+      - 7
+      - 12
+      SL:
+      - 6
+      - 7
+      - 10
+    antar:
+      lord: Mars
+      PL:
+      - 4
+      - 7
+      - 9
+      NL:
+      - 1
+      - 2
+      - 3
+      - 4
+      - 5
+      - 8
+      - 10
+      - 11
+      SL:
+      - 3
+      - 4
+      - 10
+    pratyantar:
+      lord: Mercury
+      PL:
+      - 2
+      - 5
+      - 11
+      NL:
+      - 3
+      - 4
+      - 10
+      SL:
+      - 3
+      - 4
+      - 10
+- id: NN-T31
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'career_money: outlook from the running antar lord (Mars) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    supportive_hits:
+    - 2
+    - 10
+    - 11
+    challenging_hits:
+    - 5
+    - 8
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T32
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'relationship_timing: outlook from the running antar lord (Mars) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    supportive_hits:
+    - 2
+    - 7
+    - 9
+    - 11
+    challenging_hits:
+    - 1
+    - 5
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T33
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'learning: outlook from the running antar lord (Mars) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    supportive_hits:
+    - 2
+    - 4
+    - 5
+    - 9
+    - 10
+    - 11
+    challenging_hits:
+    - 3
+    - 8
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T34
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'property_vehicle: outlook from the running antar lord (Mars) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    supportive_hits:
+    - 4
+    - 11
+    challenging_hits:
+    - 3
+    - 5
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T35
+  fixture: Meera
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'travel: outlook from the running antar lord (Mars) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    supportive_hits:
+    - 3
+    - 9
+    challenging_hits:
+    - 4
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T36
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  - nadi.nakshatra-nadi.sub-division
+  case: Planet sign, star, star lord and sub lord (KP profile)
+  expected:
+    Sun: Taurus 24°25', Mrigashira, NL Mars, SL Rahu
+    Moon: Cancer 0°26', Punarvasu, NL Jupiter, SL Moon
+    Mars: Leo 3°48', Magha, NL Ketu, SL Moon
+    Mercury: Taurus 17°46', Rohini, NL Moon, SL Mercury
+    Jupiter: Gemini 17°23', Ardra, NL Rahu, SL Venus
+    Venus: Gemini 28°02', Punarvasu, NL Jupiter, SL Venus
+    Saturn: Leo 1°52', Magha, NL Ketu, SL Venus
+    Rahu: Virgo 9°02', Uttara Phalguni, NL Sun, SL Venus
+    Ketu: Pisces 9°02', Uttara Bhadrapada, NL Saturn, SL Venus
+- id: NN-T37
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: Placidus cusp signs and planet houses
+  expected:
+    cusp_signs:
+    - Gemini
+    - Cancer
+    - Leo
+    - Virgo
+    - Libra
+    - Scorpio
+    - Sagittarius
+    - Capricorn
+    - Aquarius
+    - Pisces
+    - Aries
+    - Taurus
+    occupied:
+      Sun: 12
+      Moon: 1
+      Mars: 3
+      Mercury: 12
+      Jupiter: 1
+      Venus: 1
+      Saturn: 2
+      Rahu: 4
+      Ketu: 10
+    owned:
+      Sun:
+      - 3
+      Moon:
+      - 2
+      Mars:
+      - 6
+      - 11
+      Mercury:
+      - 1
+      - 4
+      Jupiter:
+      - 7
+      - 10
+      Venus:
+      - 5
+      - 12
+      Saturn:
+      - 8
+      - 9
+- id: NN-T38
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  - nadi.nakshatra-nadi.node-combination
+  case: House combinations (seven grahas, then nodes with basis)
+  expected:
+    combination:
+      Sun:
+      - 3
+      - 12
+      Moon:
+      - 1
+      - 2
+      Mars:
+      - 3
+      - 6
+      - 11
+      Mercury:
+      - 1
+      - 4
+      - 12
+      Jupiter:
+      - 1
+      - 7
+      - 10
+      Venus:
+      - 1
+      - 5
+      - 12
+      Saturn:
+      - 2
+      - 8
+      - 9
+      Rahu:
+      - 1
+      - 4
+      - 12
+      Ketu:
+      - 1
+      - 3
+      - 6
+      - 7
+      - 10
+      - 11
+    node_basis:
+      Rahu:
+        dispositor: Mercury
+        conjoined: []
+        aspected_by: []
+      Ketu:
+        dispositor: Jupiter
+        conjoined: []
+        aspected_by:
+        - Mars
+- id: NN-T39
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  case: 'Variant check: Lahiri whole-sign combinations differ'
+  expected:
+    lahiri_whole_sign_combination:
+      Sun:
+      - 3
+      - 12
+      Moon:
+      - 2
+      Mars:
+      - 3
+      - 6
+      - 11
+      Mercury:
+      - 1
+      - 4
+      - 12
+      Jupiter:
+      - 1
+      - 7
+      - 10
+      Venus:
+      - 1
+      - 5
+      - 12
+      Saturn:
+      - 3
+      - 8
+      - 9
+      Rahu:
+      - 1
+      - 4
+      - 12
+      Ketu:
+      - 1
+      - 3
+      - 6
+      - 7
+      - 10
+      - 11
+    differs_for:
+    - Moon
+    - Saturn
+- id: NN-T40
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.period-roles
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: Running periods on 2026-11-24 (365.25-day year), with 360-day variant
+  expected:
+    maha: Venus
+    antar: Venus
+    pratyantar: Jupiter
+    antar_span_ist:
+    - '2024-11-28'
+    - '2028-03-30'
+    pratyantar_span_ist:
+    - '2026-08-09'
+    - '2027-01-19'
+    variant_360:
+      maha: Venus
+      antar: Venus
+      pratyantar: Mercury
+- id: NN-T41
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.three-line-chain-per-planet
+  - nadi.nakshatra-nadi.period-roles
+  case: PL/NL/SL lines of the running lords
+  expected:
+    maha:
+      lord: Venus
+      PL: &id001
+      - 1
+      - 5
+      - 12
+      NL: &id002
+      - 1
+      - 7
+      - 10
+      SL: &id003
+      - 1
+      - 5
+      - 12
+    antar:
+      lord: Venus
+      PL: *id001
+      NL: *id002
+      SL: *id003
+    pratyantar:
+      lord: Jupiter
+      PL:
+      - 1
+      - 7
+      - 10
+      NL:
+      - 1
+      - 4
+      - 12
+      SL:
+      - 1
+      - 5
+      - 12
+- id: NN-T42
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'career_money: outlook from the running antar lord (Venus) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 5
+    - 7
+    - 10
+    - 12
+    supportive_hits:
+    - 10
+    challenging_hits:
+    - 5
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T43
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'relationship_timing: outlook from the running antar lord (Venus) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 5
+    - 7
+    - 10
+    - 12
+    supportive_hits:
+    - 7
+    challenging_hits:
+    - 1
+    - 5
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T44
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'learning: outlook from the running antar lord (Venus) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 5
+    - 7
+    - 10
+    - 12
+    supportive_hits:
+    - 5
+    - 10
+    challenging_hits:
+    - 12
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T45
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'property_vehicle: outlook from the running antar lord (Venus) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 5
+    - 7
+    - 10
+    - 12
+    supportive_hits:
+    - 12
+    challenging_hits:
+    - 5
+    - 10
+    label: mixed
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: mixed
+- id: NN-T46
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.house-meanings-by-life-area
+  - nadi.nakshatra-nadi.area-polarity-sets
+  - nadi.nakshatra-nadi.period-roles
+  case: 'travel: outlook from the running antar lord (Venus) lines'
+  expected:
+    houses_in_lines:
+    - 1
+    - 5
+    - 7
+    - 10
+    - 12
+    supportive_hits:
+    - 12
+    challenging_hits: []
+    label: supportive
+    must_not_contain:
+    - '%'
+    - score
+    - guarantee
+    - grade
+    copy_key: supportive
+- id: NN-T47
+  fixture: Kabir
+  rules:
+  - nadi.nakshatra-nadi.sub-division
+  case: 'Ayanamsa sensitivity: lords that change under Lahiri (mean node)'
+  expected:
+    Mercury: NL Moon, SL Saturn
+- id: NN-T48
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  - nadi.nakshatra-nadi.sub-division
+  case: 'Unknown time: report only lords stable across the whole local day'
+  expected:
+    shown:
+      Sun: Sagittarius, Purva Ashadha, NL Venus, SL Jupiter
+      Mars: Leo, Magha, NL Ketu, SL Jupiter
+      Jupiter: Scorpio, Anuradha, NL Saturn, SL Moon
+      Venus: Scorpio, Anuradha, NL Saturn, SL Saturn
+      Saturn: Aquarius, Shatabhisha, NL Rahu, SL Ketu
+      Rahu: Libra, Swati, NL Rahu, SL Moon
+      Ketu: Aries, Bharani, NL Venus, SL Rahu
+    mercury: Capricorn, Uttara Ashadha, NL Sun; SL withheld (Jupiter or Saturn depending on time)
+    moon: Aquarius only; star withheld (Dhanishta or Shatabhisha), star lord withheld (Mars or Rahu), sub withheld
+- id: NN-T49
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.planet-house-combination
+  - nadi.nakshatra-nadi.node-combination
+  - nadi.nakshatra-nadi.three-line-chain-per-planet
+  case: House combinations and lines
+  expected:
+    result: withheld
+    reason: needs Lagna or cusps
+    facts:
+      confidence.withheld: true
+- id: NN-T50
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.period-roles
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: Running periods
+  expected:
+    result: withheld
+    reason: Moon star lord changes during the day, so the starting period and balance are unknown
+    facts:
+      dasha.vimshottari.birth_balance_stable: false
+- id: NN-T51
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.area-polarity-sets
+  case: 'career_money: outlook'
+  expected:
+    result: withheld
+    copy_key: withheld
+- id: NN-T52
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.area-polarity-sets
+  case: 'relationship_timing: outlook'
+  expected:
+    result: withheld
+    copy_key: withheld
+- id: NN-T53
+  fixture: Dev
+  rules:
+  - nadi.nakshatra-nadi.sub-division
+  case: Ayanamsa sensitivity at noon (informational only)
+  expected:
+    Rahu: NL Rahu, SL Sun
+    Ketu: NL Venus, SL Mars
+- id: NN-T54
+  fixture: Asha
+  rules:
+  - filters
+  case: User asks which gemstone or rudraksha helps the running period
+  expected:
+    result: no product advice
+    render_contains: Traditional practice
+    must_not_contain:
+    - stone
+    - rudraksha
+    - metal
+    - lucky
+    - price
+- id: NN-T55
+  fixture: Ravi
+  rules:
+  - filters
+  case: User asks whether an accident or serious illness is shown
+  expected:
+    result: decline prediction; wellbeing prompt only
+    must_not_contain:
+    - death
+    - accident
+    - disease
+    - longevity
+- id: NN-T56
+  fixture: Meera
+  rules:
+  - filters
+  case: User asks for the success percentage of marriage
+  expected:
+    result: qualitative only
+    must_not_contain:
+    - '%'
+    - percent
+    - score
+    - guaranteed
+    - not compatible
+    - divorce
+- id: NN-T57
+  fixture: Kabir
+  rules:
+  - filters
+  case: 'Natural deliverer: running antar is Venus, so the vehicle theme may be noted even without the combination'
+  expected:
+    natural_deliverer:
+      property_vehicle: true
+    copy_key: vehicle
+- id: NN-T58
+  fixture: Ravi
+  rules:
+  - nadi.nakshatra-nadi.zodiac-stars-and-quarters
+  case: 'Boundary: Mercury at Leo 0 deg 04 min (KP) falls in Cancer under Lahiri'
+  expected:
+    kp: Leo, Magha, NL Ketu, SL Ketu
+    lahiri: Cancer, Ashlesha, NL Mercury, SL Saturn
+    action: Flag profile-sensitive; never mix profiles in one reading
+- id: NN-T59
+  fixture: Asha
+  rules:
+  - nadi.nakshatra-nadi.vimshottari-balance
+  case: 'Year-length sensitivity: pratyantar lord differs (Mars at 365.25, Saturn at 360)'
+  expected:
+    default: Mars
+    variant_360: Saturn
+    action: use 365.25 default
+- id: NN-T60
+  fixture: any
+  rules:
+  - nadi.nakshatra-nadi.not-covered
+  case: Input chart includes Uranus, Neptune or Pluto
+  expected:
+    result: ignored
+    flag: outer_planet_ignored

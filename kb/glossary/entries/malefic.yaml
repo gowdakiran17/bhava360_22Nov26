@@ -18,6 +18,7 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.argala.special-third
+- nadi.nakshatra-nadi.benefic-and-malefic-natures
 - vedic.annual-chart.manau
 - vedic.matching.papasamya
 - vedic.muhurta.business-start

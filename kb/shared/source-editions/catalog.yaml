@@ -1,5 +1,6 @@
 version: 1
 works:
+  dinesh-nakshatra-nadi: Dr. Dinesh, Nakshatra Nadi course notes
   lal-kitab-english: Lal Kitab (Red Book of Astrology)
   ptolemy-tetrabiblos: Tetrabiblos (Ptolemy)
   rao-timing-events: Timing Events through Vimshottari Dasha (K.N. Rao)
@@ -82,6 +83,13 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  dinesh-nakshatra-nadi-private:
+    edition_id: dinesh-nakshatra-nadi-private
+    work_id: dinesh-nakshatra-nadi
+    title_as_printed: Dr. Dinesh, Nakshatra Nadi course notes
+    language: English
+    publication_details: Private course files identified by filename and PDF page in each citation.
+    verified_by: Supplied expert locator map; underlying files have not been independently examined here.
   lal-kitab-joshi-1952-nagpal-2016:
     work_id: lal-kitab
     edition_id: lal-kitab-joshi-1952-nagpal-2016
