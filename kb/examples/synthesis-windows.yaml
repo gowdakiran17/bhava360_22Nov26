@@ -52,4 +52,4 @@ cases:
   C22: {input: {segments: [{interval: ['2032-04-22','2032-04-23'], signs: {jupiter: 6, saturn: 11}, av: [[28,4],[28,4]]}]}, expect: {state: no-window}}
   C23: {input: {unstable: [promise-significator, promise-varga-lagna], yoga_only_factors: [promise-occupants, promise-house-aspects], yoga: {active: true, cancelled: true}}, expect: {band: Weak, state: no-promise}}
   C24: {input: {lagna: {lord: Weak}, d9: exalted, unstable: [promise-varga-lagna, promise-significator]}, expect: {band: Moderate, grade: Moderate}}
-  C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: Moderate, state: withheld}}
+  C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: Weak, state: no-promise}}

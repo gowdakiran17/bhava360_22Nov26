@@ -1,7 +1,7 @@
 version: 1
 approval: draft
 profile: moon-daily-v1
-reference: Natal Moon. Split intervals at ingress, vedha changes and local month boundaries. Use elapsed duration including any time withheld. A stance requires more than half the full month; otherwise use neutral.
+reference: Natal Moon. Split intervals at ingress, vedha changes and local month boundaries. Use elapsed duration including any time withheld. First select a house occupied for more than half the full month. Within it select the effective stance for more than half that stay. Withhold an uncertain stance from the count; ties are neutral.
 fast_movers: [sun, mars, mercury, venus]
 sun: Record sankranti date and the new inclusive house. Evaluate the Sun over the whole month by duration like the other fast movers.
 tone_policy: Sun and at least two others supportive gives Supportive. Sun and at least two others caution gives Take care. Otherwise Steady. Blocked favourable means neutral.

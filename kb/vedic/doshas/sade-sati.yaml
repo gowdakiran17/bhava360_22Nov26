@@ -41,9 +41,9 @@ confidence: medium
 review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review
   pending.
 user_text:
-  en: You may find it useful to leave space between commitments during this period.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಹೊಣೆಗಳ ನಡುವೆ ಸ್ವಲ್ಪ ಬಿಡುವು ಇಡುವುದು ನೆರವಾಗಬಹುದು.
-  hi: इस अवधि में ज़िम्मेदारियों के बीच थोड़ा समय रखना मददगार हो सकता है।
+  en: This may be a slower, steadier phase.
+  kn: ಇದು ನಿಧಾನವಾಗಿ, ಸ್ಥಿರವಾಗಿ ಸಾಗುವ ಹಂತವಾಗಬಹುದು.
+  hi: यह धीमा और स्थिर दौर हो सकता है।
 native_review:
   kn: pending
   hi: pending
@@ -57,6 +57,8 @@ remedy:
     kn: ಒಂದು ಕೆಲಸವನ್ನು ಆರಿಸಿ ಅನುಕೂಲವಾದ ವೇಗದಲ್ಲಿ ಮುಗಿಸಬಹುದು.
     hi: आप एक काम चुनकर उसे सहज गति से पूरा कर सकते हैं।
 reference_paths:
+- modules/home/month.yaml
+- modules/home/copy.yaml
 - vedic/transits/evidence.yaml
 - vedic/transits/reentry.yaml
 - vedic/transits/saturn-moon.yaml

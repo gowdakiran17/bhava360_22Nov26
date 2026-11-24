@@ -4,6 +4,9 @@ from datetime import date, timedelta
 
 GRADES = ['Weak','Moderate','Strong']
 GOOD = {'Benefic','Yogakaraka'}
+D9_LABELS = {'exaltation-sign':'exalted','exaltation-peak':'exalted','own-sign':'own',
+             'debilitation-sign':'debilitated','mitra':'friend','adhi-mitra':'great-friend',
+             'shatru':'enemy','adhi-shatru':'great-enemy','sama':'neutral'}
 GOOD_D9 = {'exalted','own','moolatrikona','friend','great-friend'}
 
 
@@ -111,7 +114,9 @@ def evaluate(x, policy, ladder, matrix, aspects):
     tier=x['tier']
     primary=reference_tests(x['lagna'])
     secondary=reference_tests(x['moon'])
-    d9=x.get('d9')
+    if matrix['promise-functional-lordship'][tier]=='hide':
+        secondary[1:]=[None,None]
+    d9=D9_LABELS.get(x.get('d9'),x.get('d9'))
     varga=None if d9 is None else x['vargottama'] or d9 in GOOD_D9
     if x.get('topic_varga') and varga:
         varga=x.get('topic_pass')
@@ -168,7 +173,7 @@ def evaluate(x, policy, ladder, matrix, aspects):
     if matrix['final-card-grade'][tier]=='cap-moderate': grade=min(1,grade)
     card=('Supportive' if grade==2 else 'Take care' if x.get('qualified_challenge') else 'Steady') if grade else None
     if not card: return dict(result,state='no-card',yoga=yoga_display)
-    remedy_graha=None if card=='Supportive' or x.get('sensitive') or x['area']=='health' else x.get('caution_lord') or antar
+    remedy_graha=None if card=='Supportive' or x.get('sensitive') or x['area'] in ('health','bereavement','financial-verdict','legal') else x.get('caution_lord') or antar
     for w in wins:
         if tier=='B':
             w['start']=w['start'][:7]
@@ -177,6 +182,14 @@ def evaluate(x, policy, ladder, matrix, aspects):
     chips.extend(['season-chip','timing-chip'])
     return dict(result,state='active',chips=chips,card=card,grade=GRADES[grade],windows=wins,yoga=yoga_display,
                 remedy_graha=remedy_graha,pace=wins[0]['pace'],phase_end=wins[0]['end'],action='action')
+
+
+def screen_practice(cards):
+    # Caller supplies display order; choose once after actions and phase bounds are present.
+    for card in cards:
+        if card.get('card') in ('Steady','Take care') and card.get('action') and card.get('phase_end') and card.get('remedy_graha'):
+            return card['remedy_graha']
+    return None
 
 
 def merge(base, patch):
@@ -212,6 +225,10 @@ def validate(read,require):
     segments=[dict(sample,interval=[a,b],av=[[28,4],[v,4]]) for a,b,v in ranges]
     result=evaluate(dict(base,segments=segments),p,ladder,matrix,aspects)
     require([w['start'] for w in result['windows']]==[ranges[i][0] for i in (0,2,3,1)],'earliest then three later windows')
+    practical=evaluate(merge(base,{'tier':'B'}),p,ladder,matrix,aspects)
+    sensitive=evaluate(merge(base,{'tier':'B','area':'health'}),p,ladder,matrix,aspects)
+    require(screen_practice([sensitive]) is None and screen_practice([sensitive,practical,practical])=='saturn'
+            and screen_practice([dict(practical,phase_end=None)]) is None,'one free practice after action and end')
     require(len(ladder['rungs'])==8 and not any(ladder['flags'].values()),'MVP ladder')
     require(double({'jupiter':6,'saturn':11},[10,1],aspects) and
             not double({'jupiter':6,'saturn':11},[1,5],aspects),'independent reference targets')

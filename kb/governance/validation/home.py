@@ -104,24 +104,48 @@ def calendar_week(days, boundaries, policy, vedha, ranking, activity, aspects, o
 
 def month(segments, vedha, events, start, end):
     """Contiguous half-open segments split at every ingress and obstruction endpoint."""
-    totals = {g:Counter() for g in ('sun','mars','mercury','venus')}
+    houses = {g:Counter() for g in ('sun','mars','mercury','venus')}
+    totals = {g:Counter() for g in houses}
     cursor = start
     for left,right,positions in segments:
         if left!=cursor or right<=left or right>end:
             raise ValueError('Incomplete or overlapping month')
         for g, durations in totals.items():
-            durations[testimony(g,positions,vedha)] += right-left
+            position=positions.get(g)
+            houses[g][position] += right-left
+            durations[position,testimony(g,positions,vedha)] += right-left
         cursor=right
     if cursor!=end:
         raise ValueError('Incomplete month')
-    stances = {g:next((k for k,v in counts.items() if 2*v>end-start),None) for g,counts in totals.items()}
+    stances = {}
+    for g, visits in houses.items():
+        dominant=next((h for h,v in visits.items() if 2*v>end-start),None)
+        stances[g]=next((stance for (h,stance),duration in totals[g].items()
+                         if dominant is not None and h==dominant and 2*duration>visits[h]),None)
     sun = stances['sun']
     tone = ('Supportive' if sun=='support' else 'Take care') if (
         sun in ('support','caution') and list(stances.values()).count(sun)>=3) else 'Steady'
     priority = ['sankranti','ingress','station','antar']
-    upcoming = sorted({(d,k,g) for d,k,g in events if start<=d<end and k in priority},
+    eligible=set()
+    for d,k,g in events:
+        if not start<=d<end: continue
+        if k=='ingress' and g=='sun': k='sankranti'
+        if (k=='sankranti' and g=='sun' or k in ('station','ingress') and g in totals
+                or k=='antar'):
+            eligible.add((d,k,g))
+    upcoming = sorted(eligible,
                       key=lambda e:(e[0],priority.index(e[1]),e[2]))[:3]
     return tone, upcoming
+
+
+def month_screen(segments, vedha, events, start, end, saturn_house, saturn_sav, antar_nature):
+    tone,upcoming=month(segments,vedha,events,start,end)
+    sankranti=[]
+    for day in sorted({d for d,k,g in events if g=='sun' and k in ('ingress','sankranti') and start<=d<end}):
+        positions=next(positions for a,b,positions in segments if a<=day<b)
+        sankranti.append((day,positions.get('sun')))
+    return dict(tone=tone,upcoming=upcoming,sankranti=sankranti,
+                phase=phase(saturn_house,saturn_sav,antar_nature))
 
 
 def phase(saturn_house, sav, antar_nature):
@@ -165,6 +189,12 @@ def validate(read, require):
           enumerate(('Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'),1)]
     require(calendar_week(days,['2032-03-07'],policy,vedha,ranking,activity,aspects,OWNERS)==
             (['Steady']*7,'week-period'),'actual Monday-Sunday screen')
+    result=month_screen([(0,4,adverse),(4,10,supportive)],vedha,
+        [(4,'ingress','sun'),(4,'sankranti','sun'),(5,'station','saturn'),(5,'antar','mars'),
+         (6,'station','venus'),(8,'ingress','mercury')],0,10,2,28,'Yogakaraka')
+    require(result['sankranti']==[(4,11)] and result['tone']=='Supportive' and
+            result['upcoming']==[(4,'sankranti','sun'),(5,'antar','mars'),(6,'station','venus')],
+            'actual sankranti house, deduplication, slow events outside list and three-item limit')
     require(phase(12,28,'Benefic')==['phase','phase-support','phase-timing'] and not phase(3,30,'Benefic'),'phase')
     messages=read('modules/home/copy.yaml')['messages']
     for i,segment in enumerate(('rising','middle','closing'),1):

@@ -125,6 +125,27 @@ class EngineExport(unittest.TestCase):
                 labels = self.source[path]['public_label']
                 self.assertEqual(messages[catalog[bindings[path]]['term']], labels.get(loc, labels['en']))
 
+    def test_personal_calendar_projection(self):
+        admin=self.docs['admin/catalog.json']
+        for hidden in ('ayu','mrita-age-state'):
+            path=f'glossary/entries/{hidden}.yaml'
+            self.assertIn(path,admin['resources'])
+            self.assertNotIn(path,admin['public_keys'])
+            for field in ('term','meaning'):
+                for locale in self.manifest['locales']['required']+self.manifest['locales']['planned']:
+                    self.assertNotIn(token('m',path+'/'+field),self.docs[f'public/locales/{locale}.json']['messages'])
+        for path in ('life-areas/conflict-ladder.yaml','life-areas/pipeline.yaml',
+                     'modules/home/day.yaml','modules/home/week.yaml','modules/home/month.yaml'):
+            self.assertIn(path,admin['resources'])
+            self.assertNotIn(path,admin['public_keys'])
+        path='modules/home/copy.yaml'
+        for key,words in self.source[path]['messages'].items():
+            entry=self.docs['public/catalog.json']['entries'][admin['public_keys'][f'{path}#messages/{key}']]
+            self.assertEqual(set(entry),{'user_text'})
+            for locale in self.manifest['locales']['required']+self.manifest['locales']['planned']:
+                self.assertEqual(self.docs[f'public/locales/{locale}.json']['messages'][entry['user_text']],
+                                 words.get(locale,words['en']))
+
     def test_practice_labels(self):
         key = token('m', 'shared/traditional-practices/options.yaml#label')
         def inspect(value):
