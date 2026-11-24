@@ -154,15 +154,17 @@ entries:
     - class 1 part 00 10:12
     - class 2 part 00 10:04
     use: staff-diagnostic
-    inputs: 'Window of about two or three minutes either way. Any one relationship check may suffice: 1st and 9th
-      CSLs are the same body; a younger sibling’s natal star under the 3rd CSL; the mother’s natal star under the
-      4th; a son’s natal star under the 5th; a spouse’s natal star under the 7th; an elder sibling’s natal star
-      under the 11th. Vighati = minutes after sunrise × 60 ÷ 24. Nakshatra-trio remainder: (vighati × 4) ÷ 9. Weekday
-      remainder: (vighati × 3) ÷ 7, Sunday = 1.'
-    interpretation: Staff may use these checks only as an internal diagnostic on an already approximate time. Do
-      not expose them in the product. Do not include the gender-from-time test.
-    review_notes: Reference attribution lacks a chapter. Relative-star checks require separate privacy review. Never
-      adjust a clock solely to obtain a particular reading (class 4 part 03 00:51).
+    inputs:
+      relative_star_csl_by_relationship:
+        younger_sibling: 3
+        mother: 4
+        son: 5
+        spouse: 7
+        elder_sibling: 11
+    interpretation: For an approximate time, staff may compare a relative’s birth star with the indicated cusp
+      sub-lord. A single match may support the time under review.
+    review_notes: Relative-star checks require separate privacy review. Never adjust a clock solely to obtain a
+      particular reading (class 4 part 03 00:51).
     id: nadi.nakshatra-nadi.cn.btr-admin
   CN-H12:
     approval: draft
