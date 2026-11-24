@@ -100,3 +100,7 @@ The corpus contains 2,732 draft rules and 955 registered facts. Eleven area reci
 ## Batch 10 source locators
 
 The review map matches 1,229 authored top-level blocks and nine nested remedy citations. One template block is excluded. The Moon in Cancer succession probe and the optional Abhijit election arc include boundary and unresolved cases. The retired opposite-node conjunction remains an admin guard.
+
+## Batch 11 final review
+
+All thirty area promises have explicit fixture expectations. Three health routes contribute at most one challenge together. Two yoga entries have revised Kannada and Hindi copy. All 120 gated Lal Kitab placement entries carry the native-review flag. The KB contains 2,732 reading rules and 955 fact keys.

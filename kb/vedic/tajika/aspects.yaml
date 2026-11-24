@@ -23,7 +23,7 @@ orb_degrees:
   venus: 7
   saturn: 9
 angles:
-  0: support
+  0: context
   60: support
   90: friction
   120: support
@@ -38,4 +38,4 @@ transfer: 'Nakta: a faster intermediary separates from one principal and next ap
   Yamaya: both principals apply to the same slower collector. Require distinct actors and no direct applying link.'
 reception: Mutual domicile reception if each occupies a sign ruled by the other. Record independently; reception alone
   does not establish perfection.
-traditions_differ: Neelakanthi groups conjunction and opposition as open hostility. An applying conjunction counts as ithasala. The support label here describes application testimony alone. Interpret its quality from the participating planets.
+traditions_differ: Neelakanthi groups conjunction and opposition as open hostility. An applying conjunction counts as ithasala. Conjunction alone has neutral tone. The participating planets and independent testimony supply its interpretation.

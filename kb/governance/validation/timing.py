@@ -73,6 +73,14 @@ def bind(area,chart,period,recipe,read):
         bound['yoga']=dict(active=proof.get(prefix+'active') if proof.get('period_evidence') else False,
                            gate=proof.get(prefix+'gate'), softened=proof.get('display')=='yoga-mild',
                            cancelled=proof.get('display')=='omitted')
+    if area=='health' and lagna is not None and bound['tier']!='C' and 'promise-house-lord' not in bound['unstable']:
+        from synthesis import health_challenges
+        nature_profile = read('vedic/planets/benefic-profile.yaml')
+        nature = dict.fromkeys(nature_profile['always_malefic'],'malefic')
+        nature.update(chart.get('natural_nature',{}))
+        routes = health_challenges(lagna,signs,nature,aspects)
+        if routes:
+            bound['lagna']['health_challenges'] = routes
     if lagna is None:return bound
     def lord(h):return OWNERS[(lagna+h-1)%12]
     def at(h):return {g for g,s in signs.items() if s==(lagna+h-1)%12}

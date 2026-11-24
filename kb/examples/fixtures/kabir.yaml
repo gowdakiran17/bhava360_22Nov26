@@ -814,6 +814,8 @@ consultation:
             - Benefic
             - Benefic
             area_role: resistance
+        health_challenges:
+        - lagna-lord-in-sixth-eighth-twelfth
       moon_witnesses:
         lord: Strong
         occupants: &id018

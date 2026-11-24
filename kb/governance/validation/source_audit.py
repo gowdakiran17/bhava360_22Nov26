@@ -39,6 +39,26 @@ def inventory(root=ROOT):
     return dict(sorted(counts.items()))
 
 
+def validate_baseline(mapping, expected, rules):
+    reading = other = templates = 0
+    for area in mapping['areas']:
+        for row in area['entries']:
+            ids = row.get('rule_ids', [row.get('rule_id')])
+            if row['blocks'] != len(ids):
+                raise ValueError('Incorrect locator group size: '+row['path'])
+            if Path(row['path']).parts[:2] == ('kb','templates'):
+                templates += len(ids)
+            else:
+                reading += sum(rid in rules for rid in ids)
+                other += sum(rid not in rules for rid in ids)
+    nested = len(mapping['meta']['nested_pending_not_counted'])
+    top = reading + other + templates
+    actual = dict(reading_rules=reading, other_authored_top_level=other, excluded_templates=templates,
+                  mapped_top_level=top,nested_remedies=nested,mapped_authored_total=top-templates+nested)
+    if actual != expected or top != mapping['meta']['pending_total']:
+        raise ValueError(f'Locator map scope mismatch: {actual}')
+
+
 def validate(expected):
     observed = inventory()
     if expected != observed:

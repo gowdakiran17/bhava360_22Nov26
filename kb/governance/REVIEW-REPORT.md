@@ -577,3 +577,9 @@ All 82 yoga entries have revised Kannada and Hindi text, pending native review. 
 Across 5,386 authored citation blocks, 241 have a high-confidence chapter locator, 485 have an edition-dependent locator, and 62 await verification. The latter include nine nested japa citations and the primary Mula edition candidate. There are 451 newly classified editorial blocks, 959 earlier editorial attributions, 305 chapter-only citations, two supplied in the brief and 2,881 previously verified blocks. Run the source audit to reproduce the breakdown. Every pending block has an explicit verification task.
 
 The review used Jyoti’s supplied map. Chapter-location confidence does not establish that an edition or verse was independently inspected. Lal Kitab remains gated on the single Joshi 1952 edition. Nadi remains held.
+
+## Batch 11 final review
+
+The historical 1,185 pending reading-rule citations plus 44 top-level citations in other authored files and one excluded template account for the locator map’s 1,230 top-level blocks. Including the nine nested remedy citations gives 1,238 authored blocks in that historical cohort. The current all-depth audit covers 5,388 source blocks. Two new candidate health locators bring the pending count to 64. The remaining counts are 2,881 verified, 241 verified_locator, 485 locator_medium, 305 chapter-only, 451 editorial, 959 editorial-no-classical-claim and two supplied-in-brief.
+
+The health witness changes Asha’s health promise to Moderate and her card to Steady. Kabir has a new witness with the same band. The other three fixtures keep their recorded results. A Tajika conjunction can establish application while leaving the question’s direction unresolved. All 120 gated Lal Kitab placement texts await native review. The two yoga copy revisions also await native review.

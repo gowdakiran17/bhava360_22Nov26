@@ -23,7 +23,7 @@ Today resolves to Supportive. The calendar month resolves to Supportive.
 | career | Strong | active |
 | love-marriage | Moderate | active |
 | money | Strong | active |
-| health | Strong | active |
+| health | Moderate | active |
 | family-home | Moderate | active |
 | learning | Strong | active |
 

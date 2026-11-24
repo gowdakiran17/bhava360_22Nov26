@@ -129,8 +129,10 @@ def papasamya(positions, reference, exempt=()):
 
 
 def validate(rules,read,require):
-    from source_audit import validate as validate_sources
-    validate_sources(read('governance/source-gaps.yaml')['counts_by_verification'])
+    from source_audit import validate as validate_sources, validate_baseline
+    source_report = read('governance/source-gaps.yaml')
+    validate_baseline(read('governance/source-locators.yaml'),source_report['locator_map_baseline'],rules)
+    validate_sources(source_report['counts_by_verification'])
     yogas=read('vedic/dashas/chara/periods.yaml')
     j=read('examples/jaimini-j2.yaml')
     left=j['cycle_one']; right=j['cycle_two']

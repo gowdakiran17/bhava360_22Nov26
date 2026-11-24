@@ -1,11 +1,19 @@
 approval: draft
 scope: Verification-bearing sources in authored YAML at any depth, including remedy options. Templates, the input locator map and distribution artifacts are excluded.
+# Historical pending cohort, before the Batch 10 locator decisions were applied.
+locator_map_baseline:
+  reading_rules: 1185
+  other_authored_top_level: 44
+  excluded_templates: 1
+  mapped_top_level: 1230
+  nested_remedies: 9
+  mapped_authored_total: 1238
 counts_by_verification:
   chapter-only: 305
   editorial: 451
   editorial-no-classical-claim: 959
   locator_medium: 485
-  pending: 62
+  pending: 64
   supplied-in-brief: 2
   verified: 2881
   verified_locator: 241

@@ -18,6 +18,15 @@ promise:
     direction (Strong supports, Moderate is neutral, Weak challenges). A split preserves the starting grade. All
     qualifiers together move at most one step. Withhold when the primary Lagna evidence is missing. Wealth needs
     both resources and gains; a weak or unknown gains lord cannot confirm the highest band.
+  health_challenge:
+    tag: CLASSICAL
+    frame: Whole-sign natal Lagna only. Use full D1 aspects and the natural benefic profile for the sixth lord.
+    routes: [sixth-lord-in-lagna, lagna-lord-in-sixth-eighth-twelfth, malefic-sixth-lord-aspects-lagna]
+    effect: Any established route contributes one adverse qualifier. Combine with the other qualifiers before the one-step clamp. Missing inputs supply no adverse vote.
+    visibility: Internal wellness qualification only. No diagnosis or event prediction.
+    sources:
+    - {work_id: bphs, book: Brihat Parashara Hora Shastra, edition: null, translator_edition: R. Santhanam, chapter: 12, verse: null, other_locator: First-house results, verification: pending, to_verify: true}
+    - {work_id: phaladeepika, book: Phaladeepika, edition: phaladeepika-sastri-1950, chapter: 15, verse: null, other_locator: House results, verification: pending, to_verify: true}
   difficulty_roles:
     health: {6: resistance}
     career: {6: service and problem-solving}
