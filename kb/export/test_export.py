@@ -32,6 +32,7 @@ class EngineExport(unittest.TestCase):
             if name.startswith('public/'):
                 for marker in (b'nadi.nakshatra-nadi.', b'Nakshatra Nadi', b'Dr. Dinesh', b'nadi.nn.'):
                     self.assertNotIn(marker, data, name)
+        self.assertNotIn('nakshatra-nadi', self.manifest['conventions'])
         held = 'glossary/entries/nakshatra-nadi.yaml'
         self.assertNotIn(token('p', held), self.docs['public/catalog.json']['entries'])
         source = deepcopy(self.source)

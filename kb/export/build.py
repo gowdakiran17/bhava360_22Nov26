@@ -288,7 +288,9 @@ def compile_files(docs, commit):
     total = len(by_id)-len(evidence)
     manifest = {'version':f'1.{commit[:12]}','commit':commit,'schema_version':FORMAT,
                 'authoring_schema_version':docs['SCHEMA.yaml']['version'],'locales':settings,
-                'conventions':docs['shared/conventions/profiles.yaml']['calculation_profiles'],
+                'conventions':{name: record for name, record in
+                               docs['shared/conventions/profiles.yaml']['calculation_profiles'].items()
+                               if name != 'nakshatra-nadi'},
                 'counts':{'system_counts':counts,'source_rules':len(by_id),'canonical_rules':total,
                           'evidence_aliases':len(evidence),'copy_aliases':len(copy),'routes':len(routes),
                           'routed_rules':len(set().union(*routes.values())),'messages_per_locale':len(messages.bundles['en'])}}
