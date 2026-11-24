@@ -128,3 +128,11 @@ remedy:
     en: "You can ask someone you trust for help with one small task."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಂದು ಸಣ್ಣ ಕೆಲಸಕ್ಕೆ ನಂಬಿಕೆಯ ವ್ಯಕ್ತಿಯ ನೆರವು ಕೇಳಬಹುದು.
     hi: चाहें तो किसी भरोसेमंद व्यक्ति से एक छोटे काम में मदद माँग सकते हैं।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: moon
+  area_strength:
+    family-home: core
+    learning: related

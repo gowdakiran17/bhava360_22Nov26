@@ -84,3 +84,11 @@ remedy:
     en: You can pause to hear another view before acting.
     kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ಇನ್ನೊಂದು ಅಭಿಪ್ರಾಯ ಕೇಳಬಹುದು.
     hi: कदम उठाने से पहले दूसरी राय सुन सकते हैं।
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    learning: related

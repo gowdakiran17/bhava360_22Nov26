@@ -59,3 +59,11 @@ vastu:
   tone: Supportive
   reason: The selected profile favours the south, west or southwest for stairs and preserves the central circulation
     space. The selected layout profile favours this location for the recorded use.
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

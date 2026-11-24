@@ -56,3 +56,9 @@ calculation:
   - lagna
   bounds: lower-inclusive upper-exclusive
   input: raw_prastara
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

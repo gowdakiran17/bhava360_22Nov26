@@ -88,3 +88,11 @@ remedy:
     en: You can choose one small part to practise today.
     kn: ಹೊಸ ಕೌಶಲದ ಒಂದು ಸಣ್ಣ ಭಾಗವನ್ನು ಇಂದು ಅಭ್ಯಾಸ ಮಾಡಬಹುದು.
     hi: आज आप किसी नए हुनर के एक छोटे हिस्से का अभ्यास कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    family-home: related
+    learning: related

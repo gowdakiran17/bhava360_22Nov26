@@ -85,3 +85,10 @@ guided:
   choice: hands-fire
   tone: Supportive
   reason: This confirmed choice on the right hand selects the editorial prompt about trying a fresh idea.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

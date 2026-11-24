@@ -82,3 +82,11 @@ remedy:
     en: You can follow through on a small promise today.
     kn: ಇಂದು ಕೊಟ್ಟ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आज अपना कोई छोटा वादा पूरा कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    money: related

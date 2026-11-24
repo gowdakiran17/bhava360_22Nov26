@@ -89,3 +89,11 @@ remedy:
     en: You may enjoy explaining an idea to someone who is learning it.
     kn: ಕಲಿಯುತ್ತಿರುವವರಿಗೆ ಒಂದು ವಿಚಾರವನ್ನು ವಿವರಿಸುವುದರಲ್ಲಿ ನಿಮಗೆ ಸಂತೋಷ ಸಿಗಬಹುದು.
     hi: किसी सीखने वाले को एक विचार समझाने में आपको आनंद मिल सकता है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    children: related
+    learning: related

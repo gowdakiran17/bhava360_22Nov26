@@ -71,6 +71,7 @@ def fixture_facts(chart, tables):
     host = signs[pos[g]]['lord']
     exalt_lord = next(s['lord'] for s in signs if s['id'] == exalt)
     values.update({'d1.dignity.' + key: deb and flag for key, flag in {
+        'exchange_with_dispositor': host != g and signs[pos[host]]['lord'] == g,
         'debility_lord_angular': angular(pos[host]),
         'exaltation_lord_angular': angular(pos[exalt_lord]),
         'mutual_kendras': host != exalt_lord and distance(pos[host], pos[exalt_lord]) in ANGLES,
@@ -96,6 +97,8 @@ def validate_yoga_charts(rules, read, evaluate, require):
     for case in read('examples/yoga-charts.yaml')['cases']:
         require(case['fixture'] in {'Asha', 'Ravi', 'Meera', 'Kabir', 'Dev'}, 'synthetic fixture name')
         facts = fixture_facts(case, tables)
+        if 'multiple_relief_branches' in case:
+            require({k for k in relief_keys if facts[k]} == set(case['multiple_relief_branches']), case['id'])
         if 'sole_relief_branch' in case:
             key = case['sole_relief_branch']
             require({k for k in relief_keys if facts[k]} == {key}, case['id'] + ' isolated relief branch')

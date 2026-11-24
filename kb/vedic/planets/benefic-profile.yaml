@@ -14,6 +14,7 @@ moon:
 mercury:
   tag: CLASSICAL
   default: predominance
+  alternative: mercury-strict
   associates: [sun, moon, mars, jupiter, venus, saturn, rahu, ketu]
   method: Count other grahas in Mercury's D1 sign. Malefic only when malefics outnumber benefics. Count both nodes and use the selected Moon class.
   traditions_differ: Strict BPHS 3.11 treats any malefic companion as sufficient. The predominance interpretation follows the Phaladeepika ch.2 discussion; some PyJHora paths omit nodes.

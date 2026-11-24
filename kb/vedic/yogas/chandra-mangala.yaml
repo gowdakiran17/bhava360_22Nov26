@@ -53,3 +53,10 @@ remedy:
     en: You may want to review the resources available for your plan.
     kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    business: core

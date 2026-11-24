@@ -102,3 +102,13 @@ remedy:
     en: You can clarify who needs the result of your next task.
     kn: ನಿಮ್ಮ ಮುಂದಿನ ಕೆಲಸದ ಫಲ ಯಾರಿಗೆ ಬೇಕು ಎಂಬುದನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप पता कर सकते हैं कि आपके अगले काम के नतीजे की ज़रूरत किसे है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    family-home: related
+    learning: related
+    career: related
+    business: related

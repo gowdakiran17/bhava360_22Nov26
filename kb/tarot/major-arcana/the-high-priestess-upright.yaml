@@ -69,3 +69,10 @@ card_profile:
   - quiet observation
   - listening
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    spirituality: core

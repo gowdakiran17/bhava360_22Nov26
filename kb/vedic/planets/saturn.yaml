@@ -17,6 +17,7 @@ graha:
   - sustained responsibility
   nature:
     class: malefic
+    functional_table: vedic/lordships/functional.yaml
     functional_nature:
       aries:
         houses_ruled:
@@ -171,3 +172,12 @@ remedy:
     en: You can follow through on a small promise to someone who relies on you.
     kn: ನಿಮ್ಮನ್ನು ನಂಬಿರುವವರಿಗೆ ನೀಡಿದ ಒಂದು ಸಣ್ಣ ಮಾತನ್ನು ಉಳಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: जो आप पर भरोसा करता है, उससे किया कोई छोटा वादा निभा सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    family-home: related
+    learning: related

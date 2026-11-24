@@ -82,3 +82,11 @@ remedy:
     en: You may listen to someone’s explanation before offering your own.
     kn: ನಿಮ್ಮ ವಿವರಣೆ ನೀಡುವ ಮುನ್ನ ಇನ್ನೊಬ್ಬರ ಮಾತನ್ನು ಆಲಿಸಬಹುದು.
     hi: अपनी बात रखने से पहले दूसरे की बात सुन सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    career: related

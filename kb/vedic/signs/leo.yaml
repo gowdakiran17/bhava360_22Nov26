@@ -84,3 +84,11 @@ remedy:
     en: You may acknowledge someone else’s contribution to a shared task.
     kn: ಒಟ್ಟಿನ ಕೆಲಸದಲ್ಲಿ ಮತ್ತೊಬ್ಬರ ಕೊಡುಗೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: साझे काम में किसी और के योगदान की सराहना कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    learning: related

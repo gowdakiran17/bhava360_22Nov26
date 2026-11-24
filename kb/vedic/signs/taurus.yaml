@@ -87,3 +87,11 @@ remedy:
     en: You can take a moment to thank someone who helps at home.
     kn: ಮನೆಯಲ್ಲಿ ಸಹಾಯ ಮಾಡುವವರಿಗೆ ಧನ್ಯವಾದ ಹೇಳಬಹುದು.
     hi: घर में मदद करने वाले किसी व्यक्ति को धन्यवाद दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    money: related
+    family-home: related

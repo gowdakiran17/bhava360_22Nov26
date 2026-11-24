@@ -59,3 +59,11 @@ public_label:
   en: Jupiter with a lunar node
   kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನೊಂದಿಗೆ ಗುರು
   hi: चंद्र पथ के कटान के पास बृहस्पति
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    spirituality: related

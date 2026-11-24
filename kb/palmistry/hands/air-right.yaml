@@ -85,3 +85,10 @@ guided:
   choice: hands-air
   tone: Supportive
   reason: This confirmed choice on the right hand selects the editorial prompt about expressing an idea.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

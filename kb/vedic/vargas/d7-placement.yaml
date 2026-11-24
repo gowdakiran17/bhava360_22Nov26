@@ -97,3 +97,11 @@ varga:
     shodasavarga: 0.5
     dashavarga: 1.5
   purpose: caregiving
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    children: related
+    family-home: related

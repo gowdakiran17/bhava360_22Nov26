@@ -95,7 +95,8 @@ sources:
   supports: Names of the house-based yogas. The broad three-house screen follows the library profile.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending. Test vedic.yogas.harsha
+  before synthesizing this dusthana placement.
 user_text:
   en: When sorting out an obligation, you can clarify who will handle a shared cost if arrangements change.
   kn: ಒಂದು ಜವಾಬ್ದಾರಿಯನ್ನು ನಿಭಾಯಿಸುವಾಗ ವ್ಯವಸ್ಥೆ ಬದಲಾದರೆ ಹಂಚಿಕೊಂಡ ವೆಚ್ಚವನ್ನು ಯಾರು ನೋಡಿಕೊಳ್ಳುತ್ತಾರೆ ಎಂದು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
@@ -112,3 +113,13 @@ remedy:
     en: "You can write down one shared responsibility you would like to discuss."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ನೀವು ಚರ್ಚಿಸಲು ಬಯಸುವ ಒಂದು ಹಂಚಿಕೆಯ ಜವಾಬ್ದಾರಿಯನ್ನು ಬರೆದಿಡಬಹುದು.
     hi: "चाहें तो कोई एक साझी ज़िम्मेदारी लिख सकते हैं जिस पर आप बात करना चाहते हैं।"
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    health: related
+    love-marriage: related
+    spirituality: related

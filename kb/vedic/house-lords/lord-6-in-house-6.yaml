@@ -83,7 +83,8 @@ sources:
   supports: Names of the house-based yogas. The broad three-house screen follows the library profile.
   verification: verified
 confidence: medium
-review_notes: Yoga links require their own predicates on the same lord pair. Native review pending.
+review_notes: Yoga links require their own predicates on the same lord pair. Native review pending. Test vedic.yogas.harsha
+  before synthesizing this dusthana placement.
 user_text:
   en: When sorting out an obligation, you can identify one duty that needs attention first.
   kn: ಒಂದು ಜವಾಬ್ದಾರಿಯನ್ನು ನಿಭಾಯಿಸುವಾಗ ಮೊದಲು ಗಮನ ಬೇಕಾದ ಒಂದು ಹೊಣೆಯನ್ನು ಗುರುತಿಸಬಹುದು.
@@ -100,3 +101,11 @@ remedy:
     en: You may find it easier to address one manageable task at a time.
     kn: ನಿಭಾಯಿಸಬಹುದಾದ ಒಂದು ಕೆಲಸವನ್ನು ಒಂದೊಂದಾಗಿ ಕೈಗೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
     hi: एक बार में एक संभालने योग्य काम चुनना आपके लिए मददगार हो सकता है।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    health: related

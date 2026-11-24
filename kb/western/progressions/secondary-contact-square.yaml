@@ -51,3 +51,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: caution
+  weight_class: secondary
+  time_scope: transit
+  reference: none
+  area_strength: {}

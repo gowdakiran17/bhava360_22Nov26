@@ -89,8 +89,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When a shared responsibility changes, you can look for a lesson worth passing on.
   kn: ಹಂಚಿಕೊಂಡ ಜವಾಬ್ದಾರಿ ಬದಲಾದಾಗ ಇನ್ನೊಬ್ಬರೊಂದಿಗೆ ಹಂಚಿಕೊಳ್ಳಬಹುದಾದ ಪಾಠವನ್ನು ಹುಡುಕಬಹುದು.
@@ -107,3 +107,13 @@ remedy:
     en: You can share a useful explanation when someone asks.
     kn: ಕೇಳಿದವರಿಗೆ ಉಪಯುಕ್ತ ವಿವರಣೆ ನೀಡಬಹುದು.
     hi: किसी के पूछने पर उपयोगी जानकारी साझा कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related

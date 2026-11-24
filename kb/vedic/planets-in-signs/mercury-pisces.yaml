@@ -90,3 +90,11 @@ remedy:
     en: You can clarify an instruction for someone who asks.
     kn: ಕೇಳಿದವರಿಗೆ ಸೂಚನೆಯನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
     hi: किसी के पूछने पर निर्देश स्पष्ट कर सकते हैं।
+evidence:
+  direction: caution
+  weight_class: secondary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    business: related

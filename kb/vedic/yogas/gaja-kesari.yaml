@@ -63,3 +63,10 @@ remedy:
     en: You may find it helpful to talk through an idea before acting.
     kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
     hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: moon
+  area_strength:
+    learning: core

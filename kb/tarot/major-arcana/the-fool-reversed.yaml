@@ -69,3 +69,10 @@ card_profile:
   - an overlooked risk
   - curiosity
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    learning: core

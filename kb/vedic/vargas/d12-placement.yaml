@@ -92,3 +92,10 @@ varga:
     shodasavarga: 0.5
     dashavarga: 1.5
   purpose: family background
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: core

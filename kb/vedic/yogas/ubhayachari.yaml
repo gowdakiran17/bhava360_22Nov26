@@ -75,3 +75,10 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: sun
+  area_strength:
+    career: core

@@ -88,8 +88,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When considering advice from a teacher, you can ask what would make the arrangement work for everyone involved.
   kn: ಗುರುವಿನ ಸಲಹೆಯನ್ನು ಪರಿಶೀಲಿಸುವಾಗ ಭಾಗಿಯಾದವರಿಗೆ ವ್ಯವಸ್ಥೆ ಹೇಗೆ ಅನುಕೂಲವಾಗಬಹುದು ಎಂದು ಕೇಳಬಹುದು.
@@ -106,3 +106,12 @@ remedy:
     en: You can make room for someone else’s preference today.
     kn: ಇಂದು ಇನ್ನೊಬ್ಬರ ಆಯ್ಕೆಗೆ ಅವಕಾಶ ನೀಡಬಹುದು.
     hi: आज किसी और की पसंद को भी जगह दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    learning: related
+    spirituality: related
+    travel-relocation: related

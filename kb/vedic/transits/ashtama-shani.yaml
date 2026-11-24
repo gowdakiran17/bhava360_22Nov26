@@ -51,3 +51,13 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: caution
+  weight_class: modifier
+  time_scope: transit
+  reference: moon
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related

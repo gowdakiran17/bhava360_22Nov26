@@ -77,3 +77,10 @@ guided:
   choice: marks-cross
   tone: Steady
   reason: This confirmed choice on the right hand selects the editorial prompt about balancing two priorities.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

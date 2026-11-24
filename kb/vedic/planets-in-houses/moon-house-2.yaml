@@ -87,8 +87,8 @@ sources:
   supports: Peak directions of the seven visible grahas.
   verification: verified
 confidence: medium
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When discussing household resources, you may find it helpful to ask what feels different today.
   kn: ಮನೆಯ ಸಂಪನ್ಮೂಲಗಳ ಬಗ್ಗೆ ಚರ್ಚಿಸುವಾಗ ಇಂದು ಯಾವುದು ಭಿನ್ನವೆನಿಸುತ್ತದೆ ಎಂದು ಕೇಳಿಕೊಳ್ಳುವುದು ನೆರವಾಗಬಹುದು.
@@ -105,3 +105,11 @@ remedy:
     en: You can ask someone close what support they would welcome.
     kn: ಆತ್ಮೀಯರಿಗೆ ಯಾವ ನೆರವು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
     hi: किसी करीबी से पूछ सकते हैं कि उन्हें कैसी मदद चाहिए।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    family-home: related

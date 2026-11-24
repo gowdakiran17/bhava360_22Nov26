@@ -99,3 +99,10 @@ varga:
     shodasavarga: 1
     dashavarga: 1.5
   purpose: resources
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    money: core

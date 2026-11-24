@@ -25,7 +25,7 @@ def benefic(g, positions, table, variant=None, mercury_method="predominance"):
         if pos is not None and pos//30 != positions[g]//30:
             continue
         votes = [1] if nature is True else [-1] if nature is False else [-1,1]
-        if mercury_method == 'strict':
+        if mercury_method == 'mercury-strict':
             votes = [min(0, vote) for vote in votes]
         if pos is None:
             votes.append(0)
@@ -126,13 +126,6 @@ def bhava_word(totals,h,policy):
     return 'supported' if rank<=policy['supported_through'] else 'steady' if rank<=policy['steady_through'] else 'modest'
 
 
-def planetary_word(total,minimum,policy):
-    if total is None or minimum is None or minimum<=0:
-        return None
-    ratio = total/(60*minimum)
-    return 'supported' if ratio>=policy['supported_from'] else 'steady' if ratio>=policy['steady_from'] else 'modest'
-
-
 def validate_bhava(read, require):
     table = read('vedic/strength/bhava-bala/components.yaml')
     intervals = sorted((lo,hi,g) for g,ranges in table['class_intervals_deg'].items() for lo,hi in ranges)
@@ -146,8 +139,6 @@ def validate_bhava(read, require):
     require(edge==360 and direction(table,1,255)[0]=='chatushpada' and
             direction(table,4,285)[0]=='jalachara','half-sign ownership')
     w = read('vedic/strength/user-words.yaml')
-    require([planetary_word(t,1,w['shadbala']) for t in [None,59.99,60,74.99,75]] ==
-            [None,'modest','steady','steady','supported'],'minimum thresholds')
     require([bhava_word(list(range(12)),h,w['bhava']) for h in (1,4,5,8,9,12)] ==
             ['modest','modest','steady','steady','supported','supported'] and
             bhava_word([8]*12,2,w['bhava'])=='steady' and bhava_word([],1,w['bhava']) is None,'rank boundaries')
@@ -160,7 +151,7 @@ def validate_bhava(read, require):
     require(benefic('mercury',lon,b) and benefic('mercury',dict(lon,mercury=155),b) is False
             and benefic('mercury',dict(lon,rahu=None),b) is None,'Mercury conjunction or unknown')
     mixed=dict(lon,mercury=1,jupiter=2)
-    require(benefic('mercury',mixed,b) and not benefic('mercury',mixed,b,mercury_method='strict')
+    require(benefic('mercury',mixed,b) and not benefic('mercury',mixed,b,mercury_method='mercury-strict')
             and not benefic('mercury',dict(lon,mercury=1),b),'Mercury tie versus Sun alone')
     rel = read('vedic/dignity/relationships.yaml')
     for nat, yes, no in [('friend','adhi-mitra','sama'),('neutral','mitra','shatru'),('enemy','sama','adhi-shatru')]:

@@ -86,3 +86,11 @@ remedy:
     en: You may invite someone quieter to contribute an idea.
     kn: ಹೆಚ್ಚಾಗಿ ಮಾತನಾಡದವರಿಗೂ ತಮ್ಮ ಅಭಿಪ್ರಾಯ ನೀಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
     hi: कम बोलने वाले व्यक्ति को भी सुझाव देने का अवसर दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    business: related

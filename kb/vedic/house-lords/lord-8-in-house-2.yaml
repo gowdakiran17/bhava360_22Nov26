@@ -102,3 +102,14 @@ remedy:
     en: You can recall a saying that shaped your habits.
     kn: ನಿಮ್ಮ ಅಭ್ಯಾಸಗಳ ಮೇಲೆ ಪ್ರಭಾವ ಬೀರಿದ ಮನೆಯ ಮಾತೊಂದನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप घर की कोई ऐसी कहावत याद कर सकते हैं जिसने आपकी आदतों को आकार दिया हो।
+evidence:
+  direction: neutral
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related
+    family-home: related

@@ -76,3 +76,9 @@ remedy:
     en: "You can choose a small next step that suits your present experience."
     kn: ಈಗಿನ ಅನುಭವಕ್ಕೆ ಹೊಂದುವ ಒಂದು ಸಣ್ಣ ಹೆಜ್ಜೆಯನ್ನು ಆರಿಸಬಹುದು.
     hi: अपने मौजूदा अनुभव के अनुसार एक छोटा अगला कदम चुन सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

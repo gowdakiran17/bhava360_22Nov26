@@ -78,3 +78,9 @@ remedy:
     en: "You can give a quieter concern a line of its own in your notes."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಗಮನಕ್ಕೆ ಬಾರದ ಒಂದು ವಿಷಯವನ್ನು ಪ್ರತ್ಯೇಕವಾಗಿ ಬರೆದಿಡಬಹುದು.
     hi: चाहें तो जिस बात पर कम ध्यान गया है, उसे अलग से लिख सकते हैं।
+evidence:
+  direction: caution
+  weight_class: modifier
+  time_scope: natal
+  reference: none
+  area_strength: {}

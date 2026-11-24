@@ -67,3 +67,12 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: dasha
+  reference: none
+  area_strength:
+    spirituality: related
+    learning: related
+    career: related

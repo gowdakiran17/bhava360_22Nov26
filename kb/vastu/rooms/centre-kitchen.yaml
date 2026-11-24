@@ -60,3 +60,11 @@ vastu:
   reason: The southeast is Agni’s cooking sector in the chapter 53 layout. The central cells are reserved for circulation
     in this household profile. The selected profile gives this placement a caution reading; its practical prompt
     concerns only the present arrangement.
+evidence:
+  direction: caution
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

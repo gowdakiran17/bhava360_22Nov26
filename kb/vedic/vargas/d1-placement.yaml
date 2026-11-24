@@ -94,3 +94,11 @@ varga:
     shodasavarga: 3.5
     dashavarga: 3
   purpose: life context
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    health: related
+    career: related

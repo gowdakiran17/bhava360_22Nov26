@@ -101,3 +101,13 @@ remedy:
     en: You can recall one lesson you still put into practice.
     kn: ಇಂದಿಗೂ ನೀವು ಪಾಲಿಸುತ್ತಿರುವ ಒಂದು ಪಾಠವನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
     hi: आप कोई ऐसी सीख याद कर सकते हैं जिस पर आप आज भी अमल करते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    children: related
+    learning: related
+    spirituality: related
+    travel-relocation: related

@@ -86,3 +86,11 @@ remedy:
     en: You can try explaining an idea through a story, a sketch or a worked example.
     kn: ಒಂದು ವಿಚಾರವನ್ನು ಕಥೆ, ಚಿತ್ರ ಅಥವಾ ಉದಾಹರಣೆಯ ಮೂಲಕ ವಿವರಿಸಬಹುದು.
     hi: आप कोई विचार कहानी, चित्र या हल किए हुए उदाहरण से समझा सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    career: related

@@ -77,3 +77,10 @@ guided:
   choice: lines-head
   tone: Steady
   reason: This confirmed choice on the left hand selects the editorial prompt about comparing ways to reason.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

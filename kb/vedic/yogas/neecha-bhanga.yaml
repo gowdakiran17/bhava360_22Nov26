@@ -4,7 +4,7 @@ topic: yogas
 title: Neecha Bhanga candidate
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: 'For the same debilitated classical graha, match any listed relief branch: The dispositor occupies a
+rule: 'For the same debilitated classical graha, match any listed relief branch: It exchanges signs with its distinct dispositor. The dispositor occupies a
   kendra from Lagna or Moon. The ruler of the selected graha’s exaltation sign occupies a kendra from Lagna
   or Moon. The distinct rulers of the debilitation and exaltation signs occupy mutual kendras. The dispositor
   casts a full graha aspect on the selected debilitated graha. Under the alternate reading of tunganatha,
@@ -13,6 +13,9 @@ rule: 'For the same debilitated classical graha, match any listed relief branch:
   or trine and either Lagna is movable or the Lagna lord occupies a movable navamsha.'
 conditions:
   any:
+  - fact: d1.dignity.exchange_with_dispositor
+    op: eq
+    value: true
   - fact: d1.dignity.debility_lord_angular
     op: eq
     value: true
@@ -111,3 +114,11 @@ remedy:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
     hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    career: related

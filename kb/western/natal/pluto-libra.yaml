@@ -41,7 +41,8 @@ sources:
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
 confidence: medium
-review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review. Chart placement supplies a theme; a single
+  direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: People born around the same time may share a theme of power and renewal expressed through finding a fair exchange.
   kn: ಸುಮಾರು ಒಂದೇ ಅವಧಿಯಲ್ಲಿ ಹುಟ್ಟಿದವರಲ್ಲಿ “ಅಧಿಕಾರ ಮತ್ತು ನವೀಕರಣ” ಮತ್ತು “ನ್ಯಾಯವಾದ ವಿನಿಮಯ ಕಂಡುಕೊಳ್ಳುವುದು” ಎಂಬ ವಿಷಯಗಳು
@@ -52,3 +53,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

@@ -72,6 +72,7 @@ used_by:
 - vedic.planets.venus
 - vedic.signs.cancer
 - vedic.strength-ashtakavarga.shodhana
+- vedic.strength-bhava-bala.bhava-dig
 - vedic.vargas.d2-placement
 - vedic.vargas.d24-placement
 - vedic.vargas.d27-placement

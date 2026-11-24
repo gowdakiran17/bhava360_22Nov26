@@ -17,6 +17,8 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: parashari-strength-v1
+  note: BPHS ch.27 groups Cancer with Scorpio. The selected Raman and PyJHora classification treats Cancer as a water sign.
+- profile: parashari-strength-v1
   note: MODERN default uses house count. The Sripati option uses the shorter actual arc from the weakest angle divided by three, per BPHS 27.26–27.
 - profile: parashari-strength-v1
   note: This profile uses the whole-sign midpoint. A cusp-based midpoint can change the house assessment.
@@ -47,3 +49,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

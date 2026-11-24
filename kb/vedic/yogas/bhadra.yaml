@@ -60,3 +60,10 @@ remedy:
     en: You may enjoy explaining a difficult idea clearly.
     kn: ಕಷ್ಟದ ವಿಚಾರವನ್ನು ಸ್ಪಷ್ಟವಾಗಿ ವಿವರಿಸುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
     hi: आप कठिन विचार को स्पष्ट करना पसंद कर सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    learning: core

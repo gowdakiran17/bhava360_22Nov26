@@ -41,7 +41,8 @@ sources:
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: pending
 confidence: medium
-review_notes: Draft editorial interpretation. Kannada and Hindi await native review.
+review_notes: Draft editorial interpretation. Kannada and Hindi await native review. Chart placement supplies a theme; a single
+  direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: You may find it easier to express affection when you and a partner say what each of you values.
   kn: ನಿಮಗೂ ಸಂಗಾತಿಗೂ ಮುಖ್ಯವಾದುದನ್ನು ಹಂಚಿಕೊಂಡಾಗ ಪ್ರೀತಿಯನ್ನು ವ್ಯಕ್ತಪಡಿಸುವುದು ಸುಲಭವಾಗಬಹುದು.
@@ -50,3 +51,10 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: core

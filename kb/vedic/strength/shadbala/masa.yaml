@@ -55,3 +55,9 @@ calculation:
   unit: virupa (shashtiamsa of one rupa)
   span: 30
   award: 30
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

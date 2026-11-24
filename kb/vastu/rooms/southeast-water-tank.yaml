@@ -71,3 +71,11 @@ vastu:
     unspecified:
       score: 0
       tone: Steady
+evidence:
+  direction: neutral
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

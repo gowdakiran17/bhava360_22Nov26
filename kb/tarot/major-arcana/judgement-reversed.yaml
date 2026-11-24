@@ -69,3 +69,10 @@ card_profile:
   - harsh self-criticism
   - renewal
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    spirituality: core

@@ -84,3 +84,9 @@ calculation:
   - jupiter
   - venus
   - saturn
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

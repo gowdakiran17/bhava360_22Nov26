@@ -60,3 +60,9 @@ reference_paths:
 - vedic/transits/evidence.yaml
 - vedic/transits/reentry.yaml
 - vedic/transits/saturn-moon.yaml
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: transit
+  reference: moon
+  area_strength: {}

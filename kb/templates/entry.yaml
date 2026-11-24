@@ -42,3 +42,9 @@ remedy: null  # Or {type: mantra|charity|conduct, optional: true, free: true, co
 # Vedic planet-in-sign entries carry the placement mapping defined in SCHEMA.yaml.
 # Vedic planet-in-house entries use the house placement mapping in SCHEMA.yaml.
 # Vedic house-lord entries carry house_pair and related_rules as defined in SCHEMA.yaml.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

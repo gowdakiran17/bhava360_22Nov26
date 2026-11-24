@@ -59,3 +59,11 @@ vastu:
   tone: Steady
   reason: The selected modern profile favours the southwest for the main sleeping area. Furniture and a clear passage
     are the practical considerations. The selected profile gives a contextual reading for this placement.
+evidence:
+  direction: neutral
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

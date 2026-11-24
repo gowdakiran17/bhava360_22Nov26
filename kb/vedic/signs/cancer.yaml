@@ -82,3 +82,11 @@ remedy:
     en: You can check in on someone who might appreciate company.
     kn: ಜೊತೆ ಬಯಸುವವರೊಂದಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಕಳೆಯಬಹುದು.
     hi: जिसे साथ अच्छा लगे उसके पास कुछ समय बिता सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: related
+    children: related

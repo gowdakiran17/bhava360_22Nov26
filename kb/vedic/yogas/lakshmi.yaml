@@ -68,3 +68,11 @@ remedy:
     en: You may find it useful to connect a financial choice with a value you want to practise.
     kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯದೊಂದಿಗೆ ಜೋಡಿಸಬಹುದು.
     hi: आप किसी आर्थिक चुनाव को उस मूल्य से जोड़ सकते हैं जिस पर आप अमल करना चाहते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    money: related
+    spirituality: related

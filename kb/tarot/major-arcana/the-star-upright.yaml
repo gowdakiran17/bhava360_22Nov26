@@ -69,3 +69,10 @@ card_profile:
   - renewed hope
   - hope
   tone: Supportive
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    spirituality: core

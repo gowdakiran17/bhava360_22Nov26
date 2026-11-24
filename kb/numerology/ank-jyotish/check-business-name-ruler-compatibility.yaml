@@ -29,7 +29,8 @@ sources:
   supports: Product stage binding and editorial reflection.
   verification: pending
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release.
+review_notes: Review exact locator, convention and native copy before release. Resolve the candidate and birth roots against
+  the directed compatibility table. Retain context pending resolution.
 user_text:
   en: You can consider how this option fits your own preferences.
   kn: ಈ ಆಯ್ಕೆ ನಿಮ್ಮ ಇಚ್ಛೆಗೆ ಹೇಗೆ ಹೊಂದಬಹುದು ಎಂದು ನೋಡಬಹುದು.
@@ -38,3 +39,9 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: context
+  weight_class: secondary
+  time_scope: event
+  reference: none
+  area_strength: {}

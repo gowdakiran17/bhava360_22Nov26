@@ -42,3 +42,11 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: transit
+  reference: moon
+  area_strength:
+    love-marriage: related
+    business: related

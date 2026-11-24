@@ -101,3 +101,11 @@ remedy:
     en: "You can invite someone affected by a shared decision to give their view."
     kn: ಒಂದು ತೀರ್ಮಾನದಿಂದ ಪ್ರಭಾವಿತರಾಗುವವರ ಅಭಿಪ್ರಾಯವನ್ನು ಕೇಳಬಹುದು.
     hi: किसी साझा फ़ैसले से जिस पर असर पड़ेगा, उसकी राय पूछ सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    career: related

@@ -7,7 +7,7 @@ approval: draft
 rule: For each other classical graha compute (target longitude − caster longitude) modulo 360. Interpolate the
   common aspect between consecutive knots. At the start and end of each special-aspect interval use the selected
   caster’s special peak at the indicated knot, interpolating between adjacent knot values. Add benefic aspects
-  and subtract malefic aspects, then divide by four. Jupiter and Venus are benefic. Moon is benefic for elongation
+  and subtract malefic aspects, then divide by four (MODERN all-quarter profile). Jupiter and Venus are benefic. Moon is benefic for elongation
   in (0,180]; Mercury uses the selected same-sign predominance rule, with ties benefic. Use vedic/planets/benefic-profile.yaml.
 conditions:
   all:
@@ -19,6 +19,8 @@ life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
+- profile: parashari-strength-v1
+  note: CLASSICAL BPHS ch.27 gives full aspect treatment to Mercury and Jupiter. The default all-quarter graha calculation is MODERN. Compare against the published Raman worksheet when verified.
 - profile: vedic-editorial-v1
   note: MODERN default interpolates to special peaks. CLASSICAL BPHS ch.26 instead adds fixed bonuses to the base aspect on half-open segments starting at each special knot.
 - profile: vedic-editorial-v1
@@ -97,3 +99,9 @@ calculation:
   special_method: interpolated-peak
   fixed_segment_bonus: {mars: 15, jupiter: 30, saturn: 45}
   segment_width_degrees: 30
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

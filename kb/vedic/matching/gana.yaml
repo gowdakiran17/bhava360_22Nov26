@@ -55,3 +55,10 @@ remedy: null
 matching:
   matrix: gana
   class_index: gana_stars
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

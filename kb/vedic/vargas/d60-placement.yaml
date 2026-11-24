@@ -95,3 +95,10 @@ varga:
     shodasavarga: 4
     dashavarga: 5
   purpose: subtle distinctions
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    spirituality: core

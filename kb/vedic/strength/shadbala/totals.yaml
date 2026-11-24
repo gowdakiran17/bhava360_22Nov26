@@ -89,3 +89,9 @@ calculation:
     saturn: 5
   virupas_per_rupa: 60
   wording_table: vedic/strength/user-words.yaml
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

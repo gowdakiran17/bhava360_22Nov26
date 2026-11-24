@@ -84,3 +84,11 @@ remedy:
     en: You can listen for a few minutes to someone who wants to talk.
     kn: ಮಾತನಾಡಲು ಬಯಸುವವರ ಮಾತನ್ನು ಕೆಲವು ನಿಮಿಷ ಆಲಿಸಬಹುದು.
     hi: बात करना चाहने वाले की बात कुछ मिनट सुन सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    spirituality: related
+    learning: related

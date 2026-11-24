@@ -46,3 +46,10 @@ native_review:
 remedy: null
 matching:
   inclusive_count_above: 9
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

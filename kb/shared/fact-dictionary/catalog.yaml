@@ -1439,6 +1439,26 @@ facts:
     producer: vedic.d1
     origin: Distinct qualifying lords form the stated conjunction or exchange.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
+  d1.lordship.functional_polarity:
+    type: enum
+    values: [Benefic, Neutral, Malefic, Yogakaraka]
+    producer: vedic.d1
+    origin: Internal selected-graha lookup in vedic/lordships/functional.yaml.
+    dependencies: [stable Lagna, selected graha, D1 sign owner for nodes]
+    unknown_if: Missing Lagna or unresolved node dispositor.
+  strength.planet.grade:
+    type: enum
+    values: [Strong, Moderate, Weak]
+    producer: vedic.strength
+    origin: Internal band on the unrounded vedic/strength/grade.yaml worksheet.
+    dependencies: [D1 and D9 dignity, canonical cancellation branches, house reference, motion and combustion, war, full aspects, vargottama]
+    unknown_if: Material inputs or their selected reference are unresolved.
+  d1.dignity.exchange_with_dispositor:
+    type: boolean
+    producer: vedic.d1
+    origin: The selected debilitated graha and its distinct D1 dispositor occupy signs ruled by each other.
+    dependencies: [selected graha, resolved D1 signs, classical sign ownership, D1 debilitation]
+    unknown_if: Either sign or the selected graha is unresolved.
   d1.dignity.debility_lord_angular:
     type: boolean
     producer: vedic.d1

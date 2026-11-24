@@ -114,3 +114,10 @@ matching:
     - 8
     - 0
   related_rule: vedic.doshas.nadi
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

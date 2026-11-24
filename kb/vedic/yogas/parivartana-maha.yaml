@@ -55,3 +55,9 @@ remedy:
     en: You can look for two commitments that can support each other.
     kn: ಪರಸ್ಪರ ನೆರವಾಗುವ ಎರಡು ಹೊಣೆಗಳನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: आप दो ऐसी ज़िम्मेदारियाँ पहचान सकते हैं जो एक-दूसरे में मदद करें।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

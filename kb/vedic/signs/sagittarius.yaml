@@ -87,3 +87,12 @@ remedy:
     en: You may share a lesson with someone who has asked for guidance.
     kn: ಮಾರ್ಗದರ್ಶನ ಕೇಳಿದವರೊಂದಿಗೆ ಕಲಿತ ವಿಷಯವನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
     hi: मार्गदर्शन माँगने वाले से अपनी कोई सीख बाँट सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    spirituality: related
+    travel-relocation: related

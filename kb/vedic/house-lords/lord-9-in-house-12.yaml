@@ -102,3 +102,14 @@ remedy:
     en: You may notice where you would like to leave a little room for rest.
     kn: ವಿಶ್ರಾಂತಿಗೆ ಸ್ವಲ್ಪ ಸಮಯ ಎಲ್ಲಿ ಮೀಸಲಿಡಬಹುದು ಎಂದು ಗಮನಿಸಬಹುದು.
     hi: आप देख सकते हैं कि आराम के लिए थोड़ा समय कहाँ निकाला जा सकता है।
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    learning: related
+    spirituality: related
+    travel-relocation: related
+    money: related
+    health: related

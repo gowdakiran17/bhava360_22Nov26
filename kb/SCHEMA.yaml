@@ -216,3 +216,12 @@ palmistry_guided_entries:
   routing: Bind one confirmed choice on its recorded physical hand. Use its hand-specific entry once. Older undifferentiated observations retain their original IDs.
   public_fields: [localized_tone, user_text, reflection_footer]
   technical_fields_access: [admin]
+reading_evidence:
+  required: [direction, weight_class, time_scope, reference, area_strength]
+  visibility: Internal metadata on every reading rule, including source aliases.
+  direction: {support: generally supports the area, neutral: assessed without directional preference, caution: invites care in this area, context: descriptive or unresolved}
+  weight_class: {primary: may anchor, secondary: corroborates, modifier: changes an existing indication, context: explains without setting a tone}
+  time_scope: {natal: birth-chart condition, dasha: period window, transit: moving chart contact or timed overlay, day: calendar day, event: a particular question or event, static: reference or non-temporal observation}
+  reference: {lagna: counted or anchored from ascendant, moon: counted or anchored from Moon, sun: counted or anchored from Sun, none: no such fixed origin}
+  area_strength: Each declared life_area has one relevance. Core is directly addressed, related contributes supporting context, incidental is a peripheral association. Area-neutral rules use an empty map.
+  runtime: The stored direction is generic. At KB-36 rung 3 use the chart's functional polarity for evidence about a specific graha's lordship. A context-only observation never anchors tone. See shared/explain/tone-contribution.yaml.

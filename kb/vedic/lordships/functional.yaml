@@ -1,0 +1,136 @@
+version: 1
+approval: draft
+tag: CLASSICAL
+profile: functional-lordship-v1
+scope: Whole-sign natal lordship, using the first matching precedence below. All flags and grades are internal.
+precedence: [lagna-lord, kendra-and-trikona, luminary-eighth, trikona-with-eighth-exception, eighth, three-six-eleven, pure-kendra, two-or-twelve]
+kendradhipati_policy: The flag indicates eligibility. Apply to a naturally benefic Mercury or waxing Moon under the natural profile; a naturally malefic pure kendra lord also resolves Neutral. Strong qualifies Jupiter or Venus in a dual Lagna.
+mt_policy: On dual ownership keep the MT house for commentary. It does not override first-match polarity.
+node_policy: Resolve the D1 sign owner. A Yogakaraka dispositor gives benefic polarity to its node without transferring the yoga flag. Missing Lagna or dispositor leaves polarity unknown.
+traditions_differ: Association with a conjunct graha is an alternative node treatment. Trikona plus eighth ownership is neutral in the default table.
+maraka_policy: Staff metadata only. Excluded from tone, public copy and longevity assessment.
+sources:
+- {work_id: bphs, edition: null, locator: Yogakarakas by rising sign, verification: pending}
+- {work_id: laghu-parashari, edition: null, locator: Chapter 1 lordship and luminary exemptions, verification: pending}
+- {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Functional lordship discussion (exact passage pending), verification: pending}
+cells:
+  aries:
+    sun: {houses_ruled: [5], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    moon: {houses_ruled: [4], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [1, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 1}
+    mercury: {houses_ruled: [3, 6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 6}
+    jupiter: {houses_ruled: [9, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 9}
+    venus: {houses_ruled: [2, 7], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 7}
+    saturn: {houses_ruled: [10, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 11}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  taurus:
+    sun: {houses_ruled: [4], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [3], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    mars: {houses_ruled: [7, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 12}
+    mercury: {houses_ruled: [2, 5], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Benefic, mt_house: 5}
+    jupiter: {houses_ruled: [8, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 8}
+    venus: {houses_ruled: [1, 6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 6}
+    saturn: {houses_ruled: [9, 10], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 10}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  gemini:
+    sun: {houses_ruled: [3], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    moon: {houses_ruled: [2], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [6, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 11}
+    mercury: {houses_ruled: [1, 4], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 4}
+    jupiter: {houses_ruled: [7, 10], yogakaraka: false, kendradhipati: true, strong: true, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 7}
+    venus: {houses_ruled: [5, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 5}
+    saturn: {houses_ruled: [8, 9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Neutral, mt_house: 9, traditions_differ: The ninth can receive more weight than the eighth.}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  cancer:
+    sun: {houses_ruled: [2], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [1], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    mars: {houses_ruled: [5, 10], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 10}
+    mercury: {houses_ruled: [3, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 3}
+    jupiter: {houses_ruled: [6, 9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 6}
+    venus: {houses_ruled: [4, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 4}
+    saturn: {houses_ruled: [7, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Malefic, mt_house: 8}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  leo:
+    sun: {houses_ruled: [1], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    moon: {houses_ruled: [12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [4, 9], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 9}
+    mercury: {houses_ruled: [2, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: true, mt_tiebreak: true, polarity: Malefic, mt_house: 2}
+    jupiter: {houses_ruled: [5, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Neutral, mt_house: 5, traditions_differ: The fifth can receive more weight than the eighth.}
+    venus: {houses_ruled: [3, 10], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 3}
+    saturn: {houses_ruled: [6, 7], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Malefic, mt_house: 7}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  virgo:
+    sun: {houses_ruled: [12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    mars: {houses_ruled: [3, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 8}
+    mercury: {houses_ruled: [1, 10], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 1}
+    jupiter: {houses_ruled: [4, 7], yogakaraka: false, kendradhipati: true, strong: true, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 4}
+    venus: {houses_ruled: [2, 9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Benefic, mt_house: 2}
+    saturn: {houses_ruled: [5, 6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 6, traditions_differ: Sixth ownership can receive more weight than fifth ownership.}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  libra:
+    sun: {houses_ruled: [11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    moon: {houses_ruled: [10], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [2, 7], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 7}
+    mercury: {houses_ruled: [9, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 12}
+    jupiter: {houses_ruled: [3, 6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 3}
+    venus: {houses_ruled: [1, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 1}
+    saturn: {houses_ruled: [4, 5], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 5}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  scorpio:
+    sun: {houses_ruled: [10], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    mars: {houses_ruled: [1, 6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 6}
+    mercury: {houses_ruled: [8, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 11}
+    jupiter: {houses_ruled: [2, 5], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Benefic, mt_house: 2}
+    venus: {houses_ruled: [7, 12], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 12}
+    saturn: {houses_ruled: [3, 4], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 4}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  sagittarius:
+    sun: {houses_ruled: [9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    moon: {houses_ruled: [8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: true, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [5, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 5, traditions_differ: Prioritising the fifth reinforces the default despite twelfth ownership.}
+    mercury: {houses_ruled: [7, 10], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 10}
+    jupiter: {houses_ruled: [1, 4], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 1}
+    venus: {houses_ruled: [6, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 11}
+    saturn: {houses_ruled: [2, 3], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Malefic, mt_house: 3}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  capricorn:
+    sun: {houses_ruled: [8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: true, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [7], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: false, polarity: Neutral}
+    mars: {houses_ruled: [4, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 4}
+    mercury: {houses_ruled: [6, 9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 9}
+    jupiter: {houses_ruled: [3, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 12}
+    venus: {houses_ruled: [5, 10], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 10}
+    saturn: {houses_ruled: [1, 2], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Benefic, mt_house: 2}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  aquarius:
+    sun: {houses_ruled: [7], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: false, polarity: Neutral}
+    moon: {houses_ruled: [6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    mars: {houses_ruled: [3, 10], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 3}
+    mercury: {houses_ruled: [5, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Neutral, mt_house: 8, traditions_differ: The eighth can receive more weight than the fifth.}
+    jupiter: {houses_ruled: [2, 11], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: true, mt_tiebreak: true, polarity: Malefic, mt_house: 11}
+    venus: {houses_ruled: [4, 9], yogakaraka: true, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Yogakaraka, mt_house: 9}
+    saturn: {houses_ruled: [1, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 1}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+  pisces:
+    sun: {houses_ruled: [6], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Malefic}
+    moon: {houses_ruled: [5], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: Benefic}
+    mars: {houses_ruled: [2, 9], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Benefic, mt_house: 2}
+    mercury: {houses_ruled: [4, 7], yogakaraka: false, kendradhipati: true, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: true, mt_tiebreak: true, polarity: Neutral, mt_house: 7}
+    jupiter: {houses_ruled: [1, 10], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Benefic, mt_house: 10}
+    venus: {houses_ruled: [3, 8], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 8}
+    saturn: {houses_ruled: [11, 12], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: true, maraka: false, mt_tiebreak: true, polarity: Malefic, mt_house: 12}
+    rahu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}
+    ketu: {houses_ruled: [], yogakaraka: false, kendradhipati: false, strong: false, eighth_lord_exempt: false, eleventh_least_malefic_for_wealth: false, maraka: false, mt_tiebreak: false, polarity: null, rule: dispositor}

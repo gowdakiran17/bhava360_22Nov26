@@ -41,3 +41,12 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: transit
+  reference: moon
+  area_strength:
+    money: related
+    career: related
+    family-home: related

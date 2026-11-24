@@ -48,3 +48,10 @@ remedy: null
 matching:
   support: same or mutual natural friends
   partial: other relationships reviewed as context
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

@@ -100,3 +100,11 @@ varga:
     shodasavarga: 3
     dashavarga: 1.5
   purpose: partnership
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    spirituality: related

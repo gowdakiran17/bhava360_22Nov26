@@ -49,3 +49,11 @@ native_review:
 remedy: null
 vastu:
   tone: Supportive
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: related

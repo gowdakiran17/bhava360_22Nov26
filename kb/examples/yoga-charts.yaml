@@ -402,7 +402,7 @@ cases:
   - 9
   - 5
   jupiter_shadbala_rupas: 5
-  sole_relief_branch: d1.dignity.exaltation_lord_angular
+  multiple_relief_branches: [d1.dignity.exaltation_lord_angular, d1.dignity.exchange_with_dispositor]
 - id: scenario-20
   fixture: Dev
   longitude:
@@ -491,7 +491,7 @@ cases:
   - 6
   - 10
   jupiter_shadbala_rupas: 7
-  sole_relief_branch: d1.dignity.dispositor_aspect
+  multiple_relief_branches: [d1.dignity.dispositor_aspect, d1.dignity.exchange_with_dispositor]
 - id: scenario-25
   fixture: Dev
   longitude:
@@ -526,3 +526,56 @@ cases:
   - 3
   jupiter_shadbala_rupas: 7
   sole_relief_branch: d1.dignity.exaltee_angular
+- id: dispositor-exchange-only
+  fixture: Dev
+  longitude:
+    lagna: 73
+    sun: 279
+    moon: 260
+    mars: 84
+    mercury: 35
+    jupiter: 277
+    venus: 156
+    saturn: 199
+  selected_graha: venus
+  house_pair:
+  - 2
+  - 5
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.exchange_with_dispositor
+  matches:
+  - neecha-bhanga
+- id: scenario-19-isolated
+  fixture: Kabir
+  longitude:
+    lagna: 104
+    sun: 338
+    moon: 221
+    mars: 164
+    mercury: 59
+    jupiter: 220
+    venus: 302
+    saturn: 340
+  selected_graha: moon
+  house_pair:
+  - 2
+  - 5
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.exaltation_lord_angular
+- id: scenario-24-isolated
+  fixture: Kabir
+  longitude:
+    lagna: 224
+    sun: 324
+    moon: 48
+    mars: 206
+    mercury: 344
+    jupiter: 112
+    venus: 95
+    saturn: 58
+  selected_graha: mercury
+  house_pair:
+  - 2
+  - 5
+  jupiter_shadbala_rupas: 7
+  sole_relief_branch: d1.dignity.dispositor_aspect

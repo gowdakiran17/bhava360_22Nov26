@@ -59,3 +59,11 @@ public_label:
   en: Family traditions
   kn: ಕುಟುಂಬದ ಸಂಪ್ರದಾಯಗಳು
   hi: पारिवारिक परंपराएँ
+evidence:
+  direction: caution
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: related
+    spirituality: related

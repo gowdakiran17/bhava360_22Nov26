@@ -69,3 +69,10 @@ card_profile:
   - reclaiming choice
   - awareness
   tone: Supportive
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    learning: core

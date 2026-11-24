@@ -95,3 +95,12 @@ varga:
     shodasavarga: 0.5
     dashavarga: 0
   purpose: home
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: related
+    travel-relocation: related

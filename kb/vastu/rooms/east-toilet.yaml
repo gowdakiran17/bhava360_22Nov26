@@ -61,3 +61,11 @@ vastu:
   reason: This modern room profile favours the northwest for this use and treats the northeast as a quiet worship
     sector. A fixture in the northeast or centre prompts a reversible arrangement suggestion. The selected profile
     gives a contextual reading for this placement.
+evidence:
+  direction: neutral
+  weight_class: secondary
+  time_scope: static
+  reference: none
+  area_strength:
+    family-home: related
+    property-vehicles: core

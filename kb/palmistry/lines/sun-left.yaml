@@ -77,3 +77,10 @@ guided:
   choice: lines-sun
   tone: Supportive
   reason: This confirmed choice on the left hand selects the editorial prompt about creative enjoyment.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

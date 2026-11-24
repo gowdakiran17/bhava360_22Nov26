@@ -86,3 +86,11 @@ remedy:
     en: You may offer to do one small task for someone today.
     kn: ಇಂದು ಯಾರಿಗಾದರೂ ಒಂದು ಸಣ್ಣ ಕೆಲಸ ಮಾಡಿಕೊಡಬಹುದು.
     hi: आज आप किसी के लिए एक छोटा काम कर सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    career: related
+    business: related

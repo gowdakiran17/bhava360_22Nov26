@@ -67,8 +67,8 @@ sources:
   supports: House topics and positional groups. Practical prompts and PRD tags are editorial applications.
   verification: verified
 confidence: disputed
-review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also
-  matches.
+review_notes: Native-language review pending. Emit a single placement reading when the linked earlier entry also matches.
+  Chart placement supplies a theme; a single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
   en: When a shared responsibility changes, you may find that leaving one unnecessary step out makes room for
     what matters.
@@ -86,3 +86,13 @@ remedy:
     en: You can set aside a few quiet minutes for reflection.
     kn: ಚಿಂತನೆಗಾಗಿ ಕೆಲವು ಶಾಂತ ನಿಮಿಷಗಳನ್ನು ಮೀಸಲಿಡಬಹುದು.
     hi: मनन के लिए कुछ शांत मिनट निकाल सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related

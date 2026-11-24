@@ -53,3 +53,9 @@ remedy:
     en: You can consider what each side of an exchange needs from the other.
     kn: ವಿನಿಮಯದಲ್ಲಿ ಎರಡೂ ಕಡೆಯವರಿಗೆ ಪರಸ್ಪರ ಏನು ಬೇಕಿದೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
     hi: आप सोच सकते हैं कि लेन-देन में दोनों पक्षों को एक-दूसरे से क्या चाहिए।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

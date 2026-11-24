@@ -60,3 +60,9 @@ remedy:
     en: "You can give each concern its own line in a note."
     kn: ಪ್ರತಿ ವಿಷಯವನ್ನೂ ಪ್ರತ್ಯೇಕ ಸಾಲಿನಲ್ಲಿ ಬರೆದಿಡಬಹುದು.
     hi: दोनों बातों को अलग-अलग पंक्तियों में लिख सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}

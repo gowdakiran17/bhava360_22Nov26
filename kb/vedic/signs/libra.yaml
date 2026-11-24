@@ -96,3 +96,11 @@ remedy:
     en: You may give each person time to speak before a shared decision.
     kn: ಒಟ್ಟಿನ ನಿರ್ಧಾರಕ್ಕೂ ಮೊದಲು ಪ್ರತಿಯೊಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಸಮಯ ಕೊಡಬಹುದು.
     hi: साझा निर्णय से पहले हर व्यक्ति को बोलने का समय दे सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    love-marriage: related
+    business: related

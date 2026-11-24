@@ -76,3 +76,9 @@ guided:
   choice: lines-life
   tone: Steady
   reason: This confirmed choice on the right hand selects the editorial prompt about noticing everyday energy.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

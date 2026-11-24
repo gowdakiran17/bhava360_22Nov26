@@ -65,7 +65,7 @@ sources:
   verification: verified
 confidence: disputed
 review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
-  review pending.
+  review pending. Node sign dignity is disputed and unassigned. Retain context pending resolution.
 user_text:
   en: When an unfamiliar possibility draws you in, you can give an unanswered question time before pressing for
     a response.
@@ -84,3 +84,11 @@ remedy:
     en: You can check one assumption before trying something new.
     kn: ಹೊಸದನ್ನು ಪ್ರಯತ್ನಿಸುವ ಮುನ್ನ ಒಂದು ಊಹೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: कुछ नया आज़माने से पहले एक अनुमान जाँच सकते हैं।
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength:
+    learning: related
+    travel-relocation: related

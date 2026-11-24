@@ -60,3 +60,10 @@ remedy:
     en: You may enjoy taking the initiative when a task needs action.
     kn: ಕೆಲಸಕ್ಕೆ ಚಾಲನೆ ನೀಡಲು ನೀವು ಆಸಕ್ತಿ ತೋರಬಹುದು.
     hi: काम शुरू करने में आप पहल कर सकते हैं।
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: lagna
+  area_strength:
+    career: core

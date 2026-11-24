@@ -77,3 +77,10 @@ guided:
   choice: mounts-jupiter
   tone: Supportive
   reason: This confirmed choice on the right hand selects the editorial prompt about sharing leadership.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

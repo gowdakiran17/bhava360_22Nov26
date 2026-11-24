@@ -77,3 +77,10 @@ guided:
   choice: fingers-long
   tone: Steady
   reason: This confirmed choice on the right hand selects the editorial prompt about attention to detail.
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength:
+    learning: core

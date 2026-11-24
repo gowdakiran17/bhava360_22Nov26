@@ -5,7 +5,7 @@ title: Venus in house 8 from the natal Moon
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: At the query instant Venus occupies sign 8 counted inclusively from the natal Moon within its solved transit
-  window. Mixed indications in this source.
+  window. The KB-35 default treats this as a supportive position before modifiers.
 conditions:
   all:
   - fact: transit.venus.distance_from_natal_moon
@@ -23,8 +23,7 @@ traditions_differ:
 - profile: vedic-editorial-v1
   note: Count signs inclusively from the natal Moon. A Lagna reading uses the natal ascendant to locate topics separately
     (§25.3). Moon-relative classifications and vedha belong to the Moon reading. Table 58 marks this position as
-    difficult, while Table 63 includes it among the positions subject to vedha. Keep the reading mixed and the vedha
-    lookup independent.
+    difficult, while Table 63 includes it among the positions subject to vedha. This source variant remains mixed. The selected direction is support; evaluate vedha independently.
 sources:
 - book: 'Vedic Astrology: An Integrated Approach'
   work_id: rao-integrated
@@ -35,7 +34,8 @@ sources:
   supports: Moon-relative classification. Practical reflection and house-topic framing are editorial.
   verification: verified
 confidence: disputed
-review_notes: Interpretive copy is editorial. Kannada and Hindi await native review.
+review_notes: Interpretive copy is editorial. Kannada and Hindi await native review. KB-35 selects support before modifiers;
+  the source documents mixed indications.
 user_text:
   en: You may want to clarify expectations around shared resources.
   kn: ಜಂಟಿ ಸಂಪನ್ಮೂಲಗಳ ಬಗ್ಗೆ ನಿರೀಕ್ಷೆಗಳನ್ನು ಸ್ಪಷ್ಟಪಡಿಸಬಹುದು.
@@ -44,3 +44,13 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  time_scope: transit
+  reference: moon
+  area_strength:
+    money: related
+    love-marriage: related
+    health: related
+    spirituality: related

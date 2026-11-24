@@ -73,3 +73,11 @@ card_profile:
   - different family needs
   - completion
   tone: Steady
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: related
+    family-home: related
