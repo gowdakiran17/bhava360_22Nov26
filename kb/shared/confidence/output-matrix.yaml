@@ -17,7 +17,7 @@ rows:
   houses-from-lagna: {A: show, B: show, C: hide, requires: [lagna-sign, house-placement]}
   lagna-transits: {A: show, B: show, C: hide, requires: [lagna-sign, transit-contact]}
   moon-transits: {A: show, B: show, C: show, requires: [moon-sign, transit-contact]}
-  daily-panchang: {A: show, B: show, C: show, requires: [query-day-and-place]}
+  daily-panchang: {A: show, B: show, C: show, requires: [query-day-and-place], birth_independent: true}
   d9: {A: show, B: show, C: hide, requires: [lagna-sign, d9-lagna, d9-interpreting-signs], varga: true}
   d10: {A: show, B: show, C: hide, requires: [lagna-sign, d10-lagna, d10-interpreting-signs], varga: true}
   d2: {A: show, B: show, C: hide, requires: [lagna-sign, d2-lagna, d2-interpreting-signs], varga: true}
@@ -56,6 +56,6 @@ rows:
   promise-varga-lagna: {A: show, B: show, C: hide, requires: [lagna-sign], inherits_bound_varga: true}
   promise-significator: {A: show, B: show, C: show, requires: [independent-significator]}
   promise-moon-relative: {A: show, B: show, C: show, requires: [moon-sign, moon-relative-condition]}
-  strength-house-term: {A: show, B: show, C: show, requires: [], reference_by_tier: {A: lagna, B: lagna, C: moon}}
+  strength-house-term: {A: show, B: show, C: show, requires: [], reference_by_tier: {A: lagna, B: lagna, C: moon}, withheld_lagna_reference: moon}
   final-card-grade: {A: show, B: cap-moderate, C: cap-moderate, requires: [post-ladder-grade]}
   bhava-bala-tiebreak: {A: show, B: show, C: hide, requires: [lagna-sign, rising-class-time-term, bhava-rank]}

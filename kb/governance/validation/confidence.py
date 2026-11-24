@@ -85,6 +85,8 @@ def resolve(precision, instant, traces, bound_varga, tiers, civil, matrix):
     Independent query-day inputs can be supplied even when birth evidence is unavailable.
     Values and withheld IDs in this reference worksheet belong to staff/testers.
     """
+    if precision not in tiers['declared_precision']:
+        raise ValueError('Unrecognized birth-time precision')
     settings = tiers['declared_precision'][precision]
     tier = settings['tier']
     assessments = {}
@@ -96,8 +98,14 @@ def resolve(precision, instant, traces, bound_varga, tiers, civil, matrix):
         window = assessment_interval(instant, precision, tiers, civil, row.get('varga', False))
         deps = list(row['requires'])
         result = {}
+        if row.get('birth_independent'):
+            # Query-day facts are certified on the query window, independently of a birth instant.
+            query = traces.get('query-day-and-place')
+            window = Interval(query.start, query.end) if query else None
         if 'reference_by_tier' in row:
             ref = row['reference_by_tier'][tier]
+            if ref == 'lagna' and assess('lagna')['action'] == 'hide':
+                ref = row['withheld_lagna_reference']
             deps += [ref+'-sign', ref+'-house-term']
             result['reference'] = ref
         if row.get('inherits_bound_varga'):
@@ -203,10 +211,19 @@ def validate(read, require):
     require((normal.end-normal.start).total_seconds()==240 and run('exact',traces)['outputs']['lagna']['action']=='show',
             'exact mid-sign and two-minute assessment')
     require('d10' in run('exact',traces)['withheld'],'varga crossing outside two but inside five minutes')
-    # The starting Lagna is half a degree from the edge; crossing time decides availability.
+    # Scenario geometry: local linear motion with a half-degree left to the boundary.
+    start_deg, boundary_deg = 29.5, 30
+    crossing_seconds = lambda rate: round((boundary_deg-start_deg)/rate)
+    require(crossing_seconds(0.5/299)==299,'half-degree edge fixture')
     for offset, action in ((299,'hide'),(300,'hide'),(301,'show')):
-        near=dict(traces,**{'lagna-sign':trace('aries',(offset,'taurus'))})
+        near=dict(traces,**{'lagna-sign':trace('aries',(crossing_seconds(.5/offset),'taurus'))})
         require(run('±5 min',near)['outputs']['lagna-transits']['action']==action,'Lagna crossing boundary')
+    edge = run('±5 min',dict(traces, **{'lagna-sign':trace('aries',(100,'taurus'))}))
+    require(edge['outputs']['strength-house-term']['reference']=='moon' and 'lagna' in edge['withheld'],
+            'Moon substitute is a separately proved house term')
+    missing_birth = resolve('unknown',None,traces,'d10',tiers,civil,matrix)
+    require([k for k,v in missing_birth['outputs'].items() if v['action']!='hide']==['daily-panchang'],
+            'unresolved birth inputs do not suppress a proved independent query day')
     for t in (Trace(before,after,'aries',complete=False),Trace(utc,after,'aries'),
               trace('aries',(-40,'taurus'),(40,'aries')),trace(None)):
         require(stable(t,normal) is None,'partial proof, unknown or interior transition')
@@ -214,6 +231,10 @@ def validate(read, require):
             run('±1 h',traces)['message']!=run('unknown',traces)['message'],'Moon-only approximate time')
     whole=assessment_interval(center,'unknown',tiers,civil)
     dev_traces={dep:Trace(whole.start,whole.end,v) for dep,v in dev['stable'].items()}
+    lunar = dev['moon_provenance']['longitude_start_noon_end_deg']
+    # The prograde arc stays within one sign and traverses exactly one nakshatra boundary.
+    require(lunar == sorted(lunar) and [int(x//30) for x in lunar] == [10,10,10] and
+            [1+int(x/(360/27)) for x in lunar] == [23,24,24], 'Dev Lahiri lunar arc')
     star_edge=whole.start+timedelta(seconds=dev['moon_provenance']['nakshatra_crossing_bracket_seconds'][1])
     star=Trace(whole.start,whole.end,23,((star_edge,24),))
     dev_traces.update({'moon-nakshatra':star,'bound-planet-star':star})

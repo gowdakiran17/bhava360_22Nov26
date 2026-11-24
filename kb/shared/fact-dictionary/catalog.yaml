@@ -22,7 +22,7 @@ facts:
     type: enum
     values: [A, B, C]
     producer: shared.confidence
-    origin: Selected from the approved precision mapping in shared/confidence/birth-time-tiers.yaml.
+    origin: Selected from the declared precision mapping in shared/confidence/birth-time-tiers.yaml.
     dependencies: [declared birth-time precision]
     unknown_if: Declared precision is missing or unrecognized.
   confidence.rectified:

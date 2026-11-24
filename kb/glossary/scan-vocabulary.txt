@@ -4933,6 +4933,7 @@ rasi
 rasis
 rasyadhipathi
 rat
+rate
 rates
 rath
 rather
@@ -6171,6 +6172,7 @@ travelling
 traversal
 traverse
 traversed
+traverses
 traya
 trayodashi
 trayodashis
