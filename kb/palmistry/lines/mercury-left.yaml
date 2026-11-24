@@ -37,7 +37,7 @@ sources:
   verse: null
   other_locator: lines-mercury
   supports: Original optional reflection; tone is editorial.
-  verification: pending
+  verification: editorial-no-classical-claim
 - book: Palmistry for All
   work_id: cheiro-palmistry
   edition: cheiro-pg20480

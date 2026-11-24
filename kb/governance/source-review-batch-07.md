@@ -15,13 +15,12 @@ Counts refer to individual source blocks in addressable reading rules. Existing 
 | numerology | editorial-no-classical-claim | 58 |
 | numerology | pending | 50 |
 | palmistry | chapter-only | 136 |
-| palmistry | editorial-no-classical-claim | 19 |
-| palmistry | pending | 143 |
+| palmistry | editorial-no-classical-claim | 83 |
+| palmistry | pending | 79 |
 | tarot | chapter-only | 156 |
 | tarot | editorial-no-classical-claim | 156 |
 | tarot | pending | 156 |
-| vastu | editorial-no-classical-claim | 13 |
-| vastu | pending | 86 |
+| vastu | editorial-no-classical-claim | 99 |
 | vastu | verified | 87 |
 | vedic other | chapter-only | 12 |
 | vedic other | editorial-no-classical-claim | 131 |
