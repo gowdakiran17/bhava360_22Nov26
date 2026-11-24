@@ -25,8 +25,9 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Cross-checks provide context alongside either regional profile. A single chart factor does not decide a
-    relationship.
+  note: MODERN/POPULAR regional Kuja doctrine. Default Lagna 1/2/4/7/8/12; other schools omit the second or compare
+    Moon and Venus as separately labelled references. Resolve natal reliefs before pair balance. Raman, Muhurtha,
+    marriage chapter.
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -37,7 +38,7 @@ sources:
   supports: Historical factor and classification. Public reflections are editorial.
   verification: verified
 confidence: medium
-review_notes: Draft. Numeric evidence stays with administrators and testers. Kannada and Hindi await native review.
+review_notes: MODERN/POPULAR. Compare like references; never infer a relationship outcome from this factor alone.
 user_text:
   en: You can discuss how each of you prefers to handle tension.
   kn: ಒತ್ತಡ ಬಂದಾಗ ಅದನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸಲು ಇಷ್ಟಪಡುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.

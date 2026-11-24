@@ -794,7 +794,6 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.relocation.check-house-relocation-destination
-- vedic.relocation.check-house-relocation-destination-work
 - vedic.signs.aquarius
 - vedic.signs.aries
 - vedic.signs.cancer

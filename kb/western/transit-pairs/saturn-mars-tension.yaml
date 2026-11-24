@@ -1,0 +1,50 @@
+id: western.transit-pairs.saturn-mars-tension
+system: western
+topic: transit-pairs
+title: Saturn mars tension
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: transit saturn to mars via square, opposition. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.transit.reading_pair
+    op: eq
+    value: saturn-mars
+  - fact: western.transit.family
+    op: eq
+    value: tension
+  - fact: western.transit.perfection_dated
+    op: eq
+    value: true
+meaning: Balancing responsibilities with initiative may take a deliberate choice about priorities.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Balancing responsibilities with initiative may take a deliberate choice about priorities.
+  kn: ಹೊಣೆಗಾರಿಕೆಗಳು ಮತ್ತು ಮುಂದಾಳತ್ವ ನಡುವೆ ಆದ್ಯತೆಗಳನ್ನು ಆರಿಸಬಹುದು.
+  hi: ज़िम्मेदारियाँ और पहल के बीच आप अपनी प्राथमिकताएँ तय कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: caution
+  weight_class: secondary
+  reference: none
+  time_scope: transit
+  area_strength: {}

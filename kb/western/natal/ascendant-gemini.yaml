@@ -10,6 +10,9 @@ conditions:
   - fact: western.natal.ascendant.sign
     op: eq
     value: gemini
+  - fact: western.angle.reliable
+    op: eq
+    value: true
 meaning: Consider first impressions through the theme of exchanging ideas.
 life_areas: []
 strength_notes: []

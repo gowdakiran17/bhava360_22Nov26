@@ -17,6 +17,7 @@ aliases: []
 reference_rules: []
 used_by:
 - kp.cusps.placidus
+- kp.judgement.cusp-unavailable
 - kp.number-horary.arc
 - vedic.states.graha-yuddha
 - western.houses.polar-fallback

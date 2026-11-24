@@ -30,7 +30,7 @@ rectification:
 traditions_differ:
 - precision: "±5 min"
   selected: Tier B
-  alternative: Tier A except D60, subject to every stability gate.
+  alternative: Tier A except D60, D40, D45, KP cusp sub-lords and derived cusp outputs, and Pratyantar/Sookshma windows, subject to every stability gate.
   owner_decision: confirmed-conservative-default
 sources:
 - {basis: Bhava360 product review, locator: Vedic Astrologer item 7 (23 Nov 2026), verification: supplied-in-brief}

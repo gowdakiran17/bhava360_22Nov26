@@ -18,5 +18,6 @@ aliases:
 reference_rules:
 - vedic.matching.nadi
 used_by:
+- vedic.doshas.nadi
 - vedic.matching.nadi
 - vedic.strength-bhava-bala.bhavadhipati

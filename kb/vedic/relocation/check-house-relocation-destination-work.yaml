@@ -4,10 +4,13 @@ topic: relocation
 title: house-relocation · destination-work
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: At the proposed destination the same graha moves into the relocated tenth house.
+rule: Same birth instant, destination coordinates, explicitly work-linked move and changed placement into the tenth.
 conditions:
   all:
   - fact: checker.house-relocation.destination-work
+    op: eq
+    value: true
+  - fact: checker.relocation.work_linked
     op: eq
     value: true
 meaning: The relocated chart gives this planet a work-related house placement.

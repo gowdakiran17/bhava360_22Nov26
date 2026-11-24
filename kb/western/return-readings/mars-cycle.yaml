@@ -1,0 +1,44 @@
+id: western.return-readings.mars-cycle
+system: western
+topic: return-readings
+title: Mars cycle
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: At the dated return revisit initiative.
+conditions:
+  all:
+  - fact: western.returns.mars_perfection
+    op: eq
+    value: true
+meaning: You may choose a fresh way to act on a priority.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: You may choose a fresh way to act on a priority.
+  kn: ಹೊಸ ಚಕ್ರದಲ್ಲಿ ನಿಮ್ಮ ಆದ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: नए चक्र में आप अपनी प्राथमिकता पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: neutral
+  weight_class: secondary
+  reference: none
+  time_scope: transit
+  area_strength: {}

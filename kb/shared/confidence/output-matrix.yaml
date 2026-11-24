@@ -550,5 +550,39 @@ rows:
     requires:
     - local-sunrise-vara-hora
     - bound-kala-total
+  western-houses:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - tropical-cusps
+    - bound-western-house
+  western-asc-mc:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - bound-tropical-angle
+  western-fortune:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - tropical-asc
+    - solar-sect
+    - bound-fortune-longitude
+  matching-nakshatra-pada:
+    A: show
+    B: show
+    C: show
+    requires:
+    - bound-partner-moon-pada
+  matching-lagna-kuja:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - lagna-sign
+    - mars-house
 varga_stability: The five-minute minimum radius effectively precludes a stable D60 Lagna even in Tier A. Planet signs
   use their own longitude traces.

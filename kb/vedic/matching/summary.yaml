@@ -1,0 +1,94 @@
+approval: draft
+native_review:
+  kn: pending
+  hi: pending
+profile: vedic-editorial-v1
+method: North only. Require consent, stable lunar factors and a complete raw koota table. Editorial baseline bands
+  [0,18), [18,25), [25,36]. Never alter the raw total for exceptions. South uses its independent Porutham recipe.
+resolution: 'Start with caution, neutral or support from the band. Append uncancelled Nadi/Bhakoot cautions once;
+  evaluate their matching exceptions before voting. Apply individual Kuja cancellations then pair comparability: only
+  unmatched residual Kuja adds caution. Compare distinct cross-chart reasons; discard unknown. Support alone gives
+  Supportive, caution alone Take care; conflicting or neutral gives Steady. Do not include numbers in public data.'
+explain_order:
+- understanding
+- qualitative-traditional-picture
+- stable-chart-reasons
+- practical-conversation
+messages:
+  understanding:
+    en: You can start by sharing what each of you needs.
+    kn: ಮೊದಲು ಪರಸ್ಪರ ಅಗತ್ಯಗಳನ್ನು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+    hi: पहले आप एक दूसरे की ज़रूरतें साझा कर सकते हैं।
+  close:
+    en: The traditional reading may highlight areas of easy understanding.
+    kn: ಸಾಂಪ್ರದಾಯಿಕ ಓದು ಸುಲಭ ಹೊಂದಾಣಿಕೆಯ ಅಂಶಗಳನ್ನು ಸೂಚಿಸಬಹುದು.
+    hi: पारंपरिक संकेत आपसी समझ के सहज पहलू दिखा सकते हैं।
+  mixed:
+    en: The traditional reading may bring out both shared habits and differences worth discussing.
+    kn: ಸಾಂಪ್ರದಾಯಿಕ ಓದು ಸಾಮಾನ್ಯ ಅಭ್ಯಾಸಗಳನ್ನೂ ಮಾತನಾಡಬಹುದಾದ ವ್ಯತ್ಯಾಸಗಳನ್ನೂ ತೋರಿಸಬಹುದು.
+    hi: पारंपरिक संकेत साझा आदतें और बातचीत योग्य अंतर दिखा सकते हैं।
+  care:
+    en: Different expectations may benefit from a little more conversation.
+    kn: ವಿಭಿನ್ನ ನಿರೀಕ್ಷೆಗಳ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ಮಾತನಾಡಬಹುದು.
+    hi: अलग उम्मीदों पर थोड़ी और बातचीत मदद कर सकती है।
+  prompt:
+    en: You can ask how each of you would like to share everyday responsibilities.
+    kn: ದೈನಂದಿನ ಹೊಣೆಗಳನ್ನು ಹೇಗೆ ಹಂಚಿಕೊಳ್ಳಬೇಕು ಎಂದು ಕೇಳಬಹುದು.
+    hi: आप पूछ सकते हैं कि रोज़मर्रा की ज़िम्मेदारियाँ कैसे बाँटी जाएँ।
+  nadi-relief:
+    en: A traditional exception may soften a difference in everyday rhythms.
+    kn: ಸಾಂಪ್ರದಾಯಿಕ ವಿನಾಯಿತಿ ದಿನಚರಿಯ ವ್ಯತ್ಯಾಸವನ್ನು ಮೃದುವಾಗಿಸಬಹುದು.
+    hi: परंपरा में एक अपवाद रोज़मर्रा की लय के अंतर को हल्का कर सकता है।
+  bhakoot-relief:
+    en: A traditional exception may bring shared priorities into focus.
+    kn: ಸಾಂಪ್ರದಾಯಿಕ ವಿನಾಯಿತಿ ಸಮಾನ ಆದ್ಯತೆಗಳನ್ನು ತೋರಿಸಬಹುದು.
+    hi: एक पारंपरिक अपवाद साझा प्राथमिकताएँ सामने ला सकता है।
+  kuja-balance:
+    en: You may recognise a similar way of responding under pressure.
+    kn: ಒತ್ತಡಕ್ಕೆ ಒಂದೇ ರೀತಿಯಲ್ಲಿ ಸ್ಪಂದಿಸುವುದನ್ನು ಗಮನಿಸಬಹುದು.
+    hi: दबाव में प्रतिक्रिया देने का मिलता-जुलता तरीका दिख सकता है।
+  kuja-difference:
+    en: You can discuss how each of you prefers to resolve disagreements.
+    kn: ಭಿನ್ನಾಭಿಪ್ರಾಯಗಳನ್ನು ಹೇಗೆ ಬಗೆಹರಿಸಬಹುದು ಎಂದು ಮಾತನಾಡಬಹುದು.
+    hi: असहमति सुलझाने की अपनी पसंद पर आप बात कर सकते हैं।
+  partnership:
+    en: You can compare expectations about commitment.
+    kn: ಬದ್ಧತೆಯ ನಿರೀಕ್ಷೆಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+    hi: प्रतिबद्धता की उम्मीदों पर बात कर सकते हैं।
+  moon-lagna:
+    en: You can share how you like others to respond to your feelings.
+    kn: ನಿಮ್ಮ ಭಾವನೆಗಳಿಗೆ ಯಾವ ಸ್ಪಂದನೆ ಬೇಕೆಂದು ಹೇಳಬಹುದು.
+    hi: आप बता सकते हैं कि अपनी भावनाओं पर कैसी प्रतिक्रिया चाहते हैं।
+  d9:
+    en: Shared values may give a conversation about commitment a starting point.
+    kn: ಸಮಾನ ಮೌಲ್ಯಗಳು ಬದ್ಧತೆಯ ಮಾತಿಗೆ ಆರಂಭವಾಗಬಹುದು.
+    hi: साझा मूल्य प्रतिबद्धता की बातचीत का आधार बन सकते हैं।
+  period:
+    en: You may want to compare when each of you feels ready for a change.
+    kn: ಬದಲಾವಣೆಗೆ ಯಾವಾಗ ಸಿದ್ಧರೆಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+    hi: बदलाव के लिए कब तैयार महसूस करते हैं, इस पर बात कर सकते हैं।
+references:
+- vedic.matching.nadi
+- vedic.matching.bhakoot
+- vedic.matching.manglik-comparison
+- vedic.matching.chart-cross-check
+- vedic.matching.papasamya
+cross_checks:
+- partner-expectations (seventh house and lord)
+- Moon/Lagna relationship
+- D9 corroboration
+- dasha overlap
+papasamya: Compare remaining eligible placements separately from the base koota picture. Report balance context only.
+tone_labels:
+  Supportive:
+    en: Supportive
+    kn: ಬೆಂಬಲದಾಯಕ
+    hi: सहायक
+  Steady:
+    en: Steady
+    kn: ಸ್ಥಿರ
+    hi: स्थिर
+  Take care:
+    en: Take care
+    kn: ಗಮನವಿರಲಿ
+    hi: ध्यान रखें

@@ -18,6 +18,313 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  checker.relocation.travel_house:
+    type: integer
+    producer: vedic.relocation
+    origin: One-based relocated whole-sign house of bound graha at unchanged birth instant.
+    dependencies:
+    - destination coordinates
+    - birth UTC
+    - bound graha
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  checker.relocation.work_linked:
+    type: boolean
+    producer: vedic.relocation
+    origin: User explicitly selects work as a move purpose.
+    dependencies:
+    - selected move purpose
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  match.papasamya.comparable:
+    type: boolean
+    producer: vedic.matching
+    origin: Two complete residual weighted sets under identical selected school, after cancellations.
+    dependencies:
+    - both stable Lagnas
+    - residual malefic placements
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  western.returns.sun_perfection:
+    type: boolean
+    producer: western.returns
+    origin: Exact return of moving body to its natal longitude, bound to dated pass.
+    dependencies:
+    - continuous longitude
+    - natal position
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  western.returns.mars_perfection:
+    type: boolean
+    producer: western.returns
+    origin: Exact return of moving body to its natal longitude, bound to dated pass.
+    dependencies:
+    - continuous longitude
+    - natal position
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  western.angle.mc_sign:
+    type: enum
+    producer: western.angle
+    origin: Actual meridian MC longitude divided into tropical signs; withhold when unstable.
+    dependencies:
+    - MC longitude
+    - angle stability
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - aries
+    - taurus
+    - gemini
+    - cancer
+    - leo
+    - virgo
+    - libra
+    - scorpio
+    - sagittarius
+    - capricorn
+    - aquarius
+    - pisces
+  western.transit.perfection_dated:
+    type: boolean
+    producer: western.transit
+    origin: Dated exact perfection inside the bound pass and query horizon, including a tangent station.
+    dependencies:
+    - solved oriented angle
+    - time bracket
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  western.angle.reliable:
+    type: boolean
+    producer: western.angle
+    origin: Stable angle across the declared birth interval for each contributing chart.
+    dependencies:
+    - time
+    - place
+    - stability
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  western.synastry.family:
+    type: enum
+    producer: western.synastry
+    origin: Group solved contacts by technique-specific orb and geometry.
+    dependencies:
+    - aspect geometry
+    - orb table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - harmonious
+    - tension
+    - conjunction
+  western.synastry.reading_pair:
+    type: enum
+    producer: western.synastry
+    origin: Bound body pair. Natal unordered, transit moving first, synastry preserve chart identity and match reciprocal
+      order.
+    dependencies:
+    - chart identities
+    - body longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - sun-moon
+    - venus-mars
+    - moon-moon
+    - saturn-sun
+    - saturn-moon
+    - saturn-mercury
+    - saturn-venus
+    - saturn-mars
+    - asc-sun
+    - asc-moon
+    - asc-mercury
+    - asc-venus
+    - asc-mars
+    - asc-asc
+  western.transit.family:
+    type: enum
+    producer: western.transit
+    origin: Group solved contacts by technique-specific orb and geometry.
+    dependencies:
+    - aspect geometry
+    - orb table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - harmonious
+    - tension
+    - conjunction
+  western.transit.reading_pair:
+    type: enum
+    producer: western.transit
+    origin: Bound body pair. Natal unordered, transit moving first, synastry preserve chart identity and match reciprocal
+      order.
+    dependencies:
+    - chart identities
+    - body longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - jupiter-sun
+    - jupiter-moon
+    - jupiter-mercury
+    - jupiter-venus
+    - jupiter-mars
+    - jupiter-asc
+    - jupiter-mc
+    - saturn-sun
+    - saturn-moon
+    - saturn-mercury
+    - saturn-venus
+    - saturn-mars
+    - saturn-asc
+    - saturn-mc
+    - uranus-sun
+    - uranus-moon
+    - uranus-mercury
+    - uranus-venus
+    - uranus-mars
+    - uranus-asc
+    - uranus-mc
+    - neptune-sun
+    - neptune-moon
+    - neptune-mercury
+    - neptune-venus
+    - neptune-mars
+    - neptune-asc
+    - neptune-mc
+    - pluto-sun
+    - pluto-moon
+    - pluto-mercury
+    - pluto-venus
+    - pluto-mars
+    - pluto-asc
+    - pluto-mc
+  western.natal.family:
+    type: enum
+    producer: western.natal
+    origin: Group solved contacts by technique-specific orb and geometry.
+    dependencies:
+    - aspect geometry
+    - orb table
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - harmonious
+    - tension
+    - conjunction
+  western.natal.reading_pair:
+    type: enum
+    producer: western.natal
+    origin: Bound body pair. Natal unordered, transit moving first, synastry preserve chart identity and match reciprocal
+      order.
+    dependencies:
+    - chart identities
+    - body longitudes
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - sun-moon
+    - sun-mercury
+    - sun-venus
+    - sun-mars
+    - sun-jupiter
+    - sun-saturn
+    - sun-uranus
+    - sun-neptune
+    - sun-pluto
+    - sun-asc
+    - sun-mc
+    - moon-mercury
+    - moon-venus
+    - moon-mars
+    - moon-jupiter
+    - moon-saturn
+    - moon-uranus
+    - moon-neptune
+    - moon-pluto
+    - moon-asc
+    - moon-mc
+    - mercury-venus
+    - mercury-mars
+    - mercury-jupiter
+    - mercury-saturn
+    - mercury-uranus
+    - mercury-neptune
+    - mercury-pluto
+    - mercury-asc
+    - mercury-mc
+    - venus-mars
+    - venus-jupiter
+    - venus-saturn
+    - venus-uranus
+    - venus-neptune
+    - venus-pluto
+    - venus-asc
+    - venus-mc
+    - mars-jupiter
+    - mars-saturn
+    - mars-uranus
+    - mars-neptune
+    - mars-pluto
+    - mars-asc
+    - mars-mc
+    - jupiter-saturn
+    - jupiter-uranus
+    - jupiter-neptune
+    - jupiter-pluto
+    - jupiter-asc
+    - jupiter-mc
+    - saturn-uranus
+    - saturn-neptune
+    - saturn-pluto
+    - saturn-asc
+    - saturn-mc
+    - uranus-neptune
+    - uranus-pluto
+    - uranus-asc
+    - uranus-mc
+    - neptune-pluto
+    - neptune-asc
+    - neptune-mc
+    - pluto-asc
+    - pluto-mc
+    - asc-mc
+  kp.judgement.node_agent:
+    type: boolean
+    producer: kp.judgement
+    origin: Bound actor is a node and has a resolved sign ruler.
+    dependencies:
+    - actor
+    - stellar ruler
+    - sign ruler
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  kp.judgement.self_star:
+    type: boolean
+    producer: kp.judgement
+    origin: Bound direct actor occupies its own star.
+    dependencies:
+    - actor
+    - stellar ruler
+    - sign ruler
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  kp.judgement.cusp_failed:
+    type: boolean
+    producer: kp.judgement
+    origin: Actual Placidus failure withholds dependent judgement and timing. Latitude alone cannot suppress a solved
+      cusp.
+    dependencies:
+    - bound chart
+    - judgement context
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  kp.judgement.conflict:
+    type: boolean
+    producer: kp.judgement
+    origin: Retain both KP and Vedic reasons; KB-36 owns grade changes.
+    dependencies:
+    - bound chart
+    - judgement context
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+  kp.judgement.outcome:
+    type: enum
+    producer: kp.judgement
+    origin: Classify ranked links of the bound cusp sub-lord against both event groups; incomplete chart is unknown.
+    dependencies:
+    - event cusp
+    - ranked levels
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
+    values:
+    - promised
+    - denied
+    - mixed
+    - unrelated
   d1.node.conditional_yogakaraka:
     type: boolean
     producer: vedic.lordships
@@ -5749,12 +6056,14 @@ facts:
   dosha.mars.relief_profile:
     type: enum
     producer: vedic.doshas
-    origin: Bound cancellation convention. Require the documented list/reference combination for a named author
-      profile.
-    unknown_if: Bound chart inputs, reference, profile or interval are missing or unstable.
+    origin: Selected Kuja mitigation convention. Regional Lagna-only lists are documented separately from Raman.
+    dependencies:
+    - selected house list
+    - regional convention
+    unknown_if: A material chart, convention, interval or participant is missing or unstable under KB-48.
     values:
     - library
-    - bphs
+    - regional-lagna
     - raman
     - rath
     - sgs

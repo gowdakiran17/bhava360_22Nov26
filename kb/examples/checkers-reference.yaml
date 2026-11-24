@@ -1,0 +1,148 @@
+approval: draft
+synthetic: true
+policy: Synthetic positive cases simulate approved matches only for the resolver; actual authoring entries remain
+  draft. Number inputs exist only as synthetic test vectors. No automatic save or provider calls.
+tools:
+  mobile-number:
+    input: '9000000001'
+    synthetic_context:
+      birth_root: 3
+    channels:
+      compound total: sum 10; Chaldean compound available
+      digit root and Moolank/Bhagyank comparison: root 1 relative to birth root 3 is friendly
+      most repeated and absent digits: zero repeats; digits 2–8 absent
+    matched:
+    - numerology.chaldean.check-mobile-number-compound-known
+    - numerology.ank-jyotish.check-mobile-number-repeats
+    - numerology.ank-jyotish.check-mobile-number-ruler-compatibility
+    tone: Supportive
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false
+  vehicle-number:
+    input: KA01AB1234
+    synthetic_context:
+      birth_root: 2
+    channels:
+      numeric digit sum: all digits sum to 11
+      comparison with birth-number roots: root 2 matches the bound birth root
+      fourth-house evidence: vehicle period is active
+      purchase or delivery windows: delivery interval overlaps exclusion
+    matched:
+    - numerology.ank-jyotish.check-vehicle-number-root
+    - vedic.dashas-vimshottari.check-vehicle-number-vehicle-period
+    - vedic.muhurta.check-vehicle-number-delivery-exclusion
+    tone: Steady
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false
+  personal-baby-name:
+    input: Asha
+    synthetic_context:
+      school: pythagorean
+      birth_root: 2
+      initial_sound_match: true
+      life_path: 11
+    channels:
+      profile-specific name number: A+S+H+A = 11; retained master, ordinary root 2
+      birth-pada syllable match: confirmed initial sound matches selected pada
+      curated meaning and provenance: Asha resolves to the reviewed hope sense
+    matched:
+    - vedic.padas.check-personal-baby-name-pada
+    - numerology.pythagorean.check-personal-baby-name-name-root
+    - vedic.padas.check-personal-baby-name-dictionary-hit
+    tone: Supportive
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false
+  business-name:
+    input: Sunrise Traders
+    synthetic_context:
+      school: chaldean
+      birth_root: 1
+    channels:
+      name-number per selected school: compound 46 reduces to 1
+      opening syllable and birth Moon pada: initial sound matches selected pada
+      Moon or Lagna lord association: Moon-lord association available as context
+      7th/10th/11th house activation: trade period activates the target houses
+    matched:
+    - vedic.padas.check-business-name-syllable-match
+    - numerology.chaldean.check-business-name-brand-root
+    - vedic.dashas-vimshottari.check-business-name-trade-period
+    tone: Supportive
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false
+  house-relocation:
+    input: 12-B/3
+    synthetic_context:
+      origin: Bengaluru
+      destination: Mysuru
+      instant_utc: '1992-03-12T00:10:00Z'
+      work_linked: false
+      mode: dwelling
+    channels:
+      relocated angles calculated at natal instant: recast at the same instant
+      Travel houses 3/9/12; home-left-behind context 4; career house 10 only on explicit work-linked move.: changed
+        placement reaches travel house 9
+      current dasha and transit window: moving window available
+      house entrance/layout tradition: observed entrance available
+      house number and fourth-house or Moon fit: digits total 6 and fit selected dwelling profile
+    matched:
+    - vastu.entrances.check-house-relocation-dwelling-facing
+    - numerology.ank-jyotish.check-house-relocation-dwelling-root
+    - vedic.muhurta.check-house-relocation-moving-window
+    tone: Supportive
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false
+  big-decision-muhurta:
+    input: starting-work
+    synthetic_context:
+      city: Bengaluru
+      local_interval:
+      - 09:12
+      - 09:24
+    channels:
+      activity-specific limb suitability: activity limbs support
+      each participant’s Tara bala: participant Tara supports
+      each participant’s Chandra bala: participant Chandra supports
+      hora or activity factor: selected hora is supportive
+    matched:
+    - vedic.muhurta.check-big-decision-muhurta-tara-support
+    - vedic.muhurta.check-big-decision-muhurta-moon-support
+    - vedic.muhurta.check-big-decision-muhurta-activity-limb
+    tone: Supportive
+    limited:
+      keep_first: 1
+      status: limited-evidence
+      tone: Steady
+    privacy:
+      store_raw: false
+      send_raw_to_ai: false
+      log_raw: false

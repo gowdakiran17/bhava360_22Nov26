@@ -25,6 +25,8 @@ reference_rules:
 - vedic.matching.bhakoot
 - vedic.matching.nadi
 used_by:
+- vedic.doshas.bhakoot
+- vedic.doshas.nadi
 - vedic.matching.bhakoot
 - vedic.matching.gana
 - vedic.matching.graha-maitri

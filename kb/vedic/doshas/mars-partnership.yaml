@@ -86,19 +86,19 @@ exceptions:
       op: in
       value:
       - library
-      - bphs
+      - regional-lagna
     - fact: dosha.mars.benefic_contact
       op: eq
       value: true
   effect: cancel
-  reason: A benefic joins or fully aspects Mars in the BPHS reading.
+  reason: A benefic joins or fully aspects Mars in the selected regional reading.
 - when:
     all:
     - fact: dosha.mars.relief_profile
       op: in
       value:
       - library
-      - bphs
+      - regional-lagna
       - raman
       - sgs
     - fact: dosha.mars.pair_balanced
@@ -175,29 +175,10 @@ exceptions:
   reason: The SGS almanac exempts six ascendant signs in its regional convention.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The Sanskrit BPHS reading starts with house 1; one English transcription lists only 4/7/8/12. Raman
-    counts 2/4/7/8/12 and examines Lagna, Moon and Venus separately. Rath uses the second-house list from Lagna
-    and the first-house list from the Moon. The library uses the inclusive six-house list. Keep the author
-    profiles separate. The SGS almanac also screens full Mars aspects to its five houses from Lagna and gives
-    six ascendant exemptions. Its additional sign/house glosses have differing readings and are pending textual
-    review.
+  note: MODERN/POPULAR regional Kuja doctrine. Default Lagna 1/2/4/7/8/12; other schools omit the second or compare
+    Moon and Venus as separately labelled references. Resolve natal reliefs before pair balance. Raman, Muhurtha,
+    marriage chapter.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: bphs-80
-  chapter: 80
-  verse: 47–49
-  other_locator: Sanskrit and English
-  supports: First-house list, benefic aspect or conjunction, and two-chart qualification.
-  verification: verified
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: bphs-80-four
-  chapter: 80
-  verse: '47'
-  other_locator: English rendering
-  supports: Four-house textual variant.
-  verification: verified
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
   edition: raman-muhurtha
@@ -223,8 +204,7 @@ sources:
   supports: Regional aspect-based screen, six ascendant exemptions and pair comparison.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: MODERN/POPULAR. Compare like references; never infer a relationship outcome from this factor alone.
 user_text:
   en: You can discuss how each of you handles disagreement.
   kn: ಭಿನ್ನಾಭಿಪ್ರಾಯವನ್ನು ಇಬ್ಬರೂ ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಚರ್ಚಿಸಬಹುದು.

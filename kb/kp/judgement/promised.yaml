@@ -1,0 +1,44 @@
+id: kp.judgement.promised
+system: kp
+topic: judgement
+title: Promised
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Resolve both event groups for the bound cusp using kp/judgement/chain.yaml.
+conditions:
+  all:
+  - fact: kp.judgement.outcome
+    op: eq
+    value: promised
+meaning: There may be room to take the next step.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Keep ranked testimony separate from the four-step method.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: There may be room to take the next step.
+  kn: ಮುಂದಿನ ಹೆಜ್ಜೆಗೆ ಅವಕಾಶ ಇರಬಹುದು.
+  hi: अगला कदम उठाने की गुंजाइश हो सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: modifier
+  reference: none
+  time_scope: event
+  area_strength: {}

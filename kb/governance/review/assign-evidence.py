@@ -61,6 +61,8 @@ def classify(r, recipes, slow):
             relevance['learning']='core'
     elif system=='vedic' and ('-lagna-house-' in slug or topic in ('aspects','conjunctions') or (topic=='vargas' and 'release' in r)):
         return r['evidence'], None, None
+    elif topic in ('natal-pairs','transit-pairs','synastry-pairs','return-readings','angles') or system=='kp' and topic=='judgement':
+        return r['evidence'],None,None
     elif topic=='planets-in-signs':
         kind = r['placement']['dignity']['sign_class']
         ref = 'none'

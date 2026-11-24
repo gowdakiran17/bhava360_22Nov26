@@ -14,7 +14,7 @@ def distance(origin, target):
 
 def mars_facts(chart, config, profile, signs, aspects):
     reference, house_list, relief = (config[k] for k in ('reference', 'house_list', 'relief'))
-    bindings = {'bphs': [('lagna', 'lagna_five'), ('lagna', 'four')],
+    bindings = {'regional-lagna': [('lagna', 'lagna_five'), ('lagna', 'four')],
                 'raman': [(r, 'family_five') for r in profile['references']],
                 'rath': [('lagna', 'family_five'), ('moon', 'lagna_five')],
                 'sgs': [('lagna', 'family_five')]}
@@ -71,16 +71,20 @@ def node_facts(chart, slug):
     return facts
 
 
-def pair_facts(a, b, parihara, signs, rules):
+def pair_facts(a, b, parihara, signs, rules, raman=False):
     star_a, star_b = (int(m*60//800) for m in (a,b))
     pattern = (0,1,2,2,1,0)
     l1, l2 = [signs[sign(m)]['lord'] for m in (a,b)]
     def friends(lord):
         return rules['vedic.planets.'+lord]['graha']['natural_friendships']['friends']
-    return {'match.nadi.same': pattern[star_a%6] == pattern[star_b%6],
+    quarter_a, quarter_b = (int(m*60//200) for m in (a,b))
+    lord_relief = l1 == l2 or l1 in friends(l2) and l2 in friends(l1)
+    return {'match.nadi.quarter_relief': raman and pattern[quarter_a%6] != pattern[quarter_b%6],
+            'match.bhakoot.raman_relief': raman and lord_relief,
+            'match.nadi.same': pattern[star_a%6] == pattern[star_b%6],
             'match.nadi.pada_parihara': parihara and star_a == star_b and int(a*60//200) != int(b*60//200),
             'match.bhakoot.zero': distance(a,b) in (2,12,5,9,6,8),
-            'match.bhakoot.lord_parihara': parihara and (l1 == l2 or l1 in friends(l2) and l2 in friends(l1))}
+            'match.bhakoot.lord_parihara': parihara and lord_relief}
 
 
 def validate_doshas(rules, read, evaluate, require):
@@ -108,7 +112,7 @@ def validate_doshas(rules, read, evaluate, require):
         facts.update(mars)
         if case.get('consent') and 'partner' in case:
             other = chart(case['partner'], case.get('partner_positions', {}))
-            facts.update(pair_facts(natal['moon'],other['moon'],case.get('parihara',False),signs,rules))
+            facts.update(pair_facts(natal['moon'],other['moon'],case.get('parihara',False),signs,rules,case.get('raman',False)))
             companion = mars_facts(other,config,profile,signs,aspects)
             facts['dosha.mars.pair_balanced'] = all(natal_survives(records['mars-partnership'], f, evaluate)
                                                     for f in (mars,companion))

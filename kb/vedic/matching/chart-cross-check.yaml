@@ -4,9 +4,10 @@ topic: matching
 title: Seventh house, Venus and Navamsha
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For each partner inspect the D1 seventh sign, its ruler and Venus by house, sign and dignity. Compare the
-  D9 ascendant, seventh house, seventh lord and Venus. Record repeated or differing themes for the two charts separately.
-  Unstable birth times leave house and D9 evidence unresolved.
+rule: For each partner inspect the D1 seventh sign, its ruler and Venus by house, sign and dignity. Compare the D9
+  ascendant, seventh house, seventh lord and Venus. Record repeated or differing themes for the two charts separately.
+  Unstable birth times leave house and D9 evidence unresolved. Compare Moon-to-Lagna perspectives and overlapping
+  supportive dasha intervals as distinct contextual reasons. Withhold unstable inputs for either partner.
 conditions:
   all:
   - fact: match.profile

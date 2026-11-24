@@ -510,6 +510,8 @@ def main():
         for slot in recipe['slot_bindings'].values():
             if 'rule_id' in slot:require(slot['rule_id'] in rules,slot)
     validate_life_areas(rules, read, require, ROOT)
+    from checkers import validate_checkers
+    validate_checkers(rules,read,require)
     from western import validate_western
     validate_western(rules,read,evaluate,require)
     from numerology import validate_numerology

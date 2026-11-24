@@ -1,0 +1,62 @@
+id: vedic.matching.papasamya
+system: vedic
+topic: matching
+title: Papasamya · comparison of residual testimony
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: POPULAR editorial comparison. On both charts use identical reference, eligible malefics and houses (Sun, Mars,
+  Saturn and nodes in 1/2/4/7/8/12 from stable Lagna). Count distinct residual placements with unit weight after applicable
+  cancellations. Compare equal versus unequal burden only as context, without changing koota totals. Missing either
+  chart withholds.
+conditions:
+  all:
+  - fact: match.profile
+    op: eq
+    value: context
+  - fact: match.pair.ready
+    op: eq
+    value: true
+  - fact: match.papasamya.comparable
+    op: eq
+    value: true
+meaning: You can discuss how each of you handles demanding responsibilities.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: MODERN/POPULAR regional Kuja doctrine. Default Lagna 1/2/4/7/8/12; other schools omit the second or compare
+    Moon and Venus as separately labelled references. Resolve natal reliefs before pair balance. Raman, Muhurtha,
+    marriage chapter.
+sources:
+- book: Muhurtha (Electional Astrology)
+  work_id: raman-muhurtha
+  edition: raman-muhurtha
+  chapter: Marriage
+  verse: null
+  other_locator: Marriage, introductory discussion and Kuja Dosha
+  supports: Regional parity comparison, pending edition review; equal weights are Bhava360 editorial policy.
+  verification: pending
+confidence: medium
+review_notes: POPULAR; equal unit weighting is editorial. Other schools use unequal planet weights and additional
+  reference points.
+user_text:
+  en: You can discuss how each of you handles demanding responsibilities.
+  kn: ಕಷ್ಟದ ಹೊಣೆಗಾರಿಕೆಗಳನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+  hi: मुश्किल ज़िम्मेदारियाँ संभालने के अपने तरीके आप साझा कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+matching:
+  related_rules:
+  - vedic.matching.manglik-comparison
+  weight: context only
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength:
+    love-marriage: core

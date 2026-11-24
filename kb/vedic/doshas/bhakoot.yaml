@@ -28,6 +28,13 @@ exceptions:
     value: true
   effect: soften
   reason: Identical or mutually friendly sign lords qualify under the selected parihara variant.
+- when:
+    fact: match.bhakoot.raman_relief
+    op: eq
+    value: true
+  effect: cancel
+  reason: With Raman lord relief expressly selected, shared rulers or mutual natural friends cancel the interpretive
+    objection to the base sign pair. Preserve the base score.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Parihara varies by matching school. Preserve the raw northern score and use both charts only in the
@@ -42,8 +49,8 @@ sources:
   supports: Computational source for the base factor. Parihara follows the KB matching profile.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: Natal disputed modifier only. The underlying Ashtakoota factor remains classical in matching; selected
+  cancellation removes its caution and preserves raw arithmetic.
 user_text:
   en: You can use this factor as a starting point for talking about your preferences.
   kn: ನಿಮ್ಮ ಆದ್ಯತೆಗಳ ಬಗ್ಗೆ ಮಾತನಾಡಲು ಈ ಅಂಶವನ್ನು ಆರಂಭವಾಗಿ ಬಳಸಬಹುದು.

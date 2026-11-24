@@ -1,0 +1,47 @@
+id: western.natal-pairs.mercury-neptune-conjunction
+system: western
+topic: natal-pairs
+title: Mercury neptune conjunction
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: natal mercury to neptune via conjunction. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.natal.reading_pair
+    op: eq
+    value: mercury-neptune
+  - fact: western.natal.family
+    op: eq
+    value: conjunction
+meaning: You can consider how communication and imagination meet in the same decision.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: You can consider how communication and imagination meet in the same decision.
+  kn: ಒಂದೇ ನಿರ್ಧಾರದಲ್ಲಿ ಸಂವಹನ ಮತ್ತು ಕಲ್ಪನೆ ಹೇಗೆ ಸೇರುತ್ತವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: आप देख सकते हैं कि एक ही फैसले में संवाद और कल्पना कहाँ जुड़ते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: neutral
+  weight_class: secondary
+  reference: none
+  time_scope: natal
+  area_strength: {}

@@ -4,8 +4,8 @@ topic: aspects
 title: Saturn square Sun · natal
 doctrine_profile: western-editorial-v1
 approval: draft
-rule: In the same natal chart, bind Sun and Saturn in either order. Their shortest longitude separation is within
-  six degrees of ninety, endpoints included. Read the tension between purpose and responsibility.
+rule: Use the inclusive natal square orb with luminary adjustment. Deduplicate with the natal tension pair by chart,
+  bodies and aspect.
 conditions:
   all:
   - fact: western.natal.sun-saturn-pair

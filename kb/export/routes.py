@@ -41,6 +41,10 @@ def routing(rules, docs, aliases):
             add('screen/' + system, [key])
             if system=='western':
                 add('screen/western-'+topic,[key])
+                technique = {'natal-pairs':'aspects', 'transit-pairs':'transits', 'synastry-pairs':'synastry',
+                             'return-readings':'returns', 'angles':'natal'}.get(topic)
+                if technique:
+                    add('screen/western-'+technique,[key])
         if system in {'vedic', 'jaimini', 'western', 'kp', 'lal-kitab', 'numerology'}:
             for area in rule['life_areas']:
                 add('area/' + area, [key])
@@ -75,7 +79,7 @@ def routing(rules, docs, aliases):
     combine('ask', ['screen/life-areas','screen/prashna'])
     combine('family-together', ['screen/planning','screen/timeline'])
     combine('notifications', ['screen/today','screen/planning','screen/tarot'])
-    add('screen/matching', [key for key in rules if key.startswith('western.synastry.') or
+    add('screen/matching', [key for key in rules if key.startswith(('western.synastry.', 'western.synastry-pairs.')) or
                             key in {'vedic.doshas.mars-partnership','vedic.doshas.nadi','vedic.doshas.bhakoot',
                                     'vedic.houses.house-7','vedic.planets.venus','vedic.vargas.d9-placement'}])
     combine('reports', ['screen/life-areas','screen/chart','screen/divisional-charts','screen/matching','screen/timeline'])

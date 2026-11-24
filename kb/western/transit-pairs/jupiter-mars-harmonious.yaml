@@ -1,0 +1,50 @@
+id: western.transit-pairs.jupiter-mars-harmonious
+system: western
+topic: transit-pairs
+title: Jupiter mars harmonious
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: transit jupiter to mars via sextile, trine. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.transit.reading_pair
+    op: eq
+    value: jupiter-mars
+  - fact: western.transit.family
+    op: eq
+    value: harmonious
+  - fact: western.transit.perfection_dated
+    op: eq
+    value: true
+meaning: Learning may leave more room for initiative.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Learning may leave more room for initiative.
+  kn: ಕಲಿಕೆ ಮೂಲಕ ಮುಂದಾಳತ್ವ ಕಡೆ ಗಮನ ನೀಡಬಹುದು.
+  hi: सीख से पहल के लिए जगह बन सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  reference: none
+  time_scope: transit
+  area_strength: {}

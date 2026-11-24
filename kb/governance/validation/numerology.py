@@ -123,6 +123,16 @@ def pythagorean_stages(birth, spelling, spec, method='components'):
     return stages,hits
 
 
+def public_debt_readings(hits):
+    # The two stage traces for the same birth-day reduction explain a single observation.
+    seen=set()
+    for stage,index,compound in hits:
+        key=('birthday' if stage=='life-path-day' else stage,index,compound)
+        if key not in seen:
+            seen.add(key)
+            yield f'numerology.pythagorean.karmic-debt-{compound}'
+
+
 def compat(table, birth_root, candidate):
     if type(birth_root) is not int or type(candidate) is not int or not (1<=birth_root<=9 and 1<=candidate<=9):
         return None

@@ -1,7 +1,7 @@
 version: 2
 approval: draft
-method: Deviation from shortest circular separation is inclusive. Minor aspects require explicit enablement.
-  Luminary widening is zero in all six techniques.
+method: Inclusive deviation. Major natal, synastry and composite contacts take the larger point adjustment once. Minor
+  aspects and timed contacts retain base widths. Quincunx is opt-in including explicit Yod geometry.
 natal:
   conjunction:
     angle: 0
@@ -127,4 +127,17 @@ composite:
     orb: 2
 provenance:
   synastry: Bhava360 editorial convention
-  composite: Bhava360 editorial convention
+  composite: Editorial reuse of synastry orbs and adjustments.
+widening_degrees:
+  sun: 2
+  moon: 2
+  mercury: 1
+  venus: 1
+  mars: 1
+  jupiter: 0.5
+  saturn: 0.5
+  uranus: 0
+  neptune: 0
+  pluto: 0
+  asc: 0
+  mc: 0

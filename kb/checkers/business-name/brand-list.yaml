@@ -1,0 +1,220 @@
+approval: draft
+title: Brand name check
+scope: Public brand spellings in the Indian market, including Indian operations of international companies. Examples
+  for list selection only. Their owners retain their marks; no affiliation or trademark claim.
+schema:
+  name: Displayed public spelling
+  market: IN
+  source: First-party public brand or company domain
+  verification: Pending dated review before release
+source_rules: Use a public first-party site for spelling. No private contacts, endorsements, suggested availability,
+  logo assets or claims of registration. Compare only user-selected spellings.
+entries:
+- name: Amul
+  market: IN
+  source: https://amul.com
+  verification: pending
+- name: Nandini
+  market: IN
+  source: https://kmfnandini.coop
+  verification: pending
+- name: Aavin
+  market: IN
+  source: https://aavin.tn.gov.in
+  verification: pending
+- name: Mother Dairy
+  market: IN
+  source: https://motherdairy.com
+  verification: pending
+- name: Britannia
+  market: IN
+  source: https://britannia.co.in
+  verification: pending
+- name: Parle
+  market: IN
+  source: https://parleproducts.com
+  verification: pending
+- name: Dabur
+  market: IN
+  source: https://dabur.com
+  verification: pending
+- name: Marico
+  market: IN
+  source: https://marico.com
+  verification: pending
+- name: Godrej
+  market: IN
+  source: https://godrej.com
+  verification: pending
+- name: Asian Paints
+  market: IN
+  source: https://asianpaints.com
+  verification: pending
+- name: Berger Paints
+  market: IN
+  source: https://bergerpaints.com
+  verification: pending
+- name: Pidilite
+  market: IN
+  source: https://pidilite.com
+  verification: pending
+- name: Fevicol
+  market: IN
+  source: https://fevicol.in
+  verification: pending
+- name: Titan
+  market: IN
+  source: https://titan.co.in
+  verification: pending
+- name: Tanishq
+  market: IN
+  source: https://tanishq.co.in
+  verification: pending
+- name: Fastrack
+  market: IN
+  source: https://fastrack.in
+  verification: pending
+- name: Sonata
+  market: IN
+  source: https://sonatawatches.in
+  verification: pending
+- name: Bata India
+  market: IN
+  source: https://bata.in
+  verification: pending
+- name: Fabindia
+  market: IN
+  source: https://fabindia.com
+  verification: pending
+- name: Raymond
+  market: IN
+  source: https://raymond.in
+  verification: pending
+- name: Arvind
+  market: IN
+  source: https://arvind.com
+  verification: pending
+- name: Page Industries
+  market: IN
+  source: https://pageind.com
+  verification: pending
+- name: Siyaram’s
+  market: IN
+  source: https://siyarams.com
+  verification: pending
+- name: Havells
+  market: IN
+  source: https://havells.com
+  verification: pending
+- name: Voltas
+  market: IN
+  source: https://voltas.com
+  verification: pending
+- name: Blue Star
+  market: IN
+  source: https://bluestarindia.com
+  verification: pending
+- name: Crompton
+  market: IN
+  source: https://crompton.co.in
+  verification: pending
+- name: Bajaj Electricals
+  market: IN
+  source: https://bajajelectricals.com
+  verification: pending
+- name: Hero MotoCorp
+  market: IN
+  source: https://heromotocorp.com
+  verification: pending
+- name: Bajaj Auto
+  market: IN
+  source: https://bajajauto.com
+  verification: pending
+- name: TVS Motor
+  market: IN
+  source: https://tvsmotor.com
+  verification: pending
+- name: Royal Enfield
+  market: IN
+  source: https://royalenfield.com
+  verification: pending
+- name: Tata Motors
+  market: IN
+  source: https://tatamotors.com
+  verification: pending
+- name: Mahindra
+  market: IN
+  source: https://mahindra.com
+  verification: pending
+- name: Ashok Leyland
+  market: IN
+  source: https://ashokleyland.com
+  verification: pending
+- name: MRF
+  market: IN
+  source: https://mrftyres.com
+  verification: pending
+- name: Apollo Tyres
+  market: IN
+  source: https://apollotyres.com
+  verification: pending
+- name: CEAT
+  market: IN
+  source: https://ceat.com
+  verification: pending
+- name: Infosys
+  market: IN
+  source: https://infosys.com
+  verification: pending
+- name: Wipro
+  market: IN
+  source: https://wipro.com
+  verification: pending
+- name: HCLTech
+  market: IN
+  source: https://hcltech.com
+  verification: pending
+- name: Tata Consultancy Services
+  market: IN
+  source: https://tcs.com
+  verification: pending
+- name: Tech Mahindra
+  market: IN
+  source: https://techmahindra.com
+  verification: pending
+- name: Airtel
+  market: IN
+  source: https://airtel.in
+  verification: pending
+- name: Jio
+  market: IN
+  source: https://jio.com
+  verification: pending
+- name: Zerodha
+  market: IN
+  source: https://zerodha.com
+  verification: pending
+- name: PhonePe
+  market: IN
+  source: https://phonepe.com
+  verification: pending
+- name: Razorpay
+  market: IN
+  source: https://razorpay.com
+  verification: pending
+- name: Swiggy
+  market: IN
+  source: https://swiggy.com
+  verification: pending
+- name: Zomato
+  market: IN
+  source: https://zomato.com
+  verification: pending
+- name: Nykaa
+  market: IN
+  source: https://nykaa.com
+  verification: pending
+- name: Lenskart
+  market: IN
+  source: https://lenskart.com
+  verification: pending

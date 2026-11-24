@@ -1,8 +1,8 @@
 profile: kp-editorial-v1
 visibility: admin
 match: any
-binding: Evaluate only for the selected question and its named cusp. Missing or unstable lord or chart returns
-  unknown. Store every supporting level with its actor.
+binding: Evaluate only for the selected question and its named cusp. Missing or unstable lord or chart returns unknown.
+  Store every supporting level with its actor.
 events:
   1:
     event: daily-wellbeing
@@ -12,6 +12,9 @@ events:
     fact: kp.cusp1.links_event
     entry: kp.cusps.cusp-1
     basis: documented group
+    negating_houses:
+    - 10
+    - 12
   2:
     event: savings
     houses:
@@ -20,6 +23,9 @@ events:
     fact: kp.cusp2.links_event
     entry: kp.cusps.cusp-2
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 1
+    - 10
   3:
     event: short-journey
     houses:
@@ -28,6 +34,9 @@ events:
     fact: kp.cusp3.links_event
     entry: kp.cusps.cusp-3
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 2
+    - 8
   4:
     event: property-purchase
     houses:
@@ -37,6 +46,10 @@ events:
     fact: kp.cusp4.links_event
     entry: kp.cusps.cusp-4
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 3
+    - 10
+    - 11
   5:
     event: family-growth
     houses:
@@ -46,6 +59,10 @@ events:
     fact: kp.cusp5.links_event
     entry: kp.cusps.cusp-5
     basis: documented group
+    negating_houses:
+    - 1
+    - 4
+    - 10
   6:
     event: salaried-service
     houses:
@@ -56,6 +73,11 @@ events:
     fact: kp.cusp6.links_event
     entry: kp.cusps.cusp-6
     basis: documented group
+    negating_houses:
+    - 1
+    - 5
+    - 9
+    - 10
   7:
     event: marriage
     houses:
@@ -65,6 +87,10 @@ events:
     fact: kp.cusp7.links_2_7_11
     entry: kp.cusps.seventh-cusp
     basis: documented group
+    negating_houses:
+    - 1
+    - 6
+    - 10
   8:
     event: shared-inheritance
     houses:
@@ -74,6 +100,10 @@ events:
     fact: kp.cusp8.links_event
     entry: kp.cusps.cusp-8
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 1
+    - 7
+    - 10
   9:
     event: higher-study
     houses:
@@ -83,6 +113,10 @@ events:
     fact: kp.cusp9.links_event
     entry: kp.cusps.cusp-9
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 3
+    - 8
+    - 10
   10:
     event: employment
     houses:
@@ -93,6 +127,11 @@ events:
     fact: kp.cusp10.links_event
     entry: kp.cusps.cusp-10
     basis: documented group
+    negating_houses:
+    - 1
+    - 5
+    - 9
+    - 10
   11:
     event: receipt-of-income
     houses:
@@ -101,6 +140,9 @@ events:
     fact: kp.cusp11.links_event
     entry: kp.cusps.cusp-11
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 1
+    - 10
   12:
     event: residence-abroad
     houses:
@@ -110,3 +152,9 @@ events:
     fact: kp.cusp12.links_event
     entry: kp.cusps.cusp-12
     basis: Bhava360 editorial grouping
+    negating_houses:
+    - 2
+    - 8
+    - 11
+negation: Twelfth from each supporting house, including the classical marriage denial set 1/6/10. Overlapping support
+  and denial gives mixed testimony.

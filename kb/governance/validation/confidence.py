@@ -246,6 +246,7 @@ def validate(read, require):
         data=dict(traces, **{'moon-nakshatra':trace(23,(0,24))})
         require(all(key in run(precision,data)['withheld'] for key in ('maha-name','antar-name','maha-dates','antar-dates')),'dasha boundary')
     c=run('unknown',traces)
+    require(all(k in c['withheld'] for k in ('western-houses','western-asc-mc','western-fortune','matching-lagna-kuja')) and c['outputs']['matching-nakshatra-pada']['action']=='show','stable Moon pada independent of unavailable angles')
     require(all(k in c['withheld'] for k in ('bav','sav','kakshya','d9')) and
             c['outputs']['d9-planet-sign']['action']=='show','planet-only evidence independent of Lagna')
     boundary=dict(traces, **{'local-sunrise-vara-hora':trace('night', (0,'day'))})

@@ -50,7 +50,7 @@ manglik:
   relief_profiles:
     library: Use the stated benefic-contact and pair exceptions plus own/exalted mitigation on the library
       house list.
-    bphs: Use the Sanskrit five-house list from Lagna and verses 47–49.
+    regional-lagna: Regional Lagna-only five- or four-house list with explicitly selected reliefs; textual attribution pending.
     raman: Use the second-house five-list, with separately bound Lagna, Moon or Venus origin. Apply the Raman
       exceptions to the chosen origin.
     rath: Lagna uses family_five. Moon uses lagna_five. No automatic transfer of another school’s sign exceptions.

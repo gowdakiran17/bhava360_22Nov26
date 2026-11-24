@@ -1,0 +1,50 @@
+id: western.natal-pairs.mercury-mc-harmonious
+system: western
+topic: natal-pairs
+title: Mercury mc harmonious
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: natal mercury to mc via sextile, trine. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.natal.reading_pair
+    op: eq
+    value: mercury-mc
+  - fact: western.natal.family
+    op: eq
+    value: harmonious
+  - fact: western.angle.reliable
+    op: eq
+    value: true
+meaning: Communication may leave more room for public work.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Communication may leave more room for public work.
+  kn: ಸಂವಹನ ಮೂಲಕ ಸಾರ್ವಜನಿಕ ಕೆಲಸ ಕಡೆ ಗಮನ ನೀಡಬಹುದು.
+  hi: संवाद से सार्वजनिक काम के लिए जगह बन सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  reference: none
+  time_scope: natal
+  area_strength: {}

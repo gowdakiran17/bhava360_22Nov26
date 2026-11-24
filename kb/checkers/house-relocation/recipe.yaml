@@ -6,7 +6,7 @@ inputs:
 - planned-month
 reason_channels:
 - relocated angles calculated at natal instant
-- 4th/9th/12th/10th house evidence
+- Travel houses 3/9/12; home-left-behind context 4; career house 10 only on explicit work-linked move.
 - current dasha and transit window
 - house entrance/layout tradition
 - house number and fourth-house or Moon fit
@@ -43,3 +43,5 @@ selection: Evaluate only profile-compatible rules. Deduplicate reasons by underl
   match, return limited evidence.
 numerology_profile: checks/house-relocation/profile.yaml
 layout_profile: vastu/profile.yaml
+relocation: Preserve natal UTC and replace only coordinates. Compare changed Lagna; use travel houses 3,9,12 and fourth
+  as home context. Bind destination-work only when work-linked.

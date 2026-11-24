@@ -1,6 +1,6 @@
 # Bhava360 knowledge base edition 1
 
-This is a reviewable authoring edition. It contains 2,175 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,175 rules have English, Kannada and Hindi user text and retain draft status.
+This is a reviewable authoring edition. It contains 2,540 individually addressable YAML rules across ten systems, plus 661 glossary entries, calculation tables and product recipes. All 2,540 rules have English, Kannada and Hindi user text and retain draft status.
 
 ## Where to start
 
@@ -66,3 +66,9 @@ Eleven area recipes feed the KB-36 pipeline. Nine Maha and 81 Antar readings ref
 The inventory contains 2,175 reading rules across ten systems and 897 registered facts. This batch adds 108 Lagna transit topics, 108 full aspects to houses, 12 targeted aspects, 36 same-sign pairs and 19 area-varga readings. Nine divisional readings are eligible for MVP synthesis. Ten are reserved for later releases. Eleven transit-area predicate maps and eight election activity profiles use the shared confidence and regional gates. The confidence matrix has 66 rows.
 
 Classical locators awaiting edition checks retain pending status. Election offset and weekday tables were checked in the PyJHora 5.0.6 distribution. Murti nirnaya, Latta and node Vedha as independent transit readings, and Samvatsara, Ritu and Ayana names, are deferred. Election-star obstruction is a required input to marriage screening. New copy is draft and awaits Kannada and Hindi native review. [Synthetic worksheets](examples/transits-vargas-elections.yaml)
+
+## Batch 4 · KP judgement, Western contacts and matching
+
+The corpus now contains 2,540 draft reading rules across ten systems and 916 registered facts. The 365 new readings comprise five KP judgements, 198 Western natal pair readings, 105 transit pair readings, 42 synastry readings, twelve MC signs, two return readings and one Papasamya comparison. The confidence matrix covers 71 outputs. Six checker worksheets cover complete, limited and private input paths. The lookup tables contain 319 name spellings and 52 Indian-market brands.
+
+The Western point adjustments, the matching summary bands and the Papasamya unit weights are editorial conventions. KP retains true node, Krishnamurti mode 5 and Placidus without fallback. Koota totals and sensitive evidence remain internal. Native Kannada/Hindi review and first-party brand spelling checks remain pending; Sanskrit dictionary senses are distinguished from name usage.

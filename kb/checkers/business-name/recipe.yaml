@@ -42,3 +42,10 @@ selection: Evaluate only profile-compatible rules. Deduplicate reasons by underl
   ID. Independent evidence means a total and its arithmetic restatement count once. When fewer than three explainable reasons
   match, return limited evidence.
 numerology_profile: checks/business-name/profile.yaml
+title: Brand name check
+display_name:
+  en: Brand name check
+  kn: ಬ್ರ್ಯಾಂಡ್ ಹೆಸರು ಪರಿಶೀಲನೆ
+  hi: ब्रांड नाम जाँच
+list_mode: Select a public spelling in checkers/business-name/brand-list.yaml; apply the same confirmed-spelling recipe
+  as manual entry.

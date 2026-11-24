@@ -1,0 +1,33 @@
+approval: draft
+synthetic: true
+label: Scenario P3
+consented: true
+moons_stable: true
+raw_total: 18
+nadi:
+  formed: true
+  cancelled: true
+bhakoot:
+  formed: false
+  cancelled: false
+mars:
+  first: true
+  second: true
+  comparable: true
+cross:
+  partnership: support
+  moon-lagna: null
+  d9: neutral
+  period: null
+expected_band: mixed
+tone: Steady
+message_keys:
+- understanding
+- mixed
+- nadi-relief
+- kuja-balance
+- partnership
+- d9
+- prompt
+private_note: Preserve raw koota arithmetic; Nadi exception and comparable residual Kuja remove their cautions. Explain
+  each once.

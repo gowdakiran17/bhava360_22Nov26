@@ -1,0 +1,44 @@
+id: kp.judgement.mixed
+system: kp
+topic: judgement
+title: Mixed
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Resolve both event groups for the bound cusp using kp/judgement/chain.yaml.
+conditions:
+  all:
+  - fact: kp.judgement.outcome
+    op: eq
+    value: mixed
+meaning: Progress may be possible, with some details still to settle.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Keep ranked testimony separate from the four-step method.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Progress may be possible, with some details still to settle.
+  kn: ಕೆಲವು ವಿಷಯಗಳನ್ನು ಬಗೆಹರಿಸುತ್ತಾ ಮುಂದೆ ಸಾಗಬಹುದು.
+  hi: कुछ बातें सुलझाते हुए आप आगे बढ़ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: neutral
+  weight_class: modifier
+  reference: none
+  time_scope: event
+  area_strength: {}

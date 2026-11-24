@@ -10,6 +10,9 @@ conditions:
   - fact: western.natal.ascendant.sign
     op: eq
     value: cancer
+  - fact: western.angle.reliable
+    op: eq
+    value: true
 meaning: Consider first impressions through the theme of creating belonging.
 life_areas: []
 strength_notes: []

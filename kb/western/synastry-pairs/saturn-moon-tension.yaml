@@ -1,0 +1,49 @@
+id: western.synastry-pairs.saturn-moon-tension
+system: western
+topic: synastry-pairs
+title: Saturn moon tension
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: synastry saturn to moon via square, opposition. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.synastry.reading_pair
+    op: eq
+    value: saturn-moon
+  - fact: western.synastry.family
+    op: eq
+    value: tension
+meaning: When your approaches to responsibilities and emotional needs differ, you can ask what each person needs.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: When your approaches to responsibilities and emotional needs differ, you can ask what each person needs.
+  kn: ಹೊಣೆಗಾರಿಕೆಗಳು ಮತ್ತು ಭಾವನಾತ್ಮಕ ಅಗತ್ಯಗಳು ಬಗ್ಗೆ ವ್ಯತ್ಯಾಸ ಕಂಡರೆ ಪರಸ್ಪರ ಅಗತ್ಯಗಳನ್ನು ಕೇಳಬಹುದು.
+  hi: ज़िम्मेदारियाँ और भावनात्मक ज़रूरतें को लेकर मतभेद हों तो आप एक दूसरे की ज़रूरत पूछ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: caution
+  weight_class: secondary
+  reference: none
+  time_scope: event
+  area_strength:
+    love-marriage: core
