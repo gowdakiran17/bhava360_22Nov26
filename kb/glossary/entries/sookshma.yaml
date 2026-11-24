@@ -17,4 +17,13 @@ aliases:
 - Sukshma
 reference_rules: []
 used_by:
+- vedic.dashas-vimshottari.sookshma-jupiter
+- vedic.dashas-vimshottari.sookshma-ketu
+- vedic.dashas-vimshottari.sookshma-mars
+- vedic.dashas-vimshottari.sookshma-mercury
+- vedic.dashas-vimshottari.sookshma-moon
 - vedic.dashas-vimshottari.sookshma-period
+- vedic.dashas-vimshottari.sookshma-rahu
+- vedic.dashas-vimshottari.sookshma-saturn
+- vedic.dashas-vimshottari.sookshma-sun
+- vedic.dashas-vimshottari.sookshma-venus

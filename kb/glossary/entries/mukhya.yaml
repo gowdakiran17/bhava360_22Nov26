@@ -17,6 +17,8 @@ reference_rules: []
 used_by:
 - palmistry.lines.union-left
 - palmistry.lines.union-right
+- vedic.dashas-vimshottari.pratyantar-venus
+- vedic.dashas-vimshottari.sookshma-venus
 - vedic.dashas-vimshottari.venus-jupiter-antar
 - vedic.dashas-vimshottari.venus-ketu-antar
 - vedic.dashas-vimshottari.venus-maha

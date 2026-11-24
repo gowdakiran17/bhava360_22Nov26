@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: property-vehicles · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 4 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for property-vehicles. Run the KB-36 promise, period and transit pipeline. Return
+  at most three qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_4
+  - fact: dasha.upcoming.property_vehicles_window
     op: eq
     value: true
 meaning: Practical questions about a dwelling or vehicle may come into focus.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: Practical questions about a dwelling or vehicle may come into focus.
-  kn: ಮನೆ ಅಥವಾ ವಾಹನದ ಪ್ರಾಯೋಗಿಕ ಪ್ರಶ್ನೆಗಳು ಗಮನಕ್ಕೆ ಬರಬಹುದು.
-  hi: घर या वाहन से जुड़े व्यावहारिक प्रश्न ध्यान में आ सकते हैं।
+  en: You can compare practical needs around land, a home or a vehicle.
+  kn: ಜಮೀನು, ಮನೆ ಅಥವಾ ವಾಹನದ ಅಗತ್ಯಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+  hi: ज़मीन, घर या वाहन से जुड़ी ज़रूरतों की तुलना कर सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

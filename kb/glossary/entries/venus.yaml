@@ -42,8 +42,10 @@ used_by:
 - vedic.dashas-vimshottari.mars-venus-antar
 - vedic.dashas-vimshottari.mercury-venus-antar
 - vedic.dashas-vimshottari.moon-venus-antar
+- vedic.dashas-vimshottari.pratyantar-venus
 - vedic.dashas-vimshottari.rahu-venus-antar
 - vedic.dashas-vimshottari.saturn-venus-antar
+- vedic.dashas-vimshottari.sookshma-venus
 - vedic.dashas-vimshottari.sun-venus-antar
 - vedic.dashas-vimshottari.venus-jupiter-antar
 - vedic.dashas-vimshottari.venus-ketu-antar
@@ -166,8 +168,12 @@ used_by:
 - vedic.transits.venus-moon-house-9
 - vedic.yogas.adhi
 - vedic.yogas.anapha
+- vedic.yogas.bheri
 - vedic.yogas.durudhara
+- vedic.yogas.kalanidhi
 - vedic.yogas.kemadruma
+- vedic.yogas.kusuma
+- vedic.yogas.lagnadhi
 - vedic.yogas.lakshmi
 - vedic.yogas.malavya
 - vedic.yogas.saraswati

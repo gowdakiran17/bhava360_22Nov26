@@ -52,8 +52,10 @@ used_by:
 - vedic.dashas-vimshottari.mercury-sun-antar
 - vedic.dashas-vimshottari.mercury-venus-antar
 - vedic.dashas-vimshottari.moon-mercury-antar
+- vedic.dashas-vimshottari.pratyantar-mercury
 - vedic.dashas-vimshottari.rahu-mercury-antar
 - vedic.dashas-vimshottari.saturn-mercury-antar
+- vedic.dashas-vimshottari.sookshma-mercury
 - vedic.dashas-vimshottari.sun-mercury-antar
 - vedic.dashas-vimshottari.venus-mercury-antar
 - vedic.houses.house-10
@@ -167,7 +169,9 @@ used_by:
 - vedic.yogas.bhadra
 - vedic.yogas.budhaditya
 - vedic.yogas.durudhara
+- vedic.yogas.kalanidhi
 - vedic.yogas.kemadruma
+- vedic.yogas.lagnadhi
 - vedic.yogas.saraswati
 - vedic.yogas.sunapha
 - vedic.yogas.ubhayachari

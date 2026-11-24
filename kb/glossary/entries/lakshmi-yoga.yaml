@@ -19,6 +19,7 @@ reference_rules:
 - vedic.yogas.lakshmi
 used_by:
 - vedic.panchang.deepavali
+- vedic.yogas.activation
 - vedic.yogas.lakshmi
 systems:
 - vedic

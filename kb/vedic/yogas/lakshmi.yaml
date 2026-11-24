@@ -29,13 +29,32 @@ life_areas:
 - spirituality
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.lakshmi.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.lakshmi.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for Venus and the ninth lord in this match before giving the reading
-    greater weight.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This is Mantreswara’s Venus-and-ninth-lord definition. Other definitions give greater weight to Lagna-lord
@@ -68,6 +87,11 @@ remedy:
     en: You may find it useful to connect a financial choice with a value you want to practise.
     kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಯೊಂದನ್ನು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯದೊಂದಿಗೆ ಜೋಡಿಸಬಹುದು.
     hi: आप किसी आर्थिक चुनाव को उस मूल्य से जोड़ सकते हैं जिस पर आप अमल करना चाहते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- venus
+- lord:9
 evidence:
   direction: support
   weight_class: primary

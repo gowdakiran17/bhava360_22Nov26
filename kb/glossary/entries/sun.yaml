@@ -42,8 +42,10 @@ used_by:
 - vedic.dashas-vimshottari.mars-sun-antar
 - vedic.dashas-vimshottari.mercury-sun-antar
 - vedic.dashas-vimshottari.moon-sun-antar
+- vedic.dashas-vimshottari.pratyantar-sun
 - vedic.dashas-vimshottari.rahu-sun-antar
 - vedic.dashas-vimshottari.saturn-sun-antar
+- vedic.dashas-vimshottari.sookshma-sun
 - vedic.dashas-vimshottari.sun-jupiter-antar
 - vedic.dashas-vimshottari.sun-ketu-antar
 - vedic.dashas-vimshottari.sun-maha
@@ -152,7 +154,13 @@ used_by:
 - vedic.transits.sun-moon-house-7
 - vedic.transits.sun-moon-house-8
 - vedic.transits.sun-moon-house-9
+- vedic.yogas.bhadra
 - vedic.yogas.budhaditya
+- vedic.yogas.hamsa
+- vedic.yogas.mahabhagya
+- vedic.yogas.malavya
+- vedic.yogas.ruchaka
+- vedic.yogas.shasha
 - vedic.yogas.ubhayachari
 - vedic.yogas.vesi
 - vedic.yogas.vosi

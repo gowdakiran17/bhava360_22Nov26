@@ -2,13 +2,13 @@ version: 1
 approval: draft
 houses:
 - 10
-- 6
 - 2
+- 6
 - 11
 varga: D10
 karakas:
-- sun
 - saturn
+- sun
 - mercury
 - jupiter
 intent: job-change
@@ -16,8 +16,8 @@ checker: big-decision-muhurta
 slots:
   present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
     in the active period. Cite the actual graha and house.
-  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
-    when KP is enabled; display an honest absence when no supported date exists.
+  upcoming-periods: Apply this area recipe to the KB-36 pipeline. Keep the earliest qualifying window and up to two
+    further windows, retaining each tone and pace.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
   what-you-can-do:
     en: Choose one work responsibility to discuss.
@@ -49,3 +49,4 @@ slot_bindings:
     requires: at least one matched area fact
     checker: big-decision-muhurta
 summary_profile: summary.yaml
+recipe_ref: life-areas/recipes.yaml#career

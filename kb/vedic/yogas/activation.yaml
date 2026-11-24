@@ -1,0 +1,144 @@
+id: vedic.yogas.activation
+approval: draft
+profile: vedic-editorial-v1
+order:
+- formation
+- bhanga
+- strength-gate
+- period-activation
+participants: Deduplicate physical grahas, including the actual lords in the matched formation. Evaluate alternative
+  witnesses separately.
+gate:
+  full: Every actual participant grades Strong or Moderate.
+  mild: Mixed capable and Weak participants.
+  hidden: Every participant grades Weak.
+  unknown: Missing material grades withhold the display.
+activation: Maha or Antar among participants or forming lords. Known absence gives background. Unknown dasha is unknown;
+  never contributes caution. Cancelled or hidden formations cannot contribute. No activation creates natal promise.
+display:
+  cancel: omit
+  soften: yoga-mild
+  mild: yoga-mild
+  background: yoga-background
+  unknown: background overview only
+  sensitive: admin-only
+tags:
+  formation: CLASSICAL
+  display: MODERN/POPULAR
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga and dasha results
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Laghu Parashari (Jataka Chandrika)
+  work_id: laghu-parashari
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Periods of planets connected by lordship
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 7
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+members:
+- vedic.yogas.adhi
+- vedic.yogas.amala
+- vedic.yogas.anapha
+- vedic.yogas.bhadra
+- vedic.yogas.bheri
+- vedic.yogas.budhaditya
+- vedic.yogas.chamara
+- vedic.yogas.chandra-mangala
+- vedic.yogas.dhana
+- vedic.yogas.dharma-karmadhipati
+- vedic.yogas.durudhara
+- vedic.yogas.gaja-kesari
+- vedic.yogas.guru-mangala
+- vedic.yogas.hamsa
+- vedic.yogas.harsha
+- vedic.yogas.kahala
+- vedic.yogas.kalanidhi
+- vedic.yogas.kemadruma
+- vedic.yogas.kusuma
+- vedic.yogas.lagnadhi
+- vedic.yogas.lakshmi
+- vedic.yogas.mahabhagya
+- vedic.yogas.malavya
+- vedic.yogas.nabhasa-ardha-chandra
+- vedic.yogas.nabhasa-chakra
+- vedic.yogas.nabhasa-chapa
+- vedic.yogas.nabhasa-chatra
+- vedic.yogas.nabhasa-dama
+- vedic.yogas.nabhasa-danda
+- vedic.yogas.nabhasa-gada
+- vedic.yogas.nabhasa-gola
+- vedic.yogas.nabhasa-hala
+- vedic.yogas.nabhasa-kamala
+- vedic.yogas.nabhasa-kedara
+- vedic.yogas.nabhasa-kuta
+- vedic.yogas.nabhasa-mala
+- vedic.yogas.nabhasa-musala
+- vedic.yogas.nabhasa-nala
+- vedic.yogas.nabhasa-nauka
+- vedic.yogas.nabhasa-pasha
+- vedic.yogas.nabhasa-rajju
+- vedic.yogas.nabhasa-samudra
+- vedic.yogas.nabhasa-sarpa
+- vedic.yogas.nabhasa-shakata
+- vedic.yogas.nabhasa-shakti
+- vedic.yogas.nabhasa-shara
+- vedic.yogas.nabhasa-shringataka
+- vedic.yogas.nabhasa-shula
+- vedic.yogas.nabhasa-vajra
+- vedic.yogas.nabhasa-vapi
+- vedic.yogas.nabhasa-veena
+- vedic.yogas.nabhasa-vihaga
+- vedic.yogas.nabhasa-yava
+- vedic.yogas.nabhasa-yuga
+- vedic.yogas.nabhasa-yupa
+- vedic.yogas.neecha-bhanga-raja
+- vedic.yogas.neecha-bhanga
+- vedic.yogas.papa-kartari-lagna
+- vedic.yogas.papa-kartari-moon
+- vedic.yogas.parijata
+- vedic.yogas.parivartana-dainya
+- vedic.yogas.parivartana-khala
+- vedic.yogas.parivartana-maha
+- vedic.yogas.parivartana
+- vedic.yogas.parvata
+- vedic.yogas.pravrajya
+- vedic.yogas.raja
+- vedic.yogas.ruchaka
+- vedic.yogas.sakata
+- vedic.yogas.sarala
+- vedic.yogas.saraswati
+- vedic.yogas.shankha
+- vedic.yogas.shasha
+- vedic.yogas.shubha-kartari-lagna
+- vedic.yogas.shubha-kartari-moon
+- vedic.yogas.sreenatha
+- vedic.yogas.sunapha
+- vedic.yogas.ubhayachari
+- vedic.yogas.vasumati
+- vedic.yogas.vesi
+- vedic.yogas.vimala
+- vedic.yogas.vosi
+facts_contract:
+  active: Use the yoga-specific active fact in KB-36 before including any period testimony.
+  gate: Resolve independently per formation witness. A singleton cannot be mixed-strength; a soften exception still
+    uses gentle copy.
+  bhanga: An unknown material cancellation withholds the reading. An unverified school-specific qualification is a
+    labelled draft, not a verified classical verse.
+variants:
+  mutual-full-aspect: Explicit opt-in for Chandra-Mangala, Raja and Dhana.
+  budhaditya-close-orb: Optional 3 degree inclusive separation in place of the motion-specific orb.

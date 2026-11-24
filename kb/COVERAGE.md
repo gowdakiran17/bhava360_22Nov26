@@ -56,3 +56,7 @@ Five declared precisions map to three tiers and 46 output rows. Four explanation
 ## KB-36 and KB-37 synthesis and personal timing
 
 Ten summary recipes use the five-stage pipeline. Eight ordered conflict rules, nine graha practice rows, and a single practice-selection policy accompany 25 synthesis cases. The personal calendar covers 14 day cases, seven-day composition and duration-weighted months. The localized catalogue adds 63 messages across three required languages. The dictionary now has 458 facts and the reading-rule inventory remains 1,824 across ten systems. Two glossary terms moved to staff-only access. [Synthesis](life-areas/pipeline.yaml) · [Daily policy](modules/home/day.yaml) · [Worked examples and source review](governance/REVIEW-REPORT.md)
+
+## KB-38 and KB-41
+
+Eleven area recipes feed the KB-36 pipeline. Nine Maha and 81 Antar readings reference the shared modulation table. Eighteen lord-specific readings cover Pratyantar and Sookshma at Tier A. Eleven timing scenarios exercise period relevance, cancellation, D9 corroboration and window limits. The yoga catalogue now covers 82 formations, including all 32 Nabhasa patterns. Each has a chart hit and miss, cancellation checks, a participant-strength gate and an activation test. The authoring inventory is 1,892 reading rules across ten systems and 685 registered facts. [Area recipes](life-areas/recipes.yaml) · [Yoga activation](vedic/yogas/activation.yaml) · [Scenario charts](examples/yoga-charts.yaml)

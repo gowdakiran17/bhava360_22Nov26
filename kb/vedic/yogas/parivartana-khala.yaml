@@ -17,13 +17,32 @@ meaning: A reciprocal exchange may connect the two topics through initiative and
 life_areas: []
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.parivartana-khala.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.parivartana-khala.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for both exchanging lords in this match before giving the reading greater
-    weight.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use one class per pair. Dusthana membership takes precedence over the third-house class.
@@ -55,8 +74,12 @@ remedy:
     en: You may find that a small rehearsal helps both sides of an agreement.
     kn: ಒಂದು ಸಣ್ಣ ಅಭ್ಯಾಸ ಒಪ್ಪಂದದ ಎರಡೂ ಕಡೆಯವರಿಗೆ ನೆರವಾಗಬಹುದು.
     hi: थोड़ा अभ्यास समझौते के दोनों पक्षों के लिए मददगार हो सकता है।
+related_rules:
+- vedic.yogas.activation
+participants:
+- exchanging-lords
 evidence:
-  direction: support
+  direction: neutral
   weight_class: primary
   time_scope: natal
   reference: none

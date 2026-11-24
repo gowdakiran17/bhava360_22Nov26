@@ -34,13 +34,39 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.sunapha.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.sunapha.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.mixed_nature_witness
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for the Moon and the qualifying flank occupants in this match before
-    giving the reading greater weight.
-exceptions: []
+  effect: soften
+  reason: Resolve the actual contributing grahas. A mixed benefic and malefic witness does not support an unqualified
+    positive reading.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Only Mars, Mercury, Jupiter, Venus and Saturn count. When both flanks are occupied, present Durudhara
@@ -55,8 +81,8 @@ sources:
   supports: Flanking placements and their distinct readings.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada and Hindi
+  await native review. Resolve the actual participants before assigning a direction.
 user_text:
   en: You may want to review the resources available for your plan.
   kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
@@ -73,9 +99,14 @@ remedy:
     en: You may want to review the resources available for your plan.
     kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- moon
+- flanking-grahas
 evidence:
-  direction: support
-  weight_class: primary
+  direction: context
+  weight_class: context
   time_scope: natal
   reference: moon
   area_strength:

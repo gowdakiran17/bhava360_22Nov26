@@ -20,5 +20,7 @@ reference_rules:
 used_by:
 - vedic.muhurta.marriage
 - vedic.panchang.yoga
+- vedic.yogas.activation
+- vedic.yogas.nabhasa-vajra
 systems:
 - vedic

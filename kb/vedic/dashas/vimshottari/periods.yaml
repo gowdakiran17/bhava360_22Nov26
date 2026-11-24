@@ -55,3 +55,25 @@ lookup_patterns:
   sign: vedic.planets-in-signs.{lord}-{sign}
   ruled_house: vedic.house-lords.lord-{owned_house}-in-house-{occupied_house}
   node_dispositor: vedic.planets-in-signs.{dispositor}-{dispositor_sign}
+modulation_ref: vedic/dashas/vimshottari/modulation.yaml
+fine_readings:
+  pratyantar:
+    ketu: vedic.dashas-vimshottari.pratyantar-ketu
+    venus: vedic.dashas-vimshottari.pratyantar-venus
+    sun: vedic.dashas-vimshottari.pratyantar-sun
+    moon: vedic.dashas-vimshottari.pratyantar-moon
+    mars: vedic.dashas-vimshottari.pratyantar-mars
+    rahu: vedic.dashas-vimshottari.pratyantar-rahu
+    jupiter: vedic.dashas-vimshottari.pratyantar-jupiter
+    saturn: vedic.dashas-vimshottari.pratyantar-saturn
+    mercury: vedic.dashas-vimshottari.pratyantar-mercury
+  sookshma:
+    ketu: vedic.dashas-vimshottari.sookshma-ketu
+    venus: vedic.dashas-vimshottari.sookshma-venus
+    sun: vedic.dashas-vimshottari.sookshma-sun
+    moon: vedic.dashas-vimshottari.sookshma-moon
+    mars: vedic.dashas-vimshottari.sookshma-mars
+    rahu: vedic.dashas-vimshottari.sookshma-rahu
+    jupiter: vedic.dashas-vimshottari.sookshma-jupiter
+    saturn: vedic.dashas-vimshottari.sookshma-saturn
+    mercury: vedic.dashas-vimshottari.sookshma-mercury

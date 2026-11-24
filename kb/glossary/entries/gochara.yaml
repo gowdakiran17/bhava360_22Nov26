@@ -33,6 +33,17 @@ used_by:
 - kp.cusps.seventh-cusp
 - lal-kitab.varshphal.year-house
 - vedic.annual-chart.solar-return
+- vedic.dashas-vimshottari.business-upcoming
+- vedic.dashas-vimshottari.career-upcoming
+- vedic.dashas-vimshottari.children-upcoming
+- vedic.dashas-vimshottari.family-home-upcoming
+- vedic.dashas-vimshottari.health-upcoming
+- vedic.dashas-vimshottari.learning-upcoming
+- vedic.dashas-vimshottari.love-marriage-upcoming
+- vedic.dashas-vimshottari.money-upcoming
+- vedic.dashas-vimshottari.property-vehicles-upcoming
+- vedic.dashas-vimshottari.spirituality-upcoming
+- vedic.dashas-vimshottari.travel-relocation-upcoming
 - vedic.doshas.ashtama-shani
 - vedic.doshas.sade-sati
 - vedic.muhurta.check-big-decision-muhurta-moon-support

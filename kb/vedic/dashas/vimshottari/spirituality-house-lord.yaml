@@ -10,7 +10,7 @@ conditions:
   - fact: dasha.active_lord.owns_house_9
     op: eq
     value: true
-meaning: The period connects the active lord to house 9; use the dated period as context for spirituality.
+meaning: A teacher may help you reflect on dharma and the opportunities that come your way.
 life_areas:
 - spirituality
 strength_notes: []
@@ -25,12 +25,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring learning and long journeys into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ಕಲಿಕೆ ಮತ್ತು ದೀರ್ಘ ಪ್ರಯಾಣಗಳು.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: सीख और लंबी यात्राएँ।'
+  en: A teacher may help you reflect on dharma and the opportunities that come your way.
+  kn: ಧರ್ಮ ಮತ್ತು ದೊರೆಯುವ ಅವಕಾಶಗಳ ಬಗ್ಗೆ ಯೋಚಿಸಲು ಗುರುಗಳು ನೆರವಾಗಬಹುದು.
+  hi: धर्म और सौभाग्य से मिले अवसरों पर विचार करने में शिक्षक सहायक हो सकते हैं।
 native_review:
   kn: pending
   hi: pending

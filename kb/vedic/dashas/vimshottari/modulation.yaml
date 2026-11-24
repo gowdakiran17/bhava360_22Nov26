@@ -1,0 +1,161 @@
+approval: draft
+profile: vedic-editorial-v1
+scope: Apply lord notes independently to Maha and Antar. Pair notes qualify the narrative, never add votes for natural
+  and compound friendship. A harder pair alone cannot suppress a promised event.
+lord_notes:
+- when:
+    fact: dasha.modulation.grade
+    op: eq
+    value: Strong
+  effect: stronger
+  reason: Use the bound lord’s final KB-35 grade once.
+- when:
+    fact: dasha.modulation.grade
+    op: eq
+    value: Weak
+  effect: weaker
+  reason: Use the bound lord’s final KB-35 grade once.
+- when:
+    fact: dasha.modulation.combust
+    op: eq
+    value: true
+  effect: soften
+  reason: Explain combust from the grade breakdown; annotation only, never adjust the grade again.
+- when:
+    fact: dasha.modulation.retrograde
+    op: eq
+    value: true
+  effect: soften
+  reason: Explain retrograde from the grade breakdown; annotation only, never adjust the grade again.
+- when:
+    fact: dasha.modulation.war_loser
+    op: eq
+    value: true
+  effect: soften
+  reason: Explain war_loser from the grade breakdown; annotation only, never adjust the grade again.
+- when:
+    fact: dasha.modulation.vargottama
+    op: eq
+    value: true
+  effect: stronger
+  reason: Explain vargottama from the grade breakdown; annotation only, never adjust the grade again.
+- when:
+    fact: dasha.modulation.polarity
+    op: eq
+    value: Malefic
+  effect: weaker
+  reason: Read functional lordship from the actual Lagna.
+- when:
+    fact: dasha.modulation.polarity
+    op: in
+    value:
+    - Benefic
+    - Yogakaraka
+  effect: stronger
+  reason: Read functional lordship from the actual Lagna.
+- when:
+    fact: dasha.modulation.unrelieved_dusthana
+    op: eq
+    value: true
+  effect: weaker
+  reason: Difficult placement can complicate the period after checking all applicable reversal exceptions.
+- when:
+    fact: dasha.modulation.viparita
+    op: eq
+    value: true
+  effect: soften
+  reason: A resolved reversal softens the difficult-house note; it does not create an event.
+- when:
+    fact: dasha.modulation.star_signifies
+    op: eq
+    value: true
+  effect: stronger
+  reason: Period lord occupies the star of a direct area significator; follow this link once.
+- when:
+    fact: dasha.modulation.moon_support
+    op: eq
+    value: true
+  effect: stronger
+  reason: The occupied house counted from the stable Moon supports this area recipe.
+pair_notes:
+- when:
+    fact: dasha.pair.distance
+    op: in
+    value:
+    - 1
+    - 7
+    - 5
+    - 9
+    - 3
+    - 11
+    - 4
+    - 10
+  effect: stronger
+  reason: Inclusive relative placement can link the period themes.
+- when:
+    fact: dasha.pair.distance
+    op: in
+    value:
+    - 2
+    - 12
+    - 6
+    - 8
+  effect: weaker
+  reason: The two periods can pull in different directions.
+- when:
+    fact: dasha.pair.natural
+    op: eq
+    value: friend
+  effect: stronger
+  reason: The Antar lord regards the Maha lord as a natural friend.
+- when:
+    fact: dasha.pair.natural
+    op: eq
+    value: enemy
+  effect: weaker
+  reason: The directed natural relationship adds friction.
+- when:
+    fact: dasha.pair.compound
+    op: in
+    value:
+    - adhi-mitra
+    - mitra
+  effect: stronger
+  reason: Directed compound friendship supports cooperation.
+- when:
+    fact: dasha.pair.compound
+    op: in
+    value:
+    - shatru
+    - adhi-shatru
+  effect: weaker
+  reason: Compound enmity qualifies cooperation.
+- when:
+    fact: dasha.pair.shared_ownership
+    op: eq
+    value: true
+  effect: stronger
+  reason: The two period roles hold a common natal house; count the topic once.
+copy_refs:
+  easier: pair-easier
+  harder: pair-harder
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Vimshottari chapters 47–48
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Dasha phala
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+annotation_policy: Combustion, retrograde, war and vargottama explain terms already included in the KB-35 grade. They
+  have zero additional grading effect. A Viparita exception removes the ordinary dusthana warning. Relate each Moon
+  position and star lord to the bound area.

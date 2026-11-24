@@ -1,0 +1,354 @@
+version: 1
+approval: draft
+pipeline: life-areas/pipeline.yaml
+policy: Double transit follows K.N. Rao (MODERN/POPULAR). The area transit check qualifies the topic; it cannot replace
+  the shared confirmation. Ignore post-MVP vargas. KP Readers apply only to a later separate view.
+events:
+  job-change: career
+  marriage: love-marriage
+  property-purchase: property-vehicles
+  relocation: travel-relocation
+  study: learning
+  business-start: business
+  child-related: children
+recipes:
+  love-marriage:
+    houses:
+    - 7
+    - 2
+    - 11
+    delay_houses:
+    - 6
+    - 12
+    karakas:
+    - venus
+    vargas:
+    - division: D9
+      release: mvp
+    significators:
+      house_lords:
+      - 7
+      - 2
+      - 11
+      grahas:
+      - venus
+      lower_weight:
+        rahu: MODERN/POPULAR
+    transit_check: double contact with partnership sign or lord
+    tag: CLASSICAL
+    secondary_houses: []
+    support_requires: stable favourable D9 corroboration
+    variant: Classical gender-specific Venus/Jupiter split; opt-in only, pending owner review.
+    reading_ids:
+    - vedic.dashas-vimshottari.love-marriage-house-lord
+    - vedic.dashas-vimshottari.love-marriage-upcoming
+    variant_id: gender-specific-marriage-karaka
+  career:
+    houses:
+    - 10
+    - 2
+    - 6
+    - 11
+    delay_houses: []
+    karakas:
+    - saturn
+    - sun
+    - mercury
+    - jupiter
+    vargas:
+    - division: D10
+      release: mvp
+    significators:
+      house_lords:
+      - 10
+      grahas: []
+      occupant_houses:
+      - 10
+      yogakaraka: true
+    transit_check: Jupiter and Saturn reach career sign or lord
+    tag: CLASSICAL
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.career-house-lord
+    - vedic.dashas-vimshottari.career-upcoming
+  money:
+    houses:
+    - 2
+    - 11
+    - 5
+    - 9
+    delay_houses: []
+    karakas:
+    - jupiter
+    - venus
+    vargas:
+    - division: D9
+      release: mvp
+    - division: D2
+      release: post-mvp
+    significators:
+      house_lords:
+      - 2
+      - 11
+      grahas: []
+      yoga_participants: dhana
+    transit_check: gains-sign SAV and Jupiter contact
+    tag: CLASSICAL
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.money-house-lord
+    - vedic.dashas-vimshottari.money-upcoming
+  health:
+    houses:
+    - 1
+    - 6
+    delay_houses: []
+    karakas:
+    - sun
+    - moon
+    vargas:
+    - division: D1
+      release: mvp
+    significators:
+      house_lords:
+      - 6
+      - 1
+      grahas: []
+    transit_check: Saturn reaches natal Moon or Lagna
+    tag: CLASSICAL
+    secondary_houses:
+    - 8
+    - 12
+    sensitive: true
+    scope: Energy, vitality and wellbeing; a single transit cannot yield Take care.
+    reading_ids:
+    - vedic.dashas-vimshottari.health-house-lord
+    - vedic.dashas-vimshottari.health-upcoming
+  children:
+    houses:
+    - 5
+    - 9
+    delay_houses: []
+    karakas:
+    - jupiter
+    vargas:
+    - division: D7
+      release: post-mvp
+    significators:
+      house_lords:
+      - 5
+      grahas:
+      - jupiter
+    transit_check: Jupiter reaches the children sign or its lord
+    tag: CLASSICAL
+    secondary_houses: []
+    editorial_houses:
+    - 11
+    sensitive: true
+    scope: Wellbeing and relationship only.
+    reading_ids:
+    - vedic.dashas-vimshottari.children-house-lord
+    - vedic.dashas-vimshottari.children-upcoming
+  learning:
+    houses:
+    - 4
+    - 5
+    - 9
+    delay_houses: []
+    karakas:
+    - mercury
+    - jupiter
+    vargas:
+    - division: D24
+      release: post-mvp
+    significators:
+      house_lords:
+      - 4
+      - 5
+      - 9
+      grahas: []
+    transit_check: Jupiter reaches a learning sign or lord
+    tag: CLASSICAL
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.learning-house-lord
+    - vedic.dashas-vimshottari.learning-upcoming
+  travel-relocation:
+    houses:
+    - 3
+    - 9
+    - 12
+    delay_houses: []
+    karakas:
+    - rahu
+    - moon
+    vargas:
+    - division: D4
+      release: post-mvp
+    - division: D9
+      release: mvp
+    significators:
+      house_lords:
+      - 9
+      - 12
+      grahas: []
+      secondary_lords:
+      - 4
+      lower_weight:
+        rahu: MODERN/POPULAR
+    transit_check: Saturn or Rahu reaches the foreign-travel sign
+    tag: CLASSICAL
+    secondary_houses:
+    - 7
+    context_only:
+      relocation:
+      - 4
+      work_trip:
+      - 10
+    karaka_tags:
+      rahu: MODERN/POPULAR
+    reading_ids:
+    - vedic.dashas-vimshottari.travel-relocation-house-lord
+    - vedic.dashas-vimshottari.travel-relocation-upcoming
+  property-vehicles:
+    houses:
+    - 4
+    - 11
+    - 2
+    delay_houses: []
+    karakas:
+    - mars
+    - venus
+    vargas:
+    - division: D4
+      release: post-mvp
+    significators:
+      house_lords:
+      - 4
+      grahas:
+      - mars
+    transit_check: Jupiter and Saturn reach the property sign
+    tag: CLASSICAL
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.property-vehicles-house-lord
+    - vedic.dashas-vimshottari.property-vehicles-upcoming
+  business:
+    houses:
+    - 10
+    - 2
+    - 6
+    - 11
+    - 7
+    - 3
+    delay_houses: []
+    karakas:
+    - saturn
+    - sun
+    - mercury
+    - jupiter
+    vargas:
+    - division: D10
+      release: mvp
+    significators:
+      house_lords:
+      - 10
+      - 7
+      - 3
+      grahas: []
+      occupant_houses:
+      - 10
+      yogakaraka: true
+    transit_check: Career confirmation with partnership and initiative context
+    tag: Bhava360 editorial, awaiting Vedic review
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.business-house-lord
+    - vedic.dashas-vimshottari.business-upcoming
+  family-home:
+    houses:
+    - 4
+    - 2
+    delay_houses: []
+    karakas:
+    - moon
+    - jupiter
+    vargas:
+    - division: D1
+      release: mvp
+    significators:
+      house_lords:
+      - 4
+      - 2
+      grahas: []
+    transit_check: Jupiter and Saturn reach the home sign or lord
+    tag: Bhava360 editorial, awaiting Vedic review
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.family-home-house-lord
+    - vedic.dashas-vimshottari.family-home-upcoming
+  spirituality:
+    houses:
+    - 9
+    - 12
+    - 5
+    delay_houses: []
+    karakas:
+    - jupiter
+    - ketu
+    vargas:
+    - division: D9
+      release: mvp
+    significators:
+      house_lords:
+      - 9
+      - 12
+      - 5
+      grahas: []
+    transit_check: Jupiter reaches the dharma sign or its lord
+    tag: Bhava360 editorial, awaiting Vedic review
+    secondary_houses: []
+    reading_ids:
+    - vedic.dashas-vimshottari.spirituality-house-lord
+    - vedic.dashas-vimshottari.spirituality-upcoming
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Bhava results, chapter 11
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapters 1 and 15
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Bhava results
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Jataka Parijata
+  work_id: jataka-parijata
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Bhava results
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: K.N. Rao double-transit method (edition pending)
+  work_id: kn-rao-double-transit
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Timing by Jupiter and Saturn
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending

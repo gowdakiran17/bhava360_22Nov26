@@ -393,6 +393,14 @@ def main():
             glossary_slug = 'pitru-dosha' if rid.endswith('.pitru') else rid.split('.')[-1]
             require(data.get('public_label') == read(f'glossary/entries/{glossary_slug}.yaml')['public_label'],
                     rid + ' public display label')
+        if data['topic']=='yogas' and data['system']=='vedic':
+            expected_fields.update(('participants','related_rules'))
+            if 'formation' in data: expected_fields.add('formation')
+            if rid=='vedic.yogas.pravrajya': expected_fields.add('visibility')
+            require(data['related_rules']==['vedic.yogas.activation'],rid+' shared gate')
+        if data['topic']=='dashas/vimshottari':
+            if rid.endswith(('-maha','-antar')): expected_fields.add('modulation_ref')
+            if rid.endswith('-upcoming'): expected_fields.add('related_rules')
         if data['system']=='palmistry' and 'guided' in data:
             expected_fields.add('guided')
         if data['system']=='tarot':
@@ -615,6 +623,8 @@ def main():
     evidence_checks.validate(rules, read, require, ROOT)
     from confidence import validate as validate_confidence
     validate_confidence(read, require)
+    from timing import validate_timing
+    validate_timing(rules,read,require)
     check_distribution(ROOT)
     print("Public copy passed across eight locale bundles.")
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')

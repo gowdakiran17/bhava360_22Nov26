@@ -18,12 +18,17 @@ life_areas:
 - learning
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.kemadruma.gate
     op: eq
-    value: true
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.kemadruma.gate
+    op: eq
+    value: mild
   effect: weaker
-  reason: When the Moon meets its shadbala minimum, give less weight to an interpretation of limited support.
-    The flank count stays the same.
+  reason: Use only the softened reading for mixed participant strength.
 exceptions:
 - when:
     fact: d1.moon.distance_from_lagna
@@ -88,6 +93,20 @@ exceptions:
       - 10
   effect: cancel
   reason: An eligible graha occupies another angle from the Moon.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the five non-luminary classical planets for companionship and lunar angles. Schools differ on
@@ -128,6 +147,10 @@ remedy:
     en: "You can ask someone you trust for help with one small task."
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಂದು ಸಣ್ಣ ಕೆಲಸಕ್ಕೆ ನಂಬಿಕೆಯ ವ್ಯಕ್ತಿಯ ನೆರವು ಕೇಳಬಹುದು.
     hi: चाहें तो किसी भरोसेमंद व्यक्ति से एक छोटे काम में मदद माँग सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- moon
 evidence:
   direction: caution
   weight_class: primary

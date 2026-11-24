@@ -662,6 +662,7 @@ ac159731794dd91037fee18fbe17cdeb1c2131f119d756dbcc06f3290a111d03
 ac77696ee2b0781402daf96e6e3db8bd95cb61d595b5a38630e9994ee08043c0
 ac89e422f5b72af2d93039bb89cab84546a445f46688e6be77574a0d6f39b1d2
 accept
+acceptable
 acceptance
 accepted
 accepting
@@ -800,6 +801,7 @@ aja
 ajs
 ak
 aka
+akriti
 akshavedamsa
 al
 algebraically
@@ -941,6 +943,7 @@ arcs
 arcsec
 arcsecond
 arcseconds
+ardha
 ardra
 are
 area
@@ -981,6 +984,7 @@ asha
 ashadha
 asharao
 ashlesha
+ashraya
 ashtaka
 ashtakavarga
 ashtakoota
@@ -1051,6 +1055,7 @@ attention
 attest
 attesting
 attractiveness
+attributed
 attributes
 attribution
 au
@@ -1225,6 +1230,7 @@ bhavam
 bhavas
 bhavat
 bhe
+bheri
 bhi
 bhinnashtakavarga
 bho
@@ -1302,6 +1308,7 @@ branch
 branches
 brand
 break
+breakdown
 breaking
 breaks
 bride
@@ -1436,6 +1443,7 @@ cannot
 canonical
 canonicalize
 cap
+capable
 capacities
 capacity
 capricorn
@@ -1516,15 +1524,19 @@ cgls
 ch
 ch3
 cha
+chaamara
+chaapa
 chain
 chained
 chains
 chaitra
+chakra
 chaldean
 chalit
 challenge
 challenges
 challenging
+chamara
 chance
 chand
 chandal
@@ -1539,6 +1551,7 @@ changes
 changing
 channel
 channels
+chapa
 chapnum
 chapter
 chapters
@@ -1550,6 +1563,7 @@ chariot
 charity
 chart
 charts
+chatra
 chaturdashi
 chaturthamsa
 chaturthi
@@ -1725,6 +1739,7 @@ complementary
 complete
 completed
 completion
+complicate
 complicated
 complications
 component
@@ -1736,6 +1751,7 @@ composite
 composition
 compound
 compounds
+comprise
 compulsory
 computational
 compute
@@ -1746,6 +1762,7 @@ concentrating
 concern
 concerns
 conclusion
+conclusions
 concrete
 cond
 condition
@@ -2022,8 +2039,12 @@ d9c6b4c5479d98d2bd7c8d81d829b07f0f8f8d3744d49aab576d5bb0650cfaa8
 da
 da14daa1881866859923d64af9c1176d9633aeef5381afd80c9cc230b2ae471c
 da9232406c48e07bc68c536bc46738397d262be2d536f8caa07af43444967714
+daama
 daily
 dainya
+dala
+dama
+danda
 danger
 darakaraka
 dark
@@ -2101,6 +2122,7 @@ deepa
 deepam
 deepavali
 deepcopy
+deeply
 deer
 deergha
 def
@@ -2126,6 +2148,7 @@ delegate
 delegates
 delegation
 delete
+deleting
 deletion
 delhi
 deliberate
@@ -2482,6 +2505,7 @@ efforts
 egress
 ehnx
 eight
+eighteen
 eighth
 eighths
 either
@@ -2556,6 +2580,7 @@ enjoylearningsanskrit
 enjoyment
 enjoys
 enlarged
+enmity
 enough
 enter
 entered
@@ -2612,6 +2637,7 @@ evaluate
 evaluated
 evaluates
 evaluation
+evaluator
 even
 evening
 evenings
@@ -2656,6 +2682,7 @@ excluding
 exclusion
 exclusions
 exclusive
+exclusively
 exec
 executable
 execute
@@ -2700,6 +2727,7 @@ exploring
 export
 expose
 exposes
+exposing
 express
 expressed
 expresses
@@ -2902,6 +2930,7 @@ forbidden
 forceful
 forces
 forecast
+foreign
 forest
 form
 format
@@ -2910,8 +2939,10 @@ formations
 formatting
 formed
 former
+forming
 forms
 formula
+formulation
 formulations
 fortnight
 fortun
@@ -2973,6 +3004,8 @@ future
 fy
 g
 ga
+gada
+gadaa
 gain
 gains
 gaja
@@ -2988,6 +3021,8 @@ gated
 gates
 gather
 gathering
+gathers
+gating
 gave
 ge
 gem
@@ -3046,6 +3081,7 @@ goal
 goals
 gochara
 going
+gola
 gold
 golden
 gondhalekar
@@ -3115,6 +3151,7 @@ h43
 ha
 habit
 habits
+hala
 half
 halfway
 halves
@@ -3202,6 +3239,7 @@ holds
 home
 homes
 honest
+hop
 hope
 hopes
 hora
@@ -3296,6 +3334,7 @@ implication
 import
 important
 importlib
+impossible
 impression
 impressions
 imprint
@@ -3548,18 +3587,24 @@ jyotish
 k
 ka
 ka01ab1234
+kaahala
 kaal
 kabir
+kahala
 kak
 kakshya
 kala
+kalaanidhi
 kalachakra
 kalam
 kalamrita
+kalanidhi
 kalapurusha
 kalidasa
+kalpadruma
 kalyanavarman
 kamakoti
+kamala
 kannada
 kantaka
 kanya
@@ -3573,8 +3618,10 @@ karanas
 kardinal
 karkataka
 karma
+karmadhipati
 karmaguna
 karmic
+kartari
 kartika
 kashinatha
 kashta
@@ -3583,6 +3630,8 @@ kb
 kb10
 kb16
 ke
+kedaara
+kedara
 keep
 keeping
 keeps
@@ -3643,6 +3692,7 @@ kuja
 kumara
 kumbha
 kundlinaksha
+kusuma
 kusumadanta
 kuta
 kwargs
@@ -3684,6 +3734,8 @@ ladder
 lag
 laghu
 lagna
+lagnaadhi
+lagnadhi
 lagnamsa
 lagnamsaka
 lagnas
@@ -3765,6 +3817,7 @@ licensed
 lie
 lies
 life
+lifecycle
 lifespan
 lifestyle
 lift
@@ -3897,6 +3950,7 @@ m92
 m93
 m95
 ma
+maalaa
 machine
 madhya
 madhyas
@@ -3904,6 +3958,7 @@ magha
 magician
 magnetic
 maha
+mahabhagya
 mahadasha
 maharashtrian
 maharishi
@@ -4104,6 +4159,7 @@ modest
 modifier
 modifiers
 modify
+modulation
 module
 modules
 modulo
@@ -4166,6 +4222,7 @@ multiplier
 multipliers
 multiply
 mumbai
+musala
 muscles
 must
 mustn
@@ -4198,6 +4255,7 @@ nakshatra
 nakshatramsa
 nakshatras
 naktable
+nala
 nama
 namah
 namakarana
@@ -4214,6 +4272,7 @@ nara
 naraka
 narasimha
 narayana
+narrative
 narrow
 narrower
 narrowing
@@ -4228,6 +4287,8 @@ natural
 naturally
 naturalstupid
 nature
+nauka
+naukaa
 nav
 navadhanya
 navagraha
@@ -4353,6 +4414,7 @@ numerals
 numeric
 numerical
 numerology
+nums
 nurture
 nurturing
 nw
@@ -4428,6 +4490,7 @@ open
 opening
 openness
 opens
+operands
 operational
 operationalises
 operationalizes
@@ -4492,6 +4555,7 @@ outnumber
 output
 outputs
 outside
+outsider
 outstanding
 outward
 over
@@ -4519,6 +4583,7 @@ p1
 p2
 p3
 pa
+paasa
 pace
 pack
 package
@@ -4545,6 +4610,7 @@ panchanga
 panchangam
 panchangguru
 panchangtime
+papa
 papayakshma
 papers
 paragraphs
@@ -4574,6 +4640,7 @@ participant
 participants
 participate
 participates
+participating
 participation
 particular
 particularly
@@ -4587,6 +4654,8 @@ partnerships
 parts
 partway
 party
+parvata
+pasha
 pass
 passage
 passages
@@ -4736,6 +4805,7 @@ policy
 pontos
 pooja
 poojas
+pool
 pop
 popular
 populated
@@ -4778,6 +4848,7 @@ pratipada
 pratyantar
 pravesh
 pravesha
+pravrajya
 prayer
 prd
 pre
@@ -4803,6 +4874,7 @@ prefixes
 pregnancy
 preparation
 preparing
+prerequisite
 prerequisites
 presence
 present
@@ -4874,7 +4946,9 @@ proleptic
 prominence
 prominent
 promise
+promised
 promote
+promotion
 prompt
 prompts
 pronounced
@@ -4909,6 +4983,7 @@ publisher
 publishing
 puja
 pujas
+pull
 pulled
 punarvasu
 puntos
@@ -5164,6 +5239,7 @@ refraction
 reframing
 refresh
 refs
+regards
 regenerate
 region
 regional
@@ -5182,6 +5258,7 @@ rejects
 rejoining
 rekha
 rel
+relate
 related
 relation
 relations
@@ -5200,6 +5277,7 @@ relief
 reliefs
 relies
 religion
+religious
 relocated
 relocation
 rely
@@ -5451,6 +5529,7 @@ sahaja
 sahitya
 sakata
 sake
+sakti
 salaried
 sale
 sales
@@ -5463,20 +5542,25 @@ sample
 sampled
 samples
 samudaaya
+samudra
 samudrika
 sanatan
 sandhi
 sanjay
 sankata
+sankha
+sankhya
 sankranti
 sanskrit
 sanskritdocuments
 santhanam
+sanyasa
 sap
 sapphires
 saptami
 saptamsa
 saptavargaja
+sara
 sarala
 saraswati
 saravali
@@ -5592,6 +5676,7 @@ sensitive
 sensitivity
 sentence
 sentences
+sep
 separate
 separated
 separately
@@ -5635,13 +5720,16 @@ sha256
 shad
 shadbala
 shakata
+shakti
 shakuni
 shanaishcharaya
 shani
+shankha
 shanti
 shape
 shaped
 shapes
+shara
 share
 shared
 shares
@@ -5682,6 +5770,7 @@ shown
 shows
 shrapit
 shravana
+shringataka
 shu
 shubh
 shubha
@@ -5803,6 +5892,7 @@ someone
 something
 son
 sookshma
+soola
 sort
 sorted
 sorting
@@ -5862,7 +5952,10 @@ square
 squares
 srath
 src
+sreenaatha
+sreenatha
 sri
+sringaataka
 sripati
 ss
 sse
@@ -6019,9 +6112,11 @@ supersede
 superseded
 supersedes
 supplement
+supplements
 supplied
 supplies
 supply
+supplying
 support
 supported
 supporting
@@ -6033,6 +6128,7 @@ suppresses
 sur
 surface
 surname
+surroundings
 survive
 survives
 surviving
@@ -6072,12 +6168,23 @@ symbols
 symmetric
 synastry
 synthesis
+synthesize
 synthesizing
 synthetic
 system
 systems
 t
+t10
+t11
 t12
+t2
+t3
+t4
+t5
+t6
+t7
+t8
+t9
 ta
 table
 tables
@@ -6129,6 +6236,7 @@ technique
 techniques
 telugu
 temp
+temperament
 temperamental
 temperance
 temperature
@@ -6212,6 +6320,7 @@ tier
 tiers
 ties
 tiger
+tighter
 time
 timed
 timedelta
@@ -6336,6 +6445,7 @@ trine
 trines
 trip
 triplicities
+trips
 trisect
 tritiya
 trop
@@ -6460,6 +6570,7 @@ unknowns
 unless
 unlisted
 unlucky
+unmatched
 unmixed
 unmodified
 unnecessary
@@ -6474,6 +6585,7 @@ unrecorded
 unreduced
 unreferenced
 unrelated
+unrelieved
 unresearched
 unresolved
 unrounded
@@ -6543,6 +6655,7 @@ v1
 v28
 v39
 va
+vaapi
 vaidhriti
 vaishakha
 vaishnava
@@ -6559,6 +6672,7 @@ valued
 valueerror
 values
 vanija
+vapi
 vara
 varga
 vargas
@@ -6594,6 +6708,8 @@ vedic
 vedicastrologer
 vedicpupil
 vedicreserve
+veena
+veenaa
 vehicle
 vehicles
 venus
@@ -6621,6 +6737,7 @@ viewbox
 viewer
 viewpoints
 views
+vihaga
 viii
 vimala
 vimsamsa
@@ -6646,6 +6763,7 @@ visited
 visitors
 visits
 visual
+vitality
 vitatha
 vivaha
 vo
@@ -6693,10 +6811,12 @@ walls
 wands
 waning
 want
+wanted
 wants
 war
 warm
 warmth
+warning
 wartime
 was
 watch
@@ -6771,6 +6891,8 @@ wins
 wisdomlib
 wish
 with
+withdrawal
+withdrawn
 withheld
 withhold
 withholding
@@ -6778,6 +6900,7 @@ withholds
 within
 without
 witness
+witnesses
 wnw
 word
 wording
@@ -6817,6 +6940,7 @@ xix
 xml
 xmlns
 y
+y4
 ya
 yama
 yamaganda
@@ -6825,6 +6949,7 @@ yandexcloud
 yantra
 yantras
 yates
+yava
 ye
 year
 years
@@ -6842,6 +6967,7 @@ yogas
 yogini
 yoni
 yoniarray
+yoopa
 york
 you
 younger
@@ -6850,6 +6976,8 @@ yours
 yourself
 yu
 yuddha
+yuga
+yupa
 yuti
 yuva
 yuvati
@@ -6916,6 +7044,7 @@ zones
 अनुमानित
 अनुरूप
 अनुरोध
+अनुरोधों
 अनुष्ठान
 अनुसार
 अपना
@@ -6947,6 +7076,7 @@ zones
 अवलोकन
 अवश्य
 अवसर
+अवसरों
 अष्टम
 असंगत
 असमान
@@ -6999,6 +7129,7 @@ zones
 आपसी
 आपसे
 आपात
+आमदनी
 आय
 आया
 आयु
@@ -7020,6 +7151,7 @@ zones
 इरादे
 इस
 इसके
+इससे
 इसे
 इस्तेमाल
 ई
@@ -7035,6 +7167,7 @@ zones
 उठाने
 उड़द
 उतरे
+उत्तर
 उत्पाद
 उत्सव
 उत्साह
@@ -7339,6 +7472,7 @@ zones
 जलाने
 जवाब
 जहाँ
+ज़मीन
 ज़रूरत
 ज़रूरतें
 ज़रूरतों
@@ -7372,6 +7506,7 @@ zones
 जिनसे
 जिन्हें
 जिम्मेदारियाँ
+जिम्मेदारियों
 जिम्मेदारी
 जिस
 जिसका
@@ -7384,6 +7519,7 @@ zones
 जुटा
 जुटाते
 जुड़ता
+जुड़ती
 जुड़ने
 जुड़ा
 जुड़ी
@@ -7408,6 +7544,7 @@ zones
 टकराते
 टकराव
 टाल
+टिकता
 टीम
 टोके
 ठ
@@ -7548,6 +7685,7 @@ zones
 धनलाभ
 धनु
 धन्यवाद
+धर्म
 धारणा
 धारणाओं
 धीमा
@@ -7719,6 +7857,7 @@ zones
 प्रभावित
 प्रयास
 प्रयोग
+प्रवास
 प्रवेश
 प्रशासक
 प्रश्न
@@ -7817,6 +7956,7 @@ zones
 बिंदु
 बिखरा
 बिता
+बिताए
 बिताना
 बिताने
 बिना
@@ -7912,6 +8052,7 @@ zones
 मार्गदर्शन
 मालूम
 मास
+माहौल
 मिथुन
 मिनट
 मिल
@@ -7957,6 +8098,7 @@ zones
 या
 यात्रा
 यात्राएँ
+यात्राओं
 याद
 ये
 योगदान
@@ -8052,6 +8194,7 @@ zones
 लोग
 लोगों
 लौट
+लौटकर
 लौटती
 लौटना
 लौटने
@@ -8132,6 +8275,7 @@ zones
 शनैश्चराय
 शब्द
 शब्दों
+शरीर
 शर्तें
 शर्तों
 शहर
@@ -8286,6 +8430,7 @@ zones
 सिद्धांत
 सी
 सीख
+सीखकर
 सीखते
 सीखना
 सीखने
@@ -8345,6 +8490,7 @@ zones
 स्पष्ट
 स्पष्टता
 स्फटिक
+स्फूर्ति
 स्मृति
 स्रोत
 स्वतंत्र
@@ -8535,8 +8681,10 @@ zones
 ಅರ್ಧಭಾಗ
 ಅರ್ಹ
 ಅವಕಾಶ
+ಅವಕಾಶಗಳ
 ಅವಕಾಶವನ್ನು
 ಅವಕಾಶವಿದೆ
+ಅವಕಾಶವಿದ್ದಾಗ
 ಅವಕಾಶವೊಂದು
 ಅವಧಿ
 ಅವಧಿಗಳನ್ನು
@@ -8578,6 +8726,7 @@ zones
 ಆದರ್ಶಗಳು
 ಆದಾಯದ
 ಆದಾಯವನ್ನು
+ಆದಾಯವು
 ಆದ್ಯತೆ
 ಆದ್ಯತೆಗಳ
 ಆದ್ಯತೆಗಳನ್ನು
@@ -8654,6 +8803,7 @@ zones
 ಆಲೋಚನೆಯನ್ನು
 ಆಲೋಚನೆಯಲ್ಲಿ
 ಆಳದ
+ಆಳವಾಗಿ
 ಆಶಾ
 ಆಶೆ
 ಆಶೆಯನ್ನು
@@ -8689,6 +8839,7 @@ zones
 ಇತರರಿಗೆ
 ಇತರರು
 ಇತರರೊಡನೆ
+ಇದಕ್ಕೆ
 ಇದನ್ನು
 ಇದು
 ಇದೆ
@@ -8764,6 +8915,7 @@ zones
 ಉಪಸ್ವಾಮಿ
 ಉಪಾಧಿಪತಿ
 ಉಬ್ಬು
+ಉಳಿತಾಯದ
 ಉಳಿದ
 ಉಳಿದಿದೆ
 ಉಳಿದಿರುವ
@@ -8792,6 +8944,7 @@ zones
 ಎಂದು
 ಎಂಬ
 ಎಂಬುದನ್ನು
+ಎಂಬುದು
 ಎಚ್ಚರಿಕೆಯ
 ಎಣಿಕೆ
 ಎದುರಾಗುವ
@@ -8804,6 +8957,7 @@ zones
 ಎಲ್ಲರ
 ಎಲ್ಲರೂ
 ಎಲ್ಲಿ
+ಎಳೆತ
 ಎಳೆಯಲ್ಪಟ್ಟಂತೆ
 ಎಳ್ಳು
 ಎಷ್ಟಿದೆ
@@ -8901,11 +9055,13 @@ zones
 ಕಲಿತದ್ದನ್ನು
 ಕಲಿಯಬಹುದು
 ಕಲಿಯಲು
+ಕಲಿಯುತ್ತಾ
 ಕಲಿಯುತ್ತಿರಬಹುದು
 ಕಲಿಯುತ್ತಿರುವ
 ಕಲಿಯುತ್ತಿರುವವರಿಗೆ
 ಕಲಿಯುವ
 ಕಲಿಯುವಾಗ
+ಕಲಿಯುವುದರಿಂದ
 ಕಲಿಯುವುದು
 ಕಲಿಸಬೇಕು
 ಕಲ್ಪನೆ
@@ -9013,6 +9169,7 @@ zones
 ಕೈಗೆಟಕುವ
 ಕೈಗೆಟುಕುವಂತಾದಾಗ
 ಕೈಗೆಟುಕುವಾಗ
+ಕೈಗೆತ್ತಿಕೊಂಡಾಗ
 ಕೈಗೆತ್ತಿಕೊಳ್ಳಬಹುದು
 ಕೈಗೆತ್ತಿಕೊಳ್ಳಲು
 ಕೈಗೊಳ್ಳಬೇಕು
@@ -9036,6 +9193,7 @@ zones
 ಕೊನೆಯದಾಗಿ
 ಕೊಳ್ಳುವ
 ಕೋಣೆಯನ್ನು
+ಕೋರಿಕೆಗಳಿಗೆ
 ಕೋರೈಸದ
 ಕೋರ್ಸ್
 ಕೌಶಲ
@@ -9088,6 +9246,7 @@ zones
 ಗಮನಿಸಬಹುದು
 ಗಮನಿಸಲು
 ಗಮನಿಸಿ
+ಗಮನಿಸಿದಾಗ
 ಗಮನಿಸುತ್ತಾ
 ಗಮನಿಸುವುದರಿಂದ
 ಗರ್ಭಧಾರಣೆ
@@ -9105,6 +9264,7 @@ zones
 ಗುರಿಯೊಂದು
 ಗುರು
 ಗುರುಗಳ
+ಗುರುಗಳು
 ಗುರುತಿಸಬಹುದು
 ಗುರುತಿಸಲು
 ಗುರುತಿಸಿ
@@ -9206,6 +9366,7 @@ zones
 ಜನ್ಮನಕ್ಷತ್ರವು
 ಜನ್ಮಸಮಯ
 ಜಪಿಸಬಹುದು
+ಜಮೀನು
 ಜವಾಬ್ದಾರಿ
 ಜವಾಬ್ದಾರಿಗಳನ್ನು
 ಜವಾಬ್ದಾರಿಗಳಲ್ಲಿ
@@ -9372,14 +9533,17 @@ zones
 ದೃಷ್ಟಿಯನ್ನು
 ದೃಷ್ಟಿಯಿಂದ
 ದೇವಾಲಯದಲ್ಲಿ
+ದೇಹದ
 ದೈನಂದಿನ
 ದೈಹಿಕ
 ದೊಡ್ಡ
+ದೊರೆಯುವ
 ಧ
 ಧಕ್ಕೆ
 ಧನಲಾಭ
 ಧನು
 ಧನ್ಯವಾದ
+ಧರ್ಮ
 ಧೈರ್ಯ
 ಧ್ವನಿ
 ಧ್ವನಿಯ
@@ -9505,6 +9669,7 @@ zones
 ನೆರವು
 ನೆಲೆಯಲ್ಲಿ
 ನೆಲೆಯಿಂದ
+ನೆಲೆಸುತ್ತದೆ
 ನೇ
 ನೇರ
 ನೇರವಾಗಿ
@@ -9573,6 +9738,7 @@ zones
 ಪರಿಶೀಲಿಸುವುದು
 ಪರಿಷ್ಕರಣೆ
 ಪರಿಷ್ಕರಿಸಬಹುದು
+ಪರಿಸರವು
 ಪರಿಸ್ಥಿತಿ
 ಪರಿಸ್ಥಿತಿಯ
 ಪರಿಸ್ಥಿತಿಯನ್ನು
@@ -9642,7 +9808,9 @@ zones
 ಪ್ರಯಾಣದ
 ಪ್ರಯಾಣದಲ್ಲಿ
 ಪ್ರಯೋಗಶೀಲತೆ
+ಪ್ರಯೋಗಿಸುವುದು
 ಪ್ರಯೋಜನ
+ಪ್ರವಾಸ
 ಪ್ರವೇಶ
 ಪ್ರವೇಶದ
 ಪ್ರವೇಶವಿರುವ
@@ -9674,6 +9842,7 @@ zones
 ಬಗೆಹರಿಯಬಹುದು
 ಬಗೆಹರಿಸಬಹುದು
 ಬಗ್ಗೆ
+ಬಗ್ಗೆಯೂ
 ಬಜೆಟ್
 ಬಣ್ಣ
 ಬದಲಾಗಬಹುದು
@@ -9693,6 +9862,7 @@ zones
 ಬದಲಾವಣೆಯನ್ನು
 ಬದಲಿಸಬಹುದಾದ
 ಬದಲಿಸಬೇಕಾಗಬಹುದು
+ಬದಲಿಸಲು
 ಬದಲಿಸಿ
 ಬದಲಿಸುವ
 ಬದಿಗಿಟ್ಟ
@@ -9706,6 +9876,7 @@ zones
 ಬದ್ಧತೆಗಳು
 ಬದ್ಧತೆಯ
 ಬದ್ಧತೆಯನ್ನು
+ಬಯಕೆ
 ಬಯಸದೆ
 ಬಯಸಬಹುದು
 ಬಯಸಿದರೆ
@@ -9799,6 +9970,7 @@ zones
 ಬೆಳೆಯುತ್ತಿರುವ
 ಬೆಳೆಸಬಹುದು
 ಬೆಳೆಸಲು
+ಬೆಳೆಸಿಕೊಳ್ಳಬಹುದು
 ಬೆಳೆಸುವುದು
 ಬೇಕಾಗಬಹುದು
 ಬೇಕಾಗುತ್ತದೆ
@@ -10099,6 +10271,7 @@ zones
 ರೂಪಿಸಬಹುದು
 ರೂಪಿಸಿದಾಗಿನ
 ರೂಪಿಸಿದೆ
+ರೂಪಿಸುತ್ತದೆ
 ರೂಪಿಸುತ್ತವೆ
 ರೂಪಿಸುವ
 ರೂಪಿಸುವುದು
@@ -10139,6 +10312,7 @@ zones
 ವಾರದಲ್ಲಿ
 ವಾರದಲ್ಲಿಯೂ
 ವಾರ್ಷಿಕ
+ವಾಸದ
 ವಾಸ್ತವಿಕ
 ವಾಹನ
 ವಾಹನಗಳಿಗೆ
@@ -10253,6 +10427,7 @@ zones
 ವ್ಯಕ್ತವಾಗುತ್ತವೆ
 ವ್ಯಕ್ತಿತ್ವ
 ವ್ಯಕ್ತಿಯ
+ವ್ಯಕ್ತಿಯೊಂದಿಗೆ
 ವ್ಯತ್ಯಾಸಗಳನ್ನು
 ವ್ಯತ್ಯಾಸಗಳು
 ವ್ಯವಸ್ಥೆ
@@ -10296,6 +10471,7 @@ zones
 ಸಂಖ್ಯೆಯನ್ನು
 ಸಂಖ್ಯೆಯಿಂದ
 ಸಂಗತಿಗಳತ್ತ
+ಸಂಗತಿಗಳಲ್ಲಿ
 ಸಂಗಾತಿ
 ಸಂಗಾತಿಗೂ
 ಸಂಗಾತಿಗೆ
@@ -10312,6 +10488,7 @@ zones
 ಸಂಚಾರವು
 ಸಂಜೆ
 ಸಂಜೆಯ
+ಸಂತಸ
 ಸಂತೃಪ್ತಿ
 ಸಂತೋಷ
 ಸಂತೋಷಕ್ಕಾಗಿಯೇ
@@ -10468,6 +10645,7 @@ zones
 ಸುಗಮವಾಗಬಹುದು
 ಸುತ್ತ
 ಸುತ್ತಮುತ್ತ
+ಸುತ್ತಮುತ್ತಲಿನ
 ಸುತ್ತಲಿನ
 ಸುತ್ತಲಿನವರು
 ಸುತ್ತುವ
@@ -10569,6 +10747,8 @@ zones
 ಸ್ಮರಿಸಿ
 ಸ್ವಂತ
 ಸ್ವತಂತ್ರ
+ಸ್ವಭಾವ
+ಸ್ವಭಾವದ
 ಸ್ವಭಾವವು
 ಸ್ವಯಂ
 ಸ್ವಲ್ಪ
@@ -10688,6 +10868,7 @@ zones
 ಹೊಂದಿಕೆಯಾಗುತ್ತದೆ
 ಹೊಂದಿಕೆಯಾಗುತ್ತವೆ
 ಹೊಂದಿಕೊಂಡರೂ
+ಹೊಂದಿಕೊಂಡು
 ಹೊಂದಿಕೊಳ್ಳಬಹುದು
 ಹೊಂದಿಕೊಳ್ಳಲು
 ಹೊಂದಿಕೊಳ್ಳುತ್ತದೆ

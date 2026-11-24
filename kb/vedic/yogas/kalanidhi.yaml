@@ -1,0 +1,93 @@
+id: vedic.yogas.kalanidhi
+system: vedic
+topic: yogas
+title: Kalanidhi
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Jupiter occupies the second or fifth and receives conjunction or full aspect from both Mercury and Venus.
+conditions:
+  all:
+  - fact: d1.yoga.kalanidhi_formed
+    op: eq
+    value: true
+meaning: You can practise expressing an idea in a way someone else can follow.
+life_areas: []
+strength_notes:
+- when:
+    fact: vedic.yoga.kalanidhi.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.kalanidhi.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the stated candidate formation; extra branches in other schools need separate review.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Named yoga chapters, kalanidhi
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapters; edition locator pending
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: PyJHora yoga implementation
+  work_id: pyjhora-yoga
+  edition: pyjhora-yoga-506
+  chapter: null
+  verse: null
+  other_locator: jhora/horoscope/chart/yoga.py, kalaanidhi_yoga
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
+    copy follow the declared KB policy.
+  verification: verified
+confidence: medium
+review_notes: Draft interpretation; classical locator and native-language review pending.
+user_text:
+  en: You can practise expressing an idea in a way someone else can follow.
+  kn: ಇನ್ನೊಬ್ಬರಿಗೆ ಅರ್ಥವಾಗುವ ರೀತಿಯಲ್ಲಿ ವಿಚಾರವನ್ನು ಹೇಳುವ ಅಭ್ಯಾಸ ಮಾಡಬಹುದು.
+  hi: किसी विचार को दूसरों के लिए स्पष्ट बनाने का अभ्यास कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+formation:
+  method: named
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-formation-grahas
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

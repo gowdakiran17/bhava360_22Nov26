@@ -17,3 +17,5 @@ aliases: []
 reference_rules: []
 used_by:
 - vedic.matching.porutham-rajju
+- vedic.yogas.activation
+- vedic.yogas.nabhasa-rajju

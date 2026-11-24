@@ -1,0 +1,83 @@
+id: vedic.yogas.dharma-karmadhipati
+system: vedic
+topic: yogas
+title: Dharma Karmadhipati
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Distinct ninth and tenth lords conjoin, exchange their houses or mutually aspect one another.
+conditions:
+  all:
+  - fact: d1.yoga.dharma_karmadhipati_formed
+    op: eq
+    value: true
+meaning: You can reflect on how your responsibilities fit the values you want to practise.
+life_areas: []
+strength_notes:
+- when:
+    fact: vedic.yoga.dharma-karmadhipati.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.dharma-karmadhipati.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.forming_lord_owns_eighth
+    op: eq
+    value: true
+  effect: soften
+  reason: A participating eighth lord qualifies the promise.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: Use the stated candidate formation; extra branches in other schools need separate review.
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Named yoga chapters, dharma-karmadhipati
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Yoga chapters; edition locator pending
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft interpretation; classical locator and native-language review pending.
+user_text:
+  en: You can reflect on how your responsibilities fit the values you want to practise.
+  kn: ನಿಮ್ಮ ಹೊಣೆಗಳು ನೀವು ಪಾಲಿಸಲು ಬಯಸುವ ಮೌಲ್ಯಗಳಿಗೆ ಹೇಗೆ ಹೊಂದುತ್ತವೆ ಎಂದು ಯೋಚಿಸಬಹುದು.
+  hi: आप विचार कर सकते हैं कि जिम्मेदारियाँ आपके मूल्यों से कैसे जुड़ती हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+formation:
+  method: named
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-formation-grahas
+evidence:
+  direction: support
+  weight_class: primary
+  time_scope: natal
+  reference: none
+  area_strength: {}

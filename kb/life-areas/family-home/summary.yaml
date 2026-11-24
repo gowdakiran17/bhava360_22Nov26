@@ -8,8 +8,9 @@ feeds:
   - vedic.houses.house-2
   karakas:
   - vedic.planets.moon
+  - vedic.planets.jupiter
   vargas:
-  - vedic.vargas.d12-placement
+  - vedic.vargas.d1-placement
   dashas:
   - vedic.dashas-vimshottari.family-home-house-lord
   - vedic.dashas-vimshottari.family-home-upcoming

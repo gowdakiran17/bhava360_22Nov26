@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: business · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 7 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for business. Run the KB-36 promise, period and transit pipeline. Return at most
+  three qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_7
+  - fact: dasha.upcoming.business_window
     op: eq
     value: true
 meaning: You may wish to review a partnership or launch plan during this period.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: You may wish to review a partnership or launch plan during this period.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ಪಾಲುದಾರಿಕೆ ಅಥವಾ ಆರಂಭದ ಯೋಜನೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस अवधि में साझेदारी या शुरुआत की योजना पर विचार कर सकते हैं।
+  en: You can discuss a new initiative with a business partner.
+  kn: ಪಾಲುದಾರರೊಂದಿಗೆ ಹೊಸ ಪ್ರಯತ್ನದ ಬಗ್ಗೆ ಮಾತನಾಡಬಹುದು.
+  hi: साझेदार के साथ नई पहल पर बात कर सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

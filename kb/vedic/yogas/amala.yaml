@@ -19,13 +19,39 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.amala.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.amala.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.mixed_nature_witness
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for the qualifying benefic in this match before giving the reading greater
-    weight.
-exceptions: []
+  effect: soften
+  reason: Resolve the actual contributing grahas. A mixed benefic and malefic witness does not support an unqualified
+    positive reading.
+- when:
+    fact: d1.yoga.participant_afflicted
+    op: eq
+    value: true
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Record which origin matches. This profile admits a benefic even where another graha also occupies
@@ -58,6 +84,10 @@ remedy:
     en: You may reflect on how you carry responsibility in public.
     kn: ಸಾರ್ವಜನಿಕ ಹೊಣೆಯನ್ನು ಹೇಗೆ ನಿಭಾಯಿಸುತ್ತೀರಿ ಎಂದು ಯೋಚಿಸಬಹುದು.
     hi: सार्वजनिक ज़िम्मेदारी निभाने के अपने तरीके पर विचार कर सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- matched-benefics
 evidence:
   direction: support
   weight_class: primary

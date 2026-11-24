@@ -18,6 +18,8 @@ aliases:
 reference_rules:
 - vedic.panchang.yoga
 used_by:
+- vedic.dashas-vimshottari.spirituality-house-lord
+- vedic.dashas-vimshottari.spirituality-upcoming
 - vedic.muhurta.business-start
 - vedic.muhurta.education-start
 - vedic.muhurta.griha-pravesha

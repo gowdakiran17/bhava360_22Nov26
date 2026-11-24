@@ -300,6 +300,8 @@ used_by:
 - vedic.transits.sade-sati-rising
 - vedic.vargas.d30-placement
 - vedic.vargas.d60-placement
+- vedic.yogas.activation
+- vedic.yogas.budhaditya
 - western.aspects.conjunction
 - western.aspects.opposition
 - western.aspects.quincunx

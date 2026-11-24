@@ -19,7 +19,19 @@ meaning: You may be ready to act on a practical task.
 life_areas:
 - career
 - property-vehicles
-strength_notes: []
+strength_notes:
+- when:
+    fact: dasha.lord.has_stronger_note
+    op: eq
+    value: true
+  effect: stronger
+  reason: Resolve modulation.yaml lord_notes for the bound period; retain matching reasons.
+- when:
+    fact: dasha.lord.has_weaker_note
+    op: eq
+    value: true
+  effect: weaker
+  reason: Resolve modulation.yaml lord_notes for the bound period; retain matching reasons.
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
@@ -61,6 +73,7 @@ native_review:
   kn: pending
   hi: pending
 remedy: null
+modulation_ref: vedic/dashas/vimshottari/modulation.yaml
 evidence:
   direction: context
   weight_class: context

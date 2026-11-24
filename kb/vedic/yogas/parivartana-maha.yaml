@@ -17,13 +17,32 @@ meaning: A reciprocal exchange may connect the two topics through mutual support
 life_areas: []
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.parivartana-maha.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.parivartana-maha.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for both exchanging lords in this match before giving the reading greater
-    weight.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use one class per pair. Dusthana membership takes precedence over the third-house class.
@@ -55,6 +74,10 @@ remedy:
     en: You can look for two commitments that can support each other.
     kn: ಪರಸ್ಪರ ನೆರವಾಗುವ ಎರಡು ಹೊಣೆಗಳನ್ನು ಗುರುತಿಸಬಹುದು.
     hi: आप दो ऐसी ज़िम्मेदारियाँ पहचान सकते हैं जो एक-दूसरे में मदद करें।
+related_rules:
+- vedic.yogas.activation
+participants:
+- exchanging-lords
 evidence:
   direction: support
   weight_class: primary

@@ -4,10 +4,11 @@ topic: dashas/vimshottari
 title: health · upcoming
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Next dated major or subperiod lord owns house 1 of the stable natal chart. Bind the exact child interval.
+rule: Use life-areas/recipes.yaml for health. Run the KB-36 promise, period and transit pipeline. Return at most three
+  qualified windows with individual tone and pace, earliest first.
 conditions:
   all:
-  - fact: dasha.next_lord.owns_house_1
+  - fact: dasha.upcoming.health_window
     op: eq
     value: true
 meaning: This period may offer a prompt to revisit everyday routines.
@@ -28,13 +29,16 @@ sources:
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may offer a prompt to revisit everyday routines.
-  kn: ಈ ಅವಧಿಯಲ್ಲಿ ದಿನಚರಿಯನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: इस अवधि में दिनचर्या पर दोबारा विचार कर सकते हैं।
+  en: You can notice how your energy, temperament and daily rhythm feel in your body.
+  kn: ದೇಹದ ಚೈತನ್ಯ, ಸ್ವಭಾವ ಮತ್ತು ದಿನಚರಿಯನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप शरीर की स्फूर्ति, स्वभाव और दिनचर्या पर ध्यान दे सकते हैं।
 native_review:
   kn: pending
   hi: pending
 remedy: null
+related_rules:
+- vedic.transits.double-transit
+- vedic.transits.over-dasha-lord
 evidence:
   direction: context
   weight_class: context

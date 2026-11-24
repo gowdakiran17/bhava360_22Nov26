@@ -10,7 +10,7 @@ conditions:
   - fact: dasha.active_lord.owns_house_1
     op: eq
     value: true
-meaning: The period connects the active lord to house 1; use the dated period as context for health.
+meaning: You can notice how your energy, temperament and daily rhythm feel in your body.
 life_areas:
 - health
 strength_notes: []
@@ -25,12 +25,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring identity and self-expression into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ವ್ಯಕ್ತಿತ್ವ ಮತ್ತು ಅಭಿವ್ಯಕ್ತಿ.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: पहचान और अभिव्यक्ति।'
+  en: You can notice how your energy, temperament and daily rhythm feel in your body.
+  kn: ದೇಹದ ಚೈತನ್ಯ, ಸ್ವಭಾವ ಮತ್ತು ದಿನಚರಿಯನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप शरीर की स्फूर्ति, स्वभाव और दिनचर्या पर ध्यान दे सकते हैं।
 native_review:
   kn: pending
   hi: pending

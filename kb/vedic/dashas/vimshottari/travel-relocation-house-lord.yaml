@@ -4,13 +4,19 @@ topic: dashas/vimshottari
 title: travel-relocation and the active house lord
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Current major period lord owns natal house 4.
+rule: The active major lord owns at least one travel house (3, 9 or 12). Home is relocation context only.
 conditions:
-  all:
-  - fact: dasha.active_lord.owns_house_4
+  any:
+  - fact: dasha.active_lord.owns_house_3
     op: eq
     value: true
-meaning: The period connects the active lord to house 4; use the dated period as context for travel-relocation.
+  - fact: dasha.active_lord.owns_house_9
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_12
+    op: eq
+    value: true
+meaning: You can consider how short trips, longer journeys or time abroad fit your plans.
 life_areas:
 - travel-relocation
 strength_notes: []
@@ -25,12 +31,28 @@ sources:
   other_locator: Vimshottari lord and house results; locate exact passage.
   supports: Formation or interpretive theme; practical prompts are original editorial wording.
   verification: pending
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 11, bhava topics
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
+- book: Phaladeepika
+  work_id: phaladeepika
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Chapter 1, bhava definitions
+  supports: Named formation or convention; wording and display policy are editorial.
+  verification: pending
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:
-  en: This period may bring home and learning into focus.
-  kn: 'ಈ ಅವಧಿಯಲ್ಲಿ ಗಮನಕ್ಕೆ ಬರಬಹುದಾದ ವಿಷಯ: ಮನೆ ಮತ್ತು ಕಲಿಕೆ.'
-  hi: 'इस अवधि में इन विषयों पर ध्यान जा सकता है: घर और शिक्षा।'
+  en: You can consider how short trips, longer journeys or time abroad fit your plans.
+  kn: ಸಣ್ಣ ಪ್ರವಾಸ, ದೂರದ ಪ್ರಯಾಣ ಅಥವಾ ವಿದೇಶ ವಾಸದ ಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: छोटी यात्राओं, लंबी यात्राओं या विदेश प्रवास की योजना पर विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

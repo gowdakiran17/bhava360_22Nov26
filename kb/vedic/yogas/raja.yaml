@@ -15,16 +15,36 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.raja.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.raja.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.forming_lord_owns_eighth
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for the two associated house lords in this match before giving the reading
-    greater weight.
-exceptions: []
+  effect: soften
+  reason: A participating eighth lord qualifies the promise.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use distinct lords of 1/4/7/10 and 5/9. The wider textual family includes aspects and other placements.
+- profile: mutual-full-aspect
+  note: A labelled aspect variant accepts mutual full aspect between the two distinct forming lords.
 sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
@@ -53,6 +73,10 @@ remedy:
     en: You may wish to choose one practical next step at work.
     kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
     hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- bound-kendra-and-trikona-lords
 evidence:
   direction: support
   weight_class: primary

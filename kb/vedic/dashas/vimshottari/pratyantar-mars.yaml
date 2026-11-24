@@ -1,0 +1,55 @@
+id: vedic.dashas-vimshottari.pratyantar-mars
+system: vedic
+topic: dashas/vimshottari
+title: Pratyantar lord · mars
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the actual fine-period lord to its stable natal topic and resolved interval inside the active Antar. Only
+  Tier A can narrow an existing window.
+conditions:
+  all:
+  - fact: confidence.tier
+    op: eq
+    value: A
+  - fact: dasha.vimshottari.pratyantar_lord
+    op: eq
+    value: mars
+  - fact: dasha.vimshottari.selected_level
+    op: eq
+    value: pratyantar
+meaning: You may be ready to act on a practical task.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: vedic-editorial-v1
+  note: The default Julian year is 365.25 days. Alternatives are mean Gregorian (365.2425 days) and savana (360 days).
+    Apply one convention to the entire tree and label it on every dated result.
+sources:
+- book: 'Vedic Astrology: An Integrated Approach'
+  work_id: rao-integrated
+  edition: rao-integrated-online
+  chapter: 16
+  verse: null
+  other_locator: Section 16.3
+  supports: Subperiod order and proportional subdivision through finer levels.
+  verification: verified
+confidence: medium
+review_notes: Synthetic timing checks cover the calculation profile. Interpretive prompts are editorial. Native-language
+  review pending.
+user_text:
+  en: You may be ready to act on a practical task. This theme may come into focus for a shorter part of the current
+    period.
+  kn: ಪ್ರಾಯೋಗಿಕ ಕೆಲಸವೊಂದನ್ನು ಕೈಗೆತ್ತಿಕೊಳ್ಳಲು ಸಿದ್ಧರಾಗಿರಬಹುದು. ಪ್ರಸ್ತುತ ಅವಧಿಯ ಸಣ್ಣ ಭಾಗದಲ್ಲಿ ಈ ವಿಷಯ ಗಮನಕ್ಕೆ ಬರಬಹುದು.
+  hi: आप कोई व्यावहारिक काम हाथ में लेने के लिए तैयार हो सकते हैं। मौजूदा दौर के एक छोटे हिस्से में इस विषय पर ध्यान
+    जा सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: dasha
+  reference: none
+  area_strength: {}

@@ -197,7 +197,7 @@ class EngineExport(unittest.TestCase):
             self.assertTrue(set(keys)<=self.rows.keys(),name)
         routes = [set(keys) for name,keys in self.routes.items()
                   if name not in ('screen/reports','screen/admin-tester','screen/home','screen/life-areas','screen/ask')]
-        self.assertEqual(set.union(*routes),set(self.rows))
+        self.assertEqual(set.union(*routes),{k for k,r in self.rules.items() if k not in self.aliases and r.get('visibility')!='admin-only'})
         for key,rule in self.rules.items():
             canonical = self.aliases.get(key,key)
             if rule['system'] in ('vedic','jaimini','western','kp','numerology','lal-kitab'):
@@ -235,6 +235,11 @@ class EngineExport(unittest.TestCase):
             bundle = self.docs[f'public/locales/{loc}.json']['messages']
             for key,row in self.rows.items():
                 src = self.rules[key]
+                if src.get('visibility')=='admin-only':
+                    self.assertIsNone(row['public_key'])
+                    self.assertNotIn(token('p',key),self.docs['public/'+src['system']+'.json']['readings'])
+                    self.assertNotIn(token('m',key),bundle)
+                    continue
                 pub = self.docs['public/'+src['system']+'.json']['readings'][row['public_key']]
                 self.assertEqual(set(pub), {'user_text','tone','remedy'} | ({'label'} if 'public_label' in src else set()))
                 self.assertEqual(bundle[pub['user_text']],src['user_text'].get(loc) or src['user_text']['en'])

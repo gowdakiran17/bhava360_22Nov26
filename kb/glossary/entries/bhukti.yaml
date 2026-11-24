@@ -24,12 +24,7 @@ reference_rules: []
 used_by:
 - vedic.dashas-sandhi.junction
 - vedic.dashas-vimshottari.antar-period
-- vedic.dashas-vimshottari.business-upcoming
-- vedic.dashas-vimshottari.career-upcoming
 - vedic.dashas-vimshottari.check-vehicle-number-vehicle-period
-- vedic.dashas-vimshottari.children-upcoming
-- vedic.dashas-vimshottari.family-home-upcoming
-- vedic.dashas-vimshottari.health-upcoming
 - vedic.dashas-vimshottari.jupiter-jupiter-antar
 - vedic.dashas-vimshottari.jupiter-ketu-antar
 - vedic.dashas-vimshottari.jupiter-mars-antar
@@ -48,8 +43,6 @@ used_by:
 - vedic.dashas-vimshottari.ketu-saturn-antar
 - vedic.dashas-vimshottari.ketu-sun-antar
 - vedic.dashas-vimshottari.ketu-venus-antar
-- vedic.dashas-vimshottari.learning-upcoming
-- vedic.dashas-vimshottari.love-marriage-upcoming
 - vedic.dashas-vimshottari.mars-jupiter-antar
 - vedic.dashas-vimshottari.mars-ketu-antar
 - vedic.dashas-vimshottari.mars-mars-antar
@@ -68,7 +61,6 @@ used_by:
 - vedic.dashas-vimshottari.mercury-saturn-antar
 - vedic.dashas-vimshottari.mercury-sun-antar
 - vedic.dashas-vimshottari.mercury-venus-antar
-- vedic.dashas-vimshottari.money-upcoming
 - vedic.dashas-vimshottari.moon-jupiter-antar
 - vedic.dashas-vimshottari.moon-ketu-antar
 - vedic.dashas-vimshottari.moon-mars-antar
@@ -78,8 +70,16 @@ used_by:
 - vedic.dashas-vimshottari.moon-saturn-antar
 - vedic.dashas-vimshottari.moon-sun-antar
 - vedic.dashas-vimshottari.moon-venus-antar
+- vedic.dashas-vimshottari.pratyantar-jupiter
+- vedic.dashas-vimshottari.pratyantar-ketu
+- vedic.dashas-vimshottari.pratyantar-mars
+- vedic.dashas-vimshottari.pratyantar-mercury
+- vedic.dashas-vimshottari.pratyantar-moon
 - vedic.dashas-vimshottari.pratyantar-period
-- vedic.dashas-vimshottari.property-vehicles-upcoming
+- vedic.dashas-vimshottari.pratyantar-rahu
+- vedic.dashas-vimshottari.pratyantar-saturn
+- vedic.dashas-vimshottari.pratyantar-sun
+- vedic.dashas-vimshottari.pratyantar-venus
 - vedic.dashas-vimshottari.rahu-jupiter-antar
 - vedic.dashas-vimshottari.rahu-ketu-antar
 - vedic.dashas-vimshottari.rahu-mars-antar
@@ -98,8 +98,16 @@ used_by:
 - vedic.dashas-vimshottari.saturn-saturn-antar
 - vedic.dashas-vimshottari.saturn-sun-antar
 - vedic.dashas-vimshottari.saturn-venus-antar
+- vedic.dashas-vimshottari.sookshma-jupiter
+- vedic.dashas-vimshottari.sookshma-ketu
+- vedic.dashas-vimshottari.sookshma-mars
+- vedic.dashas-vimshottari.sookshma-mercury
+- vedic.dashas-vimshottari.sookshma-moon
 - vedic.dashas-vimshottari.sookshma-period
-- vedic.dashas-vimshottari.spirituality-upcoming
+- vedic.dashas-vimshottari.sookshma-rahu
+- vedic.dashas-vimshottari.sookshma-saturn
+- vedic.dashas-vimshottari.sookshma-sun
+- vedic.dashas-vimshottari.sookshma-venus
 - vedic.dashas-vimshottari.sun-jupiter-antar
 - vedic.dashas-vimshottari.sun-ketu-antar
 - vedic.dashas-vimshottari.sun-mars-antar
@@ -109,7 +117,6 @@ used_by:
 - vedic.dashas-vimshottari.sun-saturn-antar
 - vedic.dashas-vimshottari.sun-sun-antar
 - vedic.dashas-vimshottari.sun-venus-antar
-- vedic.dashas-vimshottari.travel-relocation-upcoming
 - vedic.dashas-vimshottari.venus-jupiter-antar
 - vedic.dashas-vimshottari.venus-ketu-antar
 - vedic.dashas-vimshottari.venus-mars-antar

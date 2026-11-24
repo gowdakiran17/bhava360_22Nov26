@@ -7,9 +7,12 @@ feeds:
   - vedic.houses.house-2
   - vedic.houses.house-11
   - vedic.houses.house-5
+  - vedic.houses.house-9
   karakas:
   - vedic.planets.jupiter
+  - vedic.planets.venus
   vargas:
+  - vedic.vargas.d9-placement
   - vedic.vargas.d2-placement
   dashas:
   - vedic.dashas-vimshottari.money-house-lord

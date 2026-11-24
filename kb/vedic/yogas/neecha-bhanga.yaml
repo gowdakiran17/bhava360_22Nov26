@@ -43,25 +43,39 @@ life_areas:
 - career
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.neecha-bhanga.gate
     op: eq
-    value: true
+    value: full
   effect: stronger
-  reason: Assess the shadbala minimum for the selected debilitated graha in this match before giving the reading
-    greater weight.
+  reason: Allow the normal reading when activation permits.
 - when:
-    fact: d1.dignity.debilitated_vakri
+    fact: vedic.yoga.neecha-bhanga.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.participant_afflicted
     op: eq
     value: true
-  effect: stronger
-  reason: Uttara Kalamrita II.6 gives retrograde debility motional strength; this profile keeps the D1 sign
-    dignity.
-exceptions: []
+  effect: soften
+  reason: A bound forming participant loses war or is combust; retain only softened language. Editorial qualification
+    pending school review.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The alternate exaltee reading and the navamsha branches are identified separately. Retrogression is
-    a strength variant. The raja entry adds the library’s stricter angularity requirement for the recovered
-    planet.
+  note: The alternate exaltee reading and the navamsha branches are identified separately. Retrogression is a strength
+    variant. The raja entry adds the library’s stricter angularity requirement for the recovered planet.
+- profile: vedic-editorial-v1
+  note: MODERN dispositor-exchange relief branch. This editorial extension is not attributed to Phaladeepika 7.26–30,
+    BPHS or Jataka Parijata 7. Raja promotion additionally requires the recovered planet angular from Lagna.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -114,6 +128,11 @@ remedy:
     en: You can make room for support from people you trust.
     kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
     hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+related_rules:
+- vedic.yogas.activation
+participants:
+- recovered-graha
+- relief-lords
 evidence:
   direction: support
   weight_class: primary

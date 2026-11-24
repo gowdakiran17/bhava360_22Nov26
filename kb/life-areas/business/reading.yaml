@@ -1,19 +1,25 @@
 version: 1
 approval: draft
 houses:
-- 7
 - 10
+- 2
+- 6
 - 11
+- 7
+- 3
 varga: D10
 karakas:
+- saturn
+- sun
 - mercury
+- jupiter
 intent: business-start
 checker: business-name
 slots:
-  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
-    active period. Cite the actual graha and house.
-  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
-    when KP is enabled; display an honest absence when no supported date exists.
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
+    in the active period. Cite the actual graha and house.
+  upcoming-periods: Apply this area recipe to the KB-36 pipeline. Keep the earliest qualifying window and up to two
+    further windows, retaining each tone and pace.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
   what-you-can-do:
     en: You can clarify the next decision with a partner.
@@ -44,3 +50,4 @@ slot_bindings:
     localized_field: slots.what-you-can-do
     requires: at least one matched area fact
     checker: business-name
+recipe_ref: life-areas/recipes.yaml#business

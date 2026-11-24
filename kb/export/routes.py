@@ -80,9 +80,12 @@ def routing(rules, docs, aliases):
                                     'vedic.houses.house-7','vedic.planets.venus','vedic.vargas.d9-placement'}])
     combine('reports', ['screen/life-areas','screen/chart','screen/divisional-charts','screen/matching','screen/timeline'])
     # Administrative and non-reading screens never provide the only path to a rule.
+    private={k for k,r in rules.items() if r.get("visibility")=="admin-only"}
+    for ids in routes.values():
+        ids.difference_update(private)
     routed = set().union(*routes.values())
     canonical = set(rules) - aliases.keys()
-    if routed != canonical:
+    if routed != canonical-private:
         raise ValueError(f'Unrouted or noncanonical candidates: {sorted(routed ^ canonical)}')
     routes['screen/admin-tester'] = canonical
     for name in ('accounts','onboarding','profiles','language','settings','consent','payments','plus','purchase','glossary'):

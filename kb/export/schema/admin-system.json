@@ -35,7 +35,7 @@
             "pattern": "^[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*\\.[a-z][a-z0-9-]*$"
           },
           "public_key": {
-            "type": "string",
+            "type": ["string", "null"],
             "pattern": "^p_[0-9a-f]{24}$"
           },
           "rule": {

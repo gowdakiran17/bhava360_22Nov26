@@ -23,12 +23,49 @@ life_areas:
 - spirituality
 strength_notes:
 - when:
-    fact: d1.yoga.anchor_meets_strength
+    fact: vedic.yoga.hamsa.gate
+    op: eq
+    value: full
+  effect: stronger
+  reason: Allow the normal reading when activation permits.
+- when:
+    fact: vedic.yoga.hamsa.gate
+    op: eq
+    value: mild
+  effect: weaker
+  reason: Use only the softened reading for mixed participant strength.
+exceptions:
+- when:
+    fact: d1.yoga.anchor_combust
     op: eq
     value: true
-  effect: stronger
-  reason: Assess the shadbala minimum for Jupiter in this match before giving the reading greater weight.
-exceptions: []
+  effect: soften
+  reason: The anchor is within its motion-specific combustion orb.
+- when:
+    fact: d1.yoga.anchor_war_loser
+    op: eq
+    value: true
+  effect: cancel
+  reason: The forming planet loses planetary war under the selected strict school.
+- when:
+    fact: d1.yoga.anchor_d9_debilitated
+    op: eq
+    value: true
+  effect: soften
+  reason: Debilitation in D9 qualifies the angular D1 formation.
+- when:
+    fact: d1.yoga.luminary_conjunction
+    op: eq
+    value: true
+  effect: soften
+  reason: Selected school softens an anchor joined by Sun or Moon.
+- when:
+    fact: d1.yoga.foundation_cancelled
+    op: eq
+    value: true
+  effect: cancel
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use Lagna as the origin. A parallel lunar-origin reading requires a separately labelled chart reference.
@@ -60,6 +97,10 @@ remedy:
     en: You may find meaning in sharing what you learn.
     kn: ಕಲಿತದ್ದನ್ನು ಹಂಚಿಕೊಳ್ಳುವುದು ನಿಮಗೆ ಅರ್ಥಪೂರ್ಣವೆನಿಸಬಹುದು.
     hi: सीखी हुई बात बाँटना आपको सार्थक लग सकता है।
+related_rules:
+- vedic.yogas.activation
+participants:
+- jupiter
 evidence:
   direction: support
   weight_class: primary

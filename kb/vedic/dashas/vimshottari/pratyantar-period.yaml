@@ -12,6 +12,9 @@ conditions:
   - fact: dasha.vimshottari.selected_level
     op: eq
     value: pratyantar
+  - fact: confidence.tier
+    op: eq
+    value: A
 meaning: You can use this interval to place a chart theme in time.
 life_areas: []
 strength_notes: []

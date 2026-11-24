@@ -128,6 +128,9 @@ doctrine_profiles:
   bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:
+  mutual-full-aspect: {system: vedic, approval: draft, scope: alternate mutual full aspect for qualifying yoga lords}
+  budhaditya-close-orb: {system: vedic, approval: draft, scope: narrow Mercury conjunction qualification}
+  gender-specific-marriage-karaka: {system: vedic, approval: draft, scope: opt-in classical karaka split pending owner review}
   generic-lordship-order: {approval: draft, tag: MODERN, scope: generic first-match functional polarity}
   mercury-strict: {system: vedic, approval: draft, scope: any-malefic-same-sign-associate}
   saravali-five-degrees: {system: vedic, approval: draft, scope: labelled-alternative}

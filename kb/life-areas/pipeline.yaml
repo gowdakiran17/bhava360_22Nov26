@@ -2,7 +2,7 @@ version: 1
 approval: draft
 profile: parashari-synthesis-v1
 order: [promise, period, transit, window, card]
-scope: Bind one chart, area recipe and interval. KB-38 supplies production recipes. Apply matched bhanga and softening to the bound graha before counting any factor.
+scope: Bind one chart, area recipe and interval. Resolve the area in life-areas/recipes.yaml, including its release flags and sensitivity settings. Apply matched bhanga and softening to the bound graha before counting any factor.
 availability: shared/confidence/output-matrix.yaml
 promise:
   tradition: CLASSICAL Parashari lordship, occupants, aspects, karakas and divisional confirmation.

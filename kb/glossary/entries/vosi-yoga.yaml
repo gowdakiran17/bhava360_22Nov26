@@ -18,6 +18,7 @@ aliases:
 reference_rules:
 - vedic.yogas.vosi
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.vosi
 systems:
 - vedic

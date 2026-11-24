@@ -22,7 +22,6 @@ used_by:
 - kp.significators.job-change
 - lal-kitab.placements.house-2
 - vedic.dashas-vimshottari.money-house-lord
-- vedic.dashas-vimshottari.money-upcoming
 - vedic.house-lords.lord-1-in-house-2
 - vedic.house-lords.lord-10-in-house-2
 - vedic.house-lords.lord-11-in-house-2
@@ -78,6 +77,7 @@ used_by:
 - vedic.transits.saturn-moon-house-2
 - vedic.transits.sun-moon-house-2
 - vedic.transits.venus-moon-house-2
+- vedic.yogas.activation
 - vedic.yogas.dhana
 - western.natal.jupiter-house-2
 - western.natal.mars-house-2

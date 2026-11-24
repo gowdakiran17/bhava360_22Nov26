@@ -57,8 +57,10 @@ used_by:
 - vedic.dashas-vimshottari.mars-venus-antar
 - vedic.dashas-vimshottari.mercury-mars-antar
 - vedic.dashas-vimshottari.moon-mars-antar
+- vedic.dashas-vimshottari.pratyantar-mars
 - vedic.dashas-vimshottari.rahu-mars-antar
 - vedic.dashas-vimshottari.saturn-mars-antar
+- vedic.dashas-vimshottari.sookshma-mars
 - vedic.dashas-vimshottari.sun-mars-antar
 - vedic.dashas-vimshottari.venus-mars-antar
 - vedic.doshas.mars-partnership
@@ -194,9 +196,11 @@ used_by:
 - vedic.transits.rahu-moon-house-9
 - vedic.transits.retrograde
 - vedic.transits.station
+- vedic.yogas.activation
 - vedic.yogas.anapha
 - vedic.yogas.chandra-mangala
 - vedic.yogas.durudhara
+- vedic.yogas.guru-mangala
 - vedic.yogas.kemadruma
 - vedic.yogas.ruchaka
 - vedic.yogas.sunapha

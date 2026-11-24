@@ -3,6 +3,8 @@ approval: draft
 houses:
 - 1
 - 6
+- 8
+- 12
 varga: D1
 karakas:
 - sun
@@ -10,10 +12,10 @@ karakas:
 intent: wellbeing
 checker: null
 slots:
-  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area in the
-    active period. Cite the actual graha and house.
-  upcoming-periods: Intersect dated dasha/antardasha intervals with relevant slow-transit windows. Include mixed evidence
-    when KP is enabled; display an honest absence when no supported date exists.
+  present-situation: Resolve the listed houses, their lords and their placements. Select matched rules for this area
+    in the active period. Cite the actual graha and house.
+  upcoming-periods: Apply this area recipe to the KB-36 pipeline. Keep the earliest qualifying window and up to two
+    further windows, retaining each tone and pace.
   concerns-to-watch: Use only a matched qualifying or softening rule. Include its concrete factor and period.
   what-you-can-do:
     en: You might make room for a restful break.
@@ -45,3 +47,4 @@ slot_bindings:
     requires: at least one matched area fact
     checker: null
 summary_profile: summary.yaml
+recipe_ref: life-areas/recipes.yaml#health

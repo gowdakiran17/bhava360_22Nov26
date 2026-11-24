@@ -44,6 +44,7 @@ used_by:
 - vedic.dashas-vimshottari.mars-saturn-antar
 - vedic.dashas-vimshottari.mercury-saturn-antar
 - vedic.dashas-vimshottari.moon-saturn-antar
+- vedic.dashas-vimshottari.pratyantar-saturn
 - vedic.dashas-vimshottari.rahu-saturn-antar
 - vedic.dashas-vimshottari.saturn-jupiter-antar
 - vedic.dashas-vimshottari.saturn-ketu-antar
@@ -55,6 +56,7 @@ used_by:
 - vedic.dashas-vimshottari.saturn-saturn-antar
 - vedic.dashas-vimshottari.saturn-sun-antar
 - vedic.dashas-vimshottari.saturn-venus-antar
+- vedic.dashas-vimshottari.sookshma-saturn
 - vedic.dashas-vimshottari.sun-saturn-antar
 - vedic.dashas-vimshottari.venus-saturn-antar
 - vedic.doshas.ashtama-shani
@@ -201,6 +203,7 @@ used_by:
 - vedic.yogas.anapha
 - vedic.yogas.durudhara
 - vedic.yogas.kemadruma
+- vedic.yogas.kusuma
 - vedic.yogas.shasha
 - vedic.yogas.sunapha
 - vedic.yogas.ubhayachari

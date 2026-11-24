@@ -8,9 +8,9 @@ sanskrit:
   kannada: ವ್ಯಯಭಾವ
   usage: traditional term
 meaning:
-  en: The part of a birth chart used to explore expenditure.
-  kn: ಜನ್ಮನಕ್ಷೆಯಲ್ಲಿ ವೆಚ್ಚ ಕುರಿತು ನೋಡುವ ಭಾಗ.
-  hi: जन्मपत्री में खर्च से जुड़ा हिस्सा।
+  en: A chart theme for reflecting on rest, reflection, expenses and foreign lands.
+  kn: ವಿಶ್ರಾಂತಿ, ಚಿಂತನೆ, ವೆಚ್ಚ ಮತ್ತು ವಿದೇಶ ಕುರಿತು ಯೋಚಿಸಲು ಬಳಸುವ ಜಾತಕದ ಭಾಗ.
+  hi: विश्राम, चिंतन, व्यय और विदेश पर विचार करने से जुड़ा कुंडली का क्षेत्र।
 admin_note: Count from the rising sign under the default whole-sign method. This house lists outgoings, rest, seclusion
   among its subjects.
 aliases:
@@ -20,6 +20,7 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.upapada
 - lal-kitab.placements.house-12
+- vedic.dashas-vimshottari.travel-relocation-house-lord
 - vedic.house-lords.lord-1-in-house-12
 - vedic.house-lords.lord-10-in-house-12
 - vedic.house-lords.lord-11-in-house-12
@@ -83,9 +84,9 @@ used_by:
 - western.natal.uranus-house-12
 - western.natal.venus-house-12
 public_label:
-  en: Rest and reflection
-  kn: ವಿಶ್ರಾಂತಿ ಮತ್ತು ಚಿಂತನೆ
-  hi: विश्राम और चिंतन
+  en: Rest, reflection, expenses and foreign lands
+  kn: ವಿಶ್ರಾಂತಿ, ಚಿಂತನೆ, ವೆಚ್ಚ ಮತ್ತು ವಿದೇಶ
+  hi: विश्राम, चिंतन, व्यय और विदेश
 approval: draft
 native_review:
   kn: pending

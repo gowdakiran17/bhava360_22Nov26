@@ -17,6 +17,7 @@ aliases:
 reference_rules:
 - vedic.yogas.malavya
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.malavya
 systems:
 - vedic

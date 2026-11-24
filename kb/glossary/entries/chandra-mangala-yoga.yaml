@@ -17,6 +17,7 @@ aliases:
 reference_rules:
 - vedic.yogas.chandra-mangala
 used_by:
+- vedic.yogas.activation
 - vedic.yogas.chandra-mangala
 systems:
 - vedic
