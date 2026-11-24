@@ -1,0 +1,49 @@
+id: western.angles.mc-libra
+system: western
+topic: angles
+title: Mc libra
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: Use the actual meridian MC for public work; IC is the opposite meridian and describes private foundations.
+conditions:
+  all:
+  - fact: western.angle.reliable
+    op: eq
+    value: true
+  - fact: western.angle.mc_sign
+    op: eq
+    value: libra
+meaning: In public work, negotiating agreements may be worth exploring.
+life_areas:
+- career
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: In public work, negotiating agreements may be worth exploring.
+  kn: ಸಾರ್ವಜನಿಕ ಕೆಲಸದಲ್ಲಿ ಒಪ್ಪಂದ ಕಡೆ ಗಮನ ನೀಡಬಹುದು.
+  hi: सार्वजनिक काम में आप सहमति पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  reference: none
+  time_scope: natal
+  area_strength:
+    career: core

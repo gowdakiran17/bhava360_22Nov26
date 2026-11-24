@@ -1,0 +1,42 @@
+approval: draft
+release: r2
+profile: kp-editorial-v1
+groups: kp/cusps/event-groups.yaml
+order:
+- star_occupied
+- planet_occupied
+- star_owned
+- planet_owned
+outcomes:
+  support only: promised
+  negating only: denied
+  both: mixed
+  neither: unrelated
+  incomplete: unknown
+predicates:
+  self_star:
+    when:
+      fact: kp.judgement.self_star
+      op: eq
+      value: true
+    effect: Direct residence is primary in the four-step method.
+  node:
+    when:
+      fact: kp.judgement.node_agent
+      op: eq
+      value: true
+    effect: Add represented sign ruler houses with node priority; nodes own no signs.
+timing:
+- Only promised or mixed admits timing. Keep mixed reasons attached.
+- Each active Dasha, Bhukti and Antara lord must signify a supporting house and belong to the ruling planets at actual
+  judgement.
+- Intersect period intervals, search horizon and confirmed Sun, Moon or Jupiter passage through the KP sub interval
+  of the event cusp or a qualifying lord. Use inclusive entry and exclusive exit. Discard empty intersections.
+withhold: On actual cusp failure or KB-48 withholding, suppress every cusp-derived result. Independent planetary stars/subs
+  and Parashari results remain eligible. Never substitute house systems.
+reading_ids:
+- kp.judgement.promised
+- kp.judgement.denied
+- kp.judgement.mixed
+- kp.judgement.mixed-signals
+- kp.judgement.cusp-unavailable

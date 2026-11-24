@@ -30,6 +30,7 @@ used_by:
 - kp.cusps.cusp-9
 - kp.cusps.placidus
 - kp.cusps.seventh-cusp
+- kp.judgement.cusp-unavailable
 - kp.number-horary.arc
 - vedic.prashna.kp-horary
 - western.houses.polar-fallback

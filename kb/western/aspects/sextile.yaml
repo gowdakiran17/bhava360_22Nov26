@@ -4,7 +4,8 @@ topic: aspects
 title: Sextile
 doctrine_profile: western-editorial-v1
 approval: draft
-rule: For a bound natal pair, accept shortest circular separation within 4 degrees of 60 degrees, inclusive.
+rule: For a bound natal pair, compare circular separation to the sextile angle. Apply the inclusive base width plus
+  the largest eligible point adjustment in western/aspects/orbs.yaml.
 conditions:
   all:
   - fact: western.natal.aspect

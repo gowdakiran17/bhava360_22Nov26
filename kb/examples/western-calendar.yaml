@@ -1,0 +1,21 @@
+approval: draft
+synthetic: true
+unit: Days in the selected synthetic local month, interval [1,31). Passes are supplied exact tropical perfections.
+passes:
+- at: 8
+  mover: saturn
+  target: venus
+  aspect: square
+  stable: true
+  direction: caution
+  reading_id: western.transit-pairs.saturn-venus-tension
+- at: 19
+  mover: jupiter
+  target: sun
+  aspect: trine
+  stable: true
+  direction: support
+  reading_id: western.transit-pairs.jupiter-sun-harmonious
+monthly_tone: Steady
+interpretation: Responsibilities may ask for a conversation about affection. Learning may help move a personal aim
+  forward. Keep both readings.

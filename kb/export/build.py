@@ -138,7 +138,7 @@ def public_resources(docs, messages):
         else:
             continue
         bind(path,public)
-    for copy_path in ('shared/confidence/copy.yaml', 'modules/home/copy.yaml'):
+    for copy_path in ('shared/confidence/copy.yaml', 'modules/home/copy.yaml','vedic/matching/summary.yaml'):
         if copy_path not in docs:
             continue
         for key, translations in docs[copy_path]['messages'].items():

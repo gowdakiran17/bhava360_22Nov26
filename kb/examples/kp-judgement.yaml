@@ -1,0 +1,59 @@
+approval: draft
+synthetic: true
+label: Scenario K2
+question: job change
+cusp: 10
+cusp_links:
+- 2
+- 6
+- 11
+- 5
+outcome: mixed
+significators:
+  venus:
+  - 2
+  mercury:
+  - 6
+  jupiter:
+  - 11
+  mars:
+  - 5
+ruling:
+- venus
+- mercury
+- jupiter
+periods:
+- - venus
+  - 0
+  - 100
+- - mercury
+  - 10
+  - 70
+- - jupiter
+  - 20
+  - 50
+horizon:
+- 22
+- 50
+passages:
+- - moon
+  - event-cusp
+  - 21
+  - 25
+- - saturn
+  - jupiter
+  - 22
+  - 24
+- - sun
+  - mercury
+  - 50
+  - 60
+unit: Elapsed days since synthetic query instant.
+expected_window:
+- 22
+- 25
+- moon
+- event-cusp
+vedic_reason: An eligible period supports a career opening.
+kp_reason: The cusp links both employment and its negating group.
+mixed_copy: kp.judgement.mixed-signals

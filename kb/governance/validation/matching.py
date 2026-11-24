@@ -76,6 +76,7 @@ def qualitative(directions):
 
 
 def validate_matching(rules, read, evaluate, require, root):
+    validate_summary(read,require)
     t = profile_tables(rules, read)
     policy = read('vedic/matching/factors.yaml')
     north_order = policy['reference']['northern_order']
@@ -177,3 +178,48 @@ def validate_matching(rules, read, evaluate, require, root):
         for text in entry['user_text'].values():
             require(not any(c.isdigit() for c in text) and 'not compatible' not in text.lower(),key+' public copy')
     print('Matching passed: 729 ordered star pairs, 11,664 ordered pada comparisons across both profiles, two synthetic couples.')
+
+
+def summary(case, policy, locale):
+    total=case['raw_total']
+    if not case['consented'] or not case['moons_stable'] or total is None or not 0<=total<=36:
+        return None
+    band='care' if total<18 else 'mixed' if total<25 else 'close'
+    votes=[{'care':'care','mixed':'context','close':'support'}[band]]
+    explanations=['understanding',band]
+    for factor in ('bhakoot','nadi'):
+        if case[factor]['formed'] and not case[factor]['cancelled']:
+            votes.append('care')
+        elif case[factor]['formed']:
+            explanations.append(factor+'-relief')
+    mars=case['mars']
+    # Compare only the residual results after each chart's natal reliefs.
+    if None not in (mars['first'],mars['second']):
+        if (mars['first'] or mars['second']) and not (mars['first'] and mars['second'] and mars['comparable']):
+            votes.append('care')
+            explanations.append('kuja-difference')
+        elif mars['first'] and mars['second']:
+            explanations.append('kuja-balance')
+    for channel in ('partnership','moon-lagna','d9','period'):
+        direction=case['cross'].get(channel)
+        if direction is not None:
+            explanations.append(channel)
+            votes.append('care' if direction=='caution' else direction)
+    explanations.append('prompt')
+    tone=qualitative(votes)
+    return {'localized_tone':policy['tone_labels'][tone][locale],'user_text':[policy['messages'][key][locale] for key in explanations]}
+
+
+def validate_summary(read, require):
+    p=read('vedic/matching/summary.yaml')
+    case=read('examples/matching-summary.yaml')
+    for locale in ('en','kn','hi'):
+        result=summary(case,p,locale)
+        require(result['localized_tone']==p['tone_labels'][case['tone']][locale] and result['user_text']==[p['messages'][k][locale] for k in case['message_keys']], 'Scenario P3')
+    for points,expected in [(17.5,'Take care'),(18,'Steady'),(24.5,'Steady'),(25,'Supportive'),(36,'Supportive')]:
+        require(summary(dict(case,raw_total=points,cross={}),p,'en')['localized_tone']==expected,'band endpoint')
+    require(summary(dict(case,consented=False),p,'en') is None and summary(dict(case,raw_total=None),p,'en') is None,'missing consent or total')
+    close=dict(case,raw_total=30,cross={})
+    require(summary(dict(close,nadi=dict(formed=True,cancelled=False)),p,'en')['localized_tone']=='Steady'
+            and summary(close,p,'en')['localized_tone']=='Supportive','Nadi relief')
+    require(summary(dict(close,mars=dict(first=True,second=False,comparable=False)),p,'en')['localized_tone']=='Steady','one residual Kuja')

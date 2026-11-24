@@ -1,0 +1,47 @@
+id: western.natal-pairs.moon-neptune-harmonious
+system: western
+topic: natal-pairs
+title: Moon neptune harmonious
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: natal moon to neptune via sextile, trine. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.natal.reading_pair
+    op: eq
+    value: moon-neptune
+  - fact: western.natal.family
+    op: eq
+    value: harmonious
+meaning: Emotional needs may leave more room for imagination.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Emotional needs may leave more room for imagination.
+  kn: ಭಾವನಾತ್ಮಕ ಅಗತ್ಯಗಳು ಮೂಲಕ ಕಲ್ಪನೆ ಕಡೆ ಗಮನ ನೀಡಬಹುದು.
+  hi: भावनात्मक ज़रूरतें से कल्पना के लिए जगह बन सकती है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  reference: none
+  time_scope: natal
+  area_strength: {}

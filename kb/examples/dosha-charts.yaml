@@ -13,8 +13,8 @@ cases:
   - {entry: mars-partnership, chart: Asha, positions: {mars: 9}, formed: true, exceptions: [6], strength: [weaker]}
   - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman}, positions: {lagna: 40, mars: 65}, formed: true, exceptions: [2, 4]}
   - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman}, positions: {lagna: 100, mars: 134}, formed: true, exceptions: [3, 5]}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: lagna_five, relief: bphs}, positions: {mars: 9}, formed: true, strength: []}
-  - {entry: mars-partnership, chart: Asha, config: {house_list: four, relief: bphs}, positions: {mars: 9}, formed: false}
+  - {entry: mars-partnership, chart: Asha, config: {house_list: lagna_five, relief: regional-lagna}, positions: {mars: 9}, formed: true, strength: []}
+  - {entry: mars-partnership, chart: Asha, config: {house_list: four, relief: regional-lagna}, positions: {mars: 9}, formed: false}
   - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: rath}, positions: {mars: 35}, formed: true}
   - {entry: mars-partnership, chart: Asha, config: {house_list: lagna_five, relief: rath, reference: moon}, positions: {mars: 85}, formed: true}
   - {entry: mars-partnership, chart: Asha, config: {house_list: family_five, relief: raman, reference: venus}, formed: true}

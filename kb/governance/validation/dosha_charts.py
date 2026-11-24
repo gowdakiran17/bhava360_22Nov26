@@ -14,7 +14,7 @@ def distance(origin, target):
 
 def mars_facts(chart, config, profile, signs, aspects):
     reference, house_list, relief = (config[k] for k in ('reference', 'house_list', 'relief'))
-    bindings = {'bphs': [('lagna', 'lagna_five'), ('lagna', 'four')],
+    bindings = {'regional-lagna': [('lagna', 'lagna_five'), ('lagna', 'four')],
                 'raman': [(r, 'family_five') for r in profile['references']],
                 'rath': [('lagna', 'family_five'), ('moon', 'lagna_five')],
                 'sgs': [('lagna', 'family_five')]}

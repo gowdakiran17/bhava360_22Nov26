@@ -38,6 +38,7 @@ def occupied(cusps, point):
 
 
 def validate_kp(rules, read, evaluate, require):
+    judgement_checks(rules,read,evaluate,require)
     rows = read('kp/number-horary/249-divisions.yaml')['intervals']
     require(rows == intervals() and len(rows)==249, 'exact KP boundaries, signs, stars, subs and numbers')
     starts = [r['start_arcsec'] for r in rows]
@@ -136,3 +137,50 @@ def validate_kp(rules, read, evaluate, require):
             if n==7:
                 require(hit is case['expected_marriage_link'], name+' partnership screen')
     print('KP passed: all 249 exact rows, 498 interval-edge probes, 18 planetary testimonies and 24 cusp readings.')
+
+
+def event_outcome(group, houses, cusp_solved):
+    if cusp_solved is not True or houses is None:
+        return None
+    support=bool(set(group['houses']).intersection(houses))
+    denial=bool(set(group['negating_houses']).intersection(houses))
+    return {(True,False):'promised',(False,True):'denied',(True,True):'mixed',(False,False):'unrelated'}[support,denial]
+
+
+def event_windows(group, outcome, links, ruling, periods, passages, horizon):
+    if outcome not in ('promised','mixed') or ruling is None or len(periods)!=3:
+        return []
+    candidates=set(ruling).intersection(g for g,houses in links.items() if houses is not None and set(houses).intersection(group['houses']))
+    if any(lord not in candidates for lord,_,_ in periods):
+        return []
+    sensitive={'event-cusp',*(lord for lord,_,_ in periods)}
+    hits=set()
+    for body,target,entry,exit in passages:
+        if body not in ('sun','moon','jupiter') or target not in sensitive:
+            continue
+        start=max(horizon[0],entry,*(a for _,a,_ in periods))
+        end=min(horizon[1],exit,*(b for _,_,b in periods))
+        if start<end:
+            hits.add((start,end,body,target))
+    return sorted(hits)
+
+
+def judgement_checks(rules, read, evaluate, require):
+    groups=read('kp/cusps/event-groups.yaml')['events']
+    for row in groups.values():
+        require(set(row['negating_houses'])=={(h-2)%12+1 for h in row['houses']},row['event'])
+    for links,expected in [([2],'promised'),([6],'denied'),([7,10],'mixed'),([8],'unrelated'),(None,None)]:
+        require(event_outcome(groups[7],links,True)==expected,'marriage group')
+    k2=read('examples/kp-judgement.yaml')
+    predicates=read('kp/judgement/chain.yaml')['predicates']
+    for spec in predicates.values():
+        node=spec['when']; key=node['fact']
+        require(evaluate(node,{key:True}) and not evaluate(node,{key:False}) and evaluate(node,{}) is None,key)
+    g=groups[k2['cusp']]
+    outcome=event_outcome(g,k2['cusp_links'],True)
+    require(outcome=='mixed' and event_outcome(g,k2['cusp_links'],False) is None,'actual Placidus failure')
+    def windows(ruling):
+        return event_windows(g,outcome,k2['significators'],ruling,k2['periods'],k2['passages'],k2['horizon'])
+    require(windows(k2['ruling'])==[tuple(k2['expected_window'])] and not windows(['venus']), 'K2 intersection and ruling filter')
+    require(evaluate(rules['kp.judgement.mixed']['conditions'],{'kp.judgement.outcome':outcome}) and
+            evaluate(rules['kp.judgement.mixed-signals']['conditions'],{'kp.judgement.conflict':True}),'K2 explanations')

@@ -1,0 +1,52 @@
+id: western.synastry-pairs.asc-mercury-harmonious
+system: western
+topic: synastry-pairs
+title: Asc mercury harmonious
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: synastry asc to mercury via sextile, trine. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.synastry.reading_pair
+    op: eq
+    value: asc-mercury
+  - fact: western.synastry.family
+    op: eq
+    value: harmonious
+  - fact: western.angle.reliable
+    op: eq
+    value: true
+meaning: You may find common ground by discussing first impressions and communication together.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: You may find common ground by discussing first impressions and communication together.
+  kn: ಮೊದಲ ಅನಿಸಿಕೆ ಮತ್ತು ಸಂವಹನ ಬಗ್ಗೆ ಮಾತನಾಡಿ ಸಾಮಾನ್ಯ ನೆಲೆ ಕಂಡುಕೊಳ್ಳಬಹುದು.
+  hi: पहली छाप और संवाद पर साथ बात करके आप सहमति के पहलू खोज सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: support
+  weight_class: secondary
+  reference: none
+  time_scope: event
+  area_strength:
+    love-marriage: core

@@ -12,7 +12,7 @@ charts:
     placidus: [15, 43, 71, 100, 132, 165, 195, 223, 251, 280, 312, 345]
     positions: {sun: 3, saturn: 100, venus: 195}
     venus_house: {placidus: 7, whole-sign: 7}
-    sun_saturn_square: false
+    sun_saturn_square: true
 patterns:
   - {kind: grand-trine, points: [359, 119, 239], found: true}
   - {kind: grand-trine, points: [359, 119, 247], found: false}

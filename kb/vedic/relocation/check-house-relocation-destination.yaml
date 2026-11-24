@@ -4,12 +4,19 @@ topic: relocation
 title: house-relocation · destination
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: At the original birth instant a referenced graha occupies a different house at the destination.
+rule: Bind the same birth UTC at the destination. Changed placement in travel houses 3,9 or 12 is relocation evidence.
+  Fourth describes home left behind as separate context.
 conditions:
   all:
   - fact: checker.city.changed_house
     op: eq
     value: true
+  - fact: checker.relocation.travel_house
+    op: in
+    value:
+    - 3
+    - 9
+    - 12
 meaning: You can compare the two house placements for this planet.
 life_areas: []
 strength_notes: []

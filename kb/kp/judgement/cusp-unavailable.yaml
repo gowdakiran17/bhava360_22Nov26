@@ -1,0 +1,44 @@
+id: kp.judgement.cusp-unavailable
+system: kp
+topic: judgement
+title: Cusp unavailable
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Actual Placidus failure withholds dependent judgement and timing. Latitude alone cannot suppress a solved cusp.
+conditions:
+  all:
+  - fact: kp.judgement.cusp_failed
+    op: eq
+    value: true
+meaning: Some details for this place are unavailable. You can still explore independently calculated parts.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Keep ranked testimony separate from the four-step method.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Some details for this place are unavailable. You can still explore independently calculated parts.
+  kn: ಈ ಸ್ಥಳದ ಕೆಲವು ವಿವರಗಳು ಲಭ್ಯವಿಲ್ಲ. ಪ್ರತ್ಯೇಕವಾಗಿ ಲೆಕ್ಕಿಸಿದ ಭಾಗಗಳನ್ನು ನೋಡಬಹುದು.
+  hi: इस स्थान के कुछ विवरण उपलब्ध नहीं हैं। आप अलग से निकाले गए पहलू देख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  reference: none
+  time_scope: event
+  area_strength: {}

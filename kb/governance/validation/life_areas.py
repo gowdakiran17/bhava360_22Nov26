@@ -70,6 +70,9 @@ def validate_life_areas(rules, read, require, root):
             line = summary['always_append']['user_text']
             require('see a doctor' in line['en'].lower() and 'ವೈದ್ಯ' in line['kn'] and 'डॉक्टर' in line['hi'],
                     'wellbeing clinician referral')
+    relocation=read('vedic/relocation/check-house-relocation-destination-work.yaml')
+    require({'fact':'checker.relocation.work_linked','op':'eq','value':True} in relocation['conditions']['all'],'work gate')
+    require(read('vedic/relocation/check-house-relocation-destination.yaml')['conditions']['all'][1]['value']==[3,9,12],'travel houses')
     kinds = set()
     planets = set()
     for path in sorted((root/'remedies').glob('*.yaml')):

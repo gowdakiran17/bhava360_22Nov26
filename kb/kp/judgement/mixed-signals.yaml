@@ -1,0 +1,44 @@
+id: kp.judgement.mixed-signals
+system: kp
+topic: judgement
+title: Mixed signals
+doctrine_profile: kp-editorial-v1
+approval: draft
+rule: Retain both KP and Vedic reasons; KB-36 owns grade changes.
+conditions:
+  all:
+  - fact: kp.judgement.conflict
+    op: eq
+    value: true
+meaning: One reading may suggest an opening while the other suggests taking more time. You can consider both reasons.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: kp-editorial-v1
+  note: Keep ranked testimony separate from the four-step method.
+sources:
+- book: Lecture Note on Krishnamurti Paddhati
+  work_id: kp-dutta
+  edition: kp-dutta-online
+  chapter: null
+  verse: null
+  other_locator: Example 1, General Significator – Cusp and L1 through L4
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: One reading may suggest an opening while the other suggests taking more time. You can consider both reasons.
+  kn: ಒಂದು ಓದು ಅವಕಾಶವನ್ನು ಸೂಚಿಸಬಹುದು; ಇನ್ನೊಂದು ಸ್ವಲ್ಪ ಕಾಲ ತೆಗೆದುಕೊಳ್ಳಲು ಸೂಚಿಸಬಹುದು. ಎರಡೂ ಕಾರಣಗಳನ್ನು ಪರಿಗಣಿಸಬಹುದು.
+  hi: एक संकेत अवसर की ओर हो सकता है और दूसरा कुछ समय लेने की ओर। आप दोनों कारणों पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  reference: none
+  time_scope: event
+  area_strength: {}

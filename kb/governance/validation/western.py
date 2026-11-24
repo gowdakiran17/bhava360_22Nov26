@@ -76,6 +76,7 @@ def validate_western(rules,read,evaluate,require):
                 exact = table[name]['angle']
                 require((abs(separation(exact-delta if exact==180 else exact+delta,0)-exact)<=width)==want,'orb boundary')
     bodies = 'sun moon mercury venus mars jupiter saturn uranus neptune pluto'.split()
+    validate_depth(rules,read,evaluate,require)
     signs = 'aries taurus gemini cancer leo virgo libra scorpio sagittarius capricorn aquarius pisces'.split()
     require(set(profile['planets'])=={'western.planets.'+b for b in bodies},'ten Western planet anchors')
     def fires(rid,facts):
@@ -91,7 +92,7 @@ def validate_western(rules,read,evaluate,require):
     orbs = read('western/aspects/orbs.yaml')['natal']
     for name,(angle,orb) in zip(('conjunction','sextile','square','trine','opposition','quincunx'),
                                [(0,8),(60,4),(90,6),(120,6),(180,8),(150,2)]):
-        require(name in profile['natal_aspects'] and orbs[name]==dict(angle=angle,orb=orb),name+' orb')
+        require((name in profile['natal_aspects'])==(name!='quincunx') and orbs[name]==dict(angle=angle,orb=orb),name+' orb')
         for delta,expected in [(0,True),(orb,True),(orb+0.001,False)]:
             longitude = angle-delta if angle==180 else angle+delta
             hit = abs(separation(0,longitude)-angle)<=orb
@@ -99,7 +100,7 @@ def validate_western(rules,read,evaluate,require):
     for chart in fixture['charts'].values():
         p = chart['positions']
         delta = separation(p['sun'],p['saturn'])
-        square = abs(delta-orbs['square']['angle'])<=orbs['square']['orb']
+        square = inside_orb(orb_tables,'natal','square','sun','saturn',delta)
         facts = {'western.natal.sun-saturn-pair':True,'western.natal.aspect':'square' if square else None}
         require(fires('aspects.saturn-square-sun',facts)==chart['sun_saturn_square'],'natal square')
         cusps = chart['placidus']
@@ -134,3 +135,73 @@ def validate_western(rules,read,evaluate,require):
     require(profile['public']['tones']==['Supportive','Steady','Take care'] and
             profile['public']['fields']==['localized_tone','user_text'],'Western public projection')
     print('Western passed: 120 sign placements, 120 house placements, six aspect boundaries, four patterns and three timing methods.')
+
+
+def inside_orb(tables, technique, aspect, first, second, distance, *, minors=False):
+    if distance is None:
+        return None
+    row=tables[technique].get(aspect)
+    major=aspect in ('conjunction','sextile','square','trine','opposition')
+    if row is None or not major and not minors:
+        return False
+    extra=0
+    if major and technique in ('natal','synastry','composite'):
+        extra=max(tables['widening_degrees'][first],tables['widening_degrees'][second])
+    return abs(distance-row['angle'])<=row['orb']+extra
+
+
+def compose_calendar(events, scale, start, end, policy):
+    """Query bounds and solved pass instants share the requested local zone."""
+    calendar={}
+    for e in events:
+        if e['mover'] not in policy['periods'][scale] or not start<=e['at']<end or not e['stable']:
+            continue
+        key=e['mover'],e['target'],e['aspect']
+        entry=calendar.setdefault(key,{'dates':set(),'direction':e['direction']})
+        entry['dates'].add(e['at'])
+    votes={x['direction'] for x in calendar.values()}-{'context','neutral'}
+    tone='Supportive' if votes=={'support'} else 'Take care' if votes=={'caution'} else 'Steady'
+    return (tone if calendar else None, sorted((at,key) for key,x in calendar.items() for at in x['dates']))
+
+
+def validate_depth(rules,read,evaluate,require):
+    from itertools import combinations
+    policy=read('western/personal-horoscopes/compose.yaml')
+    tables=read('western/aspects/orbs.yaml')
+    bodies='sun moon mercury venus mars jupiter saturn uranus neptune pluto asc mc'.split()
+    pairs={'natal':list(combinations(bodies,2)),
+           'transit':[(a,b) for a in bodies[5:10] for b in bodies[:5]+bodies[-2:]],
+           'synastry':[('sun','moon'),('moon','moon'),('venus','mars')]+[('saturn',b) for b in bodies[:5]]+[('asc',b) for b in bodies[:5]+['asc']]}
+    for mode,items in pairs.items():
+        for a,b in items:
+            for kind,angles in policy['groups'].items():
+                rid=f'western.{mode}-pairs.{a}-{b}-{kind}'
+                row=rules[rid]
+                facts={f'western.{mode}.reading_pair':a+'-'+b,f'western.{mode}.family':kind,
+                       'western.angle.reliable':True,'western.transit.perfection_dated':True}
+                require(evaluate(row['conditions'],facts) and evaluate(row['conditions'],{}) is None,rid)
+                if {a,b}&{'asc','mc'}:
+                    require(not evaluate(row['conditions'],dict(facts,**{'western.angle.reliable':False})),rid)
+                if mode=='natal' and {a,b}<=set(bodies[7:10]):
+                    require(row['evidence']['weight_class']=='context',rid)
+                for angle in angles:
+                    require(inside_orb(tables,mode,angle,a,b,tables[mode][angle]['angle']),rid)
+    require(inside_orb(tables,'natal','square','sun','moon',98) and
+            not inside_orb(tables,'natal','square','sun','moon',98.001) and
+            not inside_orb(tables,'natal','quincunx','sun','moon',150) and
+            inside_orb(tables,'natal','quincunx','sun','moon',152,minors=True),'orb caps and override')
+    for sign in 'aries taurus gemini cancer leo virgo libra scorpio sagittarius capricorn aquarius pisces'.split():
+        cond=rules['western.angles.mc-'+sign]['conditions']
+        require(evaluate(cond,{'western.angle.mc_sign':sign,'western.angle.reliable':True}) and
+                evaluate(cond,{'western.angle.mc_sign':sign}) is None,sign+' MC gate')
+    for scale,mover in [('day','moon'),('week','mercury')]:
+        event=dict(at=4,mover=mover,target='venus',aspect='sextile',stable=True,direction='support')
+        require(compose_calendar([event,event,dict(event,at=6)],scale,4,6,policy)==
+                ('Supportive',[(4,(mover,'venus','sextile'))]),scale+' local bounds and repeated contact')
+    scenario=read('examples/western-calendar.yaml')
+    events=scenario['passes']
+    tone,dated=compose_calendar(events,'month',1,31,policy)
+    require(tone==scenario['monthly_tone'] and len(dated)==2,'opposed monthly testimonies')
+    require(compose_calendar(events,'week',1,31,policy)==(None,[]),'weekly mover filter')
+    require(compose_calendar(events,'month',1,events[1]['at'],policy)[0]=='Take care','half-open time horizon')
+    require(compose_calendar([dict(events[0],stable=False)],'month',1,31,policy)==(None,[]),'uncertain target')

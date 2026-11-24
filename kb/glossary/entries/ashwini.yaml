@@ -19,6 +19,7 @@ reference_rules:
 used_by:
 - vedic.dashas-vimshottari.balance-calculation
 - vedic.dashas-yogini.balance-calculation
+- vedic.doshas.nadi
 - vedic.matching.nadi
 - vedic.muhurta.business-start
 - vedic.muhurta.education-start

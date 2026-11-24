@@ -1,0 +1,52 @@
+id: western.synastry-pairs.asc-venus-tension
+system: western
+topic: synastry-pairs
+title: Asc venus tension
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: synastry asc to venus via square, opposition. Bind chart roles before applying this reading.
+conditions:
+  all:
+  - fact: western.synastry.reading_pair
+    op: eq
+    value: asc-venus
+  - fact: western.synastry.family
+    op: eq
+    value: tension
+  - fact: western.angle.reliable
+    op: eq
+    value: true
+meaning: When your approaches to first impressions and affection differ, you can ask what each person needs.
+life_areas:
+- love-marriage
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: When your approaches to first impressions and affection differ, you can ask what each person needs.
+  kn: ಮೊದಲ ಅನಿಸಿಕೆ ಮತ್ತು ಪ್ರೀತಿ ಬಗ್ಗೆ ವ್ಯತ್ಯಾಸ ಕಂಡರೆ ಪರಸ್ಪರ ಅಗತ್ಯಗಳನ್ನು ಕೇಳಬಹುದು.
+  hi: पहली छाप और स्नेह को लेकर मतभेद हों तो आप एक दूसरे की ज़रूरत पूछ सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: caution
+  weight_class: secondary
+  reference: none
+  time_scope: event
+  area_strength:
+    love-marriage: core

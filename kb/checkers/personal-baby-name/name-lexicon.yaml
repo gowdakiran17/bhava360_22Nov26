@@ -1,28 +1,1934 @@
 version: 1
 approval: draft
-source: Monier-Williams Sanskrit-English Dictionary, headwords आशा, दीप, रवि, विद्या, तारा. Verify the intended name language
-  and spelling before release.
+source: Sanskrit Documents dictall via sanskrit-dict 1.1.1, checked by lexical headword; given-name spellings cross-checked
+  separately in random-indian-name 1.0.0. Origin labels refer to the cited form; usage spans languages. Kannada /
+  Hindi dictionary locators await native verification. Definitions are lookup-only; never generate a missing sense.
 entries:
+  Aakaanksha:
+    en: aspiration
+    kn: ಆಕಾಂಕ್ಷೆ
+    hi: आकांक्षा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aakaa.nkShaa
+  Aakarshan:
+    en: power of attraction
+    kn: ಆಕರ್ಷಣೆ
+    hi: आकर्षण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aakarshhaNa
+  Abhay:
+    en: courage
+    kn: ಧೈರ್ಯ
+    hi: निर्भयता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. abhaya
+  Abhyas:
+    en: practice and study
+    kn: ಅಭ್ಯಾಸ
+    hi: अभ्यास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. abhyaasa
+  Achal:
+    en: steadfast
+    kn: ಸ್ಥಿರ
+    hi: अडिग
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. achala
+  Achintya:
+    en: beyond imagining
+    kn: ಊಹೆಗೆ ಮೀರಿದ
+    hi: कल्पना से परे
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. achintya
+  Achyuta:
+    en: unfailing
+    kn: ಚ್ಯುತಿಯಾಗದ
+    hi: अच्युत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. achyuta
+  Aditya:
+    en: the sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aaditya
+  Advait:
+    en: oneness
+    kn: ಅದ್ವೈತ
+    hi: अद्वैत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. advaita
+  Agraj:
+    en: an elder sibling
+    kn: ಹಿರಿಯ ಸಹೋದರ
+    hi: बड़ा भाई
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. agrajaH
+  Akaash:
+    en: the sky
+    kn: ಆಕಾಶ
+    hi: आकाश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aakaasha
+  Akshay:
+    en: enduring
+    kn: ಅಕ್ಷಯ
+    hi: अक्षय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. akShayaH
+  Amal:
+    en: pure and clear
+    kn: ಶುದ್ಧ
+    hi: निर्मल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. amala
+  Amba:
+    en: mother
+    kn: ತಾಯಿ
+    hi: माता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aMbaa
+  Amrita:
+    en: nectar
+    kn: ಅಮೃತ
+    hi: अमृत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. amR^ita
+  Amulya:
+    en: beyond price
+    kn: ಅಮೂಲ್ಯ
+    hi: अनमोल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. amuulya
+  Anand:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aananda
+  Anant:
+    en: boundless
+    kn: ಅನಂತ
+    hi: अनंत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ananta
+  Ananya:
+    en: undivided devotion
+    kn: ಅನನ್ಯ ನಿಷ್ಠೆ
+    hi: अनन्य निष्ठा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ananyaaH
+  Anasuya:
+    en: free of envy
+    kn: ಅಸೂಯೆಯಿಲ್ಲದ
+    hi: ईर्ष्या से रहित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. anasuuyaH
+  Anil:
+    en: wind
+    kn: ಗಾಳಿ
+    hi: पवन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. anilaH
+  Anshuman:
+    en: radiant
+    kn: ಪ್ರಕಾಶಮಾನ
+    hi: दीप्तिमान
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. a.nshumaan.h
+  Antariksh:
+    en: open space
+    kn: ಅಂತರಿಕ್ಷ
+    hi: अंतरिक्ष
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. antarikSha
+  Anuradha:
+    en: a traditional lunar mansion
+    kn: ನಕ್ಷತ್ರದ ಹೆಸರು
+    hi: एक नक्षत्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. anuraadhaa
+  Anvay:
+    en: family lineage
+    kn: ವಂಶ
+    hi: वंश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. anvaya
+  Apeksha:
+    en: aspiration
+    kn: ಆಕಾಂಕ್ಷೆ
+    hi: आकांक्षा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. apekShaa
+  Arjun:
+    en: hero of the Mahabharata
+    kn: ಮಹಾಭಾರತದ ಅರ್ಜುನ
+    hi: महाभारत के अर्जुन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. arjuna
+  Arpana:
+    en: an offering
+    kn: ಅರ್ಪಣೆ
+    hi: अर्पण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. arpaNa
+  Arpita:
+    en: dedicated
+    kn: ಅರ್ಪಿತ
+    hi: समर्पित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. arpita
   Asha:
     en: hope
     kn: ಆಶೆ
     hi: आशा
+    origin: Sanskrit
+    source: MW 1899, s.v. āśā
+  Ashray:
+    en: shelter
+    kn: ಆಶ್ರಯ
+    hi: आश्रय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aashrayaa
+  Astha:
+    en: trust
+    kn: ನಂಬಿಕೆ
+    hi: आस्था
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aasthaa
+  Atithi:
+    en: a guest
+    kn: ಅತಿಥಿ
+    hi: अतिथि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. atithi
+  Atman:
+    en: the inner self
+    kn: ಆತ್ಮ
+    hi: आत्मा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. aatman.h
+  Avinash:
+    en: imperishable
+    kn: ಅವಿನಾಶಿ
+    hi: अविनाशी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. avinaasha
+  Bakula:
+    en: the bakula tree
+    kn: ಬಕುಲ ಮರ
+    hi: मौलसिरी का वृक्ष
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bakulaH
+  Bala:
+    en: strength
+    kn: ಶಕ್ತಿ
+    hi: शक्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bala
+  Belaku:
+    en: light
+    kn: ಬೆಳಕು
+    hi: प्रकाश
+    origin: Kannada
+    source: Kittel 1894, s.v. ಬೆಳಕು
+    verification: edition locator pending
+  Bhadra:
+    en: goodness
+    kn: ಒಳಿತನ
+    hi: भलाई
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhadraaH
+  Bhakti:
+    en: devotion
+    kn: ಭಕ್ತಿ
+    hi: भक्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhakti
+  Bhanu:
+    en: the sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhaanuu
+  Bharati:
+    en: speech
+    kn: ಮಾತು
+    hi: वाणी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhaaratii
+  Bhupati:
+    en: a sovereign
+    kn: ಅರಸ
+    hi: राजा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhuupati
+  Bhushan:
+    en: an ornament
+    kn: ಆಭರಣ
+    hi: आभूषण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhuushhaNa
+  Bhuvan:
+    en: a dwelling
+    kn: ನಿವಾಸ
+    hi: निवास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhuvana
+  Bhuvana:
+    en: a dwelling
+    kn: ನಿವಾಸ
+    hi: निवास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bhuvana
+  Bindu:
+    en: a dot
+    kn: ಬಿಂದು
+    hi: बिंदु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. bindu
+  Chaitanya:
+    en: vital energy
+    kn: ಚೈತನ್ಯ
+    hi: चैतन्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chaitanya
+  Chandan:
+    en: sandalwood
+    kn: ಶ್ರೀಗಂಧ
+    hi: चंदन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chandana
+  Chandana:
+    en: sandalwood
+    kn: ಶ್ರೀಗಂಧ
+    hi: चंदन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chandana
+  Chandni:
+    en: moonlight
+    kn: ಬೆಳದಿಂಗಳು
+    hi: चाँदनी
+    origin: Hindi
+    source: McGregor 1993, s.v. चाँदनी
+    verification: edition locator pending
+  Chandra:
+    en: the moon
+    kn: ಚಂದ್ರ
+    hi: चंद्रमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chandra
+  Cheluva:
+    en: beautiful
+    kn: ಚೆಲುವಾದ
+    hi: सुंदर
+    origin: Kannada
+    source: Kittel 1894, s.v. ಚೆಲುವ
+    verification: edition locator pending
+  Chenna:
+    en: lovely
+    kn: ಸುಂದರ
+    hi: सुंदर
+    origin: Kannada
+    source: Kittel 1894, s.v. ಚೆನ್ನ
+    verification: edition locator pending
+  Chetan:
+    en: living awareness
+    kn: ಚೇತನ
+    hi: चेतना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chetanaa
+  Chetana:
+    en: living awareness
+    kn: ಚೇತನ
+    hi: चेतना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chetanaa
+  Chhavi:
+    en: an image
+    kn: ಚಿತ್ರ
+    hi: छवि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chhavii
+  Chhaya:
+    en: shade
+    kn: ನೆರಳು
+    hi: छाया
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chhaayaa
+  Chiguru:
+    en: a new shoot
+    kn: ಹೊಸ ಚಿಗುರು
+    hi: नई कोंपल
+    origin: Kannada
+    source: Kittel 1894, s.v. ಚಿಗುರು
+    verification: edition locator pending
+  Chinmay:
+    en: full of consciousness
+    kn: ಚೈತನ್ಯಮಯ
+    hi: चेतनामय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. chinmayaH
+  Dakshata:
+    en: skill and care
+    kn: ದಕ್ಷತೆ
+    hi: दक्षता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dakShataa
+  Darpan:
+    en: a mirror
+    kn: ಕನ್ನಡಿ
+    hi: दर्पण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. darpaNa
+  Darpana:
+    en: a mirror
+    kn: ಕನ್ನಡಿ
+    hi: दर्पण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. darpaNa
+  Darshan:
+    en: the act of seeing
+    kn: ನೋಡುವಿಕೆ
+    hi: दर्शन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. darshana
+  Daya:
+    en: compassion
+    kn: ದಯೆ
+    hi: दया
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dayaa
   Deepa:
     en: lamp
     kn: ದೀಪ
     hi: दीप
+    origin: Sanskrit
+    source: MW 1899, s.v. dīpa
+  Deepak:
+    en: a lamp
+    kn: ದೀಪ
+    hi: दीपक
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. diipaka
+  Devarshi:
+    en: a divine sage
+    kn: ದೇವರ್ಷಿ
+    hi: देवर्षि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. devarshhiH
+  Devesh:
+    en: lord of the gods
+    kn: ದೇವೇಶ
+    hi: देवों के स्वामी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. devesha
+  Devi:
+    en: a goddess
+    kn: ದೇವಿ
+    hi: देवी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. devi
+  Dhanya:
+    en: worthy of praise
+    kn: ಪ್ರಶಂಸನೀಯ
+    hi: प्रशंसनीय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dhanyaH
+  Dhaval:
+    en: white
+    kn: ಬಿಳಿ
+    hi: श्वेत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dhavala
+  Dhriti:
+    en: resolve
+    kn: ದೃಢತೆ
+    hi: धैर्य और दृढ़ता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dhR^iti
+  Dhyanam:
+    en: meditation
+    kn: ಧ್ಯಾನ
+    hi: ध्यान
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dhyaanaM
+  Divakar:
+    en: the sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. divaakara
+  Divya:
+    en: divine
+    kn: ದಿವ್ಯ
+    hi: दिव्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. divya
+  Drishti:
+    en: vision
+    kn: ದೃಷ್ಟಿ
+    hi: दृष्टि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. dR^ishhTii
+  Gaurav:
+    en: distinction and glory
+    kn: ಗೌರವ
+    hi: गौरव
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. gaurava
+  Gayatri:
+    en: a Vedic hymn
+    kn: ವೇದದ ಮಂತ್ರ
+    hi: एक वैदिक मंत्र
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. gaayatrii
+  Geet:
+    en: a song
+    kn: ಹಾಡು
+    hi: गीत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. giita
+  Geeta:
+    en: a song
+    kn: ಹಾಡು
+    hi: गीत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. giita
+  Girija:
+    en: a name of Parvati
+    kn: ಪಾರ್ವತಿಯ ಹೆಸರು
+    hi: पार्वती का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. girijaa
+  Girish:
+    en: Shiva as lord of the mountain
+    kn: ಗಿರೀಶ ಶಿವ
+    hi: पर्वत के स्वामी शिव
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. girish
+  Gita:
+    en: a song
+    kn: ಹಾಡು
+    hi: गीत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. giita
+  Govind:
+    en: a name of Krishna
+    kn: ಕೃಷ್ಣನ ಹೆಸರು
+    hi: कृष्ण का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. govinda
+  Guru:
+    en: a teacher
+    kn: ಗುರು
+    hi: गुरु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. guru
+  Hansa:
+    en: a swan
+    kn: ಹಂಸ
+    hi: हंस
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ha.nsa
+  Hari:
+    en: a name of Vishnu
+    kn: ವಿಷ್ಣುವಿನ ಹೆಸರು
+    hi: विष्णु का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. hari
+  Harita:
+    en: green
+    kn: ಹಸಿರು
+    hi: हरा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. harita
+  Harsh:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. harsha
+  Harsha:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. harsha
+  Havish:
+    en: a ritual offering
+    kn: ಹವಿಸ್ಸು
+    hi: हवि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. havishhaa
+  Hemant:
+    en: the winter season
+    kn: ಹೇಮಂತ ಋತು
+    hi: हेमंत ऋतु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. hemanta
+  Hrishikesh:
+    en: master of the senses
+    kn: ಇಂದ್ರಿಯಗಳ ಒಡೆಯ
+    hi: इंद्रियों के स्वामी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. hR^ishhiikesha
+  Indu:
+    en: the moon
+    kn: ಚಂದ್ರ
+    hi: चंद्रमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. indu
+  Isha:
+    en: the divine lord
+    kn: ಈಶ್ವರ
+    hi: ईश्वर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. iisha
+  Jagan:
+    en: the world
+    kn: ಜಗತ್ತು
+    hi: जगत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jagan.h
+  Jahnavi:
+    en: a name of the Ganga
+    kn: ಗಂಗೆಯ ಹೆಸರು
+    hi: गंगा का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jaahnavii
+  Janak:
+    en: father
+    kn: ತಂದೆ
+    hi: पिता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. janaka
+  Janani:
+    en: mother
+    kn: ತಾಯಿ
+    hi: माता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jananii
+  Jay:
+    en: victory
+    kn: ಜಯ
+    hi: विजय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jaya
+  Jaya:
+    en: victory
+    kn: ಜಯ
+    hi: विजय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jaya
+  Jeevan:
+    en: life
+    kn: ಜೀವನ
+    hi: जीवन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jiivana
+  Jeevana:
+    en: life
+    kn: ಜೀವನ
+    hi: जीवन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jiivana
+  Jyoti:
+    en: light
+    kn: ಬೆಳಕು
+    hi: प्रकाश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jyotiH
+  Jyotsna:
+    en: moonlight
+    kn: ಬೆಳದಿಂಗಳು
+    hi: चाँदनी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. jyotsna
+  Kaavya:
+    en: poetry
+    kn: ಕಾವ್ಯ
+    hi: काव्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kavya
+  Kaivalya:
+    en: spiritual freedom
+    kn: ಆಧ್ಯಾತ್ಮಿಕ ಮುಕ್ತಿ
+    hi: आध्यात्मिक मुक्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kaivalya
+  Kala:
+    en: art
+    kn: ಕಲೆ
+    hi: कला
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kalaa
+  Kalpita:
+    en: envisioned
+    kn: ಕಲ್ಪಿತ
+    hi: कल्पित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kalpita
+  Kalyan:
+    en: wellbeing
+    kn: ಕ್ಷೇಮ
+    hi: कल्याण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kalyaaNa
+  Kamal:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kamala
+  Kamala:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kamala
+  Kanak:
+    en: gold
+    kn: ಚಿನ್ನ
+    hi: सोना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kanaka
+  Kanaka:
+    en: gold
+    kn: ಚಿನ್ನ
+    hi: सोना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kanaka
+  Kanan:
+    en: woodland
+    kn: ಕಾಡು
+    hi: वन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kaanana
+  Kanti:
+    en: radiance
+    kn: ಕಾಂತಿ
+    hi: कांति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kaanti
+  Karuna:
+    en: compassion
+    kn: ಕರುಣೆ
+    hi: करुणा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. karuNaH
+  Kavi:
+    en: a poet
+    kn: ಕವಿ
+    hi: कवि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kavi
+  Kavita:
+    en: poetry
+    kn: ಕಾವ್ಯ
+    hi: काव्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kavitaa
+  Keshav:
+    en: a name of Krishna
+    kn: ಕೃಷ್ಣನ ಹೆಸರು
+    hi: कृष्ण का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. keshava
+  Ketaki:
+    en: a fragrant blossom
+    kn: ಕೇದಿಗೆ
+    hi: केतकी का सुगंधित फूल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ketakii
+  Khushi:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: ख़ुशी
+    origin: Hindi
+    source: McGregor 1993, s.v. ख़ुशी
+    verification: edition locator pending
+  Khyati:
+    en: renown
+    kn: ಖ್ಯಾತಿ
+    hi: कीर्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. khyaatii
+  Kiran:
+    en: a ray of light
+    kn: ಬೆಳಕಿನ ಕಿರಣ
+    hi: प्रकाश की किरण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kiraNa
+  Kirti:
+    en: renown
+    kn: ಖ್ಯಾತಿ
+    hi: कीर्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kiirtiH
+  Kokila:
+    en: the cuckoo bird
+    kn: ಕೋಗಿಲೆ
+    hi: कोयल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kokila
+  Koyal:
+    en: the cuckoo bird
+    kn: ಕೋಗಿಲೆ
+    hi: कोयल
+    origin: Hindi
+    source: McGregor 1993, s.v. कोयल
+    verification: edition locator pending
+  Kranti:
+    en: a revolution
+    kn: ಕ್ರಾಂತಿ
+    hi: क्रांति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kraanti
+  Krittika:
+    en: a name in the lunar star cycle
+    kn: ನಕ್ಷತ್ರದ ಹೆಸರು
+    hi: एक नक्षत्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kR^ittikaa
+  Kush:
+    en: sacred kusha grass
+    kn: ದರ್ಭೆ
+    hi: कुश घास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kusha
+  Kusum:
+    en: a flower
+    kn: ಹೂವು
+    hi: फूल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kusuma
+  Kusumakar:
+    en: springtime
+    kn: ವಸಂತಕಾಲ
+    hi: वसंत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kusumaakaraH
+  Kusumita:
+    en: in bloom
+    kn: ಹೂಬಿಟ್ಟ
+    hi: खिला हुआ
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. kusumita
+  Lakshmi:
+    en: goddess associated with prosperity
+    kn: ಸಮೃದ್ಧಿಯ ದೇವಿ
+    hi: समृद्धि की देवी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. lakShmi
+  Lalit:
+    en: graceful
+    kn: ಲಲಿತ
+    hi: ललित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. lalita
+  Lalita:
+    en: graceful
+    kn: ಲಲಿತ
+    hi: ललित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. lalita
+  Lata:
+    en: a climbing vine
+    kn: ಬಳ್ಳಿ
+    hi: लता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. lata
+  Lekha:
+    en: writing
+    kn: ಬರಹ
+    hi: लेख
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. lekha
+  Madan:
+    en: the deity of love
+    kn: ಕಾಮದೇವ
+    hi: कामदेव
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. madana
+  Madhav:
+    en: a name of Krishna
+    kn: ಕೃಷ್ಣನ ಹೆಸರು
+    hi: कृष्ण का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. maadhava
+  Madhu:
+    en: sweetness
+    kn: ಸಿಹಿ
+    hi: मिठास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. madhu
+  Madhukar:
+    en: a bee
+    kn: ದುಂಬಿ
+    hi: भौंरा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. madhukara
+  Madhur:
+    en: sweetness
+    kn: ಸಿಹಿ
+    hi: मिठास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. madhura
+  Mahadev:
+    en: a name of Shiva
+    kn: ಶಿವನ ಹೆಸರು
+    hi: शिव का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mahaadeva
+  Mahendra:
+    en: a name of Indra
+    kn: ಇಂದ್ರನ ಹೆಸರು
+    hi: इंद्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mahendra
+  Mahima:
+    en: distinction and glory
+    kn: ಗೌರವ
+    hi: गौरव
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mahimaa
+  Mahipal:
+    en: a sovereign
+    kn: ಅರಸ
+    hi: राजा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mahipaala
+  Maitri:
+    en: friendship
+    kn: ಸ್ನೇಹ
+    hi: मैत्री
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. maitrii
+  Malini:
+    en: garlanded
+    kn: ಮಾಲೆ ಧರಿಸಿದ
+    hi: माला धारण करने वाली
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. maalinii
+  Mallige:
+    en: jasmine
+    kn: ಮಲ್ಲಿಗೆ
+    hi: चमेली
+    origin: Kannada
+    source: Kittel 1894, s.v. ಮಲ್ಲಿಗೆ
+    verification: edition locator pending
+  Manana:
+    en: reflection
+    kn: ಮನನ
+    hi: मनन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. manana
+  Manasi:
+    en: within the mind
+    kn: ಮನಸ್ಸಿನಲ್ಲಿ
+    hi: मन में
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. manasi
+  Mandakini:
+    en: a name of the Ganga
+    kn: ಗಂಗೆಯ ಹೆಸರು
+    hi: गंगा का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mandaakinii
+  Mandira:
+    en: a temple
+    kn: ದೇವಾಲಯ
+    hi: मंदिर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ma.ndira
+  Manohar:
+    en: beautiful
+    kn: ಸುಂದರ
+    hi: सुंदर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. manohara
+  Mayur:
+    en: a peacock
+    kn: ನವಿಲು
+    hi: मोर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mayuura
+  Medha:
+    en: retentive understanding
+    kn: ಮೇಧೆ
+    hi: मेधा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. medhaa
+  Megha:
+    en: a cloud
+    kn: ಮೋಡ
+    hi: बादल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. megha
+  Mihir:
+    en: the sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mihira
+  Mrigendra:
+    en: a lion
+    kn: ಸಿಂಹ
+    hi: सिंह
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mR^igendraH
+  Mudit:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mudita
+  Mudita:
+    en: joy
+    kn: ಸಂತೋಷ
+    hi: आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mudita
+  Mukta:
+    en: set free
+    kn: ಮುಕ್ತ
+    hi: मुक्त
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mukta
+  Mukul:
+    en: a flower bud
+    kn: ಮೊಗ್ಗು
+    hi: कली
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. mukula
+  Muni:
+    en: a sage
+    kn: ಋಷಿ
+    hi: ऋषि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. muniH
+  Murali:
+    en: a flute
+    kn: ಕೊಳಲು
+    hi: बाँसुरी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. muralii
+  Muralidhar:
+    en: Krishna bearing the flute
+    kn: ಕೊಳಲು ಹಿಡಿದ ಕೃಷ್ಣ
+    hi: बाँसुरी धारण करने वाले कृष्ण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. muraliidhara
+  Murari:
+    en: a name of Krishna
+    kn: ಕೃಷ್ಣನ ಹೆಸರು
+    hi: कृष्ण का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. muraari
+  Muskan:
+    en: a smile
+    kn: ಮುಗುಳ್ನಗೆ
+    hi: मुस्कान
+    origin: Hindi
+    source: McGregor 1993, s.v. मुसकान
+    verification: edition locator pending
+  Muthu:
+    en: a pearl
+    kn: ಮುತ್ತು
+    hi: मोती
+    origin: Kannada
+    source: Kittel 1894, s.v. ಮುತ್ತು
+    verification: edition locator pending
+  Nabh:
+    en: the sky
+    kn: ಆಕಾಶ
+    hi: आकाश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nabhaH
+  Nalini:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nalinii
+  Nandan:
+    en: a child
+    kn: ಮಗು
+    hi: संतान
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nandana
+  Nandana:
+    en: a child
+    kn: ಮಗು
+    hi: संतान
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nandana
+  Nataraj:
+    en: Shiva as lord of dance
+    kn: ನೃತ್ಯದ ಒಡೆಯ ಶಿವ
+    hi: नृत्य के स्वामी शिव
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nataraaja
+  Nayan:
+    en: an eye
+    kn: ಕಣ್ಣು
+    hi: नेत्र
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nayana
+  Nayana:
+    en: an eye
+    kn: ಕಣ್ಣು
+    hi: नेत्र
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nayana
+  Neel:
+    en: blue
+    kn: ನೀಲಿ
+    hi: नीला
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niila
+  Neela:
+    en: blue
+    kn: ನೀಲಿ
+    hi: नीला
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niila
+  Neeraj:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niiraja
+  Neeraja:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niiraja
+  Neeti:
+    en: ethical conduct
+    kn: ನೀತಿ
+    hi: नीति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niitiH
+  Netra:
+    en: an eye
+    kn: ಕಣ್ಣು
+    hi: नेत्र
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. netra
+  Nidhi:
+    en: a treasure
+    kn: ನಿಧಿ
+    hi: निधि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nidhi
+  Ninad:
+    en: a resonant sound
+    kn: ನಿನಾದ
+    hi: गूँज
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ninaada
+  Nipun:
+    en: skilled
+    kn: ನಿಪುಣ
+    hi: निपुण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nipuuNaH
+  Nirmal:
+    en: clear and pure
+    kn: ನಿರ್ಮಲ
+    hi: निर्मल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nirmala
+  Nirmala:
+    en: clear and pure
+    kn: ನಿರ್ಮಲ
+    hi: निर्मल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nirmala
+  Nisha:
+    en: night
+    kn: ರಾತ್ರಿ
+    hi: रात
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nishaa
+  Nishchal:
+    en: steadfast
+    kn: ಸ್ಥಿರ
+    hi: अडिग
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nishchalaa
+  Nishtha:
+    en: trust
+    kn: ನಂಬಿಕೆ
+    hi: आस्था
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nishhThaa
+  Niti:
+    en: ethical conduct
+    kn: ನೀತಿ
+    hi: नीति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. niitiH
+  Nitya:
+    en: ever present
+    kn: ನಿತ್ಯ
+    hi: नित्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. nitya
+  Omkar:
+    en: the syllable Om
+    kn: ಓಂಕಾರ
+    hi: ओंकार
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. OMkaara
+  Padma:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. padma
+  Padmanabh:
+    en: a name of Vishnu
+    kn: ವಿಷ್ಣುವಿನ ಹೆಸರು
+    hi: विष्णु का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. padmanaabha
+  Paritosh:
+    en: contentment
+    kn: ತೃಪ್ತಿ
+    hi: संतोष
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. paritoshha
+  Parth:
+    en: a son of Pritha
+    kn: ಪೃಥೆಯ ಪುತ್ರ
+    hi: पृथा का पुत्र
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. paartha
+  Pavan:
+    en: wind
+    kn: ಗಾಳಿ
+    hi: पवन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pavana
+  Pooja:
+    en: worship
+    kn: ಪೂಜೆ
+    hi: पूजन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. puuja
+  Poorna:
+    en: complete
+    kn: ಸಂಪೂರ್ಣ
+    hi: संपूर्ण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. puurNaH
+  Prabha:
+    en: light
+    kn: ಬೆಳಕು
+    hi: प्रकाश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prabhaa
+  Prabhat:
+    en: dawn
+    kn: ಮುಂಜಾನೆ
+    hi: प्रभात
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prabhaata
+  Prachi:
+    en: the east
+    kn: ಪೂರ್ವ
+    hi: पूर्व दिशा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praachii
+  Pradeep:
+    en: a lamp
+    kn: ದೀಪ
+    hi: दीपक
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pradiipaH
+  Pragati:
+    en: progress
+    kn: ಪ್ರಗತಿ
+    hi: प्रगति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pragatiH
+  Pragya:
+    en: understanding
+    kn: ಪ್ರಜ್ಞೆ
+    hi: प्रज्ञा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praGyaa
+  Prahlad:
+    en: a devotee of Vishnu
+    kn: ವಿಷ್ಣುಭಕ್ತ
+    hi: विष्णु भक्त
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prahlaada
+  Prakriti:
+    en: nature
+    kn: ಪ್ರಕೃತಿ
+    hi: प्रकृति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prakR^iti
+  Pranav:
+    en: the syllable Om
+    kn: ಓಂಕಾರ
+    hi: ओंकार
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praNava
+  Prapti:
+    en: attainment
+    kn: ಪ್ರಾಪ್ತಿ
+    hi: प्राप्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praaptiH
+  Prarthana:
+    en: a prayer
+    kn: ಪ್ರಾರ್ಥನೆ
+    hi: प्रार्थना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praarthanaa
+  Prasanna:
+    en: pleased
+    kn: ಪ್ರಸನ್ನ
+    hi: प्रसन्न
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prasannaa
+  Prashant:
+    en: tranquil
+    kn: ಪ್ರಶಾಂತ
+    hi: प्रशांत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. prashaanta
+  Pratima:
+    en: a sculpted image
+    kn: ಪ್ರತಿಮೆ
+    hi: प्रतिमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pratimaa
+  Praveen:
+    en: skilled
+    kn: ನಿಪುಣ
+    hi: निपुण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. praviiNa
+  Prithvi:
+    en: earth
+    kn: ಭೂಮಿ
+    hi: पृथ्वी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pR^ithvii
+  Priya:
+    en: dear or beloved
+    kn: ಪ್ರಿಯ
+    hi: प्रिय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. priya
+  Pujan:
+    en: worship
+    kn: ಪೂಜೆ
+    hi: पूजन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. puujana
+  Pujita:
+    en: honoured in worship
+    kn: ಪೂಜಿತ
+    hi: पूजित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. puujita
+  Pundarik:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pu.nDariika
+  Pushpa:
+    en: a flower
+    kn: ಹೂವು
+    hi: फूल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pushhpa
+  Pushpita:
+    en: in bloom
+    kn: ಹೂಬಿಟ್ಟ
+    hi: खिला हुआ
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. pushhpita
+  Rachana:
+    en: a creation
+    kn: ರಚನೆ
+    hi: रचना
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rachanaa
+  Raghav:
+    en: a name of Rama
+    kn: ರಾಮನ ಹೆಸರು
+    hi: राम का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. raaghavaH
+  Rajan:
+    en: a sovereign
+    kn: ಅರಸ
+    hi: राजा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. raajan.h
+  Rajani:
+    en: night
+    kn: ರಾತ್ರಿ
+    hi: रात
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rajani
+  Rajiv:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. raajiiv
+  Rakshit:
+    en: protected
+    kn: ರಕ್ಷಿತ
+    hi: रक्षित
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rakShitaH
+  Ratri:
+    en: night
+    kn: ರಾತ್ರಿ
+    hi: रात
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. raatri
   Ravi:
     en: sun
     kn: ಸೂರ್ಯ
     hi: सूर्य
-  Vidya:
-    en: knowledge
-    kn: ವಿದ್ಯೆ
-    hi: विद्या
+    origin: Sanskrit
+    source: MW 1899, s.v. ravi
+  Rekha:
+    en: a line
+    kn: ರೇಖೆ
+    hi: रेखा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rekhaa
+  Revati:
+    en: a name in the lunar star cycle
+    kn: ನಕ್ಷತ್ರದ ಹೆಸರು
+    hi: एक नक्षत्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. revati
+  Rishi:
+    en: a sage
+    kn: ಋಷಿ
+    hi: ऋषि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. R^ishhiH
+  Ritu:
+    en: a season
+    kn: ಋತು
+    hi: ऋतु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. R^itu
+  Rohini:
+    en: a name in the lunar star cycle
+    kn: ನಕ್ಷತ್ರದ ಹೆಸರು
+    hi: एक नक्षत्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rohiNii
+  Ruchi:
+    en: taste
+    kn: ರುಚಿ
+    hi: रुचि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. ruchiH
+  Rudra:
+    en: a form of Shiva
+    kn: ಶಿವನ ರೂಪ
+    hi: शिव का रूप
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. rudra
+  Sadanand:
+    en: lasting joy
+    kn: ಸದಾ ಆನಂದ
+    hi: सदा आनंद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sadaananda
+  Sadashiv:
+    en: a name of Shiva
+    kn: ಶಿವನ ಹೆಸರು
+    hi: शिव का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sadaashiva
+  Sagar:
+    en: the ocean
+    kn: ಸಾಗರ
+    hi: सागर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saagaraH
+  Sakhi:
+    en: a companion
+    kn: ಗೆಳತಿ
+    hi: सखी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sakhi
+  Sakshi:
+    en: a witness
+    kn: ಸಾಕ್ಷಿ
+    hi: साक्षी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sakShii
+  Salil:
+    en: water
+    kn: ನೀರು
+    hi: जल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. salila
+  Samay:
+    en: time
+    kn: ಸಮಯ
+    hi: समय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. samaya
+  Sampat:
+    en: wealth
+    kn: ಸಂಪತ್ತು
+    hi: संपदा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sampat.h
+  Sampoorna:
+    en: complete
+    kn: ಸಂಪೂರ್ಣ
+    hi: संपूर्ण
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saMpuurNa
+  Samudra:
+    en: the ocean
+    kn: ಸಾಗರ
+    hi: सागर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. samudra
+  Sandesh:
+    en: a message
+    kn: ಸಂದೇಶ
+    hi: संदेश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sandesha
+  Sangeeta:
+    en: music
+    kn: ಸಂಗೀತ
+    hi: संगीत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sa.ngiita
+  Sanskriti:
+    en: culture
+    kn: ಸಂಸ್ಕೃತಿ
+    hi: संस्कृति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sa.nskR^iti
+  Santosh:
+    en: contentment
+    kn: ತೃಪ್ತಿ
+    hi: संतोष
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. santosha
+  Saral:
+    en: straightforward
+    kn: ಸರಳ
+    hi: सरल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sarala
+  Sarala:
+    en: straightforward
+    kn: ಸರಳ
+    hi: सरल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sarala
+  Sarasvati:
+    en: goddess of learning and speech
+    kn: ವಿದ್ಯೆಯ ದೇವಿ
+    hi: विद्या और वाणी की देवी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sarasvati
+  Sarita:
+    en: a river
+    kn: ನದಿ
+    hi: नदी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saritaa
+  Saroj:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saroja
+  Saroja:
+    en: a lotus
+    kn: ತಾವರೆ
+    hi: कमल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saroja
+  Satya:
+    en: truth
+    kn: ಸತ್ಯ
+    hi: सत्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. satya
+  Satyam:
+    en: truth
+    kn: ಸತ್ಯ
+    hi: सत्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. satyaM
+  Saudamini:
+    en: lightning
+    kn: ಮಿಂಚು
+    hi: बिजली
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saudaaminii
+  Saurabh:
+    en: fragrance
+    kn: ಪರಿಮಳ
+    hi: सुगंध
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. saurabha
+  Setu:
+    en: a bridge
+    kn: ಸೇತುವೆ
+    hi: सेतु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. setu
+  Shakti:
+    en: strength
+    kn: ಶಕ್ತಿ
+    hi: शक्ति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shakti
+  Shambhu:
+    en: a name of Shiva
+    kn: ಶಿವನ ಹೆಸರು
+    hi: शिव का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shambhu
+  Shanti:
+    en: peace
+    kn: ಶಾಂತಿ
+    hi: शांति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shaa.ntiH
+  Sharad:
+    en: autumn
+    kn: ಶರತ್ಕಾಲ
+    hi: शरद ऋतु
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sharad.h
+  Shashi:
+    en: the moon
+    kn: ಚಂದ್ರ
+    hi: चंद्रमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shashi
+  Sheetal:
+    en: cool
+    kn: ತಂಪು
+    hi: शीतल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shiitala
+  Shikhar:
+    en: a summit
+    kn: ಶಿಖರ
+    hi: शिखर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shikhara
+  Shilpi:
+    en: a sculptor
+    kn: ಶಿಲ್ಪಿ
+    hi: शिल्पकार
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shilpii
+  Shraddha:
+    en: faith
+    kn: ಶ್ರದ್ಧೆ
+    hi: श्रद्धा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shraddhaH
+  Shubhra:
+    en: pure and clear
+    kn: ಶುದ್ಧ
+    hi: निर्मल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shubhra
+  Shuchi:
+    en: pure and clear
+    kn: ಶುದ್ಧ
+    hi: निर्मल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. shuchi
+  Siddhi:
+    en: accomplishment
+    kn: ಸಿದ್ಧಿ
+    hi: सिद्धि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. siddhi
+  Sindhu:
+    en: the ocean
+    kn: ಸಾಗರ
+    hi: सागर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sindhuH
+  Smriti:
+    en: memory
+    kn: ನೆನಪು
+    hi: स्मृति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. smR^iti
+  Sneh:
+    en: affection
+    kn: ಸ್ನೇಹ
+    hi: स्नेह
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sneha
+  Sneha:
+    en: affection
+    kn: ಸ್ನೇಹ
+    hi: स्नेह
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sneha
+  Soma:
+    en: the moon
+    kn: ಚಂದ್ರ
+    hi: चंद्रमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. soma
+  Srishti:
+    en: creation
+    kn: ಸೃಷ್ಟಿ
+    hi: सृष्टि
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sR^ishhTiH
+  Sthir:
+    en: steadfast
+    kn: ಸ್ಥಿರ
+    hi: अडिग
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sthira
+  Stuti:
+    en: praise
+    kn: ಸ್ತುತಿ
+    hi: स्तुति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. stuti
+  Sudha:
+    en: nectar
+    kn: ಅಮೃತ
+    hi: अमृत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sudhaa
+  Sudhakar:
+    en: the moon
+    kn: ಚಂದ್ರ
+    hi: चंद्रमा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sudhaakar
+  Sundar:
+    en: beautiful
+    kn: ಸುಂದರ
+    hi: सुंदर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sundara
+  Sundari:
+    en: beautiful
+    kn: ಸುಂದರ
+    hi: सुंदर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. sundarii
+  Surya:
+    en: the sun
+    kn: ಸೂರ್ಯ
+    hi: सूर्य
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. surya
+  Susmita:
+    en: smiling
+    kn: ಮುಗುಳ್ನಗುವ
+    hi: मुस्कराती हुई
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. susmita
   Tara:
     en: star
     kn: ನಕ್ಷತ್ರ
     hi: तारा
+    origin: Sanskrit
+    source: MW 1899, s.v. tārā
+  Tarun:
+    en: youthful
+    kn: ಯೌವನದ
+    hi: युवा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. taruNaH
+  Taruni:
+    en: youthful
+    kn: ಯೌವನದ
+    hi: युवा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. taruNii
+  Tejas:
+    en: brilliance
+    kn: ತೇಜಸ್ಸು
+    hi: तेज
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. tejas.h
+  Tripti:
+    en: contentment
+    kn: ತೃಪ್ತಿ
+    hi: संतोष
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. tR^iptiH
+  Tushar:
+    en: snow
+    kn: ಹಿಮ
+    hi: हिम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. tushhaara
+  Uday:
+    en: rising
+    kn: ಉದಯ
+    hi: उदय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. udaya
+  Ujala:
+    en: brightness
+    kn: ಬೆಳಕು
+    hi: उजाला
+    origin: Hindi
+    source: McGregor 1993, s.v. उजाला
+    verification: edition locator pending
+  Uma:
+    en: a name of Parvati
+    kn: ಪಾರ್ವತಿಯ ಹೆಸರು
+    hi: पार्वती का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. umaa
+  Unnati:
+    en: advancement
+    kn: ಏಳಿಗೆ
+    hi: उन्नति
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. unnatiH
+  Urja:
+    en: energy
+    kn: ಶಕ್ತಿ
+    hi: ऊर्जा
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. uurjaa
+  Urmi:
+    en: a wave
+    kn: ಅಲೆ
+    hi: लहर
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. uurmi
+  Vani:
+    en: speech
+    kn: ವಾಣಿ
+    hi: वाणी
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vaaNii
+  Vansh:
+    en: family lineage
+    kn: ವಂಶ
+    hi: वंश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. va.nsha
+  Vardhan:
+    en: prospering
+    kn: ಅಭಿವೃದ್ಧಿ ಹೊಂದುತ್ತಿರುವ
+    hi: फलता-फूलता
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vardhana
+  Vasant:
+    en: springtime
+    kn: ವಸಂತಕಾಲ
+    hi: वसंत
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vasanta
+  Vayu:
+    en: wind
+    kn: ಗಾಳಿ
+    hi: पवन
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vaayu
+  Vidya:
+    en: knowledge
+    kn: ವಿದ್ಯೆ
+    hi: विद्या
+    origin: Sanskrit
+    source: MW 1899, s.v. vidyā
+  Vijay:
+    en: victory
+    kn: ಜಯ
+    hi: विजय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vijayaH
+  Vikas:
+    en: development
+    kn: ವಿಕಾಸ
+    hi: विकास
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vikaasaH
+  Vinay:
+    en: humility
+    kn: ವಿನಯ
+    hi: विनय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vinaya
+  Vinaya:
+    en: humility
+    kn: ವಿನಯ
+    hi: विनय
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vinaya
+  Vinod:
+    en: humour
+    kn: ವಿನೋದ
+    hi: विनोद
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vinoda
+  Vishakha:
+    en: a name in the lunar star cycle
+    kn: ನಕ್ಷತ್ರದ ಹೆಸರು
+    hi: एक नक्षत्र का नाम
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vishaakhaa
+  Vishal:
+    en: vast
+    kn: ವಿಶಾಲ
+    hi: विशाल
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vishaala
+  Vivek:
+    en: discernment
+    kn: ವಿವೇಕ
+    hi: विवेक
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. viveka
+  Vyoman:
+    en: the sky
+    kn: ಆಕಾಶ
+    hi: आकाश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. vyoman.h
+  Yamini:
+    en: night
+    kn: ರಾತ್ರಿ
+    hi: रात
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. yaamini
+  Yash:
+    en: success
+    kn: ಯಶಸ್ಸು
+    hi: यश
+    origin: Sanskrit
+    source: Sanskrit Documents dictall, s.v. yasha
 native_review:
   kn: pending
   hi: pending

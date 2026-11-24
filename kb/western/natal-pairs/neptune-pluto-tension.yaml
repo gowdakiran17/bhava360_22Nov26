@@ -1,0 +1,47 @@
+id: western.natal-pairs.neptune-pluto-tension
+system: western
+topic: natal-pairs
+title: Neptune pluto tension
+doctrine_profile: western-editorial-v1
+approval: draft
+rule: natal neptune to pluto via square, opposition. Generational background only.
+conditions:
+  all:
+  - fact: western.natal.reading_pair
+    op: eq
+    value: neptune-pluto
+  - fact: western.natal.family
+    op: eq
+    value: tension
+meaning: Balancing imagination with lasting change may take a deliberate choice about priorities.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: western-editorial-v1
+  note: Use the tropical chart and technique-specific orbs.
+sources:
+- book: 'Astrology: How to Make and Read Your Own Horoscope'
+  work_id: sepharial-astrology
+  edition: sepharial-1920-pg46963
+  chapter: null
+  verse: null
+  other_locator: The Signs of the Zodiac; The Planets; The Houses
+  supports: Background method; the application and reflective wording are editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial interpretation. Kannada and Hindi native review pending.
+user_text:
+  en: Balancing imagination with lasting change may take a deliberate choice about priorities.
+  kn: ಕಲ್ಪನೆ ಮತ್ತು ದೀರ್ಘಕಾಲದ ಬದಲಾವಣೆ ನಡುವೆ ಆದ್ಯತೆಗಳನ್ನು ಆರಿಸಬಹುದು.
+  hi: कल्पना और स्थायी बदलाव के बीच आप अपनी प्राथमिकताएँ तय कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  reference: none
+  time_scope: natal
+  area_strength: {}
