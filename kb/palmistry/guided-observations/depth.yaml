@@ -34,3 +34,67 @@ confidence:
   not-visible: withhold
 producer: Attach hand, named line, feature, confidence and user confirmation to each observation. Ambiguous image
   candidates remain unbound.
+messages:
+  head-depth:
+    en: You can name an idea you have kept returning to.
+    kn: ಮತ್ತೆ ಮತ್ತೆ ನೆನಪಾಗುವ ವಿಚಾರವನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: आप किसी ऐसे विचार को पहचान सकते हैं जिस पर बार बार लौटते हैं।
+  head-fork:
+    en: You can try two ways of explaining an idea.
+    kn: ಒಂದು ವಿಚಾರವನ್ನು ಬೇರೆ ಬೇರೆ ರೀತಿಯಲ್ಲಿ ವಿವರಿಸಬಹುದು.
+    hi: आप एक विचार को अलग तरीकों से समझा सकते हैं।
+  head-chain:
+    en: You can untangle a question one thought at a time.
+    kn: ಪ್ರಶ್ನೆಯ ಒಂದೊಂದು ಅಂಶವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: आप किसी सवाल पर एक समय में एक विचार देख सकते हैं।
+  head-branch:
+    en: You can explore a side question that interests you.
+    kn: ಆಸಕ್ತಿ ಮೂಡಿಸಿದ ಮತ್ತೊಂದು ಪ್ರಶ್ನೆಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: आप अपनी रुचि का कोई अगला सवाल देख सकते हैं।
+  head-break:
+    en: A pause may give you room to reconsider an idea.
+    kn: ವಿರಾಮದಿಂದ ವಿಚಾರವನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+    hi: विराम किसी विचार पर फिर सोचने की जगह दे सकता है।
+  heart-depth:
+    en: You can make time for a feeling you want to share.
+    kn: ಹಂಚಿಕೊಳ್ಳಲು ಬಯಸುವ ಭಾವನೆಗೆ ಸಮಯ ಕೊಡಬಹುದು.
+    hi: आप कोई भावना साझा करने के लिए समय निकाल सकते हैं।
+  heart-fork:
+    en: You can listen for two perspectives in a conversation.
+    kn: ಮಾತುಕತೆಯಲ್ಲಿ ಬೇರೆ ಬೇರೆ ನೋಟಗಳನ್ನು ಗಮನಿಸಬಹುದು.
+    hi: आप बातचीत में अलग दृष्टिकोण सुन सकते हैं।
+  heart-chain:
+    en: You can put a changing feeling into words.
+    kn: ಬದಲಾಗುವ ಭಾವನೆಯನ್ನು ಮಾತಿನಲ್ಲಿ ಹೇಳಬಹುದು.
+    hi: आप बदलती भावना को शब्द दे सकते हैं।
+  heart-branch:
+    en: You may find a small way to reach out.
+    kn: ಸಂಪರ್ಕಿಸಲು ಸರಳ ಮಾರ್ಗ ಕಂಡುಕೊಳ್ಳಬಹುದು.
+    hi: आप संपर्क करने का कोई सहज तरीका खोज सकते हैं।
+  heart-break:
+    en: You can give a conversation a little breathing room.
+    kn: ಮಾತುಕತೆಗೆ ಸ್ವಲ್ಪ ಬಿಡುವು ಕೊಡಬಹುದು.
+    hi: आप बातचीत में थोड़ा विराम ले सकते हैं।
+  fate-depth:
+    en: You can reflect on a responsibility you value.
+    kn: ನೀವು ಮೌಲ್ಯ ನೀಡುವ ಜವಾಬ್ದಾರಿಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+    hi: आप किसी प्रिय जिम्मेदारी पर विचार कर सकते हैं।
+  fate-fork:
+    en: You can compare two ways forward in your work.
+    kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ದಾರಿಗಳನ್ನು ಹೋಲಿಸಬಹುದು.
+    hi: आप काम में आगे के रास्तों की तुलना कर सकते हैं।
+  fate-chain:
+    en: You can break a busy task into smaller steps.
+    kn: ದೊಡ್ಡ ಕೆಲಸವನ್ನು ಸಣ್ಣ ಭಾಗಗಳಾಗಿ ಮಾಡಬಹುದು.
+    hi: आप किसी काम को छोटे चरणों में बाँट सकते हैं।
+  fate-branch:
+    en: You can explore an interest alongside familiar work.
+    kn: ಪರಿಚಿತ ಕೆಲಸದ ಜೊತೆಗೆ ಹೊಸ ಆಸಕ್ತಿಯನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
+    hi: आप परिचित काम के साथ कोई रुचि तलाश सकते हैं।
+  fate-break:
+    en: You can take stock before starting a new routine.
+    kn: ಹೊಸ ದಿನಚರಿ ಆರಂಭಿಸುವ ಮೊದಲು ಯೋಚಿಸಬಹುದು.
+    hi: नई दिनचर्या शुरू करने से पहले आप ठहरकर सोच सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

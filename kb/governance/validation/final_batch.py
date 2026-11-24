@@ -66,6 +66,26 @@ def annual_houses(table, age):
     return houses
 
 
+def palm_ratio(index, ring, repeat):
+    if index is None or ring is None or ring <= 0 or index <= 0 or repeat is None:
+        return None
+    def band(value):
+        return 'shorter' if value < .97 else 'longer' if value > 1.03 else None
+    label = band(index / ring)
+    return label if label == band(repeat) else None
+
+
+def plane_state(digits, plane):
+    if digits is None:
+        return None
+    present = set(digits).intersection(plane)
+    return 'full' if len(present) == len(plane) else 'partial' if present else 'open'
+
+
+def conditional_copy(profile, chart, enabled):
+    return profile['copy'] if enabled and conditional_gate(profile['gate'], chart) is True else None
+
+
 def rectification(candidates, consent, policy):
     """An event has one identity even when several timing witnesses support it."""
     if not consent:
@@ -164,7 +184,27 @@ def validate(rules,read,require):
     for rid,values in lines.items():
         for words in values.values():
             for lang in ('en','kn','hi'):check_text(words[lang],rid,lang)
-    require(len(read('numerology/lo-shu/planes.yaml')['lines'])==8,'eight planes')
+    planes = read('numerology/lo-shu/planes.yaml')
+    require(len(planes['lines']) == 8 and len({tuple(x['digits']) for x in planes['lines']}) == 8, 'eight distinct planes')
+    for row in planes['lines']:
+        digits = row['digits']
+        require(plane_state(digits,digits) == 'full' and plane_state([],digits) == 'open'
+                and plane_state(digits[:1],digits) == 'partial' and plane_state(None,digits) is None,
+                row['message'])
+    palm = read('palmistry/guided-observations/depth.yaml')
+    require(len(palm['messages']) == 15 and palm_ratio(96,100,.95) == 'shorter'
+            and palm_ratio(104,100,1.05) == 'longer' and palm_ratio(96,100,1.05) is None
+            and all(palm_ratio(x,100,x/100) is None for x in (97,100,103))
+            and palm_ratio(None,100,None) is None, 'finger ratio landmarks and uncertain band')
+    for d in (palm,planes):
+        for key,words in d['messages'].items():
+            require(set(words)=={'en','kn','hi'}, key)
+            for lang,line in words.items():
+                check_text(line,key,lang)
+    profile = read('vedic/dashas/conditional/shastihayani.yaml')
+    require(conditional_copy(profile,d8['chart'],True) == d8['enabled_copy'] and
+            all(conditional_copy(profile,c,enabled) is None for c,enabled in
+                ((d8['chart'],False),({},True),({'sun':1,'lagna':0},True))), 'D8 public gate')
     pos=dict(sun=0,mars=1,saturn=7,rahu=4,ketu=10)
     require(papasamya(pos,0)=={'sun','mars','saturn'} and papasamya(pos,1)!=papasamya(pos,6) and
             papasamya(pos,None) is None,'independent matching references')
