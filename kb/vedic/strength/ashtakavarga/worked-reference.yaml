@@ -1,5 +1,6 @@
 version: 1
 approval: draft
+label: published example, positions only
 source: https://github.com/naturalstupid/PyJHora/blob/f8c6de2f54338752bdb667384a8b0ca5791c5bdf/src/jhora/tests/pvr_tests.py
 locator: Chapter 12.3, chart 6, exercises 18–20
 origin_indices_zero_based:

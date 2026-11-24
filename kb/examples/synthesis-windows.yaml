@@ -53,3 +53,4 @@ cases:
   C23: {input: {unstable: [promise-significator, promise-varga-lagna], yoga_only_factors: [promise-occupants, promise-house-aspects], yoga: {active: true, cancelled: true}}, expect: {band: Weak, state: no-promise}}
   C24: {input: {lagna: {lord: Weak}, d9: exalted, unstable: [promise-varga-lagna, promise-significator]}, expect: {band: Moderate, grade: Moderate}}
   C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: Weak, state: no-promise}}
+  D1-floor: {input: {unstable: [promise-occupants, promise-house-aspects, promise-significator, promise-moon-relative], d9: exalted}, expect: {band: Weak, state: no-promise, windows: []}}

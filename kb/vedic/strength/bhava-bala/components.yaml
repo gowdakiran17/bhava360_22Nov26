@@ -78,8 +78,9 @@ midpoint_methods:
   whole-sign-middle: MODERN. Sign start plus 15 degrees. Direction from shorter whole-house count.
   sripati: CLASSICAL option. Use Ascendant, IC, Descendant and MC as madhyas 1,4,7,10. Trisect each forward
     quadrant arc for the intervening madhyas. Direction is shortest arc from the class weakest cardinal angle
-    divided by three. Keep occupants in whole-sign houses.
+    divided by three. Assign occupants between successive sandhis, inclusive at entry. Use the madhya sign for the birth-time term.
 occupants:
+  placement: Whole-sign by default. Sripati uses half-open sandhis halfway between consecutive madhyas. The birth-time award follows the madhya sign.
   tag: CLASSICAL
   unit: virupas per occupant
   weights:

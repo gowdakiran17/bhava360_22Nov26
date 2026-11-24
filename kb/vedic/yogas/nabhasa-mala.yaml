@@ -38,8 +38,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Selected draft whole-sign formulation. Exact-occupancy patterns require each listed house; the seven classical
@@ -67,15 +67,15 @@ sources:
   chapter: null
   verse: null
   other_locator: jhora/horoscope/chart/yoga.py, maalaa_yoga
-  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
-    copy follow the declared KB policy.
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and
+    public copy follow the declared KB policy.
   verification: verified
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: You may find it easier to work when you can ask for support.
-  kn: ನೆರವು ಕೇಳಲು ಅವಕಾಶವಿದ್ದಾಗ ಕೆಲಸ ಸುಲಭವಾಗಬಹುದು.
-  hi: सहयोग माँगने की गुंजाइश हो तो काम सहज लग सकता है।
+  en: You can recognise the helpful contacts around an important commitment.
+  kn: ಹೊಣೆಯಲ್ಲಿ ಸಹಾಯಕರನ್ನು ಗುರುತಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: काम के सहयोगियों को पहचानना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

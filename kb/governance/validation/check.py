@@ -629,6 +629,8 @@ def main():
     validate_confidence(read, require)
     from timing import validate_timing
     validate_timing(rules,read,require)
+    from fixtures import validate as validate_fixtures
+    validate_fixtures(rules,read,require,ROOT)
     check_distribution(ROOT)
     print("Public copy passed across eight locale bundles.")
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')

@@ -4,7 +4,7 @@ topic: strength/bhava-bala
 title: bhava-occupants
 doctrine_profile: parashari-strength-v1
 approval: draft
-rule: Sum the per-occupant virupas in the whole-sign house; Moon, Venus and nodes contribute zero.
+rule: Sum the per-occupant virupas between the selected house boundaries (whole signs by default, adjacent madhya midpoints for Sripati); Moon, Venus and nodes contribute zero.
 conditions:
   all:
   - fact: strength.bhava.selected_component

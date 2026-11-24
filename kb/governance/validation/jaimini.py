@@ -48,7 +48,7 @@ def d9(position):
 
 def validate_jaimini(rules,read,evaluate,require):
     fixture = read('examples/jaimini-reference.yaml')
-    require(fixture['synthetic'] and set(fixture['cases'])=={'Asha','Ravi'},'Jaimini fixtures')
+    require(fixture['synthetic'] and set(fixture['cases'])=={'Scenario 1','Scenario 2'},'Jaimini fixtures')
     method = read(PREFIX+'chara-karakas/methods.yaml')
     period = read('jaimini/chara-dasha/periods.yaml')
     require(method['default_scheme']=='seven' and method['optional_scheme']=='eight'
@@ -118,7 +118,7 @@ def validate_jaimini(rules,read,evaluate,require):
                 hit = dst[0] in matrix[src[0]]
                 require(hit==aspects(src[0],dst[0]),name+' graha sign contact')
                 fire('rashi-drishti.sign-contact','jaimini.sign_aspect',hit)
-    p = fixture['cases']['Asha']['positions'].copy()
+    p = fixture['cases']['Scenario 1']['positions'].copy()
     p['moon'] = [3,p['sun'][1]]
     require(ranked(p,method)==ranked(p,method,'seven'),'seven default roles')
     ties = ranked(p,method,'seven')

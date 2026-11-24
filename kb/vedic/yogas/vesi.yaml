@@ -4,8 +4,8 @@ topic: yogas
 title: Vesi
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are excluded
-  as contributors.
+rule: An eligible classical graha occupies each listed flank of the reference luminary. Luminaries and nodes are
+  excluded as contributors.
 conditions:
   all:
   - any:
@@ -65,8 +65,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ: []
 sources:
 - book: Phaladeepika
@@ -78,12 +78,12 @@ sources:
   supports: Solar flank formation; source separates benefic and malefic variants.
   verification: verified
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Resolve the actual participants before assigning
-  a direction.
+review_notes: Review exact locator, convention and native copy before release. Resolve the actual participants before
+  assigning a direction.
 user_text:
-  en: You may wish to choose one practical next step at work.
-  kn: ಕೆಲಸದಲ್ಲಿ ಮುಂದಿನ ಒಂದು ಪ್ರಾಯೋಗಿಕ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಬಹುದು.
-  hi: काम में अगला एक व्यावहारिक कदम चुन सकते हैं।
+  en: Following a decision with a practical task may help an intention take shape.
+  kn: ನಿರ್ಧಾರದ ನಂತರ ಕೆಲಸ ಆರಂಭಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: निर्णय के बाद काम शुरू करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

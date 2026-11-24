@@ -149,7 +149,7 @@ def validate_shadbala(rules,read,require):
     require(tables.keys()==must,'Shadbala component inventory')
     require(tables['totals']['minimum_rupas']==read(ROOT+'components.yaml')['minimum_rupas'],'Shadbala minima')
     require(cases['synthetic'] is True and cases['graha_order']==GRAHAS,'synthetic strength references')
-    require(set(cases['fixtures'])=={'Asha','Ravi'},'strength fixture identities')
+    require(set(cases['fixtures'])=={'Scenario 1','Scenario 2'},'strength fixture identities')
     safe = read(ROOT+'components.yaml')['approved_public_phrases']
     require(all(not re.search(r'\d|[%٪]|\b(?:scores?|points|rupas?|virupas?)\b|अंक|स्कोर|ವಿರೂಪ|ಅಂಕ', text, re.I)
                 for phrase in safe for text in phrase.values()), 'qualitative Shadbala phrases only')
@@ -189,7 +189,7 @@ def validate_shadbala(rules,read,require):
                 require(ok,f'{name} {g} {k}: got {actual}, expected {expected}')
                 count += 1
     # The KB-05 cutoff is exclusive. A latitude tie propagates only to dependent totals.
-    inputs = cases['fixtures']['Ravi']['inputs']
+    inputs = cases['fixtures']['Scenario 2']['inputs']
     signs = read('vedic/signs/catalog.yaml')['signs']
     tie = dict(inputs,latitude={**inputs['latitude'],'mercury':inputs['latitude']['mars']})
     boundary = dict(inputs,longitude={**inputs['longitude'],'mercury':inputs['longitude']['mars']+1})

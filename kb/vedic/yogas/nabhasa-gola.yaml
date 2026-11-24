@@ -37,8 +37,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Selected draft whole-sign formulation. Exact-occupancy patterns require each listed house; the seven classical
@@ -66,15 +66,15 @@ sources:
   chapter: null
   verse: null
   other_locator: jhora/horoscope/chart/yoga.py, gola_yoga
-  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
-    copy follow the declared KB policy.
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and
+    public copy follow the declared KB policy.
   verification: verified
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: You may find that returning to one project helps you develop it in depth.
-  kn: ಒಂದು ಕೆಲಸವನ್ನು ಮತ್ತೆ ಕೈಗೆತ್ತಿಕೊಂಡಾಗ ಅದನ್ನು ಆಳವಾಗಿ ಬೆಳೆಸಬಹುದು.
-  hi: एक काम पर लौटकर उसे अधिक गहराई से आगे बढ़ा सकते हैं।
+  en: You can make space for other needs when one activity fills your attention.
+  kn: ಇತರ ಅಗತ್ಯಗಳಿಗೆ ಜಾಗ ಬಿಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: बाकी ज़रूरतों को जगह देना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

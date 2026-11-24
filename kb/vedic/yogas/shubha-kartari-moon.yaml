@@ -38,8 +38,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
@@ -63,9 +63,9 @@ sources:
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:
-  en: You may find it easier to work when you can ask for support.
-  kn: ನೆರವು ಕೇಳಲು ಅವಕಾಶವಿದ್ದಾಗ ಕೆಲಸ ಸುಲಭವಾಗಬಹುದು.
-  hi: सहयोग माँगने की गुंजाइश हो तो काम सहज लग सकता है।
+  en: Familiar sources of reassurance may give you room to reflect.
+  kn: ನೆಮ್ಮದಿಗೆ ಪರಿಚಿತ ಆಸರೆ ಪಡೆಯುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: सुकून के लिए परिचित सहारा लेना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

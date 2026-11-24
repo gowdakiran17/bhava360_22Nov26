@@ -104,15 +104,15 @@ def validate_ashtakavarga(rules,read,evaluate,require):
         require(selected==[band],f'transit rule selection for {count} bindus')
     require(all(evaluate(r['conditions'],{}) is None for r in tone_rules),'unknown transit band')
     fixture = read('examples/ashtakavarga-reference.yaml')
-    require(fixture['synthetic'] is True and set(fixture['fixtures'])=={'Asha','Ravi'},'synthetic AV charts')
+    require(fixture['synthetic'] is True and set(fixture['fixtures'])=={'Scenario 1','Scenario 2'},'synthetic AV charts')
     example = reduction['worked_example']
     case = fixture['fixtures'][example['fixture']]
     indices = [SIGNS.index(s) for s in example['signs']]
     occupants = [[g for g in PLANETS if case['natal_signs'][g]==i] for i in indices]
     require(example['case']=='one_occupied' and example['case'] in reduction['cases']
-            and occupants==example['occupants']==[['sun'],[]], 'Asha Aries/Scorpio case')
+            and occupants==example['occupants']==[['sun'],[]], 'Scenario 1 Aries/Scorpio case')
     for stage in ('after_trikona','after_ekadhipatya'):
-        require(example[stage]==[case[stage][example['target']][i] for i in indices], 'Asha '+stage)
+        require(example[stage]==[case[stage][example['target']][i] for i in indices], 'Scenario 1 '+stage)
     boundary_count = 0
     for name,case in fixture['fixtures'].items():
         natal = case['natal_signs']

@@ -541,3 +541,9 @@ Classical locators awaiting edition checks retain pending status. Election offse
 The corpus now contains 2,540 draft reading rules across ten systems and 916 registered facts. The 365 new readings comprise five KP judgements, 198 Western natal pair readings, 105 transit pair readings, 42 synastry readings, twelve MC signs, two return readings and one Papasamya comparison. The confidence matrix covers 71 outputs. Six checker worksheets cover complete, limited and private input paths. The lookup tables contain 319 name spellings and 52 Indian-market brands.
 
 The Western point adjustments, the matching summary bands and the Papasamya unit weights are editorial conventions. KP retains true node, Krishnamurti mode 5 and Placidus without fallback. Koota totals and sensitive evidence remain internal. Native Kannada/Hindi review and first-party brand spelling checks remain pending; Sanskrit dictionary senses are distinguished from name usage.
+
+## Batch 5 · Golden readings
+
+Five named Swiss-file charts and five consultation worksheets cover thirty area traces. The inventory remains 2,540 draft readings across ten systems and grows to 922 fact keys. Fifteen legacy example files have scenario lookup aliases. Worked references include the Venus endpoints, Moon contributor cells, Sripati sandhi totals, a master Life Path, three Maha–Antar relationships and an explicitly pending second-cycle Chara case.
+
+Asha and Ravi receive different daily and monthly tones for the same date. Dev receives a Moon-based reading and independently stable planet-only outputs. The sources include Swiss Ephemeris, the registered BPHS, Brihat Jataka, Phaladeepika and Saravali entries, Laghu Parashari and Raman’s Bhava Bala method. The deep-combust threshold and lunar phase grading scale are product conventions. Kannada and Hindi rewrites await native review. [Reference charts](../examples/fixtures/README.md)

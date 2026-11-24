@@ -1,0 +1,1572 @@
+synthetic: true
+approval: draft
+fixture: Asha
+local: '1992-03-12T05:40:00+05:30'
+city: Bengaluru
+latitude: 12.97
+longitude: 77.59
+utc: '1992-03-12T00:10:00+00:00'
+julian_day: 2448693.5069444445
+stable_birth_panchanga:
+  vara: Wednesday
+  tithi: 8
+  nakshatra: mrigashira
+  yoga: 2
+  karana_half: 14
+sunrise_local: '1992-03-12T06:29:06.131319+05:30'
+precision: exact
+tier: A
+rectified: false
+reading_at: '2026-11-24T12:00:00+05:30'
+provenance:
+  binding: 2.10.3.2
+  swiss_version: 2.10.03
+  files_sha256:
+    sepl_18.se1: ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66
+    semo_18.se1: 1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7
+  package: '@kuntay/swisseph-data@0.2.2'
+  flags: 65794
+  actual_backend: SEFLG_SWIEPH
+  sidereal_mode: 1
+  node: mean
+  houses: whole-sign
+  dasha_year_days: 365.25
+  command: Set SWEPH_PATH to the extracted ephe directory; run python kb/examples/fixtures/generate.py
+    then python kb/examples/fixtures/workflow.py
+lagna:
+  longitude: 312.29807767153795
+  sign: aquarius
+  degree: 12.298077671537953
+  nakshatra: shatabhisha
+  pada: 2
+  d9: capricorn
+  d10: gemini
+  unstable:
+  - d10
+  - d9
+grahas:
+  sun:
+    sign: aquarius
+    degree: 27.925893846462202
+    nakshatra: purva-bhadrapada
+    pada: 3
+    d9: gemini
+    d10: scorpio
+    longitude: 327.9258938464622
+    speed: 0.9979263985577735
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -5.646190203350243e-05
+  moon:
+    sign: taurus
+    degree: 26.632350940871035
+    nakshatra: mrigashira
+    pada: 1
+    d9: leo
+    d10: virgo
+    longitude: 56.632350940871035
+    speed: 13.751723355432423
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 1.4103640444090313
+  mars:
+    sign: capricorn
+    degree: 23.799123454658798
+    nakshatra: dhanishta
+    pada: 1
+    d9: leo
+    d10: aries
+    longitude: 293.7991234546588
+    speed: 0.7727041232607228
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -1.1147333369749521
+  mercury:
+    sign: pisces
+    degree: 15.78329552169788
+    nakshatra: uttara-bhadrapada
+    pada: 4
+    d9: scorpio
+    d10: aries
+    longitude: 345.7832955216979
+    speed: 0.704254296627774
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 2.4064022983627646
+  jupiter:
+    sign: leo
+    degree: 14.381888017087249
+    nakshatra: purva-phalguni
+    pada: 1
+    d9: leo
+    d10: sagittarius
+    longitude: 134.38188801708725
+    speed: -0.12451074804481861
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: 1.3803301595888515
+  venus:
+    sign: aquarius
+    degree: 3.7890269733672994
+    nakshatra: dhanishta
+    pada: 4
+    d9: scorpio
+    d10: pisces
+    longitude: 303.7890269733673
+    speed: 1.2347429186693206
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -0.9845497488931934
+  saturn:
+    sign: capricorn
+    degree: 20.288032577047545
+    nakshatra: shravana
+    pada: 4
+    d9: cancer
+    d10: pisces
+    longitude: 290.28803257704755
+    speed: 0.10297330033621
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -0.6733393222822138
+  rahu:
+    sign: sagittarius
+    degree: 12.293789120472326
+    nakshatra: mula
+    pada: 4
+    d9: cancer
+    d10: aries
+    longitude: 252.29378912047233
+    speed: -0.052992028648376974
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: -2.4175470700678966e-15
+  ketu:
+    sign: gemini
+    degree: 12.293789120472297
+    nakshatra: ardra
+    pada: 2
+    d9: capricorn
+    d10: libra
+    longitude: 72.2937891204723
+    speed: -0.052992028648376974
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: 2.4175470700678966e-15
+working_instant_periods:
+  birth:
+    maha:
+      lord: mars
+      start: '1990-06-18T09:35:34.022893Z'
+      end: '1997-06-18T03:35:34.022893Z'
+    antar:
+      lord: jupiter
+      start: '1991-12-03T01:20:34.022893Z'
+      end: '1992-11-07T22:56:34.022893Z'
+    pratyantar:
+      lord: mercury
+      start: '1992-03-11T11:38:34.022893Z'
+      end: '1992-04-28T18:42:10.022893Z'
+  reading:
+    maha:
+      lord: jupiter
+      start: '2015-06-18T15:35:34.022893Z'
+      end: '2031-06-18T15:35:34.022893Z'
+    antar:
+      lord: moon
+      start: '2026-10-18T03:35:34.022893Z'
+      end: '2028-02-17T03:35:34.022893Z'
+    pratyantar:
+      lord: moon
+      start: '2026-10-18T03:35:34.022893Z'
+      end: '2026-11-27T17:35:34.022893Z'
+pair_relationship_examples:
+  angle-trine:
+    maha: jupiter
+    antar: jupiter
+    distance: 1
+    start: '2015-06-18T15:35:34.022893Z'
+    end: '2017-08-05T20:23:34.022893Z'
+  six-eight:
+    maha: jupiter
+    antar: saturn
+    distance: 6
+    start: '2017-08-05T20:23:34.022893Z'
+    end: '2020-02-17T03:35:34.022893Z'
+  other:
+    maha: jupiter
+    antar: ketu
+    distance: 11
+    start: '2022-05-25T01:11:34.022893Z'
+    end: '2023-04-30T22:47:34.022893Z'
+sade_sati: outside
+consultation:
+  optional_practice: moon
+  rule_chain:
+  - vedic.planets-in-signs.sun-aquarius
+  - vedic.planets-in-signs.moon-taurus
+  - vedic.planets-in-signs.mars-capricorn
+  - vedic.planets-in-signs.mercury-pisces
+  - vedic.planets-in-signs.jupiter-leo
+  - vedic.planets-in-signs.venus-aquarius
+  - vedic.planets-in-signs.saturn-capricorn
+  - vedic.planets-in-signs.rahu-sagittarius
+  - vedic.planets-in-signs.ketu-gemini
+  - vedic.yogas.amala
+  - vedic.yogas.bheri
+  - vedic.yogas.gaja-kesari
+  - vedic.yogas.kahala
+  - vedic.yogas.kemadruma
+  - vedic.yogas.nabhasa-pasha
+  - vedic.yogas.neecha-bhanga
+  - vedic.yogas.raja
+  - vedic.yogas.ubhayachari
+  - vedic.yogas.vesi
+  - vedic.yogas.vimala
+  - vedic.yogas.vosi
+  - vedic.dashas-vimshottari.jupiter-maha
+  - vedic.dashas-vimshottari.jupiter-moon-antar
+  - vedic.dashas-vimshottari.love-marriage-house-lord
+  - vedic.dashas-vimshottari.money-upcoming
+  - vedic.dashas-vimshottari.money-house-lord
+  - vedic.dashas-vimshottari.family-home-upcoming
+  - vedic.dashas-vimshottari.learning-upcoming
+  - vedic.transits.sun-moon-house-7
+  - vedic.transits.moon-moon-house-1
+  - vedic.transits.mars-moon-house-4
+  - vedic.transits.mercury-moon-house-6
+  - vedic.transits.jupiter-moon-house-4
+  - vedic.transits.venus-moon-house-6
+  - vedic.transits.saturn-moon-house-11
+  - vedic.transits.rahu-moon-house-10
+  - vedic.transits.ketu-moon-house-4
+  - vedic.transits.sun-lagna-house-10
+  - vedic.transits.moon-lagna-house-4
+  - vedic.transits.mars-lagna-house-7
+  - vedic.transits.mercury-lagna-house-9
+  - vedic.transits.jupiter-lagna-house-7
+  - vedic.transits.venus-lagna-house-9
+  - vedic.transits.saturn-lagna-house-2
+  - vedic.transits.rahu-lagna-house-1
+  - vedic.transits.ketu-lagna-house-7
+  grades:
+    sun:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: 0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: -0.5
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: sama
+      d9: shatru
+      functional: Neutral
+    moon:
+      worksheet:
+        terms:
+          d1: 2.5
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.5
+          vargottama: 0
+          paksha: -0.007186349475506393
+        total: 3.9928136505244938
+        grade: Strong
+      d1: moolatrikona
+      d9: adhi-mitra
+      functional: Malefic
+    mars:
+      worksheet:
+        terms:
+          d1: 3
+          house: -1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.5
+          vargottama: 0
+        total: 2.5
+        grade: Moderate
+      d1: exaltation-sign
+      d9: adhi-mitra
+      functional: Malefic
+    mercury:
+      worksheet:
+        terms:
+          d1: 1
+          house: 0
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.5
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: debilitation-sign
+      d9: mitra
+      functional: Neutral
+    jupiter:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0.5
+          d9: 0.5
+          vargottama: 1
+        total: 2.5
+        grade: Moderate
+      d1: sama
+      d9: adhi-mitra
+      functional: Malefic
+    venus:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: 0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.5
+          vargottama: 0
+        total: 3.0
+        grade: Strong
+      d1: adhi-mitra
+      d9: mitra
+      functional: Yogakaraka
+    saturn:
+      worksheet:
+        terms:
+          d1: 2
+          house: -1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: own-sign
+      d9: sama
+      functional: Benefic
+    rahu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: 0.0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: null
+      d9: null
+      functional: Malefic
+    ketu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 0.5
+        grade: Weak
+      d1: null
+      d9: null
+      functional: Neutral
+  yogas:
+    vedic.yogas.amala:
+    - participants:
+      - venus
+      vedic.yoga.amala.gate: full
+      vedic.yoga.amala.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.bheri:
+    - participants:
+      - jupiter
+      - mars
+      - mercury
+      - saturn
+      - sun
+      - venus
+      vedic.yoga.bheri.gate: full
+      vedic.yoga.bheri.active: true
+      display: normal
+      period_evidence: true
+    vedic.yogas.gaja-kesari:
+    - participants:
+      - jupiter
+      - moon
+      vedic.yoga.gaja-kesari.gate: full
+      vedic.yoga.gaja-kesari.active: true
+      display: yoga-mild
+      period_evidence: true
+    vedic.yogas.kahala:
+    - participants:
+      - jupiter
+      - saturn
+      - venus
+      vedic.yoga.kahala.gate: full
+      vedic.yoga.kahala.active: true
+      display: normal
+      period_evidence: true
+    vedic.yogas.kemadruma:
+    - participants:
+      - moon
+      vedic.yoga.kemadruma.gate: null
+      vedic.yoga.kemadruma.active: false
+      display: omitted
+      period_evidence: false
+    vedic.yogas.nabhasa-pasha:
+    - participants:
+      - jupiter
+      - mars
+      - mercury
+      - moon
+      - saturn
+      - sun
+      - venus
+      vedic.yoga.nabhasa-pasha.gate: null
+      vedic.yoga.nabhasa-pasha.active: null
+      display: withheld
+      period_evidence: false
+    vedic.yogas.neecha-bhanga:
+    - participants:
+      - jupiter
+      - mercury
+      vedic.yoga.neecha-bhanga.gate: full
+      vedic.yoga.neecha-bhanga.active: true
+      display: normal
+      period_evidence: true
+    - participants:
+      - mercury
+      - venus
+      vedic.yoga.neecha-bhanga.gate: full
+      vedic.yoga.neecha-bhanga.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.raja:
+    - participants:
+      - venus
+      vedic.yoga.raja.gate: full
+      vedic.yoga.raja.active: false
+      display: yoga-background
+      period_evidence: false
+    - participants:
+      - sun
+      - venus
+      vedic.yoga.raja.gate: full
+      vedic.yoga.raja.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.ubhayachari:
+    - participants:
+      - mars
+      - mercury
+      - saturn
+      - sun
+      vedic.yoga.ubhayachari.gate: full
+      vedic.yoga.ubhayachari.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.vesi:
+    - participants:
+      - mercury
+      - sun
+      vedic.yoga.vesi.gate: full
+      vedic.yoga.vesi.active: false
+      display: yoga-background
+      period_evidence: false
+    vedic.yogas.vimala:
+    - participants:
+      - saturn
+      vedic.yoga.vimala.gate: null
+      vedic.yoga.vimala.active: null
+      display: withheld
+      period_evidence: false
+    vedic.yogas.vosi:
+    - participants:
+      - mars
+      - saturn
+      - sun
+      vedic.yoga.vosi.gate: full
+      vedic.yoga.vosi.active: false
+      display: yoga-background
+      period_evidence: false
+  areas:
+    career:
+      lord: mars
+      promise: Strong
+      state:
+      - no-window
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - Malefic
+      moon_witnesses:
+        lord: Moderate
+        occupants:
+        - - Neutral
+          - Moderate
+        - - Yogakaraka
+          - Strong
+        aspects:
+        - Malefic
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id001
+      - vedic.yogas.neecha-bhanga
+      practice_lord: null
+      conflict_ladder:
+        promise: Strong
+        activated_yogas: *id001
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    love-marriage:
+      lord: sun
+      promise: Moderate
+      state:
+      - no-window
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants:
+        - - Malefic
+          - Moderate
+        aspects:
+        - Benefic
+        - Malefic
+        - Malefic
+        - Yogakaraka
+      moon_witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - Malefic
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id002 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id002
+        functional_lord: Neutral
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    money:
+      lord: jupiter
+      promise: Strong
+      state:
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Supportive
+        pace: slower
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants:
+        - - Neutral
+          - Moderate
+        aspects:
+        - Benefic
+        - Malefic
+        - Yogakaraka
+        - Benefic
+      moon_witnesses:
+        lord: Moderate
+        occupants:
+        - - Neutral
+          - Weak
+        aspects:
+        - Benefic
+        - Malefic
+      challenge_resolution: Strong
+      card: Supportive
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id003 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Strong
+        activated_yogas: *id003
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: Supportive
+    health:
+      lord: saturn
+      promise: Strong
+      state:
+      - no-window
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants:
+        - - Neutral
+          - Moderate
+        - - Yogakaraka
+          - Strong
+        aspects:
+        - Malefic
+      moon_witnesses:
+        lord: Strong
+        occupants:
+        - - Malefic
+          - Strong
+        aspects:
+        - Malefic
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id004 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Strong
+        activated_yogas: *id004
+        functional_lord: Benefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    family-home:
+      lord: venus
+      promise: Moderate
+      state:
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
+      availability: known-time
+      witnesses:
+        lord: Strong
+        occupants:
+        - - Malefic
+          - Strong
+        aspects:
+        - Malefic
+      moon_witnesses:
+        lord: Moderate
+        occupants:
+        - - Malefic
+          - Moderate
+        aspects:
+        - Benefic
+        - Malefic
+        - Malefic
+        - Yogakaraka
+      challenge_resolution: Moderate
+      card: Steady
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id005 []
+      practice_lord: moon
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id005
+        functional_lord: Yogakaraka
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: Steady
+    learning:
+      lord: venus
+      promise: Moderate
+      state:
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
+      availability: known-time
+      witnesses:
+        lord: Strong
+        occupants:
+        - - Malefic
+          - Strong
+        aspects:
+        - Malefic
+      moon_witnesses:
+        lord: Moderate
+        occupants:
+        - - Malefic
+          - Moderate
+        aspects:
+        - Benefic
+        - Malefic
+        - Malefic
+        - Yogakaraka
+      challenge_resolution: Moderate
+      card: Steady
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+      active_yogas: &id006
+      - vedic.yogas.gaja-kesari
+      - vedic.yogas.neecha-bhanga
+      practice_lord: moon
+      conflict_ladder:
+        promise: Moderate
+        activated_yogas: *id006
+        functional_lord: Yogakaraka
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: Steady
+  transits:
+    moon:
+    - vedic.transits.sun-moon-house-7
+    - vedic.transits.moon-moon-house-1
+    - vedic.transits.mars-moon-house-4
+    - vedic.transits.mercury-moon-house-6
+    - vedic.transits.jupiter-moon-house-4
+    - vedic.transits.venus-moon-house-6
+    - vedic.transits.saturn-moon-house-11
+    - vedic.transits.rahu-moon-house-10
+    - vedic.transits.ketu-moon-house-4
+    lagna:
+    - vedic.transits.sun-lagna-house-10
+    - vedic.transits.moon-lagna-house-4
+    - vedic.transits.mars-lagna-house-7
+    - vedic.transits.mercury-lagna-house-9
+    - vedic.transits.jupiter-lagna-house-7
+    - vedic.transits.venus-lagna-house-9
+    - vedic.transits.saturn-lagna-house-2
+    - vedic.transits.rahu-lagna-house-1
+    - vedic.transits.ketu-lagna-house-7
+  today:
+    context:
+      fast_events: []
+      moon_contacts: []
+      slow_phase_boundaries: []
+    tithi: Purna
+    tone: Supportive
+    moon_house: 1
+    tara: 8
+    chandra: support
+    focus: []
+    good:
+    - important-talk
+    easy: []
+    best: null
+    exclusions: []
+    chips:
+    - moon-chip
+    - star-chip
+  month_tone: Supportive
+  public_en:
+    today: Familiar routines may feel especially comforting.
+    month: You may find room to move a plan forward this month.
+    money: You can review how incoming resources fit your savings plans.
+    family-home: You may find time for a familiar routine with family.
+    learning: You can explore a subject more deeply with a teacher.
+    traditional_practice: If you like, you can pause in the evening to notice what
+      helped you feel settled.
+  confidence:
+    lagna: show
+    bav: show
+    sav: show
+    kakshya: show
+    d9: show
+    d10: show
+    d9-planet-sign: show
+    d10-planet-sign: show
+    birth-panchanga: show
+    shadbala-kala: show
+  matched_predicates:
+    vedic.planets-in-signs.sun-aquarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: sun
+      - fact: d1.selected_point.sign
+        op: eq
+        value: aquarius
+    vedic.planets-in-signs.moon-taurus:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: moon
+      - fact: d1.selected_point.sign
+        op: eq
+        value: taurus
+    vedic.planets-in-signs.mars-capricorn:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mars
+      - fact: d1.selected_point.sign
+        op: eq
+        value: capricorn
+    vedic.planets-in-signs.mercury-pisces:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mercury
+      - fact: d1.selected_point.sign
+        op: eq
+        value: pisces
+    vedic.planets-in-signs.jupiter-leo:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: jupiter
+      - fact: d1.selected_point.sign
+        op: eq
+        value: leo
+    vedic.planets-in-signs.venus-aquarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: venus
+      - fact: d1.selected_point.sign
+        op: eq
+        value: aquarius
+    vedic.planets-in-signs.saturn-capricorn:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: saturn
+      - fact: d1.selected_point.sign
+        op: eq
+        value: capricorn
+    vedic.planets-in-signs.rahu-sagittarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: rahu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: sagittarius
+    vedic.planets-in-signs.ketu-gemini:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: ketu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: gemini
+    vedic.yogas.amala:
+      any:
+      - fact: d1.moon.tenth_has_benefic
+        op: eq
+        value: true
+      - fact: d1.lagna.tenth_has_benefic
+        op: eq
+        value: true
+    vedic.yogas.bheri:
+      all:
+      - fact: d1.yoga.bheri_formed
+        op: eq
+        value: true
+    vedic.yogas.gaja-kesari:
+      all:
+      - fact: d1.jupiter.distance_from_moon
+        op: in
+        value:
+        - 1
+        - 4
+        - 7
+        - 10
+    vedic.yogas.kahala:
+      all:
+      - fact: d1.yoga.kahala_formed
+        op: eq
+        value: true
+    vedic.yogas.kemadruma:
+      all:
+      - fact: d1.moon.eligible_flank
+        op: eq
+        value: false
+    vedic.yogas.nabhasa-pasha:
+      all:
+      - fact: d1.yoga.nabhasa_pasha_formed
+        op: eq
+        value: true
+    vedic.yogas.neecha-bhanga:
+      any:
+      - fact: d1.dignity.exchange_with_dispositor
+        op: eq
+        value: true
+      - fact: d1.dignity.debility_lord_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.exaltation_lord_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.mutual_kendras
+        op: eq
+        value: true
+      - fact: d1.dignity.dispositor_aspect
+        op: eq
+        value: true
+      - fact: d1.dignity.exaltee_angular
+        op: eq
+        value: true
+      - fact: d1.dignity.exalted_navamsha
+        op: eq
+        value: true
+      - fact: d1.dignity.navamsha_lord_support
+        op: eq
+        value: true
+    vedic.yogas.raja:
+      all:
+      - fact: d1.lords.kendra_trikona_link
+        op: eq
+        value: true
+    vedic.yogas.ubhayachari:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.mercury.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.jupiter.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.venus.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.saturn.distance_from_sun
+          op: in
+          value:
+          - 2
+      - any:
+        - fact: d1.mars.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.mercury.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.jupiter.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.venus.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.saturn.distance_from_sun
+          op: in
+          value:
+          - 12
+    vedic.yogas.vesi:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.mercury.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.jupiter.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.venus.distance_from_sun
+          op: in
+          value:
+          - 2
+        - fact: d1.saturn.distance_from_sun
+          op: in
+          value:
+          - 2
+    vedic.yogas.vimala:
+      all:
+      - fact: d1.lord_12.distance_from_lagna
+        op: in
+        value:
+        - 6
+        - 8
+        - 12
+    vedic.yogas.vosi:
+      all:
+      - any:
+        - fact: d1.mars.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.mercury.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.jupiter.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.venus.distance_from_sun
+          op: in
+          value:
+          - 12
+        - fact: d1.saturn.distance_from_sun
+          op: in
+          value:
+          - 12
+    vedic.dashas-vimshottari.jupiter-maha:
+      all:
+      - fact: dasha.vimshottari.maha_lord
+        op: eq
+        value: jupiter
+      - fact: dasha.vimshottari.maha_context_ready
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.jupiter-moon-antar:
+      all:
+      - fact: dasha.vimshottari.maha_lord
+        op: eq
+        value: jupiter
+      - fact: dasha.vimshottari.antar_lord
+        op: eq
+        value: moon
+      - fact: dasha.vimshottari.pair_context_ready
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.love-marriage-house-lord:
+      any:
+      - fact: dasha.active_lord.owns_house_7
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_2
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_11
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.money-upcoming:
+      all:
+      - fact: dasha.upcoming.money_window
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.money-house-lord:
+      any:
+      - fact: dasha.active_lord.owns_house_2
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_11
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_5
+        op: eq
+        value: true
+      - fact: dasha.active_lord.owns_house_9
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.family-home-upcoming:
+      all:
+      - fact: dasha.upcoming.family_home_window
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.learning-upcoming:
+      all:
+      - fact: dasha.upcoming.learning_window
+        op: eq
+        value: true
+    vedic.transits.sun-moon-house-7:
+      all:
+      - fact: transit.sun.distance_from_natal_moon
+        op: eq
+        value: 7
+    vedic.transits.moon-moon-house-1:
+      all:
+      - fact: transit.moon.distance_from_natal_moon
+        op: eq
+        value: 1
+    vedic.transits.mars-moon-house-4:
+      all:
+      - fact: transit.mars.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.mercury-moon-house-6:
+      all:
+      - fact: transit.mercury.distance_from_natal_moon
+        op: eq
+        value: 6
+    vedic.transits.jupiter-moon-house-4:
+      all:
+      - fact: transit.jupiter.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.venus-moon-house-6:
+      all:
+      - fact: transit.venus.distance_from_natal_moon
+        op: eq
+        value: 6
+    vedic.transits.saturn-moon-house-11:
+      all:
+      - fact: transit.saturn.distance_from_natal_moon
+        op: eq
+        value: 11
+    vedic.transits.rahu-moon-house-10:
+      all:
+      - fact: transit.rahu.distance_from_natal_moon
+        op: eq
+        value: 10
+    vedic.transits.ketu-moon-house-4:
+      all:
+      - fact: transit.ketu.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.sun-lagna-house-10:
+      all:
+      - fact: transit.sun.distance_from_lagna
+        op: eq
+        value: 10
+    vedic.transits.moon-lagna-house-4:
+      all:
+      - fact: transit.moon.distance_from_lagna
+        op: eq
+        value: 4
+    vedic.transits.mars-lagna-house-7:
+      all:
+      - fact: transit.mars.distance_from_lagna
+        op: eq
+        value: 7
+    vedic.transits.mercury-lagna-house-9:
+      all:
+      - fact: transit.mercury.distance_from_lagna
+        op: eq
+        value: 9
+    vedic.transits.jupiter-lagna-house-7:
+      all:
+      - fact: transit.jupiter.distance_from_lagna
+        op: eq
+        value: 7
+    vedic.transits.venus-lagna-house-9:
+      all:
+      - fact: transit.venus.distance_from_lagna
+        op: eq
+        value: 9
+    vedic.transits.saturn-lagna-house-2:
+      all:
+      - fact: transit.saturn.distance_from_lagna
+        op: eq
+        value: 2
+    vedic.transits.rahu-lagna-house-1:
+      all:
+      - fact: transit.rahu.distance_from_lagna
+        op: eq
+        value: 1
+    vedic.transits.ketu-lagna-house-7:
+      all:
+      - fact: transit.ketu.distance_from_lagna
+        op: eq
+        value: 7
+  yoga_exceptions:
+    vedic.yogas.amala:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.bheri:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.gaja-kesari:
+    - when:
+        fact: d1.jupiter.debilitated
+        op: eq
+        value: true
+      effect: soften
+      reason: Jupiter occupies its debilitation sign under the dignity register.
+    - when:
+        fact: d1.yoga.jupiter_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: Strict dignity-and-affliction school softens when Jupiter is combust,
+        in an enemy sign or receives an unrelieved full malefic aspect.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.kahala:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.kemadruma:
+    - when:
+        fact: d1.moon.distance_from_lagna
+        op: in
+        value:
+        - 1
+        - 4
+        - 7
+        - 10
+      effect: cancel
+      reason: Moon is angular from Lagna.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.mercury.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.jupiter.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.venus.distance_from_moon
+          op: eq
+          value: 1
+        - fact: d1.saturn.distance_from_moon
+          op: eq
+          value: 1
+      effect: cancel
+      reason: An eligible graha shares the lunar sign.
+    - when:
+        any:
+        - fact: d1.mars.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.mercury.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.jupiter.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.venus.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+        - fact: d1.saturn.distance_from_moon
+          op: in
+          value:
+          - 4
+          - 7
+          - 10
+      effect: cancel
+      reason: An eligible graha occupies another angle from the Moon.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    - when:
+        fact: d1.yoga.kemadruma_angular
+        op: eq
+        value: true
+      effect: cancel
+      reason: At least one classical graha besides Moon occupies an angle from Lagna.
+    - when:
+        fact: d1.yoga.moon_benefic_aspect
+        op: eq
+        value: true
+      effect: cancel
+      reason: A natural benefic casts a full graha aspect to the Moon.
+    vedic.yogas.nabhasa-pasha:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.neecha-bhanga:
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.raja:
+    - when:
+        fact: d1.yoga.forming_lord_owns_eighth
+        op: eq
+        value: true
+      effect: soften
+      reason: A participating eighth lord qualifies the promise.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.ubhayachari:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vesi:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vimala:
+    - when:
+        fact: d1.yoga.other_lord_association
+        op: eq
+        value: true
+      effect: cancel
+      reason: Strict Viparita school excludes conjunction or mutual full aspect with
+        a distinct unrelated house lord.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+    vedic.yogas.vosi:
+    - when:
+        fact: d1.yoga.mixed_nature_witness
+        op: eq
+        value: true
+      effect: soften
+      reason: Resolve the actual contributing grahas. A mixed benefic and malefic
+        witness does not support an unqualified positive reading.
+    - when:
+        fact: d1.yoga.participant_afflicted
+        op: eq
+        value: true
+      effect: soften
+      reason: A bound forming participant loses war or is combust; retain only softened
+        language. Editorial qualification pending school review.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+  matrix_applications:
+    varga_planets:
+      d9:
+        sun: gemini
+        moon: leo
+        mars: leo
+        mercury: scorpio
+        jupiter: leo
+        venus: scorpio
+        saturn: cancer
+        rahu: cancer
+        ketu: capricorn
+      d10:
+        sun: scorpio
+        moon: virgo
+        mars: aries
+        mercury: aries
+        jupiter: sagittarius
+        venus: pisces
+        saturn: pisces
+        rahu: aries
+        ketu: libra
+    birth_panchanga:
+      vara: Wednesday
+      tithi: 8
+      nakshatra: mrigashira
+      yoga: 2
+      karana_half: 14
+    kala_bala: eligible with resolved rise/set
+    twilight:
+      lower_deg: -6
+      upper_approx_deg: -0.83
+      upper_exclusive: true
+      variant: classical ghatika sandhya

@@ -1,0 +1,51 @@
+scope: Historical lookup only. Scenario labels are scoped by source file. New named charts live in fixtures/.
+legacy_names:
+  asha:
+    Asha: Scenario 1
+  ashtakavarga-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  dosha-charts:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  gochara-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+    Meera: Scenario 3
+  jaimini-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  kp-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  matching-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+    Meera: Scenario 3
+    Kabir: Scenario 4
+  muhurta-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  other-dashas-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  prashna-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+    Meera: Scenario 3
+    Kabir: Scenario 4
+    Dev: Scenario 5
+  shadbala-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  varga-sweep:
+    Asha: Scenario 1
+  vimshottari-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  western-reference:
+    Asha: Scenario 1
+    Ravi: Scenario 2
+  home-days:
+    Asha: Scenario A
+    Ravi: Scenario R

@@ -4,8 +4,8 @@ topic: yogas
 title: Anapha
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the twelfth sign(s) counted from the
-  natal Moon; for both sides require a separate occupant on each.
+rule: At least one of Mars, Mercury, Jupiter, Venus or Saturn occupies the twelfth sign(s) counted from the natal
+  Moon; for both sides require a separate occupant on each.
 conditions:
   all:
   - any:
@@ -65,12 +65,12 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Only Mars, Mercury, Jupiter, Venus and Saturn count. When both flanks are occupied, present Durudhara
-    once rather than stacking the two one-sided readings.
+  note: Only Mars, Mercury, Jupiter, Venus and Saturn count. When both flanks are occupied, present Durudhara once
+    rather than stacking the two one-sided readings.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -81,12 +81,12 @@ sources:
   supports: Flanking placements and their distinct readings.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada and Hindi
-  await native review. Resolve the actual participants before assigning a direction.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review. Resolve the actual participants before assigning a direction.
 user_text:
-  en: You can make room for support from people you trust.
-  kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
-  hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+  en: Time spent preparing quietly may give you more independence later.
+  kn: ಮುಂಚಿತವಾಗಿ ಸಿದ್ಧತೆ ಮಾಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: पहले तैयारी करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

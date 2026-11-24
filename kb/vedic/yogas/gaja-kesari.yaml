@@ -42,15 +42,15 @@ exceptions:
     op: eq
     value: true
   effect: soften
-  reason: Strict dignity-and-affliction school softens when Jupiter is combust, in an enemy sign or receives an unrelieved
-    full malefic aspect.
+  reason: Strict dignity-and-affliction school softens when Jupiter is combust, in an enemy sign or receives an
+    unrelieved full malefic aspect.
 - when:
     fact: d1.yoga.foundation_cancelled
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This is the Moon–Jupiter angular screen. Stricter versions also assess affliction and dignity.
@@ -64,12 +64,12 @@ sources:
   supports: Lunar kendra definition and Kesari interpretation.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may find it helpful to talk through an idea before acting.
-  kn: ಕ್ರಮ ಕೈಗೊಳ್ಳುವ ಮುನ್ನ ವಿಚಾರವನ್ನು ಚರ್ಚಿಸುವುದು ಸಹಾಯವಾಗಬಹುದು.
-  hi: कदम उठाने से पहले विचार पर बात करना सहायक हो सकता है।
+  en: You may find it easier to give advice after listening to the need behind a question.
+  kn: ಸಲಹೆ ನೀಡುವ ಮುನ್ನ ಆಲಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: सलाह से पहले सुनना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

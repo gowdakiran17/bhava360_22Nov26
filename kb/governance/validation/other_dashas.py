@@ -207,7 +207,7 @@ def junction(outgoing,incoming,query_start,query_end):
 
 def validate_other_dashas(rules, read, evaluate, require):
     fixtures = read('examples/other-dashas-reference.yaml')
-    require(fixtures['synthetic'] is True and set(fixtures['charts'])=={'Asha','Ravi'},'synthetic dasha fixtures')
+    require(fixtures['synthetic'] is True and set(fixtures['charts'])=={'Scenario 1','Scenario 2'},'synthetic dasha fixtures')
     year_days = read(ROOT+'vimshottari/periods.yaml')['year_days']
     # These five systems use the two clocks in their existing reference tables.
     clocks = {name: year_days[name] for name in ('mean-gregorian', 'savana')}
@@ -235,7 +235,7 @@ def validate_other_dashas(rules, read, evaluate, require):
                     checked+=1
             require(set(case['dates'])==set(clocks),system+' clocks')
         require(set(chart['reference'])=={'yogini','ashtottari','chara','narayana','kalachakra'},'system coverage')
-    a = fixtures['charts']['Asha']
+    a = fixtures['charts']['Scenario 1']
     cfg = read(ROOT+'ashtottari/periods.yaml')
     require(ashtottari_eligible(cfg,{},cfg['default_gate']) is None,'unknown eligibility')
     require(lunar('ashtottari',cfg,{**a,'positions':{**a['positions'],'rahu':a['lagna']}},0) is None,'Rahu in Lagna')
@@ -259,7 +259,7 @@ def validate_other_dashas(rules, read, evaluate, require):
         require(len(group['padas'])==4 and all(len(row)==9 for row in group['padas']), 'four Kalachakra padas')
     stars = [i for group in cfg['groups'].values() for i in group['stars_one_based']]
     require(sorted(stars)==list(range(1,28)),'Kalachakra star partition')
-    r = fixtures['charts']['Ravi']
+    r = fixtures['charts']['Scenario 2']
     require(sign_path('chara',read(ROOT+'chara/periods.yaml'),r,F(1))[0][0]=='aries','reverse Chara succession')
     require(sign_path('narayana',read(ROOT+'narayana/periods.yaml'),r,F(9))[0][0]=='gemini','fixed Narayana sixth-step progression')
     gate = rules['vedic.dashas-kalachakra.pada-wheel']['conditions']

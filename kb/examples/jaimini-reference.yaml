@@ -1,7 +1,7 @@
 synthetic: true
 units: D1 sign index (Aries zero), followed by exact arcseconds traversed within that sign.
 cases:
-  Asha:
+  Scenario 1:
     lagna: [0, 12000]
     positions:
       sun: [4, 86400]
@@ -20,7 +20,7 @@ cases:
     padas: [9, 10, 5, 0, 1, 2, 8, 9, 5, 6, 6, 2]
     ak_d9: {seven: 7, eight: 6}
     lagna_d9: 1
-  Ravi:
+  Scenario 2:
     lagna: [10, 1]
     positions:
       sun: [1, 3600]

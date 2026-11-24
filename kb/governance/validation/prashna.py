@@ -60,7 +60,7 @@ def validate_prashna(rules, read, evaluate, require):
 
     covered = set()
     for case in ref['cases']:
-        require(case['person'] in ('Asha', 'Ravi', 'Meera', 'Kabir', 'Dev'), 'synthetic identity')
+        require(case['person'] in ('Scenario 1', 'Scenario 2', 'Scenario 3', 'Scenario 4', 'Scenario 5'), 'synthetic identity')
         chart = ref['charts'][case['chart']]
         site = ref['sites'][chart['site']]
         instant = datetime.fromisoformat(chart['instant'])

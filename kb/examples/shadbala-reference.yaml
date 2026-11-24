@@ -3,7 +3,7 @@ graha_order: [sun, moon, mars, mercury, jupiter, venus, saturn]
 provenance: Independent arithmetic worksheet using static KB-11 sign rows, explicit graha orders and synthetic solar intervals. Inputs are
   invented diagnostic positions, not ephemeris records.
 fixtures:
-  Asha:
+  Scenario 1:
     inputs:
       longitude:
         rahu: 85
@@ -69,7 +69,7 @@ fixtures:
       meets_minimum: [true, true, true, false, true, true, true]
       ishta: [45.82575695, 33.61547263, 39.81624459, 12.11060142, 7.18795288, 19.80740602, 37.8153408]
       kashta: [0.0, 25.88435821, 8.08290377, 46.54746681, 41.1298756, 34.53018004, 22.13594362]
-  Ravi:
+  Scenario 2:
     inputs:
       longitude:
         rahu: 85

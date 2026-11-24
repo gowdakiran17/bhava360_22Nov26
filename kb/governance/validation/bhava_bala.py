@@ -108,8 +108,14 @@ def houses(c, totals, read, method="whole-sign-middle"):
                 return None
             weight = table['drik']['weights'].get(p,table['drik']['weights']['other'])
             terms[p] = aspect(drik,p,(mid-lon[p])%360)*weight*(1 if good or p in ('mercury','jupiter') else -1)
-        occupancy = sum(weight for body,weight in table['occupants']['weights'].items() if int(lon[body]//30)==idx)
-        time_term = table['birth_time']['award'] if signs[idx]['id'] in table['birth_time'][period] else 0
+        if method == 'sripati':
+            previous_span = spans[(quadrant-1)%4] if third == 0 else spans[quadrant]
+            left = (mid-previous_span/6)%360
+            width = (previous_span+spans[quadrant])/6
+        else:
+            left,width = 30*idx,30
+        occupancy = sum(weight for body,weight in table['occupants']['weights'].items() if (lon[body]-left)%360 < width)
+        time_term = table['birth_time']['award'] if signs[int(mid//30)]['id'] in table['birth_time'][period] else 0
         net = sum(terms.values())
         rows.append(dict(house=h, madhya=mid, lord=lord, sign_class=group,
                          lord_total=totals[lord], dig=dig, signed_aspects=terms, drik=net,
@@ -184,7 +190,7 @@ def validate_bhava(read, require):
             and bhava_word(s['twelve_totals'],10,w['bhava'])==s['label']
             and w['labels'][s['label']]==s['public_words'],'S1 house ten worksheet')
     require(houses(dict(s['inputs'],asc=None),s['lord_totals'],read) is None,'missing Lagna')
-    for degree,label in [(4.99,'moolatrikona'),(5,'moolatrikona'),(14.99,'moolatrikona'),(15,'own-sign')]:
+    for degree,label in read('examples/fixtures/boundaries.yaml')['venus_libra'].items():
         require(dignity_label(dignity,'venus','libra',degree,True,None)==label,'Venus Libra boundary')
     for altitude,period in [(-.83,'day'),(-.831,'twilight'),(-6,'twilight'),(-6.001,'night')]:
         rows=houses(dict(s['inputs'],solar_altitude_deg=altitude),s['lord_totals'],read)
@@ -197,6 +203,7 @@ def validate_bhava(read, require):
     require(occupied['occupants']==sum(value for body,value in table['occupants']['weights'].items()
             if s['inputs']['longitude'][body]//30==occupied['madhya']//30),'whole-sign occupants')
     sripati=houses(s['inputs'],s['lord_totals'],read,'sripati')
+    require([round(sripati[i-1]['total'],2) for i in (4,9,10)]==[446.44,669.15,545.59], 'Sripati sandhis and rising sign')
     for house, lord in s['sripati_lords'].items():
         row = sripati[house - 1]
         require(row['lord'] == lord and row['lord_total'] == s['lord_totals'][lord],

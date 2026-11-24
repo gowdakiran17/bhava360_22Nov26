@@ -5,7 +5,7 @@ provenance: Expected BAV cells independently tallied by destination sign from Ra
 sign_index: Aries = 0 through Pisces = 11
 pinda_order: [rashi, graha, shodhya]
 fixtures:
-  Asha:
+  Scenario 1:
     natal_signs:
       sun: 0
       moon: 3
@@ -48,7 +48,7 @@ fixtures:
       jupiter: [143, 145, 288]
       venus: [113, 36, 149]
       saturn: [115, 46, 161]
-  Ravi:
+  Scenario 2:
     natal_signs:
       sun: 11
       moon: 9

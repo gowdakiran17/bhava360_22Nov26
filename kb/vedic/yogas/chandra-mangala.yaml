@@ -40,8 +40,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: This profile uses conjunction. Some practitioners also consider mutual aspects.
@@ -57,12 +57,12 @@ sources:
   supports: Moon and Mars paired in one sign.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may want to review the resources available for your plan.
-  kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+  en: You can give a practical impulse a moment of reflection before acting.
+  kn: ಉದ್ದೇಶವನ್ನು ಪರಿಶೀಲಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: इरादे पर विचार करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

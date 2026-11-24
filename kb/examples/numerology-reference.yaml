@@ -11,9 +11,25 @@ dates:
   chaldean: {life-path: 9, birthday: 3, personal-year: 7, personal-month: 9, personal-day: 5}
   pythagorean: {life-path: 9, birthday: 3, personal-year: 7, personal-month: 9, personal-day: 5}
 - birth: '2000-02-29'
+  label: Scenario N2 (synthetic master birthday)
   target: '2024-02-29'
   chaldean: {life-path: 6, birthday: 2, personal-year: 3, personal-month: 5, personal-day: 7}
   pythagorean: {life-path: 6, birthday: 11, personal-year: 3, personal-month: 5, personal-day: 7}
+- label: Scenario N3 (synthetic master path)
+  birth: '2000-11-09'
+  target: '2026-11-24'
+  chaldean:
+    life-path: 4
+    birthday: 9
+    personal-year: 3
+    personal-month: 5
+    personal-day: 2
+  pythagorean:
+    life-path: 22
+    birthday: 9
+    personal-year: 3
+    personal-month: 5
+    personal-day: 11
 maturity: 9
 name_metrics:
   chaldean:

@@ -4,10 +4,16 @@ topic: dashas/vimshottari
 title: love-marriage and the active house lord
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Current major period lord owns natal house 7.
+rule: 'Current major lord owns any of the recipe houses: 7, 2, 11.'
 conditions:
-  all:
+  any:
   - fact: dasha.active_lord.owns_house_7
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_2
+    op: eq
+    value: true
+  - fact: dasha.active_lord.owns_house_11
     op: eq
     value: true
 meaning: You can make room for a conversation about life together.

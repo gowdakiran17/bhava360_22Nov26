@@ -29,5 +29,6 @@ used_by:
 - vedic.states.baladi
 - vedic.transits.mars-moon-house-7
 - vedic.transits.station
+- vedic.yogas.nabhasa-sarpa
 used_in_files:
 - numerology/transliteration.yaml

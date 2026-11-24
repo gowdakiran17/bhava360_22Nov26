@@ -11,8 +11,7 @@ conditions:
   - fact: d1.moon.eligible_flank
     op: eq
     value: false
-meaning: With both lunar flanks empty, it may help to consider what support is available when doing something
-  independently.
+meaning: With both lunar flanks empty, it may help to consider what support is available when doing something independently.
 life_areas:
 - family-home
 - learning
@@ -105,12 +104,24 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
+- when:
+    fact: d1.yoga.kemadruma_angular
+    op: eq
+    value: true
+  effect: cancel
+  reason: At least one classical graha besides Moon occupies an angle from Lagna.
+- when:
+    fact: d1.yoga.moon_benefic_aspect
+    op: eq
+    value: true
+  effect: cancel
+  reason: A natural benefic casts a full graha aspect to the Moon.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Use the five non-luminary classical planets for companionship and lunar angles. Schools differ on
-    angular and navamsha qualifications. This profile tests D1 whole signs.
+  note: Use the five non-luminary classical planets for companionship and lunar angles. Schools differ on angular
+    and navamsha qualifications. This profile tests D1 whole signs.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -128,13 +139,21 @@ sources:
   other_locator: Named yoga or graha combination
   supports: Lunar neighbours and alternative kendra/navamsha readings.
   verification: verified
+- work_id: saravali
+  book: Saravali
+  edition: null
+  chapter: 13
+  verse: null
+  other_locator: Chapter 13
+  supports: Additional Lagna angle and lunar aspect cancellation; edition locator pending.
+  verification: pending
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: When a task feels like yours alone, you can name one person you would feel comfortable asking for help.
-  kn: ಒಂದು ಕೆಲಸವನ್ನು ಒಬ್ಬರೇ ಮಾಡಬೇಕೆನಿಸಿದಾಗ ನೆರವು ಕೇಳಲು ನಿಮಗೆ ಹಿತವೆನಿಸುವ ಒಬ್ಬರನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
-  hi: जब कोई काम अकेले सँभालना पड़े, तो आप किसी ऐसे व्यक्ति को याद कर सकते हैं जिससे मदद माँगना सहज लगे।
+  en: During quieter stretches you can name a person or routine that helps you feel connected.
+  kn: ಸಂಪರ್ಕಕ್ಕೆ ಸಮಯ ಕೊಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: संपर्क के लिए समय रखना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending
@@ -144,7 +163,7 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: "You can ask someone you trust for help with one small task."
+    en: You can ask someone you trust for help with one small task.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಂದು ಸಣ್ಣ ಕೆಲಸಕ್ಕೆ ನಂಬಿಕೆಯ ವ್ಯಕ್ತಿಯ ನೆರವು ಕೇಳಬಹುದು.
     hi: चाहें तो किसी भरोसेमंद व्यक्ति से एक छोटे काम में मदद माँग सकते हैं।
 related_rules:

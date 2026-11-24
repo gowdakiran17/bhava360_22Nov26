@@ -41,12 +41,12 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: Includes the ruler in its own dusthana. Stricter viparita readings restrict other associations and
-    may require a different dusthana.
+  note: Includes the ruler in its own dusthana. Stricter viparita readings restrict other associations and may require
+    a different dusthana.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -57,12 +57,12 @@ sources:
   supports: House yoga name and interpretation. The broad three-dusthana placement screen is the KB convention.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You can make room for support from people you trust.
-  kn: ನಂಬಿಕೆಯ ಜನರಿಂದ ನೆರವು ಪಡೆಯಲು ಅವಕಾಶ ಮಾಡಿಕೊಳ್ಳಬಹುದು.
-  hi: आप भरोसेमंद लोगों का सहारा ले सकते हैं।
+  en: A routine for handling everyday obstacles may become a useful skill.
+  kn: ದಿನದ ತೊಡಕು ನಿಭಾಯಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: रोज़ की अड़चन सँभालना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

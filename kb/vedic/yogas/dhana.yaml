@@ -4,7 +4,8 @@ topic: yogas
 title: Dhana lord association
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Second or eleventh lord is linked to fifth or ninth lord by conjunction or exchange.
+rule: Include links among the Lagna, resource and trinal lords, including the direct resource-resource and trine-trine
+  pairs.
 conditions:
   all:
   - fact: d1.lords.wealth_trine_link
@@ -38,8 +39,8 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use distinct lords, a conjunction or reciprocal exchange and the actual houses owned in this chart.
@@ -52,16 +53,24 @@ sources:
   chapter: 41
   verse: 1–10
   other_locator: Named yoga or graha combination
-  supports: Classical wealth combinations. The KB’s 2/11 to 5/9 conjunction-or-exchange screen is an editorial
-    subset of the broader tradition.
+  supports: Classical wealth combinations. The KB’s 2/11 to 5/9 conjunction-or-exchange screen is an editorial subset
+    of the broader tradition.
   verification: verified
+- work_id: bphs
+  book: Brihat Parashara Hora Shastra
+  edition: null
+  chapter: 41
+  verse: null
+  other_locator: Chapter 41
+  supports: Additional Lagna, resource-resource and trine-trine links; edition verification pending.
+  verification: pending
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You may want to review the resources available for your plan.
-  kn: ಯೋಜನೆಗೆ ಲಭ್ಯವಿರುವ ಸಂಪನ್ಮೂಲಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
-  hi: अपनी योजना के लिए उपलब्ध संसाधन देख सकते हैं।
+  en: Skills and trusted guidance may shape how you look after resources.
+  kn: ಕೌಶಲ ಮತ್ತು ಉಳಿತಾಯ ಜೋಡಿಸುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: कौशल और बचत को जोड़ना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending

@@ -1,7 +1,7 @@
 version: 1
 approval: draft
 synthetic: true
-scope: Invented local Tuesday with minute-of-day windows. D1 injects independent factors to exercise the requested mixed row. Its house and Tara combination is not a single astronomical Moon placement. Asha and Ravi use Lahiri Moshier natal Moon sign/star indices (zero based), with the same invented transit Moon in Scorpio / Anuradha.
+scope: Invented local Tuesday with minute-of-day windows. D1 injects independent factors to exercise the requested mixed row. Its house and Tara combination is not a single astronomical Moon placement. Scenario A and Scenario R use Lahiri Moshier natal Moon sign/star indices (zero based), with the same invented transit Moon in Scorpio / Anuradha.
 base:
   weekday: Tuesday
   birth_moon: 0
@@ -29,5 +29,5 @@ cases:
   D10: {input: {candidates: [[labh, 400, 415]]}, expect: {best: [400,415]}}
   D11: {input: {candidates: [[labh, 400, 414]]}, expect: {best: null}}
   D12: {input: {birth_star: 26, transit_star: 0}, expect: {tara: 2}}
-  Asha: {input: {birth_moon: 1, birth_star: 4, transit_star: 16, star_name: anuradha}, expect: {moon_house: 7, tara: 4, tone: Supportive}}
-  Ravi: {input: {birth_moon: 10, birth_star: 23, transit_star: 16, star_name: anuradha}, expect: {moon_house: 10, tara: 3, tone: Steady}}
+  Scenario A: {input: {birth_moon: 1, birth_star: 4, transit_star: 16, star_name: anuradha}, expect: {moon_house: 7, tara: 4, tone: Supportive}}
+  Scenario R: {input: {birth_moon: 10, birth_star: 23, transit_star: 16, star_name: anuradha}, expect: {moon_house: 10, tara: 3, tone: Steady}}

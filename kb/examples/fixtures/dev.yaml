@@ -1,0 +1,725 @@
+synthetic: true
+approval: draft
+fixture: Dev
+local: '1995-01-05T12:00:00+05:30'
+city: Chennai
+latitude: 13.08
+longitude: 80.27
+utc: '1995-01-05T06:30:00+00:00'
+julian_day: 2449722.7708333335
+stable_birth_panchanga:
+  vara: null
+  tithi: null
+  nakshatra: null
+  yoga: null
+  karana_half: null
+sunrise_local: '1995-01-05T06:32:34.673056+05:30'
+precision: unknown
+tier: C
+rectified: false
+reading_at: '2026-11-24T12:00:00+05:30'
+provenance:
+  binding: 2.10.3.2
+  swiss_version: 2.10.03
+  files_sha256:
+    sepl_18.se1: ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66
+    semo_18.se1: 1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7
+  package: '@kuntay/swisseph-data@0.2.2'
+  flags: 65794
+  actual_backend: SEFLG_SWIEPH
+  sidereal_mode: 1
+  node: mean
+  houses: whole-sign
+  dasha_year_days: 365.25
+  command: Set SWEPH_PATH to the extracted ephe directory; run python kb/examples/fixtures/generate.py
+    then python kb/examples/fixtures/workflow.py
+lagna: null
+grahas:
+  sun:
+    sign: sagittarius
+    degree: 20.65399250726597
+    nakshatra: purva-ashadha
+    pada: 3
+    d9: libra
+    d10: gemini
+    longitude: 260.65399250726597
+    speed: 1.0195378906195203
+    retrograde: false
+    combust: false
+    unstable:
+    - d10
+    latitude: 0.00025365153224373593
+  moon:
+    sign: aquarius
+    degree: 11.094227849420975
+    nakshatra: shatabhisha
+    pada: 2
+    d9: capricorn
+    d10: taurus
+    longitude: 311.094227849421
+    speed: 13.414409956028697
+    retrograde: false
+    combust: false
+    unstable:
+    - nakshatra
+    - pada
+    - d9
+    - d10
+    latitude: 4.706673506414394
+  mars:
+    sign: leo
+    degree: 8.841482644898946
+    nakshatra: magha
+    pada: 3
+    d9: gemini
+    d10: libra
+    longitude: 128.84148264489895
+    speed: -0.030971170463255572
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: 3.6257889405480612
+  mercury:
+    sign: capricorn
+    degree: 3.5484858687280507
+    nakshatra: uttara-ashadha
+    pada: 3
+    d9: aquarius
+    d10: libra
+    longitude: 273.54848586872805
+    speed: 1.6110726819049765
+    retrograde: false
+    combust: true
+    unstable:
+    - pada
+    - d9
+    - d10
+    latitude: -2.0852056099943117
+  jupiter:
+    sign: scorpio
+    degree: 11.788383079796034
+    nakshatra: anuradha
+    pada: 3
+    d9: libra
+    d10: libra
+    longitude: 221.78838307979603
+    speed: 0.19600863293787468
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 0.7603728125813612
+  venus:
+    sign: scorpio
+    degree: 4.056167220995519
+    nakshatra: anuradha
+    pada: 1
+    d9: leo
+    d10: leo
+    longitude: 214.05616722099552
+    speed: 0.9541313401878719
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: 3.6478625085184584
+  saturn:
+    sign: aquarius
+    degree: 14.565814848098455
+    nakshatra: shatabhisha
+    pada: 3
+    d9: aquarius
+    d10: gemini
+    longitude: 314.56581484809846
+    speed: 0.08816799010606885
+    retrograde: false
+    combust: false
+    unstable: []
+    latitude: -1.7891914305435044
+  rahu:
+    sign: libra
+    degree: 17.75101795513953
+    nakshatra: swati
+    pada: 4
+    d9: pisces
+    d10: pisces
+    longitude: 197.75101795513953
+    speed: -0.05299202594801406
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: 0.0
+  ketu:
+    sign: aries
+    degree: 17.75101795513956
+    nakshatra: bharani
+    pada: 2
+    d9: virgo
+    d10: virgo
+    longitude: 17.75101795513956
+    speed: -0.05299202594801406
+    retrograde: true
+    combust: false
+    unstable: []
+    latitude: -0.0
+working_instant_periods: {}
+pair_relationship_examples: {}
+sade_sati: leaving
+consultation:
+  optional_practice: null
+  rule_chain:
+  - vedic.planets-in-signs.sun-sagittarius
+  - vedic.planets-in-signs.moon-aquarius
+  - vedic.planets-in-signs.mars-leo
+  - vedic.planets-in-signs.mercury-capricorn
+  - vedic.planets-in-signs.jupiter-scorpio
+  - vedic.planets-in-signs.venus-scorpio
+  - vedic.planets-in-signs.saturn-aquarius
+  - vedic.planets-in-signs.rahu-libra
+  - vedic.planets-in-signs.ketu-aries
+  - vedic.yogas.nabhasa-pasha
+  - vedic.transits.sun-moon-house-10
+  - vedic.transits.moon-moon-house-4
+  - vedic.transits.mars-moon-house-7
+  - vedic.transits.mercury-moon-house-9
+  - vedic.transits.jupiter-moon-house-7
+  - vedic.transits.venus-moon-house-9
+  - vedic.transits.saturn-moon-house-2
+  - vedic.transits.rahu-moon-house-1
+  - vedic.transits.ketu-moon-house-7
+  grades:
+    sun:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: 0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: -1.0
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: adhi-mitra
+      d9: debilitation-sign
+      functional: null
+    moon:
+      worksheet: null
+      d1: shatru
+      d9: mitra
+      functional: null
+    mars:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: 0.0
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: -0.5
+          vargottama: 0
+        total: 0.5
+        grade: Weak
+      d1: sama
+      d9: adhi-shatru
+      functional: null
+    mercury:
+      worksheet: null
+      d1: mitra
+      d9: shatru
+      functional: null
+    jupiter:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: -1
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: adhi-mitra
+      d9: sama
+      functional: null
+    venus:
+      worksheet:
+        terms:
+          d1: 1
+          house: 1
+          aspects: -1
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 1.0
+        grade: Moderate
+      d1: mitra
+      d9: sama
+      functional: null
+    saturn:
+      worksheet:
+        terms:
+          d1: 2.5
+          house: 1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 1.25
+          vargottama: 1
+        total: 5.25
+        grade: Strong
+      d1: moolatrikona
+      d9: moolatrikona
+      functional: null
+    rahu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -0.5
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 0.5
+        grade: Weak
+      d1: null
+      d9: null
+      functional: null
+    ketu:
+      worksheet:
+        terms:
+          d1: 0
+          house: 1
+          aspects: -1
+          combust: 0
+          war: 0
+          retrograde: 0
+          d9: 0.0
+          vargottama: 0
+        total: 0.0
+        grade: Weak
+      d1: null
+      d9: null
+      functional: null
+  yogas:
+    vedic.yogas.nabhasa-pasha:
+    - participants:
+      - jupiter
+      - mars
+      - mercury
+      - moon
+      - saturn
+      - sun
+      - venus
+      vedic.yoga.nabhasa-pasha.gate: null
+      vedic.yoga.nabhasa-pasha.active: null
+      display: withheld
+      period_evidence: false
+  areas:
+    career:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Weak
+        occupants:
+        - - null
+          - Moderate
+        - - null
+          - Moderate
+        aspects:
+        - null
+        - Benefic
+        - null
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id001 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id001
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+    love-marriage:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Moderate
+        occupants:
+        - - null
+          - Weak
+        aspects:
+        - null
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id002 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id002
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+    money:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - null
+        - Benefic
+        - Benefic
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id003 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id003
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+    health:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Strong
+        occupants:
+        - - null
+          - null
+        - - null
+          - Strong
+        aspects:
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id004 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id004
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+    family-home:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - Benefic
+        - null
+        - Benefic
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id005 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id005
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+    learning:
+      lord: null
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: Moon-only; Lagna promise withheld
+      witnesses: {}
+      moon_witnesses:
+        lord: Moderate
+        occupants: []
+        aspects:
+        - Benefic
+        - null
+        - Benefic
+        - null
+      challenge_resolution: null
+      card: null
+      modulation: {}
+      active_yogas: &id006 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id006
+        functional_lord: null
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Moon only
+        other_systems: disabled
+        final: null
+  transits:
+    moon:
+    - vedic.transits.sun-moon-house-10
+    - vedic.transits.moon-moon-house-4
+    - vedic.transits.mars-moon-house-7
+    - vedic.transits.mercury-moon-house-9
+    - vedic.transits.jupiter-moon-house-7
+    - vedic.transits.venus-moon-house-9
+    - vedic.transits.saturn-moon-house-2
+    - vedic.transits.rahu-moon-house-1
+    - vedic.transits.ketu-moon-house-7
+    lagna: []
+  today:
+    context:
+      fast_events: []
+      moon_contacts: []
+      slow_phase_boundaries: []
+    tithi: Purna
+    tone: Steady
+    moon_house: 4
+    tara: null
+    chandra: caution
+    focus: []
+    good:
+    - important-talk
+    easy: []
+    best: null
+    exclusions: []
+    chips:
+    - moon-chip
+  month_tone: Take care
+  public_en:
+    today: A quiet corner at home may help you unwind.
+    month: You can leave extra time for changes in your plans this month.
+    confidence: Without a birth time, you can explore the parts of a Moon-sign reading
+      that stay consistent through the day.
+  confidence:
+    lagna: hide
+    bav: hide
+    sav: hide
+    kakshya: hide
+    d9: hide
+    d10: hide
+    d9-planet-sign: show
+    d10-planet-sign: show
+    birth-panchanga: show
+    shadbala-kala: show
+  matched_predicates:
+    vedic.planets-in-signs.sun-sagittarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: sun
+      - fact: d1.selected_point.sign
+        op: eq
+        value: sagittarius
+    vedic.planets-in-signs.moon-aquarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: moon
+      - fact: d1.selected_point.sign
+        op: eq
+        value: aquarius
+    vedic.planets-in-signs.mars-leo:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mars
+      - fact: d1.selected_point.sign
+        op: eq
+        value: leo
+    vedic.planets-in-signs.mercury-capricorn:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: mercury
+      - fact: d1.selected_point.sign
+        op: eq
+        value: capricorn
+    vedic.planets-in-signs.jupiter-scorpio:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: jupiter
+      - fact: d1.selected_point.sign
+        op: eq
+        value: scorpio
+    vedic.planets-in-signs.venus-scorpio:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: venus
+      - fact: d1.selected_point.sign
+        op: eq
+        value: scorpio
+    vedic.planets-in-signs.saturn-aquarius:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: saturn
+      - fact: d1.selected_point.sign
+        op: eq
+        value: aquarius
+    vedic.planets-in-signs.rahu-libra:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: rahu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: libra
+    vedic.planets-in-signs.ketu-aries:
+      all:
+      - fact: d1.selected_point.graha
+        op: eq
+        value: ketu
+      - fact: d1.selected_point.sign
+        op: eq
+        value: aries
+    vedic.yogas.nabhasa-pasha:
+      all:
+      - fact: d1.yoga.nabhasa_pasha_formed
+        op: eq
+        value: true
+    vedic.transits.sun-moon-house-10:
+      all:
+      - fact: transit.sun.distance_from_natal_moon
+        op: eq
+        value: 10
+    vedic.transits.moon-moon-house-4:
+      all:
+      - fact: transit.moon.distance_from_natal_moon
+        op: eq
+        value: 4
+    vedic.transits.mars-moon-house-7:
+      all:
+      - fact: transit.mars.distance_from_natal_moon
+        op: eq
+        value: 7
+    vedic.transits.mercury-moon-house-9:
+      all:
+      - fact: transit.mercury.distance_from_natal_moon
+        op: eq
+        value: 9
+    vedic.transits.jupiter-moon-house-7:
+      all:
+      - fact: transit.jupiter.distance_from_natal_moon
+        op: eq
+        value: 7
+    vedic.transits.venus-moon-house-9:
+      all:
+      - fact: transit.venus.distance_from_natal_moon
+        op: eq
+        value: 9
+    vedic.transits.saturn-moon-house-2:
+      all:
+      - fact: transit.saturn.distance_from_natal_moon
+        op: eq
+        value: 2
+    vedic.transits.rahu-moon-house-1:
+      all:
+      - fact: transit.rahu.distance_from_natal_moon
+        op: eq
+        value: 1
+    vedic.transits.ketu-moon-house-7:
+      all:
+      - fact: transit.ketu.distance_from_natal_moon
+        op: eq
+        value: 7
+  yoga_exceptions:
+    vedic.yogas.nabhasa-pasha:
+    - when:
+        fact: d1.yoga.specific_shape_precedes
+        op: eq
+        value: true
+      effect: cancel
+      reason: Suppress the general count when a more specific eligible Nabhasa pattern
+        supplies the reading.
+    - when:
+        fact: d1.yoga.foundation_cancelled
+        op: eq
+        value: true
+      effect: cancel
+      reason: The bound prerequisite has been withdrawn by a matched cancellation.
+        Apply only to that witness; never cancel an unrelated match.
+  matrix_applications:
+    varga_planets:
+      d9:
+        sun: libra
+        mars: gemini
+        jupiter: libra
+        venus: leo
+        saturn: aquarius
+        rahu: pisces
+        ketu: virgo
+      d10:
+        mars: libra
+        jupiter: libra
+        venus: leo
+        saturn: gemini
+        rahu: pisces
+        ketu: virgo
+    birth_panchanga:
+      vara: null
+      tithi: null
+      nakshatra: null
+      yoga: null
+      karana_half: null
+    kala_bala: withhold time-dependent subtotal
+    twilight:
+      lower_deg: -6
+      upper_approx_deg: -0.83
+      upper_exclusive: true
+      variant: classical ghatika sandhya

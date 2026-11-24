@@ -4,8 +4,8 @@ topic: yogas
 title: Saraswati
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Mercury, Venus and Jupiter each occupy house 1, 2, 4, 5, 7, 9 or 10 from Lagna. Jupiter also meets its
-  strength minimum in an own, exaltation or naturally friendly sign.
+rule: Mercury, Venus and Jupiter each occupy house 1, 2, 4, 5, 7, 9 or 10 from Lagna. Jupiter also meets its strength
+  minimum in an own, exaltation or naturally friendly sign.
 conditions:
   all:
   - fact: d1.mercury.distance_from_lagna
@@ -71,12 +71,12 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
-    an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
+    cancel an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The text calls for strength. This profile operationalises it using Jupiter’s shadbala minimum and
-    natural sign relationships.
+  note: The text calls for strength. This profile operationalises it using Jupiter’s shadbala minimum and natural
+    sign relationships.
 sources:
 - book: Phaladeepika
   work_id: phaladeepika
@@ -87,12 +87,12 @@ sources:
   supports: Three grahas in eligible houses, with strong and well-placed Jupiter.
   verification: verified
 confidence: medium
-review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors.
-  Kannada and Hindi await native review.
+review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
+  and Hindi await native review.
 user_text:
-  en: You can try explaining an idea through a story, a sketch or a worked example.
-  kn: ಒಂದು ವಿಚಾರವನ್ನು ಕಥೆ, ಚಿತ್ರ ಅಥವಾ ಉದಾಹರಣೆಯ ಮೂಲಕ ವಿವರಿಸಬಹುದು.
-  hi: आप कोई विचार कहानी, चित्र या हल किए हुए उदाहरण से समझा सकते हैं।
+  en: Learning may become easier when you combine discussion with creative practice.
+  kn: ಚರ್ಚೆಯೊಂದಿಗೆ ಅಭ್ಯಾಸ ಮಾಡುವುದು ನಿಮಗೆ ನೆರವಾಗಬಹುದು.
+  hi: चर्चा के साथ अभ्यास करना आपके लिए उपयोगी हो सकता है।
 native_review:
   kn: pending
   hi: pending
