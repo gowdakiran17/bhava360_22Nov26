@@ -134,7 +134,7 @@ def election(policy, core, table, natal_sign, years, asc, sect, pos):
     for g in set(candidates):
         ray = sign_ray(pos[g][0], asc)
         if ray is not None:
-            aspects[g] = 30 - abs(ray[1])
+            aspects[g] = policy['aspect_strength']['by_angle'][ray[0]]
     strengths = {g: five_strength(table, g, pos) for g in candidates}
     return muntha, candidates, year_lord(candidates, aspects, strengths, RULERS[muntha], moon_successor(core,pos))
 

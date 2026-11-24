@@ -88,6 +88,7 @@ def check_annual(read, rules, require):
     m,c,w=election(policy,core,strength['panchavargiya'],v['natal_lagna_sign_index'],v['completed_years'],asc,v['sect'],pos)
     require((m,c,w)==(v['muntha_sign_index'],v['candidates'],v['varsheshwara']),'V1 election')
     require(election(policy,core,strength['panchavargiya'],3,10,None,'day',pos)==(None,None,None), 'missing annual Lagna')
+    require(policy['aspect_strength']['by_angle']=={0:2,60:1,90:1,120:2,180:2}, 'annual aspect classes')
     pair = ['sun','mars']
     require(year_lord(pair,{},dict(sun=10,mars=8),'mars')=='sun', 'no aspect: strongest office holder')
     require(year_lord(pair,dict(sun=2,mars=1),dict(sun=8,mars=8),'mars')=='sun', 'stronger aspect')

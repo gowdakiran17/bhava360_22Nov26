@@ -4487,6 +4487,7 @@ lens
 lenskart
 leo
 less
+lesser
 lesson
 lessons
 let
@@ -6256,6 +6257,7 @@ refraction
 reframing
 refresh
 refs
+regard
 regards
 regenerate
 region

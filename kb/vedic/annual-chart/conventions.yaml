@@ -53,8 +53,11 @@ triplicity:
 selection: Retain the office holders with a permitted sign aspect to the annual Lagna. If none aspects, rank all five.
   Rank by Panchavargiya, then aspect strength, then prefer the Muntha lord. An unresolved tie withholds the lord.
   If the winner is the Moon substitute its applying ithasala partner, otherwise its sign ruler. Never return the Moon.
-aspect_strength: For this profile rank permitted rays by closeness to exact degree (smaller absolute residual wins).
-  Where the Moon has several applications, use the earliest projected perfection; withhold a simultaneous tie.
+aspect_strength:
+  by_angle: {0: 2, 60: 1, 90: 1, 120: 2, 180: 2}
+  basis: Compare strong and lesser sign-aspect classes without regard to friendly or hostile nature.
+  comparison_source: PyJHora 5.0.6, jhora/horoscope/transit/tajaka.py, trinal, sextile, square, opposition and conjunction aspect functions.
+moon_application: Where several applications qualify, use the earliest projected perfection; withhold a simultaneous tie.
 traditions_differ: Some schools prioritize friendly aspects or the sect luminary ruler in an inconclusive election.
   Select one convention throughout.
 yogas:
