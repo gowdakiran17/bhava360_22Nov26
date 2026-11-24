@@ -7,40 +7,38 @@ approval: draft
 tag: MODERN/POPULAR
 feature_gate: nakshatra-nadi
 visibility: admin-only
-status: blocked
+status: held
 native_review_needed: true
-rule: When examining an obstacle the proposed priority is NL, then SL, then PL. Leave the ranking inactive until
-  its basis is checked.
+rule: Combine internal line evidence with weights SL 0.50, NL 0.30 and PL 0.20 for every event.
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
   - fact: kp.sub.known
     op: eq
     value: true
-meaning: When examining an obstacle the proposed priority is NL, then SL, then PL.
+meaning: The sub lord has the largest internal contribution.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
-    fails.
+  note: The owner assigns SL 0.50, NL 0.30 and PL 0.20 internally for all events. File 4, PDF p. 26 gives NL, SL,
+    PL priority for losses.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
   edition: dinesh-nakshatra-nadi-private
   chapter: 4-english-basic-book.pdf
   verse: null
-  other_locator: PDF pp. 4, 20-21
-  supports: Method and scope
-  verification: pending
-  to_verify: true
-confidence: low
-review_notes: Internal study only. Resolve power-and-circle, planet-line.
+  other_locator: PDF p. 26
+  supports: Alternative loss ordering
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator checked by Jyoti and supplied in the review.
+confidence: high
+review_notes: 'Resolved 2026-11-24: power-and-circle, planet-line. Internal review only.'
 user_text:
   en: You can leave this detail open for now.
   kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.

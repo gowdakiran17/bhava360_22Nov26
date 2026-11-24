@@ -26,72 +26,32 @@ rule_index:
   NN-M21: nadi.nakshatra-nadi.lagna-estimate-shortcut
   NN-M22: nadi.nakshatra-nadi.not-covered
 open_questions:
-  power-and-circle: Define power position and circle (NN-M13); without them the hit-theory and many ranked lists
-    cannot be implemented.
-  house-frame: 'Confirm house system: KP Placidus cusps (E p2) or sign-based houses (B pp45-49 examples)?'
-  planet-line: Confirm PL means the planet itself, not its sign lord (NN-M03).
-  node-association: 'Node combination: same-sign or same-house conjunction; sign-count aspects or degree aspects?'
+  node-dignity: Q10. Leave nodal dignity unset. No judgement depends on this reference.
+  hit-grid-data: The row and column are known. Private grid contents remain unavailable.
 additional_review:
-- Ayanamsa the course software uses (KP new, KP old, Lahiri)?
 - Both-absent case of the 11/12 bifurcation (E p15 scenario 4).
 - H p5 (child birth) repeats the marriage wording for house 8, apparently a copy slip; which reading is intended?
 - 'Retrograde, combustion and transit: confirm they are deliberately ignored.'
 - 'Donations: allowed only as optional, no-cost service, or dropped entirely?'
 blocked_by:
-  nadi.nakshatra-nadi.three-line-chain-per-planet:
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.house-meanings-by-life-area:
-  - house-frame
-  nadi.nakshatra-nadi.planet-house-combination:
-  - house-frame
-  nadi.nakshatra-nadi.node-combination:
-  - house-frame
-  - node-association
-  nadi.nakshatra-nadi.period-roles:
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions:
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.area-polarity-sets:
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.neutral-house-bifurcation:
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.line-weight:
-  - power-and-circle
-  - planet-line
-  nadi.nakshatra-nadi.power-position-and-circle:
-  - power-and-circle
   nadi.nakshatra-nadi.hit-grids:
-  - power-and-circle
-  nadi.nakshatra-nadi.mitigation-inside-a-harmful-set:
-  - power-and-circle
-  - house-frame
-  - planet-line
-  - node-association
-  nadi.nakshatra-nadi.keyword-layer:
-  - house-frame
+  - hit-grid-data
   nadi.nakshatra-nadi.node-dignity-and-time-strength:
-  - node-dignity-review
+  - node-dignity
 traditions_differ:
-  ayanamsa: Use KP mode 5. The course leaves its software setting unstated; compare Lahiri only in a separate record.
-  node: Use true nodes on the KP path and mean nodes only in the Lahiri comparison.
-  house_system: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
-    fails.
+  ayanamsa: The owner selected KP sidereal mode 5 for every chart.
+  node: Use the true node throughout, consistent with the locked KP convention.
+  house_system: Use KP Placidus cusps. Withhold house testimony if polar cusps fail. Jyoti reports that file 2,
+    PDF pp. 45–49 agrees with whole signs in 35/35 combinations and with Placidus in 16/35. File 4, PDF p. 2 and
+    the owner demonstration support the selected cusp method.
   outer_planets: Discard outer-body inputs with an internal diagnostic.
   dasha_year: Use Julian years of 365.25 days. Compare the course conversion of 360 days on a separate timeline.
-  node_aspects: Keep only the opposition cast by a node. The alternative image includes additional aspects. For
-    node agency judge incoming planetary aspects.
+  node_aspects: Nodes cast no aspects. Count same-sign conjunctions and incoming sign-count aspects from the seven
+    grahas.
   node_dignity: Leave node dignity unset because the illustrations disagree.
   sun_nature: Treat the Sun as neutral within this method only. This label has no effect on house unions.
+  line_weight: The owner assigns SL 0.50, NL 0.30 and PL 0.20 internally for all events. File 4, PDF p. 26 gives
+    NL, SL, PL priority for losses.
 held_topics:
 - health
 - litigation
@@ -152,3 +112,35 @@ preview_copy:
     en: You may wish to review your vehicle plans.
     kn: ನೀವು ವಾಹನದ ಯೋಜನೆಗಳನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: आप वाहन से जुड़ी योजनाओं पर विचार कर सकते हैं।
+internal_line_weights: {sl: 0.50, nl: 0.30, pl: 0.20}
+node-association: sign
+resolved_questions:
+  power-and-circle:
+    answer: A circle identifies the occupied bhava of the planet on that line. The star and sub circles supply the
+      power houses and the column and row of the lookup respectively. These are working definitions inferred from
+      the software.
+    locators: 4-english-basic-book.pdf pp. 14, 17, 18, 24–28, 31–47; owner software demonstration, 17 Nov 2026 IST
+    confidence: medium
+    answered: '2026-11-24'
+    basis: owner answer + Jyoti verification
+  house-frame:
+    answer: Use mode 5, true nodes and Placidus. A cusp begins its house. Assign lordship by the cusp sign and withhold
+      house results if Placidus fails.
+    locators: 4-english-basic-book.pdf p. 2; 2-new-file-56pp.pdf pp. 45–49
+    confidence: high
+    answered: '2026-11-24'
+    basis: owner answer + Jyoti verification
+  planet-line:
+    answer: PL uses the planet’s own combination, NL uses its star lord’s and SL uses its sub lord’s. Nodes use
+      their agency combination on PL.
+    locators: 4-english-basic-book.pdf pp. 3–4; 2-new-file-56pp.pdf pp. 45–49
+    confidence: high
+    answered: '2026-11-24'
+    basis: owner answer + Jyoti verification
+  node-association:
+    answer: Include the occupied bhava and the combinations of the dispositor, same-sign grahas and grahas aspecting
+      the node by sign. Only the seven grahas can be agents.
+    locators: 4-english-basic-book.pdf p. 5; 1-signature-course.pdf p. 51 (different aspect tradition)
+    confidence: medium
+    answered: '2026-11-24'
+    basis: owner answer + Jyoti verification

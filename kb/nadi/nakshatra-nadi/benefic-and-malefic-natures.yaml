@@ -14,10 +14,8 @@ rule: Use neutral Sun, supportive Jupiter, Venus, Mercury and waxing Moon, and c
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
 meaning: Use neutral Sun, supportive Jupiter, Venus, Mercury and waxing Moon, and challenging Mars, Saturn, nodes
   and waning Moon as internal context only.
 life_areas: []

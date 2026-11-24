@@ -14,10 +14,8 @@ rule: Compute the initial balance from the untraversed fraction of the Moon’s 
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
   - fact: dasha.vimshottari.birth_balance_stable
     op: eq
     value: true

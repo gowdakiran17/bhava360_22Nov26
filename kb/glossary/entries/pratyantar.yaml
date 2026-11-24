@@ -19,6 +19,7 @@ reference_rules: []
 used_by:
 - nadi.nakshatra-nadi.natural-deliverers
 - nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.power-position-and-circle
 - vedic.dashas-vimshottari.pratyantar-jupiter
 - vedic.dashas-vimshottari.pratyantar-ketu
 - vedic.dashas-vimshottari.pratyantar-mars

@@ -13,10 +13,8 @@ rule: Leave nodal dignity and day/night strength unavailable until the competing
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
+    op: eq
+    value: kp-placidus
 meaning: Leave nodal dignity and day/night strength unavailable until the competing source assignments are resolved.
 life_areas: []
 strength_notes: []
@@ -35,7 +33,7 @@ sources:
   verification: pending
   to_verify: true
 confidence: low
-review_notes: Internal study only. Resolve node-dignity-review.
+review_notes: Resolve node-dignity (Q10); default unset; no downstream dependency.
 user_text:
   en: You can leave this detail open for now.
   kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.

@@ -1,4 +1,5 @@
 """Offline, review-only comparison with the 60 supplied synthetic Nadi cases."""
+from collections import Counter
 from bisect import bisect_right
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -16,16 +17,22 @@ ASPECTS = {'Mars': (4, 7, 8), 'Jupiter': (5, 7, 9), 'Saturn': (3, 7, 10)}
 LEVELS = ('maha', 'antar', 'pratyantar')
 
 
-def positions(jd, variant):
-    swe.set_sid_mode(swe.SIDM_LAHIRI if variant else swe.SIDM_KRISHNAMURTI)
-    bodies = dict(PLANETS, Rahu=swe.MEAN_NODE if variant else swe.TRUE_NODE)
+def positions(jd):
+    swe.set_sid_mode(swe.SIDM_KRISHNAMURTI)
+    bodies = dict(PLANETS, Rahu=swe.TRUE_NODE)
     pos = {g: swe.calc_ut(jd, n, swe.FLG_MOSEPH | swe.FLG_SIDEREAL)[0][0] for g, n in bodies.items()}
     pos['Ketu'] = (pos['Rahu'] + 180) % 360
     return pos
 
 
-def chart(fixture, variant, kp_rows, stars, periods):
-    pos = positions(fixture['julian_day'], variant)
+def stable_sub_identity(lon, fields, tolerance):
+    lower = fields((lon - tolerance) % 360)
+    upper = fields((lon + tolerance) % 360)
+    return lower[2:] == upper[2:]
+
+
+def chart(fixture, kp_rows, stars, periods, tolerance):
+    pos = positions(fixture['julian_day'])
     starts = [row['start_arcsec'] for row in kp_rows]
 
     def fields(lon):
@@ -34,14 +41,19 @@ def chart(fixture, variant, kp_rows, stars, periods):
                 row['star_lord'].title(), row['sub_lord'].title())
 
     details = {g: fields(lon) for g, lon in pos.items()}
-    result = dict(pos=pos, details=details, periods={}, lines={}, combination={})
+    result = dict(pos=pos, details=details, periods={}, lines={}, combination={}, power={})
     if fixture['precision'] == 'unknown':
         # Local noon is the centre of this particular synthetic civil date.
-        samples = [positions(fixture['julian_day'] - .5 + minute / 1440, variant) for minute in range(1441)]
+        samples = [positions(fixture['julian_day'] - .5 + minute / 1440) for minute in range(1441)]
         result['stable'] = {g: [set(col) for col in zip(*(fields(s[g]) for s in samples))] for g in pos}
         return result
-    cusps = swe.houses_ex(fixture['julian_day'], fixture['latitude'], fixture['longitude'],
-                          b'W' if variant else b'P', swe.FLG_SIDEREAL)[0]
+    if fixture['precision'] != 'exact':
+        return result
+    try:
+        cusps = swe.houses_ex(fixture['julian_day'], fixture['latitude'], fixture['longitude'],
+                              b'P', swe.FLG_SIDEREAL)[0]
+    except swe.Error:
+        return result
     signs = [int(x // 30) for x in cusps]
     occupied_by = {g: occupied([x*3600 for x in cusps], lon*3600) for g, lon in pos.items()}
     owned = {g: [h for h, sign in enumerate(signs, 1) if RULERS[sign].title() == g] for g in PLANETS}
@@ -57,6 +69,11 @@ def chart(fixture, variant, kp_rows, stars, periods):
         combo[node] = sorted({occupied_by[node]}.union(*(combo[g] for g in [lord, *joined, *aspect])))
     result.update(cusp_signs=[SIGNS[s] for s in signs], occupied=occupied_by, owned=owned,
                   combination=combo, node_basis=basis)
+    for name, lon in pos.items():
+        # Compare identities, since a KP interval can also split at a sign edge.
+        if stable_sub_identity(lon, fields, tolerance):
+            nl, sl = details[name][2:]
+            result['power'][name] = power_facts([name, nl, sl], occupied_by, combo)
     for clock in ('julian-365.25', 'savana'):
         path = active_path(periods, fixture['utc'], pos['Moon']*3600, clock, instant(fixture['reading_at']))
         result['periods'][clock] = {level: path[level][0].title() for level in LEVELS}
@@ -68,6 +85,29 @@ def chart(fixture, variant, kp_rows, stars, periods):
                                               for t in (start, end)]
                 result['lines'][level] = dict(lord=name, PL=combo[name], NL=combo[details[name][2]], SL=combo[details[name][3]])
     return result
+
+
+def power_facts(actors, occupied_by, combinations):
+    circles = dict(zip(('pl', 'nl', 'sl'), (occupied_by[g] for g in actors), strict=True))
+    nl, sl = circles['nl'], circles['sl']
+    counts = Counter(h for g in actors for h in set(combinations[g]))
+    return dict(circle=circles['pl'], line_circles=circles, power_position=sorted({nl, sl}),
+                full_power=nl == sl, hit_pair=dict(row_sl=sl, col_nl=nl), hit_count=dict(counts))
+
+
+def select_ladder(entries, facts):
+    """Test editorial candidates without storing private ladders or grid cells."""
+    if not facts:
+        return None
+    power = set(facts['power_position'])
+    circles = set(facts['line_circles'].values())
+    eligible = []
+    for order, (rank, kind, houses) in enumerate(entries):
+        witnesses = set(houses)
+        gate = power if kind == 'challenging' else circles
+        if witnesses <= facts['hit_count'].keys() and witnesses & gate:
+            eligible.append((rank, -len(witnesses & power), order))
+    return min(eligible)[2] if eligible else None
 
 
 def description(fields):
@@ -94,7 +134,20 @@ def validate_nadi(rules, read, require):
     cases = read('examples/nakshatra-nadi.yaml')
     registered = set(module['rule_index'].values())
     require(len(registered)==22 and registered=={key for key,r in rules.items() if r['system']=='nadi'}, 'Nadi rule index')
-    require(len(module['open_questions'])==4 and len(module['traditions_differ'])==8, 'Nadi unresolved methods')
+    questions = set(module['open_questions'])
+    blocked = module['blocked_by']
+    require(questions == {'hit-grid-data', 'node-dignity'} and len(module['resolved_questions']) == 4
+            and len(module['traditions_differ']) == 9, 'Nadi method decisions')
+    require(blocked == {module['rule_index']['NN-M14']: ['hit-grid-data'],
+                        module['rule_index']['NN-M20']: ['node-dignity']}
+            and all(set(reasons) <= questions for reasons in blocked.values()), 'Nadi blocker references')
+    registry = read('shared/conventions/profiles.yaml')['calculation_profiles']
+    profile = registry['nakshatra-nadi']
+    require((profile['enabled'], profile['approval'], profile['houses'], profile['node'], profile['sidereal_mode'])
+            == (False, 'draft', 'placidus', 'true-node', 5) and 'review_variant' not in profile,
+            'Held KP-only frame')
+    tolerance = registry['vedic-lahiri-v1']['tolerances_inclusive']['longitude_deg']
+    require(module['internal_line_weights'] == {'sl': 0.5, 'nl': 0.3, 'pl': 0.2}, 'Owner line weights')
     for rid in registered:
         r=rules[rid]
         require((r['status']=='blocked')==(rid in module['blocked_by']) and r['native_review_needed'] is True
@@ -104,6 +157,15 @@ def validate_nadi(rules, read, require):
         for lang, text in localized.items():
             check_text(text,'held review preview',lang)
     kp_rows=read('kp/number-horary/249-divisions.yaml')['intervals']
+    starts = [row['start_arcsec'] for row in kp_rows]
+    def boundary_fields(lon):
+        row = kp_rows[bisect_right(starts, lon * 3600) - 1]
+        return row['sign'], row['nakshatra'], row['star_lord'], row['sub_lord']
+
+    boundary = starts[1] / 3600
+    require(not stable_sub_identity(boundary, boundary_fields, tolerance)
+            and stable_sub_identity(boundary + 2 * tolerance, boundary_fields, tolerance),
+            'Sub-lord boundary withholds the dependent circle; stable side retains it')
     stars=read('vedic/nakshatras/catalog.yaml')['nakshatras']
     periods=read('vedic/dashas/vimshottari/periods.yaml')
     require([c['id'] for c in cases['cases']]==[f'NN-T{i:02}' for i in range(1,61)], 'Nadi fixture inventory')
@@ -111,9 +173,20 @@ def validate_nadi(rules, read, require):
         charts={}
         for name in ('Asha','Ravi','Meera','Kabir','Dev'):
             f=read('examples/fixtures/'+name.lower()+'.yaml')
-            charts[name]=[chart(f,v,kp_rows,stars,periods) for v in (False,True)]
+            charts[name] = chart(f, kp_rows, stars, periods, tolerance)
+        probe = power_facts(['A','B','B'], {'A':1,'B':4}, {'A':[1,2],'B':[2,4]})
+        require(probe['hit_count']=={1:1,2:3,4:2} and probe['full_power'], 'Repeated lines and houses')
+        require(select_ladder([(1,'supportive',[2]), (2,'challenging',[1])], probe) is None,
+                'Uncircled supportive and non-power challenging witnesses')
+        candidates = [(1,'supportive',[1]),(1,'supportive',[4]),(1,'challenging',[4])]
+        require(select_ladder(candidates,probe)==1 and select_ladder(candidates,None) is None,
+                'Power witness breaks a rank tie, then source order')
+        polar = dict(read('examples/fixtures/asha.yaml'), latitude=89)
+        require(not chart(polar,kp_rows,stars,periods,tolerance)['power'], 'Withhold polar power facts')
+        unstable = dict(polar,latitude=12.97,precision='approximate')
+        require(not chart(unstable,kp_rows,stars,periods,tolerance)['power'], 'Unstable time withholds circles')
         for i, case in enumerate(cases['cases'],1):
-            data,other=charts.get(case['fixture'],charts['Asha'])
+            data=charts.get(case['fixture'],charts['Asha'])
             e=case['expected']
             def same(actual, expected):
                 require(actual==expected, f"{case['id']} {case['case']}: {actual!r} != {expected!r}")
@@ -126,9 +199,15 @@ def validate_nadi(rules, read, require):
                     same(description(data['details'][g]),line.replace(match[0],''))
             elif 'cusp_signs' in e or 'combination' in e:
                 for key, value in e.items(): same(data[key],value)
-            elif 'differs_for' in e:
-                same(other['combination'],e['lahiri_whole_sign_combination'])
-                same({g for g in data['pos'] if data['combination'][g]!=other['combination'][g]},set(e['differs_for']))
+            elif 'level' in e:
+                name = path[e['level']]
+                same(name, e['lord'])
+                facts = data['power'][name]
+                for key in ('line_circles', 'power_position', 'full_power', 'hit_pair'):
+                    same(facts[key], e[key])
+                lines = data['lines'][e['level']]
+                for line, circle in facts['line_circles'].items():
+                    require(circle in lines[line.upper()], 'circle belongs to its line')
             elif 'variant_360' in e and 'maha' in e:
                 same(path,{lvl:e[lvl] for lvl in LEVELS})
                 same(data['periods']['savana'],e['variant_360'])
@@ -139,9 +218,10 @@ def validate_nadi(rules, read, require):
                 preview=review_outlook(data,cases['area_sets'][case['case'].split(':')[0]])
                 same(preview,{k:v for k,v in e.items() if k!='must_not_contain'})
                 require(preview['copy_key'] in module['preview_copy'],case['id'])
-            elif i in (12,24,47,53):
-                changes={g:'NL '+v[2]+', SL '+v[3] for g,v in other['details'].items() if data['details'][g][2:]!=v[2:]}
-                same(changes,e)
+            elif i==53:
+                same(data['power'], {})
+                for key in ('line_circles', 'power_position', 'hit_pair'):
+                    same(data['power'].get('Moon', {}).get(key), e[key])
             elif i==48:
                 stable=data['stable']
                 same({g:description([next(iter(s)) for s in cols]) for g,cols in stable.items()
@@ -168,7 +248,8 @@ def validate_nadi(rules, read, require):
                 same(path['antar']=='Venus',e['natural_deliverer']['property_vehicle'])
             elif i==58:
                 same(description(data['details']['Mercury']),e['kp'])
-                same(description(other['details']['Mercury']),e['lahiri'])
+                distance = data['pos']['Mercury'] % 30
+                same(min(distance, 30 - distance) * 60 <= 5, e['within_five_arcminutes'])
             elif i==59:
                 same([path['pratyantar'],data['periods']['savana']['pratyantar']],[e['default'],e['variant_360']])
             elif i==60:

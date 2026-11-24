@@ -7,32 +7,28 @@ approval: draft
 tag: MODERN/POPULAR
 feature_gate: nakshatra-nadi
 visibility: admin-only
-status: blocked
+status: held
 native_review_needed: true
-rule: A node carries its own occupied house and the houses of its sign lord and planetary associates. Keep the conjunction
-  and incoming-aspect basis visible for review.
+rule: Include the occupied bhava and the combinations of the dispositor, same-sign grahas and grahas aspecting the
+  node by sign. Only the seven grahas can be agents. The opposite node is excluded. The star lord contributes separately
+  through NL.
 conditions:
   all:
   - fact: nadi.nn.profile
-    op: in
-    value:
-    - kp-placidus
-    - lahiri-whole-sign
-  - any:
-    - fact: kp.cusps.placidus_ready
-      op: eq
-      value: true
-    - fact: nadi.nn.profile
-      op: eq
-      value: lahiri-whole-sign
-meaning: A node carries its own occupied house and the houses of its sign lord and planetary associates.
+    op: eq
+    value: kp-placidus
+  - fact: kp.cusps.placidus_ready
+    op: eq
+    value: true
+meaning: A node represents its own occupancy and its planetary agents.
 life_areas: []
 strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: nakshatra-nadi-review-v1
-  note: Keep only the opposition cast by a node. The alternative image includes additional aspects. For node agency
-    judge incoming planetary aspects.
+  note: Nodes cast no aspects. Count same-sign conjunctions and incoming sign-count aspects from the seven grahas.
+    The agency principle is classical. This sign-based application is MODERN/POPULAR. The degree-orb alternative
+    uses angular proximity and degree aspects and is inactive.
 sources:
 - book: Dr. Dinesh, Nakshatra Nadi course notes
   work_id: dinesh-nakshatra-nadi
@@ -45,7 +41,7 @@ sources:
   to_verify: false
   locator_note: Locator is approximate in the supplied review map.
 confidence: medium
-review_notes: Internal study only. Resolve house-frame, node-association.
+review_notes: 'Resolved 2026-11-24: house-frame, node-association. Internal review only.'
 user_text:
   en: This period may offer openings alongside delays. You can take decisions at your own pace.
   kn: ಈ ಸಮಯದಲ್ಲಿ ಅವಕಾಶಗಳ ಜೊತೆಗೆ ವಿಳಂಬವೂ ಇರಬಹುದು. ನಿಮ್ಮ ಗತಿಯಲ್ಲಿ ನಿರ್ಧಾರ ತೆಗೆದುಕೊಳ್ಳಬಹುದು.

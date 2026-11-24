@@ -1,5 +1,6 @@
 version: 1
 works:
+  owner-nadi-demonstration: Owner software demonstration
   dinesh-nakshatra-nadi: Dr. Dinesh, Nakshatra Nadi course notes
   lal-kitab-english: Lal Kitab (Red Book of Astrology)
   ptolemy-tetrabiblos: Tetrabiblos (Ptolemy)
@@ -83,6 +84,7 @@ works:
   cheiro-palmistry: Palmistry for All
   bhava360-area-composition: Bhava360 area composition
 editions:
+  owner-nadi-demo-20261117: {work_id: owner-nadi-demonstration, edition_id: owner-nadi-demo-20261117, title_as_printed: Owner software demonstration, language: unspecified, publication_details: Private recording of 17 November 2026 IST, verified_by: Demonstration evidence supplied in the review brief}
   dinesh-nakshatra-nadi-private:
     edition_id: dinesh-nakshatra-nadi-private
     work_id: dinesh-nakshatra-nadi
