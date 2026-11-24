@@ -19,3 +19,8 @@ review: Compare to the intended edition and confirm sign-lord variant. Owner sel
   ID for reproducibility.
 dual_lord_profile: jaimini/lordship/dual-lords.yaml
 antar_visibility: admin-only pending edition verification; suppress Antar-specific public readings.
+antar_source_review:
+  work: K.N. Rao, Predicting through Jaimini’s Chara Dasha
+  claim: Antar sequence and direction
+  locator: null
+  verification: pending

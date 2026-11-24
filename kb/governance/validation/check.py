@@ -391,6 +391,9 @@ def main():
         if 'tag' in data:
             require(data['tag'] in ('CLASSICAL','MODERN','MODERN/POPULAR'),rid+' tradition tag')
             expected_fields.add('tag')
+        if data['system']=='lal-kitab' and data['topic']=='placements':
+            expected_fields.add('placement_source_status')
+            require(data.get('placement_source_status') in ('pending_source','verified'),rid+' placement source')
         if 'feature_gate' in data:
             require(data['feature_gate'] in profile_ids,rid+' unknown feature gate')
             expected_fields.add('feature_gate')

@@ -92,3 +92,7 @@ The gated annual lookup covers age indices 1–120. The edition-specific Lal Kit
 ## Batch 8 review corrections
 
 The corpus contains 2,732 draft rules and 955 registered facts. This review revises 27 ascendant-star readings, 24 quarter modifiers and 30 individual avastha prompts. Four Vimshopaka schedules total 20 each. The annual and question references share the sign-based aspect table. The additional Abhijit class applies only to muhurta.
+
+## Batch 9 review corrections
+
+The corpus contains 2,732 draft rules and 955 registered facts. Eleven area recipes use the primary house and its lord first. Thirty fixture area traces cover four known-time charts and Dev’s unknown-time chart. Updated copy covers 82 yoga readings in Kannada and Hindi and eight optional dasha periods in all three required languages. The source-gap register counts individual rule citations by review area.

@@ -209,7 +209,7 @@ pair_relationship_examples:
     end: '2033-01-02T07:10:44.812513Z'
 sade_sati: leaving
 consultation:
-  optional_practice: null
+  optional_practice: mercury
   rule_chain:
   - vedic.planets-in-signs.sun-cancer
   - vedic.planets-in-signs.moon-aquarius
@@ -232,6 +232,8 @@ consultation:
   - vedic.dashas-vimshottari.mercury-mercury-antar
   - vedic.dashas-vimshottari.love-marriage-house-lord
   - vedic.dashas-vimshottari.money-house-lord
+  - vedic.dashas-vimshottari.family-home-upcoming
+  - vedic.dashas-vimshottari.learning-upcoming
   - vedic.transits.sun-moon-house-10
   - vedic.transits.moon-moon-house-4
   - vedic.transits.mars-moon-house-7
@@ -495,6 +497,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 10
         houses:
           10:
             lord: Moderate
@@ -519,6 +522,7 @@ consultation:
             - Malefic
             - Malefic
             - Malefic
+            area_role: service and problem-solving
           11:
             lord: Weak
             occupants: []
@@ -532,6 +536,7 @@ consultation:
         aspects: &id004
         - Benefic
         - Malefic
+        primary_house: 10
         houses:
           10:
             lord: Weak
@@ -557,6 +562,7 @@ consultation:
             - Benefic
             - Benefic
             - Malefic
+            area_role: service and problem-solving
           11:
             lord: Weak
             occupants: []
@@ -594,6 +600,7 @@ consultation:
         occupants: &id006 []
         aspects: &id007
         - Benefic
+        primary_house: 7
         houses:
           7:
             lord: Weak
@@ -622,6 +629,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 7
         houses:
           7:
             lord: Moderate
@@ -675,6 +683,7 @@ consultation:
         - Malefic
         - Malefic
         - Malefic
+        primary_house: 2
         houses:
           2:
             lord: Weak
@@ -714,6 +723,7 @@ consultation:
         - Benefic
         - Benefic
         - Malefic
+        primary_house: 2
         houses:
           2:
             lord: Weak
@@ -775,6 +785,7 @@ consultation:
         aspects: &id017
         - Benefic
         - Malefic
+        primary_house: 1
         houses:
           1:
             lord: Weak
@@ -790,6 +801,7 @@ consultation:
             - Malefic
             - Malefic
             - Malefic
+            area_role: resistance
       moon_witnesses:
         lord: Moderate
         occupants: &id018
@@ -799,6 +811,7 @@ consultation:
         - Benefic
         - Benefic
         - Benefic
+        primary_house: 1
         houses:
           1:
             lord: Moderate
@@ -817,6 +830,7 @@ consultation:
             - Benefic
             - Benefic
             - Malefic
+            area_role: resistance
       challenge_resolution: null
       card: null
       modulation:
@@ -835,10 +849,14 @@ consultation:
         final: null
     family-home:
       lord: saturn
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
@@ -849,6 +867,7 @@ consultation:
         - Benefic
         - Benefic
         - Benefic
+        primary_house: 4
         houses:
           4:
             lord: Moderate
@@ -868,6 +887,7 @@ consultation:
         occupants: &id023 []
         aspects: &id024
         - Benefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -880,28 +900,32 @@ consultation:
             - Benefic
             - Benefic
             - Malefic
-      challenge_resolution: null
-      card: null
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha: []
         antar: []
       active_yogas: &id025 []
-      practice_lord: null
+      practice_lord: mercury
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id025
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
     learning:
       lord: saturn
-      promise: Weak
+      promise: Moderate
       state:
-      - no-promise
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Steady
+        pace: slower
       availability: known-time
       witnesses:
         lord: Moderate
@@ -912,6 +936,7 @@ consultation:
         - Benefic
         - Benefic
         - Benefic
+        primary_house: 4
         houses:
           4:
             lord: Moderate
@@ -942,6 +967,7 @@ consultation:
         occupants: &id028 []
         aspects: &id029
         - Benefic
+        primary_house: 4
         houses:
           4:
             lord: Weak
@@ -965,23 +991,23 @@ consultation:
             aspects:
             - Benefic
             - Benefic
-      challenge_resolution: null
-      card: null
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha: []
         antar: []
       active_yogas: &id030
       - vedic.yogas.budhaditya
-      practice_lord: null
+      practice_lord: mercury
       conflict_ladder:
-        promise: Weak
+        promise: Moderate
         activated_yogas: *id030
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Steady
   transits:
     moon:
     - vedic.transits.sun-moon-house-10
@@ -1028,12 +1054,24 @@ consultation:
   public_en:
     today: A quiet corner at home may help you unwind.
     month: You can leave extra time for changes in your plans this month.
+    family-home: You may find time for a familiar routine with family.
+    learning: You can explore a subject more deeply with a teacher.
+    traditional_practice: If you like, you can share a skill you already know with
+      someone who would like to learn.
   public_kn:
     today: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
     month: ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+    family-home: ಕುಟುಂಬದೊಂದಿಗೆ ಪರಿಚಿತ ದಿನಚರಿಗೆ ಸಮಯ ಸಿಗಬಹುದು.
+    learning: ಶಿಕ್ಷಕರೊಂದಿಗೆ ಒಂದು ವಿಷಯವನ್ನು ಆಳವಾಗಿ ಕಲಿಯಬಹುದು.
+    traditional_practice: ಇಚ್ಛೆಯಿದ್ದರೆ ಕಲಿಯಲು ಆಸಕ್ತಿ ಇರುವವರಿಗೆ ನಿಮಗಿರುವ ಕೌಶಲವನ್ನು
+      ಹಂಚಬಹುದು.
   public_hi:
     today: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
     month: इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
+    family-home: परिवार के साथ परिचित दिनचर्या के लिए समय मिल सकता है।
+    learning: शिक्षक के साथ किसी विषय को गहराई से समझ सकते हैं।
+    traditional_practice: चाहें तो आप किसी इच्छुक व्यक्ति को अपना कोई हुनर सिखा सकते
+      हैं।
   confidence:
     lagna: show
     bav: show
@@ -1261,6 +1299,16 @@ consultation:
         op: eq
         value: true
       - fact: dasha.active_lord.owns_house_9
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.family-home-upcoming:
+      all:
+      - fact: dasha.upcoming.family_home_window
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.learning-upcoming:
+      all:
+      - fact: dasha.upcoming.learning_window
         op: eq
         value: true
     vedic.transits.sun-moon-house-10:

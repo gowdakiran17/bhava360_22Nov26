@@ -104,6 +104,10 @@ def validate(read,require):
         require([row['total'],row['grade']]==x['expected'],name)
     require([band(v,p) for v in (.999,1,1.001,2.999,3,3.001)]==
             ['Weak','Moderate','Moderate','Moderate','Strong','Strong'],'grade boundaries')
+    for probe in read('examples/fixtures/boundaries.yaml')['sandhi_grade_probes']:
+        crossing = probe['before'] != probe['after']
+        row = run(dict(cases['P1'],sandhi_crossing=crossing))
+        require(row == (None if probe['expected']=='withheld' else run(cases['P1'])),probe['boundary']+' sandhi')
     x=cases['P1']
     require(run(dict(x,lagna_withheld=True)) is None and
             run(dict(x,lagna_withheld=True,house_moon=6))['terms']['house']==1,'Moon reference and upachaya')

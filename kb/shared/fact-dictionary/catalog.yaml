@@ -7101,7 +7101,7 @@ facts:
   lal-kitab.fixed_house_confirmed:
     type: boolean
     producer: lal-kitab.fixed-houses
-    origin: Engine supplied a fixed-house Lal Kitab chart with explicit house numbering.
+    origin: In the fixed-house Lal Kitab frame, slot one carries Aries and each following slot the next zodiac sign through Pisces in slot twelve. Preserve natal house occupancy; do not move planets to houses according to their natal sign.
     unknown_if: Required inputs or selected convention unavailable, unconfirmed or unstable.
   face.reflection.opted_in:
     type: boolean

@@ -90,3 +90,4 @@ sandhi:
   distance: smaller arc to nearest sign boundary or selected bhava sandhi
   effect: Within the window mark the relevant dignity or placement provisional; withhold if the declared interval
     crosses the boundary. No second numeric penalty.
+  modelling_limit: Sign and house sandhi strength attenuation is not modelled. KB-48 still withholds evidence on an actual boundary crossing.

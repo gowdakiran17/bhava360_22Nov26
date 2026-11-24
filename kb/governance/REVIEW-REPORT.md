@@ -565,3 +565,9 @@ The synthetic D8 and L1 scenarios cover clock eligibility and flag isolation. La
 Thirteen review items cover existing rules and tables. Counts remain 2,732 draft rules across ten systems and 955 facts. The four state families have 30 distinct localized prompts. The 30 Prashna cases include four pre-chart sensitive redirects and a same-sign applying conjunction. The revised V1 uses its actual Mercury–Jupiter square. Its year lord remains Venus. The KP synthetic case distinguishes Ketu’s direct and represented houses.
 
 The profile uses a three-degree inclusive KP node conjunction orb. The year-lord strength tie uses the sign-aspect strength class, followed by Muntha preference. Simultaneous Moon applications or a residual election tie withhold the result. Draft native-language review remains pending. The supplied classical locators are recorded as review references where the edition has not been checked.
+
+## Batch 9 — Jyoti’s Batch 7 review
+
+The eleven review items revise existing material. Rule and fact counts remain 2,732 and 955. Each known-time fixture now has distinct area bands. Dev’s six Lagna-based promises remain withheld. The health worksheet records resistance separately from the primary constitution reading. Wealth requires both resources and gains to confirm its highest band. The one-step limit and tie handling are editorial.
+
+All 82 yoga entries have revised Kannada and Hindi text, pending native review. Eight conditional dasha messages are distinct in each required locale. All 120 Lal Kitab placement readings are marked pending_source. The public gate requires a single verified edition for both placements and all 120 annual rows. Joshi 1952 remains a candidate. The source register tracks 1,185 pending blocks and 304 chapter-only blocks; suggested books are leads for review. Chara Antar order and Sthira karakas still await edition checks.

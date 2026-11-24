@@ -18,6 +18,7 @@ aliases:
 reference_rules:
 - vedic.signs.aries
 used_by:
+- lal-kitab.fixed-houses.house-reference
 - tarot.major-arcana.the-emperor-reversed
 - tarot.major-arcana.the-emperor-upright
 - tarot.minor-arcana.four-of-wands-reversed

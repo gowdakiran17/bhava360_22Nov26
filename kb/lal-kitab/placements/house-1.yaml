@@ -43,3 +43,4 @@ evidence:
   area_strength: {}
 tag: MODERN
 feature_gate: modern-study-v1
+placement_source_status: pending_source

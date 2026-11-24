@@ -4,7 +4,7 @@ topic: fixed-houses
 title: House Reference
 doctrine_profile: lal-kitab-editorial-v1
 approval: draft
-rule: Engine supplied a fixed-house Lal Kitab chart with explicit house numbering.
+rule: In the fixed-house Lal Kitab frame, slot one carries Aries and each following slot the next zodiac sign through Pisces in slot twelve. Preserve natal house occupancy; do not move planets to houses according to their natal sign.
 conditions:
   all:
   - fact: lal-kitab.fixed_house_confirmed

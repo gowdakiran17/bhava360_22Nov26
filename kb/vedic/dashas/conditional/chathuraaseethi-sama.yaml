@@ -23,17 +23,17 @@ count_direction: 1
 clock:
   id: chathuraaseethi_sama-julian
   days: 365.25
-policy: Separate optional period section alongside MVP Vimshottari. Missing gate inputs, false gate or disabled feature
-  withholds all public copy.
+policy: Separate optional period section alongside MVP Vimshottari. Missing gate inputs, false gate or disabled
+  feature withholds all public copy.
 sources:
 - BPHS chapter 46, primary locator pending
 - PyJHora 5.0.6 graha/chathuraaseethi_sama.py period weights and order checked
 traditions_differ: Use the selected clock and birth-star count throughout. Alternative solar years require a separately
   labelled timeline.
 copy:
-  en: You can revisit a commitment in light of what has changed.
-  kn: ಬದಲಾದ ಪರಿಸ್ಥಿತಿಯನ್ನು ಗಮನಿಸಿ ಒಂದು ಬದ್ಧತೆಯನ್ನು ಮರುಪರಿಶೀಲಿಸಬಹುದು.
-  hi: बदली परिस्थिति को देखते हुए किसी वचन पर फिर विचार कर सकते हैं।
+  en: You can review the responsibilities you want to carry at work.
+  kn: ಕೆಲಸದಲ್ಲಿ ಯಾವ ಹೊಣೆಗಳನ್ನು ವಹಿಸಬೇಕೆಂದು ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: काम में कौन सी जिम्मेदारियाँ लेना चाहते हैं, इस पर विचार कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

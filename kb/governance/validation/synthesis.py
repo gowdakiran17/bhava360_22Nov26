@@ -48,12 +48,6 @@ def bind_reference(origin, area_house, chart, table, aspects):
 
 
 def reference_tests(ref):
-    if ref.get('houses'):
-        # Each factor has one vote across all recipe houses. An even split is inconclusive.
-        def consensus(values):
-            yes, no = values.count(True), values.count(False)
-            return True if yes > len(values)/2 else False if no > len(values)/2 else None
-        return [consensus(v) for v in zip(*(reference_tests(row) for row in ref['houses'].values()))]
     lord=ref.get('lord')
     occupants=ref.get('occupants')
     aspects=ref.get('aspects')
@@ -64,6 +58,35 @@ def reference_tests(ref):
     if aspects is not None and all(aspects):
         aspected=sum(n in GOOD for n in aspects)>aspects.count('Malefic')
     return [lord in GRADES[1:] if lord else None, occupied, aspected]
+
+
+def recipe_promise(ref, area, primary_tests, factor_grade, contextual):
+    """Anchor at the primary lord. Independent qualifiers can jointly move it one step."""
+    lord = ref.get('lord')
+    if lord not in GRADES or primary_tests[0] is None:
+        return None
+    anchor = GRADES.index(lord)
+    factor_direction = (factor_grade > anchor) - (factor_grade < anchor)
+    supporting_balance = 0
+    for house, witness in ref['houses'].items():
+        if house == ref['primary_house']:
+            continue
+        grade = witness.get('lord')
+        if grade not in GRADES:
+            continue
+        # Read a difficulty house only in the role named by this recipe.
+        role = contextual.get(area, {}).get(house)
+        if role == 'resistance':
+            continue  # Ability to meet illness is separate from the wellness band.
+        if house in (6,8,12) and role is None:
+            continue
+        supporting_balance += GRADES.index(grade) - 1
+    # Collapse all supporting houses into one signed qualification. A split stays quiet.
+    signal = factor_direction + (supporting_balance > 0) - (supporting_balance < 0)
+    grade = max(0, min(2, anchor + (signal > 0) - (signal < 0)))
+    if area == 'money' and ref['houses'][11].get('lord') not in GRADES[1:]:
+        grade = min(grade, 1)
+    return grade
 
 
 def double(signs, targets, aspects):
@@ -153,6 +176,12 @@ def evaluate(x, policy, ladder, matrix, aspects):
         count=counts[:-1].count(True)
     thresholds=policy['promise']['thresholds']
     grade=2 if count>=thresholds['Strong'] else int(count>=thresholds['Moderate'])
+    if 'houses' in x['lagna']:
+        grade = recipe_promise(x['lagna'],x['area'],counts[:3],grade,policy['promise']['difficulty_roles'])
+        if grade is None:
+            return dict(band=None,card=None,windows=[],remedy_graha=None,state='withheld')
+    elif 'area' in x and not x['lagna']:
+        return dict(band=None,card=None,windows=[],remedy_graha=None,state='withheld')
     result=dict(band=GRADES[grade],card=None,windows=[],remedy_graha=None)
     if not grade and tier=='C':
         return dict(result,band=None,state='withheld')
@@ -235,6 +264,16 @@ def merge(base, patch):
 
 
 def validate(read,require):
+    roles=read('life-areas/pipeline.yaml')['promise']['difficulty_roles']
+    def sample(area, primary, supporting, factor_band):
+        houses={'health':(1,6),'money':(2,11),'career':(10,6)}[area]
+        ref={'lord':primary,'primary_house':houses[0],'houses':dict(zip(houses,[{'lord':primary},{'lord':supporting}]))}
+        return recipe_promise(ref,area,[primary is not None,None,None],factor_band,roles)
+    require(sample('career','Strong','Weak',2)==1 and sample('career','Weak','Strong',0)==1,
+            'support can modulate the primary lord by one step')
+    require(sample('health','Weak','Strong',0)==0 and sample('money','Strong','Weak',2)==1
+            and sample('money','Strong',None,2)==1 and sample('money','Strong','Strong',2)==2
+            and sample('career',None,'Strong',2) is None,'resistance, paired wealth and missing lord')
     p=read('life-areas/pipeline.yaml')
     ladder=read('life-areas/conflict-ladder.yaml')
     matrix=read('shared/confidence/output-matrix.yaml')['rows']

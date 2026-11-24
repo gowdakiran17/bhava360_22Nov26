@@ -20,12 +20,12 @@ Today resolves to Supportive. The calendar month resolves to Supportive.
 
 | Area | Natal promise | Dated result |
 |---|---|---|
-| career | Moderate | active |
-| love-marriage | Strong | active |
-| money | Moderate | active |
-| health | Moderate | active |
+| career | Strong | active |
+| love-marriage | Moderate | active |
+| money | Strong | active |
+| health | Strong | active |
 | family-home | Moderate | active |
-| learning | Moderate | active |
+| learning | Strong | active |
 
 The [reference chart](../fixtures/asha.yaml) records graha positions, precision, strength worksheets, yoga witnesses and cancellations, period modulation, the conflict-ladder outcome, separate transit references and eligible practices. Windows here answer the query for this local day.
 

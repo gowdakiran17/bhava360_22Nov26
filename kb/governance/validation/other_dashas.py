@@ -33,10 +33,10 @@ def ashtottari_eligible(cfg, chart, gate):
     if gate!=cfg['default_gate']:
         raise ValueError('unknown Ashtottari applicability profile')
     lagna, planets = chart.get('lagna'),chart.get('positions',{})
-    if lagna is None or 'rahu' not in planets or LORDS[lagna] not in planets:
+    if lagna is None or planets.get('rahu') is None or planets.get(LORDS[lagna]) is None:
         return None
     rahu = planets['rahu']
-    return rahu!=lagna and (rahu-planets[LORDS[lagna]])%12+1 in cfg['eligible_distances']
+    return (not cfg['exclude_rahu_in_natal_lagna'] or rahu!=lagna) and (rahu-planets[LORDS[lagna]])%12+1 in cfg['eligible_distances']
 
 
 def lunar(system,cfg,chart,at):
@@ -237,6 +237,9 @@ def validate_other_dashas(rules, read, evaluate, require):
         require(set(chart['reference'])=={'yogini','ashtottari','chara','narayana','kalachakra'},'system coverage')
     a = fixtures['charts']['Scenario 1']
     cfg = read(ROOT+'ashtottari/periods.yaml')
+    for lord,rahu,expected in [(0,0,False),(2,2,True),(2,3,False),(2,None,None)]:
+        require(ashtottari_eligible(cfg,{'lagna':0,'positions':{'mars':lord,'rahu':rahu}},cfg['default_gate'])
+                is expected,'default distance-one and natal Lagna exclusion')
     require(ashtottari_eligible(cfg,{},cfg['default_gate']) is None,'unknown eligibility')
     require(lunar('ashtottari',cfg,{**a,'positions':{**a['positions'],'rahu':a['lagna']}},0) is None,'Rahu in Lagna')
     for day in (True,False):

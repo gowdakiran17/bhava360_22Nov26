@@ -55,10 +55,14 @@ def bind(area,chart,period,recipe,read):
                  karakas=[grades.get(g) for g in recipe['karakas']],period=dict(period))
     divisions={v['division'] for v in recipe['vargas'] if v['release']=='mvp'}
     bound['topic_varga']='D10' if 'D10' in divisions else None
+    roles = read('life-areas/pipeline.yaml')['promise']['difficulty_roles'].get(area,{})
     for key,origin in [('lagna',lagna),('moon',signs.get('moon'))]:
         rows = [bind_reference(origin,h,dict(chart,lagna=SIGNS[lagna] if lagna is not None else None),functional,aspects)
                 for h in houses]
-        bound[key] = dict(rows[0], houses=dict(zip(houses, rows))) if origin is not None else {}
+        for house, witness in zip(houses,rows):
+            if origin is not None and house in roles:
+                witness['area_role'] = roles[house]
+        bound[key] = dict(rows[0], primary_house=houses[0], houses=dict(zip(houses, rows))) if origin is not None else {}
         bound[key+'_targets'] = [] if origin is None else list(dict.fromkeys(
             target for h in houses for target in ((origin+h-1)%12, signs.get(OWNERS[(origin+h-1)%12]))))
     # Production testimony is the KB-41 projection. The legacy KB-36 fixtures may

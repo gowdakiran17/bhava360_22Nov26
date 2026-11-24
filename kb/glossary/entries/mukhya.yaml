@@ -54,5 +54,7 @@ used_by:
 - vedic.planets-in-houses.mercury-house-8
 - vedic.planets-in-houses.mercury-house-9
 - vedic.vargas.d9-placement
+- vedic.yogas.nabhasa-mala
+- vedic.yogas.nabhasa-yuga
 used_in_files:
 - vastu/entrances/padas.yaml

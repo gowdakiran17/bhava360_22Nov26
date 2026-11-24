@@ -129,6 +129,20 @@ def papasamya(positions, reference, exempt=()):
 
 
 def validate(rules,read,require):
+    inventory=read('governance/source-gaps.yaml')
+    observed=Counter()
+    for rule in rules.values():
+        area=rule['system']
+        if area=='vedic':
+            area='vedic-timing' if rule['topic'].split('/')[0] in ('transits','dashas') else 'vedic-other'
+        for source in rule['sources']:
+            observed[area,source['verification']]+=1
+    for area,row in inventory['areas'].items():
+        require(row['pending']==observed[area,'pending'] and row['chapter_only']==observed[area,'chapter-only'],
+                area+' source inventory')
+    require(set(inventory['areas'])=={key[0] for key in observed},'source area coverage')
+    for key in ('pending','chapter_only'):
+        require(inventory['totals'][key]==sum(v[key] for v in inventory['areas'].values()),'source total')
     yogas=read('vedic/dashas/chara/periods.yaml')
     j=read('examples/jaimini-j2.yaml')
     left=j['cycle_one']; right=j['cycle_two']
@@ -149,6 +163,9 @@ def validate(rules,read,require):
     annual = read('lal-kitab/varshphal/annual.yaml')
     require(annual['ages'] == list(range(1,121)) and annual_houses(annual,0) is None
             and annual_houses(annual,None) is None, 'annual lookup domain')
+    gate=read('shared/conventions/profiles.yaml')['calculation_profiles']['modern-study-v1']
+    require(not gate['enabled'] or (annual['edition'] and annual['verification']=='verified'
+            and set(annual['edition_rows'])==set(annual['ages'])), 'no unsourced Lal Kitab release')
     for age in annual['ages']:
         annual_houses(annual,age)
     require(cursor==144,'two complete passes')
@@ -160,6 +177,11 @@ def validate(rules,read,require):
              'lagna-seventh-exchange-or-placement':{'lagna':0,'venus':0,'mars':2}}
     missed={'hora':'moon','day':True,'waxing':True,'navamsha_lagna':5,'d12_lagna':2,'lagna':0,'sun':1,'saturn':8,'venus':2,'mars':3}
     names='shodasottari dwadasottari panchottari sataatbika chathuraaseethi-sama dwisatpathi shastihayani shattrimsa-sama'.split()
+    for lang in ('en','kn','hi'):
+        lines=[read('vedic/dashas/conditional/'+name+'.yaml')['copy'][lang] for name in names]
+        require(len(set(lines))==8,'distinct conditional period prompts '+lang)
+        for name,line in zip(names,lines):
+            check_text(line,name,lang)
     for name,total in zip(names,(116,112,105,100,84,72,60,36)):
         d=read('vedic/dashas/conditional/'+name+'.yaml');g=d['gate']
         require(conditional_gate(g,success[g]) is True and conditional_gate(g,missed) is False and

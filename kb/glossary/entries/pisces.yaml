@@ -18,6 +18,7 @@ aliases:
 reference_rules:
 - vedic.signs.pisces
 used_by:
+- lal-kitab.fixed-houses.house-reference
 - tarot.major-arcana.the-moon-reversed
 - tarot.major-arcana.the-moon-upright
 - tarot.minor-arcana.eight-of-cups-reversed
