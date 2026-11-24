@@ -9,8 +9,9 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Inspect the star lords of all nine bodies. Select every body that no body uses as a star lord, and every body
-  occupying its own star. Take their union and collect the houses in their combinations.
+rule: Collect the bodies unused as star lords and those occupying their own star. Their union identifies power planets.
+  Separately collect houses appearing on any PL line and subtract every house appearing on any NL line. These chart-wide
+  houses are distinct from hit circles.
 conditions:
   all:
   - fact: nadi.nn.profile
@@ -30,10 +31,10 @@ sources:
 - book: Dr. Dinesh, Nakshatra Nadi class recordings
   work_id: dinesh-nadi-classes
   edition: dinesh-nadi-private-classes
-  chapter: Class 4
+  chapter: Class recordings
   verse: null
-  other_locator: Private recording, parts 1–2
-  supports: Power planet selection
+  other_locator: class 4 part 01 16:45; class 4 part 02 14:58
+  supports: CN-A01, CN-A02, CN-A03, CN-A04
   verification: supplied-in-brief
   to_verify: false
 confidence: medium

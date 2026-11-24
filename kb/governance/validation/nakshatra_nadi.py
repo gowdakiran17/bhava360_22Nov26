@@ -66,8 +66,10 @@ def chart_power(details, combinations):
     untenanted = details.keys() - used
     self_star = {g for g, v in details.items() if g == v[2]}
     planets = untenanted | self_star
+    pl_houses = set().union(*combinations.values())
+    nl_houses = set().union(*(combinations[g] for g in used))
     return dict(untenanted_planets=sorted(untenanted), self_star_planets=sorted(self_star),
-                power_planets=sorted(planets), power_houses=sorted({h for g in planets for h in combinations[g]}))
+                power_planets=sorted(planets), power_houses=sorted(pl_houses - nl_houses))
 
 
 def chart(fixture, kp_rows, stars, periods, tolerance, radius_seconds):
@@ -161,7 +163,7 @@ def period_gate(lines, power, event_houses, weights):
     lord = lines['lord']
     self_star = lord in power['self_star_planets']
     witnesses = set(lines['NL'])
-    if not self_star and lord in power['untenanted_planets']:
+    if self_star or lord in power['untenanted_planets']:
         witnesses.update(lines['PL'])
     permitted = bool(witnesses.intersection(event_houses))
     effective = {}
@@ -178,7 +180,7 @@ def review_outlook(chart_data, area, weights):
     gate = period_gate(lines, chart_data['chart_power'], area['supportive'], weights)
     if not gate['fruit_gate']:
         return dict(**gate, label='unpromised', copy_key='quiet')
-    outcome = set(lines['NL' if gate['self_star'] else 'SL'])
+    outcome = (set(lines['PL']) | set(lines['NL'])) if gate['self_star'] else set(lines['SL'])
     plus = outcome.intersection(area['supportive'])
     minus = outcome.intersection(area['challenging'])
     if bool(plus) != bool(minus):
@@ -201,6 +203,26 @@ def validate_nadi(rules, read, require):
     cases = read('examples/nakshatra-nadi.yaml')
     registered = set(module['rule_index'].values())
     require(len(registered)==23 and registered=={key for key,r in rules.items() if r['system']=='nadi'}, 'Nadi rule index')
+    held_groups = {'method-timing': range(1, 13), 'cusp-tables': range(20, 29),
+                   'event-combinations': range(40, 89)}
+    require(module['held_class_catalogues'] == [g+'.yaml' for g in held_groups], 'Class catalogue index')
+    locator = re.compile(r'class [1-4] part [0-9]{2} [0-9]{2}:[0-5][0-9](?:–[0-9]{2}:[0-5][0-9])?')
+    for group, numbers in held_groups.items():
+        doc = read('nadi/nakshatra-nadi/'+group+'.yaml')
+        require(doc['enabled'] is False and doc['work_id'] == 'dinesh-nadi-classes', group)
+        require(set(doc['entries']) == {f'CN-H{i:02}' for i in numbers}, group+' inventory')
+        for key, row in doc['entries'].items():
+            require((row['approval'], row['visibility'], row['status']) == ('draft', 'admin-only', 'held')
+                    and row['inputs'] and row['interpretation'] and 'user_text' not in row
+                    and row['locators'] and all(locator.fullmatch(loc) for loc in row['locators']), key)
+    additions = module['class_method_index']
+    require(set(additions) == {f'CN-A{i:02}' for i in range(1, 10)}
+            and all(set(row['rule_ids']) <= registered and row['rule_ids'] for row in additions.values())
+            and all(all(locator.fullmatch(l) for l in row['locator'].split('; ')) for row in additions.values()),
+            'Class method locators')
+    trigger = module['transit_trigger']
+    require(trigger['requires_all'] == ['natal_cusp_promise', 'running_period_fruit_gate', 'transit_event_contact']
+            and trigger['missing_input'] == 'withhold', 'Transit timing prerequisites')
     questions = set(module['open_questions'])
     blocked = module['blocked_by']
     require(questions == {'hit-grid-data', 'node-dignity'} and len(module['resolved_questions']) == 4
@@ -343,7 +365,7 @@ def validate_nadi(rules, read, require):
                     require(all(p['label']==e['render_contains'] and p['optional'] and p['free'] for p in module['practices']),case['id'])
                     texts=[p['user_text']['en'] for p in module['practices']]
                 elif i==55:
-                    require('health' in module['held_topics'],case['id'])
+                    require('health, disease, body-part and dosha interpretations' in module['exclude'],case['id'])
                     texts=[module['preview_copy']['wellbeing']['en']]
                 else:
                     key=review_outlook(data,cases['area_sets']['relationship_timing'],weights)['copy_key']

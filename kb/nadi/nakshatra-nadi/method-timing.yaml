@@ -1,0 +1,177 @@
+approval: draft
+enabled: false
+visibility: admin-only
+status: held
+work_id: dinesh-nadi-classes
+edition: dinesh-nadi-private-classes
+verification: supplied-in-brief
+entries:
+  CN-H01:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 00 00:11
+    inputs: CSL of the asked cusp; then that body’s star lord; then the house that star lord occupies
+    interpretation: To read a cusp table, begin at the CSL, move to its star-lord, note the house that body occupies,
+      and open that row.
+    review_notes: 'Jyoti K5: later, and only with KB-authored wording. Needs a KP cusp frame for the CSL itself.'
+    cusp_frame: KP Placidus
+    id: nadi.nakshatra-nadi.cn.cusp-nl-lookup
+  CN-H02:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 03 04:03
+    - class 3 part 02 10:33
+    inputs: Wanted event houses (for a wedding, 2 and 7)
+    interpretation: If the wanted houses sit in the upper (PL/NL) layer, the event may come sooner; if they appear
+      only in the lower (SL) layer, it may arrive later; if they are missing, look next at transits and then at
+      attached cusps, and allow a slower pace.
+    review_notes: Relative timing only after permission. An SL-only witness cannot independently grant a period
+      promise.
+    id: nadi.nakshatra-nadi.cn.layer-timing
+  CN-H03:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 03 00:00
+    - class 4 part 03 01:28
+    inputs: Cusp numbers attached to a period lord in the app’s “cusps involved” row
+    interpretation: If the period lord’s own lines omit a needed house, a cusp attached to that lord may still let
+      the theme become active in the period.
+    review_notes: Pending timing variant. A minute can change a cusp attachment (class 4 part 03 00:51). It cannot
+      override a failed natal promise or the default period gate.
+    id: nadi.nakshatra-nadi.cn.cusps-involved
+  CN-H04:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 2 part 01 03:38
+    inputs: 1 self; 2 family; 3 younger sibling or neighbour; 4 mother; 5 children; 6 staff, rivals, or an employer;
+      7 a spouse, associate, or the public; 8 the partner’s family; 9 father or a mentor; 10 a superior or firm;
+      11 elder sibling or friends; 12 a distant land or outsiders
+    interpretation: The PL house may describe where, or through whom, a result arises; it does not decide whether
+      the result occurs.
+    review_notes: Descriptive only (Jyoti 1.3).
+    id: nadi.nakshatra-nadi.cn.pl-source-houses
+  CN-H05:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 1 part 01 00:00
+    - class 1 part 01 09:30
+    use: admin-only
+    inputs: Fortuna = lagna + Moon − Sun (absolute longitude from 0° Aries; subtract 360 if needed); house counted
+      on the chosen house frame
+    interpretation: This point may mark a supportive theme in its house. A body in that house may share the theme;
+      if the house is empty, the house itself may carry it.
+    review_notes: Use the Sripati occupancy frame. Omit this point in horary (class 3 part 03 04:04).
+    id: nadi.nakshatra-nadi.cn.fortuna-point
+  CN-H06:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 2 part 02 06:27
+    - class 4 part 00 13:22
+    use: internal-only
+    inputs: Saturn and Moon, by conjunction, Saturn’s 3rd/7th/10th aspect on the Moon, an exchange, or one in the
+      other’s sign
+    interpretation: A Saturn–Moon link may slow a result (including a wedding) so that it takes more time. The delay
+      may ease if those bodies are also power bodies (CN-A01) or occupy the Fortuna house (CN-H05).
+    review_notes: Internal only. Do not use dosha or fear framing; no remedy copy (Jyoti 1.4).
+    id: nadi.nakshatra-nadi.cn.punarphoo
+  CN-H07:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 1 part 02 02:40
+    - class 3 part 04 01:54
+    inputs: 'House groups: 1, 4, 5, 7, 9, 10, 11 more supportive; 2, 3 milder; 6, 8, 12 more taxing. Signs by own/exaltation,
+      friend, neutral, or enemy of the sign lord'
+    interpretation: House quality and sign relationship may be blended as an internal modifier of tone. Do not emit
+      numeric marks or grades to users. Reuse existing `vedic/dignity` and friendship facts; do not duplicate tables.
+    review_notes: Use the shared compound friendship table. The Moon, Mercury, Jupiter and node lists in class 1
+      part 02, class 2 part 01 and class 3 part 04 need reconciliation; the Mars/Saturn example depends on compound
+      friendship.
+    id: nadi.nakshatra-nadi.cn.dignity-blend
+  CN-H08:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 1 part 01 16:15
+    - class 3 part 03 15:19
+    - class 4 part 03 02:51
+    inputs: PL, NL, SL direct or retrograde, in horary only
+    interpretation: 'In horary only: an NL that is retrograde may mean the asked result can wait or be asked again
+      later; an SL that is retrograde may point to delay; a PL that is retrograde alone may only slow things a little.
+      Do not apply this to a natal reading.'
+    review_notes: Reserve for NN-Prashna. Node motion alone cannot deny a result. Natal judgements ignore retrograde
+      status and combustion.
+    scope: horary-only
+    id: nadi.nakshatra-nadi.cn.prashna-retrograde
+  CN-H09:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 16:45
+    inputs: Existing KP ruling-planets selection
+    interpretation: For ruling planets, point to the existing `kp/ruling-planets` module rather than copying the
+      list.
+    review_notes: Consult the KP ruling-planets module. The reported house sequence is disputed and withheld. Frame
+      discrepancy discussed in class 4 part 03 02:00.
+    id: nadi.nakshatra-nadi.cn.ruling-planets-pointer
+  CN-H10:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 2 part 02 09:21
+    - class 4 part 01 04:30
+    use: internal-only
+    inputs: 'By lagna: Aries Saturn; Taurus Saturn; Gemini Jupiter; Cancer Venus; Leo Mars; Virgo Jupiter; Libra
+      Sun; Scorpio Moon; Sagittarius Mercury; Capricorn Mars; Aquarius Venus; Pisces Mercury (same as movable lagnas
+      → 11th lord, fixed → 9th, dual → 7th)'
+    interpretation: Internally, the badhaka lord may be flagged as a possible obstacle. Never name it to users;
+      if a preview is ever needed, say only that delays may occur. Do not combine this flag with maraka.
+    review_notes: Internal obstacle context only.
+    id: nadi.nakshatra-nadi.cn.badhaka-internal
+  CN-H11:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 1 part 00 00:00
+    - class 1 part 00 04:26
+    - class 1 part 00 10:12
+    - class 2 part 00 10:04
+    use: staff-diagnostic
+    inputs: 'Window of about two or three minutes either way. Any one relationship check may suffice: 1st and 9th
+      CSLs are the same body; a younger sibling’s natal star under the 3rd CSL; the mother’s natal star under the
+      4th; a son’s natal star under the 5th; a spouse’s natal star under the 7th; an elder sibling’s natal star
+      under the 11th. Vighati = minutes after sunrise × 60 ÷ 24. Nakshatra-trio remainder: (vighati × 4) ÷ 9. Weekday
+      remainder: (vighati × 3) ÷ 7, Sunday = 1.'
+    interpretation: Staff may use these checks only as an internal diagnostic on an already approximate time. Do
+      not expose them in the product. Do not include the gender-from-time test.
+    review_notes: Reference attribution lacks a chapter. Relative-star checks require separate privacy review. Never
+      adjust a clock solely to obtain a particular reading (class 4 part 03 00:51).
+    id: nadi.nakshatra-nadi.cn.btr-admin
+  CN-H12:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 03 02:51
+    inputs: Natal chart only
+    interpretation: A natal NN reading may ignore retrograde status and combustion; those tests belong to horary
+      or muhurta.
+    extends: nadi.nakshatra-nadi.not-covered
+    id: nadi.nakshatra-nadi.cn.natal-ignores-retro-combustion

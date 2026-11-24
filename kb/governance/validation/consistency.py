@@ -65,6 +65,11 @@ def validate_consistency(rules, read, require, root):
         if isinstance(rid,str):
             require(rid not in ids,rid+' duplicate document ID')
             ids.add(rid)
+        if p.parent == root / 'nadi/nakshatra-nadi' and isinstance(doc, dict) and 'entries' in doc:
+            for row in doc['entries'].values():
+                entry_id = row['id']
+                require(entry_id not in ids, entry_id+' duplicate class entry ID')
+                ids.add(entry_id)
         for item in mappings(doc):
             for field in ('related_rules','reference_rules','used_by','rule_id','related_placement',
                           'reciprocal_placement','linked_to','numerology_ids','related_rule','phase_links'):

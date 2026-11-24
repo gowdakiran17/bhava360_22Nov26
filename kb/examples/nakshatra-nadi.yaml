@@ -1498,15 +1498,7 @@ cases:
       - Mars
       - Mercury
       - Sun
-      power_houses:
-      - 1
-      - 2
-      - 3
-      - 5
-      - 7
-      - 8
-      - 10
-      - 12
+      power_houses: []
     house_boundary_flag:
       Sun: true
       Moon: false
@@ -1539,11 +1531,7 @@ cases:
       power_planets:
       - Mars
       - Sun
-      power_houses:
-      - 1
-      - 6
-      - 9
-      - 10
+      power_houses: []
     house_boundary_flag:
       Sun: false
       Moon: false
@@ -1584,15 +1572,7 @@ cases:
       - Saturn
       - Sun
       power_houses:
-      - 1
-      - 2
-      - 3
-      - 5
       - 6
-      - 7
-      - 8
-      - 10
-      - 11
     house_boundary_flag:
       Sun: false
       Moon: false
@@ -1628,11 +1608,7 @@ cases:
       - Mercury
       - Venus
       power_houses:
-      - 1
-      - 2
-      - 4
       - 5
-      - 12
     house_boundary_flag:
       Sun: true
       Moon: false

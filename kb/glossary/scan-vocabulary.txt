@@ -199,6 +199,7 @@
 1eb3bb30dfca45a472ac2b16cb924d62c315852f173acc58a54fdf1325f0dfe9
 1f11f6f3746229d5ef563df57ec9bda406fa0f424b42936ed11741a6bffc63ac
 1fb29c4d1efa5f44bc5f8d9286b65fa2d5ad757f5102266f48c6bd7197c78047
+1st
 200000z
 200ea757b2ad600c1eb58b81467bc55f80aef779dda176ef271a65b2b4c4202c
 2026c
@@ -367,6 +368,7 @@
 3f50455c48eb5274c31c0441e444780616ac110942dbbf68d533c7e84473b810
 3f82486d659f7bd11dfe4c743ebd68f9fcf0b0e110a32baac4b1f2b89ea995e7
 3fccbd05f62339cdf9f80a258901aa68a9992fa9d44d820dd18117a7d27daf69
+3rd
 400000z
 402d018fd2da80b1cb2141eba01a61cdba874b3fe3deaee5f4dd2f7375617d45
 405f11b588a4d42491bf5c76d1bfb570c0ca1ab84f188e182ec1f20a7a482c24
@@ -468,6 +470,7 @@
 5e6e2afce0f5246980a4635e999a2b4d2b8bbb38e255c4825b7c9cbd54f11b62
 5f71b00d8c4fbec799df127af7fec87fd582032f91d3ea6deef4284a563a7a91
 5fac1bb0a8f8dc73085c52bd43d06f705db7da6517ec9e773c96ff4f46cf171f
+5th
 600000z
 6092c492103405459b3c241796e91cbee92875c98d39e3cebf376b5cf72fe09d
 6146869811dfef63412c5d22b8a2095f8dedb85ab01ed31206da636b33c690ff
@@ -512,6 +515,7 @@
 6f4ab18d74a0aa7a3d76c34218ef27cd6a3fd0a09a27f457eec66b2632697943
 6fbf49e4f50fbee8311816b9703e062a9ec17dea01d9bc292afb143da4a620de
 6fhh7uus
+6th
 70cc7ec0ad42d10799d49a756651fa96fefe645e65e27e553d8affdf47ce7afd
 71351455438899c5261b9d3cc1859132ded18796b1c9b07f63a0c96df196c332
 715c7d3aad4a4e6364a15a8eac24a2513b02650c5ff109bd2987dd821aaae27c
@@ -614,6 +618,7 @@
 8f0ddea33bda2f8152bc80fdfd7aa65b907e2138a4b237c51cb6b8b40418c6b8
 8f8032e28d78e21ddde617f464b81455316884d58f8708cc4d8c3347ca6b87d1
 8fc18a3a3d97b949e7623d7a9b2a5806d008d7d21cb87ad92c5ad314851d1e34
+8th
 907fd6f8c25548682cd094fec275082cb826bacc1055bebd1e1b683dd122c886
 90a061b726258669c4d5d615f240879d4a66702c1e7f7681b37363a6d7970ee2
 915663z
@@ -665,7 +670,16 @@
 9f7017831cadfcb30737cd66be88543357e651a2240a9db82c8f463b591cd9cd
 9th
 a
+a01
+a02
+a03
+a04
+a05
+a06
 a063f2a0d48e8d78601e58861ee76522d269387d1dc01fa94d3bf4f85187e0b2
+a07
+a08
+a09
 a0d6a396a16a91a28945db7a201c4a9257c020f6478b393ae1d36053dc370476
 a1
 a10
@@ -740,6 +754,7 @@ able
 about
 above
 abroad
+abrupt
 abs
 absence
 absent
@@ -867,6 +882,8 @@ aesthetic
 af03434f556405d3173787e495fcb1c4c0d2265839ac85248cff528b25ad9ff5
 af4403b79ad39e78a61f7af15f155ff3e1531fb7806467acb138a582af31ae59
 af9b579f43d2cd2b4df6e140a8469613e3d178b1ef4796f5999bba39043b69ba
+affair
+affairs
 affect
 affected
 affecting
@@ -951,6 +968,7 @@ alter
 altering
 alternate
 alternative
+alternatively
 alternatives
 altitude
 always
@@ -1057,7 +1075,10 @@ apostrophes
 app
 apparent
 apparently
+appear
 appearance
+appeared
+appearing
 appears
 append
 appendix
@@ -1111,6 +1132,7 @@ ari
 aria
 aries
 arise
+arises
 arising
 arithmetic
 arjun
@@ -1120,6 +1142,7 @@ around
 arpana
 arpita
 arrange
+arranged
 arrangement
 arrangements
 arranging
@@ -1233,6 +1256,7 @@ atman
 attach
 attached
 attaches
+attachment
 attainment
 attending
 attention
@@ -1305,6 +1329,7 @@ b17dbee7e51677871e413c74cdd0261b95f6f4b216022eb7f4ce705ed4aa5c40
 b21185e0163f7aa4341eb6cc8249698671931d11cab1690dc328d6e1b08bf5e3
 b21e55bf4d8d9f0bd614dc0183fc7985584d81f0a99355cc865cd13b05235882
 b22fe7173965f126a5885d36edf06a4e58896c1d452bf4b87ca2489a0ce20b74
+b3
 b35cf38ed4640064fd7c1f04c857bb064f4921a8324e84aa909d86e8fd682896
 b379db8ee82d944307366fd038d06d34d62269027caea5cb12c0f5c2e11d80ef
 b4e8240f8476a5f8ef199d8eecdef4b0fd6696b273a35c69cc1bce0248ade4b6
@@ -1350,6 +1375,7 @@ banarsidass
 band
 bandhu
 bands
+bank
 banned
 banner
 bans
@@ -1508,6 +1534,8 @@ bkt
 black
 blade
 blank
+blend
+blended
 blob
 block
 blocked
@@ -1530,6 +1558,7 @@ bnymbmm
 bnymnmm
 bodies
 body
+bond
 bone
 bones
 bonus
@@ -1586,6 +1615,7 @@ broad
 broader
 broken
 brothers
+btr
 bud
 budget
 budh
@@ -1716,6 +1746,7 @@ cap
 capable
 capacities
 capacity
+capital
 capricorn
 caps
 card
@@ -1926,6 +1957,7 @@ cites
 cities
 citing
 city
+civic
 civil
 claim
 claimed
@@ -1968,6 +2000,7 @@ clu
 clue
 cluster
 clusters
+cn
 co
 code
 codes
@@ -2112,6 +2145,7 @@ confirming
 confirms
 conflict
 conflicting
+confuses
 confusing
 conjoin
 conjoined
@@ -2176,6 +2210,8 @@ contemporary
 content
 contentment
 contents
+contest
+contests
 context
 contexts
 contextual
@@ -2224,6 +2260,7 @@ coords
 copied
 copies
 copy
+copying
 copyright
 core
 corner
@@ -2292,10 +2329,14 @@ crypto
 cryptographic
 crystals
 csafeloader
+csl
+csls
 csprng
 csv
 ctx
 cuckoo
+cue
+cues
 cultivate
 cultivation
 culture
@@ -2455,6 +2496,7 @@ de
 de17ce79da8fa50d2cda5699a149fdfc194bedcd351b57af5115a812d9965499
 de74b7825ea7fe899e06167e28568065642698481c8d8efb205ba032525b36ef
 deadly
+deal
 dealings
 dear
 death
@@ -2468,6 +2510,7 @@ debts
 dec
 decan
 decans
+deceased
 decide
 decided
 decides
@@ -2558,6 +2601,7 @@ denial
 denied
 denote
 dental
+deny
 dep
 departure
 departures
@@ -2589,6 +2633,7 @@ deserve
 deserves
 design
 designation
+desired
 desk
 despite
 dest
@@ -2681,6 +2726,7 @@ dina
 dinesh
 dipa
 dipavali
+diplomats
 dir
 direct
 directed
@@ -2697,6 +2743,7 @@ disagree
 disagreement
 disagreements
 disagrees
+disappoint
 disappointment
 disaster
 disasters
@@ -2708,9 +2755,11 @@ disconnection
 discover
 discoverable
 discovery
+discrepancy
 discrete
 discs
 discuss
+discussed
 discusses
 discussing
 discussion
@@ -2810,6 +2859,7 @@ down
 downgrade
 downhill
 downstream
+dowry
 dr
 draft
 drafting
@@ -2836,7 +2886,9 @@ dst
 dt
 du
 dual
+dues
 duhkita
+dull
 dump
 duphali
 duplicate
@@ -3044,6 +3096,7 @@ enemy
 energy
 enfield
 enforced
+engagement
 engine
 engines
 english
@@ -3096,6 +3149,7 @@ era
 erase
 errand
 error
+errors
 es
 escalating
 ese
@@ -3173,6 +3227,7 @@ exclusively
 exec
 executable
 execute
+executives
 exempt
 exemption
 exemptions
@@ -3289,6 +3344,7 @@ fall
 fallback
 falls
 false
+fame
 familiar
 familiarity
 families
@@ -3306,6 +3362,7 @@ fatalidad
 fate
 father
 fav
+favour
 favourable
 favoured
 favourite
@@ -3343,6 +3400,7 @@ female
 feminine
 festival
 festivals
+festivity
 fevicol
 few
 fewer
@@ -3465,6 +3523,7 @@ formulations
 forth
 fortnight
 fortun
+fortuna
 fortunate
 fortune
 forty
@@ -3522,6 +3581,7 @@ functional
 functionally
 functions
 functools
+funds
 funeral
 furniture
 further
@@ -3715,14 +3775,83 @@ guru
 gutenberg
 h
 h0
+h01
+h02
+h03
+h04
+h05
+h06
+h07
+h08
+h09
+h10
+h11
+h12
 h14
 h16
+h20
+h21
+h22
+h23
+h24
+h25
+h26
+h27
 h28
+h40
+h41
+h42
 h43
+h44
+h45
+h46
+h47
+h48
+h49
+h50
+h51
+h52
+h53
+h54
+h55
+h56
+h57
+h58
+h59
+h60
+h61
+h62
+h63
+h64
+h65
+h66
+h67
+h68
+h69
 h7
+h70
+h71
+h72
+h73
+h74
+h75
+h76
+h77
+h78
+h79
+h80
+h81
+h82
+h83
+h84
+h85
+h86
+h87
+h88
 ha
 habit
 habits
+had
 hadda
 hala
 half
@@ -3774,6 +3903,7 @@ headers
 heading
 headless
 headline
+heads
 headway
 headword
 headwords
@@ -3786,6 +3916,7 @@ hear
 hearing
 heart
 heartfelt
+heavy
 helctr
 held
 heliacal
@@ -3990,6 +4121,7 @@ impossible
 impression
 impressions
 imprint
+imprisonment
 improve
 improving
 impulse
@@ -4014,6 +4146,7 @@ inconclusive
 incorrect
 increases
 increment
+indebted
 independence
 independent
 independently
@@ -4048,6 +4181,7 @@ inevitable
 infer
 inference
 inferred
+infidelity
 influence
 influences
 info
@@ -4093,6 +4227,7 @@ instant
 instantaneous
 instants
 instead
+institution
 instruction
 instructional
 instructions
@@ -4152,6 +4287,8 @@ interveners
 intervenes
 intervening
 intervention
+interview
+intimacy
 into
 intra
 introduce
@@ -4287,6 +4424,7 @@ ju
 judge
 judgement
 judgements
+judges
 judging
 judgment
 julian
@@ -4305,6 +4443,7 @@ jyotisha
 jyotsna
 k
 k2
+k5
 ka
 ka01ab1234
 kaahala
@@ -4530,6 +4669,7 @@ labels
 labh
 labha
 lack
+lacking
 lacks
 ladder
 ladders
@@ -4607,6 +4747,7 @@ legacy
 legal
 legend
 legitimately
+leisure
 lekha
 len
 lend
@@ -4692,6 +4833,8 @@ lo
 load
 loader
 loads
+loan
+loans
 loc
 local
 locale
@@ -4733,6 +4876,7 @@ lord
 lords
 lordship
 lordships
+lose
 loser
 loses
 loss
@@ -4930,6 +5074,7 @@ marking
 marks
 marriage
 marriages
+married
 marrow
 mars
 marut
@@ -5039,6 +5184,7 @@ mihir
 mihira
 miiraa
 mild
+milder
 milestone
 min
 mind
@@ -5064,6 +5210,7 @@ miss
 missed
 misses
 missing
+misunderstanding
 mit
 mithuna
 mitigates
@@ -5498,6 +5645,7 @@ occupancy
 occupant
 occupants
 occupation
+occupational
 occupied
 occupies
 occupy
@@ -5514,6 +5662,7 @@ off
 offer
 offered
 offering
+offerings
 offers
 office
 offices
@@ -5603,6 +5752,7 @@ out
 outcome
 outcomes
 outer
+outflow
 outgoing
 outgoings
 outgrowing
@@ -5617,6 +5767,7 @@ output
 outputs
 outside
 outsider
+outsiders
 outstanding
 outward
 over
@@ -5630,6 +5781,7 @@ overlays
 overlooked
 override
 overrides
+overseas
 overview
 own
 owned
@@ -5667,6 +5819,7 @@ paid
 paints
 pair
 paired
+pairings
 pairs
 pakka
 paksha
@@ -5818,6 +5971,7 @@ personal
 personalisation
 personalise
 personalised
+personalities
 personality
 personalization
 personalized
@@ -5914,6 +6068,7 @@ polarity
 policies
 policy
 polish
+political
 pontos
 pooja
 poojas
@@ -6080,6 +6235,7 @@ privacy
 private
 privately
 priya
+prize
 probe
 probes
 problem
@@ -6098,9 +6254,12 @@ product
 production
 products
 profections
+profession
 professional
 profile
 profiles
+profit
+profitable
 profits
 progeny
 prograde
@@ -6179,6 +6338,7 @@ pujas
 pujita
 pull
 pulled
+punarphoo
 punarvasu
 pundarik
 puntos
@@ -6480,6 +6640,7 @@ referrals
 refers
 refine
 refined
+refinement
 refining
 reflect
 reflecting
@@ -6549,6 +6710,7 @@ remained
 remaining
 remains
 remarks
+remarriage
 remedies
 remedy
 remember
@@ -6558,6 +6720,7 @@ remove
 removed
 removeprefix
 removes
+removing
 render
 renderer
 rendering
@@ -6570,6 +6733,7 @@ renown
 rental
 rented
 renumber
+renunciation
 reopen
 repair
 repairing
@@ -6688,6 +6852,7 @@ return
 returned
 returning
 returns
+reunion
 reusable
 reuse
 revati
@@ -6743,6 +6908,7 @@ risks
 ritu
 ritual
 rituals
+rivals
 river
 rm
 ro
@@ -6958,6 +7124,7 @@ schools
 schwa
 science
 scientific
+scientist
 scope
 scoped
 scopes
@@ -7028,6 +7195,7 @@ semicircle
 semo
 send
 sending
+senior
 seniority
 sense
 senses
@@ -7061,12 +7229,15 @@ sesame
 sesquiquadrate
 session
 set
+setback
+setbacks
 setdefault
 sets
 setting
 settings
 settle
 settled
+settlement
 settling
 setu
 setup
@@ -7076,6 +7247,7 @@ seventh
 several
 sex
 sextile
+sexual
 sgs
 sgspanchangam
 sh
@@ -7089,6 +7261,7 @@ shadvarga
 shakata
 shakti
 shakuni
+shaky
 shambhu
 shanaishcharaya
 shani
@@ -7137,6 +7310,7 @@ shikhara
 shikhi
 shilpi
 shilpii
+ship
 shiva
 shobhana
 shodasamsa
@@ -7164,6 +7338,7 @@ shraddha
 shraddhah
 shrapit
 shravana
+shrine
 shringataka
 shu
 shubh
@@ -7229,6 +7404,8 @@ sister
 sit
 site
 sites
+sits
+sitting
 situation
 situations
 siva
@@ -7257,6 +7434,7 @@ sl
 slanting
 slash
 sleeping
+slightly
 slip
 slope
 sloping
@@ -7292,9 +7470,11 @@ soften
 softened
 softening
 softens
+softer
 software
 solar
 sole
+solely
 solitary
 solitude
 solution
@@ -7313,9 +7493,11 @@ song
 sons
 sookshma
 soola
+sooner
 sort
 sorted
 sorting
+sought
 soul
 sound
 sounds
@@ -7356,6 +7538,7 @@ speculative
 speech
 speed
 speeds
+spell
 spelled
 spelling
 spellings
@@ -7374,6 +7557,7 @@ spot
 spotlight
 spots
 spouse
+spouses
 spread
 spreads
 spring
@@ -7404,6 +7588,7 @@ stages
 staircase
 stairs
 stale
+stall
 stamp
 stance
 stances
@@ -7459,6 +7644,7 @@ story
 str
 straight
 straightforward
+strain
 strategy
 stream
 stree
@@ -7531,6 +7717,7 @@ sudhaa
 sudhaakar
 sudhakar
 suerte
+suffice
 sufficient
 suffix
 suggest
@@ -7567,6 +7754,7 @@ sunrise
 sunrises
 suns
 sunset
+superior
 supersede
 superseded
 supersedes
@@ -7743,6 +7931,7 @@ take
 taken
 takes
 taking
+talent
 talismans
 talk
 talking
@@ -7774,7 +7963,9 @@ tasks
 taste
 tata
 tatamotors
+taught
 taurus
+taxing
 tcs
 te
 teacher
@@ -7852,6 +8043,7 @@ these
 they
 thief
 thighs
+thin
 thing
 things
 think
@@ -7890,6 +8082,7 @@ timed
 timedelta
 timeline
 timelines
+timely
 times
 timestamp
 timestamps
@@ -8018,10 +8211,12 @@ trijanma
 trikalam
 trikona
 trilingual
+trim
 trimsamsa
 trinal
 trine
 trines
+trio
 trip
 triple
 triplicities
@@ -8235,6 +8430,7 @@ until
 untranscribed
 untranslated
 untraversed
+unused
 unverified
 unweighted
 unwind
@@ -8373,6 +8569,7 @@ veena
 veenaa
 vehicle
 vehicles
+venture
 venus
 venv
 ver
@@ -8427,6 +8624,7 @@ virgo
 virtual
 virupa
 virupas
+visa
 vishaakhaa
 vishaala
 vishadagdha
@@ -8578,7 +8776,9 @@ will
 william
 williams
 willing
+win
 wind
+windfall
 window
 windows
 winner

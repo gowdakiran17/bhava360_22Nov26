@@ -1,0 +1,113 @@
+approval: draft
+enabled: false
+visibility: admin-only
+status: held
+work_id: dinesh-nadi-classes
+edition: dinesh-nadi-private-classes
+verification: supplied-in-brief
+entries:
+  CN-H20:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 2 part 02 00:00
+    inputs: 1st CSL, NL house 1–12; wealth and general columns
+    interpretation: The 1st cusp may describe self, standing, and effort; read the row of the CSL’s star-lord house.
+    review_notes: Health cells stay off.
+    id: nadi.nakshatra-nadi.cn.cusp-01-table
+  CN-H21:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 00 00:26
+    inputs: 2nd CSL, NL house 1–12; family, wealth, general
+    interpretation: The 2nd cusp may describe family, speech, and money flow; read the row of the CSL’s star-lord
+      house.
+    review_notes: The source confuses odd signs with movable signs and places Saturn on opposing lists. Withhold
+      both disputed classifications. Class 2 part 01 15:15 groups 2/4/6/10/11, 1/3 and 5/7/12 for different financial
+      contexts.
+    id: nadi.nakshatra-nadi.cn.cusp-02-table
+  CN-H22:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 00 05:01
+    inputs: 3rd CSL, NL house 1–12; siblings, communication, general
+    interpretation: The 3rd cusp may describe courage, short trips, documents, and younger siblings; read the row
+      of the CSL’s star-lord house.
+    review_notes: Part of the house-9 general cell appeared to repeat a 5th-house line — confirm it against the
+      course file before authoring.
+    id: nadi.nakshatra-nadi.cn.cusp-03-table
+  CN-H23:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 00 11:34
+    inputs: 4th CSL, NL house 1–12; property or vehicle, education, general
+    interpretation: The 4th cusp may describe home, study, vehicles, and the mother; read the row of the CSL’s star-lord
+      house.
+    review_notes: 'A CSL tied to Saturn or Mars: property may be available; tied to Venus: a vehicle may be available
+      (class 3 part 00 17:40).'
+    id: nadi.nakshatra-nadi.cn.cusp-04-table
+  CN-H24:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 01 00:00
+    inputs: 5th CSL, NL house 1–12; general column only
+    interpretation: The 5th cusp may describe learning, creativity, and affection; read the row of the CSL’s star-lord
+      house.
+    review_notes: Child and health columns stay off (K5).
+    id: nadi.nakshatra-nadi.cn.cusp-05-table
+  CN-H25:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 01 07:15
+    inputs: 6th CSL, NL house 1–12; work and general only
+    interpretation: The 6th cusp may describe service, loans, and daily effort; read the row of the CSL’s star-lord
+      house.
+    review_notes: Restrict to employment and general effort.
+    id: nadi.nakshatra-nadi.cn.cusp-06-table
+  CN-H26:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 3 part 01 16:00
+    - class 3 part 02 00:00
+    inputs: 7th CSL, NL house 1–12; marriage and business columns
+    interpretation: The 7th cusp may describe a partner or a public deal; read the row of the CSL’s star-lord house.
+    review_notes: Intimacy rows stay off.
+    id: nadi.nakshatra-nadi.cn.cusp-07-table
+  CN-H27:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 00:00
+    inputs: 12th CSL, NL house 1–12; wealth and general
+    interpretation: The 12th cusp may describe time abroad, outlay, and seclusion; read the row of the CSL’s star-lord
+      house.
+    review_notes: 'Health column stays off. Fixed sign: may tend to remain abroad; movable: may travel and return;
+      dual: may spend some time abroad and then come back (class 4 part 01 14:00).'
+    id: nadi.nakshatra-nadi.cn.cusp-12-table
+  CN-H28:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 04:30–14:00
+    inputs: 8th–11th
+    interpretation: Cusps 8–11 were given as event groups and brief notes, not as 12-row CSL–NL grids. Use the event
+      rows in B3. Do not invent house-by-house grids for them.
+    review_notes: Use event combinations for these four cusps. No complete grid was recorded.
+    id: nadi.nakshatra-nadi.cn.cusps-08-to-11-events-only
+lookup: Use the occupied bhava of the KP cusp sub-lord’s star lord. Only table scopes are registered; individual
+  cell copy awaits editorial review.

@@ -613,3 +613,7 @@ On 24 Nov 2026 at 7:04 PM IST (Asia/Calcutta), Kiran selected whole-sign houses 
 ## Nakshatra Nadi class-recording review
 
 The held module has 23 draft rules and 65 synthetic cases. The internal registry now has 981 fact keys across 2,755 rules. Sripati occupancy uses the midpoints between consecutive house centres, with lordship counted by sign from Lagna. The one-degree flag retains uncertainty at a boundary. Hit power describes the two line circles; chart power planets come from natal star tenancy. The period gate precedes interpretation and weighting. A denied event remains denied under a transit. The private class locator is supplied by Jyoti. The new preview copy awaits Kannada and Hindi review.
+
+## Nakshatra Nadi class notes
+
+Nine method items extend the existing private rules. The separate held catalogues contain 12 method and timing entries, nine cusp scopes and 49 event combinations. Their source is the supplied class and timestamp reference. Cusp cells and disputed variants await review. Chart-level power houses use the PL house union minus the NL house union. Cusp permission precedes period timing and transit contact.

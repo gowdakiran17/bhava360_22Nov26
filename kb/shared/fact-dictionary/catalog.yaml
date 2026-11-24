@@ -221,9 +221,9 @@ facts:
   nadi.nn.chart.power_houses:
     type: array
     producer: nadi.nakshatra-nadi
-    origin: Union of the house combinations of the power planets, including node agency where applicable.
+    origin: Houses appearing in any PL combination after removing every house found on any NL line.
     dependencies:
-    - nadi.nn.chart.power_planets
+    - PL and NL combinations across all nine bodies
     - Chalita occupancy and sign lordship
     unknown_if: A required input is absent or unstable.
     visibility: admin-only
