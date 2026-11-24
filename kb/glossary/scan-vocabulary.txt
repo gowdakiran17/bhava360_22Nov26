@@ -871,6 +871,7 @@ affects
 affiliation
 affinities
 affinity
+affirmative
 afflicted
 affliction
 afflicts
@@ -1566,6 +1567,7 @@ brihatjataka00varaiala
 brihatkshata
 brilliance
 bring
+bringing
 brings
 britannia
 broad
@@ -3589,6 +3591,7 @@ going
 gola
 gold
 golden
+goldens
 gondhalekar
 good
 goodness
@@ -4075,6 +4078,7 @@ interrupt
 interrupted
 interrupting
 interruption
+interrupts
 intersect
 intersecting
 intersection
@@ -5956,6 +5960,7 @@ proceeds
 process
 processing
 produce
+produced
 producer
 producers
 produces
@@ -6351,6 +6356,7 @@ refs
 regard
 regards
 regenerate
+regenerating
 region
 regional
 regions
@@ -6507,6 +6513,7 @@ rested
 restful
 resting
 restore
+restored
 restores
 restoring
 restrict

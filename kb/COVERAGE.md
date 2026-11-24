@@ -104,3 +104,7 @@ The review map matches 1,229 authored top-level blocks and nine nested remedy ci
 ## Batch 11 final review
 
 All thirty area promises have explicit fixture expectations. Three health routes contribute at most one challenge together. Two yoga entries have revised Kannada and Hindi copy. All 120 gated Lal Kitab placement entries carry the native-review flag. The KB contains 2,732 reading rules and 955 fact keys.
+
+## Batch 12 review
+
+All 30 Prashna reference cases pass with the restored applying-conjunction vote. Additional position-only probes cover the inclusive orb, separating motion, exact contact, stationary relative motion, missing speed and interrupted timing. Taurus and Scorpio probes exercise the shared-lord health exceptions. The five named consultation goldens reproduce with 30 unchanged area bands. The KB contains 2,732 rules and 956 fact keys.
