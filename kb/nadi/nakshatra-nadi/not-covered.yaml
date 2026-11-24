@@ -1,0 +1,62 @@
+id: nadi.nakshatra-nadi.not-covered
+system: nadi
+topic: nakshatra-nadi
+title: Not covered
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: Ignore outer planets with a diagnostic. Exclude retrograde motion, combustion, transits, divisional charts
+  and ruling planets from this method.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+meaning: Ignore outer planets with a diagnostic.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Discard outer-body inputs with an internal diagnostic.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 1-signature-course.pdf
+  verse: null
+  other_locator: PDF pp. 1-16
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 2-new-file-56pp.pdf
+  verse: null
+  other_locator: PDF pp. 8, 31
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Keep the review convention explicit.
+user_text:
+  en: You can leave this detail open for now.
+  kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.
+  hi: आप इस विवरण को फिलहाल खुला रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

@@ -1,0 +1,60 @@
+id: nadi.nakshatra-nadi.lagna-estimate-shortcut
+system: nadi
+topic: nakshatra-nadi
+title: Lagna estimate shortcut
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: Obtain the ascendant from a timed chart. The rough solar-entry estimate has no role when birth time is missing.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - any:
+    - fact: kp.cusps.placidus_ready
+      op: eq
+      value: true
+    - fact: nadi.nn.profile
+      op: eq
+      value: lahiri-whole-sign
+meaning: Obtain the ascendant from a timed chart.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 2-new-file-56pp.pdf
+  verse: null
+  other_locator: PDF pp. 38-42
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Keep the review convention explicit.
+user_text:
+  en: With a birth time, you may be able to explore this theme.
+  kn: ಜನನ ಸಮಯ ಲಭ್ಯವಿದ್ದರೆ ನೀವು ಈ ವಿಷಯವನ್ನು ಅನ್ವೇಷಿಸಬಹುದು.
+  hi: जन्म का समय मिलने पर आप इस विषय पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

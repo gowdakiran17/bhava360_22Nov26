@@ -1,0 +1,52 @@
+id: nadi.nakshatra-nadi.node-dignity-and-time-strength
+system: nadi
+topic: nakshatra-nadi
+title: Node dignity and time strength
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Leave nodal dignity and day/night strength unavailable until the competing source assignments are resolved.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+meaning: Leave nodal dignity and day/night strength unavailable until the competing source assignments are resolved.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Leave node dignity unset because the illustrations disagree.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 1-signature-course.pdf
+  verse: null
+  other_locator: PDF pp. 37, 51-52
+  supports: Method and scope
+  verification: pending
+  to_verify: true
+confidence: low
+review_notes: Internal study only. Resolve node-dignity-review.
+user_text:
+  en: You can leave this detail open for now.
+  kn: ಈ ವಿವರವನ್ನು ಸದ್ಯಕ್ಕೆ ತೆರೆದಿಡಬಹುದು.
+  hi: आप इस विवरण को फिलहाल खुला रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

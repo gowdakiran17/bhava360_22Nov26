@@ -19,6 +19,7 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.raja-yogas.fifth-from-lord
+- nadi.nakshatra-nadi.node-combination
 - vedic.dashas-vimshottari.jupiter-jupiter-antar
 - vedic.dashas-vimshottari.jupiter-ketu-antar
 - vedic.dashas-vimshottari.jupiter-maha

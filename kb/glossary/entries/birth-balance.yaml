@@ -21,6 +21,10 @@ aliases:
 reference_rules:
 - vedic.dashas-vimshottari.balance-calculation
 used_by:
+- nadi.nakshatra-nadi.natural-deliverers
+- nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+- nadi.nakshatra-nadi.vimshottari-balance
 - vedic.dashas-kalachakra.pada-wheel
 - vedic.dashas-kalachakra.study-topic
 - vedic.dashas-vimshottari.balance-calculation

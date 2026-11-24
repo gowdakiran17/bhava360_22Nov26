@@ -1,0 +1,72 @@
+id: nadi.nakshatra-nadi.keyword-layer
+system: nadi
+topic: nakshatra-nadi
+title: Keyword layer
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: After houses are established, placement and conjunction keywords can suggest an editorial focus. They do not
+  determine period timing.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - any:
+    - fact: kp.cusps.placidus_ready
+      op: eq
+      value: true
+    - fact: nadi.nn.profile
+      op: eq
+      value: lahiri-whole-sign
+meaning: After houses are established, placement and conjunction keywords can suggest an editorial focus.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 1-signature-course.pdf
+  verse: null
+  other_locator: PDF pp. 24-32, 35, 39-49, 53-55
+  supports: Method and scope
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator is approximate in the supplied review map.
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 2-new-file-56pp.pdf
+  verse: null
+  other_locator: PDF pp. 50-56
+  supports: Method and scope
+  verification: locator_medium
+  to_verify: false
+  locator_note: Locator is approximate in the supplied review map.
+confidence: medium
+review_notes: Internal study only. Resolve house-frame.
+user_text:
+  en: You may find that the same theme feels different at work and at home.
+  kn: ಒಂದೇ ವಿಷಯವು ಕೆಲಸದಲ್ಲಿ ಮತ್ತು ಮನೆಯಲ್ಲಿ ಬೇರೆ ರೀತಿ ಅನಿಸಬಹುದು.
+  hi: एक ही विषय काम और घर में अलग तरह से महसूस हो सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

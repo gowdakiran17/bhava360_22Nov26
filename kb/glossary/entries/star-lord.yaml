@@ -19,6 +19,9 @@ reference_rules: []
 used_by:
 - kp.ruling-planets.repeated-lord
 - kp.significators.ranked-levels
+- nadi.nakshatra-nadi.hit-grids
+- nadi.nakshatra-nadi.three-line-chain-per-planet
+- nadi.nakshatra-nadi.zodiac-stars-and-quarters
 - vedic.dashas-vimshottari.balance-calculation
 - vedic.star-readings.lord-jupiter
 - vedic.star-readings.lord-ketu

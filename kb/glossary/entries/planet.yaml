@@ -139,6 +139,16 @@ used_by:
 - lal-kitab.placements.venus-house-7
 - lal-kitab.placements.venus-house-8
 - lal-kitab.placements.venus-house-9
+- nadi.nakshatra-nadi.area-polarity-sets
+- nadi.nakshatra-nadi.line-weight
+- nadi.nakshatra-nadi.mitigation-inside-a-harmful-set
+- nadi.nakshatra-nadi.neutral-house-bifurcation
+- nadi.nakshatra-nadi.not-covered
+- nadi.nakshatra-nadi.period-roles
+- nadi.nakshatra-nadi.planet-aspects
+- nadi.nakshatra-nadi.planet-house-combination
+- nadi.nakshatra-nadi.reading-quality-across-a-major-period-and-at-junctions
+- nadi.nakshatra-nadi.three-line-chain-per-planet
 - remedies.conduct.jupiter
 - remedies.conduct.ketu
 - remedies.conduct.mars

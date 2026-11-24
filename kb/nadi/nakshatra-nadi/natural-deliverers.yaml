@@ -1,0 +1,63 @@
+id: nadi.nakshatra-nadi.natural-deliverers
+system: nadi
+topic: nakshatra-nadi
+title: Natural deliverers
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: During Antar or Pratyantar alone, Venus can add relationship or vehicle context, Mars or Saturn property context,
+  and Saturn, Sun or a node travel context. Jupiter’s children theme stays held.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: dasha.vimshottari.birth_balance_stable
+    op: eq
+    value: true
+  - fact: dasha.vimshottari.selected_level
+    op: in
+    value:
+    - antar
+    - pratyantar
+meaning: During Antar or Pratyantar alone, Venus can add relationship or vehicle context, Mars or Saturn property
+  context, and Saturn, Sun or a node travel context.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 31, 37, 42, 51
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Keep the review convention explicit.
+user_text:
+  en: You may revisit this theme as your plans unfold.
+  kn: ನಿಮ್ಮ ಯೋಜನೆಗಳು ಮುಂದುವರಿದಂತೆ ನೀವು ಈ ವಿಷಯವನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: अपनी योजनाएँ आगे बढ़ने पर आप इस विषय पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

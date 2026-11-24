@@ -18,6 +18,7 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.arudha-padas.marriage-support
+- nadi.nakshatra-nadi.benefic-and-malefic-natures
 - vedic.doshas.mars-partnership
 - vedic.doshas.nodal-axis
 - vedic.muhurta.business-start

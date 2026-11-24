@@ -19,6 +19,8 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.raja-yogas.advisory-role
+- nadi.nakshatra-nadi.keyword-layer
+- nadi.nakshatra-nadi.node-combination
 - vedic.conjunctions.jupiter-ketu
 - vedic.conjunctions.jupiter-rahu
 - vedic.conjunctions.jupiter-saturn

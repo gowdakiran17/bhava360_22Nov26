@@ -17,6 +17,7 @@ aliases:
 - dignities
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.node-dignity-and-time-strength
 - vedic.annual-chart.durapha
 - vedic.dashas-chara.sign-order
 - vedic.dashas-narayana.partnership-topic

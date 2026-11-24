@@ -1,0 +1,56 @@
+id: nadi.nakshatra-nadi.sub-division
+system: nadi
+topic: nakshatra-nadi
+title: Sub division
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: held
+native_review_needed: true
+rule: Resolve the half-open KP sub interval at the longitude. Each star starts with its lord and apportions its
+  span by the nine period lengths.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: kp.sub.known
+    op: eq
+    value: true
+meaning: Resolve the half-open KP sub interval at the longitude.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Use KP mode 5. The course leaves its software setting unstated; compare Lahiri only in a separate record.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 2-3, 6-12
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Keep the review convention explicit.
+user_text:
+  en: A small change in the chart setting may change this detail.
+  kn: ಕುಂಡಲಿಯ ಗಣನೆಯ ವಿಧಾನ ಬದಲಾದರೆ ಈ ವಿವರ ಬದಲಾಗಬಹುದು.
+  hi: कुंडली की गणना का तरीका बदलने पर यह विवरण बदल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

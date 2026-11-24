@@ -439,6 +439,7 @@
 564bafa23d894d88a96d1abbd6c548cdb8f9126a708d6c2091d48b663f863c8b
 56a12eaf0e965ed949d4c5eb365d66f6b14973117c63117eb4c645ca2979a050
 56d0d5b8067c66987b4a92c7e15b0976773062dfa5f52b6f2b603eada93ac9ab
+56pp
 5712a70b687fb6dde77bba3b341bd5e0442f942e2aff781beb1e3058a05977f2
 577432e24e1537836f94d22c53dbbbedc1a0f769e54fae7107077f109e0683e4
 57ae0cf6b13862a99cea5379fa5568747ddcc180f540d29d7f2ff3989e44a906
@@ -735,6 +736,7 @@ abhijit
 abhyaasa
 abhyas
 ability
+able
 about
 above
 abroad
@@ -1052,6 +1054,7 @@ apollotyres
 apostrophes
 app
 apparent
+apparently
 appearance
 appears
 append
@@ -1065,6 +1068,7 @@ applies
 apply
 applying
 appointment
+apportions
 appreciate
 appreciation
 approach
@@ -1476,6 +1480,7 @@ bhuvan
 bhuvana
 bias
 bibliographic
+bifurcation
 big
 bil
 bills
@@ -1826,6 +1831,7 @@ changes
 changing
 channel
 channels
+chanting
 chapa
 chapnum
 chapter
@@ -1901,6 +1907,7 @@ chun
 ciento
 cintamani
 circle
+circled
 circular
 circulation
 circumstances
@@ -1964,6 +1971,7 @@ coiled
 coils
 coincide
 coincident
+col
 collaboration
 collapse
 colleague
@@ -1977,6 +1985,7 @@ collector
 colou
 colour
 colours
+cols
 column
 columns
 com
@@ -1986,6 +1995,7 @@ combine
 combined
 combines
 combining
+combo
 combust
 combustion
 come
@@ -2172,6 +2182,7 @@ continuously
 contract
 contracts
 contradicting
+contradictory
 contrast
 contribute
 contributes
@@ -2189,6 +2200,7 @@ conventional
 conventions
 conversation
 conversations
+conversion
 convert
 conveys
 conviction
@@ -2462,6 +2474,7 @@ declarations
 declared
 declares
 declination
+decline
 declined
 declining
 ded3411833784552ff5eda55e9e83e1acf583b1451eadb582b94d6ad6c0e7fb8
@@ -2493,6 +2506,7 @@ defer
 deferred
 deficiencies
 deficient
+define
 defined
 defines
 defining
@@ -2506,6 +2520,7 @@ deities
 deity
 del
 delay
+delays
 delegate
 delegates
 delegation
@@ -2517,6 +2532,8 @@ deliberate
 deliberately
 delimited
 delineations
+deliverer
+deliverers
 delivery
 delta
 deltat
@@ -2649,6 +2666,7 @@ digraphs
 diipaka
 dikshita
 dina
+dinesh
 dipa
 dipavali
 dir
@@ -2731,6 +2749,7 @@ divisional
 divisions
 divisor
 divmod
+divorce
 divya
 divyachadhava
 diwali
@@ -2762,6 +2781,8 @@ domestic
 domicile
 dominance
 dominant
+donation
+donations
 done
 doom
 door
@@ -2793,6 +2814,7 @@ drik
 drikpanchang
 drishti
 drop
+dropped
 dropping
 drum
 ds
@@ -3110,7 +3132,9 @@ exalted
 exaltee
 exalts
 exam
+examination
 examine
+examined
 examines
 examining
 example
@@ -3332,6 +3356,7 @@ filter
 filtering
 filters
 final
+finally
 finances
 financial
 find
@@ -3710,6 +3735,7 @@ harder
 hari
 harita
 harm
+harmful
 harming
 harmonic
 harmonics
@@ -3850,6 +3876,7 @@ hurt
 hymn
 hyphen
 hyphens
+hypotheses
 hypothetical
 i
 iana
@@ -3908,6 +3935,7 @@ igendrah
 ignca
 ignore
 ignorecase
+ignored
 ignores
 ii
 iii
@@ -4008,6 +4036,7 @@ influence
 influences
 info
 information
+informational
 infosys
 infrastructure
 ing
@@ -4246,6 +4275,7 @@ judgment
 julian
 jump
 junction
+junctions
 jupiter
 jurisdiction
 just
@@ -4361,6 +4391,7 @@ key
 keyed
 keyerror
 keys
+keyword
 keywords
 kh
 khala
@@ -4706,16 +4737,39 @@ luminary
 luna
 lunar
 lunation
+lvl
 ly
 m
+m01
+m02
+m03
+m04
+m05
+m06
+m07
+m08
+m09
+m10
 m105
 m107
 m109
+m11
 m110
+m12
 m126
+m13
 m133
+m14
 m149
+m15
 m153
+m16
+m17
+m18
+m19
+m20
+m21
+m22
 m47
 m5
 m51
@@ -4941,6 +4995,7 @@ message
 messages
 meta
 metadata
+metal
 method
 methodology
 methods
@@ -4992,6 +5047,7 @@ mitigates
 mitigation
 mitra
 miu
+mix
 mixed
 mixes
 mixing
@@ -5196,6 +5252,7 @@ natural
 naturally
 naturalstupid
 nature
+natures
 nauka
 naukaa
 nav
@@ -5240,6 +5297,7 @@ negation
 negative
 negotiating
 neighboring
+neighbour
 neighbouring
 neighbours
 neither
@@ -5302,6 +5360,7 @@ niti
 nitya
 nityadeepam
 nkshaa
+nl
 nmmbmbb
 nmmbmyb
 nmmbnbb
@@ -5341,6 +5400,7 @@ northwest
 not
 notation
 note
+noted
 notes
 nothing
 notice
@@ -5397,6 +5457,7 @@ observed
 observer
 observing
 obsolete
+obstacle
 obstacles
 obstructed
 obstructing
@@ -5457,6 +5518,7 @@ oo
 op
 open
 opening
+openings
 openness
 opens
 operands
@@ -5524,6 +5586,7 @@ outlay
 outlet
 outline
 outlines
+outlook
 outnumber
 output
 outputs
@@ -5553,8 +5616,10 @@ owns
 oz
 p
 p1
+p15
 p2
 p3
+p5
 pa
 paartha
 paasa
@@ -5780,6 +5845,7 @@ pitris
 pitru
 pivot
 pk
+pl
 place
 placed
 placeholder
@@ -5849,6 +5915,8 @@ post
 postpone
 pour
 power
+pp
+pp45
 pr
 praachii
 praaptih
@@ -6042,6 +6110,7 @@ propagation
 property
 proportion
 proportional
+proportionally
 proportions
 propose
 proposed
@@ -6061,6 +6130,7 @@ provided
 provider
 provides
 provisional
+provisionally
 proximal
 proximity
 proxy
@@ -6665,6 +6735,7 @@ rotated
 rotates
 rotating
 rotation
+rough
 round
 rounded
 rounding
@@ -6687,6 +6758,7 @@ ruchaka
 ruchi
 ruchih
 rudra
+rudraksha
 ruin
 rule
 ruled
@@ -6946,6 +7018,7 @@ sequence
 sequences
 ser
 series
+serious
 serpent
 serve
 served
@@ -6966,6 +7039,7 @@ settling
 setu
 setup
 seven
+seventeen
 seventh
 several
 sex
@@ -7147,9 +7221,11 @@ skip
 skipped
 skips
 sky
+sl
 slanting
 slash
 sleeping
+slip
 slope
 sloping
 slot
@@ -7339,6 +7415,7 @@ sthir
 sthira
 still
 stock
+stone
 stones
 stop
 stops
@@ -7542,14 +7619,71 @@ sys
 system
 systems
 t
+t01
+t02
+t03
+t04
+t05
+t06
+t07
+t08
+t09
 t10
 t11
 t12
+t13
+t14
+t15
+t16
+t17
+t18
+t19
 t2
+t20
+t21
+t22
+t23
+t24
+t25
+t26
+t27
+t28
+t29
 t3
+t30
+t31
+t32
+t33
+t34
+t35
+t36
+t37
+t38
+t39
 t4
+t40
+t41
+t42
+t43
+t44
+t45
+t46
+t47
+t48
+t49
 t5
+t50
+t51
+t52
+t53
+t54
+t55
+t56
+t57
+t58
+t59
 t6
+t60
 t7
 t8
 t9
@@ -7973,6 +8107,7 @@ undivided
 undoubled
 unequal
 uneven
+unexercised
 unexpected
 unfailing
 unfamiliar
@@ -7992,6 +8127,7 @@ unimplemented
 unindexed
 uninterrupted
 union
+unions
 unique
 uniquely
 uniqueness
@@ -8032,6 +8168,7 @@ unrounded
 unruled
 unscored
 unselected
+unset
 unsettled
 unsigned
 unsolved
@@ -8040,6 +8177,7 @@ unspecified
 unsplit
 unspoken
 unstable
+unstated
 unstructured
 unsuitable
 unsupported
@@ -9458,6 +9596,7 @@ zones
 पड़ाव
 पड़े
 पड़ेगा
+पड़ोसी
 पढ़
 पढ़ना
 पढ़ाई
@@ -9599,6 +9738,7 @@ zones
 फ़ैसला
 फ़ैसले
 फिर
+फिलहाल
 फुरसत
 फूल
 फूलता
@@ -9706,6 +9846,7 @@ zones
 बीत
 बीतता
 बीमारी
+बुज़ुर्ग
 बुज़ुर्गों
 बुध
 बुधवार
@@ -9879,6 +10020,7 @@ zones
 योगों
 योग्य
 योजना
+योजनाएँ
 योजनाओं
 र
 रंग
@@ -11259,6 +11401,7 @@ zones
 ಕ್ಷೇತ್ರದ
 ಕ್ಷೇತ್ರದಲ್ಲಿ
 ಕ್ಷೇಮ
+ಕ್ಷೇಮದ
 ಖ
 ಖಂಡಿತವಾಗಿಯೂ
 ಖಚಿತಪಡಿಸಬಹುದು
@@ -11281,6 +11424,7 @@ zones
 ಗಟ್ಟಿಯಾಗಬಹುದು
 ಗಟ್ಟಿಯಾಗಿ
 ಗಡಿ
+ಗಣನೆಯ
 ಗತಿ
 ಗತಿಯನ್ನು
 ಗತಿಯಲ್ಲಿ
@@ -11441,6 +11585,7 @@ zones
 ಜನ್ಮನಕ್ಷತ್ರದ
 ಜನ್ಮನಕ್ಷತ್ರವು
 ಜನ್ಮಸಮಯ
+ಜಪ
 ಜಪಿಸಬಹುದು
 ಜಮೀನು
 ಜಯ
@@ -11840,6 +11985,7 @@ zones
 ನೆರವಿನ
 ನೆರವಿನಿಂದ
 ನೆರವು
+ನೆರೆಹೊರೆಯವರಿಗೆ
 ನೆಲೆ
 ನೆಲೆಗೊಳಿಸಬಹುದು
 ನೆಲೆಯಲ್ಲಿ
@@ -12616,6 +12762,7 @@ zones
 ಲಗ್ನದ
 ಲಭ್ಯ
 ಲಭ್ಯವಿದೆ
+ಲಭ್ಯವಿದ್ದರೆ
 ಲಭ್ಯವಿರುವ
 ಲಭ್ಯವಿಲ್ಲ
 ಲಯ
@@ -12708,6 +12855,7 @@ zones
 ವಿರಾಮವನ್ನು
 ವಿರೂಪ
 ವಿಳಂಬ
+ವಿಳಂಬವೂ
 ವಿವರ
 ವಿವರಕ್ಕೆ
 ವಿವರಗಳನ್ನು
@@ -12821,6 +12969,7 @@ zones
 ಶಾಪ
 ಶಾಪಗ್ರಸ್ತ
 ಶಿಕ್ಷಕರಿಂದ
+ಶಿಕ್ಷಕರಿಗೆ
 ಶಿಕ್ಷಕರೊಂದಿಗೆ
 ಶಿಖರ
 ಶಿಲ್ಪಿ
@@ -12934,6 +13083,7 @@ zones
 ಸತ್ಯ
 ಸದಾ
 ಸದ್ದಿಲ್ಲದೆ
+ಸದ್ಯಕ್ಕೆ
 ಸನ್ನಿವೇಶಗಳಿಗೆ
 ಸನ್ನಿವೇಶದಲ್ಲಿ
 ಸಮತೋಲನ

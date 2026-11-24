@@ -18,6 +18,7 @@ aliases:
 - retrograde
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.not-covered
 - vedic.annual-chart.kuttha
 - vedic.states.combustion
 - vedic.states.vakri

@@ -19,6 +19,8 @@ used_by:
 - jaimini.karakamsa.atmakaraka
 - kp.cusps.placidus
 - kp.star-sub-lords.subdivision
+- nadi.nakshatra-nadi.sub-division
+- nadi.nakshatra-nadi.zodiac-stars-and-quarters
 - vedic.annual-chart.solar-return
 - vedic.dashas-ashtottari.conditional-cycle
 - vedic.dashas-vimshottari.balance-calculation

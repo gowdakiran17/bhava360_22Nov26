@@ -27,6 +27,7 @@ used_by:
 - kp.number-horary.arc
 - kp.ruling-planets.repeated-lord
 - lal-kitab.fixed-houses.house-reference
+- nadi.nakshatra-nadi.lagna-estimate-shortcut
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.jupiter-aspects-house-11

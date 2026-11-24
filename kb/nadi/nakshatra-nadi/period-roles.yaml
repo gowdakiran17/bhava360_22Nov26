@@ -1,0 +1,57 @@
+id: nadi.nakshatra-nadi.period-roles
+system: nadi
+topic: nakshatra-nadi
+title: Period roles
+doctrine_profile: nakshatra-nadi-review-v1
+approval: draft
+tag: MODERN/POPULAR
+feature_gate: nakshatra-nadi
+visibility: admin-only
+status: blocked
+native_review_needed: true
+rule: Use Maha for background, Antar for the active theme and Pratyantar for qualification. A major lord alone cannot
+  time an event.
+conditions:
+  all:
+  - fact: nadi.nn.profile
+    op: in
+    value:
+    - kp-placidus
+    - lahiri-whole-sign
+  - fact: dasha.vimshottari.birth_balance_stable
+    op: eq
+    value: true
+meaning: Use Maha for background, Antar for the active theme and Pratyantar for qualification.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: nakshatra-nadi-review-v1
+  note: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when Placidus
+    fails.
+sources:
+- book: Dr. Dinesh, Nakshatra Nadi course notes
+  work_id: dinesh-nakshatra-nadi
+  edition: dinesh-nakshatra-nadi-private
+  chapter: 4-english-basic-book.pdf
+  verse: null
+  other_locator: PDF pp. 5, 16, 19, 27, 41, 44, 49
+  supports: Method and scope
+  verification: verified_locator
+  to_verify: false
+confidence: high
+review_notes: Internal study only. Resolve house-frame, planet-line, node-association.
+user_text:
+  en: You may revisit this theme as your plans unfold.
+  kn: ನಿಮ್ಮ ಯೋಜನೆಗಳು ಮುಂದುವರಿದಂತೆ ನೀವು ಈ ವಿಷಯವನ್ನು ಮತ್ತೆ ಪರಿಶೀಲಿಸಬಹುದು.
+  hi: अपनी योजनाएँ आगे बढ़ने पर आप इस विषय पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: static
+  reference: none
+  area_strength: {}

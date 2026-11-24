@@ -18,6 +18,101 @@ groups:
   not: single child
 unknown: Missing, unstable or incompatible evidence yields unknown. Evaluate using the three-valued rules in the KB README.
 facts:
+  nadi.nn.profile:
+    type: enum
+    producer: nadi.nakshatra-nadi
+    origin: Convention selected for this review
+    dependencies:
+    - Selected review convention
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+    values:
+    - kp-placidus
+    - lahiri-whole-sign
+  nadi.nn.planet.combination:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Houses owned and occupied by the bound graha
+    dependencies:
+    - Cusp signs and occupied house
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.node.combination:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Occupied house and the combinations of the node’s agents
+    dependencies:
+    - Node placement, dispositor and associates
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.planet.line_pl:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Houses attributed to the bound planet itself
+    dependencies:
+    - Planet combination and PL convention
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.planet.line_nl:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: House testimony of its KP star lord
+    dependencies:
+    - Star lord and its combination
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.planet.line_sl:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: House testimony of its KP sub lord
+    dependencies:
+    - Sub lord and its combination
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.period.houses:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Union of the running lord’s three lines
+    dependencies:
+    - Stable period lord and PL/NL/SL
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.area.supportive_hits:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Intersection with the selected area’s supporting houses
+    dependencies:
+    - Period houses and selected area
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.area.challenging_hits:
+    type: array
+    producer: nadi.nakshatra-nadi
+    origin: Intersection with the selected area’s challenging houses
+    dependencies:
+    - Period houses and selected area
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.area.outlook:
+    type: enum
+    producer: nadi.nakshatra-nadi
+    origin: Qualitative balance of both intersections
+    dependencies:
+    - Both area intersections
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+    values:
+    - supportive
+    - mixed
+    - challenging
+    - quiet
+    - unknown
+  nadi.nn.area.natural_deliverer:
+    type: boolean
+    producer: nadi.nakshatra-nadi
+    origin: Running sub-period lord carries the selected theme
+    dependencies:
+    - Stable Antar or Pratyantar lord and selected area
+    unknown_if: The bound inputs or the applicable convention are unresolved.
+  nadi.nn.power_position:
+    type: enum
+    producer: nadi.nakshatra-nadi
+    origin: Withheld pending a definition of circle and power
+    dependencies:
+    - Owner definition of power and circle
+    unknown_if: Always withheld until the definition is reviewed.
+    values:
+    - unresolved
   checker.relocation.travel_house:
     type: integer
     producer: vedic.relocation

@@ -9,6 +9,35 @@ presentation_flags:
     excluded_from: [dignity, friendships, dasha, yogas, ashtakavarga, shadbala, kp_significators, kp_star_lords, kp_sub_lords]
     usage: Compute optional display coordinates separately. Context may describe the overlay only. Keep the presentation flag and its bodies outside all scoring, candidate lists, derived facts and rule evaluation.
 calculation_profiles:
+  nakshatra-nadi:
+    system: nadi
+    enabled: false
+    approval: draft
+    tag: MODERN/POPULAR
+    ayanamsa: KP
+    sidereal_mode: 5
+    node: true-node
+    houses: placidus
+    year_days: 365.25
+    outer_planets: false
+    polar_policy: withhold
+    review_variant:
+      ayanamsa: Lahiri
+      sidereal_mode: 1
+      node: mean-node
+      houses: whole-sign
+    traditions_differ:
+      ayanamsa: Use KP mode 5. The course leaves its software setting unstated; compare Lahiri only in a separate
+        record.
+      node: Use true nodes on the KP path and mean nodes only in the Lahiri comparison.
+      house_system: Placidus is provisional. Compare whole signs independently; withhold polar cusp testimony when
+        Placidus fails.
+      outer_planets: Discard outer-body inputs with an internal diagnostic.
+      dasha_year: Use Julian years of 365.25 days. Compare the course conversion of 360 days on a separate timeline.
+      node_aspects: Keep only the opposition cast by a node. The alternative image includes additional aspects. For
+        node agency judge incoming planetary aspects.
+      node_dignity: Leave node dignity unset because the illustrations disagree.
+      sun_nature: Treat the Sun as neutral within this method only. This label has no effect on house unions.
   modern-study-v1: {system: lal-kitab, tag: MODERN, approval: draft, enabled: false, scope: owner-controlled separate optional modern systems}
   vedic-lahiri-v1:
     presentation_flags: [modern_outer]
@@ -67,6 +96,11 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  nakshatra-nadi-review-v1:
+    system: nadi
+    calculation: nakshatra-nadi
+    approval: draft
+    scope: Held method review using KP subdivisions
   indian-election-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: general election gates with regional switches}
   parashari-synthesis-v1: {approval: draft, calculation: vedic-lahiri-v1}
   moon-daily-v1: {approval: draft, calculation: vedic-lahiri-v1}

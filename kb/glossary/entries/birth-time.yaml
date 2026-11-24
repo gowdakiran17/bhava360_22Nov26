@@ -16,6 +16,7 @@ admin_note: Use this label for the recorded local date and clock time of birth u
 aliases: []
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.lagna-estimate-shortcut
 - vedic.dashas-sandhi.junction
 - vedic.padas.born-pada
 - vedic.strength-bhava-bala.birth-time

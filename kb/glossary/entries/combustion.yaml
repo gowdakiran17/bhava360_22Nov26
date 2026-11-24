@@ -17,6 +17,7 @@ aliases:
 - Asta
 reference_rules: []
 used_by:
+- nadi.nakshatra-nadi.not-covered
 - vedic.annual-chart.durapha
 - vedic.annual-chart.kuttha
 - vedic.aspects.jupiter-aspects-house-1
