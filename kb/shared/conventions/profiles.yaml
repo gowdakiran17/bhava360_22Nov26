@@ -126,6 +126,7 @@ doctrine_profiles:
   pyjhora-kn-rao-candidate-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: candidate-chara-dasha}
   bhava360-jaimini-dual-v1: {system: jaimini, calculation: vedic-lahiri-v1, approval: draft, scope: dual-lordship}
   raman-ten-porutham: {system: vedic, approval: draft, scope: ten-porutham}
+  tajika-annual-v1: {system: vedic, calculation: vedic-lahiri-v1, approval: draft, scope: sidereal annual chart at residence}
   bhava360-tajika-question-v1: {system: vedic, approval: draft, scope: tajika-prashna}
   nitya-deepam-roman-v1: {system: vedic, approval: draft, scope: namakshar-transliteration}
 variants:

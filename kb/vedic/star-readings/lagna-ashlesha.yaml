@@ -1,0 +1,43 @@
+id: vedic.star-readings.lagna-ashlesha
+system: vedic
+topic: star-readings
+title: Lagna ashlesha
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the stable ascendant star; read its symbol as an approach to a new situation.
+conditions:
+  all:
+  - fact: d1.lagna.nakshatra
+    op: eq
+    value: ashlesha
+meaning: When you approach something new, you can ask where a clearer boundary would make a relationship easier.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Samhita
+  work_id: brihat-samhita
+  edition: brihat-samhita-iyer-1884
+  chapter: 98
+  verse: 3–5, 7
+  other_locator: Nakshatra-karmaguna
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
+    later verses indicated.
+  verification: verified
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: When you approach something new, you can ask where a clearer boundary would make a relationship easier.
+  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಸಂಬಂಧದಲ್ಲಿ ಯಾವ ಮಿತಿ ಸ್ಪಷ್ಟವಾದರೆ ಅನುಕೂಲವೆಂದು ಕೇಳಬಹುದು.'
+  hi: 'नई शुरुआत पर विचार करते समय: आप पूछ सकते हैं कि किस सीमा को स्पष्ट करने से रिश्ता सहज होगा।'
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength: {}

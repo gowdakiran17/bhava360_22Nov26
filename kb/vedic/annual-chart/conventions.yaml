@@ -1,0 +1,125 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+profile: tajika-annual-v1
+zodiac: sidereal (Lahiri)
+location:
+  default: current residence at return
+  variant: birthplace
+  missing: withhold angles and dependent readings
+aspect_core: vedic/tajika/aspects.yaml
+muntha: (zero-based natal rising sign + completed solar returns) modulo twelve; bind the sign ruler.
+panchadhikari:
+- natal rising-sign ruler
+- annual rising-sign ruler
+- Muntha ruler
+- annual Sun sign ruler by day or Moon sign ruler by night
+- annual rising sign triplicity ruler for return sect
+triplicity:
+  day:
+  - sun
+  - venus
+  - saturn
+  - venus
+  - jupiter
+  - moon
+  - mercury
+  - mars
+  - saturn
+  - mars
+  - jupiter
+  - moon
+  night:
+  - jupiter
+  - moon
+  - mercury
+  - mars
+  - sun
+  - venus
+  - saturn
+  - venus
+  - saturn
+  - mars
+  - jupiter
+  - moon
+selection: Deduplicate candidates; retain those aspecting the annual ascendant by Tajika sign aspect (including occupation).
+  Select highest Panchavargiya; tie or missing strength is unresolved. If none aspects, take Muntha ruler as labelled
+  fallback.
+traditions_differ: Some schools prioritize friendly aspects or the sect luminary ruler in an inconclusive election.
+  Select one convention throughout.
+yogas:
+  ikkabala:
+    formation: All seven classical planets occupy angular or succedent houses.
+    reading: vedic.annual-chart.ikkabala
+  induvara:
+    formation: All seven occupy cadent houses.
+    reading: vedic.annual-chart.induvara
+  ithasala:
+    formation: A significator closes on a permitted aspect within the mean orb.
+    reading: vedic.annual-chart.ithasala
+  ishrafa:
+    formation: The in-orb contact has passed perfection and the gap is opening.
+    reading: vedic.annual-chart.ishrafa
+  nakta:
+    formation: A faster intermediary transfers light between otherwise disconnected principals.
+    reading: vedic.annual-chart.nakta
+  yamaya:
+    formation: Both disconnected principals apply to the same slower collector.
+    reading: vedic.annual-chart.yamaya
+  manau:
+    formation: Mars or Saturn afflicts the faster significator before its applying contact perfects.
+    reading: vedic.annual-chart.manau
+  kamboola:
+    formation: Moon joins an application of the two significators by applying to either.
+    reading: vedic.annual-chart.kamboola
+  gairi-kamboola:
+    formation: A Moon late in its sign enters the next sign and joins a competent significator in application.
+    reading: vedic.annual-chart.gairi-kamboola
+  khallasara:
+    formation: Significators apply but Moon neither connects with them nor conveys light.
+    reading: vedic.annual-chart.khallasara
+  radda:
+    formation: An application is frustrated by a debilitated, combust or retrograding recipient.
+    reading: vedic.annual-chart.radda
+  duphali-kuttha:
+    formation: A capable slower recipient receives an application from a less dignified but unimpaired faster body.
+    reading: vedic.annual-chart.duphali-kuttha
+  dutthottha-davira:
+    formation: An otherwise impaired pair receives material assistance through a dignified third planet.
+    reading: vedic.annual-chart.dutthottha-davira
+  tambira:
+    formation: A late-degree faster planet enters the following sign and then applies to a dignified receiver.
+    reading: vedic.annual-chart.tambira
+  kuttha:
+    formation: The bound significator is dignified and free of combustion, retrogression and hostile affliction.
+    reading: vedic.annual-chart.kuttha
+  durapha:
+    formation: The bound significator lacks dignity and is impeded by affliction or combustion.
+    reading: vedic.annual-chart.durapha
+year_tone: Independent annual section. Supporting application alone may contribute Supportive, obstructed application
+  alone Take care; absent, mixed or unresolved testimonies Steady. No natal card or grade change.
+tri_pataki: post-mvp
+copy:
+  Supportive:
+    en: Two plans may be moving toward a useful meeting point.
+    kn: ಎರಡು ಯೋಜನೆಗಳು ಒಂದಾಗಬಹುದು.
+    hi: दो योजनाओं में तालमेल बन सकता है।
+  Steady:
+    en: You can give plans time to take shape.
+    kn: ಯೋಜನೆಗಳಿಗೆ ಸಮಯ ಕೊಡಬಹುದು.
+    hi: योजनाओं को आकार लेने का समय दे सकते हैं।
+  Take care:
+    en: You can leave room to revise your plans.
+    kn: ಯೋಜನೆಗಳನ್ನು ಬದಲಿಸಲು ಅವಕಾಶ ಇಡಬಹುದು.
+    hi: योजनाओं में बदलाव की गुंजाइश रख सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

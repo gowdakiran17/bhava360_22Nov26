@@ -191,6 +191,7 @@ recipes:
       house_lords:
       - 9
       - 12
+      - 3
       grahas: []
       secondary_lords:
       - 4
@@ -221,6 +222,8 @@ recipes:
     - venus
     vargas:
     - division: D4
+      release: post-mvp
+    - division: D16
       release: post-mvp
     significators:
       house_lords:
@@ -299,6 +302,8 @@ recipes:
     vargas:
     - division: D9
       release: mvp
+    - division: D20
+      release: post-mvp
     significators:
       house_lords:
       - 9

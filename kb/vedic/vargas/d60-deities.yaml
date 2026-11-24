@@ -1,0 +1,77 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+release: post-mvp
+visibility: admin-only
+names:
+- Ghoraa
+- Rakshasa
+- Deva
+- Kuber
+- Yaksha
+- Kinnar
+- Bhrashta
+- Kulaghna
+- Garala
+- Agni/Vahini
+- Maya
+- Purishaka
+- Apampati
+- Marut
+- Kaala
+- Sarpa
+- Amrita
+- Indu
+- Mridu
+- Komala
+- Heramba
+- Brahma
+- Vishnu
+- Maheshwara
+- Deva
+- Ardra
+- Kalinasha
+- Kshitish
+- Kamalakara
+- Gulika
+- Mrityu
+- Kaal
+- Daavagni
+- Ghora
+- Yama
+- Kantaka
+- Sudha
+- Amrita
+- Poornachandra
+- Vishadagdha
+- Kulanasha
+- Vanshakshya
+- Utpata
+- Kaal
+- Saumya
+- Komal
+- Sheetala
+- Karal danstra
+- Chandramukhi
+- Praveena
+- Kalagni
+- Dandayuda
+- Nirmala
+- Saumya
+- Kroora
+- Atisheetala
+- Amrita
+- Payodhi
+- Bhramana
+- Chandrarekha
+index: floor(degree within sign * 2), zero-based. Even natal signs index 59-index. Require Tier A, stable D60 and
+  verified time for confident use. Names stay private.
+secondary_locator: PyJHora 5.0.6 lang/amsa_rulers_en.json, key 60.

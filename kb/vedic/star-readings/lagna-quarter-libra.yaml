@@ -1,0 +1,42 @@
+id: vedic.star-readings.lagna-quarter-libra
+system: vedic
+topic: star-readings
+title: Lagna quarter libra
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compose this quarter reflection with the bound star, never as independent testimony.
+conditions:
+  all:
+  - fact: d1.lagna.pada_navamsha
+    op: eq
+    value: libra
+meaning: When starting something new, you can listen before deciding together.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: When starting something new, you can listen before deciding together.
+  kn: ಒಟ್ಟಿಗೆ ನಿರ್ಧರಿಸುವ ಮುನ್ನ ಕೇಳಲು ಗಮನ ಕೊಡಬಹುದು.
+  hi: साझा निर्णय से पहले सुनने पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength: {}

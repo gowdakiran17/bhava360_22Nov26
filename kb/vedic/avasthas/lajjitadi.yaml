@@ -1,0 +1,29 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+visibility: admin-only
+states:
+  lajjita: in fifth with node, Saturn or Mars
+  garvita: exalted or moolatrikona
+  kshudhita: enemy sign, enemy contact or conjunction with Saturn
+  trishita: watery sign with enemy aspect and no benefic aspect
+  mudita: friend sign, friendly conjunction/aspect or conjunction with Jupiter
+  kshobhita: with Sun and afflicted by a malefic or enemy aspect
+fact_key: d1.avastha.lajjitadi
+method: Multiple labels can apply. Check each predicate independently; missing aspect data is unknown.
+copy:
+  en: You can adapt the pace of a task to the attention it needs.
+  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
+  hi: काम के अनुसार गति चुन सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+traditions_differ: Additional sub-states and weighting schemes are outside this profile. Baladi remains in vedic/states/baladi.yaml.

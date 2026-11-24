@@ -29,6 +29,7 @@ used_by:
 - vedic.prashna.arudha
 - vedic.prashna.ashtamangala
 - vedic.prashna.current-question
+- vedic.prashna.exam
 - vedic.prashna.health
 - vedic.prashna.job
 - vedic.prashna.kp-horary
@@ -41,6 +42,7 @@ used_by:
 - vedic.prashna.mixed
 - vedic.prashna.moon
 - vedic.prashna.property
+- vedic.prashna.return-person
 - vedic.prashna.timing
 - vedic.prashna.travel
 - vedic.prashna.unclear

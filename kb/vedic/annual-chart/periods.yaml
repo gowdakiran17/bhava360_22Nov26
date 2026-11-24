@@ -1,0 +1,25 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+mudda:
+  clock: annual-mudda-360
+  days: 360
+  sequence: vedic/dashas/vimshottari/periods.yaml
+  method: Advance natal star lord by completed years modulo nine. Each major spans its Vimshottari years times three
+    days. Elapsed fraction of birth star sets the first balance; wrap to obtain a complete annual schedule.
+patyayini:
+  clock: annual-patyayini-365.25636
+  days: 365.25636
+  method: Include seven classical planets and ascendant. Sort by degrees within sign (krishamsha); first patyamsha
+    equals first value, following shares are successive differences. Normalize by largest value to the labelled year.
+    Equal positions give zero second share in stable body order, all zero withholds.
+interval: UTC half-open; clip at next return. Never borrow natal year_days.
+traditions_differ: A measured return-to-return year can replace the conventional annual clock only in a labelled variant.

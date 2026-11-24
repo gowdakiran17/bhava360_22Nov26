@@ -1,0 +1,42 @@
+id: vedic.star-readings.moon-quarter-aquarius
+system: vedic
+topic: star-readings
+title: Moon quarter aquarius
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Compose this quarter reflection with the bound star, never as independent testimony.
+conditions:
+  all:
+  - fact: d1.moon.pada_navamsha
+    op: eq
+    value: aquarius
+meaning: When noticing what feels familiar, you can share a longer-term aim.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: When noticing what feels familiar, you can share a longer-term aim.
+  kn: ಗುರಿಯನ್ನು ಹಂಚಿಕೊಳ್ಳಲು ಗಮನ ಕೊಡಬಹುದು.
+  hi: दूर का लक्ष्य साझा करने पर ध्यान दे सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: moon
+  area_strength: {}

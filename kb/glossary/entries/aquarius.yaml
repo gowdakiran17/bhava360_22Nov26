@@ -83,6 +83,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.aquarius
+- vedic.star-readings.lagna-quarter-aquarius
+- vedic.star-readings.moon-quarter-aquarius
 - vedic.vargas.d30-placement
 - western.angles.mc-aquarius
 - western.natal.ascendant-aquarius

@@ -1,0 +1,48 @@
+id: vedic.annual-chart.radda
+system: vedic
+topic: annual-chart
+title: Radda
+doctrine_profile: tajika-annual-v1
+approval: draft
+rule: An application is frustrated by a debilitated, combust or retrograding recipient.
+conditions:
+  all:
+  - fact: annual.yoga.impaired_receiver
+    op: eq
+    value: true
+meaning: You can revisit an agreement if the other side has less room to act.
+life_areas: []
+strength_notes: []
+exceptions:
+- when:
+    fact: annual.yoga.witness_invalid
+    op: eq
+    value: true
+  effect: cancel
+  reason: Cancel this impediment if the cited impairment ends before reception.
+traditions_differ: []
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: You can revisit an agreement if the other side has less room to act.
+  kn: ಒಪ್ಪಂದವನ್ನು ಮರುಪರಿಶೀಲಿಸಬಹುದು.
+  hi: समझौते पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength: {}

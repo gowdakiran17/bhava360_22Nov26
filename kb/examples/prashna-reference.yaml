@@ -1,45 +1,374 @@
 synthetic: true
-model: Invented sidereal longitudes and constant signed daily motions on the stated interval. The station cutoff ends a linear segment. Dates label test inputs.
+model: Invented sidereal longitudes and constant signed daily motions on the stated interval. The station cutoff ends
+  a linear segment. Dates label test inputs.
 sites:
-  Bengaluru: {lat: 12.97, lon: 77.59, zone: Asia/Kolkata}
-  New York: {lat: 40.71, lon: -74.01, zone: America/New_York}
+  Bengaluru:
+    lat: 12.97
+    lon: 77.59
+    zone: Asia/Kolkata
+  New York:
+    lat: 40.71
+    lon: -74.01
+    zone: America/New_York
 charts:
   evening:
     instant: '2032-03-18T18:35:00+00:00'
     site: Bengaluru
-    local: '2032-03-19 Friday'
+    local: 2032-03-19 Friday
     asc: 15
-    positions: {sun: [330, 1], moon: [40, 13], mars: [130, 1], mercury: [337, 1], jupiter: [192, 0.1], venus: [340, 1], saturn: [192, 0.2]}
+    positions:
+      sun:
+      - 330
+      - 1
+      moon:
+      - 40
+      - 13
+      mars:
+      - 130
+      - 1
+      mercury:
+      - 337
+      - 1
+      jupiter:
+      - 192
+      - 0.1
+      venus:
+      - 340
+      - 1
+      saturn:
+      - 192
+      - 0.2
     horizon_days: 6
   night:
     purpose: Time-zone test for a question asked in New York near local midnight.
     profile_city_for_ravi: Mysuru
     instant: '2032-03-19T03:55:00+00:00'
     site: New York
-    local: '2032-03-18 Thursday'
+    local: 2032-03-18 Thursday
     asc: 15
-    positions: {sun: [330, 1], moon: [5, 13], mars: [145, 1], mercury: [337, 1], jupiter: [192, 0.1], venus: [340, 1], saturn: [192, 0.2]}
+    positions:
+      sun:
+      - 330
+      - 1
+      moon:
+      - 5
+      - 13
+      mars:
+      - 145
+      - 1
+      mercury:
+      - 337
+      - 1
+      jupiter:
+      - 192
+      - 0.1
+      venus:
+      - 340
+      - 1
+      saturn:
+      - 192
+      - 0.2
     horizon_days: 6
 cases:
-  - {person: Scenario 1, chart: evening, category: job, primary: 10, expected: [current-question, moon, job, leans-toward, timing], reasons: [querent-support], day: '2032-03-21'}
-  - {person: Scenario 2, chart: night, category: lost-item, primary: 4, expected: [current-question, moon, lost-item, leans-toward], reasons: [recovery-context]}
-  - {person: Scenario 3, chart: evening, category: partnership, primary: 7, positions: {venus: [220, 0.8], moon: [45, 13.1]}, expected: [current-question, moon, marriage, leans-against]}
-  - {person: Scenario 5, chart: evening, category: property, primary: 4, positions: {moon: [160, 13]}, expected: [current-question, moon, property, unclear]}
-  - {person: Scenario 4, chart: evening, category: journey, trip: long, primary: 9, positions: {moon: [100, 13]}, expected: [current-question, moon, travel, mixed]}
-  - {person: Scenario 4, chart: night, category: travel, trip: short, primary: 3, expected: [current-question, moon, travel, unclear]}
-  - {person: Scenario 5, chart: night, category: health, primary: 6, expected: [health]}
-  - {person: Scenario 1, chart: evening, category: litigation, primary: 7, expected: [litigation]}
-  - {person: Scenario 1, chart: evening, category: litigation, admin: true, primary: 7, expected: [litigation-study]}
-  - {person: Scenario 3, chart: night, category: property, intent: legal-advice, mode: kp-number, primary: 7, expected: [litigation]}
-  - {person: Scenario 5, chart: evening, category: job, intent: treatment, mode: kerala, admin: true, primary: 6, expected: [health]}
-  - {person: Scenario 2, chart: night, category: lost-item, intent: identify-suspect, expected: []}
-  - {person: Scenario 1, chart: evening, category: job, station_days: {saturn: 2}, primary: 10, expected: [current-question, moon, job, leans-toward]}
-  - {person: Scenario 1, chart: evening, category: job, positions: {saturn: [188, 0.2]}, primary: 10, expected: [current-question, moon, job, unclear]}
-  - {person: Scenario 1, chart: evening, category: job, positions: {saturn: [192, null]}, primary: 10, expected: [current-question, moon, job]}
-  - {person: Scenario 2, chart: night, category: property, mode: kerala, admin: true, heaps: [9, 16, 19], digits: [1, 8, 3], observed_sign: 4, primary: 4, expected: [arudha, ashtamangala]}
-  - {person: Scenario 2, chart: night, category: property, mode: kerala, heaps: [9, 16, 19], observed_sign: 4, primary: 4, expected: []}
-  - {person: Scenario 5, chart: night, category: job, mode: kp-number, number: 249, primary: 10, expected: [kp-horary]}
-  - {person: Scenario 5, chart: night, category: job, mode: kp-number, number: true, primary: 10, expected: []}
-  - {person: Scenario 1, chart: evening, category: job, frame: natal, primary: 10, expected: []}
-  - {person: Scenario 1, chart: evening, category: job, positions: {mars: [146, 1], saturn: [209, 0.5]}, primary: 10, expected: [current-question, moon, job, leans-toward]}
-  - {person: Scenario 2, chart: night, category: lost-item, intent: missing-person, expected: []}
+- person: Scenario 1
+  chart: evening
+  category: job
+  primary: 10
+  expected:
+  - current-question
+  - moon
+  - job
+  - leans-toward
+  - timing
+  reasons:
+  - querent-support
+  day: '2032-03-21'
+- person: Scenario 2
+  chart: night
+  category: lost-item
+  primary: 4
+  expected:
+  - current-question
+  - moon
+  - lost-item
+  - leans-toward
+  reasons:
+  - recovery-context
+- person: Scenario 3
+  chart: evening
+  category: partnership
+  primary: 7
+  positions:
+    venus:
+    - 220
+    - 0.8
+    moon:
+    - 45
+    - 13.1
+  expected:
+  - current-question
+  - moon
+  - marriage
+  - leans-against
+  reasons:
+  - querent-friction
+- person: Scenario 5
+  chart: evening
+  category: property
+  primary: 4
+  positions:
+    moon:
+    - 160
+    - 13
+  expected:
+  - current-question
+  - moon
+  - property
+  - unclear
+  reasons: []
+- person: Scenario 4
+  chart: evening
+  category: journey
+  trip: long
+  primary: 9
+  positions:
+    moon:
+    - 100
+    - 13
+  expected:
+  - current-question
+  - moon
+  - travel
+  - mixed
+  reasons:
+  - moon-friction
+  - querent-support
+- person: Scenario 4
+  chart: night
+  category: travel
+  trip: short
+  primary: 3
+  expected:
+  - current-question
+  - moon
+  - travel
+  - unclear
+  reasons: []
+- person: Scenario 5
+  chart: night
+  category: health
+  primary: 6
+  expected:
+  - health
+- person: Scenario 1
+  chart: evening
+  category: litigation
+  primary: 7
+  expected:
+  - litigation
+- person: Scenario 1
+  chart: evening
+  category: litigation
+  admin: true
+  primary: 7
+  expected:
+  - litigation-study
+- person: Scenario 3
+  chart: night
+  category: property
+  intent: legal-advice
+  mode: kp-number
+  primary: 7
+  expected:
+  - litigation
+- person: Scenario 5
+  chart: evening
+  category: job
+  intent: treatment
+  mode: kerala
+  admin: true
+  primary: 6
+  expected:
+  - health
+- person: Scenario 2
+  chart: night
+  category: lost-item
+  intent: identify-suspect
+  expected: []
+- person: Scenario 1
+  chart: evening
+  category: job
+  station_days:
+    saturn: 2
+  primary: 10
+  expected:
+  - current-question
+  - moon
+  - job
+  - leans-toward
+  reasons:
+  - querent-support
+- person: Scenario 1
+  chart: evening
+  category: job
+  positions:
+    saturn:
+    - 188
+    - 0.2
+  primary: 10
+  expected:
+  - current-question
+  - moon
+  - job
+  - unclear
+  reasons: []
+- person: Scenario 1
+  chart: evening
+  category: job
+  positions:
+    saturn:
+    - 192
+    - null
+  primary: 10
+  expected:
+  - current-question
+  - moon
+  - job
+  reasons: []
+- person: Scenario 2
+  chart: night
+  category: property
+  mode: kerala
+  admin: true
+  heaps:
+  - 9
+  - 16
+  - 19
+  digits:
+  - 1
+  - 8
+  - 3
+  observed_sign: 4
+  primary: 4
+  expected:
+  - arudha
+  - ashtamangala
+- person: Scenario 2
+  chart: night
+  category: property
+  mode: kerala
+  heaps:
+  - 9
+  - 16
+  - 19
+  observed_sign: 4
+  primary: 4
+  expected: []
+- person: Scenario 5
+  chart: night
+  category: job
+  mode: kp-number
+  number: 249
+  primary: 10
+  expected:
+  - kp-horary
+- person: Scenario 5
+  chart: night
+  category: job
+  mode: kp-number
+  number: true
+  primary: 10
+  expected: []
+- person: Scenario 1
+  chart: evening
+  category: job
+  frame: natal
+  primary: 10
+  expected: []
+- person: Scenario 1
+  chart: evening
+  category: job
+  positions:
+    mars:
+    - 146
+    - 1
+    saturn:
+    - 209
+    - 0.5
+  primary: 10
+  expected:
+  - current-question
+  - moon
+  - job
+  - leans-toward
+  - timing
+  day: '2032-03-25'
+  reasons:
+  - querent-support
+- person: Scenario 2
+  chart: night
+  category: lost-item
+  intent: missing-person
+  expected: []
+- person: Scenario 1
+  chart: evening
+  category: exam
+  primary: 5
+  expected:
+  - current-question
+  - moon
+  - exam
+  - unclear
+  reasons: []
+- person: Scenario 1
+  chart: evening
+  category: return-person
+  primary: 7
+  expected:
+  - current-question
+  - moon
+  - return-person
+  - leans-toward
+  reasons:
+  - moon-support
+- person: Scenario 1
+  label: Scenario Q1
+  chart: evening
+  category: job
+  primary: 10
+  positions:
+    moon:
+    - 28
+    - 13
+    saturn:
+    - 97.75
+    - 0.2
+    mars:
+    - 210
+    - 1
+  expected:
+  - current-question
+  - moon
+  - job
+  - leans-toward
+  - timing
+  day: '2032-03-19'
+  reasons:
+  - moon-support
+  - querent-support
+  worksheet:
+    moon_saturn_separation_deg: 69.75
+    aspect_deg: 60
+    error_deg: 9.75
+    individual_orbs_deg:
+    - 12
+    - 9
+    mean_orb_deg: 10.5
+    relative_closure_deg_per_day: 12.8
+    user_text:
+      en: The way the situation is unfolding may give you an opening.
+      kn: ಪರಿಸ್ಥಿತಿ ಸಾಗುತ್ತಿರುವ ರೀತಿಯಿಂದ ನಿಮಗೆ ಒಂದು ಅವಕಾಶ ಸಿಗಬಹುದು.
+      hi: हालात जिस तरह बदल रहे हैं, उनसे आपको एक अवसर मिल सकता है।
+    native_review:
+      kn: pending
+      hi: pending

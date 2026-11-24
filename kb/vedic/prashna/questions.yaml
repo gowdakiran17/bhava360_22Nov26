@@ -14,6 +14,8 @@ route:
     scope: A specific job application or offer; the sixth supplies service context, the eleventh gains.
     entry: vedic.prashna.job
     access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound job lord. Review on local date of
+      verified perfection.
   marriage:
     primary: 7
     context:
@@ -22,6 +24,8 @@ route:
     scope: A question about a proposed partnership or marriage; family and shared plans provide context.
     entry: vedic.prashna.marriage
     access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound marriage lord. Review on local date
+      of verified perfection.
   health:
     primary: 6
     context:
@@ -29,23 +33,28 @@ route:
     scope: House mapping for catalogue purposes only. The public route displays the existing health referral immediately.
     entry: vedic.prashna.health
     access: referral-only
+    timing_method: referral only
   lost-item:
     primary: 4
     context:
     - 2
-    scope: Recovery of a misplaced possession. The fourth is the recovery reference; the second describes the
-      possession. One additional recovery testimony is the fourth lord occupying the question ascendant.
+    scope: Recovery of a misplaced possession. The fourth is the recovery reference; the second describes the possession.
+      One additional recovery testimony is the fourth lord occupying the question ascendant.
     entry: vedic.prashna.lost-item
     access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound lost-item lord. Review on local
+      date of verified perfection.
   travel:
     primary: 9
     context:
     - 3
     - 4
-    scope: Use the third for a short or local trip and the ninth for a long journey. Bind the stated trip type;
-      the fourth can describe the return.
+    scope: Use the third for a short or local trip and the ninth for a long journey. Bind the stated trip type; the
+      fourth can describe the return.
     entry: vedic.prashna.travel
     access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound travel lord. Review on local date
+      of verified perfection.
   property:
     primary: 4
     context:
@@ -55,24 +64,50 @@ route:
       Contract or title-law questions use the legal boundary.
     entry: vedic.prashna.property
     access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound property lord. Review on local date
+      of verified perfection.
   litigation:
     primary: 7
     context:
     - 1
     - 6
     - 10
-    scope: For administrative study bind the first to the querent, the seventh to the opposing party, the sixth
-      to the dispute and the tenth to authority. Public legal requests use the existing legal referral.
+    scope: For administrative study bind the first to the querent, the seventh to the opposing party, the sixth to
+      the dispute and the tenth to authority. Public legal requests use the existing legal referral.
     entry: vedic.prashna.litigation
     access: admin-study
-output: Lead with a provisional leaning, give deduplicated testimony and a practical action; attach timing only
-  under judgment.yaml. Missing evidence is distinct from complete but inconclusive evidence.
+    timing_method: referral only
+  exam:
+    primary: 5
+    context:
+    - 4
+    - 9
+    - 11
+    scope: An assessment of learning; use education and fulfilment as context.
+    entry: vedic.prashna.exam
+    access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound exam lord. Review on local date
+      of verified perfection.
+  return-person:
+    primary: 7
+    context:
+    - 3
+    - 4
+    - 9
+    scope: Agreed return of a known traveller; bind home and journey as context. Missing-person or safety concerns
+      are outside this route.
+    entry: vedic.prashna.return-person
+    access: public-reflection
+    timing_method: Earliest unimpeded application of querent or Moon to the bound return-person lord. Review on local
+      date of verified perfection.
+output: Lead with a provisional leaning, give deduplicated testimony and a practical action; attach timing only under
+  judgment.yaml. Missing evidence is distinct from complete but inconclusive evidence.
 aliases:
   partnership: marriage
   journey: travel
-chart: Cast one sidereal Lahiri whole-sign D1 for the accepted question at the current location. Preserve the
-  UTC instant and local civil date, time, offset and weekday. For ambiguous civil times require the offset or
-  fold. An invalid local time is unresolved.
+chart: Cast one sidereal Lahiri whole-sign D1 for the accepted question at the current location. Preserve the UTC
+  instant and local civil date, time, offset and weekday. For ambiguous civil times require the offset or fold. An
+  invalid local time is unresolved.
 travel_primary:
   short: 3
   long: 9
@@ -89,16 +124,20 @@ rulers_from_aries:
 - saturn
 - saturn
 - jupiter
-method: Standard house routing uses the question chart. Kerala observation and KP number horary are separately
-  selected modes; neither contributes extra votes to a standard reading.
-sensitive_routing: Check requested intent before chart or method selection, including repeat questions and KP.
-  Health, diagnostic, legal-outcome and legal-advice requests use shared/boundaries/responses.yaml. No outcome
-  or timing for health or litigation, including admin study. Lost-item questions never identify a person, allege
-  theft or state a definite location. A missing person is outside this item route.
-public_referrals: {health: health, litigation: legal}
+method: Standard house routing uses the question chart. Kerala observation and KP number horary are separately selected
+  modes; neither contributes extra votes to a standard reading.
+sensitive_routing: Check requested intent before chart or method selection, including repeat questions and KP. Health,
+  diagnostic, legal-outcome and legal-advice requests use shared/boundaries/responses.yaml. No outcome or timing for
+  health or litigation, including admin study. Lost-item questions never identify a person, allege theft or state
+  a definite location. A missing person is outside this item route.
+public_referrals:
+  health: health
+  litigation: legal
 intent_overrides:
   diagnosis: health
   treatment: health
   legal-advice: litigation
   legal-outcome: litigation
-unsupported_intents: [identify-suspect, missing-person]
+unsupported_intents:
+- identify-suspect
+- missing-person

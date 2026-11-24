@@ -36,6 +36,7 @@ used_by:
 - tarot.minor-arcana.three-of-swords-reversed
 - tarot.minor-arcana.three-of-swords-upright
 - vastu.directions.west
+- vedic.annual-chart.manau
 - vedic.aspects.saturn-aspects-house-1
 - vedic.aspects.saturn-aspects-house-10
 - vedic.aspects.saturn-aspects-house-11
@@ -159,6 +160,7 @@ used_by:
 - vedic.signs.aries
 - vedic.signs.capricorn
 - vedic.signs.libra
+- vedic.star-readings.lord-saturn
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -237,6 +239,7 @@ used_by:
 - vedic.transits.saturn-moon-house-8
 - vedic.transits.saturn-moon-house-9
 - vedic.transits.station
+- vedic.vargas.d2-lunar-hora-majority
 - vedic.yogas.anapha
 - vedic.yogas.durudhara
 - vedic.yogas.kemadruma

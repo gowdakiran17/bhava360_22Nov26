@@ -1,0 +1,42 @@
+id: vedic.star-readings.lagna-revati
+system: vedic
+topic: star-readings
+title: Lagna revati
+doctrine_profile: vedic-editorial-v1
+approval: draft
+rule: Bind the stable ascendant star; read its symbol as an approach to a new situation.
+conditions:
+  all:
+  - fact: d1.lagna.nakshatra
+    op: eq
+    value: revati
+meaning: When you approach something new, you can check what someone needs before they set out or return home.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ: []
+sources:
+- book: Taittiriya Brahmana
+  work_id: taittiriya-brahmana
+  edition: taittiriya-brahmana-vedicpupil
+  chapter: 3.1.2
+  verse: null
+  other_locator: Nakshatra Sukta, Revati stanza
+  supports: Primary classical attribution of Revati to Pushan.
+  verification: verified
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: When you approach something new, you can check what someone needs before they set out or return home.
+  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಯಾರಾದರೂ ಹೊರಡುವ ಮೊದಲು ಅಥವಾ ಮನೆಗೆ ಮರಳುವಾಗ ಅವರಿಗೆ ಏನು ಬೇಕೆಂದು ಕೇಳಬಹುದು.'
+  hi: 'नई शुरुआत पर विचार करते समय: किसी के निकलने या घर लौटने से पहले पूछ सकते हैं कि उन्हें क्या चाहिए।'
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: lagna
+  area_strength: {}

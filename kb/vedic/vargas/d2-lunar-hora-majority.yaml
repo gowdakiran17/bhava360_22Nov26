@@ -1,14 +1,14 @@
 id: vedic.vargas.d2-lunar-hora-majority
 system: vedic
 topic: vargas
-title: D2 lunar hora majority
+title: Lunar hora planetary fit
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: 'D2 lunar-hora-majority: more of the seven grahas in this hora than the other. Apply shared/confidence/output-matrix.yaml
-  to all inputs.'
+rule: For the selected planet only, test membership in moon venus saturn and placement in the lunar hora. Mercury
+  is comfortable in either. Withhold unstable D2; counts do not vote.
 conditions:
   all:
-  - fact: varga.d2.lunar_hora_majority
+  - fact: varga.d2.lunar_hora_fit
     op: eq
     value: true
 meaning: The two horas may help you reflect on how you gather and use resources.
@@ -40,7 +40,7 @@ native_review:
   hi: pending
 remedy: null
 evidence:
-  direction: support
+  direction: context
   weight_class: modifier
   time_scope: natal
   reference: none

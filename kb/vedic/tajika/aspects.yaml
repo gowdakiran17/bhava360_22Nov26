@@ -1,0 +1,34 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+orb_degrees:
+  sun: 15
+  moon: 12
+  mars: 8
+  mercury: 7
+  jupiter: 9
+  venus: 7
+  saturn: 9
+angles:
+  0: context
+  60: support
+  90: friction
+  120: support
+  180: friction
+orb: Inclusive arithmetic mean of the two planetary orbs.
+geometry: Use the nearest directed aspect ray on the longitude circle. Residual = signed distance from that ray. Test
+  both orientations; sign boundaries do not interrupt contact.
+motion: 'Residual times relative signed longitude speed: negative applying (faster body closes the gap), positive
+  separating, zero residual exact. Equal speeds away from exact are stationary.'
+transfer: 'Nakta: a faster intermediary separates from one principal and next applies to the other, before interruption.
+  Yamaya: both principals apply to the same slower collector. Require distinct actors and no direct applying link.'
+reception: Mutual domicile reception if each occupies a sign ruled by the other. Record independently; reception alone
+  does not establish perfection.

@@ -2,6 +2,7 @@ approval: draft
 profile: vedic-editorial-v1
 scope: Apply lord notes independently to Maha and Antar. Pair notes qualify the narrative, never add votes for natural
   and compound friendship. A harder pair alone cannot suppress a promised event.
+star_lord_context: vedic/nakshatras/reading-policy.yaml
 lord_notes:
 - when:
     fact: dasha.modulation.grade

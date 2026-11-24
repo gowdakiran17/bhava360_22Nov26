@@ -64,6 +64,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.gemini
+- vedic.star-readings.lagna-quarter-gemini
+- vedic.star-readings.moon-quarter-gemini
 - vedic.vargas.d30-placement
 - western.angles.mc-gemini
 - western.natal.ascendant-gemini

@@ -64,6 +64,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.sagittarius
+- vedic.star-readings.lagna-quarter-sagittarius
+- vedic.star-readings.moon-quarter-sagittarius
 - vedic.vargas.d16-placement
 - vedic.vargas.d20-placement
 - vedic.vargas.d30-placement

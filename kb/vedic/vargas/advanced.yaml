@@ -1,0 +1,53 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+release: post-mvp
+visibility: admin-only
+gandanta:
+  joints_deg:
+  - 0
+  - 120
+  - 240
+  halfwidth_deg: 3.3333333333333335
+  variant: Narrow 48 arcminutes each side; POPULAR cut; do not combine.
+pushkara:
+  navamsha_parts_by_element:
+    fire:
+    - 7
+    - 9
+    earth:
+    - 3
+    - 5
+    air:
+    - 6
+    - 8
+    water:
+    - 1
+    - 3
+  bhaga_degree_one_based:
+  - 21
+  - 14
+  - 18
+  - 8
+  - 19
+  - 9
+  - 24
+  - 11
+  - 23
+  - 14
+  - 19
+  - 9
+  bhaga_interval: Nth degree occupies [N-1,N). Alternative table uses 21/14/24/7 by element.
+sudarshana: Inspect the same topic inclusively from Lagna, Moon and Sun independently. Preserve each reference and
+  its confidence; withhold missing Lagna, never triple-count a single graha.
+remaining_vargas: Use vedic/vargas/methods.yaml and its KB-40 releases; further interpretations stay post-MVP.
+sripati: Optional classical bhava madhyas/sandhis in vedic/strength/bhava-bala/components.yaml. Whole-sign D1 placement
+  remains the default.

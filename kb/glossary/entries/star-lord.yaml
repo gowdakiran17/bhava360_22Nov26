@@ -20,3 +20,12 @@ used_by:
 - kp.ruling-planets.repeated-lord
 - kp.significators.ranked-levels
 - vedic.dashas-vimshottari.balance-calculation
+- vedic.star-readings.lord-jupiter
+- vedic.star-readings.lord-ketu
+- vedic.star-readings.lord-mars
+- vedic.star-readings.lord-mercury
+- vedic.star-readings.lord-moon
+- vedic.star-readings.lord-rahu
+- vedic.star-readings.lord-saturn
+- vedic.star-readings.lord-sun
+- vedic.star-readings.lord-venus

@@ -1,0 +1,48 @@
+id: vedic.annual-chart.kamboola
+system: vedic
+topic: annual-chart
+title: Kamboola
+doctrine_profile: tajika-annual-v1
+approval: draft
+rule: Moon joins an application of the two significators by applying to either.
+conditions:
+  all:
+  - fact: annual.yoga.lunar_application
+    op: eq
+    value: true
+meaning: An additional source of support may help a plan take shape.
+life_areas: []
+strength_notes: []
+exceptions:
+- when:
+    fact: annual.yoga.witness_invalid
+    op: eq
+    value: true
+  effect: cancel
+  reason: The Moon must participate in the application. Separation alone cannot bind it.
+traditions_differ: []
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: An additional source of support may help a plan take shape.
+  kn: ಹೆಚ್ಚುವರಿ ನೆರವು ದೊರೆಯಬಹುದು.
+  hi: अतिरिक्त सहयोग मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength: {}

@@ -1,0 +1,18 @@
+approval: draft
+visibility: admin-only
+sources:
+- book: Prashna Marga
+  work_id: prashna-marga
+  edition: B.V. Raman, Part I (source register prashna-marga-raman)
+  chapter: null
+  verse: null
+  other_locator: Kerala observations, Trisphuta and Badhaka chapters; locator pending
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+ashtamangala: Three actually counted heaps; reduce each count modulo eight with zero as eight. Do not synthesize a
+  heap.
+trisphuta: Normalize question Lagna + Moon + Gulika longitudes in the same sidereal frame. Missing Gulika or horizon
+  withholds.
+badhaka: 'Movable rising sign: eleventh lord. Fixed: ninth lord. Dual: seventh lord. Withhold on unstable Lagna. Private
+  study only; no health, longevity or personal accusation.'
+access: Require explicit Kerala study mode and authorized staff. Public intent referrals precede all calculations.

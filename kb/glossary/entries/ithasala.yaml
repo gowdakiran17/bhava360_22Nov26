@@ -16,6 +16,7 @@ admin_note: Use this label for two planets are moving towards a significant angl
 aliases: []
 reference_rules: []
 used_by:
+- vedic.annual-chart.ithasala
 - vedic.prashna.leans-against
 - vedic.prashna.leans-toward
 - vedic.prashna.mixed

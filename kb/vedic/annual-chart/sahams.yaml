@@ -1,0 +1,55 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+visibility: admin-only
+day_operands:
+  punya:
+  - moon
+  - sun
+  - lagna
+  vidya:
+  - sun
+  - moon
+  - lagna
+  vivaha:
+  - venus
+  - saturn
+  - lagna
+  karya:
+  - mars
+  - mercury
+  - lagna
+  putra:
+  - jupiter
+  - moon
+  - lagna
+  mitra:
+  - jupiter
+  - punya
+  - venus
+  yasas:
+  - jupiter
+  - punya
+  - lagna
+  bandhu:
+  - mercury
+  - moon
+  - lagna
+  vanik:
+  - moon
+  - mercury
+  - lagna
+night: Reverse first two operands. Resolve Punya first in the same sect.
+method: Normalize A minus B plus C. Add 30 degrees if C is outside the inclusive forward arc B to A. Normalize again.
+traditions_differ: Uncorrected lots and sign-only inclusion are alternatives. Karya here means Karma (work), distinct
+  from Karyasiddhi.
+locator: Rao, Integrated Approach, annual lots; secondary comparison PyJHora 5.0.6 transit/saham.py named functions,
+  Punya through Vanik. Classical edition locator pending.

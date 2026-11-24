@@ -544,6 +544,10 @@ def main():
     validate_muhurta(rules,read,evaluate,require)
     from prashna import validate_prashna
     validate_prashna(rules, read, evaluate, require)
+    from annual_natal import advanced_points, check_annual, check_natal
+    check_annual(read, rules, require)
+    check_natal(read, rules, require)
+    advanced_points(read, require)
     from matching import validate_matching
     validate_matching(rules, read, evaluate, require, ROOT)
     from panchang import validate_panchang

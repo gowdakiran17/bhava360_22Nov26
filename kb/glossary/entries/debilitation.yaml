@@ -18,6 +18,7 @@ aliases:
 - Neecha
 reference_rules: []
 used_by:
+- vedic.annual-chart.radda
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.jupiter-aspects-house-11

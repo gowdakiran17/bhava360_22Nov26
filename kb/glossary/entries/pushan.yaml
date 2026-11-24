@@ -19,5 +19,6 @@ reference_rules:
 - vedic.nakshatras.revati
 used_by:
 - vedic.nakshatras.revati
+- vedic.star-readings.lagna-revati
 used_in_files:
 - vastu/entrances/padas.yaml

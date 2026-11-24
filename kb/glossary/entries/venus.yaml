@@ -154,6 +154,7 @@ used_by:
 - vedic.signs.pisces
 - vedic.signs.taurus
 - vedic.signs.virgo
+- vedic.star-readings.lord-venus
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -203,6 +204,7 @@ used_by:
 - vedic.transits.venus-moon-house-7
 - vedic.transits.venus-moon-house-8
 - vedic.transits.venus-moon-house-9
+- vedic.vargas.d2-lunar-hora-majority
 - vedic.vargas.d9-venus-dignity
 - vedic.yogas.adhi
 - vedic.yogas.anapha

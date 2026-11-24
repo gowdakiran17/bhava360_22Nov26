@@ -70,6 +70,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.capricorn
+- vedic.star-readings.lagna-quarter-capricorn
+- vedic.star-readings.moon-quarter-capricorn
 - vedic.vargas.d27-placement
 - vedic.vargas.d30-placement
 - western.angles.mc-capricorn

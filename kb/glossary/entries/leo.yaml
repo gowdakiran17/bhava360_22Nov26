@@ -71,6 +71,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.leo
+- vedic.star-readings.lagna-quarter-leo
+- vedic.star-readings.moon-quarter-leo
 - vedic.strength-ashtakavarga.shodhana
 - vedic.vargas.d16-placement
 - vedic.vargas.d2-placement

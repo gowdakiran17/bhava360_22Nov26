@@ -1,0 +1,48 @@
+id: vedic.annual-chart.dutthottha-davira
+system: vedic
+topic: annual-chart
+title: Dutthottha davira
+doctrine_profile: tajika-annual-v1
+approval: draft
+rule: An otherwise impaired pair receives material assistance through a dignified third planet.
+conditions:
+  all:
+  - fact: annual.yoga.third_party_support
+    op: eq
+    value: true
+meaning: You may find another route through someone with relevant experience.
+life_areas: []
+strength_notes: []
+exceptions:
+- when:
+    fact: annual.yoga.witness_invalid
+    op: eq
+    value: true
+  effect: cancel
+  reason: Withhold if the specified third planet cannot assist either principal.
+traditions_differ: []
+sources:
+- book: Tajika Neelakanthi
+  work_id: tajika-neelakanthi
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Samjna Tantra, aspects and sixteen yogas; Varsha Tantra, year lord
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+confidence: medium
+review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
+user_text:
+  en: You may find another route through someone with relevant experience.
+  kn: ಪರ್ಯಾಯ ದಾರಿಯನ್ನು ಹುಡುಕಬಹುದು.
+  hi: आप दूसरा रास्ता खोज सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: event
+  reference: none
+  area_strength: {}

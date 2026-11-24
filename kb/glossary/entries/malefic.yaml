@@ -18,6 +18,7 @@ aliases:
 reference_rules: []
 used_by:
 - jaimini.argala.special-third
+- vedic.annual-chart.manau
 - vedic.matching.papasamya
 - vedic.muhurta.business-start
 - vedic.muhurta.education-start

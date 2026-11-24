@@ -21,6 +21,7 @@ tone_resolution:
 - [any, any, any, Steady]
 activities:
   source: vedic/muhurta/activity-factors.yaml
+  star_group_table: vedic/muhurta/activity-factors.yaml
   catalogue: vedic/muhurta/selection.yaml
   eligible: [travel, starting-work, important-talk, family-visit, focused-work]
   focus: {career: starting-work, learning: focused-work, travel-relocation: travel, family-home: family-visit, love-marriage: important-talk}

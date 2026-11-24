@@ -13,7 +13,13 @@ events:
     entry: kp.cusps.cusp-1
     basis: documented group
     negating_houses:
+    - 6
+    - 8
     - 10
+    - 12
+    classical_denial:
+    - 6
+    - 8
     - 12
   2:
     event: savings
@@ -26,6 +32,7 @@ events:
     negating_houses:
     - 1
     - 10
+    classical_denial: []
   3:
     event: short-journey
     houses:
@@ -37,6 +44,7 @@ events:
     negating_houses:
     - 2
     - 8
+    classical_denial: []
   4:
     event: property-purchase
     houses:
@@ -49,7 +57,7 @@ events:
     negating_houses:
     - 3
     - 10
-    - 11
+    classical_denial: []
   5:
     event: family-growth
     houses:
@@ -63,6 +71,7 @@ events:
     - 1
     - 4
     - 10
+    classical_denial: []
   6:
     event: salaried-service
     houses:
@@ -77,7 +86,7 @@ events:
     - 1
     - 5
     - 9
-    - 10
+    classical_denial: []
   7:
     event: marriage
     houses:
@@ -88,6 +97,10 @@ events:
     entry: kp.cusps.seventh-cusp
     basis: documented group
     negating_houses:
+    - 1
+    - 6
+    - 10
+    classical_denial:
     - 1
     - 6
     - 10
@@ -104,6 +117,7 @@ events:
     - 1
     - 7
     - 10
+    classical_denial: []
   9:
     event: higher-study
     houses:
@@ -117,6 +131,7 @@ events:
     - 3
     - 8
     - 10
+    classical_denial: []
   10:
     event: employment
     houses:
@@ -131,7 +146,7 @@ events:
     - 1
     - 5
     - 9
-    - 10
+    classical_denial: []
   11:
     event: receipt-of-income
     houses:
@@ -143,6 +158,7 @@ events:
     negating_houses:
     - 1
     - 10
+    classical_denial: []
   12:
     event: residence-abroad
     houses:
@@ -156,5 +172,6 @@ events:
     - 2
     - 8
     - 11
-negation: Twelfth from each supporting house, including the classical marriage denial set 1/6/10. Overlapping support
-  and denial gives mixed testimony.
+    classical_denial: []
+negation: Twelfth-from and named denial sets, excluding supporting houses. Mixed requires distinct support and denial
+  testimony.

@@ -1,7 +1,7 @@
 version: 1
 approval: draft
-scope: Draft daytime profile. These are soft star preferences for optional ordering after hard-exclusion filtering. Confirm
-  regional edition before enabling. No date is universally suitable.
+scope: Draft daytime profile. These are soft star preferences for optional ordering after hard-exclusion filtering.
+  Confirm regional edition before enabling. No date is universally suitable.
 nakshatra_groups:
   fixed:
   - rohini
@@ -14,15 +14,29 @@ nakshatra_groups:
   - shravana
   - dhanishta
   - shatabhisha
+  fierce:
+  - bharani
+  - magha
+  - purva-phalguni
+  - purva-ashadha
+  - purva-bhadrapada
+  mixed:
+  - krittika
+  - vishakha
+  swift:
+  - ashwini
+  - pushya
+  - hasta
   gentle:
   - mrigashira
   - chitra
   - anuradha
   - revati
-  swift:
-  - ashwini
-  - pushya
-  - hasta
+  sharp:
+  - ardra
+  - ashlesha
+  - jyeshtha
+  - mula
 activity_preferences:
   travel:
   - movable
@@ -65,5 +79,15 @@ activity_preferences:
   naming:
   - gentle
   - swift
-exceptions: Pushya preference excluded for marriage in this candidate profile. Apply activity-specific, participant, calendar
-  and local exclusions independently.
+exceptions: Pushya preference excluded for marriage in this candidate profile. Apply activity-specific, participant,
+  calendar and local exclusions independently.
+class_names:
+  fixed: Dhruva
+  movable: Chara
+  fierce: Ugra
+  mixed: Mishra
+  swift: Kshipra
+  gentle: Mridu
+  sharp: Tikshna
+source_locator: Muhurta Chintamani, chapter 1, star classes (edition pending). Abhijit is excluded from the 27-star
+  frame.

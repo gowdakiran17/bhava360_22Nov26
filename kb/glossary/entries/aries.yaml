@@ -72,6 +72,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.aries
+- vedic.star-readings.lagna-quarter-aries
+- vedic.star-readings.moon-quarter-aries
 - vedic.states.baladi
 - vedic.strength-ashtakavarga.sarvashtakavarga
 - vedic.strength-shadbala.ojayugma

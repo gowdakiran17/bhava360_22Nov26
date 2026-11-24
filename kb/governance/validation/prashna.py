@@ -3,6 +3,26 @@ from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from kp import numbered
+from tajika import contact, reception, transfer, RULERS, FALL
+
+
+def chart_context(asc, lord, moon, positions, stable_navamsha):
+    """Private capacity witnesses qualify testimony and never create a date."""
+    if asc is None or lord not in positions or moon not in positions:
+        return {}
+    def condition(body, angle):
+        sign = int(angle % 360 // 30)
+        if RULERS[sign] == body:
+            return 'own'
+        fall = int(FALL[body] // 30)
+        return 'exalted' if sign == (fall+6)%12 else 'debilitated' if sign == fall else 'ordinary'
+    result = {'lagna_lord': condition(lord, positions[lord][0]),
+              'moon': condition(moon, positions[moon][0]),
+              'lagna_navamsha': int(asc * 3 // 10) % 12 if stable_navamsha else None,
+              'lord_navamsha': condition(lord, positions[lord][0]*9) if stable_navamsha else None}
+    if positions.get('sun') and positions['sun'][0] is not None:
+        result['moon_phase'] = (positions[moon][0]-positions['sun'][0])%360
+    return result
 
 
 def testimony(chart, case, profile, querent, topic, category):
@@ -16,27 +36,36 @@ def testimony(chart, case, profile, querent, topic, category):
     for name in {querent, 'moon'} - {topic}:
         a, speed_a = positions[name]
         b, speed_b = positions[topic]
-        distance = (int(b // 30) - int(a // 30)) % 12
-        signal = profile['sign_steps'].get(distance)
-        error = b % 30 - a % 30
-        relative = speed_b - speed_a
-        limit = min(profile['orb_degrees'][name], profile['orb_degrees'][topic])
-        if signal not in ('support', 'friction') or abs(error) > limit:
+        core=profile['core']
+        hit=contact(core,name,topic,positions)
+        if not hit or hit['state'] not in ('applying','exact'):
             continue
-        if error and error * relative >= 0:
-            continue
+        signal=core['angles'][hit['angle']]
+        if signal=='context':continue
         evidence.add(signal)
         reasons.add(("querent" if name == querent else "moon") + "-" + signal)
-        if not error:
+        if hit['state']=='exact':
             continue
-        days = -error / relative
+        days = hit['days']
         stations = case.get('station_days', {})
         if days > chart['horizon_days'] or any(
             body in stations and stations[body] <= days for body in (name, topic)
         ):
             continue
-        if all(0 < pos % 30 + speed * days < 30 for pos, speed in ((a, speed_a), (b, speed_b))):
-            contacts.append(days)
+        contacts.append(days)
+    # Indirect application requires a verified uninterrupted motion interval.
+    # A question with only instantaneous speeds cannot establish that sequence.
+    history = case.get('verified_motion_interval')
+    if history and history.get('uninterrupted') and history.get('days',0) > 0:
+        for bridge in positions.keys() - {querent,topic}:
+            kind = transfer(profile['core'], querent, topic, bridge, positions)
+            if kind:
+                hits = [contact(profile['core'],bridge,g,positions) for g in (querent,topic)]
+                if all(h['state'] != 'applying' or h['days'] <= history['days'] for h in hits):
+                    evidence.add('support')
+                    reasons.add(kind)
+    if evidence and reception(querent,topic,positions):
+        reasons.add('reception')
     if category == 'lost-item' and int(positions[topic][0] // 30) == chart['asc'] // 30:
         evidence.add('support')
         reasons.add('recovery-context')
@@ -49,6 +78,7 @@ def testimony(chart, case, profile, querent, topic, category):
 def validate_prashna(rules, read, evaluate, require):
     routing = read('vedic/prashna/questions.yaml')
     profile = read('vedic/prashna/judgment.yaml')
+    profile['core']=read(profile['aspect_core'])
     ref = read('examples/prashna-reference.yaml')
     boundaries = read('shared/boundaries/responses.yaml')['messages']
     arcs = read('kp/number-horary/249-divisions.yaml')['intervals']
@@ -58,6 +88,10 @@ def validate_prashna(rules, read, evaluate, require):
     for category, message in routing['public_referrals'].items():
         require(entries[category]['user_text'] == boundaries[message], category + ' referral')
 
+    require(chart_context(0,'mars','moon',{'mars':(1,1),'moon':(40,13)},False)['lord_navamsha'] is None,
+            'unstable question D9 is withheld')
+    require(chart_context(0,'mars','moon',{'mars':(1,1),'moon':(40,13)},True)['lord_navamsha']=='own',
+            'stable question D9 dignity')
     covered = set()
     for case in ref['cases']:
         require(case['person'] in ('Scenario 1', 'Scenario 2', 'Scenario 3', 'Scenario 4', 'Scenario 5'), 'synthetic identity')
@@ -92,6 +126,13 @@ def validate_prashna(rules, read, evaluate, require):
                 rulers = routing['rulers_from_aries']
                 lean, delay, reasons = testimony(chart, case, profile, rulers[asc], rulers[(asc+primary-1)%12], category)
                 moon = {**chart['positions'], **case.get('positions', {})}.get('moon')
+                if moon and None not in moon:
+                    positions = {**chart['positions'], **case.get('positions', {})}
+                    lord = rulers[asc]
+                    if positions.get(lord) and None not in positions[lord]:
+                        context = chart_context(chart['asc'], lord, 'moon', positions,
+                                                                 case.get('stable_navamsha') is True)
+                        facts['strength_context'] = sorted(context.items())
                 facts.update({'moon.bound': bool(moon and None not in moon), 'leaning': lean,
                               'timing.verified': delay is not None})
                 if delay is not None:

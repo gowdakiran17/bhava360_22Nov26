@@ -71,6 +71,8 @@ used_by:
 - vedic.planets.sun
 - vedic.planets.venus
 - vedic.signs.cancer
+- vedic.star-readings.lagna-quarter-cancer
+- vedic.star-readings.moon-quarter-cancer
 - vedic.strength-ashtakavarga.shodhana
 - vedic.strength-bhava-bala.bhava-dig
 - vedic.vargas.d2-placement

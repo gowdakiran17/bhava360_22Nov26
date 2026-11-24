@@ -20,7 +20,7 @@ def routing(rules, docs, aliases):
             add(route, feed)
 
     vedic = {
-        'chart': 'signs planets houses aspects conjunctions planets-in-signs planets-in-houses house-lords lordships states nakshatras padas',
+        'chart': 'signs planets houses aspects conjunctions planets-in-signs planets-in-houses house-lords lordships states nakshatras star-readings padas',
         'divisional-charts': 'vargas', 'strength': 'strength', 'yogas-doshas': 'yogas doshas',
         'timeline': 'dashas transits annual-chart', 'today': 'panchang festivals transits dashas',
         'panchang': 'panchang festivals', 'matching': 'matching', 'planning': 'muhurta panchang',

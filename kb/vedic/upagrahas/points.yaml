@@ -1,0 +1,24 @@
+approval: draft
+tag: CLASSICAL
+sources:
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: null
+  verse: null
+  other_locator: Divisional dignity and planetary states chapters
+  supports: Traditional calculation or classification. Reflective wording is editorial.
+  verification: pending
+release: post-mvp
+visibility: admin-only
+solar_offsets:
+  dhuma: Sun + 133°20′
+  vyatipata: 360 − Dhuma
+  parivesha: Vyatipata + 180
+  indrachapa: 360 − Parivesha
+  upaketu: Indrachapa + 16°40′
+normalize: Modulo 360 after every step.
+saturn_points: Divide sunrise-to-sunset or sunset-to-next-sunrise into eight equal segments. Seven rulers run in weekday
+  order starting with day lord, or fifth from day lord by night. Last segment unruled. Gulika is ascendant at start
+  of Saturn segment, Mandi at midpoint (labelled midpoint variant). Unknown horizon or Lagna withholds.
+traditions_differ: Some schools identify Mandi with Gulika; do not combine variants.

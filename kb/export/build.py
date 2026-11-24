@@ -162,8 +162,10 @@ def public_resources(docs, messages):
             ('palmistry/guided-observations/choices.yaml','choices','label','label'),
             ('shared/boundaries/responses.yaml','messages','user_text',None),
             ('vedic/prashna/judgment.yaml','reason_copy','user_text',None),
+            ('vedic/annual-chart/conventions.yaml','copy','user_text',None),
             ('checkers/personal-baby-name/name-lexicon.yaml','entries','label',None),
             ('vedic/strength/user-words.yaml','labels','label',None),
+            ('vedic/strength/vimshopaka/weights.yaml','labels','label',None),
             ('vedic/planets/catalog.yaml','grahas','label',None)]:
         for slug, item in docs[path][section].items():
             name = f'{path}#{section}/{slug}'

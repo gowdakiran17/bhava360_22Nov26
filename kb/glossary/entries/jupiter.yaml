@@ -161,6 +161,7 @@ used_by:
 - vedic.signs.capricorn
 - vedic.signs.pisces
 - vedic.signs.sagittarius
+- vedic.star-readings.lord-jupiter
 - vedic.states.baladi
 - vedic.states.combustion
 - vedic.states.graha-drishti
@@ -210,6 +211,7 @@ used_by:
 - vedic.transits.jupiter-moon-house-9
 - vedic.transits.retrograde
 - vedic.transits.station
+- vedic.vargas.d2-solar-hora-majority
 - vedic.vargas.d7-jupiter-dignity
 - vedic.vargas.d9-jupiter-dignity
 - vedic.yogas.activation

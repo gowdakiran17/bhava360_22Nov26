@@ -17,6 +17,8 @@ aliases:
 - Asta
 reference_rules: []
 used_by:
+- vedic.annual-chart.durapha
+- vedic.annual-chart.kuttha
 - vedic.aspects.jupiter-aspects-house-1
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.jupiter-aspects-house-11
