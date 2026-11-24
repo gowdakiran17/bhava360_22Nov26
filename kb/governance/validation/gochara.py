@@ -74,6 +74,34 @@ def bound_qualifiers(area, graha, reference, inputs, config, aspects, vedha, lim
     return {kind:evaluate(node,values) for kind,node in config['predicates'].items()}
 
 
+def saturn_phase(saturn, moon, *, degree_based=False):
+    if saturn is None or moon is None:
+        return None
+    if degree_based:
+        arc=(saturn-moon+45)%360
+        return 1+int(arc//30) if arc<90 else 0
+    return {12:1,1:2,2:3}.get(house(int(saturn%360//30),int(moon%360//30)),0)
+
+
+def relief_sources(profile, graha, positions):
+    """Inverse pairs are a multimap: several favoured places can have one blocker."""
+    adverse=positions.get(graha)
+    if adverse is None:
+        return None
+    result=set()
+    incomplete=False
+    for fav,obstruction in profile['support_to_obstruction'].get(graha,{}).items():
+        if obstruction!=adverse:
+            continue
+        eligible=set(profile['eligible_blockers'])-{graha}
+        for pair in profile['mutual_exemptions']:
+            if graha in pair:
+                eligible.difference_update(pair)
+        result.update(p for p in eligible if positions.get(p)==fav)
+        incomplete |= any(positions.get(p) is None for p in eligible)
+    return sorted(result) if result or not incomplete else None
+
+
 def validate_gochara(rules, read, evaluate, require):
     fixture = read('examples/gochara-reference.yaml')
     require(fixture['synthetic'] is True, 'synthetic transit fixtures')
@@ -200,3 +228,12 @@ def validate_gochara(rules, read, evaluate, require):
             ==dict(challenge=None,support=None),'Tier C withholds Lagna reference')
     moon=bound_qualifiers('career','saturn','moon',inputs,config,aspects,vedha,limits,evaluate)
     require(moon['challenge'] is True and moon['support'] is not True,'Tier C Moon without AV inheritance')
+
+    require([saturn_phase(v,0,degree_based=True) for v in (314.99,315,345,15,45)]==[0,1,2,3,0]
+            and saturn_phase(None,0) is None,'degree-phase edges and wrap')
+    require(saturn_phase(0,29.99)==2 and saturn_phase(0,30)==1,'Moon-sign phase changes')
+    positions=dict.fromkeys(PLANETS,2)
+    for adverse,fav in [(3,11),(6,12)]:
+        positions.update(venus=adverse,mars=fav)
+        require(relief_sources(vedha,'venus',positions)==['mars'],'inverse Venus vedha')
+    require(relief_sources(vedha,'venus',{'venus':3}) is None,'unknown reverse blocker')

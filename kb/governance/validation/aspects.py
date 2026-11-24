@@ -28,3 +28,14 @@ def validate_aspects(rules, read, evaluate, require):
             actual=None if x is None else int(x//30)==int(y//30)
             require(evaluate(row['conditions'],{key:actual}) is want,key)
     require(reaches(2,6,table['jupiter']) and not reaches(2,6,table['rahu']),'H7 full fifth aspect')
+
+    h7=read('examples/transits-vargas-elections.yaml')['H7']
+    signs=read('vedic/signs/catalog.yaml')['signs']
+    order=[row['id'] for row in signs]
+    origin=order.index(h7['lagna'].lower())
+    occupied={body:order.index(value.split()[0].lower()) for body,value in h7['placements'].items()}
+    partner=(origin+6)%12
+    require(occupied['mars']==partner and reaches(occupied['jupiter'],partner,table['jupiter'])
+            and 1+(occupied[signs[partner]['lord']]-origin)%12==11,'H7 lord, occupant and aspect')
+    chart=next(row for row in read('vedic/vargas/methods.yaml')['methods'] if row['chart']=='D9')
+    require(chart['sign_lookup']['virgo'][4]=='taurus','H7 Venus at fifteen degrees in Virgo')

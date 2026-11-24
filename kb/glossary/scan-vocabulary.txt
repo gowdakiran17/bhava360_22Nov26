@@ -2826,7 +2826,9 @@ fatal
 fatalidad
 fate
 father
+fav
 favourable
+favoured
 favours
 fb5430ccd10dde701af43cb16ea912506294dfc451882addfa2e59a58558614d
 fb5f89738bec3b25fb8871807dd46efcdf90c4f1e1037abaf80421962973631d
@@ -3531,6 +3533,7 @@ invent
 invented
 inventories
 inventory
+inverse
 invert
 invisibility
 invisible
@@ -4262,6 +4265,7 @@ muhurtha
 mukhya
 mula
 multi
+multimap
 multiple
 multiples
 multiplication

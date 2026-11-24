@@ -19,6 +19,22 @@ def star_slots(begin, end, star, table):
             for kind, offsets in [('varjyam', row['varjyam']), ('amrit', [row['amrit']])]}
 
 
+def star_blocked(star, malefic_stars, vedha, table):
+    if vedha is True:
+        return True
+    if star is None or malefic_stars is None:
+        return None
+    uncertain = vedha is None
+    for graha, origin in malefic_stars.items():
+        if origin is None:
+            uncertain=True
+            continue
+        count=table['election_latta']['counts'][graha]
+        if (origin + (abs(count)-1)*(1 if count>0 else -1))%27==star:
+            return True
+    return None if uncertain else False
+
+
 def combinations(table, weekday, star, sun_star, tithi, names):
     active = set()
     if star in table['sarvartha'][weekday]:
@@ -60,7 +76,8 @@ def classify_extra(c, profile, policy, election, evidence, bounds, days, stars):
     for label, houses in [('benefic_houses',{1,4,5,7,9,10}),('malefic_houses',{3,6,11})]:
         if houses.intersection(c.get(label,[])):
             soft[label]='support'
-    gates.update(star_obstructed=c.get('star_obstructed'),rikta_or_new=tithi in (4,9,14,19,24,29,30),
+    obstruction=star_blocked(stars.index(star),c.get('malefic_star_indices'),c.get('star_vedha'),policy['day_yoga_table'])
+    gates.update(star_obstructed=obstruction,rikta_or_new=tithi in (4,9,14,19,24,29,30),
                  partner_tara_or_chandra_unsupportive=any(v!='support' for k,v in evidence.items() if k.startswith(('tara/','chandra/'))))
     active={p['fact'].split('.')[-1] for p in profile['lagna_and_calendar']['hard']}
     regional = policy['regions']

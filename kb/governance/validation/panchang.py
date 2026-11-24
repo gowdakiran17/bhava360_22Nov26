@@ -159,3 +159,8 @@ def validate_panchang(rules,read,evaluate,require):
     require('guru-pushya' in combinations(yogas,'thursday','pushya',None,3,names),'Guru Pushya')
     require('tri-pushkar' in combinations(yogas,'sunday','krittika',None,17,names) and
             'tri-pushkar' not in combinations(yogas,'monday','krittika',None,17,names),'Pushkar weekday')
+
+    from election_factors import star_blocked
+    require(star_blocked(0,{'sun':16},False,yogas) and star_blocked(0,{'rahu':8},False,yogas)
+            and not star_blocked(1,{'sun':16},False,yogas) and star_blocked(1,None,False,yogas) is None,
+            'inclusive Latta forward, backward, wrap and unknown')

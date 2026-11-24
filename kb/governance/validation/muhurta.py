@@ -191,7 +191,7 @@ def validate_muhurta(rules,read,evaluate,require):
         return ok is False and reason in info['blocked']
     for patch,reason in [
         ({'occupied_houses':[7]},'seventh_occupied'),({'occupied_houses':[8]},'eighth_occupied'),
-        ({'star_obstructed':True},'star_obstructed'),({'adhika':True},'adhika'),
+        ({'star_vedha':True},'star_obstructed'),({'adhika':True},'adhika'),
         ({'sun':240,'moon':270},'kharmas'),({'sun':359.99,'moon':29.99},'kharmas'),
         ({'moon':55},'rikta_or_new'),({'moon':15},'rikta_or_new'),
         ({'region_switches':{'chaturmas':True},'chaturmas':True},'chaturmas'),
