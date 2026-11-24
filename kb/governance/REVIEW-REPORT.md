@@ -559,3 +559,9 @@ The annual section uses its own clocks, with birthplace retained as a location v
 The corpus now has 2,732 draft rules across ten systems, 955 facts and 661 glossary entries. This batch adds 114 rules. The tarot expansion has 312 career/relationship lines, the Lo Shu table has eight planes, and all eight newly specified conditional clocks have true, false and unknown gate checks. J2 covers the second Chara cycle from year 64. Native review remains pending.
 
 The synthetic D8 and L1 scenarios cover clock eligibility and flag isolation. Lal Kitab annual permutations need an identifiable edition before lookup can return placements. Nadi stays held. The software checks do not verify the original Rao or Rath texts. The source-review-batch-07.md inventory distinguishes original editorial wording from claims awaiting an edition. Tajika annual work and Prashna use the Batch 6 rules.
+
+## Batch 8 — Jyoti’s Batch 6 review
+
+Thirteen review items cover existing rules and tables. Counts remain 2,732 draft rules across ten systems and 955 facts. The four state families have 30 distinct localized prompts. The 30 Prashna cases include four pre-chart sensitive redirects and a same-sign applying conjunction. The revised V1 uses its actual Mercury–Jupiter square. Its year lord remains Venus. The KP synthetic case distinguishes Ketu’s direct and represented houses.
+
+The profile uses a three-degree inclusive KP node conjunction orb. The year-lord strength tie uses the sign-aspect strength class, followed by Muntha preference. Simultaneous Moon applications or a residual election tie withhold the result. Draft native-language review remains pending. The supplied classical locators are recorded as review references where the edition has not been checked.

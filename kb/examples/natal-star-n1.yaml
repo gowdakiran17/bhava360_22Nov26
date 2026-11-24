@@ -14,8 +14,8 @@ moon:
     hi: किसी को मदद चाहिए तो पहला कदम उठाना आपको अच्छा लग सकता है।
   quarter_user_text:
     en: When noticing what feels familiar, you can build a steady routine.
-    kn: ಸ್ಥಿರ ದಿನಚರಿ ಬೆಳೆಸಲು ಗಮನ ಕೊಡಬಹುದು.
-    hi: नियमित अभ्यास बनाने पर ध्यान दे सकते हैं।
+    kn: ಪರಿಚಿತವೆನಿಸುವುದನ್ನು ಗಮನಿಸುವಾಗ ಸ್ಥಿರ ದಿನಚರಿ ಬೆಳೆಸಲು ಗಮನ ಕೊಡಬಹುದು.
+    hi: जो अपना सा लगे उस पर ध्यान देते समय नियमित अभ्यास बनाने पर ध्यान दे सकते हैं।
   star_lord_user_text:
     en: You may find a way to learn from a wider perspective.
     kn: ವಿಶಾಲ ದೃಷ್ಟಿಯಿಂದ ಕಲಿಯಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
@@ -26,13 +26,13 @@ lagna:
   lord: moon
   navamsha: aries
   user_text:
-    en: When you approach something new, you may enjoy giving one growing project regular attention.
-    kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಬೆಳೆಯುತ್ತಿರುವ ಒಂದು ಕೆಲಸಕ್ಕೆ ಸತತ ಗಮನ ಕೊಡುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.'
-    hi: 'नई शुरुआत पर विचार करते समय: किसी बढ़ते काम को नियमित समय देना आपको अच्छा लग सकता है।'
+    en: You can make room in your routine for a project that is beginning to grow.
+    kn: ಬೆಳೆಯುತ್ತಿರುವ ಯೋಜನೆಗೆ ನಿಯಮಿತವಾಗಿ ಸಮಯ ಮೀಸಲಿಡಬಹುದು.
+    hi: आकार ले रही योजना के लिए नियमित समय निकाल सकते हैं।
   quarter_user_text:
     en: When starting something new, you can try a direct first step.
-    kn: ನೇರವಾಗಿ ಆರಂಭಿಸಲು ಗಮನ ಕೊಡಬಹುದು.
-    hi: सीधी शुरुआत करने पर ध्यान दे सकते हैं।
+    kn: ಹೊಸದನ್ನು ಆರಂಭಿಸುವಾಗ ನೇರವಾಗಿ ಆರಂಭಿಸಲು ಗಮನ ಕೊಡಬಹುದು.
+    hi: कुछ नया शुरू करते समय सीधी शुरुआत करने पर ध्यान दे सकते हैं।
   star_lord_user_text:
     en: You may find a way to make space for a familiar need.
     kn: ಪರಿಚಿತ ಅಗತ್ಯಕ್ಕೆ ಅವಕಾಶ ಕೊಡಲು ಅವಕಾಶ ಸಿಗಬಹುದು.

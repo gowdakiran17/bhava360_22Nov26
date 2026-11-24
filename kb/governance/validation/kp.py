@@ -37,20 +37,34 @@ def occupied(cusps, point):
     return house
 
 
-def node_agents(node, positions, star_lords, aspect_variant=()):
+def node_agents(node, positions, star_lords, orb_degrees, aspect_variant=()):
     if positions.get(node) is None or star_lords.get(node) is None:
         return None
     sign = positions[node] % TURN // SIGN
-    close = {g for g, angle in positions.items() if g in RULERS and angle is not None and angle % TURN // SIGN == sign}
+    close = {g for g, angle in positions.items() if g in RULERS and angle is not None and min((angle-positions[node])%TURN,(positions[node]-angle)%TURN) <= orb_degrees*3600}
     return ({RULERS[sign], star_lords[node], *aspect_variant} | close) - {node}
+
+
+def significator_chain(actor, levels, positions, stars, orb):
+    direct = levels[actor]
+    represented = {}
+    if actor in ('rahu','ketu'):
+        agents = node_agents(actor,positions,stars,orb)
+        if agents is None or not agents <= levels.keys():
+            return None
+        represented = {g:levels[g] for g in sorted(agents) if g!=actor}
+    return direct, represented
 
 
 def validate_kp(rules, read, evaluate, require):
     judgement_checks(rules,read,evaluate,require)
-    positions={'rahu':SIGN,'moon':SIGN,'mars':SIGN-1}
-    require(node_agents('rahu',positions,{'rahu':'jupiter'})=={'jupiter','venus','moon'} and
-            node_agents('rahu',positions,{'rahu':'jupiter'},['mars'])=={'jupiter','venus','moon','mars'} and
-            node_agents('rahu',positions,{}) is None,'KP agency sign boundary, stellar and optional aspect links')
+    orb = read('kp/significators/bhava360.yaml')['four_step']['conjunction_orb_degrees']
+    positions={'rahu':0,'moon':TURN-orb*3600,'mars':orb*3600+1,'sun':20*3600}
+    stars={'rahu':'jupiter'}
+    require(node_agents('rahu',positions,stars,orb)=={'mars','jupiter','moon'} and
+            node_agents('rahu',positions,stars,orb,['sun'])=={'mars','jupiter','moon','sun'} and
+            node_agents('rahu',positions,{},orb) is None,'KP node agency across a sign boundary')
+    require('venus' not in node_agents('rahu',dict(positions,venus=orb*3600+1),stars,orb),'outside orb')
     rows = read('kp/number-horary/249-divisions.yaml')['intervals']
     require(rows == intervals() and len(rows)==249, 'exact KP boundaries, signs, stars, subs and numbers')
     starts = [r['start_arcsec'] for r in rows]
@@ -125,8 +139,10 @@ def validate_kp(rules, read, evaluate, require):
                 for level,match in enumerate((star_lord in occupants,g in occupants,star_lord==ruler,g==ruler)):
                     if match:
                         expected[g][level].append(h)
+        calculated = {}
         for g in pos:
             levels = [[residence[star[g]]],[residence[g]],owned[star[g]],owned[g]]
+            calculated[g] = levels
             require(levels==expected[g], (name,g,'ranked levels'))
             actors = [g,star[g],sub[g],star[sub[g]]]
             expected_actors = [g,fixture['expected_star'][g],fixture['expected_sub'][g],
@@ -142,10 +158,15 @@ def validate_kp(rules, read, evaluate, require):
         for n,event in groups.items():
             actor = lookup(cusps[n-1])['sub_lord']
             require(actor==fixture['expected_cusp_sub'][n-1], (name,n,'cusp sub'))
-            hit = any(set(level).intersection(event['houses']) for level in expected[actor])
+            direct, represented = significator_chain(actor,calculated,pos,star,orb)
+            links = set().union(*direct, *(h for levels in represented.values() for h in levels))
+            hit = bool(links.intersection(event['houses']))
             rule = rules[event['entry']]
             require(evaluate(rule['conditions'],{event['fact']:hit}) is hit and
                     evaluate(rule['conditions'],{}) is None,(name,n,'cusp predicate'))
+            if 'expected_direct_marriage_link' in case and n==7:
+                require(bool(set().union(*direct) & set(event['houses'])) == case['expected_direct_marriage_link']
+                        and 'saturn' in represented, 'Ketu contributes separate sign-lord houses')
             if n==7:
                 require(hit is case['expected_marriage_link'], name+' partnership screen')
     print('KP passed: all 249 exact rows, 498 interval-edge probes, 18 planetary testimonies and 24 cusp readings.')
@@ -179,6 +200,7 @@ def event_windows(group, outcome, links, ruling, periods, passages, horizon):
 
 def judgement_checks(rules, read, evaluate, require):
     groups=read('kp/cusps/event-groups.yaml')['events']
+    require(groups[1]['houses']==[1,5,11] and 4 in groups[12]['classical_denial'],'wellbeing and abroad groups')
     for row in groups.values():
         require(set(row['negating_houses'])==({(h-2)%12+1 for h in row['houses']}|set(row['classical_denial']))-set(row['houses']),row['event'])
         require(all(event_outcome(row,[h],True)=='promised' for h in row['houses']),row['event']+' support-only cusp')

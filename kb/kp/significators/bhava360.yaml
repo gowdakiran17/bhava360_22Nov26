@@ -28,7 +28,8 @@ four_step:
   primary: At steps 2 and 4 residence is primary. At steps 1 and 3 it is primary if the actor occupies its own star
     or no other graha occupies its stars. Owned houses are primary only for a primary residence actor and an empty
     house. Remaining links are secondary.
-  node_agent: Bind sign ruler, star lord and conjoined classical grahas (same sign in this profile). Deduplicate agents;
+  conjunction_orb_degrees: 3
+  node_agent: Bind sign ruler, star lord and conjoined classical grahas (shortest longitude distance within the inclusive profile orb, including across sign boundaries). Deduplicate agents;
     retain separate direct and represented houses.
   scope: Aspect-based agency is an optional variant. Never assign cusp ownership to a node.
 weekday_lords:

@@ -1,20 +1,31 @@
 """Annual-chart and question-chart reference mathematics. All positions are in degrees."""
 from math import isfinite
 
+def sign_ray(x, y):
+    offset = (int(y % 360 // 30) - int(x % 360 // 30)) % 12
+    if offset in (1, 5, 7, 11):
+        return None
+    ray = offset * 30
+    return min(ray, 360-ray), (y-x-ray+180) % 360-180
+
+
 def contact(core, first, second, positions):
-    """Choose the nearest directed aspect ray and follow its signed residual."""
-    if first==second or any(g not in core['orb_degrees'] or g not in positions for g in (first,second)):
+    if first == second or any(g not in core['orb_degrees'] or not positions.get(g) for g in (first,second)):
         return None
-    if any(positions[g] is None or any(v is None or not isfinite(v) for v in positions[g]) for g in (first,second)):
+    if any(v is None or not isfinite(v) for g in (first,second) for v in positions[g]):
         return None
-    (x,v),(y,w)=positions[first],positions[second]
-    rays={sign*angle for angle in core['angles'] for sign in (-1,1)}
-    error,ray=min(((((y-x-angle+180)%360)-180,angle) for angle in rays),key=lambda pair:(abs(pair[0]),pair[1]))
-    limit=(core['orb_degrees'][first]+core['orb_degrees'][second])/2
-    if abs(error)>limit:return None
-    slope=w-v
-    state='exact' if error==0 else 'stationary' if slope==0 else 'applying' if error*slope<0 else 'separating'
-    return dict(angle=abs(ray),error=error,orb=limit,state=state,days=-error/slope if state=='applying' else None)
+    (x,v),(y,w) = positions[first],positions[second]
+    ray = sign_ray(x,y)
+    if ray is None:
+        return None
+    angle,error = ray
+    limit = (core['orb_degrees'][first]+core['orb_degrees'][second])/2
+    if abs(error)>limit:
+        return None
+    slope = w-v
+    state = 'exact' if error==0 else 'stationary' if slope==0 else 'applying' if error*slope<0 else 'separating'
+    return dict(angle=angle,error=error,orb=limit,state=state,days=-error/slope if state=='applying' else None)
+
 
 def transfer(core, a, b, bridge, pos):
     if len({a,b,bridge})!=3 or any(not pos.get(g) or None in pos[g] for g in (a,b,bridge)):return None
@@ -43,14 +54,35 @@ def solar_return(target,longitude,lo,hi):
         else:hi=mid
     return (lo+hi)/2
 
-def year_lord(candidates,aspected,scores,muntha_lord):
-    if any(v is None for v in candidates) or aspected is None:return None
-    eligible=set(candidates)&set(aspected)
-    if not eligible:return muntha_lord
-    if any(scores.get(g) is None for g in eligible):return None
-    top=max(scores[g] for g in eligible)
-    winners=[g for g in eligible if scores[g]==top]
-    return winners[0] if len(winners)==1 else None
+def year_lord(candidates, aspects, scores, muntha_lord, moon_replacement=None):
+    if not candidates or None in candidates or aspects is None:
+        return None
+    pool = set(candidates) & aspects.keys() or set(candidates)
+    if any(scores.get(g) is None for g in pool):
+        return None
+    ranks = {g:(scores[g], aspects.get(g,0), g==muntha_lord) for g in pool}
+    best = max(ranks.values())
+    winners = [g for g in pool if ranks[g]==best]
+    if len(winners)!=1:
+        return None
+    winner = winners[0]
+    if winner=='moon':
+        return moon_replacement if moon_replacement!='moon' else None
+    return winner
+
+
+def moon_successor(core, pos):
+    if any(not pos.get(g) or None in pos[g] for g in core['orb_degrees']):
+        return None
+    hits = [(h['days'],g) for g in core['orb_degrees'] if g!='moon'
+            and (h:=contact(core,'moon',g,pos)) and h['state']=='applying']
+    if hits:
+        first = min(t for t,_ in hits)
+        partners = [g for t,g in hits if t==first]
+        return partners[0] if len(partners)==1 else None
+    ruler = RULERS[int(pos['moon'][0]%360//30)]
+    return ruler if ruler!='moon' else None
+
 
 def saham(a,b,c):
     if None in (a,b,c):return None
@@ -89,15 +121,23 @@ def five_strength(table, planet, positions):
         total += table['maxima'][division] * table['relations'][relation]
     return total / 4
 
-def election(policy, table, natal_sign, years, asc, sect, pos):
-    sign = int(asc // 30)
+def election(policy, core, table, natal_sign, years, asc, sect, pos):
+    if None in (asc,natal_sign,years) or sect not in policy['triplicity'] or any(
+            not pos.get(g) or None in pos[g] for g in core['orb_degrees']):
+        return None, None, None
+    sign = int(asc % 360 // 30)
     muntha = (natal_sign + years) % 12
     luminary = 'sun' if sect == 'day' else 'moon'
     candidates = [RULERS[natal_sign], RULERS[sign], RULERS[muntha],
                   RULERS[int(pos[luminary][0] // 30)], policy['triplicity'][sect][sign]]
-    eligible = [g for g in candidates if (int(pos[g][0] // 30) - sign) % 12 in (0,2,3,4,6,8,9,10)]
-    strengths = {g: five_strength(table, g, pos) for g in eligible}
-    return muntha, candidates, year_lord(candidates, eligible, strengths, RULERS[muntha])
+    aspects = {}
+    for g in set(candidates):
+        ray = sign_ray(pos[g][0], asc)
+        if ray is not None:
+            aspects[g] = policy['aspect_strength']['by_angle'][ray[0]]
+    strengths = {g: five_strength(table, g, pos) for g in candidates}
+    return muntha, candidates, year_lord(candidates, aspects, strengths, RULERS[muntha], moon_successor(core,pos))
+
 
 def reception(a, b, pos):
     if a == b or any(not pos.get(g) or pos[g][0] is None for g in (a,b)):

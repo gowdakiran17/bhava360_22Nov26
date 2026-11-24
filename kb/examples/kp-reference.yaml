@@ -11,7 +11,8 @@ cases:
   Scenario 1:
     rotation_deg: 0
     expected_cusp_owners: [jupiter, mars, venus, mercury, moon, sun, mercury, venus, mars, jupiter, saturn, saturn]
-    expected_marriage_link: false
+    expected_marriage_link: true
+    expected_direct_marriage_link: false
   Scenario 2:
     rotation_deg: 120
     expected_cusp_owners: [moon, sun, mercury, venus, mars, jupiter, saturn, saturn, jupiter, mars, venus, mercury]

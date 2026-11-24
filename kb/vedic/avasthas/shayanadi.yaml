@@ -28,9 +28,54 @@ method: Multiply occupied star number by graha ordinal (Sun through Saturn 1..7,
   number within sign (1..9). Add birth Moon star number, elapsed ghatis since local sunrise (completed units) and
   Lagna sign number. Divide modulo 12, mapping zero to 12.
 copy:
-  en: You can adapt the pace of a task to the attention it needs.
-  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
-  hi: काम के अनुसार गति चुन सकते हैं।
+  shayana:
+    en: You can set a task aside to rest.
+    kn: ವಿಶ್ರಾಂತಿಗಾಗಿ ಕೆಲಸವನ್ನು ಬದಿಗಿಡಬಹುದು.
+    hi: विश्राम के लिए काम अलग रख सकते हैं।
+  upaveshana:
+    en: You can sit with a question before choosing.
+    kn: ಆರಿಸುವ ಮುನ್ನ ಪ್ರಶ್ನೆಯ ಬಗ್ಗೆ ಶಾಂತವಾಗಿ ಯೋಚಿಸಬಹುದು.
+    hi: चुनने से पहले सवाल पर बैठकर सोच सकते हैं।
+  netrapani:
+    en: You can look more closely at a detail.
+    kn: ಒಂದು ವಿವರವನ್ನು ಹತ್ತಿರದಿಂದ ಗಮನಿಸಬಹುದು.
+    hi: किसी बारीकी को करीब से देख सकते हैं।
+  prakashana:
+    en: You can show someone how an idea works.
+    kn: ಒಂದು ವಿಚಾರ ಹೇಗೆ ಕಾರ್ಯರೂಪಕ್ಕೆ ಬರುತ್ತದೆ ಎಂದು ತೋರಿಸಬಹುದು.
+    hi: किसी को दिखा सकते हैं कि विचार कैसे काम करता है।
+  gamana:
+    en: You can take a step toward your destination.
+    kn: ಗುರಿಯ ಕಡೆಗೆ ಹೆಜ್ಜೆ ಇಡಬಹುದು.
+    hi: मंजिल की ओर कदम बढ़ा सकते हैं।
+  agamana:
+    en: You can prepare for an arrival.
+    kn: ಬರುವವರನ್ನು ಸ್ವಾಗತಿಸಲು ಸಿದ್ಧತೆ ಮಾಡಬಹುದು.
+    hi: किसी के आने की तैयारी कर सकते हैं।
+  sabha:
+    en: You can bring your perspective to a group.
+    kn: ಗುಂಪಿನಲ್ಲಿ ನಿಮ್ಮ ನೋಟ ಹಂಚಿಕೊಳ್ಳಬಹುದು.
+    hi: समूह में अपना नज़रिया रख सकते हैं।
+  agama:
+    en: You can reconnect after time away.
+    kn: ಸ್ವಲ್ಪ ಕಾಲ ದೂರವಿದ್ದ ಮೇಲೆ ಮತ್ತೆ ಸಂಪರ್ಕಿಸಬಹುದು.
+    hi: कुछ समय दूर रहने के बाद फिर जुड़ सकते हैं।
+  bhojana:
+    en: You can make time for a shared meal.
+    kn: ಒಟ್ಟಿಗೆ ಊಟ ಮಾಡಲು ಸಮಯ ಹೊಂದಿಸಬಹುದು.
+    hi: साथ भोजन के लिए समय निकाल सकते हैं।
+  nrityalipsa:
+    en: You can express an idea through movement.
+    kn: ಚಲನೆಯ ಮೂಲಕ ವಿಚಾರ ವ್ಯಕ್ತಪಡಿಸಬಹುದು.
+    hi: हावभाव से विचार व्यक्त कर सकते हैं।
+  kautuka:
+    en: You can explore something that sparks curiosity.
+    kn: ಕುತೂಹಲ ಮೂಡಿಸುವ ವಿಷಯವನ್ನು ಅನ್ವೇಷಿಸಬಹುದು.
+    hi: जिज्ञासा जगाने वाली बात तलाश सकते हैं।
+  nidra:
+    en: You can leave the next task until after a break.
+    kn: ವಿರಾಮದ ಬಳಿಕ ಮುಂದಿನ ಕೆಲಸ ಕೈಗೊಳ್ಳಬಹುದು.
+    hi: अगला काम विराम के बाद कर सकते हैं।
 native_review:
   kn: pending
   hi: pending

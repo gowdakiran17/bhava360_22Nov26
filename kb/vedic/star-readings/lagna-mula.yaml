@@ -10,8 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: mula
-meaning: When you approach something new, you may find it useful to trace one recurring question back to its starting
-  point.
+meaning: You can start with the moment a recurring question first came to mind.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -23,16 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 7
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may find it useful to trace one recurring question back to its starting
-    point.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಮತ್ತೆ ಮತ್ತೆ ಎದುರಾಗುವ ಪ್ರಶ್ನೆ ಮೊದಲು ಎಲ್ಲಿ ಹುಟ್ಟಿತು ಎಂದು ಪರಿಶೀಲಿಸುವುದು ನೆರವಾಗಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: बार-बार उठने वाले किसी सवाल की शुरुआत कहाँ हुई, यह देखना उपयोगी हो सकता है।'
+  en: You can start with the moment a recurring question first came to mind.
+  kn: ಮುಂದುವರಿಯುವ ಮೊದಲು ಮತ್ತೆ ಎದುರಾದ ಪ್ರಶ್ನೆಯ ಮೂಲವನ್ನು ಹುಡುಕಬಹುದು.
+  hi: आगे बढ़ने से पहले बार बार उठते सवाल की जड़ तलाश सकते हैं।
 native_review:
   kn: pending
   hi: pending

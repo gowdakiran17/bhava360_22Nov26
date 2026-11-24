@@ -20,9 +20,30 @@ states:
 fact_key: d1.avastha.lajjitadi
 method: Multiple labels can apply. Check each predicate independently; missing aspect data is unknown.
 copy:
-  en: You can adapt the pace of a task to the attention it needs.
-  kn: ಕೆಲಸಕ್ಕೆ ತಕ್ಕ ಗತಿ ಆರಿಸಬಹುದು.
-  hi: काम के अनुसार गति चुन सकते हैं।
+  lajjita:
+    en: You can find a quiet setting to share an idea.
+    kn: ವಿಚಾರ ಹಂಚಿಕೊಳ್ಳಲು ಶಾಂತ ಸ್ಥಳ ಆರಿಸಬಹುದು.
+    hi: विचार साझा करने के लिए शांत जगह चुन सकते हैं।
+  garvita:
+    en: You can take satisfaction in a skill you have developed.
+    kn: ಬೆಳೆಸಿದ ಕೌಶಲದಲ್ಲಿ ತೃಪ್ತಿ ಕಾಣಬಹುದು.
+    hi: सीखे हुए हुनर में संतोष पा सकते हैं।
+  kshudhita:
+    en: You can name a resource your work needs.
+    kn: ಕೆಲಸಕ್ಕೆ ಬೇಕಿರುವ ಸಂಪನ್ಮೂಲವನ್ನು ಗುರುತಿಸಬಹುದು.
+    hi: काम के लिए ज़रूरी साधन पहचान सकते हैं।
+  trishita:
+    en: You can ask what kind of support is missing.
+    kn: ಯಾವ ನೆರವು ಬೇಕಾಗಿದೆ ಎಂದು ಕೇಳಬಹುದು.
+    hi: पूछ सकते हैं कि किस तरह की मदद चाहिए।
+  mudita:
+    en: You can enjoy exchanging ideas with a friend.
+    kn: ಸ್ನೇಹಿತರೊಂದಿಗೆ ವಿಚಾರ ಹಂಚಿಕೊಳ್ಳುವುದರಲ್ಲಿ ಸಂತೋಷ ಕಾಣಬಹುದು.
+    hi: मित्र के साथ विचार बाँटने में आनंद मिल सकता है।
+  kshobhita:
+    en: You can give a tense conversation more space.
+    kn: ಬಿಗುವಿನ ಮಾತುಕತೆಗೆ ಸ್ವಲ್ಪ ಬಿಡುವು ಕೊಡಬಹುದು.
+    hi: तनाव भरी बातचीत में थोड़ा अवकाश ले सकते हैं।
 native_review:
   kn: pending
   hi: pending

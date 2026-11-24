@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: ardra
-meaning: When you approach something new, you may find it easier to decide what comes next after naming what changed.
+meaning: Naming what has changed can help you choose your next move.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 7
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may find it easier to decide what comes next after naming what changed.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಏನು ಬದಲಾಗಿದೆ ಎಂದು ಗುರುತಿಸಿದರೆ ಮುಂದಿನ ಹೆಜ್ಜೆ ಆರಿಸುವುದು ಸುಲಭವಾಗಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: क्या बदला है उसे पहचानने पर अगला कदम चुनना आसान लग सकता है।'
+  en: Naming what has changed can help you choose your next move.
+  kn: ಬದಲಾದ ಸಂಗತಿಯನ್ನು ಗುರುತಿಸಿದರೆ ಮುಂದಿನ ಹೆಜ್ಜೆ ಆರಿಸಲು ಸುಲಭವಾಗಬಹುದು.
+  hi: बदली हुई बात पहचानने से अगला कदम चुनना आसान हो सकता है।
 native_review:
   kn: pending
   hi: pending

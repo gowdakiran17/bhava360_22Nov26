@@ -46,21 +46,21 @@ candidates:
 - jupiter
 varsheshwara: venus
 selected_contact:
-- moon
-- venus
+- mercury
+- jupiter
 aspect:
-  angle: 60
-  error: 5.238975050008236
-  orb: 9.5
+  angle: 90
+  error: 5.329992070251421
+  orb: 8.0
   state: applying
-  days: 0.4097418794180135
+  days: 3.498569949439905
 year_section:
-  tone: Supportive
-  basis: Selected annual application without a supplied obstruction.
+  tone: Take care
+  basis: Selected square is applying; its angle supplies friction in this worksheet.
   user_text:
-    en: Two plans may be moving toward a useful meeting point.
-    kn: ಎರಡು ಯೋಜನೆಗಳು ಒಂದಾಗಬಹುದು.
-    hi: दो योजनाओं में तालमेल बन सकता है।
+    en: You can leave room to revise your plans.
+    kn: ಯೋಜನೆಗಳನ್ನು ಬದಲಿಸಲು ಅವಕಾಶ ಇಡಬಹುದು.
+    hi: योजनाओं में बदलाव की गुंजाइश रख सकते हैं।
 native_review:
   kn: pending
   hi: pending

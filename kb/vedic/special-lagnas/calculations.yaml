@@ -4,7 +4,7 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: 3
   verse: null
   other_locator: Divisional dignity and planetary states chapters
   supports: Traditional calculation or classification. Reflective wording is editorial.
@@ -19,9 +19,10 @@ definitions:
   sree: Lagna + 360 times fractional progress of Moon through its star
   indu: 'Add kala values of ninth lords from Moon and Lagna. Remainder modulo 12, zero as 12. Count inclusively from
     Moon. Retain Moon degree. Sun through Saturn kala: 30,16,6,8,10,12,1.'
-  pranapada: Sun + 15 degrees per elapsed vighati; add 0/240/120 degrees for movable/fixed/dual Sun sign.
+  pranapada: Sun + 2 degrees per elapsed vighati; add 0/240/120 degrees for movable/fixed/dual Sun sign.
   varnada: 'Count Lagna and Hora Lagna forward from Aries for odd signs, backward from Pisces for even. Same parity
     of counts: sum; different: absolute difference. Count resulting odd number forward from Aries, even backward from
     Pisces (zero = 12).'
 traditions_differ: Varnada variants use other directions and divisional longitudes. This sign-level method alone is
   selected.
+pranapada_degrees_per_vighati: 2

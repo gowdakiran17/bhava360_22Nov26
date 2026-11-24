@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: vishakha
-meaning: When you approach something new, you may want to choose one milestone to work toward first.
+meaning: Choosing a milestone may give a new project a clear starting point.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 11
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you may want to choose one milestone to work toward first.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ಮೊದಲು ಸಾಧಿಸಲು ಒಂದು ಮೈಲಿಗಲ್ಲನ್ನು ಆರಿಸಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: पहले किस पड़ाव की ओर बढ़ना है, यह चुन सकते हैं।'
+  en: Choosing a milestone may give a new project a clear starting point.
+  kn: ಮೊದಲು ಯಾವ ಮೈಲಿಗಲ್ಲನ್ನು ತಲುಪಬೇಕು ಎಂದು ಆರಿಸಬಹುದು.
+  hi: शुरू में तय कर सकते हैं कि किस पड़ाव की ओर पहले बढ़ना है।
 native_review:
   kn: pending
   hi: pending

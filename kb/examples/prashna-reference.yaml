@@ -1,6 +1,6 @@
 synthetic: true
-model: Invented sidereal longitudes and constant signed daily motions on the stated interval. The station cutoff ends
-  a linear segment. Dates label test inputs.
+model: Invented sidereal longitudes and constant signed daily motions on the stated interval. The station cutoff
+  ends a linear segment. Dates label test inputs.
 sites:
   Bengaluru:
     lat: 12.97
@@ -338,10 +338,10 @@ cases:
   primary: 10
   positions:
     moon:
-    - 28
+    - 10
     - 13
     saturn:
-    - 97.75
+    - 79.75
     - 0.2
     mars:
     - 240
@@ -371,3 +371,50 @@ cases:
     native_review:
       kn: pending
       hi: pending
+- person: Scenario 1
+  intent: death-or-lifespan
+  mode: kp-number
+  admin: true
+  redirect: personal-limits
+  expected: []
+- person: Scenario 1
+  intent: pregnancy-or-child-sex
+  mode: kp-number
+  admin: true
+  redirect: life-or-pregnancy
+  expected: []
+- person: Scenario 1
+  intent: gambling-or-stock-tips
+  mode: kp-number
+  admin: true
+  redirect: money-verdict
+  expected: []
+- person: Scenario 1
+  intent: self-harm
+  mode: kp-number
+  admin: true
+  redirect: immediate-support
+  expected: []
+- person: Scenario 2
+  chart: evening
+  category: job
+  primary: 10
+  positions:
+    moon:
+    - 12
+    - 13
+    saturn:
+    - 15
+    - 1
+    mars:
+    - 180
+    - 1
+  expected:
+  - current-question
+  - moon
+  - job
+  - leans-toward
+  - timing
+  reasons:
+  - moon-support
+  day: '2032-03-19'

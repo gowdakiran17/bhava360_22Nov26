@@ -88,3 +88,7 @@ The synthetic examples cover the residence-based sidereal return, natal star and
 The 114 additional draft reading rules comprise 108 Lal Kitab planet–house placements and six Western R3 readings. The tarot table supplies 312 area and orientation combinations. The confidence matrix covers 82 outputs. There are 955 registered facts. Five chart fixtures cover thirty area traces in English, Kannada and Hindi. Glossary documents follow the separate glossary review convention in SCHEMA.yaml.
 
 The gated annual lookup covers age indices 1–120. The edition-specific Lal Kitab rows await a source. Nadi progression remains held. See the citation audit under governance for the remaining edition checks.
+
+## Batch 8 review corrections
+
+The corpus contains 2,732 draft rules and 955 registered facts. This review revises 27 ascendant-star readings, 24 quarter modifiers and 30 individual avastha prompts. Four Vimshopaka schedules total 20 each. The annual and question references share the sign-based aspect table. The additional Abhijit class applies only to muhurta.

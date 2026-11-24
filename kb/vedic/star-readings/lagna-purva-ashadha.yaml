@@ -10,7 +10,7 @@ conditions:
   - fact: d1.lagna.nakshatra
     op: eq
     value: purva-ashadha
-meaning: When you approach something new, you can check which part of an idea holds up when you explain it aloud.
+meaning: Saying an idea aloud may help you hear which part feels clear.
 life_areas: []
 strength_notes: []
 exceptions: []
@@ -22,15 +22,15 @@ sources:
   chapter: 98
   verse: 3–5, 8
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
-    later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
+    the later verses indicated.
   verification: verified
 confidence: medium
 review_notes: Draft editorial reflection. Kannada and Hindi native review pending.
 user_text:
-  en: When you approach something new, you can check which part of an idea holds up when you explain it aloud.
-  kn: 'ಹೊಸ ಕೆಲಸ ಆರಂಭಿಸುವಾಗ: ವಿಚಾರವನ್ನು ವಿವರಿಸಿದಾಗ ಯಾವ ಭಾಗ ದೃಢವಾಗಿದೆ ಎಂದು ಪರಿಶೀಲಿಸಬಹುದು.'
-  hi: 'नई शुरुआत पर विचार करते समय: विचार को बोलकर समझाते समय देख सकते हैं कि कौन सा हिस्सा ठहरता है।'
+  en: Saying an idea aloud may help you hear which part feels clear.
+  kn: ವಿಚಾರವನ್ನು ಗಟ್ಟಿಯಾಗಿ ಹೇಳಿ ಯಾವ ಅಂಶ ಮನವರಿಕೆಯಾಗುತ್ತದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
+  hi: विचार बोलकर देख सकते हैं कि उसका कौन सा हिस्सा स्पष्ट लगता है।
 native_review:
   kn: pending
   hi: pending

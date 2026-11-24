@@ -4,7 +4,7 @@ from math import isclose
 import swisseph as swe
 
 from tajika import (contact, election, harsha, mudda, patyayini, return_place, saham, solar_return,
-                    transfer, year_lord)
+                    transfer, year_lord, moon_successor)
 
 
 def star_reading(rules, actor, minutes, stable=True):
@@ -46,15 +46,16 @@ def check_annual(read, rules, require):
     def probe(x, y, u=13, v=1):
         return contact(core, 'moon', 'saturn', {'moon': (x,u), 'saturn': (y,v)})
     require(probe(20,25)['state']=='applying' and probe(25,20)['state']=='separating', 'same sign motion')
-    require(probe(28,98.5)['orb']==10.5 and probe(28,98.50001) is None, 'inclusive mean orb across signs')
-    require(probe(359,1)['state']=='applying' and probe(0,60)['state']=='exact' and
+    require(all(probe(29.9, z) is None for z in (30.1,150.1,239.9,359.9)), 'excluded sign pairs')
+    require(probe(10,80.5)['orb']==10.5 and probe(10,80.50001) is None, 'inclusive mean orb across signs')
+    require(probe(359,1) is None and probe(89.6,34.8) is None and probe(0,60)['state']=='exact' and
             probe(0,61,1,1)['state']=='stationary' and probe(None,61) is None, 'wrap, exact, stationary, unknown')
     require(transfer(core,'mercury','saturn','moon',{'mercury':(350,1),'saturn':(70,.1),'moon':(0,13)}) is None,
             'outside transfer orb')
-    require(transfer(core,'mars','saturn','moon',{'mars':(353,1),'saturn':(70,.1),'moon':(0,13)})=='nakta' and
+    require(transfer(core,'mars','saturn','moon',{'mars':(8,1),'saturn':(85,.1),'moon':(15,13)})=='nakta' and
             transfer(core,'mars','venus','saturn',{'mars':(353,1),'venus':(53,1.2),'saturn':(0,.1)}) is None,
             'translation and direct perfection priority')
-    require(transfer(core,'moon','mars','saturn',{'moon':(359.9,13),'mars':(52,1),'saturn':(0,.1)})=='yamaya',
+    require(transfer(core,'moon','mars','saturn',{'moon':(14.9,13),'mars':(67,1),'saturn':(15,.1)})=='yamaya',
             'slower collection')
     require(return_place('sidereal-lahiri','A','B')=='A' and return_place('sidereal-lahiri','A','B','birthplace')=='B'
             and return_place('sidereal-lahiri',None,'B') is None, 'return site')
@@ -84,15 +85,29 @@ def check_annual(read, rules, require):
     for terms in strength['panchavargiya']['term_end_exclusive']:
         stops=[end for _,end in terms]
         require(len(set(g for g,_ in terms))==5 and stops==sorted(set(stops)) and stops[-1]==30, 'Hadda bounds')
-    m,c,w=election(policy,strength['panchavargiya'],v['natal_lagna_sign_index'],v['completed_years'],asc,v['sect'],pos)
+    m,c,w=election(policy,core,strength['panchavargiya'],v['natal_lagna_sign_index'],v['completed_years'],asc,v['sect'],pos)
     require((m,c,w)==(v['muntha_sign_index'],v['candidates'],v['varsheshwara']),'V1 election')
-    require(year_lord(['sun','moon'],['sun','moon'],{'sun':10,'moon':10},'mars') is None and
-            year_lord(['sun'],[],{},'mars')=='mars','election tie and fallback')
+    require(election(policy,core,strength['panchavargiya'],3,10,None,'day',pos)==(None,None,None), 'missing annual Lagna')
+    require(policy['aspect_strength']['by_angle']=={0:2,60:1,90:1,120:2,180:2}, 'annual aspect classes')
+    pair = ['sun','mars']
+    require(year_lord(pair,{},dict(sun=10,mars=8),'mars')=='sun', 'no aspect: strongest office holder')
+    require(year_lord(pair,dict(sun=2,mars=1),dict(sun=8,mars=8),'mars')=='sun', 'stronger aspect')
+    require(year_lord(pair,dict(sun=1,mars=1),dict(sun=8,mars=8),'mars')=='mars', 'Muntha breaks tie')
+    require(year_lord(pair,{},dict(sun=8,mars=8),'venus') is None and
+            year_lord(pair,{},dict(sun=8),'mars') is None, 'unresolved and missing')
+    moon_case = dict.fromkeys(core['orb_degrees'],(40,1))
+    moon_case.update(moon=(5,13),venus=(8,1))
+    for venus, expected in [((8,1),'venus'),((40,1),'mars')]:
+        moon_case['venus']=venus
+        replacement=moon_successor(core,moon_case)
+        require(replacement==expected and year_lord(['moon'],{},dict(moon=9),'moon',replacement)==expected,
+                'Moon application or sign ruler substitution')
+    require(year_lord(['moon'],{},dict(moon=9),'moon','moon') is None, 'Moon never wins')
     a,b=v['selected_contact']
     hit=contact(core,a,b,pos)
-    require(hit['state']=='applying' and isclose(hit['error'],v['aspect']['error'],abs_tol=.002) and
-            (int(pos[a][0]//30)-int(pos[b][0]//30))%12 not in (hit['angle']//30,12-hit['angle']//30),
-            'V1 cross-sign application')
+    require(hit['state']==v['aspect']['state']=='applying' and
+            all(isclose(hit[k],v['aspect'][k],abs_tol=.002) for k in ('angle','orb','error','days')) and
+            a!=b and int(pos[a][0]//30)!=int(pos[b][0]//30), 'V1 actual cross-sign aspect')
     for operands in read('vedic/annual-chart/sahams.yaml')['day_operands'].values():
         require(len(operands)==3 and all(g in {*pos,'lagna','punya'} for g in operands),'saham operands')
     require(saham(10,350,0)==20 and saham(10,350,20)==70 and saham(None,350,20) is None,'corrected lot')
@@ -117,7 +132,7 @@ def check_natal(read,rules,require):
     for actor in ('moon','lagna'):
         row=star_reading(rules,actor,n[actor+'_sidereal_deg']*60)
         require(list(row[:4])==[n[actor][k] for k in ('star','pada','lord','navamsha')] and
-                row[4][0]==n[actor]['user_text'],actor+' N1')
+                row[4]==[n[actor][k] for k in ('user_text','quarter_user_text','star_lord_user_text')],actor+' N1')
     for i in range(108):
         for actor in ('moon','lagna'):
             require(star_reading(rules,actor,i*200)[1]==1+i%4,'quarter start')
@@ -125,9 +140,10 @@ def check_natal(read,rules,require):
             star_reading(rules,'lagna',42,False) is None,'stellar wrap and stability')
     for name,count in [('jagradadi',3),('deeptadi',9),('lajjitadi',6),('shayanadi',12)]:
         states=read('vedic/avasthas/'+name+'.yaml')
-        require(len(states['states'])==count and set(states['copy'])=={'en','kn','hi'},name)
+        require(len(states['states'])==count and states['copy'].keys()==states['states'].keys(),name)
     require(n['avastha']['dignity']=='own' and n['avastha']['jagradadi']=='jagrat','N1 wakeful state')
     table=read('vedic/strength/vimshopaka/weights.yaml')
+    require(table['weights']['saptavarga']=={1:5,2:2,3:3,7:2.5,9:4.5,12:2,30:1}, 'BPHS seven divisions')
     for scheme,num in [('shadvarga',6),('saptavarga',7),('dashavarga',10),('shodashavarga',16)]:
         weights=table['weights'][scheme]
         require(len(weights)==num and sum(weights.values())==20 and min(weights.values())>0,scheme)
@@ -143,6 +159,27 @@ def check_natal(read,rules,require):
     stars=list(chain.from_iterable(groups.values()))
     require(len(groups)==7 and len(stars)==len(set(stars))==27 and
             all('vedic.nakshatras.'+k in rules for k in stars),'seven day groups')
+    require(read('vedic/muhurta/activity-factors.yaml')['additional_muhurta_stars']=={'abhijit':'swift'}
+            and 'abhijit' not in stars and rules['vedic.nakshatras.mula']['nakshatra']['deity']=='Nirriti',
+            'muhurta-only auxiliary star and Mula default')
+    from public_copy import check_distinct_translations
+    corpus = {k:r['user_text'] for k,r in rules.items() if r['topic']=='star-readings'}
+    for row in rules.values():
+        if row['topic']=='nakshatras' and 'nakshatra' in row:
+            peer = 'vedic.star-readings.lagna-'+row['id'].split('.')[-1]
+            for lang in ('en','kn','hi'):
+                require(row['user_text'][lang].casefold().rstrip('.।') not in
+                        rules[peer]['user_text'][lang].casefold(), peer+' repeats Moon copy')
+    for name in ('jagradadi','deeptadi','lajjitadi','shayanadi'):
+        corpus.update(read('vedic/avasthas/'+name+'.yaml')['copy'])
+    check_distinct_translations(corpus)
+    try:
+        check_distinct_translations({'a':dict(en='First',kn='ಒಂದು',hi='एक'),
+                                     'b':dict(en='Second',kn='ಒಂದು',hi='एक')})
+    except ValueError:
+        pass
+    else:
+        raise AssertionError('duplicate translation leaked')
     print('KB-53 passed: N1, both actors at all 108 quarter starts, four states tables, four strength tables and D60 gates.')
 
 
@@ -170,6 +207,14 @@ def advanced_points(read, require):
     special=read('vedic/special-lagnas/calculations.yaml')
     require(set(special['definitions'])==set('hora ghati bhava sree indu pranapada varnada'.split()) and
             special['release']=='post-mvp','special point inventory')
+    rate = special['pranapada_degrees_per_vighati']
+    def pranapada(sun, elapsed):
+        if sun is None or elapsed is None or elapsed < 0:
+            return None
+        return (sun + elapsed*rate + (0,240,120)[int(sun%360//30)%3])%360
+    require(special['visibility']=='admin-only' and rate==2 and pranapada(10,1)==12
+            and pranapada(30,45)==0 and pranapada(60,0)==180
+            and pranapada(0,-1) is None and pranapada(None,2) is None,'Pranapada private rate and wrap')
     kerala=read('vedic/prashna/kerala-study.yaml')
     require(kerala['visibility']=='admin-only' and all(k in kerala for k in ('trisphuta','badhaka','ashtamangala')),
             'Kerala private observation profiles')

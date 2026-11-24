@@ -138,6 +138,22 @@ intent_overrides:
   treatment: health
   legal-advice: litigation
   legal-outcome: litigation
+  legal-outcomes: litigation
 unsupported_intents:
 - identify-suspect
 - missing-person
+fixed_intent_redirects:
+  death-or-lifespan: personal-limits
+  pregnancy-or-child-sex: life-or-pregnancy
+  gambling-or-stock-tips: money-verdict
+  self-harm: immediate-support
+redirect_policy: MODERN. Normalize sensitive intents to shared/boundaries/policy.yaml categories before selecting any chart,
+  topic, public or staff mode. Return only the localized boundary response. Self-harm also opens the verified local support flow.
+fixed_intent_aliases:
+  death: death-or-lifespan
+  lifespan: death-or-lifespan
+  pregnancy: pregnancy-or-child-sex
+  child-sex: pregnancy-or-child-sex
+  gambling: gambling-or-stock-tips
+  stock-tips: gambling-or-stock-tips
+  suicide: self-harm
