@@ -437,3 +437,71 @@ The 108 first-match cells reproduce the six classical Yogakarakas. Virgo Saturn 
 Scenario P1 adds Saturn’s exaltation (+3), angle (+1), cancelling received aspects (0) and D9 debility (−1): 3.0, Strong. P2 totals −0.5, Weak; P3 totals 1.0, Moderate. The public vocabulary remains well supported, steady and modest. Cancellation uses distinct branches of the canonical Neecha Bhanga candidate, including exchange with the same planet’s dispositor. The grading arithmetic is Bhava360 practitioner convention.
 
 Sources for the synthesis are BPHS (lordship and strength), Laghu Parashari (lordship and MT practice), Saravali and Phaladeepika (strength and cancellation), the existing KB dignity and natural-nature profiles, and the cited Rao transit tables. Newly listed classical passages await edition/locator verification. The existing all-quarter planetary Drik formula is labelled MODERN; BPHS's full Mercury/Jupiter treatment is a separate reading. The published Raman worksheet remains pending. Bhava Dig retains the Raman/PyJHora water classification for Cancer and records BPHS's grouping with Scorpio.
+
+## KB-48 birth-time confidence (draft)
+
+The MODERN/POPULAR product policy follows the supplied expert review (item 7, 23 Nov), PRD §8.4.2 and the KB-32 interval contract. The consultation-method C-VER-01..03 locator is supplied; independent verification remains pending. The owner confirmed ±5 minutes uses Tier B; Tier A except D60 is a documented alternative. Tier B may give stable Antar months and omits peak months and days. Tier C may retain a stable planet-only KP star or sub lord independently; cusp-based KP stays hidden.
+
+The final cap follows KB-36 synthesis. Omitted factors supply no vote. The raw KB-35 worksheet and the internal Bhava Bala tie-break remain separate. The geometric civil twilight convention is MODERN and the classical time award can change when the interval crosses sunrise or sunset. All MVP confidence records carry rectified false. Future rectification acceptance belongs to KB-47.
+
+### Worked output decisions
+
+Dev uses the synthetic Chennai date with time unknown. The Lahiri Moon stays in Aquarius and crosses a nakshatra boundary during that date. The selected KP body is the Moon; the selected strength target is the Sun. Query conditions and the post-ladder input are synthetic probes. B1 is an invented component worksheet with ±15 minutes, a D10 crossing, and both possible Antar bounds in their respective common months. Each row below shows the resolver action for this bound example.
+
+| Output | Dev | Scenario B1 |
+|---|---|---|
+| lagna | hide | show |
+| houses-from-lagna | hide | show |
+| lagna-transits | hide | show |
+| moon-transits | show | show |
+| daily-panchang | show | show |
+| d9 | hide | show |
+| d10 | hide | hide |
+| d2 | hide | show |
+| d4 | hide | show |
+| d7 | hide | show |
+| d12 | hide | show |
+| d24 | hide | hide |
+| d60 | hide | hide |
+| d3 | hide | show |
+| d16 | hide | show |
+| d20 | hide | show |
+| d27 | hide | show |
+| d30 | hide | show |
+| d40 | hide | show |
+| d45 | hide | show |
+| kp-cuspal-sub-lords | hide | hide |
+| kp-house-significators | hide | hide |
+| kp-cuspal-prashna | hide | hide |
+| kp-planet-star-lord | hide | show |
+| kp-planet-sub-lord | hide | show |
+| maha-name | hide | show |
+| maha-dates | hide | month-resolution |
+| antar-name | hide | show |
+| antar-dates | hide | month-resolution |
+| pratyantar-windows | hide | hide |
+| sookshma-windows | hide | hide |
+| event-window | hide | month-resolution |
+| peak-month | hide | hide |
+| peak-day | hide | hide |
+| lagna-lord-yogas | hide | show |
+| promise-house | hide | show |
+| promise-house-lord | hide | show |
+| promise-occupants | hide | show |
+| promise-house-aspects | hide | show |
+| promise-functional-lordship | hide | show |
+| promise-varga-lagna | hide | hide |
+| promise-significator | show | show |
+| promise-moon-relative | show | show |
+| strength-house-term | show | show |
+| final-card-grade | cap-moderate | cap-moderate |
+| bhava-bala-tiebreak | hide | show |
+
+Both final sample cards clamp Strong to Moderate. The B1 window exposes only November 2026 through February 2027. Dev’s strength house term uses the Moon reference.
+
+| Draft public explanation | English | Kannada | Hindi |
+|---|---|---|---|
+| Dev | Without a birth time, you can explore the parts of a Moon-sign reading that stay consistent through the day. | ಜನನ ಸಮಯ ತಿಳಿದಿಲ್ಲದಿದ್ದರೆ, ದಿನವಿಡೀ ಸ್ಥಿರವಾಗಿರುವ ಚಂದ್ರರಾಶಿ ಆಧಾರಿತ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು. | जन्म समय मालूम न होने पर आप चंद्र राशि पर आधारित वे बातें देख सकते हैं जो पूरे दिन एक जैसी रहती हैं। |
+| Scenario B1 | Your birth time is approximate. You can explore the parts of the reading that stay the same across that time. | ನಿಮ್ಮ ಜನನ ಸಮಯ ಅಂದಾಜಿನದು. ಆ ಅವಧಿಯಲ್ಲಿ ಒಂದೇ ರೀತಿ ಉಳಿಯುವ ಅಂಶಗಳನ್ನು ನೋಡಬಹುದು. | आपका जन्म समय अनुमानित है। आप पाठ के उन हिस्सों को देख सकते हैं जो उस अवधि में एक जैसे रहते हैं। |
+
+Kannada and Hindi native review is pending. Planned locales inherit the English copy. No new classical claim or reading rule is introduced.

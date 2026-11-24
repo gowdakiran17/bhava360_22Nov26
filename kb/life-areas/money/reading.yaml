@@ -19,7 +19,7 @@ slots:
     en: You can review a recurring expense.
     kn: ಮರುಕಳಿಸುವ ಒಂದು ವೆಚ್ಚವನ್ನು ಪರಿಶೀಲಿಸಬಹುದು.
     hi: किसी नियमित खर्च पर विचार कर सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.money-house-lord

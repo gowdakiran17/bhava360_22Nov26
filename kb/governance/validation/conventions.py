@@ -127,6 +127,8 @@ def validate_conventions(read, require, root):
                 'Kolkata historical offset')
     require(time['pre_standard']['default'] == 'tzdb-lmt'
             and time['pre_standard']['explicit_alternative'] == 'user-supplied-offset', 'historical origin')
+    require(read(time['confidence_policy'])['precision_source']==frame['time_policy'],
+            'KB-32 civil precision and KB-48 assessment policy must point to each other')
     precision = time['precision']
     require({k:v.get('radius_seconds') for k,v in precision.items()} ==
             {'exact':0,'±5 min':300,'±15 min':900,'±1 h':3600,'unknown':None}, 'uncertainty windows')

@@ -66,6 +66,7 @@ calculation_profiles:
     polar_fallback: whole-sign
     label_fallback: true
 doctrine_profiles:
+  birth-time-confidence-v1: {approval: draft, scope: output-availability, source: shared/confidence/birth-time-tiers.yaml}
   functional-lordship-v1: {calculation: vedic-lahiri-v1, approval: draft}
   planet-strength-grade-v1: {calculation: vedic-lahiri-v1, approval: draft}
   parashari-lahiri-whole-sign-draft-v1:

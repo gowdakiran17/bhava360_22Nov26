@@ -1,0 +1,61 @@
+version: 1
+approval: draft
+tag: MODERN/POPULAR
+profile: birth-time-confidence-v1
+tier_policy: shared/confidence/birth-time-tiers.yaml
+actions:
+  show: Eligible only when the output and all material dependencies are proved stable.
+  hide: Omit the output and any evidence depending on it.
+  month-resolution: Compare each bound at calendar-month precision. Show months only when all possible bounds agree at that resolution.
+  cap-moderate: Clamp the final stable card grade after the conflict ladder. Preserve lower grades and the internal KB-35 worksheet.
+binding: Resolve each dependency for the selected planet, house, query, period, convention and local reporting zone. Apply the same stability check to the actual output and its material inputs.
+dates: Compare dates or months in the same reporting zone. Event windows in B use the Antar bounds without a peak. Never promote a working noon instant to a known event time.
+promise: Apply the gate to each factor independently. Insufficient evidence is unknown. A dependent factor inherits the full restrictions of its source, including a hidden D24 or unstable D10.
+scope: Policy permission alone does not release a post-MVP module, create a cusp solution or establish a chart fact.
+rows:
+  lagna: {A: show, B: show, C: hide, requires: [lagna-sign]}
+  houses-from-lagna: {A: show, B: show, C: hide, requires: [lagna-sign, house-placement]}
+  lagna-transits: {A: show, B: show, C: hide, requires: [lagna-sign, transit-contact]}
+  moon-transits: {A: show, B: show, C: show, requires: [moon-sign, transit-contact]}
+  daily-panchang: {A: show, B: show, C: show, requires: [query-day-and-place], birth_independent: true}
+  d9: {A: show, B: show, C: hide, requires: [lagna-sign, d9-lagna, d9-interpreting-signs], varga: true}
+  d10: {A: show, B: show, C: hide, requires: [lagna-sign, d10-lagna, d10-interpreting-signs], varga: true}
+  d2: {A: show, B: show, C: hide, requires: [lagna-sign, d2-lagna, d2-interpreting-signs], varga: true}
+  d4: {A: show, B: show, C: hide, requires: [lagna-sign, d4-lagna, d4-interpreting-signs], varga: true}
+  d7: {A: show, B: show, C: hide, requires: [lagna-sign, d7-lagna, d7-interpreting-signs], varga: true}
+  d12: {A: show, B: show, C: hide, requires: [lagna-sign, d12-lagna, d12-interpreting-signs], varga: true}
+  d24: {A: show, B: hide, C: hide, requires: [lagna-sign, d24-lagna, d24-interpreting-signs], varga: true}
+  d60: {A: show, B: hide, C: hide, requires: [lagna-sign, d60-lagna, d60-interpreting-signs], varga: true}
+  d3: {A: show, B: show, C: hide, requires: [lagna-sign, d3-lagna, d3-interpreting-signs], varga: true}
+  d16: {A: show, B: show, C: hide, requires: [lagna-sign, d16-lagna, d16-interpreting-signs], varga: true}
+  d20: {A: show, B: show, C: hide, requires: [lagna-sign, d20-lagna, d20-interpreting-signs], varga: true}
+  d27: {A: show, B: show, C: hide, requires: [lagna-sign, d27-lagna, d27-interpreting-signs], varga: true}
+  d30: {A: show, B: show, C: hide, requires: [lagna-sign, d30-lagna, d30-interpreting-signs], varga: true}
+  d40: {A: show, B: show, C: hide, requires: [lagna-sign, d40-lagna, d40-interpreting-signs], varga: true}
+  d45: {A: show, B: show, C: hide, requires: [lagna-sign, d45-lagna, d45-interpreting-signs], varga: true}
+  kp-cuspal-sub-lords: {A: show, B: hide, C: hide, requires: [lagna-sign, kp-cusp-solution, bound-cusp-result]}
+  kp-house-significators: {A: show, B: hide, C: hide, requires: [lagna-sign, kp-cusp-solution, bound-cusp-result]}
+  kp-cuspal-prashna: {A: show, B: hide, C: hide, requires: [lagna-sign, kp-cusp-solution, bound-cusp-result]}
+  kp-planet-star-lord: {A: show, B: show, C: show, requires: [bound-planet-star]}
+  kp-planet-sub-lord: {A: show, B: show, C: show, requires: [bound-planet-star, bound-planet-sub]}
+  maha-name: {A: show, B: show, C: show, requires: [moon-nakshatra, maha-lord]}
+  maha-dates: {A: show, B: month-resolution, C: month-resolution, requires: [moon-nakshatra, maha-lord], dates: maha-bounds}
+  antar-name: {A: show, B: show, C: show, requires: [moon-nakshatra, maha-lord, antar-lord]}
+  antar-dates: {A: show, B: month-resolution, C: month-resolution, requires: [moon-nakshatra, maha-lord, antar-lord], dates: antar-bounds}
+  pratyantar-windows: {A: show, B: hide, C: hide, requires: [moon-nakshatra, active-fine-period], dates: pratyantar-bounds}
+  sookshma-windows: {A: show, B: hide, C: hide, requires: [moon-nakshatra, active-fine-period], dates: sookshma-bounds}
+  event-window: {A: show, B: month-resolution, C: hide, requires: [moon-nakshatra, maha-lord, antar-lord], dates: event-bounds, month_dates: antar-bounds}
+  peak-month: {A: show, B: hide, C: hide, requires: [dated-peak-month]}
+  peak-day: {A: show, B: hide, C: hide, requires: [dated-peak-day]}
+  lagna-lord-yogas: {A: show, B: show, C: hide, requires: [lagna-sign, bound-yoga-and-exceptions]}
+  promise-house: {A: show, B: show, C: hide, requires: [lagna-sign, house-condition]}
+  promise-house-lord: {A: show, B: show, C: hide, requires: [lagna-sign, lord-placement]}
+  promise-occupants: {A: show, B: show, C: hide, requires: [lagna-sign, occupant-set]}
+  promise-house-aspects: {A: show, B: show, C: hide, requires: [lagna-sign, house-aspect-set]}
+  promise-functional-lordship: {A: show, B: show, C: hide, requires: [lagna-sign, functional-polarity]}
+  promise-varga-lagna: {A: show, B: show, C: hide, requires: [lagna-sign], inherits_bound_varga: true}
+  promise-significator: {A: show, B: show, C: show, requires: [independent-significator]}
+  promise-moon-relative: {A: show, B: show, C: show, requires: [moon-sign, moon-relative-condition]}
+  strength-house-term: {A: show, B: show, C: show, requires: [], reference_by_tier: {A: lagna, B: lagna, C: moon}, withheld_lagna_reference: moon}
+  final-card-grade: {A: show, B: cap-moderate, C: cap-moderate, requires: [post-ladder-grade]}
+  bhava-bala-tiebreak: {A: show, B: show, C: hide, requires: [lagna-sign, rising-class-time-term, bhava-rank]}

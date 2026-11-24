@@ -189,6 +189,10 @@ def validate_bhava(read, require):
     for altitude,period in [(0,'day'),(-.001,'twilight'),(-6,'twilight'),(-6.001,'night')]:
         rows=houses(dict(s['inputs'],solar_altitude_deg=altitude),s['lord_totals'],read)
         require(sum(x['birth_time'] for x in rows)==15*len(table['birth_time'][period]),'rising classes')
+    require(table['birth_time']['window_tag']=='MODERN','civil twilight provenance')
+    sides=[houses(dict(s['inputs'],solar_altitude_deg=a),s['lord_totals'],read) for a in (-.001,0)]
+    require(any(abs(left['birth_time']-right['birth_time'])==15 for left,right in zip(*sides)),
+            'sunrise or sunset can flip the internal time term')
     occupied=next(x for x in rows if x['occupants']!=0)
     require(occupied['occupants']==sum(value for body,value in table['occupants']['weights'].items()
             if s['inputs']['longitude'][body]//30==occupied['madhya']//30),'whole-sign occupants')

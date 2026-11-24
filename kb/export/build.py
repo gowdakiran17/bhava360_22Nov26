@@ -5,6 +5,7 @@ from datetime import date
 import hashlib
 import io
 import json
+import re
 from pathlib import Path
 import subprocess
 import tarfile
@@ -137,6 +138,11 @@ def public_resources(docs, messages):
         else:
             continue
         bind(path,public)
+    copy_path = 'shared/confidence/copy.yaml'
+    if copy_path in docs:
+        for key, translations in docs[copy_path]['messages'].items():
+            name = f'{copy_path}#messages/{key}'
+            bind(name, {'user_text':messages.add(name, translations)})
     for area, labels in docs['life-areas/catalog.yaml']['areas'].items():
         name = 'life-areas/catalog.yaml#'+area
         bind(name,{'label':messages.add(name,labels)})
@@ -332,6 +338,22 @@ def build(commit):
     return files
 
 
+def matches_export(path, actual, expected):
+    if actual == expected:
+        return True
+    if path != 'manifest.json':
+        return False
+    # Rebuild exactly the expected manifest bytes with the original provenance pair.
+    # This also catches noncanonical bytes, a stale version, or a changed inventory.
+    original = json.loads(actual)
+    sha = original.get('commit') if isinstance(original, dict) else None
+    if not isinstance(sha, str) or re.fullmatch('[0-9a-f]{40}', sha) is None:
+        return False
+    manifest = json.loads(expected)
+    manifest.update(commit=sha, version=f'1.{sha[:12]}')
+    return encoded(manifest) == actual
+
+
 def publish(files, dest, check):
     import fcntl
     import os
@@ -341,7 +363,7 @@ def publish(files, dest, check):
         fcntl.flock(fd,fcntl.LOCK_EX)
         current = {p.relative_to(dest).as_posix() for p in dest.rglob('*') if p.is_file()}
         if check:
-            if current!=files.keys() or any((dest/p).read_bytes()!=b for p,b in files.items()):
+            if current!=files.keys() or any(not matches_export(p,(dest/p).read_bytes(),b) for p,b in files.items()):
                 raise ValueError('Checked-in distribution differs from rebuilt files')
             return
         if current-files.keys():

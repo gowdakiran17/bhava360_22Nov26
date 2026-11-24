@@ -18,7 +18,7 @@ slots:
     en: You can ask what would make home more comfortable.
     kn: ಮನೆ ಇನ್ನಷ್ಟು ಆರಾಮದಾಯಕವಾಗಲು ಏನು ಬೇಕೆಂದು ಕೇಳಬಹುದು.
     hi: घर को अधिक आरामदायक बनाने पर बात कर सकते हैं।
-omit_if: Missing Lagna removes house-based reasons. Only stable Moon-based or other independent evidence may remain.
+omit_if: Apply the bound promise-factor rows in shared/confidence/output-matrix.yaml.
 slot_bindings:
   present-situation:
     rule_id: vedic.dashas-vimshottari.family-home-house-lord

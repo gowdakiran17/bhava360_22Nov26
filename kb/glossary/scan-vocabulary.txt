@@ -640,6 +640,7 @@ aa6dbee6734bd235a1b07cea9fba4f35e1b6ba6d3136a237a2a965dc1ba90464
 aa775ca46d50381ab43f9b3b11ea61322fa441dbfd5119b7ed5e1258e2332a16
 aashaa
 ab
+abc
 abcdef
 abcdefghijklmnopqrstuvwxyz
 abda
@@ -737,6 +738,7 @@ administrators
 admins
 admit
 admits
+admitting
 adopts
 adult
 adults
@@ -953,6 +955,7 @@ arrangements
 arranging
 array
 arrival
+arrive
 arrows
 arthur
 articles
@@ -999,6 +1002,7 @@ assertions
 assess
 assessed
 assessment
+assessments
 assets
 assign
 assigned
@@ -1079,6 +1083,7 @@ b009b20c895a1a4ac9154c4b8bfcd51c37feae1e8e5d370a1fc05085502301e9
 b03422772d383f9f27ee604d743c1d64227748542d29bce762f0f13f396b11e6
 b03aebc1558db2938add801970678bab921bc8c623b76af9b3509f1a37c69e81
 b08d64b37d039c057f70b3d7258d04c4361cd39f0c192c49570b6979adfdbece
+b1
 b175dad70cfcca3fd0819d850acbcc0290a0914b35c757be4c5afd01eac0c808
 b17dbee7e51677871e413c74cdd0261b95f6f4b216022eb7f4ce705ed4aa5c40
 b21185e0163f7aa4341eb6cc8249698671931d11cab1690dc328d6e1b08bf5e3
@@ -1227,6 +1232,7 @@ birth
 birthday
 birthplace
 bisect
+bisection
 bit
 bits
 bk
@@ -1264,6 +1270,7 @@ bound
 boundaries
 boundary
 bounded
+bounding
 bounds
 bphs
 bracket
@@ -1278,6 +1285,7 @@ break
 breaking
 breaks
 bride
+brief
 bright
 brightness
 brihaspataye
@@ -1434,6 +1442,7 @@ cd8f3cbd3baa221ccddba6596bc44a3d69321b28c6b005b1d5dd4d7cf543af6e
 cd9ae18878919cf1012dbde716a24a6c0b71f8b797a48919eddac223441c84c2
 cdef084d236fb450e2a3a7cc60cc8557936b485dc4adb5e0e970223e3a2213b2
 cec
+ceiling
 celebrating
 celebrations
 cell
@@ -1449,6 +1458,7 @@ ceremonial
 ceremonies
 ceremony
 certified
+certifies
 cf09f6d84c46ce67498ef0a8cc590e022dea004585dbfcfe21b90bb057f933ff
 cf1e13e75693d885ca98889d698f94f89c53f3bc89775dc8ba16c278ad113c68
 cf346bf2d5288900746ab18c03f9a9df277b4ce9393e3d32a62c28ad1ec5ebe4
@@ -1505,6 +1515,7 @@ checking
 checkout
 checks
 cheiro
+chennai
 cheshta
 chest
 chh
@@ -1547,6 +1558,7 @@ city
 civil
 claim
 claims
+clamp
 clarification
 clarify
 clarifying
@@ -1837,6 +1849,7 @@ covers
 cow
 cowrie
 crease
+create
 creates
 creating
 creative
@@ -1964,6 +1977,8 @@ dasharray
 dashas
 dashavarga
 data
+dataclass
+dataclasses
 date
 dated
 dates
@@ -2002,6 +2017,7 @@ decan
 decans
 decide
 decided
+decides
 deciding
 decimal
 decision
@@ -2061,6 +2077,7 @@ demolish
 demolition
 denote
 dental
+dep
 departure
 depend
 dependable
@@ -2068,7 +2085,9 @@ dependencies
 dependency
 dependent
 dependents
+depending
 depends
+deps
 depth
 derive
 derived
@@ -2279,6 +2298,7 @@ ds
 dsc
 dsign
 dst
+dt
 du
 dual
 dump
@@ -2598,6 +2618,7 @@ experience
 experiences
 experiment
 experimentation
+expert
 explain
 explainable
 explained
@@ -2704,6 +2725,7 @@ fearing
 fears
 feature
 features
+february
 fee095d7f43029633f61b130a7b21ba3be0413aa2615cccad2ffa0e17e2ba05a
 feed
 feeds
@@ -2782,6 +2804,7 @@ flats
 flesh
 flexible
 flg
+flip
 float
 floor
 flourish
@@ -2860,6 +2883,7 @@ fromhex
 fromisoformat
 fromkeys
 front
+frozen
 frozenset
 fulfilment
 full
@@ -3080,6 +3104,7 @@ hex
 hexdigest
 hi
 hidden
+hide
 hierophant
 high
 higher
@@ -3338,6 +3363,7 @@ intervention
 into
 intra
 introduce
+introduced
 introduction
 introductory
 intuition
@@ -3372,6 +3398,7 @@ isinstance
 island
 iso
 isoformat
+isolate
 isolated
 isolates
 isolation
@@ -3572,6 +3599,7 @@ labels
 labh
 labha
 lacks
+ladder
 lag
 laghu
 lagna
@@ -4006,6 +4034,7 @@ more
 morning
 mort
 moseph
+moshier
 most
 motion
 motional
@@ -4209,6 +4238,7 @@ notifications
 noting
 nourishment
 nov
+november
 now
 nu
 nukta
@@ -4297,6 +4327,7 @@ openness
 opens
 operational
 operationalises
+operationalizes
 operators
 opinion
 opportunities
@@ -4495,6 +4526,7 @@ perdicion
 perdition
 perfection
 period
+periodic
 periods
 peripheral
 permeable
@@ -4645,6 +4677,7 @@ preceding
 precious
 precise
 precision
+precisions
 predicate
 predicates
 prediction
@@ -4713,6 +4746,7 @@ professional
 profile
 profiles
 profits
+prograde
 programming
 progress
 progressed
@@ -4734,6 +4768,7 @@ prompt
 prompts
 pronounced
 pronunciation
+proof
 propagate
 propagates
 propagation
@@ -4746,6 +4781,7 @@ proposed
 prose
 protecting
 protective
+proved
 provenance
 provide
 provided
@@ -4897,6 +4933,7 @@ rasi
 rasis
 rasyadhipathi
 rat
+rate
 rates
 rath
 rather
@@ -4980,6 +5017,7 @@ recovered
 recovery
 rectangular
 rectification
+rectified
 recurring
 recursion
 recursive
@@ -5091,6 +5129,7 @@ replaces
 replay
 report
 reported
+reporting
 reports
 repository
 representative
@@ -5120,6 +5159,7 @@ residence
 resolution
 resolve
 resolved
+resolver
 resolves
 resolving
 resource
@@ -5148,6 +5188,7 @@ restore
 restoring
 restrict
 restricted
+restrictions
 result
 resulting
 results
@@ -5382,6 +5423,7 @@ seasonal
 seasons
 seat
 seating
+sec
 seclusion
 second
 secondary
@@ -5440,6 +5482,7 @@ seq
 sequence
 sequences
 ser
+series
 serpent
 serve
 serves
@@ -5624,6 +5667,7 @@ solar
 sole
 solitary
 solitude
+solution
 solve
 solved
 solving
@@ -5900,6 +5944,7 @@ synthetic
 system
 systems
 t
+t12
 ta
 table
 tables
@@ -6028,6 +6073,8 @@ tide
 tie
 tiebreak
 tied
+tier
+tiers
 ties
 tiger
 time
@@ -6107,6 +6154,7 @@ transit
 transiting
 transition
 transitional
+transitions
 transits
 translate
 translation
@@ -6124,6 +6172,7 @@ travelling
 traversal
 traverse
 traversed
+traverses
 traya
 trayodashi
 trayodashis
@@ -6189,6 +6238,7 @@ two
 txt
 type
 typed
+typeerror
 types
 tz
 tzdb
@@ -6278,6 +6328,7 @@ unproved
 unpublished
 unqualified
 unrecognised
+unrecognized
 unrecorded
 unreduced
 unreferenced
@@ -6402,6 +6453,7 @@ vedicreserve
 vehicle
 vehicles
 venus
+ver
 verdict
 verdicts
 verification
@@ -6592,6 +6644,7 @@ working
 workload
 works
 worksheet
+worksheets
 world
 worries
 worry
@@ -6663,6 +6716,7 @@ znt9qlo0
 zodiac
 zodiacal
 zone
+zoned
 zoneinfo
 zones
 ऀ
@@ -6710,6 +6764,7 @@ zones
 अनुभव
 अनुभूति
 अनुमान
+अनुमानित
 अनुरूप
 अनुरोध
 अनुष्ठान
@@ -6778,6 +6833,7 @@ zones
 आदान
 आधा
 आधार
+आधारित
 आध्यात्मिक
 आध्यात्मिकता
 आनंद
@@ -7113,6 +7169,7 @@ zones
 छोड़
 छोड़ना
 छोड़ने
+छोड़े
 ज
 जगह
 जगहों
@@ -7180,6 +7237,7 @@ zones
 जुलता
 जैसा
 जैसी
+जैसे
 जो
 जोखिम
 जोखिमों
@@ -7691,6 +7749,7 @@ zones
 मारक
 मार्गदर्शक
 मार्गदर्शन
+मालूम
 मास
 मिथुन
 मिनट
@@ -7764,6 +7823,7 @@ zones
 रविवार
 रह
 रहती
+रहते
 रहने
 रहा
 रही
@@ -7883,6 +7943,7 @@ zones
 विश्वास
 विषय
 विषयों
+विस्तृत
 वृश्चिक
 वृषभ
 वे
@@ -8194,6 +8255,8 @@ zones
 ಅಂಚಿನ
 ಅಂಚುಗಳನ್ನು
 ಅಂತರ
+ಅಂದಾಜಿನದು
+ಅಂದಾಜು
 ಅಂಶ
 ಅಂಶಗಳನ್ನು
 ಅಂಶದ
@@ -8355,7 +8418,9 @@ zones
 ಆದ್ಯತೆಯನ್ನು
 ಆಧರಿಸಿ
 ಆಧಾರ
+ಆಧಾರದಲ್ಲಿ
 ಆಧಾರವಿದೆ
+ಆಧಾರಿತ
 ಆಧ್ಯಾತ್ಮಿಕ
 ಆಧ್ಯಾತ್ಮಿಕತೆ
 ಆನಂದಿಸಬಹುದು
@@ -8529,6 +8594,7 @@ zones
 ಉಳಿದಿದೆ
 ಉಳಿದಿರುವ
 ಉಳಿದುದನ್ನು
+ಉಳಿಯುವ
 ಉಳಿಸಬೇಕು
 ಉಳಿಸಲು
 ಉಳಿಸಿಕೊಂಡು
@@ -8624,6 +8690,7 @@ zones
 ಓಂ
 ಓಡಾಟ
 ಓಡಾಡುವ
+ಓದನ್ನು
 ಓದಬಹುದು
 ಓದಿ
 ಓದಿಗೆ
@@ -8895,6 +8962,7 @@ zones
 ಚಂದ್ರಚಕ್ರದ
 ಚಂದ್ರನ
 ಚಂದ್ರಪಥದ
+ಚಂದ್ರರಾಶಿ
 ಚಂದ್ರಾಯ
 ಚಕ್ರ
 ಚಕ್ರದ
@@ -8938,6 +9006,7 @@ zones
 ಛ
 ಜ
 ಜಂಟಿ
+ಜನನ
 ಜನನಕಾಲದ
 ಜನರನ್ನು
 ಜನರಿಂದ
@@ -9023,6 +9092,7 @@ zones
 ತಿಳಿದಿದ್ದರೆ
 ತಿಳಿದಿರುವುದನ್ನು
 ತಿಳಿದಿಲ್ಲ
+ತಿಳಿದಿಲ್ಲದಿದ್ದರೆ
 ತಿಳಿದುಕೊಳ್ಳಬಹುದು
 ತಿಳಿಯಬಹುದು
 ತಿಳಿಯಲು
@@ -9092,6 +9162,7 @@ zones
 ದಿನದ
 ದಿನನಿತ್ಯದ
 ದಿನನಿತ್ಯದಲ್ಲಿ
+ದಿನವಿಡೀ
 ದಿನಾಂಕ
 ದಿನಾಂಕಗಳ
 ದಿನಾಂಕಗಳು
@@ -9834,6 +9905,7 @@ zones
 ರಾಹವೇ
 ರಾಹು
 ರಾಹುವಿನೊಂದಿಗೆ
+ರೀತಿ
 ರೀತಿಯ
 ರೀತಿಯಲ್ಲಿ
 ರೀತಿಯಿಂದ
@@ -9932,6 +10004,7 @@ zones
 ವಿವರವನ್ನು
 ವಿವರವನ್ನೂ
 ವಿವರವಾಗಿ
+ವಿವರವಾದ
 ವಿವರಿಸಬಹುದು
 ವಿವರಿಸಲು
 ವಿವರಿಸಿದರೆ
@@ -10275,6 +10348,7 @@ zones
 ಸ್ಥಿರ
 ಸ್ಥಿರತೆ
 ಸ್ಥಿರವಾಗಿರುತ್ತದೆ
+ಸ್ಥಿರವಾಗಿರುವ
 ಸ್ನೇಹ
 ಸ್ನೇಹಿತರೊಂದಿಗೆ
 ಸ್ಪಂದನೆ

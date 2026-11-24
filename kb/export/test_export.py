@@ -1,12 +1,13 @@
 """Integration checks on the JSON an engine reads. Run after build.py."""
 import hashlib
+from tempfile import TemporaryDirectory
 import json
 from pathlib import Path
 import unittest
 
 from jsonschema import Draft202012Validator
 
-from build import HERE, SYSTEMS, Messages, snapshot, schema_name, token
+from build import HERE, SYSTEMS, Messages, snapshot, schema_name, token, source_revision, encoded, publish
 
 
 class EngineExport(unittest.TestCase):
@@ -16,13 +17,55 @@ class EngineExport(unittest.TestCase):
         cls.files = {p.relative_to(folder).as_posix():p.read_bytes() for p in folder.rglob('*.json')}
         cls.docs = {p:json.loads(data) for p,data in cls.files.items()}
         cls.manifest = cls.docs['manifest.json']
-        cls.source = snapshot(cls.manifest['commit'])
+        cls.source = snapshot(source_revision('HEAD'))
         cls.rules = {d['id']:d for d in cls.source.values() if isinstance(d,dict) and 'system' in d and 'rule' in d}
         cls.rows = {key:r for s in SYSTEMS for key,r in cls.docs[f'admin/{s}.json']['rules'].items()}
         cls.routes = cls.docs['admin/routing.json']['routes']
         aliases = cls.source['governance/review/rule-aliases.yaml']
         cls.aliases = aliases['evidence_aliases']
         cls.copies = aliases['copy_aliases']
+
+    def test_confidence_copy_is_the_only_public_confidence_resource(self):
+        path = 'shared/confidence/copy.yaml'
+        admin = self.docs['admin/catalog.json']
+        bindings = {k:v for k,v in admin['public_keys'].items() if k.startswith('shared/confidence/')}
+        messages = self.source[path]['messages']
+        self.assertEqual(set(bindings), {f'{path}#messages/{key}' for key in messages})
+        for key, translations in messages.items():
+            entry = self.docs['public/catalog.json']['entries'][bindings[f'{path}#messages/{key}']]
+            self.assertEqual(set(entry), {'user_text'})
+            for loc in self.manifest['locales']['required'] + self.manifest['locales']['planned']:
+                text = self.docs[f'public/locales/{loc}.json']['messages'][entry['user_text']]
+                self.assertEqual(text, translations.get(loc, translations['en']))
+                self.assertNotRegex(text, r'\d')
+
+    def test_squash_check_allows_only_the_provenance_pair(self):
+        with TemporaryDirectory() as tmp:
+            dest = Path(tmp)
+            original = 'a'*40
+            expected = {'manifest.json':encoded(self.manifest), 'public.json':b'{}'}
+            manifest = dict(self.manifest, commit=original, version='1.'+original[:12])
+            def write_manifest(value):
+                (dest/'manifest.json').write_bytes(encoded(value))
+            write_manifest(manifest)
+            payload = dest/'public.json'
+            payload.write_bytes(expected['public.json'])
+            publish(expected,dest,True)
+            for mutation in ({'conventions':{}}, {'files':{}}, {'version':'stale'}, {'commit':'xyz'}):
+                write_manifest(dict(manifest, **mutation))
+                with self.assertRaises(ValueError):
+                    publish(expected,dest,True)
+            write_manifest(manifest)
+            payload.write_bytes(b'{ }')
+            with self.assertRaises(ValueError):
+                publish(expected,dest,True)
+            payload.unlink()
+            with self.assertRaises(ValueError):
+                publish(expected,dest,True)
+            payload.write_bytes(expected['public.json'])
+            (dest/'stale.json').write_bytes(b'{}')
+            with self.assertRaises(ValueError):
+                publish(expected,dest,True)
 
     def test_strength_words_have_only_localized_labels(self):
         path = 'vedic/strength/user-words.yaml'
@@ -150,7 +193,7 @@ class EngineExport(unittest.TestCase):
             self.assertEqual(expected,set(self.routes['screen/'+system]))
 
     def test_public_boundary_and_locales(self):
-        blocked = {'evidence','direction','weight_class','time_scope','area_strength','maraka','polarity','grade','total','terms','lord_total','rule','rules','aliases','copy_owner','fact','conditions','points','score','sources','approval',
+        blocked = {'tier','rectified','withheld','assessment_radius_seconds','evidence','direction','weight_class','time_scope','area_strength','maraka','polarity','grade','total','terms','lord_total','rule','rules','aliases','copy_owner','fact','conditions','points','score','sources','approval',
                    'native_review','strength_notes','exceptions','traditions_differ','confidence','admin','reason'}
         def inspect(obj):
             if isinstance(obj,dict):
