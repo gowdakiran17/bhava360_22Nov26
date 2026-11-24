@@ -5305,6 +5305,13 @@ facts:
     - standard
     - kerala
     - kp-number
+  prashna.conjunction_tone:
+    type: enum
+    producer: vedic.prashna
+    values: [Supportive, Steady, Take care]
+    origin: An applying same-sign conjunction to the topic lord takes its quality from the topic lord under the natural benefic profile. An unresolved disposition yields Steady.
+    dependencies: [Question lord and Moon, topic lord, sidereal longitudes, signed speeds, shared orbs, natural disposition]
+    unknown_if: No qualifying applying conjunction or insufficient contact inputs.
   prashna.leaning:
     type: enum
     producer: vedic.prashna

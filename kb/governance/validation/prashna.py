@@ -2,6 +2,7 @@
 from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
+from bhava_bala import benefic
 from kp import numbered
 from tajika import contact, reception, transfer, RULERS, FALL
 
@@ -29,18 +30,23 @@ def testimony(chart, case, profile, querent, topic, category):
     positions = {**chart['positions'], **case.get('positions', {})}
     actors = {querent, topic, 'moon'}
     if any(name not in positions or None in positions[name] for name in actors):
-        return None, None, set()
+        return None, None, set(), None
+    conjunction_tone = None
     evidence = set()
     contacts = []
     reasons = set()
     for name in {querent, 'moon'} - {topic}:
-        a, speed_a = positions[name]
-        b, speed_b = positions[topic]
         core=profile['core']
         hit=contact(core,name,topic,positions)
         if not hit or hit['state'] not in ('applying','exact'):
             continue
         signal=core['angles'][hit['angle']]
+        if hit['angle']==0 and hit['state']=='applying':
+            signal = 'support'
+            longitudes = {g:position[0] for g,position in positions.items() if position}
+            nature = benefic(topic,longitudes,profile['natural_profile'])
+            key = {True:'benefic', False:'malefic', None:'unresolved'}[nature]
+            conjunction_tone = profile['conjunction']['tone_by_topic_lord'][key]
         if signal=='context':continue
         evidence.add(signal)
         reasons.add(("querent" if name == querent else "moon") + "-" + signal)
@@ -72,7 +78,7 @@ def testimony(chart, case, profile, querent, topic, category):
     kinds = {frozenset(): 'neither', frozenset(['support']): 'support_only',
              frozenset(['friction']): 'friction_only', frozenset(['support', 'friction']): 'both'}
     delay = min(contacts) if contacts and len(evidence) == 1 else None
-    return profile['leaning'][kinds[frozenset(evidence)]], delay, reasons
+    return profile['leaning'][kinds[frozenset(evidence)]], delay, reasons, conjunction_tone
 
 
 def intent_redirect(intent, routing, messages):
@@ -89,6 +95,21 @@ def validate_prashna(rules, read, evaluate, require):
     routing = read('vedic/prashna/questions.yaml')
     profile = read('vedic/prashna/judgment.yaml')
     profile['core']=read(profile['aspect_core'])
+    profile['natural_profile'] = read(profile['conjunction']['natural_profile'])
+    # Use the Moon as querent so each probe has exactly one eligible pair.
+    def probe(topic, longitude, speed=1, **case):
+        chart = dict(positions={'moon':(10,13),topic:(longitude,speed)},horizon_days=2)
+        return testimony(chart,case,profile,'moon',topic,'job')
+    for planet, edge, tone in [('saturn',20.5,'Take care'),('jupiter',20.5,'Supportive'),('venus',19.5,'Supportive')]:
+        leaning,days,reasons,quality = probe(planet,edge)
+        require((leaning,reasons,quality)==('leans-toward',{'querent-support'},tone) and
+                days==(edge-10)/12,'Prashna inclusive conjunction orb '+planet)
+        for longitude,speed in [(edge+.001,1),(9,1),(15,13),(10,1)]:
+            require(probe(planet,longitude,speed)==('unclear',None,set(),None),
+                    'outside, separating, stationary or no future conjunction')
+    require(probe('saturn',15,None)==(None,None,set(),None),'missing motion')
+    require(probe('saturn',15,station_days={'saturn':.2})[:2]==('leans-toward',None),
+            'station interrupts conjunction timing')
     ref = read('examples/prashna-reference.yaml')
     boundaries = read('shared/boundaries/responses.yaml')['messages']
     arcs = read('kp/number-horary/249-divisions.yaml')['intervals']
@@ -157,7 +178,10 @@ def validate_prashna(rules, read, evaluate, require):
             if mode == 'standard' and ready and access == 'public-reflection':
                 asc = int(chart['asc'] // 30)
                 rulers = routing['rulers_from_aries']
-                lean, delay, reasons = testimony(chart, case, profile, rulers[asc], rulers[(asc+primary-1)%12], category)
+                lean, delay, reasons, conjunction_tone = testimony(chart, case, profile, rulers[asc], rulers[(asc+primary-1)%12], category)
+                facts['conjunction_tone'] = conjunction_tone
+                if 'conjunction_tone' in case:
+                    require(conjunction_tone==case['conjunction_tone'],'question conjunction tone')
                 moon = {**chart['positions'], **case.get('positions', {})}.get('moon')
                 if moon and None not in moon:
                     positions = {**chart['positions'], **case.get('positions', {})}

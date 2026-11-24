@@ -23,6 +23,11 @@ promise:
     frame: Whole-sign natal Lagna only. Use full D1 aspects and the natural benefic profile for the sixth lord.
     routes: [sixth-lord-in-lagna, lagna-lord-in-sixth-eighth-twelfth, malefic-sixth-lord-aspects-lagna]
     effect: Any established route contributes one adverse qualifier. Combine with the other qualifiers before the one-step clamp. Missing inputs supply no adverse vote.
+    exceptions:
+    - When the sixth lord also rules the Lagna (Venus for Taurus or Mars for Scorpio), its occupation of or aspect to its own Lagna is protective. Omit both sixth-lord routes.
+    traditions_differ:
+    - This profile exempts the Lagna lord occupying its own sign in the sixth or eighth. Other readings retain a challenge from the house alone.
+    - Some read Saturn in its own sign in the twelfth as neutral. This profile retains a mild challenge under the shared one-step limit, as in Asha.
     visibility: Internal wellness qualification only. No diagnosis or event prediction.
     sources:
     - {work_id: bphs, book: Brihat Parashara Hora Shastra, edition: null, translator_edition: R. Santhanam, chapter: 12, verse: null, other_locator: First-house results, verification: pending, to_verify: true}

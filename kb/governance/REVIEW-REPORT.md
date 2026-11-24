@@ -583,3 +583,9 @@ The review used Jyoti’s supplied map. Chapter-location confidence does not est
 The historical 1,185 pending reading-rule citations plus 44 top-level citations in other authored files and one excluded template account for the locator map’s 1,230 top-level blocks. Including the nine nested remedy citations gives 1,238 authored blocks in that historical cohort. The current all-depth audit covers 5,388 source blocks. Two new candidate health locators bring the pending count to 64. The remaining counts are 2,881 verified, 241 verified_locator, 485 locator_medium, 305 chapter-only, 451 editorial, 959 editorial-no-classical-claim and two supplied-in-brief.
 
 The health witness changes Asha’s health promise to Moderate and her card to Steady. Kabir has a new witness with the same band. The other three fixtures keep their recorded results. A Tajika conjunction can establish application while leaving the question’s direction unresolved. All 120 gated Lal Kitab placement texts await native review. The two yoga copy revisions also await native review.
+
+## Batch 12 review
+
+Scenario 2 now leans toward the matter with a Take care tone. The Moon closes three degrees on Saturn at twelve degrees per day. Perfection falls six hours later, on 19 March 2032 in Bengaluru. The annual conjunction retains neutral quality. The two Prashna citation candidates await edition checks, bringing the source audit to 66 pending blocks out of 5,390.
+
+The health probes distinguish shared lordship from an independent sixth-lord challenge. They cover own-sign occupation in the sixth and eighth and the retained own-sign twelfth-house default for Saturn. Regenerating the five named consultation fixtures and their worked readings produced identical files.

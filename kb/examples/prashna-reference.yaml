@@ -413,5 +413,8 @@ cases:
   - current-question
   - moon
   - job
-  - unclear
-  reasons: []
+  - leans-toward
+  - timing
+  reasons: [moon-support]
+  conjunction_tone: Take care
+  day: '2032-03-19'

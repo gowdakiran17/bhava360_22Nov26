@@ -67,13 +67,16 @@ def health_challenges(lagna, signs, nature, aspects):
         return []
     sixth = OWNERS[(lagna+5)%12]
     sixth_sign = signs.get(sixth)
-    rising_lord_sign = signs.get(OWNERS[lagna])
+    rising_lord = OWNERS[lagna]
+    rising_lord_sign = signs.get(rising_lord)
     routes = []
-    if sixth_sign == lagna:
+    if sixth != rising_lord and sixth_sign == lagna:
         routes.append('sixth-lord-in-lagna')
-    if rising_lord_sign is not None and (rising_lord_sign-lagna)%12+1 in (6,8,12):
-        routes.append('lagna-lord-in-sixth-eighth-twelfth')
-    if sixth_sign is not None and nature.get(sixth)=='malefic' and (lagna-sixth_sign)%12+1 in aspects[sixth]:
+    if rising_lord_sign is not None:
+        house = (rising_lord_sign-lagna)%12+1
+        if house == 12 or (house in (6,8) and OWNERS[rising_lord_sign] != rising_lord):
+            routes.append('lagna-lord-in-sixth-eighth-twelfth')
+    if sixth != rising_lord and sixth_sign is not None and nature.get(sixth)=='malefic' and (lagna-sixth_sign)%12+1 in aspects[sixth]:
         routes.append('malefic-sixth-lord-aspects-lagna')
     return routes
 
@@ -302,14 +305,23 @@ def validate(read,require):
     def probe(signs, nature=None, origin=0):
         return health_challenges(origin,signs,nature or {},aspects)
     require(probe({'mercury':0})==routes[:1],'sixth lord occupies Lagna')
-    for sign in (5,7,11):
+    for origin, lord in [(1,'venus'),(7,'mars')]:
+        require(not probe({lord:origin},origin=origin),'shared lord in its Lagna')
+        # A full seventh aspect to its own Lagna is protective, including Mars.
+        require(not probe({lord:(origin+6)%12},{lord:'malefic' if lord=='mars' else 'benefic'},origin),
+                'shared lord aspects its Lagna')
+        require(not probe({lord:(origin+5)%12},origin=origin),'own sign in the sixth')
+    require(not probe({'mars':7}),'Aries Lagna, Mars in its own eighth')
+    require(probe({'saturn':9},origin=10)==routes[1:2],'Aquarius Lagna, Saturn in its own twelfth')
+    require(probe({'venus':8},origin=1)==routes[1:2],'shared lord in a non-owned eighth still counts')
+    for sign in (5,11):
         require(probe({'mars':sign})==routes[1:2],'Lagna lord in a difficulty house')
     require(probe({'mars':4})==[] and probe({'mars':6})==[], 'either side of sixth house')
     require(probe({'mercury':6},{'mercury':'malefic'})==routes[2:] and
             not probe({'mercury':6},{'mercury':'benefic'}) and not probe({'mercury':6}),
             'sixth lord aspect needs known malefic nature')
     require(not probe({}) and not probe({'mercury':0},origin=None),'missing natal evidence')
-    overlapping = probe({'mars':7,'mercury':0})
+    overlapping = probe({'mars':5,'mercury':0})
     require(overlapping==routes[:2],'overlapping routes')
     ref = dict(lord='Strong',primary_house=1,houses={1:{'lord':'Strong'}},health_challenges=overlapping)
     require(recipe_promise(ref,'health',[True,None,None],0,roles)==1 and
