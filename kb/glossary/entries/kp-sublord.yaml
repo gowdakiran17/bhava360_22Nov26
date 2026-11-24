@@ -30,5 +30,10 @@ used_by:
 - kp.cusps.cusp-8
 - kp.cusps.cusp-9
 - kp.cusps.seventh-cusp
+- kp.judgement.cusp-unavailable
+- kp.judgement.denied
+- kp.judgement.mixed
+- kp.judgement.mixed-signals
+- kp.judgement.promised
 - kp.significators.job-change
 - kp.star-sub-lords.subdivision

@@ -32,7 +32,7 @@ options:
     tradition: Navagraha name mantra
     form: nama
     sources:
-    - {work_id: bphs, edition: null, locator: Graha shanti chapters (individual verse pending), verification: pending}
+    - {book: Brihat Parashara Hora Shastra, work_id: bphs, edition: null, chapter: graha-shanti chapter (Santhanam numbering; number to verify), verse: null, other_locator: null, supports: 'Japa option only; the bans on paid remedies, gems and objects still apply.', verification: pending, tag: CLASSICAL, translator_edition: 'R. Santhanam tr., Ranjan Publications (2 vols)', locator: graha-shanti chapter (Santhanam numbering; number to verify), to_verify: true}
     user_text:
       en: If you like, on Saturday you can quietly repeat “Om Rahave Namah.”
       kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಶನಿವಾರ “ಓಂ ರಾಹವೇ ನಮಃ” ಎಂದು ಮನಸ್ಸಿನಲ್ಲಿ ಜಪಿಸಬಹುದು.

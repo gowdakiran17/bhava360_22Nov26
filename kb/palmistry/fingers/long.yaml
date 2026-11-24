@@ -24,14 +24,17 @@ sources:
   other_locator: palmistry.fingers.long
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
   verification: editorial-no-classical-claim
-- book: Palmistry for All
+- book: Palmistry for All (Cheiro)
   work_id: cheiro-palmistry
   edition: cheiro-pg20480
-  chapter: Part II
+  chapter: Part II (KB section heading to confirm)
   verse: null
-  other_locator: Long observation
-  supports: Historical feature terminology only. Original prompts do not import predictions from the text.
-  verification: pending
+  other_locator: null
+  supports: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative source.
+  verification: locator_medium
+  tag: MODERN/POPULAR
+  translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

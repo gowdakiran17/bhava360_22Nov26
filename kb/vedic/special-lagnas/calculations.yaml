@@ -4,11 +4,17 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: 3
+  chapter: special ascendants chapter (Santhanam ~ch.4-5)
   verse: null
-  other_locator: Divisional dignity and planetary states chapters
+  other_locator: null
   supports: Traditional calculation or classification. Reflective wording is editorial.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  to_verify: true
+  locator_note: Compare chapter 3 with chapters 4–5 in Santhanam before accepting the locator.
+  prior_review_locator:
+    chapter: 3
 release: post-mvp
 visibility: admin-only
 coordinates: Normalize longitudes to 0 inclusive, 360 exclusive; use elapsed time since most recent local sunrise.

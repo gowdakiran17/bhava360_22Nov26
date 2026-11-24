@@ -16,14 +16,17 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- book: Lal Kitab
+- book: Lal Kitab (Pt. Roop Chand Joshi)
   work_id: lal-kitab
   edition: null
-  chapter: null
+  chapter: fixed-house framework (locator to verify)
   verse: null
-  other_locator: Fixed-house method, edition unresolved
-  supports: Formation or interpretive theme; practical prompts are original editorial wording.
+  other_locator: null
+  supports: Confirm the 1952 edition states the fixed-house, Aries = house 1 convention.
   verification: pending
+  tag: MODERN/POPULAR
+  translator_edition: 1952 edition (one edition only)
+  to_verify: true
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

@@ -31,11 +31,15 @@ sources:
 - book: Brihat Jataka
   work_id: brihat-jataka
   edition: brihat-jataka-iyer-brihatjataka00varaiala
-  chapter: null
+  chapter: ch.2 (special full aspects of Mars, Jupiter, Saturn)
   verse: null
-  other_locator: II.13 full aspects; XIV paired planets
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: The aspect rule only; interpretation is editorial. The KB locator II.13 needs confirming, so verse is left null.
+    Cross-cite BPHS ch.26 (Santhanam).
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Editorial application. Native Kannada and Hindi review pending.
 user_text:

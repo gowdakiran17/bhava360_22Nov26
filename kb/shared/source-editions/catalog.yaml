@@ -1,5 +1,7 @@
 version: 1
 works:
+  ptolemy-tetrabiblos: Tetrabiblos (Ptolemy)
+  rao-timing-events: Timing Events through Vimshottari Dasha (K.N. Rao)
   pyjhora-panchanga: PyJHora Panchanga tables and local intervals
   pyjhora-yoga: PyJHora yoga implementation
   modern-elemental-hands: Palmistry handouts

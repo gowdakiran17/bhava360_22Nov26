@@ -88,25 +88,67 @@ window:
   peaks: In Tier A Mars or Sun occupying either natal target marks the month. The Moon marks days only inside a window
     starting in the next thirty days. Apply KB-48 stability to every displayed date.
 sources:
-- work_id: bphs
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
   edition: null
-  locator: Lordship and dasha results
-  verification: pending
-- work_id: laghu-parashari
+  chapter: ch.11 judgement of houses; ch.34 functional lords (Santhanam numbering)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator: ch.11 judgement of houses; ch.34 functional lords (Santhanam numbering)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Laghu Parashari (Jataka Chandrika)
+  work_id: laghu-parashari
   edition: null
-  locator: Chapter 2
-  verification: pending
-- work_id: phaladeepika
+  chapter: ch.1-2 lordship and yoga
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: null
+  edition_to_verify: true
+  locator: ch.1-2 lordship and yoga
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Phaladeepika
+  work_id: phaladeepika
   edition: phaladeepika-sastri-1950
-  locator: Dasha phala chapters
-  verification: pending
-- work_id: jataka-parijata
+  chapter: ch.1 definitions; ch.15 bhava judgement; ch.19-20 dashas
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator: ch.1 definitions; ch.15 bhava judgement; ch.19-20 dashas
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Jataka Parijata (Vaidyanatha Dikshita)
+  work_id: jataka-parijata
   edition: null
-  locator: Natal promise and period results (passage pending)
+  chapter: house-results chapters (number to verify)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
   verification: pending
-- work_id: kn-rao-double-transit
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr.
+  locator: house-results chapters (number to verify)
+  to_verify: true
+- book: Timing Events through Vimshottari Dasha (K.N. Rao)
+  work_id: rao-timing-events
   edition: null
-  locator: Double-transit timing method (edition pending)
+  chapter: null
+  verse: null
+  other_locator: null
+  supports: Double-transit timing; confirm the title.
   verification: pending
+  tag: MODERN/POPULAR
+  translator_edition: null
+  edition_to_verify: true
+  locator: null
+  to_verify: true
 multi_house: Bind the full recipe house set for both references. Use promise.house_priority for the natal band and retain
   every bound house for period and transit checks. Missing Lagna withholds its natal promise.

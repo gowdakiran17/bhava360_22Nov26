@@ -23,12 +23,15 @@ traditions_differ:
 sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
-  edition: bphs-strength-web
-  chapter: 27
-  verse: '31'
+  edition: null
+  chapter: 'ch.27 strength: Bhava bala (Santhanam numbering)'
+  verse: null
   other_locator: null
   supports: Classical Bhava Bala term. Edition locator supplied by review.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release.
 user_text:

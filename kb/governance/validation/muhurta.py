@@ -25,6 +25,15 @@ def classify(values):
     return {frozenset(['support']):'Supportive',frozenset(['avoid']):'Take care'}.get(frozenset(values),'Steady')
 
 
+def auxiliary_star(longitude, factors):
+    if longitude is None:
+        return None
+    span = factors['abhijit_span']
+    if span['start_arcseconds_inclusive']/3600 <= longitude%360 < span['end_arcseconds_exclusive']/3600:
+        return factors['additional_muhurta_stars']['abhijit']
+    return None
+
+
 def election(c,profile,policy,limbs,stars,eighths,orbs):
     # The fixture producer supplies no window that crosses a limb, lagna, or motion boundary.
     rise,setting,start,end = [datetime.fromisoformat(c[k]) for k in ('sunrise','sunset','start','end')]
@@ -76,6 +85,13 @@ def election(c,profile,policy,limbs,stars,eighths,orbs):
     quarter = int(moon*3//10)%4+1
     if quarter in profile['quarter_cautions'].get(stars[star],[]):
         evidence['nakshatra']='avoid'
+    if c.get('use_abhijit'):
+        factors = policy['activity_factors']
+        group = auxiliary_star(moon,factors)
+        if group:
+            preferences = factors['activity_preferences'].get(profile['activity'])
+            if preferences is not None:
+                evidence['nakshatra'] = 'support' if group in preferences else 'neutral'
     reliefs = profile['reliefs']
     if 'entry-navamsa' in reliefs and evidence['lagna']=='avoid' and int(asc*3//10)%12==1:
         evidence['lagna']='neutral'
@@ -122,6 +138,11 @@ def validate_muhurta(rules,read,evaluate,require):
     require(set(selection['activity_profiles'])==set(expected),'eight activity profiles')
     require(policy['ranking']==['Supportive','Steady','Take care'],'tone order')
     policy.update(gandanta=read('vedic/vargas/advanced.yaml')['gandanta'],interval_table=read('vedic/panchang/election-intervals.yaml'),day_yoga_table=read('vedic/panchang/election-yogas.yaml'),regions=read('vedic/muhurta/region-policy.yaml')['toggles'])
+    factors = read('vedic/muhurta/activity-factors.yaml')
+    policy['activity_factors'] = factors
+    for seconds,expected_group in [(995999,None),(996000,'swift'),(1011199,'swift'),(1011200,None)]:
+        require(auxiliary_star(seconds/3600,factors)==expected_group,'Abhijit boundary '+str(seconds))
+    require(auxiliary_star(None,factors) is None,'unknown election longitude')
     tables=read('vedic/panchang/limb-tables.yaml')
     stars=[s['id'] for s in read(tables['nakshatra_catalog'])['nakshatras']]
     eighths=read('vedic/panchang/limbs.yaml')['day_eighths_sunday_first']['rahu']
@@ -156,6 +177,12 @@ def validate_muhurta(rules,read,evaluate,require):
             require((ok,t)==(False,'Take care') and reason in why['blocked'],(slug,reason))
         require(run({**c,'participants':[]},p)[:2]==(None,None),slug+' missing participant')
         require(run({**c,**fixture['ends_at_rahu']},p)[0] is True,slug+' exact endpoint')
+    travel_case = {**fixture['window'], **fixture['cases']['travel'], 'moon':277, 'sun':247}
+    travel_profile = rules[selection['activity_profiles']['travel']]['activity_profile']
+    normal = run(travel_case,travel_profile)[2]
+    overlay = run(dict(travel_case,use_abhijit=True),travel_profile)[2]
+    require(normal['nakshatra']=='neutral' and overlay==dict(normal,nakshatra='support'),
+            'Abhijit changes only the optional election star preference')
     for probe in fixture['probes']:
         slug=probe['activity']
         c={**fixture['window'],**fixture['cases'][slug],**probe['override']}

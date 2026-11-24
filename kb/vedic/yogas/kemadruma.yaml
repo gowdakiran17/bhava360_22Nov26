@@ -139,14 +139,17 @@ sources:
   other_locator: Named yoga or graha combination
   supports: Lunar neighbours and alternative kendra/navamsha readings.
   verification: verified
-- work_id: saravali
-  book: Saravali
+- book: Saravali
+  work_id: saravali
   edition: null
-  chapter: 13
+  chapter: ch.13 lunar yogas (Santhanam numbering)
   verse: null
-  other_locator: Chapter 13
-  supports: Additional Lagna angle and lunar aspect cancellation; edition locator pending.
-  verification: pending
+  other_locator: null
+  supports: 'Cross-check: Brihat Jataka ch.13 (Chandra yogas).'
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
   and Hindi await native review.

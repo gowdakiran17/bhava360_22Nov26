@@ -22,8 +22,8 @@ traditions_differ:
   note: The library counts a supportive mark as a bindu. In the cited textbook the same mark is called a rekha.
     Convert the notation before using another table.
 sources:
-- {work_id: raman-ashtakavarga, book: Ashtakavarga System of Prediction, edition: null, chapter: null, verse: null, other_locator: Moon contributor table, verification: pending}
-- {work_id: bphs, book: Brihat Parashara Hora Shastra, edition: null, chapter: 66, verse: null, other_locator: Santhanam Moon contributor table (Raman Ashtakavarga System of Prediction Moon table), verification: pending}
+- {book: Ashtakavarga System of Prediction (B.V. Raman), work_id: raman-ashtakavarga, edition: null, chapter: Moon contributor table, verse: null, other_locator: null, supports: Named calculation or classification., verification: locator_medium, tag: CLASSICAL, translator_edition: null, edition_to_verify: true, locator_note: Chapter or section numbering follows the named source and may differ by edition.}
+- {book: Brihat Parashara Hora Shastra, work_id: bphs, edition: null, chapter: ch.66 Ashtakavarga (Santhanam numbering), verse: null, other_locator: null, supports: Named calculation or classification., verification: locator_medium, tag: CLASSICAL, translator_edition: 'R. Santhanam tr., Ranjan Publications (2 vols)', locator_note: Chapter or section numbering follows the named source and may differ by edition.}
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: bphs-av-web

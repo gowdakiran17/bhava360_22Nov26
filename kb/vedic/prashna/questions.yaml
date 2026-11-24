@@ -157,3 +157,15 @@ fixed_intent_aliases:
   gambling: gambling-or-stock-tips
   stock-tips: gambling-or-stock-tips
   suicide: self-harm
+  longevity: death-or-lifespan
+  ayurdaya: death-or-lifespan
+  when will i die: death-or-lifespan
+  miscarriage: pregnancy-or-child-sex
+  termination: pregnancy-or-child-sex
+  baby's gender: pregnancy-or-child-sex
+  lottery: gambling-or-stock-tips
+  betting: gambling-or-stock-tips
+  speculation: gambling-or-stock-tips
+  crypto: gambling-or-stock-tips
+  suicidal: self-harm
+  self-injury: self-harm

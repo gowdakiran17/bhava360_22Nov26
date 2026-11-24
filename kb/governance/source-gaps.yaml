@@ -1,72 +1,11 @@
 approval: draft
-scope: Each source block on an addressable reading rule counts once. Pending and chapter-only are separate; candidates
-  are leads pending edition and locator inspection.
-areas:
-  face-reading:
-    pending: 0
-    chapter_only: 0
-    to_verify: []
-  jaimini:
-    pending: 0
-    chapter_only: 0
-    to_verify:
-    - BPHS
-    - K.N. Rao, Predicting through Jaimini’s Chara Dasha
-  kp:
-    pending: 5
-    chapter_only: 0
-    to_verify:
-    - KP Readers IV and VI
-  lal-kitab:
-    pending: 1
-    chapter_only: 0
-    to_verify:
-    - Pt. Roop Chand Joshi, Lal Kitab, 1952
-  numerology:
-    pending: 50
-    chapter_only: 0
-    to_verify:
-    - Cheiro, Book of Numbers
-  palmistry:
-    pending: 79
-    chapter_only: 136
-    to_verify:
-    - Cheiro, Language of the Hand
-  tarot:
-    pending: 156
-    chapter_only: 156
-    to_verify:
-    - A.E. Waite, The Pictorial Key to the Tarot
-  vastu:
-    pending: 0
-    chapter_only: 0
-    to_verify:
-    - Brihat Samhita, Vastu chapters
-  vedic-other:
-    pending: 350
-    chapter_only: 12
-    to_verify:
-    - BPHS
-    - Brihat Jataka
-    - Phaladeepika
-    - Saravali
-    - Laghu Parashari
-    - Tajika Neelakanthi
-    - 'B.V. Raman: Prasna Tantra, Varshaphal, Ashtakavarga, Muhurtha'
-    - Muhurta Chintamani
-  vedic-timing:
-    pending: 176
-    chapter_only: 0
-    to_verify:
-    - BPHS
-    - Phaladeepika
-    - 'B.V. Raman: Ashtakavarga, Muhurtha'
-  western:
-    pending: 368
-    chapter_only: 0
-    to_verify:
-    - Tetrabiblos, Robbins translation
-    - William Lilly, Christian Astrology, Book I
-totals:
-  pending: 1185
-  chapter_only: 304
+scope: Verification-bearing sources in authored YAML at any depth, including remedy options. Templates, the input locator map and distribution artifacts are excluded.
+counts_by_verification:
+  chapter-only: 305
+  editorial: 451
+  editorial-no-classical-claim: 959
+  locator_medium: 485
+  pending: 62
+  supplied-in-brief: 2
+  verified: 2881
+  verified_locator: 241

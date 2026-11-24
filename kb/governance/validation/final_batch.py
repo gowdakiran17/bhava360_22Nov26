@@ -129,20 +129,8 @@ def papasamya(positions, reference, exempt=()):
 
 
 def validate(rules,read,require):
-    inventory=read('governance/source-gaps.yaml')
-    observed=Counter()
-    for rule in rules.values():
-        area=rule['system']
-        if area=='vedic':
-            area='vedic-timing' if rule['topic'].split('/')[0] in ('transits','dashas') else 'vedic-other'
-        for source in rule['sources']:
-            observed[area,source['verification']]+=1
-    for area,row in inventory['areas'].items():
-        require(row['pending']==observed[area,'pending'] and row['chapter_only']==observed[area,'chapter-only'],
-                area+' source inventory')
-    require(set(inventory['areas'])=={key[0] for key in observed},'source area coverage')
-    for key in ('pending','chapter_only'):
-        require(inventory['totals'][key]==sum(v[key] for v in inventory['areas'].values()),'source total')
+    from source_audit import validate as validate_sources
+    validate_sources(read('governance/source-gaps.yaml')['counts_by_verification'])
     yogas=read('vedic/dashas/chara/periods.yaml')
     j=read('examples/jaimini-j2.yaml')
     left=j['cycle_one']; right=j['cycle_two']

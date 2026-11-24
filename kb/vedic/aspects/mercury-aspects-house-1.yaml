@@ -26,14 +26,17 @@ traditions_differ:
   note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
     convention.
 sources:
-- book: Brihat Jataka
-  work_id: brihat-jataka
-  edition: brihat-jataka-iyer-brihatjataka00varaiala
-  chapter: null
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: ch.26 planetary aspects (Santhanam numbering)
   verse: null
-  other_locator: II.13 full aspects; XIV paired planets
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Seventh-house aspect rule; interpretation is editorial. Brihat Jataka ch.2 is an alternative.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial
   application. Native Kannada and Hindi review pending.

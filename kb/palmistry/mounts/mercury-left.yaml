@@ -38,14 +38,17 @@ sources:
   other_locator: mounts-mercury
   supports: Original optional reflection; tone is editorial.
   verification: editorial-no-classical-claim
-- book: Palmistry for All
+- book: Palmistry for All (Cheiro)
   work_id: cheiro-palmistry
   edition: cheiro-pg20480
-  chapter: Part II
+  chapter: Part II (KB section heading to confirm)
   verse: null
-  other_locator: Different Classes of Lines and Right and Left Hands; The Mounts of the Hand
-  supports: Cheiro’s feature vocabulary and historical comparison of hands.
-  verification: pending
+  other_locator: null
+  supports: Cite for the feature meaning; left/right reflections are editorial. Language of the Hand is the alternative source.
+  verification: locator_medium
+  tag: MODERN/POPULAR
+  translator_edition: 'Project Gutenberg #20480 (KB edition cheiro-pg20480)'
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 - book: The Laws of Scientific Hand Reading
   work_id: benham-hand
   edition: benham-hand-web

@@ -91,3 +91,10 @@ class_names:
   sharp: Tikshna
 source_locator: Muhurta Chintamani, chapter 1, star classes (edition pending). Abhijit is Kshipra in the optional muhurta count.
 additional_muhurta_stars: {abhijit: swift}
+abhijit_span:
+  tag: CLASSICAL
+  locator: Muhurta Chintamani, nakshatra classification section (edition pending).
+  frame: sidereal
+  start_arcseconds_inclusive: 996000
+  end_arcseconds_exclusive: 1011200
+  usage: The optional election overlay replaces the ordinary star class inside this interval. Tara, Panchaka and daily counts retain their ordinary star indices.

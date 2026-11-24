@@ -1,14 +1,17 @@
 approval: draft
 tag: CLASSICAL
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
+- book: Brihat Samhita (Varahamihira)
+  work_id: brihat-samhita
   edition: null
-  chapter: null
+  chapter: ch.98 nakshatra classes and deities
   verse: null
-  other_locator: Divisional dignity and planetary states chapters
-  supports: Traditional calculation or classification. Reflective wording is editorial.
-  verification: pending
+  other_locator: null
+  supports: Replaces the generic BPHS block; reuse the Brihat Samhita source already verified elsewhere in the KB.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: M. Ramakrishna Bhat tr., Motilal Banarsidass
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 steps:
 - Read Moon or stable Lagna star.
 - Use its exact quarter row to bind navamsha reflection.

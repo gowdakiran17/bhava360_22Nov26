@@ -49,12 +49,15 @@ traditions_differ:
 sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
-  edition: bphs-80
-  chapter: 3
-  verse: '54'
-  other_locator: tithyamsha
-  supports: Owner-selected fifteen-degree Venus range; edition correspondence awaits inspection.
-  verification: pending
+  edition: null
+  chapter: ch.3 planetary nature, exaltation/moolatrikona ranges (Santhanam numbering)
+  verse: null
+  other_locator: null
+  supports: Venus moolatrikona range in Libra. The KB locator "3.54 tithyamsha" does not look right; confirm the verse.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 - book: Brihat Jataka
   work_id: brihat-jataka
   edition: brihat-jataka-iyer-brihatjataka00varaiala

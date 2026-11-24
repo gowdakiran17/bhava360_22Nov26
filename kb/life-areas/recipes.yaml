@@ -320,40 +320,56 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: ch.11 judgement of houses; ch.34 functional lords (Santhanam numbering)
   verse: null
-  other_locator: Bhava results, chapter 11
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
+  edition: phaladeepika-sastri-1950
+  chapter: ch.1 definitions; ch.15 bhava judgement; ch.19-20 dashas
   verse: null
-  other_locator: Chapters 1 and 15
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 - book: Saravali
   work_id: saravali
   edition: null
-  chapter: null
+  chapter: house-results chapters (number to verify)
   verse: null
-  other_locator: Bhava results
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
-- book: Jataka Parijata
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications
+  to_verify: true
+- book: Jataka Parijata (Vaidyanatha Dikshita)
   work_id: jataka-parijata
   edition: null
-  chapter: null
+  chapter: house-results chapters (number to verify)
   verse: null
-  other_locator: Bhava results
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
-- book: K.N. Rao double-transit method (edition pending)
-  work_id: kn-rao-double-transit
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr.
+  to_verify: true
+- book: Timing Events through Vimshottari Dasha (K.N. Rao)
+  work_id: rao-timing-events
   edition: null
   chapter: null
   verse: null
-  other_locator: Timing by Jupiter and Saturn
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Double-transit timing; confirm the title.
   verification: pending
+  tag: MODERN/POPULAR
+  translator_edition: null
+  edition_to_verify: true
+  to_verify: true

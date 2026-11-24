@@ -211,6 +211,7 @@
 20t00
 20t15
 20t19
+20th
 2118f989b14b0be15bcb48977dea72e26f9a628d9a97704665d272091559670a
 219a7da91e7464b2ee006ea1b000ec27e3651a28995337becf4000d4783dc4c0
 21b7619e9ffdb4481c4711f7ce97fb8d2aef6dc395836b06dafacd41a089372d
@@ -222,6 +223,7 @@
 21t17
 21t22
 228727825df18ca63a2e6afb1b9614a69825c25ab560bfd1e765ccd7d94e2b58
+22nov26
 22t00
 22t21
 237b12f83831cb49ad9358b6b0a38820ed1df0dd5de9bc6b415d6db728c2914e
@@ -316,6 +318,7 @@
 31t10
 320605a00fd108d0fde32387175e5059d4def25ae0efa7c5918c5931096dbe75
 3222906df9734407ec5a263229bbec5c9eb53d8c9c2dc9ef64a2788c6a41c060
+3223a6154a0491db2977583ceb77ff9161762f63
 324d71fa46b4addfb093454b1b85769615cbdfbbe879d0c2571f3516141d26bb
 33000e208715a93f83ce30cca7e5cbdcd968ba02b360600f814220f8ee69d8e6
 33269bf59b251c18d12a339956e0e28a8ba26e60c59a7448eb126b87ec4cd926
@@ -739,6 +742,7 @@ absence
 absent
 absolute
 absorbing
+abu
 ac0ea24b6dd6bdda155b1d314dc88f6f5ed012ec5669446abefb37ab23a8ac68
 ac14494fd1f8e70ec2a20766f4b140743a453f5a02120449b4f2a281538d37b6
 ac159731794dd91037fee18fbe17cdeb1c2131f119d756dbcc06f3290a111d03
@@ -1077,6 +1081,7 @@ aquarius
 aquatic
 arc
 arcana
+archive
 archway
 arcminute
 arcminutes
@@ -1116,17 +1121,21 @@ arrows
 art
 artefacts
 arthur
+article
 articles
+artifacts
 artificial
 artwork
 arudha
 arudhas
+arun
 arvind
 aryaman
 as
 asa
 asc
 ascendant
+ascendants
 ascending
 ascii
 ascmc
@@ -1227,6 +1236,7 @@ attractiveness
 attributed
 attributes
 attribution
+attributions
 au
 audience
 audit
@@ -1272,6 +1282,7 @@ ayanam
 ayanamsa
 ayanamsha
 ayu
+ayurdaya
 ayushman
 azalt
 b
@@ -1326,15 +1337,18 @@ balanced
 balancing
 balas
 balava
+banarsidass
 band
 bandhu
 bands
 banned
+bans
 bare
 baryctr
 base
 based
 baseline
+bases
 basic
 basis
 basket
@@ -1401,6 +1415,7 @@ beside
 besides
 best
 better
+betting
 between
 beyond
 bf0c3b34eb26e23e4da131e5d68c857fe541c5b8fc1acfb78faeef1ebce8ac29
@@ -1425,6 +1440,7 @@ bhanga
 bhanu
 bharani
 bharati
+bhat
 bhava
 bhava360
 bhavadhipati
@@ -1454,6 +1470,7 @@ bhuushhana
 bhuvan
 bhuvana
 bias
+bibliographic
 big
 bil
 bills
@@ -1582,6 +1599,7 @@ by
 bypass
 byte
 bytes
+bytesio
 c
 c00f0ea51ed2ad3a12af6ad4f83c4e469b1a022004c278e4f810a7420d2464f6
 c09ceaabd4ef3ace42edb4d90afed9fb7a87581cfc8089d7d70bc163521fb7f0
@@ -1749,6 +1767,7 @@ central
 centre
 centred
 centuries
+century
 ceremonial
 ceremonies
 ceremony
@@ -1881,10 +1900,13 @@ citation
 citations
 cite
 cited
+cites
 cities
+citing
 city
 civil
 claim
+claimed
 claims
 clamp
 clamps
@@ -2239,6 +2261,7 @@ crossing
 crossings
 crosswalk
 crosswalks
+crypto
 cryptographic
 crystals
 csafeloader
@@ -2282,6 +2305,7 @@ cutoff
 cutoffs
 cuts
 cutting
+cwd
 cx
 cy
 cycle
@@ -2349,6 +2373,7 @@ dabur
 daily
 dainya
 dairy
+daivajna
 dakshata
 dakshataa
 dala
@@ -2461,6 +2486,7 @@ deferred
 deficiencies
 deficient
 defined
+defines
 defining
 definite
 definition
@@ -2482,6 +2508,7 @@ delhi
 deliberate
 deliberately
 delimited
+delineations
 delivery
 delta
 deltat
@@ -2612,6 +2639,7 @@ dignities
 dignity
 digraphs
 diipaka
+dikshita
 dina
 dipa
 dipavali
@@ -2687,6 +2715,7 @@ divide
 divided
 divides
 dividing
+divinatory
 divine
 division
 divisional
@@ -2790,6 +2819,7 @@ dwelling
 dwi
 dwisatpathi
 dying
+dykes
 e
 e09a4e8f2b3542b6bb6100436f9e452be8227617e6adbfa0f81a73dd2e7216e5
 e0b5c2634396a1070462f06be01ee9ab27e68d5987a3f7d7d9e0a800ff8d0781
@@ -2868,6 +2898,7 @@ edd18471947f38f6c032c6beeaa3bdf138f19f27e61a2cb5f1bc8cdbf4597524
 edd823dd26e1a9bfc428f41ea1b0817e824fc0ef5bdeb3228467d133fc8beba5
 edge
 edges
+edited
 edition
 editions
 editor
@@ -2952,6 +2983,7 @@ enclosure
 encode
 encouragement
 end
+ended
 endian
 ending
 endings
@@ -3154,6 +3186,7 @@ extent
 extra
 extract
 extracted
+extractfile
 extrapolate
 extrapolation
 extrema
@@ -3276,6 +3309,7 @@ fifth
 figure
 file
 filename
+fileobj
 files
 fill
 filled
@@ -3368,6 +3402,7 @@ form
 format
 formation
 formations
+formatted
 formatting
 formed
 former
@@ -3563,9 +3598,11 @@ gov
 govern
 governance
 governing
+government
 governs
 govind
 govinda
+gowdakiran17
 gpy
 graceful
 grade
@@ -3694,6 +3731,7 @@ helctr
 held
 heliacal
 heliocentric
+hellenistic
 help
 helped
 helpers
@@ -3763,6 +3801,7 @@ hospitality
 host
 hosted
 hostile
+hostility
 hosts
 hour
 hourlord
@@ -3966,6 +4005,7 @@ initial
 initially
 initiative
 injects
+injury
 inline
 inner
 input
@@ -4193,6 +4233,7 @@ jyeshtha
 jyoti
 jyotih
 jyotish
+jyotisha
 jyotsna
 k
 k2
@@ -4284,6 +4325,7 @@ kendra
 kendradhipati
 kendradi
 kendras
+keplerian
 kept
 kerala
 kesari
@@ -4485,6 +4527,7 @@ lecture
 left
 legacy
 legal
+legend
 legitimately
 lekha
 len
@@ -4531,6 +4574,7 @@ lighting
 lightly
 lightning
 like
+likelier
 likes
 lilly
 limb
@@ -4581,6 +4625,7 @@ locate
 location
 locator
 locators
+loeb
 log
 logging
 logic
@@ -4614,6 +4659,7 @@ loss
 lost
 lot
 lots
+lottery
 lotus
 love
 lovely
@@ -4678,6 +4724,7 @@ madhur
 madhura
 madhya
 madhyas
+madras
 magha
 magician
 magnetic
@@ -4687,6 +4734,8 @@ mahabhagya
 mahabharata
 mahadasha
 mahadev
+mahajan
+mahal
 maharashtrian
 maharishi
 mahendra
@@ -4752,6 +4801,7 @@ manual
 manuals
 manufacture
 manuscript
+manuscripts
 manushya
 many
 map
@@ -4829,6 +4879,7 @@ measures
 medha
 medhaa
 medical
+medieval
 meditation
 medium
 meena
@@ -4855,6 +4906,7 @@ merit
 mesha
 message
 messages
+meta
 metadata
 method
 methodology
@@ -4890,9 +4942,12 @@ mirror
 mirrors
 mis
 misc
+miscarriage
+miscellaneous
 misfortune
 mishra
 mismatch
+mismatched
 misplaced
 miss
 missed
@@ -4905,6 +4960,7 @@ mitigation
 mitra
 miu
 mixed
+mixes
 mixing
 mk
 ml
@@ -4960,6 +5016,7 @@ moshier
 most
 mother
 motherdairy
+motilal
 motion
 motional
 motions
@@ -5139,6 +5196,7 @@ needs
 neel
 neela
 neelakanta
+neelakantha
 neelakanthi
 neeraj
 neeraja
@@ -5191,6 +5249,7 @@ nine
 ninety
 ninth
 nipun
+nipuna
 nipuunah
 nirmal
 nirmala
@@ -5247,6 +5306,7 @@ not
 notation
 note
 notes
+nothing
 notice
 notices
 noticing
@@ -5287,6 +5347,7 @@ o
 obj
 object
 objection
+objects
 obligation
 obligations
 obliquity
@@ -5398,6 +5459,7 @@ ordinary
 org
 organisation
 organizing
+oriental
 orientation
 orientations
 oriented
@@ -5700,6 +5762,7 @@ planning
 plans
 plant
 planted
+plausible
 play
 playful
 please
@@ -5856,6 +5919,7 @@ prevents
 preview
 previews
 previous
+previously
 price
 pricing
 priestess
@@ -5960,11 +6024,13 @@ proximal
 proximity
 proxy
 pt
+ptolemaic
 ptolemy
 pu
 pub
 public
 publication
+publications
 publish
 published
 publisher
@@ -6002,6 +6068,7 @@ pushkara
 pushpa
 pushpita
 pushya
+pustak
 put
 putra
 putrakaraka
@@ -6092,6 +6159,7 @@ quieter
 quietly
 quincunx
 quiver
+quoted
 quotient
 r
 r2
@@ -6128,11 +6196,13 @@ rakshasa
 rakshit
 rakshitah
 rama
+ramakrishna
 raman
 randhra
 random
 range
 ranges
+ranjan
 rank
 ranked
 ranking
@@ -6180,6 +6250,7 @@ reads
 ready
 real
 realistic
+reapply
 rear
 reason
 reasonably
@@ -6264,6 +6335,7 @@ referral
 referrals
 refers
 refine
+refined
 refining
 reflect
 reflecting
@@ -6367,6 +6439,7 @@ replaced
 replacement
 replaces
 replay
+repo
 report
 reported
 reporting
@@ -6449,6 +6522,7 @@ retaining
 retains
 retention
 retentive
+retire
 retired
 retrace
 retreat
@@ -6489,6 +6563,7 @@ revision
 revisit
 revisiting
 revolution
+revolutions
 reward
 rewarding
 rework
@@ -6665,6 +6740,7 @@ sap
 sapphires
 saptami
 saptamsa
+saptarishi
 saptavarga
 saptavargaja
 sara
@@ -6686,6 +6762,7 @@ sat
 sataatbika
 sati
 satisfaction
+satisfies
 satisfy
 satisfying
 saturday
@@ -6706,6 +6783,7 @@ saving
 savings
 savitar
 savya
+saxena
 say
 saying
 scalar
@@ -6865,18 +6943,21 @@ shanti
 shape
 shaped
 shapes
+shar
 shara
 sharad
 share
 shared
 shares
 sharing
+sharma
 sharp
 shasha
 shashi
 shashthi
 shashtiamsa
 shashtiamsas
+shashtiamsha
 shashtyamsa
 shastihayani
 shastra
@@ -7107,6 +7188,7 @@ specification
 specified
 specifies
 specs
+speculation
 speculative
 speech
 speed
@@ -7183,6 +7265,7 @@ station
 stationary
 stations
 status
+statuses
 stay
 staying
 stays
@@ -7251,6 +7334,7 @@ subject
 subjects
 submitted
 subperiod
+subprocess
 subrahmanya
 subs
 subsequent
@@ -7291,6 +7375,7 @@ suggestion
 suggestions
 suggests
 sugriva
+suicidal
 suicide
 suit
 suitability
@@ -7322,6 +7407,7 @@ supersede
 superseded
 supersedes
 supplement
+supplementary
 supplements
 supplied
 supplies
@@ -7336,6 +7422,7 @@ suppress
 suppressed
 suppresses
 sur
+sure
 surface
 surname
 surroundings
@@ -7380,6 +7467,7 @@ swiss
 swisseph
 switch
 switches
+switching
 swords
 syllable
 syllables
@@ -7444,6 +7532,7 @@ tanu
 tar
 tara
 tarabala
+tarfile
 target
 targeted
 targets
@@ -7495,6 +7584,7 @@ tenth
 tenure
 term
 terminal
+termination
 terminology
 terms
 terrible
@@ -7637,6 +7727,7 @@ trajectory
 tranquil
 trans
 transaction
+transcribe
 transcribed
 transcript
 transcription
@@ -7833,6 +7924,7 @@ unfinished
 unfold
 unfolding
 unfolds
+unheld
 unhelpful
 unhurried
 unicode
@@ -7856,6 +7948,7 @@ unknowns
 unless
 unlisted
 unlucky
+unmapped
 unmatched
 unmixed
 unmodified
@@ -7907,6 +8000,7 @@ unwrapped
 up
 upachaya
 upadesa
+upagraha
 upagrahas
 upaketu
 upapada
@@ -7965,6 +8059,7 @@ vaapi
 vaayu
 vahini
 vaidhriti
+vaidyanatha
 vaishakha
 vaishnava
 vajra
@@ -7986,6 +8081,7 @@ vansh
 vanshakshya
 vapi
 vara
+varahamihira
 vardhan
 vardhana
 varga
@@ -8113,6 +8209,7 @@ viveka
 vo
 vocabulary
 voice
+vols
 voltas
 volume
 volunteered
@@ -8289,6 +8386,7 @@ wraparound
 wrapping
 wrist
 write
+writes
 writing
 written
 wrong
@@ -8320,6 +8418,7 @@ yasas
 yash
 yasha
 yates
+yatra
 yava
 ye
 year
@@ -10580,6 +10679,7 @@ zones
 ಇಂದ್ರಿಯಗಳ
 ಇಚ್ಛೆಗೆ
 ಇಚ್ಛೆಯಿದ್ದರೆ
+ಇಟ್ಟು
 ಇಟ್ಟುಕೊಳ್ಳಬಹುದು
 ಇಡದೆ
 ಇಡಬಹುದು

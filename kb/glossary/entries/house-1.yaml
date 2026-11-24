@@ -19,6 +19,7 @@ reference_rules:
 - vedic.houses.house-1
 used_by:
 - jaimini.arudha-padas.arudha-lagna
+- lal-kitab.fixed-houses.house-reference
 - lal-kitab.placements.house-1
 - lal-kitab.placements.jupiter-house-1
 - lal-kitab.placements.ketu-house-1

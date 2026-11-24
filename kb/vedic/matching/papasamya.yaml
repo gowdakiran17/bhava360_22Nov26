@@ -29,14 +29,18 @@ traditions_differ:
   note: Compare each reference independently after reliefs. Lagna-only is a labelled alternative. Do not add repeated
     testimonies from different origins.
 sources:
-- book: Muhurtha (Electional Astrology)
+- book: Muhurtha (Electional Astrology) (B.V. Raman)
   work_id: raman-muhurtha
-  edition: raman-muhurtha
-  chapter: Marriage
+  edition: null
+  chapter: Marriage chapter
   verse: null
-  other_locator: Marriage, introductory discussion and Kuja Dosha
-  supports: Regional parity comparison, pending edition review; equal weights are Bhava360 editorial policy.
-  verification: pending
+  other_locator: null
+  supports: Papasamya is a regional South Indian practice that Raman records; equal weights are a Bhava360 choice.
+  verification: locator_medium
+  tag: MODERN/POPULAR
+  translator_edition: null
+  edition_to_verify: true
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: POPULAR; equal unit weighting is editorial. Other schools use unequal planet weights and additional
   reference points.

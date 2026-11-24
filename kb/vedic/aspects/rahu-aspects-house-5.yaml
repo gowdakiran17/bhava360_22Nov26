@@ -27,14 +27,15 @@ traditions_differ:
   note: Use the bound reference and the convention specified in this rule. Other methods require a separately selected
     convention.
 sources:
-- book: Brihat Jataka
-  work_id: brihat-jataka
-  edition: brihat-jataka-iyer-brihatjataka00varaiala
+- book: null
+  work_id: null
+  edition: null
   chapter: null
   verse: null
-  other_locator: II.13 full aspects; XIV paired planets
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 confidence: medium
 review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial
   application. Native Kannada and Hindi review pending.

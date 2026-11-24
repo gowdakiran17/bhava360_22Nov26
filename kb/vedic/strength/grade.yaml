@@ -56,22 +56,54 @@ traditions_differ:
 - The earlier consultation-method section 8.1 composite includes Shadbala. It is a non-default variant; no Shadbala
   quantity feeds this grade.
 sources:
-- work_id: uttara-kalamrita
-  edition: uttara-kalamrita-strength
-  locator: Chapter 2 verse 6 on dignity and retrogression
-  verification: pending
-- work_id: bphs
+- book: Uttara Kalamrita (Kalidasa)
+  work_id: uttara-kalamrita
   edition: null
-  locator: Dignity and Shadbala chapters
-  verification: pending
-- work_id: saravali
+  chapter: ch.2
+  verse: null
+  other_locator: null
+  supports: KB cites v.6, unconfirmed, so verse is null.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: P.S. Sastri tr., Ranjan (confirm)
+  locator: ch.2
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
   edition: null
-  locator: Planetary strength discussion (exact passage pending)
+  chapter: ch.3 dignities; ch.27 Shadbala (Santhanam numbering)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator: ch.3 dignities; ch.27 Shadbala (Santhanam numbering)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Saravali
+  work_id: saravali
+  edition: null
+  chapter: planetary strength chapter (number to verify)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
   verification: pending
-- work_id: phaladeepika
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications
+  locator: planetary strength chapter (number to verify)
+  to_verify: true
+- book: Phaladeepika
+  work_id: phaladeepika
   edition: phaladeepika-sastri-1950
-  locator: Ch.7 cancellation and avastha discussion (locator pending)
-  verification: pending
+  chapter: ch.4 strength; ch.7 neecha-bhanga
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator: ch.4 strength; ch.7 neecha-bhanga
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 birth_time_availability: shared/confidence/output-matrix.yaml
 moon_paksha:
   input: elongation_degrees

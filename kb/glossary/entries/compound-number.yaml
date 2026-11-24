@@ -15,6 +15,7 @@ admin_note: Use this label for the total before repeated addition reduces it to 
   for the applicable conditions and differences between methods.
 aliases:
 - compounds
+- compound numbers
 reference_rules: []
 used_by:
 - numerology.chaldean.compound-10

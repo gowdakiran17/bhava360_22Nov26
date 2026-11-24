@@ -29,27 +29,37 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: dasha-phala chapters (Santhanam ~ch.47-48; numbering varies)
   verse: null
-  other_locator: Yoga and dasha results
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Results of a yoga in the periods of the forming planets; find the exact passage.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  to_verify: true
 - book: Laghu Parashari (Jataka Chandrika)
   work_id: laghu-parashari
   edition: null
-  chapter: null
+  chapter: raja-yoga and dasha chapters (ch.2 onward; numbering varies by edition)
   verse: null
-  other_locator: Periods of planets connected by lordship
-  supports: Named formation or convention; wording and display policy are editorial.
+  other_locator: null
+  supports: Periods of related lords giving yoga results.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: null
+  edition_to_verify: true
+  to_verify: true
 - book: Phaladeepika
   work_id: phaladeepika
-  edition: null
-  chapter: null
+  edition: phaladeepika-sastri-1950
+  chapter: ch.7 (raja yogas)
   verse: null
-  other_locator: Chapter 7
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 members:
 - vedic.yogas.adhi
 - vedic.yogas.amala

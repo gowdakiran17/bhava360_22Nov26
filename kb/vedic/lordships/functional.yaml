@@ -16,18 +16,43 @@ traditions_differ: Generic ownership and dispositor-only node readings remain al
   to the individual classical Lagna lists.
 maraka_policy: Staff metadata only. Excluded from tone, public copy and longevity assessment.
 sources:
-- work_id: bphs
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
   edition: null
-  locator: Chapter 34 Yogakarakas by rising sign
-  verification: pending
-- work_id: laghu-parashari
+  chapter: ch.34 yogakarakas by Lagna (Santhanam numbering)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator: ch.34 yogakarakas by Lagna (Santhanam numbering)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Laghu Parashari (Jataka Chandrika)
+  work_id: laghu-parashari
   edition: null
-  locator: Chapter 2 lordship and luminary exemptions
-  verification: pending
-- work_id: phaladeepika
+  chapter: 'ch.1 samjna: functional lordship rules (numbering varies)'
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: null
+  edition_to_verify: true
+  locator: 'ch.1 samjna: functional lordship rules (numbering varies)'
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Phaladeepika
+  work_id: phaladeepika
   edition: phaladeepika-sastri-1950
-  locator: Functional lordship discussion (exact passage pending)
+  chapter: functional lordship passage (chapter to verify)
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  locator: functional lordship passage (chapter to verify)
+  to_verify: true
 cells:
   aries:
     sun:

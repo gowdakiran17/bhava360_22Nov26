@@ -1,5 +1,7 @@
 # Batch 7 rule citation audit
 
+Historical snapshot. The current all-depth audit is recorded in source-gaps.yaml and checked by validation/source_audit.py.
+
 Counts refer to individual source blocks in addressable reading rules. Existing verified locators retain their original review status. A product attribution qualifies as editorial only when its own support statement limits it to original wording. Historical and calculation claims still require edition evidence.
 
 | Review group | Citation status | Count |

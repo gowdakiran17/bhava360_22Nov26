@@ -5,10 +5,18 @@ sources:
   locator: jhora/const.py amrita_gadiya_varjyam_star_map; sarvartha_siddha_yoga; amrita_siddha_yoga_dict; disha_shool_map;
     jhora/panchanga/drik.py durmuhurtam
   verification: verified
-- work_id: muhurta-chintamani
+- book: Muhurta Chintamani (Daivajna Rama)
+  work_id: muhurta-chintamani
   edition: muhurta-chintamani-miu
-  locator: Shubhashubha prakarana; regional combinations
-  verification: pending
+  chapter: Shubhashubha prakarana
+  verse: null
+  other_locator: null
+  supports: Named calculation or classification.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: KB edition muhurta-chintamani-miu
+  locator: Shubhashubha prakarana
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 tag: CLASSICAL / POPULAR
 sarvartha:
   sunday:

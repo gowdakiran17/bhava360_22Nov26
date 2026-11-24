@@ -68,15 +68,17 @@ sources:
   other_locator: Named yoga or graha combination
   supports: Sun and Mercury in one sign; the later name is used as a catalogue label.
   verification: verified
-- work_id: phaladeepika
-  book: Phaladeepika
+- book: Phaladeepika
+  work_id: phaladeepika
   edition: phaladeepika-sastri-1950
-  chapter: 6
+  chapter: ch.6 (yogas)
   verse: null
-  other_locator: Chapter 6
-  supports: Interpret planetary capacity before projecting a formation. Three-degree deep combustion is an editorial
-    threshold.
+  other_locator: null
+  supports: Confirm Sun–Mercury (Nipuna/Budhaditya) is named here; the combustion qualifier is a Bhava360 rule.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)
+  to_verify: true
 confidence: medium
 review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
   and Hindi await native review.

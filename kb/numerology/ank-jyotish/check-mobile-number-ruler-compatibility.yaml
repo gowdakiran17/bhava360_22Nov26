@@ -20,14 +20,15 @@ strength_notes: []
 exceptions: []
 traditions_differ: []
 sources:
-- work_id: bhava360-engine-and-reading-conventions
-  book: Bhava360 engine and reading conventions
-  edition: bhava360-engine-and-reading-conventions-v1
+- book: null
+  work_id: null
+  edition: null
   chapter: null
   verse: null
-  other_locator: numerology/ank-jyotish/check-mobile-number-ruler-compatibility.yaml
-  supports: Product stage binding and editorial reflection.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 confidence: medium
 review_notes: Review exact locator, convention and native copy before release. Resolve the candidate and birth roots against
   the directed compatibility table. Retain context pending resolution.

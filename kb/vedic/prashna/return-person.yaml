@@ -30,14 +30,17 @@ traditions_differ:
   note: 'This mapping follows the named question rather than casting a new natal chart. Context houses and practical
     actions are editorial. '
 sources:
-- book: Prasna Tantra
+- book: Prasna Tantra (Neelakantha)
   work_id: prasna-tantra
   edition: prasna-tantra-raman
-  chapter: null
+  chapter: 'bhava-wise queries: return of an absent person (chapter to verify)'
   verse: null
-  other_locator: Bhava Prasna; education and journey topics
+  other_locator: null
   supports: Traditional calculation or classification. Reflective wording is editorial.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: B.V. Raman tr.
+  to_verify: true
 confidence: medium
 review_notes: Draft. Practical reflections are editorial; Kannada and Hindi await native review.
 user_text:

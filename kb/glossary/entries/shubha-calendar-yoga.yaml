@@ -28,6 +28,8 @@ used_by:
 - vedic.muhurta.vehicle-purchase
 - vedic.panchang.yoga
 - vedic.yogas.activation
+- vedic.yogas.papa-kartari-lagna
+- vedic.yogas.papa-kartari-moon
 - vedic.yogas.shubha-kartari-lagna
 - vedic.yogas.shubha-kartari-moon
 systems:

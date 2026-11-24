@@ -38,14 +38,15 @@ sources:
   other_locator: hands-water
   supports: Original optional reflection; tone is editorial.
   verification: editorial-no-classical-claim
-- book: Palmistry for All
-  work_id: cheiro-palmistry
-  edition: cheiro-pg20480
-  chapter: Part II
+- book: null
+  work_id: null
+  edition: null
+  chapter: null
   verse: null
-  other_locator: Different Classes of Lines and Right and Left Hands; The Thumb and hand shapes
-  supports: Cheiro’s feature vocabulary and historical comparison of hands.
-  verification: pending
+  other_locator: null
+  supports: Bhava360 editorial convention.
+  verification: editorial
+  tag: EDITORIAL
 - book: The Laws of Scientific Hand Reading
   work_id: benham-hand
   edition: benham-hand-web

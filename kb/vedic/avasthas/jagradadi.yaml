@@ -4,11 +4,14 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: ch.45 avasthas (Santhanam numbering)
   verse: null
-  other_locator: Divisional dignity and planetary states chapters
+  other_locator: null
   supports: Traditional calculation or classification. Reflective wording is editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 visibility: study
 states:
   jagrat: own or exalted sign

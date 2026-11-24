@@ -37,6 +37,6 @@ best_time:
 tomorrow: One sentence if the tone changes or a fast ingress or station occurs. Otherwise omit.
 provenance: Classical Chandra, Tara and SAV inputs. Direction aggregation and activity ordering are MODERN/POPULAR editorial policy.
 sources:
-- {work_id: phaladeepika, edition: phaladeepika-sastri-1950, locator: Chapter 26 gochara, verification: pending}
-- {work_id: bphs, edition: null, locator: Santhanam chapter 66 Ashtakavarga, verification: pending}
-- {work_id: muhurta-chintamani, edition: null, locator: Tarabala and Chandrabala sections, verification: pending}
+- {book: Phaladeepika, work_id: phaladeepika, edition: phaladeepika-sastri-1950, chapter: ch.26 Gochara, verse: null, other_locator: null, supports: Named calculation or classification., verification: verified_locator, tag: CLASSICAL, translator_edition: 'V. Subrahmanya Sastri tr., 1950 (KB edition phaladeepika-sastri-1950)', locator: ch.26 Gochara}
+- {book: Brihat Parashara Hora Shastra, work_id: bphs, edition: null, chapter: ch.66 Ashtakavarga (Santhanam numbering), verse: null, other_locator: null, supports: Named calculation or classification., verification: locator_medium, tag: CLASSICAL, translator_edition: 'R. Santhanam tr., Ranjan Publications (2 vols)', locator: ch.66 Ashtakavarga (Santhanam numbering), locator_note: Chapter or section numbering follows the named source and may differ by edition.}
+- {book: Muhurta Chintamani (Daivajna Rama), work_id: muhurta-chintamani, edition: muhurta-chintamani-miu, chapter: 'Shubhashubha prakarana: Tarabala and Chandrabala', verse: null, other_locator: null, supports: Named calculation or classification., verification: locator_medium, tag: CLASSICAL, translator_edition: KB edition muhurta-chintamani-miu, locator: 'Shubhashubha prakarana: Tarabala and Chandrabala', locator_note: Chapter or section numbering follows the named source and may differ by edition.}

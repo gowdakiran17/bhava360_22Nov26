@@ -46,19 +46,26 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: ch.39 raja yogas (Santhanam numbering)
   verse: null
-  other_locator: Named yoga chapters, dharma-karmadhipati
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
-- book: Saravali
-  work_id: saravali
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
+- book: Laghu Parashari (Jataka Chandrika)
+  work_id: laghu-parashari
   edition: null
-  chapter: null
+  chapter: ch.2 yoga chapter
   verse: null
-  other_locator: Yoga chapters; edition locator pending
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  other_locator: null
+  supports: Replace the Saravali block; the 9th–10th lord rule is stated most directly in Laghu Parashari.
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: null
+  edition_to_verify: true
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
 user_text:

@@ -66,11 +66,13 @@ sources:
 - book: Brihat Jataka
   work_id: brihat-jataka
   edition: brihat-jataka-iyer-brihatjataka00varaiala
-  chapter: 17
+  chapter: ch.17 Moon in the signs
   verse: null
-  other_locator: Moon in Scorpio, planetary placement discussion
-  supports: Classical placement context. The practical reflection is an editorial interpretation.
-  verification: pending
+  other_locator: null
+  supports: The KB has one row per sign; verse left null.
+  verification: verified_locator
+  tag: CLASSICAL
+  translator_edition: N. Chidambaram Iyer tr. (KB edition brihat-jataka-iyer)
 confidence: medium
 review_notes: Natural relationship is read from graha to dispositor. Degree ranges qualify sign-level flags. Native-language
   review pending.

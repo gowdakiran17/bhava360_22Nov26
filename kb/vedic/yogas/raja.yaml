@@ -54,14 +54,18 @@ sources:
   other_locator: Named yoga or graha combination
   supports: Relations between angular and trinal lords; the KB selects conjunction and exchange.
   verification: verified
-- work_id: laghu-parashari
-  book: Laghu Parashari
+- book: Laghu Parashari (Jataka Chandrika)
+  work_id: laghu-parashari
   edition: null
-  chapter: 2
+  chapter: ch.2 yoga chapter (numbering varies)
   verse: null
-  other_locator: Chapter 2
+  other_locator: null
   supports: Single lord of a non-Lagna angle and trine; edition verification pending.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: null
+  edition_to_verify: true
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 confidence: medium
 review_notes: Draft whole-sign D1 interpretation. Recheck birth-time sensitivity for Lagna-based factors. Kannada
   and Hindi await native review.

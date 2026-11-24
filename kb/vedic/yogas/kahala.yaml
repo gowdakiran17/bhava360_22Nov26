@@ -50,19 +50,25 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: ch.36 other yogas (Santhanam numbering)
   verse: null
-  other_locator: Named yoga chapters, kahala
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
+  verification: locator_medium
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications (2 vols)
+  locator_note: Chapter or section numbering follows the named source and may differ by edition.
 - book: Saravali
   work_id: saravali
   edition: null
-  chapter: null
+  chapter: miscellaneous yoga chapter (chapter number to verify)
   verse: null
-  other_locator: Yoga chapters; edition locator pending
+  other_locator: null
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
+  tag: CLASSICAL
+  translator_edition: R. Santhanam tr., Ranjan Publications
+  to_verify: true
 - book: PyJHora yoga implementation
   work_id: pyjhora-yoga
   edition: pyjhora-yoga-506
