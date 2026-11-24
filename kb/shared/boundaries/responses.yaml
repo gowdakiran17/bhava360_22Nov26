@@ -18,10 +18,10 @@ messages:
     hi: कानूनी विकल्पों के लिए योग्य वकील से बात कर सकते हैं।
   money-verdict:
     en: You can review the practical risks with a qualified financial adviser.
-    kn: ಹಣಕಾಸಿನ ಅಪಾಯಗಳನ್ನು ಅರ್ಹ ಸಲಹೆಗಾರರೊಂದಿಗೆ ಪರಿಶೀಲಿಸಬಹುದು.
+    kn: ಹಣಕಾಸಿನ ಆಯ್ಕೆಗಳನ್ನು ಅರ್ಹ ಸಲಹೆಗಾರರೊಂದಿಗೆ ಪರಿಶೀಲಿಸಬಹುದು.
     hi: वित्तीय जोखिमों पर योग्य सलाहकार से बात कर सकते हैं।
   immediate-support:
     en: If you feel at risk of harming yourself, reach out to someone nearby and contact local emergency services now.
-    kn: ನಿಮಗೆ ಹಾನಿ ಮಾಡಿಕೊಳ್ಳುವ ಅಪಾಯವಿದ್ದರೆ ಈಗಲೇ ಹತ್ತಿರದವರ ನೆರವು ಪಡೆದು ಸ್ಥಳೀಯ ತುರ್ತು ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ.
-    hi: यदि आपको खुद को नुकसान पहुँचाने का खतरा है तो अभी किसी पास के व्यक्ति की मदद लें और स्थानीय आपात सेवा से संपर्क करें।
+    kn: ನೀವು ನಿಮಗೆ ಹಾನಿ ಮಾಡಿಕೊಳ್ಳಬಹುದು ಎಂದು ಅನಿಸಿದರೆ ಈಗಲೇ ಹತ್ತಿರದವರ ನೆರವು ಪಡೆದು ಸ್ಥಳೀಯ ತುರ್ತು ಸೇವೆಯನ್ನು ಸಂಪರ್ಕಿಸಿ.
+    hi: यदि आपको लगता है कि आप खुद को नुकसान पहुँचा सकते हैं तो अभी किसी पास के व्यक्ति की मदद लें और स्थानीय आपात सेवा से संपर्क करें।
 support_route: Self-harm signals bypass all reading engines. Show the reviewed local support directory for the user’s country.

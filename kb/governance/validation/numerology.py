@@ -321,13 +321,13 @@ def validate_numerology(rules,read,evaluate,require,root):
                 for i in case['indices']]
         result = calculate(tool,value,'chaldean',specs,labels,recipe=recipe,matched=rows)
         require(result['public']['localized_tone']==case['expected'],'independent evidence tone')
-    case = ref['kavya_rao']
+    case = ref['scenario_n1']
     for method in ('components','full-digit-sum'):
-        stages,hits = pythagorean_stages(date(1992,3,12),case['name'],specs['pythagorean'],method)
+        stages,hits = pythagorean_stages(date(1992,3,12),case['letter_input'],specs['pythagorean'],method)
         require(stages==case[method] and hits==[],method+' synthetic stages')
     dated = date_metrics(date.fromisoformat(case['synthetic_date']),date.fromisoformat(case['cycle_target']),[11,22,33])
     require(all(dated[key.replace('_','-')]==case['cycle_chains'][key][-1]
-                for key in ('personal_year','personal_month','personal_day')), 'Kavya calendar cycles')
+                for key in ('personal_year','personal_month','personal_day')), 'Scenario N1 calendar cycles')
     for raw,chain in [(29,[29,11]),(1999,[1999,28,10,1]),(11,[11])]:
         require(reduction(raw,[11,22,33])==chain,'master stage edge')
     edge = date(1999,11,29)

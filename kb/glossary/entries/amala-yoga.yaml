@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಅಮಲಯೋಗ
   usage: traditional term
 meaning:
-  en: A traditionally supportive planet occupies the tenth place from the chosen starting point.
-  kn: ಆರಂಭದ ಬಿಂದುವಿನಿಂದ ಹತ್ತನೇ ಸ್ಥಾನದಲ್ಲಿ ಬೆಂಬಲದ ಗ್ರಹ ಇರುವ ಜೋಡಣೆ.
-  hi: चुनी शुरुआत से दसवें स्थान में सहायक माना गया ग्रह।
+  en: A traditional pattern linking a supportive planet with work and responsibilities.
+  kn: ಪೂರಕ ಗ್ರಹವನ್ನು ಕೆಲಸ ಮತ್ತು ಜವಾಬ್ದಾರಿಗಳೊಂದಿಗೆ ಜೋಡಿಸುವ ಸಾಂಪ್ರದಾಯಿಕ ವಿನ್ಯಾಸ.
+  hi: सहायक ग्रह को काम और ज़िम्मेदारियों से जोड़ने वाला पारंपरिक मेल।
 admin_note: At least one graha classified as benefic under the selected profile occupies the tenth sign from the named
   reference.
 aliases:
@@ -21,3 +21,7 @@ used_by:
 - vedic.yogas.amala
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

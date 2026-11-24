@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಲಕ್ಷ್ಮೀಯೋಗ
   usage: traditional term
 meaning:
-  en: Venus and the ninth house’s ruler occupy traditionally strong places in the chart.
-  kn: ಶುಕ್ರ ಮತ್ತು ಒಂಬತ್ತನೇ ಮನೆಯ ಅಧಿಪತಿ ನಕ್ಷೆಯ ಬಲವಾದ ಸ್ಥಾನಗಳಲ್ಲಿ ಇರುವುದು.
-  hi: शुक्र और नवें घर के स्वामी का पत्री में बल वाली जगहों पर होना।
+  en: A pattern connecting Venus with the chart area of teachers and guiding values.
+  kn: ಶುಕ್ರನನ್ನು ಗುರುಗಳು ಮತ್ತು ಮೌಲ್ಯಗಳ ಕ್ಷೇತ್ರದೊಂದಿಗೆ ಜೋಡಿಸುವ ವಿನ್ಯಾಸ.
+  hi: शुक्र को शिक्षकों और मार्गदर्शक मूल्यों के क्षेत्र से जोड़ने वाला मेल।
 admin_note: Both Venus and the ninth lord occupy an own or exaltation sign in an angle or trine from Lagna. When Venus
   rules the ninth, evaluate its single placement.
 aliases:
@@ -22,3 +22,7 @@ used_by:
 - vedic.yogas.lakshmi
 systems:
 - vedic
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

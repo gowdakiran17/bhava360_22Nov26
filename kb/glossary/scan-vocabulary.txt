@@ -640,6 +640,7 @@ aa6dbee6734bd235a1b07cea9fba4f35e1b6ba6d3136a237a2a965dc1ba90464
 aa775ca46d50381ab43f9b3b11ea61322fa441dbfd5119b7ed5e1258e2332a16
 aashaa
 ab
+abcdef
 abcdefghijklmnopqrstuvwxyz
 abda
 abdomen
@@ -1212,6 +1213,7 @@ bhu
 bhujaga
 bias
 big
+bil
 bills
 bind
 binding
@@ -1294,6 +1296,7 @@ building
 buildings
 built
 bundle
+bundles
 burgess
 business
 but
@@ -1387,6 +1390,7 @@ caring
 carries
 carry
 cart
+casa
 case
 casefold
 cases
@@ -1428,6 +1432,7 @@ celebrations
 cell
 cells
 celtic
+cent
 center
 central
 centre
@@ -1456,6 +1461,7 @@ challenge
 challenges
 challenging
 chance
+chand
 chandal
 chandala
 chandra
@@ -1517,6 +1523,7 @@ chronological
 chronology
 chu
 chun
+ciento
 cintamani
 circle
 circular
@@ -1933,6 +1940,7 @@ da14daa1881866859923d64af9c1176d9633aeef5381afd80c9cc230b2ae471c
 da9232406c48e07bc68c536bc46738397d262be2d536f8caa07af43444967714
 daily
 dainya
+danger
 darakaraka
 dark
 dasa
@@ -2481,6 +2489,7 @@ equinox
 equivalence
 equivalent
 equivalents
+er
 errand
 error
 es
@@ -2489,6 +2498,7 @@ ese
 especially
 essays
 essentials
+est
 establish
 established
 establishes
@@ -2585,6 +2595,8 @@ explicitly
 explore
 exploring
 export
+expose
+exposes
 express
 expressed
 expresses
@@ -2635,6 +2647,7 @@ factors
 facts
 fadc7be91c21432532f5c92f6fc0bce14d50351336a4ddcc3da8a523eb688562
 fades
+faible
 fail
 failed
 failing
@@ -2655,6 +2668,7 @@ fascination
 fast
 fasting
 fatal
+fatalidad
 fate
 father
 favourable
@@ -3215,6 +3229,7 @@ influence
 influences
 information
 infrastructure
+ing
 ingestion
 ingress
 ingresses
@@ -3241,6 +3256,7 @@ inspect
 inspected
 inspection
 inspiration
+install
 installations
 instant
 instantaneous
@@ -3433,7 +3449,6 @@ kartika
 kashinatha
 kashta
 kaulava
-kavya
 kb
 kb10
 kb16
@@ -3658,6 +3673,7 @@ lmt
 lo
 load
 loader
+loads
 loc
 local
 locale
@@ -3712,6 +3728,7 @@ luminary
 luna
 lunar
 lunation
+ly
 m
 m105
 m107
@@ -3758,6 +3775,7 @@ main
 maintain
 maintained
 maintaining
+maison
 maitreya
 maitri
 major
@@ -3766,8 +3784,12 @@ makara
 make
 makes
 making
+mala
 malavya
+malchance
+maldici
 male
+malediction
 malefic
 malefics
 man
@@ -3829,6 +3851,7 @@ matrixes
 matter
 matters
 maturity
+maudit
 max
 maximal
 maximum
@@ -3949,6 +3972,7 @@ moonrise
 moons
 more
 morning
+mort
 moseph
 most
 motion
@@ -3970,6 +3994,7 @@ mrityu
 mt
 mu
 much
+muerte
 muhurat
 muhurta
 muhurtas
@@ -4057,6 +4082,7 @@ navamshas
 navel
 navigating
 navigation
+nd
 ne
 near
 nearby
@@ -4075,6 +4101,7 @@ neighbouring
 neighbours
 neither
 neptune
+ness
 nested
 net
 network
@@ -4142,6 +4169,7 @@ notification
 notifications
 noting
 nourishment
+nov
 now
 nu
 nukta
@@ -4274,6 +4302,8 @@ other
 others
 otherwise
 otp
+ous
+ously
 out
 outcome
 outcomes
@@ -4410,6 +4440,7 @@ peaks
 peas
 peer
 peetham
+peligro
 pending
 pentacles
 people
@@ -4418,6 +4449,8 @@ perceived
 percent
 percentage
 percentages
+perdicion
+perdition
 perfection
 period
 periods
@@ -4498,6 +4531,7 @@ planned
 planning
 plans
 plant
+planted
 play
 playful
 please
@@ -4511,11 +4545,14 @@ pointer
 pointers
 points
 polar
+policies
 policy
+pontos
 pooja
 poojas
 pop
 populated
+por
 portion
 portions
 porutham
@@ -4530,6 +4567,7 @@ possibilities
 possibility
 possible
 post
+pour
 power
 practical
 practice
@@ -4678,6 +4716,7 @@ puja
 pujas
 pulled
 punarvasu
+puntos
 purchas
 purchase
 purchases
@@ -4791,6 +4830,7 @@ raised
 raises
 raja
 rajju
+raka
 rakshasa
 raman
 randhra
@@ -4816,9 +4856,11 @@ ratnas
 ravi
 raw
 ray
+rd
 re
 reach
 reachability
+reachable
 reached
 reaches
 reaching
@@ -5094,6 +5136,8 @@ revisit
 revisiting
 reward
 rewarding
+rewrites
+rf
 rglob
 rh
 rhythm
@@ -5244,6 +5288,7 @@ scalar
 scale
 scaled
 scan
+scanner
 scans
 scattered
 scenario
@@ -5258,6 +5303,7 @@ schwa
 science
 scientific
 scope
+scoped
 scopes
 score
 scored
@@ -5352,6 +5398,7 @@ settings
 settle
 settled
 settling
+setup
 seven
 seventh
 several
@@ -5590,6 +5637,7 @@ sripati
 ss
 sse
 ssw
+st
 stability
 stable
 stacking
@@ -5704,6 +5752,7 @@ succession
 successive
 successor
 sudden
+suerte
 sufficient
 suffix
 suggest
@@ -5745,6 +5794,7 @@ supportive
 supports
 suppress
 suppresses
+sur
 surface
 surname
 survive
@@ -5988,6 +6038,7 @@ transcription
 transfer
 transferred
 transform
+transformation
 transiently
 transit
 transiting
@@ -6215,6 +6266,7 @@ use
 used
 useful
 user
+users
 uses
 using
 usual
@@ -6391,6 +6443,7 @@ ways
 weak
 weaker
 weakest
+weakly
 wealth
 web
 webresh
@@ -6608,6 +6661,7 @@ zones
 अफ़वाह
 अब
 अभिव्यक्ति
+अभिशाप
 अभी
 अभ्यास
 अमल
@@ -6641,6 +6695,7 @@ zones
 आज़माकर
 आज़माना
 आज़माने
+आठव
 आड़ी
 आता
 आती
@@ -6764,6 +6819,7 @@ zones
 क
 कंटक
 कई
+कटान
 कटे
 कठिन
 कठिनाई
@@ -6775,6 +6831,8 @@ zones
 कन्या
 कब
 कम
+कमज़ोर
+कमजोर
 कमरे
 कर
 करके
@@ -6860,6 +6918,7 @@ zones
 क्षेत्रीय
 ख
 खड़ी
+खतर
 खतरा
 खरी
 खरीद
@@ -6914,6 +6973,7 @@ zones
 गोचरों
 गोल
 गौर
+ग्यारहव
 ग्रह
 ग्रहों
 घ
@@ -6923,10 +6983,12 @@ zones
 घेरानुमा
 ङ
 च
+चंडाल
 चंद्र
 चंद्रमा
 चकाचौंध
 चक्र
+चण्डाल
 चने
 चन्द्राय
 चबूतरा
@@ -6936,6 +6998,8 @@ zones
 चल
 चलती
 चलना
+चांडाल
+चाण्डाल
 चाप
 चार
 चारों
@@ -6967,7 +7031,9 @@ zones
 चुनी
 चुने
 चौकोर
+चौथ
 छ
+छठ
 छाप
 छिपी
 छूट
@@ -7026,6 +7092,7 @@ zones
 जिनमें
 जिनसे
 जिन्हें
+जिम्मेदारी
 जिस
 जिसका
 जिसके
@@ -7102,6 +7169,7 @@ zones
 तिरछी
 तिल
 तीन
+तीसर
 तीसरी
 तुरंत
 तुलना
@@ -7129,6 +7197,7 @@ zones
 दर्ज
 दर्पण
 दशा
+दसव
 दस्तावेज़
 दायित्व
 दाल
@@ -7152,6 +7221,7 @@ zones
 दुर्घटना
 दुर्भाग्य
 दूर
+दूसर
 दूसरा
 दूसरी
 दूसरे
@@ -7255,6 +7325,7 @@ zones
 ने
 नेतृत्व
 नोट
+नौव
 प
 पंक्तियों
 पंचांग
@@ -7275,6 +7346,7 @@ zones
 पढ़ाई
 पता
 पत्थर
+पथ
 पद्धति
 पन्ने
 पर
@@ -7308,7 +7380,9 @@ zones
 पहलू
 पहले
 पहुँच
+पहुँचा
 पहुँचाने
+पाँचव
 पाएँगे
 पाठ
 पाठ्यक्रम
@@ -7318,6 +7392,7 @@ zones
 पास
 पिछला
 पिता
+पितृदोष
 पिरामिड
 पीछे
 पुनर्निर्माण
@@ -7402,6 +7477,7 @@ zones
 बताते
 बताने
 बदकिस्मत
+बदकिस्मती
 बदल
 बदलकर
 बदलता
@@ -7429,6 +7505,7 @@ zones
 बनाया
 बनी
 बर्तनों
+बल
 बहन
 बहनों
 बहलाने
@@ -7444,6 +7521,7 @@ zones
 बातों
 बाद
 बार
+बारहव
 बारी
 बारीकियाँ
 बारीकियों
@@ -7465,6 +7543,7 @@ zones
 बुधवार
 बुधाय
 बृहस्पतये
+बृहस्पति
 बेहतर
 बैठ
 बैठकर
@@ -7486,6 +7565,7 @@ zones
 भरी
 भरोसा
 भरोसेमंद
+भव
 भविष्य
 भाई
 भाग
@@ -7522,6 +7602,7 @@ zones
 मन
 मनन
 मना
+मरण
 मसले
 महत्त्व
 महत्व
@@ -7534,9 +7615,11 @@ zones
 माँगें
 माँगों
 मान
+माना
 मामले
 मामलों
 मायने
+मारक
 मार्गदर्शक
 मार्गदर्शन
 मास
@@ -7583,6 +7666,7 @@ zones
 यही
 या
 यात्रा
+यात्राएँ
 याद
 ये
 योगदान
@@ -7690,6 +7774,9 @@ zones
 वस्तु
 वह
 वहाँ
+वा
+वाँ
+वां
 वाणी
 वादा
 वापसी
@@ -7730,6 +7817,7 @@ zones
 वृश्चिक
 वृषभ
 वे
+वें
 वेतन
 वैकल्पिक
 वैसे
@@ -7751,14 +7839,17 @@ zones
 शब्द
 शब्दों
 शर्तें
+शर्तों
 शहर
 शहरों
 शांत
 शाप
+शापित
 शाम
 शामिल
 शारीरिक
 शिक्षक
+शिक्षा
 शीशा
 शुक्र
 शुक्रवार
@@ -7770,6 +7861,7 @@ zones
 शेष
 शैली
 श्राप
+श्रापित
 श्रेय
 ष
 स
@@ -7873,6 +7965,7 @@ zones
 साझेदार
 साझेदारी
 साढ़े
+सातव
 साती
 साथ
 साथी
@@ -8008,6 +8101,7 @@ zones
 ़
 ा
 ाे
+ाेें
 ि
 ी
 ु
@@ -8080,6 +8174,7 @@ zones
 ಅನಿಸಿಕೆ
 ಅನಿಸಿಕೆಯ
 ಅನಿಸಿಕೆಯನ್ನು
+ಅನಿಸಿದರೆ
 ಅನಿಸುತ್ತದೆ
 ಅನುಕೂಲಕ್ಕೆ
 ಅನುಕೂಲವಾಗಬಹುದು
@@ -8108,6 +8203,7 @@ zones
 ಅಭಿಪ್ರಾಯವನ್ನು
 ಅಭಿರುಚಿ
 ಅಭಿವ್ಯಕ್ತಿ
+ಅಭಿವ್ಯಕ್ತಿಯ
 ಅಭ್ಯಾಸ
 ಅಭ್ಯಾಸಕ್ಕೆ
 ಅಭ್ಯಾಸಗಳ
@@ -8225,6 +8321,7 @@ zones
 ಆರಂಭಿಸಿದ
 ಆರಂಭಿಸುವ
 ಆರಂಭಿಸುವುದು
+ಆರನೇ
 ಆರಾಮದಾಯಕವಾಗಲು
 ಆರಾಮದಾಯಕವಾಗಿಸುವುದು
 ಆರಿಸಬಹುದು
@@ -8380,6 +8477,7 @@ zones
 ಊಹೆಯನ್ನು
 ಋ
 ಎ
+ಎಂಟನೇ
 ಎಂದರೆ
 ಎಂದಿನ
 ಎಂದು
@@ -8412,8 +8510,10 @@ zones
 ಏನರ್ಥ
 ಏನು
 ಏನೆಂದು
+ಏಳನೇ
 ಐ
 ಐಚ್ಛಿಕ
+ಐದನೇ
 ಒ
 ಒಂದಕ್ಕಿಂತ
 ಒಂದಕ್ಕೊಂದು
@@ -8423,6 +8523,7 @@ zones
 ಒಂದೇ
 ಒಂದೊಂದಾಗಿ
 ಒಂದೊಂದೇ
+ಒಂಬತ್ತನೇ
 ಒಗ್ಗೂಡಿಸಿ
 ಒಟ್ಟಾಗಿ
 ಒಟ್ಟಾರೆ
@@ -8558,6 +8659,7 @@ zones
 ಕುಳಿತುಕೊಳ್ಳುವ
 ಕೂಟವನ್ನು
 ಕೃಷ್ಣಪಕ್ಷ
+ಕೆಟ್ಟ
 ಕೆಡವ
 ಕೆಲವು
 ಕೆಲಸ
@@ -8665,6 +8767,7 @@ zones
 ಗಮನವಿರಲಿ
 ಗಮನಿಕೆಯನ್ನು
 ಗಮನಿಸದ
+ಗಮನಿಸದೆ
 ಗಮನಿಸಬಹುದು
 ಗಮನಿಸಲು
 ಗಮನಿಸಿ
@@ -8675,6 +8778,7 @@ zones
 ಗಳಿಸಿದ
 ಗುಂಪಿನ
 ಗುಂಪು
+ಗುಣ
 ಗುಣಗಳ
 ಗುಣವನ್ನು
 ಗುರಿ
@@ -8721,6 +8825,7 @@ zones
 ಚಂದ್ರ
 ಚಂದ್ರಚಕ್ರದ
 ಚಂದ್ರನ
+ಚಂದ್ರಪಥದ
 ಚಂದ್ರಾಯ
 ಚಕ್ರ
 ಚಕ್ರದ
@@ -8739,7 +8844,9 @@ zones
 ಚರ್ಚಿಸುವುದು
 ಚಲನೆಯನ್ನು
 ಚಲನೆಯಿಂದ
+ಚಾಂಡಾಲ
 ಚಾಂದ್ರ
+ಚಾಣ್ಡಾಲ
 ಚಾಪದೊಳಗಿನ
 ಚಾಲನೆ
 ಚಿಂತನೆ
@@ -8921,12 +9028,15 @@ zones
 ದಿನಾಂಕಗಳು
 ದಿನಾಂಕದ
 ದೀಪ
+ದೀರ್ಘ
 ದೀರ್ಘಕಾಲ
 ದೀರ್ಘಕಾಲದ
 ದೀರ್ಘಾವಧಿ
 ದುಂಡಾದ
 ದುರಂತ
+ದುರದೃಷ್ಟ
 ದುರಾದೃಷ್ಟ
+ದುರ್ಬಲ
 ದೂರದ
 ದೃಢ
 ದೃಢತೆ
@@ -8973,6 +9083,7 @@ zones
 ನಷ್ಟ
 ನಾಮಕರಣ
 ನಾಯಕತ್ವ
+ನಾಲ್ಕನೇ
 ನಾಲ್ಕು
 ನಾಳೆಯೂ
 ನಿಖರ
@@ -9055,6 +9166,7 @@ zones
 ನೆನಪಿಸಿಕೊಳ್ಳುವುದು
 ನೆನಪು
 ನೆಮ್ಮದಿ
+ನೆಯ
 ನೆರವನ್ನು
 ನೆರವನ್ನೂ
 ನೆರವಾಗದ
@@ -9160,6 +9272,7 @@ zones
 ಪಾಲುದಾರಿಕೆ
 ಪಾಲುದಾರಿಕೆಯಲ್ಲಿ
 ಪಾಲ್ಗೊಳ್ಳಲು
+ಪಿತೃದೋಷ
 ಪಿರಮಿಡ
 ಪಿರಮಿಡ್
 ಪೀಠೋಪಕರಣಗಳನ್ನು
@@ -9202,6 +9315,7 @@ zones
 ಪ್ರಯತ್ನಿಸುವುದು
 ಪ್ರಯಾಣ
 ಪ್ರಯಾಣಕ್ಕೆ
+ಪ್ರಯಾಣಗಳು
 ಪ್ರಯಾಣದ
 ಪ್ರಯಾಣದಲ್ಲಿ
 ಪ್ರಯೋಗಶೀಲತೆ
@@ -9276,6 +9390,7 @@ zones
 ಬಯಸುವ
 ಬಯಸುವವರ
 ಬಯಸುವವರೊಂದಿಗೆ
+ಬರಬಹುದಾದ
 ಬರಬಹುದು
 ಬರವಣಿಗೆ
 ಬರವಣಿಗೆಯನ್ನು
@@ -9515,6 +9630,7 @@ zones
 ಮಾತೊಂದನ್ನು
 ಮಾತ್ರದ
 ಮಾದರಿ
+ಮಾರಕ
 ಮಾರ್ಗ
 ಮಾರ್ಗಗಳನ್ನು
 ಮಾರ್ಗದರ್ಶಕ
@@ -9569,6 +9685,7 @@ zones
 ಮುನ್ನಡೆಸುವ
 ಮೂಡಲು
 ಮೂಡಿಸುವ
+ಮೂರನೇ
 ಮೂರು
 ಮೂಲ
 ಮೂಲಕ
@@ -9635,6 +9752,7 @@ zones
 ರ
 ರಚಿಸುವ
 ರತ್ನ
+ರಲ್ಲಿ
 ರಾವ್
 ರಾಶಿ
 ರಾಶಿಗಳನ್ನು
@@ -9646,6 +9764,7 @@ zones
 ರಾಶಿಯು
 ರಾಹವೇ
 ರಾಹು
+ರಾಹುವಿನೊಂದಿಗೆ
 ರೀತಿಯ
 ರೀತಿಯಲ್ಲಿ
 ರೀತಿಯಿಂದ
@@ -9815,6 +9934,7 @@ zones
 ಶಕ್ತಿ
 ಶಕ್ತಿಗೆ
 ಶಕ್ತಿಯನ್ನು
+ಶತಾಂಶ
 ಶನಿ
 ಶನಿವಾರ
 ಶನೈಶ್ಚರಾಯ
@@ -9822,6 +9942,7 @@ zones
 ಶಾಂತವಾಗಿ
 ಶಾಂತವಾದ
 ಶಾಪ
+ಶಾಪಗ್ರಸ್ತ
 ಶಿಕ್ಷಕರಿಂದ
 ಶಿಕ್ಷಕರೊಂದಿಗೆ
 ಶುಕ್ರ
@@ -9829,8 +9950,10 @@ zones
 ಶುಕ್ರಾಯ
 ಶೇಕಡಾ
 ಶೈಲಿ
+ಶೈಲಿಯನ್ನು
 ಶೈಲಿಯಲ್ಲಿ
 ಶ್ರಮವನ್ನು
+ಶ್ರಾಪಿತ
 ಷ
 ಷರತ್ತುಗಳನ್ನು
 ಸ
@@ -9870,6 +9993,8 @@ zones
 ಸಂದೇಶ
 ಸಂದೇಶದಿಂದ
 ಸಂದೇಶವನ್ನು
+ಸಂಧಿಬಿಂದುವಿನ
+ಸಂಧಿಬಿಂದುವಿನೊಂದಿಗೆ
 ಸಂಧಿಸುವ
 ಸಂಪತ್ತು
 ಸಂಪನ್ಮೂಲ
@@ -10147,8 +10272,11 @@ zones
 ಹಣಕಾಸಿನಲ್ಲಿ
 ಹಣಕಾಸು
 ಹಣವನ್ನು
+ಹತ್ತನೇ
 ಹತ್ತಿರದವರ
 ಹತ್ತಿರವಾಗಬಹುದು
+ಹನ್ನೆರಡನೇ
+ಹನ್ನೊಂದನೇ
 ಹರಳು
 ಹರಿಯಬಹುದು
 ಹರಿಸಬಹುದು

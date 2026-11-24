@@ -40,3 +40,7 @@ Three new draft house component entries bring coverage to 1,815 rules and 402 fa
 ## KB-34 Western, numerology and strength
 
 Added nine draft rules and four fact keys. The KB now holds 1,824 reading rules across ten systems and 406 fact keys. Four Western house systems, six technique orb tables and all 81 directed Ank root comparisons have reference coverage. Lo Shu arrows and planes remain deferred.
+
+## KB-51 public copy
+
+1,824 rules, 406 fact keys, and 661 staff glossary entries. The public glossary exposes 660 entries. Eleven Vimshottari and twelve rising-sign readings use life-area wording. Four dosha entries have localized display names; all ten standalone remedy records and their options use the shared practice label. Public copy is checked in eight locale bundles, including English fallback.

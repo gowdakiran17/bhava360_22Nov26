@@ -8,9 +8,9 @@ sanskrit:
   kannada: ಖಲಪರಿವರ್ತನ
   usage: traditional term
 meaning:
-  en: Two rulers exchange places involving the third house and excluding houses six, eight and twelve.
-  kn: ಆರು, ಎಂಟು, ಹನ್ನೆರಡನ್ನು ಹೊರತುಪಡಿಸಿ ಮೂರನೇ ಮನೆ ಒಳಗೊಂಡ ಸ್ಥಾನ ವಿನಿಮಯ.
-  hi: छठे, आठवें और बारहवें को छोड़ तीसरे घर से जुड़ा स्थान बदलना।
+  en: An exchange between chart rulers involving communication and personal effort.
+  kn: ಸಂವಹನ ಮತ್ತು ಸ್ವಪ್ರಯತ್ನದ ಕ್ಷೇತ್ರಕ್ಕೆ ಸಂಬಂಧಿಸಿದ ಅಧಿಪತಿಗಳ ಸ್ಥಾನ ವಿನಿಮಯ.
+  hi: संवाद और अपने प्रयासों के क्षेत्र से जुड़ा स्वामियों का स्थान परिवर्तन।
 admin_note: Use this label for two rulers exchange places involving the third house and excluding houses six, eight and
   twelve. Read the linked entries for the applicable conditions and differences between methods.
 aliases:
@@ -18,3 +18,7 @@ aliases:
 reference_rules: []
 used_by:
 - vedic.yogas.parivartana-khala
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

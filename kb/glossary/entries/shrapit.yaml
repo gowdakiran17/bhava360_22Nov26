@@ -16,3 +16,11 @@ aliases: []
 reference_rules: []
 used_by:
 - vedic.doshas.shrapit
+public_label:
+  en: Saturn with Rahu
+  kn: ರಾಹುವಿನೊಂದಿಗೆ ಶನಿ
+  hi: राहु के साथ शनि
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

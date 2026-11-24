@@ -84,3 +84,11 @@ used_by:
 - western.natal.sun-house-3
 - western.natal.uranus-house-3
 - western.natal.venus-house-3
+public_label:
+  en: Communication and everyday efforts
+  kn: ಸಂವಹನ ಮತ್ತು ದೈನಂದಿನ ಪ್ರಯತ್ನಗಳು
+  hi: संवाद और रोज़मर्रा के प्रयास
+approval: draft
+native_review:
+  kn: pending
+  hi: pending

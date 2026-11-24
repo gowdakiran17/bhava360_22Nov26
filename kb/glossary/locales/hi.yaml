@@ -141,7 +141,7 @@ terms:
   dashami: दशमी
   dashavarga: दशवर्ग
   dauvarika: दौवारिक
-  death-tarot: मृत्यु (टैरो)
+  death-tarot: रूपांतरण (टैरो कार्ड)
   debilitation: नीच
   decan: दस अंश का खंड
   decision-spread: निर्णय का पत्ता विन्यास
@@ -209,12 +209,12 @@ terms:
   graha-drishti: ग्रहदृष्टि
   graha-maitri: ग्रहमैत्री
   graha-yuddha: ग्रहयुद्ध
-  grahan: ग्रहण
+  grahan: चंद्र पथ के कटान के पास सूर्य या चंद्रमा
   grand-trine: त्रिकोणत्रय
   grid-palm-mark: एक दूसरे को काटते छोटी समानांतर रेखाओं के समूह
   griha-pravesha: गृहप्रवेश
   gulika-kalam: गुलिककाल
-  guru-chandal: गुरुचाण्डाल
+  guru-chandal: चंद्र पथ के कटान के पास बृहस्पति
   hamsa-yoga: हंसयोग
   harsha-yoga: हर्षयोग
   harshana-calendar-yoga: हर्षण
@@ -223,18 +223,18 @@ terms:
   heart-line: हृदयरेखा
   hora: होरा
   hora-bala: होराबल
-  house-1: तनुभाव
-  house-10: कर्मभाव
-  house-11: लाभभाव
-  house-12: व्ययभाव
-  house-2: धनभाव
-  house-3: सहजभाव
-  house-4: सुखभाव
-  house-5: पुत्रभाव
-  house-6: अरिभाव
-  house-7: युवतिभाव
-  house-8: रन्ध्रभाव
-  house-9: धर्मभाव
+  house-1: पहचान और अभिव्यक्ति
+  house-10: काम और ज़िम्मेदारियाँ
+  house-11: समुदाय और आकांक्षाएँ
+  house-12: विश्राम और चिंतन
+  house-2: परिवार और संसाधन
+  house-3: संवाद और रोज़मर्रा के प्रयास
+  house-4: घर और शिक्षा
+  house-5: रचनात्मकता और बच्चे
+  house-6: दिनचर्या और सेवा
+  house-7: साझेदारी
+  house-8: बदलाव और साझा संसाधन
+  house-9: सीख और लंबी यात्राएँ
   house-lord: भावेश
   house-system: भाव विभाजन विधि
   indra-calendar-yoga: इन्द्र
@@ -324,7 +324,6 @@ terms:
   mantra: मन्त्र
   mantra-japa: मंत्र जप
   manushya-gana: मनुष्य गण
-  maraka: मारक
   mars: मंगल
   mars-lower-mount: अँगूठे के उभार के ऊपर तर्जनी की ओर उभरा भाग
   mars-mount: मंगल क्षेत्र में उभार, सटीक भाग स्पष्ट नहीं
@@ -403,7 +402,7 @@ terms:
   pisces: मीन
   pitrikaraka: पितृकारक
   pitris: पितरः
-  pitru-dosha: पितृदोष
+  pitru-dosha: पारिवारिक परंपराएँ
   placidus: प्लासिडस
   planet: खगोलीय ग्रह
   pluto: प्लूटो
@@ -501,7 +500,7 @@ terms:
   shodhana: शोधन
   shodhya-pinda: शोध्यपिण्ड
   short-finger-proportion: हथेली की तुलना में छोटी उँगलियाँ
-  shrapit: श्रापित
+  shrapit: राहु के साथ शनि
   shravana: श्रवण
   shubh-choghadiya: शुभ बेला
   shubha-calendar-yoga: शुभ

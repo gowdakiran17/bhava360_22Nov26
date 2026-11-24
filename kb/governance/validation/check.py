@@ -1,4 +1,5 @@
 """Validate the authoring corpus and representative boundary cases (Python 3 + PyYAML)."""
+from public_copy import check_distribution, check_text
 from life_areas import check_remedy, validate_life_areas
 from conventions import profile_refs, validate_conventions
 from collections import Counter
@@ -345,6 +346,7 @@ def validate_user_text(node, location, required, supported):
             require(required <= value.keys() <= supported, f'{field}: invalid locale keys {list(value)}')
             for locale, translation in value.items():
                 require(isinstance(translation, str) and translation.strip(), f'{field}.{locale}: empty text')
+                check_text(translation, field, locale)
                 match = BANNED_USER_TERMS.search(translation)
                 if match:
                     raise ValueError(f'{field}.{locale}: prohibited user_text term {match[0]}')
@@ -386,6 +388,11 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if rid in ('vedic.doshas.shrapit', 'vedic.doshas.guru-chandal', 'vedic.doshas.pitru', 'vedic.doshas.grahan'):
+            expected_fields.add('public_label')
+            glossary_slug = 'pitru-dosha' if rid.endswith('.pitru') else rid.split('.')[-1]
+            require(data.get('public_label') == read(f'glossary/entries/{glossary_slug}.yaml')['public_label'],
+                    rid + ' public display label')
         if data['system']=='palmistry' and 'guided' in data:
             expected_fields.add('guided')
         if data['system']=='tarot':
@@ -600,6 +607,8 @@ def main():
         require(case['entry']['id'] in rules, 'synthetic example must reference a current rule')
         check_predicate(case['entry']['conditions'],facts)
         require(evaluate(case['entry']['conditions'],case['assumed_facts']) is True,'synthetic example')
+    check_distribution(ROOT)
+    print("Public copy passed across eight locale bundles.")
     print(f'{len(rules)} rule entries validated across {len(counts)} systems; {len(facts)} fact keys.')
     print(dict(sorted(counts.items())))
 if __name__=='__main__':

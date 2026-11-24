@@ -92,7 +92,6 @@ def houses(c, totals, read, method="whole-sign-middle"):
         if c.get('asc') is None:
             return None
         idx = (int(c['asc']//30)+h-1)%12
-        lord = signs[idx]['lord']
         mid = 30*idx+15
         group, dig = direction(table,h,mid)
         if method == 'sripati':
@@ -101,6 +100,7 @@ def houses(c, totals, read, method="whole-sign-middle"):
             group,_ = direction(table,h,mid)
             strongest = corners[(table['strongest_house'][group]-1)//3]
             dig = abs((mid-strongest)%360-180)/3
+        lord = signs[int(mid // 30)]['lord']
         terms = {}
         for p in table['drik']['casters']:
             good = benefic(p,lon,natural)
@@ -202,6 +202,10 @@ def validate_bhava(read, require):
     require(occupied['occupants']==sum(value for body,value in table['occupants']['weights'].items()
             if s['inputs']['longitude'][body]//30==occupied['madhya']//30),'whole-sign occupants')
     sripati=houses(s['inputs'],s['lord_totals'],read,'sripati')
+    for house, lord in s['sripati_lords'].items():
+        row = sripati[house - 1]
+        require(row['lord'] == lord and row['lord_total'] == s['lord_totals'][lord],
+                f'S1 Sripati lord for house {house}')
     require(isclose(sripati[0]['madhya'],s['inputs']['asc']) and isclose(sripati[9]['madhya'],s['inputs']['mc'])
             and houses(dict(s['inputs'],mc=None),s['lord_totals'],read,'sripati') is None,'Sripati kardinal anchors')
     print('Bhava Bala passed: 12 houses, signed S1 worksheet, dignity boundaries, friendship and qualitative bands.')

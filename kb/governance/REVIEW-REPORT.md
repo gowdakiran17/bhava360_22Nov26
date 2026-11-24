@@ -406,3 +406,24 @@ Added three draft rules, one component selector fact and one natural-benefic pro
 
 Seven new numerology reflections and two house-strength components bring the totals to 1,824 draft rules, 406 fact keys and 661 glossary entries. S1 uses the corrected house weights, occupant terms and rising-type award. The published Raman matrix remains pending. The Moon table uses Raman/Santhanam by owner selection and retains the PVR variant for its original comparisons. New edition locators supplied in review are recorded pending primary inspection.
 The strict and predominance Mercury rules agreed on all five known-time synthetic charts. The equal-companions probe distinguishes the methods. New speculative school mappings, including node-to-number compatibility, are labelled editorial.
+
+## KB-51 editorial review (draft)
+
+The owner’s public-copy policy and Jyoti’s 23 Nov review govern these edits. No new rules, fact keys, doctrine profiles or classical claims. Staff retain 661 glossary entries; users can access 660. EN, KN and HI are authored; TE, TA, ML, ES and FR inherit the English rewrites. Kannada and Hindi review remains pending.
+
+| Example | Locale | Previous public copy | Draft public copy |
+|---|---|---|---|
+| maraka | en | Maraka | Removed, including its definition. |
+| maraka | hi | मारक | Removed, including its definition. |
+| neecha-bhanga-raja-yoga | en | A qualified form of relief for a weakly placed planet with further conditions for interpreting responsibility. | A planet may be less at ease in its sign. Other chart factors can shape how its connection to responsibility is read. |
+| neecha-bhanga-raja-yoga | hi | कम बल की स्थिति में राहत के साथ जिम्मेदारी की व्याख्या के लिए अतिरिक्त शर्तों वाला मेल। | किसी राशि में ग्रह कम सहज माना जा सकता है। ज़िम्मेदारी से उसके संबंध को समझने में कुंडली के दूसरे संकेत भी मदद कर सकते हैं। |
+| spirituality-house-lord | en | The current period lord rules house 9. You can explore this connection in the area reading. | This period may bring learning and long journeys into focus. |
+| spirituality-house-lord | hi | वर्तमान दशा के स्वामी भाव 9 के भी स्वामी हैं। इस संबंध को क्षेत्र के विवरण में देख सकते हैं। | इस अवधि में इन विषयों पर ध्यान जा सकता है: सीख और लंबी यात्राएँ। |
+| shrapit | en | Shrapit | Saturn with Rahu |
+| shrapit | hi | श्रापित | राहु के साथ शनि |
+
+The planted message `weakly placed` fails the public scanner in each locale. The single English card title “Transformation (Death card)” is scoped to its own glossary label and English fallback; free-standing use fails. All remedies expose the localized “Traditional practice” label. Matching uses qualitative wording. Bindu counts and edition-specific scores stay in staff evidence.
+
+Scenario N1 uses the test alphabet ABCDEF. For S1 the optional Sripati method uses Mercury for the home-area midpoint and Jupiter for the work-area midpoint. The default whole-sign worksheet and its “modest” label remain the baseline.
+
+Setup follow-up outside the KB: `scripts/codex-setup.sh` should also install `kb/requirements-dev.txt`.

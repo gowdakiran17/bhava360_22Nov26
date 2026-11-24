@@ -4,6 +4,7 @@ linked_to: vedic.planets.jupiter
 remedy:
   type: fasting
   optional: true
+  label: traditional-practice
   cost: free
   user_text:
     en: If fasting is already safe for you and part of your practice, you may observe your usual fast. You can also choose

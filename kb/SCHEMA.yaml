@@ -119,6 +119,7 @@ vedic_house_lord_entries:
   related_rules: Evaluate each yoga separately. Raja and dhana require distinct eligible lords actually joined or exchanged in this profile. Exchanges require reciprocal occupation and distinct grahas.
   life_areas: Deduplicated union of both KB-04 houses.
 vedic_dosha_entries:
+  public_label: The four sensitive labels (shrapit, guru-chandal, pitru, grahan) use the localized public_label shared with their glossary entry. Traditional titles are staff evidence.
   reference_paths: Matching and transit entries link to their governing KB tables using kb-relative paths.
   evaluation: Preserve natal formation separately from any relief, pair-only adjustment or timed interval.
 vedic_varga_entries:
@@ -186,7 +187,7 @@ safe_remedies:
   cost: free
   legacy: Inline entries also retain the free boolean for existing callers.
   fasting: Offer only as an explicitly selected existing practice for adults who know it is safe for them. Omit from health readings. Quiet reflection is available in the same copy.
-  display: Show the optional status and localized text. Use only free participation and freely available materials.
+  display: Show the localized Traditional practice label, optional status and localized text. Use only free participation and freely available materials.
 numerology_checks:
   systems: numerology/profiles.yaml
   transliteration: numerology/transliteration.yaml
@@ -206,7 +207,7 @@ tarot_card_entries:
   replay: tarot/draws/selection.yaml
   spreads: tarot/spreads/positions.yaml
   position_dictionary: tarot/positions/catalog.yaml
-  public: Canonical RWS title, position prompt, localized tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply to interpretive text in every locale.
+  public: Localized glossary display label when specified, otherwise canonical RWS title, position prompt, localized tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply to interpretive text in every locale.
   conventions: Aces have elemental roots; pages have polar quadrants; other courts use the specified rank crosswalk. Element tags for planetary trumps are editorial. No birth chart inference from the draw.
 palmistry_guided_entries:
   extension: guided

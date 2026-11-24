@@ -44,6 +44,53 @@ class EngineExport(unittest.TestCase):
             for locale in ('en','kn','hi'):
                 text=self.docs[f'public/locales/{locale}.json']['messages'][rendered['user_text']]
                 self.assertNotRegex(text,r'\d|%|must pay|house [0-9]')
+    def test_public_copy_gate(self):
+        from public_copy import LOCALES, TAROT_FIELD, check_text, check_public_file
+        for loc in LOCALES:
+            with self.subTest(locale=loc), self.assertRaisesRegex(ValueError, 'weak'):
+                check_public_file(f'public/locales/{loc}.json',
+                                  {'locale': loc, 'messages': {'planted': 'weakly placed'}})
+        for phrase in ('curse', 'doomed', 'danger', 'bad luck', '31 of 36', '31 points',
+                       '७०%', 'Raman: 28 bindus', 'ninth house', 'भाव ९', '೯ನೇ ಭಾವ',
+                       'மரணம்', 'దురదృష్టం', 'അപകടം', 'mala suerte', 'malédiction',
+                       'Death', 'Transformation (Death card)', '', None):
+            with self.subTest(phrase=phrase), self.assertRaises(ValueError):
+                check_text(phrase, 'probe', 'en')
+        for phrase in ('household', 'compare the two house placements', '36 days'):
+            check_text(phrase, 'probe', 'en')
+        check_text('Transformation (Death card)', TAROT_FIELD, 'en')
+        with self.assertRaises(ValueError):
+            check_text('Death', TAROT_FIELD, 'en')
+
+    def test_glossary_visibility_and_fallback(self):
+        prefix = 'glossary/entries/'
+        bindings = self.docs['admin/catalog.json']['public_keys']
+        hidden = prefix + 'maraka.yaml'
+        self.assertIn(hidden, self.docs['admin/catalog.json']['resources'])
+        self.assertNotIn(hidden, bindings)
+        catalog = self.docs['public/catalog.json']['entries']
+        self.assertNotIn(token('p', hidden), catalog)
+        for loc in self.manifest['locales']['required'] + self.manifest['locales']['planned']:
+            messages = self.docs[f'public/locales/{loc}.json']['messages']
+            for field in ('term', 'meaning'):
+                self.assertNotIn(token('m', hidden + '/' + field), messages)
+            for slug in ('death-tarot', 'shrapit', 'guru-chandal', 'pitru-dosha', 'grahan'):
+                path = prefix + slug + '.yaml'
+                labels = self.source[path]['public_label']
+                self.assertEqual(messages[catalog[bindings[path]]['term']], labels.get(loc, labels['en']))
+
+    def test_practice_labels(self):
+        key = token('m', 'shared/traditional-practices/options.yaml#label')
+        def inspect(value):
+            if isinstance(value, dict):
+                if 'optional' in value:
+                    self.assertEqual((value['optional'], value['cost'], value['label']), (True, 'free', key))
+                for child in value.values():
+                    inspect(child)
+        for path, doc in self.docs.items():
+            if path.startswith('public/'):
+                inspect(doc)
+
     def test_manifest_integrity_and_schemas(self):
         inventory = self.manifest['files']
         self.assertEqual(set(self.files),set(inventory)|{'manifest.json'})
@@ -112,7 +159,7 @@ class EngineExport(unittest.TestCase):
             for key,row in self.rows.items():
                 src = self.rules[key]
                 pub = self.docs['public/'+src['system']+'.json']['readings'][row['public_key']]
-                self.assertEqual(set(pub),{'user_text','tone','remedy'})
+                self.assertEqual(set(pub), {'user_text','tone','remedy'} | ({'label'} if 'public_label' in src else set()))
                 self.assertEqual(bundle[pub['user_text']],src['user_text'].get(loc) or src['user_text']['en'])
                 if src['remedy']:
                     text = src['remedy']['user_text']
