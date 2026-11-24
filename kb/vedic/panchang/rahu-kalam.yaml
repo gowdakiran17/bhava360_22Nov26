@@ -4,8 +4,8 @@ topic: panchang
 title: Rahu Kalam
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.rahu. Let D = (sunset
-  − sunrise)/8. Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
+rule: For the local sunrise weekday select j from limbs.yaml day_eighths_sunday_first.rahu. Let D = (sunset − sunrise)/8.
+  Match from sunrise + (j−1)D inclusive until sunrise + jD exclusive.
 conditions:
   all:
   - fact: panchang.rahu_kalam.active
@@ -48,3 +48,4 @@ evidence:
   area_strength:
     career: related
     spirituality: related
+tag: MODERN/POPULAR

@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a4
 - lal-kitab.placements.house-4
+- lal-kitab.placements.jupiter-house-4
+- lal-kitab.placements.ketu-house-4
+- lal-kitab.placements.mars-house-4
+- lal-kitab.placements.mercury-house-4
+- lal-kitab.placements.moon-house-4
+- lal-kitab.placements.rahu-house-4
+- lal-kitab.placements.saturn-house-4
+- lal-kitab.placements.sun-house-4
+- lal-kitab.placements.venus-house-4
 - vedic.aspects.jupiter-aspects-house-4
 - vedic.aspects.ketu-aspects-house-4
 - vedic.aspects.mars-aspects-house-4

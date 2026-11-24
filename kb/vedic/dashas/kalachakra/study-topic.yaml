@@ -4,8 +4,8 @@ topic: dashas/kalachakra
 title: Kalachakra · learning
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Read this topic when an admin has selected a verified pada row whose dated sign is the natal fifth house
-  and the natal reading supports study.
+rule: Read this topic when an admin has selected a verified pada row whose dated sign is the natal fifth house and
+  the natal reading supports study.
 conditions:
   all:
   - fact: dasha.kalachakra.pada_wheel
@@ -52,3 +52,4 @@ evidence:
   reference: none
   area_strength:
     learning: core
+visibility: admin-only

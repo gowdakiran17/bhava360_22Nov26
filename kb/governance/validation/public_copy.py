@@ -35,6 +35,8 @@ POLICIES.update({
     'ordinal lord': rf'\b(?:{ORDINAL}) lord\b|\blord of (?:the )?(?:{NUMBER})\b',
     'house ordinal': r'(?:पहला|पहले|दूसर[ाे]|तीसर[ाे]|चौथ[ाे]|पाँचव[ांे]+|छठ[ाे]|सातव[ााँें]+|आठव[ाें]+|नौव[ाें]+|दसव[ाें]+|ग्यारहव[ाें]+|बारहव[ाें]+|\d+व[ााँें]+)\s*घर|(?:ಮೊದಲ|ಎರಡನೇ|ಮೂರನೇ|ನಾಲ್ಕನೇ|ಐದನೇ|ಆರನೇ|ಏಳನೇ|ಎಂಟನೇ|ಒಂಬತ್ತನೇ|ಹತ್ತನೇ|ಹನ್ನೊಂದನೇ|ಹನ್ನೆರಡನೇ|\d+ನೇ)\s*ಮನೆ',
     'private phase name': r's[aā][dḍ]e[ -]*s[aā]ti|(?:kantaka|ardhashtama|ashtama)[ -]*shani|साढ़े\s*साती|(?:कंटक|अष्टम|अर्धाष्टम)\s*शनि|ಸಾಡೇ\s*ಸಾತಿ|(?:ಕಂಟಕ|ಅಷ್ಟಮ|ಅರ್ಧಾಷ್ಟಮ)\s*ಶನಿ',
+    'pressure or judgment': r'\b(?:unlucky|incompatible|dying|urgent|tragedy|misfortune|inauspicious|must act now|(?:book|buy) (?:a |an )?(?:puja|pooja))\b|अशुभ|ದುರ್ಘಟನೆ|ಅಶುಭ|दुर्घटना|(?<![\u0c80-\u0cff])ಮೃತ(?![\u0c80-\u0cff])|(?<![\u0900-\u097f])मृत(?![\u0900-\u0963])',
+    'numeric rating': r'(?<!\d)\d+\s*/\s*10\b',
     'rating': r'\b\d+\s+out of\s+10\b',
 })
 PATTERNS = {name: re.compile(pattern, re.I) for name, pattern in POLICIES.items()}

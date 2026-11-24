@@ -1,0 +1,48 @@
+approval: draft
+tag: MODERN/POPULAR
+states:
+  full: Each of the three digits occurs.
+  open: All three cells empty.
+  partial: Neither pattern; no plane reading.
+lines:
+- digits:
+  - 4
+  - 9
+  - 2
+  prompt: You can make space to think through a plan.
+- digits:
+  - 3
+  - 5
+  - 7
+  prompt: You may find it helpful to name a feeling.
+- digits:
+  - 8
+  - 1
+  - 6
+  prompt: You can try a practical step.
+- digits:
+  - 4
+  - 3
+  - 8
+  prompt: You can sketch an outline before starting.
+- digits:
+  - 9
+  - 5
+  - 1
+  prompt: You may choose a small intention to revisit.
+- digits:
+  - 2
+  - 7
+  - 6
+  prompt: You can notice which action suits the moment.
+- digits:
+  - 4
+  - 5
+  - 6
+  prompt: You can reflect on how you approach a change.
+- digits:
+  - 2
+  - 5
+  - 8
+  prompt: You can compare an idea with your experience.
+policy: Birth digits only. Missing cells are optional questions, never deficiencies.

@@ -10,6 +10,8 @@ def band(total, policy):
 
 
 def worksheet(x, p, cancellation, full_aspects, natural):
+    if x.get('sandhi_crossing') is True:
+        return None
     graha = x.get('graha')
     flags = ('lagna_withheld','combust','war_loser','retrograde','vargottama')
     flags = tuple(k for k in flags if not (k=="war_loser" and graha in ("sun","moon","rahu","ketu") or k=="combust" and graha in ("rahu","ketu")))

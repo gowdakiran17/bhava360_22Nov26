@@ -12,7 +12,7 @@ stable_birth_panchanga:
   tithi: 18
   nakshatra: shatabhisha
   yoga: 5
-  karana_half: 34
+  karana_half: 35
 sunrise_local: '1985-08-03T06:10:14.442305+05:30'
 precision: exact
 tier: A
@@ -483,38 +483,99 @@ consultation:
   areas:
     career:
       lord: sun
-      promise: Moderate
+      promise: Weak
       state:
-      - no-window
+      - no-promise
       windows: []
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id001 []
+        aspects: &id002
         - Benefic
         - Benefic
         - Malefic
+        houses:
+          10:
+            lord: Moderate
+            occupants: *id001
+            aspects: *id002
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
+          6:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       moon_witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id003 []
+        aspects: &id004
         - Benefic
         - Malefic
+        houses:
+          10:
+            lord: Weak
+            occupants: *id003
+            aspects: *id004
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          6:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id001 []
+        maha: []
+        antar: []
+      active_yogas: &id005 []
       practice_lord: null
       conflict_ladder:
-        promise: Moderate
-        activated_yogas: *id001
+        promise: Weak
+        activated_yogas: *id005
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -523,37 +584,75 @@ consultation:
         final: null
     love-marriage:
       lord: venus
-      promise: Moderate
+      promise: Weak
       state:
-      - no-window
+      - no-promise
       windows: []
       availability: known-time
       witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id006 []
+        aspects: &id007
         - Benefic
+        houses:
+          7:
+            lord: Weak
+            occupants: *id006
+            aspects: *id007
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       moon_witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id008 []
+        aspects: &id009
         - Benefic
         - Benefic
         - Malefic
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id008
+            aspects: *id009
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id002 []
+        maha: []
+        antar: []
+      active_yogas: &id010 []
       practice_lord: null
       conflict_ladder:
-        promise: Moderate
-        activated_yogas: *id002
+        promise: Weak
+        activated_yogas: *id010
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -569,34 +668,94 @@ consultation:
       availability: known-time
       witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id011 []
+        aspects: &id012
         - Benefic
         - Benefic
         - Malefic
         - Malefic
         - Malefic
+        houses:
+          2:
+            lord: Weak
+            occupants: *id011
+            aspects: *id012
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          5:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          9:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       moon_witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id013 []
+        aspects: &id014
         - Benefic
         - Benefic
         - Malefic
+        houses:
+          2:
+            lord: Weak
+            occupants: *id013
+            aspects: *id014
+          11:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
+          5:
+            lord: Weak
+            occupants:
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          9:
+            lord: Weak
+            occupants:
+            - - Malefic
+              - Moderate
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id003 []
+        maha: []
+        antar: []
+      active_yogas: &id015 []
       practice_lord: null
       conflict_ladder:
         promise: Weak
-        activated_yogas: *id003
+        activated_yogas: *id015
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -612,33 +771,62 @@ consultation:
       availability: known-time
       witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id016 []
+        aspects: &id017
         - Benefic
         - Malefic
+        houses:
+          1:
+            lord: Weak
+            occupants: *id016
+            aspects: *id017
+          6:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id018
         - - Benefic
           - Weak
-        aspects:
+        aspects: &id019
         - Benefic
         - Benefic
         - Benefic
+        houses:
+          1:
+            lord: Moderate
+            occupants: *id018
+            aspects: *id019
+          6:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id004 []
+        maha: []
+        antar: []
+      active_yogas: &id020 []
       practice_lord: null
       conflict_ladder:
         promise: Weak
-        activated_yogas: *id004
+        activated_yogas: *id020
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -647,39 +835,61 @@ consultation:
         final: null
     family-home:
       lord: saturn
-      promise: Strong
+      promise: Weak
       state:
-      - not-now
+      - no-promise
       windows: []
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id021
         - - Benefic
           - Weak
-        aspects:
+        aspects: &id022
         - Benefic
         - Benefic
         - Benefic
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id021
+            aspects: *id022
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Malefic
       moon_witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id023 []
+        aspects: &id024
         - Benefic
+        houses:
+          4:
+            lord: Weak
+            occupants: *id023
+            aspects: *id024
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id005 []
+        maha: []
+        antar: []
+      active_yogas: &id025 []
       practice_lord: null
       conflict_ladder:
-        promise: Strong
-        activated_yogas: *id005
+        promise: Weak
+        activated_yogas: *id025
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -688,40 +898,84 @@ consultation:
         final: null
     learning:
       lord: saturn
-      promise: Strong
+      promise: Weak
       state:
-      - no-window
+      - no-promise
       windows: []
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id026
         - - Benefic
           - Weak
-        aspects:
+        aspects: &id027
         - Benefic
         - Benefic
         - Benefic
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id026
+            aspects: *id027
+          5:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          9:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       moon_witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id028 []
+        aspects: &id029
         - Benefic
+        houses:
+          4:
+            lord: Weak
+            occupants: *id028
+            aspects: *id029
+          5:
+            lord: Weak
+            occupants:
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Malefic
+          9:
+            lord: Weak
+            occupants:
+            - - Malefic
+              - Moderate
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
       challenge_resolution: null
       card: null
       modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - The two period roles hold a common natal house; count the topic once.
-      active_yogas: &id006
+        maha: []
+        antar: []
+      active_yogas: &id030
       - vedic.yogas.budhaditya
       practice_lord: null
       conflict_ladder:
-        promise: Strong
-        activated_yogas: *id006
+        promise: Weak
+        activated_yogas: *id030
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -774,6 +1028,12 @@ consultation:
   public_en:
     today: A quiet corner at home may help you unwind.
     month: You can leave extra time for changes in your plans this month.
+  public_kn:
+    today: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+    month: ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+  public_hi:
+    today: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+    month: इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
   confidence:
     lagna: show
     bav: show
@@ -1266,7 +1526,7 @@ consultation:
       tithi: 18
       nakshatra: shatabhisha
       yoga: 5
-      karana_half: 34
+      karana_half: 35
     kala_bala: eligible with resolved rise/set
     twilight:
       lower_deg: -6

@@ -1,0 +1,191 @@
+approval: draft
+zodiac: tropical
+tag: CLASSICAL
+visibility: admin-only
+sources:
+- Dorotheus, Carmen Astrologicum I, triplicity rulers, edition locator pending
+- Ptolemy, Tetrabiblos I, Egyptian bounds and decans, edition locator pending
+domicile:
+- mars
+- venus
+- mercury
+- moon
+- sun
+- mercury
+- venus
+- mars
+- jupiter
+- saturn
+- saturn
+- jupiter
+detriment: Opposite each domicile, classical seven planets only.
+exaltation_zero_based:
+  sun: 0
+  moon: 1
+  mercury: 5
+  venus: 11
+  mars: 9
+  jupiter: 3
+  saturn: 6
+fall: Opposite the exaltation sign.
+triplicity_day_night_participating:
+  fire:
+  - sun
+  - jupiter
+  - saturn
+  earth:
+  - venus
+  - moon
+  - mars
+  air:
+  - saturn
+  - mercury
+  - jupiter
+  water:
+  - venus
+  - mars
+  - moon
+egyptian_bounds:
+- - - jupiter
+    - 6
+  - - venus
+    - 12
+  - - mercury
+    - 20
+  - - mars
+    - 25
+  - - saturn
+    - 30
+- - - venus
+    - 8
+  - - mercury
+    - 14
+  - - jupiter
+    - 22
+  - - saturn
+    - 27
+  - - mars
+    - 30
+- - - mercury
+    - 6
+  - - jupiter
+    - 12
+  - - venus
+    - 17
+  - - mars
+    - 24
+  - - saturn
+    - 30
+- - - mars
+    - 7
+  - - venus
+    - 13
+  - - mercury
+    - 19
+  - - jupiter
+    - 26
+  - - saturn
+    - 30
+- - - jupiter
+    - 6
+  - - venus
+    - 11
+  - - saturn
+    - 18
+  - - mercury
+    - 24
+  - - mars
+    - 30
+- - - mercury
+    - 7
+  - - venus
+    - 17
+  - - jupiter
+    - 21
+  - - mars
+    - 28
+  - - saturn
+    - 30
+- - - saturn
+    - 6
+  - - mercury
+    - 14
+  - - jupiter
+    - 21
+  - - venus
+    - 28
+  - - mars
+    - 30
+- - - mars
+    - 7
+  - - venus
+    - 11
+  - - mercury
+    - 19
+  - - jupiter
+    - 24
+  - - saturn
+    - 30
+- - - jupiter
+    - 12
+  - - venus
+    - 17
+  - - mercury
+    - 21
+  - - saturn
+    - 26
+  - - mars
+    - 30
+- - - mercury
+    - 7
+  - - jupiter
+    - 14
+  - - venus
+    - 22
+  - - saturn
+    - 26
+  - - mars
+    - 30
+- - - mercury
+    - 7
+  - - venus
+    - 13
+  - - jupiter
+    - 20
+  - - mars
+    - 25
+  - - saturn
+    - 30
+- - - venus
+    - 12
+  - - jupiter
+    - 16
+  - - mercury
+    - 19
+  - - mars
+    - 28
+  - - saturn
+    - 30
+bound_interval: Zero inclusive, upper endpoint exclusive. Use next sign at thirty.
+faces: Three ten-degree faces per tropical sign. Start Aries with Mars; cycle Mars, Sun, Venus, Mercury, Moon, Saturn,
+  Jupiter continuously.
+sect:
+  day:
+  - sun
+  - jupiter
+  - saturn
+  night:
+  - moon
+  - venus
+  - mars
+  mercury: Morning rising is diurnal and evening setting nocturnal; unresolved phase withholds.
+planet_direction:
+  sun: responsibility
+  moon: care
+  mercury: communication
+  venus: cooperation
+  mars: initiative
+  jupiter: perspective
+  saturn: structure
+interpretation: Own/exalted supports the bound planetary theme; fall/detriment qualifies it with caution. No single
+  dignity implies an event.

@@ -1,0 +1,36 @@
+approval: draft
+tag: MODERN
+scope: Optional descriptive reflection. Never infer health, lifespan, identity or aptitude.
+ratio:
+  landmarks: Palm up and fingers relaxed on the same plane. Measure along each finger from midpoint of lowest proximal
+    flexion crease to fingertip. Repeat twice on the same hand and image.
+  formula: index length / ring length
+  shorter_below: 0.97
+  longer_above: 1.03
+  uncertain: Inclusive middle band, conflicting repeats, occlusion or missing scale. Do not infer a trait.
+features:
+  head:
+    depth: Compare visible groove contrast under even lighting.
+    fork: Terminal split with a shared stem.
+    chain: Successive linked islands on the main trace.
+    branch: A shorter trace leaving the main line.
+    break: Visible gap between aligned trace ends.
+  heart:
+    depth: Compare visible groove contrast under even lighting.
+    fork: Terminal split with a shared stem.
+    chain: Successive linked islands on the main trace.
+    branch: A shorter trace leaving the main line.
+    break: Visible gap between aligned trace ends.
+  fate:
+    depth: Compare visible groove contrast under even lighting.
+    fork: Terminal split with a shared stem.
+    chain: Successive linked islands on the main trace.
+    branch: A shorter trace leaving the main line.
+    break: Visible gap between aligned trace ends.
+confidence:
+  clear-repeat: high
+  clear-single: moderate
+  ambiguous: withhold
+  not-visible: withhold
+producer: Attach hand, named line, feature, confidence and user confirmation to each observation. Ambiguous image
+  candidates remain unbound.

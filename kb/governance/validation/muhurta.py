@@ -121,7 +121,7 @@ def validate_muhurta(rules,read,evaluate,require):
     expected='marriage griha-pravesha vehicle-purchase business-start naming travel education-start property-registration'.split()
     require(set(selection['activity_profiles'])==set(expected),'eight activity profiles')
     require(policy['ranking']==['Supportive','Steady','Take care'],'tone order')
-    policy.update(interval_table=read('vedic/panchang/election-intervals.yaml'),day_yoga_table=read('vedic/panchang/election-yogas.yaml'),regions=read('vedic/muhurta/region-policy.yaml')['toggles'])
+    policy.update(gandanta=read('vedic/vargas/advanced.yaml')['gandanta'],interval_table=read('vedic/panchang/election-intervals.yaml'),day_yoga_table=read('vedic/panchang/election-yogas.yaml'),regions=read('vedic/muhurta/region-policy.yaml')['toggles'])
     tables=read('vedic/panchang/limb-tables.yaml')
     stars=[s['id'] for s in read(tables['nakshatra_catalog'])['nakshatras']]
     eighths=read('vedic/panchang/limbs.yaml')['day_eighths_sunday_first']['rahu']
@@ -137,7 +137,7 @@ def validate_muhurta(rules,read,evaluate,require):
         p=r['activity_profile']
         require(p['activity']==slug and p['shared_policy']==selection['ranking_policy'] and
                 p['required_people']==(2 if slug=='marriage' else 1),slug)
-        require(set(p['factors'])==domains.keys() and p['combustion']==(['venus','jupiter'] if slug=='marriage' else []),slug)
+        require(set(p['factors'])==domains.keys() and p['combustion']==(['venus','jupiter'] if slug in policy['regions']['asta']['activities'] else []),slug)
         for k,d in domains.items():
             good,bad=[set(p['factors'][k][kind]) for kind in ('support','avoid')]
             require(good and bad and good.isdisjoint(bad) and (good|bad)<=set(d),(slug,k))

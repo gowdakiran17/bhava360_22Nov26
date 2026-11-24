@@ -100,7 +100,8 @@ def validate_vastu(rules,read,evaluate,require,root):
         require((data['zone'],data['room'])==(z,r) and data['reason'] and data['tone']==scores[data['score']],key)
         if r=='water-tank':
             for kind,expected in [('overhead',z in ('west','southwest')),('underground',z in ('north','northeast')),('unspecified',False)]:
-                require(data['by_tank_type'][kind]==dict(score=int(expected),tone=scores[int(expected)]),key+'/'+kind)
+                value = -1 if kind=='underground' and z=='southwest' else int(expected)
+                require(data['by_tank_type'][kind]==dict(score=value,tone=scores[value]),key+'/'+kind)
     require(evaluate(entries['southeast-kitchen']['conditions'],{'vastu.southeast-kitchen':True}) is True,
             'existing southeast kitchen observation')
     for shape in ('regular','irregular'):
@@ -145,7 +146,7 @@ def validate_vastu(rules,read,evaluate,require,root):
     require(observation({**base,'reference':'true','model':'sixteen'},{**test,'bearing_deg':30},profile)
             ==('northeast','NNE'),'independent optional sector')
     table = read('vastu/entrances/padas.yaml')
-    refs = {'east':'Agni Parjanya Jayanta Indra Surya Satya Bhrisha Antariksha',
+    refs = {'east':'Shikhi Parjanya Jayanta Indra Surya Satya Bhrisha Antariksha',
             'south':'Vayu Pusha Vitatha Brihatkshata Yama Gandharva Bhringaraja Mriga',
             'west':'Pitri Dauvarika Sugriva Kusumadanta Varuna Asura Shesha Papayakshma',
             'north':'Roga Ahi Mukhya Bhallata Soma Bhujaga Aditi Diti'}

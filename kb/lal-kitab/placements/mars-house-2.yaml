@@ -1,0 +1,50 @@
+id: lal-kitab.placements.mars-house-2
+system: lal-kitab
+topic: placements
+title: Mars in fixed house 2
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: Bind mars in fixed house 2 of the selected Lal Kitab chart.
+conditions:
+  all:
+  - fact: lal_kitab.planet.fixed_house
+    op: eq
+    value: 2
+  - fact: lal_kitab.planet.bound
+    op: eq
+    value: mars
+meaning: When considering family resources, you may find a chance to start a task.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: modern-study-v1
+  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+sources:
+- book: Bhava360 fixed-house prompts
+  work_id: bhava360-fixed-house-prompts
+  edition: bhava360-fixed-house-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.placements.mars-house-2
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: editorial-no-classical-claim
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
+  single direction requires chart-specific corroboration. Retain context pending resolution.
+user_text:
+  en: When considering family resources, you may find a chance to start a task.
+  kn: ಕುಟುಂಬದ ಸಂಪನ್ಮೂಲ ಕುರಿತು ಕೆಲಸ ಆರಂಭಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: परिवार के साधन पर विचार करते हुए काम शुरू करने का अवसर मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

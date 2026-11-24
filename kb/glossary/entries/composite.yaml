@@ -17,3 +17,4 @@ aliases: []
 reference_rules: []
 used_by:
 - western.composite.midpoint
+- western.r3-readings.composite

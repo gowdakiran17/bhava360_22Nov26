@@ -43,8 +43,10 @@ convention: Preserve a master input or intermediate digit sum at every component
 letter_reference: Cyclic Latin alphabet in nine columns; ordinal A=1 through Z=26 reduced modulo nine.
 life_path_methods:
   default: components
-  components: Reduce month, day and year separately, retaining masters at each reduction; then reduce their sum with the same master stops.
-  full-digit-sum: Add all Gregorian birth-date digits before the single reduction chain; retain 11, 22 or 33 whenever reached in that chain.
+  components: Reduce month, day and year separately, retaining masters at each reduction; then reduce their sum with
+    the same master stops.
+  full-digit-sum: Add all Gregorian birth-date digits before the single reduction chain; retain 11, 22 or 33 whenever
+    reached in that chain.
 debt_detection:
   eligible_stages:
   - life-path-month
@@ -63,3 +65,5 @@ debt_detection:
   method: Inspect each compound immediately before its digits are summed. Store stage, reduction index and matched
     value. Full-digit-sum emits only the final Life Path stage. Omit maturity and calendar cycles.
   public: Deduplicate birthday and life-path-day on the birth-day compound. Keep both stage records in admin evidence.
+public_deduplication: Group detected compounds by their number. Preserve distinct Life Path day and Birthday stage
+  tags privately; render each reflective meaning once.

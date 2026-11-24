@@ -20,6 +20,18 @@ reference_rules:
 - vedic.planets.mars
 used_by:
 - jaimini.arudha-padas.marriage-support
+- lal-kitab.placements.mars-house-1
+- lal-kitab.placements.mars-house-10
+- lal-kitab.placements.mars-house-11
+- lal-kitab.placements.mars-house-12
+- lal-kitab.placements.mars-house-2
+- lal-kitab.placements.mars-house-3
+- lal-kitab.placements.mars-house-4
+- lal-kitab.placements.mars-house-5
+- lal-kitab.placements.mars-house-6
+- lal-kitab.placements.mars-house-7
+- lal-kitab.placements.mars-house-8
+- lal-kitab.placements.mars-house-9
 - palmistry.mounts.mars
 - palmistry.mounts.mars-left
 - palmistry.mounts.mars-lower-left

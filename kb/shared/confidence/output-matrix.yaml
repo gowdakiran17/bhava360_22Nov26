@@ -445,16 +445,16 @@ rows:
     scope: Planet only. Lord-specific readings also require stable lord identification.
   d24-planet-sign:
     A: show
-    B: hide
-    C: hide
+    B: show
+    C: show
     requires:
     - d24-bound-planet-sign
     varga: true
     scope: Planet only. Lord-specific readings also require stable lord identification.
   d60-planet-sign:
     A: show
-    B: hide
-    C: hide
+    B: show
+    C: show
     requires:
     - d60-bound-planet-sign
     varga: true
@@ -485,8 +485,8 @@ rows:
     scope: Planet only. Lord-specific readings also require stable lord identification.
   d27-planet-sign:
     A: show
-    B: hide
-    C: hide
+    B: show
+    C: show
     requires:
     - d27-bound-planet-sign
     varga: true
@@ -501,16 +501,16 @@ rows:
     scope: Planet only. Lord-specific readings also require stable lord identification.
   d40-planet-sign:
     A: show
-    B: hide
-    C: hide
+    B: show
+    C: show
     requires:
     - d40-bound-planet-sign
     varga: true
     scope: Planet only. Lord-specific readings also require stable lord identification.
   d45-planet-sign:
     A: show
-    B: hide
-    C: hide
+    B: show
+    C: show
     requires:
     - d45-bound-planet-sign
     varga: true
@@ -548,8 +548,8 @@ rows:
     B: show
     C: show
     requires:
-    - local-sunrise-vara-hora
-    - bound-kala-total
+    - bound-kala-components
+    scope: Stable component subtotals; a full total needs all components including Hora and Tribhaga.
   western-houses:
     A: show
     B: show
@@ -584,5 +584,77 @@ rows:
     requires:
     - lagna-sign
     - mars-house
+  jaimini-arudha:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - lagna-sign
+    - arudha-lord
+  jaimini-upapada:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - lagna-sign
+    - upapada-lord
+  jaimini-karakamsha:
+    A: show
+    B: show
+    C: show
+    requires:
+    - ak-d9-sign
+  chara-dasha:
+    A: show
+    B: show
+    C: hide
+    requires:
+    - lagna-sign
+    - chara-seed
+  yogini-dasha:
+    A: show
+    B: show
+    C: show
+    requires:
+    - moon-star
+    - yogini-period
+  numerology:
+    A: show
+    B: show
+    C: show
+    requires:
+    - consented-number-input
+  prashna:
+    A: show
+    B: show
+    C: show
+    requires:
+    - question-chart
+  matching-moon-kuja:
+    A: show
+    B: show
+    C: show
+    requires:
+    - moon-sign
+    - mars-sign
+  matching-venus-kuja:
+    A: show
+    B: show
+    C: show
+    requires:
+    - venus-sign
+    - mars-sign
+  shadbala-kala-hora:
+    A: show
+    B: show
+    C: show
+    requires:
+    - hora-lord
+  shadbala-kala-tribhaga:
+    A: show
+    B: show
+    C: show
+    requires:
+    - third-of-day
 varga_stability: The five-minute minimum radius effectively precludes a stable D60 Lagna even in Tier A. Planet signs
   use their own longitude traces.

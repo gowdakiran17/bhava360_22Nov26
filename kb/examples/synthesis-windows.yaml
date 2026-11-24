@@ -38,7 +38,7 @@ cases:
   C8: {input: {period: {antar: null}}, expect: {state: unknown-period}}
   C9: {input: {segments: []}, expect: {state: no-window, windows: []}}
   C10: {input: {tier: B}, expect: {grade: Moderate, card: Steady}, first: {start: '2032-03', end: '2032-05', moon: false, pace: slower, peaks: {}}}
-  C11: {input: {tier: C}, expect: {state: no-promise, windows: []}}
+  C11: {input: {tier: C}, expect: {state: withheld, windows: []}}
   C12: {input: {yoga: {active: true, participants: [Weak, Moderate]}}, expect: {yoga: mild}}
   C13: {input: {yoga: {active: true, participants: [Weak]}}, expect: {yoga: omitted}}
   C14: {input: {d9: enemy}, expect: {grade: Moderate}}
@@ -52,5 +52,5 @@ cases:
   C22: {input: {segments: [{interval: ['2032-04-22','2032-04-23'], signs: {jupiter: 6, saturn: 11}, av: [[28,4],[28,4]]}]}, expect: {state: no-window}}
   C23: {input: {unstable: [promise-significator, promise-varga-lagna], yoga_only_factors: [promise-occupants, promise-house-aspects], yoga: {active: true, cancelled: true}}, expect: {band: Weak, state: no-promise}}
   C24: {input: {lagna: {lord: Weak}, d9: exalted, unstable: [promise-varga-lagna, promise-significator]}, expect: {band: Moderate, grade: Moderate}}
-  C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: Weak, state: no-promise}}
+  C25: {input: {tier: C, moon: {lord: Strong, occupants: [[Benefic, Moderate]]}}, expect: {band: null, state: withheld}}
   D1-floor: {input: {unstable: [promise-occupants, promise-house-aspects, promise-significator, promise-moon-relative], d9: exalted}, expect: {band: Weak, state: no-promise, windows: []}}

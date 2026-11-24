@@ -169,9 +169,10 @@ def work(name,month_segments):
         charts['window_inputs']=dict(today='2026-11-24',tier=tier,unstable=unstable,
             d9=details[lord]['d9'] if stable else None,vargottama=bool(stable and d9pos[lord]==pos[lord]),
             topic_lord={'house':(SIGNS.index(bodies[lord]['d10'])-SIGNS.index(asc['d10']))%12+1} if asc else {},
-            segments=[segment],yoga={'active':False},directions={})
+            segments=[segment],yoga={},directions={})
         eligible=[(rid,row) for rid,rows in matched.items() if area in read('vedic/yogas/'+rid.split('.')[-1]+'.yaml')['life_areas'] for row in rows if row['period_evidence']]
         charts.pop('yoga_record',None)
+        charts['window_inputs']['yoga']={'active':bool(eligible)}
         if eligible:
             rid,row=eligible[0];charts['yoga_record']=dict(row,slug=rid.split('.')[-1])
         bound=bind(area,charts,period,recipe,read)
@@ -198,6 +199,16 @@ def work(name,month_segments):
     for area,row in areas.items():
         if row['windows']:
             public[area]=read('vedic/dashas/vimshottari/'+area+'-upcoming.yaml')['user_text']['en']
+    locales = {}
+    for lang in ('kn','hi'):
+        months = {'kn':{'Supportive':'ಈ ತಿಂಗಳು ಯೋಜನೆಯೊಂದನ್ನು ಮುಂದಕ್ಕೆ ತೆಗೆದುಕೊಂಡು ಹೋಗಬಹುದು.','Steady':'ಈ ತಿಂಗಳು ದಿನಚರಿಯಲ್ಲಿ ಬದಲಾವಣೆಗೆ ಸ್ವಲ್ಪ ಅವಕಾಶ ಇಡಬಹುದು.','Take care':'ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.'},
+                  'hi':{'Supportive':'इस महीने किसी योजना में आगे बढ़ने का अवसर मिल सकता है।','Steady':'इस महीने दिनचर्या में बदलाव की थोड़ी गुंजाइश रख सकते हैं।','Take care':'इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।'}}
+        translated={'today':read('vedic/transits/'+trans['moon'][1].split('.')[-1]+'.yaml')['user_text'][lang],
+                    'month':months[lang][monthly]}
+        if tier=='C': translated['confidence']=read('shared/confidence/copy.yaml')['messages']['moon-unknown'][lang]
+        for area in areas:
+            if area in public: translated[area]=read('vedic/dashas/vimshottari/'+area+'-upcoming.yaml')['user_text'][lang]
+        locales[lang]=translated
     placement=[f'vedic.planets-in-signs.{g}-{p["sign"]}' for g,p in bodies.items() if 'sign' not in p['unstable']]
     area_rules=[]
     for area,row in areas.items():
@@ -215,6 +226,7 @@ def work(name,month_segments):
     if practice:
         remedy=read('remedies/'+practice+'.yaml')
         public['traditional_practice']=remedy['remedy']['user_text']['en']
+        for lang in locales: locales[lang]['traditional_practice']=remedy['remedy']['user_text'][lang]
     for summary in areas.values():
         summary['conflict_ladder']={
             'promise':summary['promise'],'activated_yogas':summary['active_yogas'],
@@ -223,7 +235,7 @@ def work(name,month_segments):
             'references':'Lagna confirms, Moon describes experience' if asc else 'Moon only',
             'other_systems':'disabled','final':summary['card']}
     return dict(optional_practice=practice,rule_chain=placement+list(matched)+periods+area_rules+trans['moon']+trans['lagna'],grades=details,yogas=matched,
-                areas=areas,transits=trans,today=day,month_tone=monthly,public_en=public,
+                areas=areas,transits=trans,today=day,month_tone=monthly,public_en=public,public_kn=locales['kn'],public_hi=locales['hi'],
                 confidence={k:MATRIX[k][tier] for k in ('lagna','bav','sav','kakshya','d9','d10','d9-planet-sign','d10-planet-sign','birth-panchanga','shadbala-kala')})
 
 def main():
@@ -287,5 +299,7 @@ def main():
                 '| Transit from Moon | '+', '.join(rec['transits']['moon'][:2])+' |',
                 '| Transit from Lagna | '+(', '.join(rec['transits']['lagna'][:2]) or 'Withheld')+' |',
                 '| Practice | '+(rec['optional_practice'] or 'None selected')+' |']
+        for lang in ('kn','hi'):
+            lines.extend(['', '## '+{'kn':'ಕನ್ನಡ','hi':'हिन्दी'}[lang], '', *('- '+line for line in rec['public_'+lang].values())])
         (ROOT/'examples/worked-readings'/(name.lower()+'.md')).write_text('\n'.join(lines)+'\n')
 if __name__=='__main__':main()

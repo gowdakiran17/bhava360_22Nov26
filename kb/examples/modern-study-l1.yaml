@@ -1,0 +1,12 @@
+approval: draft
+synthetic: true
+scenario: Scenario L1
+planet: saturn
+fixed_house: 3
+'off': []
+'on':
+- lal-kitab.placements.saturn-house-3
+accepted: Listen without interrupting.
+rejected:
+  action: purchase or bury an object
+  emit: false

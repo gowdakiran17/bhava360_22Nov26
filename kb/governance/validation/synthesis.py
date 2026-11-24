@@ -48,6 +48,12 @@ def bind_reference(origin, area_house, chart, table, aspects):
 
 
 def reference_tests(ref):
+    if ref.get('houses'):
+        # Each factor has one vote across all recipe houses. An even split is inconclusive.
+        def consensus(values):
+            yes, no = values.count(True), values.count(False)
+            return True if yes > len(values)/2 else False if no > len(values)/2 else None
+        return [consensus(v) for v in zip(*(reference_tests(row) for row in ref['houses'].values()))]
     lord=ref.get('lord')
     occupants=ref.get('occupants')
     aspects=ref.get('aspects')
@@ -148,6 +154,8 @@ def evaluate(x, policy, ladder, matrix, aspects):
     thresholds=policy['promise']['thresholds']
     grade=2 if count>=thresholds['Strong'] else int(count>=thresholds['Moderate'])
     result=dict(band=GRADES[grade],card=None,windows=[],remedy_graha=None)
+    if not grade and tier=='C':
+        return dict(result,band=None,state='withheld')
     if not grade: return dict(result,state='no-promise')
     period=x['period']
     direct=set().union(*(period.get(group,[]) for group in ('owners','occupants','aspectors','karakas')))

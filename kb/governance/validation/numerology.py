@@ -363,7 +363,7 @@ def validate_numerology(rules,read,evaluate,require,root):
             and kua(1992,True,'male-convention')==8 and kua(1899,True,'male-convention') is None,'optional Kua')
     grid = read('numerology/lo-shu/grid.yaml')
     require(grid['default_fill']=='birth-digits-only' and grid['derived_additions']==[]
-            and grid['arrows_and_planes']=='deferred','Lo Shu school boundary')
+            and len(read(grid['arrows_and_planes'])['lines'])==8,'Lo Shu school boundary')
     kp = read('numerology/kua/profile.yaml')['input_policy']
     require(kp['requires_explicit_opt_in'] and kp['default_gender'] is None and
             not kp['inferred_from_name_or_chart'] and kp['missing_or_declined']=='withhold','Kua consent')

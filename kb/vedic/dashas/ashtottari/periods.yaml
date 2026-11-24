@@ -1,6 +1,6 @@
 version: 1
 approval: draft
-clock: vedic/dashas/vimshottari/periods.yaml
+clock: ashtottari-julian
 order:
 - sun
 - moon
@@ -39,3 +39,8 @@ eligible_distances:
 - 10
 default_gate: rahu-from-lagna-lord
 child_start: successor
+default_year: julian-365.25
+year_days:
+  julian-365.25: 365.25
+  mean-gregorian: 365.2425
+  savana: 360

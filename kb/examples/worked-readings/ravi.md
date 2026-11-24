@@ -13,12 +13,12 @@ Today resolves to Take care. The calendar month resolves to Take care.
 
 | Area | Natal promise | Dated result |
 |---|---|---|
-| career | Moderate | no-window |
-| love-marriage | Moderate | no-window |
+| career | Weak | no-promise |
+| love-marriage | Weak | no-promise |
 | money | Weak | no-promise |
 | health | Weak | no-promise |
-| family-home | Strong | not-now |
-| learning | Strong | no-window |
+| family-home | Weak | no-promise |
+| learning | Weak | no-promise |
 
 The [reference chart](../fixtures/ravi.yaml) records graha positions, precision, strength worksheets, yoga witnesses and cancellations, period modulation, the conflict-ladder outcome, separate transit references and eligible practices. Windows here answer the query for this local day.
 
@@ -36,3 +36,13 @@ The table below binds each period, yoga and transit to this chart before the six
 | Transit from Moon | vedic.transits.sun-moon-house-10, vedic.transits.moon-moon-house-4 |
 | Transit from Lagna | vedic.transits.sun-lagna-house-1, vedic.transits.moon-lagna-house-7 |
 | Practice | None selected |
+
+## ಕನ್ನಡ
+
+- ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+- ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+
+## हिन्दी
+
+- घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+- इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।

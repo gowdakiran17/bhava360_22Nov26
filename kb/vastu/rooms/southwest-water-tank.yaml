@@ -56,23 +56,21 @@ remedy: null
 vastu:
   zone: southwest
   room: water-tank
-  score: 0
-  tone: Steady
-  reason: The modern convention distinguishes an underground tank to the north or northeast from overhead storage
-    to the west or southwest. Shared building services are outside a unit reading. The selected profile gives a
-    contextual reading for this placement.
+  score: -1
+  tone: Take care
+  reason: Selected directional preference; review practical use and available alternatives calmly.
   by_tank_type:
     overhead:
       score: 1
       tone: Supportive
     underground:
-      score: 0
-      tone: Steady
+      score: -1
+      tone: Take care
     unspecified:
       score: 0
       tone: Steady
 evidence:
-  direction: neutral
+  direction: caution
   weight_class: secondary
   time_scope: static
   reference: none

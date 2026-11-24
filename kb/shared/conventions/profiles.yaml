@@ -9,6 +9,7 @@ presentation_flags:
     excluded_from: [dignity, friendships, dasha, yogas, ashtakavarga, shadbala, kp_significators, kp_star_lords, kp_sub_lords]
     usage: Compute optional display coordinates separately. Context may describe the overlay only. Keep the presentation flag and its bodies outside all scoring, candidate lists, derived facts and rule evaluation.
 calculation_profiles:
+  modern-study-v1: {system: lal-kitab, tag: MODERN, approval: draft, enabled: false, scope: separate optional modern systems, owner controlled}
   vedic-lahiri-v1:
     presentation_flags: [modern_outer]
     engine: Swiss Ephemeris

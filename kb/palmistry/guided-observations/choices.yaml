@@ -1,6 +1,6 @@
 version: 1
-illustration_view: Right palm facing the viewer, fingers upward. Mirror illustrations horizontally for the left
-  hand. Amber marks indicate the option being compared; proportions are qualitative.
+illustration_view: Right palm facing the viewer, fingers upward. Mirror illustrations horizontally for the left hand.
+  Amber marks indicate the option being compared; proportions are qualitative.
 choices:
   hands-earth:
     group: hands
@@ -13,6 +13,7 @@ choices:
     rules:
       left: palmistry.hands.earth-left
       right: palmistry.hands.earth-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   hands-air:
     group: hands
     option: air
@@ -24,6 +25,7 @@ choices:
     rules:
       left: palmistry.hands.air-left
       right: palmistry.hands.air-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   hands-fire:
     group: hands
     option: fire
@@ -35,6 +37,7 @@ choices:
     rules:
       left: palmistry.hands.fire-left
       right: palmistry.hands.fire-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   hands-water:
     group: hands
     option: water
@@ -46,6 +49,7 @@ choices:
     rules:
       left: palmistry.hands.water-left
       right: palmistry.hands.water-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-jupiter:
     group: mounts
     option: jupiter
@@ -57,6 +61,7 @@ choices:
     rules:
       left: palmistry.mounts.jupiter-left
       right: palmistry.mounts.jupiter-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-saturn:
     group: mounts
     option: saturn
@@ -68,6 +73,7 @@ choices:
     rules:
       left: palmistry.mounts.saturn-left
       right: palmistry.mounts.saturn-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-apollo:
     group: mounts
     option: apollo
@@ -79,6 +85,7 @@ choices:
     rules:
       left: palmistry.mounts.apollo-left
       right: palmistry.mounts.apollo-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-mercury:
     group: mounts
     option: mercury
@@ -90,6 +97,7 @@ choices:
     rules:
       left: palmistry.mounts.mercury-left
       right: palmistry.mounts.mercury-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-venus:
     group: mounts
     option: venus
@@ -101,6 +109,7 @@ choices:
     rules:
       left: palmistry.mounts.venus-left
       right: palmistry.mounts.venus-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-luna:
     group: mounts
     option: luna
@@ -112,6 +121,7 @@ choices:
     rules:
       left: palmistry.mounts.luna-left
       right: palmistry.mounts.luna-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-mars-upper:
     group: mounts
     option: mars-upper
@@ -123,6 +133,7 @@ choices:
     rules:
       left: palmistry.mounts.mars-upper-left
       right: palmistry.mounts.mars-upper-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-mars-lower:
     group: mounts
     option: mars-lower
@@ -134,6 +145,7 @@ choices:
     rules:
       left: palmistry.mounts.mars-lower-left
       right: palmistry.mounts.mars-lower-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-heart:
     group: lines
     option: heart
@@ -145,6 +157,7 @@ choices:
     rules:
       left: palmistry.lines.heart-left
       right: palmistry.lines.heart-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-head:
     group: lines
     option: head
@@ -156,6 +169,7 @@ choices:
     rules:
       left: palmistry.lines.head-left
       right: palmistry.lines.head-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-life:
     group: lines
     option: life
@@ -167,6 +181,7 @@ choices:
     rules:
       left: palmistry.lines.life-left
       right: palmistry.lines.life-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-life-short:
     group: lines
     option: life-short
@@ -178,6 +193,7 @@ choices:
     rules:
       left: palmistry.lines.life-short-left
       right: palmistry.lines.life-short-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-life-broken:
     group: lines
     option: life-broken
@@ -189,6 +205,7 @@ choices:
     rules:
       left: palmistry.lines.life-broken-left
       right: palmistry.lines.life-broken-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-fate:
     group: lines
     option: fate
@@ -200,6 +217,7 @@ choices:
     rules:
       left: palmistry.lines.fate-left
       right: palmistry.lines.fate-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-sun:
     group: lines
     option: sun
@@ -211,6 +229,7 @@ choices:
     rules:
       left: palmistry.lines.sun-left
       right: palmistry.lines.sun-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-mercury:
     group: lines
     option: mercury
@@ -222,6 +241,7 @@ choices:
     rules:
       left: palmistry.lines.mercury-left
       right: palmistry.lines.mercury-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-cross:
     group: marks
     option: cross
@@ -233,6 +253,7 @@ choices:
     rules:
       left: palmistry.marks.cross-left
       right: palmistry.marks.cross-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-star:
     group: marks
     option: star
@@ -244,6 +265,7 @@ choices:
     rules:
       left: palmistry.marks.star-left
       right: palmistry.marks.star-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-island:
     group: marks
     option: island
@@ -255,6 +277,7 @@ choices:
     rules:
       left: palmistry.marks.island-left
       right: palmistry.marks.island-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-grid:
     group: marks
     option: grid
@@ -266,6 +289,7 @@ choices:
     rules:
       left: palmistry.marks.grid-left
       right: palmistry.marks.grid-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-triangle:
     group: marks
     option: triangle
@@ -277,6 +301,7 @@ choices:
     rules:
       left: palmistry.marks.triangle-left
       right: palmistry.marks.triangle-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   marks-square:
     group: marks
     option: square
@@ -288,6 +313,7 @@ choices:
     rules:
       left: palmistry.marks.square-left
       right: palmistry.marks.square-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   fingers-long:
     group: fingers
     option: long
@@ -299,6 +325,7 @@ choices:
     rules:
       left: palmistry.fingers.long-left
       right: palmistry.fingers.long-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   fingers-short:
     group: fingers
     option: short
@@ -310,6 +337,7 @@ choices:
     rules:
       left: palmistry.fingers.short-left
       right: palmistry.fingers.short-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   fingers-thumb-long:
     group: fingers
     option: thumb-long
@@ -321,6 +349,7 @@ choices:
     rules:
       left: palmistry.fingers.thumb-long-left
       right: palmistry.fingers.thumb-long-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   fingers-thumb-short:
     group: fingers
     option: thumb-short
@@ -332,6 +361,7 @@ choices:
     rules:
       left: palmistry.fingers.thumb-short-left
       right: palmistry.fingers.thumb-short-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   lines-union:
     group: lines
     option: union
@@ -343,6 +373,7 @@ choices:
     rules:
       left: palmistry.lines.union-left
       right: palmistry.lines.union-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'
   mounts-mars:
     group: mounts
     option: mars
@@ -354,3 +385,4 @@ choices:
     rules:
       left: palmistry.mounts.mars-left
       right: palmistry.mounts.mars-right
+    confidence: 'clear-single: moderate; concordant repeat: high; uncertain or unobservable: withhold'

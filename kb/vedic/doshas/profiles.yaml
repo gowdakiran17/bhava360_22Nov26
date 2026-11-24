@@ -48,11 +48,11 @@ manglik:
   - moon
   - venus
   relief_profiles:
-    library: Use the stated benefic-contact and pair exceptions plus own/exalted mitigation on the library
-      house list.
-    regional-lagna: Regional Lagna-only five- or four-house list with explicitly selected reliefs; textual attribution pending.
-    raman: Use the second-house five-list, with separately bound Lagna, Moon or Venus origin. Apply the Raman
-      exceptions to the chosen origin.
+    library: Use the stated benefic-contact and pair exceptions plus own/exalted mitigation on the library house list.
+    regional-lagna: Regional Lagna-only five- or four-house list with explicitly selected reliefs; textual attribution
+      pending.
+    raman: Use the second-house five-list, with separately bound Lagna, Moon or Venus origin. Apply the Raman exceptions
+      to the chosen origin.
     rath: Lagna uses family_five. Moon uses lagna_five. No automatic transfer of another school’s sign exceptions.
     sgs: Use family_five from Lagna, including full Mars aspects to those houses.
   raman_house_sign_pairs:
@@ -100,5 +100,8 @@ kaal_sarp:
   - jupiter
   - venus
   - saturn
-sade_sati: Use the three Moon-relative Saturn transit phases, including re-entries. Never present as a natal
-  defect.
+sade_sati: Use the three Moon-relative Saturn transit phases, including re-entries. Never present as a natal defect.
+kuja_root:
+  tag: CLASSICAL
+  locator: BPHS 80.47–49
+  expanded_profile: MODERN/POPULAR

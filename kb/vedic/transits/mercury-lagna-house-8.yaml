@@ -5,7 +5,7 @@ title: Mercury lagna house 8
 doctrine_profile: vedic-editorial-v1
 approval: draft
 rule: Locate mercury in the current whole-sign chart relative to the stable natal Lagna. Highlight continuity through
-  disruption, longevity (ayu) during this sign interval. Judge Moon-relative comfort separately.
+  disruption during this sign interval. Judge Moon-relative comfort separately.
 conditions:
   all:
   - fact: transit.mercury.distance_from_lagna

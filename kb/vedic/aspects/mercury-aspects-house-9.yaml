@@ -38,7 +38,8 @@ sources:
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
 confidence: medium
-review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial application. Native Kannada and Hindi review pending.
+review_notes: Resolve functional polarity for this aspect. A caster aspecting its own sign supports that house. Editorial
+  application. Native Kannada and Hindi review pending.
 user_text:
   en: In matters of study and travel, asking clear questions may help you decide what to do next.
   kn: ಅಧ್ಯಯನ ಮತ್ತು ಪ್ರಯಾಣ ವಿಷಯದಲ್ಲಿ ಸ್ಪಷ್ಟ ಪ್ರಶ್ನೆಗಳನ್ನು ಕೇಳುವುದು ಮುಂದಿನ ಹೆಜ್ಜೆಯನ್ನು ಆಯ್ಕೆ ಮಾಡಲು ನೆರವಾಗಬಹುದು.
@@ -48,7 +49,7 @@ native_review:
   hi: pending
 remedy: null
 evidence:
-  direction: neutral
+  direction: context
   weight_class: modifier
   time_scope: natal
   reference: lagna
@@ -56,3 +57,7 @@ evidence:
     learning: related
     spirituality: related
     travel-relocation: related
+aspect_direction:
+  own_target: support
+  other_target: resolve functional polarity for this Lagna; unavailable means context
+  weight: modifier

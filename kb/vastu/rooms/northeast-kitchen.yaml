@@ -4,8 +4,8 @@ topic: rooms
 title: Kitchen · northeast
 doctrine_profile: vastu-editorial-v1
 approval: draft
-rule: Bind the observed kitchen and northeast zone to the same room within the dwelling. The southeast is Agni’s
-  cooking sector in the chapter 53 layout. The central cells are reserved for circulation in this household profile.
+rule: Bind the observed kitchen and northeast zone to the same room within the dwelling. The southeast is Agni’s cooking
+  sector in the chapter 53 layout. The central cells are reserved for circulation in this household profile.
 conditions:
   all:
   - fact: vastu.observed.sector
@@ -55,12 +55,11 @@ remedy: null
 vastu:
   zone: northeast
   room: kitchen
-  score: 0
-  tone: Steady
-  reason: The southeast is Agni’s cooking sector in the chapter 53 layout. The central cells are reserved for circulation
-    in this household profile. The selected profile gives a contextual reading for this placement.
+  score: -1
+  tone: Take care
+  reason: Selected directional preference; review practical use and available alternatives calmly.
 evidence:
-  direction: neutral
+  direction: caution
   weight_class: secondary
   time_scope: static
   reference: none

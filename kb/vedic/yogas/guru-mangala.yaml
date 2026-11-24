@@ -38,36 +38,20 @@ exceptions:
     op: eq
     value: true
   effect: cancel
-  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never
-    cancel an unrelated match.
+  reason: The bound prerequisite has been withdrawn by a matched cancellation. Apply only to that witness; never cancel
+    an unrelated match.
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Use the stated candidate formation; extra branches in other schools need separate review.
 sources:
-- book: Brihat Parashara Hora Shastra
-  work_id: bphs
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Named yoga chapters, guru-mangala
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
-- book: Saravali
-  work_id: saravali
-  edition: null
-  chapter: null
-  verse: null
-  other_locator: Yoga chapters; edition locator pending
-  supports: Named formation or convention; wording and display policy are editorial.
-  verification: pending
 - book: PyJHora yoga implementation
   work_id: pyjhora-yoga
   edition: pyjhora-yoga-506
   chapter: null
   verse: null
   other_locator: jhora/horoscope/chart/yoga.py, guru_mangala_yoga
-  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and
-    public copy follow the declared KB policy.
+  supports: Comparison of the named shape or positional branch only. The selected occupancy, strength gates and public
+    copy follow the declared KB policy.
   verification: verified
 confidence: medium
 review_notes: Draft interpretation; classical locator and native-language review pending.
@@ -91,3 +75,4 @@ evidence:
   time_scope: natal
   reference: none
   area_strength: {}
+tag: MODERN/POPULAR

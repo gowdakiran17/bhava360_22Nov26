@@ -151,7 +151,7 @@ def sign_path(system,cfg,chart,at):
         for sign in order:
             if cycle==0:
                 durations[sign] = c.years(sign,c.owner(sign))
-                if system=='narayana':
+                if system in ('chara','narayana'):
                     durations[sign] = min(durations[sign],cfg['first_pass_max_years'])
             span = durations[sign] if cycle==0 else 12-durations[sign]
             if span<0:

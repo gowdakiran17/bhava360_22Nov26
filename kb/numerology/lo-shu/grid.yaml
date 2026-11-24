@@ -10,9 +10,10 @@ layout:
 - - 8
   - 1
   - 6
-fill: Count nonzero birth-date digits including duplicates. Keep positions fixed. Missing and repeated cells indicate questions
-  for reflection only.
+fill: Count nonzero birth-date digits including duplicates. Keep positions fixed. Missing and repeated cells indicate
+  questions for reflection only.
 default_fill: birth-digits-only
 derived_additions: []
-school_variants: Some modern grids insert Moolank and Bhagyank or a consented Kua. Keep those overlays separately labelled; exclude them from the default counts.
-arrows_and_planes: deferred
+school_variants: Some modern grids insert Moolank and Bhagyank or a consented Kua. Keep those overlays separately
+  labelled; exclude them from the default counts.
+arrows_and_planes: numerology/lo-shu/planes.yaml

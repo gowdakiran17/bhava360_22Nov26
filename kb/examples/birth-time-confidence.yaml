@@ -75,11 +75,6 @@ b1:
     - d27
     - d40
     - d45
-    - d24-planet-sign
-    - d27-planet-sign
-    - d40-planet-sign
-    - d45-planet-sign
-    - d60-planet-sign
     month-resolution:
     - maha-dates
     - antar-dates

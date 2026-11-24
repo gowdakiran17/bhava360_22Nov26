@@ -19,6 +19,18 @@ aliases:
 reference_rules:
 - vedic.planets.sun
 used_by:
+- lal-kitab.placements.sun-house-1
+- lal-kitab.placements.sun-house-10
+- lal-kitab.placements.sun-house-11
+- lal-kitab.placements.sun-house-12
+- lal-kitab.placements.sun-house-2
+- lal-kitab.placements.sun-house-3
+- lal-kitab.placements.sun-house-4
+- lal-kitab.placements.sun-house-5
+- lal-kitab.placements.sun-house-6
+- lal-kitab.placements.sun-house-7
+- lal-kitab.placements.sun-house-8
+- lal-kitab.placements.sun-house-9
 - palmistry.lines.sun
 - palmistry.lines.sun-left
 - palmistry.lines.sun-right

@@ -16,4 +16,5 @@ admin_note: Use this label for a timing method that advances chart points by the
 aliases: []
 reference_rules: []
 used_by:
+- western.r3-readings.solar-arc
 - western.solar-arc.directed-contact

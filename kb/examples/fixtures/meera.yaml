@@ -12,7 +12,7 @@ stable_birth_panchanga:
   tithi: 7
   nakshatra: purva-bhadrapada
   yoga: 16
-  karana_half: 12
+  karana_half: 13
 sunrise_local: '2001-12-21T07:09:34.780427+05:30'
 precision: exact
 tier: A
@@ -209,7 +209,7 @@ pair_relationship_examples:
     end: '2030-05-24T18:21:54.377348Z'
 sade_sati: leaving
 consultation:
-  optional_practice: mars
+  optional_practice: null
   rule_chain:
   - vedic.planets-in-signs.sun-sagittarius
   - vedic.planets-in-signs.moon-aquarius
@@ -231,9 +231,8 @@ consultation:
   - vedic.yogas.raja
   - vedic.dashas-vimshottari.saturn-maha
   - vedic.dashas-vimshottari.saturn-mars-antar
-  - vedic.dashas-vimshottari.career-upcoming
-  - vedic.dashas-vimshottari.love-marriage-upcoming
   - vedic.dashas-vimshottari.love-marriage-house-lord
+  - vedic.dashas-vimshottari.learning-upcoming
   - vedic.transits.sun-moon-house-10
   - vedic.transits.moon-moon-house-4
   - vedic.transits.mars-moon-house-7
@@ -486,112 +485,6 @@ consultation:
   areas:
     career:
       lord: venus
-      promise: Moderate
-      state:
-      - active
-      windows:
-      - start: '2026-11-24'
-        end: '2026-11-25'
-        tone: Steady
-        pace: slower
-      availability: known-time
-      witnesses:
-        lord: Weak
-        occupants:
-        - - Malefic
-          - Moderate
-        aspects:
-        - Yogakaraka
-        - Benefic
-        - Malefic
-      moon_witnesses:
-        lord: Strong
-        occupants: []
-        aspects:
-        - Benefic
-        - Benefic
-        - Malefic
-      challenge_resolution: Moderate
-      card: Steady
-      modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-        - Complementary angular and trinal lordships can carry a shared theme; this
-          qualifies an existing promise.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-        - Complementary angular and trinal lordships can carry a shared theme; this
-          qualifies an existing promise.
-      active_yogas: &id001
-      - vedic.yogas.raja
-      practice_lord: mars
-      conflict_ladder:
-        promise: Moderate
-        activated_yogas: *id001
-        functional_lord: Malefic
-        participant_gate: see yoga witnesses
-        divisional: confirm after D1 floor
-        references: Lagna confirms, Moon describes experience
-        other_systems: disabled
-        final: Steady
-    love-marriage:
-      lord: saturn
-      promise: Strong
-      state:
-      - active
-      windows:
-      - start: '2026-11-24'
-        end: '2026-11-25'
-        tone: Supportive
-        pace: slower
-      availability: known-time
-      witnesses:
-        lord: Moderate
-        occupants:
-        - - Neutral
-          - Strong
-        - - Yogakaraka
-          - Strong
-        aspects:
-        - Yogakaraka
-        - Benefic
-        - Benefic
-      moon_witnesses:
-        lord: Moderate
-        occupants: []
-        aspects:
-        - Neutral
-        - Yogakaraka
-        - Benefic
-        - Malefic
-      challenge_resolution: Strong
-      card: Supportive
-      modulation:
-        maha:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-        - Complementary angular and trinal lordships can carry a shared theme; this
-          qualifies an existing promise.
-        antar:
-        - Inclusive relative placement can link the period themes.
-        - Directed compound friendship supports cooperation.
-        - Complementary angular and trinal lordships can carry a shared theme; this
-          qualifies an existing promise.
-      active_yogas: &id002 []
-      practice_lord: null
-      conflict_ladder:
-        promise: Strong
-        activated_yogas: *id002
-        functional_lord: Malefic
-        participant_gate: see yoga witnesses
-        divisional: confirm after D1 floor
-        references: Lagna confirms, Moon describes experience
-        other_systems: disabled
-        final: Supportive
-    money:
-      lord: mercury
       promise: Weak
       state:
       - no-promise
@@ -599,19 +492,89 @@ consultation:
       availability: known-time
       witnesses:
         lord: Weak
-        occupants: []
-        aspects:
+        occupants: &id001
+        - - Malefic
+          - Moderate
+        aspects: &id002
         - Yogakaraka
         - Benefic
         - Malefic
+        houses:
+          10:
+            lord: Weak
+            occupants: *id001
+            aspects: *id002
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Yogakaraka
+            - Benefic
+            - Malefic
+          6:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - Yogakaraka
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
       moon_witnesses:
-        lord: Weak
-        occupants: []
-        aspects:
+        lord: Strong
+        occupants: &id003 []
+        aspects: &id004
         - Benefic
         - Benefic
         - Malefic
-        - Benefic
+        houses:
+          10:
+            lord: Strong
+            occupants: *id003
+            aspects: *id004
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Benefic
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Malefic
+              - Weak
+            - - Malefic
+              - Weak
+            - - Benefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
       challenge_resolution: null
       card: null
       modulation:
@@ -625,11 +588,252 @@ consultation:
         - Directed compound friendship supports cooperation.
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
-      active_yogas: &id003 []
+      active_yogas: &id005
+      - vedic.yogas.raja
       practice_lord: null
       conflict_ladder:
         promise: Weak
-        activated_yogas: *id003
+        activated_yogas: *id005
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    love-marriage:
+      lord: saturn
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Moderate
+        occupants: &id006
+        - - Neutral
+          - Strong
+        - - Yogakaraka
+          - Strong
+        aspects: &id007
+        - Yogakaraka
+        - Benefic
+        - Benefic
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id006
+            aspects: *id007
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Yogakaraka
+            - Benefic
+            - Malefic
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+      moon_witnesses:
+        lord: Moderate
+        occupants: &id008 []
+        aspects: &id009
+        - Neutral
+        - Yogakaraka
+        - Benefic
+        - Malefic
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id008
+            aspects: *id009
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Benefic
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Malefic
+              - Weak
+            - - Malefic
+              - Weak
+            - - Benefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        - Complementary angular and trinal lordships can carry a shared theme; this
+          qualifies an existing promise.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        - Complementary angular and trinal lordships can carry a shared theme; this
+          qualifies an existing promise.
+      active_yogas: &id010 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id010
+        functional_lord: Malefic
+        participant_gate: see yoga witnesses
+        divisional: confirm after D1 floor
+        references: Lagna confirms, Moon describes experience
+        other_systems: disabled
+        final: null
+    money:
+      lord: mercury
+      promise: Weak
+      state:
+      - no-promise
+      windows: []
+      availability: known-time
+      witnesses:
+        lord: Weak
+        occupants: &id011 []
+        aspects: &id012
+        - Yogakaraka
+        - Benefic
+        - Malefic
+        houses:
+          2:
+            lord: Weak
+            occupants: *id011
+            aspects: *id012
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          5:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Malefic
+              - Weak
+            - - Malefic
+              - Weak
+            - - Benefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          9:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+      moon_witnesses:
+        lord: Weak
+        occupants: &id013 []
+        aspects: &id014
+        - Benefic
+        - Benefic
+        - Malefic
+        - Benefic
+        houses:
+          2:
+            lord: Weak
+            occupants: *id013
+            aspects: *id014
+          11:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Malefic
+              - Weak
+            - - Malefic
+              - Weak
+            - - Benefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          5:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          9:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+      challenge_resolution: null
+      card: null
+      modulation:
+        maha:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        - Complementary angular and trinal lordships can carry a shared theme; this
+          qualifies an existing promise.
+        antar:
+        - Inclusive relative placement can link the period themes.
+        - Directed compound friendship supports cooperation.
+        - Complementary angular and trinal lordships can carry a shared theme; this
+          qualifies an existing promise.
+      active_yogas: &id015 []
+      practice_lord: null
+      conflict_ladder:
+        promise: Weak
+        activated_yogas: *id015
         functional_lord: Malefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -645,23 +849,45 @@ consultation:
       availability: known-time
       witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id016 []
+        aspects: &id017
         - Neutral
         - Yogakaraka
         - Benefic
         - Malefic
+        houses:
+          1:
+            lord: Moderate
+            occupants: *id016
+            aspects: *id017
+          6:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - Yogakaraka
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id018
         - - Neutral
           - Strong
         - - Yogakaraka
           - Strong
-        aspects:
+        aspects: &id019
         - Yogakaraka
         - Benefic
         - Benefic
+        houses:
+          1:
+            lord: Moderate
+            occupants: *id018
+            aspects: *id019
+          6:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
       challenge_resolution: Strong
       card: null
       modulation:
@@ -675,11 +901,11 @@ consultation:
         - Directed compound friendship supports cooperation.
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
-      active_yogas: &id004 []
+      active_yogas: &id020 []
       practice_lord: null
       conflict_ladder:
         promise: Strong
-        activated_yogas: *id004
+        activated_yogas: *id020
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -688,27 +914,52 @@ consultation:
         final: null
     family-home:
       lord: mars
-      promise: Strong
+      promise: Weak
       state:
-      - no-window
+      - no-promise
       windows: []
       availability: known-time
       witnesses:
         lord: Strong
-        occupants: []
-        aspects:
+        occupants: &id021 []
+        aspects: &id022
         - Benefic
         - Benefic
         - Malefic
+        houses:
+          4:
+            lord: Strong
+            occupants: *id021
+            aspects: *id022
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Yogakaraka
+            - Benefic
+            - Malefic
       moon_witnesses:
         lord: Weak
-        occupants:
+        occupants: &id023
         - - Malefic
           - Moderate
-        aspects:
+        aspects: &id024
         - Yogakaraka
         - Benefic
         - Malefic
+        houses:
+          4:
+            lord: Weak
+            occupants: *id023
+            aspects: *id024
+          2:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+            - Benefic
       challenge_resolution: null
       card: null
       modulation:
@@ -722,11 +973,11 @@ consultation:
         - Directed compound friendship supports cooperation.
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
-      active_yogas: &id005 []
+      active_yogas: &id025 []
       practice_lord: null
       conflict_ladder:
-        promise: Strong
-        activated_yogas: *id005
+        promise: Weak
+        activated_yogas: *id025
         functional_lord: Yogakaraka
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -737,27 +988,86 @@ consultation:
       lord: mars
       promise: Strong
       state:
-      - no-window
-      windows: []
+      - active
+      windows:
+      - start: '2026-11-24'
+        end: '2026-11-25'
+        tone: Supportive
+        pace: slower
       availability: known-time
       witnesses:
         lord: Strong
-        occupants: []
-        aspects:
+        occupants: &id026 []
+        aspects: &id027
         - Benefic
         - Benefic
         - Malefic
+        houses:
+          4:
+            lord: Strong
+            occupants: *id026
+            aspects: *id027
+          5:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Moderate
+            - - Malefic
+              - Weak
+            - - Malefic
+              - Weak
+            - - Benefic
+              - Moderate
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          9:
+            lord: Strong
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
       moon_witnesses:
         lord: Weak
-        occupants:
+        occupants: &id028
         - - Malefic
           - Moderate
-        aspects:
+        aspects: &id029
         - Yogakaraka
         - Benefic
         - Malefic
-      challenge_resolution: null
-      card: null
+        houses:
+          4:
+            lord: Weak
+            occupants: *id028
+            aspects: *id029
+          5:
+            lord: Weak
+            occupants:
+            - - Benefic
+              - Weak
+            - - Malefic
+              - Weak
+            aspects:
+            - Benefic
+            - Benefic
+            - Benefic
+            - Malefic
+            - Malefic
+            - Benefic
+          9:
+            lord: Weak
+            occupants: []
+            aspects:
+            - Benefic
+            - Benefic
+            - Malefic
+      challenge_resolution: Strong
+      card: Supportive
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -769,17 +1079,17 @@ consultation:
         - Directed compound friendship supports cooperation.
         - Complementary angular and trinal lordships can carry a shared theme; this
           qualifies an existing promise.
-      active_yogas: &id006 []
+      active_yogas: &id030 []
       practice_lord: null
       conflict_ladder:
         promise: Strong
-        activated_yogas: *id006
+        activated_yogas: *id030
         functional_lord: Yogakaraka
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: null
+        final: Supportive
   transits:
     moon:
     - vedic.transits.sun-moon-house-10
@@ -824,10 +1134,15 @@ consultation:
   public_en:
     today: A quiet corner at home may help you unwind.
     month: You can leave extra time for changes in your plans this month.
-    career: You may find it useful to review your responsibilities at work.
-    love-marriage: You can make room for a conversation about life together.
-    traditional_practice: If you like, you can ask someone whether they would welcome
-      a hand with a task.
+    learning: You can explore a subject more deeply with a teacher.
+  public_kn:
+    today: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+    month: ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+    learning: ಶಿಕ್ಷಕರೊಂದಿಗೆ ಒಂದು ವಿಷಯವನ್ನು ಆಳವಾಗಿ ಕಲಿಯಬಹುದು.
+  public_hi:
+    today: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+    month: इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
+    learning: शिक्षक के साथ किसी विषय को गहराई से समझ सकते हैं।
   confidence:
     lagna: show
     bav: show
@@ -981,16 +1296,6 @@ consultation:
       - fact: dasha.vimshottari.pair_context_ready
         op: eq
         value: true
-    vedic.dashas-vimshottari.career-upcoming:
-      all:
-      - fact: dasha.upcoming.career_window
-        op: eq
-        value: true
-    vedic.dashas-vimshottari.love-marriage-upcoming:
-      all:
-      - fact: dasha.upcoming.love_marriage_window
-        op: eq
-        value: true
     vedic.dashas-vimshottari.love-marriage-house-lord:
       any:
       - fact: dasha.active_lord.owns_house_7
@@ -1000,6 +1305,11 @@ consultation:
         op: eq
         value: true
       - fact: dasha.active_lord.owns_house_11
+        op: eq
+        value: true
+    vedic.dashas-vimshottari.learning-upcoming:
+      all:
+      - fact: dasha.upcoming.learning_window
         op: eq
         value: true
     vedic.transits.sun-moon-house-10:
@@ -1340,7 +1650,7 @@ consultation:
       tithi: 7
       nakshatra: purva-bhadrapada
       yoga: 16
-      karana_half: 12
+      karana_half: 13
     kala_bala: eligible with resolved rise/set
     twilight:
       lower_deg: -6

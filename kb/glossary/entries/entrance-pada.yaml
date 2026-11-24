@@ -16,6 +16,7 @@ aliases: []
 reference_rules:
 - vastu.entrances.north
 used_by:
+- vastu.directions.northeast
 - vastu.entrances.north
 used_in_files:
 - vastu/entrances/padas.yaml

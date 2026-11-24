@@ -1,6 +1,6 @@
 version: 1
 approval: draft
-clock: vedic/dashas/vimshottari/periods.yaml
+clock: kalachakra-julian
 access: admin
 classification: advanced
 sign_years:
@@ -202,3 +202,8 @@ groups:
       - gemini
       - taurus
       - aries
+default_year: julian-365.25
+year_days:
+  julian-365.25: 365.25
+  mean-gregorian: 365.2425
+  savana: 360

@@ -2,12 +2,23 @@ version: 1
 scope: Rule and meaning entries
 entry_template: templates/entry.yaml
 supported_locales:
-  required: [en, kn, hi]
-  planned: [te, ta, ml, es, fr]
+  required:
+  - en
+  - kn
+  - hi
+  planned:
+  - te
+  - ta
+  - ml
+  - es
+  - fr
   fallback: en
 localized_copy:
-  fields: [user_text, remedy.user_text]
-  resolution: Resolve each field separately. Use the requested locale when present, otherwise use that field’s English text.
+  fields:
+  - user_text
+  - remedy.user_text
+  resolution: Resolve each field separately. Use the requested locale when present, otherwise use that field’s English
+    text.
   authoring: Supply nonblank strings for required locales. Omit planned keys until their text is available.
 canonical_id: system.topic-key.slug
 example_id: vedic.houses.mars-house-7
@@ -15,43 +26,98 @@ conditions:
   root: all, any or not
   single_leaf: Wrap one typed fact predicate in an all list.
   nested_leaves: Use fact, op and value.
-confidence: [high, medium, low, disputed]
+confidence:
+- high
+- medium
+- low
+- disputed
 traditions_differ: A low-confidence or disputed entry records the profile and the point of disagreement.
 exceptions: Store cancellations here with a when predicate, a cancel or soften effect, and a reason.
 life_areas:
   catalogue: life-areas/catalog.yaml
   assignments: Tag every clearly applicable area using its catalogue key.
-  empty: Use [] for an area-neutral definition or a rule whose area depends on the specific planet, house or activity supplied at runtime.
-user_tones: [Supportive, Steady, Take care]
+  empty: Use [] for an area-neutral definition or a rule whose area depends on the specific planet, house or activity
+    supplied at runtime.
+user_tones:
+- Supportive
+- Steady
+- Take care
 vedic_sign_entries:
   extension: rasi
-  fields: [element, modality, ruler, traditional_gender, nature, kalapurusha_body_parts, exaltation_peak_degrees, debilitation_peak_degrees, moolatrikona_sign_for, moolatrikona_degree_limits]
-  dignity: Peak degrees are measured within this sign. Empty collections mean no assignment among the seven classical grahas. Moolatrikona sign membership alone cannot establish a degree-specific dignity.
-  glossary: Movable, fixed and dual describe modes of expression. Krura and saumya are traditional forceful and gentle sign classes. Gender and body correspondences are symbolic.
-  degree_limits: Pairs give the degree boundaries in Phaladeepika I.7. Preserve exact exaltation peaks at shared boundaries; use vedic/dignity/sign-dignities.yaml for single-label endpoint precedence.
+  fields:
+  - element
+  - modality
+  - ruler
+  - traditional_gender
+  - nature
+  - kalapurusha_body_parts
+  - exaltation_peak_degrees
+  - debilitation_peak_degrees
+  - moolatrikona_sign_for
+  - moolatrikona_degree_limits
+  dignity: Peak degrees are measured within this sign. Empty collections mean no assignment among the seven classical
+    grahas. Moolatrikona sign membership alone cannot establish a degree-specific dignity.
+  glossary: Movable, fixed and dual describe modes of expression. Krura and saumya are traditional forceful and gentle
+    sign classes. Gender and body correspondences are symbolic.
+  degree_limits: Pairs give the degree boundaries in Phaladeepika I.7. Preserve exact exaltation peaks at shared boundaries;
+    use vedic/dignity/sign-dignities.yaml for single-label endpoint precedence.
 vedic_planet_entries:
   extension: graha
-  fields: [karakatvas, nature, dignity, natural_friendships, directional_strength, symbolic_body_parts]
-  own_sign_degrees: Sign membership spans 0 inclusive to 30 exclusive. Retain overlapping dignity flags and use the KB-01 degree limits for moolatrikona.
-  natural_friendships: Directed natal relationships from the selected graha to the other six classical grahas. Keep temporary relationships separate.
+  fields:
+  - karakatvas
+  - nature
+  - dignity
+  - natural_friendships
+  - directional_strength
+  - symbolic_body_parts
+  own_sign_degrees: Sign membership spans 0 inclusive to 30 exclusive. Retain overlapping dignity flags and use the
+    KB-01 degree limits for moolatrikona.
+  natural_friendships: Directed natal relationships from the selected graha to the other six classical grahas. Keep
+    temporary relationships separate.
   directional_strength: Peak house identifies the angle for maximum dig bala. Exact strength depends on angular distance.
   nodes: Empty dignity tables and unassigned friendships and dig bala denote a deliberate doctrine choice.
-  functional_nature: For each whole-sign Lagna list houses owned. The strict single-graha yogakaraka flag requires ownership of both an angle (4, 7 or 10) and a trine (5 or 9). Nodes rule no houses in this profile.
+  functional_nature: For each whole-sign Lagna list houses owned. The strict single-graha yogakaraka flag requires
+    ownership of both an angle (4, 7 or 10) and a trine (5 or 9). Nodes rule no houses in this profile.
 vedic_nakshatra_entries:
   extension: nakshatra
-  fields: [number, span_degrees, span_arcminutes, signs_spanned, vimshottari_lord, deity, symbol, gana, muhurta_nature, padas]
-  coordinates: Exact absolute sidereal arcminutes from Aries. Start inclusive and end exclusive. Normalize 360 degrees to zero before lookup.
+  fields:
+  - number
+  - span_degrees
+  - span_arcminutes
+  - signs_spanned
+  - vimshottari_lord
+  - deity
+  - symbol
+  - gana
+  - muhurta_nature
+  - padas
+  coordinates: Exact absolute sidereal arcminutes from Aries. Start inclusive and end exclusive. Normalize 360 degrees
+    to zero before lookup.
   padas: Four successive 200-arcminute quarters, each binding its natal rasi and its D9 sign.
 vedic_house_entries:
   extension: bhava
   applies_to: The twelve vedic.houses.house-N reference entries.
-  fields: [number, significations, groupings, natural_karakas, symbolic_body_parts, bhavat_bhavam]
+  fields:
+  - number
+  - significations
+  - groupings
+  - natural_karakas
+  - symbolic_body_parts
+  - bhavat_bhavam
   bhavat_bhavam: Count N houses inclusively from house N, wrapping after twelve.
   body_convention: Kalapurusha sequence by ordinal house, irrespective of the occupying sign.
 western_outer_planet_entries:
   extension: outer_planet
-  fields: [themes, discovery_year, modern_rulership, traditional_ruler, generational_use, personal_use, orbs]
-  orbs: Resolve the named natal table and compare absolute angular deviation inclusively. Only listed major aspects qualify for personal use.
+  fields:
+  - themes
+  - discovery_year
+  - modern_rulership
+  - traditional_ruler
+  - generational_use
+  - personal_use
+  - orbs
+  orbs: Resolve the named natal table and compare absolute angular deviation inclusively. Only listed major aspects
+    qualify for personal use.
 vedic_state_entries:
   extension: state
   fields_by_state:
@@ -101,141 +167,256 @@ vedic_state_entries:
     - orb_degrees
 vedic_planets_in_signs:
   extension: placement
-  fields: [dignity, themes]
-  sign_class: Sign-level exaltation, debilitation or ownership takes precedence over the natural relationship to the ruler. Unassigned nodal dignity is disputed.
-  degree_sensitive: Retain the KB-01/02 limits for moolatrikona and own sign, and the exact peak for exaltation or debilitation. A sign-only match cannot establish an exact degree state.
+  fields:
+  - dignity
+  - themes
+  sign_class: Sign-level exaltation, debilitation or ownership takes precedence over the natural relationship to the
+    ruler. Unassigned nodal dignity is disputed.
+  degree_sensitive: Retain the KB-01/02 limits for moolatrikona and own sign, and the exact peak for exaltation or
+    debilitation. A sign-only match cannot establish an exact degree state.
   cancellation: A debility exception references a candidate rule and applies only to the same selected graha.
 vedic_planets_in_houses:
   extension: placement
-  fields: [graha, house, reference, related_placement, themes, grouping_effects, dig_bala]
+  fields:
+  - graha
+  - house
+  - reference
+  - related_placement
+  - themes
+  - grouping_effects
+  - dig_bala
   reference: Whole-sign natal house counted from a stable Lagna.
   related_placement: Treat this entry and the linked vedic.houses placement as one piece of evidence.
   dig_bala: Match the KB-02 peak house. Calculating a strength value requires angular distance. Nodes are unassigned.
   related_rules: Optional top-level list of separate rules to consult. Each rule evaluates its own conditions.
 vedic_house_lord_entries:
   extension: house_pair
-  fields: [source_house, occupied_house, themes, source_groups, occupied_groups, logic, reciprocal_placement]
-  chart: Use the classical ruler of the source house sign in the natal whole-sign chart. Bind modifiers and candidate associations to the same lords and chart.
-  related_rules: Evaluate each yoga separately. Raja and dhana require distinct eligible lords actually joined or exchanged in this profile. Exchanges require reciprocal occupation and distinct grahas.
+  fields:
+  - source_house
+  - occupied_house
+  - themes
+  - source_groups
+  - occupied_groups
+  - logic
+  - reciprocal_placement
+  chart: Use the classical ruler of the source house sign in the natal whole-sign chart. Bind modifiers and candidate
+    associations to the same lords and chart.
+  related_rules: Evaluate each yoga separately. Raja and dhana require distinct eligible lords actually joined or
+    exchanged in this profile. Exchanges require reciprocal occupation and distinct grahas.
   life_areas: Deduplicated union of both KB-04 houses.
 vedic_dosha_entries:
-  public_label: The four sensitive labels (shrapit, guru-chandal, pitru, grahan) use the localized public_label shared with their glossary entry. Traditional titles are staff evidence.
+  public_label: The four sensitive labels (shrapit, guru-chandal, pitru, grahan) use the localized public_label shared
+    with their glossary entry. Traditional titles are staff evidence.
   reference_paths: Matching and transit entries link to their governing KB tables using kb-relative paths.
   evaluation: Preserve natal formation separately from any relief, pair-only adjustment or timed interval.
 vedic_varga_entries:
   extension: varga
   method_catalog: vedic/vargas/methods.yaml
-  input: Use the same unrounded sidereal longitude for the selected point or Lagna in every division. Normalize modulo 360 degrees.
-  equal_parts: With zero-based natal sign and part indices, take floor(degrees within sign × parts / 30). Add stride × part to the seed modulo 12. The D2 rows give the result directly.
+  input: Use the same unrounded sidereal longitude for the selected point or Lagna in every division. Normalize modulo
+    360 degrees.
+  equal_parts: With zero-based natal sign and part indices, take floor(degrees within sign × parts / 30). Add stride
+    × part to the seed modulo 12. The D2 rows give the result directly.
   unequal_parts: D30 selects the parity row using lower-inclusive, upper-exclusive band edges in degrees.
   seed_order: Aries is odd. Parity runs odd/even, modality movable/fixed/dual, element fire/earth/air/water.
-  reading: Count houses from the divisional Lagna. Recompute it throughout the stated birth-time uncertainty. Use each method's existing read_access setting.
-  weights: Absolute Vimshopaka points within each 20-point scheme. Zero marks a chart outside the ten-chart scheme. These are weights for planetary dignity aggregation.
+  reading: Count houses from the divisional Lagna. Recompute it throughout the stated birth-time uncertainty. Use
+    each method's existing read_access setting.
+  weights: Absolute Vimshopaka points within each 20-point scheme. Zero marks a chart outside the ten-chart scheme.
+    These are weights for planetary dignity aggregation.
 vedic_shadbala_entries:
   extension: calculation
-  numeric_roles: [admin, tester]
-  public_fields: [user_text]
-  public_copy: Select a complete locale map from the reviewed qualitative phrase list in vedic/strength/shadbala/components.yaml. Do not interpolate any input, component, threshold or result into public text.
-  units: Sixty virupas (shashtiamsas of strength) make one rupa. Keep full precision until an authorized diagnostic display.
+  numeric_roles:
+  - admin
+  - tester
+  public_fields:
+  - user_text
+  public_copy: Select a complete locale map from the reviewed qualitative phrase list in vedic/strength/shadbala/components.yaml.
+    Do not interpolate any input, component, threshold or result into public text.
+  units: Sixty virupas (shashtiamsas of strength) make one rupa. Keep full precision until an authorized diagnostic
+    display.
 vedic_ashtakavarga_entries:
   extension: calculation
-  numeric_roles: [admin, tester]
-  public_fields: [user_text]
-  public_projection: Render only localized qualitative text. Keep offset tables, contributor bits, sign counts, reductions and pinda out of public evidence.
-  input: Raw prastara is indexed by target graha, contributor and sidereal sign. Each supportive mark contributes one.
-  reduction: Preserve raw BAV and SAV. Apply the named occupancy and weight profiles only to the separate reduced rows.
+  numeric_roles:
+  - admin
+  - tester
+  public_fields:
+  - user_text
+  public_projection: Render only localized qualitative text. Keep offset tables, contributor bits, sign counts, reductions
+    and pinda out of public evidence.
+  input: Raw prastara is indexed by target graha, contributor and sidereal sign. Each supportive mark contributes
+    one.
+  reduction: Preserve raw BAV and SAV. Apply the named occupancy and weight profiles only to the separate reduced
+    rows.
 vedic_saturn_transit_labels:
-  applies_to: [vedic/transits, vedic/doshas]
-  public_fields: [user_text, remedy.user_text]
-  technical_fields_access: [admin]
-  projection: Render localized copy only. Titles, phase names, identifiers, fact chains and timing evidence are administrative metadata.
+  applies_to:
+  - vedic/transits
+  - vedic/doshas
+  public_fields:
+  - user_text
+  - remedy.user_text
+  technical_fields_access:
+  - admin
+  projection: Render localized copy only. Titles, phase names, identifiers, fact chains and timing evidence are administrative
+    metadata.
 kp_entries:
-  public_fields: [user_text, remedy.user_text]
-  technical_fields_access: [admin]
-  projection: Only render the localized reflection after evaluation. Keep titles, cusp degrees, numbered intervals, house groups, ruling roles and significator chains in administrative evidence.
+  public_fields:
+  - user_text
+  - remedy.user_text
+  technical_fields_access:
+  - admin
+  projection: Only render the localized reflection after evaluation. Keep titles, cusp degrees, numbered intervals,
+    house groups, ruling roles and significator chains in administrative evidence.
 jaimini_entries:
-  public_fields: [user_text, remedy.user_text]
-  technical_fields_access: [admin]
-  projection: Render only the reviewed locale copy. Scheme, rank, karaka identity, chart frame, pada steps, aspect pairs, intervention counts, titles and source evidence are administrative.
+  public_fields:
+  - user_text
+  - remedy.user_text
+  technical_fields_access:
+  - admin
+  projection: Render only the reviewed locale copy. Scheme, rank, karaka identity, chart frame, pada steps, aspect
+    pairs, intervention counts, titles and source evidence are administrative.
 vedic_muhurta_activity_profiles:
   extension: activity_profile
   selection: vedic/muhurta/selection.yaml
   ranking: vedic/muhurta/ranking-policy.yaml
-  technical_fields_access: [admin]
-  public_fields: [localized_tone, user_text]
+  technical_fields_access:
+  - admin
+  public_fields:
+  - localized_tone
+  - user_text
 vedic_prashna_entries:
   routing: vedic/prashna/questions.yaml
   judgment: vedic/prashna/judgment.yaml
   public: Localized question reflection, eligible leaning with reasons, and optional review window.
-  restricted: Health uses the clinician referral. Legal requests use the lawyer referral. Legal house study and the advanced Kerala observation workflow are admin-only.
+  restricted: Health uses the clinician referral. Legal requests use the lawyer referral. Legal house study and the
+    advanced Kerala observation workflow are admin-only.
 vedic_matching_entries:
   extension: matching
   routing: vedic/matching/factors.yaml
-  evidence_access: [admin, tester]
-  public_fields: [localized_tone, user_text]
+  evidence_access:
+  - admin
+  - tester
+  public_fields:
+  - localized_tone
+  - user_text
 life_area_summaries:
   discovery: Follow summary_profile relative to an area's reading.yaml.
-  feeds: Resolve the five lists to existing Vedic rule IDs. Houses and karakas describe the natal theme; a stable relevant varga can corroborate it. A placement definition alone supplies no direction.
+  feeds: Resolve the five lists to existing Vedic rule IDs. Houses and karakas describe the natal theme; a stable
+    relevant varga can corroborate it. A placement definition alone supplies no direction.
   pipeline: life-areas/pipeline.yaml
-  selection: Use only approved, matched evidence from the person's chart. Establish a natal theme before selecting a tone. Use the active or named upcoming dasha to time it and a dated transit to refine that period. Withhold unsupported timing and omit the summary when natal evidence is missing.
-  tones: Use life-areas/tone.yaml after the conflict ladder and final birth-time cap. A transit alone cannot establish or reverse a natal theme. Apply matched exceptions before synthesis.
-  render: Render the selected tone's user_text alongside the existing matched area reasons. Resolve each locale field separately. Always append the health profile's doctor line to its summary; across health slots show only everyday wellbeing and routines.
+  selection: Use only approved, matched evidence from the person's chart. Establish a natal theme before selecting
+    a tone. Use the active or named upcoming dasha to time it and a dated transit to refine that period. Withhold
+    unsupported timing and omit the summary when natal evidence is missing.
+  tones: Use life-areas/tone.yaml after the conflict ladder and final birth-time cap. A transit alone cannot establish
+    or reverse a natal theme. Apply matched exceptions before synthesis.
+  render: Render the selected tone's user_text alongside the existing matched area reasons. Resolve each locale field
+    separately. Always append the health profile's doctor line to its summary; across health slots show only everyday
+    wellbeing and routines.
 safe_remedies:
   directory: remedies
-  link: Each catalogue practice links to a graha or house rule. Practices are optional traditional reflections and are never prerequisites for a reading.
-  types: [mantra-japa, charity, fasting, service, routine, temple-visit]
+  link: Each catalogue practice links to a graha or house rule. Practices are optional traditional reflections and
+    are never prerequisites for a reading.
+  types:
+  - mantra-japa
+  - charity
+  - fasting
+  - service
+  - routine
+  - temple-visit
   temple_visit: Optional, only when accessible without an offering or fee.
   cost: free
   legacy: Inline entries also retain the free boolean for existing callers.
-  fasting: Offer only as an explicitly selected existing practice for adults who know it is safe for them. Omit from health readings. Quiet reflection is available in the same copy.
-  display: Show the localized Traditional practice label, optional status and localized text. Use only free participation and freely available materials.
+  fasting: Offer only as an explicitly selected existing practice for adults who know it is safe for them. Omit from
+    health readings. Quiet reflection is available in the same copy.
+  display: Show the localized Traditional practice label, optional status and localized text. Use only free participation
+    and freely available materials.
 numerology_checks:
   systems: numerology/profiles.yaml
   transliteration: numerology/transliteration.yaml
   tools: checks/{checker-id}/profile.yaml
-  reductions: Use the selected system throughout a named metric. Bind raw compound meanings only to the unmodified Chaldean sum in the documented range. Bind a Pythagorean master meaning only to a retained metric result.
-  privacy: Compute identifiers locally in memory. Keep raw mobile and vehicle inputs out of logs, prompts and stored traces. Show arithmetic only in the admin/tester view; do not send it to the public renderer.
-  presentation: A standalone numeric reflection is Steady. The fit tone requires approved, matched independent evidence under the parent recipe. Missing evidence is limited. Display only the localized tone and localized reflection. Never propose a name or number change, a purchase, or a financial outcome.
+  reductions: Use the selected system throughout a named metric. Bind raw compound meanings only to the unmodified
+    Chaldean sum in the documented range. Bind a Pythagorean master meaning only to a retained metric result.
+  privacy: Compute identifiers locally in memory. Keep raw mobile and vehicle inputs out of logs, prompts and stored
+    traces. Show arithmetic only in the admin/tester view; do not send it to the public renderer.
+  presentation: A standalone numeric reflection is Steady. The fit tone requires approved, matched independent evidence
+    under the parent recipe. Missing evidence is limited. Display only the localized tone and localized reflection.
+    Never propose a name or number change, a purchase, or a financial outcome.
 vastu_layout_entries:
   profile: vastu/profile.yaml
   extension: vastu
-  public_fields: [localized_tone, user_text]
-  technical_fields_access: [admin]
-  projection: Resolve the localized tone and the matched room's user_text independently using the existing locale fallback. Render only the unit's observed rooms and reversible suggestions.
+  public_fields:
+  - localized_tone
+  - user_text
+  technical_fields_access:
+  - admin
+  projection: Resolve the localized tone and the matched room's user_text independently using the existing locale
+    fallback. Render only the unit's observed rooms and reversible suggestions.
 tarot_card_entries:
   extension: card_profile
   deck: tarot/draws/deck.yaml
   replay: tarot/draws/selection.yaml
   spreads: tarot/spreads/positions.yaml
   position_dictionary: tarot/positions/catalog.yaml
-  public: Localized glossary display label when specified, otherwise canonical RWS title, position prompt, localized tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply to interpretive text in every locale.
-  conventions: Aces have elemental roots; pages have polar quadrants; other courts use the specified rank crosswalk. Element tags for planetary trumps are editorial. No birth chart inference from the draw.
+  public: Localized glossary display label when specified, otherwise canonical RWS title, position prompt, localized
+    tone and user_text; include the shared reflection footer. The title is a card identifier. Fear-word checks apply
+    to interpretive text in every locale.
+  conventions: Aces have elemental roots; pages have polar quadrants; other courts use the specified rank crosswalk.
+    Element tags for planetary trumps are editorial. No birth chart inference from the draw.
 palmistry_guided_entries:
   extension: guided
   intake: palmistry/guided-observations/questions.yaml
   choices: palmistry/guided-observations/choices.yaml
-  routing: Bind one confirmed choice on its recorded physical hand. Use its hand-specific entry once. Older undifferentiated observations retain their original IDs.
-  public_fields: [localized_tone, user_text, reflection_footer]
-  technical_fields_access: [admin]
+  routing: Bind one confirmed choice on its recorded physical hand. Use its hand-specific entry once. Older undifferentiated
+    observations retain their original IDs.
+  public_fields:
+  - localized_tone
+  - user_text
+  - reflection_footer
+  technical_fields_access:
+  - admin
 reading_evidence:
-  required: [direction, weight_class, time_scope, reference, area_strength]
+  required:
+  - direction
+  - weight_class
+  - time_scope
+  - reference
+  - area_strength
   visibility: Internal metadata on every reading rule, including source aliases.
-  direction: {support: generally supports the area, neutral: assessed without directional preference, caution: invites care in this area, context: descriptive or unresolved}
-  weight_class: {primary: may anchor, secondary: corroborates, modifier: changes an existing indication, context: explains without setting a tone}
-  time_scope: {natal: birth-chart condition, dasha: period window, transit: moving chart contact or timed overlay, day: calendar day, event: a particular question or event, static: reference or non-temporal observation}
-  reference: {lagna: counted or anchored from ascendant, moon: counted or anchored from Moon, sun: counted or anchored from Sun, none: no such fixed origin}
-  area_strength: Each declared life_area has one relevance. Core is directly addressed, related contributes supporting context, incidental is a peripheral association. Area-neutral rules use an empty map.
-  runtime: The stored direction is generic. At KB-36 rung 3 use the chart's functional polarity for evidence about a specific graha's lordship. A context-only observation never anchors tone. See shared/explain/tone-contribution.yaml.
+  direction:
+    support: generally supports the area
+    neutral: assessed without directional preference
+    caution: invites care in this area
+    context: descriptive or unresolved
+  weight_class:
+    primary: may anchor
+    secondary: corroborates
+    modifier: changes an existing indication
+    context: explains without setting a tone
+  time_scope:
+    natal: birth-chart condition
+    dasha: period window
+    transit: moving chart contact or timed overlay
+    day: calendar day
+    event: a particular question or event
+    static: reference or non-temporal observation
+  reference:
+    lagna: counted or anchored from ascendant
+    moon: counted or anchored from Moon
+    sun: counted or anchored from Sun
+    none: no such fixed origin
+  area_strength: Each declared life_area has one relevance. Core is directly addressed, related contributes supporting
+    context, incidental is a peripheral association. Area-neutral rules use an empty map.
+  runtime: The stored direction is generic. At KB-36 rung 3 use the chart's functional polarity for evidence about
+    a specific graha's lordship. A context-only observation never anchors tone. See shared/explain/tone-contribution.yaml.
 birth_time_confidence:
   availability: shared/confidence/output-matrix.yaml
   record: Persist tier, rectified and withheld IDs per bound reading. Omitted evidence is unknown.
   collection_facts: Array facts are internal metadata and do not support scalar eq or in predicates.
   public: Select only the localized explanation from shared/confidence/copy.yaml.
-
 period_and_yoga_bindings:
   recipes: life-areas/recipes.yaml
-  modulation: Resolve the shared lord and pair note sets in vedic/dashas/vimshottari/modulation.yaml for each named period. Upcoming records link to existing transit predicates.
-  yoga: Every individual yoga references the shared activation record, binds the actual grahas of its formation, applies exceptions, then the participant grade and period gates.
+  modulation: Resolve the shared lord and pair note sets in vedic/dashas/vimshottari/modulation.yaml for each named
+    period. Upcoming records link to existing transit predicates.
+  yoga: Every individual yoga references the shared activation record, binds the actual grahas of its formation, applies
+    exceptions, then the participant grade and period gates.
   sensitive: An admin-only rule has a null public key and no reading, translation, alias or consumer route.
 vedic_area_varga_entries:
   release:
@@ -243,3 +424,9 @@ vedic_area_varga_entries:
   - post-mvp
   scope: Topic readings use a typed condition for the bound factor; calculation entries retain the varga method block.
     Only MVP topic readings feed synthesis.
+glossary_approval: 'Glossary records omit approval; they remain review material. Addressable reading rules require
+  approval: draft until owner approval.'
+optional_rule_metadata:
+  tag: CLASSICAL, MODERN, or MODERN/POPULAR lineage label.
+  feature_gate: Registered explicit product gate; disabled entries have no public payload or route.
+  aspect_direction: 'House-specific modifier: own target protects; otherwise use resolved chart-specific polarity.'

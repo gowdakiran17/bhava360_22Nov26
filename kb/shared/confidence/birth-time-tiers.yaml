@@ -5,34 +5,64 @@ profile: birth-time-confidence-v1
 precision_source: shared/conventions/time.yaml
 output_matrix: shared/confidence/output-matrix.yaml
 copy_source: shared/confidence/copy.yaml
-tiers: {A: Full, B: Approximate, C: Moon chart}
+tiers:
+  A: Full
+  B: Approximate
+  C: Moon chart
 declared_precision:
-  exact: {tier: A, assessment_radius_seconds: 120, message: full}
-  "±5 min": {tier: B, message: approximate}
-  "±15 min": {tier: B, message: approximate}
-  "±1 h": {tier: C, message: moon-approximate}
-  unknown: {tier: C, message: moon-unknown}
+  exact:
+    tier: A
+    assessment_radius_seconds: 120
+    message: full
+  ±5 min:
+    tier: B
+    message: approximate
+  ±15 min:
+    tier: B
+    message: approximate
+  ±1 h:
+    tier: C
+    message: moon-approximate
+  unknown:
+    tier: C
+    message: moon-unknown
 interval:
-  finite: Use the declared radius in time.yaml unless assessment_radius_seconds is specified. Include both limits around the resolved UTC instant.
-  unknown: Use the entire local civil date in the resolved IANA zone, from its start up to but excluding the next date. Local noon is only the working instant.
+  finite: Use the declared radius in time.yaml unless assessment_radius_seconds is specified. Include both limits
+    around the resolved UTC instant.
+  unknown: Use the entire local civil date in the resolved IANA zone, from its start up to but excluding the next
+    date. Local noon is only the working instant.
   varga_minimum_radius_seconds: 300
 stability:
-  proof: Require complete transition coverage for each bound fact throughout its interval. Equal samples at the endpoints alone cannot establish stability.
-  precedence: A changing, missing or unproved dependency withholds the output. Stability cannot restore a tier-hidden output.
+  proof: Require complete transition coverage for each bound fact throughout its interval. Equal samples at the endpoints
+    alone cannot establish stability.
+  precedence: A changing, missing or unproved dependency withholds the output. Stability cannot restore a tier-hidden
+    output.
   lagna_edge: Within about one degree of a sign boundary, check whether the crossing actually lies in the interval.
-  moon_edge: Within about one degree of a nakshatra boundary, check the actual crossing before admitting a starting lord or dependent dates.
-  varga_edge: Check every interpreting sign including the divisional Lagna across the wider of the tier interval and the minimum varga interval.
+  moon_edge: Within about one degree of a nakshatra boundary, check the actual crossing before admitting a starting
+    lord or dependent dates.
+  varga_edge: Check every interpreting sign including the divisional Lagna across the wider of the tier interval and
+    the minimum varga interval.
   unproved: Omit the dependent evidence. An omitted promise factor supplies no adverse vote.
 rectification:
   record_default: false
   mvp: Every record uses the declared precision. Past-event input alone cannot raise a tier.
   future_acceptance_owner: KB-47
+  post_mvp_method: vedic/rectification/method.yaml
 traditions_differ:
-- precision: "±5 min"
+- precision: ±5 min
   selected: Tier B
-  alternative: Tier A except D60, D40, D45, KP cusp sub-lords and derived cusp outputs, and Pratyantar/Sookshma windows, subject to every stability gate.
+  alternative: Tier A except D60, D40, D45, KP cusp sub-lords and derived cusp outputs, and Pratyantar/Sookshma windows,
+    subject to every stability gate.
   owner_decision: confirmed-conservative-default
 sources:
-- {basis: Bhava360 product review, locator: Vedic Astrologer item 7 (23 Nov 2026), verification: supplied-in-brief}
-- {basis: Consultation method, locator: Section 2.2 C-VER-01 through C-VER-03, verification: pending}
-- {basis: Product requirements, locator: Section 8.4.2 divisional sign stability, verification: supplied-in-brief}
+- basis: Bhava360 product review
+  locator: Vedic Astrologer item 7 (23 Nov 2026)
+  verification: supplied-in-brief
+- basis: Consultation method
+  locator: Section 2.2 C-VER-01 through C-VER-03
+  verification: pending
+- basis: Product requirements
+  locator: Section 8.4.2 divisional sign stability
+  verification: supplied-in-brief
+surya_lagna: Optional stable solar-sign perspective (BPHS ch.73, edition check pending); retain Chandra as default.
+  Neither restores natal houses.

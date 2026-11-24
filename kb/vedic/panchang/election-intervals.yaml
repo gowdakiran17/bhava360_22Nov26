@@ -154,3 +154,6 @@ durmuhurta:
     night: []
 indexing: One-based fifteenths of actual daytime or following night. PyJHora 5.0.6 index convention; other almanacs
   differ.
+traditions_differ: Preserve the existing Ardra 21-ghati convention; 11 is an almanac alternative pending edition verification.
+  Thursday/Friday durmuhurta use the recorded PyJHora slots; local almanacs can differ, and must be represented as
+  a complete alternate profile.

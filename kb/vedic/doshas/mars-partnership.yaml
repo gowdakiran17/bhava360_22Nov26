@@ -4,9 +4,9 @@ topic: doshas
 title: Manglik · Kuja dosha
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Count whole signs to natal Mars from the bound origin and apply only its selected house list. The library
-  default counts 1, 2, 4, 7, 8 and 12 from Lagna. Evaluate natal exceptions first, then any pair-only exception.
-  The SGS regional profile additionally checks full Mars aspects.
+rule: Count whole signs to natal Mars from the bound origin and apply only its selected house list. The library default
+  counts 1, 2, 4, 7, 8 and 12 from Lagna. Evaluate natal exceptions first, then any pair-only exception. The SGS regional
+  profile additionally checks full Mars aspects.
 conditions:
   any:
   - all:
@@ -105,8 +105,8 @@ exceptions:
       op: eq
       value: true
   effect: cancel
-  reason: In a matched pair only, comparable surviving placements balance the pair interpretation. Keep both
-    natal records.
+  reason: In a matched pair only, comparable surviving placements balance the pair interpretation. Keep both natal
+    records.
 - when:
     all:
     - fact: dosha.mars.relief_profile
@@ -117,8 +117,7 @@ exceptions:
       op: eq
       value: true
   effect: cancel
-  reason: 'House/sign exemptions: 2 Gemini/Virgo, 4 Aries/Scorpio, 7 Cancer/Capricorn, 8 Sagittarius/Pisces,
-    12 Taurus/Libra.'
+  reason: 'House/sign exemptions: 2 Gemini/Virgo, 4 Aries/Scorpio, 7 Cancer/Capricorn, 8 Sagittarius/Pisces, 12 Taurus/Libra.'
 - when:
     all:
     - fact: dosha.mars.relief_profile
@@ -178,6 +177,9 @@ traditions_differ:
   note: MODERN/POPULAR regional Kuja doctrine. Default Lagna 1/2/4/7/8/12; other schools omit the second or compare
     Moon and Venus as separately labelled references. Resolve natal reliefs before pair balance. Raman, Muhurtha,
     marriage chapter.
+- profile: vedic-editorial-v1
+  note: BPHS Stri Jataka ch.80 vv.47–49 is the classical root. Expanded references and remedies are modern regional
+    practice.
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -203,6 +205,14 @@ sources:
   other_locator: Fixed information, section 31
   supports: Regional aspect-based screen, six ascendant exemptions and pair comparison.
   verification: verified
+- book: Brihat Parashara Hora Shastra
+  work_id: bphs
+  edition: null
+  chapter: 80
+  verse: 47–49
+  other_locator: Stri Jataka
+  supports: Classical root only; expanded modern house list is separate.
+  verification: pending
 confidence: disputed
 review_notes: MODERN/POPULAR. Compare like references; never infer a relationship outcome from this factor alone.
 user_text:
@@ -218,9 +228,9 @@ remedy:
   free: true
   cost: free
   user_text:
-    en: "You can give each person a turn to speak before deciding together."
+    en: You can give each person a turn to speak before deciding together.
     kn: ಇಚ್ಛೆಯಿದ್ದರೆ ಒಟ್ಟಾಗಿ ತೀರ್ಮಾನಿಸುವ ಮೊದಲು ಇಬ್ಬರಿಗೂ ಮಾತನಾಡಲು ಅವಕಾಶ ಕೊಡಬಹುದು.
-    hi: "चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।"
+    hi: चाहें तो साथ में फ़ैसला लेने से पहले दोनों को अपनी बात कहने का अवसर दे सकते हैं।
 evidence:
   direction: caution
   weight_class: modifier

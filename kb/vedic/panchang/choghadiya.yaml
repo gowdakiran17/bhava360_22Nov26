@@ -4,8 +4,8 @@ topic: panchang
 title: Choghadiya
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: Use eight equal elapsed slots of day or night. Starting at the weekday’s first label in day-night.yaml
-  advance one position in the matching seven-label cycle per slot; sunset begins night slot one.
+rule: Use eight equal elapsed slots of day or night. Starting at the weekday’s first label in day-night.yaml advance
+  one position in the matching seven-label cycle per slot; sunset begins night slot one.
 conditions:
   all:
   - fact: panchang.choghadiya.active
@@ -47,3 +47,4 @@ evidence:
   area_strength:
     learning: related
     spirituality: related
+tag: MODERN/POPULAR

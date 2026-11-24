@@ -20,13 +20,14 @@ strength_notes:
     op: eq
     value: true
   effect: stronger
-  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
-    convention.
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity convention.
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
   note: Some practitioners examine other ninth-house, solar or lunar indications. This entry selects the narrower
     combination; it makes no judgement about relatives.
+- profile: vedic-editorial-v1
+  note: BPHS ch.83 (Santhanam) treats a different trigger; the product pattern is modern, not that verse.
 sources:
 - book: PyJHora dosha.py
   work_id: pyjhora-doshas
@@ -37,8 +38,8 @@ sources:
   supports: Contemporary positional reference. The reading and any narrowing of the screen are editorial.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
+  School-dependent formation contributes only to an established indication.
 user_text:
   en: You may enjoy hearing how a family custom began.
   kn: ಮನೆಯ ಆಚರಣೆಯೊಂದು ಹೇಗೆ ಆರಂಭವಾಯಿತು ಎಂದು ಕೇಳುವುದು ನಿಮಗೆ ಇಷ್ಟವಾಗಬಹುದು.
@@ -67,3 +68,4 @@ evidence:
   area_strength:
     family-home: related
     spirituality: related
+tag: MODERN/POPULAR

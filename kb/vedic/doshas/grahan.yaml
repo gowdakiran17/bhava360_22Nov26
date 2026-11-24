@@ -22,13 +22,15 @@ strength_notes:
     op: eq
     value: true
   effect: stronger
-  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity
-    convention.
+  reason: A separation within one degree makes the bound conjunction more exact under this editorial proximity convention.
 exceptions: []
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: The sign screen is broader than an astronomical eclipse, which requires the appropriate solar–lunar
-    alignment and eclipse geometry.
+  note: The sign screen is broader than an astronomical eclipse, which requires the appropriate solar–lunar alignment
+    and eclipse geometry.
+- profile: vedic-editorial-v1
+  note: Brihat Samhita ch.5 discusses eclipses astronomically. The same-sign reflection is editorial and does not
+    imply an eclipse.
 sources:
 - book: PyJHora dosha.py
   work_id: pyjhora-doshas
@@ -47,8 +49,8 @@ sources:
   supports: Classical astronomical distinction between eclipse types.
   verification: verified
 confidence: disputed
-review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending. School-dependent
-  formation contributes only to an established indication.
+review_notes: Keep the bound chart, reference and convention with the explanation. Native-language review pending.
+  School-dependent formation contributes only to an established indication.
 user_text:
   en: You can take a moment to notice what has your attention.
   kn: ನಿಮ್ಮ ಗಮನ ಯಾವ ಕಡೆ ಇದೆ ಎಂದು ಗಮನಿಸಬಹುದು.
@@ -66,9 +68,9 @@ remedy:
     kn: ಉತ್ತರಿಸುವ ಮೊದಲು ಪ್ರಶ್ನೆಯನ್ನು ಬರೆದಿಡುವುದು ನೆರವಾಗಬಹುದು.
     hi: जवाब देने से पहले सवाल लिख लेना उपयोगी हो सकता है।
 public_label:
-  en: Sun or Moon near a lunar node
-  kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನ ಬಳಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ
-  hi: चंद्र पथ के कटान के पास सूर्य या चंद्रमा
+  en: Sun or Moon sharing a sign with a lunar node
+  kn: ಚಂದ್ರಪಥದ ಸಂಧಿಬಿಂದುವಿನ ರಾಶಿಯಲ್ಲಿ ಸೂರ್ಯ ಅಥವಾ ಚಂದ್ರ
+  hi: चंद्र पथ के कटान वाली राशि में सूर्य या चंद्रमा
 evidence:
   direction: caution
   weight_class: modifier
@@ -76,3 +78,4 @@ evidence:
   reference: none
   area_strength:
     learning: core
+tag: MODERN/POPULAR

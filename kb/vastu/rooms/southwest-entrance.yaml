@@ -55,12 +55,11 @@ remedy: null
 vastu:
   zone: southwest
   room: entrance
-  score: 0
-  tone: Steady
-  reason: North and east are broad entrance preferences in this modern profile. Door location along a wall is a
-    separate observation. The selected profile gives a contextual reading for this placement.
+  score: -1
+  tone: Take care
+  reason: Selected directional preference; review practical use and available alternatives calmly.
 evidence:
-  direction: neutral
+  direction: caution
   weight_class: secondary
   time_scope: static
   reference: none

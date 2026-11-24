@@ -1,0 +1,80 @@
+approval: draft
+synthetic: true
+scenario: Scenario J2
+chart:
+  lagna: 0
+  moon_arcseconds: 684000
+  positions:
+    sun: 3
+    moon: 6
+    mars: 2
+    mercury: 4
+    jupiter: 5
+    venus: 0
+    saturn: 1
+    rahu: 6
+    ketu: 0
+  degree_in_sign:
+    sun: 4
+    moon: 10.0
+    mars: 13
+    mercury: 15
+    jupiter: 18
+    venus: 20
+    saturn: 23
+    rahu: 21
+    ketu: 21
+order:
+- aries
+- taurus
+- gemini
+- cancer
+- leo
+- virgo
+- libra
+- scorpio
+- sagittarius
+- capricorn
+- aquarius
+- pisces
+cycle_one:
+- 2
+- 11
+- 2
+- 9
+- 1
+- 1
+- 6
+- 5
+- 9
+- 8
+- 4
+- 6
+cycle_two:
+- 10
+- 1
+- 10
+- 3
+- 11
+- 11
+- 6
+- 7
+- 3
+- 4
+- 8
+- 6
+switch_at_year: 64
+user_text:
+  en: You can consider what would make your home routine easier.
+  kn: ಮನೆಯ ದಿನಚರಿಯನ್ನು ಸುಲಭಗೊಳಿಸುವ ವಿಷಯಗಳನ್ನು ಗಮನಿಸಬಹುದು.
+  hi: आप विचार कर सकते हैं कि घर की दिनचर्या को कैसे सहज बनाया जाए।
+modifier:
+  existing_card: Moderate
+  confirmed_vote: 1
+  result: Strong
+  without_existing_card: null
+period_example:
+  elapsed_years: 15
+  sign: cancer
+  topic_confirmed: true
+  rule: vedic.dashas-chara.home-topic

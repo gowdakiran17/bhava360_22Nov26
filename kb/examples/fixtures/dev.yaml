@@ -325,32 +325,60 @@ consultation:
   areas:
     career:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Weak
-        occupants:
+        occupants: &id001
         - - null
           - Moderate
         - - null
           - Moderate
-        aspects:
+        aspects: &id002
         - null
         - Benefic
         - null
         - null
+        houses:
+          10:
+            lord: Weak
+            occupants: *id001
+            aspects: *id002
+          2:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - null
+            - Benefic
+            - Benefic
+            - null
+          6:
+            lord: null
+            occupants: []
+            aspects:
+            - null
+            - null
+            - null
+          11:
+            lord: Moderate
+            occupants:
+            - - null
+              - Moderate
+            aspects:
+            - Benefic
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id001 []
+      active_yogas: &id003 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id001
+        promise: null
+        activated_yogas: *id003
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -359,28 +387,49 @@ consultation:
         final: null
     love-marriage:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Moderate
-        occupants:
+        occupants: &id004
         - - null
           - Weak
-        aspects:
+        aspects: &id005
         - null
         - null
+        houses:
+          7:
+            lord: Moderate
+            occupants: *id004
+            aspects: *id005
+          2:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - null
+            - Benefic
+            - Benefic
+            - null
+          11:
+            lord: Moderate
+            occupants:
+            - - null
+              - Moderate
+            aspects:
+            - Benefic
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id002 []
+      active_yogas: &id006 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id002
+        promise: null
+        activated_yogas: *id006
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -389,28 +438,55 @@ consultation:
         final: null
     money:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id007 []
+        aspects: &id008
         - null
         - Benefic
         - Benefic
         - null
+        houses:
+          2:
+            lord: Moderate
+            occupants: *id007
+            aspects: *id008
+          11:
+            lord: Moderate
+            occupants:
+            - - null
+              - Moderate
+            aspects:
+            - Benefic
+            - null
+          5:
+            lord: null
+            occupants: []
+            aspects:
+            - null
+          9:
+            lord: Moderate
+            occupants:
+            - - null
+              - Weak
+            aspects:
+            - Benefic
+            - null
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id003 []
+      active_yogas: &id009 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id003
+        promise: null
+        activated_yogas: *id009
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -419,29 +495,41 @@ consultation:
         final: null
     health:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Strong
-        occupants:
+        occupants: &id010
         - - null
           - null
         - - null
           - Strong
-        aspects:
+        aspects: &id011
         - null
+        houses:
+          1:
+            lord: Strong
+            occupants: *id010
+            aspects: *id011
+          6:
+            lord: null
+            occupants: []
+            aspects:
+            - null
+            - null
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id004 []
+      active_yogas: &id012 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id004
+        promise: null
+        activated_yogas: *id012
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -450,28 +538,41 @@ consultation:
         final: null
     family-home:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id013 []
+        aspects: &id014
         - Benefic
         - null
         - Benefic
         - null
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id013
+            aspects: *id014
+          2:
+            lord: Moderate
+            occupants: []
+            aspects:
+            - null
+            - Benefic
+            - Benefic
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id005 []
+      active_yogas: &id015 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id005
+        promise: null
+        activated_yogas: *id015
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -480,28 +581,47 @@ consultation:
         final: null
     learning:
       lord: null
-      promise: Weak
+      promise: null
       state:
-      - no-promise
+      - withheld
       windows: []
       availability: Moon-only; Lagna promise withheld
       witnesses: {}
       moon_witnesses:
         lord: Moderate
-        occupants: []
-        aspects:
+        occupants: &id016 []
+        aspects: &id017
         - Benefic
         - null
         - Benefic
         - null
+        houses:
+          4:
+            lord: Moderate
+            occupants: *id016
+            aspects: *id017
+          5:
+            lord: null
+            occupants: []
+            aspects:
+            - null
+          9:
+            lord: Moderate
+            occupants:
+            - - null
+              - Weak
+            aspects:
+            - Benefic
+            - null
+            - null
       challenge_resolution: null
       card: null
       modulation: {}
-      active_yogas: &id006 []
+      active_yogas: &id018 []
       practice_lord: null
       conflict_ladder:
-        promise: Weak
-        activated_yogas: *id006
+        promise: null
+        activated_yogas: *id018
         functional_lord: null
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
@@ -544,6 +664,16 @@ consultation:
     month: You can leave extra time for changes in your plans this month.
     confidence: Without a birth time, you can explore the parts of a Moon-sign reading
       that stay consistent through the day.
+  public_kn:
+    today: ಮನೆಯಲ್ಲಿ ಶಾಂತವಾದ ಜಾಗದಲ್ಲಿ ವಿಶ್ರಾಂತಿ ಪಡೆಯಬಹುದು.
+    month: ಈ ತಿಂಗಳು ಯೋಜನೆ ಬದಲಿಸಲು ಸ್ವಲ್ಪ ಹೆಚ್ಚು ಸಮಯ ಇಡಬಹುದು.
+    confidence: ಜನನ ಸಮಯ ತಿಳಿದಿಲ್ಲದಿದ್ದರೆ, ದಿನವಿಡೀ ಸ್ಥಿರವಾಗಿರುವ ಚಂದ್ರರಾಶಿ ಆಧಾರಿತ ಅಂಶಗಳನ್ನು
+      ನೋಡಬಹುದು.
+  public_hi:
+    today: घर का कोई शांत कोना आराम करने में मदद कर सकता है।
+    month: इस महीने योजनाओं में बदलाव के लिए अतिरिक्त समय रख सकते हैं।
+    confidence: जन्म समय मालूम न होने पर आप चंद्र राशि पर आधारित वे बातें देख सकते
+      हैं जो पूरे दिन एक जैसी रहती हैं।
   confidence:
     lagna: hide
     bav: hide

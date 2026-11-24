@@ -1,0 +1,50 @@
+id: lal-kitab.placements.moon-house-3
+system: lal-kitab
+topic: placements
+title: Moon in fixed house 3
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: Bind moon in fixed house 3 of the selected Lal Kitab chart.
+conditions:
+  all:
+  - fact: lal_kitab.planet.fixed_house
+    op: eq
+    value: 3
+  - fact: lal_kitab.planet.bound
+    op: eq
+    value: moon
+meaning: When considering everyday communication, you may find a chance to listen.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: modern-study-v1
+  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+sources:
+- book: Bhava360 fixed-house prompts
+  work_id: bhava360-fixed-house-prompts
+  edition: bhava360-fixed-house-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.placements.moon-house-3
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: editorial-no-classical-claim
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
+  single direction requires chart-specific corroboration. Retain context pending resolution.
+user_text:
+  en: When considering everyday communication, you may find a chance to listen.
+  kn: ದಿನನಿತ್ಯದ ಸಂವಹನ ಕುರಿತು ಆಲಿಸಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: रोज़ का संवाद पर विचार करते हुए सुनने का अवसर मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

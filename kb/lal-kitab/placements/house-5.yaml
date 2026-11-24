@@ -23,12 +23,12 @@ sources:
   verse: null
   other_locator: lal-kitab.placements.house-5
   supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
-  verification: pending
+  verification: editorial-no-classical-claim
 confidence: medium
-review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a single
-  direction requires chart-specific corroboration. Retain context pending resolution.
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
+  single direction requires chart-specific corroboration. Retain context pending resolution.
 user_text:
-  en: "You may reflect on an interest you enjoy when exploring this house."
+  en: You may reflect on an interest you enjoy when exploring this house.
   kn: ಈ ಭಾವವನ್ನು ನೋಡುವಾಗ “ನಿಮ್ಮ ನೆಚ್ಚಿನ ಆಸಕ್ತಿ” ಬಗ್ಗೆ ಯೋಚಿಸಬಹುದು.
   hi: इस भाव को देखते समय “अपनी पसंद की रुचि” पर विचार कर सकते हैं।
 native_review:
@@ -41,3 +41,5 @@ evidence:
   time_scope: natal
   reference: none
   area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

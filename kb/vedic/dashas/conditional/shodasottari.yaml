@@ -1,0 +1,41 @@
+approval: draft
+tag: CLASSICAL
+gate: hora-matches-paksha
+order:
+- sun
+- mars
+- jupiter
+- saturn
+- ketu
+- moon
+- mercury
+- venus
+years:
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+cycle_years: 116
+seed_star: 8
+count_direction: 1
+clock:
+  id: shodasottari-julian
+  days: 365.25
+policy: Separate optional period section alongside MVP Vimshottari. Missing gate inputs, false gate or disabled feature
+  withholds all public copy.
+sources:
+- BPHS chapter 46, primary locator pending
+- PyJHora 5.0.6 graha/shodasottari.py period weights and order checked
+traditions_differ: Use the selected clock and birth-star count throughout. Alternative solar years require a separately
+  labelled timeline. Some printed sequences use Rahu for the nodal slot; the selected PyJHora sequence uses Ketu.
+copy:
+  en: You can revisit a commitment in light of what has changed.
+  kn: ಬದಲಾದ ಪರಿಸ್ಥಿತಿಯನ್ನು ಗಮನಿಸಿ ಒಂದು ಬದ್ಧತೆಯನ್ನು ಮರುಪರಿಶೀಲಿಸಬಹುದು.
+  hi: बदली परिस्थिति को देखते हुए किसी वचन पर फिर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending

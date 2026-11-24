@@ -1,0 +1,50 @@
+id: lal-kitab.placements.rahu-house-1
+system: lal-kitab
+topic: placements
+title: Rahu in fixed house 1
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: Bind rahu in fixed house 1 of the selected Lal Kitab chart.
+conditions:
+  all:
+  - fact: lal_kitab.planet.fixed_house
+    op: eq
+    value: 1
+  - fact: lal_kitab.planet.bound
+    op: eq
+    value: rahu
+meaning: When considering how you approach a task, you may find a chance to explore a new approach.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: modern-study-v1
+  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+sources:
+- book: Bhava360 fixed-house prompts
+  work_id: bhava360-fixed-house-prompts
+  edition: bhava360-fixed-house-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.placements.rahu-house-1
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: editorial-no-classical-claim
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
+  single direction requires chart-specific corroboration. Retain context pending resolution.
+user_text:
+  en: When considering how you approach a task, you may find a chance to explore a new approach.
+  kn: ಕೆಲಸಕ್ಕೆ ನಿಮ್ಮ ನಿಲುವು ಕುರಿತು ಹೊಸ ವಿಧಾನ ಹುಡುಕಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: काम करने का तरीका पर विचार करते हुए नया तरीका खोजने का अवसर मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

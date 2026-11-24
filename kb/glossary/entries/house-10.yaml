@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a10
 - lal-kitab.placements.house-10
+- lal-kitab.placements.jupiter-house-10
+- lal-kitab.placements.ketu-house-10
+- lal-kitab.placements.mars-house-10
+- lal-kitab.placements.mercury-house-10
+- lal-kitab.placements.moon-house-10
+- lal-kitab.placements.rahu-house-10
+- lal-kitab.placements.saturn-house-10
+- lal-kitab.placements.sun-house-10
+- lal-kitab.placements.venus-house-10
 - vedic.aspects.jupiter-aspects-house-10
 - vedic.aspects.ketu-aspects-house-10
 - vedic.aspects.mars-aspects-house-10

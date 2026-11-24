@@ -1,0 +1,50 @@
+id: lal-kitab.placements.jupiter-house-9
+system: lal-kitab
+topic: placements
+title: Jupiter in fixed house 9
+doctrine_profile: lal-kitab-editorial-v1
+approval: draft
+rule: Bind jupiter in fixed house 9 of the selected Lal Kitab chart.
+conditions:
+  all:
+  - fact: lal_kitab.planet.fixed_house
+    op: eq
+    value: 9
+  - fact: lal_kitab.planet.bound
+    op: eq
+    value: jupiter
+meaning: When considering guidance you value, you may find a chance to share experience.
+life_areas: []
+strength_notes: []
+exceptions: []
+traditions_differ:
+- profile: modern-study-v1
+  note: Original editorial reflection. Edition-specific results and annual mappings need an authenticated witness.
+sources:
+- book: Bhava360 fixed-house prompts
+  work_id: bhava360-fixed-house-prompts
+  edition: bhava360-fixed-house-prompts-v1
+  chapter: null
+  verse: null
+  other_locator: lal-kitab.placements.jupiter-house-9
+  supports: Original product or reflection wording only; any historical or calculation claim requires its own evidence.
+  verification: editorial-no-classical-claim
+confidence: medium
+review_notes: Review exact locator, convention and native copy before release. Chart placement supplies a theme; a
+  single direction requires chart-specific corroboration. Retain context pending resolution.
+user_text:
+  en: When considering guidance you value, you may find a chance to share experience.
+  kn: ಮಾರ್ಗದರ್ಶನ ಕುರಿತು ಅನುಭವ ಹಂಚಿಕೊಳ್ಳಲು ಅವಕಾಶ ಸಿಗಬಹುದು.
+  hi: मार्गदर्शन पर विचार करते हुए अनुभव बाँटने का अवसर मिल सकता है।
+native_review:
+  kn: pending
+  hi: pending
+remedy: null
+evidence:
+  direction: context
+  weight_class: context
+  time_scope: natal
+  reference: none
+  area_strength: {}
+tag: MODERN
+feature_gate: modern-study-v1

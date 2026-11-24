@@ -20,6 +20,15 @@ reference_rules:
 used_by:
 - jaimini.arudha-padas.a5
 - lal-kitab.placements.house-5
+- lal-kitab.placements.jupiter-house-5
+- lal-kitab.placements.ketu-house-5
+- lal-kitab.placements.mars-house-5
+- lal-kitab.placements.mercury-house-5
+- lal-kitab.placements.moon-house-5
+- lal-kitab.placements.rahu-house-5
+- lal-kitab.placements.saturn-house-5
+- lal-kitab.placements.sun-house-5
+- lal-kitab.placements.venus-house-5
 - vedic.aspects.jupiter-aspects-house-5
 - vedic.aspects.ketu-aspects-house-5
 - vedic.aspects.mars-aspects-house-5

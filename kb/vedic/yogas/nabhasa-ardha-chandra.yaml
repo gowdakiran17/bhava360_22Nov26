@@ -49,9 +49,9 @@ sources:
 - book: Brihat Parashara Hora Shastra
   work_id: bphs
   edition: null
-  chapter: null
+  chapter: 35
   verse: null
-  other_locator: Nabhasa chapter
+  other_locator: Nabhasa Yogas, Santhanam chapter numbering; individual formation locator pending
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
 - book: Saravali

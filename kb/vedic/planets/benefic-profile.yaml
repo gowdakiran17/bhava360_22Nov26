@@ -1,23 +1,57 @@
 version: 1
 approval: draft
 profile: parashari-natural-v1
-always_benefic: [jupiter, venus]
-always_malefic: [sun, mars, saturn, rahu, ketu]
+always_benefic:
+- jupiter
+- venus
+always_malefic:
+- sun
+- mars
+- saturn
+- rahu
+- ketu
 moon:
   angle: (sidereal moon minus sun) modulo 360
   default: shukla
   variants:
-    shukla: {lower_deg: 0, lower_inclusive: false, upper_deg: 180, upper_inclusive: true}
-    bright-72: {tag: MODERN, lower_deg: 72, lower_inclusive: true, upper_deg: 288, upper_inclusive: true}
-    raman-ashtami: {tag: CLASSICAL, lower_deg: 84, lower_inclusive: true, upper_deg: 264, upper_inclusive: false}
-  note: The alternative uses measured elongation. A 72-degree threshold is distinct from the start of Ashtami at 84 degrees.
+    shukla:
+      lower_deg: 0
+      lower_inclusive: false
+      upper_deg: 180
+      upper_inclusive: true
+    bright-72:
+      tag: MODERN
+      lower_deg: 72
+      lower_inclusive: true
+      upper_deg: 288
+      upper_inclusive: true
+      basis: Bhava360 symmetric brightness convention; classical locator unverified.
+    raman-ashtami:
+      tag: CLASSICAL
+      lower_deg: 84
+      lower_inclusive: true
+      upper_deg: 264
+      upper_inclusive: false
+  note: The alternative uses measured elongation. A 72-degree threshold is distinct from the start of Ashtami at 84
+    degrees.
 mercury:
-  tag: CLASSICAL
+  tag: MODERN/POPULAR
   default: predominance
   alternative: mercury-strict
-  associates: [sun, moon, mars, jupiter, venus, saturn, rahu, ketu]
-  method: Count other grahas in Mercury's D1 sign. Malefic only when malefics outnumber benefics. Count both nodes and use the selected Moon class.
-  traditions_differ: Strict BPHS 3.11 treats any malefic companion as sufficient. The predominance interpretation follows the Phaladeepika ch.2 discussion; some PyJHora paths omit nodes.
+  associates:
+  - sun
+  - moon
+  - mars
+  - jupiter
+  - venus
+  - saturn
+  - rahu
+  - ketu
+  method: Count other grahas in Mercury's D1 sign. Malefic only when malefics outnumber benefics. Count both nodes
+    and use the selected Moon class.
+  traditions_differ: Strict association is the BPHS 3.11 variant. Predominance is an editorial default; the proposed
+    Phaladeepika ch.2 locator remains unverified.
   otherwise: benefic
 unknown_if: A missing longitude or unresolved Moon class could change the requested classification.
-sources_note: BPHS 3.11 for waning Moon; Raman Graha and Bhava Balas, Paksha Bala sections 52–53 for the Ashtami window. Primary locators pending inspection.
+sources_note: BPHS 3.11 for waning Moon; Raman Graha and Bhava Balas, Paksha Bala sections 52–53 for the Ashtami window.
+  Primary locators pending inspection.

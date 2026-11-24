@@ -1,6 +1,6 @@
 version: 1
 approval: draft
-clock: vedic/dashas/vimshottari/periods.yaml
+clock: chara-julian
 profile: pyjhora-kn-rao-candidate-v1
 jaimini_profile: jaimini/chara-dasha/kn-rao-candidate.yaml
 even_footed:
@@ -17,8 +17,19 @@ antar_forward:
 - libra
 - aquarius
 - pisces
-cycles: 1
-co_lords: Resolve using the explicit dual-lord ranking in vedic/dashas/narayana/periods.yaml. This is the KB
-  operational tie profile.
+cycles: 2
+co_lords: Resolve using the explicit dual-lord ranking in vedic/dashas/narayana/periods.yaml. This is the KB operational
+  tie profile.
 dual_lord_profile: jaimini/lordship/dual-lords.yaml
 variant_policy: Store the selected K.N. Rao ID throughout the tree; mixing is forbidden.
+first_pass_max_years: 12
+second_pass: Same sign order. Complement each first pass to twelve; skip zero spans. Intervals are half-open.
+antar_review:
+  visibility: admin-only
+  verification: unverified
+  locator: K.N. Rao, Predicting through Jaimini’s Chara Dasha, calculation chapter; edition not available.
+default_year: julian-365.25
+year_days:
+  mean-gregorian: 365.2425
+  julian-365.25: 365.25
+  savana: 360

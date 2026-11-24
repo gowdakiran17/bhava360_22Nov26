@@ -8516,3 +8516,41 @@ facts:
     dependencies:
     - Question Lagna lord in D1 and stable D9, and Moon condition from vedic/prashna/judgment.yaml.
     unknown_if: A required position, stability gate or selected method is unavailable.
+  lal_kitab.planet.bound:
+    type: enum
+    producer: lal-kitab
+    origin: Selected graha in the independent fixed-house chart.
+    dependencies:
+    - Selected graha in the independent fixed-house chart.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - sun
+    - moon
+    - mars
+    - mercury
+    - jupiter
+    - venus
+    - saturn
+    - rahu
+    - ketu
+  western.r3.selected:
+    type: enum
+    producer: western.r3
+    origin: Bound computed tropical point or technique; Fortune needs stable sect and ASC.
+    dependencies:
+    - Bound computed tropical point or technique; Fortune needs stable sect and ASC.
+    unknown_if: A required position, stability gate or selected method is unavailable.
+    values:
+    - north-node
+    - south-node
+    - chiron
+    - fortune
+    - composite
+    - solar-arc
+  western.r3.enabled:
+    type: boolean
+    producer: western.r3
+    origin: Explicit post-MVP Western expansion selection.
+    dependencies:
+    - Explicit post-MVP Western expansion selection.
+    unknown_if: A required position, stability gate or selected method is unavailable.

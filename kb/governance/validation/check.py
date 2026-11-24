@@ -388,6 +388,17 @@ def main():
             continue
         rid=data['id']
         expected_fields = set(template)
+        if 'tag' in data:
+            require(data['tag'] in ('CLASSICAL','MODERN','MODERN/POPULAR'),rid+' tradition tag')
+            expected_fields.add('tag')
+        if 'feature_gate' in data:
+            require(data['feature_gate'] in profile_ids,rid+' unknown feature gate')
+            expected_fields.add('feature_gate')
+        if data.get('visibility')=='admin-only':
+            expected_fields.add('visibility')
+        if rid.startswith('vedic.aspects.') and 'aspect_direction' in data:
+            require(data['aspect_direction']['own_target']=='support',rid+' own-sign protection')
+            expected_fields.add('aspect_direction')
         if rid in ('vedic.doshas.shrapit', 'vedic.doshas.guru-chandal', 'vedic.doshas.pitru', 'vedic.doshas.grahan'):
             expected_fields.add('public_label')
             glossary_slug = 'pitru-dosha' if rid.endswith('.pitru') else rid.split('.')[-1]
@@ -544,6 +555,8 @@ def main():
     validate_muhurta(rules,read,evaluate,require)
     from prashna import validate_prashna
     validate_prashna(rules, read, evaluate, require)
+    from final_batch import validate as validate_final_batch
+    validate_final_batch(rules, read, require)
     from annual_natal import advanced_points, check_annual, check_natal, check_state_witnesses
     check_annual(read, rules, require)
     check_natal(read, rules, require)

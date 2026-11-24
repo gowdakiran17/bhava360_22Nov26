@@ -80,6 +80,10 @@ def classify_extra(c, profile, policy, election, evidence, bounds, days, stars):
     gates.update(star_obstructed=obstruction,rikta_or_new=tithi in (4,9,14,19,24,29,30),
                  partner_tara_or_chandra_unsupportive=any(v!='support' for k,v in evidence.items() if k.startswith(('tara/','chandra/'))))
     active={p['fact'].split('.')[-1] for p in profile['lagna_and_calendar']['hard']}
+    band = policy['gandanta']
+    gates['gandanta'] = any(abs((c[point]-joint+180)%360-180) < band['halfwidth_deg']
+                            for point in ('moon','asc') for joint in band['joints_deg'])
+    active.add('gandanta')
     regional = policy['regions']
     for name in profile['lagna_and_calendar']['calendar_switches']:
         if not c.get('region_switches',{}).get(name,regional[name]['default']):

@@ -1,0 +1,48 @@
+approval: draft
+tag: MODERN/POPULAR
+release: r2
+consent: Explicit optional consent before storing event type, date and certainty.
+candidate_minutes:
+- 1
+- 2
+charts:
+- lagna
+- d9
+- d10
+- d7 when released
+- d12 when released
+- moon-star
+- vimshottari through pratyantar
+events:
+  marriage:
+  - 7
+  childbirth:
+  - 5
+  parent-illness:
+  - 9
+  - 4
+  first-job:
+  - 10
+evidence: At each candidate and dated independent event, bind KB-38 area rulers to Maha, Antar and Pratyantar. Use
+  KB-36 double transit and Mars/Sun triggers retrospectively. Do not adjust event dates.
+rank: Rank candidates by counts of independent Antar then Pratyantar matches, dated transit fits, and reported certainty.
+  Optional temperament and Kunda are low-weight tie context only. Preserve ties and residual interval.
+accept:
+  independent_antar: 3
+  independent_pratyantar: 2
+  scope:
+  - d9
+  - d10
+  d60: false
+retry: Where marriage or children fit no candidate, check IANA historical offset, AM/PM and place. Declining leaves
+  declared precision unchanged.
+copy:
+  en: If you like, you can recall a change in your work or family around that time.
+  kn: ಇಷ್ಟವಿದ್ದರೆ ಆ ಸಮಯದ ಕೆಲಸ ಅಥವಾ ಕುಟುಂಬದ ಬದಲಾವಣೆಯನ್ನು ನೆನಪಿಸಿಕೊಳ್ಳಬಹುದು.
+  hi: चाहें तो उस समय काम या परिवार में आए बदलाव पर विचार कर सकते हैं।
+native_review:
+  kn: pending
+  hi: pending
+sources:
+- K.N. Rao event-matching practice, edition locator pending
+- Consultation method §2.3 C-VER-05/06, supplied in brief

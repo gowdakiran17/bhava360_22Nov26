@@ -21,7 +21,7 @@ nakshatra:
   signs_spanned:
   - sagittarius
   vimshottari_lord: ketu
-  deity: Prajapati
+  deity: Nirriti
   symbol: bundle of roots
   gana: rakshasa
   muhurta_nature: sharp
@@ -47,11 +47,10 @@ strength_notes: []
 exceptions: []
 traditions_differ:
 - profile: parashari-lahiri-whole-sign-draft-v1
-  note: Some stellar catalogues include Abhijit between Uttara Ashadha and Shravana. The 27 equal divisions and
-    Vimshottari sequence used here exclude it.
+  note: Nirriti is the selected deity in the Gendarz comparison and Taittiriya Brahmana star list; the Iyer Brihat
+    Samhita table gives Prajapati. Deity names are private.
 - profile: parashari-lahiri-whole-sign-draft-v1
-  note: Iyer’s printed deity table lists Prajapati for Mula. Gendarz gives Nirriti. This profile records the reading
-    of the cited classical edition.
+  note: Iyer’s printed deity table lists Prajapati for Mula. Gendarz gives Nirriti. Prajapati belongs to the Iyer variant. The selected deity is Nirriti.
 sources:
 - book: Brihat Samhita
   work_id: brihat-samhita
@@ -59,8 +58,8 @@ sources:
   chapter: 98
   verse: 3–5, 7
   other_locator: Nakshatra-karmaguna
-  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows
-    the later verses indicated.
+  supports: Primary deity attribution in the table at 98.4–5, including Abhijit. Activity classification follows the
+    later verses indicated.
   verification: verified
 - book: Phaladeepika
   work_id: phaladeepika

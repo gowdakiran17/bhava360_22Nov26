@@ -29,7 +29,7 @@ sources:
   supports: Named formation or convention; wording and display policy are editorial.
   verification: pending
 confidence: medium
-review_notes: Editorial application. Native Kannada and Hindi review pending.
+review_notes: Unreachable with the enforced node opposition. Suppress this historical identifier in all public outputs.
 user_text:
   en: You may consider how exploration and reflection fit together.
   kn: ಅನ್ವೇಷಣೆ ಮತ್ತು ಚಿಂತನೆ ಹೇಗೆ ಹೊಂದಿಕೊಳ್ಳುತ್ತವೆ ಎಂದು ಗಮನಿಸಬಹುದು.
@@ -44,3 +44,4 @@ evidence:
   time_scope: natal
   reference: none
   area_strength: {}
+visibility: admin-only

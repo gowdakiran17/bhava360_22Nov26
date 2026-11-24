@@ -4,8 +4,8 @@ topic: rooms
 title: Staircase · northeast
 doctrine_profile: vastu-editorial-v1
 approval: draft
-rule: Bind the observed staircase and northeast zone to the same room within the dwelling. The selected profile
-  favours the south, west or southwest for stairs and preserves the central circulation space.
+rule: Bind the observed staircase and northeast zone to the same room within the dwelling. The selected profile favours
+  the south, west or southwest for stairs and preserves the central circulation space.
 conditions:
   all:
   - fact: vastu.observed.sector
@@ -55,12 +55,11 @@ remedy: null
 vastu:
   zone: northeast
   room: staircase
-  score: 0
-  tone: Steady
-  reason: The selected profile favours the south, west or southwest for stairs and preserves the central circulation
-    space. The selected profile gives a contextual reading for this placement.
+  score: -1
+  tone: Take care
+  reason: Selected directional preference; review practical use and available alternatives calmly.
 evidence:
-  direction: neutral
+  direction: caution
   weight_class: secondary
   time_scope: static
   reference: none

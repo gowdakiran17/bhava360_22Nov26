@@ -18,6 +18,18 @@ aliases:
 reference_rules:
 - vedic.planets.mercury
 used_by:
+- lal-kitab.placements.mercury-house-1
+- lal-kitab.placements.mercury-house-10
+- lal-kitab.placements.mercury-house-11
+- lal-kitab.placements.mercury-house-12
+- lal-kitab.placements.mercury-house-2
+- lal-kitab.placements.mercury-house-3
+- lal-kitab.placements.mercury-house-4
+- lal-kitab.placements.mercury-house-5
+- lal-kitab.placements.mercury-house-6
+- lal-kitab.placements.mercury-house-7
+- lal-kitab.placements.mercury-house-8
+- lal-kitab.placements.mercury-house-9
 - palmistry.lines.mercury-left
 - palmistry.lines.mercury-right
 - palmistry.mounts.mercury

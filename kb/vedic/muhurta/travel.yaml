@@ -4,8 +4,8 @@ topic: muhurta
 title: Travel departure
 doctrine_profile: vedic-editorial-v1
 approval: draft
-rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the
-  shared ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
+rule: For the selected activity compare a city-specific, boundary-stable interval using this profile and the shared
+  ranking policy. Require the listed participants. Bind all factors and each exception to this same interval.
 conditions:
   all:
   - fact: muhurta.activity
@@ -24,13 +24,12 @@ exceptions:
     op: eq
     value: true
   effect: soften
-  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category
-    is supportive. Soften only their eighth-house Chandra caution to neutral.'
+  reason: 'For the same participant: the election Moon is eighth from the natal Moon and their Tara category is supportive.
+    Soften only their eighth-house Chandra caution to neutral.'
 traditions_differ:
 - profile: vedic-editorial-v1
-  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists
-    for yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice
-    may differ. '
+  note: 'Draft daytime profile. Raman supplies the cited activity and cancellation principles. Exact shortlists for
+    yoga, karana, lagna and other unlisted preferences are editorial choices; regional and family practice may differ. '
 sources:
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -38,8 +37,8 @@ sources:
   chapter: null
   verse: null
   other_locator: Travel, Journeys
-  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared
-    Bhava360 preferences.
+  supports: Activity-specific timing considerations. The profile combines a selected subset with the shared Bhava360
+    preferences.
   verification: verified
 - book: Muhurtha (Electional Astrology)
   work_id: raman-muhurtha
@@ -136,6 +135,10 @@ activity_profile:
       - Ganda
       - Vyatipata
       - Vaidhriti
+      - Vishkambha
+      - Vyaghata
+      - Vajra
+      - Parigha
     karana:
       support:
       - gara

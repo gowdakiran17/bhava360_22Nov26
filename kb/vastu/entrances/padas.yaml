@@ -13,7 +13,7 @@ interval: For 0 <= distance < wall_length, index = 1 + floor(8 * distance / wall
 rows:
   east:
   - id: E1
-    deity: Agni
+    deity: Shikhi
   - id: E2
     deity: Parjanya
   - id: E3
@@ -90,3 +90,5 @@ sources:
   other_locator: On house-building, Iyer translation
   supports: Outer deity order and side-specific doorway sequence. Romanization follows the named edition.
   verification: verified
+
+corner_variant: Isha at the northeast corner; Agni is the southeast guardian. See Mayamata mandala chapter and Brihat Samhita 53 (edition check pending).
