@@ -9,9 +9,9 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Natal NN excludes combustion and retrograde status. A transit may trigger only an event already promised by
-  the running period. This trigger stays held. Ruling planets and prashna retrograde rules belong to later NN-Prashna
-  work. Continue to omit outer planets and divisional charts.
+rule: Natal NN excludes combustion and retrograde status. A transit may trigger only an event permitted by both
+  the natal cusp sub-lord and the running period. This trigger stays held. Ruling planets and prashna retrograde
+  rules belong to later NN-Prashna work. Continue to omit outer planets and divisional charts.
 conditions:
   all:
   - fact: nadi.nn.profile
@@ -42,6 +42,15 @@ sources:
   other_locator: PDF pp. 8, 31
   supports: Method and scope
   verification: verified_locator
+  to_verify: false
+- book: Dr. Dinesh, Nakshatra Nadi class recordings
+  work_id: dinesh-nadi-classes
+  edition: dinesh-nadi-private-classes
+  chapter: Class recordings
+  verse: null
+  other_locator: class 2 part 03 01:49; class 3 part 02 14:06; class 4 part 02 00:00
+  supports: CN-A08
+  verification: supplied-in-brief
   to_verify: false
 confidence: high
 review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.

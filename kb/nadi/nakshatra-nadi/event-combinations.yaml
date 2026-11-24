@@ -1,0 +1,547 @@
+approval: draft
+enabled: false
+visibility: admin-only
+status: held
+work_id: dinesh-nadi-classes
+edition: dinesh-nadi-private-classes
+verification: supplied-in-brief
+entries:
+  CN-H40:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 2, 6, 11, with Jupiter as significator, shown together
+    interpretation: Earnings may improve when these houses are jointly shown, with Jupiter as a money significator.
+    id: nadi.nakshatra-nadi.cn.event-earnings
+  CN-H41:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    - class 3 part 01 15:15
+    inputs: 2, 6, 8, 11 (class 3 part 01 also had 2, 8, 11); also check the 11th CSL
+    interpretation: A gift or grant may arrive when these houses are shown; also inspect the 11th CSL.
+    review_notes: Two slightly different house sets; keep both in notes.
+    id: nadi.nakshatra-nadi.cn.event-donation-received
+  CN-H42:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: '2, 6, 10, 11; Saturn as service karaka. 10th showing 6 may point to service; showing 7 to trade; both:
+      follow the running period'
+    interpretation: A role may begin when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-job-join
+  CN-H43:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs:
+      promise_houses: [1, 2]
+      period_alternatives:
+      - [5, 8, 12]
+      - [6, 8, 12]
+      inspect_cusp: 10
+    interpretation: Work may stall or stay out of reach when these period houses appear; also inspect the 10th CSL.
+    id: nadi.nakshatra-nadi.cn.event-job-blocked
+  CN-H44:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 2, 6, 10, 11; also inspect cusp 10
+    interpretation: Advancement may be available when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-promotion
+  CN-H45:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 1, 3, 5, 9
+    interpretation: A change of role may occur when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-job-change
+  CN-H46:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 5, 7, 8, 12
+    interpretation: Outgoings may rise when these houses are shown.
+    review_notes: See also the period-lord SL in 12 as a possible outflow cue (class 3 part 03 17:50).
+    id: nadi.nakshatra-nadi.cn.event-money-outflow
+  CN-H47:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 6, 12
+    interpretation: A bank loan may be arranged when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-loan
+  CN-H48:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 6, 8, 12
+    interpretation: Outstanding dues may be present when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-indebted
+  CN-H49:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 1, 6, 10, 11
+    interpretation: A contest, election, or similar test may go in the native’s favour when these houses are shown.
+    review_notes: Legal cases stay off even though the class grouped them with contests.
+    id: nadi.nakshatra-nadi.cn.event-contest-win
+  CN-H50:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 1, 5, 6, 8, 9, 10, 11
+    interpretation: Public office or political work may go well when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-political-success
+  CN-H51:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 6+11, or 10+11; also inspect cusp 3
+    interpretation: An interview may be timely when these houses are shown; also inspect the 3rd CSL.
+    id: nadi.nakshatra-nadi.cn.event-interview
+  CN-H52:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 4, 5, 7, 8, 9, 12
+    interpretation: The other side may prevail in a contest when these houses are shown.
+    review_notes: Legal cases stay off.
+    id: nadi.nakshatra-nadi.cn.event-contest-setback
+  CN-H53:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 2, 6 or 6
+    interpretation: A sought role may be available when 6, or 2 and 6, are shown.
+    id: nadi.nakshatra-nadi.cn.event-desired-role
+  CN-H54:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 11:03
+    inputs: 1 together with 8, 5, or 9; also inspect cusp 10
+    interpretation: Service may feel heavy or blocked when these houses are shown.
+    review_notes: Soft wording only.
+    id: nadi.nakshatra-nadi.cn.event-service-strain
+  CN-H55:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 11, with Venus as significator; 2 may be talks or festivity; 5 and 11 may also participate; transit
+      Jupiter is often on 2, 7 or 11, or in stars of those houses
+    interpretation: A wedding may be timely when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-marriage
+  CN-H56:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: pairs 2 with 7, or 2 with 11, or 9 with 11, when Mercury or Jupiter is the CSL
+    interpretation: More than one marriage may be indicated when these houses, or a Mercury/Jupiter CSL, are shown.
+    id: nadi.nakshatra-nadi.cn.event-two-marriages
+  CN-H57:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 1, 4, 6, 10 and 12
+    interpretation: Hold as a possible absence of partnership testimony in this method.
+    id: nadi.nakshatra-nadi.cn.event-no-marriage
+  CN-H58:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    - class 4 part 00 13:22
+    inputs:
+      saturn_moon_pattern:
+        houses: [2, 4, 7, 10, 11]
+        related_entry: CN-H06
+      alternative_pattern:
+        required_houses: [2, 7]
+        additional_house_sets:
+        - [1, 6, 10]
+        - [6, 8, 12]
+    interpretation: A wedding may take longer when these houses are shown.
+    review_notes: 'Also taught: Saturn with the 7th CSL or that CSL’s NL; Saturn sitting in house 5; the 7th CSL
+      or that CSL’s NL sitting in 1, 4, 6, 8, 10 or 12.'
+    id: nadi.nakshatra-nadi.cn.event-marriage-delay
+  CN-H59:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 11 along with 1, 6, 10, or along with 6, 8, 12
+    interpretation: An engagement may be called off when the marriage set appears with these extra houses.
+    id: nadi.nakshatra-nadi.cn.event-broken-engagement
+  CN-H60:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    - class 4 part 00 13:22
+    inputs: 2, 5, 7, 11
+    interpretation: 'A self-chosen wedding may be indicated when these houses are shown. Confirming tests taught:
+      5th CSL/NL in 2, 7 or 11; 7th CSL/NL in 2, 5, 7 or 11; a Mars, Venus or Rahu link; 11th CSL/NL in 5, 7 or
+      11.'
+    review_notes: Affair and intimacy rows stay off.
+    id: nadi.nakshatra-nadi.cn.event-love-marriage
+  CN-H61:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 11 joined by Rahu or by Ketu
+    interpretation: A wedding across community lines may be indicated when Rahu or Ketu joins the marriage set.
+    id: nadi.nakshatra-nadi.cn.event-inter-community-marriage
+  CN-H62:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 8, 11
+    interpretation: A later wedding to a previously married person may be indicated when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-remarriage
+  CN-H63:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 11 together with 1, 6, 10, or together with 6, 8, 12
+    interpretation: A wedding may later meet a split or a serious misunderstanding when these extra houses join
+      the marriage set.
+    id: nadi.nakshatra-nadi.cn.event-marriage-then-split
+  CN-H64:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 6, 12
+    interpretation: A partnership or a love bond may come apart when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-partner-separation
+  CN-H65:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 1, 6, 10, 12 (whether cusp 1 sits in 6 or 9, versus 2 or 12, may hint at which person leaves)
+    interpretation: Spouses may live apart when these houses are shown.
+    review_notes: Accounts disagree on the additional cusp witness; withhold this refinement.
+    id: nadi.nakshatra-nadi.cn.event-spouses-separate
+  CN-H66:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 1, 6, 10, 12, followed later by 2, 5, 7, 11
+    interpretation: After a split, a reunion may follow when the marriage set returns.
+    id: nadi.nakshatra-nadi.cn.event-reconciliation
+  CN-H67:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 7, 10, 11
+    interpretation: A business start, or a profitable spell in one, may be indicated when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-business-join-or-profit
+  CN-H68:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 5, 8, 12 (softer if there is no personal capital in the venture)
+    interpretation: A business may lose money when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-business-loss
+  CN-H69:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 7, 11
+    interpretation: A partner may come into the picture when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-getting-a-partner
+  CN-H70:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 2, 4, 6, 10, 12 (if 6 and 12 are present, a sound associate may be lacking)
+    interpretation: A business associate may be indicated when these houses are shown.
+    review_notes: Flagged as an odd row beside 7, 11 and beside CN-H71. Hold until checked against the course file.
+    id: nadi.nakshatra-nadi.cn.event-business-partner
+  CN-H71:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 00 19:46
+    inputs: '7th CSL with 6, 11: native may gain, partner may lose; 5, 12: partner may gain, native may lose; 5,
+      6, 12: both may lose; 5, 11: both may gain. Jupiter or Sun as 7th CSL may support a longer venture'
+    interpretation: A 7th-CSL link to these houses may describe how a joint venture shares gain or loss.
+    id: nadi.nakshatra-nadi.cn.partnership-gain-split
+  CN-H72:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 01:00
+    inputs: 1, 5, 7, 8
+    interpretation: Trade may stay slow when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-dull-business
+  CN-H73:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 4, 9, 11; also inspect cusp 11
+    interpretation: Further study may go well when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-higher-study
+  CN-H74:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    - class 4 part 02 00:00
+    inputs: 3, 9, 12; also inspect cusp 12
+    interpretation: 'A journey may be indicated when these houses are shown. Cusp 3 may mark a brief journey; cusp
+      9 a long journey or a shrine visit; cusp 12 departure overseas; cusp 1 a visa (class 4 part 02 00:00). Purpose
+      cues: overseas 3, 9, 12; trade 7; employment 6; study 4, 9; leisure 5; a wedding 7.'
+    review_notes: Medical-purpose travel stays off.
+    id: nadi.nakshatra-nadi.cn.event-travel
+  CN-H75:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 3, 9, 10; also inspect cusp 10
+    interpretation: A pilgrimage may be indicated when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-pilgrimage
+  CN-H76:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 6, 12
+    interpretation: Distance from the father may be indicated when these houses are shown.
+    review_notes: No longevity claims.
+    id: nadi.nakshatra-nadi.cn.event-separation-from-father
+  CN-H77:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    - class 4 part 00 13:22
+    inputs: 2, 7, 11, taken off the 9th cusp
+    interpretation: A later wedding may also be read from the 9th cusp with the usual marriage houses. A first,
+      second, or third wedding may be taken from cusps 7, 9 and 11 respectively.
+    id: nadi.nakshatra-nadi.cn.event-second-marriage-from-9
+  CN-H78:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 3, 5, 9, 10, 11, 12 (3 begins, 5 is the practice, 9 is the goal, 12 is release)
+    interpretation: A spiritual path may be indicated when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-spiritual-life
+  CN-H79:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 2, 3, 9, 10, 11, 12; also inspect cusp 10. From the 8th cusp, also 2, 3, 9, 11
+    interpretation: Skill in astrology may be indicated when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-astrology-talent
+  CN-H80:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 08:20
+    inputs: 'Working scientist: 3, 9, 11, plus 12. Research going well: 2, 3, 5, 9, 11; also inspect cusp 11'
+    interpretation: Scientific or research work may go well when these houses are shown.
+    id: nadi.nakshatra-nadi.cn.event-science-research
+  CN-H81:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 04:30
+    inputs: '4, 11. From the mother or as a legacy: 4, 8, 11. A sudden prize: 2, 3, 5, 8, 11 (8 as an abrupt gain;
+      also inspect cusp 5)'
+    interpretation: Property or a vehicle may come into view when 4 and 11 are shown; a sudden windfall may need
+      the 5th and 8th as well.
+    review_notes: Skip “property of a deceased person” framing.
+    id: nadi.nakshatra-nadi.cn.event-property-vehicle
+  CN-H82:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 12:30
+    inputs: 'Gain: 2, 6, 11 (also inspect cusp 1); outflow: 5, 8, 12'
+    interpretation: The 11th cusp may show gain or loss with these houses.
+    id: nadi.nakshatra-nadi.cn.event-money-gain-or-loss-11
+  CN-H83:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 12:30
+    inputs: For a spouse, houses 2, 7 and 11 (also inspect cusp 7); for an associate or friend, houses 2, 5 and
+      11 (also inspect cusp 5); for friends and kin, houses 2, 3, 4 and 11 (also inspect cusp 11)
+    interpretation: A reunion may be indicated when these houses are shown.
+    review_notes: Missing-person return stays off.
+    id: nadi.nakshatra-nadi.cn.event-reunion
+  CN-H84:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 12:30
+    inputs: 'Little support: 1, 5, 6, 10, 12; setbacks through friends: 5, 8, 12; a shaky friendship: 7, 8, 9, 12'
+    interpretation: Help from friends may be thin, or a friendship may disappoint, when these houses are shown.
+    review_notes: Soft wording only.
+    id: nadi.nakshatra-nadi.cn.event-friends-unhelpful
+  CN-H85:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 14:00
+    inputs: '3, 9, 12 (also inspect cusp 9). Settlement 1, 3, 9, 10, 12. Visa or residence: 1st and 12th showing
+      3, 9, 12. Remain in the home country or come back: 2, 4, 11. Overseas study: 4, 9, 11, 12. Overseas employment:
+      6, 9, 11, 12. Overseas trade: 7, 9, 11, 12'
+    interpretation: Time abroad, or a return home, may be indicated with these house sets.
+    id: nadi.nakshatra-nadi.cn.event-going-abroad
+  CN-H86:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 10:15
+    inputs: '10th CSL NL, or the running period’s NL. For trade, useful houses 7, 10, 11; for a salaried role, 6,
+      10, 11; houses that may add funds: 2, 3, 4, 9; houses that may trim funds: 1, 5, 8, 12 (house 5 can still
+      suit a salaried role with no personal capital). Sun’s career list only: government and administrative lead,
+      judges, diplomats, senior executives, institution heads, public personalities, civic and spiritual leads'
+    interpretation: Career may be read from the star lord of cusp 10, or from the star lord of the running period.
+      Only the Sun career list was recorded here.
+    review_notes: Other planets lack recorded occupational lists. Leave the ambiguous additional combination unresolved.
+    id: nadi.nakshatra-nadi.cn.tenth-profession-sun-only
+  CN-H87:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 4 part 01 10:15
+    inputs: Jupiter ruling the lagna or the 8th, placed in Gemini or Virgo (authority present) or in Taurus or Libra
+      (authority milder); lagna-lord with the 10th-lord; the 2nd-lord occupying 10 or the 10th-lord occupying 2;
+      the 10th-lord placed in 1, 4, 5, 7, 9, alternatively 10; lagna's own lord placed in 10
+    interpretation: These placements may support a business path rather than salaried work.
+    id: nadi.nakshatra-nadi.cn.business-person-cues
+  CN-H88:
+    approval: draft
+    status: held
+    visibility: admin-only
+    locators:
+    - class 2 part 01 13:33
+    - class 3 part 00 00:11
+    inputs: Two competing Lagna classifications
+    interpretation: Lagna-strength house sets were taught twice and do not agree; do not ship a strength grade until
+      one list is chosen.
+    review_notes: The two classes assign different houses to the same tiers. Retain each account for review.
+    variants:
+      class_2_part_01:
+        highest:
+          houses: [1, 2, 3, 6, 10, 11]
+          lord_occupies_any: [2, 10, 11]
+          lord_is_obstacle_lord: false
+        middle: [5, 6, 7, 8, 12]
+        low: [5, 6, 12]
+        lowest:
+          houses: [5, 8, 12]
+          requires_obstacle_lord: true
+      class_3_part_00:
+        highest:
+          houses: [1, 3, 5, 9, 11]
+          period_houses: [2, 6, 10, 11]
+        high: [1, 3, 5, 9, 11]
+        middle: [5, 6, 7, 9, 12]
+        low: [6, 8, 12]
+        lowest: [8, 12]
+    disputed_house_sets:
+      spiritual_withdrawal:
+        first_account: [3, 8, 10, 12]
+        second_account: [5, 9, 12]
+      public_recognition:
+        first_account: [1, 2, 4, 10, 11]
+        second_account: [1, 3, 5, 9, 11]
+    resolution: withheld
+    id: nadi.nakshatra-nadi.cn.lagna-strength-conflict
+application: Review the cusp promise before checking the same theme in the running period. Competing combinations
+  remain pending review.
+unresolved_variants:
+- theme: shared household
+  alternatives:
+  - - 4
+    - 5
+    - 8
+  - - 5
+    - 8
+    - 10
+  locator: class 4 part 00 13:22
+  status: held
+  approval: draft

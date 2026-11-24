@@ -54,9 +54,6 @@ traditions_differ:
   line_weight: Only a permitted event reaches the internal tie-break (SL 0.5, NL 0.3, PL 0.2). A self-star lord
     uses NL 0.6 and PL 0.4. The loss ordering in file 4, PDF p. 26 is an alternative.
 held_topics:
-- health
-- litigation
-- childbirth
 - badhaka (internal obstacle only)
 - prashna
 - birth-time rectification
@@ -76,6 +73,15 @@ exclude:
 - choice of medical or healing system
 - behavioural hit-power remedies
 - fortunate or lucky planet labels
+- death-related house pairings and property interpretations
+- health, disease, body-part and dosha interpretations
+- sexual life, affairs and infidelity
+- remedies and grain offerings
+- chakra maps
+- dowry
+- course application display errors
+- litigation and imprisonment
+- childbirth outcome tables
 practice_label:
   en: Traditional practice
   kn: ಸಾಂಪ್ರದಾಯಿಕ ಆಚರಣೆ
@@ -169,4 +175,61 @@ resolved_questions:
     confidence: medium
     answered: '2026-11-24'
     basis: owner answer + Jyoti verification
-transits: Held timing trigger requiring a prior period promise. A denied or unavailable event cannot be triggered.
+transits: Timing requires both a cusp promise and permission from the running period.
+held_class_catalogues:
+- method-timing.yaml
+- cusp-tables.yaml
+- event-combinations.yaml
+class_method_index:
+  CN-A01:
+    locator: class 4 part 01 16:45
+    subject: power planet union
+    rule_ids:
+    - nadi.nakshatra-nadi.power-planets
+  CN-A02:
+    locator: class 4 part 01 16:45
+    subject: untenanted bodies
+    rule_ids:
+    - nadi.nakshatra-nadi.power-planets
+  CN-A03:
+    locator: class 4 part 01 16:45
+    subject: self-star bodies
+    rule_ids:
+    - nadi.nakshatra-nadi.power-planets
+  CN-A04:
+    locator: class 4 part 02 14:58
+    subject: PL-only chart houses
+    rule_ids:
+    - nadi.nakshatra-nadi.power-planets
+  CN-A05:
+    locator: class 1 part 01 14:00; class 3 part 02 06:15; class 2 part 03 01:49
+    subject: period fruit gate
+    rule_ids:
+    - nadi.nakshatra-nadi.line-weight
+    - nadi.nakshatra-nadi.three-line-chain-per-planet
+  CN-A06:
+    locator: class 4 part 01 16:45
+    subject: untenanted PL/NL union
+    rule_ids:
+    - nadi.nakshatra-nadi.line-weight
+  CN-A07:
+    locator: class 4 part 01 16:45
+    subject: self-star ignores SL
+    rule_ids:
+    - nadi.nakshatra-nadi.line-weight
+  CN-A08:
+    locator: class 2 part 03 01:49; class 3 part 02 14:06; class 4 part 02 00:00
+    subject: transit timing
+    rule_ids:
+    - nadi.nakshatra-nadi.not-covered
+  CN-A09:
+    locator: class 3 part 03 00:00; class 3 part 02 14:06
+    subject: cusp promise before period timing
+    rule_ids:
+    - nadi.nakshatra-nadi.period-roles
+transit_trigger:
+  requires_all:
+  - natal_cusp_promise
+  - running_period_fruit_gate
+  - transit_event_contact
+  missing_input: withhold

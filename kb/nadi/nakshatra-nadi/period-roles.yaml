@@ -9,10 +9,11 @@ feature_gate: nakshatra-nadi
 visibility: admin-only
 status: held
 native_review_needed: true
-rule: Use Maha for background, Antar for the active theme and Pratyantar for qualification. A major lord alone cannot
-  time an event. Require an event-house witness on NL. An untenanted period lord may use PL or NL. A self-star lord
-  requires NL and ignores SL. PL identifies the source; after permission, SL qualifies the outcome, or NL does so
-  for a self-star lord.
+rule: The KP cusp sub-lord establishes the natal promise for the requested theme. Periods can time it only when
+  that promise is available. Use Maha for background, Antar for the active theme and Pratyantar for qualification.
+  A major lord alone cannot time an event. Require an event-house witness on NL. An untenanted period lord may use
+  PL or NL. For a self-star lord PL and NL describe fruit and tone together; ignore SL. Otherwise PL describes the
+  source and SL qualifies a permitted outcome.
 conditions:
   all:
   - fact: nadi.nn.profile
@@ -39,6 +40,15 @@ sources:
   other_locator: PDF pp. 5, 16, 19, 27, 41, 44, 49
   supports: Method and scope
   verification: verified_locator
+  to_verify: false
+- book: Dr. Dinesh, Nakshatra Nadi class recordings
+  work_id: dinesh-nadi-classes
+  edition: dinesh-nadi-private-classes
+  chapter: Class recordings
+  verse: null
+  other_locator: class 3 part 03 00:00; class 3 part 02 14:06
+  supports: CN-A09
+  verification: supplied-in-brief
   to_verify: false
 confidence: high
 review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.

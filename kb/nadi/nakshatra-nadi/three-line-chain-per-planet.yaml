@@ -10,9 +10,9 @@ visibility: admin-only
 status: held
 native_review_needed: true
 rule: PL uses the planet’s own combination, NL uses its star lord’s and SL uses its sub lord’s. Nodes use their
-  agency combination on PL. Require an event-house witness on NL. An untenanted period lord may use PL or NL. A
-  self-star lord requires NL and ignores SL. PL identifies the source; after permission, SL qualifies the outcome,
-  or NL does so for a self-star lord.
+  agency combination on PL. Require an event-house witness on NL. An untenanted period lord may use PL or NL. For
+  a self-star lord PL and NL describe fruit and tone together; ignore SL. Otherwise PL describes the source and
+  SL qualifies a permitted outcome.
 conditions:
   all:
   - fact: nadi.nn.profile
@@ -54,6 +54,15 @@ sources:
   verification: locator_medium
   to_verify: false
   locator_note: Locator is approximate in the supplied review map.
+- book: Dr. Dinesh, Nakshatra Nadi class recordings
+  work_id: dinesh-nadi-classes
+  edition: dinesh-nadi-private-classes
+  chapter: Class recordings
+  verse: null
+  other_locator: class 1 part 01 14:00; class 3 part 02 06:15; class 2 part 03 01:49
+  supports: CN-A05
+  verification: supplied-in-brief
+  to_verify: false
 confidence: high
 review_notes: Jyoti’s private class-recording review supplies the revised NN scope and gate. Native review pending.
 user_text:
