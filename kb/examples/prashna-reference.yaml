@@ -413,8 +413,5 @@ cases:
   - current-question
   - moon
   - job
-  - leans-toward
-  - timing
-  reasons:
-  - moon-support
-  day: '2032-03-19'
+  - unclear
+  reasons: []

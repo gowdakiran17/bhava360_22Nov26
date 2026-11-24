@@ -848,13 +848,13 @@ consultation:
         final: Supportive
     health:
       lord: saturn
-      promise: Strong
+      promise: Moderate
       state:
       - active
       windows:
       - start: '2026-11-24'
         end: '2026-11-25'
-        tone: Supportive
+        tone: Steady
         pace: slower
       availability: known-time
       witnesses:
@@ -879,6 +879,8 @@ consultation:
             - Malefic
             - Benefic
             area_role: resistance
+        health_challenges:
+        - lagna-lord-in-sixth-eighth-twelfth
       moon_witnesses:
         lord: Strong
         occupants: &id018
@@ -899,8 +901,8 @@ consultation:
             - Malefic
             - Benefic
             area_role: resistance
-      challenge_resolution: Strong
-      card: Supportive
+      challenge_resolution: Moderate
+      card: Steady
       modulation:
         maha:
         - Inclusive relative placement can link the period themes.
@@ -911,14 +913,14 @@ consultation:
       active_yogas: &id020 []
       practice_lord: null
       conflict_ladder:
-        promise: Strong
+        promise: Moderate
         activated_yogas: *id020
         functional_lord: Benefic
         participant_gate: see yoga witnesses
         divisional: confirm after D1 floor
         references: Lagna confirms, Moon describes experience
         other_systems: disabled
-        final: Supportive
+        final: Steady
     family-home:
       lord: venus
       promise: Moderate

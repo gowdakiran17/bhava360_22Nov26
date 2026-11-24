@@ -60,6 +60,24 @@ def reference_tests(ref):
     return [lord in GRADES[1:] if lord else None, occupied, aspected]
 
 
+def health_challenges(lagna, signs, nature, aspects):
+    """Return established natal witnesses only. Missing evidence cannot lower a band."""
+    from functional import OWNERS
+    if lagna is None:
+        return []
+    sixth = OWNERS[(lagna+5)%12]
+    sixth_sign = signs.get(sixth)
+    rising_lord_sign = signs.get(OWNERS[lagna])
+    routes = []
+    if sixth_sign == lagna:
+        routes.append('sixth-lord-in-lagna')
+    if rising_lord_sign is not None and (rising_lord_sign-lagna)%12+1 in (6,8,12):
+        routes.append('lagna-lord-in-sixth-eighth-twelfth')
+    if sixth_sign is not None and nature.get(sixth)=='malefic' and (lagna-sixth_sign)%12+1 in aspects[sixth]:
+        routes.append('malefic-sixth-lord-aspects-lagna')
+    return routes
+
+
 def recipe_promise(ref, area, primary_tests, factor_grade, contextual):
     """Anchor at the primary lord. Independent qualifiers can jointly move it one step."""
     lord = ref.get('lord')
@@ -83,6 +101,8 @@ def recipe_promise(ref, area, primary_tests, factor_grade, contextual):
         supporting_balance += GRADES.index(grade) - 1
     # Collapse all supporting houses into one signed qualification. A split stays quiet.
     signal = factor_direction + (supporting_balance > 0) - (supporting_balance < 0)
+    if area=='health' and ref.get('health_challenges'):
+        signal -= 1
     grade = max(0, min(2, anchor + (signal > 0) - (signal < 0)))
     if area == 'money' and ref['houses'][11].get('lord') not in GRADES[1:]:
         grade = min(grade, 1)
@@ -278,6 +298,22 @@ def validate(read,require):
     ladder=read('life-areas/conflict-ladder.yaml')
     matrix=read('shared/confidence/output-matrix.yaml')['rows']
     aspects=read('vedic/aspects/full-graha.yaml')['inclusive_distances']
+    routes = p['promise']['health_challenge']['routes']
+    def probe(signs, nature=None, origin=0):
+        return health_challenges(origin,signs,nature or {},aspects)
+    require(probe({'mercury':0})==routes[:1],'sixth lord occupies Lagna')
+    for sign in (5,7,11):
+        require(probe({'mars':sign})==routes[1:2],'Lagna lord in a difficulty house')
+    require(probe({'mars':4})==[] and probe({'mars':6})==[], 'either side of sixth house')
+    require(probe({'mercury':6},{'mercury':'malefic'})==routes[2:] and
+            not probe({'mercury':6},{'mercury':'benefic'}) and not probe({'mercury':6}),
+            'sixth lord aspect needs known malefic nature')
+    require(not probe({}) and not probe({'mercury':0},origin=None),'missing natal evidence')
+    overlapping = probe({'mars':7,'mercury':0})
+    require(overlapping==routes[:2],'overlapping routes')
+    ref = dict(lord='Strong',primary_house=1,houses={1:{'lord':'Strong'}},health_challenges=overlapping)
+    require(recipe_promise(ref,'health',[True,None,None],0,roles)==1 and
+            recipe_promise(ref,'career',[True,None,None],2,roles)==2,'one-step cap and area isolation')
     fixtures=read('examples/synthesis-windows.yaml')
     for name,case in fixtures['cases'].items():
         x=merge(fixtures['base'],case.get('input',{}))

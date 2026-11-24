@@ -102,7 +102,7 @@ def work(name,month_segments):
                     break
         grades[g]=w and w['grade']
         details[g]=dict(worksheet=w,d1=inputs['d1'],d9=inputs['d9'],functional=resolve(FUNCTIONAL,asc and asc['sign'],g,p['sign']))
-    charts=dict(lagna=lagna,signs=pos,grades=grades)
+    charts=dict(lagna=lagna,signs=pos,grades=grades,natural_nature=nature)
     matched={}
     f=facts('moon')
     f.update({'d1.yoga.foundation_cancelled':False,'d1.yoga.mercury_combust':bodies['mercury']['combust'],

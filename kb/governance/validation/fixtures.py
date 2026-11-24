@@ -3,7 +3,15 @@ import re
 from public_copy import check_text
 
 NAMES = ('Asha','Ravi','Meera','Kabir','Dev')
-AREAS = {'career','love-marriage','money','health','family-home','learning'}
+AREAS = ('career','love-marriage','money','health','family-home','learning')
+# Reviewed in area order. Uniform and withheld rows are valid outcomes.
+EXPECTED_PROMISE = {
+    'Asha': ('Strong','Moderate','Strong','Moderate','Moderate','Strong'),
+    'Ravi': ('Weak','Weak','Weak','Weak','Moderate','Moderate'),
+    'Meera': ('Weak','Moderate','Weak','Strong','Moderate','Strong'),
+    'Kabir': ('Moderate','Strong','Moderate','Weak','Moderate','Weak'),
+    'Dev': (None,None,None,None,None,None),
+}
 
 def validate(rules, read, require, root):
     profiles={}
@@ -18,7 +26,7 @@ def validate(rules, read, require, root):
         require(provenance['actual_backend']=='SEFLG_SWIEPH' and provenance['flags']==65794
                 and set(provenance['files_sha256'])=={'sepl_18.se1','semo_18.se1'}
                 and all(re.fullmatch('[a-f0-9]{64}',v) for v in provenance['files_sha256'].values()),name+' Swiss files')
-        require(set(record['areas'])==AREAS and len(data['grahas'])==9,name+' chart coverage')
+        require(set(record['areas'])==set(AREAS) and len(data['grahas'])==9,name+' chart coverage')
         require(record['rule_chain'] and all(rid in rules for rid in record['rule_chain']), name+' unresolved reading')
         for rid,signature in record['matched_predicates'].items():
             require(rules[rid]['conditions']==signature,name+' formation changed for '+rid)
@@ -49,8 +57,8 @@ def validate(rules, read, require, root):
                     all(not entry['windows'] for entry in record['areas'].values()),'Dev changing lunar star')
         else:
             require(data['tier']=='A' and len(record['transits']['lagna'])==9 and len(record['grades'])==9,name+' known-time coverage')
-        bands={row['promise'] for row in record['areas'].values()}
-        require(bands=={None} if name=='Dev' else len(bands)>1, name+' differentiated or withheld promises')
+        for area,expected in zip(AREAS,EXPECTED_PROMISE[name],strict=True):
+            require(record['areas'][area]['promise']==expected, f'{name}/{area} expected promise {expected}')
         for lang in ('en','kn','hi'):
             month=read('modules/home/copy.yaml')['messages']['month-'+record['month_tone']][lang]
             require(record['public_'+lang]['month']==month,name+' month copy binding')

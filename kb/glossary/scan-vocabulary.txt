@@ -3949,6 +3949,7 @@ incoming
 incompatible
 incomplete
 inconclusive
+incorrect
 increases
 increment
 independence
@@ -6560,6 +6561,7 @@ revised
 revises
 revising
 revision
+revisions
 revisit
 revisiting
 revolution
@@ -7085,6 +7087,7 @@ sixty
 sixtyfold
 siyaram
 siyarams
+size
 sizes
 sketch
 skill
@@ -7178,6 +7181,7 @@ spare
 spark
 sparks
 speak
+speaker
 speaking
 speaks
 spec
@@ -9228,6 +9232,7 @@ zones
 दिखे
 दिन
 दिनचर्या
+दिनों
 दिया
 दिलचस्पी
 दिलाती
@@ -9339,6 +9344,7 @@ zones
 निधि
 निपुण
 निभा
+निभाते
 निभाना
 निभाने
 निमंत्रण
@@ -10437,6 +10443,7 @@ zones
 ಅನುಭವವಾಗಬಹುದು
 ಅನುಭವವು
 ಅನುಭವಿಗಳಿಂದ
+ಅನುಸರಿಸಬಹುದು
 ಅನ್ವಯಿಸುತ್ತದೆ
 ಅನ್ವಯಿಸುವ
 ಅನ್ವೇಷಣೆ
