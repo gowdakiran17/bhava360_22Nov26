@@ -22,7 +22,85 @@ export async function createSwissEphemeris(): Promise<EphemerisPort> {
   );
   const swiss = await load(await readFile(wasm));
   swiss.swe_set_sid_mode(C.SE_SIDM_LAHIRI, 0, 0);
+  function lahiriAyanamsa(jd: number) {
+    const { returnCode, ayanamsa, error } = swiss.swe_get_ayanamsa_ex_ut(
+      jd,
+      C.SEFLG_MOSEPH,
+    );
+    if (returnCode < 0 || !Number.isFinite(ayanamsa))
+      throw new RangeError(error || 'Invalid ayanamsa');
+    return ayanamsa;
+  }
   return {
+    strengthPosition(jd, body) {
+      const id = orbitId[body],
+        backend = C.SEFLG_MOSEPH;
+      const position = swiss.swe_calc_ut(jd, id, backend | C.SEFLG_SIDEREAL);
+      const equatorial = swiss.swe_calc_ut(
+        jd,
+        id,
+        backend | C.SEFLG_EQUATORIAL,
+      );
+      const disc = swiss.swe_pheno_ut(jd, id, backend);
+      for (const result of [position, equatorial]) {
+        if (
+          result.returnCode < 0 ||
+          !(result.returnCode & backend) ||
+          !Number.isFinite(result.xx[1])
+        )
+          throw new RangeError(result.error || 'Strength position unavailable');
+      }
+      const elements = swiss.swe_get_orbital_elements(
+        jd + swiss.swe_deltat(jd),
+        body === 'sun' ? C.SE_EARTH : id,
+        backend,
+      );
+      if (elements.returnCode < 0 || !Number.isFinite(elements.elements[9]))
+        throw new RangeError(elements.error || 'Mean longitude unavailable');
+      const meanLongitude =
+        (elements.elements[9] -
+          lahiriAyanamsa(jd) +
+          (body === 'sun' ? 180 : 0) +
+          360) %
+        360;
+      return {
+        latitude: position.xx[1],
+        declination: equatorial.xx[1],
+        meanLongitude,
+        discArcminutes:
+          disc.returnCode >= 0 && disc.attr[3] > 0 ? disc.attr[3] * 60 : null,
+      };
+    },
+    solarGeometry(jd, latitude, longitude, elevationM) {
+      const angles = swiss.swe_houses_ex(
+        jd,
+        C.SEFLG_SIDEREAL,
+        latitude,
+        longitude,
+        'W'.charCodeAt(0),
+      );
+      const sun = swiss.swe_calc_ut(jd, C.SE_SUN, C.SEFLG_MOSEPH);
+      const equation = swiss.swe_time_equ(jd);
+      if (
+        angles.returnCode < 0 ||
+        sun.returnCode < 0 ||
+        equation.returnCode < 0
+      )
+        throw new RangeError('Solar geometry unavailable');
+      const altitude = swiss.swe_azalt(
+        jd,
+        0,
+        [longitude, latitude, elevationM],
+        1013.25,
+        15,
+        [sun.xx[0], sun.xx[1], sun.xx[2]],
+      )[1];
+      return {
+        mc: angles.ascmc[1],
+        altitude,
+        apparentHour: ((jd + 0.5 + longitude / 360 + equation.te) % 1) * 24,
+      };
+    },
     riseSet(
       jd,
       body,
@@ -76,15 +154,7 @@ export async function createSwissEphemeris(): Promise<EphemerisPort> {
       }
       return { longitude: xx[0], speed: xx[3], flag: 'SEFLG_MOSEPH' };
     },
-    lahiriAyanamsa(jd) {
-      const { returnCode, ayanamsa, error } = swiss.swe_get_ayanamsa_ex_ut(
-        jd,
-        C.SEFLG_MOSEPH,
-      );
-      if (returnCode < 0 || !Number.isFinite(ayanamsa))
-        throw new RangeError(error || 'Invalid ayanamsa');
-      return ayanamsa;
-    },
+    lahiriAyanamsa,
     ascendant(jd, latitude, longitude, frame) {
       const { returnCode, ascmc } = swiss.swe_houses_ex(
         jd,
