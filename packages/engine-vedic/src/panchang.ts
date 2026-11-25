@@ -7,11 +7,21 @@ import {
 } from '@bhava360/core';
 import type { Catalogue } from './catalogue';
 
+import { dayWindows, interval, type SolarDay } from './panchang-day';
+import {
+  lunarCalendar,
+  festivals,
+  sunriseTithis,
+  firstCrossing,
+  type CalendarProfile,
+} from './lunar-calendar';
+
 export interface PanchangInput {
   instantUtc: string;
   latitude: number;
   longitude: number;
   timeZone: string;
+  calendarProfile?: CalendarProfile;
   elevationM?: number;
   nodeType?: 'mean' | 'true';
   sunriseMethod?: SunriseMethod;
@@ -39,17 +49,12 @@ function limbInterval(
   function crossing(target: number, lo: number, hi: number) {
     if (unwrapped(lo) > target || unwrapped(hi) < target)
       throw new RangeError('Lunar crossing outside bracket');
-    while (true) {
-      const mid = (lo + hi) / 2;
-      if (mid === lo || mid === hi) return utcAtJulianDay(hi);
-      if (unwrapped(mid) >= target) hi = mid;
-      else lo = mid;
-    }
+    return firstCrossing(lo, hi, (time) => unwrapped(time) >= target);
   }
   return {
     index,
-    startUtc: crossing((index * widthSeconds) / 3600, at - 2, at),
-    endUtc: crossing(((index + 1) * widthSeconds) / 3600, at, at + 2),
+    start: crossing((index * widthSeconds) / 3600, at - 2, at),
+    end: crossing(((index + 1) * widthSeconds) / 3600, at, at + 2),
   };
 }
 
@@ -95,56 +100,114 @@ export function computePanchang(
   function onDay(
     day: ReturnType<typeof localDayBounds>,
     event: 'rise' | 'set',
+    body: 'sun' | 'moon' = 'sun',
   ) {
     const jd = port.riseSet(
       day.start,
-      'sun',
+      body,
       event,
       latitude,
       longitude,
       elevationM,
-      sunriseMethod,
+      body === 'moon' ? 'apparent-upper-limb' : sunriseMethod,
     );
     return jd !== null && jd >= day.start && jd < day.end ? jd : null;
   }
   const today = localDayBounds(instantUtc, timeZone);
-  const rise = onDay(today, 'rise'),
-    set = onDay(today, 'set');
-  let vara: number | null = null;
-  if (rise !== null) {
-    if (at >= rise) vara = today.weekday;
-    else {
-      const previous = localDayBounds(instantUtc, timeZone, -1);
-      if (onDay(previous, 'rise') !== null) vara = previous.weekday;
-    }
+  function solarDay(offset: number): SolarDay {
+    const bounds =
+      offset === 0 ? today : localDayBounds(instantUtc, timeZone, offset);
+    return {
+      weekday: bounds.weekday,
+      date: bounds.date,
+      sunrise: onDay(bounds, 'rise'),
+      sunset: onDay(bounds, 'set'),
+    };
+  }
+  const day = solarDay(0),
+    previous = solarDay(-1),
+    next = solarDay(1);
+  const { sunrise: rise, sunset: set } = day;
+  const vara =
+    rise === null
+      ? null
+      : at >= rise
+        ? day.weekday
+        : previous.sunrise === null
+          ? null
+          : previous.weekday;
+  const calendarProfile = input.calendarProfile ?? 'amanta';
+  if (calendarProfile !== 'amanta' && calendarProfile !== 'purnimanta')
+    throw new RangeError('Unknown calendar profile');
+  const resource = (file: string) =>
+    kb.resources['vedic/panchang/' + file + '.yaml'];
+  const sun = (t: number) => position(t, 'sun');
+  const calendar = lunarCalendar(
+    elongation,
+    sun,
+    resource('calendar-profiles').amanta_months_by_entered_sign,
+    calendarProfile,
+  );
+  const labels = (id: string): number[] =>
+    kb.rules['vedic.panchang.' + id].rule.conditions.all[0].value;
+  function moonEvent(event: 'rise' | 'set') {
+    const value = onDay(today, event, 'moon');
+    return value === null ? null : utcAtJulianDay(value);
   }
   return {
+    moonriseUtc: moonEvent('rise'),
+    moonsetUtc: moonEvent('set'),
+    masa: calendar.month(at),
+    sunriseTithis: sunriseTithis(rise, next.sunrise, elongation),
+    windows: dayWindows(
+      day,
+      previous.sunset,
+      next.sunrise,
+      resource('day-night'),
+      resource('limbs').day_eighths_sunday_first,
+      resource('limb-tables').vara,
+    ),
+    festivals: festivals(
+      day,
+      previous,
+      next,
+      sun,
+      calendar,
+      {
+        ekadashi: labels('ekadashi'),
+        purnima: labels('purnima'),
+        amavasya: labels('amavasya'),
+      },
+      (instant) => {
+        const limb = limbInterval(instant, elongation, kb.widths.tithi);
+        return { ...limb, number: limb.index + 1 };
+      },
+    ),
     sunriseUtc: rise === null ? null : utcAtJulianDay(rise),
     sunsetUtc: set === null ? null : utcAtJulianDay(set),
     vara,
     tithi: {
       ...kb.tables.tithi[t.index],
-      startUtc: t.startUtc,
-      endUtc: t.endUtc,
+      ...interval(t.start, t.end),
     },
     nakshatra: {
       ...kb.nakshatras[n.index],
-      startUtc: n.startUtc,
-      endUtc: n.endUtc,
+      ...interval(n.start, n.end),
     },
     yoga: {
       number: y.index + 1,
       name: kb.tables.yoga[y.index],
-      startUtc: y.startUtc,
-      endUtc: y.endUtc,
+      ...interval(y.start, y.end),
     },
     karana: {
-      ...k,
+      index: k.index,
+      ...interval(k.start, k.end),
       name:
         kb.tables.karana.fixed[k.index] ??
         kb.tables.karana.movable[(k.index - 1) % 7],
     },
     convention: {
+      calendarProfile,
       ayanamsaId: 'lahiri',
       siderealMode: 1,
       ephemerisFlag: flag,

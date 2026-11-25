@@ -103,6 +103,7 @@ export function localDayBounds(utc: string, zone: string, offsetDays = 0) {
   return {
     start: 2440587.5 + start.epochMilliseconds / dayMs,
     end: 2440587.5 + end.epochMilliseconds / dayMs,
+    date: start.toPlainDate().toString(),
     weekday: start.dayOfWeek % 7,
   };
 }
