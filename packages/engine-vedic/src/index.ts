@@ -56,9 +56,17 @@ export interface VedicFacts {
   };
 }
 
+import { computePanchang, type PanchangInput } from './panchang';
+import { computeVimshottari, type VimshottariInput } from './vimshottari';
+export type { PanchangInput, VimshottariInput };
 export function createVedicEngine(port: EphemerisPort) {
-  const { nakshatras, methods } = loadCatalogue();
+  const catalogue = loadCatalogue();
+  const { nakshatras, methods } = catalogue;
   return {
+    computePanchang: (input: PanchangInput) =>
+      computePanchang(port, catalogue, input),
+    computeVimshottari: (input: VimshottariInput) =>
+      computeVimshottari(port, catalogue, input),
     id: 'vedic',
     inputs: [
       'birthInstantUtc',
@@ -202,5 +210,10 @@ export function createVedicEngine(port: EphemerisPort) {
         },
       };
     },
-  } satisfies EngineModule<VedicInput, VedicFacts>;
+  } satisfies EngineModule<VedicInput, VedicFacts> & {
+    computePanchang(input: PanchangInput): ReturnType<typeof computePanchang>;
+    computeVimshottari(
+      input: VimshottariInput,
+    ): ReturnType<typeof computeVimshottari>;
+  };
 }
