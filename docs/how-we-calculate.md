@@ -46,6 +46,26 @@ The Swiss adapter calls `swe_rise_trans` with Moshier, 1013.25 hPa, 15 °C and t
 
 Tithi and karana divide lunar elongation, nakshatra divides the Moon’s longitude, and yoga divides the sum of the solar and lunar longitudes. Each uses apparent geocentric Lahiri positions. Bracketing and bisecting the actual unwrapped angle gives inclusive starts and exclusive ends. Widths, names, paksha and stellar lords come from the admin Vedic export. Tithi number is one-based and index0 is zero-based.
 
+### Local day, lunar month and observances
+
+Moonrise and moonset report the first apparent-upper-limb event inside the query location’s civil date. Either may be null independently. The location, IANA zone, elevation and solar sunrise method travel with the result. Unknown birth time has no bearing on a Panchang query.
+
+`sunriseTithis` compares the current civil date’s sunrise with the next local sunrise. Equal labels mark an adhika tithi. A forward jump over one or more labels marks kshaya and records the skipped labels, including across new moon. Either missing sunrise leaves the comparison null.
+
+`windows` describes the day beginning at the requested civil date’s sunrise, even for a query before dawn. Every slot includes its start and excludes its end. The sunrise weekday selects the daytime eighth for Rahu Kaal, Yamaganda and Gulika. Abhijit is the eighth of fifteen daylight slots. Brahma is the fourteenth of fifteen slots from the previous sunset to sunrise. Hora divides daylight and the following night into twelve slots each, continuing the planetary sequence at sunset. Choghadiya uses eight slots on each side of sunset and a separate starting label and cycle for each. Missing or unordered solar anchors leave the complete window set null. Durations use elapsed UTC time across daylight-saving transitions.
+
+`masa` describes the lunation containing the query instant. New moon opens the interval and the following new moon closes it. One sidereal solar sign ingress names an ordinary month. Zero ingresses mark adhika and use the next ingress name. Two ingresses mark kshaya and retain both names for review, with a null display name. The convention records `calendarProfile`, defaulting to `amanta`. Under `purnimanta` the dark fortnight takes the next bright fortnight’s name. The lunation boundaries, ingress evidence and intercalary status still describe the underlying new-moon interval.
+
+| Festival | Local dating rule |
+|---|---|
+| Ugadi | First Chaitra, including adhika. Use the earlier sunrise in Pratipada if two qualify, or the immediately preceding sunrise if Pratipada falls between them. |
+| Deepavali (Lakshmi Puja) | Ordinary Ashvina Amavasya (Kartika Krishna under purnimanta). The tithi must overlap the first fifth of the night for a positive duration. Two qualifying evenings select the later date. |
+| Sankranti | Assign the ingress instant to the sunrise-to-sunrise interval containing it. |
+| Ekadashi, Purnima, Amavasya | Match the exported tithi numbers at sunrise. |
+| Pradosh | Intersect either fortnight’s Trayodashi with the first fifth of the night. |
+
+Festival results carry the local date and the qualifying UTC interval or ingress instant. An unresolved month or unqualified window yields no dated observance for that rule. The catalogue, timing evidence and partitions are internal engine data. The offline reference uses pyswisseph Moshier, relative-speed refinement of lunar crossings, Swiss solar crossing times and independent partition and festival calculations. Regenerate with `python tests/golden/generate_panchang_extras.py` in the development venv.
+
 ## Vimshottari
 
 `computeVimshottari` returns the birth balance and one full nine-Maha cycle from the actual start of the birth Maha. The Moon’s arc through its 48,000-arcsecond star determines the elapsed fraction of the first lord’s years. Each parent begins with its own lord, then follows the exported sequence. Children receive their lord’s years divided by 120 of the full parent span. Antar and Pratyantar are included; request Sookshma explicitly. A display can clip these half-open intervals after calculation.
