@@ -1,0 +1,2769 @@
+{
+  "source": "pyswisseph 2.10.3.2 / Moshier / Lahiri / mean node",
+  "rows": [
+    {
+      "label": "Asha",
+      "timePrecision": "known",
+      "birthInstantUtc": "1992-03-12T00:10:00Z",
+      "latitude": 12.97,
+      "longitude": 77.59,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2448693.5069444445,
+      "yogini": {
+        "star": 5,
+        "elapsed": 1.9796035574068762,
+        "balance": 6.020396442593124,
+        "majors": [
+          [
+            "Sankata",
+            -1.9796035574068762,
+            6.020396442593124
+          ],
+          [
+            "Mangala",
+            6.020396442593124,
+            7.020396442593124
+          ],
+          [
+            "Pingala",
+            7.020396442593124,
+            9.020396442593125
+          ],
+          [
+            "Dhanya",
+            9.020396442593125,
+            12.020396442593125
+          ],
+          [
+            "Bhramari",
+            12.020396442593125,
+            16.020396442593125
+          ],
+          [
+            "Bhadrika",
+            16.020396442593125,
+            21.020396442593125
+          ],
+          [
+            "Ulka",
+            21.020396442593125,
+            27.020396442593125
+          ],
+          [
+            "Siddha",
+            27.020396442593125,
+            34.020396442593125
+          ]
+        ]
+      },
+      "seed": "aquarius",
+      "chara": [
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 0,
+          "end": 1,
+          "cycle": 1,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 1,
+          "end": 8,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 8,
+          "end": 18,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 18,
+          "end": 27,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 27,
+          "end": 35,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 35,
+          "end": 38,
+          "cycle": 1,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 38,
+          "end": 44,
+          "cycle": 1,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 44,
+          "end": 49,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 49,
+          "end": 53,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 53,
+          "end": 56,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 56,
+          "end": 64,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 64,
+          "end": 76,
+          "cycle": 1,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 76,
+          "end": 87,
+          "cycle": 2,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 87,
+          "end": 92,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 92,
+          "end": 94,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 94,
+          "end": 97,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 97,
+          "end": 101,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 101,
+          "end": 110,
+          "cycle": 2,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 110,
+          "end": 116,
+          "cycle": 2,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 116,
+          "end": 123,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 123,
+          "end": 131,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 131,
+          "end": 140,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 140,
+          "end": 144,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ravi",
+      "timePrecision": "known",
+      "birthInstantUtc": "1985-08-03T08:40:00Z",
+      "latitude": 12.3,
+      "longitude": 76.64,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2446280.861111111,
+      "yogini": {
+        "star": 24,
+        "elapsed": 2.347261714153676,
+        "balance": 0.6527382858463242,
+        "majors": [
+          [
+            "Dhanya",
+            -2.347261714153676,
+            0.6527382858463242
+          ],
+          [
+            "Bhramari",
+            0.6527382858463242,
+            4.652738285846324
+          ],
+          [
+            "Bhadrika",
+            4.652738285846324,
+            9.652738285846324
+          ],
+          [
+            "Ulka",
+            9.652738285846324,
+            15.652738285846324
+          ],
+          [
+            "Siddha",
+            15.652738285846324,
+            22.652738285846326
+          ],
+          [
+            "Sankata",
+            22.652738285846326,
+            30.652738285846326
+          ],
+          [
+            "Mangala",
+            30.652738285846326,
+            31.652738285846326
+          ],
+          [
+            "Pingala",
+            31.652738285846326,
+            33.652738285846326
+          ]
+        ]
+      },
+      "seed": "scorpio",
+      "chara": [
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 0,
+          "end": 7,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 7,
+          "end": 15,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 15,
+          "end": 17,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 17,
+          "end": 18,
+          "cycle": 1,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 18,
+          "end": 23,
+          "cycle": 1,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 23,
+          "end": 24,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 24,
+          "end": 25,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 25,
+          "end": 27,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 27,
+          "end": 28,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 28,
+          "end": 33,
+          "cycle": 1,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 33,
+          "end": 37,
+          "cycle": 1,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 37,
+          "end": 42,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 42,
+          "end": 46,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 46,
+          "end": 56,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 56,
+          "end": 67,
+          "cycle": 2,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 67,
+          "end": 74,
+          "cycle": 2,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 74,
+          "end": 85,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 85,
+          "end": 96,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 96,
+          "end": 106,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 106,
+          "end": 117,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 117,
+          "end": 124,
+          "cycle": 2,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 124,
+          "end": 132,
+          "cycle": 2,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 132,
+          "end": 144,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Meera",
+      "timePrecision": "known",
+      "birthInstantUtc": "2001-12-21T17:00:00Z",
+      "latitude": 28.61,
+      "longitude": 77.21,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2452265.2083333335,
+      "yogini": {
+        "star": 25,
+        "elapsed": 1.0111519673833584,
+        "balance": 2.988848032616642,
+        "majors": [
+          [
+            "Bhramari",
+            -1.0111519673833584,
+            2.988848032616642
+          ],
+          [
+            "Bhadrika",
+            2.988848032616642,
+            7.988848032616642
+          ],
+          [
+            "Ulka",
+            7.988848032616642,
+            13.988848032616641
+          ],
+          [
+            "Siddha",
+            13.988848032616641,
+            20.98884803261664
+          ],
+          [
+            "Sankata",
+            20.98884803261664,
+            28.98884803261664
+          ],
+          [
+            "Mangala",
+            28.98884803261664,
+            29.98884803261664
+          ],
+          [
+            "Pingala",
+            29.98884803261664,
+            31.98884803261664
+          ],
+          [
+            "Dhanya",
+            31.98884803261664,
+            34.988848032616644
+          ]
+        ]
+      },
+      "seed": "leo",
+      "chara": [
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 0,
+          "end": 8,
+          "cycle": 1,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 8,
+          "end": 17,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 17,
+          "end": 19,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "ketu",
+          "start": 19,
+          "end": 20,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 20,
+          "end": 26,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 26,
+          "end": 34,
+          "cycle": 1,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "rahu",
+          "start": 34,
+          "end": 42,
+          "cycle": 1,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 42,
+          "end": 51,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 51,
+          "end": 61,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 61,
+          "end": 68,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 68,
+          "end": 74,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 74,
+          "end": 79,
+          "cycle": 1,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 79,
+          "end": 83,
+          "cycle": 2,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 83,
+          "end": 86,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 86,
+          "end": 96,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "ketu",
+          "start": 96,
+          "end": 107,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 107,
+          "end": 113,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 113,
+          "end": 117,
+          "cycle": 2,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "rahu",
+          "start": 117,
+          "end": 121,
+          "cycle": 2,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 121,
+          "end": 124,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 124,
+          "end": 126,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 126,
+          "end": 131,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 131,
+          "end": 137,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 137,
+          "end": 144,
+          "cycle": 2,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Kabir",
+      "timePrecision": "known",
+      "birthInstantUtc": "1978-06-09T01:45:00Z",
+      "latitude": 19.08,
+      "longitude": 72.88,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2443668.5729166665,
+      "yogini": {
+        "star": 7,
+        "elapsed": 1.551215666127287,
+        "balance": 0.4487843338727131,
+        "majors": [
+          [
+            "Pingala",
+            -1.551215666127287,
+            0.4487843338727131
+          ],
+          [
+            "Dhanya",
+            0.4487843338727131,
+            3.4487843338727133
+          ],
+          [
+            "Bhramari",
+            3.4487843338727133,
+            7.448784333872713
+          ],
+          [
+            "Bhadrika",
+            7.448784333872713,
+            12.448784333872712
+          ],
+          [
+            "Ulka",
+            12.448784333872712,
+            18.448784333872712
+          ],
+          [
+            "Siddha",
+            18.448784333872712,
+            25.448784333872712
+          ],
+          [
+            "Sankata",
+            25.448784333872712,
+            33.44878433387271
+          ],
+          [
+            "Mangala",
+            33.44878433387271,
+            34.44878433387271
+          ]
+        ]
+      },
+      "seed": "gemini",
+      "chara": [
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 0,
+          "end": 11,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 11,
+          "end": 12,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 12,
+          "end": 16,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 16,
+          "end": 25,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 25,
+          "end": 31,
+          "cycle": 1,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 31,
+          "end": 36,
+          "cycle": 1,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 36,
+          "end": 42,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 42,
+          "end": 51,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 51,
+          "end": 59,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 59,
+          "end": 63,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 63,
+          "end": 66,
+          "cycle": 1,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 66,
+          "end": 78,
+          "cycle": 1,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 78,
+          "end": 79,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 79,
+          "end": 90,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 90,
+          "end": 98,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 98,
+          "end": 101,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "saturn",
+          "start": 101,
+          "end": 107,
+          "cycle": 2,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 107,
+          "end": 114,
+          "cycle": 2,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 114,
+          "end": 120,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "mars",
+          "start": 120,
+          "end": 123,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 123,
+          "end": 127,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 127,
+          "end": 135,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 135,
+          "end": 144,
+          "cycle": 2,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Dev",
+      "timePrecision": "known",
+      "birthInstantUtc": "1995-01-05T06:30:00Z",
+      "latitude": 13.08,
+      "longitude": 80.27,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2449722.7708333335,
+      "yogini": {
+        "star": 24,
+        "elapsed": 0.9962015651534313,
+        "balance": 2.0037984348465687,
+        "majors": [
+          [
+            "Dhanya",
+            -0.9962015651534313,
+            2.0037984348465687
+          ],
+          [
+            "Bhramari",
+            2.0037984348465687,
+            6.003798434846569
+          ],
+          [
+            "Bhadrika",
+            6.003798434846569,
+            11.00379843484657
+          ],
+          [
+            "Ulka",
+            11.00379843484657,
+            17.00379843484657
+          ],
+          [
+            "Siddha",
+            17.00379843484657,
+            24.00379843484657
+          ],
+          [
+            "Sankata",
+            24.00379843484657,
+            32.00379843484657
+          ],
+          [
+            "Mangala",
+            32.00379843484657,
+            33.00379843484657
+          ],
+          [
+            "Pingala",
+            33.00379843484657,
+            35.00379843484657
+          ]
+        ]
+      },
+      "seed": "pisces",
+      "chara": [
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 0,
+          "end": 4,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 4,
+          "end": 8,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 8,
+          "end": 14,
+          "cycle": 1,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 14,
+          "end": 21,
+          "cycle": 1,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 21,
+          "end": 26,
+          "cycle": 1,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 26,
+          "end": 34,
+          "cycle": 1,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 34,
+          "end": 42,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 42,
+          "end": 43,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "ketu",
+          "start": 43,
+          "end": 48,
+          "cycle": 1,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 48,
+          "end": 59,
+          "cycle": 1,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 59,
+          "end": 70,
+          "cycle": 1,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "rahu",
+          "start": 70,
+          "end": 74,
+          "cycle": 1,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        },
+        {
+          "sign": "pisces",
+          "lord": "jupiter",
+          "start": 74,
+          "end": 82,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces"
+          ]
+        },
+        {
+          "sign": "aries",
+          "lord": "mars",
+          "start": 82,
+          "end": 90,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries"
+          ]
+        },
+        {
+          "sign": "taurus",
+          "lord": "venus",
+          "start": 90,
+          "end": 96,
+          "cycle": 2,
+          "children": [
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus"
+          ]
+        },
+        {
+          "sign": "gemini",
+          "lord": "mercury",
+          "start": 96,
+          "end": 101,
+          "cycle": 2,
+          "children": [
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini"
+          ]
+        },
+        {
+          "sign": "cancer",
+          "lord": "moon",
+          "start": 101,
+          "end": 108,
+          "cycle": 2,
+          "children": [
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer"
+          ]
+        },
+        {
+          "sign": "leo",
+          "lord": "sun",
+          "start": 108,
+          "end": 112,
+          "cycle": 2,
+          "children": [
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo"
+          ]
+        },
+        {
+          "sign": "virgo",
+          "lord": "mercury",
+          "start": 112,
+          "end": 116,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo"
+          ]
+        },
+        {
+          "sign": "libra",
+          "lord": "venus",
+          "start": 116,
+          "end": 127,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius",
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra"
+          ]
+        },
+        {
+          "sign": "scorpio",
+          "lord": "ketu",
+          "start": 127,
+          "end": 134,
+          "cycle": 2,
+          "children": [
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius",
+            "scorpio"
+          ]
+        },
+        {
+          "sign": "sagittarius",
+          "lord": "jupiter",
+          "start": 134,
+          "end": 135,
+          "cycle": 2,
+          "children": [
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn",
+            "sagittarius"
+          ]
+        },
+        {
+          "sign": "capricorn",
+          "lord": "saturn",
+          "start": 135,
+          "end": 136,
+          "cycle": 2,
+          "children": [
+            "sagittarius",
+            "scorpio",
+            "libra",
+            "virgo",
+            "leo",
+            "cancer",
+            "gemini",
+            "taurus",
+            "aries",
+            "pisces",
+            "aquarius",
+            "capricorn"
+          ]
+        },
+        {
+          "sign": "aquarius",
+          "lord": "rahu",
+          "start": 136,
+          "end": 144,
+          "cycle": 2,
+          "children": [
+            "pisces",
+            "aries",
+            "taurus",
+            "gemini",
+            "cancer",
+            "leo",
+            "virgo",
+            "libra",
+            "scorpio",
+            "sagittarius",
+            "capricorn",
+            "aquarius"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Dev unknown",
+      "timePrecision": "unknown",
+      "birthInstantUtc": "1995-01-05T06:30:00Z",
+      "latitude": 13.08,
+      "longitude": 80.27,
+      "timeZone": "Asia/Kolkata",
+      "jd": 2449722.7708333335,
+      "yogini": null,
+      "seed": null,
+      "chara": null
+    }
+  ]
+}

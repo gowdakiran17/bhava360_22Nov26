@@ -59,7 +59,15 @@ export interface VedicFacts {
 import { computePanchang, type PanchangInput } from './panchang';
 import { computeVimshottari, type VimshottariInput } from './vimshottari';
 import { computeStrength, type StrengthInput } from './strength';
-export type { PanchangInput, VimshottariInput, StrengthInput };
+import { computeChara, type CharaInput } from './chara';
+import { computeYogini, type YoginiInput } from './yogini';
+export type {
+  CharaInput,
+  YoginiInput,
+  PanchangInput,
+  VimshottariInput,
+  StrengthInput,
+};
 export function createVedicEngine(port: EphemerisPort) {
   const catalogue = loadCatalogue();
   const { nakshatras, methods } = catalogue;
@@ -72,6 +80,9 @@ export function createVedicEngine(port: EphemerisPort) {
         input,
       );
     },
+    computeYogini: (input: YoginiInput) =>
+      computeYogini(port, catalogue, input),
+    computeChara: (input: CharaInput) => computeChara(port, catalogue, input),
     computePanchang: (input: PanchangInput) =>
       computePanchang(port, catalogue, input),
     computeVimshottari: (input: VimshottariInput) =>
@@ -221,6 +232,8 @@ export function createVedicEngine(port: EphemerisPort) {
     },
   } satisfies EngineModule<VedicInput, VedicFacts> & {
     computeStrength(input: StrengthInput): ReturnType<typeof computeStrength>;
+    computeYogini(input: YoginiInput): ReturnType<typeof computeYogini>;
+    computeChara(input: CharaInput): ReturnType<typeof computeChara>;
     computePanchang(input: PanchangInput): ReturnType<typeof computePanchang>;
     computeVimshottari(
       input: VimshottariInput,
