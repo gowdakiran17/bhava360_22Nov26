@@ -127,6 +127,12 @@ it('assigns whole degrees and both sides of every exported cell boundary', () =>
 it('suppresses a placement that returns across the same edge between samples', () => {
   const f = births.fixtures[0];
   const stationary = createVedicEngine({
+    strengthPosition() {
+      throw new Error('Unexpected strength request');
+    },
+    solarGeometry() {
+      throw new Error('Unexpected geometry request');
+    },
     riseSet: () => null,
     ascendant: () => 10,
     lahiriAyanamsa: () => 24,

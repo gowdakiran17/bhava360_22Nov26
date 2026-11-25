@@ -89,6 +89,8 @@ export function loadCatalogue() {
     });
   const limbs = data.resources['vedic/panchang/limbs.yaml'];
   return {
+    resources: data.resources,
+    rules: data.rules,
     tables: data.resources[limbs.tables] as LimbTables,
     widths: limbs.width_arcseconds as Record<
       'tithi' | 'karana' | 'yoga' | 'nakshatra',

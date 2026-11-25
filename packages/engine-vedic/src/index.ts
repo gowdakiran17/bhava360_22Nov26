@@ -58,11 +58,20 @@ export interface VedicFacts {
 
 import { computePanchang, type PanchangInput } from './panchang';
 import { computeVimshottari, type VimshottariInput } from './vimshottari';
-export type { PanchangInput, VimshottariInput };
+import { computeStrength, type StrengthInput } from './strength';
+export type { PanchangInput, VimshottariInput, StrengthInput };
 export function createVedicEngine(port: EphemerisPort) {
   const catalogue = loadCatalogue();
   const { nakshatras, methods } = catalogue;
-  return {
+  const engine = {
+    computeStrength(input: StrengthInput): ReturnType<typeof computeStrength> {
+      return computeStrength(
+        port,
+        catalogue,
+        engine.computeFacts(input),
+        input,
+      );
+    },
     computePanchang: (input: PanchangInput) =>
       computePanchang(port, catalogue, input),
     computeVimshottari: (input: VimshottariInput) =>
@@ -211,9 +220,11 @@ export function createVedicEngine(port: EphemerisPort) {
       };
     },
   } satisfies EngineModule<VedicInput, VedicFacts> & {
+    computeStrength(input: StrengthInput): ReturnType<typeof computeStrength>;
     computePanchang(input: PanchangInput): ReturnType<typeof computePanchang>;
     computeVimshottari(
       input: VimshottariInput,
     ): ReturnType<typeof computeVimshottari>;
   };
+  return engine;
 }

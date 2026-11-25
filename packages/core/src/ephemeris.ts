@@ -16,7 +16,27 @@ export type EphemerisFlag = 'SEFLG_MOSEPH' | 'SEFLG_SWIEPH';
 export type Precision = 'known' | 'approximate' | 'unknown';
 
 export type SunriseMethod = 'apparent-upper-limb' | 'traditional-disc-centre';
+export type ClassicalPlanet = Exclude<Orbit, 'meanNode' | 'trueNode'>;
 export interface EphemerisPort {
+  strengthPosition(
+    jdUt: number,
+    body: ClassicalPlanet,
+  ): {
+    latitude: number;
+    declination: number;
+    meanLongitude: number;
+    discArcminutes: number | null;
+  };
+  solarGeometry(
+    jdUt: number,
+    latitude: number,
+    longitude: number,
+    elevationM: number,
+  ): {
+    mc: number;
+    apparentHour: number;
+    altitude: number;
+  };
   /** Next topocentric event in UT Julian days, or null on circumpolar no-event. */
   riseSet(
     jdUt: number,
