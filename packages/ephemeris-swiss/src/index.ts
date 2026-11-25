@@ -23,6 +23,39 @@ export async function createSwissEphemeris(): Promise<EphemerisPort> {
   const swiss = await load(await readFile(wasm));
   swiss.swe_set_sid_mode(C.SE_SIDM_LAHIRI, 0, 0);
   return {
+    riseSet(
+      jd,
+      body,
+      event,
+      latitude,
+      longitude,
+      elevationM = 0,
+      method = 'apparent-upper-limb',
+    ) {
+      const traditional =
+        body === 'sun' &&
+        event === 'rise' &&
+        method === 'traditional-disc-centre';
+      const rsmi =
+        event === 'set'
+          ? C.SE_CALC_SET
+          : C.SE_CALC_RISE |
+            (traditional ? C.SE_BIT_DISC_CENTER | C.SE_BIT_NO_REFRACTION : 0);
+      const result = swiss.swe_rise_trans(
+        jd,
+        orbitId[body],
+        null,
+        C.SEFLG_MOSEPH,
+        rsmi,
+        [longitude, latitude, elevationM],
+        1013.25,
+        15,
+      );
+      if (result.returnCode === -2) return null;
+      if (result.returnCode < 0 || !Number.isFinite(result.tret))
+        throw new RangeError(result.error || 'Rise/set computation failed');
+      return result.tret;
+    },
     longitude(jd, orbit, frame) {
       const requested = C.SEFLG_MOSEPH | C.SEFLG_SPEED | frameFlag(frame);
       const { returnCode, xx, error } = swiss.swe_calc_ut(

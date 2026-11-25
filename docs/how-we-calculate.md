@@ -37,3 +37,19 @@ Each chart records its method ID, Lahiri frame, whole-sign house system, actual 
 The engine recalculates positions over five minutes on either side of the working instant, including both endpoints and the centre. It samples every thirty seconds, checks the intervening zodiac cells and refines graha speed reversals to a millisecond interval. A changed divisional sign keeps its central `sign` for inspection, sets `unstable` and clears `interpretationSign`. A whole-sign house requires both an eligible body sign and an eligible divisional Lagna. For unknown time, noon supplies working graha signs, all interpretation fields and houses are null, and the divisional Lagna is null. The five-minute check measures local sensitivity only. These records are internal engine facts.
 
 The independent generator uses fresh pyswisseph Moshier positions and separately coded seed arithmetic. It samples every five seconds for stability and records the Swiss versions and exported method IDs. Run the generator from the development venv and run the golden tests to print a row for every available chart and body. [Reference generator](../tests/golden/generate_vargas.py) · [Golden tests](../tests/golden/vargas.test.ts)
+
+## Panchang
+
+The server-side Vedic engine exposes `computePanchang` for a UTC instant, an IANA zone and a geographic observer. Sunrise and sunset belong to the observer’s civil date. Vara is Sunday-zero and changes at sunrise. Before sunrise it uses the preceding local sunrise. When the required sunrise is unavailable, vara is null. A polar no-event leaves the corresponding event null; lunar limbs remain available. Calendar boundaries follow the zone’s actual offset transitions.
+
+The Swiss adapter calls `swe_rise_trans` with Moshier, 1013.25 hPa, 15 °C and the supplied elevation (default zero metres). The default uses the apparent upper limb. The traditional option changes sunrise only to the disc centre without refraction (769). Both retain the calculated UTC instant.
+
+Tithi and karana divide lunar elongation, nakshatra divides the Moon’s longitude, and yoga divides the sum of the solar and lunar longitudes. Each uses apparent geocentric Lahiri positions. Bracketing and bisecting the actual unwrapped angle gives inclusive starts and exclusive ends. Widths, names, paksha and stellar lords come from the admin Vedic export. Tithi number is one-based and index0 is zero-based.
+
+## Vimshottari
+
+`computeVimshottari` returns the birth balance and one full nine-Maha cycle from the actual start of the birth Maha. The Moon’s arc through its 48,000-arcsecond star determines the elapsed fraction of the first lord’s years. Each parent begins with its own lord, then follows the exported sequence. Children receive their lord’s years divided by 120 of the full parent span. Antar and Pratyantar are included; request Sookshma explicitly. A display can clip these half-open intervals after calculation.
+
+The convention identifies one UTC clock for every level: Julian 365.25 days by default, Savana 360 or mean Gregorian 365.2425. Each day is 86,400 elapsed seconds. Known or exact time uses the two-minute confidence assessment. The coarse approximate input uses fifteen minutes; callers can specify ±5 min, ±15 min or ±1 h directly. Unknown time uses local noon as the working instant and assesses the entire civil date. If the Moon crosses a nakshatra boundary in the interval, the balance and timeline are null. The angular, timing and convention records are internal facts.
+
+The offline reference generator is `tests/golden/generate_panchang_dasha.py`. It computes Moshier reference events, angular intervals and the four active birth periods with PySwissEph. The golden suite compares UTC instants directly, including pre-sunrise and polar dates, both sides of a repeated civil hour and the traditional sunrise variant.
